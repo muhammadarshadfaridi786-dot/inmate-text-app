@@ -10,7 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { GUIDE_CATEGORIES } from "@/lib/data/guides"
+import { GUIDE_CATEGORIES } from "@/lib/data/guide-categories"
 import type { GuideBasic, GuideCategory } from "@/types"
 import GuideCard from "@/components/guides/GuideCard"
 

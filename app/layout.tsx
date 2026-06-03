@@ -8,9 +8,9 @@ import Footer from "@/components/layout/Footer"
 import JsonLd from "@/components/seo/JsonLd"
 import { buildOrganizationSchema } from "@/lib/schema"
 import { defaultMetadata } from "@/lib/seo"
-import EmailCapturePopup from "@/components/auth/EmailCapturePopup"
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics"
 import MicrosoftClarity from "@/components/analytics/MicrosoftClarity"
+import LazyEmailCapturePopup from "@/components/auth/LazyEmailCapturePopup"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +41,7 @@ export default function RootLayout({
               {children}
             </main>
             <Footer />
-            <EmailCapturePopup />
+            <LazyEmailCapturePopup />
           </AuthProvider>
         </ThemeProvider>
         <JsonLd schema={buildOrganizationSchema()} />

@@ -78,6 +78,9 @@ const SECURITY_HEADERS = [
 ]
 
 const nextConfig: NextConfig = {
+  experimental: {
+    optimizePackageImports: ["lucide-react", "@base-ui/react"],
+  },
   async headers() {
     return [
       // Security headers on every response

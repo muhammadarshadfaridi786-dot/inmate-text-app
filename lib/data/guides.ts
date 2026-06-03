@@ -1875,12 +1875,6 @@ export const ALL_GUIDES: GuideBasic[] = Object.values(GUIDE_DETAILS)
     return a.title.localeCompare(b.title)
   })
 
-export const GUIDE_CATEGORIES: GuideCategory[] = [
-  "Getting Started",
-  "How It Works",
-  "Provider Guides",
-  "Facility Types",
-  "Communication Tips",
-  "Money and Accounts",
-  "Visitation",
-]
+// Re-exported from the small file so server imports stay stable.
+// Client components must import from lib/data/guide-categories directly.
+export { GUIDE_CATEGORIES } from "./guide-categories"

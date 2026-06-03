@@ -83,10 +83,13 @@ export default function MobileNav({ navLinks }: MobileNavProps) {
         <Menu className="h-5 w-5" aria-hidden="true" />
       </button>
 
-      {/* Backdrop */}
-      {open && (
+      {/* Backdrop — tied to drawerMounted so it persists through the close animation */}
+      {drawerMounted && (
         <div
-          className="fixed inset-0 z-50 bg-black/10 backdrop-blur-[2px] transition-opacity duration-150"
+          className={[
+            "fixed inset-0 z-40 bg-black/40 transition-opacity duration-200",
+            drawerOpen ? "opacity-100" : "opacity-0 pointer-events-none",
+          ].join(" ")}
           aria-hidden="true"
           onClick={() => setOpen(false)}
         />

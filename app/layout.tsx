@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import ThemeProvider from "@/components/providers/ThemeProvider"
+import { AuthProvider } from "@/components/providers/AuthProvider"
 import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
 import JsonLd from "@/components/seo/JsonLd"
@@ -34,12 +35,14 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col">
         <ThemeProvider>
-          <Header />
-          <main className="flex-1" id="main-content">
-            {children}
-          </main>
-          <Footer />
-          <EmailCapturePopup />
+          <AuthProvider>
+            <Header />
+            <main className="flex-1" id="main-content">
+              {children}
+            </main>
+            <Footer />
+            <EmailCapturePopup />
+          </AuthProvider>
         </ThemeProvider>
         <JsonLd schema={buildOrganizationSchema()} />
         <GoogleAnalytics />

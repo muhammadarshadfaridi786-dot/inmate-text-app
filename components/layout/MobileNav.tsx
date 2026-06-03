@@ -1,9 +1,12 @@
 "use client"
 
 import Link from "next/link"
-import { LogIn, Menu, UserPlus } from "lucide-react"
+import { Bookmark, LogIn, LogOut, Menu, User, UserPlus } from "lucide-react"
+import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { LogoIcon } from "./Logo"
+import { useAuth } from "@/components/providers/AuthProvider"
+import { createClient } from "@/lib/supabase/client"
 import {
   Sheet,
   SheetContent,
@@ -22,6 +25,16 @@ interface MobileNavProps {
 }
 
 export default function MobileNav({ navLinks }: MobileNavProps) {
+  const { user, loading } = useAuth()
+  const router = useRouter()
+
+  async function handleSignOut() {
+    const supabase = createClient()
+    await supabase.auth.signOut()
+    router.push("/")
+    router.refresh()
+  }
+
   return (
     <Sheet>
       <SheetTrigger
@@ -55,23 +68,53 @@ export default function MobileNav({ navLinks }: MobileNavProps) {
           ))}
         </nav>
 
-        {/* Auth actions */}
-        <div className="mt-6 border-t pt-5 flex flex-col gap-2">
-          <Link
-            href="/sign-in"
-            className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-          >
-            <LogIn className="h-4 w-4 shrink-0" aria-hidden="true" />
-            Sign In
-          </Link>
-          <Link
-            href="/sign-up"
-            className="flex items-center justify-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium bg-primary text-primary-foreground transition-colors hover:bg-primary/85"
-          >
-            <UserPlus className="h-4 w-4 shrink-0" aria-hidden="true" />
-            Create Free Account
-          </Link>
-        </div>
+        {/* Auth actions — hidden during initial load to prevent flash */}
+        {!loading && (
+          <div className="mt-6 border-t pt-5 flex flex-col gap-2">
+            {user ? (
+              <>
+                <Link
+                  href="/account"
+                  className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-accent"
+                >
+                  <User className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  My Account
+                </Link>
+                <Link
+                  href="/account/saved"
+                  className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  <Bookmark className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  Saved Facilities
+                </Link>
+                <button
+                  onClick={handleSignOut}
+                  className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  <LogOut className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  Sign Out
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href="/sign-in"
+                  className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  <LogIn className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  Sign In
+                </Link>
+                <Link
+                  href="/sign-up"
+                  className="flex items-center justify-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium bg-primary text-primary-foreground transition-colors hover:bg-primary/85"
+                >
+                  <UserPlus className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  Create Free Account
+                </Link>
+              </>
+            )}
+          </div>
+        )}
       </SheetContent>
     </Sheet>
   )

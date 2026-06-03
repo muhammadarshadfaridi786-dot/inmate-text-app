@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { createPortal } from "react-dom"
 import Link from "next/link"
 import { Bookmark, LogIn, LogOut, Menu, User, UserPlus, X } from "lucide-react"
 import { useRouter } from "next/navigation"
@@ -83,32 +84,33 @@ export default function MobileNav({ navLinks }: MobileNavProps) {
         <Menu className="h-5 w-5" aria-hidden="true" />
       </button>
 
-      {/* Backdrop — tied to drawerMounted so it persists through the close animation */}
-      {drawerMounted && (
-        <div
-          className={[
-            "fixed inset-0 z-40 bg-black/40 transition-opacity duration-200",
-            drawerOpen ? "opacity-100" : "opacity-0 pointer-events-none",
-          ].join(" ")}
-          aria-hidden="true"
-          onClick={() => setOpen(false)}
-        />
-      )}
+      {/* Backdrop and drawer — portaled to document.body so they are positioned
+          relative to the viewport, not the header's transform stacking context */}
+      {drawerMounted && createPortal(
+        <>
+          {/* Backdrop */}
+          <div
+            className={[
+              "fixed inset-0 z-50 bg-black/40 transition-opacity duration-200",
+              drawerOpen ? "opacity-100" : "opacity-0 pointer-events-none",
+            ].join(" ")}
+            aria-hidden="true"
+            onClick={() => setOpen(false)}
+          />
 
-      {/* Drawer panel — only in the DOM while open or animating closed */}
-      {drawerMounted && (
-        <div
-          id="mobile-nav-drawer"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Navigation menu"
-          className={[
-            "fixed inset-y-0 right-0 z-50 flex w-72 flex-col",
-            "bg-popover text-popover-foreground shadow-lg",
-            "transition-transform duration-200 ease-in-out",
-            drawerOpen ? "translate-x-0" : "translate-x-full",
-          ].join(" ")}
-        >
+          {/* Drawer panel */}
+          <div
+            id="mobile-nav-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Navigation menu"
+            className={[
+              "fixed inset-y-0 right-0 z-50 flex w-72 flex-col",
+              "bg-popover text-popover-foreground shadow-lg",
+              "transition-transform duration-200 ease-in-out",
+              drawerOpen ? "translate-x-0" : "translate-x-full",
+            ].join(" ")}
+          >
           {/* Drawer header */}
           <div className="flex items-center justify-between p-4">
             <span className="flex items-center gap-2.5 text-base font-medium tracking-tight text-foreground">
@@ -189,7 +191,9 @@ export default function MobileNav({ navLinks }: MobileNavProps) {
               )}
             </div>
           )}
-        </div>
+          </div>
+        </>,
+        document.body
       )}
     </>
   )

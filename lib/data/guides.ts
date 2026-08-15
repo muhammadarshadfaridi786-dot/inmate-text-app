@@ -502,7 +502,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "inmate-communication-guide": {
     id: "guide-06",
     slug: "inmate-communication-guide",
-    title: "Complete Inmate Communication Guide",
+    title: "Complete Inmate Communication Guide: Every Option Explained",
     excerpt: "A full overview of every way to communicate with an incarcerated loved one, including messaging, phone calls, video visits, photos, and mail.",
     category: "Getting Started",
     difficulty: "Beginner",
@@ -512,70 +512,97 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Complete Inmate Communication Guide: All Options Explained",
-    seoDescription: "A complete guide to communicating with an incarcerated loved one. Covers messaging, phone calls, video visits, photo sharing, mail, and money transfers.",
+    seoTitle: "Complete Inmate Communication Guide: Messaging, Calls, Video and Mail",
+    seoDescription: "Complete guide to communicating with an incarcerated loved one - how digital messaging works, how to receive phone calls, how to schedule video visits, how to send photos, and how to send money. Free, no account needed.",
 
     intro: [
-      "Staying in contact with an incarcerated loved one involves navigating a system that is different from normal communication. There is no single app or phone number that works across all facilities. Each prison or jail decides which provider to use for each type of communication.",
-      "This guide covers every communication option available and explains how to get started with each one.",
+      "Staying connected with an incarcerated loved one means learning a system that works very differently from normal communication. There is no single app or phone number that works at every facility. Each prison, jail, or detention center contracts with specific providers for each type of communication, and you must use whichever provider that facility has chosen.",
+      "This guide covers every communication option available to families - digital messaging, phone calls, video visitation, photo sharing, physical mail, and money transfers. Each section explains how the option works, what it costs, and how to get started.",
+      "The most important first step is finding out exactly which facility your loved one is housed in. Once you know the facility, you can look up which providers serve it and set up the right accounts.",
     ],
 
     sections: [
       {
         heading: "Digital Messaging",
         body: [
-          "Digital messaging is the most common form of written communication and works through platforms like JPay, CorrLinks, ConnectNetwork, or GettingOut. You create an account, find the inmate, purchase credits, and send text messages. Messages are reviewed before delivery.",
-          "This is the fastest written communication option. Most messages arrive within a few hours to one business day. It costs less than a postage stamp per message on most platforms.",
+          "Digital messaging is the fastest and most affordable written communication option for most families. Messages are sent through a platform contracted by the facility - common platforms include JPay, CorrLinks, ConnectNetwork, and GettingOut. You create a free account, find the inmate profile, purchase message credits or stamps, and send your message.",
+          "Messages are reviewed by facility staff before delivery. Review times vary by facility, but most messages are delivered within a few hours to one business day. A single message typically costs between $0.25 and $0.50 depending on the platform and facility.",
+          "JPay is most common at state prisons. CorrLinks is the only approved platform for federal Bureau of Prisons facilities. ConnectNetwork is widely used at county jails and some state prisons. GettingOut is common at county jails with a focus on mobile-friendly access.",
+          "To get started with digital messaging, search our facility directory for your loved one facility, find which messaging platform it uses, create your account on that platform, and complete the contact approval process before sending your first message.",
         ],
       },
       {
         heading: "Phone Calls",
         body: [
-          "Inmates call out through a facility-contracted phone system. You cannot call them directly. Your number must be on their approved contact list. Setting up a prepaid account with the provider gives you better rates than accepting collect calls.",
-          "Common providers include Securus Technologies, GTL, ICSolutions, and Telmate. Per-minute rates for interstate calls are federally capped. Extra fees can still add up, so check the full cost before adding funds.",
+          "Inmates call out - you cannot call them directly. All calls go through a facility-contracted phone provider such as Securus Technologies, GTL, ICSolutions, or City Tele Coin. Your phone number must be on the inmate approved contact list before any calls can be placed to you.",
+          "There are two main account types for receiving calls. A prepaid account means you deposit money in advance and calls are deducted from your balance - this gives you better rates. A collect call means the charges are billed directly to your phone bill - this is more expensive and not available with all carriers.",
+          "Interstate call rates are federally regulated by the FCC with a maximum rate of $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates may vary. Additional fees such as account setup fees or connection fees may apply depending on the provider.",
+          "Most facilities limit calls to 15 to 30 minutes. The call disconnects automatically when the time limit is reached. All calls are recorded and monitored except calls to attorneys.",
         ],
       },
       {
         heading: "Video Visitation",
         body: [
-          "Video visits are scheduled through the facility's approved platform and use a video terminal inside the facility. You connect using a phone, tablet, or computer. Sessions are usually 20 to 30 minutes and must be booked in advance.",
-          "Not all facilities offer video visitation. Costs typically range from $7.50 to $15 per session. You must be an approved contact before scheduling.",
+          "Video visitation allows you to see and speak with your loved one through a live video connection. Sessions are scheduled in advance through the facility approved platform. You connect using a smartphone, tablet, or computer. The inmate connects through a video terminal or tablet inside the facility.",
+          "Not all facilities offer video visitation. For those that do, sessions typically last 20 to 30 minutes and must be booked ahead of time. Costs range from $7.50 to $15 per session depending on the facility and provider.",
+          "You must be an approved contact before you can schedule a video visit. The approval process varies by facility but generally requires submitting your name, date of birth, and government ID. Some facilities also require a background check.",
+          "Common video visitation providers include JPay, ConnectNetwork, Securus, and GettingOut. If in-person visits are difficult due to distance, video visitation is a practical and more affordable alternative.",
         ],
       },
       {
-        heading: "Photos and Mail",
+        heading: "Photos and Physical Mail",
         body: [
-          "Photo sharing platforms like Pigeonly or TextBehind allow you to upload digital photos that are printed and delivered to the inmate. This is different from emailing a photo. The photo goes through the same review process as other communication.",
-          "Traditional mail is still accepted at most facilities. Letters should be sent on plain white paper. No stickers, glitter, perfume, or greeting cards with metallic elements. Check the facility's mail policy before sending packages or books.",
+          "Sending photos to an incarcerated loved one works differently than sending a digital image. Most facilities do not allow digital photos to be emailed directly. Instead, photo sharing platforms like Pigeonly or TextBehind allow you to upload a photo online, and the service prints it and delivers it as physical mail to the inmate.",
+          "Physical mail is still accepted at most facilities. Letters should be written on plain white paper. Envelopes must be standard size. Most facilities prohibit stickers, glitter, perfume, greeting cards with metallic or raised elements, and any colored paper. Always check the specific facility mail policy before sending.",
+          "Books and magazines may be sent in some facilities but must come directly from an approved publisher or retailer. Personal copies sent from home are typically rejected. Packages are generally not allowed unless the facility has a specific approved package program.",
+        ],
+      },
+      {
+        heading: "Money Transfers",
+        body: [
+          "Sending money to an incarcerated loved one allows them to purchase items from the facility commissary, pay for phone calls or messaging stamps, and cover other approved expenses. Most facilities use a trust account system where funds are deposited and drawn from as needed.",
+          "Common money transfer platforms include JPay, Access Corrections, TouchPay, and Western Union or MoneyGram at some facilities. Each platform charges a transaction fee that varies based on the amount sent and the payment method used.",
+          "Deposits can be made online, through a mobile app, at a kiosk, or in some cases by money order sent by mail. Processing times vary - online and kiosk deposits are often credited within one to two business days. Money order deposits may take longer.",
+          "Always use the exact inmate name and ID number when sending funds. Errors in the name or ID can delay or reject the transfer. Keep your transaction receipts until the funds are confirmed received.",
         ],
       },
     ],
 
     takeaways: [
-      "Every facility uses its own approved provider for each type of communication.",
-      "Digital messaging is the fastest and cheapest written option.",
-      "Phone calls must be received, not placed. Your number needs prior approval.",
-      "Video visits require scheduling and an approved contact status.",
-      "Photo sharing uses print-and-deliver services, not direct digital delivery.",
-      "Traditional mail is still accepted but has strict content and format rules.",
+      "Every facility uses its own contracted providers for each type of communication - you must use whoever they have chosen.",
+      "Digital messaging through JPay, CorrLinks, ConnectNetwork, or GettingOut is the fastest and most affordable written option.",
+      "Phone calls are inmate-initiated only - you cannot call them. Set up a prepaid account for the best rates.",
+      "Video visitation requires advance scheduling and approved contact status. Costs range from $7.50 to $15 per session.",
+      "Photos must go through a print-and-deliver service - you cannot email photos directly to most facilities.",
+      "Physical mail is widely accepted but has strict rules about paper type, envelope size, and prohibited items.",
+      "Money transfers go to an inmate trust account and can be used for commissary, messaging, and phone calls.",
+      "Start by identifying the facility your loved one is in, then search the facility directory to find which providers are available.",
     ],
 
     faq: [
       {
-        question: "Where do I start if I've never done this before?",
-        answer: "Start by finding out which facility your loved one is at. Then look up that facility to see which communication providers it uses. Create an account on that provider's platform and follow the setup steps to get approved as a contact.",
+        question: "How do I start communicating with someone in prison?",
+        answer: "Start by confirming the exact facility name and location. Then search our facility directory to see which communication providers serve that facility. Create an account on the appropriate platform, complete the contact approval process, and you can begin communicating.",
       },
       {
         question: "Do I need a different account for each type of communication?",
-        answer: "Sometimes, yes. Some platforms like JPay and ConnectNetwork offer messaging, video, and money transfer under one account. Others specialize in one service. You may end up with accounts on two or three different platforms.",
+        answer: "Sometimes yes. Platforms like JPay and ConnectNetwork handle messaging, video, and money transfer under one account. Other services specialize in one type of communication. You may need accounts on two or three platforms depending on what your facility supports.",
       },
       {
-        question: "What if the facility changes providers?",
-        answer: "Facilities do occasionally switch providers. If your loved one suddenly cannot receive messages through your current platform, contact the facility to find out if a switch has occurred.",
+        question: "Can I call an inmate directly?",
+        answer: "No. Inmates must initiate all calls from facility phones. Your number must be on their approved contact list before they can call you. You can set up a prepaid account with the facility phone provider so funds are ready when they call.",
       },
       {
-        question: "Can incarcerated people in all facilities receive digital messages?",
-        answer: "No. Not all facilities have digital messaging. Federal facilities almost all use CorrLinks. State prisons vary. Smaller county jails may only support phone calls and mail.",
+        question: "How much does it cost to communicate with someone in prison?",
+        answer: "Costs vary by communication type. Digital messages typically cost $0.25 to $0.50 each. Phone calls cost up to $0.21 per minute for interstate calls. Video visits cost $7.50 to $15 per session. Photo delivery costs around $0.49 per photo. Money transfer fees vary by platform and amount.",
+      },
+      {
+        question: "What if the facility changes its communication provider?",
+        answer: "Facility provider contracts do expire and change. If communication through your current platform suddenly stops working, contact the facility directly to confirm whether a provider change has occurred and which new platform to use.",
+      },
+      {
+        question: "Can all incarcerated people receive digital messages?",
+        answer: "No. Not all facilities offer digital messaging. Federal prisons almost all use CorrLinks. State prisons vary by provider. Some smaller county jails only support phone calls and physical mail. Use the facility directory to check what is available at your specific facility.",
       },
     ],
 

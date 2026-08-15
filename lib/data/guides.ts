@@ -405,7 +405,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-prison-phone-calls-work": {
     id: "guide-05",
     slug: "how-prison-phone-calls-work",
-    title: "How Prison Phone Calls Work",
+    title: "How Prison Phone Calls Work: Cost, Setup and Cheapest Options",
     excerpt: "Understand how inmates make phone calls, how to set up an account to receive calls, which providers are used, and what calls cost.",
     category: "How It Works",
     difficulty: "Beginner",
@@ -414,13 +414,28 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 4,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-15",
     seoTitle: "How Prison Phone Calls Work: Complete Guide",
     seoDescription: "Learn how inmates make phone calls, how to set up a prepaid account to receive calls, what providers facilities use, and how much prison calls cost.",
+  metaDescription: "Prison phone calls explained - why they cost so much, how to set up a prepaid account, current FCC rate caps, and which providers offer the cheapest rates.",
 
     intro: [
       "Prison phone calls work differently from regular calls. The inmate places the call from an approved phone inside the facility, and the call goes through a third-party provider that charges per-minute rates. You can accept the call by setting up a prepaid account.",
       "This guide explains the full process, from setting up your phone number to receiving calls, and covers the costs and providers involved.",
+    ],
+
+    overview: [
+      "Prison phone calls work through a prepaid system. Families create an account with the facility phone provider, add funds, and wait for the inmate to call. The call is automatically deducted from the prepaid balance at a per-minute rate set by the facility contract.",
+
+      "The most common prison phone providers in the United States are GTL, Securus Technologies, ICSolutions, and City Tele Coin. Each facility has a contract with only one provider, so families must use whichever provider their facility has chosen.",
+
+      "Prison phone call rates are regulated by the FCC for interstate calls. As of 2026, the maximum rate is $0.21 per minute for prisons and $0.13 per minute for jails. In-state call rates may vary by facility and state.",
+
+      "To set up a prison phone account, visit the provider website, create a free account, search for your loved one facility, and add a minimum deposit. Most providers accept credit cards, debit cards, and sometimes Western Union or MoneyGram.",
+
+      "All prison phone calls are recorded and monitored by facility staff except calls to attorneys. Calls are typically limited to 15 to 30 minutes and automatically disconnect when the time limit is reached. Inmates must initiate all calls - families cannot call into a prison.",
+
+      "To save money on prison phone calls, use a prepaid account instead of collect calls, check if your facility offers video visits which are often cheaper, and call during off-peak hours when possible.",
     ],
 
     sections: [

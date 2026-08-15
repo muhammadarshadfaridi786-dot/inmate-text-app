@@ -1963,7 +1963,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "city-tele-coin",
     initial: "C",
     color: "bg-red-700",
-    tagline: "Inmate phone calls and communication services for county facilities",
+    tagline: "City Tele Coin (CTC) Inmate Phone Calls & Money Transfer for County Jails",
     services: { messaging: false, video: false, photos: false, phone: true, moneyTransfer: true },
     statesCount: 12,
     facilitiesCount: 180,
@@ -1971,17 +1971,21 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "City Tele Coin (CTC) provides inmate phone calls and commissary deposits at 180+ county jails and correctional facilities across 12 states. One of the longest-established regional phone providers in the corrections industry.",
+      "City Tele Coin (CTC) is an inmate phone service provider serving 180+ county jails across 12 states. Families can fund prepaid phone accounts, deposit commissary money, and stay connected with incarcerated loved ones. Account setup is free and calls can begin within hours of adding funds.",
 
     website: "https://www.citytelecoin.com",
 
     overview: [
-      "City Tele Coin, commonly known as CTC, is one of the longest-established regional correctional phone providers in the United States. Founded in the 1990s, the company has provided inmate calling services at county jails and regional facilities for decades. While larger national providers like Securus and GTL have expanded aggressively, City Tele Coin has maintained its position as the primary communication provider at county facilities in its core markets, primarily across the South and parts of the Midwest. For families whose loved ones are held at a CTC-contracted facility, it is the only option for phone calls.",
+  "City Tele Coin (CTC) is an inmate telephone service provider operating in over 180 county jails and local detention centers across 12 states. CTC specializes in phone calls and commissary deposits for families of incarcerated individuals in smaller county facilities.",
 
-      "City Tele Coin's service model follows the standard correctional phone structure. Families create a prepaid account linked to their phone number, add funds, and wait for the incarcerated individual to call using the CTC phone system. Calls are inmate-initiated — you cannot call a facility to speak with an inmate through any provider. Commissary deposits are also processed through the City Tele Coin platform at most of its contracted facilities, giving families one point of contact for both calling and trust account funding.",
+  "To receive calls from an inmate using CTC, families must create a free prepaid account at citytelecoin.com and add funds before the first call. Once funds are added, the inmate can call your number directly from the facility phone.",
 
-      "City Tele Coin does not offer video visitation, messaging, or photo delivery. It is a phone and money transfer provider only. Families who need those additional services must determine whether the facility has contracted a separate provider for video or messaging — smaller county jails often have not, meaning phone calls may be the only remote communication option. For families trying to confirm whether City Tele Coin serves a specific facility, the CTC website provides a facility lookup tool. The company's regional focus and smaller size mean that customer service is generally more accessible than the largest national providers.",
-    ],
+  "CTC phone call rates vary by facility and are regulated by the FCC for interstate calls. Most families pay between $0.06 and $0.21 per minute depending on the facility location and call type.",
+
+  "In addition to phone calls, CTC offers commissary deposit services that allow families to send money directly to an inmate trust account. Funds are typically credited within one to two business days.",
+
+  "To find out if your loved one is in a CTC facility, contact the facility directly and ask which phone provider they use, or search our facility directory for the complete provider list.",
+],
 
     serviceDetails: {
       messaging: {

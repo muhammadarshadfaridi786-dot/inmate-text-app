@@ -144,7 +144,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-to-send-money-to-an-inmate": {
     id: "guide-02",
     slug: "how-to-send-money-to-an-inmate",
-    title: "How to Send Money to an Inmate",
+    title: "How to Send Money to an Inmate: Step-by-Step Guide for Families",
     excerpt: "A step-by-step guide to sending money to an incarcerated person, covering accepted methods, platforms, fees, and common mistakes to avoid.",
     category: "Money and Accounts",
     difficulty: "Beginner",
@@ -154,76 +154,96 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How to Send Money to an Inmate: Step-by-Step Guide",
-    seoDescription: "Learn how to send money to someone in prison or jail. Covers accepted payment methods, platforms like JPay and Access Corrections, fees, and transfer limits.",
+    seoTitle: "How to Send Money to an Inmate: Methods, Fees, and Step-by-Step Setup",
+    seoDescription: "Complete guide to sending money to an incarcerated loved one - which platforms to use, how much fees cost, how long transfers take, and how to avoid common mistakes. Free guide for families.",
 
     intro: [
-      "Sending money to an incarcerated person is straightforward once you know which platform the facility uses. The money goes into the inmate's trust account, which they can use for commissary purchases, phone calls, and other approved services.",
-      "This guide walks through the main methods for sending money, what fees to expect, and what to watch out for.",
+      "Sending money to an incarcerated loved one allows them to purchase items from the facility commissary, pay for phone calls, buy messaging stamps, and cover other approved expenses. Most facilities use a trust account system where funds are deposited and drawn from as needed.",
+      "Every facility works with specific money transfer providers. You cannot send money through a personal bank transfer or PayPal. You must use whichever service the facility has approved. Common providers include JPay, Access Corrections, TouchPay, and Western Union Send2Corrections.",
+      "This guide explains every method available, how much each costs, how long transfers take, and the most common mistakes families make when sending funds for the first time.",
     ],
 
     sections: [
       {
-        heading: "Where the Money Goes",
+        heading: "How Inmate Money Transfers Work",
         body: [
-          "When you send money to an inmate, it is deposited into their inmate trust account. This is a managed account held by the facility. The inmate does not receive physical cash. They use the account balance to purchase items from the commissary, pay for phone or messaging credits, or cover other approved expenses.",
-          "Each facility controls how and when funds can be accessed. Some facilities process deposits the same day. Others may hold new deposits for up to 48 hours before the balance is available.",
+          "When you send money to an incarcerated person, the funds go into a trust account managed by the facility. The inmate then uses that balance to make purchases at the commissary, pay for phone calls, buy messaging credits, or cover other approved services.",
+          "The facility contracts with one or more money transfer providers. You create an account on the approved provider platform, find the inmate using their ID number and facility name, choose your transfer amount, and pay using a credit card, debit card, or other accepted method.",
+          "Transaction fees are charged by the transfer provider, not the facility. Fees vary based on the provider, the transfer amount, and the payment method. Larger transfers often have lower percentage fees than smaller ones. Always check the fee schedule before sending.",
         ],
       },
       {
-        heading: "How to Send Money",
+        heading: "Ways to Send Money to an Inmate",
         body: [
-          "The most common methods are online through a platform like JPay, Access Corrections, or TouchPay, by phone using a credit or debit card, by money order mailed to the facility, or in person at a kiosk in the facility lobby.",
-          "Online is the fastest and most convenient option for most people. You create an account on the approved platform, search for the inmate by ID and facility, enter the amount, and pay by debit or credit card. The transfer typically processes within minutes to a few hours.",
-          "Money orders are accepted at most facilities but are slower. Make the money order payable to the facility or the approved processing service, include the inmate's full name and ID number, and mail it to the address listed on the facility's website.",
+          "Online transfer is the most common method. You create an account on the approved provider website or app, enter the inmate details, choose an amount, and pay by credit or debit card. Funds are typically credited within one to two business days. Some providers offer same-day processing for an additional fee.",
+          "Lobby kiosk deposits are available at many facilities. You visit the facility lobby, use the kiosk machine, enter the inmate ID, and deposit cash. Kiosk deposits are often processed immediately and have lower fees than online transfers. Not all facilities have kiosks.",
+          "Money order by mail is accepted at most facilities. You purchase a money order, make it payable according to the facility instructions, include the inmate full name and ID number, and mail it to the facility designated address. Processing can take one to two weeks plus additional facility processing time.",
+          "Phone transfer is available through some providers. You call the provider customer service number, provide inmate details, and pay by card over the phone. Fees for phone transfers are often higher than online transfers.",
         ],
       },
       {
-        heading: "Fees and Transfer Limits",
+        heading: "Main Money Transfer Providers and Their Fees",
         body: [
-          "Most money transfer platforms charge a processing fee. Fees vary by platform, transfer method, and amount. JPay typically charges $4.95 to $11.95 per transfer. Access Corrections and TouchPay have similar fee structures. Fees are charged to the sender, not deducted from the deposited amount.",
-          "Transfer limits also vary. Many facilities cap individual transfers at $300 or $500. Some have monthly limits. Check the platform's limits page and the facility's inmate account rules before sending large amounts.",
+          "JPay is the most widely used inmate money transfer service in the United States, serving over 35 states. JPay fees typically range from $0.95 to $4.95 per transaction depending on the amount sent and the payment method. JPay also handles messaging and other services for state prisons.",
+          "Access Corrections serves a large number of county jails and state facilities. Fees range from $1.95 to $5.95 per transaction. Access Corrections accepts credit cards, debit cards, and cash at participating locations.",
+          "TouchPay specializes in county jail deposits and offers 24-hour processing every day of the year. TouchPay accepts credit and debit card transactions and posts funds quickly to inmate trust accounts.",
+          "Western Union Send2Corrections is available at both online and in-person Western Union locations. Fees tend to be higher, ranging from $5 to $15 or more per transaction. Western Union is useful for families who prefer in-person cash transactions or do not have access to credit cards.",
         ],
       },
       {
-        heading: "Common Mistakes to Avoid",
+        heading: "How Long Does It Take for Money to Reach an Inmate",
         body: [
-          "Always verify the inmate's full legal name and ID number before sending. A mismatch can cause the transfer to be rejected or sent to the wrong person. The inmate's ID number on their prison ID card is the correct identifier.",
-          "Sending money to an inmate who has been transferred to a different facility can delay the deposit significantly. Confirm the current location with the facility or the inmate before sending.",
-          "Do not send money through unauthorized channels such as personal cash apps, direct bank transfers to unknown accounts, or anyone claiming to collect funds on behalf of an inmate. These are common scams.",
+          "Electronic transfers through JPay or Access Corrections typically arrive within one to three business days. Some facilities process transfers the same day. The processing time depends on the provider and the facility.",
+          "Lobby kiosk cash deposits are usually posted to the inmate account immediately or within a few hours. This is the fastest method when same-day access to funds is important.",
+          "Mailed money orders take the longest. After mailing, the money order must arrive at the facility, be processed by facility staff, and then be credited to the account. Total processing time is often one to two weeks or longer.",
+          "Always keep your transaction receipt or confirmation number until the funds are confirmed received by the inmate. If funds do not arrive within the expected timeframe, contact the provider customer service with your confirmation number.",
+        ],
+      },
+      {
+        heading: "Common Mistakes When Sending Money to an Inmate",
+        body: [
+          "Using the wrong inmate ID number is the most common mistake. The inmate ID is assigned by the facility and is different from any court case number or booking number. Always confirm the correct ID directly with your loved one or the facility before sending.",
+          "Sending to the wrong facility is another frequent error. If your loved one has transferred to a new facility, funds sent to the old facility may be delayed or rejected. Always confirm the current facility location before sending money.",
+          "Choosing an unapproved transfer method will result in rejection. You cannot send funds through personal bank transfers, PayPal, Venmo, or any service not approved by the facility. The facility will return or reject any funds received through unapproved channels.",
+          "Sending money before the inmate arrives at the facility can cause problems. Some facilities cannot process incoming funds until the inmate is officially in their system. Wait until you have confirmed your loved one has arrived and been processed before sending the first transfer.",
         ],
       },
     ],
 
     takeaways: [
-      "Money goes into the inmate's trust account, not directly to them as cash.",
-      "Online platforms like JPay and Access Corrections are the fastest way to send funds.",
-      "Processing fees are charged to the sender and typically range from $5 to $12.",
-      "Always verify the inmate's full legal name and ID number before sending.",
-      "Money orders are accepted but take longer to process.",
-      "Never send money through unofficial channels or personal cash apps.",
+      "Funds go into an inmate trust account managed by the facility and are used for commissary, phone calls, and messaging.",
+      "You must use the transfer provider the facility has approved - personal bank transfers and apps like PayPal are not accepted.",
+      "Main providers include JPay, Access Corrections, TouchPay, and Western Union Send2Corrections.",
+      "Online transfers typically arrive within one to three business days. Lobby kiosk cash deposits are often immediate.",
+      "Always use the correct inmate ID number - it is different from court case numbers or booking numbers.",
+      "Keep your transaction confirmation number until funds are confirmed received.",
+      "Do not send money until you confirm your loved one has arrived and been processed at the facility.",
     ],
 
     faq: [
       {
-        question: "How long does it take for money to arrive?",
-        answer: "Online transfers through platforms like JPay usually process within a few hours. Money orders take 3 to 7 business days after mailing. Processing times vary by facility.",
+        question: "How do I send money to someone in prison?",
+        answer: "Find out which money transfer provider the facility uses by searching our facility directory or calling the facility. Create an account on that provider platform, find the inmate by their ID number and facility, choose an amount, and pay by credit card, debit card, or other accepted method.",
       },
       {
-        question: "Is there a limit on how much I can send?",
-        answer: "Yes. Most facilities cap individual transfers at $300 to $500 and may have monthly limits. Check the platform and the facility's rules before sending.",
+        question: "How long does it take for money to reach an inmate?",
+        answer: "Electronic transfers typically arrive within one to three business days. Some facilities offer same-day processing. Lobby kiosk cash deposits are usually immediate. Mailed money orders can take one to two weeks plus facility processing time.",
       },
       {
-        question: "Can the inmate send money back to me?",
-        answer: "Inmates generally cannot send money out of their accounts during incarceration. Upon release, any remaining balance is returned to the inmate directly.",
+        question: "How much does it cost to send money to an inmate?",
+        answer: "Fees vary by provider and transfer amount. JPay fees range from $0.95 to $4.95 per transaction. Access Corrections charges $1.95 to $5.95. Western Union fees are typically $5 to $15 or more. Lobby kiosk deposits often have the lowest fees.",
       },
       {
-        question: "What if my transfer is rejected?",
-        answer: "A rejected transfer is usually caused by a name or ID number mismatch, or the inmate is at a different facility. Contact the platform's customer support to confirm the details and resubmit.",
+        question: "What is the inmate ID number and where do I find it?",
+        answer: "The inmate ID number is assigned by the facility when the person is booked or transferred in. It is different from any court case number. You can get it directly from your loved one, by calling the facility, or by using an official state inmate search tool.",
       },
       {
-        question: "Can I send money using a credit card?",
-        answer: "Yes, most platforms accept credit cards, though some card issuers treat these transactions as cash advances and charge additional fees. Using a debit card or bank transfer is usually cheaper.",
+        question: "Can I use PayPal or Venmo to send money to an inmate?",
+        answer: "No. Personal payment apps like PayPal, Venmo, Cash App, or Zelle are not accepted by correctional facilities. You must use the approved transfer provider the facility has contracted with. Funds sent through unapproved channels will be rejected or returned.",
+      },
+      {
+        question: "What if the money I sent never arrived?",
+        answer: "Keep your transaction confirmation number and contact the provider customer service. Provide your confirmation number, the inmate name and ID, and the facility name. Common causes of delayed funds include incorrect inmate ID, facility transfer, or a processing delay at the facility.",
       },
     ],
 

@@ -687,7 +687,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "federal-prison-vs-state-prison": {
     id: "guide-07",
     slug: "federal-prison-vs-state-prison",
-    title: "Federal Prison vs State Prison",
+    title: "Federal Prison vs State Prison: Key Differences for Families",
     excerpt: "Understand the key differences between federal and state prisons, including how inmates end up there, communication rules, and provider differences.",
     category: "Facility Types",
     difficulty: "Beginner",
@@ -697,66 +697,96 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Federal Prison vs State Prison: Key Differences Explained",
-    seoDescription: "Learn the differences between federal and state prisons. Covers how inmates end up in each system, communication options, providers, and visitation rules.",
+    seoTitle: "Federal Prison vs State Prison: Differences in Communication, Rules and Providers",
+    seoDescription: "Learn the key differences between federal and state prisons - who goes where, how communication works in each system, which providers to use, and how to find your loved one. Free guide for families.",
 
     intro: [
-      "Federal prisons and state prisons are separate systems run by different government agencies. They house different types of offenders and operate under different rules. Understanding which system your loved one is in affects how you communicate with them.",
-      "This guide covers the core differences between the two systems and explains how those differences affect communication options.",
+      "Federal prisons and state prisons are two completely separate systems operated by different levels of government. Who ends up in each system depends on the type of crime committed, not the severity. Understanding which system your loved one is in determines which communication providers you must use and how the rules apply.",
+      "Federal prisons are operated by the Federal Bureau of Prisons, a division of the U.S. Department of Justice. State prisons are operated by each individual state through their Department of Corrections. The two systems have different rules, different communication providers, and different processes for families.",
+      "This guide explains the key differences between federal and state prisons, how to identify which system your loved one is in, and what that means for messaging, phone calls, video visits, and money transfers.",
     ],
 
     sections: [
       {
-        heading: "Who Goes Where",
+        heading: "What Is a Federal Prison",
         body: [
-          "Federal prisons house people convicted of federal crimes, meaning crimes investigated and prosecuted under federal law. This includes drug trafficking across state lines, bank robbery, immigration offenses, fraud targeting federal programs, and crimes that occur on federal property.",
-          "State prisons house people convicted of crimes under state law. Most violent crimes, burglary, assault, and drug offenses at the state level result in state prison sentences. If someone was arrested by local or state police and tried in a state court, they are almost always in the state system.",
+          "Federal prisons house people convicted of federal crimes - offenses that violate federal law or involve interstate activities. Common federal crimes include drug trafficking across state lines, tax evasion, bank robbery, counterfeiting, immigration offenses, and crimes committed on federal property or against federal officers.",
+          "The Federal Bureau of Prisons, commonly called the BOP, manages all federal correctional facilities in the United States. The BOP operates over 100 facilities across the country at various security levels including minimum, low, medium, high, and administrative facilities.",
+          "Federal sentences are typically longer than state sentences for similar offenses. Federal inmates must serve at least 85 percent of their sentence before being considered for release. There is no parole in the federal system.",
         ],
       },
       {
-        heading: "Who Runs Them",
+        heading: "What Is a State Prison",
         body: [
-          "The Federal Bureau of Prisons (BOP) operates all federal prisons. There are about 120 federal facilities across the United States. The BOP sets the rules for inmate communication and contracts with providers at the federal level.",
-          "State prisons are operated by each state's Department of Corrections. There are around 1,800 state prisons in the United States. Each state sets its own communication rules and contracts with providers independently.",
+          "State prisons house people convicted of state crimes - offenses that violate state law. Most violent crimes, property crimes, and drug offenses prosecuted at the local or county level result in state prison sentences. State prisons hold the majority of incarcerated people in the United States.",
+          "Each state operates its own prison system through a Department of Corrections or a similarly named agency. Rules, facilities, communication providers, and conditions vary significantly from state to state. What applies in Texas may be very different from what applies in California or New York.",
+          "State sentences vary widely in length and eligibility for parole or early release depending on state law and the nature of the offense. Some states have abolished parole for certain crimes while others maintain broad parole eligibility.",
         ],
       },
       {
-        heading: "Communication Differences",
+        heading: "Key Differences Between Federal and State Prisons",
         body: [
-          "Federal inmates use CorrLinks for all electronic messaging. CorrLinks is the only messaging platform approved for the BOP system. If your loved one is in a federal facility, you must create a CorrLinks account to exchange messages.",
-          "State inmates use the platform contracted by their facility, which varies by state and facility. JPay is common in many state systems. ConnectNetwork also serves numerous state prisons. The platform your loved one uses depends on where specifically they are housed.",
+          "The type of crime determines the system. Federal crimes go to federal prison. State crimes go to state prison. A person cannot choose which system they enter - it is determined by where and how they were prosecuted.",
+          "Conditions in federal prisons are generally considered more consistent across facilities because they are all managed under one federal agency. State prison conditions vary much more widely because each state sets its own standards.",
+          "Federal prisons typically have more educational and vocational programming available to inmates. State prisons vary widely in the programs they offer depending on the state budget and facility type.",
+          "Security levels exist in both systems. Both federal and state prisons have minimum, medium, and maximum security facilities. Where an inmate is housed depends on the length of their sentence, their behavior history, and their assessed risk level.",
         ],
       },
       {
-        heading: "Visitation and Other Rules",
+        heading: "Communication Differences Between Federal and State Prisons",
         body: [
-          "Federal facilities tend to have more standardized visitation procedures, as they are all governed by BOP policy. State facilities vary more widely, because each state and each facility can set its own rules within state law.",
-          "Federal transfers between facilities are more common than in the state system. If a loved one in federal prison is transferred, their facility will change in the BOP inmate locator, and you may need to re-register at the new location for certain communication services.",
+          "This is the most important difference for families. Federal and state prisons use completely different communication providers, and the setup process is different for each.",
+          "Federal prisons use CorrLinks for all electronic messaging. CorrLinks is the only approved messaging platform for all Bureau of Prisons facilities. The inmate must send you an invitation through CorrLinks before you can exchange messages. There is no alternative messaging platform for federal inmates.",
+          "Federal phone calls go through the TRULINCS system and are managed by a contracted phone provider. ConnectNetwork by GTL handles phone services for many federal facilities. You set up a prepaid account to receive calls.",
+          "State prisons use a variety of providers that vary by state and facility. JPay is the most common messaging provider for state prisons, serving over 35 states. Phone services at state prisons are handled by providers such as Securus, GTL, ICSolutions, and City Tele Coin depending on the facility contract.",
+          "Money transfers also differ. JPay handles money transfers for state prisons it serves. Federal inmate trust accounts are funded through MoneyGram, Western Union, or facility-specific processes approved by the BOP.",
+        ],
+      },
+      {
+        heading: "How to Find Out If Your Loved One Is in Federal or State Prison",
+        body: [
+          "The easiest way to find out is to ask your loved one directly or ask their attorney. If you do not have that information, you can use official inmate search tools.",
+          "For federal inmates, the Bureau of Prisons maintains a public inmate locator at bop.gov. You can search by name or register number. The locator shows the facility name, location, and release date.",
+          "For state inmates, each state operates its own inmate search tool through their Department of Corrections website. Search for your state Department of Corrections online and look for the inmate locator or offender search tool.",
+          "You can also search our facility directory to find a facility and confirm whether it is a federal or state facility, which providers serve it, and what communication options are available.",
         ],
       },
     ],
 
     takeaways: [
-      "Federal prisons hold people convicted of federal crimes. State prisons hold people convicted of state crimes.",
-      "The Federal Bureau of Prisons operates all federal facilities under unified policies.",
-      "State prisons are run independently by each state, so rules and providers vary widely.",
-      "Federal inmates use CorrLinks for messaging. State inmates use the platform their facility contracts with.",
-      "Federal inmates are more frequently transferred between facilities.",
-      "Knowing which system your loved one is in tells you which communication platform to use.",
+      "Federal prisons house people convicted of federal crimes. State prisons house people convicted of state crimes. The type of crime determines the system, not the severity.",
+      "Federal prisons are managed by the Bureau of Prisons. State prisons are managed by each state Department of Corrections.",
+      "Federal inmates must use CorrLinks for all electronic messaging. There is no alternative.",
+      "State prison inmates typically use JPay for messaging. Phone providers vary by state and facility.",
+      "Money transfers for federal inmates go through MoneyGram or Western Union. State prison transfers typically go through JPay or Access Corrections.",
+      "Use the BOP inmate locator at bop.gov to find a federal inmate. Use each state DOC website to find a state inmate.",
+      "Search our facility directory to find which providers and communication options are available at any specific facility.",
     ],
 
     faq: [
       {
         question: "How do I know if my loved one is in federal or state prison?",
-        answer: "Search the Federal Bureau of Prisons inmate locator at bop.gov. If they appear there, they are in the federal system. If not, check your state's Department of Corrections inmate search.",
+        answer: "Ask your loved one or their attorney directly. If you do not have that information, use the Bureau of Prisons inmate locator at bop.gov for federal inmates. For state inmates, search your state Department of Corrections website for their inmate locator tool.",
       },
       {
-        question: "Can someone go to both federal and state prison?",
-        answer: "Yes. Someone can be sentenced in both federal and state courts for separate offenses. They would typically serve one sentence first, then the other, depending on the court orders.",
+        question: "What messaging platform do I use for a federal prison?",
+        answer: "All federal Bureau of Prisons facilities use CorrLinks exclusively. The inmate must send you an invitation through CorrLinks before you can exchange messages. You cannot use JPay, ConnectNetwork, or any other platform for federal inmates.",
       },
       {
-        question: "Are federal prisons safer than state prisons?",
-        answer: "This is not a simple comparison. Safety conditions vary significantly by individual facility regardless of whether it is federal or state. Security classification level is a more meaningful factor than federal vs. state status.",
+        question: "What messaging platform do I use for a state prison?",
+        answer: "It depends on the state and facility. JPay is the most common provider for state prisons, serving over 35 states. Some state facilities use ConnectNetwork or Securus. Search our facility directory to find the correct provider for your specific facility.",
+      },
+      {
+        question: "Can a federal inmate use JPay?",
+        answer: "No. JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. For phone calls, many federal facilities use ConnectNetwork by GTL.",
+      },
+      {
+        question: "How do I send money to a federal inmate?",
+        answer: "Federal inmate trust accounts are funded through MoneyGram or Western Union using the receive code for the Bureau of Prisons. The BOP website at bop.gov has current instructions for sending funds. JPay does not handle federal money transfers.",
+      },
+      {
+        question: "Is federal prison harder than state prison?",
+        answer: "This depends on the specific facility and security level rather than the system as a whole. Federal prisons tend to have more consistent conditions across facilities. State prison conditions vary widely by state and facility type. Security level is a better indicator of daily conditions than federal versus state.",
       },
       {
         question: "Do federal inmates get more privileges than state inmates?",

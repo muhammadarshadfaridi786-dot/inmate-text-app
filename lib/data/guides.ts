@@ -26,7 +26,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-inmate-messaging-works": {
     id: "guide-01",
     slug: "how-inmate-messaging-works",
-    title: "How Inmate Messaging Works",
+    title: "How Inmate Messaging Works: Complete Guide for Families",
     excerpt: "Learn how digital messaging to incarcerated loved ones works, which platforms are used, how messages are reviewed, and what it costs.",
     category: "How It Works",
     difficulty: "Beginner",
@@ -36,82 +36,99 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How Inmate Messaging Works: Complete Beginner Guide",
-    seoDescription: "Learn how inmate messaging works, which platforms to use, how messages are reviewed, and what it costs to stay in contact with an incarcerated loved one.",
+    seoTitle: "How Inmate Messaging Works: Platforms, Costs, Rules and Setup",
+    seoDescription: "Learn how inmate messaging works - which platforms to use, how messages are reviewed, what it costs, and how to send your first message to an incarcerated loved one. Free complete guide.",
 
     intro: [
-      "Inmate messaging lets families and approved contacts send written messages to incarcerated loved ones through a digital platform. It works similarly to email but operates through a dedicated system approved by the correctional facility.",
-      "This guide explains how messages travel from sender to inmate, which platforms are most commonly used, what the review process looks like, and how much it typically costs.",
+      "Inmate messaging lets families and approved contacts send written messages to incarcerated loved ones through a digital platform. It works similarly to email but operates through a dedicated system approved by the correctional facility. You cannot use a regular email address to reach someone in prison.",
+      "Every correctional facility chooses one messaging platform and contracts with that provider exclusively. The platform you need depends entirely on where your loved one is housed - not on which app you prefer. This guide explains how the system works, which platforms are most common, what messages cost, and what rules apply.",
+      "The four most widely used inmate messaging platforms in the United States are JPay, CorrLinks, ConnectNetwork, and GettingOut. Each serves a different type of facility, and understanding which one your facility uses is the first step before creating any account.",
     ],
 
     sections: [
       {
-        heading: "What Is Inmate Messaging?",
+        heading: "What Is Inmate Messaging and How Does It Work",
         body: [
-          "Inmate messaging is a digital communication service that allows approved contacts to exchange written messages with incarcerated people. Unlike standard email, it operates through platforms that hold contracts with correctional facilities. The facility decides which platform to use, and that platform manages all messaging in and out of that location.",
-          "Common platforms include JPay for state prisons, CorrLinks for federal Bureau of Prisons facilities, ConnectNetwork for a wide range of jails and prisons, and GettingOut for many county jails. The platform you need depends entirely on where your loved one is housed.",
-          "You cannot use a regular email address to reach someone in prison. You must create an account on the approved platform and find your loved one by their inmate ID number and facility name.",
+          "Inmate messaging is a digital communication service that allows approved contacts to exchange written messages with incarcerated people through a facility-contracted platform. The facility decides which platform to use, and that platform manages all messaging in and out of that location.",
+          "You create a free account on the approved platform, search for your loved one using their inmate ID number and facility name, purchase messaging credits or stamps, and send your message. The message enters a review queue before it is delivered to the inmate.",
+          "The inmate reads and replies through the same platform using a kiosk, tablet, or shared computer terminal inside the facility. Their reply goes through the same review process before it reaches you. The entire exchange is monitored and stored by both the platform and the facility.",
+          "Common platforms include JPay for state prisons, CorrLinks for all federal Bureau of Prisons facilities, ConnectNetwork for a wide range of county jails and state prisons, and GettingOut for many county jails with a focus on mobile access.",
         ],
       },
       {
-        heading: "How Messages Are Sent and Delivered",
+        heading: "How to Send Your First Inmate Message",
         body: [
-          "To send your first message, create an account on the approved platform, search for your loved one using their inmate ID and facility, and purchase messaging credits before writing. The process varies slightly by platform but follows this same general flow.",
-          "After you submit a message, it enters a review queue. Facility staff or an automated content screening system checks the message before it reaches the inmate. This is standard at all correctional facilities and is disclosed in each platform's terms of service.",
-          "Most messages are delivered within a few hours to one business day. The inmate reads and replies through the same platform terminal. Their reply goes through the same review process before it reaches you.",
+          "Step one is finding out which facility your loved one is housed in and which messaging platform that facility uses. You can search our facility directory to find this information or call the facility directly.",
+          "Step two is creating a free account on the correct platform. You will need to provide your name, email address, and a valid government ID in most cases. Some platforms also require a phone number for verification.",
+          "Step three is finding your loved one on the platform. You will search by their inmate ID number and facility name. The inmate ID is assigned by the facility and is different from any court case number.",
+          "Step four is purchasing message credits or stamps. Most platforms require a minimum deposit before you can send your first message. Step five is writing and submitting your message. Once submitted, the message enters the review queue and is typically delivered within a few hours to one business day.",
         ],
       },
       {
-        heading: "How Much Inmate Messaging Costs",
+        heading: "How Much Does Inmate Messaging Cost",
         body: [
-          "Costs vary by platform and facility. JPay uses a stamp system, with stamps typically costing between $0.33 and $0.47 each. CorrLinks charges a small per-message fee from a prepaid account. ConnectNetwork and GettingOut have their own credit-based pricing.",
-          "Some facilities offer the inmate free incoming messages but charge the sender. Others require both sides to purchase credits. Check the pricing page of the specific platform before adding money to your account.",
-          "There may also be initial account fees or transaction charges when loading funds. Read the platform's fee schedule carefully before your first deposit.",
+          "Costs vary by platform and facility. JPay uses a stamp system where each stamp costs between $0.33 and $0.47 and covers one standard message. Stamps are purchased in bundles and the cost per stamp decreases when you buy larger bundles.",
+          "CorrLinks charges a small per-message fee deducted from a prepaid account balance. ConnectNetwork and GettingOut use their own credit-based pricing that varies by facility and message type.",
+          "Some facilities offer free incoming messages to the inmate but charge the sender. Others require both sides to purchase credits. There may also be account setup fees or transaction charges when loading funds. Always read the platform fee schedule before making your first deposit.",
+          "Photo attachments, when available, are priced separately from text messages and typically cost more per item. Video messages, where offered, are also priced separately.",
         ],
       },
       {
-        heading: "Privacy and Content Rules",
+        heading: "Message Review Process and Delivery Times",
         body: [
-          "All inmate messages are monitored. The platform and the facility retain copies, and staff can read them at any time. Never include sensitive legal, financial, or personal information in a message.",
-          "Content rules vary by facility but generally prohibit anything involving escape plans, criminal activity, explicit content, or coded language. Messages that violate these rules are blocked or deleted without detailed notice.",
-          "Repeated violations can result in suspended messaging privileges. In serious cases, access to the platform may be permanently revoked for that facility.",
+          "Every message sent through an inmate messaging platform goes through a review process before it reaches the inmate. This review is conducted by facility staff, an automated content screening system, or both. This process is disclosed in each platform terms of service and is standard at all correctional facilities.",
+          "Review times vary by facility. Most messages are delivered within a few hours to one business day. High-volume facilities or facilities with limited staff may take longer. There is no way to expedite the review process.",
+          "Messages that fail the content review are blocked or deleted. You may receive a notification that the message was not delivered, but platforms do not always provide a specific reason for rejection. Review the facility content rules and revise the message before attempting to resend.",
+        ],
+      },
+      {
+        heading: "Privacy and Content Rules for Inmate Messages",
+        body: [
+          "All inmate messages are monitored. The platform and the facility retain copies of every message, and staff can read them at any time. There is no expectation of privacy in inmate messaging. Never include sensitive legal, financial, or personal information in a message.",
+          "Content rules vary by facility but generally prohibit anything involving escape plans, criminal activity, threats, explicit content, or coded language. Messages that reference ongoing legal cases should be limited to factual updates rather than strategy or evidence details.",
+          "Repeated violations of content rules can result in suspended messaging privileges for the sender. In serious cases, access to the platform may be permanently revoked at that facility. The inmate may also face disciplinary action for messages that violate facility rules.",
         ],
       },
     ],
 
     takeaways: [
-      "Inmate messaging works through facility-approved platforms, not standard email.",
-      "Find out which platform your loved one's facility uses before creating an account.",
-      "Messages go through a review process before delivery and are never private.",
-      "Most messages arrive within a few hours to one business day.",
-      "Costs are typically paid by the sender through a credit or stamp system.",
-      "Content must follow strict facility rules or the message will be blocked.",
+      "Inmate messaging works through facility-approved platforms, not standard email. You must use the platform your facility has contracted with.",
+      "The four main platforms are JPay for state prisons, CorrLinks for federal prisons, ConnectNetwork for county jails and state prisons, and GettingOut for county jails.",
+      "To get started, find the facility, create an account on the correct platform, purchase credits, and send your message.",
+      "Messages go through a review process before delivery. Most arrive within a few hours to one business day.",
+      "Costs are paid by the sender through a credit or stamp system. Prices range from $0.25 to $0.50 per message depending on the platform.",
+      "All messages are monitored and stored. Never include sensitive legal, financial, or personal information.",
+      "Messages that violate content rules are blocked. Repeated violations can result in suspended messaging privileges.",
     ],
 
     faq: [
       {
-        question: "How do I know which messaging platform to use?",
-        answer: "Look up the facility on this site or contact them directly. Federal Bureau of Prisons facilities use CorrLinks. Most state prisons use JPay or ConnectNetwork. County jails often use GettingOut or ConnectNetwork.",
+        question: "How do I know which inmate messaging platform to use?",
+        answer: "Look up the facility in our directory or contact the facility directly. Federal Bureau of Prisons facilities use CorrLinks. Most state prisons use JPay or ConnectNetwork. County jails often use GettingOut or ConnectNetwork. The platform is determined by the facility contract, not by your preference.",
       },
       {
         question: "Can an inmate message me first?",
-        answer: "In most cases, the inmate must first request to add you as an approved contact. Once the facility approves the request, they can initiate messages and you can reply.",
+        answer: "In most cases, the inmate must first request to add you as an approved contact. Once the facility approves the request, they can initiate messages and you can reply. The approval process varies by facility and platform.",
       },
       {
-        question: "How long does it take for a message to arrive?",
-        answer: "Most electronic messages are delivered within a few hours to one business day, depending on the review queue at that facility.",
+        question: "How long does it take for an inmate message to arrive?",
+        answer: "Most electronic messages are delivered within a few hours to one business day, depending on the review queue at that facility. There is no way to expedite delivery. Messages sent late at night may not be reviewed until the next business day.",
       },
       {
         question: "Is inmate messaging private?",
-        answer: "No. All messages are reviewed and stored by both the platform and the facility. Never send sensitive legal, financial, or personal information through inmate messaging.",
+        answer: "No. All messages are reviewed and stored by both the platform and the facility. Staff can read any message at any time. Never send sensitive legal, financial, or personal information through inmate messaging.",
       },
       {
-        question: "What happens if my message is blocked?",
-        answer: "The platform may notify you that the message was not delivered. You will not always receive a specific reason. Review the facility's content rules and revise the message before resending.",
+        question: "What happens if my inmate message is blocked?",
+        answer: "The platform may notify you that the message was not delivered. You will not always receive a specific reason. Review the facility content rules, remove any content that may have triggered the block, and revise the message before resending.",
       },
       {
-        question: "Can I send photos with messages?",
-        answer: "Some platforms allow photo attachments for an extra fee. Photo sharing is typically handled as a separate service from text messaging and has its own rules and approval process.",
+        question: "Can I send photos with inmate messages?",
+        answer: "Some platforms allow photo attachments for an additional fee. Photo sharing is typically handled as a separate service from text messaging and has its own rules, review process, and approval requirements. Not all facilities support photo messaging.",
+      },
+      {
+        question: "What if my loved one changes facilities?",
+        answer: "If your loved one transfers to a new facility, you may need to create an account on a different platform. The new facility may use a different provider. Contact the new facility to confirm which platform they use and set up a new account if needed.",
       },
     ],
 

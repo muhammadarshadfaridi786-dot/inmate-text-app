@@ -417,25 +417,13 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     updatedAt: "2026-08-15",
     seoTitle: "How Prison Phone Calls Work: Complete Guide",
     seoDescription: "Learn how inmates make phone calls, how to set up a prepaid account to receive calls, what providers facilities use, and how much prison calls cost.",
-  metaDescription: "Prison phone calls explained - why they cost so much, how to set up a prepaid account, current FCC rate caps, and which providers offer the cheapest rates.",
-
     intro: [
-      "Prison phone calls work differently from regular calls. The inmate places the call from an approved phone inside the facility, and the call goes through a third-party provider that charges per-minute rates. You can accept the call by setting up a prepaid account.",
-      "This guide explains the full process, from setting up your phone number to receiving calls, and covers the costs and providers involved.",
-    ],
-
-    overview: [
       "Prison phone calls work through a prepaid system. Families create an account with the facility phone provider, add funds, and wait for the inmate to call. The call is automatically deducted from the prepaid balance at a per-minute rate set by the facility contract.",
-
       "The most common prison phone providers in the United States are GTL, Securus Technologies, ICSolutions, and City Tele Coin. Each facility has a contract with only one provider, so families must use whichever provider their facility has chosen.",
-
-      "Prison phone call rates are regulated by the FCC for interstate calls. As of 2026, the maximum rate is $0.21 per minute for prisons and $0.13 per minute for jails. In-state call rates may vary by facility and state.",
-
-      "To set up a prison phone account, visit the provider website, create a free account, search for your loved one facility, and add a minimum deposit. Most providers accept credit cards, debit cards, and sometimes Western Union or MoneyGram.",
-
-      "All prison phone calls are recorded and monitored by facility staff except calls to attorneys. Calls are typically limited to 15 to 30 minutes and automatically disconnect when the time limit is reached. Inmates must initiate all calls - families cannot call into a prison.",
-
-      "To save money on prison phone calls, use a prepaid account instead of collect calls, check if your facility offers video visits which are often cheaper, and call during off-peak hours when possible.",
+      "Prison phone call rates are regulated by the FCC for interstate calls. As of 2026, the maximum rate is $0.21 per minute for prisons and $0.13 per minute for jails.",
+      "To set up a prison phone account, visit the provider website, create a free account, search for your loved one facility, and add a minimum deposit.",
+      "All prison phone calls are recorded and monitored by facility staff except calls to attorneys. Calls are typically limited to 15 to 30 minutes.",
+      "To save money on prison phone calls, use a prepaid account instead of collect calls and check if your facility offers video visits which are often cheaper."
     ],
 
     sections: [
@@ -1062,7 +1050,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "best-inmate-messaging-services": {
     id: "guide-12",
     slug: "best-inmate-messaging-services",
-    title: "Best Inmate Messaging Services",
+    title: "Best Inmate Messaging Services in 2026: JPay, CorrLinks, ConnectNetwork Compared",
     excerpt: "Compare the top inmate messaging platforms including JPay, CorrLinks, ConnectNetwork, and GettingOut to find the right option for your situation.",
     category: "Provider Guides",
     difficulty: "Beginner",
@@ -1072,70 +1060,89 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Best Inmate Messaging Services: JPay vs CorrLinks vs ConnectNetwork",
-    seoDescription: "Compare the best inmate messaging services including JPay, CorrLinks, ConnectNetwork, and GettingOut. Find out which platform is right for your situation.",
+    seoTitle: "Best Inmate Messaging Services 2026: JPay vs CorrLinks vs ConnectNetwork vs GettingOut",
+    seoDescription: "Compare the best inmate messaging services in 2026 - JPay for state prisons, CorrLinks for federal prisons, ConnectNetwork for county jails, and GettingOut for local detention. Find which platform your facility uses, free.",
 
     intro: [
-      "The right inmate messaging service depends on where your loved one is housed, not which platform you prefer. Each facility contracts with one provider, and you must use that provider. This guide compares the main platforms to help you understand what to expect from each one.",
-      "The platforms covered here are JPay, CorrLinks, ConnectNetwork, GettingOut, and TextBehind.",
+      "The best inmate messaging service is whichever one your loved one facility uses - you cannot choose freely. Every correctional facility has a contract with one messaging provider, and all communication goes through that provider only. This guide compares the four main platforms so you know exactly what to expect before you sign up.",
+      "The platforms compared in this guide are JPay, CorrLinks, ConnectNetwork, GettingOut, and TextBehind. Each serves a different type of facility, and understanding which one covers your situation will save you time and frustration.",
     ],
 
     sections: [
       {
-        heading: "JPay",
+        heading: "JPay - Best for State Prisons",
         body: [
-          "JPay is the most widely used platform for state prisons. It operates in dozens of states and offers messaging, video visitation, money transfer, and in some facilities, tablet-based digital content.",
-          "Messaging uses a stamp system at roughly $0.33 to $0.47 per message. The JPay app is available for iOS and Android. Setup is straightforward. JPay does not serve federal prisons.",
+          "JPay is the most widely used inmate messaging platform in the United States, serving over 35 states and more than 1,000 correctional facilities. If your loved one is in a state prison, JPay is the most likely provider you will encounter.",
+          "Messaging on JPay uses a stamp system. Each stamp costs roughly $0.33 to $0.47 and covers one message up to a standard length. Stamps are purchased in bundles. The JPay app is available for iOS and Android and is one of the better-designed apps in this category.",
+          "JPay also offers video visitation, money transfer, and in some facilities, tablet-based digital content and music. JPay does not serve federal Bureau of Prisons facilities.",
         ],
       },
       {
-        heading: "CorrLinks",
+        heading: "CorrLinks - Only Option for Federal Prisons",
         body: [
-          "CorrLinks is exclusively for federal Bureau of Prisons facilities. It handles messaging only. The inmate must invite you before you can correspond. There is no app. The website functions on mobile but was designed for desktop use.",
-          "Costs are per-message and charged to both parties. CorrLinks is not optional if your loved one is in a federal facility. It is the only approved platform.",
+          "CorrLinks is the exclusive messaging platform for all federal Bureau of Prisons facilities. If your loved one is in a federal prison, CorrLinks is your only option - no other platform is approved.",
+          "The system works differently from other platforms. The inmate must send you an invitation first. You cannot initiate contact until you receive and accept that invitation. There is no mobile app. CorrLinks runs through a website that works on mobile browsers but was built for desktop.",
+          "Messaging costs are charged per message to both the sender and receiver. Despite its limitations, CorrLinks is reliable and widely used across all 122 federal facilities.",
         ],
       },
       {
-        heading: "ConnectNetwork",
+        heading: "ConnectNetwork - Best for County Jails and Mixed Facilities",
         body: [
-          "ConnectNetwork, operated by Global Tel Link, serves a large network of state prisons and county jails. It offers messaging, video visits, phone account management, and money transfers.",
-          "The platform is widely available across both state and county systems, making it one of the most broadly applicable options. Interface quality and pricing have improved over recent years.",
+          "ConnectNetwork, operated by GTL (Global Tel Link), serves over 1,800 facilities across all 50 states, making it one of the broadest networks available. It is especially common in county jails and federal detention centers.",
+          "The platform offers messaging, video visitation, phone account management, and money transfers all in one place. Creating an account is free. ConnectNetwork has a mobile app with mixed but improving reviews.",
+          "If your loved one is in a county detention center or a facility that is not served by JPay or CorrLinks, ConnectNetwork is the most likely alternative you will need to use.",
         ],
       },
       {
-        heading: "GettingOut and TextBehind",
+        heading: "GettingOut - Best for County Jails with Video Focus",
         body: [
-          "GettingOut is common at county jails. It focuses on video visitation and messaging, with a mobile app that handles most features. If your loved one is in a county jail, GettingOut is worth checking first.",
-          "TextBehind specializes in print-and-deliver letters and photos. You type a message online, and it is printed and delivered to the inmate like physical mail. This is useful at facilities that do not offer electronic messaging. Cost is around $0.49 per message.",
+          "GettingOut is commonly used at county jails and focuses primarily on video visitation and messaging. The mobile app is well-reviewed and handles most features smoothly, making it one of the easier platforms to use for families.",
+          "If your loved one is in a county jail and the facility uses GettingOut, video visits through the app are often more affordable than in-person visits and can be scheduled from home.",
+        ],
+      },
+      {
+        heading: "TextBehind - Best When Electronic Messaging is Not Available",
+        body: [
+          "TextBehind is different from all other platforms on this list. Instead of electronic delivery, TextBehind prints your message and delivers it as physical mail to the inmate. This makes it useful at facilities that do not offer any electronic messaging system.",
+          "You type your message online, pay roughly $0.49 per page, and TextBehind handles printing and delivery. Because it delivers as physical mail, it works at nearly any facility that accepts mail - giving it the broadest potential reach of any platform on this list.",
         ],
       },
     ],
 
     takeaways: [
-      "You must use the platform your loved one's facility contracts with. You cannot choose freely.",
-      "JPay serves most state prisons. CorrLinks is exclusive to federal Bureau of Prisons facilities.",
-      "ConnectNetwork covers a broad mix of state prisons and county jails.",
-      "GettingOut is common at county jails and focuses on video and messaging.",
-      "TextBehind delivers printed messages where electronic messaging is not available.",
-      "Use the facility's detail page on this site to see which platforms are available.",
+      "You must use the platform your loved one facility is contracted with - you cannot choose freely between providers.",
+      "JPay serves most state prisons across 35+ states and is the most commonly used platform.",
+      "CorrLinks is the only approved platform for all federal Bureau of Prisons facilities.",
+      "ConnectNetwork covers 1,800+ facilities across all 50 states and is common in county jails.",
+      "GettingOut focuses on video and messaging at county jails and has a well-reviewed mobile app.",
+      "TextBehind delivers printed mail and works at facilities with no electronic messaging available.",
+      "Search our facility directory to see exactly which platform your loved one facility uses.",
     ],
 
     faq: [
       {
+        question: "Which inmate messaging service is best?",
+        answer: "The best service is whichever one your loved one facility uses. You cannot choose between providers. JPay is most common for state prisons, CorrLinks is required for federal prisons, ConnectNetwork and GettingOut are common for county jails.",
+      },
+      {
         question: "Can I use multiple messaging platforms for one person?",
-        answer: "A facility only supports one messaging platform at a time. You do not choose between them. If the facility uses JPay, everyone who communicates with that inmate uses JPay.",
+        answer: "No. A facility only supports one messaging platform at a time. If the facility uses JPay, everyone communicating with inmates at that facility uses JPay. You cannot choose an alternative.",
+      },
+      {
+        question: "How do I find out which messaging service my facility uses?",
+        answer: "Search our facility directory and select your loved one facility. The provider information is listed on each facility page. You can also call the facility directly and ask which messaging platform they use.",
       },
       {
         question: "What if the facility switches providers?",
-        answer: "This can happen. Contracts between facilities and providers do expire and change. If communication suddenly stops working, confirm with the facility whether a provider switch has occurred.",
+        answer: "Facility provider contracts do expire and change. If communication suddenly stops working, contact the facility directly to confirm whether a provider switch has occurred and which new platform to use.",
       },
       {
-        question: "Which platform has the best mobile app?",
-        answer: "JPay and GettingOut both have well-reviewed mobile apps. CorrLinks does not have an app. ConnectNetwork has an app with mixed reviews. Quality varies and updates frequently.",
+        question: "Which inmate messaging platform has the best mobile app?",
+        answer: "JPay and GettingOut have the best-reviewed mobile apps. CorrLinks has no app and runs through a website only. ConnectNetwork has an app with mixed reviews that has improved in recent years.",
       },
       {
-        question: "Is there a platform that works at all facilities?",
-        answer: "No. No single platform covers all facilities. The provider depends entirely on the facility's contract. TextBehind comes closest to universal reach because it delivers printed mail, which nearly all facilities accept.",
+        question: "Is there one messaging platform that works at all facilities?",
+        answer: "No single electronic platform covers all facilities. TextBehind comes closest because it delivers printed mail, which nearly all facilities accept. For electronic messaging, the provider depends entirely on the facility contract.",
       },
     ],
 

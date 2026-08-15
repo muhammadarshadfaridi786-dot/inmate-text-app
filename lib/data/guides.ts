@@ -259,7 +259,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-video-visitation-works": {
     id: "guide-03",
     slug: "how-video-visitation-works",
-    title: "How Video Visitation Works",
+    title: "How Video Visitation Works: Complete Guide for Families",
     excerpt: "Understand how video visitation works at prisons and jails, how to schedule a video call, what equipment you need, and how much it costs.",
     category: "How It Works",
     difficulty: "Beginner",
@@ -269,75 +269,107 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How Video Visitation Works: Prison Video Calls Explained",
-    seoDescription: "Learn how video visitation works at prisons and jails. Covers scheduling, equipment, costs, and which platforms offer video calls for inmates.",
+    seoTitle: "How Video Visitation Works: Setup, Cost, Equipment and Scheduling",
+    seoDescription: "Learn how video visitation works at prisons and jails - how to schedule a video visit, what equipment you need, how much sessions cost, and which providers offer video visits. Free complete guide.",
 
     intro: [
-      "Video visitation allows families to see and speak with incarcerated loved ones through a scheduled video call. It works through the same platforms used for messaging and phone calls, such as ConnectNetwork, JPay, and GettingOut.",
-      "This guide explains how to set up a video visit, what equipment you need, what it costs, and what to expect during the call.",
+      "Video visitation allows families to see and speak with an incarcerated loved one through a live video connection without traveling to the facility. Sessions are scheduled in advance through the facility approved platform, and you connect using a smartphone, tablet, or computer from your home.",
+      "Not all facilities offer video visitation. For those that do, the system works through a provider contracted by the facility. Common providers include JPay, ConnectNetwork, GettingOut, Securus, and SmartInmate. The provider you use depends entirely on which one your facility has chosen.",
+      "This guide explains how video visitation works, how to schedule your first visit, what equipment you need, how much sessions cost, and what to expect during the call.",
     ],
 
     sections: [
       {
-        heading: "What Is Video Visitation?",
+        heading: "How Video Visitation Works",
         body: [
-          "Video visitation is a scheduled video call between an inmate and an approved contact. Calls take place through a platform the facility contracts with. The inmate uses a video terminal inside the facility. You connect using a smartphone, tablet, or computer.",
-          "Not all facilities offer video visitation. Availability depends on the facility type, its contract with a communication provider, and whether the inmate has video privileges. Always confirm availability before scheduling.",
+          "Video visitation uses a secure video connection to allow families and approved contacts to visit with an incarcerated person without being physically present at the facility. The inmate connects through a video terminal, kiosk, or tablet inside the facility. You connect through your smartphone, tablet, or computer from home or another approved location.",
+          "Sessions are scheduled in advance through the provider platform. You choose a date and time from available slots, pay for the session, and receive a confirmation. At the scheduled time, you log in to the platform and join the video call. The inmate joins from their end at the facility.",
+          "All video visits are recorded and monitored by facility staff. The same content rules that apply to physical visits and messaging also apply to video visits. Visits can be terminated by staff at any time if rules are violated.",
+        ],
+      },
+      {
+        heading: "Types of Video Visitation",
+        body: [
+          "Remote video visits are conducted from your home or any location with a reliable internet connection. You use your own device - a smartphone, tablet, or computer with a camera and microphone. Remote visits are the most common type and are available at most facilities that offer video visitation.",
+          "On-site video visits take place in the facility lobby or a designated visitation room. You visit the facility in person but connect through a video terminal rather than a physical booth. Some facilities provide on-site video visits for free or at a lower cost than remote visits.",
+          "Some facilities have eliminated in-person face-to-face visitation entirely and replaced it with video visitation only. In these cases, video visits through the facility approved platform are the only option for seeing your loved one in real time.",
         ],
       },
       {
         heading: "How to Schedule a Video Visit",
         body: [
-          "First, create an account on the platform approved by the facility. Look up the inmate by their ID number and facility name. Request to be added as an approved contact. Once the facility approves you, you can browse available time slots and book a session.",
-          "Scheduling windows vary by facility. Some facilities allow bookings up to 7 days in advance. Others open slots only 24 to 48 hours ahead. Sessions are typically 20 to 30 minutes long. Popular times fill quickly, so schedule early.",
-          "You will receive a confirmation after booking. Make note of the date, time, and any technical requirements. If you need to cancel, do so within the cancellation window to avoid being charged.",
+          "Step one is confirming that your loved one facility offers video visitation and which provider they use. You can search our facility directory or call the facility directly to find out.",
+          "Step two is creating a free account on the provider platform. For ConnectNetwork, go to connectnetwork.com. For JPay, go to jpay.com. For GettingOut, go to gettingout.com. Account creation requires your name, email, and in some cases a government ID.",
+          "Step three is finding your loved one on the platform and connecting as an approved contact. The approval process varies by facility and may require submitting your name, date of birth, and government ID. Some facilities also run a background check.",
+          "Step four is scheduling the visit. Select your loved one, choose an available date and time slot, review the cost, and enter your payment information. You will receive a confirmation email with the visit details.",
+          "Step five is joining the visit at the scheduled time. Log in to the platform five to fifteen minutes before the scheduled start. Test your camera and microphone before the session begins. Join the call at the scheduled time and wait for the inmate to connect from their end.",
         ],
       },
       {
-        heading: "What Equipment You Need",
+        heading: "Equipment You Need for Video Visits",
         body: [
-          "You need a smartphone, tablet, or computer with a working camera and microphone. A stable internet connection is important. Video calls on mobile data can work but a wifi connection reduces the chance of dropped calls.",
-          "Download the platform's app before your scheduled visit and test the camera and microphone ahead of time. Dress appropriately. Some facilities have dress code requirements for video visits, just as they do for in-person visits.",
+          "You need a device with a camera and microphone. A smartphone works well for most platforms and is the most convenient option. A tablet or laptop with a built-in camera also works. Desktop computers require an external webcam and microphone if they do not have them built in.",
+          "You need a reliable internet connection. A stable Wi-Fi connection is recommended. Video calls over a weak mobile data signal may drop or freeze, which can end the session without a refund.",
+          "Most platforms have a dedicated app for mobile devices. Download the provider app before your scheduled visit and test your connection in advance. Some platforms also work through a web browser without requiring an app.",
         ],
       },
       {
-        heading: "Cost of Video Visitation",
+        heading: "How Much Does Video Visitation Cost",
         body: [
-          "Video calls are billed per minute or as flat-rate sessions. Per-minute rates typically range from $0.25 to $0.50. A 30-minute session can cost between $7.50 and $15.00, plus any processing fees.",
-          "Some facilities charge the inmate, some charge the visitor, and some split the cost. Check the platform's pricing page for the specific facility before booking. Credits must usually be purchased in advance.",
+          "Video visit costs vary by facility and provider. Most remote video visits cost between $7.50 and $15 per session. Some facilities charge by the minute rather than by session, with rates typically ranging from $0.25 to $1.00 per minute.",
+          "On-site lobby video visits are often free or available at a reduced rate compared to remote visits. Some facilities provide a set number of free video visits per week for inmates and their families.",
+          "Payment is made at the time of scheduling through the provider platform. Most providers accept credit cards and debit cards. If a session is ended early due to a technical issue on the provider side, contact customer service to request a refund or credit.",
+        ],
+      },
+      {
+        heading: "What to Expect During a Video Visit",
+        body: [
+          "Video visits are typically 20 to 30 minutes long. The session ends automatically when the time limit is reached. If you want to continue, you must schedule and pay for another session.",
+          "The inmate joins from a facility terminal or tablet. The image and audio quality depend on both the facility equipment and your own connection. Have a backup plan if your connection is unstable - reschedule rather than risk a dropped session.",
+          "All video visits are recorded. Treat the visit the same way you would a monitored phone call. Do not discuss anything that could be interpreted as violating facility rules, including legal strategy, ongoing cases, or anything prohibited by the facility policy.",
+          "If a visit is terminated early by staff, contact the provider customer service with your confirmation number. Most providers will review terminated visits and issue a credit if the termination was not due to a rule violation.",
         ],
       },
     ],
 
     takeaways: [
-      "Video visitation is a scheduled call through a facility-approved platform, not a regular video app.",
-      "You must be an approved contact before you can book a visit.",
-      "You need a device with a camera, microphone, and stable internet connection.",
-      "Sessions are typically 20 to 30 minutes and must be scheduled in advance.",
-      "Costs range from $7.50 to $15 per session depending on the platform and facility.",
-      "Not all facilities offer video visitation, so confirm availability before scheduling.",
+      "Video visitation lets families visit an incarcerated loved one through a live video call from home, without traveling to the facility.",
+      "Not all facilities offer video visitation. Check our facility directory to find out if your facility supports it.",
+      "Common providers include JPay, ConnectNetwork, GettingOut, Securus, and SmartInmate.",
+      "You need a device with a camera and microphone and a reliable internet connection.",
+      "Sessions must be scheduled in advance through the provider platform. You must be an approved contact first.",
+      "Remote video visits cost between $7.50 and $15 per session. On-site lobby visits are often free or lower cost.",
+      "All video visits are recorded and monitored. Follow the same content rules as physical visits.",
     ],
 
     faq: [
       {
-        question: "Can I use FaceTime or Zoom for a prison video visit?",
-        answer: "No. Prisons and jails do not allow regular video apps like FaceTime or Zoom. All video visits must go through the facility's approved platform, such as ConnectNetwork, JPay, or GettingOut.",
+        question: "How do I set up a video visit with someone in prison?",
+        answer: "First confirm the facility offers video visitation and which provider they use. Create a free account on that provider platform, find your loved one, get approved as a contact, and then schedule and pay for a visit. You will receive a confirmation with the visit details.",
       },
       {
-        question: "How far in advance can I schedule a video visit?",
-        answer: "It depends on the facility. Most allow scheduling 24 to 72 hours in advance. Some open slots up to 7 days ahead. Check the platform's scheduling page for the specific facility.",
+        question: "What equipment do I need for a video visit?",
+        answer: "You need a smartphone, tablet, or computer with a camera and microphone, and a reliable internet connection. Most providers have a mobile app you should download before your visit. Test your camera and microphone before the scheduled session.",
       },
       {
-        question: "What happens if the call is disconnected?",
-        answer: "If the call drops, credits may or may not be refunded depending on the platform's policy. Most platforms have a support process for technical disconnections. Contact customer support with the session date and time.",
+        question: "How much does a video visit cost?",
+        answer: "Remote video visits typically cost between $7.50 and $15 per session. Some facilities charge by the minute at rates between $0.25 and $1.00 per minute. On-site lobby visits are often free or lower cost. Pricing varies by facility and provider.",
+      },
+      {
+        question: "How long do video visits last?",
+        answer: "Most video visits are 20 to 30 minutes long. The session ends automatically when the time limit is reached. If you want to continue, you must schedule and pay for another session.",
+      },
+      {
+        question: "Can I do a video visit from my phone?",
+        answer: "Yes. Most video visitation providers have a mobile app that works on iOS and Android smartphones. Download the provider app before your scheduled visit and test your connection in advance.",
       },
       {
         question: "Are video visits recorded?",
-        answer: "Yes. Video visits are recorded and monitored by facility staff. Do not discuss legal matters, financial details, or anything you would not want reviewed.",
+        answer: "Yes. All video visits are recorded and monitored by facility staff. Treat the visit the same way you would a monitored phone call. Do not discuss anything that could violate facility rules.",
       },
       {
-        question: "Can children participate in video visits?",
-        answer: "Yes, in most cases. Children must be accompanied by an adult. Some facilities require children to be listed separately as approved visitors. Check the facility's visitation rules for details.",
+        question: "What if my video visit drops or has technical problems?",
+        answer: "If the session drops due to a technical issue on the provider side, contact customer service with your confirmation number and request a refund or credit. If the problem was on your end, such as a weak internet connection, providers may not offer a refund.",
       },
     ],
 

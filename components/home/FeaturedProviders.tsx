@@ -108,7 +108,7 @@ export default function FeaturedProviders() {
                   "w-full justify-center text-xs"
                 )}
               >
-                Learn More
+                View {provider.name} Details
               </Link>
             </div>
           ))}

@@ -28,10 +28,10 @@ export default function HeroSection() {
             </Badge>
           </div>
 
-          {/* H1 */}
+          {/* H1 — no entrance animation so the LCP element paints immediately */}
           <h1
             id="hero-heading"
-            className="animate-hero-1 mb-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl"
+            className="mb-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl"
           >
             Find the Right Inmate Communication Service for Any Facility
           </h1>

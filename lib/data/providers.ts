@@ -411,7 +411,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "connectnetwork",
     initial: "C",
     color: "bg-teal-600",
-    tagline: "Phone, video, and messaging for federal and county facilities",
+    tagline: "ConnectNetwork by GTL — Inmate Messaging, Video & Phone for County Jails",
     services: { messaging: true, video: true, photos: false, phone: true, moneyTransfer: true },
     statesCount: 50,
     facilitiesCount: 1800,
@@ -419,19 +419,22 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "ConnectNetwork by GTL provides phone, video visitation, messaging, and money transfer services at 1,800+ facilities across all 50 states, including federal Bureau of Prisons institutions.",
-
+       "ConnectNetwork by GTL is one of the largest inmate communication platforms in the U.S., serving 1,800+ facilities across 50 states. Families can send messages, schedule video visits, fund phone accounts, and transfer money — all from one account. Setting up is free and takes less than 5 minutes.",
     website: "https://www.connectnetwork.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
     androidUrl: "https://play.google.com/store/apps/details?id=com.gtl.connect",
 
     overview: [
-      "ConnectNetwork is the consumer-facing platform operated by GTL (Global Tel Link), one of the largest correctional communication companies in the United States. The platform serves more than 1,800 facilities across all 50 states, including federal Bureau of Prisons institutions, state prisons, and county jails. GTL and its affiliated brands — including ViaPath Technologies — have operated within the corrections industry for decades, and ConnectNetwork is the primary account portal through which families fund phone calls, schedule video visits, and send money to incarcerated loved ones under GTL contracts.",
+  "ConnectNetwork is operated by GTL (Global Tel Link), one of the largest inmate communication companies in the United States, serving over 1,800 correctional facilities across all 50 states.",
 
-      "The platform's strength is its breadth. ConnectNetwork serves both federal facilities under Bureau of Prisons contracts and a wide range of county and state correctional institutions. For families navigating a federal facility, ConnectNetwork is often the correct platform for phone account funding and video visits, while CorrLinks handles the separate electronic messaging function. At county jails and some state facilities, ConnectNetwork may serve as the single platform for phone, video, and money transfers under a facility-specific GTL contract. Understanding which services ConnectNetwork handles at a specific facility requires checking the facility's provider contract.",
+  "The platform is especially strong in county jails and federal facilities. If your loved one is in a county detention center, ConnectNetwork is likely the provider you will need to use.",
 
-      "Creating a ConnectNetwork account is free. Families can set up an AdvancePay account linked to their phone number, which allows incarcerated individuals to call them directly using facility phones. Video visits are scheduled through the same account and require a device with a working camera. Money transfers for commissary accounts can also be processed through ConnectNetwork, with funds credited according to the facility's processing schedule. The ConnectNetwork mobile app is available on iOS and Android and consolidates phone account management, video scheduling, and money deposits in one interface.",
-    ],
+  "Creating a ConnectNetwork account is free. Families can set up an AdvancePay phone account, schedule video visits, send electronic messages, and deposit money to an inmate trust account — all from the same login.",
+
+  "ConnectNetwork phone rates are regulated by the FCC for interstate calls. For most families, the cost is $0.06 to $0.21 per minute depending on the facility and call type.",
+
+  "To get started, visit connectnetwork.com, create a free account, search for your loved one's facility, and add funds to begin receiving calls or sending messages.",
+],
 
     serviceDetails: {
       messaging: {

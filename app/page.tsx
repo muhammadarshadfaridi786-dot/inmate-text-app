@@ -1,20 +1,27 @@
+import { Suspense } from "react"
+import dynamic from "next/dynamic"
 import type { Metadata } from "next"
 import JsonLd from "@/components/seo/JsonLd"
 import { buildWebSiteSchema, buildFaqSchema } from "@/lib/schema"
+
+// Above-fold: static import so the hero is never delayed
 import HeroSection from "@/components/home/HeroSection"
-import PopularSearches from "@/components/home/PopularSearches"
-import StatsSection from "@/components/home/StatsSection"
-import CommunicationSection from "@/components/home/CommunicationSection"
-import FeaturedProviders from "@/components/home/FeaturedProviders"
-import FeaturedComparisons from "@/components/home/FeaturedComparisons"
-import FeaturedFacilities from "@/components/home/FeaturedFacilities"
-import FeaturedStates from "@/components/home/FeaturedStates"
-import TopCounties from "@/components/home/TopCounties"
-import HowItWorks from "@/components/home/HowItWorks"
-import FeaturedGuides from "@/components/home/FeaturedGuides"
-import WhyTrustUs from "@/components/home/WhyTrustUs"
-import FaqPreview from "@/components/home/FaqPreview"
-import FinalCTA from "@/components/home/FinalCTA"
+
+// Below-fold: dynamic imports split client JS into separate chunks.
+// SSR is still on (default) so all content remains server-rendered for SEO.
+const PopularSearches     = dynamic(() => import("@/components/home/PopularSearches"))
+const StatsSection        = dynamic(() => import("@/components/home/StatsSection"))
+const CommunicationSection = dynamic(() => import("@/components/home/CommunicationSection"))
+const FeaturedProviders   = dynamic(() => import("@/components/home/FeaturedProviders"))
+const FeaturedComparisons = dynamic(() => import("@/components/home/FeaturedComparisons"))
+const FeaturedFacilities  = dynamic(() => import("@/components/home/FeaturedFacilities"))
+const FeaturedStates      = dynamic(() => import("@/components/home/FeaturedStates"))
+const TopCounties         = dynamic(() => import("@/components/home/TopCounties"))
+const HowItWorks          = dynamic(() => import("@/components/home/HowItWorks"))
+const FeaturedGuides      = dynamic(() => import("@/components/home/FeaturedGuides"))
+const WhyTrustUs          = dynamic(() => import("@/components/home/WhyTrustUs"))
+const FaqPreview          = dynamic(() => import("@/components/home/FaqPreview"))
+const FinalCTA            = dynamic(() => import("@/components/home/FinalCTA"))
 
 export const metadata: Metadata = {
   title: "Inmate Text App: Find Prison Communication Options",
@@ -73,19 +80,21 @@ export default function HomePage() {
           providers → comparisons → facilities → states → counties →
           how it works → guides → trust → faq → cta */}
       <HeroSection />
-      <PopularSearches />
-      <StatsSection />
-      <CommunicationSection />
-      <FeaturedProviders />
-      <FeaturedComparisons />
-      <FeaturedFacilities />
-      <FeaturedStates />
-      <TopCounties />
-      <HowItWorks />
-      <FeaturedGuides />
-      <WhyTrustUs />
-      <FaqPreview />
-      <FinalCTA />
+      <Suspense fallback={null}>
+        <PopularSearches />
+        <StatsSection />
+        <CommunicationSection />
+        <FeaturedProviders />
+        <FeaturedComparisons />
+        <FeaturedFacilities />
+        <FeaturedStates />
+        <TopCounties />
+        <HowItWorks />
+        <FeaturedGuides />
+        <WhyTrustUs />
+        <FaqPreview />
+        <FinalCTA />
+      </Suspense>
     </>
   )
 }

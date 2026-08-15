@@ -100,7 +100,7 @@ export default function FacilityProviders({
                       "mt-auto w-full justify-center text-xs"
                     )}
                   >
-                    Learn More About {provider.name}
+                    View {provider.name} Services
                   </Link>
                 ) : (
                   <span

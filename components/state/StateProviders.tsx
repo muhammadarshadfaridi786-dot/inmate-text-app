@@ -59,7 +59,7 @@ export default function StateProviders({ stateName, providers }: StateProvidersP
                       "w-full justify-center text-xs"
                     )}
                   >
-                    Learn More
+                    View {provider.name} Guide
                   </Link>
                 ) : (
                   <span

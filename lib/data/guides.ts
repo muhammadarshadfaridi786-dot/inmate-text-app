@@ -1489,7 +1489,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-connectnetwork-works": {
     id: "guide-14",
     slug: "how-connectnetwork-works",
-    title: "How ConnectNetwork Works",
+    title: "How ConnectNetwork Works: Complete Guide for Families",
     excerpt: "Learn how ConnectNetwork, operated by Global Tel Link, works for inmate communication across state prisons and county jails.",
     category: "Provider Guides",
     difficulty: "Beginner",
@@ -1499,70 +1499,108 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How ConnectNetwork Works: Inmate Communication Guide",
-    seoDescription: "Learn how ConnectNetwork works for messaging, phone calls, video visits, and money transfers at state prisons and county jails across the US.",
+    seoTitle: "How ConnectNetwork Works: AdvancePay, Messaging, Video Visits and Money Transfer Guide",
+    seoDescription: "Complete guide to ConnectNetwork by GTL for families - how to create an account, set up AdvancePay for phone calls, send messages, schedule video visits, and transfer money. Free step-by-step guide.",
 
     intro: [
-      "ConnectNetwork is a communication platform operated by Global Tel Link (GTL), one of the largest inmate communications companies in the United States. It serves state prisons, county jails, and federal facilities.",
-      "This guide covers how to set up a ConnectNetwork account, what services are available, and how it compares to other platforms.",
+      "ConnectNetwork is the consumer-facing platform operated by GTL, also known as Global Tel Link or ViaPath Technologies. GTL is one of the largest inmate communication companies in the United States, serving over 1,800 correctional facilities across all 50 states. ConnectNetwork is the website and app families use to manage their accounts and stay connected.",
+      "ConnectNetwork handles phone calls through a prepaid system called AdvancePay, messaging at facilities where electronic messaging is available, video visitation, and inmate money transfers. The services available to you depend on which ones your loved one facility has contracted for.",
+      "This guide explains how ConnectNetwork works, how to create your account, how to set up AdvancePay for phone calls, how to send messages, how to schedule video visits, and how to transfer money to an inmate trust account.",
     ],
 
     sections: [
       {
-        heading: "What ConnectNetwork Offers",
+        heading: "What Is ConnectNetwork and Which Facilities Use It",
         body: [
-          "ConnectNetwork offers electronic messaging, phone call account management, video visitation, money transfer to inmate accounts, and at some facilities, photo sharing. It is a multi-service platform, similar to JPay.",
-          "Because GTL is one of the largest prison phone providers, ConnectNetwork is often the platform managing phone accounts at facilities where Securus or another GTL product handles the phones.",
+          "ConnectNetwork is operated by GTL, one of the largest inmate communication and technology companies in the United States. GTL holds contracts with correctional facilities, and ConnectNetwork is the platform families use to access those services. GTL also operates the GettingOut platform, which handles messaging and video visits at some facilities.",
+          "ConnectNetwork serves a wide range of facility types including federal Bureau of Prisons institutions, state prisons, and county jails across all 50 states. It is especially common in county detention centers and federal facilities. If your loved one is in a county jail, ConnectNetwork is one of the most likely platforms you will need.",
+          "The specific services available through ConnectNetwork vary by facility. Your dashboard will show only the services that are actually available at your loved one facility. If phone calls are available but messaging is not, only the phone account option will appear.",
         ],
       },
       {
         heading: "How to Create a ConnectNetwork Account",
         body: [
-          "Go to connectnetwork.com or download the ConnectNetwork app. Register with your email address, full name, and phone number. After registration, search for the inmate by name and facility to add them to your account.",
-          "Contact approval typically requires either the inmate to add you or a brief review period on the platform's end. Setup is similar to JPay and takes about 10 to 15 minutes.",
+          "Go to connectnetwork.com and click on the sign up or create account option. You will need to provide your full name, email address, phone number, and create a password. Account creation is free and takes only a few minutes.",
+          "After creating your account, search for your loved one by facility name and inmate ID number. Once you find and add them to your account, your dashboard will display the services available at their facility.",
+          "ConnectNetwork also has a free mobile app available for iOS and Android. Download the ConnectNetwork app from your app store and log in with your account details. You can manage all services from the app including funding accounts, sending messages, and scheduling video visits.",
+          "If you do not have internet access, you can set up your account over the phone by calling ConnectNetwork customer service. Follow the voice prompts to complete account setup and fund your AdvancePay account.",
         ],
       },
       {
-        heading: "Messaging Through ConnectNetwork",
+        heading: "How to Set Up AdvancePay for Phone Calls",
         body: [
-          "ConnectNetwork messaging works on a credit system. You purchase credits and spend them to send messages. The cost per message varies by facility and state. Credits can be purchased in bundles through the website or app.",
-          "Messages are reviewed before delivery. Delivery time is typically within a few hours to one business day.",
+          "AdvancePay is ConnectNetwork prepaid phone account. You deposit money in advance and funds are deducted each time the inmate calls you. This is the most cost-effective way to receive calls and the most commonly used account type.",
+          "To set up AdvancePay, log in to your ConnectNetwork account and go to the phone account section. Register the phone number where you want to receive calls. Add funds using a credit card, debit card, or Western Union. There are no setup fees for AdvancePay accounts.",
+          "Once your AdvancePay account is funded, the inmate can call your registered phone number from the facility phone. You cannot initiate calls - all calls must be started by the inmate from the facility. When the inmate calls, the call connects automatically and the per-minute rate is deducted from your AdvancePay balance.",
+          "Keep your AdvancePay balance funded to avoid missed calls. If the balance reaches zero, calls cannot connect. You can set up automatic refills through your ConnectNetwork account to ensure your balance stays above a minimum level.",
         ],
       },
       {
-        heading: "Phone Calls and Money Transfers",
+        heading: "How to Send Messages Through ConnectNetwork",
         body: [
-          "Many families use ConnectNetwork primarily to manage their phone account. If the facility's phone calls go through GTL, you set up a prepaid account on ConnectNetwork or the related GTL platform to receive calls at a prepaid rate.",
-          "Money transfers through ConnectNetwork are processed to the inmate's trust account. Processing fees apply. The same inmate ID and legal name requirements apply as with any other platform.",
+          "Electronic messaging through ConnectNetwork is available at facilities that have contracted for this service. If messaging is available, it will appear as an option on your dashboard. If it does not appear, your facility does not offer electronic messaging through ConnectNetwork.",
+          "Log in to your account and go to the messaging section. Select your loved one and click compose to write a new message. Messages are similar to email - text-based with the option to attach photos at some facilities.",
+          "Messages are reviewed by facility staff before delivery. Most messages are delivered within a few hours to one business day depending on the facility review process. The inmate reads and replies through a facility kiosk, tablet, or computer terminal.",
+          "Messaging costs vary by facility. Some facilities charge per message while others use a credit-based system. Check your dashboard for the current pricing at your loved one facility before sending your first message.",
+        ],
+      },
+      {
+        heading: "How to Schedule a Video Visit Through ConnectNetwork",
+        body: [
+          "Video visitation through ConnectNetwork is available at facilities that have contracted for this service. If video visits are available, log in to your account and go to the video visits section. Select your loved one and choose an available date and time slot.",
+          "Review the cost and enter your payment information to complete the booking. You will receive a confirmation of your scheduled visit. At the scheduled time, log in to your ConnectNetwork account or open the app and join the video call.",
+          "Make sure your camera and microphone are working before the visit begins. Test your connection in advance to avoid technical issues during the session. Sessions typically last 20 to 30 minutes and end automatically when the time limit is reached.",
+          "All video visits are recorded and monitored by facility staff. Follow the same content rules that apply to phone calls and in-person visits. Violations can result in visit termination and suspended privileges.",
+        ],
+      },
+      {
+        heading: "How to Send Money Through ConnectNetwork",
+        body: [
+          "ConnectNetwork allows you to deposit money directly to an inmate trust account. This is separate from the AdvancePay phone account. Trust account deposits are used by the inmate for commissary purchases, messaging credits, and other approved expenses.",
+          "Log in to your account and go to the send money or trust account section. Select your loved one, enter the amount, and pay by credit card, debit card, or other accepted payment method. ConnectNetwork charges a transaction fee that varies by amount and payment method.",
+          "Processing times vary by facility. Most deposits are credited to the inmate account within one to three business days. Keep your transaction confirmation number until you confirm the funds have been received.",
         ],
       },
     ],
 
     takeaways: [
-      "ConnectNetwork is operated by Global Tel Link and serves both state prisons and county jails.",
-      "It offers messaging, phone accounts, video visits, and money transfers.",
-      "Credit-based messaging costs vary by facility. Check pricing before purchasing.",
-      "If your facility uses GTL for phone calls, ConnectNetwork manages your phone account.",
-      "Setup takes about 10 to 15 minutes and is similar to JPay's process.",
-      "The ConnectNetwork app is available for iOS and Android.",
+      "ConnectNetwork is operated by GTL and serves over 1,800 facilities across all 50 states including federal prisons, state prisons, and county jails.",
+      "Creating a ConnectNetwork account is free. Go to connectnetwork.com and register with your name, email, and phone number.",
+      "AdvancePay is the prepaid phone account. Fund it before the inmate calls you. You cannot initiate calls - all calls are inmate-initiated.",
+      "Electronic messaging is available at select facilities. Check your dashboard to see if it is offered at your loved one facility.",
+      "Video visits are available at select facilities. Schedule in advance through your ConnectNetwork account or app.",
+      "Money transfers to inmate trust accounts are handled separately from the AdvancePay phone account.",
+      "Download the free ConnectNetwork app for iOS or Android to manage all services from your smartphone.",
     ],
 
     faq: [
       {
-        question: "Is ConnectNetwork the same as GTL?",
-        answer: "GTL (Global Tel Link) is the company that operates ConnectNetwork. You may see both names used interchangeably. The platform is accessed through connectnetwork.com.",
+        question: "How do I set up a ConnectNetwork account?",
+        answer: "Go to connectnetwork.com and click create account. Enter your name, email address, phone number, and create a password. Account creation is free. Then search for your loved one by facility name and inmate ID to add them to your account.",
       },
       {
-        question: "Can I use ConnectNetwork for federal inmates?",
-        answer: "ConnectNetwork does serve some federal facilities but is not the BOP-wide platform. Federal inmates in BOP facilities use CorrLinks for messaging. ConnectNetwork may handle phone or other services at some federal facilities.",
+        question: "What is AdvancePay and how does it work?",
+        answer: "AdvancePay is ConnectNetwork prepaid phone account. You deposit money in advance and the per-minute rate is deducted each time the inmate calls you. Register your phone number, add funds, and the inmate can call you from the facility phone. You cannot call them directly.",
       },
       {
-        question: "What if the facility has both JPay and ConnectNetwork?",
-        answer: "This is rare. Most facilities contract exclusively with one messaging provider. If you are unsure, contact the facility to confirm which platform is used for each service.",
+        question: "Can I send messages through ConnectNetwork?",
+        answer: "Electronic messaging is available at facilities that have contracted for it. Log in to your account and check your dashboard. If messaging appears as an option, it is available at your facility. If it does not appear, your facility does not offer ConnectNetwork messaging.",
       },
       {
-        question: "How do I load money on my ConnectNetwork phone account?",
-        answer: "Log into your ConnectNetwork account, go to the phone section, and add funds using a debit or credit card. The balance is applied to incoming calls from the facility.",
+        question: "How do I send money to an inmate through ConnectNetwork?",
+        answer: "Log in to your account, go to the send money section, select your loved one, enter the amount, and pay by credit or debit card. This deposits funds to the inmate trust account, which is separate from the AdvancePay phone account. Transaction fees apply and vary by amount.",
+      },
+      {
+        question: "Does ConnectNetwork work at federal prisons?",
+        answer: "Yes. ConnectNetwork handles phone calls, video visits, and money transfers at many federal Bureau of Prisons facilities. However, electronic messaging at federal facilities is handled exclusively through CorrLinks, not ConnectNetwork. You may need both accounts if your loved one is in a federal facility.",
+      },
+      {
+        question: "Is there a ConnectNetwork mobile app?",
+        answer: "Yes. ConnectNetwork has a free mobile app available for iOS and Android. Download it from your app store and log in with your account details to manage phone accounts, send messages, schedule video visits, and transfer money from your smartphone.",
+      },
+      {
+        question: "How long does it take for a ConnectNetwork money transfer to arrive?",
+        answer: "Most deposits are credited to the inmate trust account within one to three business days. Keep your transaction confirmation number until you confirm the funds have been received by the inmate.",
       },
     ],
 

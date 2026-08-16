@@ -1668,7 +1668,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "county-jail-vs-state-prison": {
     id: "guide-16",
     slug: "county-jail-vs-state-prison",
-    title: "County Jail vs State Prison",
+    title: "County Jail vs State Prison: Key Differences for Families",
     excerpt: "Learn the differences between county jails and state prisons, who is held in each, how communication works, and which providers are typically used.",
     category: "Facility Types",
     difficulty: "Beginner",
@@ -1678,70 +1678,95 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "County Jail vs State Prison: Key Differences Explained",
-    seoDescription: "Learn the differences between county jails and state prisons. Who is held where, how communication works, which providers are used, and what visitation looks like.",
+    seoTitle: "County Jail vs State Prison: Differences in Communication, Visitation and Providers",
+    seoDescription: "Learn the key differences between county jails and state prisons - who is held where, how long stays last, which communication providers to use, and what changes when someone transfers. Free guide.",
 
     intro: [
-      "County jails and state prisons serve different purposes in the correctional system. Understanding which type of facility your loved one is in affects which communication platforms you need, how visitation works, and what to expect day to day.",
-      "This guide explains the core differences between the two and what those differences mean practically.",
+      "County jails and state prisons are two completely different types of facilities that serve different purposes in the criminal justice system. Understanding which type of facility your loved one is in determines which communication providers you must use, what visitation rules apply, and how long they are likely to stay.",
+      "County jails are operated by local governments - typically a county sheriff. They hold people who are awaiting trial, recently arrested, or serving short sentences of less than one year. State prisons are operated by the state Department of Corrections and hold people who have been convicted and sentenced to longer terms.",
+      "This guide explains the key differences between county jails and state prisons, how communication works in each system, which providers are most common, and what to expect if your loved one transfers from one system to the other.",
     ],
 
     sections: [
       {
-        heading: "Who Is Held in a County Jail",
+        heading: "What Is a County Jail",
         body: [
-          "County jails are operated by county sheriff's offices. They typically hold people who have been recently arrested and are awaiting trial, people serving short sentences of less than one year, and people awaiting transfer to a state or federal facility.",
-          "Because jails hold people at various stages of the legal process, the population changes frequently. Someone may be in the county jail for a few days after arrest or may stay for months while their case goes through the courts.",
+          "A county jail is a local detention facility typically operated by a county sheriff or a city government. Jails serve multiple purposes in the justice system. They hold people who have been recently arrested and are waiting for a bail hearing or arraignment. They house people who cannot afford bail and are awaiting trial. They hold people who have been convicted and are serving sentences of one year or less, usually for misdemeanor offenses.",
+          "Because jails hold people at various stages of the legal process - many of whom have not yet been convicted - the population is highly transient. People may be in a county jail for a few days, a few weeks, or several months depending on how their case progresses.",
+          "County jails vary widely in size and resources. A large urban county jail may hold thousands of people and have extensive programming. A rural county jail may hold a few dozen people with minimal services. The rules, providers, and communication options available at any given jail depend entirely on that jail's contracts and policies.",
         ],
       },
       {
-        heading: "Who Is Held in a State Prison",
+        heading: "What Is a State Prison",
         body: [
-          "State prisons hold people who have been convicted of state-level crimes and sentenced to more than one year. After sentencing, people typically move from county jail to state prison, often spending time at a reception or intake center first.",
-          "State prisons have more stable populations than county jails. Most people in state prison will be there for at least a year and sometimes much longer.",
+          "A state prison is a long-term correctional facility operated by the state Department of Corrections. State prisons hold people who have been convicted of state crimes and sentenced to more than one year of incarceration. Most violent crimes, serious felonies, and drug offenses result in state prison sentences.",
+          "State prisons are classified by security level - minimum, medium, and maximum security. Where an inmate is housed depends on the length of their sentence, the nature of their offense, and their assessed behavior risk. Inmates may be transferred between facilities as their sentence progresses and their security classification changes.",
+          "State prisons are larger and more structured than most county jails. They offer more programming, educational opportunities, and vocational training. Communication systems at state prisons are typically more established and consistent than at county jails.",
         ],
       },
       {
-        heading: "Communication Differences",
+        heading: "Key Differences Between County Jails and State Prisons",
         body: [
-          "County jails tend to use different providers than state prisons. GettingOut and ConnectNetwork are common at county jails. JPay is rare at the county level and more common at state prisons.",
-          "County jail communication rules can also be more restrictive than state prisons during the pretrial phase. Some jails limit messaging during active cases. Check with the specific facility.",
+          "Length of stay is the most fundamental difference. County jails hold people for days, weeks, or months - rarely more than one year. State prisons hold people for years or decades. If your loved one received a sentence of more than one year, they will be transferred from the county jail to a state prison after sentencing.",
+          "Who operates the facility differs significantly. County jails are managed by local government - usually the county sheriff. State prisons are managed by the state Department of Corrections. Each system has its own rules, providers, and procedures that are completely independent of the other.",
+          "Communication providers differ. County jails commonly use ConnectNetwork, GettingOut, Securus, or smaller local providers. State prisons more commonly use JPay or ConnectNetwork depending on the state. You may need to create entirely new accounts when your loved one transfers from jail to prison.",
+          "Programming and services differ. County jails typically offer minimal programming due to the short-term nature of stays. State prisons offer more structured programs including GED courses, vocational training, substance abuse programs, and work assignments.",
+          "Visitation rules also differ. County jails often use video-only visitation even for in-person visits, meaning you sit at a video terminal in the lobby rather than in a traditional visiting room. State prisons more commonly have physical visiting rooms with in-person contact visits.",
         ],
       },
       {
-        heading: "Visitation Differences",
+        heading: "Communication Providers at County Jails vs State Prisons",
         body: [
-          "County jails often have more limited visitation options than state prisons. Many county jails have replaced in-person visitation with video-only visits. State prisons more often still allow in-person contact visits.",
-          "Scheduling and dress code rules apply in both. County jails may have fewer available time slots due to smaller visitation areas and higher staff-to-inmate ratios.",
+          "County jails use a wide variety of communication providers because each jail independently negotiates its own contracts. The most common providers at county jails include ConnectNetwork by GTL, GettingOut by Telmate, Securus Technologies, ICSolutions, and City Tele Coin. Some smaller county jails use regional or local providers.",
+          "State prisons use more consistent providers across their systems. JPay is the most widely used messaging and money transfer platform for state prisons, serving over 35 states. Phone services at state prisons are commonly handled by Securus Technologies, GTL, or ICSolutions depending on the state contract.",
+          "When your loved one transfers from a county jail to a state prison, you will almost certainly need to create new accounts on different platforms. The account and funds you have on the jail platform do not transfer to the prison platform. Contact the new facility to find out which providers they use before setting up new accounts.",
+        ],
+      },
+      {
+        heading: "What Happens When Someone Transfers from Jail to Prison",
+        body: [
+          "After sentencing, most people convicted of felonies are transferred from the county jail to a state correctional facility. This transfer process typically takes between a few days and several weeks after sentencing. Families are often not given advance notice of the exact transfer date.",
+          "During transfer, your loved one may be temporarily unreachable. Communication may be cut off entirely for several days while they move through the intake process at the new facility. This is normal and does not indicate a problem.",
+          "Once they arrive at the new facility and complete intake processing, they will be assigned a new inmate ID number. This new ID number is the one you will use for all communication accounts at the state prison. The old county jail ID number will no longer be active.",
+          "To find out where your loved one has been transferred, use the state Department of Corrections inmate search tool online. The new facility will appear in the search results once intake processing is complete, which typically takes two to five business days.",
         ],
       },
     ],
 
     takeaways: [
-      "County jails hold people awaiting trial or serving short sentences. State prisons hold people sentenced to more than a year.",
-      "Jail populations change frequently. State prison populations are more stable.",
-      "County jails typically use GettingOut or ConnectNetwork. State prisons more often use JPay.",
-      "County jails may have more restrictive communication rules, especially before trial.",
-      "In-person visitation is more common at state prisons. Many county jails are video-only.",
-      "Your loved one may move from county jail to state prison after sentencing.",
+      "County jails are local facilities operated by county sheriffs. They hold people awaiting trial or serving sentences of one year or less.",
+      "State prisons are operated by the state Department of Corrections and hold people serving sentences longer than one year.",
+      "County jail stays are short-term and highly transient. State prison stays are long-term and more structured.",
+      "County jails commonly use ConnectNetwork, GettingOut, or Securus. State prisons more commonly use JPay or ConnectNetwork.",
+      "When your loved one transfers from jail to prison, you will need new accounts on different platforms. Existing funds do not transfer.",
+      "Transfer from jail to prison typically happens within weeks of sentencing. Communication may be unavailable for several days during the transfer.",
+      "Use the state Department of Corrections inmate search to find your loved one after a transfer. A new inmate ID number will be assigned.",
     ],
 
     faq: [
       {
-        question: "How do I know which facility my loved one is currently in?",
-        answer: "If recently arrested, search the county's jail roster. If sentenced, check the state Department of Corrections inmate locator. The population often moves from jail to prison after sentencing.",
+        question: "What is the difference between a county jail and a state prison?",
+        answer: "County jails are local facilities operated by county sheriffs that hold people awaiting trial or serving short sentences of one year or less. State prisons are operated by the state Department of Corrections and hold people serving sentences longer than one year after conviction. They are completely separate systems with different rules, providers, and procedures.",
       },
       {
-        question: "Can I visit someone in county jail before their trial?",
-        answer: "Usually yes, if you are on the approved visitor list. Some jails restrict visitation during active pretrial detention based on the nature of the case. Check with the facility.",
+        question: "Which messaging platform do I use for a county jail?",
+        answer: "County jails use a variety of providers. Common ones include ConnectNetwork, GettingOut, Securus, ICSolutions, and City Tele Coin. Search our facility directory or call the jail directly to find out which specific provider they use.",
       },
       {
-        question: "What happens to communication accounts when someone moves from jail to prison?",
-        answer: "Accounts do not automatically transfer. If the new facility uses a different provider, you will need to set up a new account on the new platform.",
+        question: "Which messaging platform do I use for a state prison?",
+        answer: "State prison providers vary by state. JPay is the most common for state prisons, serving over 35 states. Some states use ConnectNetwork or other providers. Search our facility directory to find the correct provider for your specific facility.",
       },
       {
-        question: "Do county jails have the same communication technology as state prisons?",
-        answer: "Not always. Smaller county jails may have older phone systems and fewer digital options. Larger county jail systems in major metros often have robust communication technology.",
+        question: "How do I find out if my loved one is in a county jail or state prison?",
+        answer: "If they were recently arrested and have not yet been sentenced, they are likely in a county jail. If they have been convicted and sentenced to more than one year, they are likely in or heading to a state prison. Use the county sheriff website to search for jail inmates or the state Department of Corrections website to search for state prison inmates.",
+      },
+      {
+        question: "When does someone transfer from county jail to state prison?",
+        answer: "Transfer typically happens within weeks of sentencing. The exact timing varies by state and facility capacity. You are usually not given advance notice of the transfer date. During the transfer, communication may be unavailable for several days while the inmate completes intake processing at the new facility.",
+      },
+      {
+        question: "Do my existing accounts and funds transfer when my loved one moves from jail to prison?",
+        answer: "No. Accounts and funds on county jail platforms do not transfer to state prison platforms. You will need to create new accounts on the providers used by the new facility. Contact the new facility after transfer to confirm which providers they use before setting up new accounts.",
       },
     ],
 

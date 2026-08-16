@@ -1916,7 +1916,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-photo-sharing-works-for-inmates": {
     id: "guide-18",
     slug: "how-photo-sharing-works-for-inmates",
-    title: "How Photo Sharing Works for Inmates",
+    title: "How Photo Sharing Works for Inmates: Complete Guide for Families",
     excerpt: "Learn how to send photos to an incarcerated loved one, which platforms handle photo sharing, how photos are reviewed, and what formats are accepted.",
     category: "How It Works",
     difficulty: "Beginner",
@@ -1926,70 +1926,109 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How Photo Sharing Works for Inmates: Complete Guide",
-    seoDescription: "Learn how to send photos to someone in prison. Covers platforms like Pigeonly and TextBehind, the review process, accepted formats, and typical costs.",
+    seoTitle: "How to Send Photos to an Inmate: Rules, Services, Sizes and What Is Allowed",
+    seoDescription: "Learn how to send photos to someone in prison or jail - which services to use, what size and content rules apply, how to avoid rejection, and the easiest way to get photos delivered. Free guide.",
 
     intro: [
-      "Sending photos to an incarcerated person requires a specific process. You cannot email or text photos to someone in prison. Photos must be sent through an approved platform that handles review, printing, and delivery.",
-      "This guide explains how photo sharing works, which platforms to use, what gets accepted, and what it costs.",
+      "Sending photos to an incarcerated loved one is one of the most meaningful ways to stay connected. Seeing family photos, special moments, and everyday life helps incarcerated people feel remembered and supported. However, sending photos to a prison or jail is not as simple as mailing an envelope - every facility has specific rules, and photos that do not comply are rejected and often disposed of without being returned.",
+      "Most facilities do not allow digital photos to be sent directly by email. Instead, photos must either be mailed as physical prints following strict size and content rules, or uploaded through an approved photo service that handles printing and delivery on your behalf.",
+      "This guide explains how photo sharing works for inmates, what rules apply, which services make the process easiest, and how to avoid the most common reasons photos get rejected.",
     ],
 
     sections: [
       {
-        heading: "How Photo Delivery Works",
+        heading: "How Photos Reach an Inmate",
         body: [
-          "Photos sent to inmates go through one of two delivery methods. The first is digital delivery, where the inmate views the photo on a tablet or terminal screen. The second is print-and-deliver, where the platform prints the photo and delivers a physical copy to the inmate.",
-          "Not all facilities support digital photo delivery. Print-and-deliver services like Pigeonly and TextBehind work at most facilities because the output is a physical print, which goes through the same mail handling as a standard letter.",
+          "Photos reach an inmate through one of two main paths. The first is direct mail - you print the photo yourself, place it in an envelope with a letter, and mail it to the facility. The second is through a photo service - you upload your photo online, and the service prints and mails it to the facility on your behalf.",
+          "Some facilities require that photos come only from approved vendors or services, not directly from family members. At these facilities, you cannot mail photos yourself regardless of whether they meet size and content rules. Check your loved one facility policy before attempting to send photos directly.",
+          "Regardless of how photos are sent, all mail is opened and inspected by facility mailroom staff before it reaches the inmate. Photos are reviewed for content compliance. Photos that violate facility rules are rejected and typically disposed of - they are not returned to the sender.",
         ],
       },
       {
-        heading: "Which Platforms Handle Photo Sharing",
+        heading: "Photo Rules and Size Requirements",
         body: [
-          "Pigeonly is a dedicated photo and mail service for inmates. You upload photos through the website or app, and Pigeonly prints and mails them to the facility. Prices are typically $1 to $3 per photo.",
-          "TextBehind offers a similar print-and-deliver service for photos and letters. JPay allows photo attachments to messages at participating facilities for an extra charge. ConnectNetwork also supports photo messages at select facilities.",
+          "Size requirements are strictly enforced at most facilities. The most common accepted photo sizes are 4 by 6 inches and 5 by 7 inches. Some facilities also accept up to 8 by 10 inches. Instant-print photos such as Polaroid style prints may be prohibited at some facilities due to their thickness and backing.",
+          "Photos must be printed on plain white photo paper. Colored paper, textured paper, cardstock, and glossy paper that is unusually thick may be rejected. Write the inmate full legal name and ID number on the back of each photo in pencil or light pen in case it becomes separated from the envelope.",
+          "Most facilities limit the number of photos that can be sent in a single envelope. The most common limit is five photos per envelope. Some facilities allow up to ten. Sending more than the allowed number in one envelope typically results in the entire envelope being rejected, not just the extra photos.",
+          "Do not write on, draw on, or add stickers to the front of photos. Some facilities prohibit any markings on the front of the image. Keep the photo surface clean and unmodified.",
         ],
       },
       {
-        heading: "What Photos Are Accepted",
+        heading: "What Content Is and Is Not Allowed in Photos",
         body: [
-          "Most facilities reject photos that are sexually explicit, show nudity, depict violence or criminal activity, or show security-sensitive areas like facility entrances. Photos must typically be standard print sizes such as 4x6.",
-          "Polaroids, photos with stickers or glitter, photos with writing on the back, and photos sent in envelopes with staples or tape may be rejected depending on the facility's mail rules. Check the facility's photo policy before uploading.",
+          "Content rules vary by facility but most share common prohibitions. Photos showing nudity or sexually explicit content are prohibited at all correctional facilities. This includes photos that are suggestive even if not explicitly nude.",
+          "Photos showing weapons, drugs, alcohol, gang symbols, or illegal activity are prohibited. Photos showing the inmate themselves may be prohibited at some facilities - some rules state that photos of the inmate cannot be sent back in to avoid other inmates obtaining images of them.",
+          "Photos showing the outside of a correctional facility, security features, or any content that could compromise facility security will be rejected. Photos of children are permitted at most facilities but must show the child in appropriate, modest clothing.",
+          "Photos depicting hate symbols, extremist content, or anything that could incite violence or violate facility rules will be rejected and may result in mail restriction for the sender. When in doubt, choose simple family photos showing everyday moments, celebrations, and people the inmate knows.",
         ],
       },
       {
-        heading: "Digital Photo Attachments",
+        heading: "How to Send Photos Yourself by Mail",
         body: [
-          "At facilities with JPay or ConnectNetwork digital messaging, you can attach photos to messages. The photo is reviewed electronically before being displayed on the inmate's terminal or tablet screen.",
-          "Digital attachments cost extra stamps or credits depending on the platform. Image quality requirements vary. Most platforms accept standard smartphone photo formats (JPEG, PNG) and resize automatically.",
+          "If your facility allows direct mail from family members, follow these steps. Print the photo at standard size - 4 by 6 inches is the safest universal size. Use a home printer or a photo printing service at a pharmacy or retail store.",
+          "Write the inmate full legal name and ID number lightly on the back of each photo. Place the photos in a plain white envelope. Do not use colored envelopes, padded envelopes, or manila envelopes unless the facility specifically permits them.",
+          "Address the envelope with the inmate full name and ID number on the first line, followed by the facility mailing address. Some facilities use a PO Box for mail processing that is different from the physical address - use the mailing address listed on the facility website.",
+          "Include a brief letter if the facility allows it, or send the photos alone if the facility requires photos to be sent separately from mail. Do not include any prohibited items in the same envelope as photos.",
+        ],
+      },
+      {
+        heading: "Photo Services That Handle Printing and Delivery",
+        body: [
+          "Several services specialize in printing and mailing photos to inmates. These services allow you to upload photos from your phone or computer, and they handle printing, addressing, and mailing on your behalf. This is the easiest option for families who are not sure about facility rules or who want to avoid mail errors.",
+          "Pigeonly is one of the most widely used photo services for inmates. You upload your photos, Pigeonly prints them to facility-compliant specifications, and mails them directly to the facility. Pigeonly maintains rules for thousands of facilities and automatically formats your photos to meet the requirements.",
+          "TextBehind is another service that handles both letters and photos. You upload your content and TextBehind prints and delivers it as physical mail. TextBehind is especially useful at facilities that do not allow mail from private addresses and require all mail to come through an approved vendor.",
+          "Using a service typically costs between $0.49 and $1.50 per photo depending on the service and the number of photos ordered. The convenience and compliance assurance often make this the most practical choice, particularly for first-time senders or facilities with strict vendor-only mail policies.",
+        ],
+      },
+      {
+        heading: "Digital Photo Attachments Through Messaging Platforms",
+        body: [
+          "Some inmate messaging platforms such as JPay allow photo attachments to be sent digitally as part of a message. This is separate from physical mail and works only at facilities that have enabled digital photo sharing through that platform.",
+          "Digital photo attachments through JPay require an additional stamp per photo. Photos are reviewed by facility staff through the platform before they are delivered to the inmate tablet or kiosk. Not all facilities with JPay messaging also have JPay photo sharing enabled.",
+          "ConnectNetwork and GettingOut also offer digital photo sharing at some facilities. Check your account dashboard to see whether photo attachments are available as an option at your loved one facility. If it appears as an option, it is available. If it does not appear, it is not offered there.",
         ],
       },
     ],
 
     takeaways: [
-      "You cannot email or text photos directly to inmates. A platform must handle the process.",
-      "Print-and-deliver services like Pigeonly work at most facilities because the result is physical mail.",
-      "Digital photo attachments are available at facilities with JPay or ConnectNetwork messaging.",
-      "Photos go through a review process and can be rejected for content or format violations.",
-      "Prices for print-and-deliver photos typically range from $1 to $3 per photo.",
-      "Check the facility's photo policy before using any service to avoid rejected submissions.",
+      "Photos must be mailed as physical prints or uploaded through an approved service. You cannot email photos directly to a facility.",
+      "Some facilities require photos to come from approved vendors only. Check the facility policy before attempting to mail photos yourself.",
+      "The safest photo size is 4 by 6 inches. Most facilities accept this size and it is the most common standard.",
+      "Most facilities limit five photos per envelope. Sending more may result in the entire envelope being rejected.",
+      "Prohibited content includes nudity, weapons, drugs, gang symbols, and content that could compromise facility security.",
+      "Photo services like Pigeonly and TextBehind handle printing and delivery for you and are formatted to meet facility rules automatically.",
+      "Some messaging platforms like JPay allow digital photo attachments at select facilities for an additional stamp per photo.",
+      "Write the inmate full legal name and ID number lightly on the back of each photo before mailing.",
     ],
 
     faq: [
       {
-        question: "Can I send photos taken on my phone?",
-        answer: "Yes. Most photo sharing platforms accept uploads from your phone camera. The platform resizes and formats the photo before printing or delivering it.",
+        question: "Can I email photos directly to someone in prison?",
+        answer: "No. Correctional facilities do not accept photos by standard email. Photos must be sent as physical prints by mail, through an approved photo service, or as digital attachments through an approved messaging platform such as JPay where that feature is available.",
       },
       {
-        question: "How long does it take for a printed photo to arrive?",
-        answer: "Print-and-deliver photos typically take 5 to 10 business days to arrive, depending on the service and the facility's mail processing time.",
+        question: "What size photos can I send to an inmate?",
+        answer: "The most commonly accepted size is 4 by 6 inches. Some facilities also accept 5 by 7 and up to 8 by 10 inches. Check the specific facility rules before printing. When in doubt, use 4 by 6 - it is the safest universal option.",
       },
       {
-        question: "Are there limits on how many photos I can send?",
-        answer: "Some facilities limit the total number of photos an inmate can receive per month. Check with the facility or the platform for specific limits.",
+        question: "How many photos can I send at one time?",
+        answer: "Most facilities limit five photos per envelope. Some allow up to ten. Sending more than the allowed number typically results in the entire envelope being rejected. Check the facility mail policy for the exact limit.",
       },
       {
-        question: "What happens if a photo is rejected?",
-        answer: "The platform may notify you of the rejection. Some platforms refund the cost. Others do not. The facility is not required to explain the specific reason for a rejection.",
+        question: "What photos are not allowed in prison?",
+        answer: "Prohibited photos typically include nudity or sexually suggestive content, weapons, drugs, alcohol, gang symbols, illegal activity, the outside of the facility or its security features, and any content that could threaten facility security. Content rules vary by facility so check the specific policy.",
+      },
+      {
+        question: "What is the easiest way to send photos to an inmate?",
+        answer: "Using a photo service like Pigeonly or TextBehind is the easiest option. You upload your photos online or through an app, and the service handles printing, addressing, and mailing to the facility. These services maintain current rules for thousands of facilities and format photos to meet requirements automatically.",
+      },
+      {
+        question: "Can I send photos through JPay?",
+        answer: "JPay allows digital photo attachments at some facilities as part of their messaging system. Each photo requires an additional stamp. Not all JPay facilities have photo sharing enabled. Check your JPay dashboard - if photo attachment appears as an option, it is available at your facility.",
+      },
+      {
+        question: "What happens if a photo is rejected by the facility?",
+        answer: "Rejected photos are typically disposed of by facility mailroom staff. They are usually not returned to the sender. To avoid rejection, follow the facility size and content rules carefully, or use a photo service that handles compliance for you.",
       },
     ],
 

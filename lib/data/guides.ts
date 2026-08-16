@@ -913,7 +913,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "prison-visitation-rules": {
     id: "guide-09",
     slug: "prison-visitation-rules",
-    title: "Prison Visitation Rules",
+    title: "Prison Visitation Rules: Complete Guide for First-Time Visitors",
     excerpt: "Learn the general rules for visiting someone in prison or jail, including how to get approved, what to wear, what to bring, and what to expect.",
     category: "Visitation",
     difficulty: "Beginner",
@@ -923,76 +923,111 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Prison Visitation Rules: What You Need to Know Before You Visit",
-    seoDescription: "Learn how to get approved for prison visitation, what to bring, what to wear, and what to expect during your first visit. Covers both in-person and video visits.",
+    seoTitle: "Prison Visitation Rules: Approval Process, Dress Code, ID Requirements and What to Expect",
+    seoDescription: "Complete guide to prison visitation rules - how to get approved as a visitor, what ID to bring, what to wear, what you can and cannot bring inside, and what to expect on visiting day. Free guide.",
 
     intro: [
-      "Visiting someone in prison requires advance approval and preparation. Rules vary by facility, but most follow the same general framework for who can visit, how to get approved, and what is allowed during the visit.",
-      "This guide covers the key steps to becoming an approved visitor, what to expect on the day, and how to avoid common mistakes that can end a visit early.",
+      "Visiting a loved one in prison requires advance preparation. Every correctional facility has specific rules for visitors, and not following them can result in being turned away at the entrance. Rules vary by facility and security level, but the core requirements are consistent across most systems.",
+      "Before your first visit, you must be approved and placed on the inmate visiting list. Approval takes time and requires submitting personal information and in some cases passing a background check. You cannot simply show up at a facility and ask to visit without prior approval.",
+      "This guide covers the visitor approval process, what identification you need, dress code rules, what you can and cannot bring inside, what happens at the entrance, and what to expect during the visit itself.",
     ],
-
     sections: [
       {
-        heading: "How to Get Approved as a Visitor",
+        heading: "How to Get Approved as a Prison Visitor",
         body: [
-          "Most facilities require visitors to submit an application before visiting for the first time. The inmate usually initiates this by adding your name to their visitor list. The facility then runs a background check on you.",
-          "People with certain criminal records, active warrants, or outstanding fines may be denied as visitors. Results typically take 2 to 4 weeks. Some facilities accept same-day visits after approval, but most require scheduling.",
-          "Bring a valid government-issued photo ID on the day of the visit. The name on your ID must exactly match the name you used on your application. Expired IDs are generally not accepted.",
+          "Getting on an inmate visiting list is a required first step before any visit can take place. The process begins with the inmate, who submits your name and contact information to the facility for approval. You cannot add yourself to the list directly.",
+          "After the inmate submits your information, you may be required to complete a visitor application form. The form asks for your full legal name, date of birth, address, relationship to the inmate, and consent for a background check. Some facilities mail the form to you while others require you to complete it online.",
+          "Background check results affect approval. A felony conviction does not automatically disqualify you from visiting in most systems, but it can. Certain offenses, particularly crimes against children or crimes at the same facility, are more likely to result in denial. Contact the facility if you have concerns about your background before submitting an application.",
+          "Approval processing time varies by facility. Most approvals take between two and six weeks. Some facilities process faster and some take longer. Do not plan a visit until you have received written confirmation that you are approved. Showing up before approval is confirmed will result in being turned away.",
         ],
       },
       {
-        heading: "What to Wear",
+        heading: "What Identification You Need to Visit",
         body: [
-          "Dress codes at correctional facilities are strict and vary by location. Most prohibit clothing in the same colors as inmate uniforms, typically orange, tan, beige, or all-white. Revealing clothing, camouflage, and clothing with offensive text or graphics are also usually prohibited.",
-          "Wear comfortable, modest clothing. Avoid underwire bras, as metal detectors will flag them and may create problems at the entry checkpoint. Many facilities provide specific dress code guidelines on their website.",
+          "All visitors must present a valid government-issued photo ID at the entrance. Acceptable forms of ID at most facilities include a state-issued driver's license, a state ID card, a passport, a military ID, or an immigration document issued by a federal agency.",
+          "Expired identification is generally not accepted. Make sure your ID is current before your visit. If your ID has recently expired or your name has changed, contact the facility in advance to ask what documentation they will accept.",
+          "Minors visiting with a parent or legal guardian who is on the approved visitor list typically do not need their own ID. However, if a minor is being brought by an adult who is not their parent or legal guardian, additional documentation such as a notarized permission statement may be required.",
+          "Some facilities may also require your vehicle registration or insurance card for the parking area. Check with the facility before your visit to confirm exactly what documents you need to bring.",
         ],
       },
       {
-        heading: "What to Bring and What to Leave Behind",
+        heading: "Prison Visitor Dress Code Rules",
         body: [
-          "Leave almost everything in your car or at home. Most facilities allow only a government-issued ID, a limited amount of cash (often in coins for vending machines), car keys, and approved items for infants if applicable.",
-          "Do not bring phones, cameras, smartwatches, food, drinks, bags, or personal medications unless specifically approved in advance. Items brought in without permission can result in the visit being terminated and your visitor status revoked.",
+          "Every correctional facility enforces a dress code for visitors. Clothing that resembles inmate uniforms is almost universally prohibited. This typically means avoiding khaki, tan, orange, or gray clothing depending on what the facility uses for inmate uniforms. Call ahead to confirm the restricted colors for the specific facility you are visiting.",
+          "Revealing clothing is not permitted. This includes low-cut tops, clothing that exposes the midriff, shorts or skirts more than three inches above the knee, see-through fabrics, sleeveless shirts at some facilities, and form-fitting clothing such as leggings or yoga pants at many facilities.",
+          "Underwire bras can trigger metal detectors and may be flagged during security screening. Some facilities explicitly allow them while others ask visitors to wear a non-underwire bra. Check the facility dress code in advance if this is a concern.",
+          "Open-toed shoes are prohibited at many facilities. Excessive jewelry should be left at home as it may trigger metal detectors and could be confiscated or require you to return to your vehicle. Hooded sweatshirts or jackets with hoods are restricted at some facilities.",
+          "If you arrive wearing clothing that violates the dress code, you will be turned away and will need to return another day. When in doubt, call the facility or check their website for the specific dress code before your visit.",
+        ],
+      },
+      {
+        heading: "What You Can and Cannot Bring Inside",
+        body: [
+          "Most facilities allow visitors to bring a small amount of cash or coins for vending machines in the visiting area. This is typically limited to $20 to $40 in coins or small bills depending on the facility. Cash must be carried in a clear plastic bag. No wallets, purses, or bags are allowed inside beyond what the facility specifically permits.",
+          "Cell phones, cameras, recording devices, and electronic devices of any kind are prohibited inside most correctional facilities. Leave these in your locked vehicle before entering. Some facilities have lockers at the entrance for storing personal items.",
+          "Food and drinks from outside are not permitted inside. Vending machines are typically available in the visiting area and you can purchase snacks there for both yourself and the inmate in most facilities.",
+          "Children may bring a small number of approved items such as diapers, a clear bag of snacks, or a change of clothes. These must be in clear plastic bags and are subject to inspection. Check with the facility for specific rules about children's items before your visit.",
+        ],
+      },
+      {
+        heading: "What Happens at the Entrance",
+        body: [
+          "Arrive early. Processing takes time and late arrivals may miss their visiting window or lose their spot. Plan to arrive at least 30 minutes before the scheduled visit start time.",
+          "At the entrance, you will present your ID and sign in. Staff will verify that you are on the approved visitor list and confirm the visit is scheduled. If anything does not match - your name, the ID, or your approval status - the visit may be denied.",
+          "You will pass through a metal detector. Some facilities also use pat-down searches, body scanners, or ion scanners to detect traces of drugs or other substances. Refusing a search means you will not be allowed to enter.",
+          "After clearing security, you will be directed to the visiting area. You may need to wait before the inmate arrives. The inmate is notified of your arrival and is brought to the visiting area by staff.",
         ],
       },
       {
         heading: "What to Expect During the Visit",
         body: [
-          "You will pass through a security checkpoint with a metal detector and possibly a pat-down search. This is standard and applies to all visitors. Allow extra time, especially for your first visit.",
-          "Visits take place in a designated visitation room or area. Contact visits allow limited physical contact such as a brief hug at the start and end. Non-contact visits take place through a glass partition. Rules on contact vary by facility and security level.",
-          "Visits last anywhere from 30 minutes to several hours depending on the facility and the inmate's status. You may be asked to leave early if the facility goes on lockdown for security reasons. This is not related to anything you or the inmate did.",
+          "Physical contact rules vary by facility and security level. Most facilities allow a brief hug and kiss at the beginning and end of the visit. Extended physical contact is not permitted and staff will intervene if the rules are violated.",
+          "Conversation is not private. All visiting room conversations are monitored and may be recorded. Do not discuss anything related to the inmate legal case, ongoing investigations, other people inside the facility, or anything that could be interpreted as planning for a violation of rules.",
+          "Visit lengths are set by the facility. Most visits last between one and three hours. Some facilities have fixed visit windows and others allow flexible timing within a daily visiting period. The visit ends when the time limit is reached or when staff determine it is over.",
+          "If a visit is terminated early by staff due to a rule violation, the visitor may be banned from future visits. Serious violations can result in a permanent ban at that facility.",
         ],
       },
     ],
 
     takeaways: [
-      "You must be on the inmate's approved visitor list before you can visit.",
-      "Background checks are standard and can take 2 to 4 weeks.",
-      "Bring only a valid government-issued ID and the limited items explicitly permitted.",
-      "Follow the dress code carefully. Violations can prevent entry.",
-      "Security checkpoints with metal detectors apply to all visitors without exception.",
-      "Visits can be cut short by facility lockdowns, which are outside your control.",
+      "You must be approved and placed on the inmate visiting list before your visit. This process takes two to six weeks and begins with the inmate submitting your information.",
+      "Bring a valid government-issued photo ID. Expired IDs are not accepted.",
+      "Follow the dress code strictly. Arriving in prohibited clothing means being turned away.",
+      "Leave cell phones, cameras, wallets, and personal bags in your locked vehicle.",
+      "Only bring approved cash in a clear plastic bag for vending machines. Amounts are typically limited to $20 to $40.",
+      "Arrive early. Processing takes time and late arrivals may miss their visit window.",
+      "All conversations in the visiting room are monitored and may be recorded.",
+      "Physical contact is limited to a brief hug and kiss at the start and end of the visit.",
     ],
 
     faq: [
       {
-        question: "Can children visit someone in prison?",
-        answer: "Yes, in most cases. Children must be accompanied by an adult, who must be an approved visitor. Some facilities require children to be separately listed as visitors. Check the facility's rules for minors.",
+        question: "How do I get on the visiting list for a prison?",
+        answer: "The inmate must submit your name and contact information to the facility to begin the approval process. You may then be required to complete a visitor application form and consent to a background check. You cannot add yourself to the list directly.",
       },
       {
-        question: "What if I am denied as a visitor?",
-        answer: "You can typically appeal a denial by contacting the facility's visiting office. The denial reason matters. Background check results, active warrants, or falsified application information are harder to appeal than administrative errors.",
+        question: "What ID do I need to visit someone in prison?",
+        answer: "You need a valid government-issued photo ID. Acceptable forms include a driver's license, state ID card, passport, military ID, or immigration document. Expired IDs are not accepted. Check with the facility for their specific requirements before your visit.",
       },
       {
-        question: "Can I bring food or drinks?",
-        answer: "Generally, no. Most facilities do not allow outside food. Vending machines in visiting areas may be available. Some facilities allow small amounts of cash to use those machines.",
+        question: "What should I wear to visit someone in prison?",
+        answer: "Wear modest, non-revealing clothing that does not resemble inmate uniforms. Avoid the colors used for inmate clothing at that facility - call ahead to confirm. Avoid shorts or skirts more than three inches above the knee, see-through fabric, form-fitting clothing, and excessive jewelry. When in doubt, call the facility before your visit.",
       },
       {
-        question: "What happens if I wear the wrong thing?",
-        answer: "You will likely be turned away at the checkpoint and not allowed to visit that day. Some facilities have spare coveralls or clothing you can change into, but this is not standard. Check the dress code before every visit.",
+        question: "Can I bring my phone into a prison visit?",
+        answer: "No. Cell phones, cameras, and electronic devices are prohibited inside correctional facilities. Leave your phone in your locked vehicle before entering. Do not attempt to bring any electronic device inside.",
       },
       {
-        question: "How often can I visit?",
-        answer: "Visitation frequency limits vary by facility and the inmate's behavior status. A typical allowance is one to two visits per week, with limits on the total number of visitors per session.",
+        question: "Can I bring food or drinks to a prison visit?",
+        answer: "No. Outside food and drinks are not permitted inside visiting areas. Most facilities have vending machines in the visiting room where you can purchase snacks and drinks for yourself and the inmate. You can bring approved cash in a clear plastic bag for vending machine use.",
+      },
+      {
+        question: "Can I hug someone during a prison visit?",
+        answer: "Most facilities allow a brief hug and kiss at the beginning and end of the visit. Extended physical contact is not permitted and staff will intervene. Contact rules vary by facility and security level, so check the specific facility policy before your visit.",
+      },
+      {
+        question: "What happens if I violate visiting rules?",
+        answer: "Minor violations may result in a warning or termination of the visit. Serious violations can result in a temporary or permanent ban from visiting that facility. The inmate may also face disciplinary action as a result of visitor rule violations.",
       },
     ],
 

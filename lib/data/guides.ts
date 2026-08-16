@@ -824,7 +824,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "inmate-tablets-explained": {
     id: "guide-08",
     slug: "inmate-tablets-explained",
-    title: "Inmate Tablets Explained",
+    title: "Inmate Tablets Explained: What They Are, What They Cost, and How Families Can Help",
     excerpt: "Learn what inmate tablets are, which platforms offer them, what features they include, and how families can communicate through tablet-based messaging.",
     category: "How It Works",
     difficulty: "Beginner",
@@ -834,70 +834,105 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Inmate Tablets Explained: What They Are and How They Work",
-    seoDescription: "Learn what inmate tablets are, which communication platforms offer them, what features are available, and how families can message through tablet systems.",
+    seoTitle: "Inmate Tablets Explained: JPay Tablets, What Is on Them, Costs and How to Send Money",
+    seoDescription: "Learn how inmate tablets work at prisons and jails - what JPay and GTL tablets include, what services cost, how families send money for tablet use, and which facilities have tablet programs.",
 
     intro: [
-      "Inmate tablets are restricted devices provided to incarcerated people by communication providers under contract with correctional facilities. They are not standard consumer devices. The platform controls which features are available and monitors all activity.",
-      "This guide explains how tablet programs work, what features they typically include, and what it means for family communication.",
+      "Inmate tablets are secure electronic devices provided to incarcerated people at facilities that have contracted with a tablet program provider. They allow inmates to send and receive messages, make video calls, download entertainment and educational content, and in some facilities access legal resources and file grievances - all from inside the facility without internet access.",
+      "Tablets are most commonly provided through JPay, which is owned by Securus Technologies, or through GTL ViaPath Technologies through their ConnectNetwork platform. The devices use a secure internal network managed by the provider and do not have open internet access.",
+      "This guide explains how inmate tablet programs work, what services and content are available on them, what things cost, and how families can send money to support their loved one tablet use.",
     ],
 
     sections: [
       {
-        heading: "What Inmate Tablets Are",
+        heading: "What Are Inmate Tablets and How Do They Work",
         body: [
-          "Inmate tablets are purpose-built or modified consumer devices loaded with approved apps from the provider's platform. Common providers of tablet programs include JPay, GTL, Securus, and ConnectNetwork. The facility chooses the provider, and the provider supplies the devices.",
-          "The device is typically assigned to a specific inmate and linked to their account. They cannot download apps, access the general internet, or use the device for anything outside what the platform permits.",
+          "Inmate tablets are secure electronic devices distributed to incarcerated people at facilities that participate in a tablet program. The devices are provided by companies under contract with the facility or state Department of Corrections. Common providers include JPay, which operates under Securus Technologies and Aventiv Technologies, and GTL ViaPath Technologies.",
+          "The tablets connect to a secure internal network inside the facility. They do not have open internet access - inmates cannot browse websites, use social media, or access any external services outside of what the provider has approved and loaded onto the device.",
+          "Tablets must sync to a facility kiosk periodically to remain active. Some facilities require syncing every 30 days. If an inmate does not sync their device, it may lock and become unusable until the sync is completed.",
+          "Access to tablets can be restricted or revoked as a disciplinary measure. Facilities use tablet access as an incentive for good behavior. Inmates who receive disciplinary infractions may temporarily or permanently lose access to their device.",
         ],
       },
       {
-        heading: "What Features Are Available",
+        heading: "What Is Available on an Inmate Tablet",
         body: [
-          "Features vary by provider and facility contract but commonly include digital messaging, email-style communication with approved contacts, access to music and e-books purchased through the platform store, educational programming and GED prep materials, and in some cases video calls.",
-          "All communication features are monitored. Music and reading materials are often sold at a premium through the provider's store. The tablet replaces physical access to these things, not a free supplement to it.",
+          "Most inmate tablets come with a mix of free and paid content. Free content typically includes some educational materials, religious texts, law library access, facility handbooks, and a limited number of ebooks or other resources provided at no cost.",
+          "Paid content includes electronic messaging, video calls, music downloads, movie rentals or purchases, games, additional ebooks, and premium educational programs. Each of these services is charged separately through a credit or stamp system linked to the inmate media account.",
+          "Electronic messaging through the tablet works similarly to messaging through the provider website. Families send messages through JPay or ConnectNetwork as normal, and the inmate reads and replies on their tablet rather than at a shared kiosk. Photo attachments and VideoGrams may also be available depending on the facility.",
+          "Video calls on tablets allow inmates to initiate calls to approved contacts without needing to use a shared video terminal or schedule in advance at some facilities. Families receive the call through the provider app on their smartphone. Costs are charged per minute or per session.",
         ],
       },
       {
-        heading: "How Tablets Affect Family Communication",
+        heading: "How Much Does Inmate Tablet Use Cost",
         body: [
-          "If the facility uses a tablet program, the inmate may be able to message from their cell or bunk instead of using a shared terminal. This can mean more frequent and longer messages. Some tablets also support video calls directly from the unit.",
-          "From the family side, communication still goes through the same provider platform you would use otherwise. You do not need to do anything differently to communicate with someone who has a tablet. The same account, credits, and contact approval process applies.",
+          "The tablet device itself is often provided free of charge to the inmate under the facility contract. The provider recoups costs through usage fees paid by inmates and their families for content and services.",
+          "Electronic messaging typically costs between $0.25 and $0.50 per message depending on the state and facility contract. Photo attachments cost additional stamps or credits per image. VideoGrams, which are short video messages, cost several stamps each.",
+          "Music and entertainment downloads are charged per song, per album, or per rental. Prices vary by provider and contract but are generally comparable to standard retail digital media pricing or higher. Games and additional educational programs are also charged separately.",
+          "The costs families absorb can add up significantly if messaging, video calls, and entertainment are all being used regularly. Setting a monthly budget and communicating it with your loved one can help manage costs and avoid unexpected charges to your account.",
         ],
       },
       {
-        heading: "Costs and Controversies",
+        heading: "How Families Send Money for Tablet Use",
         body: [
-          "Tablet programs are often criticized for charging high prices for basic services like e-books and music that the inmate must pay for through their trust account. In some programs, the tablet itself is provided free but all content costs money.",
-          "Advocacy groups have raised concerns that tablet programs shift communication costs heavily onto incarcerated people and their families. If cost is a concern, check the provider's full fee schedule before relying on the tablet as the primary communication channel.",
+          "To use paid services on the tablet, the inmate needs funds in their media account or trust account depending on how the facility structures payments. Families send money through the same platform that manages the tablet - typically JPay for JPay tablet facilities or ConnectNetwork for GTL tablet facilities.",
+          "Log in to your JPay or ConnectNetwork account and look for the option to send money to your loved one. Select the appropriate account type - some facilities separate the inmate trust account used for commissary from the media account used for tablet content. Make sure you are funding the correct account.",
+          "Transaction fees apply when sending money. These fees vary by provider and the amount sent. Keep your confirmation number until you confirm the funds have been received. Processing times vary but most deposits are credited within one to three business days.",
+          "Some facilities allow families to send money by mailing a money order in addition to online transfers. Check the facility website for current accepted payment methods and addresses.",
+        ],
+      },
+      {
+        heading: "Which Facilities Have Tablet Programs",
+        body: [
+          "Tablet programs are widespread but not universal. Most large state prison systems have contracted with a tablet provider, but availability varies by state and individual facility. County jails are less likely to have tablet programs than state prisons, though some larger county facilities do offer them.",
+          "JPay tablets are available in many state systems including Florida, Georgia, Michigan, Indiana, Colorado, New Jersey, New York, and others. GTL ViaPath tablet programs are available in California through the CDCR system and various other states.",
+          "The federal Bureau of Prisons also operates a tablet program. Federal inmates can access messaging and some entertainment content through facility tablets managed under the TRULINCS system.",
+          "To find out whether your loved one facility has a tablet program, search our facility directory or call the facility directly. If a tablet program is available, the facility or provider will explain how to send money and how messaging works through the device.",
+        ],
+      },
+      {
+        heading: "What Happens to the Tablet When an Inmate Is Released or Transferred",
+        body: [
+          "When an inmate is released from a facility, the tablet typically goes with them in states where the device is considered the inmate property under the program contract. Pennsylvania, for example, allows released inmates to keep their tablet. However, content linked to the secure facility network may no longer be accessible after release.",
+          "When an inmate transfers to a different facility, the situation depends on whether the new facility uses the same provider. If the new facility uses the same provider, the tablet and its content usually transfer with the inmate. If the new facility uses a different provider, the old tablet may need to be mailed home or turned in.",
+          "Families should be aware that when a state switches tablet providers - which happens when contracts expire and are renegotiated - all content on the old platform may be lost. Photos, messages, and purchased media from the previous provider are not always transferable to the new system.",
         ],
       },
     ],
 
     takeaways: [
-      "Inmate tablets are locked-down devices provided by the facility's contracted communication provider.",
-      "Features include messaging, music, e-books, education, and sometimes video calls.",
-      "All tablet activity is monitored just like all other inmate communication.",
-      "Families communicate through the same platform as always. No change is needed on your end.",
-      "Content on tablets is often sold at a premium through the provider's store.",
-      "Not all facilities have tablet programs. Availability depends on the provider contract.",
+      "Inmate tablets are secure devices provided through facility contracts with companies like JPay or GTL ViaPath. They do not have open internet access.",
+      "Most tablets offer free basic content and paid services including messaging, video calls, music, movies, and games.",
+      "Electronic messaging through the tablet costs between $0.25 and $0.50 per message depending on the facility.",
+      "Families send money through the provider platform - typically JPay or ConnectNetwork - to fund the inmate media or trust account for tablet use.",
+      "Tablet access can be restricted as a disciplinary measure. Facilities use it as an incentive for good behavior.",
+      "Tablet programs are available at most large state prison systems but are less common at county jails.",
+      "When a facility switches providers, content from the old platform may be lost and cannot transfer to the new system.",
     ],
 
     faq: [
       {
-        question: "Can I send my loved one a tablet?",
-        answer: "No. Tablets in prison programs are provided and controlled by the communication provider contracted with the facility. Outside devices are not permitted.",
+        question: "What can an inmate do on a prison tablet?",
+        answer: "Inmate tablets allow messaging, video calls, music downloads, movie rentals, games, access to educational programs, law library resources, and in some facilities the ability to file grievances and check trust account balances. Free content varies by facility and provider. Most entertainment and communication services cost additional credits or stamps.",
       },
       {
-        question: "Does having a tablet mean inmates have internet access?",
-        answer: "No. Tablets do not provide general internet access. They connect only to the provider's controlled network, which limits access to approved content and communication tools.",
+        question: "How do I send money for my loved one to use on their tablet?",
+        answer: "Log in to the provider platform your facility uses - typically JPay or ConnectNetwork. Find the option to send money and select the correct account type for tablet use - this may be labeled as a media account or trust account depending on the facility. Transaction fees apply and funds are usually credited within one to three business days.",
       },
       {
-        question: "Who pays for the tablet?",
-        answer: "In most programs, the tablet device itself is provided at no cost or a subsidized cost. Ongoing services such as messaging credits, music, and e-books are paid for through the inmate's trust account.",
+        question: "Is the tablet free for the inmate?",
+        answer: "The tablet device itself is often provided free of charge to the inmate under the facility contract. However, most content and services on the tablet - including messaging, video calls, music, and entertainment - cost credits or stamps that must be purchased. The device is free but using it is not.",
       },
       {
-        question: "What happens to the tablet when an inmate is released?",
-        answer: "The tablet remains the property of the provider. It is collected by the facility upon release. Some providers allow inmates to purchase the device or transfer their account at release.",
+        question: "Can I video call my loved one on their tablet?",
+        answer: "Some tablet programs allow inmates to initiate video calls through the device. You would receive the call through the provider app on your smartphone. Not all facilities enable this feature. Check with the facility or look at your provider dashboard to see if tablet video calls are available.",
+      },
+      {
+        question: "What happens to the tablet if my loved one is transferred?",
+        answer: "If the new facility uses the same provider, the tablet and content usually transfer. If the new facility uses a different provider, the tablet may need to be mailed home or turned in. When a state switches providers entirely, content from the old platform may not transfer to the new system.",
+      },
+      {
+        question: "Does my loved one facility have a tablet program?",
+        answer: "Most large state prison systems have tablet programs but availability varies. Search our facility directory or call the facility directly to confirm whether a tablet program is available and which provider manages it.",
       },
     ],
 

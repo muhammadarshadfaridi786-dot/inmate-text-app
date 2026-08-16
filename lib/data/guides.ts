@@ -990,7 +990,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-jpay-works": {
     id: "guide-10",
     slug: "how-jpay-works",
-    title: "How JPay Works",
+    title: "How JPay Works: Complete Guide for Families of State Prison Inmates",
     excerpt: "A complete guide to JPay, the most widely used inmate communication platform for state prisons, covering messaging, video, money transfer, and account setup.",
     category: "Provider Guides",
     difficulty: "Beginner",
@@ -1000,74 +1000,110 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How JPay Works: Complete Guide to JPay Inmate Communication",
-    seoDescription: "Learn how JPay works for inmate communication. Covers account setup, messaging stamps, video visits, money transfers, and the JPay mobile app.",
+    seoTitle: "How JPay Works: Stamps, Messaging, Money Transfer, Video Visits Setup Guide",
+    seoDescription: "Complete guide to JPay for families - how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state prisons. Free step-by-step guide.",
 
     intro: [
-      "JPay is one of the most widely used inmate communication platforms in the United States, serving families with loved ones in state prison systems across dozens of states.",
-      "This guide explains how JPay works, how to create an account, what services are available, and what everything costs.",
+      "JPay is the most widely used inmate communication platform in the United States, serving over 35 states and more than 1,000 correctional facilities. If your loved one is in a state prison, JPay is the most likely platform you will need to use for messaging, money transfers, and video visits.",
+      "JPay operates through a virtual stamp system. You purchase stamps in advance and use them to send messages and photos to your loved one. The inmate reads and replies through a JPay tablet or kiosk inside the facility. Everything goes through the JPay platform and is subject to facility review.",
+      "This guide explains how to create a JPay account, how the stamp system works, how to send your first message, how to transfer money, and how to schedule a video visit.",
     ],
 
     sections: [
       {
-        heading: "What JPay Offers",
+        heading: "What Is JPay and Which Facilities Use It",
         body: [
-          "JPay provides electronic messaging, video visitation, money transfers to inmate trust accounts, and in facilities with tablet programs, access to digital content such as music and e-books.",
-          "Not every service is available at every facility. A facility may have JPay for money transfers but not for messaging, or vice versa. When you look up a facility on JPay, it will show which services are active there.",
+          "JPay is a privately held inmate communication company that contracts with state departments of corrections to provide messaging, money transfers, video visitation, and tablet-based services to incarcerated people and their families. JPay is owned by Securus Technologies.",
+          "JPay serves facilities in over 35 states including Florida, Georgia, Michigan, Colorado, Indiana, and many others. The services available through JPay vary by state and facility. Not every JPay facility offers every service - messaging may be available where video visits are not, and vice versa.",
+          "JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. If you are unsure whether your loved one facility uses JPay, search our facility directory or visit jpay.com and search by the inmate name and state.",
         ],
       },
       {
-        heading: "How to Set Up a JPay Account",
+        heading: "How to Create a JPay Account",
         body: [
-          "Go to jpay.com or download the JPay app on iOS or Android. Create an account with your name, email address, and a password. Find the inmate by searching their name, inmate ID, and state. Once located, add them to your account.",
-          "For messaging, the first contact request may need to be sent by the inmate from their end or through the facility's registration process. Follow the instructions on the platform after adding the inmate.",
+          "Go to jpay.com and click on the sign up or register option. On the homepage, you will see a search section where you can enter the state and the inmate correctional ID number. Enter this information and select your loved one from the results.",
+          "Once you have found the inmate, you will be prompted to create your account. Enter your name, email address, and create a password. Agree to the terms of service and complete the registration process. Account creation is free.",
+          "After creating your account, you will be taken to your dashboard which shows all available services for your loved one at their specific facility. Services shown on your dashboard are the ones actually available at that facility. If a service does not appear, it is not offered at that location.",
+          "JPay also has a free mobile app available for iOS and Android. Download the JPay app from your app store, log in with your account details, and you can access all services from your smartphone.",
         ],
       },
       {
-        heading: "How JPay Messaging Works",
+        heading: "How JPay Stamps Work",
         body: [
-          "JPay uses a stamp system for messaging. You purchase stamps through the platform and use one stamp per message sent. Stamps typically cost $0.33 to $0.47 depending on the state and current pricing.",
-          "Messages are reviewed before delivery. Most messages arrive within a few hours. You can attach photos to messages for an additional charge. Photo attachments go through the same review process as text messages.",
+          "JPay uses a virtual stamp system for messaging. You purchase stamps in advance and use them to send messages and photo attachments. Each standard text message requires one stamp. Photo attachments require an additional stamp per photo.",
+          "Stamp prices vary by state and bundle size. Stamps typically cost between $0.09 and $0.47 each depending on the state and the bundle you purchase. Larger bundles cost less per stamp. Some states set fixed stamp prices while others allow JPay to set their own rates.",
+          "To buy stamps, log in to your JPay account, go to the email section, and click buy stamps. Select the bundle size and pay by credit card or debit card. Stamps are added to your account immediately after purchase and do not expire.",
+          "Some facilities provide inmates with a small number of free stamps each month - typically four stamps per month. These free stamps reset on the first of each month and do not accumulate if unused.",
         ],
       },
       {
-        heading: "Money Transfers Through JPay",
+        heading: "How to Send a JPay Message",
         body: [
-          "JPay is one of the most common platforms for sending money to inmate trust accounts. You can send money online, through the app, or by phone. A processing fee applies and typically ranges from $4.95 to $11.95 depending on the transfer amount and method.",
-          "Funds typically reach the inmate's account within a few hours for online transfers. Money sent by money order or check takes longer. Always use the correct inmate ID and legal name to avoid rejected transfers.",
+          "Log in to your JPay account or open the JPay app. Select your loved one from your contact list. Click compose or write email and type your message in the text field. Messages can be up to 6,000 characters in most states.",
+          "To attach a photo, use the attachment option and upload your image. Each photo attachment uses one additional stamp. Photos are subject to review and must meet facility content guidelines. Rejected photos will not be delivered and stamps used for rejected content are typically not refunded.",
+          "Click preview to see how your message looks before sending. When ready, click send and confirm the stamp cost. Your message is submitted and enters the facility review queue.",
+          "Most JPay messages are delivered within 24 to 48 hours after submission. Some facilities deliver faster and some take longer depending on review volume. The inmate receives the message on their JPay tablet or at a kiosk in the facility.",
+        ],
+      },
+      {
+        heading: "How to Send Money Through JPay",
+        body: [
+          "Log in to your JPay account and go to the send money section. Select your loved one and enter the amount you want to send. JPay accepts credit cards, debit cards, and in some cases cash at JPay kiosks at the facility.",
+          "JPay charges a transaction fee for money transfers. Fees vary by state, transfer amount, and payment method. Fees typically range from $0.95 to $4.95 per transaction. Some states have negotiated lower fees. Check the fee schedule on the jpay.com website before sending.",
+          "Money sent through JPay goes directly to the inmate trust account. The inmate can use these funds to purchase commissary items, buy additional JPay stamps, pay for phone calls, and cover other approved expenses.",
+          "Processing times for JPay money transfers vary. Most transfers are credited to the inmate account within one to three business days. Some facilities process transfers the same day.",
+        ],
+      },
+      {
+        heading: "How to Schedule a JPay Video Visit",
+        body: [
+          "Log in to your JPay account and go to the video section if it is available for your loved one facility. Not all JPay facilities offer video visitation. If the video option does not appear on your dashboard, the facility does not currently offer this service.",
+          "Select an available date and time from the scheduling calendar. Review the cost and enter your payment information. You will receive a confirmation of the scheduled visit.",
+          "At the scheduled time, log in to JPay on your computer or through the JPay app on your smartphone or tablet. Make sure your camera and microphone are working before the visit begins. Join the call at the scheduled time and wait for the inmate to connect from the facility terminal.",
+          "JPay video visits typically cost between $7.50 and $12.99 per session depending on the facility. Sessions are usually 20 to 30 minutes long. All video visits are recorded and monitored by facility staff.",
         ],
       },
     ],
 
     takeaways: [
-      "JPay serves state prison systems. Federal prisons use CorrLinks, not JPay.",
-      "Services vary by facility. Check the JPay site to see what is available for your loved one.",
-      "Messaging uses a stamp system at $0.33 to $0.47 per stamp.",
-      "Money transfers carry processing fees of $4.95 to $11.95.",
-      "The JPay mobile app is available for iOS and Android.",
-      "Always use the inmate's full legal name and correct ID number for all transactions.",
+      "JPay serves over 35 states and more than 1,000 correctional facilities. It is the most widely used state prison communication platform.",
+      "JPay does not serve federal prisons. Federal inmates use CorrLinks for messaging.",
+      "Creating a JPay account is free. Go to jpay.com, search by the inmate state and ID number, and register.",
+      "JPay uses a stamp system. Each message costs one stamp. Stamps typically cost between $0.09 and $0.47 depending on the state and bundle.",
+      "Messages are delivered within 24 to 48 hours and go to the inmate JPay tablet or facility kiosk.",
+      "Money sent through JPay goes to the inmate trust account and can be used for commissary, stamps, and phone calls.",
+      "Video visits are available at select facilities and typically cost $7.50 to $12.99 per session.",
+      "Download the free JPay app for iOS or Android to manage all services from your smartphone.",
     ],
 
     faq: [
       {
+        question: "How do I set up a JPay account?",
+        answer: "Go to jpay.com, enter the state and the inmate correctional ID number, and select your loved one from the results. Then create your free account by entering your name, email address, and a password. Account creation is free and takes only a few minutes.",
+      },
+      {
+        question: "How much do JPay stamps cost?",
+        answer: "Stamp prices vary by state and bundle size. Stamps typically cost between $0.09 and $0.47 each. Larger bundles cost less per stamp. Check the buy stamps section of your JPay account to see current pricing for your loved one facility.",
+      },
+      {
+        question: "How long does it take for a JPay message to arrive?",
+        answer: "Most JPay messages are delivered within 24 to 48 hours after submission. Delivery depends on the facility review process. Some facilities are faster and some take longer. There is no way to expedite delivery.",
+      },
+      {
+        question: "Can I send photos through JPay?",
+        answer: "Yes. JPay allows photo attachments. Each photo requires one additional stamp per image. Photos are reviewed by facility staff before delivery. Content that violates facility rules will be rejected and the stamps used may not be refunded.",
+      },
+      {
         question: "Does JPay work for federal prisons?",
-        answer: "No. Federal Bureau of Prisons facilities use CorrLinks, not JPay. JPay is only for state prisons and some county facilities.",
+        answer: "No. JPay serves state prisons and does not work for federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. If you are unsure whether your loved one is in a federal or state facility, check the Bureau of Prisons inmate locator at bop.gov.",
       },
       {
-        question: "How many stamps do I need?",
-        answer: "One stamp covers one standard text message. Photo attachments require additional stamps. Purchase a small bundle first to test the system before buying in bulk.",
+        question: "How do I send money through JPay?",
+        answer: "Log in to your JPay account, go to the send money section, select your loved one, enter the amount, and pay by credit or debit card. JPay charges a transaction fee that varies by state and amount. Funds are typically credited to the inmate trust account within one to three business days.",
       },
       {
-        question: "What happens to unused stamps if my loved one is transferred?",
-        answer: "Stamps are typically tied to your JPay account, not the inmate's location. If the new facility also uses JPay, your stamps should still be usable. Contact JPay support if you encounter issues after a transfer.",
-      },
-      {
-        question: "Can I use JPay for video visits?",
-        answer: "JPay offers video visitation at participating facilities. Not all JPay facilities have video available. Check the facility's page on JPay to confirm.",
-      },
-      {
-        question: "Is the JPay app free?",
-        answer: "Yes, the JPay app is free to download. You pay for stamps, transfers, and any other services you use through the app.",
+        question: "Is there a JPay mobile app?",
+        answer: "Yes. JPay has a free mobile app available for iOS and Android. Download the JPay app from your app store and log in with your account details to access messaging, money transfers, and video visits from your smartphone.",
       },
     ],
 

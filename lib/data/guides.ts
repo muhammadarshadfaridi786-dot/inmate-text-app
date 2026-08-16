@@ -1400,7 +1400,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-to-set-up-inmate-email": {
     id: "guide-13",
     slug: "how-to-set-up-inmate-email",
-    title: "How to Set Up Inmate Email",
+    title: "How to Set Up Inmate Email: Step-by-Step Guide for Families",
     excerpt: "A step-by-step guide to creating an inmate email account, finding the right platform, getting approved as a contact, and sending your first message.",
     category: "Getting Started",
     difficulty: "Beginner",
@@ -1410,41 +1410,68 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How to Set Up Inmate Email: Step-by-Step Account Setup Guide",
-    seoDescription: "Learn how to set up inmate email step by step. Find the right platform, create your account, get approved as a contact, and send your first message.",
+    seoTitle: "How to Set Up Inmate Email: JPay, CorrLinks, ConnectNetwork Account Setup Guide",
+    seoDescription: "Step-by-step guide to setting up inmate email - how to create an account on JPay, CorrLinks, or ConnectNetwork, find your loved one, get approved, buy credits, and send your first message.",
 
     intro: [
-      "Setting up inmate email takes about 15 minutes once you know which platform the facility uses. The process involves creating an account, finding the inmate, and going through a contact approval step before you can exchange messages.",
-      "This guide walks through every step in order.",
+      "Setting up inmate email is not the same as creating a regular email account. You cannot simply send a message to a prison address. You must create an account on the specific platform your loved one facility uses, find your loved one in the system, get approved as a contact, purchase messaging credits, and then send your first message.",
+      "The platform you need depends entirely on which facility your loved one is in. Federal Bureau of Prisons facilities use CorrLinks. Most state prisons use JPay. County jails and some state prisons use ConnectNetwork or GettingOut. Using the wrong platform means you will not be able to find your loved one in the system.",
+      "This guide walks you through the complete setup process for each major platform, step by step, so you can start communicating as quickly as possible.",
     ],
 
     sections: [
       {
-        heading: "Step 1: Find Out Which Platform to Use",
+        heading: "Step One: Find Out Which Platform Your Facility Uses",
         body: [
-          "You cannot use regular email to contact someone in prison. You need the platform the facility has contracted with. The most common platforms are JPay for state prisons, CorrLinks for federal prisons, ConnectNetwork for many state and county facilities, and GettingOut for county jails.",
-          "Look up the facility on this site or call the facility directly to confirm which platform they use. Creating an account on the wrong platform wastes time and will not get any messages through.",
+          "Before creating any account, confirm which messaging platform your loved one facility uses. The fastest way is to search our facility directory - find the facility by name and the provider information will be listed on the facility page.",
+          "You can also call the facility directly and ask which electronic messaging provider they use. Have the inmate full name and ID number ready before you call. Facility reception staff can usually confirm the messaging provider quickly.",
+          "If your loved one is in a federal Bureau of Prisons facility, the answer is always CorrLinks. No other messaging platform is approved for BOP facilities. If they are in a state prison, JPay is the most common but not universal. If they are in a county jail, ConnectNetwork or GettingOut are the most likely options.",
         ],
       },
       {
-        heading: "Step 2: Create Your Account",
+        heading: "How to Set Up a JPay Email Account",
         body: [
-          "Go to the platform's website or download their app. Sign up with your email address, a password, your full legal name, and a valid phone number for verification. Use your real name. This information may be checked against your approved contact status.",
-          "For CorrLinks, do not create an account yet. The inmate must send you an invitation first. Your account is created during the acceptance process.",
+          "Go to jpay.com. On the homepage, find the sign up section and enter the state where your loved one is incarcerated along with their correctional ID number. Select your loved one from the search results to link their profile to your account.",
+          "Enter your personal information including your full name, email address, and create a password. Agree to the terms of service and complete registration. Account creation is free. You will receive a confirmation email - click the link to verify your account.",
+          "After your account is verified, log in and go to the email section of your dashboard. Click buy stamps to purchase messaging credits. Each message requires one stamp. Stamp prices vary by state and bundle size but typically cost between $0.09 and $0.47 each.",
+          "Once you have stamps, click compose to write your first message. Type your message, preview it to confirm the stamp cost, and click send. Your message will enter the facility review queue and typically arrive within 24 to 48 hours.",
+          "Download the free JPay app for iOS or Android to manage your account from your smartphone. The app provides the same features as the website and is often more convenient for checking messages on the go.",
         ],
       },
       {
-        heading: "Step 3: Find the Inmate and Request Contact",
+        heading: "How to Set Up a CorrLinks Email Account for Federal Inmates",
         body: [
-          "Once registered, search for the inmate by their full legal name, inmate ID number, and facility. If you have their inmate ID, this is the fastest lookup. Add them to your contacts on the platform.",
-          "Most platforms require both sides to approve contact before messaging can begin. Depending on the platform, you may need to submit a contact request that the inmate accepts, or the inmate may need to initiate first. CorrLinks always requires the inmate to send the first invitation.",
+          "CorrLinks works differently from all other platforms. You cannot start the process yourself. The inmate must first log in to a TRULINCS terminal at the facility, enter your name and email address, and submit a contact request. CorrLinks will then send an invitation email to you.",
+          "Check your inbox for an email from CorrLinks. It may take several hours to arrive. Check your spam folder if you do not see it within 24 hours. Do not delete this email - it contains the link you need to create your account.",
+          "Click the link in the invitation email. You will be directed to the CorrLinks registration page. Create a username and password and complete your account profile. Account creation is completely free for outside contacts.",
+          "Once your account is created, accept the contact request from the inmate. After both sides confirm the connection, you can begin exchanging messages. There is no cost to send or receive messages as an outside contact. The inmate pays a usage fee on their end.",
+          "Enable email alerts during account setup so you receive a notification at your personal email address whenever the inmate sends you a new message. Without alerts, you would need to check CorrLinks manually to know if you have received a message.",
         ],
       },
       {
-        heading: "Step 4: Purchase Credits and Send Your First Message",
+        heading: "How to Set Up a ConnectNetwork Email Account",
         body: [
-          "Once approved, purchase messaging credits or stamps. Do not buy a large bundle until you confirm the system works. Start with a small purchase, write a short test message, and wait for the delivery confirmation.",
-          "Most messages arrive within a few hours. If you do not hear back within a few days, confirm the platform is active at that facility and that the inmate's account is in good standing.",
+          "Go to connectnetwork.com and click create account. Enter your full name, email address, and phone number and create a password. Account creation is free. Verify your account through the confirmation email.",
+          "After logging in, go to My Facilities and select the state and facility from the dropdown menus. Add the facility to your account. Then go to My Inmates and search for your loved one by name or inmate ID number. Add them to your account.",
+          "Once your loved one is added, your dashboard will show the services available at their facility. If messaging is available, you will see it as an option. Purchase messaging credits through the platform and compose your first message.",
+          "ConnectNetwork also has a free mobile app for iOS and Android. Download the app and log in with your account details to access messaging and other services from your smartphone.",
+        ],
+      },
+      {
+        heading: "How to Set Up a GettingOut Account",
+        body: [
+          "GettingOut is common at county jails and uses an invitation model similar to CorrLinks at some facilities. The inmate may need to add you as a contact first, or you may be able to create an account and search for them directly depending on the facility.",
+          "Go to gettingout.com or download the GettingOut app. Create a free account with your name, email, and phone number. Search for your loved one by facility name and inmate ID or name. If the facility requires the inmate to initiate contact, you will need to wait for their invitation.",
+          "Once connected, you can send messages and in some cases schedule video visits through the same account. GettingOut is known for its mobile app which is generally well-reviewed and easy to use.",
+        ],
+      },
+      {
+        heading: "Common Problems When Setting Up Inmate Email",
+        body: [
+          "Using the wrong inmate ID is the most common problem. The ID used for messaging accounts is the facility-assigned inmate number, not a court case number, booking number, or social security number. Confirm the correct ID directly with your loved one or the facility before creating your account.",
+          "Not receiving the CorrLinks invitation email is a frequent issue. Ask your loved one to confirm the exact email address they submitted. One wrong character means the invitation goes to a non-existent address. If the address was correct, check your spam folder before asking them to resubmit.",
+          "Your loved one not appearing in a platform search usually means you are on the wrong platform for their facility, or you are searching with incorrect information. Double-check the facility name and the inmate ID before concluding they are not in the system.",
+          "Stamps or credits not working after purchase is often caused by a delay in account verification. Make sure your account email is verified before purchasing credits. If stamps disappear without sending a message, contact the platform customer service with your transaction confirmation number.",
         ],
       },
     ],

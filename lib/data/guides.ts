@@ -1678,7 +1678,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "prison-phone-call-costs": {
     id: "guide-15",
     slug: "prison-phone-call-costs",
-    title: "Why Prison Phone Calls Are So Expensive",
+    title: "Why Prison Phone Calls Are So Expensive: The Complete Explanation",
     excerpt: "Understand why prison phone calls cost more than regular calls, how FCC regulations have changed pricing, and how to reduce what you spend.",
     category: "Money and Accounts",
     difficulty: "Beginner",
@@ -1688,71 +1688,107 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Why Prison Phone Calls Are So Expensive: Cost Guide",
-    seoDescription: "Learn why prison phone calls cost so much, how provider contracts and facility fees inflate prices, and what FCC caps mean for what you actually pay.",
+    seoTitle: "Why Are Prison Phone Calls So Expensive: FCC Rates, Commissions and Reform Explained",
+    seoDescription: "Learn why prison phone calls cost so much - how facility commissions drive up prices, what the FCC has done to limit rates, which states have the cheapest rates, and how families can reduce costs.",
 
     intro: [
-      "Prison phone calls have historically cost far more than regular calls. A 15-minute call that would be free on a smartphone can cost $5 to $15 when placed from a correctional facility.",
-      "This guide explains why the costs are so high, what has changed under recent FCC regulations, and how to reduce what you spend on phone communication.",
+      "Prison phone calls are among the most expensive telephone services in the United States. A call that would cost a few cents per minute on a standard phone plan can cost several times more when placed from a correctional facility. For families who depend on regular calls to stay connected with an incarcerated loved one, these costs add up quickly and place a significant financial burden on people who are often already struggling.",
+      "The high cost of prison phone calls is not accidental. It is the result of a system where phone companies compete for facility contracts not by offering the lowest prices to users, but by offering the highest payments to the facilities themselves. Understanding how this system works explains why prices are so high and what has been done - and not yet done - to bring them down.",
+      "This guide explains why prison phone calls cost so much, how the rate-setting process works, what the FCC has done to regulate costs, and practical steps families can take to reduce their phone costs as much as possible.",
     ],
 
     sections: [
       {
-        heading: "Why the Costs Are So High",
+        heading: "How the Prison Phone System Works",
         body: [
-          "Prison phone providers operate under contracts with correctional facilities. These contracts often include a site commission, meaning a portion of every call's revenue goes back to the facility. Facilities use this income for various purposes including inmate programs.",
-          "Because the facility selects one provider through an exclusive contract, there is no market competition at the consumer level. The inmate and their family have no choice but to use whatever provider the facility has contracted with, regardless of price.",
+          "When a correctional facility decides which phone company to use, it issues a contract to one provider for an exclusive agreement. The provider installs phone equipment throughout the facility, manages the calling system, and handles billing. In exchange for this exclusive contract, the provider pays the facility a share of the revenue generated from calls - this payment is called a site commission.",
+          "The site commission is the root cause of high prison phone rates. Providers competing for contracts offer higher and higher commissions to win the business. To cover these commission payments and still generate profit, providers charge higher rates to callers. The facility benefits financially from the arrangement while the families making calls bear the cost.",
+          "Commissions have historically been very high - in some cases reaching 60 percent or more of call revenue going back to the facility. This means that for every dollar a family spends on a prison phone call, more than half was being paid to the facility as a commission before any profit was taken by the phone company.",
+          "This system created an incentive structure where facilities were financially motivated to choose the provider offering the highest commission rather than the one offering the best service or lowest cost to families. Families had no choice in the matter - they had to use whatever provider held the contract.",
         ],
       },
       {
-        heading: "What the FCC Has Done",
+        heading: "What the FCC Has Done to Regulate Prison Phone Rates",
         body: [
-          "The Federal Communications Commission has worked to cap interstate prison call rates. As of recent rulemakings, per-minute interstate rates are capped at $0.21 for prisons and $0.12 for jails. These caps apply to calls that cross state lines.",
-          "Intrastate calls, which stay within one state, have historically been harder to regulate at the federal level. Some states have enacted their own caps. Others have not. If the facility and the caller are in the same state, federal caps may not apply.",
+          "The Federal Communications Commission has regulatory authority over telephone services and has been working to address prison phone rates for many years. The process has been slow due to legal challenges from phone providers and limitations on the FCC authority over in-state calls.",
+          "For interstate calls - calls made between two different states - the FCC has established rate caps that limit how much providers can charge. The current rate caps limit charges to $0.21 per minute for calls from prisons and $0.13 per minute for calls from jails for interstate calls. The FCC also prohibited certain add-on fees for interstate calls.",
+          "For in-state calls - calls within the same state - the FCC authority was legally challenged for years. Providers argued that in-state call rates were outside federal jurisdiction and subject only to state regulation. This left in-state rates largely unregulated at the federal level for a long period, allowing them to remain much higher than interstate rates in many states.",
+          "The FCC has continued to expand its regulations to address in-state rates and to extend its rules to cover video calling services, which had previously been unregulated and were often priced even higher than phone calls. The regulatory landscape continues to evolve as advocates push for broader rate caps and elimination of commissions entirely.",
         ],
       },
       {
-        heading: "Understanding the Full Cost",
+        heading: "How Rates Vary by State and Facility",
         body: [
-          "The per-minute rate is only one part of the cost. Connection fees, account setup fees, payment processing fees, and maintenance fees can add $1 to $3 per call on top of the per-minute charge.",
-          "A 15-minute call at $0.21 per minute costs $3.15 in rate. With a $3.00 connection fee and a $1.50 payment processing fee from loading funds, the effective cost per call can reach $7.65 or more.",
+          "Prison phone rates vary significantly depending on the state, the type of facility, and the specific contract in place. Some states have taken action beyond federal requirements to reduce costs for families. A small number of states and counties have eliminated commissions entirely and now offer free or very low-cost calls.",
+          "States and counties that have moved toward free or low-cost calls include New York City, which eliminated charges for calls from city jails, San Francisco, and a growing number of county systems where local governments decided to absorb the cost of communication rather than charge families.",
+          "In states with no additional regulation beyond federal minimums, in-state rates can still be significantly higher than the federal interstate cap. Families calling a loved one in a facility within the same state may pay more per minute than families calling across state lines, which is counterintuitive but reflects the regulatory gap that existed for years.",
+          "The specific rate you pay depends on the facility contract currently in place. Rates change when contracts expire and are renegotiated. A rate that applied last year may be different from the rate today if a new contract was awarded to a different provider or at different terms.",
         ],
       },
       {
-        heading: "How to Reduce Costs",
+        heading: "Additional Fees That Increase the Total Cost",
         body: [
-          "Use a prepaid account instead of collect calls. Prepaid accounts almost always offer lower per-minute rates and more transparent fees than collect billing.",
-          "Load funds in larger amounts when possible. Some providers charge a flat processing fee per deposit regardless of the amount. Depositing $50 at once costs less per dollar than depositing $10 five times.",
-          "If digital messaging is available at the facility, it is significantly cheaper than phone calls for most communication. A JPay stamp costs less than $0.50. A 15-minute phone call can cost ten times that.",
+          "The per-minute rate is not always the full cost of a prison phone call. Providers have historically charged a variety of additional fees that increased the total bill significantly. These included connection fees charged at the start of every call regardless of length, account setup fees, account maintenance fees, fees for adding money to an account, and fees for receiving paper statements.",
+          "The FCC regulations have prohibited many of these additional fees for interstate calls. Connection fees, account setup fees, and certain other add-on charges are no longer allowed for calls between states under FCC rules. However, some fees may still apply to in-state calls depending on state regulations.",
+          "Payment processing fees are still common. When families add money to a prepaid phone account, the provider typically charges a fee for the transaction. These fees vary by provider and payment method. Paying by credit card may incur a higher fee than paying by another method. Always check the fee schedule before adding funds.",
+          "Inactivity fees charged for accounts that have not been used in a certain period are another cost families may encounter. If you do not receive calls for an extended time and your account balance is reduced by inactivity fees, contact the provider customer service to request a fee waiver or to close the account and request a refund of any remaining balance.",
+        ],
+      },
+      {
+        heading: "What Families Can Do to Reduce Phone Call Costs",
+        body: [
+          "Use a prepaid account rather than collect calls. Prepaid calling accounts consistently offer lower per-minute rates than collect calls billed to your phone line. Setting up a prepaid account with the facility phone provider before the first call will save money on every subsequent call.",
+          "Add money in larger amounts when possible. Some providers charge a flat transaction fee per deposit regardless of the amount added. Adding a larger amount less frequently means you pay the transaction fee less often, reducing your overall cost per minute.",
+          "Check whether your state has any rate assistance programs. Some states have programs that help low-income families access prison phone services at reduced rates. Contact your state Department of Corrections or a local prison family advocacy organization to ask about any assistance available in your state.",
+          "Consider video visits as an alternative for some calls. Video visits are sometimes cheaper per minute than phone calls at certain facilities, especially if the facility offers free or reduced-cost video sessions. Compare the cost of phone calls versus video visits at your specific facility.",
+          "Stay informed about rate changes. Contracts expire and new ones are awarded. When a facility switches providers or a new contract is negotiated, rates may change - sometimes significantly lower. Check your provider account periodically for any rate change notifications.",
+        ],
+      },
+      {
+        heading: "Prison Phone Reform and Advocacy",
+        body: [
+          "The issue of prison phone costs has attracted significant advocacy attention over the past two decades. Organizations including the Prison Policy Initiative, the Worth Rises advocacy group, and various civil rights organizations have pushed for regulatory reform at both the federal and state level.",
+          "The campaign for lower prison phone rates has achieved meaningful progress. The FCC rate caps for interstate calls were a direct result of sustained advocacy. The expansion of those rules to cover in-state calls and video services represented further progress. The movement toward free calls in some jurisdictions reflects what advocates argue should be the standard everywhere.",
+          "Advocates argue that charging families for communication with incarcerated people is counterproductive to public safety. Research shows that maintaining family connections reduces recidivism - the rate at which released people return to prison. If high phone costs reduce contact, the argument goes, they ultimately cost society more than they save.",
+          "The reform effort is ongoing. Families who want to support this work can contact their elected representatives, support advocacy organizations working on this issue, and share their personal experiences with the cost of staying connected.",
         ],
       },
     ],
 
     takeaways: [
-      "Prison call costs are high because providers hold exclusive contracts with facilities, removing market competition.",
-      "Site commissions paid to facilities from call revenue add to the total cost.",
-      "FCC caps apply to interstate calls at $0.21 per minute for prisons and $0.12 for jails.",
-      "Fees beyond the per-minute rate can double or triple the effective cost per call.",
-      "Prepaid accounts offer better rates than collect call billing.",
-      "Digital messaging is a much cheaper alternative for non-urgent communication.",
+      "Prison phone calls are expensive because providers pay facilities a commission from call revenue, and those commissions are covered by charging families higher rates.",
+      "The FCC has capped interstate call rates at $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates have historically been less regulated.",
+      "Additional fees including connection fees, account fees, and payment processing fees can add significantly to the total cost beyond the per-minute rate.",
+      "Use a prepaid account rather than collect calls to get the lowest available per-minute rate.",
+      "A small number of states and counties have eliminated phone call charges entirely. This number is growing as advocacy efforts continue.",
+      "Add money in larger amounts to reduce the impact of per-transaction fees.",
+      "Video visits are sometimes cheaper than phone calls and worth comparing at your specific facility.",
     ],
 
     faq: [
       {
-        question: "Are prison phone call rates getting lower?",
-        answer: "Yes, over time. FCC regulations have brought interstate rates down significantly compared to 10 years ago. Advocacy groups continue to push for broader caps on intrastate rates and fees.",
+        question: "Why do prison phone calls cost so much?",
+        answer: "Prison phone providers pay the facility a commission from call revenue in exchange for an exclusive contract. To cover these payments and generate profit, providers charge families higher rates. Families have no choice of provider - they must use whatever company holds the contract with that facility.",
       },
       {
-        question: "What is a site commission?",
-        answer: "A site commission is a payment from the phone provider to the correctional facility, calculated as a percentage of call revenue. It is a structural reason for high call prices.",
+        question: "What is the maximum rate for a prison phone call?",
+        answer: "The FCC has capped interstate prison phone calls at $0.21 per minute for prisons and $0.13 per minute for jails. These caps apply to calls between states. In-state rates vary by state and are not always subject to the same federal caps, though FCC regulation has been expanding.",
       },
       {
-        question: "Can I negotiate a better rate with the phone provider?",
-        answer: "No. Rates are set by contract and are the same for all users at a given facility. There is no individual negotiation available.",
+        question: "Are there any states where prison phone calls are free?",
+        answer: "Yes. A growing number of jurisdictions have eliminated charges for prison phone calls. New York City eliminated charges for calls from city jails. Some county systems in California and elsewhere have also moved to free calls. The number of free-call jurisdictions continues to grow as advocacy efforts succeed.",
       },
       {
-        question: "Is messaging always cheaper than calling?",
-        answer: "In most cases, yes. Digital messaging through platforms like JPay typically costs under $0.50 per message. Phone calls at FCC-capped rates plus fees often cost $5 to $10 for a 15 to 20 minute call.",
+        question: "How can I reduce the cost of prison phone calls?",
+        answer: "Use a prepaid account rather than collect calls for lower per-minute rates. Add money in larger amounts to reduce transaction fees. Compare video visit costs versus phone call costs at your facility. Stay informed about rate changes when facility contracts are renegotiated.",
+      },
+      {
+        question: "What fees besides the per-minute rate might I be charged?",
+        answer: "Additional fees can include payment processing fees when adding money to your account, account maintenance fees, and inactivity fees if the account is not used for a period of time. The FCC has eliminated connection fees and certain other add-on charges for interstate calls, but fees for in-state calls vary by state.",
+      },
+      {
+        question: "Can I choose a cheaper phone provider for my loved one facility?",
+        answer: "No. Each facility has an exclusive contract with one phone provider. You must use whatever provider holds that contract. You cannot switch providers or negotiate a better rate. The only way rates change is when the facility contract expires and is renegotiated, or when regulators impose new rate caps.",
       },
     ],
 

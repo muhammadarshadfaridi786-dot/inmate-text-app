@@ -385,7 +385,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-to-find-an-inmate": {
     id: "guide-04",
     slug: "how-to-find-an-inmate",
-    title: "How to Find an Inmate",
+    title: "How to Find an Inmate: Complete Guide to Inmate Search Tools",
     excerpt: "Learn how to locate an incarcerated person using official inmate search tools, what information you need, and how to find their current facility.",
     category: "Getting Started",
     difficulty: "Beginner",
@@ -395,70 +395,88 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How to Find an Inmate: Inmate Search Guide",
-    seoDescription: "Learn how to find an inmate using official inmate locator tools. Covers federal, state, and county jail search systems and what information you need.",
+    seoTitle: "How to Find an Inmate: Federal, State and County Inmate Search Guide",
+    seoDescription: "Learn how to find an inmate in federal prison, state prison, or county jail - which search tools to use, how to search by name or ID, and what to do if the inmate does not appear. Free guide.",
 
     intro: [
-      "Finding someone in the prison or jail system is possible through official government inmate search tools. These are free, publicly accessible databases maintained by correctional agencies.",
-      "This guide explains how to use inmate search tools, what information you need to start, and what to do if the standard searches do not return results.",
+      "Finding out where an incarcerated person is housed is the first step before you can send messages, make phone calls, arrange visits, or send money. Each correctional system maintains its own inmate search tool, and the tool you need depends on whether your loved one is in a federal prison, a state prison, or a county jail.",
+      "Federal inmates are searchable through the Bureau of Prisons inmate locator at bop.gov. State inmates are searchable through each state Department of Corrections website. County jail inmates are searchable through the county sheriff or jail website, or through tools like VINELink.",
+      "This guide explains which tools to use, how to search in each system, and what to do when an inmate does not appear in the search results.",
     ],
 
     sections: [
       {
-        heading: "What You Need Before You Search",
+        heading: "How to Find a Federal Inmate",
         body: [
-          "The more information you have, the easier the search. At a minimum you need the person's full legal name as it appears on official documents. Middle names and suffixes matter. A common name without additional details can return dozens of results.",
-          "Having the state where they were sentenced or the approximate date of incarceration narrows the results significantly. If you have their inmate ID number or booking number, you can often find them in a single lookup.",
+          "The Federal Bureau of Prisons maintains a free public inmate locator at bop.gov. This tool covers federal inmates in BOP custody, including people currently incarcerated and those who have been released.",
+          "To search for a federal inmate, go to bop.gov and click on the inmate locator. You can search by the inmate first and last name, or by their BOP register number. If searching by name, you can narrow results by entering race, age range, and gender to reduce results for common names.",
+          "Search results show the inmate assigned facility name and location, their BOP register number, age, race, and projected release date. Clicking on a result provides additional facility information including the facility address.",
+          "If the inmate appears as IN TRANSIT, they have been moved from one facility and may not yet be at the receiving facility. If they appear as RELEASED, they are no longer in BOP custody. If no record appears, they may be in state custody rather than federal custody.",
         ],
       },
       {
-        heading: "How to Search for a Federal Inmate",
+        heading: "How to Find a State Prison Inmate",
         body: [
-          "The Federal Bureau of Prisons operates a free inmate locator at bop.gov. You can search by first name, last name, age, race, and sex. The database covers anyone currently in BOP custody and includes release dates for those nearing the end of their sentence.",
-          "BOP records do not include people held at county jails awaiting federal sentencing or people held in privately contracted facilities that are not part of the BOP system. If your search returns no results, the person may not yet be in the federal system.",
+          "Each state operates its own Department of Corrections and maintains its own inmate search tool. There is no single national database for state prisoners. You must search the correct state DOC website for the state where your loved one was convicted or is housed.",
+          "To find the right search tool, go to your preferred search engine and type the state name followed by Department of Corrections inmate search. For example, search for Texas Department of Criminal Justice inmate search or Florida Department of Corrections offender search.",
+          "Most state inmate search tools allow you to search by first and last name, inmate ID number, or both. Some states also allow searching by date of birth. Results typically show the facility name, security level, sentence information, and projected release date.",
+          "If your loved one has been transferred to a different state facility, the search will reflect their current location. Transfers can take 24 to 72 hours to appear in the system. If you believe a transfer has occurred but the location has not updated, call the original facility to confirm.",
         ],
       },
       {
-        heading: "How to Search for a State Inmate",
+        heading: "How to Find a County Jail Inmate",
         body: [
-          "Every state operates its own inmate search database. Search for the name of the state followed by 'department of corrections inmate search' to find the official lookup tool. State databases typically cover people in state prisons and may include those on parole or probation.",
-          "State databases vary in quality. Some update in real time. Others update once daily or less frequently. If someone was recently transferred, their new location may not appear immediately.",
+          "County jails house people who are awaiting trial, serving short sentences, or waiting for transfer to a state or federal facility. County jail inmate records are managed by the county sheriff or the jail itself, not by the state DOC.",
+          "To find a county jail inmate, go to the website of the county sheriff or county jail. Many county sheriff websites have an inmate roster or booking search tool. Search by the inmate first and last name or booking number.",
+          "VINELink is a free national service at vinelink.com that provides inmate custody status information for many county jails and state prisons across the United States. You can search by name or inmate ID and set up notifications if the custody status changes.",
+          "County jail rosters update frequently - often multiple times per day. A person who was recently booked may not appear in the online system for a few hours. If you cannot find someone who was recently arrested, call the jail directly to confirm they are in custody.",
         ],
       },
       {
-        heading: "How to Search for a County Jail Inmate",
+        heading: "What to Do If the Inmate Does Not Appear in Search Results",
         body: [
-          "County jail rosters are maintained at the county level. Search for the county name and 'jail roster' or 'inmate lookup.' Many counties post booking rosters online that update throughout the day.",
-          "County jail rosters are often less complete than state or federal databases. If you cannot find someone through an online roster, call the jail directly. Provide the full legal name and approximate date of booking.",
+          "If the inmate does not appear in the expected search tool, try these steps before assuming they are not in custody. First, check the spelling of the name. Try alternate spellings, nicknames, or the middle name if the common name search returns no results.",
+          "Second, confirm which system to search. Federal inmates do not appear in state DOC searches. State inmates do not appear in the BOP locator. County jail inmates often do not appear in state DOC searches until they are transferred and processed.",
+          "Third, check the timing. New inmates may not appear in search systems for 24 to 72 hours after booking or arrival. Inmates who are being transferred between facilities may temporarily not appear in any database.",
+          "Fourth, call the facility or system directly. If you know the facility your loved one was sent to, call that facility and ask to confirm they are in the system. The facility reception or records office can usually confirm basic custody status over the phone.",
+          "Fifth, contact an attorney. If you still cannot locate someone after trying all search tools and calling facilities, a criminal defense attorney can often obtain custody information faster through official legal channels.",
         ],
       },
     ],
 
     takeaways: [
-      "Federal inmates can be found through the free BOP inmate locator at bop.gov.",
-      "State inmates are searchable through each state's Department of Corrections website.",
-      "County jail inmates appear on county jail rosters, which vary in completeness.",
-      "A full legal name gives better results than a nickname or informal name.",
-      "Inmate ID numbers, if available, return the fastest and most accurate results.",
-      "If online searches fail, calling the facility directly is the most reliable fallback.",
+      "Federal inmates are searchable at bop.gov using the Bureau of Prisons inmate locator. Search by name or BOP register number.",
+      "State inmates are searchable through each state Department of Corrections website. There is no single national state database.",
+      "County jail inmates are searchable through the county sheriff website or through VINELink at vinelink.com.",
+      "New inmates may not appear in search systems for 24 to 72 hours after booking or transfer.",
+      "If a name search returns no results, try alternate spellings, the middle name, or confirm which system covers their custody type.",
+      "Once you find the facility, search our facility directory to see which communication providers serve it and how to set up accounts.",
     ],
 
     faq: [
       {
-        question: "Is inmate search information free to access?",
-        answer: "Yes. Official government inmate search tools are free. Be cautious of third-party websites that charge fees to search inmate records. The official sources are always free.",
+        question: "How do I find out what prison someone is in?",
+        answer: "Start by determining whether they are in federal or state custody. For federal inmates, use the Bureau of Prisons inmate locator at bop.gov. For state inmates, search the Department of Corrections website for the state where they were convicted. For county jail inmates, search the county sheriff website or use VINELink at vinelink.com.",
       },
       {
-        question: "Why can't I find the person I'm looking for?",
-        answer: "There are several reasons: the name may be listed differently in the system, they may be in transit between facilities, they may have been recently booked and not yet entered, or they may be held at a different jurisdiction than expected.",
+        question: "Is the Bureau of Prisons inmate search free?",
+        answer: "Yes. The BOP inmate locator at bop.gov is completely free to use. It covers all federal inmates in BOP custody. No account or registration is required.",
       },
       {
-        question: "Can I find out when someone will be released?",
-        answer: "Federal and most state inmate databases show projected release dates. These dates can change based on good behavior credits, parole hearings, or sentence modifications.",
+        question: "Why does the inmate not appear in the search results?",
+        answer: "Common reasons include a spelling error in the name, searching the wrong system for their custody type, or the inmate being recently transferred or booked and not yet entered into the system. New inmates can take 24 to 72 hours to appear. Try alternate spellings and confirm you are searching the right system.",
       },
       {
-        question: "Do inmate search tools show the person's current location?",
-        answer: "Most state and federal tools show the current facility. County jail rosters usually show the booking location. If someone has been transferred, there may be a delay before the new location appears.",
+        question: "What is VINELink and how does it work?",
+        answer: "VINELink is a free national service at vinelink.com that allows families to search for inmates in many county jails and state prisons across the country. You can search by name or ID number and register for free notifications if the custody status of an inmate changes.",
+      },
+      {
+        question: "Can I find a federal inmate if they were released?",
+        answer: "Yes. The BOP inmate locator includes records of federal inmates, including those who have been released. If an inmate appears as RELEASED in the locator, they are no longer in BOP custody.",
+      },
+      {
+        question: "How do I find an inmate in a private prison?",
+        answer: "Inmates housed in private prisons under contract with the BOP or a state DOC still appear in the contracting agency locator. Search the BOP locator for federal contract inmates or the state DOC locator for state contract inmates. The locator reflects who holds primary custody, not who operates the physical facility.",
       },
     ],
 

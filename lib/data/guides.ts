@@ -2217,7 +2217,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-to-appeal-blocked-messages": {
     id: "guide-20",
     slug: "how-to-appeal-blocked-messages",
-    title: "What to Do If Inmate Messages Are Blocked",
+    title: "What to Do If Inmate Messages Are Blocked: Complete Appeal Guide",
     excerpt: "Learn what causes inmate messages to be blocked, how to find out why, and what steps to take to restore communication with an incarcerated loved one.",
     category: "Communication Tips",
     difficulty: "Beginner",
@@ -2227,76 +2227,105 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "What to Do If Inmate Messages Are Blocked: Step-by-Step Guide",
-    seoDescription: "Learn why inmate messages get blocked, how to find out the reason, and what steps to take to restore messaging access for you or your incarcerated loved one.",
+    seoTitle: "Inmate Messages Blocked: Why It Happens, How to Appeal and Restore Communication",
+    seoDescription: "Learn why inmate messages get blocked, how to find out the reason, who to contact to appeal, and what steps to take to restore communication with an incarcerated loved one. Free guide.",
 
     intro: [
-      "Finding out that your messages to an incarcerated loved one are being blocked or that they cannot receive your communications is stressful. There are several possible reasons, and most can be resolved with the right steps.",
-      "This guide explains the common causes of blocked messages and what to do in each situation.",
+      "Having messages blocked or rejected is one of the most frustrating experiences families face when communicating with an incarcerated loved one. Messages may stop being delivered without warning, and in many cases you will not receive a clear explanation of why. The process for finding out what happened and getting communication restored is different depending on whether the block came from the facility or from the messaging platform provider.",
+      "Blocks can be temporary or permanent. They can be triggered by content in a specific message, by a pattern of communication flagged by automated screening, by a facility decision, or by the provider company acting independently. Understanding which of these caused the block determines who you need to contact and what steps to take.",
+      "This guide explains the most common reasons messages get blocked, how to find out why your messages are not being delivered, who to contact, and how to formally appeal a communication block.",
     ],
 
     sections: [
       {
-        heading: "Why Messages Get Blocked",
+        heading: "Why Inmate Messages Get Blocked",
         body: [
-          "Messages are blocked for several reasons. Content violations are the most common cause. Messages that include prohibited topics such as discussions of criminal activity, escape, threats, or explicit material are automatically flagged or rejected.",
-          "Technical issues can also cause apparent blocking. An incorrect inmate ID, an account that has not completed the contact approval process, or insufficient credits or stamps can all prevent messages from sending successfully.",
-          "Disciplinary restrictions imposed on the inmate are another cause. If the inmate has lost communication privileges as part of a disciplinary action, messages will not reach them until privileges are restored.",
+          "The most common reason a message is blocked is content that violates facility rules. Every correctional facility has a list of prohibited content for incoming and outgoing messages. Messages that reference ongoing criminal activity, escape planning, threats, gang-related content, explicit material, or coded language that staff cannot interpret may be rejected during review.",
+          "Automated content screening is used by most messaging platforms to flag potential violations before messages reach a human reviewer. Automated systems use keyword filters that can flag messages based on specific words or phrases even when the message does not actually violate any rule. This can result in false positives where an innocent message is flagged and blocked.",
+          "A block may also be placed on your account rather than on a specific message. Account-level blocks can be placed by the facility if you are removed from the approved contact list, or by the provider company if your account is flagged for multiple content violations. Account blocks prevent all future messages from being sent or received.",
+          "Phone call blocks are separate from messaging blocks and can happen when you accidentally reject a call, when the provider flags your number, or when the inmate removes your number from their approved call list. Each type of block requires a different resolution process.",
         ],
       },
       {
-        heading: "How to Find Out the Reason",
+        heading: "How to Find Out Why Messages Are Being Blocked",
         body: [
-          "Start with the platform itself. Check your sent messages for a delivery status. Platforms like JPay and ConnectNetwork show whether a message was delivered or flagged. An undelivered status without a specific error usually indicates a content review hold.",
-          "Contact the platform's customer support. Explain the situation and ask for the delivery status of specific messages. They may be able to tell you whether the issue is on the platform's end or requires contact with the facility.",
-          "Contact the facility directly if the platform support cannot resolve it. Ask for the inmate services coordinator or the communications unit. Be polite and specific about the dates and platform involved.",
+          "The first step is checking your messaging platform account for any notifications or alerts. Platforms like JPay and ConnectNetwork may send an email or display a message in your account dashboard when a specific message is rejected. The notification may include a general reason such as content violation but will usually not specify the exact trigger.",
+          "If you receive no notification and messages simply stop being delivered, log in to your account and check the sent message status. Some platforms show a delivered or pending status for each message. A message stuck in pending status may indicate it is held in review or has been blocked without a formal notification being sent.",
+          "Contact the messaging platform customer service directly. Explain that you are not receiving confirmation of message delivery and ask them to check the status of your account and recent messages. Have your account information, the inmate name and ID, and the facility name ready before calling or submitting a support ticket.",
+          "Contact the facility directly. The facility mailroom or communication coordinator can tell you whether a block has been placed from the facility side and whether you have been removed from the approved contact list. Call the facility main number and ask to speak with the person responsible for inmate communication or the mailroom supervisor.",
         ],
       },
       {
-        heading: "If Your Contact Status Has Been Revoked",
+        heading: "How to Appeal a Blocked Message",
         body: [
-          "If the facility has removed you from the inmate's approved contact list, you will need to be re-approved before communication can resume. This can happen if a content violation triggered an investigation, if someone at the facility raised a concern, or if a court order restricts communication.",
-          "Re-approval requires submitting a new visitor or contact application, which goes through the same background check and facility review as the original. Depending on the reason for revocation, re-approval may be denied.",
+          "For individual messages blocked by the platform, start by reviewing the message content yourself. Remove any language that could be interpreted as violating facility rules and resend the message. Avoid triggering keywords, abbreviations that could be misread as codes, references to legal cases or investigations, and any content that discusses what is happening outside the facility in detail that could be misread.",
+          "If the platform blocked a message you believe was completely compliant, contact platform customer service and formally request a review. Provide the message ID or timestamp, explain why you believe the content does not violate rules, and ask for a specific explanation of what triggered the block. Keep records of all communication with customer service.",
+          "For blocks placed by the facility rather than the platform, the appeal process goes through the facility. Write a formal letter addressed to the Warden or Communication Coordinator at the facility. Explain who you are, your relationship to the inmate, what communication was blocked, and why you believe the block was applied in error. Request a written response.",
+          "Most facilities require appeals to be submitted in writing within a specific timeframe after the rejection - often ten business days. Check with the facility for their specific appeal deadline and submit your appeal before it expires.",
+        ],
+      },
+      {
+        heading: "How to Appeal an Account-Level Block",
+        body: [
+          "If your entire account has been blocked rather than a single message, the process is more complex. An account block from the platform typically requires contacting platform customer service and requesting a formal review of your account status. Ask specifically whether the block is temporary or permanent and what the reason for the block is.",
+          "An account block from the facility - meaning you have been removed from the approved visitor or contact list - must be appealed through the facility. The inmate must also typically be involved in the appeal, as they may need to resubmit your information for contact approval.",
+          "If you believe the block was placed in error or without a valid reason, document everything. Save copies of all previous messages, all notifications you received, and all communication with the facility and platform. This documentation is essential if you need to escalate the appeal.",
+          "If standard appeals are unsuccessful, consider contacting the state Department of Corrections directly rather than the individual facility. State DOC offices sometimes have family services units or ombudsman programs that can review individual cases where communication has been cut off without clear justification.",
+        ],
+      },
+      {
+        heading: "How to Restore Blocked Phone Calls",
+        body: [
+          "If you accidentally blocked a call from an inmate, contact the phone provider customer service as soon as possible. For GTL ConnectNetwork, call their customer service line. For Securus, use their customer service number. Explain that you accidentally rejected or blocked a call and ask them to remove the block from your number. Most providers can resolve accidental call blocks quickly.",
+          "If calls are being blocked because the inmate removed your number from their approved call list, only the inmate can restore it. They must contact the facility phone provider or request the number be re-added through the facility process. You cannot add yourself back to an approved call list from outside.",
+          "If calls are being blocked for an unknown reason, contact both the phone provider and the facility. Ask the provider to check your number status and ask the facility to confirm your number is still on the inmate approved contact list. The block may be coming from either side and you need to identify the source before it can be resolved.",
         ],
       },
       {
         heading: "Preventing Future Blocks",
         body: [
-          "Review the content rules for both the platform and the facility before sending any message. Focus on normal topics: family updates, daily life, encouragement. Avoid any discussion of legal strategy, criminal activity, finances beyond normal support, or coded references.",
-          "If you are unsure whether a topic is permitted, it is safer to discuss it in person during a visit, where you can ask staff if needed, or through an attorney if it is a legal matter.",
+          "Review the content rules for the facility and the messaging platform before sending every message. Rules are published in the platform terms of service and on most facility websites. Reading them once thoroughly can prevent the majority of accidental blocks.",
+          "Avoid discussing anything related to ongoing legal cases, other people inside the facility, facility operations, or anything that could be interpreted as planning activity outside the rules. Keep messages focused on personal updates, family news, emotional support, and everyday topics.",
+          "If you receive a notification that a message was blocked, do not simply resend the same message repeatedly. Multiple attempts to send blocked content can escalate a temporary block to a permanent one. Instead, revise the message, remove any potential triggers, and send the revised version once.",
+          "Keep records of all messages you send. If a message is blocked and you later need to appeal, having a copy of the original message makes the appeal process faster and easier.",
         ],
       },
     ],
 
     takeaways: [
-      "Content violations, technical errors, and disciplinary restrictions are the most common causes of blocked messages.",
-      "Check the platform's delivery status first before assuming a block.",
-      "Contact platform support for specific delivery status on flagged messages.",
-      "If contact status was revoked, you must reapply and go through the approval process again.",
-      "Avoid all prohibited content categories in every message, regardless of how casual the conversation seems.",
-      "Legal matters should go through an attorney, not through the messaging platform.",
+      "Messages can be blocked by the facility, by the messaging platform, or by automated content screening. Each requires a different resolution approach.",
+      "Check your platform account dashboard and email for block notifications. Not all blocks generate automatic notifications.",
+      "Contact the messaging platform customer service to check your account status and get a specific reason for any block.",
+      "Contact the facility mailroom or communication coordinator to find out if a block was placed from the facility side.",
+      "To appeal a facility block, write a formal letter to the Warden or Communication Coordinator and submit it within the facility appeal deadline - usually ten business days.",
+      "If your entire account is blocked, ask specifically whether the block is temporary or permanent and what the exact reason is.",
+      "Prevent future blocks by reviewing content rules before sending, avoiding triggering topics, and never resending a blocked message without revising it first.",
     ],
 
     faq: [
       {
-        question: "Will I be notified if my message is blocked?",
-        answer: "Sometimes. Platforms vary in how they communicate blocked messages. Some show a failed delivery status. Others silently suppress the message without notifying you. If you do not see a delivery confirmation, contact support.",
+        question: "Why are my messages to an inmate not being delivered?",
+        answer: "Messages may be blocked due to content that triggered an automated filter or human review, an account-level block placed by the platform or facility, or removal from the approved contact list. Check your platform account for notifications, contact platform customer service, and contact the facility directly to identify which of these applies.",
       },
       {
-        question: "Can I appeal a blocked message?",
-        answer: "You can contact the platform to inquire about the status of a specific message. Whether the block can be reversed depends on why it was blocked and who made the decision.",
+        question: "How do I find out why a specific message was blocked?",
+        answer: "Log in to your messaging account and check the message status. Contact platform customer service with the message details and ask for a specific reason. Platforms are not always required to provide detailed explanations, but customer service can often tell you whether the block was due to content, an account issue, or a facility-side decision.",
       },
       {
-        question: "What if the inmate's privileges have been suspended?",
-        answer: "You will need to wait until privileges are restored. Contact the facility to understand the length and conditions of the suspension. There is usually nothing you can do to accelerate the process from the outside.",
+        question: "How do I appeal a blocked message?",
+        answer: "For platform blocks, contact customer service and request a content review, explaining why you believe the message was compliant. For facility blocks, write a formal letter to the Warden or Communication Coordinator at the facility requesting a review. Most facilities require written appeals within ten business days of the rejection.",
       },
       {
-        question: "Does a blocked message affect future messages?",
-        answer: "A single blocked message does not automatically block all future messages. However, repeated violations can result in account suspension or permanent loss of messaging access.",
+        question: "Can the facility permanently ban me from communicating with an inmate?",
+        answer: "Yes. A facility can permanently remove you from an inmate approved contact list, which blocks all future communication through that facility. Reasons include serious content violations, security concerns, or court orders. If you believe a permanent ban was applied without valid cause, you can appeal in writing to the facility and to the state Department of Corrections.",
       },
       {
-        question: "Should I contact a lawyer if communication is blocked?",
-        answer: "If you believe the blocking is unjust or is violating someone's rights, consulting with an attorney who handles prisoner rights cases is reasonable. For standard content-related blocks, working through the platform and facility is usually sufficient.",
+        question: "I accidentally blocked a phone call from an inmate. How do I fix it?",
+        answer: "Contact the phone provider customer service as soon as possible and explain that you accidentally rejected or blocked a call. Ask them to remove the block from your number. Most providers can resolve accidental call blocks quickly. Have your account information and the facility name ready when you call.",
+      },
+      {
+        question: "What should I not include in messages to avoid them being blocked?",
+        answer: "Avoid references to ongoing legal cases or investigations, other people inside the facility, facility operations or security, planned activities outside the rules, explicit content, gang-related language, coded language or abbreviations that could be misread, and anything that could be interpreted as planning for a rule violation.",
       },
     ],
 

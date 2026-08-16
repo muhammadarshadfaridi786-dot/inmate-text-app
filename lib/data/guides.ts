@@ -2071,7 +2071,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "inmate-communication-rules-by-state": {
     id: "guide-19",
     slug: "inmate-communication-rules-by-state",
-    title: "Inmate Communication Rules by State",
+    title: "Inmate Communication Rules by State: What Families Need to Know",
     excerpt: "An overview of how inmate communication rules vary by state, what factors create the differences, and how to find the specific rules for any state's system.",
     category: "Communication Tips",
     difficulty: "Intermediate",
@@ -2081,42 +2081,63 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Inmate Communication Rules by State: Overview and Guide",
-    seoDescription: "Learn how inmate communication rules vary by state, what creates those differences, and how to find the specific rules for the state your loved one is in.",
+    seoTitle: "Inmate Communication Rules by State: Messaging, Phone, Visitation Differences Explained",
+    seoDescription: "Learn how inmate communication rules vary by state - which messaging providers are used, how phone rates differ, what visitation rules apply, and how to find the specific rules for any state system.",
 
     intro: [
-      "Inmate communication rules are not uniform across the United States. Each state's Department of Corrections sets its own policies for messaging, phone calls, visitation, and photo sharing. What is allowed in one state may be restricted in another.",
-      "This guide explains why rules vary, what categories of rules differ most, and how to find the authoritative rules for any specific state.",
+      "Inmate communication rules are not the same across the United States. Every state operates its own Department of Corrections with its own contracted providers, its own policies for messaging, phone calls, visitation, and mail, and its own rules for what families can and cannot do. What works in one state may not work in another.",
+      "The single most important rule that applies in every state is this: the facility determines the provider. You cannot choose which messaging or phone platform to use. Whichever company has the contract with that specific facility is the one you must use. This is set at the facility level, not the state level, though many states standardize their contracts across all facilities.",
+      "This guide explains what creates the differences between states, which providers are most common in which states, and how to find the specific rules that apply to your loved one facility.",
     ],
 
     sections: [
       {
-        heading: "Why Rules Differ by State",
+        heading: "Why Communication Rules Differ by State",
         body: [
-          "Each state legislature and Department of Corrections has authority over how communication is managed in state facilities. There is no federal mandate that standardizes state prison communication policy.",
-          "State budgets, political priorities, facility security levels, and the contracts negotiated with communication providers all influence what is available and under what terms. Two neighboring states with similar prison populations can have significantly different messaging rules.",
+          "Each state Department of Corrections operates independently and sets its own policies. There is no federal standard for how state prisons handle family communication beyond the basic constitutional protections that apply to all facilities. This means states make their own decisions about which providers to contract with, what services to allow, and what rules families must follow.",
+          "Provider contracts are negotiated at the state level for most state prison systems, which means all or most facilities within a state often use the same provider. However, county jails within the same state negotiate their own contracts separately and may use completely different providers than the state prisons.",
+          "State budgets, political decisions, advocacy pressure, and historical contracts all influence which providers are used and what rules apply. States with strong prison reform advocacy may have more family-friendly policies. States with older contracts may have fewer digital options. Rules also change over time as contracts expire and are renegotiated.",
         ],
       },
       {
-        heading: "What Varies Most",
+        heading: "Messaging Providers by State System",
         body: [
-          "The platform used for messaging is the most significant variable. JPay dominates in many states, but ConnectNetwork, Securus, and other providers are also common. Some states run their own systems.",
-          "Messaging content rules, photo size and quantity limits, phone call time limits, visitation frequency, and approved visitor background check requirements all vary. States also differ on whether video visitation substitutes for or supplements in-person visits.",
+          "JPay is the most widely used messaging platform for state prisons, serving many states. In states where JPay is the primary messaging provider for state prisons, families create a JPay account and use stamps to send messages to state prison inmates.",
+          "CorrLinks is used exclusively at federal Bureau of Prisons facilities and is not a state prison provider. If your loved one is in a state prison, CorrLinks does not apply to them regardless of which state they are in.",
+          "ConnectNetwork by GTL is widely used at county jails across most states and also serves as the primary provider for some state prison systems. Some states use providers not found in others, such as ICSolutions or Securus. The only way to know for certain which provider serves a specific facility is to search the facility directly rather than assume based on the state.",
         ],
       },
       {
-        heading: "How to Find State-Specific Rules",
+        heading: "Phone Call Rules by State",
         body: [
-          "The most reliable source for communication rules is the state Department of Corrections website. Most states publish an inmate handbook online that covers all communication policies in detail.",
-          "For facility-specific rules, the facility's official page or a direct call to the facility's visitation coordinator is the best resource. General state-level policy may be overridden at the facility level in some areas.",
-          "This site's state pages provide links to each state's Department of Corrections, available providers, and facility directories. Use those as your starting point for any state-specific research.",
+          "Phone call rates are federally regulated for interstate calls, which means calls between states have a federal maximum rate. For calls within the same state, rates are set by state regulators and vary significantly. Some states have capped in-state rates to match federal interstate limits while others allow higher in-state rates.",
+          "Some states have taken additional steps to reduce phone call costs for families by eliminating commissions or lowering fees. In a few jurisdictions, advocacy has led to reduced-cost or free calls for certain populations.",
+          "The phone provider used at a facility is separate from the messaging provider. A facility may use one company for messaging and a different company for phone services. Both accounts may need to be set up separately. Check the specific facility to see which provider handles phone services.",
         ],
       },
       {
-        heading: "Common Misconceptions",
+        heading: "Visitation Rules by State",
         body: [
-          "A common mistake is assuming rules learned from one facility apply everywhere. Someone who had experience with a facility in Florida, for example, may not realize that Texas operates under completely different policies with different providers and different visitation rules.",
-          "Rules also change over time as contracts expire, legislation changes, or administrations shift. Always verify current rules from the official source rather than relying on information that may be outdated.",
+          "Visitation rules vary significantly between states and even between facilities within the same state. The visitor approval process, background check requirements, number of approved visitors allowed, visiting hours, dress code specifics, and contact rules all differ by state and facility.",
+          "Some states allow contact visits where limited physical contact is permitted. Other states or specific facilities within a state require non-contact visits through glass or video terminals even for in-person visits.",
+          "Some facilities have moved to video-only visitation at certain locations, meaning visitors use a video terminal rather than a traditional visiting room. Always call the facility before traveling to confirm visiting hours and contact rules.",
+        ],
+      },
+      {
+        heading: "Mail Rules by State",
+        body: [
+          "Mail policies for prisons and jails vary by state and facility. Some systems scan incoming mail at an off-site processing center and deliver a digital or printed copy to the inmate rather than the original physical letter.",
+          "When mail scanning is used, you may need to send mail to a designated processing address rather than the facility's physical address. Check the facility mailing instructions carefully.",
+          "Photo rules vary by state as well. Some facilities accept direct family-sent photos while others require photos to come from approved vendors only. Size, content, and quantity limits differ by facility.",
+        ],
+      },
+      {
+        heading: "How to Find Rules for Your Specific State and Facility",
+        body: [
+          "The most reliable source for current rules is the facility itself. Call the facility and ask about messaging, phone, visitation, and mail policies. Have your loved one inmate ID and name ready. Facility staff can confirm which providers are used and direct you to the right resources.",
+          "The state Department of Corrections website publishes general policies for all state facilities. Search for the state DOC website and look for sections labeled family resources, visitation, or inmate communication. These pages list the general state rules along with links to facility-specific supplements.",
+          "Search our facility directory to find your loved one facility and see which providers serve it. The facility page lists the messaging platform, phone provider, and available communication services with direct links to set up accounts.",
+          "Rules change over time as contracts expire and are renegotiated. If something stops working - a platform you have been using stops accepting messages, or a visiting schedule changes - contact the facility directly to confirm what has changed.",
         ],
       },
     ],

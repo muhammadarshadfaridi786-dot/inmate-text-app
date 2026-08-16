@@ -1083,7 +1083,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "how-corrlinks-works": {
     id: "guide-11",
     slug: "how-corrlinks-works",
-    title: "How CorrLinks Works",
+    title: "How CorrLinks Works: Complete Guide for Federal Prison Families",
     excerpt: "Learn how CorrLinks works for messaging federal inmates, how to register, how the approval process works, and what the service costs.",
     category: "Provider Guides",
     difficulty: "Beginner",
@@ -1093,74 +1093,101 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How CorrLinks Works: Federal Inmate Messaging Guide",
-    seoDescription: "Learn how CorrLinks works for communicating with federal inmates. Covers registration, the approval process, messaging costs, and how the system differs from JPay.",
+    seoTitle: "How CorrLinks Works: Setup, Invitation Process, Costs and Rules for Federal Inmates",
+    seoDescription: "Complete guide to CorrLinks for families of federal inmates - how to receive your invitation, create an account, send messages, what it costs, and what rules apply. Free step-by-step guide.",
 
     intro: [
-      "CorrLinks is the only approved electronic messaging platform for the Federal Bureau of Prisons. If your loved one is in a federal facility, CorrLinks is the only way to exchange electronic messages with them.",
-      "This guide explains how the CorrLinks system works, how to register, and what to expect during the approval process.",
+      "CorrLinks is the only approved electronic messaging platform for all federal Bureau of Prisons facilities in the United States. If your loved one is in a federal prison, CorrLinks is your only option for digital communication. No other messaging platform is accepted at BOP facilities.",
+      "CorrLinks operates through a system called TRULINCS, which stands for Trust Fund Limited Inmate Computer System. Inmates access TRULINCS through secure computer terminals inside the facility. Families and approved contacts communicate through the CorrLinks website or mobile app from outside.",
+      "This guide explains how CorrLinks works, how to receive your invitation, how to set up your account, what messages cost, and what rules apply to federal inmate messaging.",
     ],
 
     sections: [
       {
-        heading: "What CorrLinks Is",
+        heading: "What Is CorrLinks and How Does It Work",
         body: [
-          "CorrLinks is an email-style messaging platform operated by Advanced Technologies Group. It holds an exclusive contract with the Federal Bureau of Prisons. Unlike JPay or ConnectNetwork, CorrLinks does not serve state prisons. It is strictly for federal facilities.",
-          "CorrLinks provides text messaging only. Photo sharing and video visitation at federal facilities are handled through separate services. Money transfers for federal inmates go through Access Corrections, not CorrLinks.",
+          "CorrLinks is a web-based messaging service that connects federal inmates with approved outside contacts. It is operated by Advanced Technologies Group under contract with the Federal Bureau of Prisons. CorrLinks is not a general email service - it operates through the TRULINCS system and has no connection to standard email providers.",
+          "Inmates access CorrLinks through TRULINCS computer terminals in their housing unit. They can compose messages, read incoming messages, and manage their contact list from these terminals. Inmates are charged for the time they spend using the system at a rate of $0.05 per minute. This cost comes from the inmate trust account, not from outside contacts.",
+          "Outside contacts use the CorrLinks website at corrlinks.com or the CorrLinks mobile app to read and reply to messages. Creating a CorrLinks account as an outside contact is free. You are not charged to send or receive messages through CorrLinks.",
         ],
       },
       {
-        heading: "How to Register",
+        heading: "How to Get Started with CorrLinks",
         body: [
-          "Go to corrlinks.com and create a free account using your email address. You do not search for the inmate yourself. Instead, the inmate must send you an invitation from their CorrLinks terminal inside the facility.",
-          "Once the inmate sends the invitation, you receive an email from CorrLinks with a link to accept it. You must accept within 30 days or the invitation expires. After acceptance, both of you can exchange messages.",
+          "You cannot create a CorrLinks contact connection on your own. The process must begin with the inmate. The inmate logs in to TRULINCS at a facility terminal, enters your name, mailing address, and email address, and submits a contact request. CorrLinks then sends you an invitation email.",
+          "When you receive the invitation email from CorrLinks, it will contain a link and an authorization code. Click the link and follow the instructions to create your free CorrLinks account. You will need to enter your name, email address, and create a password.",
+          "Once your account is created, you must accept the contact request from the inmate. After both sides confirm the connection, you can begin exchanging messages. If you do not receive an invitation, ask your loved one to submit the request again using the correct email address.",
+          "Account creation and approval typically takes between 30 minutes and a few hours. If you do not receive the invitation email within 24 hours, check your spam folder before asking the inmate to resend.",
         ],
       },
       {
-        heading: "How Messaging Works",
+        heading: "How to Send a Message Through CorrLinks",
         body: [
-          "CorrLinks messaging works like email. You write a message, send it, and the inmate receives it on the CorrLinks terminal in the facility. Messages are reviewed before delivery.",
-          "CorrLinks charges a flat monthly subscription fee or per-message fees depending on the plan. The federal inmate's account is charged for messages they send to you. Messages you send are charged to your account. Rates are set by the BOP and are regulated.",
+          "Log in to your CorrLinks account at corrlinks.com or through the CorrLinks mobile app. Select the inmate from your approved contact list. Click compose or new message and type your message in the text field.",
+          "Messages on CorrLinks are text only. You cannot send photos, attachments, videos, or files through CorrLinks. If you want to send photos to a federal inmate, you must use a separate photo delivery service such as Pigeonly or a print-and-mail service.",
+          "The maximum message length is 13,000 characters, which is roughly 2,000 to 2,500 words. There is no minimum length. You can send as many messages as you like. Outside contacts are not charged per message.",
+          "After you submit the message, it enters a review queue. Staff monitoring means messages typically take around one hour to be delivered to the inmate. Messages from the inmate to outside contacts take around 20 minutes. These times vary by facility.",
         ],
       },
       {
-        heading: "Key Differences from JPay",
+        heading: "CorrLinks Costs and Premier Account",
         body: [
-          "JPay uses a stamp system. CorrLinks uses an account balance that is drawn down per message. JPay serves state prisons. CorrLinks serves federal prisons exclusively. JPay offers photo sharing, video calls, and money transfers in one platform. CorrLinks handles messaging only.",
-          "If your loved one is transferred from a federal to a state facility or vice versa, you will need to switch platforms. CorrLinks accounts cannot be used at state facilities, and JPay cannot be used at federal facilities.",
+          "Creating a basic CorrLinks account as an outside contact is completely free. You can send and receive messages at no cost. The cost of using TRULINCS is charged entirely to the inmate at $0.05 per minute for composing, reading, and browsing messages.",
+          "CorrLinks offers a Premier Account for outside contacts that costs approximately $6 per year. The Premier Account provides real-time push notifications when you receive a new message, faster message delivery in some cases, and access to the full mobile app features.",
+          "A separate text message notification service is also available that allows CorrLinks message alerts to be delivered to your phone as a text message. This costs $6 per month or $36 per year and is separate from the Premier Account.",
+          "If the inmate chooses to print incoming messages, the facility charges $0.15 per page for printing. This cost also comes from the inmate trust account.",
+        ],
+      },
+      {
+        heading: "CorrLinks Rules and Important Limitations",
+        body: [
+          "All messages sent and received through CorrLinks are monitored by Bureau of Prisons staff. There is no privacy in CorrLinks communication. Do not send sensitive legal information, financial details, or anything that could be interpreted as a violation of facility rules.",
+          "CorrLinks does not support photo attachments, file attachments, or links. Text only is allowed. Messages that contain prohibited content will be blocked and may result in disciplinary action for the inmate or revocation of messaging privileges.",
+          "Not all federal inmates have access to CorrLinks. Inmates whose crimes involved the use of a computer may be restricted from using the TRULINCS system. Ask your loved one if they have confirmed CorrLinks access before attempting to set up an account.",
+          "If an inmate is transferred to a new facility, their CorrLinks contact list transfers with them. You do not need to re-register. However, the new facility must also use TRULINCS, which is standard at all BOP facilities.",
         ],
       },
     ],
 
     takeaways: [
-      "CorrLinks is the only messaging platform approved for federal Bureau of Prisons facilities.",
-      "The inmate must send you an invitation. You cannot initiate contact through CorrLinks.",
-      "Registration is free. Costs are per-message and charged to both sender and receiver.",
-      "CorrLinks handles messaging only. Video and money transfers use different services.",
-      "Invitations expire after 30 days if not accepted.",
-      "If your loved one is in a state prison, you need JPay or another platform, not CorrLinks.",
+      "CorrLinks is the only approved messaging platform for all federal Bureau of Prisons facilities. No other platform works for federal inmates.",
+      "The process must start with the inmate. They submit your contact information through TRULINCS and CorrLinks sends you an invitation email.",
+      "Creating a basic CorrLinks account as an outside contact is free. You are not charged to send or receive messages.",
+      "Inmates pay $0.05 per minute to use TRULINCS. This comes from their trust account, not from you.",
+      "Messages are text only - no photos, attachments, or file sharing through CorrLinks.",
+      "Messages take approximately one hour to be delivered to the inmate after submission.",
+      "A Premier Account costs around $6 per year and provides push notifications and full mobile app access.",
+      "All messages are monitored by BOP staff. Never send sensitive legal or financial information through CorrLinks.",
     ],
 
     faq: [
       {
-        question: "Can I send the first message on CorrLinks?",
-        answer: "No. The inmate must send you the first invitation from inside the facility. You can only accept the invitation and reply after it has been sent.",
+        question: "How do I get started with CorrLinks?",
+        answer: "You cannot initiate the process yourself. The inmate must log in to TRULINCS at the facility, enter your name and email address, and submit a contact request. CorrLinks then sends you an invitation email with a link to create your free account.",
       },
       {
-        question: "What if the inmate's invitation expired?",
-        answer: "The inmate must send a new invitation from their terminal. Invitations expire after 30 days. There is no way to reactivate an expired invitation on your end.",
+        question: "Is CorrLinks free for families?",
+        answer: "Yes. Creating a basic CorrLinks account and sending or receiving messages as an outside contact is completely free. The cost of using TRULINCS is charged to the inmate at $0.05 per minute. A Premier Account for push notifications costs around $6 per year.",
       },
       {
-        question: "Does CorrLinks work on mobile?",
-        answer: "CorrLinks does not have a dedicated mobile app. The website is accessible on mobile browsers, but the experience is optimized for desktop.",
+        question: "Can I send photos through CorrLinks?",
+        answer: "No. CorrLinks is text only. You cannot send photos, files, or attachments. To send photos to a federal inmate, you must use a separate print-and-mail photo service such as Pigeonly or a similar provider.",
       },
       {
-        question: "How much does CorrLinks cost?",
-        answer: "Messaging fees are charged per message. Both the sender and recipient pay per message. Exact rates are set by the BOP. Check the CorrLinks pricing page for the current fee schedule.",
+        question: "How long does it take for a CorrLinks message to be delivered?",
+        answer: "Messages to an inmate typically take around one hour to be delivered after submission due to staff monitoring. Messages from the inmate to outside contacts take around 20 minutes. Delivery times vary by facility and staff availability.",
       },
       {
-        question: "Can I use CorrLinks for money transfers?",
-        answer: "No. CorrLinks handles messaging only. To send money to a federal inmate, use Access Corrections or another BOP-approved financial service.",
+        question: "Does CorrLinks have a mobile app?",
+        answer: "Yes. CorrLinks has a free mobile app available for iOS and Android. The app allows you to read and send messages from your smartphone. A Premier Account subscription unlocks full app features including real-time push notifications.",
+      },
+      {
+        question: "What if I never received my CorrLinks invitation?",
+        answer: "Check your spam or junk mail folder first. If it is not there, ask your loved one to resubmit the contact request using the correct email address. Make sure the email address they entered matches your account exactly, including capitalization.",
+      },
+      {
+        question: "Can CorrLinks be used at state prisons?",
+        answer: "No. CorrLinks is exclusively for federal Bureau of Prisons facilities. State prisons use different providers such as JPay or ConnectNetwork. If your loved one is in a state prison, search our facility directory to find the correct messaging platform.",
       },
     ],
 

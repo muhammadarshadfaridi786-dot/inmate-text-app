@@ -1882,7 +1882,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "what-to-expect-first-prison-visit": {
     id: "guide-17",
     slug: "what-to-expect-first-prison-visit",
-    title: "What to Expect on Your First Prison Visit",
+    title: "What to Expect on Your First Prison Visit: Complete Preparation Guide",
     excerpt: "A practical guide for first-time prison visitors. Covers what happens at each stage of the visit, how to prepare, and how to handle the emotional experience.",
     category: "Visitation",
     difficulty: "Beginner",
@@ -1892,77 +1892,122 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "What to Expect on Your First Prison Visit: Visitor Guide",
-    seoDescription: "Prepare for your first prison visit. Learn what happens at the checkpoint, what the visiting room is like, how long visits last, and how to handle the experience.",
+    seoTitle: "First Prison Visit: What to Expect, What to Bring, Dress Code and Security Rules",
+    seoDescription: "Complete guide to your first prison visit - what happens at the entrance, what to wear, what to bring, what the visiting room is like, and how to make the most of your time. Free guide for families.",
 
     intro: [
-      "Visiting a correctional facility for the first time can be intimidating if you do not know what to expect. The security process, the environment, and the rules are unlike anything most people encounter in daily life.",
-      "This guide walks through the entire experience from arrival to departure so you feel prepared.",
+      "Your first visit to a prison or jail can feel overwhelming. The environment is unfamiliar, the rules are strict, and not knowing what to expect makes everything harder. Being prepared before you arrive makes a significant difference - both for how smoothly the visit goes and for how you feel when you walk in.",
+      "Prison visits are meaningful. Research consistently shows that incarcerated people who maintain family connections have better outcomes, and the visit matters to your loved one even if it is short or awkward at first. The discomfort of the first visit almost always eases with time.",
+      "This guide explains exactly what happens from the moment you arrive at the facility to the moment you leave, so your first visit has no surprises.",
     ],
 
     sections: [
       {
-        heading: "Before You Arrive",
+        heading: "Before You Arrive: What to Confirm",
         body: [
-          "Confirm your visit is scheduled and that you are on the approved visitor list. Bring only your government-issued photo ID. Leave everything else in your car, including your phone.",
-          "Wear clothing that follows the facility's dress code. Avoid colors similar to inmate uniforms, revealing clothing, and anything with metal that would trigger the detector. Arriving in the wrong clothing means you will not be allowed in.",
-          "Arrive early. Security processing takes time, especially for first-time visitors. Arriving 30 minutes before your scheduled time is a reasonable buffer.",
+          "Confirm your approval status before making the trip. You must be on the inmate approved visitor list before you can enter. If you are not sure whether your approval has been processed, call the facility and ask. Arriving without confirmed approval almost always results in being turned away.",
+          "Confirm the visiting hours and schedule for the specific day you plan to visit. Visiting schedules change due to facility lockdowns, counts, staffing, and holidays. Call the facility the day before or the morning of your visit to confirm visits are still happening as scheduled.",
+          "Bring a valid government-issued photo ID. This is non-negotiable at every facility. Acceptable forms include a driver's license, state ID card, passport, or military ID. Expired IDs are not accepted. If your name has changed since your ID was issued, contact the facility in advance about what documentation you need.",
+          "Bring a small amount of cash or coins in a clear plastic bag for vending machines if the facility allows it. Most facilities limit this to $20 to $40 in small bills or coins. Leave everything else - your wallet, purse, cell phone, keys, and personal items - locked in your vehicle.",
         ],
       },
       {
-        heading: "At the Security Checkpoint",
+        heading: "What to Wear to a Prison Visit",
         body: [
-          "You will check in at a front desk or gate. Staff will verify your ID against the visitor list. You may need to sign in and declare that you are not bringing in any prohibited items.",
-          "Next comes a metal detector screening. Empty your pockets completely. Remove your shoes if asked. Some facilities use a wand scanner in addition to the walk-through detector.",
-          "Pat-down searches may occur, particularly at higher-security facilities. This applies to all visitors without exception and is not a sign that you are suspected of anything. It is standard procedure.",
+          "Your clothing choice is one of the most important decisions before a prison visit. Arriving in clothing that violates the dress code means being turned away and rescheduling. When in doubt, call the facility and ask about their specific dress code before your visit.",
+          "Avoid clothing that resembles inmate uniforms. Most facilities prohibit khaki, tan, orange, or the specific colors their inmates wear. Each facility has its own restricted colors - call ahead to confirm which colors are off limits at that location.",
+          "Wear modest, non-revealing clothing. Avoid low-cut tops, midriff-baring shirts, shorts or skirts more than three inches above the knee, see-through fabric, and form-fitting clothing like leggings or yoga pants. Many facilities prohibit sleeveless shirts for adults.",
+          "Leave excessive jewelry at home. It will trigger metal detectors and may need to be removed or held at the entrance. Underwire bras can also trigger metal detectors - some families bring an alternative just in case. Wear comfortable closed-toe shoes as open-toe footwear is prohibited at many facilities.",
+          "Bring a change of clothes and leave it in your vehicle. If something you are wearing is flagged as a dress code violation at the entrance, you can change in the parking lot and try again rather than making a wasted trip.",
         ],
       },
       {
-        heading: "In the Visiting Room",
+        heading: "What Happens at the Entrance",
         body: [
-          "The visiting room environment varies by facility. Some are open rooms with chairs and tables. Others are divided by glass with phone handsets for communication. At contact facilities, you may be able to sit across a table from your loved one.",
-          "You will typically be allowed a brief hug at the start and end of the visit. Some facilities restrict all physical contact. Follow the rules you were given during check-in.",
-          "Keep the conversation natural. There is no need to whisper or be secretive about normal topics. Staff monitor the room but are not listening to every conversation unless something attracts attention.",
+          "Arrive early. Arriving at least 30 minutes before the visiting period starts gives you time to complete check-in without rushing. If you arrive late, you may be turned away or given a shortened visit window.",
+          "You will check in at a reception desk or entrance window. Present your government ID and state your name and the name of the inmate you are visiting. Staff will verify you are on the approved visitor list and confirm the visit is scheduled. Sign the visitor log as instructed.",
+          "You will pass through security screening. At minimum this includes a metal detector. Many facilities also conduct pat-down searches, use ion scanners to detect trace amounts of drugs, or use search dogs in the parking area. Refusing any part of the search means your visit is denied.",
+          "Everything you are not allowed to bring inside must be left in your vehicle or stored in a locker at the facility entrance. Most facilities have lockers available. Place your cell phone, keys, wallet, and all personal items in the locker before proceeding. You will retrieve them when you leave.",
+          "After clearing security, you will wait in a holding area or be directed to the visiting room. The inmate is notified of your arrival and brought to the visiting area by staff. Wait times vary - the inmate may arrive quickly or it may take 15 to 30 minutes depending on where they are in the facility when you arrive.",
         ],
       },
       {
-        heading: "After the Visit",
+        heading: "What the Visiting Room Is Like",
         body: [
-          "When the visit ends, staff will signal or announce the conclusion. Say your goodbyes and exit through the designated area. You may need to pass through a checkpoint again on the way out.",
-          "It is normal to feel emotionally drained after a first visit. The environment can be stressful. Give yourself time to decompress afterward. Many families say the second visit is significantly easier than the first.",
+          "Visiting rooms vary by facility type and security level. Some facilities have traditional visiting rooms with tables and chairs where you sit across from or next to the inmate. Contact visits in these rooms allow limited physical contact within the rules.",
+          "Some facilities use non-contact visiting rooms where you and the inmate sit on opposite sides of a partition with a phone or speaker to communicate. There is no physical contact in non-contact visits. Some county jails have moved to video-only visitation where you visit through a screen even when you are physically at the facility.",
+          "The room is monitored at all times. Cameras record the space and staff observe the visiting room either in person or through monitors. Conversations are generally not recorded in traditional visiting rooms but staff can hear anything spoken at normal volume. Treat the visit as if everything you say is being listened to.",
+          "The atmosphere is unlike any social setting you have experienced before. The furniture is often institutional and uncomfortable. The environment is not warm. This is normal and expected. Focus on your loved one rather than the surroundings.",
+        ],
+      },
+      {
+        heading: "Physical Contact Rules During a Visit",
+        body: [
+          "Most facilities allow a brief hug and kiss at the very beginning of the visit when you first see your loved one, and again at the end when the visit is over. This is standard across most contact visiting facilities. Anything beyond this brief contact at the start and end is generally not permitted.",
+          "During the visit itself, holding hands across the table is allowed at most facilities but extended embracing, kissing, or physical contact beyond hand-holding is not. Staff will intervene if rules are violated. A single warning is typically given before the visit is terminated.",
+          "Children visiting a parent are often given more flexibility depending on the facility and the officers on duty. Young children may be allowed to sit on the incarcerated parent's lap during a contact visit. Do not assume this is allowed - confirm with the facility before bringing young children.",
+          "Non-contact visiting rooms have no physical contact at all. You and your loved one are separated by a partition for the entire visit. If you are unsure whether the facility offers contact or non-contact visits, call ahead and ask.",
+        ],
+      },
+      {
+        heading: "Making the Most of Your Visit",
+        body: [
+          "The first visit is often more emotional and less conversational than you expect. This is normal. Many families find the first visit is largely spent adjusting to the environment and simply being present with each other. The conversation becomes easier and more natural on subsequent visits.",
+          "Prepare a few topics in advance. Think about family updates, positive news, and questions you want to ask. Having a mental list of things to talk about helps fill silence and keeps the visit feeling connected rather than awkward.",
+          "Be patient with the process. Counts, shift changes, and facility operations may interrupt or delay the visit. Staff may ask all visitors to pause or be quiet during a facility count, which is a routine process where staff confirm inmate locations. This is normal and does not mean anything has gone wrong.",
+          "When the visit ends, follow the instructions from staff on how to say goodbye and exit. Do not delay or try to extend the visit after staff indicate it is over. Leave calmly and plan your next visit before you go home while the details are fresh in your mind.",
+        ],
+      },
+      {
+        heading: "Bringing Children to a Prison Visit",
+        body: [
+          "Visiting a parent in prison can be a meaningful and important experience for children, but it requires preparation. Explain to children in age-appropriate terms what to expect before you go - what the building looks like, that there will be security checks, what the visiting room looks like, and what they can and cannot do during the visit.",
+          "Children must be on the approved visitor list. They must follow the same dress code as adults. Minors accompanied by a legal guardian who is not their parent may need additional documentation such as a notarized letter of guardianship. Call the facility to confirm requirements for minors before bringing them.",
+          "Bring only approved items for infants and young children. Many facilities allow a clear plastic bag with a small number of diapers, a bottle or sippy cup, and a change of clothing. Do not bring toys, books, or food beyond what the facility specifically approves.",
+          "Consider making your first visit alone before bringing children. This lets you see the environment firsthand and gives you the ability to prepare children with accurate details about what to expect. Children who know what is coming handle the experience significantly better than those who do not.",
         ],
       },
     ],
 
     takeaways: [
-      "Confirm your appointment and approved visitor status before the day of the visit.",
-      "Bring only your government-issued ID. Leave your phone and everything else in your car.",
-      "Follow the dress code exactly. Wrong clothing means you will be turned away.",
-      "Security processing includes metal detectors and possibly a pat-down. This is standard.",
-      "Contact rules vary by facility. Follow the instructions you receive at check-in.",
-      "First visits are emotionally intense. The experience gets easier over time.",
+      "Confirm your approval status and visit schedule before making the trip. Call the facility the day before to confirm visits are happening.",
+      "Bring a valid government-issued photo ID. Expired IDs are not accepted.",
+      "Follow the dress code strictly. Arriving in prohibited clothing means being turned away. Bring a change of clothes in your vehicle just in case.",
+      "Leave your cell phone, wallet, keys, and personal items in your locked vehicle or in facility lockers before entering.",
+      "Arrive at least 30 minutes early to allow time for check-in and security screening.",
+      "Most contact visits allow a brief hug and kiss at the beginning and end only. During the visit, holding hands is typically the limit of physical contact.",
+      "The first visit is often emotional and awkward. This is normal. It gets easier with each subsequent visit.",
+      "If bringing children, explain what to expect in advance and confirm documentation requirements with the facility beforehand.",
     ],
 
     faq: [
       {
-        question: "Can I take photos during the visit?",
-        answer: "Generally, no. Personal cameras and phones are not allowed inside. Some facilities have a designated photo area with a staff photographer for a fee.",
+        question: "What should I bring to my first prison visit?",
+        answer: "Bring a valid government-issued photo ID and a small amount of cash in a clear plastic bag for vending machines if the facility allows it. Leave everything else - your phone, wallet, keys, and personal items - locked in your vehicle. Confirm exactly what is allowed with the facility before your visit.",
       },
       {
-        question: "What do I do if I forget my ID?",
-        answer: "You will not be allowed in without valid government-issued photo ID. If you forget it, you will need to reschedule. There are usually no exceptions.",
+        question: "What should I wear to visit someone in prison?",
+        answer: "Wear modest clothing that does not resemble inmate uniforms. Avoid the colors used for inmate clothing at that facility, revealing clothing, form-fitting clothing, and excessive jewelry. Wear closed-toe shoes. When in doubt, call the facility before your visit to confirm their specific dress code.",
       },
       {
-        question: "Can I bring gifts or food?",
-        answer: "No outside food or gifts are allowed in the visiting room. Vending machines are available in many visiting areas. Gifts and packages must be sent through an approved vendor, not handed in during a visit.",
+        question: "Can I hug someone during a prison visit?",
+        answer: "At most facilities offering contact visits, a brief hug and kiss is allowed at the beginning and end of the visit only. Extended physical contact during the visit is not permitted and staff will intervene. Non-contact facilities do not allow any physical contact. Confirm the rules with the facility before your visit.",
       },
       {
-        question: "What if my loved one is not brought to the visiting room?",
-        answer: "This can happen during lockdowns, medical issues, or disciplinary situations. Ask staff at the desk to confirm the status. If it is a lockdown, you will likely need to reschedule.",
+        question: "What happens if I arrive without being on the approved visitor list?",
+        answer: "You will be turned away. You cannot visit someone in prison without being on their approved visitor list. Confirm your approval status before making the trip by calling the facility. The approval process takes weeks and must be completed before any visit can happen.",
       },
       {
-        question: "Is it normal to feel upset during or after a visit?",
-        answer: "Yes. Many visitors and incarcerated people find visits emotionally difficult, especially early in a sentence. This is a normal response to an unusual and stressful situation.",
+        question: "Can I bring my phone into the prison visiting room?",
+        answer: "No. Cell phones and electronic devices are prohibited inside all correctional facilities. Leave your phone in your locked vehicle before entering the facility. Attempting to bring a phone inside is a serious violation and will result in being denied entry.",
+      },
+      {
+        question: "How long does a prison visit last?",
+        answer: "Visit length varies by facility, day of the week, and the number of visitors present. Most visits last between one and three hours. Some facilities have fixed time slots. Staff will indicate when the visit is over. Do not attempt to extend the visit after being told it is finished.",
+      },
+      {
+        question: "Can I bring my children to visit someone in prison?",
+        answer: "Yes, but children must be on the approved visitor list and follow the same dress code as adults. If you are not the child's parent, you may need guardianship documentation. Consider visiting alone first so you can prepare the children for what to expect. Call the facility to confirm all requirements for minors before bringing them.",
       },
     ],
 

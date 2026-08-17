@@ -9,11 +9,35 @@ export function buildOrganizationSchema(): JsonLdSchema {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE_NAME,
+    alternateName: "InmateTextApp",
     url: SITE_URL,
     logo: absoluteUrl("/og/logo"),
-    description:
-      "Prison communication discovery platform helping families find messaging, video, and phone options at correctional facilities across the United States.",
-    sameAs: [],
+    description: "Prison communication discovery platform helping families find messaging, video, and phone options at correctional facilities across the United States.",
+    foundingDate: "2026",
+    areaServed: {
+      "@type": "Country",
+      name: "United States",
+    },
+    knowsAbout: [
+      "Inmate messaging",
+      "Prison phone calls",
+      "Video visitation",
+      "Correctional facility communication",
+      "JPay",
+      "CorrLinks",
+      "ConnectNetwork",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      url: SITE_URL + "/about",
+      availableLanguage: "English",
+    },
+    sameAs: [
+      "https://www.jpay.com",
+      "https://www.corrlinks.com",
+      "https://www.connectnetwork.com",
+    ],
   }
 }
 
@@ -83,7 +107,8 @@ export function buildFacilitySchema(facility: {
 }): JsonLdSchema {
   return {
     "@context": "https://schema.org",
-    "@type": "Place",
+    "@type": "CivicStructure",
+    additionalType: "https://schema.org/GovernmentBuilding",
     name: facility.name,
     description: facility.description,
     url: absoluteUrl(`/facility/${facility.slug}`),
@@ -105,10 +130,12 @@ export function buildProviderSchema(provider: {
 }): JsonLdSchema {
   return {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "SoftwareApplication"],
     name: provider.name,
     description: provider.description,
     url: absoluteUrl(`/provider/${provider.slug}`),
+    applicationCategory: "CommunicationApplication",
+    operatingSystem: "iOS, Android, Web",
     ...(provider.website ? { sameAs: [provider.website] } : {}),
   }
 }
@@ -129,6 +156,7 @@ export function buildArticleSchema(guide: {
     image: absoluteUrl("/og"),
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
+    inLanguage: "en-US",
     author: {
       "@type": "Organization",
       name: SITE_NAME,
@@ -141,7 +169,13 @@ export function buildArticleSchema(guide: {
       logo: {
         "@type": "ImageObject",
         url: absoluteUrl("/og/logo"),
+        width: 512,
+        height: 512,
       },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": absoluteUrl(`/guides/${guide.slug}`),
     },
   }
 }
@@ -210,5 +244,67 @@ export function buildCompareSchema(
         url: absoluteUrl(`/provider/${providerB.slug}`),
       },
     ],
+  }
+}
+
+export function buildHowToSchema(guide: {
+  title: string
+  description: string
+  slug: string
+  steps: string[]
+}): JsonLdSchema {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: guide.title,
+    description: guide.description,
+    url: absoluteUrl(`/guides/${guide.slug}`),
+    inLanguage: "en-US",
+    step: guide.steps.map((stepText, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: stepText.substring(0, 50),
+      text: stepText,
+    })),
+  }
+}
+
+export function buildReviewSchema(provider: {
+  name: string
+  slug: string
+  description: string
+  ratingValue: number
+  reviewCount: number
+}): JsonLdSchema {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: provider.name,
+    description: provider.description,
+    url: absoluteUrl(`/provider/${provider.slug}`),
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: provider.ratingValue,
+      bestRating: 10,
+      worstRating: 1,
+      reviewCount: provider.reviewCount,
+    },
+  }
+}
+
+export function buildSiteLinksSearchBoxSchema(): JsonLdSchema {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
   }
 }

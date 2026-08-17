@@ -31,7 +31,7 @@ export default function Header() {
           <Link
             href="/"
             className="shrink-0 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
-            aria-label="Inmate Text App — Home"
+            aria-label="InmateTextApp — Prison Communication Directory"
           >
             <Logo />
           </Link>

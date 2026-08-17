@@ -130,12 +130,10 @@ export function buildProviderSchema(provider: {
 }): JsonLdSchema {
   return {
     "@context": "https://schema.org",
-    "@type": ["Organization", "SoftwareApplication"],
+    "@type": "Organization",
     name: provider.name,
     description: provider.description,
     url: absoluteUrl(`/provider/${provider.slug}`),
-    applicationCategory: "CommunicationApplication",
-    operatingSystem: "iOS, Android, Web",
     ...(provider.website ? { sameAs: [provider.website] } : {}),
   }
 }

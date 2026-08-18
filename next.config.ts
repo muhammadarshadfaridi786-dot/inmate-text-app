@@ -98,6 +98,80 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [{ protocol: "https", hostname: "**" }],
   },
+  async redirects() {
+    return [
+      {
+        source: '/facility/metropolitan-detention-center-brooklyn',
+        destination: '/facility/mdc-brooklyn',
+        permanent: true,
+      },
+      {
+        source: '/facility/mens-central-jail-los-angeles',
+        destination: '/facility/los-angeles-county-mens-central-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/pre-trial-detention-center-miami',
+        destination: '/facility/federal-detention-center-miami',
+        permanent: true,
+      },
+      {
+        source: '/facility/harris-county-jail-baker-street-annex',
+        destination: '/county/harris-county',
+        permanent: true,
+      },
+      {
+        source: '/facility/brooklyn-detention-complex',
+        destination: '/facility/mdc-brooklyn',
+        permanent: true,
+      },
+      {
+        source: '/facility/rikers-island-amkc',
+        destination: '/facility/rikers-island',
+        permanent: true,
+      },
+      {
+        source: '/facility/twin-towers-correctional-facility',
+        destination: '/facility/twin-towers-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/fdc-houston',
+        destination: '/facility/federal-detention-center-houston',
+        permanent: true,
+      },
+      {
+        source: '/facility/joseph-v-conte-facility',
+        destination: '/county/san-francisco-county',
+        permanent: true,
+      },
+      {
+        source: '/facility/suzanne-lee-kays-detention-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/federal-prisons',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/state-prisons',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/county-jails',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/private-prisons',
+        destination: '/facilities',
+        permanent: false,
+      },
+    ]
+  },
 }
 
 export default nextConfig

@@ -170,6 +170,206 @@ const nextConfig: NextConfig = {
         destination: '/facilities',
         permanent: false,
       },
+      {
+        source: '/facility/fci-cumberland',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/mecklenburg-county-detention-center',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/penobscot-county-jail',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/aci-maximum-security',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/wyoming-state-penitentiary',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/king-county-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/fci-edgefield',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/halawa-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/northern-state-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/fmc-rochester',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/cass-county-jail',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/bernalillo-county-metropolitan-detention-center',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/lew-sterrett-justice-center',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/waupun-correctional-institution',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/cheshire-correctional-institution',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/philadelphia-department-of-prisons',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/louisville-metro-corrections',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/kilby-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/marble-valley-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/ely-state-prison',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/rj-donovan-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/fci-hazelton',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/fci-forrest-city',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/san-diego-central-jail',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/maui-community-correctional-center',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/howard-r-young-correctional-institution',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/franklin-county-correctional-center',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/essex-county-correctional-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/state-correctional-institution-phoenix',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/state-correctional-institution-dallas',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/wayne-county-jail',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/tecumseh-state-correctional-institution',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/douglas-county-department-of-corrections',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/fci-yankton',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/fmc-devens',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/polk-county-jail',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/anamosa-state-penitentiary',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/theo-lacy-facility',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/laramie-county-detention-center',
+        destination: '/facilities',
+        permanent: false,
+      },
+      {
+        source: '/facility/california-state-prison-los-angeles-county',
+        destination: '/state/california',
+        permanent: false,
+      },
     ]
   },
 }

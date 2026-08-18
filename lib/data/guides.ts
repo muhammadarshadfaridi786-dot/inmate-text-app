@@ -2418,6 +2418,365 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     ctaTarget: "/messaging",
     ctaLabel: "Explore Messaging Platforms",
   },
+
+  "how-securus-works": {
+    id: "guide-21",
+    slug: "how-securus-works",
+    title: "How Securus Technologies Works: Complete Guide for Families",
+    excerpt: "Learn how Securus Technologies works for inmate phone calls, video visits, and messaging at county jails and state prisons across 45 states.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 6,
+    featuredImage: undefined,
+    publishedAt: "",
+    updatedAt: "",
+    seoTitle: "How Securus Technologies Works: Phone Calls, Video Visits and Account Setup Guide",
+    seoDescription: "Complete guide to Securus Technologies for families - how to create an account, set up phone calls, schedule video visits, send money, and which facilities use Securus.",
+
+    intro: [
+      "Securus Technologies is one of the largest inmate communication providers in the United States, serving over 1,200 correctional facilities across 45 states. If your loved one is in a county jail or state prison that uses Securus, this guide explains everything you need to know to set up an account and start communicating.",
+      "Securus provides phone calls, video visitation, electronic messaging at some facilities, and inmate money transfers. The services available to you depend on which ones your loved one facility has contracted for. Not every Securus facility offers every service.",
+      "This guide explains how to create a Securus account, how to set up phone calls, how to schedule video visits, how to send money, and what to do if you have problems.",
+    ],
+
+    sections: [
+      {
+        heading: "What Is Securus Technologies and Which Facilities Use It",
+        body: [
+          "Securus Technologies is a privately held inmate communication company that contracts with correctional facilities to provide phone, video, messaging, and financial services. Securus is headquartered in Dallas, Texas and is owned by Aventiv Technologies, the same parent company that owns JPay.",
+          "Securus serves over 1,200 facilities across 45 states, making it one of the most widely deployed inmate communication providers in the country. Securus is especially common at county jails and local detention centers, though it also holds contracts at some state prison facilities.",
+          "To find out if your loved one facility uses Securus, search our facility directory by facility name. The provider information is listed on each facility page. You can also call the facility directly and ask which phone and communication provider they use.",
+        ],
+      },
+      {
+        heading: "How to Create a Securus Account",
+        body: [
+          "Go to securustech.net and click on the option to create a new account. You will need to provide your full name, email address, phone number, and create a password. Account creation is free and takes only a few minutes.",
+          "After creating your account, you will need to find your loved one in the Securus system. Search by the facility name and the inmate name or inmate ID number. Once you find them, add them to your account.",
+          "Securus also has a mobile app available for iOS and Android called Securus Mobile. Download the app from your app store and log in with your account details to manage phone accounts, schedule video visits, and send messages from your smartphone.",
+          "If you have trouble creating an account online, you can call Securus customer service for assistance. Have the facility name and your loved one inmate ID number ready before calling.",
+        ],
+      },
+      {
+        heading: "How to Set Up Phone Calls Through Securus",
+        body: [
+          "Securus handles inmate phone calls through a prepaid account system. You fund an account in advance and the per-minute rate is deducted each time the inmate calls you. You cannot call the inmate directly - all calls must be initiated by the inmate from a facility phone.",
+          "To set up your phone account, log in to your Securus account and go to the AdvancePay or prepaid calling section. Register the phone number where you want to receive calls and add funds using a credit card, debit card, or other accepted payment method.",
+          "Once your account is funded, the inmate can call your registered number from a facility phone. The call connects automatically and the per-minute charge is deducted from your balance. Keep your balance funded to avoid missed calls.",
+          "Securus phone rates for interstate calls are regulated by the FCC with a maximum of $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates may vary by facility. Check your account for the specific rate that applies to your facility.",
+        ],
+      },
+      {
+        heading: "How to Schedule a Securus Video Visit",
+        body: [
+          "Securus offers video visitation at many facilities where this service has been contracted. To check if video visits are available at your loved one facility, log in to your account and look for a video visits option on your dashboard. If it appears, the facility supports this service.",
+          "To schedule a video visit, select your loved one from your contact list and choose an available date and time slot from the scheduling calendar. Review the cost and enter your payment information. You will receive a confirmation of your scheduled visit.",
+          "At the scheduled time, log in to your Securus account on your computer or open the Securus Mobile app on your smartphone or tablet. Make sure your camera and microphone are working before the visit begins. Join the session at the scheduled time and wait for the inmate to connect from the facility.",
+          "Video visits through Securus typically cost between $7.50 and $15 per session depending on the facility. Sessions are usually 20 to 30 minutes long. All video visits are recorded and monitored by facility staff.",
+        ],
+      },
+      {
+        heading: "How to Send Money Through Securus",
+        body: [
+          "Securus allows families to send money directly to an inmate trust account through their platform. Log in to your account and go to the send money or inmate deposit section. Select your loved one, enter the amount, and pay by credit card or debit card.",
+          "Securus charges a transaction fee for money transfers. Fees vary by facility and transfer amount. Always check the current fee schedule before sending to avoid surprises. Keep your transaction confirmation number until you confirm the funds have been credited to the inmate account.",
+          "Processing times vary by facility. Most deposits are credited to the inmate trust account within one to three business days. Inmate trust account funds can be used for commissary purchases, phone call credits, and other approved facility expenses.",
+        ],
+      },
+      {
+        heading: "Common Problems and How to Fix Them",
+        body: [
+          "If you are not receiving calls, check that your phone number is registered in your Securus account and that your balance is funded. Also confirm with the facility that your number is on the inmate approved contact list. If your number was recently changed, update it in your account before the next call.",
+          "If a video visit does not connect, check your internet connection and make sure your camera and microphone permissions are enabled for the Securus app or website. Test your connection before the scheduled session. If the problem is on the Securus side, contact customer service with your confirmation number to request a credit.",
+          "If a money transfer does not arrive, contact Securus customer service with your transaction confirmation number. Common causes include an incorrect inmate ID number or a transfer sent to the wrong facility. Always verify the inmate ID and facility name before sending funds.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Securus Technologies serves over 1,200 facilities across 45 states and is especially common at county jails.",
+      "Creating a Securus account is free. Go to securustech.net or download the Securus Mobile app.",
+      "Phone calls use a prepaid account system. Fund your account before the inmate calls you.",
+      "Video visits are available at select facilities. Schedule in advance through your Securus account.",
+      "Money transfers go to the inmate trust account and are credited within one to three business days.",
+      "FCC caps interstate phone rates at $0.21 per minute for prisons and $0.13 per minute for jails.",
+      "If the facility does not appear to use Securus, search our facility directory to find the correct provider.",
+    ],
+
+    faq: [
+      {
+        question: "How do I set up a Securus account?",
+        answer: "Go to securustech.net and create a free account with your name, email, and phone number. Then search for your loved one by facility name and inmate ID to add them to your account. Download the Securus Mobile app for iOS or Android to manage your account from your smartphone.",
+      },
+      {
+        question: "Which facilities use Securus Technologies?",
+        answer: "Securus serves over 1,200 facilities across 45 states, primarily county jails and some state prisons. Search our facility directory to find out if your specific facility uses Securus. You can also call the facility directly and ask which communication provider they use.",
+      },
+      {
+        question: "How much do Securus phone calls cost?",
+        answer: "Interstate call rates are federally regulated with a maximum of $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates vary by facility and state. Log in to your Securus account to see the specific rate for your loved one facility.",
+      },
+      {
+        question: "Can I video visit through Securus?",
+        answer: "Video visitation is available at Securus facilities that have contracted for this service. Log in to your account and check your dashboard - if video visits appear as an option, the service is available at your facility. Sessions typically cost between $7.50 and $15 and last 20 to 30 minutes.",
+      },
+      {
+        question: "How do I send money to an inmate through Securus?",
+        answer: "Log in to your Securus account, go to the send money section, select your loved one, enter the amount, and pay by credit or debit card. Transaction fees apply and vary by facility and amount. Funds are typically credited to the inmate trust account within one to three business days.",
+      },
+      {
+        question: "Is there a Securus mobile app?",
+        answer: "Yes. The Securus Mobile app is available for free on iOS and Android. Download it from your app store and log in with your account details to manage phone accounts, schedule video visits, and access other services from your smartphone.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-prison-phone-calls-work", "how-video-visitation-works", "how-to-send-money-to-an-inmate", "county-jail-vs-state-prison"],
+    relatedTermSlugs: ["inmate-phone-calls", "video-visitation", "inmate-account"],
+    relatedProviderSlugs: ["securus", "gtl", "connectnetwork"],
+    relatedComparisonSlugs: ["jpay-vs-corrlinks"],
+    ctaType: "provider",
+    ctaTarget: "/provider/securus",
+    ctaLabel: "View Securus Provider Page",
+  },
+
+  "how-gtl-works": {
+    id: "guide-22",
+    slug: "how-gtl-works",
+    title: "How GTL Works: Complete Guide to ViaPath Technologies for Families",
+    excerpt: "Learn how GTL (Global Tel Link / ViaPath Technologies) works for inmate phone calls and video visits at state prisons and county jails across 30 states.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 5,
+    featuredImage: undefined,
+    publishedAt: "",
+    updatedAt: "",
+    seoTitle: "How GTL Works: ViaPath Technologies Phone Calls, Video Visits and ConnectNetwork Guide",
+    seoDescription: "Complete guide to GTL ViaPath Technologies for families - how GTL relates to ConnectNetwork, how to set up phone calls and video visits, which facilities use GTL, and how to contact support.",
+
+    intro: [
+      "GTL, which stands for Global Tel Link, is one of the largest inmate communication companies in the United States. GTL is now part of ViaPath Technologies and operates ConnectNetwork, the consumer-facing platform that families use to manage phone calls, video visits, and money transfers.",
+      "GTL serves over 800 facilities across 30 states, primarily at state prisons and county jails. If your loved one is in a facility that uses GTL, you will interact with their services through the ConnectNetwork website and app rather than through a GTL-branded platform.",
+      "This guide explains the relationship between GTL and ConnectNetwork, how to set up your account, how phone calls work, and which facilities use GTL services.",
+    ],
+
+    sections: [
+      {
+        heading: "What Is GTL and How Does It Relate to ConnectNetwork",
+        body: [
+          "GTL (Global Tel Link) is the company that holds facility contracts and provides the underlying communication infrastructure at prisons and jails. ConnectNetwork is the consumer brand - the website and app that families use to access GTL services. When you sign up for ConnectNetwork, you are using GTL infrastructure.",
+          "GTL is part of ViaPath Technologies, a company formed from GTL and Telmate. ViaPath also operates GettingOut, another consumer platform used primarily at county jails. If your loved one is in a county jail, they may be on GettingOut rather than ConnectNetwork even though both are ultimately GTL services.",
+          "For most families, the practical starting point is the ConnectNetwork website at connectnetwork.com or the ConnectNetwork app. This is where you create your account, fund phone calls, schedule video visits, and manage money transfers for GTL-served facilities.",
+        ],
+      },
+      {
+        heading: "Which Facilities Use GTL",
+        body: [
+          "GTL serves over 800 facilities across 30 states through its ConnectNetwork platform. GTL holds contracts at state prison systems and county jails. Because GTL often wins large state-level contracts, their services can cover an entire state prison system under one agreement.",
+          "GTL also operates the federal Bureau of Prisons phone and video infrastructure at many federal facilities. ConnectNetwork handles phone calls and video visits at many BOP institutions, though electronic messaging at federal facilities always goes through CorrLinks regardless of which phone provider is used.",
+          "To find out if your loved one facility uses GTL, search our facility directory. You can also visit connectnetwork.com and search for the facility name directly.",
+        ],
+      },
+      {
+        heading: "How to Set Up a GTL Account Through ConnectNetwork",
+        body: [
+          "Go to connectnetwork.com and click create account. Enter your full name, email address, and phone number and create a password. Account creation is free. Verify your account through the confirmation email that is sent to you.",
+          "After logging in, add your loved one facility and search for them by name or inmate ID number. Once added, your dashboard will show the services available at their specific facility. Services that appear on your dashboard are the ones contracted at that location.",
+          "Download the free ConnectNetwork app for iOS or Android to manage your account from your smartphone. The app allows you to fund phone accounts, schedule video visits, and receive notifications when your balance is low.",
+        ],
+      },
+      {
+        heading: "How GTL Phone Calls Work",
+        body: [
+          "GTL phone calls work through the AdvancePay prepaid system on ConnectNetwork. You deposit money in advance and funds are deducted each time the inmate calls your registered phone number. You cannot call the inmate - all calls must be initiated by the inmate from a facility phone.",
+          "To receive calls, register your phone number in your ConnectNetwork account and add funds to your AdvancePay balance. When the inmate calls, the call connects automatically and the per-minute rate is deducted from your balance. Set up automatic refills to ensure your balance never runs out.",
+          "GTL phone rates for interstate calls are regulated by the FCC. The maximum rate is $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates vary. Check your ConnectNetwork account for the specific rate that applies to your facility.",
+        ],
+      },
+      {
+        heading: "How GTL Video Visits Work",
+        body: [
+          "Video visits through GTL are scheduled through your ConnectNetwork account. Log in, go to the video visits section, and select an available date and time. Pay for the session and receive a confirmation. At the scheduled time, join through the ConnectNetwork website or app.",
+          "You need a device with a camera and microphone and a stable internet connection. Test your camera and microphone before the visit. Sessions are typically 20 to 30 minutes and end automatically when the time limit is reached.",
+          "Video visit costs vary by facility but typically range from $7.50 to $15 per session. All visits are recorded and monitored. Follow the same content rules that apply to phone calls.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "GTL is the company behind ConnectNetwork. Families access GTL services through the ConnectNetwork website and app.",
+      "GTL serves over 800 facilities across 30 states at state prisons and county jails.",
+      "GTL also operates GettingOut for county jails through its ViaPath Technologies parent company.",
+      "Create your account at connectnetwork.com. Account creation is free.",
+      "Phone calls use the AdvancePay prepaid system. Fund your account before the inmate calls.",
+      "Video visits are available at select facilities. Schedule through your ConnectNetwork account.",
+      "Federal BOP inmates use CorrLinks for messaging even at facilities where GTL handles phone calls.",
+    ],
+
+    faq: [
+      {
+        question: "What is the difference between GTL and ConnectNetwork?",
+        answer: "GTL is the company that holds facility contracts and provides communication infrastructure. ConnectNetwork is the consumer platform families use to access those services. When you create a ConnectNetwork account, you are using GTL services. The two names refer to different layers of the same system.",
+      },
+      {
+        question: "How do I set up a GTL account?",
+        answer: "Go to connectnetwork.com and create a free account. Enter your name, email, and phone number. Then add your loved one facility and search for them by name or inmate ID. Your dashboard will show the services available at their specific facility.",
+      },
+      {
+        question: "Which states use GTL for prison communications?",
+        answer: "GTL serves facilities in over 30 states through ConnectNetwork. The company holds contracts at state prison systems and county jails. Search our facility directory to find out if your specific facility uses GTL.",
+      },
+      {
+        question: "Is ConnectNetwork the same as GTL?",
+        answer: "ConnectNetwork is the consumer brand operated by GTL. GTL is the parent company that holds facility contracts. Families use ConnectNetwork to manage accounts while GTL maintains the underlying infrastructure. Both names refer to the same service.",
+      },
+      {
+        question: "Does GTL handle federal prison communications?",
+        answer: "GTL handles phone calls and video visits at many federal Bureau of Prisons facilities through ConnectNetwork. However, electronic messaging at all federal facilities goes through CorrLinks only, regardless of which company handles phone services.",
+      },
+      {
+        question: "How much do GTL phone calls cost?",
+        answer: "GTL interstate call rates are capped by the FCC at $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates vary by facility. Log in to your ConnectNetwork account to see the specific rate for your loved one facility.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-connectnetwork-works", "how-video-visitation-works", "how-prison-phone-calls-work", "federal-prison-vs-state-prison"],
+    relatedTermSlugs: ["inmate-phone-calls", "video-visitation", "inmate-account"],
+    relatedProviderSlugs: ["gtl", "connectnetwork", "gettingout", "securus"],
+    relatedComparisonSlugs: ["jpay-vs-connectnetwork", "gettingout-vs-connectnetwork"],
+    ctaType: "provider",
+    ctaTarget: "/provider/gtl",
+    ctaLabel: "View GTL Provider Page",
+  },
+
+  "how-gettingout-works": {
+    id: "guide-23",
+    slug: "how-gettingout-works",
+    title: "How GettingOut Works: Complete Guide for County Jail Families",
+    excerpt: "Learn how GettingOut by Telmate works for video visits, messaging, phone calls, and money transfers at over 2,200 county jails across 45 states.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 6,
+    featuredImage: undefined,
+    publishedAt: "",
+    updatedAt: "",
+    seoTitle: "How GettingOut Works: Video Visits, Messaging and Account Setup for County Jails",
+    seoDescription: "Complete guide to GettingOut by Telmate for families - how to create an account, schedule your first video visit, send messages, make phone calls, and transfer money at county jails. Free step-by-step guide.",
+
+    intro: [
+      "GettingOut is an inmate communication platform operated by Telmate, a subsidiary of GTL and part of the ViaPath Technologies family. GettingOut serves over 2,200 county jails across 45 states and is one of the most widely used platforms for families of people held in local detention.",
+      "GettingOut is best known for its video visitation feature, which allows families to schedule and join video visits from home without traveling to the facility. The platform also supports electronic messaging, phone calls, photo sharing, and money transfers under one account.",
+      "This guide explains how GettingOut works, how to create an account, how to schedule your first video visit, and what to expect from messaging and phone calls through the platform.",
+    ],
+
+    sections: [
+      {
+        heading: "What Is GettingOut and Which Facilities Use It",
+        body: [
+          "GettingOut is operated by Telmate, which is owned by GTL (Global Tel Link) as part of ViaPath Technologies. GettingOut is designed specifically for county jails rather than state prisons. If your loved one is in a county jail, GettingOut is one of the most likely platforms you will need.",
+          "GettingOut serves over 2,200 county jails across 45 states. The platform covers a broad range of facility sizes from large urban county detention centers to smaller local jails. Because GettingOut focuses on county facilities, it is the right platform to check first if your loved one is awaiting trial or serving a short sentence in a local facility.",
+          "To confirm whether your loved one facility uses GettingOut, search our facility directory or visit gettingout.com and search for the facility by name. You can also call the facility directly and ask which communication provider they use.",
+        ],
+      },
+      {
+        heading: "How to Create a GettingOut Account",
+        body: [
+          "Go to gettingout.com and click on the sign up or create account option. Enter your full name, email address, phone number, and create a password. Account creation is free. You will receive a verification email - click the link to activate your account.",
+          "After logging in, search for your loved one facility and find them by name or inmate ID number. Add them to your account. Once added, your dashboard will show the services available at their specific facility.",
+          "Download the free GettingOut app for iOS or Android. The app is generally well-reviewed and is the most convenient way to schedule video visits, send messages, and manage your account on the go. Log in with the same account details you created on the website.",
+          "Some facilities require the inmate to initiate the contact connection rather than allowing you to add them directly. If you cannot find your loved one after creating an account, ask them to add you as a contact from the facility kiosk or tablet.",
+        ],
+      },
+      {
+        heading: "How to Schedule a Video Visit Through GettingOut",
+        body: [
+          "Video visitation is the most popular feature on GettingOut. To schedule a visit, log in to your account or open the app and go to the video visits section. Select your loved one and choose an available date and time from the scheduling calendar.",
+          "Review the cost and enter your payment information to complete the booking. You will receive a confirmation. At the scheduled time, log in to your GettingOut account or open the app and join the video call. Make sure your camera and microphone are working before the visit begins.",
+          "GettingOut video visits typically cost between $7.50 and $15 per session depending on the facility. Sessions are usually 20 to 30 minutes long. All visits are recorded and monitored by facility staff.",
+          "If a scheduled visit is missed because the inmate was not available due to facility operations such as a lockdown or count, contact GettingOut customer service with your confirmation number to request a credit or reschedule.",
+        ],
+      },
+      {
+        heading: "How Messaging Works on GettingOut",
+        body: [
+          "Electronic messaging is available at GettingOut facilities that have contracted for this service. Log in to your account and check your dashboard - if messaging appears as an option, it is available at your facility.",
+          "To send a message, select your loved one and click compose. Type your message and submit it. Messages are reviewed by facility staff before delivery. Most messages are delivered within a few hours to one business day.",
+          "Messaging costs vary by facility. Some facilities charge per message while others use a credit-based system. Check your dashboard for the current pricing at your specific facility.",
+          "GettingOut also supports photo sharing at many facilities. You can upload photos through the app and they are delivered to the inmate after staff review. Photo rules vary by facility - always check the content guidelines before sending.",
+        ],
+      },
+      {
+        heading: "How Phone Calls Work Through GettingOut",
+        body: [
+          "Phone calls through GettingOut work through a prepaid account. You fund an account and the per-minute charge is deducted when the inmate calls your registered number. Inmates must initiate all calls - you cannot call them directly.",
+          "To set up phone calls, register your phone number in your GettingOut account and add funds. When the inmate calls your number, the call connects and charges begin. Keep your balance funded to avoid missed calls.",
+          "GettingOut phone rates for interstate calls are regulated by the FCC. In-state rates vary by facility. Check your account for the specific rate that applies.",
+        ],
+      },
+      {
+        heading: "How to Send Money Through GettingOut",
+        body: [
+          "GettingOut allows families to send money to an inmate trust or commissary account. Log in to your account, go to the send money section, select your loved one, enter the amount, and pay by credit or debit card.",
+          "Transaction fees apply and vary by facility and transfer amount. Keep your confirmation number until you confirm the funds have been credited. Processing times vary but most deposits are credited within one to three business days.",
+          "Note that the phone call account and the inmate trust account are separate. Funding your phone account does not add money to the commissary and vice versa. Make sure you are selecting the correct account type when sending funds.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "GettingOut serves over 2,200 county jails across 45 states and is operated by Telmate under the GTL ViaPath Technologies family.",
+      "GettingOut is designed for county jails. If your loved one transfers to a state prison, you will likely need a different platform.",
+      "Creating a GettingOut account is free at gettingout.com or through the free mobile app.",
+      "Video visitation is the most popular feature. Schedule visits in advance through your account. Sessions typically cost between $7.50 and $15.",
+      "Messaging, photo sharing, phone calls, and money transfers are all available under the same account at participating facilities.",
+      "Phone calls are inmate-initiated. Fund your prepaid account before the inmate calls your registered number.",
+      "If your loved one transfers to a state prison, confirm the new facility provider - GettingOut accounts typically do not transfer to state prison systems.",
+    ],
+
+    faq: [
+      {
+        question: "How do I set up a GettingOut account?",
+        answer: "Go to gettingout.com or download the GettingOut app and create a free account with your name, email, and phone number. Then search for your loved one facility and add them to your account. Some facilities require the inmate to initiate the contact connection from inside.",
+      },
+      {
+        question: "Which facilities use GettingOut?",
+        answer: "GettingOut serves over 2,200 county jails across 45 states. It is designed for county-level facilities rather than state prisons. Search our facility directory or visit gettingout.com to find out if your specific facility uses GettingOut.",
+      },
+      {
+        question: "How much does a GettingOut video visit cost?",
+        answer: "Video visits typically cost between $7.50 and $15 per session depending on the facility. Sessions are usually 20 to 30 minutes. You schedule and pay in advance through your GettingOut account or app.",
+      },
+      {
+        question: "Can I send messages through GettingOut?",
+        answer: "Electronic messaging is available at facilities that have contracted for this service. Log in to your account and check your dashboard - if messaging appears as an option, it is available. Messages are reviewed by staff before delivery and typically arrive within a few hours to one business day.",
+      },
+      {
+        question: "What happens to my GettingOut account if my loved one transfers to a state prison?",
+        answer: "GettingOut accounts are designed for county jails and typically do not transfer to state prison systems. If your loved one is transferred to a state prison after sentencing, you will likely need to create a new account on the provider used by the state facility - most commonly JPay or ConnectNetwork.",
+      },
+      {
+        question: "Is GettingOut the same as GTL or ConnectNetwork?",
+        answer: "GettingOut is operated by Telmate, which is owned by GTL as part of ViaPath Technologies. ConnectNetwork is a separate GTL consumer platform used primarily at state prisons and some county jails. GettingOut and ConnectNetwork are different platforms under the same parent company. Use GettingOut for county jails and ConnectNetwork for state prison or federal facilities.",
+      },
+      {
+        question: "How do I send money to an inmate through GettingOut?",
+        answer: "Log in to your GettingOut account, go to the send money section, select your loved one, enter the amount, and pay by credit or debit card. Transaction fees apply. Funds are typically credited within one to three business days. Note that the phone account and inmate trust account are separate - make sure you select the correct account type.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-video-visitation-works", "how-inmate-messaging-works", "county-jail-vs-state-prison", "how-connectnetwork-works"],
+    relatedTermSlugs: ["video-visitation", "inmate-messaging", "county-jail"],
+    relatedProviderSlugs: ["gettingout", "gtl", "connectnetwork", "securus"],
+    relatedComparisonSlugs: ["gettingout-vs-connectnetwork", "jpay-vs-gettingout"],
+    ctaType: "provider",
+    ctaTarget: "/provider/gettingout",
+    ctaLabel: "View GettingOut Provider Page",
+  },
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

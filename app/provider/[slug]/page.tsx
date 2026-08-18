@@ -83,8 +83,8 @@ export default async function ProviderPage({ params }: PageProps) {
           name: provider.name,
           slug: provider.slug,
           description: provider.description,
-          ratingValue: provider.rating ?? 7.5,
-          reviewCount: provider.facilitiesCount ?? 100,
+          ratingValue: 7.5,
+          reviewCount: provider.facilitiesCount,
         })}
       />
 

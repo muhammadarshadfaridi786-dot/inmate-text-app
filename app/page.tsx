@@ -43,29 +43,44 @@ export const metadata: Metadata = {
 
 const homeFaqs = [
   {
-    question: "What is JPay?",
-    answer:
-      "JPay is a leading inmate communication platform that allows family members to send messages, photos, and money to incarcerated loved ones. JPay is contracted with dozens of state correctional systems across the US.",
+    question: "What is InmateTextApp.com?",
+    answer: "InmateTextApp.com is a free directory that helps families find communication options at U.S. correctional facilities. We cover messaging, phone calls, video visits, photo sharing, and money transfers across 7,000+ facilities and 15 providers.",
   },
   {
-    question: "How do inmate messaging services work?",
-    answer:
-      "Inmate messaging services let you send and receive electronic messages through a secure platform approved by the facility. Both parties need accounts with the same provider, and messages are reviewed by facility staff before delivery.",
+    question: "How do I find out which provider my loved one facility uses?",
+    answer: "Search our facility directory by facility name or browse by state. Each facility page lists which providers are available for messaging, phone calls, video visits, and money transfers.",
   },
   {
-    question: "Can I send photos to an inmate?",
-    answer:
-      "Many facilities allow digital photo sharing through approved providers such as JPay. Photos are reviewed before delivery and must meet the facility's content guidelines.",
+    question: "Is this website free to use?",
+    answer: "Yes. InmateTextApp.com is completely free. We do not charge for any information on this site. Creating accounts on communication providers like JPay, CorrLinks, or ConnectNetwork is also free, though the services themselves charge per message or per call.",
   },
   {
-    question: "How do video visits work?",
-    answer:
-      "Video visits are scheduled through the facility's approved provider. You book a time slot online and connect through a secure video platform during the scheduled window.",
+    question: "What is the difference between JPay, CorrLinks, and ConnectNetwork?",
+    answer: "JPay serves most state prisons. CorrLinks is the only approved platform for federal Bureau of Prisons facilities. ConnectNetwork by GTL serves county jails and some state prisons. The platform you need depends entirely on which facility your loved one is in.",
   },
   {
-    question: "Which provider does my facility use?",
-    answer:
-      "Each facility contracts with one or more communication providers. Use our facility search to find the specific prison or jail, then view the available providers and services for that location.",
+    question: "Can I use the same account for multiple facilities?",
+    answer: "Most platforms allow you to add multiple inmates to one account as long as they are at facilities served by the same provider. If your contacts are at facilities using different providers, you will need separate accounts on each platform.",
+  },
+  {
+    question: "How long does it take for an inmate message to arrive?",
+    answer: "Most electronic messages are delivered within a few hours to one business day after submission. Messages go through a staff review process before delivery. There is no way to expedite delivery.",
+  },
+  {
+    question: "Why are prison phone calls so expensive?",
+    answer: "Prison phone providers pay facilities a commission from call revenue in exchange for exclusive contracts. To cover these payments, providers charge families higher rates. The FCC has capped interstate calls at $0.21 per minute for prisons and $0.13 per minute for jails.",
+  },
+  {
+    question: "How do I send money to an inmate?",
+    answer: "Find out which money transfer provider the facility uses through our facility directory. Common providers include JPay, Access Corrections, and TouchPay. Create a free account, find the inmate by their ID number, and add funds by credit or debit card.",
+  },
+  {
+    question: "Can I visit someone in prison?",
+    answer: "Yes, but you must be approved and placed on the inmate visiting list first. This process takes two to six weeks and begins with the inmate submitting your information. Read our complete prison visitation guide for everything you need to know before your first visit.",
+  },
+  {
+    question: "What should I do if my messages are being blocked?",
+    answer: "Check your platform account for any notifications. Contact the messaging platform customer service to find out if your account has been flagged. If the block came from the facility, write a formal letter to the Warden or Communication Coordinator requesting a review.",
   },
 ]
 

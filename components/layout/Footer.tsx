@@ -7,7 +7,6 @@ const footerLinks = {
     { label: "All Facilities", href: "/facilities" },
     { label: "All States", href: "/states" },
     { label: "All Counties", href: "/counties" },
-    { label: "All Facilities", href: "/facilities" },
     { label: "Provider Directory", href: "/providers" },
   ],
   Providers: [

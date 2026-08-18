@@ -2,7 +2,7 @@ import { Suspense } from "react"
 import dynamic from "next/dynamic"
 import type { Metadata } from "next"
 import JsonLd from "@/components/seo/JsonLd"
-import { buildWebSiteSchema, buildFaqSchema } from "@/lib/schema"
+import { buildWebSiteSchema, buildFaqSchema, buildSiteLinksSearchBoxSchema } from "@/lib/schema"
 
 // Above-fold: static import so the hero is never delayed
 import HeroSection from "@/components/home/HeroSection"
@@ -75,6 +75,7 @@ export default function HomePage() {
       {/* Structured data */}
       <JsonLd schema={buildWebSiteSchema()} />
       <JsonLd schema={buildFaqSchema(homeFaqs)} />
+      <JsonLd schema={buildSiteLinksSearchBoxSchema()} />
 
       {/* Section order: hero → quick links → stats → communication →
           providers → comparisons → facilities → states → counties →

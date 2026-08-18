@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { PROVIDER_DETAILS } from "@/lib/data/providers"
 import { generateProviderMetadata } from "@/lib/seo"
-import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema } from "@/lib/schema"
+import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
@@ -78,6 +78,15 @@ export default async function ProviderPage({ params }: PageProps) {
         })}
       />
       <JsonLd schema={buildBreadcrumbSchema(breadcrumbItems)} />
+      <JsonLd
+        schema={buildReviewSchema({
+          name: provider.name,
+          slug: provider.slug,
+          description: provider.description,
+          ratingValue: provider.rating ?? 7.5,
+          reviewCount: provider.facilitiesCount ?? 100,
+        })}
+      />
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

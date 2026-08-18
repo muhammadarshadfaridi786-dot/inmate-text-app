@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { GUIDE_DETAILS } from "@/lib/data/guides"
 import { generateGuideMetadata } from "@/lib/seo"
-import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, buildWebPageSchema } from "@/lib/schema"
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, buildWebPageSchema, buildHowToSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
@@ -86,6 +86,15 @@ export default async function GuideDetailPage({ params }: PageProps) {
       />
       <JsonLd schema={buildBreadcrumbSchema(breadcrumbItems)} />
       {guide.faq.length > 0 && <JsonLd schema={buildFaqSchema(guide.faq)} />}
+
+      <JsonLd
+        schema={buildHowToSchema({
+          title: guide.title,
+          description: guide.seoDescription,
+          slug: guide.slug,
+          steps: guide.sections.map((s: { heading: string }) => s.heading),
+        })}
+      />
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

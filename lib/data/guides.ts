@@ -2430,8 +2430,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     popular: false,
     readingTimeMinutes: 6,
     featuredImage: undefined,
-    publishedAt: "",
-    updatedAt: "",
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-08-01",
     seoTitle: "How Securus Technologies Works: Phone Calls, Video Visits and Account Setup Guide",
     seoDescription: "Complete guide to Securus Technologies for families - how to create an account, set up phone calls, schedule video visits, send money, and which facilities use Securus.",
 
@@ -2552,8 +2552,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     popular: false,
     readingTimeMinutes: 5,
     featuredImage: undefined,
-    publishedAt: "",
-    updatedAt: "",
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-08-01",
     seoTitle: "How GTL Works: ViaPath Technologies Phone Calls, Video Visits and ConnectNetwork Guide",
     seoDescription: "Complete guide to GTL ViaPath Technologies for families - how GTL relates to ConnectNetwork, how to set up phone calls and video visits, which facilities use GTL, and how to contact support.",
 
@@ -2663,8 +2663,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     popular: false,
     readingTimeMinutes: 6,
     featuredImage: undefined,
-    publishedAt: "",
-    updatedAt: "",
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-08-01",
     seoTitle: "How GettingOut Works: Video Visits, Messaging and Account Setup for County Jails",
     seoDescription: "Complete guide to GettingOut by Telmate for families - how to create an account, schedule your first video visit, send messages, make phone calls, and transfer money at county jails. Free step-by-step guide.",
 

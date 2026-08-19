@@ -49,10 +49,6 @@ export default function AboutPage() {
               communication provider. All provider links lead to the provider's own website where you can
               create an account and begin communicating.
             </p>
-            <p>
-              If you have questions about our platform or notice information that needs to be corrected,
-              please reach out through the contact details listed in our footer once they become available.
-            </p>
           </div>
         </PageWrapper>
       </section>

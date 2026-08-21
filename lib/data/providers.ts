@@ -658,7 +658,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "corrlinks",
     initial: "C",
     color: "bg-emerald-700",
-    tagline: "Official federal Bureau of Prisons email communication system",
+    tagline: "CorrLinks - Official Federal Bureau of Prisons Messaging System for All Federal Inmates",
     services: { messaging: true, video: false, photos: false, phone: false, moneyTransfer: false },
     statesCount: 50,
     facilitiesCount: 120,
@@ -666,16 +666,16 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "CorrLinks is the official Bureau of Prisons email system for all federal inmates. Required for any electronic messaging with someone in federal custody. Create a free account at corrlinks.com.",
+      "CorrLinks is the only approved electronic messaging platform for all federal Bureau of Prisons facilities. Federal inmates must use CorrLinks exclusively - no other messaging platform is accepted at BOP facilities. Creating an outside contact account is free.",
 
     website: "https://www.corrlinks.com",
 
     overview: [
-      "CorrLinks is the official electronic messaging system for the Federal Bureau of Prisons, operating under the TRULINCS program (Trust Fund Limited Inmate Computer System). It is the only approved platform for electronic correspondence with individuals in federal custody. All 120 federal correctional institutions across the United States — including federal penitentiaries, medium and low-security facilities, federal detention centers, and federal medical centers — use CorrLinks exclusively for electronic messaging. There are no alternative email or messaging providers for federal inmates. If your loved one is in any Bureau of Prisons facility, CorrLinks is the only way to exchange electronic messages.",
+      "CorrLinks is the official electronic messaging system for the Federal Bureau of Prisons, operating under the TRULINCS system. If your loved one is in any federal prison in the United States, CorrLinks is the only platform you can use for electronic messaging. No other messaging service is approved for federal inmates.",
 
-      "The CorrLinks system works differently from consumer email or from platforms like JPay or GettingOut. Families cannot initiate contact with a federal inmate through CorrLinks on their own — the inmate must add you to their contact list from within the facility, or send you an initial invitation through the TRULINCS system. Once a connection is established, messages function similarly to email: you compose a message through your CorrLinks account, it is reviewed by BOP staff, and delivered to the inmate's TRULINCS account. Responses follow the same path in reverse. CorrLinks charges a small per-message fee funded through a prepay account.",
+      "The CorrLinks system works differently from other platforms. The process must begin with the inmate - they log in to a TRULINCS terminal at the facility, enter your name and email address, and submit a contact request. CorrLinks then sends you a free invitation email. You cannot start the process yourself from outside.",
 
-      "CorrLinks does not support video calls, photo delivery, or phone services. Those functions at federal facilities are handled through separate systems — phone calls are managed through the BOP's Inmate Telephone System via ConnectNetwork/GTL, and in-person or video visits are arranged through the specific facility's scheduling system. Families who need a complete communication setup for a federal inmate typically need both a CorrLinks account for messaging and a ConnectNetwork account for phone and video. Understanding these two systems are separate and must be set up independently is one of the most common points of confusion for families new to the federal system.",
+      "CorrLinks does not support video calls, photo delivery, or phone services. Those functions at federal facilities are handled separately through ConnectNetwork by GTL. Creating a basic CorrLinks account as an outside contact is completely free. The inmate pays a usage fee of $0.05 per minute from their trust account.",
     ],
 
     serviceDetails: {

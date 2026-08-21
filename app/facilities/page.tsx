@@ -44,8 +44,7 @@ export default function FacilitiesPage() {
               subtitle="Search prisons, jails, and detention centers by name, state, or facility type. Find available communication providers and messaging options."
             />
             <p className="mt-3 text-xs text-muted-foreground">
-              Detailed facility guides are available for select institutions.
-              Full directory coverage is coming soon.
+              Browse our directory of correctional facilities across the United States. Select a state below to find facilities and discover which communication providers serve each location.
             </p>
           </div>
         </PageWrapper>

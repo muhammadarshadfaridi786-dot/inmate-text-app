@@ -44,8 +44,7 @@ export default function CountiesPage() {
               subtitle="Browse communication options for county jails and correctional facilities. Select a county to find available providers and messaging services."
             />
             <p className="mt-3 text-xs text-muted-foreground">
-              Detailed county pages are currently available for select counties.
-              Coverage across additional counties is coming soon.
+              Browse county jails and detention centers across the United States. Find communication options available at county-level facilities near you.
             </p>
           </div>
         </PageWrapper>

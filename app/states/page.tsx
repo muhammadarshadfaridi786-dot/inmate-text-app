@@ -44,8 +44,7 @@ export default function StatesPage() {
               subtitle="Browse prisons, jails, and communication options by state. Select your state to find available providers and messaging services."
             />
             <p className="mt-3 text-xs text-muted-foreground">
-              Detailed state pages are currently available for select states.
-              Full coverage across all 50 states is coming soon.
+              Browse all 50 U.S. states to find correctional facilities and available communication providers in each state.
             </p>
           </div>
         </PageWrapper>

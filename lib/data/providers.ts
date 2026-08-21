@@ -535,7 +535,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "gettingout",
     initial: "G",
     color: "bg-violet-600",
-    tagline: "Video visitation and messaging for county jails nationwide",
+    tagline: "GettingOut by Telmate Video Visits, Messaging and Phone Calls at 2,200+ County Jails",
     services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 45,
     facilitiesCount: 2200,
@@ -543,19 +543,19 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "GettingOut by Telmate provides video visitation, messaging, phone calls, and money transfers at 2,200+ county jails across 45 states. Best known for easy-to-use remote video visits.",
+          "GettingOut by Telmate provides video visitation, messaging, phone calls, photo sharing, and money transfers at 2,200+ county jails across 45 states. Best known for easy-to-use remote video visits from home.",
 
     website: "https://www.gettingout.com",
     iosUrl: "https://apps.apple.com/us/app/gettingout/id453021164",
     androidUrl: "https://play.google.com/store/apps/details?id=com.telmate.gettingout",
 
     overview: [
-      "GettingOut is a communication platform operated by Telmate, a subsidiary of GTL (Global Tel Link) and part of the broader ViaPath Technologies family. The platform is designed primarily for county jails and serves more than 2,200 facilities across 45 states. GettingOut is particularly well known for its video visitation functionality, which allows families to connect with incarcerated loved ones remotely through a smartphone, tablet, or computer — eliminating the need to travel to the facility for every visit. The platform has become one of the most widely used video visitation tools at the county jail level in the United States.",
+  "GettingOut is operated by Telmate, a subsidiary of GTL (Global Tel Link) and part of ViaPath Technologies. The platform serves over 2,200 county jails across 45 states and is one of the most widely used video visitation tools at the county jail level in the United States. If your loved one is in a county jail, GettingOut is one of the first platforms to check.",
 
-      "In addition to video visits, GettingOut supports electronic messaging, photo sharing, phone calls, and money transfers at participating facilities. Families create a single account that covers all these services at any GettingOut-served facility. This is a meaningful advantage when a loved one is transferred between county facilities in the same system — the same account and contact history carries over. Phone calls are inmate-initiated, and families fund a prepaid account through the platform to receive calls. Messaging is delivered electronically within the facility, and money transfers are credited to the inmate's commissary account.",
+  "In addition to video visits, GettingOut supports electronic messaging, photo sharing, phone calls, and money transfers at participating facilities. Families create a single free account that covers all these services at any GettingOut-served facility. The same account and contact history carries over if a loved one transfers between county facilities in the same system.",
 
-      "One important distinction between GettingOut and state-level providers like JPay is that GettingOut is primarily a county jail tool. Most state prisons use different provider contracts — typically JPay or Securus — and GettingOut accounts generally do not carry over to a state facility if someone is transferred after sentencing. Confirming the specific facility type and its provider arrangement before setting up an account remains the most reliable way to avoid spending time and money on a platform that no longer applies once a transfer occurs.",
-    ],
+  "GettingOut is primarily a county jail platform. Most state prisons use different providers such as JPay or Securus. If your loved one transfers from a county jail to a state prison after sentencing, you will likely need to create a new account on the state facility provider. Always confirm the current facility and its provider before setting up a new account.",
+],
 
     serviceDetails: {
       messaging: {

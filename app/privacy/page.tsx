@@ -271,7 +271,7 @@ export default function PrivacyPage() {
                 If you have questions about this Privacy Policy, want to make a data request, or
                 need to report a concern, you can reach us at:
               </p>
-              <p className="font-medium text-foreground">support@inmatemessaging.com</p>
+              <p className="font-medium text-foreground">contact@inmatetextapp.com</p>
               <p>
                 We aim to respond to all privacy-related inquiries within five business days.
               </p>

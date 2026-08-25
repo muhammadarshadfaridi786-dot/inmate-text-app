@@ -108,13 +108,19 @@ export function generateFacilityMetadata(facility: {
 export function generateProviderMetadata(provider: {
   name: string
   slug: string
+  tagline?: string
+  description?: string
   seoTitle?: string
   seoDescription?: string
 }): Metadata {
   const title =
-    provider.seoTitle ?? `${provider.name}: Inmate Communication Review and Guide`
+    provider.seoTitle ??
+    (provider.tagline
+      ? `${provider.tagline} | Inmate Text App`
+      : `${provider.name}: Inmate Communication Review and Guide | Inmate Text App`)
   const description =
     provider.seoDescription ??
+    provider.description ??
     `${provider.name} helps families stay connected with incarcerated loved ones. Learn about messaging, video calls, phone, and pricing.`
   return {
     title,

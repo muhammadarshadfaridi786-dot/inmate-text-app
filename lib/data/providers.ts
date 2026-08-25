@@ -50,6 +50,8 @@ export interface ProviderDetail extends ProviderBasic {
   website: string
   iosUrl?: string
   androidUrl?: string
+  seoTitle?: string
+  seoDescription?: string
 
   serviceDetails: {
     messaging: ProviderService
@@ -298,6 +300,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "JPay is the most widely used inmate communication platform in the United States, serving over 1,000 state prison facilities across 35+ states. Families use JPay for electronic messaging, photo sharing, video visitation, and money transfers. Creating an account is free.",
 
+    seoTitle: "JPay Review: Messaging, Photos, Video Visits and Money Transfer for State Prisons",
+    seoDescription:
+      "JPay guide for families how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state prisons. Free step-by-step guide.",
+
     website: "https://www.jpay.com",
     iosUrl: "https://apps.apple.com/us/app/jpay/id388308268",
     androidUrl: "https://play.google.com/store/apps/details?id=com.jpay.android",
@@ -420,6 +426,11 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     description:
        "ConnectNetwork by GTL is one of the largest inmate communication platforms in the U.S., serving 1,800+ facilities across 50 states. Families can send messages, schedule video visits, fund phone accounts, and transfer money — all from one account. Setting up is free and takes less than 5 minutes.",
+
+    seoTitle: "ConnectNetwork Review: GTL Inmate Messaging, Video Visits and Phone Guide",
+    seoDescription:
+      "ConnectNetwork by GTL guide for families how to set up AdvancePay for phone calls, send messages, schedule video visits, and transfer money at county jails and state prisons.",
+
     website: "https://www.connectnetwork.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
     androidUrl: "https://play.google.com/store/apps/details?id=com.gtl.connect",
@@ -545,6 +556,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
           "GettingOut by Telmate provides video visitation, messaging, phone calls, photo sharing, and money transfers at 2,200+ county jails across 45 states. Best known for easy-to-use remote video visits from home.",
 
+    seoTitle: "GettingOut Review: Video Visits, Messaging and Phone Calls at County Jails",
+    seoDescription:
+      "GettingOut by Telmate guide for families how to schedule video visits, send messages, make phone calls, and transfer money at 2,200+ county jails across 45 states.",
+
     website: "https://www.gettingout.com",
     iosUrl: "https://apps.apple.com/us/app/gettingout/id453021164",
     androidUrl: "https://play.google.com/store/apps/details?id=com.telmate.gettingout",
@@ -668,6 +683,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "CorrLinks is the only approved electronic messaging platform for all federal Bureau of Prisons facilities. Federal inmates must use CorrLinks exclusively - no other messaging platform is accepted at BOP facilities. Creating an outside contact account is free.",
 
+    seoTitle: "CorrLinks Review: Federal Bureau of Prisons Email System Guide for Families",
+    seoDescription:
+      "CorrLinks is the only approved messaging platform for all federal prisons. Learn how to receive your invitation, create a free account, send messages, and what it costs.",
+
     website: "https://www.corrlinks.com",
 
     overview: [
@@ -779,6 +798,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     description:
       "TextBehind converts your digital messages and photos into physical printed mail delivered directly to inmates. TextBehind works at facilities that do not offer electronic messaging, making it a universal option for families who cannot reach their loved one through digital platforms.",
+
+    seoTitle: "TextBehind Review: Print and Deliver Letters and Photos to Inmates by Mail",
+    seoDescription:
+      "TextBehind guide for families how to send printed letters and photos to inmates at facilities without electronic messaging. Works at nearly any facility that accepts physical mail.",
 
     website: "https://www.textbehind.com",
     iosUrl: "https://apps.apple.com/us/app/textbehind/id836022386",
@@ -896,6 +919,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     description:
       "SmartInmate provides tablet-based communication and entertainment services at correctional facilities. Families can send messages through the SmartInmate platform to inmates who have access to SmartInmate tablets inside the facility.",
+
+    seoTitle: "SmartInmate Review: Tablet-Based Messaging and Entertainment for Inmates",
+    seoDescription:
+      "SmartInmate guide for families how tablet-based messaging works, which facilities have SmartInmate tablets, and how to send messages to incarcerated loved ones.",
 
     website: "https://www.smartinmate.com",
     iosUrl: "https://apps.apple.com/us/app/smart-inmate/id1191826649",
@@ -1018,6 +1045,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "Pigeonly is a photo and letter delivery service that prints and mails your photos and messages directly to inmates as physical mail. Pigeonly works at nearly any facility that accepts mail, making it one of the most universally available inmate communication options.",
 
+    seoTitle: "Pigeonly Review: Photo Printing and Letter Delivery for Inmates at Any Facility",
+    seoDescription:
+      "Pigeonly guide for families how to upload and send photos and letters to inmates as physical mail at any facility that accepts mail. Works where electronic messaging is not available.",
+
     website: "https://www.pigeonly.com",
     iosUrl: "https://apps.apple.com/us/app/pigeonly-inmate-mail-calling/id1077048131",
     androidUrl: "https://play.google.com/store/apps/details?id=com.pigeonly.android",
@@ -1137,6 +1168,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     description:
       "Securus Technologies serves over 1,200 correctional facilities across 45 states, primarily county jails and state prisons. Securus provides phone calls, video visitation, electronic messaging, and money transfers. The free Securus Mobile app is available for iOS and Android.",
+
+    seoTitle: "Securus Technologies Review: Phone Calls, Video Visits and Account Setup Guide",
+    seoDescription:
+      "Securus Technologies guide for families how to create an account, set up phone calls, schedule video visits, and send money at 1,200+ county jails and state prisons.",
 
     website: "https://www.securustech.net",
     iosUrl: "https://apps.apple.com/us/app/securus-mobile/id1090154482",
@@ -1261,6 +1296,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "GTL, now part of ViaPath Technologies, operates ConnectNetwork and serves over 800 facilities across 30 states. GTL provides phone calls and video visitation at state prisons and county jails. Families access GTL services through the ConnectNetwork website and app.",
 
+    seoTitle: "GTL ViaPath Technologies Review: ConnectNetwork Phone and Video Guide for Families",
+    seoDescription:
+      "GTL guide for families how GTL relates to ConnectNetwork, how to set up phone calls and video visits, and which facilities use GTL services across 30 states.",
+
     website: "https://www.viapath.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
     androidUrl: "https://play.google.com/store/apps/details?id=com.gtl.connect",
@@ -1382,6 +1421,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "ICSolutions provides inmate phone call services at state and federal correctional facilities across the United States. Families set up a prepaid account to receive calls from incarcerated loved ones at facilities served by ICSolutions.",
 
+    seoTitle: "ICSolutions Review: Inmate Phone Call Services at State and Federal Facilities",
+    seoDescription:
+      "ICSolutions guide for families how to set up a prepaid phone account, register your number, add funds, and receive calls from incarcerated loved ones.",
+
     website: "https://www.icsolutions.com",
     iosUrl: "https://apps.apple.com/us/app/icsolutions/id899399526",
     androidUrl: "https://play.google.com/store/apps/details?id=com.icsolutions.app",
@@ -1502,6 +1545,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "Access Corrections is a money transfer service that allows families to deposit funds directly to inmate trust accounts at county jails and correctional facilities. Access Corrections accepts credit cards, debit cards, and cash deposits at participating locations.",
 
+    seoTitle: "Access Corrections Review: Inmate Money Deposits and Trust Account Funding Guide",
+    seoDescription:
+      "Access Corrections guide for families how to deposit money to inmate trust accounts at county jails, accepted payment methods, fees, and processing times.",
+
     website: "https://www.accesscorrections.com",
 
     overview: [
@@ -1618,6 +1665,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     description:
       "HomeWAV provides video visitation and messaging services at county jails, allowing families to connect with incarcerated loved ones from home without traveling to the facility. HomeWAV sessions are scheduled through the website or mobile app.",
+
+    seoTitle: "HomeWAV Review: Video Visitation and Messaging for County Jails From Home",
+    seoDescription:
+      "HomeWAV guide for families how to schedule video visits from home, send messages, and connect with loved ones in county jails without traveling to the facility.",
 
     website: "https://www.homewav.com",
     iosUrl: "https://apps.apple.com/us/app/homewav/id980905046",
@@ -1858,6 +1909,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "TouchPay specializes in inmate trust account deposits at county jails and correctional facilities, offering 24-hour processing every day of the year. TouchPay accepts credit and debit card payments online and through kiosks at participating facilities.",
 
+    seoTitle: "TouchPay Review: Fast Inmate Trust Account Deposits Available Every Day",
+    seoDescription:
+      "TouchPay guide for families how to make fast deposits to inmate trust accounts at county jails, kiosk locations, payment methods, and processing times.",
+
     website: "https://www.touchpaydirect.com",
 
     overview: [
@@ -1972,6 +2027,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     description:
       "City Tele Coin (CTC) is an inmate phone service provider serving 180+ county jails across 12 states. Families can fund prepaid phone accounts, deposit commissary money, and stay connected with incarcerated loved ones. Account setup is free and calls can begin within hours of adding funds.",
+
+    seoTitle: "City Tele Coin (CTC) Review: Inmate Phone Calls and Money Transfer Guide",
+    seoDescription:
+      "City Tele Coin CTC guide for families how to set up a prepaid phone account, fund calls, transfer money, and which county jails use CTC services.",
 
     website: "https://www.citytelecoin.com",
 

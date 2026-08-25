@@ -1045,6 +1045,30 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "You can also search our facility directory to find a facility and confirm whether it is a federal or state facility, which providers serve it, and what communication options are available.",
         ],
       },
+      {
+        heading: "Communication Cost Differences Between Federal and State Prisons",
+        body: [
+          "Communication costs differ between federal and state facilities in ways that directly affect families. Federal prison phone calls go through the TRULINCS system managed by ConnectNetwork. State prison phone costs vary by state contract and provider. Under current FCC rules in effect as of 2026, interstate phone call rates are capped at $0.11 per minute for prisons, raised from the original 2024 cap of $0.06 per minute.",
+          "Electronic messaging costs also differ. CorrLinks charges $0.30 per message for federal inmates as of 2025. State prison messaging through JPay uses a stamp system ranging from $0.33 to $0.47 per stamp depending on the state. Some state systems have negotiated lower rates through their DOC contracts. Federal messaging costs are uniform across all BOP facilities because CorrLinks is the single approved provider.",
+          "More than a third of families with incarcerated loved ones go into debt trying to pay prison communication costs according to research from the Ella Baker Center for Human Rights. Federal families face consistent costs nationwide while state families face highly variable costs depending on which state and which provider serves their facility. Families in states that have eliminated communication charges pay nothing, while families in states without reform pay the full market rate.",
+        ],
+      },
+      {
+        heading: "How the Martha Wright-Reed Act Affects Federal Prison Communication",
+        body: [
+          "The Martha Wright-Reed Just and Reasonable Communications Act became law in 2023, giving the FCC authority to regulate both interstate and in-state prison phone and video call rates. The law is named after Martha Wright, whose grandson was transferred to out-of-state federal prisons, leaving the family unable to afford the long-distance call costs that resulted.",
+          "The FCC used this authority to issue sweeping rate caps in 2024, setting maximum rates of $0.06 per minute for prisons and eliminating many add-on fees. However, the FCC voted in October 2025 to raise those caps significantly, to $0.11 per minute for prisons. Congress members including 35 House Democrats formally opposed the rate increases, calling them a dramatic departure from the bipartisan framework established in 2024.",
+          "For families of federal inmates specifically, the Martha Wright-Reed Act matters because federal transfers often result in inmates being housed far from home. Long-distance calls were historically among the most expensive. The rate caps established under this law apply most directly to interstate calls, which are more common for federal inmates who may be transferred across state lines.",
+        ],
+      },
+      {
+        heading: "When a Loved One Is Transferred Between Federal Facilities",
+        body: [
+          "Federal inmates are transferred between BOP facilities more frequently than many families expect. Transfers can happen for security reclassification, medical needs, program placement, overcrowding, or following a facility closure such as FCI Dublin which closed in April 2024 and remains closed as of 2026. Families are not given advance notice of federal transfers.",
+          "The advantage for federal families is that CorrLinks transfers with the inmate. Because all federal facilities use the same TRULINCS system, your existing CorrLinks connection continues at the new facility without requiring any action on your part. Phone service through ConnectNetwork also typically continues without disruption once the inmate is processed into the new facility.",
+          "The BOP inmate locator at bop.gov will show the new facility within 24 to 72 hours of the inmate completing intake processing. During this window, communication may be temporarily unavailable. Check the locator daily after a transfer and expect a brief interruption in messaging and phone access while the inmate is processed into the new facility system.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -1055,6 +1079,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Money transfers for federal inmates go through MoneyGram or Western Union. State prison transfers typically go through JPay or Access Corrections.",
       "Use the BOP inmate locator at bop.gov to find a federal inmate. Use each state DOC website to find a state inmate.",
       "Search our facility directory to find which providers and communication options are available at any specific facility.",
+      "CorrLinks charges $0.30 per message for federal inmates as of 2025. State prison JPay stamps range from $0.33 to $0.47 depending on the state.",
+      "The Martha Wright-Reed Act gave the FCC authority to regulate all prison phone rates. The FCC capped rates in 2024 but raised them again in October 2025 to $0.11 per minute.",
+      "More than a third of families with incarcerated loved ones go into debt paying prison communication costs according to research from the Ella Baker Center for Human Rights.",
+      "Federal inmates can be transferred between facilities without notice. CorrLinks connections transfer automatically to the new BOP facility without any action needed from family members.",
+      "Check bop.gov daily after a federal transfer. The new facility appears within 24 to 72 hours of intake processing.",
     ],
 
     faq: [
@@ -1085,6 +1114,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Do federal inmates get more privileges than state inmates?",
         answer: "Not necessarily. Privileges depend on the security level of the facility and the individual inmate's behavior history. Low-security federal facilities may offer more programming, but maximum-security federal facilities are among the most restrictive in the country.",
+      },
+      {
+        question: "Do federal inmates have the same messaging platform at every facility?",
+        answer: "Yes. All federal Bureau of Prisons facilities use CorrLinks for electronic messaging through the TRULINCS system. If your loved one transfers to a new federal facility, your CorrLinks connection continues automatically. You do not need to create a new account or submit a new contact request when they transfer within the federal system.",
+      },
+      {
+        question: "What is the Martha Wright-Reed Act and how does it affect prison communication costs?",
+        answer: "The Martha Wright-Reed Just and Reasonable Communications Act became law in 2023 and gave the FCC authority to regulate both interstate and in-state prison phone and video rates. The FCC used this authority to cap rates at $0.06 per minute in 2024, but voted in October 2025 to raise those caps to $0.11 per minute for prisons. The law is named after Martha Wright, whose grandson was transferred to out-of-state federal prisons and whose family could not afford the resulting long-distance costs.",
+      },
+      {
+        question: "Why are federal prison phone costs different from state prison costs?",
+        answer: "Federal phone costs are more uniform because all BOP facilities use the same contracted providers under centralized BOP agreements. State prison phone costs vary by state because each state negotiates its own contracts independently. Some states have eliminated charges entirely while others charge the maximum allowed rates. Federal families face consistent national rates while state families face highly variable costs depending on their specific state and facility.",
+      },
+      {
+        question: "What happens to my CorrLinks connection if my loved one is transferred to a new federal prison?",
+        answer: "Your CorrLinks connection transfers automatically. All federal BOP facilities use the same TRULINCS system, so the existing connection continues at the new facility without requiring any action. Expect a brief interruption of 24 to 72 hours while the inmate completes intake processing at the new facility. Check the BOP inmate locator at bop.gov to confirm when they have arrived.",
       },
     ],
 

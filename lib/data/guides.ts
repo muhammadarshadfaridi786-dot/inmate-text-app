@@ -728,7 +728,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     intro: [
       "Prison phone calls work through a prepaid system. Families create an account with the facility phone provider, add funds, and wait for the inmate to call. The call is automatically deducted from the prepaid balance at a per-minute rate set by the facility contract.",
       "The most common prison phone providers in the United States are GTL, Securus Technologies, ICSolutions, and City Tele Coin. Each facility has a contract with only one provider, so families must use whichever provider their facility has chosen.",
-      "Prison phone call rates are regulated by the FCC for interstate calls. As of 2026, the maximum rate is $0.21 per minute for prisons and $0.13 per minute for jails.",
+      "Prison phone call rates are regulated by the FCC for interstate calls. The maximum rate is $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules.",
       "To set up a prison phone account, visit the provider website, create a free account, search for your loved one facility, and add a minimum deposit.",
       "All prison phone calls are recorded and monitored by facility staff except calls to attorneys. Calls are typically limited to 15 to 30 minutes.",
       "To save money on prison phone calls, use a prepaid account instead of collect calls and check if your facility offers video visits which are often cheaper."
@@ -760,8 +760,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "What Phone Calls Cost",
         body: [
-          "Per-minute rates for prison calls have been significantly reduced under FCC regulations in recent years. Interstate calls are now capped at $0.21 per minute for prisons and $0.12 per minute for jails. Intrastate rates vary by state but most are in the $0.05 to $0.25 per-minute range.",
-          "Fees can add significantly to the base rate. Connection fees, account maintenance fees, and payment processing fees are common. A 15-minute call at $0.21 per minute costs $3.15 in base rate but may total $5 to $7 after fees depending on the provider.",
+          "Per-minute rates for prison calls have been significantly reduced under FCC regulations in recent years. Interstate calls are now capped at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.12 per minute for jails. Intrastate rates vary by state but most are in the $0.05 to $0.25 per-minute range.",
+          "Fees can add significantly to the base rate. Connection fees, account maintenance fees, and payment processing fees are common. A 15-minute call at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) costs $1.65 in base rate but may total $3 to $5 after fees depending on the provider.",
         ],
       },
     ],
@@ -771,7 +771,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Your phone number must be on the inmate's approved contact list before they can call you.",
       "Setting up a prepaid account gives you lower rates and better cost control than collect calls.",
       "All calls are recorded and monitored unless specifically exempted.",
-      "FCC-capped rates are $0.21 per minute for prisons and $0.12 per minute for jails.",
+      "FCC-capped rates are $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.12 per minute for jails.",
       "Extra fees from providers can double the actual cost of a call.",
     ],
 
@@ -844,7 +844,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         body: [
           "Inmates call out - you cannot call them directly. All calls go through a facility-contracted phone provider such as Securus Technologies, GTL, ICSolutions, or City Tele Coin. Your phone number must be on the inmate approved contact list before any calls can be placed to you.",
           "There are two main account types for receiving calls. A prepaid account means you deposit money in advance and calls are deducted from your balance - this gives you better rates. A collect call means the charges are billed directly to your phone bill - this is more expensive and not available with all carriers.",
-          "Interstate call rates are federally regulated by the FCC with a maximum rate of $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates may vary. Additional fees such as account setup fees or connection fees may apply depending on the provider.",
+          "Interstate call rates are federally regulated by the FCC with a maximum rate of $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules. In-state rates may vary. Additional fees such as account setup fees or connection fees may apply depending on the provider.",
           "Most facilities limit calls to 15 to 30 minutes. The call disconnects automatically when the time limit is reached. All calls are recorded and monitored except calls to attorneys.",
         ],
       },
@@ -902,7 +902,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "How much does it cost to communicate with someone in prison?",
-        answer: "Costs vary by communication type. Digital messages typically cost $0.25 to $0.50 each. Phone calls cost up to $0.21 per minute for interstate calls. Video visits cost $7.50 to $15 per session. Photo delivery costs around $0.49 per photo. Money transfer fees vary by platform and amount.",
+        answer: "Costs vary by communication type. Digital messages typically cost $0.25 to $0.50 each. Phone calls cost up to $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for interstate calls. Video visits cost $7.50 to $15 per session. Photo delivery costs around $0.49 per photo. Money transfer fees vary by platform and amount.",
       },
       {
         question: "What if the facility changes its communication provider?",
@@ -2912,7 +2912,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Securus handles inmate phone calls through a prepaid account system. You fund an account in advance and the per-minute rate is deducted each time the inmate calls you. You cannot call the inmate directly - all calls must be initiated by the inmate from a facility phone.",
           "To set up your phone account, log in to your Securus account and go to the AdvancePay or prepaid calling section. Register the phone number where you want to receive calls and add funds using a credit card, debit card, or other accepted payment method.",
           "Once your account is funded, the inmate can call your registered number from a facility phone. The call connects automatically and the per-minute charge is deducted from your balance. Keep your balance funded to avoid missed calls.",
-          "Securus phone rates for interstate calls are regulated by the FCC with a maximum of $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates may vary by facility. Check your account for the specific rate that applies to your facility.",
+          "Securus phone rates for interstate calls are regulated by the FCC with a maximum of $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules. In-state rates may vary by facility. Check your account for the specific rate that applies to your facility.",
         ],
       },
       {
@@ -2948,7 +2948,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Phone calls use a prepaid account system. Fund your account before the inmate calls you.",
       "Video visits are available at select facilities. Schedule in advance through your Securus account.",
       "Money transfers go to the inmate trust account and are credited within one to three business days.",
-      "FCC caps interstate phone rates at $0.21 per minute for prisons and $0.13 per minute for jails.",
+      "FCC caps interstate phone rates at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules.",
       "If the facility does not appear to use Securus, search our facility directory to find the correct provider.",
     ],
 
@@ -2963,7 +2963,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "How much do Securus phone calls cost?",
-        answer: "Interstate call rates are federally regulated with a maximum of $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates vary by facility and state. Log in to your Securus account to see the specific rate for your loved one facility.",
+        answer: "Interstate call rates are federally regulated with a maximum of $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules. In-state rates vary by facility and state. Log in to your Securus account to see the specific rate for your loved one facility.",
       },
       {
         question: "Can I video visit through Securus?",
@@ -3040,7 +3040,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         body: [
           "GTL phone calls work through the AdvancePay prepaid system on ConnectNetwork. You deposit money in advance and funds are deducted each time the inmate calls your registered phone number. You cannot call the inmate - all calls must be initiated by the inmate from a facility phone.",
           "To receive calls, register your phone number in your ConnectNetwork account and add funds to your AdvancePay balance. When the inmate calls, the call connects automatically and the per-minute rate is deducted from your balance. Set up automatic refills to ensure your balance never runs out.",
-          "GTL phone rates for interstate calls are regulated by the FCC. The maximum rate is $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates vary. Check your ConnectNetwork account for the specific rate that applies to your facility.",
+          "GTL phone rates for interstate calls are regulated by the FCC. The maximum rate is $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules. In-state rates vary. Check your ConnectNetwork account for the specific rate that applies to your facility.",
         ],
       },
       {
@@ -3086,7 +3086,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "How much do GTL phone calls cost?",
-        answer: "GTL interstate call rates are capped by the FCC at $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates vary by facility. Log in to your ConnectNetwork account to see the specific rate for your loved one facility.",
+        answer: "GTL interstate call rates are capped by the FCC at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules. In-state rates vary by facility. Log in to your ConnectNetwork account to see the specific rate for your loved one facility.",
       },
     ],
 

@@ -89,6 +89,40 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Repeated violations of content rules can result in suspended messaging privileges for the sender. In serious cases, access to the platform may be permanently revoked at that facility. The inmate may also face disciplinary action for messages that violate facility rules.",
         ],
       },
+      {
+        heading: "Why Your Message May Not Be Delivered",
+        body: [
+          "One of the most common problems families face is sending a message that never arrives. There are several reasons this can happen and understanding each one helps you resolve the issue faster. The most common cause is content that triggered an automated filter during the review process. Messaging platforms use keyword screening systems that flag messages based on specific words or phrases even when the message does not actually violate any rule.",
+          "A red lock icon on your sent message in JPay means the message was flagged and is being held for review or has been blocked. This does not always mean you did something wrong. The automated system can flag innocent messages based on word combinations that appear suspicious to the filter. If you see a red lock, check your account notifications for any explanation and consider revising the message to remove any language that could be misread.",
+          "Messages can also fail to deliver if your account has been placed on hold by the facility or the platform. This can happen after multiple flagged messages, a change in your contact approval status, or a facility-wide communication restriction such as a lockdown. Contact the platform customer service and the facility directly to find out which type of hold is in place and what steps are needed to restore communication.",
+          "If you recently changed your phone number or email address, your account details may no longer match the approved contact information on file at the facility. Always update your contact information on the platform and notify the facility whenever your details change. The inmate may also need to resubmit your updated information through the facility contact approval process.",
+        ],
+      },
+      {
+        heading: "CorrLinks Specific Problems and How to Fix Them",
+        body: [
+          "CorrLinks users report several recurring issues that are worth knowing before you start. The platform is known to log users out unexpectedly during long sessions. If you are writing a long message, copy the text before attempting to send or save it. This prevents losing your work if the session expires before the message is submitted.",
+          "In October 2024, the Bureau of Prisons limited CorrLinks accounts to a maximum of 10 outside contacts at one time. If an inmate already has 10 approved contacts, they cannot add new ones until an existing contact is removed. If you submitted a contact request and have not received an invitation, this limit may be the reason. Ask your loved one to check their contact list and remove inactive contacts if needed.",
+          "CorrLinks outages do occur periodically. The site may be slow or unavailable due to maintenance or technical issues. If you cannot connect to corrlinks.com, wait a few hours and try again. Clear your browser cache and cookies before retrying. If the problem persists for more than 24 hours, check for announcements from the Bureau of Prisons or contact CorrLinks support directly.",
+          "If you were previously connected with someone on CorrLinks and they are transferred to a new federal facility, the connection should carry over because CorrLinks is used at all BOP facilities. However, if they are transferred to a state facility, the CorrLinks connection will no longer be active and you will need to set up a new account on whichever platform the state facility uses.",
+        ],
+      },
+      {
+        heading: "JPay Messaging Problems and Solutions",
+        body: [
+          "JPay users frequently report confusion about the stamp system and why messages are not going through. If you have stamps in your account but a message is not sending, check that you are using the correct account for the correct inmate. If your loved one has transferred to a new facility in a different JPay state, you may need to update their profile in your account.",
+          "JPay tablet outages have affected many facilities. In New York, the state Attorney General reached an agreement with JPay after hundreds of complaints about defective tablets, delayed deliveries, and failure to provide refunds for services not delivered. If you purchased stamps and the messages were not delivered due to a JPay system outage, you may be entitled to a refund or credit. Contact JPay customer service with your transaction confirmation number.",
+          "If an inmate has blocked you on JPay, you will not receive any notification. Messages you send will appear to go through on your end but will not be delivered. If you suspect you have been blocked, contact JPay customer service and ask them to verify the delivery status of your recent messages. Resolving a block requires the inmate to take action from inside the facility.",
+        ],
+      },
+      {
+        heading: "How Long Does Inmate Message Delivery Actually Take",
+        body: [
+          "Delivery times vary more than most families expect when they first start using inmate messaging. The platform may show your message as sent immediately, but the actual delivery depends entirely on when facility staff review and approve the message. At busy facilities with high message volumes, this review process can take anywhere from two hours to two business days.",
+          "Messages sent late at night or on weekends may not be reviewed until the next business day at facilities with limited weekend staffing. If your message was sent Friday evening and has not been delivered by Monday, this is often the reason rather than a technical problem. Planned facility events such as lockdowns, counts, and inspections also pause message processing until normal operations resume.",
+          "Once a message clears the review process it is delivered to the inmate tablet or kiosk almost immediately. The inmate can then read and reply at their next available opportunity to access the messaging terminal. Their reply goes through the same review process before it reaches you, so the total round-trip time for a message and reply can range from a few hours to several days depending on facility operations.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -99,6 +133,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Costs are paid by the sender through a credit or stamp system. Prices range from $0.25 to $0.50 per message depending on the platform.",
       "All messages are monitored and stored. Never include sensitive legal, financial, or personal information.",
       "Messages that violate content rules are blocked. Repeated violations can result in suspended messaging privileges.",
+      "A red lock icon on a JPay message means it was flagged during review. Check your account notifications and consider revising the message before resending.",
+      "CorrLinks limits inmates to 10 outside contacts at one time as of October 2024. If your invitation has not arrived, the inmate may need to remove an inactive contact first.",
+      "Copy long messages before sending on CorrLinks because the platform can log you out unexpectedly and unsaved messages are lost.",
+      "Message delivery can take two hours to two business days depending on facility review volume and staffing.",
+      "If JPay messages appear sent on your end but the inmate never receives them, contact JPay customer service to verify delivery status.",
     ],
 
     faq: [
@@ -129,6 +168,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What if my loved one changes facilities?",
         answer: "If your loved one transfers to a new facility, you may need to create an account on a different platform. The new facility may use a different provider. Contact the new facility to confirm which platform they use and set up a new account if needed.",
+      },
+      {
+        question: "What does a red lock mean on my JPay message?",
+        answer: "A red lock icon means your message was flagged during the automated content review process and is being held or blocked. Check your account notifications for any explanation. Revise the message to remove any language that could be misread as a content violation, then resend the revised version. Do not resend the original blocked message multiple times as this can escalate the issue.",
+      },
+      {
+        question: "Why has my CorrLinks invitation not arrived?",
+        answer: "Several things can delay a CorrLinks invitation. Check your spam folder first. Confirm with your loved one that they entered your email address exactly correctly. As of October 2024, CorrLinks limits inmates to 10 outside contacts at one time. If they already have 10 approved contacts they cannot add more until an existing contact is removed. Ask them to check their contact list if the invitation has not arrived within 48 hours.",
+      },
+      {
+        question: "How long does it take for an inmate to receive my message?",
+        answer: "Most messages are delivered within a few hours to one business day after submission. Messages sent late at night or on weekends may not be reviewed until the next business day. Facility lockdowns, counts, and high message volumes can extend delivery times. If a message has not been delivered after two business days, check your account for any block notifications and contact platform customer service.",
+      },
+      {
+        question: "Can I get a refund if my JPay message was never delivered?",
+        answer: "If a message was not delivered due to a JPay system outage or technical failure on the platform side, you may be entitled to a refund or credit of the stamps used. Contact JPay customer service with your transaction confirmation number and the date the message was sent. JPay has issued refunds in the past following documented outages and platform failures.",
+      },
+      {
+        question: "What happens to my messaging account if my loved one is transferred?",
+        answer: "It depends on whether the new facility uses the same platform. For CorrLinks users, the connection transfers automatically because CorrLinks is used at all federal BOP facilities. For JPay or ConnectNetwork users, if the new facility uses the same provider the account usually continues working. If the new facility uses a different provider, you will need to create a new account on that platform. Always confirm which provider the new facility uses before setting up a new account.",
       },
     ],
 

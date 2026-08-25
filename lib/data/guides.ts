@@ -35,7 +35,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 5,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "How Inmate Messaging Works: Platforms, Costs, Rules and Setup",
     seoDescription: "Learn how inmate messaging works - which platforms to use, how messages are reviewed, what it costs, and how to send your first message to an incarcerated loved one. Free complete guide.",
 
@@ -102,7 +102,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         heading: "CorrLinks Specific Problems and How to Fix Them",
         body: [
           "CorrLinks users report several recurring issues that are worth knowing before you start. The platform is known to log users out unexpectedly during long sessions. If you are writing a long message, copy the text before attempting to send or save it. This prevents losing your work if the session expires before the message is submitted.",
-          "In October 2024, the Bureau of Prisons limited CorrLinks accounts to a maximum of 10 outside contacts at one time. If an inmate already has 10 approved contacts, they cannot add new ones until an existing contact is removed. If you submitted a contact request and have not received an invitation, this limit may be the reason. Ask your loved one to check their contact list and remove inactive contacts if needed.",
+          "In late 2024, still in effect as of 2026, the Bureau of Prisons limited CorrLinks accounts to a maximum of 10 outside contacts at one time. If an inmate already has 10 approved contacts, they cannot add new ones until an existing contact is removed. If you submitted a contact request and have not received an invitation, this limit may be the reason. Ask your loved one to check their contact list and remove inactive contacts if needed.",
           "CorrLinks outages do occur periodically. The site may be slow or unavailable due to maintenance or technical issues. If you cannot connect to corrlinks.com, wait a few hours and try again. Clear your browser cache and cookies before retrying. If the problem persists for more than 24 hours, check for announcements from the Bureau of Prisons or contact CorrLinks support directly.",
           "If you were previously connected with someone on CorrLinks and they are transferred to a new federal facility, the connection should carry over because CorrLinks is used at all BOP facilities. However, if they are transferred to a state facility, the CorrLinks connection will no longer be active and you will need to set up a new account on whichever platform the state facility uses.",
         ],
@@ -134,7 +134,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "All messages are monitored and stored. Never include sensitive legal, financial, or personal information.",
       "Messages that violate content rules are blocked. Repeated violations can result in suspended messaging privileges.",
       "A red lock icon on a JPay message means it was flagged during review. Check your account notifications and consider revising the message before resending.",
-      "CorrLinks limits inmates to 10 outside contacts at one time as of October 2024. If your invitation has not arrived, the inmate may need to remove an inactive contact first.",
+      "CorrLinks limits inmates to 10 outside contacts at one time, a rule from late 2024 still in effect as of 2026. If your invitation has not arrived, the inmate may need to remove an inactive contact first.",
       "Copy long messages before sending on CorrLinks because the platform can log you out unexpectedly and unsaved messages are lost.",
       "Message delivery can take two hours to two business days depending on facility review volume and staffing.",
       "If JPay messages appear sent on your end but the inmate never receives them, contact JPay customer service to verify delivery status.",
@@ -175,7 +175,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "Why has my CorrLinks invitation not arrived?",
-        answer: "Several things can delay a CorrLinks invitation. Check your spam folder first. Confirm with your loved one that they entered your email address exactly correctly. As of October 2024, CorrLinks limits inmates to 10 outside contacts at one time. If they already have 10 approved contacts they cannot add more until an existing contact is removed. Ask them to check their contact list if the invitation has not arrived within 48 hours.",
+        answer: "Several things can delay a CorrLinks invitation. Check your spam folder first. Confirm with your loved one that they entered your email address exactly correctly. Since late 2024, still in effect as of 2026, CorrLinks limits inmates to 10 outside contacts at one time. If they already have 10 approved contacts they cannot add more until an existing contact is removed. Ask them to check their contact list if the invitation has not arrived within 48 hours.",
       },
       {
         question: "How long does it take for an inmate to receive my message?",
@@ -212,7 +212,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 4,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "How to Send Money to an Inmate: Methods, Fees, and Step-by-Step Setup",
     seoDescription: "Complete guide to sending money to an incarcerated loved one - which platforms to use, how much fees cost, how long transfers take, and how to avoid common mistakes. Free guide for families.",
 
@@ -282,7 +282,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "The most stressful scenario families face is sending money that does not appear in the inmate account. Before assuming the transfer failed, check whether the funds are in a pending or hold status. Many providers hold transfers for review, especially for first-time senders or unusually large amounts. A hold does not mean the money is lost.",
           "Contact the provider with your transaction confirmation number within 24 to 48 hours if the funds have not appeared. Provide the inmate name, facility name, inmate ID number, the amount sent, the payment method, and the exact date and time of the transfer. Keep your email receipt as the primary documentation.",
           "If the provider cannot locate the transfer or refuses to help, contact your bank or credit card company to dispute the charge. Provide the provider confirmation email and explain that the funds were not delivered. Banks typically side with consumers in non-delivery disputes when documentation is provided.",
-          "Access Corrections experienced a significant outage in May 2025 that temporarily prevented deposits and caused processing delays. During provider outages, transactions may appear to complete successfully on the sender side but not be credited to the inmate account. If you sent money during a known outage period and it was not received, contact the provider and reference the outage dates when filing your complaint.",
+          "Access Corrections experienced a documented outage in 2025 that temporarily prevented deposits and caused processing delays. During provider outages, transactions may appear to complete successfully on the sender side but not be credited to the inmate account. If you sent money during a known outage period and it was not received, contact the provider and reference the outage dates when filing your complaint.",
         ],
       },
       {
@@ -378,7 +378,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 4,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "How Video Visitation Works: Setup, Cost, Equipment and Scheduling",
     seoDescription: "Learn how video visitation works at prisons and jails - how to schedule a video visit, what equipment you need, how much sessions cost, and which providers offer video visits. Free complete guide.",
 
@@ -443,9 +443,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "New FCC Video Call Rate Caps",
         body: [
-          "In August 2024 the Federal Communications Commission capped prison video call rates for the first time. Before these rules, video calls were completely unregulated and providers charged whatever the facility contract allowed. Under the new FCC rules, video call rates are capped at $0.16 per minute at prisons and between $0.11 and $0.25 per minute at jails depending on size. Transaction fees for video calls are also eliminated under the new rules.",
-          "Securus and JPay notified users in November 2024 that they were making system updates to comply with the new per-minute video call billing requirement. Some facilities experienced temporary video visit disruptions during these compliance updates. If your scheduled video visit was cancelled during a provider system update, the visit should have been automatically refunded. Contact the provider with your booking confirmation if you did not receive the refund.",
-          "GTL ViaPath Technologies was ordered to pay $3 million for violations of consumer protection laws in June 2025, following complaints about video visitation service quality and billing practices. If you experienced billing issues or failed video visits through GTL ConnectNetwork or GettingOut, you may be eligible to file a complaint with your state attorney general consumer protection office.",
+          "The Federal Communications Commission capped prison video call rates for the first time under FCC rules that took effect in 2024 and 2025. Before these rules, video calls were completely unregulated and providers charged whatever the facility contract allowed. The original 2024 rules capped video call rates at $0.16 per minute at prisons and between $0.11 and $0.25 per minute at jails depending on size. In October 2025 the FCC voted to raise these caps, and the current rates in force are $0.25 per minute at prisons and between $0.19 and $0.44 per minute at jails depending on size. Transaction fees for video calls remain eliminated under the current rules.",
+          "Securus and JPay notified users in late 2024 that they were making system updates to comply with the new per-minute video call billing requirement. Some facilities experienced temporary video visit disruptions during these compliance updates. If your scheduled video visit was cancelled during a provider system update, the visit should have been automatically refunded. Contact the provider with your booking confirmation if you did not receive the refund.",
+          "GTL ViaPath Technologies was ordered to pay $3 million for violations of consumer protection laws in 2025, following complaints about video visitation service quality and billing practices. If you experienced billing issues or failed video visits through GTL ConnectNetwork or GettingOut, you may be eligible to file a complaint with your state attorney general consumer protection office.",
         ],
       },
       {
@@ -484,7 +484,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Sessions must be scheduled in advance through the provider platform. You must be an approved contact first.",
       "Remote video visits cost between $7.50 and $15 per session. On-site lobby visits are often free or lower cost.",
       "All video visits are recorded and monitored. Follow the same content rules as physical visits.",
-      "New FCC rules capped video call rates at $0.16 per minute for prisons and $0.11 to $0.25 per minute for jails. Transaction fees for video calls are now prohibited.",
+      "FCC rules first capped video call rates in 2024 at $0.16 per minute for prisons and $0.11 to $0.25 per minute for jails, then the FCC raised those caps in 2025 to $0.25 per minute for prisons and $0.19 to $0.44 per minute for jails. Transaction fees for video calls remain prohibited.",
       "If a scheduled video visit is cancelled due to a provider system update, it should be automatically refunded. Contact the provider with your booking confirmation if you do not receive the refund.",
       "Report failed video visits to customer service the same day with your booking confirmation number. Most providers require prompt reporting to issue a credit.",
       "If the video platform keeps redirecting you to download a plugin, try Google Chrome first, then clear all browser data and try again.",
@@ -522,7 +522,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "What are the new FCC rules for video visit costs?",
-        answer: "The FCC capped prison video call rates at $0.16 per minute for prisons and between $0.11 and $0.25 per minute for jails depending on size. Transaction fees for video calls are also eliminated under the rules that took effect in 2024 and 2025. Before these rules, video calls were completely unregulated and often more expensive than phone calls.",
+        answer: "The FCC first capped prison video call rates in 2024 at $0.16 per minute for prisons and between $0.11 and $0.25 per minute for jails depending on size. In October 2025 the FCC voted to raise these caps, and the rates currently in force are $0.25 per minute for prisons and between $0.19 and $0.44 per minute for jails depending on size. Transaction fees for video calls remain eliminated. Before the original 2024 rules, video calls were completely unregulated and often more expensive than phone calls.",
       },
       {
         question: "My video visit froze and ended early. Can I get a refund?",
@@ -563,7 +563,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 4,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "How to Find an Inmate: Federal, State and County Inmate Search Guide",
     seoDescription: "Learn how to find an inmate in federal prison, state prison, or county jail - which search tools to use, how to search by name or ID, and what to do if the inmate does not appear. Free guide.",
 
@@ -626,7 +626,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "The Bureau of Prisons inmate locator at bop.gov covers all federal inmates from 1982 to the present. If you have the inmate BOP Register Number, always search by that number first. A Register Number overrides name spelling issues, duplicate names, and recent transfers. The number is typically provided at sentencing and may appear on court documents.",
           "If you are searching by name and get too many results, use the optional filters to narrow them down. You can filter by age range, race, and gender. For California federal inmates, look for the Western Region designation in the results. The facility codes can help identify location: USP indicates a high-security penitentiary, FCI indicates a medium or low-security correctional institution, FPC indicates a minimum-security camp.",
           "The BOP locator updates overnight, so transfers and releases typically appear within 24 hours of the change being processed. If an inmate shows as IN TRANSIT, check back the following day. If they show as RELEASED or NOT IN BOP CUSTODY, they are no longer in federal custody but may still be under supervised release or parole conditions.",
-          "FCI Dublin in California closed in April 2024 following a federal investigation. If you are searching for someone who was previously at FCI Dublin, their record will still appear in the locator showing their last location or current transfer status. Contact the BOP directly for assistance locating inmates from closed facilities.",
+          "FCI Dublin in California closed in April 2024 following a federal investigation, and the facility remains closed as of 2026. If you are searching for someone who was previously at FCI Dublin, their record will still appear in the locator showing their last location or current transfer status. Contact the BOP directly for assistance locating inmates from closed facilities.",
         ],
       },
       {
@@ -651,7 +651,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Always try multiple name spellings when a search returns no results. Legal names, nicknames, and hyphenated names all require different search approaches.",
       "If you have the BOP Register Number, search by that first. It overrides name spelling issues and transfer gaps in search results.",
       "After a transfer from county jail to state prison, the inmate receives a new ID number. You will need this new ID for all communication and money transfer accounts.",
-      "FCI Dublin closed in April 2024. Inmates previously at that facility have been transferred and their records show current transfer status in the BOP locator.",
+      "FCI Dublin closed in April 2024, still applicable in 2026 as the facility remains closed. Inmates previously at that facility have been transferred and their records show current transfer status in the BOP locator.",
     ],
 
     faq: [
@@ -1178,7 +1178,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 5,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "Prison Visitation Rules: Approval Process, Dress Code, ID Requirements and What to Expect",
     seoDescription: "Complete guide to prison visitation rules - how to get approved as a visitor, what ID to bring, what to wear, what you can and cannot bring inside, and what to expect on visiting day. Free guide.",
 
@@ -1258,7 +1258,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "If your visit is denied or terminated, you have the right to receive written notification explaining the reason. In California, facilities are required to provide a written notice on a specific form that includes instructions for appealing the decision. Most state systems have a similar requirement. If you are denied entry and no written notice is provided, ask the supervising officer for documentation of the reason.",
           "The appeal process typically begins with the facility itself. Write a formal letter addressed to the Warden or Visiting Coordinator explaining the circumstances of the denial, why you believe it was applied incorrectly, and what outcome you are requesting. Submit the letter in writing and keep a copy for your records. Most facilities have a specific timeframe within which appeals must be submitted, often ten business days from the date of the denial.",
           "If the facility-level appeal does not resolve the issue, escalate to the state Department of Corrections. State DOC oversight offices review complaints about facility decisions including visiting denials. A complaint submitted to the DOC inspector general or ombudsman carries more weight than one submitted only to the facility.",
-          "The New York City Council found in a 2025 report on Rikers Island that visitors were being turned away for dress code issues in ways that were inconsistent and preventable. The report recommended that facilities assess dress code compliance only once per visit and that nobody willing to wear a cover-up garment should be denied. If you were turned away but willing to make an adjustment, document this in any appeal you file.",
+          "The New York City Council found in a recent report on Rikers Island that visitors were being turned away for dress code issues in ways that were inconsistent and preventable. The report recommended that facilities assess dress code compliance only once per visit and that nobody willing to wear a cover-up garment should be denied. If you were turned away but willing to make an adjustment, document this in any appeal you file.",
         ],
       },
       {
@@ -1541,7 +1541,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 4,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "How CorrLinks Works: Setup, Invitation Process, Costs and Rules for Federal Inmates",
     seoDescription: "Complete guide to CorrLinks for families of federal inmates - how to receive your invitation, create an account, send messages, what it costs, and what rules apply. Free step-by-step guide.",
 
@@ -1625,7 +1625,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "CorrLinks 10 Contact Limit and What It Means for Families",
         body: [
-          "As of October 2024, the Bureau of Prisons implemented a rule limiting CorrLinks accounts to a maximum of 10 outside contacts per inmate at one time. Before this change, inmates could have more than 10 approved contacts. If an inmate has already reached the 10-contact limit, they cannot add new contacts until an existing one is removed.",
+          "Under a rule introduced in late 2024 that remains in effect, the Bureau of Prisons limits CorrLinks accounts to a maximum of 10 outside contacts per inmate at one time. Before this change, inmates could have more than 10 approved contacts. If an inmate has already reached the 10-contact limit, they cannot add new contacts until an existing one is removed.",
           "If you submitted a contact request and have not received your invitation email after 48 hours, the 10-contact limit may be the reason. Ask your loved one to log in to their TRULINCS terminal and check their contact list. If they are at the limit, they will need to remove an inactive contact before your request can be processed.",
           "The 10-contact limit affects extended families and support networks more than immediate family members. Inmates who had large networks of pen pals, advocacy contacts, or distant family members on CorrLinks may have had to reduce their contact list to comply with the new rule. If you were previously connected and the connection was dropped without explanation, this policy change may be the cause.",
         ],
@@ -1643,7 +1643,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "All messages are monitored by BOP staff. Never send sensitive legal or financial information through CorrLinks.",
       "CorrLinks has a 1.7 star rating from hundreds of reviews. The most common issues are login failures, app sync errors, and billing problems.",
       "If the CorrLinks app shows a communication error, delete and reinstall the app. Switch to the website at corrlinks.com if the app continues to fail.",
-      "As of October 2024, inmates are limited to 10 CorrLinks contacts at one time. If your invitation has not arrived, the inmate may need to remove an inactive contact first.",
+      "CorrLinks limits inmates to 10 outside contacts at one time under a rule introduced in 2024, still in effect. If your invitation has not arrived, the inmate may need to remove an inactive contact first.",
       "If CorrLinks charged you for a service that was not delivered, dispute the charge with your bank and provide your confirmation email as documentation.",
       "Write your messages in a separate document before pasting into CorrLinks. The platform can log you out unexpectedly and unsaved messages are permanently lost.",
     ],
@@ -1691,7 +1691,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "Why did CorrLinks drop my connection with an inmate I was already messaging?",
-        answer: "Several things can cause an existing connection to drop. The inmate may have removed you from their contact list. The facility may have placed a communication restriction. The October 2024 contact limit of 10 contacts per inmate may have required them to remove some contacts. Contact the facility directly to find out if a restriction is in place.",
+        answer: "Several things can cause an existing connection to drop. The inmate may have removed you from their contact list. The facility may have placed a communication restriction. The 10-contact limit per inmate, in effect as of late 2024 and continuing through 2026, may have required them to remove some contacts. Contact the facility directly to find out if a restriction is in place.",
       },
       {
         question: "Can I use CorrLinks on my phone?",
@@ -2071,9 +2071,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     readingTimeMinutes: 4,
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-08-01",
     seoTitle: "Why Prison Phone Calls Are So Expensive: New FCC Rate Caps Explained",
-    seoDescription: "Learn why prison phone calls cost so much and how new FCC rules cut rates to $0.06 per minute for prisons. Find out current rates, which states offer free calls, and how to reduce your costs.",
+    seoDescription: "Learn why prison phone calls cost so much and how FCC rate caps changed - cut to $0.06 per minute in 2024, then raised to $0.11 per minute in 2025. Find out current rates, which states offer free calls, and how to reduce your costs.",
 
     intro: [
       "Prison phone calls are among the most expensive telephone services in the United States. A call that would cost a few cents per minute on a standard phone plan can cost several times more when placed from a correctional facility. For families who depend on regular calls to stay connected with an incarcerated loved one, these costs add up quickly and place a significant financial burden on people who are often already struggling.",
@@ -2140,9 +2140,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "New FCC Rate Caps That Changed Everything",
         body: [
-          "In July 2024, the Federal Communications Commission approved landmark rules that dramatically cut inmate phone call rates across the United States. Before these rules, a single 15-minute phone call could cost a family as much as $11.35 at a large jail. Under the new FCC caps, that same call costs just $0.90. The FCC estimated that families, inmates, and friends will save approximately $386 million every year as a result of these changes.",
-          "The new rate caps set a maximum of $0.06 per minute for calls at prisons and large jails, $0.07 per minute for medium-sized jails, $0.09 per minute for small jails, and $0.12 per minute for very small jails. These are the maximum rates providers are allowed to charge for interstate calls, calls made between two different states. In-state call rates are also now regulated under the expanded FCC authority.",
-          "Video call rates were capped for the first time under the 2024 rules. Before this, video calls were completely unregulated and often priced even higher than voice calls. The new caps set video call rates between $0.11 and $0.25 per minute depending on the size of the facility. This change affects millions of families who rely on video visits as an alternative to expensive phone calls.",
+          "In July 2024, the Federal Communications Commission approved landmark rules that dramatically cut inmate phone call rates across the United States. Before these rules, a single 15-minute phone call could cost a family as much as $11.35 at a large jail. Under the 2024 FCC caps, that same call cost just $0.90, and the FCC estimated that families, inmates, and friends would save approximately $386 million every year as a result. However, in October 2025 the FCC voted 2-1 to raise the rate caps again after pushback from the corrections industry and phone providers, so the actual savings families see today are smaller than the FCC originally projected.",
+          "The rate caps currently in force, as revised in October 2025, set a maximum of $0.11 per minute for calls at prisons, $0.10 per minute for large jails, $0.12 per minute for medium-sized jails, $0.13 per minute for small jails, and $0.15 to $0.19 per minute for very small jails. These replaced the lower rates set in 2024, which had capped calls at $0.06 to $0.12 per minute across the same facility tiers. These are the maximum rates providers are allowed to charge for interstate calls, calls made between two different states. In-state call rates are also regulated under the expanded FCC authority.",
+          "Video call rates were capped for the first time under the 2024 rules, at $0.16 per minute for prisons and between $0.11 and $0.25 per minute for jails depending on size. Before this, video calls were completely unregulated and often priced even higher than voice calls. The October 2025 revision raised these caps as well, to $0.25 per minute for prisons and between $0.19 and $0.44 per minute for jails depending on size. This change affects millions of families who rely on video visits as an alternative to expensive phone calls.",
           "The FCC rules also eliminated many of the additional fees that providers had historically used to increase revenue beyond the per-minute rate. Connection fees, account setup fees, and certain other charges are now prohibited for interstate calls. This means the rate you see per minute is much closer to the actual total cost of the call than it was before the rule changes.",
         ],
       },
@@ -2189,9 +2189,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "A small number of states and counties have eliminated phone call charges entirely. This number is growing as advocacy efforts continue.",
       "Add money in larger amounts to reduce the impact of per-transaction fees.",
       "Video visits are sometimes cheaper than phone calls and worth comparing at your specific facility.",
-      "New FCC rules capped prison call rates at $0.06 per minute for prisons and large jails, reducing a 15-minute call from $11.35 to $0.90.",
-      "Video call rates were capped for the first time at $0.11 to $0.25 per minute depending on facility size.",
-      "Families save an estimated $386 million annually under the new FCC rate caps.",
+      "FCC rules cut prison call rates to $0.06 per minute for prisons and large jails in 2024, reducing a 15-minute call from $11.35 to $0.90. In October 2025 the FCC raised the cap to $0.11 per minute for prisons, so a 15-minute call now costs about $1.65.",
+      "Video call rates were capped for the first time in 2024 at $0.11 to $0.25 per minute depending on facility size, then raised in 2025 to a range of about $0.19 to $0.44 per minute.",
+      "The FCC originally estimated $386 million in annual savings under the 2024 rate caps, though the October 2025 rate increase reduced those savings for families.",
       "A growing number of states and counties now offer free phone calls from correctional facilities.",
       "If you are being overcharged, file a complaint at fcc.gov or contact your state public utilities commission.",
     ],
@@ -2223,11 +2223,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "What are the new FCC prison phone call rate caps?",
-        answer: "The FCC capped interstate prison phone call rates at $0.06 per minute for prisons and large jails, $0.07 for medium jails, $0.09 for small jails, and $0.12 for very small jails. Video calls were capped at $0.11 to $0.25 per minute depending on facility size. These rules took effect in 2024 and 2025.",
+        answer: "The FCC originally capped interstate prison phone call rates in 2024 at $0.06 per minute for prisons and large jails, $0.07 for medium jails, $0.09 for small jails, and $0.12 for very small jails. In October 2025 the FCC voted to raise these caps. The rates currently in force are $0.11 per minute for prisons, $0.10 for large jails, $0.12 for medium jails, $0.13 for small jails, and $0.15 to $0.19 for very small jails. Video calls are now capped at $0.19 to $0.44 per minute depending on facility size, up from the original 2024 range of $0.11 to $0.25.",
       },
       {
         question: "How much does a 15-minute prison phone call cost now?",
-        answer: "Under the new FCC rules, a 15-minute call from a large prison or jail costs approximately $0.90. Before the rule change, the same call could cost as much as $11.35. The exact cost depends on the facility size and whether it is an in-state or interstate call.",
+        answer: "Under the FCC rules currently in force since the October 2025 rate increase, a 15-minute call from a prison costs approximately $1.65 at the $0.11 per minute rate. Before the original 2024 reform, the same call could cost as much as $11.35. Rates briefly dropped to about $0.90 for a 15-minute call under the 2024 caps before the FCC raised them again in 2025. The exact cost depends on the facility size and whether it is an in-state or interstate call.",
       },
       {
         question: "Are prison phone calls free anywhere in the United States?",

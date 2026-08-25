@@ -267,6 +267,32 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Sending money before the inmate arrives at the facility can cause problems. Some facilities cannot process incoming funds until the inmate is officially in their system. Wait until you have confirmed your loved one has arrived and been processed before sending the first transfer.",
         ],
       },
+      {
+        heading: "How Fees Work and How to Compare Them",
+        body: [
+          "Money transfer fees are one of the biggest frustrations families report. Fees vary by provider, by the amount sent, and by the payment method used. There is no single cheapest provider for every situation. The same provider that charges the lowest fee for a $20 transfer may charge the highest fee for a $50 transfer. The only way to find the lowest fee for your specific situation is to compare at the time of the transaction.",
+          "California is an example of this complexity. The California Department of Corrections contracts with three separate money transfer vendors: JPay, GTL, and Access Corrections. For a $20 transfer, JPay is significantly cheaper than the other two. For a $50 transfer, JPay becomes the most expensive option. The state DOC website does not show a comparison chart, so families must create accounts with multiple providers and initiate test transactions to find the best rate.",
+          "JPay and Access Corrections generally charge a percentage of the deposited amount, which means fees increase as the deposit amount increases. TouchPay follows a similar model with additional processing fees depending on the payment method. Western Union and MoneyGram tend to use a fixed fee structure that varies by transaction amount and payment method. For smaller deposits, fixed-fee providers can be more expensive. For larger deposits, percentage-based fees can exceed fixed fees.",
+          "Using a debit card rather than a credit card reduces costs across all providers. Credit card transactions may be classified as cash advances by your card issuer, triggering additional fees beyond what the transfer provider charges. Always use a debit card for money transfers to incarcerated loved ones unless a debit card is not accepted at your specific provider.",
+        ],
+      },
+      {
+        heading: "What To Do When Money Does Not Arrive",
+        body: [
+          "The most stressful scenario families face is sending money that does not appear in the inmate account. Before assuming the transfer failed, check whether the funds are in a pending or hold status. Many providers hold transfers for review, especially for first-time senders or unusually large amounts. A hold does not mean the money is lost.",
+          "Contact the provider with your transaction confirmation number within 24 to 48 hours if the funds have not appeared. Provide the inmate name, facility name, inmate ID number, the amount sent, the payment method, and the exact date and time of the transfer. Keep your email receipt as the primary documentation.",
+          "If the provider cannot locate the transfer or refuses to help, contact your bank or credit card company to dispute the charge. Provide the provider confirmation email and explain that the funds were not delivered. Banks typically side with consumers in non-delivery disputes when documentation is provided.",
+          "Access Corrections experienced a significant outage in May 2025 that temporarily prevented deposits and caused processing delays. During provider outages, transactions may appear to complete successfully on the sender side but not be credited to the inmate account. If you sent money during a known outage period and it was not received, contact the provider and reference the outage dates when filing your complaint.",
+        ],
+      },
+      {
+        heading: "Sending Money When Your Loved One Transfers Facilities",
+        body: [
+          "One of the most common mistakes families make is sending money to the facility their loved one was in before a transfer rather than the new facility. Money sent to the wrong facility can be delayed by weeks or returned entirely. Always confirm the current facility before sending funds.",
+          "When an inmate transfers from a county jail to a state prison, the money transfer provider often changes as well. Funds in a JPay account linked to a county jail do not automatically transfer to a state prison account. Contact both the old provider and the new provider to ask about fund transfer procedures when a facility change occurs.",
+          "The inmate is assigned a new ID number at the new facility in most cases. This new ID number must be used for all money transfers at the new location. The old ID number from the county jail will not work at the state prison. Confirm the new ID number with the inmate or the facility before sending any funds to avoid the transfer being rejected or delayed.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -277,6 +303,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Always use the correct inmate ID number - it is different from court case numbers or booking numbers.",
       "Keep your transaction confirmation number until funds are confirmed received.",
       "Do not send money until you confirm your loved one has arrived and been processed at the facility.",
+      "Fees vary by provider, amount, and payment method. The cheapest provider for a $20 transfer may be the most expensive for a $50 transfer. Always compare at the time you send.",
+      "Use a debit card rather than a credit card to avoid cash advance fees that some credit card companies charge on inmate money transfer transactions.",
+      "If funds do not arrive within two business days, contact the provider with your confirmation number. Keep all email receipts until funds are confirmed received.",
+      "Always confirm the current facility and new inmate ID number before sending money after a transfer. Sending to the wrong facility delays funds significantly.",
+      "If a provider outage affected your transfer, reference the outage dates in your complaint to customer service.",
     ],
 
     faq: [
@@ -303,6 +334,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What if the money I sent never arrived?",
         answer: "Keep your transaction confirmation number and contact the provider customer service. Provide your confirmation number, the inmate name and ID, and the facility name. Common causes of delayed funds include incorrect inmate ID, facility transfer, or a processing delay at the facility.",
+      },
+      {
+        question: "Why are money transfer fees so high and can I avoid them?",
+        answer: "Fees exist because providers charge for the service of processing and crediting the deposit. Fees vary by provider, amount sent, and payment method. To minimize fees, compare providers at the time of the transfer, use a debit card rather than a credit card, and send larger amounts less frequently to reduce the number of transaction fees you pay overall.",
+      },
+      {
+        question: "The money I sent is not in the inmate account. What do I do?",
+        answer: "First check whether the funds are in a pending or hold status in your provider account. Contact customer service with your transaction confirmation number, inmate ID, facility name, amount, and transfer date. If the provider cannot help, dispute the charge with your bank. Keep your email receipt as documentation for any dispute.",
+      },
+      {
+        question: "Can I send money to an inmate at any facility using any provider?",
+        answer: "No. Each facility contracts with specific money transfer providers. You must use a provider that serves the specific facility your loved one is in. Some facilities have contracts with multiple providers and you can choose between them. Others have an exclusive contract with one provider. Search our facility directory to find which providers serve your loved one's facility.",
+      },
+      {
+        question: "What happens to the money if my loved one transfers to a new facility?",
+        answer: "Funds in the inmate trust account at the old facility typically transfer with the inmate through the facility accounting system, but this can take time. Money in a provider platform account such as JPay linked to the old facility may not transfer automatically. Contact both the old and new provider to ask about fund transfer procedures. Always get the new inmate ID number before sending any new funds.",
+      },
+      {
+        question: "Is there a free way to send money to an inmate?",
+        answer: "Some states and facilities have eliminated fees for certain deposit methods. JPay eliminated money order deposit fees at some state facilities following public pressure. A small number of states offer free deposit options as part of broader prison communication reform efforts. Contact the facility or your state Department of Corrections to ask whether any fee-free deposit options are available.",
       },
     ],
 

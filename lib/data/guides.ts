@@ -1218,6 +1218,31 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Families should be aware that when a state switches tablet providers - which happens when contracts expire and are renegotiated - all content on the old platform may be lost. Photos, messages, and purchased media from the previous provider are not always transferable to the new system.",
         ],
       },
+      {
+        heading: "JPay Tablet Problems and the NY Attorney General Agreement",
+        body: [
+          "JPay tablets have been the subject of significant complaints and legal action. The New York Attorney General reached an agreement with JPay after receiving hundreds of complaints from incarcerated New Yorkers that tablets were defective, arrived late, or never arrived. JPay also failed to refund consumers when purchased music and videos did not download. As a result of the agreement, JPay provided 100 digital stamps worth approximately $500,000 to every person at a New York DOCCS facility. JPay was also required to hire at least 11 customer service representatives specifically for New York state prison complaints and to resolve all complaints within 14 days.",
+          "A class action lawsuit was filed in Georgia federal court alleging that JPay operated a scheme to sell tablets to inmates and then take them back without reimbursement when contracts changed or the tablet was replaced. Inmates in the lawsuit reported purchasing devices and paying for games and music content only to have tablets confiscated or exchanged without credit for the paid content.",
+          "Common tablet problems reported by families include tablets stuck at the startup menu after a software update, syncing failures between the tablet and facility kiosk, malfunction after recommended updates, and customer service taking weeks to respond without resolution. If your loved one is experiencing tablet problems, the family can contact JPay customer service directly and reference the facility name and existing ticket number.",
+        ],
+      },
+      {
+        heading: "Provider Transitions: When Facilities Switch From JPay to ViaPath",
+        body: [
+          "A growing number of state correctional systems have transitioned from JPay tablets to ViaPath Technologies tablets. Idaho completed this transition in May 2025, replacing JPay tablets with free ViaPath Bridge tablets. New Jersey began a similar transition in 2026. When a state switches providers, all content purchased on the old platform including music, games, and movies does not automatically transfer to the new platform.",
+          "In Idaho, the DOC communicated that inmates could continue using old JPay tablets until they stopped working. When the device stops functioning, there is a process to send the tablet back, have data pulled to a USB drive, and have the unlocked tablet returned to a home address. Families should save the home address in advance for this purpose.",
+          "In New Jersey, a civil rights lawsuit was filed in July 2026 challenging the transition from JPay to ViaPath, with inmates arguing that content purchased on JPay tablets would not remain accessible and that the switch resulted in significant cost increases. If your loved one's facility is undergoing a tablet provider transition, contact the facility directly to ask about the timeline, what happens to previously purchased content, and whether any credit will be provided for lost content.",
+        ],
+      },
+      {
+        heading: "How to Get a Refund or Credit for Tablet Problems",
+        body: [
+          "If your loved one purchased content on a JPay tablet that was never delivered or is inaccessible due to a malfunction, submit a formal support ticket through JPay. Include the specific items purchased, the dates of purchase, the transaction confirmation numbers, and a clear description of what is not working.",
+          "If JPay does not respond within 14 days, escalate to your state Department of Corrections. The DOC holds the contract with JPay and has leverage to require resolution. New York established a 14-day resolution requirement as part of its Attorney General agreement.",
+          "For families who cannot resolve tablet issues through these channels, filing a complaint with your state attorney general consumer protection office is the most effective escalation option. The New York Attorney General case demonstrates that state AG offices will act on widespread tablet complaints when they receive sufficient documentation.",
+          "Document all tablet content purchases with confirmation numbers and screenshots before any announced provider transition date. This documentation is essential for any credit or refund claim when content is lost during a platform change.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -1228,6 +1253,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Tablet access can be restricted as a disciplinary measure. Facilities use it as an incentive for good behavior.",
       "Tablet programs are available at most large state prison systems but are less common at county jails.",
       "When a facility switches providers, content from the old platform may be lost and cannot transfer to the new system.",
+      "JPay reached an agreement with the New York Attorney General and provided $500,000 in credits after hundreds of complaints about defective or undelivered tablets.",
+      "A class action lawsuit in Georgia alleged JPay took back tablets from inmates without reimbursement for purchased content.",
+      "States including Idaho and New Jersey have transitioned from JPay tablets to ViaPath tablets. Content purchased on JPay does not automatically transfer to the new platform.",
+      "If tablet problems are not resolved by JPay within 14 days, escalate to the state Department of Corrections which holds the contract.",
+      "Document all tablet content purchases before any announced provider transition. This documentation is essential for refund claims.",
     ],
 
     faq: [
@@ -1254,6 +1284,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Does my loved one facility have a tablet program?",
         answer: "Most large state prison systems have tablet programs but availability varies. Search our facility directory or call the facility directly to confirm whether a tablet program is available and which provider manages it.",
+      },
+      {
+        question: "My loved one's JPay tablet is broken and customer service is not helping. What can I do?",
+        answer: "Submit a formal support ticket through JPay with the specific problem, purchase confirmation numbers, and dates. If JPay does not respond within 14 days, contact the state Department of Corrections to report the unresolved issue. If it remains unresolved, file a complaint with your state attorney general consumer protection office.",
+      },
+      {
+        question: "What happens to content purchased on JPay tablets when a facility switches to ViaPath?",
+        answer: "Purchased content generally does not transfer automatically to a new provider platform. In Idaho, the DOC arranged for tablet data to be pulled to a USB drive when the old tablet stops working. Contact the facility directly to ask what process exists for handling purchased content during a transition and document all purchases before the transition date.",
+      },
+      {
+        question: "Is there a class action lawsuit against JPay for tablets?",
+        answer: "Yes. A class action lawsuit was filed in Georgia federal court alleging that JPay sold tablets to inmates and then took them back without reimbursement when contracts changed. If your loved one experienced similar issues, search for the current status of JPay tablet class action lawsuits to find out if they may qualify to join.",
+      },
+      {
+        question: "Can families contact JPay about tablet problems on behalf of an incarcerated person?",
+        answer: "Yes. Families can contact JPay customer service directly to report tablet problems. Provide the facility name, inmate name and ID number, the nature of the problem, and any existing ticket number. Reference specific purchase confirmation numbers to support any refund or credit request.",
       },
     ],
 

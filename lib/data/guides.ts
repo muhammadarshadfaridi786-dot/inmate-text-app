@@ -1382,6 +1382,40 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "If an inmate is transferred to a new facility, their CorrLinks contact list transfers with them. You do not need to re-register. However, the new facility must also use TRULINCS, which is standard at all BOP facilities.",
         ],
       },
+      {
+        heading: "CorrLinks Not Working: Common Problems and Fixes",
+        body: [
+          "CorrLinks has a 1.7 star rating from hundreds of consumer reviews with the most common complaints involving login failures, the app not syncing with the server, messages not appearing in the inbox despite notifications, and difficulty reaching customer service. These issues are widely reported and knowing how to handle them saves significant frustration.",
+          "If CorrLinks shows a communication error or cannot connect to the server, the first step is to clear your browser cache and cookies and try again. On the mobile app, delete the app completely and reinstall it fresh. Many users report that reinstalling resolves persistent sync failures that other troubleshooting steps cannot fix. If the problem continues for more than 24 hours, check issitedownrightnow.com or a similar service to see if CorrLinks is experiencing a widespread outage.",
+          "If you received a notification that a new message arrived but the message is not visible in your inbox, this is a known sync issue with the CorrLinks app. Log out of the app, clear the cache, and log back in. If the message still does not appear, switch to the CorrLinks website at corrlinks.com through a browser rather than the app. Messages are sometimes visible on the website when the app fails to sync them.",
+          "If you cannot log in at all and the site shows an Argo tunnel error or a security block, try accessing corrlinks.com directly by typing the full address including https in your browser rather than clicking a saved link. Saved links sometimes point to a version of the URL that redirects incorrectly. Try both https://corrlinks.com and https://www.corrlinks.com to see which one loads.",
+        ],
+      },
+      {
+        heading: "CorrLinks Premier Account: Is It Worth It",
+        body: [
+          "CorrLinks offers a Premier Account subscription that costs approximately $6 per year for outside contacts. The Premier Account provides real-time push notifications when you receive a new message, which means you do not have to manually check the inbox to know when a reply arrives. Without the Premier Account, you must log in and check your inbox manually to see if new messages are waiting.",
+          "Users report significant frustration when Premier Account payments are processed but the account does not reflect the subscription status. If you paid for a Premier Account and it still shows a zero balance or expired status, contact CorrLinks customer service immediately with your payment confirmation. Keep the email receipt from your payment as documentation.",
+          "Whether the Premier Account is worth the cost depends on how actively you message. If you exchange messages daily or near-daily, the notification feature saves time and ensures you reply quickly. If you message less frequently, manually checking the inbox is manageable and the basic free account is sufficient. The $6 annual cost is relatively minor but the value depends entirely on whether the notifications function reliably on your device.",
+        ],
+      },
+      {
+        heading: "What To Do When CorrLinks Customer Service Does Not Help",
+        body: [
+          "CorrLinks customer service is consistently cited as one of the platform's biggest weaknesses. Users report difficulty reaching a live person, unanswered support tickets, and billing disputes that are not resolved despite multiple contacts. When standard customer service channels fail, there are escalation options.",
+          "Submit a written complaint through your CorrLinks account rather than relying on phone support. Written tickets create a paper trail that is useful if you need to escalate further. Save copies of every support ticket you submit and every response you receive.",
+          "If CorrLinks charged you for a Premier Account or a service that was not delivered, contact your bank or credit card company to dispute the charge. Provide your CorrLinks confirmation email, the date of the charge, and documentation that the service was not delivered or was not functional. Banks generally resolve clear cases of non-delivery in favor of the consumer.",
+          "You can also file a complaint with the Federal Bureau of Prisons if the service disruption is affecting your ability to communicate with a federal inmate. The BOP contracts with CorrLinks and has leverage over the provider. Contact the specific facility and ask to speak with the Communications Coordinator about ongoing CorrLinks issues affecting family communication.",
+        ],
+      },
+      {
+        heading: "CorrLinks 10 Contact Limit and What It Means for Families",
+        body: [
+          "As of October 2024, the Bureau of Prisons implemented a rule limiting CorrLinks accounts to a maximum of 10 outside contacts per inmate at one time. Before this change, inmates could have more than 10 approved contacts. If an inmate has already reached the 10-contact limit, they cannot add new contacts until an existing one is removed.",
+          "If you submitted a contact request and have not received your invitation email after 48 hours, the 10-contact limit may be the reason. Ask your loved one to log in to their TRULINCS terminal and check their contact list. If they are at the limit, they will need to remove an inactive contact before your request can be processed.",
+          "The 10-contact limit affects extended families and support networks more than immediate family members. Inmates who had large networks of pen pals, advocacy contacts, or distant family members on CorrLinks may have had to reduce their contact list to comply with the new rule. If you were previously connected and the connection was dropped without explanation, this policy change may be the cause.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -1393,6 +1427,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Messages take approximately one hour to be delivered to the inmate after submission.",
       "A Premier Account costs around $6 per year and provides push notifications and full mobile app access.",
       "All messages are monitored by BOP staff. Never send sensitive legal or financial information through CorrLinks.",
+      "CorrLinks has a 1.7 star rating from hundreds of reviews. The most common issues are login failures, app sync errors, and billing problems.",
+      "If the CorrLinks app shows a communication error, delete and reinstall the app. Switch to the website at corrlinks.com if the app continues to fail.",
+      "As of October 2024, inmates are limited to 10 CorrLinks contacts at one time. If your invitation has not arrived, the inmate may need to remove an inactive contact first.",
+      "If CorrLinks charged you for a service that was not delivered, dispute the charge with your bank and provide your confirmation email as documentation.",
+      "Write your messages in a separate document before pasting into CorrLinks. The platform can log you out unexpectedly and unsaved messages are permanently lost.",
     ],
 
     faq: [
@@ -1423,6 +1462,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Can CorrLinks be used at state prisons?",
         answer: "No. CorrLinks is exclusively for federal Bureau of Prisons facilities. State prisons use different providers such as JPay or ConnectNetwork. If your loved one is in a state prison, search our facility directory to find the correct messaging platform.",
+      },
+      {
+        question: "Why is CorrLinks not working or showing a communication error?",
+        answer: "Clear your browser cache and cookies and try again. On the mobile app, delete and reinstall the app completely. If the problem persists, check issitedownrightnow.com to see if CorrLinks is experiencing a widespread outage. Try accessing corrlinks.com directly through a browser rather than the app during outages.",
+      },
+      {
+        question: "I got a notification that I have a new message but it is not in my inbox. What do I do?",
+        answer: "This is a known sync issue with the CorrLinks app. Log out, clear the app cache, and log back in. If the message still does not appear in the app, try accessing your inbox through the corrlinks.com website in a browser. Messages are sometimes visible on the website when the app fails to sync them properly.",
+      },
+      {
+        question: "Why has my CorrLinks Premier Account not activated after payment?",
+        answer: "Contact CorrLinks customer service immediately with your payment confirmation email. Keep the receipt as documentation. If customer service does not resolve the issue and the charge was made to your card, contact your bank to dispute the charge and provide your confirmation as evidence of non-delivery.",
+      },
+      {
+        question: "Why did CorrLinks drop my connection with an inmate I was already messaging?",
+        answer: "Several things can cause an existing connection to drop. The inmate may have removed you from their contact list. The facility may have placed a communication restriction. The October 2024 contact limit of 10 contacts per inmate may have required them to remove some contacts. Contact the facility directly to find out if a restriction is in place.",
+      },
+      {
+        question: "Can I use CorrLinks on my phone?",
+        answer: "Yes. CorrLinks has a free mobile app for iOS and Android. A Premier Account subscription is required to use the full app with push notifications. The app has mixed reviews and users frequently report sync issues. If the app is not working reliably, the corrlinks.com website accessed through your phone browser is an alternative that some users find more stable.",
       },
     ],
 

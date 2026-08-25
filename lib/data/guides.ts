@@ -1162,7 +1162,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         body: [
           "JPay is a privately held inmate communication company that contracts with state departments of corrections to provide messaging, money transfers, video visitation, and tablet-based services to incarcerated people and their families. JPay is owned by Securus Technologies.",
           "JPay serves facilities in over 35 states including Florida, Georgia, Michigan, Colorado, Indiana, and many others. The services available through JPay vary by state and facility. Not every JPay facility offers every service - messaging may be available where video visits are not, and vice versa.",
-          "JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. If you are unsure whether your loved one facility uses JPay, search our facility directory or visit jpay.com and search by the inmate name and state.",
+          "JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. If you are unsure whether your loved one's facility uses JPay, search our facility directory or visit jpay.com and search by the inmate name and state.",
         ],
       },
       {
@@ -1204,10 +1204,37 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "How to Schedule a JPay Video Visit",
         body: [
-          "Log in to your JPay account and go to the video section if it is available for your loved one facility. Not all JPay facilities offer video visitation. If the video option does not appear on your dashboard, the facility does not currently offer this service.",
+          "Log in to your JPay account and go to the video section if it is available for your loved one's facility. Not all JPay facilities offer video visitation. If the video option does not appear on your dashboard, the facility does not currently offer this service.",
           "Select an available date and time from the scheduling calendar. Review the cost and enter your payment information. You will receive a confirmation of the scheduled visit.",
           "At the scheduled time, log in to JPay on your computer or through the JPay app on your smartphone or tablet. Make sure your camera and microphone are working before the visit begins. Join the call at the scheduled time and wait for the inmate to connect from the facility terminal.",
           "JPay video visits typically cost between $7.50 and $12.99 per session depending on the facility. Sessions are usually 20 to 30 minutes long. All video visits are recorded and monitored by facility staff.",
+        ],
+      },
+      {
+        heading: "Common JPay Problems and How to Fix Them",
+        body: [
+          "JPay has a 1.8 star rating from hundreds of consumer reviews, with the most common complaints involving stamps not appearing after purchase, money transfers not credited, video visits freezing or dropping, and difficulty reaching customer service. Knowing these issues in advance helps you avoid them and resolve them faster when they occur.",
+          "If you purchased stamps and they are not showing in your account, do not purchase again immediately. Wait 30 minutes and refresh your account. If stamps still do not appear, contact JPay customer service with your transaction confirmation number and the exact time of purchase. Keep all purchase receipts in your email until you confirm the stamps are in your account.",
+          "If you sent money and it was not credited to the inmate account, check whether the funds are being held in a pending or review status. Money held in a hold account is not lost but requires contacting JPay to release it. If JPay customer service does not resolve the issue, contact your bank to dispute the transaction and provide your JPay confirmation number as documentation.",
+          "JPay video visits are consistently reported as the most frustrating service. Common problems include the visit freezing, dropping connection, audio cutting out, and the platform redirecting users to download plugins repeatedly. Before every scheduled visit, test your camera and microphone, use a wired internet connection if possible, and close all other applications. If a visit fails due to a JPay technical issue rather than your connection, contact customer service within 24 hours to request a credit.",
+        ],
+      },
+      {
+        heading: "JPay Stamp Costs and How to Save Money",
+        body: [
+          "Stamp prices vary by state but families consistently report that the cost adds up quickly when messaging regularly. A standard text message requires one stamp costing between $0.33 and $0.47 depending on the state. Photo attachments require an additional stamp per photo. Video messages called VideoGrams cost four stamps each for a short clip, which families report feels excessive for the quality delivered.",
+          "To reduce stamp costs, buy stamps in larger bundles. The cost per stamp decreases as the bundle size increases. If you are messaging regularly, purchasing the largest available bundle gives you the lowest per-message cost. Stamps do not expire so there is no downside to buying in bulk.",
+          "Some states have negotiated lower stamp prices through their DOC contracts with JPay. California, New York, and other high-population states may have different pricing than smaller states. Check the stamp purchase page in your JPay account to see the exact price per stamp for your loved one's specific facility rather than relying on general estimates.",
+          "JPay charges a cash advance fee when families use a credit card to purchase stamps or send money. This is because JPay transactions are classified as cash advances by some credit card companies, triggering additional fees that JPay does not always clearly disclose. Using a debit card instead of a credit card avoids this cash advance classification and the associated fees.",
+        ],
+      },
+      {
+        heading: "What To Do When JPay Customer Service Does Not Help",
+        body: [
+          "JPay customer service is frequently cited as a major frustration. The 24-hour phone line often routes to automated systems with no option to reach a live person. When you cannot get resolution through standard customer service channels, there are escalation options available.",
+          "File a complaint with the Better Business Bureau at bbb.org. JPay is registered with the BBB and complaints filed there receive a formal response. The BBB complaint process has resulted in resolutions for many families who could not get answers through JPay directly.",
+          "Contact your state Department of Corrections. The DOC contracts with JPay and has leverage over the provider that individual families do not have. A complaint filed with the DOC communications office about ongoing JPay failures may result in faster resolution than a direct complaint to JPay.",
+          "If JPay took money from your account and did not deliver the service, you can dispute the charge with your bank or credit card company. Provide your JPay confirmation number, the date of the transaction, and documentation that the service was not delivered. Banks generally side with consumers in clear cases of non-delivery.",
         ],
       },
     ],
@@ -1221,6 +1248,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Money sent through JPay goes to the inmate trust account and can be used for commissary, stamps, and phone calls.",
       "Video visits are available at select facilities and typically cost $7.50 to $12.99 per session.",
       "Download the free JPay app for iOS or Android to manage all services from your smartphone.",
+      "Buy stamps in larger bundles for a lower per-stamp cost. Stamps do not expire so bulk purchasing saves money over time.",
+      "Use a debit card instead of a credit card to avoid cash advance fees that some credit card companies charge on JPay transactions.",
+      "If a JPay video visit fails due to a technical issue on the platform side, contact customer service within 24 hours to request a credit.",
+      "If JPay customer service does not resolve your issue, file a complaint with the Better Business Bureau or your state Department of Corrections.",
+      "Keep all transaction confirmation numbers until you confirm stamps and money transfers have been received.",
     ],
 
     faq: [
@@ -1230,7 +1262,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "How much do JPay stamps cost?",
-        answer: "Stamp prices vary by state and bundle size. Stamps typically cost between $0.09 and $0.47 each. Larger bundles cost less per stamp. Check the buy stamps section of your JPay account to see current pricing for your loved one facility.",
+        answer: "Stamp prices vary by state and bundle size. Stamps typically cost between $0.09 and $0.47 each. Larger bundles cost less per stamp. Check the buy stamps section of your JPay account to see current pricing for your loved one's facility.",
       },
       {
         question: "How long does it take for a JPay message to arrive?",
@@ -1251,6 +1283,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Is there a JPay mobile app?",
         answer: "Yes. JPay has a free mobile app available for iOS and Android. Download the JPay app from your app store and log in with your account details to access messaging, money transfers, and video visits from your smartphone.",
+      },
+      {
+        question: "Why did my JPay stamps disappear after purchase?",
+        answer: "Wait 30 minutes and refresh your account before assuming the stamps are lost. If they still do not appear, contact JPay customer service with your transaction confirmation number and purchase time. Do not purchase stamps again until the issue is resolved, as you may end up paying twice for the same stamps.",
+      },
+      {
+        question: "Can I get a refund from JPay for a failed video visit?",
+        answer: "Yes, if the video visit failed due to a JPay technical issue rather than your own connection or equipment. Contact JPay customer service within 24 hours of the failed visit with your confirmation number and a description of what happened. JPay has issued credits and refunds for documented technical failures. If customer service does not help, file a complaint with the Better Business Bureau.",
+      },
+      {
+        question: "Why is JPay charging me a cash advance fee?",
+        answer: "Some credit card companies classify JPay transactions as cash advances rather than standard purchases, triggering additional fees that JPay does not always disclose upfront. Using a debit card instead of a credit card avoids this classification. If you were charged a cash advance fee you were not informed about, contact your credit card company and JPay to dispute the unexpected charge.",
+      },
+      {
+        question: "What do I do if JPay took my money but the inmate never received it?",
+        answer: "Check your account for any pending or hold status on the transfer. Contact JPay customer service with your confirmation number. If the funds are in a hold account they may be released after verification. If JPay does not resolve the issue, contact your bank to dispute the transaction and provide your JPay confirmation as documentation. You can also file a complaint with your state Department of Corrections.",
+      },
+      {
+        question: "How do I contact a real person at JPay customer service?",
+        answer: "Call the JPay customer service number listed on jpay.com. If the automated system does not connect you to a live agent, try calling at off-peak hours such as early morning. You can also submit a written support ticket through your JPay account. For unresolved issues, file a formal complaint with the Better Business Bureau at bbb.org or contact your state Department of Corrections.",
       },
     ],
 

@@ -1688,8 +1688,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Why Are Prison Phone Calls So Expensive: FCC Rates, Commissions and Reform Explained",
-    seoDescription: "Learn why prison phone calls cost so much - how facility commissions drive up prices, what the FCC has done to limit rates, which states have the cheapest rates, and how families can reduce costs.",
+    seoTitle: "Why Prison Phone Calls Are So Expensive: New FCC Rate Caps Explained",
+    seoDescription: "Learn why prison phone calls cost so much and how new FCC rules cut rates to $0.06 per minute for prisons. Find out current rates, which states offer free calls, and how to reduce your costs.",
 
     intro: [
       "Prison phone calls are among the most expensive telephone services in the United States. A call that would cost a few cents per minute on a standard phone plan can cost several times more when placed from a correctional facility. For families who depend on regular calls to stay connected with an incarcerated loved one, these costs add up quickly and place a significant financial burden on people who are often already struggling.",
@@ -1753,6 +1753,48 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "The reform effort is ongoing. Families who want to support this work can contact their elected representatives, support advocacy organizations working on this issue, and share their personal experiences with the cost of staying connected.",
         ],
       },
+      {
+        heading: "New FCC Rate Caps That Changed Everything",
+        body: [
+          "In July 2024, the Federal Communications Commission approved landmark rules that dramatically cut inmate phone call rates across the United States. Before these rules, a single 15-minute phone call could cost a family as much as $11.35 at a large jail. Under the new FCC caps, that same call costs just $0.90. The FCC estimated that families, inmates, and friends will save approximately $386 million every year as a result of these changes.",
+          "The new rate caps set a maximum of $0.06 per minute for calls at prisons and large jails, $0.07 per minute for medium-sized jails, $0.09 per minute for small jails, and $0.12 per minute for very small jails. These are the maximum rates providers are allowed to charge for interstate calls, calls made between two different states. In-state call rates are also now regulated under the expanded FCC authority.",
+          "Video call rates were capped for the first time under the 2024 rules. Before this, video calls were completely unregulated and often priced even higher than voice calls. The new caps set video call rates between $0.11 and $0.25 per minute depending on the size of the facility. This change affects millions of families who rely on video visits as an alternative to expensive phone calls.",
+          "The FCC rules also eliminated many of the additional fees that providers had historically used to increase revenue beyond the per-minute rate. Connection fees, account setup fees, and certain other charges are now prohibited for interstate calls. This means the rate you see per minute is much closer to the actual total cost of the call than it was before the rule changes.",
+        ],
+      },
+      {
+        heading: "Why Some Families Are Still Paying High Rates",
+        body: [
+          "Despite the new FCC rules, some families are still experiencing high costs. There are several reasons this can happen. First, some providers and correctional facilities sought waivers or delays in implementing the new rules, arguing that the rate reductions created financial hardship. The FCC granted some temporary waivers, meaning the new rates may not have taken effect immediately at every facility.",
+          "Second, the FCC rules apply to interstate calls, calls between two states, more straightforwardly than to in-state calls. The regulatory process for in-state calls involved additional legal steps and timelines. Some families calling a loved one within the same state may have experienced slower rate reductions depending on their state and facility.",
+          "Third, some providers use account fees, payment processing fees, and minimum balance requirements that add to the effective cost even when per-minute rates are reduced. Always read the full fee schedule for your specific provider and facility before adding funds to your account. If you believe you are being charged rates higher than the FCC caps, you can file a complaint directly with the FCC at fcc.gov.",
+        ],
+      },
+      {
+        heading: "States and Counties Offering Free or Reduced Cost Calls",
+        body: [
+          "A growing number of states and counties have gone beyond the FCC minimums and now offer free phone calls to incarcerated people and their families. New York City was one of the first major jurisdictions to eliminate charges for calls from city jails. San Francisco, Los Angeles, and several other counties followed with their own free call programs.",
+          "At the state level, several states have passed legislation requiring free or significantly reduced cost calls at state-operated facilities. These programs typically work by having the state government absorb the cost of calls rather than passing it on to families. Advocates argue this model reduces recidivism by keeping family connections stronger and ultimately saves money for the state through reduced reincarceration costs.",
+          "To find out whether your loved one's facility offers free or reduced cost calls, contact the facility directly or check the state Department of Corrections website. Free call programs are still relatively uncommon at private facilities and smaller county jails, where the financial incentives to maintain paid call systems remain strong.",
+        ],
+      },
+      {
+        heading: "How to File a Complaint If You Are Overcharged",
+        body: [
+          "If you believe a prison phone provider is charging you rates above the FCC caps, you have the right to file a complaint. The FCC accepts complaints from consumers at fcc.gov/consumers/guides/filing-informal-complaint. You can also contact your state public utilities commission, which may have additional authority over in-state call rates.",
+          "When filing a complaint, document the specific charges you were billed, the facility where your loved one is housed, the provider name, and the dates of the calls in question. The more specific your documentation, the more effectively regulators can investigate the issue.",
+          "Prison advocacy organizations such as the Prison Policy Initiative and Worth Rises also track provider compliance with FCC rules and can provide guidance on filing complaints. These organizations have been at the forefront of prison phone rate reform and can connect families with additional resources if standard complaint processes do not resolve the issue.",
+        ],
+      },
+      {
+        heading: "Practical Tips to Keep Your Phone Costs as Low as Possible",
+        body: [
+          "Even with improved FCC regulations, the cost of prison phone calls can add up significantly for families who receive calls regularly. Using a prepaid account through the facility phone provider instead of accepting collect calls is the single most effective way to reduce your per-minute cost. Prepaid rates are consistently lower than collect call rates at every provider.",
+          "When adding funds to your account, deposit larger amounts less frequently. Most providers charge a flat transaction fee each time you add money, regardless of the amount deposited. Adding $50 once costs the same flat fee as adding $10 five times, but you pay the fee only once with the larger deposit.",
+          "Compare the cost of phone calls versus video visits at your specific facility. In some cases video visits are now cheaper per minute than voice calls under the new FCC caps. If your facility offers both options, calculate the actual cost per minute for each before deciding which to use for regular contact.",
+          "Some providers offer automatic refill options that trigger when your balance drops below a set amount. This ensures you never miss a call because your balance ran out unexpectedly. Set the minimum threshold high enough that you have a buffer even if the inmate calls more frequently than expected.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -1763,6 +1805,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "A small number of states and counties have eliminated phone call charges entirely. This number is growing as advocacy efforts continue.",
       "Add money in larger amounts to reduce the impact of per-transaction fees.",
       "Video visits are sometimes cheaper than phone calls and worth comparing at your specific facility.",
+      "New FCC rules capped prison call rates at $0.06 per minute for prisons and large jails, reducing a 15-minute call from $11.35 to $0.90.",
+      "Video call rates were capped for the first time at $0.11 to $0.25 per minute depending on facility size.",
+      "Families save an estimated $386 million annually under the new FCC rate caps.",
+      "A growing number of states and counties now offer free phone calls from correctional facilities.",
+      "If you are being overcharged, file a complaint at fcc.gov or contact your state public utilities commission.",
     ],
 
     faq: [
@@ -1787,8 +1834,24 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         answer: "Additional fees can include payment processing fees when adding money to your account, account maintenance fees, and inactivity fees if the account is not used for a period of time. The FCC has eliminated connection fees and certain other add-on charges for interstate calls, but fees for in-state calls vary by state.",
       },
       {
-        question: "Can I choose a cheaper phone provider for my loved one facility?",
+        question: "Can I choose a cheaper phone provider for my loved one's facility?",
         answer: "No. Each facility has an exclusive contract with one phone provider. You must use whatever provider holds that contract. You cannot switch providers or negotiate a better rate. The only way rates change is when the facility contract expires and is renegotiated, or when regulators impose new rate caps.",
+      },
+      {
+        question: "What are the new FCC prison phone call rate caps?",
+        answer: "The FCC capped interstate prison phone call rates at $0.06 per minute for prisons and large jails, $0.07 for medium jails, $0.09 for small jails, and $0.12 for very small jails. Video calls were capped at $0.11 to $0.25 per minute depending on facility size. These rules took effect in 2024 and 2025.",
+      },
+      {
+        question: "How much does a 15-minute prison phone call cost now?",
+        answer: "Under the new FCC rules, a 15-minute call from a large prison or jail costs approximately $0.90. Before the rule change, the same call could cost as much as $11.35. The exact cost depends on the facility size and whether it is an in-state or interstate call.",
+      },
+      {
+        question: "Are prison phone calls free anywhere in the United States?",
+        answer: "Yes. A growing number of cities and counties now offer free phone calls from local jails. New York City, San Francisco, Los Angeles, and other jurisdictions have eliminated charges for calls from their facilities. Some states have also passed legislation requiring free or reduced-cost calls at state prisons. Contact the specific facility to find out if free calls are available.",
+      },
+      {
+        question: "What should I do if I am being charged more than the FCC caps?",
+        answer: "Document the charges you were billed including the date, amount, provider name, and facility. File a complaint at fcc.gov or contact your state public utilities commission. Prison advocacy organizations such as the Prison Policy Initiative can also help you navigate the complaint process.",
       },
     ],
 

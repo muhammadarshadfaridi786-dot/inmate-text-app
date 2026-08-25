@@ -874,6 +874,40 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Always use the exact inmate name and ID number when sending funds. Errors in the name or ID can delay or reject the transfer. Keep your transaction receipts until the funds are confirmed received.",
         ],
       },
+      {
+        heading: "Important: Prison Phone Rate Changes in 2025",
+        body: [
+          "The cost of prison phone and video calls changed significantly in 2025. The FCC had capped interstate prison phone call rates at $0.06 per minute in its 2024 ruling, but the Trump administration raised that cap to $0.11 per minute in 2025, representing an 83 percent increase from the 2024 rates. Families who had adjusted their budgets based on the 2024 rates need to recalculate their expected monthly costs under the new higher cap.",
+          "Video call rates were also affected by the 2025 changes. The 2024 FCC order had capped video call rates at between $0.11 and $0.25 per minute. The 2025 changes under the new administration reversed much of the 2024 reform framework, moving rates back upward. Prison advocacy organizations including the Prison Policy Initiative have been tracking these changes and filing opposition.",
+          "Despite the federal rate increases, some states and counties continue to offer free or reduced-cost calls independently of federal regulation. New York City, San Francisco, Massachusetts, and other jurisdictions that eliminated charges at the local level continue to do so regardless of federal rate caps. Contact the specific facility to find out whether any free call programs apply to your situation.",
+        ],
+      },
+      {
+        heading: "First Steps When a Loved One Is First Incarcerated",
+        body: [
+          "The first days and weeks after someone is incarcerated are the most confusing for families. Information is hard to get, the person may be moved between facilities without notice, and setting up communication accounts takes time. Having a clear checklist of what to do first reduces the chaos significantly.",
+          "Step one is finding out exactly where they are. If they were just arrested, call the arresting jurisdiction or county jail directly. If they have been sentenced and transferred to a state or federal facility, use the state DOC inmate locator or the BOP locator at bop.gov. Do not try to set up any communication accounts until you have confirmed their current location and the facility name.",
+          "Step two is getting their inmate ID number. This is different from any court case number or booking number. You need the facility-assigned inmate ID for every communication account, money transfer, and visit application. Call the facility records office or ask your loved one to provide it in their first communication to you.",
+          "Step three is finding out which communication providers serve that facility. Search our facility directory by facility name to see which messaging, phone, video, and money transfer providers are available. This tells you exactly which accounts to create and prevents wasting time and money on the wrong platforms.",
+          "Step four is setting up accounts in order of priority. Most families prioritize getting on the phone call list first because calls can happen quickly once you register your number. Messaging accounts take longer to activate because the inmate must initiate the contact in most systems. Visit approval takes the longest, typically two to six weeks, so submit the visitor application as soon as possible.",
+        ],
+      },
+      {
+        heading: "How Communication Affects Reentry and Outcomes",
+        body: [
+          "Research consistently shows that maintaining family communication during incarceration improves outcomes. Studies from the Office of Justice Programs and the Bureau of Prisons have found that strong family ties during imprisonment are associated with better behavior inside the facility, lower rates of reincarceration after release, and more successful reintegration into the community.",
+          "Around 60 percent of incarcerated parents maintain phone contact with their families and approximately 70 percent maintain contact through letters. These numbers decline at facilities where costs are prohibitive. The Prison Policy Initiative found that high phone and messaging costs directly reduce contact frequency, with families cutting back on communication when fees exceed what they can afford.",
+          "The BOP recognizes the importance of family contact and states that electronic messaging helps inmates stay connected to family, linking family ties to successful reentry. This acknowledgment from the federal prison system itself reflects decades of research showing that the cost of cutting family ties extends well beyond the incarcerated individual to communities and taxpayers who ultimately bear the cost of higher recidivism.",
+        ],
+      },
+      {
+        heading: "Accessibility Services for Families with Disabilities",
+        body: [
+          "Families with hearing, speech, or communication disabilities have specific rights regarding inmate communication services. Starting January 1, 2024, the FCC required that facilities with an average daily population of 50 or more incarcerated people and available broadband internet access provide Internet Protocol Captioned Telephone Service and Internet Protocol Relay Service through their contracted providers.",
+          "If you are deaf or hard of hearing and need captioning or relay services to communicate with an incarcerated loved one, contact the facility directly to ask which accessibility services are available through their communication provider. You can also file a complaint with the FCC if a facility required to provide these services is not doing so.",
+          "Some families have difficulty with the online account setup process due to technology access or literacy challenges. Most providers offer phone-based account setup as an alternative to online registration. Call the provider customer service line and ask to set up your account over the phone. Some facilities also have staff who can assist family members through the account setup process on site.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -885,6 +919,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Physical mail is widely accepted but has strict rules about paper type, envelope size, and prohibited items.",
       "Money transfers go to an inmate trust account and can be used for commissary, messaging, and phone calls.",
       "Start by identifying the facility your loved one is in, then search the facility directory to find which providers are available.",
+      "Prison phone call rates increased in 2025 under the Trump administration from $0.06 to $0.11 per minute, an 83 percent increase from the 2024 FCC caps.",
+      "First steps after incarceration: find the facility, get the inmate ID number, find which providers serve the facility, then set up accounts in order of priority.",
+      "Visit approval takes two to six weeks. Submit the visitor application as early as possible even before other accounts are set up.",
+      "Research shows strong family communication during incarceration reduces recidivism and improves reentry outcomes. Staying connected matters beyond the immediate relationship.",
+      "Families with disabilities have FCC-protected rights to captioning and relay services at facilities with 50 or more incarcerated people and available broadband.",
     ],
 
     faq: [
@@ -911,6 +950,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Can all incarcerated people receive digital messages?",
         answer: "No. Not all facilities offer digital messaging. Federal prisons almost all use CorrLinks. State prisons vary by provider. Some smaller county jails only support phone calls and physical mail. Use the facility directory to check what is available at your specific facility.",
+      },
+      {
+        question: "Did prison phone call rates go up or down in 2025?",
+        answer: "Prison phone call rates increased in 2025. The FCC had capped interstate rates at $0.06 per minute in 2024, but the Trump administration raised that cap to $0.11 per minute in 2025, an 83 percent increase. Some states and counties with local free call programs continue to offer free calls regardless of the federal rate changes.",
+      },
+      {
+        question: "What should I do first when a loved one is newly incarcerated?",
+        answer: "Start by confirming the current facility and getting the facility-assigned inmate ID number. Then search the facility directory to find which communication providers serve that location. Set up phone accounts first since calls can begin quickly. Submit the visitor application immediately since approval takes two to six weeks. Messaging accounts typically require the inmate to initiate contact, so the account can be created but may not activate immediately.",
+      },
+      {
+        question: "Does staying in contact actually help someone who is incarcerated?",
+        answer: "Yes. Research from the Office of Justice Programs and the Bureau of Prisons consistently shows that maintaining family contact during incarceration is associated with better behavior inside the facility, lower rates of reincarceration after release, and more successful reintegration. The BOP itself acknowledges the link between family ties and successful reentry outcomes.",
+      },
+      {
+        question: "Are there free communication options for families who cannot afford the fees?",
+        answer: "A growing number of states and counties offer free phone calls from their facilities. New York City, San Francisco, Massachusetts, and other jurisdictions have eliminated call charges. Some advocacy organizations provide communication support for low-income families. Contact the facility and your state Department of Corrections to ask whether any free or reduced-cost programs apply to your situation.",
       },
     ],
 

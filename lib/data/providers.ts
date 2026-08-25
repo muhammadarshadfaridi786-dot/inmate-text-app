@@ -288,7 +288,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "jpay",
     initial: "J",
     color: "bg-blue-600",
-    tagline: "Messaging, photos, and money transfer for state inmates",
+    tagline: "JPay - Messaging, Photos, Video Visits and Money Transfer for State Prison Families",
     services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 35,
     facilitiesCount: 1000,
@@ -296,18 +296,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "JPay provides messaging, photo sharing, video visitation, and money transfer services at 1,000+ state correctional facilities across 35 states. Create a free account to get started.",
+      "JPay is the most widely used inmate communication platform in the United States, serving over 1,000 state prison facilities across 35+ states. Families use JPay for electronic messaging, photo sharing, video visitation, and money transfers. Creating an account is free.",
 
     website: "https://www.jpay.com",
     iosUrl: "https://apps.apple.com/us/app/jpay/id388308268",
     androidUrl: "https://play.google.com/store/apps/details?id=com.jpay.android",
 
     overview: [
-      "JPay is one of the most widely used inmate communication platforms in the United States, serving more than 35 states and over 1,000 correctional facilities. Originally founded in 2000, JPay pioneered electronic messaging for incarcerated individuals and has since expanded into a full-service platform covering messaging, photo sharing, video visitation, phone services, and money transfers. The company operates as a subsidiary of Aventiv Technologies, which also includes Securus Technologies, making JPay part of one of the largest correctional technology companies in the country. For families with a loved one in a state prison system, JPay is often the first provider they encounter.",
+      "JPay is owned by Aventiv Technologies and is the most widely deployed inmate communication platform for state prisons in the United States, serving over 35 states and more than 1,000 correctional facilities. If your loved one is in a state prison, JPay is the most likely platform you will need to use for messaging, money transfers, and video visits.",
 
-      "The platform works around a stamp-based system for messaging. Families purchase JPay stamps, which function like digital currency for sending electronic messages. One stamp typically covers a single message of standard length, and responses from the inmate use their own stamp allotment. Photos can also be sent through JPay using a per-photo purchase model. The JPay app — available on iOS and Android — makes it straightforward to compose messages, attach photos, and track the status of recent communications. Money transfers for commissary purposes are processed directly through the platform and typically credited within one to two business days.",
+      "JPay operates through a virtual stamp system. You purchase stamps in advance and use them to send messages and photo attachments to your loved one. Each standard text message requires one stamp costing between $0.33 and $0.47 depending on the state. The JPay app is available for free on iOS and Android and is one of the better-designed apps in this category.",
 
-      "JPay is primarily a state prison platform. It is not used at federal Bureau of Prisons facilities, where CorrLinks is the mandatory messaging system. It is also not universally available at county jails, where providers like GettingOut or Securus typically hold county-level contracts. Confirming that JPay serves the specific facility where your loved one is housed is the essential first step. The JPay website includes a facility search tool that allows families to verify coverage before creating an account or purchasing any stamps or services.",
+      "JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. If you are unsure whether your loved one is in a federal or state facility, search our facility directory to find the correct provider for their specific location.",
     ],
 
     serviceDetails: {
@@ -770,7 +770,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "textbehind",
     initial: "T",
     color: "bg-orange-600",
-    tagline: "Simple messaging and photo delivery for incarcerated loved ones",
+    tagline: "TextBehind - Print and Deliver Letters and Photos to Inmates as Physical Mail",
     services: { messaging: true, video: false, photos: true, phone: false, moneyTransfer: false },
     statesCount: 25,
     facilitiesCount: 600,
@@ -778,18 +778,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "TextBehind offers simple electronic messaging and photo delivery at 600+ correctional facilities. No account required for basic features — send messages and photos directly from your phone.",
+      "TextBehind converts your digital messages and photos into physical printed mail delivered directly to inmates. TextBehind works at facilities that do not offer electronic messaging, making it a universal option for families who cannot reach their loved one through digital platforms.",
 
     website: "https://www.textbehind.com",
     iosUrl: "https://apps.apple.com/us/app/textbehind/id836022386",
     androidUrl: "https://play.google.com/store/apps/details?id=com.textbehind.android",
 
     overview: [
-      "TextBehind is a messaging and photo delivery service designed with simplicity as a core principle. The platform allows families to send electronic messages and photos to incarcerated individuals at more than 600 correctional facilities across 25 states. Unlike full-service providers that require account setup, funding, and navigation of multiple service options, TextBehind is designed to reduce friction — some features are available without creating an account at all, making it an accessible option for families who only need to send an occasional message or photo rather than maintain an ongoing multi-service communication setup.",
+      "TextBehind is a print-and-deliver service that allows families to type messages and upload photos online, and TextBehind prints and mails them to the inmate as physical letters and photos. This makes TextBehind useful at facilities that do not offer any electronic messaging system, as physical mail is accepted at nearly all correctional facilities.",
 
-      "Messages sent through TextBehind are converted to printed letters and delivered to the inmate through the facility's mail system at some locations, while others support digital delivery depending on the facility's capabilities. Photo delivery follows a similar model — photos are printed on photo paper and sent as physical mail, arriving within the normal mail processing timeline. This print-based delivery model means families do not need to worry about whether a facility has tablet or kiosk access for the inmate, as the final form is physical mail that any facility can process.",
+      "You type your message at textbehind.com, pay per page, and TextBehind handles printing, addressing, and mailing. The cost is approximately $0.49 per page. TextBehind maintains current mailing specifications for thousands of facilities and formats your content to meet facility rules automatically.",
 
-      "TextBehind does not offer phone calls, video visitation, or money transfers. It is a messaging and photo service only. For families who need a complete communication solution covering phone, video, and money, TextBehind works best as a supplement to another provider rather than as a standalone solution. For families who primarily want to send letters and photos and prefer the ease of a smartphone app over navigating traditional mail, TextBehind offers a streamlined alternative that many find more convenient than printing and mailing physical letters.",
+      "TextBehind is not an electronic messaging platform. Messages are not delivered digitally, they arrive as printed physical mail. Delivery takes several business days after submission. TextBehind is best used as a backup option when electronic messaging is not available at a facility, or when families want to send content that will be physically held by the inmate.",
     ],
 
     serviceDetails: {
@@ -887,7 +887,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "smartinmate",
     initial: "S",
     color: "bg-cyan-600",
-    tagline: "All-in-one messaging, photos, and video platform for families",
+    tagline: "SmartInmate - Tablet-Based Messaging and Entertainment for Incarcerated People",
     services: { messaging: true, video: true, photos: true, phone: false, moneyTransfer: true },
     statesCount: 20,
     facilitiesCount: 400,
@@ -895,18 +895,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "SmartInmate provides messaging, video visitation, photo sharing, and money transfers at 400+ facilities across 20 states. Known for its intuitive interface and responsive support.",
+      "SmartInmate provides tablet-based communication and entertainment services at correctional facilities. Families can send messages through the SmartInmate platform to inmates who have access to SmartInmate tablets inside the facility.",
 
     website: "https://www.smartinmate.com",
     iosUrl: "https://apps.apple.com/us/app/smart-inmate/id1191826649",
     androidUrl: "https://play.google.com/store/apps/details?id=com.smartinmate",
 
     overview: [
-      "SmartInmate is a full-featured inmate communication platform covering electronic messaging, video visitation, photo sharing, and money transfers at more than 400 correctional facilities across 20 states. The platform positions itself as a family-first service, with a clean interface and straightforward account management that aims to reduce the complexity that families often experience with larger legacy providers. SmartInmate is a newer entrant compared to established platforms like JPay or GTL, which means its coverage footprint is smaller but its user experience tends to be more modern.",
+      "SmartInmate is a tablet-based communication and entertainment platform that provides incarcerated people with access to messaging, educational content, and entertainment through secure tablets inside the facility. SmartInmate tablets are distributed to inmates at participating facilities under contract with the facility or state Department of Corrections.",
 
-      "The platform's messaging system delivers correspondence electronically to facility kiosks or tablets where available, with print delivery as a fallback at facilities without digital infrastructure. Video visitation is available through the SmartInmate app and web platform, with scheduling handled directly through the account interface. Photo sharing is supported with a per-photo pricing model and standard content review before delivery. Money transfers for commissary purposes are also available, making SmartInmate one of the more complete smaller-scale providers in terms of service breadth. Phone calling is the primary service not currently supported — for phone, families will need to use the facility's contracted phone provider.",
+      "Families send messages to SmartInmate users through the platform website or app. The inmate reads and replies through their facility tablet. SmartInmate tablets do not have open internet access. They connect to a secure internal network managed by the provider and approved by the facility.",
 
-      "SmartInmate is often recommended for families who have found the larger providers' interfaces cumbersome and are looking for a platform that prioritizes ease of use. Customer service responsiveness is frequently cited as a positive in user feedback. Coverage, however, is the main limitation — with 400 facilities across 20 states, SmartInmate serves a fraction of the facilities covered by JPay or GettingOut. Confirming SmartInmate's availability at the specific facility is the necessary first step before committing to the platform.",
+      "SmartInmate availability depends entirely on whether the specific facility has a SmartInmate contract. If the facility does not participate in the program, SmartInmate cannot be used regardless of whether the family creates an account. Search our facility directory to find out which tablet and messaging providers serve your loved one's facility.",
     ],
 
     serviceDetails: {
@@ -1008,7 +1008,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "pigeonly",
     initial: "P",
     color: "bg-rose-600",
-    tagline: "Letter writing, photo printing, and low-cost calling for families",
+    tagline: "Pigeonly - Photo Printing and Letter Delivery Service for Inmates at Any Facility",
     services: { messaging: true, video: false, photos: true, phone: true, moneyTransfer: false },
     statesCount: 50,
     facilitiesCount: 3000,
@@ -1016,18 +1016,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "Pigeonly helps families stay connected through letter writing, photo printing, and low-cost phone calls at 3,000+ facilities across all 50 states. Subscription model keeps costs predictable.",
+      "Pigeonly is a photo and letter delivery service that prints and mails your photos and messages directly to inmates as physical mail. Pigeonly works at nearly any facility that accepts mail, making it one of the most universally available inmate communication options.",
 
     website: "https://www.pigeonly.com",
     iosUrl: "https://apps.apple.com/us/app/pigeonly-inmate-mail-calling/id1077048131",
     androidUrl: "https://play.google.com/store/apps/details?id=com.pigeonly.android",
 
     overview: [
-      "Pigeonly is a family communication service that takes a distinct approach compared to most inmate communication providers. Rather than operating as a facility-contracted platform for digital messaging or video visits, Pigeonly positions itself as a subscription service focused on three core offerings: physical letter writing, photo printing and mailing, and low-cost phone calling. The company's mission centers on making prison communication more affordable and accessible for families across all income levels, with subscription pricing that replaces per-message or per-photo fees for letter and photo services.",
+      "Pigeonly is a print-and-deliver service that allows families to upload photos and letters online, and Pigeonly handles printing and mailing them directly to the inmate as physical mail. Because Pigeonly delivers as physical mail rather than electronic messages, it works at nearly any correctional facility that accepts mail, giving it broader reach than most electronic platforms.",
 
-      "The letter writing service allows families to compose messages through the Pigeonly app or website, which are then printed as physical letters and mailed to the inmate through the postal system. Because the final form is a physical letter, Pigeonly's service works at virtually any correctional facility in the country that accepts standard mail — which includes the vast majority of the 3,000+ facilities the company claims to support. Photo printing works similarly, with family-submitted digital photos printed on quality photo paper and mailed directly to the inmate. Pigeonly's subscription model includes a set number of letters and photos per month, making it especially cost-effective for families who maintain regular written correspondence.",
+      "Pigeonly is especially useful at facilities that do not offer electronic messaging, or when families want to send physical photos that the inmate can keep. You upload your photo through the Pigeonly website or app, and Pigeonly prints it to facility-compliant specifications and mails it to the correct address.",
 
-      "For phone services, Pigeonly operates as a low-cost calling intermediary — not as a direct facility-contracted provider. The platform helps families identify lower-cost phone options and, in some cases, provides calling plans that reduce per-minute rates compared to the facility's default contracted rates. This is a meaningful distinction: Pigeonly's phone service does not replace the facility's phone system but works alongside it. For families who find standard inmate calling rates prohibitive, Pigeonly's phone options can provide meaningful cost savings, though availability varies by state and facility. Pigeonly does not offer video visitation or money transfer services.",
+      "Pigeonly also offers a phone plan service that provides a local phone number for inmates to call, reducing long-distance charges. The service costs a monthly subscription fee. Pigeonly is not an electronic messaging platform. It does not provide real-time digital communication between families and inmates.",
     ],
 
     serviceDetails: {
@@ -1128,7 +1128,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "securus",
     initial: "S",
     color: "bg-indigo-700",
-    tagline: "Phone, video, and messaging for county jails and state prisons",
+    tagline: "Securus Technologies - Phone Calls, Video Visits and Messaging at 1,200+ County Jails and State Prisons",
     services: { messaging: true, video: true, photos: false, phone: true, moneyTransfer: true },
     statesCount: 45,
     facilitiesCount: 1200,
@@ -1136,18 +1136,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "Securus Technologies provides phone, video visitation, messaging, and money transfer services at 1,200+ county jails and state prisons across 45 states. Create a free account at securustech.net.",
+      "Securus Technologies serves over 1,200 correctional facilities across 45 states, primarily county jails and state prisons. Securus provides phone calls, video visitation, electronic messaging, and money transfers. The free Securus Mobile app is available for iOS and Android.",
 
     website: "https://www.securustech.net",
     iosUrl: "https://apps.apple.com/us/app/securus-mobile/id1090154482",
     androidUrl: "https://play.google.com/store/apps/details?id=com.securus.mobile",
 
     overview: [
-      "Securus Technologies is one of the two largest correctional communication companies in the United States, serving more than 1,200 facilities across 45 states. The company holds phone, video visitation, messaging, and money transfer contracts at a wide range of county jails and state prisons, making it the provider that millions of families interact with each year. Securus operates under Aventiv Technologies, the same parent company as JPay. However, Securus and JPay serve different facilities under separate contracts — if your loved one is at a Securus-contracted facility, you will need a Securus account, not a JPay account.",
+      "Securus Technologies is one of the largest inmate communication providers in the United States, serving over 1,200 correctional facilities across 45 states. Securus is especially common at county jails and local detention centers, though it also holds contracts at some state prison facilities. Securus is owned by Aventiv Technologies, the same parent company as JPay.",
 
-      "Families interact with Securus primarily through the Securus Mobile app or the securustech.net website. A single Securus account can cover phone calls, video visits, messaging, and commissary deposits at the same facility, which reduces the number of accounts families need to manage. Phone calls are inmate-initiated — the incarcerated individual calls your number from facility phones, and charges are drawn from your prepaid Securus account. Video visits are scheduled through your account in advance, require a device with a working camera, and are typically priced per minute or per session. Messaging, where available, is delivered electronically within the facility. Commissary deposits for trust accounts are also processed through Securus at most contracted facilities.",
+      "Securus provides phone calls through a prepaid AdvancePay account system. You fund an account in advance and the per-minute rate is deducted each time the inmate calls your registered phone number. You cannot call the inmate directly. All calls must be initiated by the inmate from a facility phone. Securus phone rates for interstate calls are regulated by the FCC.",
 
-      "Securus is most commonly found at county jails and state prisons in Texas, Arizona, Colorado, Hawaii, Washington, Illinois, and New York, among others. Unlike JPay, which focuses primarily on state prisons, Securus holds contracts across both county and state levels in many of the same states. If you are unsure which provider serves the facility where your loved one is held, the Securus website includes a facility search tool. Confirming the facility and its contract before creating an account and adding funds is the most important step for families new to the Securus platform.",
+      "Securus also offers video visitation and electronic messaging at facilities that have contracted for these services. The free Securus Mobile app for iOS and Android allows families to manage phone accounts, schedule video visits, and send messages from a smartphone. Check your account dashboard to see which services are available at your specific facility.",
     ],
 
     serviceDetails: {
@@ -1251,7 +1251,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "gtl",
     initial: "G",
     color: "bg-amber-600",
-    tagline: "State prison phone and video visits across 30+ states",
+    tagline: "GTL ViaPath Technologies - Phone Calls and Video Visits Through ConnectNetwork at 800+ Facilities",
     services: { messaging: false, video: true, photos: false, phone: true, moneyTransfer: true },
     statesCount: 30,
     facilitiesCount: 800,
@@ -1259,18 +1259,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "GTL (now ViaPath Technologies) provides phone calls, video visitation, and money transfers at 800+ state prisons and county jails. Families access GTL services through the GTL Connect app or telmate.com.",
+      "GTL, now part of ViaPath Technologies, operates ConnectNetwork and serves over 800 facilities across 30 states. GTL provides phone calls and video visitation at state prisons and county jails. Families access GTL services through the ConnectNetwork website and app.",
 
     website: "https://www.viapath.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
     androidUrl: "https://play.google.com/store/apps/details?id=com.gtl.connect",
 
     overview: [
-      "GTL, now operating under the ViaPath Technologies brand, is one of the most established correctional communication companies in the United States. At the state prison level, GTL holds phone and video contracts across more than 30 states, making it the provider families encounter for phone calls and video visits when a loved one is housed in a state correctional system. GTL is also the parent company of GettingOut — the county jail video and messaging platform — and ConnectNetwork, the consumer portal for federal and county communication. At state prisons, however, families interact with GTL directly through the GTL Connect app or telmate.com, which is a different experience from GettingOut or ConnectNetwork.",
+      "GTL, which stands for Global Tel Link, is now part of ViaPath Technologies and operates ConnectNetwork, the consumer platform families use to manage phone calls, video visits, and money transfers. When you create a ConnectNetwork account, you are accessing GTL infrastructure. GTL serves over 800 facilities across 30 states at state prisons and county jails.",
 
-      "At most state facilities served by GTL, the setup works as follows: JPay manages electronic messaging, photo sharing, and trust account deposits, while GTL handles phone calls and video visitation under a separate contract. This means families often need both a JPay account for messaging and a GTL account for phone and video. These accounts are independent — JPay credits cannot be used to fund GTL calls, and GTL account balances do not carry over to JPay. Understanding that these two accounts are both necessary and separate is one of the most common points of confusion for families at state facilities.",
+      "GTL also operates GettingOut through its Telmate subsidiary, which serves county jails with video visitation and messaging. Both ConnectNetwork and GettingOut are GTL services under the ViaPath Technologies umbrella. If your loved one is in a county jail, check GettingOut first. If they are in a state prison or federal facility, use ConnectNetwork.",
 
-      "GTL's phone system works through an AdvancePay account — families fund the account with a phone number, and the incarcerated individual calls that number directly from facility phones. Video visits are scheduled through the same GTL account. Money transfers for commissary purposes are handled through Access Corrections, which is a GTL-affiliated deposit platform. GTL serves state systems across Georgia, Indiana, Virginia, Louisiana, Alaska, Arkansas, Delaware, Idaho, Iowa, Maine, Maryland, California (many CDCR facilities), and others. Because GTL holds statewide contracts in many of these systems, a single GTL account works across all facilities within the same state system — a useful feature when inmates are transferred between facilities.",
+      "GTL handles phone calls and video visits at many federal Bureau of Prisons facilities through ConnectNetwork. However, electronic messaging at all federal facilities goes through CorrLinks only, regardless of which company handles phone services. You may need both a ConnectNetwork account and a CorrLinks account if your loved one is in a federal facility.",
     ],
 
     serviceDetails: {

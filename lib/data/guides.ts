@@ -2095,7 +2095,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         heading: "What the FCC Has Done to Regulate Prison Phone Rates",
         body: [
           "The Federal Communications Commission has regulatory authority over telephone services and has been working to address prison phone rates for many years. The process has been slow due to legal challenges from phone providers and limitations on the FCC authority over in-state calls.",
-          "For interstate calls - calls made between two different states - the FCC has established rate caps that limit how much providers can charge. The current rate caps limit charges to $0.21 per minute for calls from prisons and $0.13 per minute for calls from jails for interstate calls. The FCC also prohibited certain add-on fees for interstate calls.",
+          "For interstate calls, calls made between two different states, the FCC has established rate caps that limit how much providers can charge. Under current FCC rules in effect as of 2026, the rate caps limit charges to $0.11 per minute for calls from prisons and $0.13 per minute for calls from jails for interstate calls. These caps replaced the original 2024 reform, which had set the prison rate at $0.06 per minute before the FCC voted in October 2025 to raise it to $0.11 per minute. The FCC also prohibited certain add-on fees for interstate calls.",
           "For in-state calls - calls within the same state - the FCC authority was legally challenged for years. Providers argued that in-state call rates were outside federal jurisdiction and subject only to state regulation. This left in-state rates largely unregulated at the federal level for a long period, allowing them to remain much higher than interstate rates in many states.",
           "The FCC has continued to expand its regulations to address in-state rates and to extend its rules to cover video calling services, which had previously been unregulated and were often priced even higher than phone calls. The regulatory landscape continues to evolve as advocates push for broader rate caps and elimination of commissions entirely.",
         ],
@@ -2183,7 +2183,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
 
     takeaways: [
       "Prison phone calls are expensive because providers pay facilities a commission from call revenue, and those commissions are covered by charging families higher rates.",
-      "The FCC has capped interstate call rates at $0.21 per minute for prisons and $0.13 per minute for jails. In-state rates have historically been less regulated.",
+      "Under current FCC rules in effect as of 2026, interstate call rates are capped at $0.11 per minute for prisons and $0.13 per minute for jails, after the original 2024 cap of $0.06 was raised by the FCC in October 2025. In-state rates have historically been less regulated.",
       "Additional fees including connection fees, account fees, and payment processing fees can add significantly to the total cost beyond the per-minute rate.",
       "Use a prepaid account rather than collect calls to get the lowest available per-minute rate.",
       "A small number of states and counties have eliminated phone call charges entirely. This number is growing as advocacy efforts continue.",
@@ -2203,7 +2203,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "What is the maximum rate for a prison phone call?",
-        answer: "The FCC has capped interstate prison phone calls at $0.21 per minute for prisons and $0.13 per minute for jails. These caps apply to calls between states. In-state rates vary by state and are not always subject to the same federal caps, though FCC regulation has been expanding.",
+        answer: "Under current FCC rules in effect as of 2026, interstate prison phone calls are capped at $0.11 per minute for prisons and $0.13 per minute for jails. This followed the original 2024 cap of $0.06 per minute, which the FCC raised to $0.11 in October 2025. These caps apply to calls between states. In-state rates vary by state and are not always subject to the same federal caps, though FCC regulation has been expanding.",
       },
       {
         question: "Are there any states where prison phone calls are free?",

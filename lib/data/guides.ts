@@ -2964,6 +2964,31 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Keep records of all messages you send. If a message is blocked and you later need to appeal, having a copy of the original message makes the appeal process faster and easier.",
         ],
       },
+      {
+        heading: "Different Types of Blocks and What Each Means",
+        body: [
+          "Not all blocks work the same way and understanding the type of block helps you take the right action. On JPay, a red lock icon on a sent message means the message was flagged during automated content screening and is held for review or has been blocked by facility staff. This is different from an account-level block where you cannot send messages at all. A red lock on a specific message does not mean your entire account is suspended.",
+          "An inmate being blocked on JPay when you try to add funds is a different type of restriction. This typically indicates an administrative hold placed on the inmate account by the facility or by JPay due to a disciplinary issue, an unresolved payment dispute, a chargeback on a previous card transaction, or unusual activity flagged by JPay systems. The facility and JPay both have authority to place this type of hold independently of each other.",
+          "On JPay, an inmate can request to have a specific outside contact blocked from messaging them. When this happens, the contact remains visible on your account and messages appear to go through on your end, but they are never delivered to the inmate. If you suspect you have been blocked by the inmate rather than by the facility or platform, sending a VideoGram is reported by users to be a useful test because the platform will not allow a VideoGram to be sent to an inmate who is on messaging restriction.",
+          "On CorrLinks, a red lock or a message that bounces back typically indicates the inmate is no longer at a facility served by CorrLinks, they have been transferred, or their TRULINCS access has been suspended due to a disciplinary action at the federal level. CorrLinks restrictions at the federal level are more formal and are documented through the BOP administrative process.",
+        ],
+      },
+      {
+        heading: "Why Private Companies Can Block Communication Without Notice",
+        body: [
+          "Prison communication providers including JPay and Securus, both owned by Aventiv Technologies, have the authority to block communication between families and incarcerated people without providing a reason or advance notice. A 2025 investigation found that families are often permanently blocked from contact with a loved one without any notification of what rule was violated or what remedies are available.",
+          "Reaching a live person at JPay customer service requires navigating an automated phone system. Users report that the only reliable way to reach a live agent is to continue pressing buttons through the automated tree for several minutes. Generic email addresses and 1-800 numbers are provided for all issues including being blocked, but responses are often automated and resolution can take days or weeks.",
+          "The lack of transparency in blocking decisions is a recognized problem in the prison communication reform space. Advocates argue that families and incarcerated people should receive written notice with a specific reason when communication is blocked, along with clear instructions for appeal. Until such reforms are implemented, families are left to navigate a system that provides minimal information and limited recourse.",
+        ],
+      },
+      {
+        heading: "New Jersey Provider Transition and What It Means for Blocked Accounts",
+        body: [
+          "New Jersey completed a significant transition in 2025 and 2026, moving from JPay to ViaPath for both money transfers and messaging services. JPay payment services for New Jersey ended on August 1, 2026. Families who had funds in JPay accounts linked to New Jersey facilities needed to transition to ViaPath through ConnectNetwork before that date to avoid service interruption.",
+          "During provider transitions, some families reported that previously functioning accounts appeared blocked or inaccessible. In many cases this was not an actual block but rather a system issue during the transition period. If your account appears blocked during or after a facility provider transition, contact both the old provider and the new provider to confirm which platform is now active and whether your account needs to be recreated on the new system.",
+          "New Jersey also announced a 22 percent reduction in domestic phone call rates as of May 2025, bringing the rate to $0.034 per minute. This rate is significantly below the current federal FCC cap of $0.11 per minute, making New Jersey one of the most affordable states for prison phone calls. If you are a New Jersey family experiencing communication problems during the transition period, the NJDOC family information page at nj.gov/corrections is updated with current provider instructions.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -2974,6 +2999,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "To appeal a facility block, write a formal letter to the Warden or Communication Coordinator and submit it within the facility appeal deadline - usually ten business days.",
       "If your entire account is blocked, ask specifically whether the block is temporary or permanent and what the exact reason is.",
       "Prevent future blocks by reviewing content rules before sending, avoiding triggering topics, and never resending a blocked message without revising it first.",
+      "A red lock on a JPay message means that specific message was flagged, not that your entire account is blocked. These are different types of restrictions requiring different responses.",
+      "JPay and Securus can block communication without providing a reason or advance notice. Reaching a live customer service agent requires persistence through the automated phone system.",
+      "If you suspect an inmate has personally blocked you on JPay, try sending a VideoGram. The platform will not allow a VideoGram to be sent to an inmate on messaging restriction.",
+      "New Jersey transitioned from JPay to ViaPath in 2025 and 2026. JPay payment services for NJ ended August 1, 2026. NJ families must use ViaPath through ConnectNetwork.",
+      "During provider transitions, apparent blocks may be system issues rather than actual restrictions. Contact both old and new providers to confirm which platform is now active.",
     ],
 
     faq: [
@@ -3000,6 +3030,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What should I not include in messages to avoid them being blocked?",
         answer: "Avoid references to ongoing legal cases or investigations, other people inside the facility, facility operations or security, planned activities outside the rules, explicit content, gang-related language, coded language or abbreviations that could be misread, and anything that could be interpreted as planning for a rule violation.",
+      },
+      {
+        question: "What does a red lock on my JPay message mean?",
+        answer: "A red lock icon means that specific message was flagged during automated content screening and is either held for review or blocked by facility staff. This is different from an account-level block. The red lock applies to that message only. Review the message for any content that could trigger a filter, revise it, and send the revised version. Do not resend the original flagged message multiple times as this can escalate the issue.",
+      },
+      {
+        question: "JPay says the inmate is blocked when I try to add funds. What does this mean?",
+        answer: "This typically indicates an administrative hold on the inmate account placed by the facility or by JPay. Common causes include a disciplinary issue at the facility, an unresolved payment dispute, a chargeback on a previous card transaction, or unusual activity flagged by JPay systems. Contact both the facility and JPay customer service to find out which side placed the hold and what is required to remove it.",
+      },
+      {
+        question: "Can an inmate block me personally on JPay?",
+        answer: "Yes. An inmate can request that JPay block a specific outside contact from messaging them. When this happens, you remain on their contact list and messages appear to send on your end but are never delivered. If you suspect this, try sending a VideoGram. The platform will not allow a VideoGram to be sent to an inmate on messaging restriction, which can confirm whether a personal block is in place.",
+      },
+      {
+        question: "How do I reach a live person at JPay customer service?",
+        answer: "Call the JPay customer service number listed on jpay.com. Users report that reaching a live agent requires continuing through the automated phone system for several minutes rather than hanging up. Calling at off-peak hours such as early morning increases the chance of reaching an agent faster. You can also submit a written support ticket through your account, which creates a paper trail useful for escalation.",
+      },
+      {
+        question: "I am a New Jersey family and my JPay account seems blocked. What happened?",
+        answer: "New Jersey transitioned from JPay to ViaPath for all payment and messaging services in 2025 and 2026. JPay payment services for New Jersey ended on August 1, 2026. Your JPay account may no longer be active for New Jersey facilities. Visit nj.gov/corrections for current provider instructions and create a new account through ViaPath at connectnetwork.com to resume communication.",
       },
     ],
 

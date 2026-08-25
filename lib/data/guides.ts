@@ -611,6 +611,33 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Fifth, contact an attorney. If you still cannot locate someone after trying all search tools and calling facilities, a criminal defense attorney can often obtain custody information faster through official legal channels.",
         ],
       },
+      {
+        heading: "Why an Inmate May Not Appear in Search Results",
+        body: [
+          "The most common reason an inmate does not appear in a search tool is that they are in transit between facilities. When an inmate is being transferred, they are temporarily removed from the sending facility database but have not yet been processed into the receiving facility system. During this window, which can last from one day to several weeks, the inmate will not appear in any public database. This is intentional for security reasons: the Bureau of Prisons does not publicly disclose transit routes or schedules.",
+          "A name spelling error is the second most common reason a search returns no results. Try every possible spelling variation of the first and last name. If the person goes by a nickname, try their legal first name instead. If they have a hyphenated or compound last name, try searching with just one part of it. Middle names and name suffixes like Jr or III can also cause mismatches if entered incorrectly.",
+          "Jurisdiction mismatch is another frequent cause. A person convicted of a state crime will not appear in the federal BOP locator. A person in a county jail will not appear in the state DOC database until they are transferred and processed. Always confirm whether you are searching the correct system for the type of facility your loved one is in.",
+          "Some records are sealed or restricted due to protective custody, witness protection, or ongoing legal proceedings. In these cases, the record may exist but is not publicly visible. If you believe someone is in custody but cannot find them through any public database, contacting an attorney is the most effective next step as legal representatives have access to information not available to the general public.",
+        ],
+      },
+      {
+        heading: "Tips for Searching the BOP Federal Inmate Locator",
+        body: [
+          "The Bureau of Prisons inmate locator at bop.gov covers all federal inmates from 1982 to the present. If you have the inmate BOP Register Number, always search by that number first. A Register Number overrides name spelling issues, duplicate names, and recent transfers. The number is typically provided at sentencing and may appear on court documents.",
+          "If you are searching by name and get too many results, use the optional filters to narrow them down. You can filter by age range, race, and gender. For California federal inmates, look for the Western Region designation in the results. The facility codes can help identify location: USP indicates a high-security penitentiary, FCI indicates a medium or low-security correctional institution, FPC indicates a minimum-security camp.",
+          "The BOP locator updates overnight, so transfers and releases typically appear within 24 hours of the change being processed. If an inmate shows as IN TRANSIT, check back the following day. If they show as RELEASED or NOT IN BOP CUSTODY, they are no longer in federal custody but may still be under supervised release or parole conditions.",
+          "FCI Dublin in California closed in April 2024 following a federal investigation. If you are searching for someone who was previously at FCI Dublin, their record will still appear in the locator showing their last location or current transfer status. Contact the BOP directly for assistance locating inmates from closed facilities.",
+        ],
+      },
+      {
+        heading: "Finding an Inmate After a Transfer",
+        body: [
+          "Transfers between facilities are one of the most disruptive events for family communication. Inmates can be transferred for many reasons including security reclassification, medical needs, overcrowding, facility closures, or program placement. Families are rarely given advance notice of transfers.",
+          "After a transfer, the inmate should appear in the new facility database within 24 to 72 hours of arrival after intake processing is complete. During this window, communication through messaging and phone systems may also be interrupted because the inmate has not yet been registered in the new facility system. This disruption is temporary and normal.",
+          "If your loved one is transferred from a county jail to a state prison after sentencing, search the state Department of Corrections inmate locator rather than the county sheriff website. The state DOC locator will show their new facility once intake is complete. The inmate will also receive a new ID number at the state facility which you will need for all communication and money transfer accounts.",
+          "If you cannot locate someone after a transfer through online tools, call the last known facility and ask the records office for assistance. They can often confirm a transfer occurred and may be able to provide the destination facility name. You can then contact the destination facility directly to confirm the inmate has arrived and get the new ID number.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -620,6 +647,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "New inmates may not appear in search systems for 24 to 72 hours after booking or transfer.",
       "If a name search returns no results, try alternate spellings, the middle name, or confirm which system covers their custody type.",
       "Once you find the facility, search our facility directory to see which communication providers serve it and how to set up accounts.",
+      "Inmates in transit between facilities will not appear in any public database. This is normal and intentional. Check back daily until they appear at the new facility.",
+      "Always try multiple name spellings when a search returns no results. Legal names, nicknames, and hyphenated names all require different search approaches.",
+      "If you have the BOP Register Number, search by that first. It overrides name spelling issues and transfer gaps in search results.",
+      "After a transfer from county jail to state prison, the inmate receives a new ID number. You will need this new ID for all communication and money transfer accounts.",
+      "FCI Dublin closed in April 2024. Inmates previously at that facility have been transferred and their records show current transfer status in the BOP locator.",
     ],
 
     faq: [
@@ -646,6 +678,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "How do I find an inmate in a private prison?",
         answer: "Inmates housed in private prisons under contract with the BOP or a state DOC still appear in the contracting agency locator. Search the BOP locator for federal contract inmates or the state DOC locator for state contract inmates. The locator reflects who holds primary custody, not who operates the physical facility.",
+      },
+      {
+        question: "Why does my loved one not show up in the BOP inmate locator?",
+        answer: "The most common reasons are that they are in transit between facilities, there is a name spelling error in your search, or you are searching the wrong database for their custody type. Try searching with the BOP Register Number if you have it. If they are in transit, check back daily. If you still cannot find them after 72 hours, call the last known facility records office.",
+      },
+      {
+        question: "How long does it take for a transfer to show up in the database?",
+        answer: "Most transfers appear in the new facility database within 24 to 72 hours after the inmate arrives and completes intake processing. During this window the inmate will not appear in any public search tool. Messaging and phone access may also be temporarily unavailable during intake. Check the database daily and expect communication to resume within a few days of the transfer.",
+      },
+      {
+        question: "What does IN TRANSIT mean in the BOP locator?",
+        answer: "IN TRANSIT means the inmate has left one facility and is traveling to another. They are in the custody of the U.S. Marshals Service during transport. The BOP does not disclose transit routes or schedules for security reasons. Check the locator daily. The new facility will appear in the record once the inmate completes intake processing at their destination.",
+      },
+      {
+        question: "Can I find an inmate who was released before 1982 in the BOP locator?",
+        answer: "The BOP inmate locator only covers federal inmates from 1982 to the present. Records from before 1982 are held by the National Archives and Records Administration. Contact NARA directly for information on inmates who were released before 1982.",
+      },
+      {
+        question: "What is the BOP Register Number and where do I find it?",
+        answer: "The BOP Register Number is a unique identifier assigned to every federal inmate. It typically appears on court sentencing documents and any official BOP correspondence. If you do not have it, search by name first and use the age, race, and gender filters to narrow results. Once you find the correct record, the Register Number is displayed and can be used for all future searches.",
       },
     ],
 

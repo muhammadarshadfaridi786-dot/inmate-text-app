@@ -760,7 +760,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "What Phone Calls Cost",
         body: [
-          "Per-minute rates for prison calls have been significantly reduced under FCC regulations in recent years. Interstate calls are now capped at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.12 per minute for jails. Intrastate rates vary by state but most are in the $0.05 to $0.25 per-minute range.",
+          "Per-minute rates for prison calls have been significantly reduced under FCC regulations in recent years. Interstate calls are now capped at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current FCC rules. Intrastate rates vary by state but most are in the $0.05 to $0.25 per-minute range.",
           "Fees can add significantly to the base rate. Connection fees, account maintenance fees, and payment processing fees are common. A 15-minute call at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) costs $1.65 in base rate but may total $3 to $5 after fees depending on the provider.",
         ],
       },
@@ -771,7 +771,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Your phone number must be on the inmate's approved contact list before they can call you.",
       "Setting up a prepaid account gives you lower rates and better cost control than collect calls.",
       "All calls are recorded and monitored unless specifically exempted.",
-      "FCC-capped rates are $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.12 per minute for jails.",
+      "FCC-capped rates are $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current FCC rules.",
       "Extra fees from providers can double the actual cost of a call.",
     ],
 

@@ -1372,7 +1372,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "icsolutions",
     initial: "I",
     color: "bg-sky-700",
-    tagline: "Phone and video communication for county jails and detention centers",
+    tagline: "ICSolutions - Inmate Phone Calls and Communication Services at State and Federal Facilities",
     services: { messaging: true, video: true, photos: false, phone: true, moneyTransfer: true },
     statesCount: 15,
     facilitiesCount: 300,
@@ -1380,18 +1380,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "ICSolutions provides phone calls, video visitation, messaging, and money transfers at 300+ county jails and detention facilities across 15 states, with strong coverage in Texas, New Mexico, and Tennessee.",
+      "ICSolutions provides inmate phone call services at state and federal correctional facilities across the United States. Families set up a prepaid account to receive calls from incarcerated loved ones at facilities served by ICSolutions.",
 
     website: "https://www.icsolutions.com",
     iosUrl: "https://apps.apple.com/us/app/icsolutions/id899399526",
     androidUrl: "https://play.google.com/store/apps/details?id=com.icsolutions.app",
 
     overview: [
-      "ICSolutions is a correctional communication provider specializing in county jails, municipal detention centers, and regional correctional facilities. The company competes with Securus and GTL in regional markets and holds phone, video, messaging, and money transfer contracts at more than 300 facilities across 15 states. ICSolutions is particularly active in Texas, New Mexico, Tennessee, Nevada, and parts of the South and Southwest, where it serves as the primary communication provider at smaller county systems that the largest national providers do not always prioritize.",
+      "ICSolutions is an inmate telephone service provider operating at state prisons, federal facilities, and county jails across the United States. ICSolutions provides phone call services under contracts with individual facilities and state correctional systems. The company focuses primarily on phone call infrastructure rather than messaging or video services.",
 
-      "For families, ICSolutions works similarly to other facility-contracted providers. You create an account at icsolutions.com or through the ICSolutions mobile app, confirm that ICSolutions serves the specific facility, and set up a prepaid account. Phone calls are inmate-initiated, meaning the incarcerated individual calls your number from facility phones using the ICSolutions phone system. Video visits can be scheduled in advance through the same account. Messaging, where available under the facility's contract, is delivered electronically to facility kiosks or tablets. Money transfers for commissary accounts are also processed through the ICSolutions platform.",
+      "To receive calls through ICSolutions, families create a free prepaid account at icsolutions.com, register their phone number, and add funds. When the inmate calls your registered number from the facility phone, the call connects automatically and the per-minute charge is deducted from your balance. ICSolutions interstate call rates are regulated by the FCC.",
 
-      "ICSolutions positions itself as a customer-focused alternative to the largest providers. The platform has a simpler account structure than some of its larger competitors, and customer service is generally considered more accessible. The tradeoff is coverage: with 300 facilities across 15 states, ICSolutions serves a fraction of the total facilities reached by Securus or GTL. If the facility where your loved one is housed does not appear in the ICSolutions facility search, a different provider holds that contract. ICSolutions is worth checking first for families in Texas, New Mexico, and Tennessee, as its presence in those states is particularly concentrated.",
+      "ICSolutions availability depends on the specific facility contract. Not all facilities use ICSolutions. The provider varies by state and individual facility agreement. Search our facility directory to confirm whether your loved one's facility uses ICSolutions before creating an account. You can also call the facility directly and ask which phone provider they use.",
     ],
 
     serviceDetails: {
@@ -1492,7 +1492,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "access-corrections",
     initial: "A",
     color: "bg-green-700",
-    tagline: "Commissary deposits and money transfers for incarcerated individuals",
+    tagline: "Access Corrections - Inmate Money Deposits and Trust Account Funding at County Jails",
     services: { messaging: false, video: false, photos: false, phone: false, moneyTransfer: true },
     statesCount: 50,
     facilitiesCount: 1500,
@@ -1500,16 +1500,16 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "Access Corrections is the primary commissary deposit platform for GTL-contracted facilities, covering 1,500+ jails and prisons nationwide. Send money online, by phone, or in person at participating locations.",
+      "Access Corrections is a money transfer service that allows families to deposit funds directly to inmate trust accounts at county jails and correctional facilities. Access Corrections accepts credit cards, debit cards, and cash deposits at participating locations.",
 
     website: "https://www.accesscorrections.com",
 
     overview: [
-      "Access Corrections is a commissary deposit and money transfer platform operated in partnership with GTL (ViaPath Technologies). It serves as the primary channel through which families send funds to inmate trust accounts at facilities where GTL holds the communication contract. With coverage at more than 1,500 facilities across all 50 states, Access Corrections is one of the most widely used inmate money transfer platforms in the country — many families encounter it as part of the standard GTL facility setup without realizing it is a separate service from the phone and video platform.",
+      "Access Corrections is one of the most widely used inmate money transfer services in the United States, serving county jails and correctional facilities across many states. Families use Access Corrections to deposit money to an inmate trust account, which the inmate can then use for commissary purchases, phone calls, and other approved expenses.",
 
-      "Using Access Corrections is straightforward. Families visit accesscorrections.com, search for the facility, enter the inmate's ID or booking number, and submit a payment via debit card, credit card, or cash at a participating retail location such as a MoneyGram agent or Walmart. Funds are typically credited to the inmate's trust account within one to two business days, though processing times vary by facility. Access Corrections does not charge the inmate — all fees are paid by the sender and are assessed at the time of the transaction.",
+      "Access Corrections accepts multiple payment methods including credit cards, debit cards, and cash deposits at participating retail locations. Deposits can be made online at accesscorrections.com, through the mobile app, by phone, or in person at a kiosk. Transaction fees vary by facility, payment method, and deposit amount.",
 
-      "It is important to understand what Access Corrections does and does not cover. It is a money transfer platform only — it does not handle phone calls, video visits, messaging, or photo delivery. For phone calls at GTL facilities, families use the GTL Connect app or telmate.com to fund their calling account. For messaging at most state prisons, JPay is the correct platform. Access Corrections handles only the commissary deposit function. Because multiple accounts are often needed at a single facility — one for calling, one for commissary, and potentially one for messaging — keeping track of which platform does what is the most common challenge for families at GTL-contracted facilities.",
+      "Processing times for Access Corrections deposits vary by facility. Most online and kiosk deposits are credited to the inmate account within one to three business days. Always keep your transaction confirmation number until you confirm the funds have been received. Contact Access Corrections customer service with your confirmation number if funds do not arrive within the expected timeframe.",
     ],
 
     serviceDetails: {
@@ -1609,7 +1609,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "homewav",
     initial: "H",
     color: "bg-purple-600",
-    tagline: "Software-only video visitation and messaging for county jails",
+    tagline: "HomeWAV - Video Visitation and Messaging for County Jails Without Travel",
     services: { messaging: true, video: true, photos: true, phone: false, moneyTransfer: false },
     statesCount: 30,
     facilitiesCount: 350,
@@ -1617,18 +1617,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "HomeWAV provides video visitation, messaging, and photo sharing at 350+ county jails across 30 states. A software-only platform that requires no facility hardware installation.",
+      "HomeWAV provides video visitation and messaging services at county jails, allowing families to connect with incarcerated loved ones from home without traveling to the facility. HomeWAV sessions are scheduled through the website or mobile app.",
 
     website: "https://www.homewav.com",
     iosUrl: "https://apps.apple.com/us/app/homewav/id980905046",
     androidUrl: "https://play.google.com/store/apps/details?id=com.homewav.mobile",
 
     overview: [
-      "HomeWAV is a video visitation and messaging platform that takes a different approach from most facility communication providers. Rather than requiring facilities to install proprietary kiosks or hardware, HomeWAV is a software-only system — the facility uses standard tablets or computers already in use, and families connect through the HomeWAV app on their own devices. This lower barrier to adoption has allowed HomeWAV to sign contracts with smaller county jails and regional detention centers that might not have the budget or infrastructure for traditional video visitation hardware installations.",
+      "HomeWAV is a video visitation and messaging platform designed for county jails. HomeWAV allows families to schedule and join video visits from home using a smartphone, tablet, or computer, eliminating the need to travel to the facility for every visit. HomeWAV is used at county jails that have contracted for remote video visitation services.",
 
-      "For families, HomeWAV offers remote video visits, electronic messaging, and photo sharing through a single account. Video visits are conducted through the HomeWAV app on iOS or Android, or through a web browser, and are scheduled in advance through the platform. Messaging is delivered digitally to the inmate's device at the facility. Photo sharing allows families to send images that are reviewed for content compliance before being delivered. The platform does not handle phone calls or money transfers — for those services, families need to use the facility's contracted phone provider and separate commissary deposit platform.",
+      "To use HomeWAV, families create a free account at homewav.com or through the HomeWAV mobile app, find their loved one's facility, and schedule a video visit. Sessions are paid in advance and typically last 20 to 30 minutes. All visits are recorded and monitored by facility staff.",
 
-      "HomeWAV is particularly common in smaller county systems across the South, Midwest, and Mountain West. It serves approximately 350 facilities across 30 states. Because it is a newer company compared to Securus or GTL, and because it tends to serve smaller markets, HomeWAV is often the correct platform at facilities that families may not immediately recognize as HomeWAV-contracted. If a family is told their loved one's facility offers remote video visits but GTL, Securus, or GettingOut do not show that facility in their search results, HomeWAV is a strong next candidate to check.",
+      "HomeWAV also supports electronic messaging at some facilities. Families can send text messages and in some cases photo attachments through the HomeWAV platform. Message delivery times vary by facility review process. Check your HomeWAV account dashboard to see which services are available at your specific facility.",
     ],
 
     serviceDetails: {
@@ -1848,7 +1848,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "touchpay",
     initial: "T",
     color: "bg-lime-700",
-    tagline: "Kiosk and online commissary deposits for correctional facilities",
+    tagline: "TouchPay - Fast Inmate Trust Account Deposits Available Every Day of the Year",
     services: { messaging: false, video: false, photos: false, phone: false, moneyTransfer: true },
     statesCount: 50,
     facilitiesCount: 1200,
@@ -1856,16 +1856,16 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "TouchPay provides commissary deposits and inmate money transfers at 1,200+ correctional facilities nationwide through kiosk, online, and phone payment options. Part of the GTL (ViaPath) family.",
+      "TouchPay specializes in inmate trust account deposits at county jails and correctional facilities, offering 24-hour processing every day of the year. TouchPay accepts credit and debit card payments online and through kiosks at participating facilities.",
 
     website: "https://www.touchpaydirect.com",
 
     overview: [
-      "TouchPay is a commissary deposit and inmate money transfer platform that operates as part of the GTL (ViaPath Technologies) family of services. It is one of the most widespread inmate deposit solutions in the country, providing families with multiple ways to send funds to an incarcerated individual's trust account: online through the TouchPay website, by phone through an automated system, or in person at a TouchPay kiosk installed in facility lobbies. With coverage at more than 1,200 facilities across all 50 states, TouchPay and its sister platform Access Corrections together cover the majority of GTL-contracted facilities for commissary deposits.",
+      "TouchPay is an inmate money transfer service that specializes in fast deposits to inmate trust accounts at county jails and correctional facilities. TouchPay offers 24-hour processing every day of the year including holidays, which makes it one of the most reliable options when same-day or next-day funding is important.",
 
-      "TouchPay kiosks are a familiar feature at county jail lobbies across the United States. They accept cash and card payments, process deposits quickly, and provide a receipt. For families who prefer in-person deposits, the kiosk method eliminates the need to set up an online account or navigate a website. Online deposits through touchpaydirect.com work similarly to Access Corrections — families search for the facility, enter the inmate's ID, choose a payment method, and submit. Funds are typically credited within one to two business days, depending on the facility's account processing schedule.",
+      "Families can make deposits through the TouchPay website, the mobile app, by phone, or at TouchPay kiosks located in facility lobbies. Kiosk deposits are often processed faster than online transfers and may have lower transaction fees. TouchPay accepts credit cards and debit cards as payment methods.",
 
-      "TouchPay handles commissary deposits only. It does not provide phone calls, video visits, messaging, or photo services. Families at GTL-contracted facilities who need phone and video services must use a separate GTL calling account through telmate.com or the GTL Connect app. Families who need messaging at a state prison must use JPay. Understanding that commissary deposits, phone calls, messaging, and video visits are often on separate platforms at the same facility is key to setting up communication correctly from the start.",
+      "TouchPay deposits go directly to the inmate trust account managed by the facility. The inmate can use these funds for commissary purchases, phone call credits, messaging stamps, and other approved expenses. Transaction fees apply and vary by facility and deposit amount. Check the TouchPay website for the current fee schedule before sending funds.",
     ],
 
     serviceDetails: {

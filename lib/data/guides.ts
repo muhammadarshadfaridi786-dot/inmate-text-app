@@ -1243,6 +1243,33 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "If a visit is terminated early by staff due to a rule violation, the visitor may be banned from future visits. Serious violations can result in a permanent ban at that facility.",
         ],
       },
+      {
+        heading: "Why Visitors Get Turned Away and How to Avoid It",
+        body: [
+          "Being turned away at the gate is one of the most upsetting experiences families face, especially after traveling a long distance. The most common reasons visitors are denied entry are dress code violations, not being on the approved visitor list, expired or missing identification, and arriving during a facility lockdown or count. Understanding each of these in advance eliminates the majority of preventable turn-aways.",
+          "Dress code enforcement is the most inconsistent source of problems. Rules vary by facility and individual officers can make different judgment calls about the same item of clothing. Families report being allowed in wearing certain clothing on one visit and being turned away for the same clothing on a subsequent visit. The only reliable protection against this inconsistency is to call the facility before every visit and confirm the current dress code, particularly for any item you are unsure about.",
+          "A visitor in California was denied entry when an officer determined her earring was contraband after she removed it and placed it on the visiting table. Her visiting privileges were suspended for 90 days as a result. This case highlights how rules can be applied in unexpected ways. When in doubt about any item including jewelry, accessories, or clothing details, leave it in your vehicle before entering.",
+          "Facility lockdowns and counts can end or prevent visits without advance notice. If you arrive during a count or lockdown, the facility will not allow visitors to enter until the count clears. This can take anywhere from 30 minutes to several hours. Always call the facility the morning of your visit to confirm visits are proceeding as scheduled before making a long trip.",
+        ],
+      },
+      {
+        heading: "How to Appeal a Denied or Terminated Visit",
+        body: [
+          "If your visit is denied or terminated, you have the right to receive written notification explaining the reason. In California, facilities are required to provide a written notice on a specific form that includes instructions for appealing the decision. Most state systems have a similar requirement. If you are denied entry and no written notice is provided, ask the supervising officer for documentation of the reason.",
+          "The appeal process typically begins with the facility itself. Write a formal letter addressed to the Warden or Visiting Coordinator explaining the circumstances of the denial, why you believe it was applied incorrectly, and what outcome you are requesting. Submit the letter in writing and keep a copy for your records. Most facilities have a specific timeframe within which appeals must be submitted, often ten business days from the date of the denial.",
+          "If the facility-level appeal does not resolve the issue, escalate to the state Department of Corrections. State DOC oversight offices review complaints about facility decisions including visiting denials. A complaint submitted to the DOC inspector general or ombudsman carries more weight than one submitted only to the facility.",
+          "The New York City Council found in a 2025 report on Rikers Island that visitors were being turned away for dress code issues in ways that were inconsistent and preventable. The report recommended that facilities assess dress code compliance only once per visit and that nobody willing to wear a cover-up garment should be denied. If you were turned away but willing to make an adjustment, document this in any appeal you file.",
+        ],
+      },
+      {
+        heading: "Visiting Rules for Children and Special Circumstances",
+        body: [
+          "Children visiting an incarcerated parent face additional considerations. Most facilities allow contact visits for children accompanied by an approved adult guardian. However, children are subject to the same security screening as adults including metal detectors and in some cases pat-down searches. Prepare children in advance for what to expect to reduce anxiety during the security process.",
+          "If you are bringing a child who is not your own biological child, you may need additional documentation. Many facilities require a notarized letter from the child's legal guardian authorizing the visit if the accompanying adult is not the parent. Contact the facility in advance to confirm exactly what documentation is required for minor visitors who are not in your custody.",
+          "Visitors with disabilities or medical needs should contact the facility before visiting to arrange any necessary accommodations. Some facilities have discontinued ADA visitor transportation services, requiring alternative arrangements. Medication, medical devices, and mobility aids are subject to security screening and approval. Give yourself extra time when visiting with a disability-related need.",
+          "If your loved one is on a restricted visiting status due to a disciplinary action, the number of visitors, visit frequency, or contact visiting may be limited. Ask the facility to clarify the terms of the restriction and when it is expected to end. Some restrictions are temporary and tied to a specific disciplinary period.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -1254,6 +1281,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Arrive early. Processing takes time and late arrivals may miss their visit window.",
       "All conversations in the visiting room are monitored and may be recorded.",
       "Physical contact is limited to a brief hug and kiss at the start and end of the visit.",
+      "Call the facility the morning of every visit to confirm visits are proceeding as scheduled. Lockdowns and counts can cancel visits without advance notice.",
+      "Dress code enforcement is inconsistent between officers. When in doubt about any item, leave it in your vehicle before entering rather than risking being turned away.",
+      "If your visit is denied, ask for written notification explaining the reason. You have the right to receive documentation and to appeal the decision.",
+      "Children accompanying adults on visits are subject to the same security screening. Prepare children in advance for metal detectors and the visiting room environment.",
+      "If you were turned away for a dress code issue but were willing to make an adjustment, document this in any appeal you file with the facility.",
     ],
 
     faq: [
@@ -1284,6 +1316,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What happens if I violate visiting rules?",
         answer: "Minor violations may result in a warning or termination of the visit. Serious violations can result in a temporary or permanent ban from visiting that facility. The inmate may also face disciplinary action as a result of visitor rule violations.",
+      },
+      {
+        question: "What are the most common reasons visitors are turned away at prison?",
+        answer: "The most common reasons are dress code violations, not being on the approved visitor list, expired or missing identification, and arriving during a facility lockdown or count. Call the facility the morning of your visit to confirm visits are proceeding and to verify current dress code requirements before making the trip.",
+      },
+      {
+        question: "Can I appeal if I was denied entry to a prison visit?",
+        answer: "Yes. You have the right to receive written notification explaining why your visit was denied. Write a formal appeal letter to the Warden or Visiting Coordinator explaining why the denial was incorrect and submit it within the facility appeal deadline, typically ten business days. If the facility does not resolve the appeal, escalate to the state Department of Corrections inspector general or ombudsman.",
+      },
+      {
+        question: "What happens if there is a lockdown during my visit?",
+        answer: "A lockdown or facility count can end a visit in progress or prevent new visitors from entering. Staff will instruct visitors to leave the visiting area immediately during a lockdown. There is no advance notice given to visitors. If your visit was cut short due to a lockdown, contact the facility about rescheduling. Some facilities provide makeup visits for visits terminated by facility-initiated lockdowns.",
+      },
+      {
+        question: "Do I need special documentation to bring a child who is not mine to a prison visit?",
+        answer: "Many facilities require a notarized letter from the child's legal guardian authorizing the visit if the accompanying adult is not the parent. Requirements vary by facility. Contact the facility before your visit to confirm exactly what documentation is needed for minor visitors who are not in your legal custody.",
+      },
+      {
+        question: "What should I do if I was turned away for a dress code issue I did not expect?",
+        answer: "Document the date, time, officer name if provided, and the specific item or reason given for the denial. If you were willing to make an adjustment but were still denied, note this. Write a formal appeal to the Warden or Visiting Coordinator referencing these details. In future visits, call ahead to confirm dress code requirements and bring a change of clothes in your vehicle as a backup.",
       },
     ],
 

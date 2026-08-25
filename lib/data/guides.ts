@@ -357,7 +357,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "How to Schedule a Video Visit",
         body: [
-          "Step one is confirming that your loved one facility offers video visitation and which provider they use. You can search our facility directory or call the facility directly to find out.",
+          "Step one is confirming that your loved one's facility offers video visitation and which provider they use. You can search our facility directory or call the facility directly to find out.",
           "Step two is creating a free account on the provider platform. For ConnectNetwork, go to connectnetwork.com. For JPay, go to jpay.com. For GettingOut, go to gettingout.com. Account creation requires your name, email, and in some cases a government ID.",
           "Step three is finding your loved one on the platform and connecting as an approved contact. The approval process varies by facility and may require submitting your name, date of birth, and government ID. Some facilities also run a background check.",
           "Step four is scheduling the visit. Select your loved one, choose an available date and time slot, review the cost, and enter your payment information. You will receive a confirmation email with the visit details.",
@@ -389,6 +389,40 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "If a visit is terminated early by staff, contact the provider customer service with your confirmation number. Most providers will review terminated visits and issue a credit if the termination was not due to a rule violation.",
         ],
       },
+      {
+        heading: "New FCC Video Call Rate Caps",
+        body: [
+          "In August 2024 the Federal Communications Commission capped prison video call rates for the first time. Before these rules, video calls were completely unregulated and providers charged whatever the facility contract allowed. Under the new FCC rules, video call rates are capped at $0.16 per minute at prisons and between $0.11 and $0.25 per minute at jails depending on size. Transaction fees for video calls are also eliminated under the new rules.",
+          "Securus and JPay notified users in November 2024 that they were making system updates to comply with the new per-minute video call billing requirement. Some facilities experienced temporary video visit disruptions during these compliance updates. If your scheduled video visit was cancelled during a provider system update, the visit should have been automatically refunded. Contact the provider with your booking confirmation if you did not receive the refund.",
+          "GTL ViaPath Technologies was ordered to pay $3 million for violations of consumer protection laws in June 2025, following complaints about video visitation service quality and billing practices. If you experienced billing issues or failed video visits through GTL ConnectNetwork or GettingOut, you may be eligible to file a complaint with your state attorney general consumer protection office.",
+        ],
+      },
+      {
+        heading: "Video Visit Technical Problems and How to Fix Them",
+        body: [
+          "Video visit technical failures are among the most frustrating experiences families report. Common problems include the visit freezing or pixelating, audio delays making conversation impossible, the platform redirecting users to download plugins in a loop, and the visit simply never connecting despite both parties being present at the scheduled time.",
+          "Audio delays are a frequently reported problem with JPay video visits. Families report delays of up to 10 seconds between speaking and being heard on the other end. This is caused by insufficient bandwidth on the facility side rather than the family connection. There is no fix available to families for facility-side bandwidth issues, but using the clearest audio setup possible on your end helps. Use a quiet room, position yourself close to your device microphone, and avoid speakerphone if possible.",
+          "If the platform keeps redirecting you to download a plugin despite already having it installed, try a different browser. Google Chrome is the most compatible browser for most video visit platforms. If Chrome does not work, try Firefox or Edge. Clearing all browser data including cookies, cache, and plugin data before the visit can resolve redirect loops that persist through normal troubleshooting.",
+          "If both parties were present at the scheduled time but the visit never connected, contact provider customer service within 24 hours with your booking confirmation number. Document the exact time you joined and how long you waited. Most providers will issue a credit for a failed visit caused by their system rather than your connection, but only if you report the issue promptly with documentation.",
+        ],
+      },
+      {
+        heading: "How to Get a Refund for a Failed Video Visit",
+        body: [
+          "If a video visit fails due to a technical problem on the provider side, you are generally entitled to a credit or refund. The process and likelihood of getting one depends on which provider you use and how quickly you report the issue. The key rule is to report immediately after the failed visit, not days or weeks later.",
+          "Contact provider customer service the same day the visit fails. Provide your account details, the booking confirmation number, the scheduled date and time, and a clear description of what happened. State specifically that you want a credit or refund for the failed session. Some providers issue credits automatically when a session drops below a minimum length, but most require you to contact them.",
+          "If the provider refuses a refund for a clearly failed visit, escalate to your state attorney general consumer protection office. Prison communication providers operate under state contracts and state consumer protection laws apply to their services. A formal complaint filed with the attorney general carries more weight than a customer service call.",
+          "Keep records of every failed visit including screenshots of error messages, the exact time you joined and left, and any communication with customer service. These records are essential if you need to dispute a charge with your bank or file a formal complaint.",
+        ],
+      },
+      {
+        heading: "States That Have Banned In-Person Visits and Replaced Them With Video Only",
+        body: [
+          "A growing number of facilities have eliminated traditional in-person contact visits entirely and replaced them with video-only visitation. This means even when you travel to the facility, you do not see your loved one face to face. Instead, you sit at a video terminal in the lobby and connect through a screen. Some advocates argue this model reduces meaningful family connection while generating revenue for providers.",
+          "Colorado is among the states where specific facilities have maintained video-only visitation policies that began during the pandemic and were never reversed. Children of incarcerated parents have filed lawsuits in Colorado challenging visitation bans as violations of their rights to family connection. Colorado also passed new legislation in 2025 to expand prisoner visitation rights in response to these concerns.",
+          "Before traveling to visit a facility in person, always call ahead to confirm whether the facility offers contact visits or video-only visits. This information is not always clearly stated on facility websites and policies can change without public notice. If you arrive for a contact visit and the facility has moved to video-only, you may be able to conduct a lobby video visit at no charge depending on the facility policy.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -399,6 +433,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Sessions must be scheduled in advance through the provider platform. You must be an approved contact first.",
       "Remote video visits cost between $7.50 and $15 per session. On-site lobby visits are often free or lower cost.",
       "All video visits are recorded and monitored. Follow the same content rules as physical visits.",
+      "New FCC rules capped video call rates at $0.16 per minute for prisons and $0.11 to $0.25 per minute for jails. Transaction fees for video calls are now prohibited.",
+      "If a scheduled video visit is cancelled due to a provider system update, it should be automatically refunded. Contact the provider with your booking confirmation if you do not receive the refund.",
+      "Report failed video visits to customer service the same day with your booking confirmation number. Most providers require prompt reporting to issue a credit.",
+      "If the video platform keeps redirecting you to download a plugin, try Google Chrome first, then clear all browser data and try again.",
+      "Always call the facility before traveling to confirm whether they offer contact visits or video-only visitation. Policies change without public notice.",
     ],
 
     faq: [
@@ -429,6 +468,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What if my video visit drops or has technical problems?",
         answer: "If the session drops due to a technical issue on the provider side, contact customer service with your confirmation number and request a refund or credit. If the problem was on your end, such as a weak internet connection, providers may not offer a refund.",
+      },
+      {
+        question: "What are the new FCC rules for video visit costs?",
+        answer: "The FCC capped prison video call rates at $0.16 per minute for prisons and between $0.11 and $0.25 per minute for jails depending on size. Transaction fees for video calls are also eliminated under the rules that took effect in 2024 and 2025. Before these rules, video calls were completely unregulated and often more expensive than phone calls.",
+      },
+      {
+        question: "My video visit froze and ended early. Can I get a refund?",
+        answer: "Contact provider customer service the same day with your booking confirmation number and a description of what happened. Most providers will issue a credit for visits that fail due to technical issues on their side, but require prompt reporting. If the provider refuses, escalate to your state attorney general consumer protection office.",
+      },
+      {
+        question: "Why does the video visit platform keep asking me to download a plugin?",
+        answer: "This is a common technical issue. Try using Google Chrome as your browser and clear all browser data including cookies, cache, and plugin data before the visit. If Chrome does not work, try Firefox or Microsoft Edge. Restarting your computer before the visit can also resolve plugin redirect loops.",
+      },
+      {
+        question: "The facility replaced in-person visits with video only. Is this legal?",
+        answer: "Facilities have broad discretion over visitation policies and video-only visitation is legal at most facilities. Some advocacy organizations and families have filed lawsuits challenging video-only policies, particularly for children visiting incarcerated parents. Colorado passed legislation in 2025 expanding visitation rights. Contact a prison rights advocacy organization in your state for guidance on the specific rules that apply.",
+      },
+      {
+        question: "Can I do a video visit if I travel to the facility in person?",
+        answer: "Some facilities offer on-site lobby video visits where you come to the facility and connect through a terminal in the lobby. These are sometimes free or lower cost than remote video visits. Call the facility before traveling to confirm what visit options are available and whether an appointment is required.",
       },
     ],
 

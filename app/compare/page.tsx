@@ -11,9 +11,9 @@ import PageWrapper from "@/components/layout/PageWrapper"
 import SectionHeading from "@/components/shared/SectionHeading"
 
 export const metadata: Metadata = {
-  title: "Compare Inmate Communication Providers: Side-by-Side",
+  title: "Compare Inmate Communication Providers: JPay vs CorrLinks vs ConnectNetwork vs Securus",
   description:
-    "Compare inmate communication providers side by side. See pricing, features, app ratings, and facility coverage to find the best option for your situation.",
+    "Compare inmate communication providers side by side. See which provider is best for messaging, phone calls, video visits, and money transfers at federal prisons, state prisons, and county jails.",
   alternates: { canonical: "/compare" },
   openGraph: {
     url: "/compare",
@@ -36,7 +36,7 @@ export default function ComparePage() {
     <>
       <JsonLd
         schema={buildWebPageSchema(
-          "Compare Inmate Communication Providers",
+          "Compare Inmate Communication Providers: JPay vs CorrLinks vs ConnectNetwork",
           "Side-by-side provider comparisons. Find out whether JPay, CorrLinks, ConnectNetwork, GettingOut, or others best fits your facility and needs.",
           "/compare"
         )}
@@ -55,6 +55,121 @@ export default function ComparePage() {
               The right provider depends on whether your loved one is in a state prison, county jail,
               or federal facility. Use these comparisons to find the best match before creating an account.
             </p>
+          </div>
+        </PageWrapper>
+      </section>
+
+      {/* SEO content and FAQ */}
+      <section className="py-8 border-b">
+        <PageWrapper>
+          <div className="max-w-3xl space-y-6">
+
+            <div className="prose prose-sm max-w-none text-muted-foreground">
+              <p>
+                Every correctional facility contracts with specific providers for
+                communication services. You cannot choose your preferred provider —
+                you must use whichever company the facility has selected. However,
+                understanding how providers compare helps you know what to expect
+                when you find out which one your loved one facility uses.
+              </p>
+              <p>
+                These comparison guides cover the most commonly asked questions
+                families have when deciding how to communicate with an incarcerated
+                loved one. Each guide explains the key differences between two
+                providers across messaging, phone calls, video visits, cost, and
+                ease of use.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <h2 className="text-lg font-semibold">Most Searched Comparisons</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">JPay vs CorrLinks</h3>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    JPay serves state prisons. CorrLinks serves federal prisons only.
+                    If your loved one is in a federal facility, you need CorrLinks.
+                    If they are in a state prison, JPay is most likely.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">JPay vs ConnectNetwork</h3>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Both serve state prisons and county jails but under different
+                    state contracts. JPay uses stamps for messaging. ConnectNetwork
+                    uses credits. Check which one your facility uses first.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">GettingOut vs ConnectNetwork</h3>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Both are GTL ViaPath platforms serving county jails. GettingOut
+                    focuses on video visits and messaging. ConnectNetwork has broader
+                    coverage including state prisons and federal facilities.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">JPay vs Securus</h3>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Both are owned by Aventiv Technologies. JPay is more common at
+                    state prisons. Securus is more common at county jails. The
+                    facility contract determines which one you must use.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
+              <div className="space-y-3">
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Which inmate communication provider is the best?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    There is no single best provider because you cannot choose — the
+                    facility decides which provider to use. Among the providers,
+                    GettingOut has the best-reviewed mobile app. CorrLinks is the
+                    most reliable because it is the only federal option. JPay has
+                    the widest state prison coverage. The best provider is whichever
+                    one serves your loved one facility.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Can I use JPay if my loved one is in a federal prison?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    No. JPay does not serve federal Bureau of Prisons facilities.
+                    Federal inmates use CorrLinks exclusively for messaging. If your
+                    loved one is in a federal prison, create a CorrLinks account and
+                    wait for their invitation. Do not sign up for JPay for a federal
+                    inmate as it will not work.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Is ConnectNetwork the same as GTL?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    ConnectNetwork is the consumer platform operated by GTL, now
+                    part of ViaPath Technologies. GTL holds the facility contracts
+                    and ConnectNetwork is the website and app families use to access
+                    those services. GettingOut is also a GTL platform, operated
+                    through their Telmate subsidiary, primarily for county jails.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">What is the cheapest way to communicate with an inmate?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    The cheapest option depends on your facility. Physical mail is
+                    free to send but slow. Electronic messaging costs between $0.25
+                    and $0.50 per message depending on the provider. Phone calls
+                    cost $0.11 per minute under current FCC caps for interstate
+                    calls. Some states and counties offer free calls entirely.
+                    Check our facility directory to see what is available at your
+                    specific location.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </PageWrapper>
       </section>

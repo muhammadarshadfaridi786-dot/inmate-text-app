@@ -2460,6 +2460,32 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "To find out where your loved one has been transferred, use the state Department of Corrections inmate search tool online. The new facility will appear in the search results once intake processing is complete, which typically takes two to five business days.",
         ],
       },
+      {
+        heading: "Communication During Pretrial Detention in County Jail",
+        body: [
+          "Pretrial detention in a county jail creates unique communication challenges that differ from sentenced incarceration. A person in pretrial detention has not been convicted of any crime and may be released at any point during the process. However, during the time they are held, they face the same communication barriers and costs as sentenced individuals. Families often find the county jail phase the most confusing because information is harder to obtain and the situation changes rapidly.",
+          "County jails have highly transient populations compared to state prisons. People come and go daily as bail is posted, cases are resolved, or transfers occur. This transience means that jail communication systems are often less sophisticated than state prison systems. Some county jails still rely primarily on phone calls and physical mail with limited or no electronic messaging options.",
+          "Free communication policies have expanded significantly at the county level. According to Worth Rises, free communication policies implemented across the country have saved incarcerated people and their families $622.5 million to date as of May 2026. County jails have been a primary focus of free call campaigns because the pretrial population includes people who have not been convicted and should not face punitive costs for maintaining family contact.",
+          "Not all county jails have a consistent staff member acting as a liaison for communication between incarcerated people and their families. Without a reliable point of contact, families cannot easily check on the health and well-being of their relatives. If you need to verify information about someone in county jail, calling the jail directly and asking for the records office or jail administrator is more effective than waiting for official notifications.",
+        ],
+      },
+      {
+        heading: "What Happens to Communication When a Loved One Is Transferred From Jail to Prison",
+        body: [
+          "The transfer from county jail to state prison after sentencing is one of the most disruptive events for family communication. The transfer ends one communication system entirely and starts another. Accounts, contacts, and balances on county jail platforms such as GettingOut or ConnectNetwork do not transfer to state prison platforms such as JPay. Families must set up entirely new accounts on the state prison provider.",
+          "The inmate receives a new ID number at the state facility after completing intake processing. This new ID is different from the booking number used at the county jail and from any court case number. All new communication and money transfer accounts at the state facility require this new ID number. Wait until you have confirmed the new ID before setting up any new accounts to avoid errors.",
+          "The transfer process itself can take anywhere from a few days to several weeks after sentencing. During this time the inmate may pass through a reception or classification center before being assigned to a permanent facility. Communication is typically unavailable or severely limited during this intake and classification period. Check the state Department of Corrections inmate locator daily after sentencing to track the transfer.",
+          "Time already served in county jail while awaiting trial is credited toward the final state prison sentence. This means the actual time remaining to serve in state prison is the total sentence minus the time already spent in jail. Families should factor this in when planning for the duration of state prison communication and visit schedules.",
+        ],
+      },
+      {
+        heading: "Cost Differences and Free Call Programs by Facility Type",
+        body: [
+          "Phone call costs at county jails and state prisons have historically differed, with county jails often charging higher rates because they operate under individual contracts rather than large state-level agreements. Under current FCC rules in effect as of 2026, interstate call rates are capped at $0.11 per minute for both prisons and large jails. However, the implementation and compliance varies between facilities.",
+          "New Jersey announced a 22 percent reduction in domestic phone call rates at state facilities as of May 2025, bringing rates to $0.034 per minute. This is significantly below the federal cap and reflects state-level action to reduce costs beyond what federal regulation requires. A growing number of states and counties are offering free calls entirely. Worth Rises reports that free communication policies have saved families $622.5 million since these programs began.",
+          "County jail free call programs have expanded faster than state prison programs in recent years because county governments have more direct control over their facility contracts and more immediate accountability to local residents. If your loved one is in a county jail, contact the facility or check the county government website to find out whether a free call program is currently in effect.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -2470,6 +2496,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "When your loved one transfers from jail to prison, you will need new accounts on different platforms. Existing funds do not transfer.",
       "Transfer from jail to prison typically happens within weeks of sentencing. Communication may be unavailable for several days during the transfer.",
       "Use the state Department of Corrections inmate search to find your loved one after a transfer. A new inmate ID number will be assigned.",
+      "Free communication policies have saved incarcerated people and their families $622.5 million to date according to Worth Rises, May 2026.",
+      "Pretrial detainees in county jail have not been convicted of any crime but face the same communication costs as sentenced individuals.",
+      "When a loved one transfers from county jail to state prison, all existing communication accounts must be recreated on the new state prison provider. No data transfers.",
+      "The new state prison inmate ID is different from the county jail booking number. Wait to confirm the new ID before setting up any state prison accounts.",
+      "New Jersey reduced state facility phone call rates to $0.034 per minute as of May 2025, well below the federal FCC cap.",
     ],
 
     faq: [
@@ -2496,6 +2527,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Do my existing accounts and funds transfer when my loved one moves from jail to prison?",
         answer: "No. Accounts and funds on county jail platforms do not transfer to state prison platforms. You will need to create new accounts on the providers used by the new facility. Contact the new facility after transfer to confirm which providers they use before setting up new accounts.",
+      },
+      {
+        question: "My loved one is in county jail waiting for trial. How do I set up communication?",
+        answer: "First confirm the exact facility name and which communication providers serve it. County jails often use GettingOut, ConnectNetwork, Securus, or local providers. Call the jail directly to confirm the provider, then create an account on that platform. Submit a visitor application immediately since approval takes two to six weeks. For messaging, the inmate may need to add you as a contact from the facility kiosk first.",
+      },
+      {
+        question: "Will my loved one's JPay or GettingOut account transfer when they move from jail to prison?",
+        answer: "No. Communication accounts at county jails do not transfer to state prison platforms. You will need to create new accounts on whichever provider serves the state prison. Funds in the old platform account do not transfer automatically. Contact the old provider about recovering any remaining balance. Wait until you have the new state prison inmate ID number before setting up new accounts.",
+      },
+      {
+        question: "How long does the transfer from county jail to state prison take?",
+        answer: "The transfer typically happens within a few days to several weeks after sentencing. The inmate may pass through a reception or classification center before assignment to a permanent facility. Communication is usually unavailable during this intake period. Check the state Department of Corrections inmate locator daily after sentencing to track the transfer and find out when they arrive at the permanent facility.",
+      },
+      {
+        question: "Are phone calls free at county jails?",
+        answer: "At some county jails, yes. Free call programs have expanded significantly at the county level. Worth Rises reported that free communication policies have saved families $622.5 million to date. Contact the specific jail or check the county government website to find out whether a free call program is in effect. In jurisdictions without free calls, county jail rates are subject to FCC caps of $0.11 per minute for large jails.",
       },
     ],
 

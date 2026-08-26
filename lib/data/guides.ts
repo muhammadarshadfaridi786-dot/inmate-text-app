@@ -2200,6 +2200,31 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Processing times vary by facility. Most deposits are credited to the inmate account within one to three business days. Keep your transaction confirmation number until you confirm the funds have been received.",
         ],
       },
+      {
+        heading: "Important ConnectNetwork Changes in 2025 and 2026",
+        body: [
+          "Several major state correctional systems made provider changes affecting ConnectNetwork families in 2025 and 2026. California CDCR awarded a new telecom contract to Securus on February 21, 2025, following a court ruling that vacated the prior GTL ConnectNetwork contract. The transition rolled out across CDCR facilities from September 2025 through February 2026, moving phone, video, tablet, and messaging services away from GTL ConnectNetwork. California state prison families now need to use Securus for phone calls. Minnesota DOC moved to a free calling model, meaning all phone calls are now free of charge and families no longer need to fund prepaid calling accounts.",
+          "New Jersey completed a full transition from JPay to ViaPath for both messaging and money transfers. JPay payment services for New Jersey ended August 1, 2026. New Jersey families must now use ViaPath through ConnectNetwork for all deposits. The NJDOC also announced a 22 percent reduction in domestic phone call rates, bringing rates to $0.034 per minute as of May 2025.",
+          "Effective June 1, 2026, ConnectNetwork AdvancePay accounts become inactive after 180 consecutive days of non-use. Once inactive, you have an additional 90 days to request a refund by calling 877-650-4249. After the 270-day total window, any remaining balance is automatically converted to audio calling minutes in ViaPath's Free Calling Program and is no longer available as a cash refund. Set up account activity reminders if you have a balance but are not using the account regularly.",
+        ],
+      },
+      {
+        heading: "ConnectNetwork Common Problems and How to Fix Them",
+        body: [
+          "The ConnectNetwork app has received consistently low ratings from users, with the majority of feedback citing frequent crashes, login problems, and inability to add funds or contacts. If the app crashes or will not load, delete and reinstall the app completely rather than simply closing and reopening it. Make sure you are running the most recent version. The app received a significant update in May 2025. Outdated versions are more likely to experience compatibility and login issues.",
+          "A common complaint from families is being blocked from making deposits for ten days at a time without explanation. This automatic block is typically triggered by an unusual transaction pattern flagged by the ConnectNetwork fraud detection system. If you are blocked from deposits, contact ConnectNetwork customer service at the number listed on connectnetwork.com. Do not attempt to make deposits using multiple payment methods or devices during the block period as this can extend the block duration.",
+          "Billing disputes have been reported by users in 2026, including cases where a deposit such as $25 was charged to a payment method but never credited to the ConnectNetwork account. If you see a charge on your bank statement that does not match your account balance, file a dispute with ConnectNetwork customer service immediately and provide bank or card verification showing the charge. Also file a chargeback with your bank if the issue is not resolved. ConnectNetwork is owned by TouchPay LLC as part of ViaPath Technologies.",
+          "Photo rejections are a recurring frustration. Users report inconsistent enforcement of photo rules between facilities, with photos accepted at one location but rejected at another without clear explanation. When a photo is rejected, you do not automatically receive a refund for the credit used. Contact ConnectNetwork customer service with the rejection notice and request a credit for content that was rejected due to a facility policy disagreement rather than a clear rule violation.",
+        ],
+      },
+      {
+        heading: "ConnectNetwork Customer Service Contacts for 2026",
+        body: [
+          "ConnectNetwork is operated by GTL, now part of ViaPath Technologies. The company operates under multiple brand names including ConnectNetwork, GettingOut, Telmate, TouchPay, GTL Financial Services, AdvancePay, and ViaPath Visitor Web. When contacting customer service, have your account information, inmate name, facility name, and any transaction confirmation numbers ready before calling.",
+          "For AdvancePay automated payments, call 1-800-483-8314. For Trust Fund automated payments, call 1-888-988-4768. For PIN Debit automated payments, call 1-855-706-2445. For visitation scheduling problems, call 1-855-208-7349 or email visitorsupport@gtl.net. For refund requests on inactive accounts, call 877-650-4249.",
+          "If standard customer service does not resolve your issue, escalate by filing a complaint with the Better Business Bureau. ViaPath Technologies has an active BBB profile and responds formally to BBB complaints. A complaint filed with your state attorney general consumer protection office is also effective, particularly for billing disputes involving duplicate charges or funds not credited to the account.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -2210,6 +2235,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Video visits are available at select facilities. Schedule in advance through your ConnectNetwork account or app.",
       "Money transfers to inmate trust accounts are handled separately from the AdvancePay phone account.",
       "Download the free ConnectNetwork app for iOS or Android to manage all services from your smartphone.",
+      "California CDCR switched from ConnectNetwork to Securus for phone services in February 2025. California state prison families must now use Securus for phone calls.",
+      "Minnesota DOC phone calls are now free. Families with loved ones in Minnesota state prisons no longer need to fund prepaid phone accounts.",
+      "ConnectNetwork AdvancePay accounts go inactive after 180 days of non-use as of June 1, 2026. You have 90 additional days to request a refund before the balance is converted.",
+      "If the ConnectNetwork app crashes or will not load, delete and reinstall it completely. Make sure you are running the version updated in May 2025 or later.",
+      "For ConnectNetwork refund requests on inactive accounts, call 877-650-4249. For visitation scheduling problems, call 1-855-208-7349.",
     ],
 
     faq: [
@@ -2240,6 +2270,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "How long does it take for a ConnectNetwork money transfer to arrive?",
         answer: "Most deposits are credited to the inmate trust account within one to three business days. Keep your transaction confirmation number until you confirm the funds have been received by the inmate.",
+      },
+      {
+        question: "Does ConnectNetwork still work for California state prisons?",
+        answer: "For phone calls, no. California CDCR awarded its telecom contract to Securus effective February 21, 2025. California state prison families must use Securus for phone calls. ConnectNetwork may still handle other services at some California facilities. Contact the specific facility to confirm which providers are currently active for phone, messaging, and money transfers.",
+      },
+      {
+        question: "What happens to my ConnectNetwork AdvancePay balance if I stop using it?",
+        answer: "Effective June 1, 2026, AdvancePay accounts go inactive after 180 consecutive days of non-use. Once inactive, you have an additional 90 days to request a refund by calling 877-650-4249. After the full 270-day window, any remaining balance is automatically converted to calling minutes in ViaPath's Free Calling Program and is no longer available as a cash refund. Set a reminder if you have a balance but are not actively using the account.",
+      },
+      {
+        question: "I was charged twice on ConnectNetwork. What do I do?",
+        answer: "Contact ConnectNetwork customer service immediately and provide your transaction confirmation emails showing both charges. Also file a chargeback with your bank or credit card issuer and provide the same documentation. ConnectNetwork is owned by TouchPay LLC as part of ViaPath Technologies. If customer service does not resolve the duplicate charge, file a complaint with the Better Business Bureau, where ViaPath Technologies has an active profile and formally responds to complaints.",
+      },
+      {
+        question: "ConnectNetwork blocked me from making deposits. What happened?",
+        answer: "This block is typically triggered by an unusual transaction pattern flagged by the fraud detection system. Contact ConnectNetwork customer service to find out why the block was applied and when it will be lifted. Do not attempt to make deposits using multiple payment methods or devices during the block period as this can extend the duration of the restriction.",
+      },
+      {
+        question: "What is the ConnectNetwork customer service number?",
+        answer: "For AdvancePay automated payments call 1-800-483-8314. For Trust Fund payments call 1-888-988-4768. For PIN Debit call 1-855-706-2445. For visitation scheduling problems call 1-855-208-7349 or email visitorsupport@gtl.net. For refunds on inactive accounts call 877-650-4249. Have your account information and transaction confirmation numbers ready before calling.",
       },
     ],
 

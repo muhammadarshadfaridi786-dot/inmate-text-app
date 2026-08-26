@@ -2039,6 +2039,32 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Stamps or credits not working after purchase is often caused by a delay in account verification. Make sure your account email is verified before purchasing credits. If stamps disappear without sending a message, contact the platform customer service with your transaction confirmation number.",
         ],
       },
+      {
+        heading: "Troubleshooting Common Account Setup Problems",
+        body: [
+          "The most common problem during account setup is not receiving the invitation email from CorrLinks. Before asking the inmate to resend the invitation, check your spam and junk mail folder thoroughly. Add web@corrlinks.com to your email contacts or safe sender list to prevent future emails from being filtered. If the invitation is not in spam, ask the inmate to confirm the exact email address they entered, including any numbers or punctuation. A single wrong character means the invitation was sent to a non-existent address.",
+          "On JPay, a common setup problem is not being able to find the inmate after creating an account. The most frequent cause is selecting the wrong state. Confirm the state where the inmate is currently housed, not the state where they were convicted or the state where you live. Also confirm the inmate ID number directly with the facility or the inmate rather than using a court case number, which is a different identifier.",
+          "GettingOut uses two different connection models depending on the facility. At some facilities you can search for the inmate directly after creating an account. At others, the inmate must send you an invitation from the facility kiosk before you can connect. If you cannot find the inmate after creating a GettingOut account, contact the facility to confirm which connection model they use before assuming something is wrong with your account.",
+          "The safest approach for any new platform is to create the account, verify it, add your contact, then make one small initial purchase and send one short test message. Once you confirm the test message is delivered, you can scale up purchases and messaging frequency. This approach prevents the common mistake of loading a large balance on the wrong platform or an account that is not correctly configured.",
+        ],
+      },
+      {
+        heading: "JPay Account Setup Tips for 2026",
+        body: [
+          "JPay updated its mobile app interface in late 2025. Users setting up accounts in 2026 may notice different button labels and navigation than older guides describe. The core process remains the same: select state, enter inmate ID, create your profile, verify your email, then purchase stamps before composing your first message. If the app interface looks different from instructions you have seen elsewhere, look for equivalent functions under different labels rather than assuming something is broken.",
+          "Avoid switching between the JPay app and the JPay website during your first purchase. Users report that switching mid-transaction can cause the stamp purchase to fail or to be charged without the stamps appearing in the account. Complete the entire purchase process within one interface before switching.",
+          "Some JPay facilities require the inmate to approve you as a contact before messages go through. After sending your first message you may see it show as sent but not delivered. Check whether the facility requires inmate contact approval as a first step. If approval is required, the inmate needs to accept your contact request from the facility kiosk before your messages can be received.",
+          "Credit card transactions on JPay may be classified as cash advances by some card issuers, triggering additional fees that JPay does not always disclose upfront. Use a debit card for JPay stamp purchases and money transfers to avoid unexpected cash advance fees from your card issuer.",
+        ],
+      },
+      {
+        heading: "CorrLinks Unavailable Message: What It Means",
+        body: [
+          "If you try to send a CorrLinks message and receive a notification that the inmate is unavailable or does not have access to messaging, there are several possible reasons. The inmate may have lost messaging privileges due to a disciplinary action at the facility. They may have been transferred to a different facility and are in the process of re-registering in the TRULINCS system at the new location. Their TRULINCS access may also be temporarily suspended during a facility lockdown or administrative review.",
+          "When a federal inmate transfers to a new facility, they typically need to re-register in the TRULINCS system at the new location. During this re-registration period, which usually takes a few days to a week after arrival, your connection may show as unavailable even though the underlying contact relationship remains active. In most cases you do not need to submit a new contact request. The connection resumes automatically once the inmate completes re-registration.",
+          "If the unavailable status persists for more than two weeks after a confirmed transfer, contact the new facility records office to confirm that the inmate has TRULINCS access at that location. Not all BOP facilities have identical TRULINCS configurations and some program levels have restricted computer access. If TRULINCS access is permanently restricted at the new facility, physical mail becomes the primary communication option.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -2048,6 +2074,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "For CorrLinks, the inmate must send the first invitation. You cannot start the process.",
       "Buy a small credit bundle first to confirm the system works before purchasing more.",
       "If setup is blocked, contact the facility to confirm your contact status.",
+      "Add web@corrlinks.com to your safe sender list before the inmate sends your invitation to prevent the email from going to spam.",
+      "On JPay, always confirm the inmate current state and facility-assigned ID number before searching. Court case numbers and booking numbers are different from the inmate ID.",
+      "Complete JPay stamp purchases entirely within one interface. Switching between the app and website mid-transaction can cause purchase failures.",
+      "Use a debit card for JPay transactions to avoid cash advance fees that some credit card issuers charge on JPay purchases.",
+      "If CorrLinks shows an inmate as unavailable after a transfer, wait one week before contacting support. Re-registration in the new facility TRULINCS system usually resolves within a few days.",
     ],
 
     faq: [
@@ -2066,6 +2097,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What if I used the wrong name when signing up?",
         answer: "Contact the platform's customer support to correct your name before any contact request is submitted. A name mismatch can cause approval to fail or be delayed.",
+      },
+      {
+        question: "I created a CorrLinks account but never received an invitation. What should I do?",
+        answer: "Check your spam and junk mail folder first. Add web@corrlinks.com to your safe sender list. Ask the inmate to confirm the exact email address they entered, including any numbers or punctuation. As of late 2024, CorrLinks limits inmates to 10 outside contacts at one time. If the inmate is at the limit, they cannot send new invitations until an existing contact is removed. Ask them to check their contact list if the invitation still does not arrive after 48 hours.",
+      },
+      {
+        question: "Why can I not find the inmate when setting up my JPay account?",
+        answer: "The most common causes are selecting the wrong state or using the wrong ID number. Confirm the state where the inmate is currently housed, not where they were convicted. Confirm the facility-assigned inmate ID number directly with the inmate or the facility. Court case numbers and booking numbers are different from the inmate ID and will not work in JPay search.",
+      },
+      {
+        question: "What does it mean when CorrLinks says the inmate is unavailable?",
+        answer: "The inmate may have lost messaging privileges due to a disciplinary action, or they may have recently transferred to a new facility and are in the process of re-registering in the TRULINCS system. Re-registration after a transfer typically takes a few days to one week. If unavailable status persists for more than two weeks after a confirmed transfer, contact the new facility records office to confirm that TRULINCS access is available at that location.",
+      },
+      {
+        question: "GettingOut says I need an invitation to connect. How does this work?",
+        answer: "Some GettingOut facilities use an invitation model where the inmate must send you a connection request from the facility kiosk before you can message them. Create your GettingOut account first, then ask your loved one to search for you by name or email and send a connection request. You will receive a notification to accept it. Other GettingOut facilities allow you to search for the inmate directly. Contact the facility to confirm which model they use if you are unsure.",
       },
     ],
 

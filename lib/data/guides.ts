@@ -3493,6 +3493,32 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "If a money transfer does not arrive, contact Securus customer service with your transaction confirmation number. Common causes include an incorrect inmate ID number or a transfer sent to the wrong facility. Always verify the inmate ID and facility name before sending funds.",
         ],
       },
+      {
+        heading: "Securus Takes Over California State Prisons in 2025 and 2026",
+        body: [
+          "California awarded a major telecommunications contract worth an estimated $315 million to Securus Technologies in February 2025, replacing ViaPath as the provider for all California Department of Corrections and Rehabilitation facilities. The rollout began in September 2025 and facility transitions to Securus continued through spring 2026. Fire camps completed their transition first. Individual institution transitions began in February 2026.",
+          "California families whose loved ones are housed at facilities that have already transitioned must use Securus for phone calls, video visits, and messaging going forward. If a loved one is transferred to a facility still using ViaPath during the transition period, families must return to the ViaPath platform for that facility until it also transitions to Securus. The CDCR website at cdcr.ca.gov/family-resources/tablets publishes the current transition schedule by institution.",
+          "A significant issue during the California transition is that ViaPath messages, photos, and media do not transfer to Securus tablets. Once a facility transitions, incarcerated individuals lose access to all content purchased or received on their ViaPath account. Families were advised to print important messages or photos from the ViaPath tablet or a kiosk before their institution's transition date. Only the inmate can initiate a print request from inside the facility.",
+          "Shortly after the California transition began, Securus was found to be charging more than the 3 cents per message stated in its contract, apparently due to an undisclosed pricing scheme based on character count. After prisoners and advocates complained and news organizations asked questions, Securus corrected the billing and issued a $10 credit to every person at the California Institution for Women. California families should check their account billing carefully and report discrepancies.",
+        ],
+      },
+      {
+        heading: "Common Securus Problems and How to Handle Them",
+        body: [
+          "Securus has a consistently low consumer rating with the most common complaints involving failed video visits with no refund, customer service providing false assurances about refunds that are never issued, and accounts being permanently restricted after families dispute charges. Understanding these patterns helps families protect themselves.",
+          "If a Securus video visit fails due to technical issues such as no audio or no video on their side, contact Securus customer service immediately and file a formal complaint requesting a refund. Document the date, time, your confirmation number, and exactly what failed. Securus requires a formal complaint to process a refund for a failed visit. Follow up weekly if you do not receive a response. Keep records of every communication.",
+          "A documented pattern at Securus involves permanently restricting account access when families dispute charges with their bank. One account shows a family that disputed a charge after Securus failed to provide a working video visit and received assurances of a refund that never came. When the family filed a bank dispute, Securus permanently restricted their account, canceled a scheduled visit, and refused any refund. If you are considering a bank dispute, be aware that Securus may respond by restricting your account.",
+          "Michigan lawsuits filed against St. Clair County and Genesee County allege that these counties banned in-person jail visits in exchange for a share of Securus video call revenue. Under the alleged contracts, Securus paid the county 50 percent of the video call fee and 78 percent of the per-minute phone call rate. The lawsuits argue that eliminating in-person visits solely to generate video call revenue violates the rights of families and incarcerated people. These cases highlight how financial incentives in provider contracts can directly affect family access.",
+        ],
+      },
+      {
+        heading: "Securus Customer Service Contacts and Escalation",
+        body: [
+          "Securus customer service is available through securustech.net. For phone support, call the customer service number listed on the website. Have your account details, the facility name, your loved one inmate ID, and any transaction confirmation numbers ready before calling. The most common issues requiring customer service contact are failed video visits, account access problems, and billing disputes.",
+          "If standard Securus customer service does not resolve your issue, file a complaint with the Better Business Bureau. Securus Technologies has a BBB profile and formally responds to complaints filed there. A BBB complaint often receives a faster response than a standard customer service call or email.",
+          "For California families experiencing issues during the ViaPath to Securus transition, major outage notices are posted on the CDCR website. Contact both Securus and ViaPath customer service if you are unsure which platform is currently active at your loved one facility. The CDCR family resources page at cdcr.ca.gov/family-resources is updated with current provider information.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -3503,6 +3529,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Money transfers go to the inmate trust account and are credited within one to three business days.",
       "FCC caps interstate phone rates at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules.",
       "If the facility does not appear to use Securus, search our facility directory to find the correct provider.",
+      "Securus won a $315 million contract to replace ViaPath in all California state prisons. Transitions began September 2025 and continued through spring 2026.",
+      "ViaPath messages, photos, and media do not transfer to Securus tablets during the California transition. Content must be printed before the institution transitions.",
+      "Securus was found charging California prisoners more than the contracted 3 cents per message and issued a $10 credit after advocates complained.",
+      "If a Securus video visit fails, file a formal complaint immediately with your confirmation number. Document everything before considering a bank dispute.",
+      "Be aware that Securus may permanently restrict your account if you file a bank chargeback. Exhaust all direct resolution options before disputing with your bank.",
     ],
 
     faq: [
@@ -3529,6 +3560,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Is there a Securus mobile app?",
         answer: "Yes. The Securus Mobile app is available for free on iOS and Android. Download it from your app store and log in with your account details to manage phone accounts, schedule video visits, and access other services from your smartphone.",
+      },
+      {
+        question: "Does Securus now serve California state prisons?",
+        answer: "Yes. California awarded Securus a $315 million contract in February 2025 to replace ViaPath as the provider for all CDCR facilities. Transitions began in September 2025. Families with loved ones at transitioned facilities must use Securus. For facilities still on ViaPath during the transition period, families continue to use ViaPath until that specific institution completes its switch. Check cdcr.ca.gov/family-resources/tablets for the current transition schedule.",
+      },
+      {
+        question: "What happened to ViaPath content when California switched to Securus?",
+        answer: "ViaPath messages, photos, and media do not transfer to Securus tablets. Once a facility transitions, incarcerated individuals lose access to all content from their ViaPath account. Families were advised to have their loved one print important messages or photos from the ViaPath tablet or kiosk before the institution's transition date. Only the inmate can initiate a print request from inside the facility.",
+      },
+      {
+        question: "What should I do if a Securus video visit fails and I cannot get a refund?",
+        answer: "File a formal complaint with Securus customer service immediately with your confirmation number, the date and time, and a description of what failed. Document every communication and follow up weekly. If Securus does not respond, file a complaint with the Better Business Bureau where Securus has a formal profile. Be aware that disputing the charge with your bank may result in Securus permanently restricting your account.",
+      },
+      {
+        question: "Why did Securus charge me more than the stated price per message in California?",
+        answer: "Securus was found to be using an undisclosed pricing scheme based on character count rather than per-message pricing stated in the CDCR contract. After advocates complained and news organizations reported on the issue, Securus corrected its billing to the contracted 3 cents per message and issued a $10 credit to incarcerated people at the California Institution for Women. If you believe you are being overcharged, compare your bills to the contracted rates and file a complaint with Securus and the CDCR.",
       },
     ],
 

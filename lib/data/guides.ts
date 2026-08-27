@@ -764,6 +764,34 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Fees can add significantly to the base rate. Connection fees, account maintenance fees, and payment processing fees are common. A 15-minute call at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) costs $1.65 in base rate but may total $3 to $5 after fees depending on the provider.",
         ],
       },
+      {
+        heading: "States With Free Phone Calls and How They Work",
+        body: [
+          "Minnesota has offered free phone calls from all state DOC facilities since July 1, 2023. Families no longer need a ConnectNetwork AdvancePay account or any funds to receive calls from Minnesota state prisons. You still need to accept the call by pressing zero when it comes through. If you have unused funds in an existing ConnectNetwork AdvancePay account from before the free call program, you can request a refund by calling ViaPath customer service at 1-877-650-4249. Closing your account does not prevent you from receiving free Minnesota DOC calls.",
+          "New York State made all calls from state correctional facilities free effective August 1, 2025. The state uses Securus Technology for its phone system. Since calls are now free, a Securus account is no longer required for New York state prison calls. Families with unused Securus balances can request a refund. Each incarcerated individual in New York state receives three free calls per week of up to 15 minutes, added to their accounts at the beginning of each Saturday. Calls can reach numbers in the United States, Canada, and US territories including Puerto Rico, Guam, and the US Virgin Islands.",
+          "Florida State Prison uses ConnectNetwork for phone calls and offers one free five-minute call per week per incarcerated person in addition to standard AdvancePay calls. The free call applies to the first call made each week. You may hear a message that the call is free when you accept it. The inmate does not hear this message. After the free weekly call, subsequent calls are deducted from your AdvancePay balance at the facility rate.",
+          "California, Colorado, Connecticut, and Massachusetts have also implemented free or reduced-cost call programs at state facilities. These programs apply only to state-operated facilities under each state DOC contract. County jails and private facilities within these states may not be covered by the free call policy. Check with the specific facility before assuming free calls apply.",
+        ],
+      },
+      {
+        heading: "Types of Phone Accounts Explained",
+        body: [
+          "AdvancePay is a prepaid account where you deposit money in advance linked to your phone number. When the inmate calls your number, the cost is deducted from your balance. AdvancePay is available through ConnectNetwork and similar prepaid systems at other providers. It gives you better per-minute rates than collect calls and is the recommended account type for families who receive calls regularly.",
+          "PIN Debit accounts allow the inmate to use their own trust account funds to pay for calls rather than having the family fund the account. This is useful when the family cannot maintain a prepaid balance. PIN Debit calls allow the inmate to call any approved number rather than being restricted to one phone number as with some AdvancePay configurations. PIN Debit rates are generally less expensive than collect call rates at most facilities.",
+          "Traditional collect calls bill the charges to your phone bill after the call. This is the most expensive option and is not always available depending on your phone carrier. Some carriers place spending limits on collect call billing. Collect calls are also not accepted on cell phones at many facilities.",
+          "Debit Link accounts at ViaPath facilities allow inmates to use funds for tablet-based services including streaming music, games, and ebooks in addition to phone calls. Debit Link units cost $0.01 each, meaning $1 buys 100 link units. Note that Debit Link purchases are final and no refunds are issued. This is a separate account from the trust fund and AdvancePay accounts.",
+          "It is important to understand that the inmate commissary account and the phone account are typically separate accounts at most facilities. Funds deposited to one account cannot be transferred to the other. Morgan County Jail and many similar facilities explicitly state this. Make sure you are depositing funds into the correct account for your intended purpose.",
+        ],
+      },
+      {
+        heading: "What Happens When You Receive a Prison Phone Call",
+        body: [
+          "When an inmate calls your number, you will hear an automated announcement before the call connects. The announcement typically says something like: You are receiving a call from, followed by the inmate name, an inmate at, followed by the facility name. The announcement then prompts you to press a number to accept the call. On AdvancePay accounts, pressing the correct number connects the call and deductions begin from your balance immediately.",
+          "If your balance is too low to cover the call, the system may not connect at all or may play a message indicating insufficient funds. Keep your balance above zero at all times if you want to ensure you do not miss calls. Many providers allow you to set up automatic refills that trigger when your balance drops below a minimum amount. This is the most reliable way to avoid missed calls due to an empty account.",
+          "If you do not want to receive calls from a specific inmate, you can contact the facility in writing and ask to be placed on the inmate negative contact list. Your number will be blocked from receiving that inmate calls going forward. This is relevant in situations involving domestic violence protective orders or other circumstances where contact should not occur.",
+          "Calls are limited in length, typically 15 to 30 minutes, and disconnect automatically when the limit is reached. At Minnesota DOC facilities, all completed calls are subject to a 15-minute wait period before another call can be made beginning May 14, 2025. This policy prevents any one inmate from monopolizing the phones so all incarcerated people have equal access.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -773,6 +801,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "All calls are recorded and monitored unless specifically exempted.",
       "FCC-capped rates are $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current FCC rules.",
       "Extra fees from providers can double the actual cost of a call.",
+      "Minnesota phone calls from state DOC facilities are free since July 2023. No AdvancePay account or funds are needed. Press zero to accept the call.",
+      "New York State phone calls are free from state prisons since August 1, 2025. Each inmate gets three free calls per week up to 15 minutes each.",
+      "The inmate commissary account and phone account are separate at most facilities. Funds cannot be transferred between them. Deposit to the correct account.",
+      "PIN Debit accounts let the inmate pay for calls from their own trust funds. This allows calls to any approved number rather than just one registered number.",
+      "Debit Link purchases at ViaPath facilities are final with no refunds. One dollar buys 100 link units for tablet services.",
     ],
 
     faq: [
@@ -795,6 +828,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Are calls to attorneys recorded?",
         answer: "Attorney calls may be exempt from recording if the attorney's number is registered with the facility as privileged. However, this varies by facility and jurisdiction. Confirm this with the facility and with the attorney's office.",
+      },
+      {
+        question: "Do I need a phone account if my loved one is in a Minnesota or New York state prison?",
+        answer: "No. Minnesota DOC calls have been free since July 2023. New York state prison calls have been free since August 1, 2025. You do not need a ConnectNetwork or Securus account to receive these calls. Simply press zero to accept the call when it comes through. If you have an existing account with unused funds, contact the provider to request a refund.",
+      },
+      {
+        question: "What is PIN Debit and how is it different from AdvancePay?",
+        answer: "AdvancePay is funded by the family and linked to one specific phone number. PIN Debit is funded by the inmate from their trust account and allows calls to any approved number on their list. PIN Debit is useful when the family cannot maintain a prepaid balance. Both offer better rates than collect calls. Check your facility to see which account types are available.",
+      },
+      {
+        question: "Why did my prison phone call get disconnected?",
+        answer: "The most common reasons are reaching the call time limit (typically 15 to 30 minutes), your AdvancePay balance reaching zero mid-call, or a facility count or lockdown that requires all calls to end. If your balance ran out, add funds and wait for the inmate to call again. If the facility ended calls, they will be able to call when normal operations resume.",
+      },
+      {
+        question: "What does the automated message say when I receive a prison call?",
+        answer: "The automated message typically says you are receiving a call from the inmate name at the facility name and prompts you to press a number to accept. On free call systems like Minnesota and New York, you may hear a message that the call is free before connecting. Press the prompted number to accept. If you do not press anything or hang up, the call is rejected and the inmate must call again.",
+      },
+      {
+        question: "Can I block calls from a specific inmate?",
+        answer: "Yes. Contact the facility in writing and ask to be placed on the inmate negative contact list. Your number will be blocked from receiving calls from that specific inmate. This process varies by facility. If there is a protective order in place, notify the facility immediately as additional steps may be required to ensure compliance.",
       },
     ],
 

@@ -2868,6 +2868,35 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "ConnectNetwork and GettingOut also offer digital photo sharing at some facilities. Check your account dashboard to see whether photo attachments are available as an option at your loved one facility. If it appears as an option, it is available. If it does not appear, it is not offered there.",
         ],
       },
+      {
+        heading: "The Growing Trend of Physical Mail Bans and What It Means for Photos",
+        body: [
+          "A significant and growing number of state prison systems have eliminated direct physical mail from families entirely, replacing it with digitized mail systems where letters and photos are scanned and delivered electronically or as photocopies. As of February 2026, most U.S. prisoners are now barred from directly receiving physical mail according to Prison Legal News. This shift has major implications for how families send photos.",
+          "Utah DOC began using Pigeonly to process and copy prisoner mail in January 2025, only to resume using guard staff for the task in January 2026. Despite the change, Utah still prohibits direct physical photos and requires photos to be uploaded digitally through one of three approved photo-sharing sites. Families in Utah cannot mail physical photos directly regardless of which vendor handles processing.",
+          "Massachusetts DOC resumed using guards to make and deliver photocopies of prisoner mail. Restricted items include glitter, stickers, staples, and any book or magazine that is bound with a spine. Photos are banned from direct mail but may be uploaded digitally through approved photo-sharing services. The rules are applied at the state level but each facility may have additional restrictions on top of the state baseline.",
+          "The practical effect of these bans is that even families who were previously mailing photos directly must now use an approved digital service or vendor. If you were successfully mailing photos directly to a state prison and they suddenly stopped being delivered, check whether the facility or state system has implemented a mail digitization policy. Contact the facility mailroom directly to confirm current rules before sending.",
+        ],
+      },
+      {
+        heading: "Photo Rejection: Why It Happens and How to Avoid It",
+        body: [
+          "Photo rejection is one of the most frustrating experiences families report. A photo that seems perfectly innocent to you may be flagged by mailroom staff for reasons that are not obvious. Understanding the most common rejection triggers helps you avoid them.",
+          "Hand gestures are a frequently overlooked rejection trigger. Even common signs such as a peace sign, thumbs up, or fingers pointing can be misinterpreted as gang signals by mailroom staff. Avoid any hand gestures in photos intended for incarcerated loved ones. Choose photos where hands are at the side, in a lap, or holding something neutral like a child or a pet.",
+          "Background content matters as much as the subject. A photo showing alcohol bottles in the background of a party, weapons on a wall, or other people who appear to be in a compromising situation can cause a rejection even if the main subject of the photo is not involved in anything problematic. Review the entire background of a photo before sending it.",
+          "Texas is specifically noted by experienced families as printing JPay photo attachments in black and white on plain paper rather than in color. The result is often too low quality to be meaningful. Families sending photos to Texas facilities through JPay report this limitation and recommend using a physical photo service instead for better quality results.",
+          "Using a dedicated photo service such as Pigeonly or Inmate Photos reduces rejection rates significantly because these services automatically show facility-specific rules at the time of upload and format the submission to meet those requirements. Pigeonly has sent over 15 million photos and letters and maintains current compliance rules for over 4,000 facilities.",
+        ],
+      },
+      {
+        heading: "Photo Services Comparison: Pigeonly, TextBehind, Inmate Photos and JPay",
+        body: [
+          "Pigeonly offers a Forever Free Plan that allows a set amount of monthly communication at no charge. Paid plans offer unlimited photos. Pigeonly recommends sending no more than five photos per envelope unless you know the specific facility allows more. Some facilities allow up to ten. Pigeonly handles printing, addressing, and mailing and advertises same-day mailing for orders placed early in the day. Pigeonly serves over 4,000 facilities.",
+          "Inmate Photos is an iOS and Android app that automatically shows jail-specific rules at the time of upload including photo restrictions and content guidelines. If a facility has a photo limit, the app automatically spaces orders to stay compliant. The service positions itself as a compliance-first option for families who have had photos rejected elsewhere.",
+          "TextBehind converts your photos and messages into physical printed mail. The cost is approximately $0.49 per page. TextBehind is particularly useful at facilities that do not have contracts with digital photo platforms because it delivers as standard physical mail rather than through a provider platform.",
+          "JPay digital photo attachments are available at some state prison facilities as part of the JPay messaging system. Each photo requires an additional stamp beyond the message stamp. Photos are reviewed by facility staff before delivery and typically take 24 to 48 hours. JPay photo quality in Texas and some other states is limited by black and white printing on plain paper. Check your JPay account dashboard to see if digital photo sharing is enabled at your specific facility.",
+          "GettingOut through Telmate also offers digital photo sharing at some county jail facilities. Photos are uploaded through the app and reviewed before delivery. Pricing and availability vary by facility contract.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -2879,6 +2908,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Photo services like Pigeonly and TextBehind handle printing and delivery for you and are formatted to meet facility rules automatically.",
       "Some messaging platforms like JPay allow digital photo attachments at select facilities for an additional stamp per photo.",
       "Write the inmate full legal name and ID number lightly on the back of each photo before mailing.",
+      "As of February 2026, most U.S. prisoners are now barred from directly receiving physical mail. Check current facility rules before mailing photos directly.",
+      "Avoid hand gestures in photos. Even peace signs and thumbs up can be misinterpreted as gang signals and cause rejection.",
+      "Review the entire background of a photo before sending. Background content including alcohol, weapons, or other people in compromising situations can cause rejection.",
+      "Texas JPay facilities print photo attachments in black and white on plain paper. Use a physical photo service for better quality results when sending to Texas.",
+      "Pigeonly has sent over 15 million photos and maintains compliance rules for 4,000+ facilities. Their free plan allows a set amount of monthly photos at no charge.",
     ],
 
     faq: [
@@ -2909,6 +2943,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "What happens if a photo is rejected by the facility?",
         answer: "Rejected photos are typically disposed of by facility mailroom staff. They are usually not returned to the sender. To avoid rejection, follow the facility size and content rules carefully, or use a photo service that handles compliance for you.",
+      },
+      {
+        question: "Can I still mail photos directly to a prison in 2026?",
+        answer: "It depends on the facility and state. As of February 2026, most U.S. prisoners are barred from directly receiving physical mail according to Prison Legal News. Many state systems now require photos to go through approved digital services or vendor mail processing systems. Contact the specific facility mailroom to confirm current rules before mailing anything directly.",
+      },
+      {
+        question: "Why do facilities ban direct physical mail for photos?",
+        answer: "Facilities cite security concerns as the primary reason. Physical mail can be used to conceal messages, smuggle information, or introduce contraband. Digitized mail systems allow staff to review all incoming content electronically before anything physical reaches an inmate, which facilities argue reduces security risks. Critics argue the transition also generates revenue for approved vendors.",
+      },
+      {
+        question: "Why was my photo rejected even though it seemed harmless?",
+        answer: "Common rejection triggers include hand gestures such as peace signs or thumbs up that can be read as gang signals, background content showing alcohol or weapons even when incidental, photos that are too dark or unclear for staff to review, and content that varies from facility-specific rules that differ from general guidelines. Use a service like Pigeonly or Inmate Photos that shows facility-specific rules at upload to avoid preventable rejections.",
+      },
+      {
+        question: "Are there free options for sending photos to inmates?",
+        answer: "Yes. Pigeonly offers a Forever Free Plan that allows a set amount of monthly photos at no charge. The free plan covers printing and mailing through the postal system. Paid plans offer unlimited photos. Digital photo attachments through JPay use stamps you may already have purchased for messaging, though each photo requires an additional stamp.",
+      },
+      {
+        question: "Why do JPay photos look bad at some facilities?",
+        answer: "JPay photo attachments at Texas facilities and some other states are printed in black and white on plain paper rather than in color. This significantly reduces photo quality. If you are sending photos to a Texas JPay facility, use a physical photo printing service such as Pigeonly instead of JPay digital attachments for better quality results.",
       },
     ],
 

@@ -3047,6 +3047,33 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Rules change over time as contracts expire and are renegotiated. If something stops working - a platform you have been using stops accepting messages, or a visiting schedule changes - contact the facility directly to confirm what has changed.",
         ],
       },
+      {
+        heading: "States With Free Phone Calls as of 2026",
+        body: [
+          "A growing number of states have gone beyond federal FCC requirements and eliminated phone call charges entirely at state correctional facilities. As of August 2026, the states that have implemented free phone call programs at state prisons include California, Colorado (fully effective 2026), Connecticut, Massachusetts, Minnesota, and New York. New York made calls free on August 1, 2025 — the first state to do so administratively without requiring legislation.",
+          "New York City became the first U.S. city to make jail calls free in 2019, saving city families an estimated $10 million per year. New York State followed on August 1, 2025 with statewide implementation at state prisons. The move came after nearly five years of legislative advocacy. Senator Jamaal T. Bailey stated that the policy drives public safety because communication anchors rehabilitation.",
+          "Colorado's free call policy was announced in 2025 and took full effect in 2026. Connecticut, Massachusetts, and Minnesota had implemented free calls at state facilities in prior years. At least two additional states, Maryland and Missouri, considered legislation in 2025 to make prison and jail calls more affordable. Missouri capped rates at $0.12 per minute regardless of facility size regardless of the federal cap.",
+          "Free call programs at the state level apply only to state-operated facilities. County jails and private facilities within these states may not be covered by the free call policy. Always confirm with the specific facility whether free calls apply to their location. Families whose loved ones are in federal prisons within these states are not covered by state free call programs, which apply only to state DOC facilities.",
+        ],
+      },
+      {
+        heading: "FCC Rate Caps Effective April 6, 2026",
+        body: [
+          "The FCC voted in late October 2025 to raise the rate caps that had been set in its landmark 2024 order. The 2024 rules capped calls at $0.06 per minute for large prisons and jails. The 2025 order raised those caps significantly. The new interim rate caps took effect April 6, 2026 following publication in the Federal Register.",
+          "Under the rules in effect as of April 6, 2026, phone calls cost up to $0.11 per minute at large prisons, $0.14 per minute at medium facilities, $0.16 per minute at small facilities, and $0.18 per minute at the smallest jails. Video call rates are capped at up to $0.23 per minute at large facilities and up to $0.41 per minute at the smallest jails. These caps apply to all intrastate, interstate, and international calls except for additional international call termination charges.",
+          "The FCC described these as interim caps while permanent rules are developed. Worth Rises advocacy organization called the changes a betrayal of families. Only three states, Florida, Kentucky, and Oklahoma, had rates above the new caps at the time of the vote, meaning most facilities were already operating below the new ceilings. Critics argue the higher caps create room for providers to increase rates toward the new maximum.",
+          "The 2025 order is labeled interim, meaning permanent rate caps are still being negotiated. The political situation at the FCC can affect the direction of future rules. Families who want to stay current on rate changes should bookmark the FCC IPCS page at fcc.gov/general/ipcs which publishes current rules and rate tables.",
+        ],
+      },
+      {
+        heading: "Mail Scanning Policies by State in 2026",
+        body: [
+          "Mail scanning has expanded significantly across state prison systems. As of 2026, the majority of state prison systems either scan incoming mail off-site or use guards to photocopy mail before it reaches inmates. Oklahoma banned physical mail from entering state prisons in September 2024 and now scans all mail at an off-site processing center, delivering it digitally to inmate tablets.",
+          "The Prison Policy Initiative maintains an appendix tracking mail scanning policies by state updated through 2026 at prisonpolicy.org. This resource shows when each state implemented mail scanning, where processing takes place, and who conducts it. Families who previously mailed letters and photos directly should check this resource before sending to confirm whether their state has moved to a scanning system.",
+          "When a state uses mail scanning, your physical letter is delivered to a processing center rather than the facility. Staff or contractors scan the letter and deliver it electronically or as a photocopy. The original physical letter may be destroyed rather than stored. Some states allow families to opt for digital submission directly through an approved platform to avoid the physical mail scanning process entirely.",
+          "Some sheriffs have attempted to limit jail mail to postcard-only format, requiring all communication to fit on a standard postcard. The Prison Policy Initiative has actively campaigned against postcard-only mail restrictions and offers tools for advocates to push back against these policies at the county level. Families affected by postcard-only restrictions can contact local advocacy organizations for support.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -3056,6 +3083,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Facility-level rules can differ from state-level policy.",
       "Rules change when contracts change or legislation is updated.",
       "Do not assume rules from one state or facility apply to another.",
+      "As of 2026, states with free phone calls at state prisons include California, Colorado, Connecticut, Massachusetts, Minnesota, and New York. New York made calls free on August 1, 2025.",
+      "New FCC rate caps took effect April 6, 2026. Phone calls cost up to $0.11 per minute at large prisons and up to $0.18 per minute at the smallest jails.",
+      "Video call caps under the April 2026 rules are $0.23 per minute at large facilities and up to $0.41 per minute at the smallest jails.",
+      "Oklahoma banned physical mail from state prisons in September 2024 and now delivers all mail digitally to inmate tablets after off-site scanning.",
+      "Check prisonpolicy.org for a state-by-state mail scanning appendix updated through 2026 to find out if your state scans mail before delivery.",
     ],
 
     faq: [
@@ -3074,6 +3106,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Do federal prisons follow state rules?",
         answer: "No. Federal prisons follow BOP policy, which applies uniformly across all federal facilities regardless of what state they are in.",
+      },
+      {
+        question: "Which states have free phone calls from prison in 2026?",
+        answer: "As of 2026, states with free phone calls at state prisons include California, Colorado (fully effective 2026), Connecticut, Massachusetts, Minnesota, and New York. New York made calls free on August 1, 2025, the first state to do so administratively without legislation. Free call programs apply only to state-operated facilities. County jails and private facilities within these states may not be covered.",
+      },
+      {
+        question: "What are the current FCC prison phone rate caps in 2026?",
+        answer: "The FCC's 2025 interim order, effective April 6, 2026, set caps of $0.11 per minute at large prisons, $0.14 at medium facilities, $0.16 at small facilities, and $0.18 at the smallest jails. Video call caps are $0.23 per minute at large facilities and up to $0.41 at the smallest jails. These are interim caps while permanent rules are developed. The 2025 order raised rates from the $0.06 per minute cap set in 2024.",
+      },
+      {
+        question: "What is mail scanning and does my state use it?",
+        answer: "Mail scanning is a system where incoming physical mail is sent to an off-site processing center, scanned, and delivered to inmates electronically or as photocopies rather than as original physical letters. Oklahoma banned physical mail entirely in September 2024 and now delivers all mail digitally. Check the Prison Policy Initiative mail scanning appendix at prisonpolicy.org for a state-by-state list updated through 2026.",
+      },
+      {
+        question: "My state has free phone calls. Do I still need a prepaid account?",
+        answer: "In states with free phone calls at state prisons, families typically do not need to fund a prepaid calling account for state prison calls. The calls are covered under the state contract at no charge to the family. However, confirm with the specific facility how the free call program works in practice, as implementation details vary. Free call programs do not apply to federal prisons or county jails unless those facilities have their own separate free call programs.",
       },
     ],
 

@@ -2740,6 +2740,39 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Consider making your first visit alone before bringing children. This lets you see the environment firsthand and gives you the ability to prepare children with accurate details about what to expect. Children who know what is coming handle the experience significantly better than those who do not.",
         ],
       },
+      {
+        heading: "The Walmart Mistake: A Real Story About Dress Code Enforcement",
+        body: [
+          "One of the most documented stories shared by prison visit consultants involves a woman who drove hours to visit a federal prison only to be turned away because the color of her clothing looked too similar to prisoner clothing. She then drove to a nearby Walmart, bought different clothes, and returned for her visit. This story illustrates how dress code enforcement works in practice and why experienced visitors advise dressing in a way that cannot be questioned.",
+          "The advice from those with experience visiting federal Bureau of Prisons facilities is to dress boring on purpose. Choose neutral colors that are not khaki, tan, orange, or any shade used for prisoner uniforms at that facility. Nothing tight. Nothing low-cut. Nothing that can be questioned. The goal is to get through the door, not to make a fashion statement. Read the facility-specific visiting procedures before every visit because local rules supplement the general institutional dress code.",
+          "Federal prison wardens have authority to restrict visit length or the number of visitors at one time to avoid overcrowding. This means you can drive hours and receive a shorter visit than expected. BOP policy entitles each inmate to a minimum of four hours of visitation per month, but the facility can offer more or restrict visits to manage capacity. Conjugal visits are not permitted at any federal Bureau of Prisons facility.",
+        ],
+      },
+      {
+        heading: "Complete Dress Code Checklist for Prison Visits",
+        body: [
+          "Clothing restrictions that apply at most facilities include the following. No clothing resembling inmate uniforms including all-orange, all-khaki, all-white, or military camouflage. No revealing clothing including shorts above the knee, tank tops, low-cut shirts, or sheer fabrics. Sleeves required at most facilities with a minimum length of at least two inches at some institutions. No open-toed shoes at most facilities. No excessive jewelry — a wedding ring and small earrings are generally permitted. No hats or head coverings except religious head coverings which are generally permitted with prior approval.",
+          "Items that cause the most preventable turn-aways include underwire bras that trigger metal detectors, leggings worn without a top that covers the hips when arms are raised, button-front shirts left unbuttoned enough to show a low neckline, and any color that can be questioned as similar to prisoner clothing. Philadelphia specifically prohibits plain white t-shirts. Dauphin County Prison requires sleeves of at least two inches. Rules vary by facility and are enforced at the discretion of the officer at the entrance.",
+          "A practical solution adopted by many experienced visitors is to keep a bag in the vehicle with a change of clothes. If you are turned away for a dress code issue, you can change in the parking lot and return on the same day. This eliminates the wasted trip. Choose the backup outfit to be the most conservative option possible — solid neutral colors, fully covered, no jewelry, flat closed-toe shoes.",
+        ],
+      },
+      {
+        heading: "Bringing Children to a Prison Visit: What to Know and How to Prepare",
+        body: [
+          "Research shows that children maintaining contact with an incarcerated parent strengthens family bonds and benefits both the child and the parent. Studies point to lower recidivism rates for prisoners who stay connected to supportive family members. However, prisons can be intimidating environments for children, particularly for a first visit. Preparation before the visit makes a significant difference in how children experience it.",
+          "Before bringing children, visit alone first. This allows you to see the environment firsthand, understand the security process, and prepare the children with accurate details about what to expect. Children who are told what to expect handle the experience significantly better than those who are not. Explain that there will be security checks similar to an airport, that there may be dogs on site at some facilities, that they will go through a metal detector, and that guards may pat them down.",
+          "Children face the same security screening as adults. All visitors including children must be searched before entering. Consider the impact of long lines and wait times on children who cannot bring books, toys, or food into the facility. Children may become hungry, tired, and irritable before the visit even begins. Bring approved snacks in a clear plastic bag if the facility allows it and arrive early to allow time for processing.",
+          "Children under 16 are generally allowed to visit when accompanied by a responsible adult. Some facilities provide child-friendly areas in the visiting room. Children in foster care visiting an incarcerated parent may require additional coordination between the facility, the child welfare agency, and the foster caregiver. Contact the facility in advance if your situation involves any non-standard guardianship arrangement.",
+        ],
+      },
+      {
+        heading: "Video Visits as an Alternative to In-Person Visits",
+        body: [
+          "Video visitation has expanded significantly since the pandemic and is now a permanent option at most facilities. Video visits cost between $0 and $12 per session depending on the facility and provider, compared to the cost and time of traveling to the facility in person. For families who live far from the facility, video visits provide a practical and more frequent connection option between in-person visits.",
+          "Major video visitation providers include JPay through ViaPath, ConnectNetwork through GTL, Securus, and GettingOut through Telmate. Sessions are scheduled in advance through the provider platform and typically last 20 to 30 minutes. All visits are recorded and monitored by facility staff.",
+          "Some facilities have moved to video-only visitation, replacing traditional in-person contact visits entirely. At these facilities, even when you travel to the location in person, you visit through a video terminal in the lobby rather than in a physical room with the inmate. Always call ahead to confirm what type of visit is available before making a trip to the facility.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -2751,6 +2784,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Most contact visits allow a brief hug and kiss at the beginning and end only. During the visit, holding hands is typically the limit of physical contact.",
       "The first visit is often emotional and awkward. This is normal. It gets easier with each subsequent visit.",
       "If bringing children, explain what to expect in advance and confirm documentation requirements with the facility beforehand.",
+      "Dress boring on purpose for prison visits. Choose neutral colors that cannot be questioned as similar to prisoner clothing. The goal is to get through the door.",
+      "Keep a backup change of clothes in your vehicle. If you are turned away for a dress code issue, you can change in the parking lot and return the same day.",
+      "Visit alone before bringing children. This lets you see the environment firsthand and prepare them with accurate details about what to expect.",
+      "Federal BOP inmates are entitled to a minimum of four hours of visitation per month. Wardens can restrict visits for overcrowding but cannot fall below this minimum.",
+      "Video visits cost $0 to $12 per session and are now a permanent option at most facilities. They provide a practical connection option between in-person visits.",
     ],
 
     faq: [
@@ -2781,6 +2819,26 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Can I bring my children to visit someone in prison?",
         answer: "Yes, but children must be on the approved visitor list and follow the same dress code as adults. If you are not the child's parent, you may need guardianship documentation. Consider visiting alone first so you can prepare the children for what to expect. Call the facility to confirm all requirements for minors before bringing them.",
+      },
+      {
+        question: "What is the most common reason visitors are turned away at prison?",
+        answer: "Dress code violations are the most common reason. Clothing that resembles prisoner uniforms, including khaki, tan, orange, or military camouflage, is the most frequently cited issue. Revealing clothing, open-toed shoes, and excessive jewelry also cause turn-aways. Read the facility-specific visiting procedures before every visit and keep a change of conservative clothing in your vehicle as a backup.",
+      },
+      {
+        question: "Do children go through the same security screening as adults at a prison?",
+        answer: "Yes, children are generally permitted to visit when accompanied by an approved adult. Children under 16 typically do not need their own ID. All children are subject to the same security screening as adults including metal detectors. Visit alone first before bringing children so you can prepare them for what to expect. Confirm any special documentation requirements if you are not the child's parent.",
+      },
+      {
+        question: "How many times can I visit someone in federal prison per month?",
+        answer: "Federal Bureau of Prisons inmates are entitled to a minimum of four hours of visitation per month. Facilities can offer more and can restrict the length or number of visitors at one time to manage overcrowding. Conjugal visits are not permitted at any federal facility. Check the specific facility visiting schedule as visiting hours vary by institution.",
+      },
+      {
+        question: "Are video visits cheaper than traveling to the facility in person?",
+        answer: "For most families, yes. Video visits cost between $0 and $12 per session depending on the facility and provider. When you factor in travel time, fuel or transportation costs, and time off work for an in-person visit, video visits are significantly less expensive for families who live far from the facility. Video visits also allow more frequent contact between in-person visits.",
+      },
+      {
+        question: "What should I tell my children before their first prison visit?",
+        answer: "Tell them what the building looks like from outside. Explain that there will be security checks similar to an airport, that they will go through a metal detector, and that a guard may pat them down. Tell them there may be dogs on site at some facilities. Explain that they cannot bring toys, books, or food inside. Describe what the visiting room looks like. Children who know what to expect handle the experience significantly better than those who are surprised.",
       },
     ],
 

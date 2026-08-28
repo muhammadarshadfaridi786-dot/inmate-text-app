@@ -17,7 +17,9 @@ export interface CountyBasic {
 
 export interface CountyDetail extends CountyBasic {
   description: string
-  intro: string[]
+  intro?: string[]
+  overview?: string[]
+  faq?: { question: string; answer: string }[]
   facilitiesByType: {
     federal: number
     state: number
@@ -223,6 +225,47 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "As of June 16, 2025, Harris County Sheriff's Office no longer accepts personal physical mail at the facility. All personal mail now goes to the Securus Digital Mail Center where it is scanned and made available to inmates through eMessaging tablets and kiosks. Families must include the inmate full name as booked, SPN number, and housing facility and cell block location on all mail. Missing details can cause your envelope to be returned.",
 
       "Phone calls from Harris County Jail are inmate-initiated only. You cannot call the jail to reach an inmate. Your loved one must place the call out. To receive calls, set up a Securus AdvancePay account by calling Securus at 1-800-844-6591. For LaSalle Corrections Center, contact Correct Solutions Group separately at 1-877-618-3516.",
+    ],
+
+    overview: [
+      "Which provider do Harris County jail families use? Securus Technologies handles phone calls and video visits at the Harris County Jail on Baker Street. LaSalle Corrections Center uses Correct Solutions Group. These are separate companies and separate accounts. Funds in a Securus account cannot be transferred to a Correct Solutions Group account when an inmate transfers between facilities.",
+      "What happened to mail at Harris County Jail? As of June 16, 2025, physical mail is no longer accepted directly at the facility. All mail goes through the Securus Digital Mail Center for scanning before delivery. Include the inmate full name as booked, SPN number, and complete housing location on every envelope to avoid returns.",
+      "What is the most common mistake Harris County families make? Signing up for the wrong provider is the most common mistake. Families with loved ones at LaSalle sign up for Securus when they should be using Correct Solutions Group. Always confirm which specific facility your loved one is currently at before creating any account or sending funds.",
+    ],
+
+    faq: [
+      {
+        question: "Which provider do I use for Harris County Jail?",
+        answer: "Securus Technologies handles phone calls and video visits at the Harris County Jail on Baker Street. Call Securus at 1-800-844-6591 to set up a prepaid AdvancePay account. If your loved one is at the LaSalle Corrections Center, use Correct Solutions Group instead at 1-877-618-3516. These are separate systems and funds cannot be transferred between them.",
+      },
+      {
+        question: "Why is my phone blocked from receiving calls from Harris County Jail?",
+        answer: "If you are not receiving calls from Harris County Jail, your phone number may be blocked or not registered with Securus. Contact Securus at 1-800-844-6591 to check your number status and remove any block. Also check that your phone settings are not sending unknown numbers to voicemail. Collect calls may also be restricted depending on your phone carrier.",
+      },
+      {
+        question: "Can I send physical mail to someone at Harris County Jail?",
+        answer: "As of June 16, 2025, Harris County Sheriff's Office no longer accepts personal mail directly at the facility. All personal mail now goes to the Securus Digital Mail Center where it is scanned and delivered digitally. Include the inmate full name as booked, SPN number, and housing facility and cell block location. Missing information will cause your mail to be returned.",
+      },
+      {
+        question: "What is the SPN number and where do I find it?",
+        answer: "The SPN (System Person Number) is the identification number assigned to everyone booked into Harris County Jail. You need this number for mail, messaging accounts, and money transfers. You can find it by searching the Harris County Sheriff's Office online inmate locator or by calling the jail directly.",
+      },
+      {
+        question: "My loved one transferred from Harris County Jail to LaSalle. Do I need a new account?",
+        answer: "Yes. Harris County Jail uses Securus Technologies and LaSalle Corrections Center uses Correct Solutions Group. These are separate systems and funds cannot be transferred between them. Contact each company separately when an inmate moves between facilities. Call Securus at 1-800-844-6591 for the main jail and Correct Solutions Group at 1-877-618-3516 for LaSalle.",
+      },
+      {
+        question: "How do I send money to someone at Harris County Jail?",
+        answer: "For the main Harris County Jail, deposit money through Securus at securustech.net or by calling 1-800-844-6591. For LaSalle Corrections Center, use Correct Solutions Group at 1-877-618-3516. Money deposited in one system cannot be transferred to the other. Always confirm which facility your loved one is currently at before making a deposit.",
+      },
+      {
+        question: "What happens if my loved one transfers from Harris County Jail to a Texas state prison?",
+        answer: "When someone moves from Harris County Jail to a Texas Department of Criminal Justice state prison, the communication provider changes. TDCJ uses Securus Technologies for phone calls but you must register your phone number separately through the TDCJ Friends and Family Enrollment system on the TDCJ website. Your existing Harris County Securus account may not automatically carry over to TDCJ.",
+      },
+      {
+        question: "Can I do a video visit with someone at Harris County Jail?",
+        answer: "Yes. Video visits at Harris County Jail are available through Securus. Create a Securus account at securustech.net or through the Securus Mobile app. Schedule your visit in advance and select an available time slot. You need a device with a camera and a stable internet connection. All video visits are recorded and monitored by facility staff.",
+      },
     ],
 
     facilitiesByType: { federal: 2, state: 4, county: 10, private: 2 },

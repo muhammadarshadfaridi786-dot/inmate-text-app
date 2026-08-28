@@ -34,6 +34,47 @@ export default async function CountyPage({ params }: PageProps) {
   const county = COUNTY_DETAILS[slug]
   if (!county) notFound()
 
+  const hasCustomOverview =
+    (county.intro?.length ?? 0) > 0 || (county.overview?.length ?? 0) > 0
+
+  const faqItems =
+    county.faq && county.faq.length > 0
+      ? county.faq.map((item) => ({ q: item.question, a: item.answer }))
+      : [
+          {
+            q: `Which provider do I use for ${county.name} county jail?`,
+            a: `The most common providers at county jails in ${county.name} are GettingOut by Telmate and ConnectNetwork by GTL. However, the correct provider depends on the specific facility. Select the facility above to confirm which provider is active before creating an account. Using the wrong provider means your messages and deposits will not reach your loved one.`,
+          },
+          {
+            q: `How do I avoid signing up for the wrong provider in ${county.name}?`,
+            a: `Always confirm the exact facility name and location first. Then select that facility from this directory to see which provider is confirmed. Do not search for "inmate phone account" without first knowing the exact provider. General searches often lead to the wrong platform. Start with a small initial deposit to confirm the platform works before adding a large balance.`,
+          },
+          {
+            q: `Are messaging funds and phone funds the same account in ${county.name}?`,
+            a: `Not always. At many ${county.name} facilities, the messaging account and the phone call account are separate and funds cannot be transferred between them. Always confirm which account type you are funding before making a deposit.`,
+          },
+          {
+            q: `How much do phone calls cost from ${county.name} jails?`,
+            a: `Under current FCC rules, interstate calls from county jails are capped at $0.11 per minute for large facilities. In-state rates vary. Some counties offer free calls. Contact the specific facility or check the provider account dashboard to find the exact rate.`,
+          },
+          {
+            q: `What happens when my loved one transfers from a ${county.name} jail to a state prison?`,
+            a: `The communication provider changes when someone moves from a county jail to a state prison. Your existing county jail accounts and balances do not transfer to the state prison platform. You will need to create new accounts on the state prison provider, most commonly JPay or ConnectNetwork.`,
+          },
+          {
+            q: `How do I send money to someone in a ${county.name} facility?`,
+            a: `Money transfers go to the inmate trust account through the facility approved provider. Common providers include JPay, Access Corrections, TouchPay, and ConnectNetwork. Select the specific facility above to find which money transfer provider serves that location.`,
+          },
+          {
+            q: `Can I do a video visit with someone in ${county.name} jail?`,
+            a: `Video visitation is available at many county jails in ${county.name} through providers like GettingOut or ConnectNetwork. Sessions must be scheduled in advance through the provider platform. You need a device with a camera and a stable internet connection. Check the specific facility page to confirm whether video visits are available and which provider to use.`,
+          },
+          {
+            q: `What is the difference between a ${county.name} county jail and a state prison?`,
+            a: `County jails in ${county.name} are operated by local government and typically hold people awaiting trial or serving short sentences of less than one year. State prisons are operated by the state Department of Corrections and hold people serving longer sentences. Each uses different communication providers with different rules and costs.`,
+          },
+        ]
+
   return (
     <>
       <JsonLd
@@ -84,44 +125,65 @@ export default async function CountyPage({ params }: PageProps) {
             </div>
 
             <div className="space-y-4 text-sm text-muted-foreground">
-              <div>
-                <p className="font-medium text-foreground mb-1">
-                  Which provider do {county.name} county jails use?
-                </p>
-                <p>
-                  {county.name} correctional facilities contract with specific providers
-                  for each communication type. County jails most commonly use GettingOut
-                  by Telmate or ConnectNetwork by GTL. State prisons serving {county.name}
-                  residents typically use JPay or Securus. Federal facilities use CorrLinks
-                  for messaging. The provider you need depends entirely on which specific
-                  facility your loved one is housed in.
-                </p>
-              </div>
-              <div>
-                <p className="font-medium text-foreground mb-1">
-                  What is the most common mistake families make in {county.name}?
-                </p>
-                <p>
-                  Signing up for the wrong provider is the most common mistake.
-                  Families search for "inmate phone account" and sign up with a company
-                  that does not serve their loved one facility. Always confirm the exact
-                  facility name first, then use this directory to find the correct provider
-                  before creating any account or sending any funds.
-                </p>
-              </div>
-              <div>
-                <p className="font-medium text-foreground mb-1">
-                  Are phone calls free at {county.name} facilities?
-                </p>
-                <p>
-                  Phone call costs depend on the specific facility and provider contract.
-                  Under current FCC rules in effect as of 2026, interstate calls are capped
-                  at $0.11 per minute for large jails. Some counties have eliminated call
-                  charges entirely. Minnesota DOC calls are free. Some California, New York,
-                  and Colorado facilities also offer free calls. Contact the specific facility
-                  to confirm whether free calls apply at that location.
-                </p>
-              </div>
+              {hasCustomOverview ? (
+                <>
+                  {county.intro?.map((paragraph, i) => (
+                    <p key={`intro-${i}`}>{paragraph}</p>
+                  ))}
+                  {county.overview?.map((item, i) => {
+                    const splitAt = item.indexOf("?")
+                    const question = splitAt >= 0 ? item.slice(0, splitAt + 1) : item
+                    const answer = splitAt >= 0 ? item.slice(splitAt + 1).trim() : ""
+                    return (
+                      <div key={`overview-${i}`}>
+                        <p className="font-medium text-foreground mb-1">{question}</p>
+                        {answer && <p>{answer}</p>}
+                      </div>
+                    )
+                  })}
+                </>
+              ) : (
+                <>
+                  <div>
+                    <p className="font-medium text-foreground mb-1">
+                      Which provider do {county.name} county jails use?
+                    </p>
+                    <p>
+                      {county.name} correctional facilities contract with specific providers
+                      for each communication type. County jails most commonly use GettingOut
+                      by Telmate or ConnectNetwork by GTL. State prisons serving {county.name}
+                      residents typically use JPay or Securus. Federal facilities use CorrLinks
+                      for messaging. The provider you need depends entirely on which specific
+                      facility your loved one is housed in.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground mb-1">
+                      What is the most common mistake families make in {county.name}?
+                    </p>
+                    <p>
+                      Signing up for the wrong provider is the most common mistake.
+                      Families search for "inmate phone account" and sign up with a company
+                      that does not serve their loved one facility. Always confirm the exact
+                      facility name first, then use this directory to find the correct provider
+                      before creating any account or sending any funds.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground mb-1">
+                      Are phone calls free at {county.name} facilities?
+                    </p>
+                    <p>
+                      Phone call costs depend on the specific facility and provider contract.
+                      Under current FCC rules in effect as of 2026, interstate calls are capped
+                      at $0.11 per minute for large jails. Some counties have eliminated call
+                      charges entirely. Minnesota DOC calls are free. Some California, New York,
+                      and Colorado facilities also offer free calls. Contact the specific facility
+                      to confirm whether free calls apply at that location.
+                    </p>
+                  </div>
+                </>
+              )}
             </div>
 
             {county.providers.length > 0 && (
@@ -179,40 +241,7 @@ export default async function CountyPage({ params }: PageProps) {
                 Frequently Asked Questions for {county.name}
               </h2>
               <div className="space-y-2">
-                {[
-                  {
-                    q: `Which provider do I use for ${county.name} county jail?`,
-                    a: `The most common providers at county jails in ${county.name} are GettingOut by Telmate and ConnectNetwork by GTL. However, the correct provider depends on the specific facility. Select the facility above to confirm which provider is active before creating an account. Using the wrong provider means your messages and deposits will not reach your loved one.`,
-                  },
-                  {
-                    q: `How do I avoid signing up for the wrong provider in ${county.name}?`,
-                    a: `Always confirm the exact facility name and location first. Then select that facility from this directory to see which provider is confirmed. Do not search for "inmate phone account" without first knowing the exact provider. General searches often lead to the wrong platform. Start with a small initial deposit to confirm the platform works before adding a large balance.`,
-                  },
-                  {
-                    q: `Are messaging funds and phone funds the same account in ${county.name}?`,
-                    a: `Not always. At many ${county.name} facilities, the messaging account and the phone call account are separate and funds cannot be transferred between them. Always confirm which account type you are funding before making a deposit.`,
-                  },
-                  {
-                    q: `How much do phone calls cost from ${county.name} jails?`,
-                    a: `Under current FCC rules, interstate calls from county jails are capped at $0.11 per minute for large facilities. In-state rates vary. Some counties offer free calls. Contact the specific facility or check the provider account dashboard to find the exact rate.`,
-                  },
-                  {
-                    q: `What happens when my loved one transfers from a ${county.name} jail to a state prison?`,
-                    a: `The communication provider changes when someone moves from a county jail to a state prison. Your existing county jail accounts and balances do not transfer to the state prison platform. You will need to create new accounts on the state prison provider, most commonly JPay or ConnectNetwork.`,
-                  },
-                  {
-                    q: `How do I send money to someone in a ${county.name} facility?`,
-                    a: `Money transfers go to the inmate trust account through the facility approved provider. Common providers include JPay, Access Corrections, TouchPay, and ConnectNetwork. Select the specific facility above to find which money transfer provider serves that location.`,
-                  },
-                  {
-                    q: `Can I do a video visit with someone in ${county.name} jail?`,
-                    a: `Video visitation is available at many county jails in ${county.name} through providers like GettingOut or ConnectNetwork. Sessions must be scheduled in advance through the provider platform. You need a device with a camera and a stable internet connection. Check the specific facility page to confirm whether video visits are available and which provider to use.`,
-                  },
-                  {
-                    q: `What is the difference between a ${county.name} county jail and a state prison?`,
-                    a: `County jails in ${county.name} are operated by local government and typically hold people awaiting trial or serving short sentences of less than one year. State prisons are operated by the state Department of Corrections and hold people serving longer sentences. Each uses different communication providers with different rules and costs.`,
-                  },
-                ].map((item, i) => (
+                {faqItems.map((item, i) => (
                   <details key={i} className="rounded-lg border group">
                     <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-sm list-none">
                       {item.q}

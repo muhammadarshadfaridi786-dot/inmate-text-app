@@ -3651,6 +3651,30 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Video visit costs vary by facility but typically range from $7.50 to $15 per session. All visits are recorded and monitored. Follow the same content rules that apply to phone calls.",
         ],
       },
+      {
+        heading: "GTL ViaPath Lost California and What It Means for Families",
+        body: [
+          "GTL ViaPath Technologies lost its California CDCR contract to Securus Technologies in February 2025 following a court ruling that vacated the prior ViaPath contract. California had been one of ViaPath's largest state contracts. The transition from ViaPath to Securus at California institutions began in September 2025 and continued through spring 2026. California families whose loved ones have transitioned to Securus must now create Securus accounts and can no longer use ConnectNetwork for those facilities.",
+          "During the California transition, ViaPath maintained an emergency interim agreement with CDCR to prevent service gaps. Families were advised to check the CDCR website for the transition schedule by facility before switching to Securus accounts. If a loved one was transferred to a facility still on ViaPath during the transition, families needed to continue using ConnectNetwork until that facility also completed its switch.",
+          "ViaPath content including messages, photos, and media did not transfer to Securus tablets. California families who had years of digital communication history stored on ViaPath tablets lost access to that content permanently after their institution's transition date. CDCR stated that incarcerated individuals could request their digital content from ViaPath upon release, though this option may not apply to those serving longer terms.",
+        ],
+      },
+      {
+        heading: "GTL ViaPath Ordered to Pay $3 Million by Consumer Financial Protection Bureau",
+        body: [
+          "In November 2024, the federal Consumer Financial Protection Bureau ordered GTL, doing business as ViaPath Technologies, to pay $3 million in restitution and penalties for violations of consumer protection laws. The CFPB identified three specific practices that violated consumer protection laws.",
+          "The first violation was a no-refund policy for most money transfers. When money transfers went wrong, families were forced to file chargebacks with their banks or credit card companies rather than receiving direct refunds from GTL. The second violation involved unclear and deceptive fee disclosures that made it difficult for consumers to understand what they were being charged. The third violation involved specific practices related to how funds were handled when accounts were closed or transfers failed.",
+          "The CFPB enforcement capacity has been significantly reduced since early 2025 following staff reductions. It remains to be seen how effectively the agency can enforce this order. Families who experienced problems with GTL money transfers should document all transactions and contact GTL customer service directly. If GTL does not resolve the issue, file a complaint with your state attorney general consumer protection office as state-level enforcement remains active.",
+        ],
+      },
+      {
+        heading: "New Jersey Transition From JPay to ViaPath in 2025 and 2026",
+        body: [
+          "New Jersey began transitioning its state prisons from JPay to ViaPath tablets in 2025. Three facilities including Bayside State Prison in Leesburg, Mid State Correctional Facility in Wrightstown, and Edna Mahan Correctional Facility for Women in Clinton completed their transitions first. Six additional facilities were expected to receive ViaPath tablets by end of July 2026. The NJ DOC Commissioner noted some technical glitches in initial rollouts and stated the department was proceeding carefully before expanding to larger facilities.",
+          "New Jersey maintained contracts with both JPay and ViaPath simultaneously during the transition period. The JPay contract was extended through July 31, 2026, and the ViaPath contract runs through December 31, 2028. Families with loved ones at facilities that have transitioned to ViaPath must use ConnectNetwork for messaging and money transfers. Families at facilities still on JPay continue to use JPay until their facility transitions.",
+          "A civil rights lawsuit was filed in July 2026 challenging the New Jersey transition from JPay to ViaPath. Incarcerated people in the lawsuit argued they were led to believe content purchased on JPay tablets would remain accessible and that the switch resulted in significant cost increases. The Marshall Project reported on how incarcerated people become the unwilling consumers of a billion-dollar industry when states switch providers without protecting purchased content or managing transition costs.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -3661,6 +3685,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Phone calls use the AdvancePay prepaid system. Fund your account before the inmate calls.",
       "Video visits are available at select facilities. Schedule through your ConnectNetwork account.",
       "Federal BOP inmates use CorrLinks for messaging even at facilities where GTL handles phone calls.",
+      "GTL ViaPath lost its California CDCR contract to Securus in February 2025. California families must now use Securus for facilities that have completed their transition.",
+      "The CFPB ordered GTL ViaPath to pay $3 million in November 2024 for consumer protection violations including a no-refund policy on money transfers.",
+      "New Jersey is transitioning from JPay to ViaPath in 2025 and 2026. JPay contract extended through July 31, 2026. ViaPath contract runs through December 31, 2028.",
+      "ViaPath messages, photos, and media do not transfer during provider switches. Content is permanently lost after the facility transition date.",
+      "If GTL does not resolve a billing dispute, file a complaint with your state attorney general consumer protection office. State-level enforcement remains active.",
     ],
 
     faq: [
@@ -3687,6 +3716,22 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "How much do GTL phone calls cost?",
         answer: "GTL interstate call rates are capped by the FCC at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules. In-state rates vary by facility. Log in to your ConnectNetwork account to see the specific rate for your loved one facility.",
+      },
+      {
+        question: "Does ConnectNetwork still work for California state prisons?",
+        answer: "Not at facilities that have completed the transition to Securus. California awarded its CDCR contract to Securus in February 2025 and transitions began in September 2025. For facilities that have already switched, families must use Securus for phone calls, video visits, and messaging. For facilities still using ViaPath during the transition period, ConnectNetwork continues to work. Check cdcr.ca.gov/family-resources/tablets for the current transition schedule.",
+      },
+      {
+        question: "Was GTL fined for consumer protection violations?",
+        answer: "Yes. In November 2024, the Consumer Financial Protection Bureau ordered GTL ViaPath to pay $3 million in restitution and penalties. The violations included a no-refund policy for money transfers that forced families to file bank chargebacks instead of receiving direct refunds, and unclear fee disclosures. If you experienced problems with GTL money transfers, contact GTL customer service and if unresolved file a complaint with your state attorney general consumer protection office.",
+      },
+      {
+        question: "My loved one is in a New Jersey state prison. Do I use JPay or ViaPath?",
+        answer: "It depends on which facility and when. New Jersey began transitioning from JPay to ViaPath in 2025. Three facilities completed their transitions early in 2026 and more are expected by end of July 2026. The JPay contract runs through July 31, 2026. Check with the specific facility to confirm which provider is currently active. If your facility has transitioned, use ConnectNetwork at connectnetwork.com. If it has not yet transitioned, continue using JPay.",
+      },
+      {
+        question: "What happened to ViaPath content when California switched to Securus?",
+        answer: "ViaPath messages, photos, and media did not transfer to Securus tablets. Once a California facility completed its transition, incarcerated individuals permanently lost access to content stored on their ViaPath account. CDCR stated that incarcerated individuals could request their digital content from ViaPath upon release. Families were advised to have their loved one print important messages or photos from the ViaPath tablet before the institution's transition date.",
       },
     ],
 

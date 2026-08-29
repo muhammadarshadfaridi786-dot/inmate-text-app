@@ -588,11 +588,50 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in San Diego County. Compare messaging, video, and phone providers for San Diego County correctional facilities.",
 
     intro: [
-      "San Diego County operates a network of detention facilities managed by the San Diego County Sheriff's Department, including the Central Jail in downtown San Diego, the Las Colinas Women's Detention and Reentry Facility in Santee, the East Mesa Reentry Facility, and the George Bailey Detention Facility in Otay Mesa. The county also contains several state correctional facilities and is near the US-Mexico border, which means federal immigration detention is also part of the local correctional landscape. Each type of facility operates under distinct communication rules.",
+      "San Diego County operates its jail system through the San Diego County Sheriff's Department. Major facilities include San Diego Central Jail, George Bailey Detention Facility, Vista Detention Facility, and East Mesa Reentry Facility. All phone, video, and email communication at San Diego County jails is handled through Smart Communications using the SmartInmate system. Contact Smart Communications customer service at 1-727-349-1561 or at smartjailmail.com.",
+      "Phone calls from San Diego County jails are free for all local, long distance, and international calls. No funding is required to receive calls. You still need to create a free Smart Communications account at smartjailmail.com to be added to the approved call list. Each call is limited to 15 minutes. Calls display from the number 727-349-1561. Save this number in your contacts or some mobile carriers may flag it as spam and filter it out.",
+      "Important mail notice: San Diego County no longer accepts mail sent directly to six detention facilities. All mail must be sent to the county's central Mail Processing Center rather than to the facility address. Mail sent directly to a facility is rejected and returned to the sender. Electronic messages through SmartInmate must be plain text only, limited to one page, with no pictures or attachments. Staff reviews all messages before delivery.",
+    ],
 
-      "Securus Technologies provides phone and video services for the San Diego County Sheriff's Department jail facilities. Families setting up accounts through Securus can make deposits and schedule remote video visits at county facilities. California state facilities within San Diego County — including the R.J. Donovan Correctional Facility — operate under California Department of Corrections and Rehabilitation contracts and primarily use JPay for messaging, photo sharing, and money transfer. Federal facilities in the county or nearby, including those managed by the Bureau of Prisons or ICE, use separate systems that are not compatible with county or state accounts.",
+    overview: [
+      "Which provider do San Diego County jail families use? Smart Communications handles all phone calls, video visits, and electronic messaging at San Diego County jails through the SmartInmate system. This is different from most jails which use Securus, GTL, or JPay. If you previously had an account with another provider from a different county, you will need a new Smart Communications account for San Diego County facilities.",
+      "Are phone calls free at San Diego County jails? Yes. Phone calls from San Diego County jail facilities have been free since July 1, 2021. Each call is limited to 15 minutes and calls are unlimited in number per day. No funds need to be deposited to receive calls. You still need a registered Smart Communications account at smartjailmail.com to receive calls.",
+      "What is the most common mistake San Diego County families make? Missing calls because 727-349-1561 is flagged as spam is the most common problem. When San Diego County jails switched to Smart Communications, calls began displaying from this vendor number rather than a local number. Save 727-349-1561 in your contacts immediately. Check your spam or blocked calls list if you are not receiving calls from your loved one.",
+    ],
 
-      "This guide brings together facility and provider information for San Diego County correctional facilities so families can quickly identify what they need. Whether you are setting up a Securus account for a county jail, arranging a JPay account for a state prison, or trying to understand communication options at a federal or immigration detention facility, this directory helps you find the right path forward without unnecessary delays.",
+    faq: [
+      {
+        question: "Which provider do I use for San Diego County jails?",
+        answer: "San Diego County jails use Smart Communications through the SmartInmate system for phone calls, video visits, and electronic messaging. Create a free account at smartjailmail.com. For customer service call 1-727-349-1561. This is a different provider from most other jails. Do not set up a Securus, JPay, or ConnectNetwork account for San Diego County facilities.",
+      },
+      {
+        question: "Are phone calls free at San Diego County jails?",
+        answer: "Yes. Phone calls from San Diego County jail facilities have been free since July 1, 2021. Each call is limited to 15 minutes. No funds need to be deposited. You still need a free Smart Communications account at smartjailmail.com to be on the approved call list. Account creation is free and required before calls can connect.",
+      },
+      {
+        question: "Why am I not receiving calls from San Diego County jail?",
+        answer: "The most common reason is that calls from San Diego County jails display from the number 727-349-1561, which some mobile carriers flag as spam. Save 727-349-1561 in your contacts immediately. Check your blocked calls list and spam filter. Also confirm your phone number is registered and approved in your Smart Communications account at smartjailmail.com.",
+      },
+      {
+        question: "How do I schedule a video visit at San Diego County jail?",
+        answer: "Video visits must be scheduled at least one day in advance through your Smart Communications account at smartjailmail.com. Same-day visits are not available. Each incarcerated individual is permitted two video visits per week, each lasting 30 minutes. Visits are first-come, first-served. Create your account and add the inmate before attempting to schedule.",
+      },
+      {
+        question: "Can I send mail directly to a San Diego County jail?",
+        answer: "No. San Diego County no longer accepts mail sent directly to most detention facilities. All mail must be sent to the county's central Mail Processing Center, not to the facility address. Mail sent directly to the facility is rejected and returned to the sender. Check the San Diego County Sheriff's website for the current Mail Processing Center address before sending anything.",
+      },
+      {
+        question: "How do I send electronic messages to someone at San Diego County jail?",
+        answer: "Electronic messages go through Smart Communications at smartjailmail.com. Messages must be plain text only, limited to one page, with no pictures or attachments. You can send up to two messages per day and the incarcerated person can receive up to 10 messages in a 24-hour period. All messages are reviewed by staff before delivery.",
+      },
+      {
+        question: "What happens when my loved one transfers from San Diego County jail to a California state prison?",
+        answer: "When someone transfers from a San Diego County jail to a California state prison, the provider changes completely. California state prisons transitioned to Securus Technologies starting in February 2025. You will need a Securus account for state prison communication. California state prison calls are not free under the San Diego County free call program, which applies only to county facilities.",
+      },
+      {
+        question: "How do I find someone currently in a San Diego County jail?",
+        answer: "Use the San Diego County Sheriff's Office online inmate locator. You can search by name to find which facility your loved one is held in. Knowing the exact facility matters because some services and schedules vary between San Diego Central Jail, George Bailey, Vista Detention, and East Mesa facilities.",
+      },
     ],
 
     facilitiesByType: { federal: 2, state: 5, county: 7, private: 2 },

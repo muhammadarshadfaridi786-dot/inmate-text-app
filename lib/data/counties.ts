@@ -832,11 +832,50 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Broward County, Florida. Compare messaging, video, and phone providers for Broward County correctional facilities.",
 
     intro: [
-      "Broward County is Florida's second most populous county and operates a significant detention and corrections system through the Broward Sheriff's Office. The main detention facility is the Broward County Jail located in downtown Fort Lauderdale, supplemented by the Joseph V. Conte Facility in Pompano Beach and the North Broward Bureau. Broward also contains Florida Department of Corrections state facilities and is near federal institutions in the South Florida region. The communication setup for each facility type is handled through separate provider contracts.",
+      "Broward County operates its jail system through the Broward Sheriff's Office in Fort Lauderdale, Florida. The Broward County Jail is one of the largest single-site jails in Florida. All phone and video communication at Broward County Jail is handled through Securus Technologies. Create a Securus account at securustech.net or call customer service at 1-800-844-6591.",
+      "Inmates at Broward County Jail can only make outgoing calls. You cannot call the jail to speak with an inmate. To receive calls, set up a Securus AdvancePay prepaid account or arrange for collect calls. Collect calls are typically accepted by landlines but most cell phone providers do not accept collect calls without a prior arrangement with Securus. AdvancePay is the recommended account type for cell phone users.",
+      "To send money to someone at Broward County Jail, deposits can be made online at securustech.net, by phone at 1-800-574-5747, by mailing a money order payable to Inmate Trust Account with the inmate name and booking number, or in person at the jail lobby. Always include the inmate booking number on all deposits. There is a daily limit on the amount of money that can be deposited into an inmate account.",
+    ],
 
-      "The Broward Sheriff's Office contracts with Securus Technologies for phone and video services at county detention facilities. Families trying to reach someone at the Broward County Jail or the Conte Facility will use Securus for both phone accounts and video visitation scheduling. State facilities within Broward operated by the Florida Department of Corrections — such as South Florida Reception Center — use JPay as the primary platform for messaging, money transfer, and photo sharing. Federal facilities in the region follow Bureau of Prisons guidelines and require CorrLinks accounts for electronic messaging, which is a completely separate system from either county or state providers.",
+    overview: [
+      "Which provider do Broward County jail families use? Securus Technologies handles all phone calls and video visits at Broward County Jail. Create a Securus AdvancePay account at securustech.net. Customer service is available at 1-800-844-6591. The Securus Mobile app is available for iOS and Android for managing your account and receiving calls.",
+      "What is the booking number and why is it important? The booking number identifies the specific jail booking for your loved one. You need this number for setting up communication accounts, sending money, and sending mail. It is different from any court case number. Find it on the Broward Sheriff's Office inmate lookup website or by contacting the jail directly.",
+      "What is the most common mistake Broward County families make? Cell phone users trying to accept collect calls is a frequent problem. Most cell phone carriers do not accept collect calls from jails without a prior arrangement with Securus. If you have a cell phone, set up an AdvancePay prepaid account instead of expecting collect calls to connect. This is the most reliable way to receive calls on a cell phone.",
+    ],
 
-      "For families in Broward County, this directory provides a straightforward guide to the communication options available at each type of facility. Whether you need to add funds to a Securus account for a county jail, set up JPay for a state prison, or understand how to contact someone at a federal institution in the region, this guide organizes the relevant information so you can find answers quickly and move forward without unnecessary frustration.",
+    faq: [
+      {
+        question: "Which provider do I use for Broward County Jail phone calls?",
+        answer: "Securus Technologies handles all phone calls at Broward County Jail. Create a Securus account at securustech.net or call 1-800-844-6591. Set up an AdvancePay prepaid account to receive calls on your cell phone. The Securus Mobile app is available for iOS and Android to manage your account.",
+      },
+      {
+        question: "Can I receive collect calls from Broward County Jail on my cell phone?",
+        answer: "Most cell phone carriers do not accept collect calls from jails without a prior arrangement with Securus. If you have a cell phone, set up a Securus AdvancePay prepaid account instead. AdvancePay is more reliable for cell phones and gives better per-minute rates than collect calls. Contact Securus at 1-800-844-6591 if you are unsure which account type works for your phone.",
+      },
+      {
+        question: "How do I send money to someone at Broward County Jail?",
+        answer: "Deposits can be made online at securustech.net, by phone at 1-800-574-5747, by mailing a money order payable to Inmate Trust Account with the inmate name and booking number, or in person at the jail lobby where cash, money orders, and debit cards are accepted. Always include the correct booking number. There is a daily deposit limit.",
+      },
+      {
+        question: "What is the booking number and where do I find it?",
+        answer: "The booking number identifies the specific Broward County jail booking. You need it for communication accounts, money deposits, and mail. Find it on the Broward Sheriff's Office inmate lookup website or by calling the jail directly. The booking number is different from any court case number.",
+      },
+      {
+        question: "How do I find someone currently at Broward County Jail?",
+        answer: "Use the Broward Sheriff's Office official inmate lookup website to search by name. This will show which facility the person is held in along with their booking number and other information. Have the person's full legal name ready when searching.",
+      },
+      {
+        question: "Can I do a video visit with someone at Broward County Jail?",
+        answer: "Yes. Video visitation is available at Broward County Jail through Securus Technologies. Create a Securus account and schedule your visit through the platform or the Securus Mobile app. You need a device with a camera and a stable internet connection. All video visits are recorded and monitored. Contact Securus at 1-800-844-6591 for scheduling assistance.",
+      },
+      {
+        question: "Are attorney calls at Broward County Jail private?",
+        answer: "Yes. Outgoing calls to attorneys are not monitored or recorded to protect attorney-client privilege. Before privileged calls can be made, the attorney phone number must be registered and verified with the facility or Securus Technologies. Contact the jail directly to arrange attorney number registration.",
+      },
+      {
+        question: "What happens when my loved one transfers from Broward County Jail to a Florida state prison?",
+        answer: "When someone transfers from Broward County Jail to a Florida Department of Corrections state prison, the communication providers change. Florida state prisons use JPay for messaging and a separate provider for phone calls under the FDOC contract. Contact JPay at jpay.com and confirm the new facility provider before setting up new accounts. Money in your Broward Securus account cannot be transferred to state prison accounts.",
+      },
     ],
 
     facilitiesByType: { federal: 1, state: 3, county: 5, private: 1 },

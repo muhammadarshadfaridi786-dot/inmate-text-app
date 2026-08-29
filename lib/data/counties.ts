@@ -954,11 +954,50 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Orange County, California. Compare messaging, video, and phone providers for Orange County correctional facilities.",
 
     intro: [
-      "Orange County operates a detention system managed by the Orange County Sheriff's Department, which runs the Intake Release Center in Santa Ana, the Theo Lacy Facility in Orange, the James A. Musick Facility in Irvine, and the Central Men's Jail. Together these facilities hold thousands of people under pretrial detention and short-term sentences. In addition to county jails, Orange County is home to California state prison facilities and is close to federal correctional institutions in the region. Each facility type has its own communication provider and account requirements.",
+      "Orange County California operates its jail system through the Orange County Sheriff's Department. Major facilities include Theo Lacy Facility at 501 City Drive South in Orange, Men's Central Jail, Women's Central Jail, Intake and Release Center, and James A. Musick Facility. Phone services at Orange County jails are provided through GTL ConnectNetwork. Contact the facility at 714-935-6940 for current provider and service information.",
+      "Inmates at Orange County jail facilities cannot receive incoming calls. Your loved one must initiate all calls outbound from facility phones. Calls can be collect or prepaid through GTL ConnectNetwork. Using a prepaid ConnectNetwork AdvancePay account is recommended for cell phone users as most cell carriers do not accept collect calls from jails. Create a ConnectNetwork account at connectnetwork.com to receive calls.",
+      "California phone call rates have changed significantly in 2025 and 2026. Under FCC rules effective April 6, 2026, phone calls from large jails are capped at $0.11 per minute. California state prisons transitioned from ViaPath to Securus Technologies starting in February 2025. Orange County jails use GTL ConnectNetwork for county-level facilities, which is different from the Securus provider used at California state prisons.",
+    ],
 
-      "The Orange County Sheriff's Department uses Securus Technologies for phone and video services at county jail facilities. Families with a loved one at any of the OCSD detention facilities will need to set up a Securus account to add phone credits or arrange video visitation. California state prison facilities in or near Orange County — such as those under the California Department of Corrections and Rehabilitation — typically use GTL or JPay for messaging and money transfer under separate CDCR contracts. These accounts are distinct from county jail accounts, and funds deposited in one system cannot be used in another.",
+    overview: [
+      "Which provider do Orange County California jail families use? GTL ConnectNetwork handles phone calls at Orange County jail facilities. Create a free ConnectNetwork account at connectnetwork.com. For facility-specific information call 714-935-6940. Note that Orange County county jails use GTL ConnectNetwork while California state prisons use Securus Technologies. These are separate providers requiring separate accounts.",
+      "How have phone call costs changed at Orange County jails? Under FCC rules effective April 6, 2026, interstate calls from large county jails are capped at $0.11 per minute. California has also implemented broader reforms. A 15-minute call that once cost $12 or more now tops out at around $1.95 before taxes under the current rate caps. Check your ConnectNetwork account for the specific rate at your loved one's facility.",
+      "What is the most common mistake Orange County families make? Setting up a Securus account instead of ConnectNetwork is the most common mistake. California state prisons switched to Securus in 2025, which leads some families to set up Securus accounts for Orange County county jails. Orange County jails use GTL ConnectNetwork, not Securus. Always confirm the specific facility and its current provider before creating any account.",
+    ],
 
-      "This directory provides a clear overview of communication options for Orange County correctional facilities. Whether you need to set up a Securus account for the Theo Lacy Facility, navigate JPay or GTL for a California state facility in the region, or understand the process for a federal institution nearby, this guide helps you identify the right provider and get started efficiently, without the confusion of working through multiple disconnected agency systems.",
+    faq: [
+      {
+        question: "Which provider do I use for Orange County California jail phone calls?",
+        answer: "GTL ConnectNetwork handles phone calls at Orange County jail facilities including Theo Lacy, Men's Central Jail, and Women's Central Jail. Create a ConnectNetwork account at connectnetwork.com. For facility-specific information call 714-935-6940. Do not set up a Securus account for Orange County county jails as Securus serves California state prisons, not county facilities.",
+      },
+      {
+        question: "Are phone calls free at Orange County jails?",
+        answer: "Orange County has not implemented a blanket free call program for county jails as of 2026. However, FCC rules effective April 6, 2026 cap interstate calls at $0.11 per minute for large jails. A 15-minute call is capped at around $1.95 before any applicable fees. Check your ConnectNetwork account for the current rate at your specific facility.",
+      },
+      {
+        question: "How do I find someone currently at an Orange County jail?",
+        answer: "Use the Orange County Sheriff's Department inmate search tool on their official website. The search covers all major facilities including Theo Lacy, Men's Central Jail, Women's Central Jail, Intake and Release Center, and James A. Musick. You can also call 714-935-6940 directly. Have the person's full legal name and date of birth ready.",
+      },
+      {
+        question: "My loved one is at a California state prison near Orange County. Do I use the same provider?",
+        answer: "No. California state prisons transitioned from ViaPath to Securus Technologies starting in February 2025. If your loved one is in a California state prison you need a Securus account at securustech.net. Orange County county jails use GTL ConnectNetwork. These are completely different providers requiring separate accounts.",
+      },
+      {
+        question: "How do I send money to someone at an Orange County jail?",
+        answer: "Funds can be deposited online through jail-approved services, at kiosks at the facility, or by mailing a money order. Always include the inmate full name and booking number on all deposits. Contact the facility at 714-935-6940 or check the Orange County Sheriff's website for current approved deposit methods and any limits that apply.",
+      },
+      {
+        question: "Can I do a video visit with someone at Theo Lacy or another Orange County jail?",
+        answer: "Video visitation availability varies by Orange County facility. Contact the specific facility at 714-935-6940 or check your ConnectNetwork account dashboard to see whether video visits are available at your loved one's specific location. Some facilities offer in-person visits while others provide video terminals in the lobby.",
+      },
+      {
+        question: "What is the booking number and where do I find it?",
+        answer: "The booking number is assigned when someone is booked into an Orange County facility. You need it for communication accounts, money deposits, and mail. Find it through the Orange County Sheriff's Department inmate search tool online or by calling 714-935-6940. The booking number is different from any court case number.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Orange County jail to a California state prison?",
+        answer: "When someone transfers from an Orange County county jail to a California state prison, the provider changes completely. California state prisons now use Securus Technologies after the transition from ViaPath in 2025. You will need a new Securus account at securustech.net. Your existing ConnectNetwork account for the county jail does not carry over to state prison facilities.",
+      },
     ],
 
     facilitiesByType: { federal: 1, state: 3, county: 6, private: 1 },

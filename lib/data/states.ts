@@ -42,6 +42,7 @@ export interface StateDetail extends StateBasic {
   counties: string[]
   providers: StateProvider[]
   featuredFacilities: StateFacility[]
+  faq?: { question: string; answer: string }[]
 }
 
 // ─────────────────────────────────────────────
@@ -1358,11 +1359,44 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     description: "Find prisons and communication options in Alabama. Compare messaging, video, and phone providers for correctional facilities across Alabama.",
 
     intro: [
-      "Alabama's correctional system includes state prisons run by the Alabama Department of Corrections, county jails administered by sheriffs across the state's 67 counties, and several federal Bureau of Prisons institutions including facilities in Talladega and Aliceville. The Alabama DOC system operates prisons that house both male and female populations at facilities spread across the state, from the Birmingham metro area through the rural Black Belt region to the Gulf Coast. Alabama's county jails vary widely in size, with large urban facilities in Jefferson and Mobile counties operating quite differently from smaller rural lockups in less-populated parts of the state.",
+      "Alabama's correctional system is operated by the Alabama Department of Corrections (ADOC), headquartered in Montgomery. The ADOC system includes state prisons, work release centers, and community corrections facilities across all 67 counties. Securus Technologies holds the ADOC state contract for phone calls and video visits. JPay is the primary platform for money transfers to inmate trust accounts at ADOC state facilities.",
+      "As of November 10, 2025, ADOC no longer accepts personal mail sent directly to any facility. All personal mail must be sent to the ADOC Mail Processing Center in San Antonio, Texas. The mailing address is: Inmate Name, Inmate AIS Number, P.O. Box 17339, San Antonio, TX 78217. Mail sent directly to a facility after November 10, 2025 is returned to the sender. Include the inmate AIS number on every envelope or the mail will not be processed.",
+      "Alabama is not among the states that have eliminated phone call fees. Securus Technologies holds the ADOC contract for most state facilities. Under FCC rules effective April 6, 2026, per-minute rates for inmate calls are now federally capped. County jails in Alabama use their own providers and have their own rate structures that vary by county. Always confirm the specific facility and its current provider before setting up any account.",
+    ],
 
-      "JPay is the standard platform for Alabama Department of Corrections state facilities, covering messaging, photo sharing, and money transfer. Phone and video services at state prisons and county jails are handled by Securus and GTL across different institutions. Jefferson County, which includes Birmingham and operates one of the busiest jail systems in the state, has its own provider arrangement. Federal facilities in Alabama, including FCI Talladega and FCI Aliceville, require CorrLinks for electronic messaging under Bureau of Prisons guidelines. Setting up an account on the wrong platform is a common and avoidable problem that this directory is designed to prevent.",
-
-      "For families in Alabama, piecing together communication information for a specific facility often means cross-referencing the state DOC website, the relevant county sheriff's page, and individual provider portals. None of these sources are consistently complete or up to date, and the right answer for one facility does not apply to the next. This directory organizes facility and provider data for Alabama so families can find the correct communication platform for their specific situation without spending hours sorting through disconnected information sources.",
+    faq: [
+      {
+        question: "Which provider do Alabama state prisons use?",
+        answer: "Securus Technologies holds the Alabama Department of Corrections state contract for phone calls and video visits. JPay is the primary platform for money transfers to ADOC inmate trust accounts. For federal Bureau of Prisons facilities in Alabama such as FCI Talladega and FCI Aliceville, the provider is different. Federal inmates use CorrLinks for messaging and ConnectNetwork for phone calls regardless of which state they are in.",
+      },
+      {
+        question: "What is the AIS number and where do I find it?",
+        answer: "The AIS number (Alabama Identification System number) is assigned to every person in ADOC custody. You need this number for mail, money transfers, and communication accounts. It is different from any court case number. Find it using the ADOC inmate search tool at doc.alabama.gov or by contacting the specific facility directly. All mail to ADOC facilities must include the AIS number or it will not be processed.",
+      },
+      {
+        question: "Can I still mail letters to Alabama state prisons?",
+        answer: "Yes, but not directly to the facility. As of November 10, 2025, ADOC no longer accepts personal mail sent directly to any facility. All personal mail must go to the ADOC Mail Processing Center: Inmate Name, Inmate AIS Number, P.O. Box 17339, San Antonio, TX 78217. Mail sent directly to a facility is returned to sender. Always include the inmate AIS number on every envelope.",
+      },
+      {
+        question: "Are phone calls free at Alabama state prisons?",
+        answer: "No. Alabama is not among the states that have eliminated phone call fees. Securus Technologies holds the ADOC contract and charges per-minute rates subject to FCC caps effective April 6, 2026. Under current FCC rules, interstate calls are capped at $0.11 per minute for prisons. Contact Securus at securustech.net to set up a prepaid account to receive calls at the regulated rate.",
+      },
+      {
+        question: "How do I send money to someone at an Alabama state prison?",
+        answer: "JPay is the primary money transfer platform for ADOC state facilities. Visit jpay.com or use the JPay app to create an account and send funds to the inmate trust account. You will need the inmate AIS number and facility name. Transaction fees apply. For county jails in Alabama, the money transfer provider varies by county. Contact the specific facility to confirm the correct provider before sending funds.",
+      },
+      {
+        question: "How do I find someone currently in an Alabama state prison?",
+        answer: "Use the ADOC inmate search tool at doc.alabama.gov. You can search by the inmate AIS number, first name, or last name. The search shows the current facility, security level, and other basic information. For county jail inmates, use the relevant county sheriff's website inmate roster. For federal inmates in Alabama, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Can I send photos to someone at an Alabama state prison?",
+        answer: "Standard 4x6 photos are accepted at most ADOC facilities. No Polaroids, stickers, glitter, or attachments are permitted. Some facilities use JPay for electronic photo delivery as an alternative to physical mail. Physical photos must go through the ADOC Mail Processing Center at P.O. Box 17339, San Antonio, TX 78217 with the inmate name and AIS number. Photos sent directly to a facility will be returned.",
+      },
+      {
+        question: "What is the difference between county jails and state prisons in Alabama?",
+        answer: "Alabama state prisons are operated by ADOC and hold people convicted of state crimes serving sentences longer than one year. County jails are operated by individual county sheriffs and hold people awaiting trial or serving short sentences. State prisons use Securus for calls and JPay for money transfers. County jails use their own contracted providers which vary by county. Always confirm which specific facility your loved one is in before setting up any accounts.",
+      },
     ],
 
     facilitiesByType: { federal: 10, state: 28, county: 148, private: 12 },

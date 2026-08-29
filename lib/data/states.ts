@@ -32,6 +32,7 @@ export interface StateFacility {
 
 export interface StateDetail extends StateBasic {
   intro: string[]      // Array of paragraphs for the intro section
+  overview?: string[]  // Optional inline question/answer strings, split at the first "?"
   description: string  // Single-line for metadata
   facilitiesByType: {
     federal: number
@@ -1362,6 +1363,12 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
       "Alabama's correctional system is operated by the Alabama Department of Corrections (ADOC), headquartered in Montgomery. The ADOC system includes state prisons, work release centers, and community corrections facilities across all 67 counties. Securus Technologies holds the ADOC state contract for phone calls and video visits. JPay is the primary platform for money transfers to inmate trust accounts at ADOC state facilities.",
       "As of November 10, 2025, ADOC no longer accepts personal mail sent directly to any facility. All personal mail must be sent to the ADOC Mail Processing Center in San Antonio, Texas. The mailing address is: Inmate Name, Inmate AIS Number, P.O. Box 17339, San Antonio, TX 78217. Mail sent directly to a facility after November 10, 2025 is returned to the sender. Include the inmate AIS number on every envelope or the mail will not be processed.",
       "Alabama is not among the states that have eliminated phone call fees. Securus Technologies holds the ADOC contract for most state facilities. Under FCC rules effective April 6, 2026, per-minute rates for inmate calls are now federally capped. County jails in Alabama use their own providers and have their own rate structures that vary by county. Always confirm the specific facility and its current provider before setting up any account.",
+    ],
+
+    overview: [
+      "Which provider do Alabama county jails use? County jails across Alabama's 67 counties each contract with their own providers independently from ADOC. Common providers at Alabama county jails include Securus, GTL ConnectNetwork, and ICSolutions. Jefferson County Jail, which serves the Birmingham metro area, uses its own contracted provider. Always confirm the specific provider for each county facility before setting up any account.",
+      "What is the most common mistake Alabama families make? Setting up a JPay account for phone calls is the most common mistake. JPay handles money transfers at ADOC state facilities but Securus handles phone calls. These are separate accounts. Funding your JPay account does not enable phone calls and your Securus AdvancePay account is separate from the JPay trust fund account.",
+      "How has mail changed at Alabama prisons in 2025? ADOC completely eliminated direct mail to facilities as of November 10, 2025. All personal mail now goes to a processing center in San Antonio, Texas. This affects letters, cards, and photos. Mail sent directly to a facility is returned to the sender without being delivered. Always use the P.O. Box 17339, San Antonio TX 78217 address with the inmate name and AIS number.",
     ],
 
     faq: [

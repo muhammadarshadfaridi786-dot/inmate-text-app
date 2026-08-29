@@ -710,11 +710,50 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Dallas County, Texas. Compare messaging, video, and phone providers for Dallas County correctional facilities.",
 
     intro: [
-      "Dallas County operates a large detention system centered around the Dallas County Jail, known as the Lew Sterrett Justice Center. The facility sits adjacent to the Frank Crowley Courts Building in downtown Dallas and holds thousands of people on any given day. The Dallas County Sheriff's Department manages the jail system, which also includes the Suzanne Lee Kays Detention Facility and several work release and alternative detention programs. In addition to county facilities, Dallas County is home to state and federal correctional institutions, each governed by separate rules and provider contracts.",
+      "Dallas County operates its jail system through the Dallas County Sheriff's Department. The primary facility is the Lew Sterrett Justice Center at 111 West Commerce Street in downtown Dallas, with a capacity of over 7,100 inmates. The complex includes the North Tower, West Tower, and Suzanne Lee Kays Detention Facility. All phone and video communication at Dallas County facilities is handled through Securus Technologies.",
+      "Phone calls from Dallas County jails are inmate-initiated only. You cannot call the jail to reach an inmate. Inmates have phone access from 5 AM to midnight unless restricted by lockdowns or disciplinary actions. Each call is limited to 30 minutes with a one-minute warning before disconnection. Inmates are allowed unlimited calls per month within the designated calling hours. To receive calls, set up a Securus AdvancePay account at securustech.net or call 1-800-844-6591.",
+      "Important: The book-in number and the case number are different identifiers. The book-in number identifies the Dallas County jail booking and is the number needed for mail, deposits, and jail services. The case number identifies a court matter. Always use the book-in number for communication accounts and money deposits. Find the book-in number using the Dallas County Jail Lookup System or by calling 214-761-9025.",
+    ],
 
-      "Securus Technologies is the primary communication provider for the Dallas County Jail system, handling phone calls and video visitation for the Lew Sterrett facility and associated detention centers. Families who need to contact someone at the county jail will need a Securus account to add phone funds or schedule video visits. Texas Department of Criminal Justice state facilities in the Dallas area use different provider arrangements — JPay and GTL are common at TDCJ state prisons — and those accounts are not interchangeable with county jail accounts. Federal facilities in the county operate under Bureau of Prisons contracts using CorrLinks for messaging.",
+    overview: [
+      "Which provider do Dallas County jail families use? Securus Technologies handles all phone calls and video visits at Dallas County facilities including Lew Sterrett Justice Center. Create a Securus account at securustech.net or call 1-800-844-6591. For general jail information call 214-761-9025. For inmate lookup use the Dallas County Jail Lookup System online.",
+      "What is the book-in number and why does it matter? The book-in number is assigned when someone is booked into Dallas County Jail and is different from the court case number. You need the book-in number for setting up communication accounts, money deposits, and sending mail. Using the wrong number can cause deposits and messages to fail. Find it through the official Dallas County Jail Lookup System.",
+      "What is the most common mistake Dallas County families make? Confusing the book-in number with the case number is the most common mistake. These are two different numbers and the wrong one will cause your account setup or money deposit to fail. Always verify the book-in number through the official Dallas County inmate search before setting up any accounts or sending funds.",
+    ],
 
-      "This guide organizes Dallas County correctional facility and provider information in one place. Whether you need to set up a Securus account for someone at the Lew Sterrett Justice Center, find the right provider for a state facility in the Dallas area, or locate a federal correctional institution in the county, this directory helps you identify the correct platform and get started without unnecessary delays.",
+    faq: [
+      {
+        question: "Which provider do I use for Dallas County Jail phone calls?",
+        answer: "Securus Technologies handles all phone calls and video visits at Dallas County facilities. Create a Securus AdvancePay account at securustech.net or call 1-800-844-6591. The Securus Mobile app is available for iOS and Android. Calls are available from 5 AM to midnight. Each call is limited to 30 minutes.",
+      },
+      {
+        question: "What is the book-in number and where do I find it?",
+        answer: "The book-in number is assigned when someone is booked into Dallas County Jail. It identifies the jail booking and is different from the court case number. You need the book-in number for communication accounts, money deposits, and mail. Find it using the official Dallas County Jail Lookup System at the Dallas County website or call 214-761-9025.",
+      },
+      {
+        question: "How do I find someone currently in Dallas County Jail?",
+        answer: "Use the official Dallas County Jail Lookup System online. You can search by prisoner information, book-in number, or case number. If someone is not showing up online, there may be a processing lag after booking. Call Lew Sterrett directly at 214-761-9025 with the person's full legal name and date of birth to confirm their status.",
+      },
+      {
+        question: "How do I send money to someone at Dallas County Jail?",
+        answer: "Cash deposits can be made at kiosks located inside the jail. Online deposits can be processed through approved services. Phone deposits can be arranged by calling 1-866-345-1884. Always use the correct book-in number when making deposits. Money deposited for Dallas County Jail cannot be transferred to a Texas state prison account if the inmate is later transferred.",
+      },
+      {
+        question: "Can I do a video visit with someone at Dallas County Jail?",
+        answer: "Yes. Video visitation is available at Lew Sterrett Justice Center through Securus Technologies. Create a Securus account and schedule your video visit through the platform. You need a device with a camera and a stable internet connection. All video visits are recorded and monitored by facility staff.",
+      },
+      {
+        question: "What happens when my loved one transfers from Dallas County Jail to a Texas state prison?",
+        answer: "When someone transfers from Dallas County Jail to a Texas Department of Criminal Justice state prison, the communication changes significantly. TDCJ uses Securus Technologies for phone calls but requires separate registration through the TDCJ Friends and Family Enrollment system. Money in your Dallas County Securus account cannot be transferred to TDCJ accounts. Set up a new TDCJ registration after confirming the transfer.",
+      },
+      {
+        question: "Why is my loved one not appearing in the Dallas County inmate search?",
+        answer: "There is sometimes a processing lag of up to 24 to 72 hours after booking before someone appears in the online system. If you cannot find someone online, call Lew Sterrett directly at 214-761-9025 with the person's full legal name and date of birth. People arrested by suburban city police in Dallas County are typically transferred to Lew Sterrett within 24 to 72 hours from municipal holding.",
+      },
+      {
+        question: "What are the visiting hours at Lew Sterrett Justice Center?",
+        answer: "Contact the Dallas County Sheriff's Department directly at 214-761-9025 to confirm current visiting hours and rules as these can change. A Dallas County jail visitation card can be obtained between 8 AM and 3:30 PM. Video visitation through Securus is available as an alternative to in-person visits and can be scheduled through your Securus account.",
+      },
     ],
 
     facilitiesByType: { federal: 1, state: 3, county: 7, private: 1 },

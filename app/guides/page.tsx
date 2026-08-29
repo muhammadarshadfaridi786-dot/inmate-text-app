@@ -52,7 +52,7 @@ export default function GuidesPage() {
         </PageWrapper>
       </section>
 
-      {/* SEO content and FAQ */}
+      {/* SEO content */}
       <section className="py-8 border-b">
         <PageWrapper>
           <div className="max-w-3xl space-y-6">
@@ -126,6 +126,20 @@ export default function GuidesPage() {
               </div>
             </div>
 
+          </div>
+        </PageWrapper>
+      </section>
+
+      <section className="py-10" aria-label="Guides directory">
+        <PageWrapper>
+          <GuidesDirectory guides={ALL_GUIDES} />
+        </PageWrapper>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-10 border-t">
+        <PageWrapper>
+          <div className="max-w-3xl space-y-6">
             <div className="space-y-4">
               <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
               <div className="space-y-3">
@@ -172,12 +186,6 @@ export default function GuidesPage() {
               </div>
             </div>
           </div>
-        </PageWrapper>
-      </section>
-
-      <section className="py-10" aria-label="Guides directory">
-        <PageWrapper>
-          <GuidesDirectory guides={ALL_GUIDES} />
         </PageWrapper>
       </section>
     </>

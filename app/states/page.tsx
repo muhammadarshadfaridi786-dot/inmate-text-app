@@ -50,7 +50,7 @@ export default function StatesPage() {
         </PageWrapper>
       </section>
 
-      {/* SEO content and FAQ */}
+      {/* SEO content */}
       <section className="py-8 border-b">
         <PageWrapper>
           <div className="max-w-3xl space-y-6">
@@ -88,6 +88,21 @@ export default function StatesPage() {
               </p>
             </div>
 
+          </div>
+        </PageWrapper>
+      </section>
+
+      {/* Searchable state grid */}
+      <section className="py-10" aria-label="State directory">
+        <PageWrapper>
+          <StatesSearch states={ALL_STATES} />
+        </PageWrapper>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-10 border-t">
+        <PageWrapper>
+          <div className="max-w-3xl space-y-6">
             <div className="space-y-4">
               <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
 
@@ -149,13 +164,6 @@ export default function StatesPage() {
               </div>
             </div>
           </div>
-        </PageWrapper>
-      </section>
-
-      {/* Searchable state grid */}
-      <section className="py-10" aria-label="State directory">
-        <PageWrapper>
-          <StatesSearch states={ALL_STATES} />
         </PageWrapper>
       </section>
     </>

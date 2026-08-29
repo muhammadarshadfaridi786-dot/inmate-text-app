@@ -59,7 +59,7 @@ export default function ComparePage() {
         </PageWrapper>
       </section>
 
-      {/* SEO content and FAQ */}
+      {/* SEO content */}
       <section className="py-8 border-b">
         <PageWrapper>
           <div className="max-w-3xl space-y-6">
@@ -119,57 +119,6 @@ export default function ComparePage() {
               </div>
             </div>
 
-            <div className="space-y-4">
-              <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
-              <div className="space-y-3">
-                <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">Which inmate communication provider is the best?</h3>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    There is no single best provider because you cannot choose — the
-                    facility decides which provider to use. Among the providers,
-                    GettingOut has the best-reviewed mobile app. CorrLinks is the
-                    most reliable because it is the only federal option. JPay has
-                    the widest state prison coverage. The best provider is whichever
-                    one serves your loved one facility.
-                  </p>
-                </div>
-
-                <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">Can I use JPay if my loved one is in a federal prison?</h3>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    No. JPay does not serve federal Bureau of Prisons facilities.
-                    Federal inmates use CorrLinks exclusively for messaging. If your
-                    loved one is in a federal prison, create a CorrLinks account and
-                    wait for their invitation. Do not sign up for JPay for a federal
-                    inmate as it will not work.
-                  </p>
-                </div>
-
-                <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">Is ConnectNetwork the same as GTL?</h3>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    ConnectNetwork is the consumer platform operated by GTL, now
-                    part of ViaPath Technologies. GTL holds the facility contracts
-                    and ConnectNetwork is the website and app families use to access
-                    those services. GettingOut is also a GTL platform, operated
-                    through their Telmate subsidiary, primarily for county jails.
-                  </p>
-                </div>
-
-                <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">What is the cheapest way to communicate with an inmate?</h3>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    The cheapest option depends on your facility. Physical mail is
-                    free to send but slow. Electronic messaging costs between $0.25
-                    and $0.50 per message depending on the provider. Phone calls
-                    cost $0.11 per minute under current FCC caps for interstate
-                    calls. Some states and counties offer free calls entirely.
-                    Check our facility directory to see what is available at your
-                    specific location.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </PageWrapper>
       </section>
@@ -260,6 +209,65 @@ export default function ComparePage() {
           </PageWrapper>
         </section>
       )}
+
+      {/* FAQ */}
+      <section className="py-10 border-t">
+        <PageWrapper>
+          <div className="max-w-3xl space-y-6">
+            <div className="space-y-4">
+              <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
+              <div className="space-y-3">
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Which inmate communication provider is the best?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    There is no single best provider because you cannot choose — the
+                    facility decides which provider to use. Among the providers,
+                    GettingOut has the best-reviewed mobile app. CorrLinks is the
+                    most reliable because it is the only federal option. JPay has
+                    the widest state prison coverage. The best provider is whichever
+                    one serves your loved one facility.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Can I use JPay if my loved one is in a federal prison?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    No. JPay does not serve federal Bureau of Prisons facilities.
+                    Federal inmates use CorrLinks exclusively for messaging. If your
+                    loved one is in a federal prison, create a CorrLinks account and
+                    wait for their invitation. Do not sign up for JPay for a federal
+                    inmate as it will not work.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Is ConnectNetwork the same as GTL?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    ConnectNetwork is the consumer platform operated by GTL, now
+                    part of ViaPath Technologies. GTL holds the facility contracts
+                    and ConnectNetwork is the website and app families use to access
+                    those services. GettingOut is also a GTL platform, operated
+                    through their Telmate subsidiary, primarily for county jails.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">What is the cheapest way to communicate with an inmate?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    The cheapest option depends on your facility. Physical mail is
+                    free to send but slow. Electronic messaging costs between $0.25
+                    and $0.50 per message depending on the provider. Phone calls
+                    cost $0.11 per minute under current FCC caps for interstate
+                    calls. Some states and counties offer free calls entirely.
+                    Check our facility directory to see what is available at your
+                    specific location.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </PageWrapper>
+      </section>
     </>
   )
 }

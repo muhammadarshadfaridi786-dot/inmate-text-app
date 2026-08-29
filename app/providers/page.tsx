@@ -51,7 +51,7 @@ export default function ProvidersPage() {
         </PageWrapper>
       </section>
 
-      {/* SEO content and FAQ */}
+      {/* SEO content */}
       <section className="py-8 border-b">
         <PageWrapper>
           <div className="max-w-3xl space-y-6">
@@ -150,42 +150,6 @@ export default function ProvidersPage() {
                   </p>
                 </div>
               </div>
-
-              <div className="space-y-4 mt-6">
-                <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
-                <div className="space-y-3">
-                  <div className="rounded-lg border p-4">
-                    <h3 className="font-medium text-sm">How do I know which provider to use?</h3>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      Search our facility directory for the specific facility where your
-                      loved one is housed. Each facility page lists which providers are
-                      available for messaging, phone calls, video visits, and money
-                      transfers. You can also call the facility directly and ask.
-                    </p>
-                  </div>
-
-                  <div className="rounded-lg border p-4">
-                    <h3 className="font-medium text-sm">Can I use one account for all providers?</h3>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      No. Each provider is a separate company with its own account system.
-                      If your loved one is at a JPay facility, you need a JPay account.
-                      If they transfer to a CorrLinks facility, you need a separate
-                      CorrLinks account. You cannot use one account across different providers.
-                    </p>
-                  </div>
-
-                  <div className="rounded-lg border p-4">
-                    <h3 className="font-medium text-sm">Are provider accounts free to create?</h3>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      Yes. Creating an account on JPay, CorrLinks, ConnectNetwork,
-                      GettingOut, and Securus is free. You pay only when you send
-                      messages, make calls, schedule video visits, or transfer money.
-                      Always start with a small initial deposit to confirm the platform
-                      works correctly before adding a large balance.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </PageWrapper>
@@ -195,6 +159,49 @@ export default function ProvidersPage() {
       <section className="py-10" aria-label="Provider directory">
         <PageWrapper>
           <ProvidersSearch providers={ALL_PROVIDERS} />
+        </PageWrapper>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-10 border-t">
+        <PageWrapper>
+          <div className="max-w-3xl space-y-6">
+            <div className="space-y-4">
+              <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
+              <div className="space-y-3">
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">How do I know which provider to use?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Search our facility directory for the specific facility where your
+                    loved one is housed. Each facility page lists which providers are
+                    available for messaging, phone calls, video visits, and money
+                    transfers. You can also call the facility directly and ask.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Can I use one account for all providers?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    No. Each provider is a separate company with its own account system.
+                    If your loved one is at a JPay facility, you need a JPay account.
+                    If they transfer to a CorrLinks facility, you need a separate
+                    CorrLinks account. You cannot use one account across different providers.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border p-4">
+                  <h3 className="font-medium text-sm">Are provider accounts free to create?</h3>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Yes. Creating an account on JPay, CorrLinks, ConnectNetwork,
+                    GettingOut, and Securus is free. You pay only when you send
+                    messages, make calls, schedule video visits, or transfer money.
+                    Always start with a small initial deposit to confirm the platform
+                    works correctly before adding a large balance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </PageWrapper>
       </section>
     </>

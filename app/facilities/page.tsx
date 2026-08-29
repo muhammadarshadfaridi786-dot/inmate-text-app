@@ -50,7 +50,7 @@ export default function FacilitiesPage() {
         </PageWrapper>
       </section>
 
-      {/* SEO content and FAQ */}
+      {/* SEO content */}
       <section className="py-8 border-b">
         <PageWrapper>
           <div className="max-w-3xl space-y-6">
@@ -86,6 +86,21 @@ export default function FacilitiesPage() {
               </p>
             </div>
 
+          </div>
+        </PageWrapper>
+      </section>
+
+      {/* Searchable facility grid */}
+      <section className="py-10" aria-label="Facility directory">
+        <PageWrapper>
+          <FacilitiesSearch facilities={ALL_FACILITIES} />
+        </PageWrapper>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-10 border-t">
+        <PageWrapper>
+          <div className="max-w-3xl space-y-6">
             <div className="space-y-4">
               <h2 className="text-lg font-semibold">Frequently Asked Questions</h2>
 
@@ -145,13 +160,6 @@ export default function FacilitiesPage() {
               </div>
             </div>
           </div>
-        </PageWrapper>
-      </section>
-
-      {/* Searchable facility grid */}
-      <section className="py-10" aria-label="Facility directory">
-        <PageWrapper>
-          <FacilitiesSearch facilities={ALL_FACILITIES} />
         </PageWrapper>
       </section>
     </>

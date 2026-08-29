@@ -137,11 +137,50 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Los Angeles County. Compare messaging, video, and phone providers for LA County correctional facilities.",
 
     intro: [
-      "Los Angeles County operates one of the largest local jail systems in the United States, with a network of facilities managed by the Los Angeles County Sheriff's Department. The jail system includes Men's Central Jail, Twin Towers Correctional Facility, and the Pitchess Detention Center in Castaic, along with several smaller facilities and court lockups. On any given day, more than 16,000 people are held across these facilities, making communication access for families a significant daily challenge. The size and structure of the system means that different facilities may operate under different rules and use different communication platforms.",
+      "Los Angeles County operates one of the largest jail systems in the world through the Los Angeles County Sheriff's Department. Major facilities include Men's Central Jail, Twin Towers Correctional Facility, Century Regional Detention Facility, and the Inmate Reception Center at 450 Bauchet Street in downtown Los Angeles. The system holds approximately 12,000 detainees at any given time.",
+      "Phone calls from Los Angeles County jails have been free since December 1, 2023. The Los Angeles County Board of Supervisors voted 5-0 to shift the cost of calls from families to the jail system's Inmate Welfare Fund. Families do not need to fund a prepaid calling account to receive calls from LA County jail facilities. You will still need a ConnectNetwork account to manage your contact information.",
+      "Communication at Los Angeles County jails is handled through ViaPath Technologies using the ConnectNetwork platform. Create a free account at connectnetwork.com to manage your contact information and receive calls. For California state prisons serving Los Angeles County residents, communication has transitioned from ViaPath to Securus Technologies starting in February 2025. County jails and state prisons use different providers.",
+    ],
 
-      "The Los Angeles County Sheriff's Department contracts with GTL for video visitation and phone services at most county facilities, while JPay handles messaging and money transfer at state facilities within the county. Families trying to reach someone at Men's Central Jail or Twin Towers will use a different account system than those trying to contact someone at a state prison like California State Prison, Los Angeles County. Understanding which facility type is involved is the essential starting point, because using the wrong provider means delays and unnecessary setup time.",
+    overview: [
+      "Are phone calls free at Los Angeles County jails? Yes. Phone calls from LA County jail facilities have been free since December 1, 2023 after the Board of Supervisors voted to use the Inmate Welfare Fund to cover the cost. You do not need to deposit money to receive calls. However, you still need a ConnectNetwork account at connectnetwork.com to be registered as an approved contact.",
+      "Which provider do Los Angeles County jail families use? ViaPath Technologies through ConnectNetwork handles communication at LA County jail facilities including Men's Central Jail and Twin Towers. For California state prisons, the provider changed from ViaPath to Securus starting in February 2025. If your loved one transfers from a county jail to a state prison, you will need a separate Securus account.",
+      "What is the most common mistake Los Angeles County families make? The most common mistake is assuming that because LA County jail calls are free, no account setup is needed at all. You still need a ConnectNetwork account to be listed as an approved contact for your loved one. Without a registered account, calls cannot connect even though they are free of charge.",
+    ],
 
-      "This directory organizes communication options for Los Angeles County correctional facilities so families can quickly identify the right platform and what services are available. Whether you need to set up a GTL account for a county jail, arrange video visitation at Twin Towers, or understand the messaging process for a state facility within the county, this guide provides the information you need in one place, without having to navigate multiple agency websites or call facilities directly.",
+    faq: [
+      {
+        question: "Are phone calls free at Los Angeles County jails?",
+        answer: "Yes. Phone calls from Los Angeles County jail facilities have been free since December 1, 2023. The Board of Supervisors voted to use the Inmate Welfare Fund to cover the cost. You do not need to fund a prepaid account to receive calls. You still need a free ConnectNetwork account at connectnetwork.com to be registered as an approved contact.",
+      },
+      {
+        question: "Which provider do I use for Los Angeles County jails?",
+        answer: "Los Angeles County jails use ViaPath Technologies through the ConnectNetwork platform. Create a free account at connectnetwork.com. This is different from California state prisons which transitioned to Securus Technologies starting in February 2025. Always confirm which specific facility your loved one is in before setting up accounts.",
+      },
+      {
+        question: "Do I need a ConnectNetwork account even if calls are free?",
+        answer: "Yes. Even though phone calls from LA County jails are free, you still need a ConnectNetwork account at connectnetwork.com to be registered as an approved contact. Without registration, calls cannot connect. Account creation is free and takes only a few minutes.",
+      },
+      {
+        question: "How do I find someone currently in an LA County jail?",
+        answer: "The Los Angeles County Sheriff's Department maintains an online inmate locator. You can also call the jail information line at 213-473-6100. Search by name to find which facility your loved one is held in. This is important because LA County operates multiple jail facilities and the correct facility determines which location to visit and how communication works.",
+      },
+      {
+        question: "My loved one is at a California state prison near Los Angeles. Is that the same provider?",
+        answer: "No. California state prisons including those near Los Angeles transitioned from ViaPath to Securus Technologies starting in February 2025 under a new CDCR contract. If your loved one is in a California state prison, you need a Securus account, not ConnectNetwork. LA County jails and California state prisons use completely different providers.",
+      },
+      {
+        question: "Can I do a video visit at an LA County jail facility?",
+        answer: "Video visitation availability at LA County jails depends on the specific facility. Contact the facility directly or check your ConnectNetwork account dashboard to see whether video visits are available at your loved one's specific location. Some facilities offer in-person visits while others use video terminals in the lobby.",
+      },
+      {
+        question: "How do I send money to someone at an LA County jail?",
+        answer: "Money transfers to inmate trust accounts at LA County facilities go through ConnectNetwork or other approved providers. Log in to your ConnectNetwork account and look for the money transfer option. Note that the calling account and the inmate trust account are separate. Phone calls being free does not mean commissary or other expenses are free.",
+      },
+      {
+        question: "What happens when my loved one transfers from LA County jail to a California state prison?",
+        answer: "When someone transfers from an LA County jail to a California state prison, the communication provider changes completely. You will need a Securus account for state prison communication. California state prison calls are not free under the county program. The CDCR contract with Securus has different rates and rules than the LA County jail contract with ViaPath.",
+      },
     ],
 
     facilitiesByType: { federal: 3, state: 8, county: 28, private: 3 },

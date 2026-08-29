@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import {
@@ -26,8 +27,20 @@ interface FacilitiesSearchProps {
 }
 
 export default function FacilitiesSearch({ facilities }: FacilitiesSearchProps) {
+  const searchParams = useSearchParams()
+  const stateParam = searchParams.get("state")
+
   const [query, setQuery]       = useState("")
-  const [stateFilter, setStateFilter] = useState("all")
+  const [stateFilter, setStateFilter] = useState<string>(() => {
+    if (!stateParam) return "all"
+    const target = stateParam.toLowerCase()
+    const match = facilities.find(
+      (f) =>
+        f.stateAbbr.toLowerCase() === target ||
+        f.stateSlug.toLowerCase() === target
+    )
+    return match ? match.stateSlug : "all"
+  })
   const [typeFilter, setTypeFilter]   = useState<FacilityType | "all">("all")
 
   const uniqueStates = useMemo(() => {

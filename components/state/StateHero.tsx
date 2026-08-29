@@ -69,7 +69,7 @@ export default function StateHero({ state }: StateHeroProps) {
           {/* CTAs */}
           <div className="flex flex-wrap justify-center gap-3">
             <Link
-              href="/facilities"
+              href={`/facilities?state=${state.abbreviation}`}
               className={cn(
                 buttonVariants({ size: "lg" }),
                 "h-11 px-8 text-sm font-semibold"

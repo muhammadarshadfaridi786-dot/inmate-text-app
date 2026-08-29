@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import type { Metadata } from "next"
 import { ALL_FACILITIES } from "@/lib/data/facilities"
 import { buildItemListSchema, buildWebPageSchema } from "@/lib/schema"
@@ -93,7 +94,9 @@ export default function FacilitiesPage() {
       {/* Searchable facility grid */}
       <section className="py-10" aria-label="Facility directory">
         <PageWrapper>
-          <FacilitiesSearch facilities={ALL_FACILITIES} />
+          <Suspense fallback={null}>
+            <FacilitiesSearch facilities={ALL_FACILITIES} />
+          </Suspense>
         </PageWrapper>
       </section>
 

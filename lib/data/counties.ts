@@ -383,11 +383,50 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Miami-Dade County, Florida. Compare messaging, video, and phone providers for Miami-Dade correctional facilities.",
 
     intro: [
-      "Miami-Dade County operates a major detention system through the Miami-Dade Corrections and Rehabilitation Department, which manages several facilities across the county. The Turner Guilford Knight Correctional Center and the Pre-Trial Detention Center are among the primary holding facilities, supplemented by the Pretrial Detention Center and several work release and transitional centers. The system serves one of the most diverse populations in the country, and communication access for families — many of whom are navigating the process in multiple languages — is a consistent challenge.",
+      "Miami-Dade County operates its correctional system through the Miami-Dade Corrections and Rehabilitation Department (MDCR). Major facilities include Turner Guilford Knight Correctional Center (TGK) at 7000 NW 41st Street, Metro West Detention Center at 13850 NW 41st Street, and the Pre-Trial Detention Center at 1321 NW 13th Street. Phone services at all MDCR facilities are handled by Securus Technologies.",
+      "Inmates at Miami-Dade facilities cannot receive incoming calls. Your loved one must initiate all calls from facility phones. To receive calls, set up a Securus AdvancePay account at securustech.net or through the Securus Mobile app. Securus automated support is available at 972-734-1111 and customer service at 1-800-844-6591. MDCR posts step-by-step account setup guides in English, Spanish, and Creole on the county website.",
+      "Miami-Dade is among the Florida counties that offer free phone calls at its facilities. For commissary and trust account deposits, MDCR supports TouchPay online and by phone at 1-866-232-1899. Lobby kiosks are available at TGK and Metro West with extended daily hours. Video visitation at MDCR uses Global Tel Link (GTL) through ConnectNetwork, which is a separate account from the Securus phone account.",
+    ],
 
-      "The Miami-Dade county jail system has contracts with GTL for phone and video services, providing families with access to remote video visitation in addition to traditional phone calls. Accounts are managed separately from any state or federal facilities in the area, so a family with a loved one at the Turner Guilford Knight facility will need a GTL account rather than a JPay or Securus account. Florida Department of Corrections state facilities, while not directly county-operated, may be located within the county and use JPay as their primary messaging and money transfer platform. The Federal Detention Center Miami handles federal pretrial and sentenced inmates and uses CorrLinks for electronic messaging.",
+    overview: [
+      "Which provider do Miami-Dade jail families use? Securus Technologies handles all phone calls at Miami-Dade Corrections facilities. GTL ConnectNetwork handles video visitation. TouchPay handles commissary and trust account deposits. These are three separate providers and three separate accounts. You may need accounts with more than one provider depending on which services you use.",
+      "Are phone calls free at Miami-Dade facilities? Miami-Dade is among the Florida counties that have implemented free or reduced-cost calling. Contact the specific facility or check your Securus account for current rate information as policies can change. Even if calls are free or discounted, you still need a registered Securus account to receive calls.",
+      "What is the most common mistake Miami-Dade families make? Confusing the phone provider and the video provider is the most common mistake. Securus handles phone calls and GTL ConnectNetwork handles video visits. Funding your Securus account does not enable video visits and funding your ConnectNetwork account does not enable phone calls. Set up both accounts separately if you plan to use both services.",
+    ],
 
-      "This guide brings communication information for Miami-Dade County correctional facilities together in one place. Whether you are trying to contact someone at a county jail, a state facility, or a federal detention center, this directory helps you identify the right provider, understand what services are available, and start the setup process without having to search through multiple agencies or call facilities directly for basic information.",
+    faq: [
+      {
+        question: "Which provider do I use for Miami-Dade jail phone calls?",
+        answer: "Securus Technologies handles all phone calls at Miami-Dade Corrections facilities. Create a Securus AdvancePay account at securustech.net or through the Securus Mobile app. For automated support call 972-734-1111 or customer service at 1-800-844-6591. MDCR posts setup guides in English, Spanish, and Creole on the county website.",
+      },
+      {
+        question: "How do I set up video visits at Miami-Dade jail?",
+        answer: "Video visitation at Miami-Dade Corrections uses Global Tel Link (GTL) through ConnectNetwork. Create a separate ConnectNetwork account at connectnetwork.com. This is a different account from your Securus phone account. Attorneys and professional visitors must complete a remote video visitation application and register on the GTL website. All visitors must acknowledge and comply with all visitation rules.",
+      },
+      {
+        question: "How do I send money to someone at Miami-Dade jail?",
+        answer: "For commissary and trust account deposits, Miami-Dade Corrections supports TouchPay online and by phone at 1-866-232-1899. Lobby kiosks are available at TGK and Metro West with extended daily hours. The Pre-Trial Detention Center has evening windows. Always verify current hours on the MDCR trust deposits page before visiting a kiosk.",
+      },
+      {
+        question: "Can I call Miami-Dade jail to speak with an inmate?",
+        answer: "No. Inmates at Miami-Dade facilities cannot receive incoming calls. Your loved one must initiate all calls from facility phones to your registered Securus number. Set up a Securus AdvancePay account and fund it so calls can connect when they call you. Calls are limited in length and frequency by system settings and housing unit schedules.",
+      },
+      {
+        question: "Which Miami-Dade facility is my loved one at?",
+        answer: "Miami-Dade Corrections operates multiple facilities. Turner Guilford Knight (TGK) is at 7000 NW 41st Street, Metro West is at 13850 NW 41st Street, and the Pre-Trial Detention Center is at 1321 NW 13th Street. Contact the MDCR main line to confirm the current location. Knowing the exact facility is important because kiosk hours and some services vary by location.",
+      },
+      {
+        question: "What happens when my loved one transfers from Miami-Dade jail to a Florida state prison?",
+        answer: "When someone transfers from Miami-Dade county jail to a Florida Department of Corrections state prison, the communication providers change. Florida state prisons use JPay for messaging and money transfers. Phone services at Florida state prisons are handled by a separate FDOC contracted provider. Contact JPay and the new facility to set up accounts after confirming the transfer is complete.",
+      },
+      {
+        question: "Is there a Securus app I can use for Miami-Dade calls?",
+        answer: "Yes. Securus has a free mobile app available for iOS and Android called Securus Mobile. Download it from your app store and log in with your Securus account details to manage your AdvancePay account, check your balance, and receive notifications. The app makes it easier to manage your account and ensure your balance stays funded.",
+      },
+      {
+        question: "My call from Miami-Dade jail is not connecting. What should I do?",
+        answer: "Check that your Securus AdvancePay balance is funded. Confirm your phone number is registered and approved in your Securus account. Check that your phone settings are not blocking unknown numbers or sending them to voicemail. If the problem persists, contact Securus customer service at 1-800-844-6591. Calls may also be restricted during facility counts, lockdowns, or disciplinary actions.",
+      },
     ],
 
     facilitiesByType: { federal: 2, state: 3, county: 8, private: 1 },

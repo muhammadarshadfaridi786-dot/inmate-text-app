@@ -361,11 +361,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Florida jail or prison. FDC uses JPay for messaging and money transfers. Find the right provider for Florida state prisons and county jails.",
 
     intro: [
-      "Florida's correctional landscape encompasses state prisons operated by the Florida Department of Corrections, a significant federal Bureau of Prisons presence, and county detention centers run by individual sheriff's offices across its 67 counties. The state's geography and large population mean that communication arrangements at different facilities vary considerably. Urban county jails in Miami-Dade and Broward operate under different systems from rural state prisons in Bradford or Union counties, and families often discover that the provider they know from one context does not serve the facility they need.",
+      "Florida operates the third largest state prison system in the country through the Florida Department of Corrections (FDC), housing approximately 80,000 inmates. Phone calls at all FDC state facilities are handled through Securus Technologies. JPay handles electronic messaging, money transfers, and tablet services for Florida state prison inmates. Both Securus and JPay accounts are required if you want to receive phone calls and also send electronic messages.",
+      "Florida does not offer free phone calls at state prisons. Governor Ron DeSantis vetoed free call funding in both 2024 and 2025. Families continue to pay per-minute rates subject to FCC caps. All routine inmate mail must be sent to the FDC central processing facility for scanning and electronic distribution. Do not send routine mail directly to the facility. Legal mail and privileged mail are handled separately and should not go to the central processing center.",
+      "JPay tablets are available in all FDC general population housing units. Through JPay, families can send secure messages, photos, and money to inmate accounts. JPay kiosks are also available inside facilities. For JPay customer service call 800-574-5729. For Securus phone account assistance, contact Securus through securustech.net. Complaints about vendor services can be sent to the FDC at FDCCitizenServices@fdc.myflorida.com.",
+    ],
 
-      "JPay is the most widely used communication platform for Florida Department of Corrections state facilities, providing a single account for messaging, photo sharing, and money transfer. Phone services are handled by Securus Technologies and ICSolutions at various institutions throughout the state. Florida also has a notable federal correctional presence — the Federal Correctional Complex Coleman in Sumter County is one of the largest federal correctional campuses in the country, where inmates communicate through CorrLinks under Bureau of Prisons guidelines. County facilities each have their own arrangements, and it is not uncommon for multiple facilities in the same metropolitan area to use entirely different provider platforms.",
+    overview: [
+      "Which providers do Florida state prison families use? Securus Technologies handles all phone calls at FDC state facilities. JPay handles electronic messaging, money transfers, and tablet services. These are separate accounts. You need a Securus account to receive calls and a JPay account to send messages and money. Setting up both accounts is recommended for full communication access.",
+      "Are phone calls free at Florida state prisons? No. Florida does not currently offer free phone calls at state prisons. Governor Ron DeSantis vetoed free call funding proposals. Families pay per-minute rates regulated by FCC caps. In-state calls are charged at $0.135 per minute under the current FDC contract with Securus. Contact Securus at securustech.net for current rate information at your specific facility.",
+      "What is the most common mistake Florida prison families make? Sending mail directly to the facility is the most common mistake. All routine inmate mail must go to the FDC central processing facility for scanning and electronic distribution. Mail sent directly to a facility may be returned or delayed. Legal mail and privileged mail are the exception and should be sent directly to the institution, not the central processing center.",
+    ],
 
-      "For families navigating this, finding reliable and current information can feel like a full-time job. Provider websites are often incomplete, facility information is scattered, and the rules around communication vary by institution type. This guide organizes Florida facility and provider data in one place so you can identify the right platform for your specific situation, understand exactly what services are available, and move forward without having to sort through multiple government websites or make repeated calls to find basic answers.",
+    faq: [
+      {
+        question: "Which provider do I use for Florida state prison phone calls?",
+        answer: "Securus Technologies handles all phone calls at Florida Department of Corrections state facilities. Create a Securus account at securustech.net to receive calls. FDC inmates cannot receive incoming calls. All calls are inmate-initiated. For Securus account assistance visit securustech.net or contact Securus customer service directly.",
+      },
+      {
+        question: "How do I send messages and money to someone at a Florida state prison?",
+        answer: "JPay handles electronic messaging and money transfers for Florida state prison inmates. Visit jpay.com or use the JPay app to create an account, find the inmate, send messages, and deposit money to the inmate trust account. JPay tablets are available in all FDC general population housing units. For JPay customer service call 800-574-5729.",
+      },
+      {
+        question: "Are phone calls free at Florida state prisons?",
+        answer: "No. Florida does not currently offer free phone calls at state prisons. Governor Ron DeSantis vetoed free call funding proposals in both 2024 and 2025. Families pay per-minute rates regulated by FCC caps. In-state calls are charged at $0.135 per minute under the current FDC contract. Contact Securus for current rate information.",
+      },
+      {
+        question: "Can I send mail directly to a Florida state prison?",
+        answer: "No. All routine inmate mail must be sent to the FDC central processing facility for scanning and electronic distribution. Do not send routine mail directly to the facility. Legal mail and privileged mail are handled separately and should be sent directly to the institution. Check the FDC website for the current central processing facility address before mailing anything.",
+      },
+      {
+        question: "How do I find someone currently in a Florida state prison?",
+        answer: "Use the Florida Department of Corrections inmate search tool at fdc.myflorida.com. You can search by name or DC number. The search shows the current facility, admission date, and release information. For county jail inmates, use the county sheriff's website. For federal inmates in Florida, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Do I need both a Securus account and a JPay account for Florida?",
+        answer: "Yes, if you want both phone calls and messaging. Securus handles phone calls and JPay handles electronic messaging and money transfers. These are separate companies with separate accounts. Your Securus account balance cannot be used for JPay services and vice versa. Set up both accounts if you want full communication access with your loved one.",
+      },
+      {
+        question: "What is the DC number and where do I find it?",
+        answer: "The DC number is the identification number assigned to every person in Florida DOC custody. You need this number for JPay messaging, money transfers, and inmate search. Find it using the FDC inmate search tool at fdc.myflorida.com or by contacting the facility directly. The DC number is different from any court case number.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Florida county jail to a state prison?",
+        answer: "When someone transfers from a Florida county jail to a state prison, the communication providers change. County jails use their own contracted providers which are separate from FDC. You will need Securus for phone calls and JPay for messaging at the state prison. Your county jail accounts do not transfer to FDC facilities. Confirm the new facility and set up new accounts after the transfer is complete.",
+      },
     ],
 
     facilitiesByType: { federal: 25, state: 62, county: 200, private: 15 },

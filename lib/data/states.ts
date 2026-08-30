@@ -358,6 +358,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in New York. Compare messaging, video, and phone providers for correctional facilities across New York.",
+    seoTitle: "New York Prison Communication Guide: Free State Prison Calls, Securus and County Jail Providers",
+    seoDescription: "Find communication options for New York state prisons and county jails. New York state prison calls are free since August 1, 2025. NYC jail calls have been free since 2019. Learn which providers serve New York correctional facilities.",
 
     intro: [
       "New York's correctional system reflects the complexity of the state itself. The New York State Department of Corrections and Community Supervision oversees dozens of prisons ranging from maximum-security facilities in upstate counties like Attica and Green Haven to medium and minimum-security institutions distributed across the state. Separately, the New York City Department of Correction runs one of the largest local jail systems in the country, centered at Rikers Island and supplemented by borough detention centers serving the city's five counties. These are distinct systems with different rules, different providers, and different processes for family communication.",
@@ -786,6 +788,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in North Carolina. Compare messaging, video, and phone providers for correctional facilities across North Carolina.",
+    seoTitle: "North Carolina Prison Communication Guide: DPS Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for North Carolina state prisons and county jails. Learn which providers serve North Carolina Department of Public Safety facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "North Carolina's correctional landscape includes state prisons managed by the Department of Adult Correction, a notable federal Bureau of Prisons presence centered around the Butner Federal Correctional Complex in Granville County, and county detention centers operated by sheriffs across the state's 100 counties. The Butner complex is one of the larger federal correctional campuses in the country and serves a specialized inmate population. State facilities range from maximum-security prisons in the Piedmont region to smaller medium-security units distributed across more rural parts of the state.",
@@ -1769,6 +1773,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in South Carolina. Compare messaging, video, and phone providers for correctional facilities across South Carolina.",
+    seoTitle: "South Carolina Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for South Carolina state prisons and county jails. Learn which providers serve South Carolina Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "South Carolina's correctional system centers on the South Carolina Department of Corrections, which operates state prisons across the state including facilities near Columbia, the state capital in Richland County. County jails in South Carolina are administered by county sheriffs across all 46 counties, and the coastal geography of the Lowcountry creates a spread of detention facilities in areas that range from major urban centers like Charleston and Myrtle Beach to smaller rural counties in the Pee Dee and Midlands regions. A federal Bureau of Prisons presence in Edgefield County adds the third tier of the correctional system.",
@@ -1939,6 +1945,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in New Jersey. Compare messaging, video, and phone providers for correctional facilities across New Jersey.",
+    seoTitle: "New Jersey Prison Communication Guide: JPay to ViaPath Transition and County Jail Providers",
+    seoDescription: "Find communication options for New Jersey state prisons and county jails. New Jersey is transitioning from JPay to ViaPath in 2025 and 2026. NJ also reduced phone rates to $0.034 per minute. Learn which providers serve NJ facilities.",
 
     intro: [
       "New Jersey operates a correctional system through the New Jersey Department of Corrections, which manages state prisons including New Jersey State Prison in Trenton, East Jersey State Prison in Middlesex County, and several other institutions distributed across the state. New Jersey's 21 counties each operate their own county jail, and the density of the state means that multiple large county facilities serve populations in close geographic proximity. Essex County Correctional Facility in Newark, Hudson County Correctional Center, and the Mercer County Correction Center in Trenton each serve major urban populations under separate provider arrangements. The federal correctional complex at Fort Dix in Burlington County adds a significant federal population to the state.",
@@ -2967,6 +2975,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in New Mexico. Compare messaging, video, and phone providers for correctional facilities across New Mexico.",
+    seoTitle: "New Mexico Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for New Mexico state prisons and county jails. Learn which providers serve New Mexico Corrections Department facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "New Mexico's correctional system involves the New Mexico Corrections Department, which operates state prisons across the state, a notable presence of privately operated correctional facilities contracted to house state inmates, and county detention centers run by sheriffs in each of the state's 33 counties. New Mexico has one of the higher rates of private prison use in the country, meaning some state inmates are held in facilities operated by private companies rather than the NMCD directly, which affects which communication provider is available at a specific institution. New Mexico also has jurisdictional complexity due to its large Native American population, with tribal lands and tribal law enforcement adding a layer that can affect which system oversees a given case.",
@@ -3223,6 +3233,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in West Virginia. Compare messaging, video, and phone providers for correctional facilities across West Virginia.",
+    seoTitle: "West Virginia Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for West Virginia state prisons and county jails. Learn which providers serve West Virginia Division of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "West Virginia's correctional system has a structure that sets it apart from most states. Rather than individual county jails operated by local sheriffs, West Virginia uses a system of regional jails operated by the West Virginia Regional Jail and Correctional Facility Authority, a state agency. This means county sheriffs bring inmates to regionally operated facilities rather than maintaining separate county lockups. The West Virginia Division of Corrections and Rehabilitation operates state prisons separately under the same department. Federal Bureau of Prisons facilities in the state, including the Hazelton complex in Preston County and FCI Gilmer in Gilmer County, represent a significant federal correctional presence for a state of West Virginia's size.",
@@ -3565,6 +3577,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in South Dakota. Compare messaging, video, and phone providers for correctional facilities across South Dakota.",
+    seoTitle: "South Dakota Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for South Dakota state prisons and county jails. Learn which providers serve South Dakota Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "South Dakota's correctional system involves the South Dakota Department of Corrections, which runs state prisons in Sioux Falls and Springfield, and county jails operated by sheriffs across the state's 66 counties. South Dakota has one of the highest per-capita Native American incarcerated populations of any state, with tribal reservations including Pine Ridge, Rosebud, Standing Rock, and Cheyenne River each contributing to a corrections landscape that involves both state and tribal jurisdictions. Tribal courts and tribal law enforcement on reservation lands operate under separate authority from the state system, which affects which correctional facility handles a given case. South Dakota also has a federal Bureau of Prisons facility, FCI Yankton, which serves inmates from across the northern Great Plains region.",
@@ -3821,6 +3835,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in North Dakota. Compare messaging, video, and phone providers for correctional facilities across North Dakota.",
+    seoTitle: "North Dakota Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for North Dakota state prisons and county jails. Learn which providers serve North Dakota Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "North Dakota operates a small correctional system through the North Dakota Department of Corrections and Rehabilitation, which manages the North Dakota State Penitentiary in Bismarck and the James River Correctional Center in Jamestown. County jails in each of North Dakota's 53 counties serve their local populations, ranging from the growing Fargo metro area in the east to the Bakken oil patch communities in the western part of the state. The oil boom that transformed western North Dakota over the past two decades brought significant population growth to areas like Williams and Mountrail counties, which had correctional infrastructure originally designed for much smaller communities. North Dakota also has a substantial Native American population, with Standing Rock, Turtle Mountain, Fort Berthold, and other reservations each involving their own jurisdictional considerations.",
@@ -3988,6 +4004,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in New Hampshire. Compare messaging, video, and phone providers for correctional facilities across New Hampshire.",
+    seoTitle: "New Hampshire Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for New Hampshire state prisons and county jails. Learn which providers serve New Hampshire Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "New Hampshire operates a correctional system that includes both state prisons under the New Hampshire Department of Corrections and county jails run by sheriffs in each of the state's 10 counties. This differs from some of its New England neighbors that have consolidated detention under state control. The NHDOC manages the New Hampshire State Prison for Men and the New Hampshire State Prison for Women, both located in Concord, the state capital. County jails in New Hampshire range from the comparatively larger Hillsborough County Department of Corrections, which serves the Manchester and Nashua metro areas, to smaller facilities in the more rural northern and western counties. New Hampshire's compact geography means that families are rarely far from the relevant facility.",
@@ -4071,6 +4089,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Rhode Island. Compare messaging, video, and phone providers for correctional facilities across Rhode Island.",
+    seoTitle: "Rhode Island Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Rhode Island state prisons and county jails. Learn which providers serve Rhode Island Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Rhode Island has one of the most centralized correctional systems in the United States. The Rhode Island Department of Corrections operates the Adult Correctional Institutions, a campus in Cranston that serves as the state's near-complete corrections infrastructure. The ACI campus houses maximum security, medium security, minimum security, a women's facility, and an intake and detention unit, all within a single complex. Rhode Island abolished its county jail system decades ago, and the state's five counties, Providence, Kent, Bristol, Newport, and Washington, have no independent detention role. Virtually every person in Rhode Island state custody passes through or is held at the Cranston campus.",

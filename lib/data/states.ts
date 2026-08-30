@@ -125,11 +125,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "Find communication options for California state prisons and county jails. Phone calls from CDCR facilities are free under SB 1008. Learn how the 2025 Securus transition affects families and how to set up accounts.",
 
     intro: [
-      "California operates one of the most complex correctional systems in the country, encompassing state prisons managed by the California Department of Corrections and Rehabilitation, federal Bureau of Prisons institutions, and hundreds of county jails and detention centers scattered across its 58 counties. The scale of the system, combined with California's geographic diversity from the Pacific coast to the Central Valley, means that communication options vary significantly from one facility to the next. Some institutions offer robust digital communication services while others operate under tighter restrictions, and the available options depend heavily on which provider has been contracted for that specific location.",
+      "California's correctional system is operated by the California Department of Corrections and Rehabilitation (CDCR), one of the largest state prison systems in the United States with over 90,000 incarcerated people. Phone calls from all CDCR state prisons have been free since January 1, 2023 under Senate Bill 1008, the Keep Families Connected Act. Each call is limited to 15 minutes with no cap on the number of daily calls. You do not need to fund a prepaid account to receive calls from California state prisons.",
+      "California awarded a new $315 million telecommunications contract to Securus Technologies in February 2025, replacing ViaPath as the CDCR provider. The transition from ViaPath to Securus tablets began at fire camps and continued facility by facility through spring 2026. When a facility transitions, all ViaPath content including messages, photos, and media is permanently lost and does not transfer to Securus tablets. Families were advised to have their loved one print important messages or photos from the ViaPath tablet before the institution's transition date.",
+      "Although phone calls are free at California state prisons, messaging and streaming services on Securus tablets have associated costs. Securus was found to be charging more than the contracted rate per message shortly after the California transition began. After advocates complained, Securus issued a $10 credit to incarcerated people at the California Institution for Women. Families should check billing carefully and report discrepancies to CDCR or Securus customer service.",
+    ],
 
-      "For families trying to stay connected, navigating these differences is one of the most frustrating parts of the experience. JPay is the most widely used platform for messaging and money transfer across California state prisons, while GTL and Securus Technologies handle phone and video services at many institutions. At the county level, providers like ConnectNetwork and others serve different jails with separate account requirements and pricing structures. A family member with a loved one at a Los Angeles County facility may use a completely different platform than someone trying to reach a person held in Fresno or Kern County.",
+    overview: [
+      "Are phone calls free at California state prisons? Yes. Phone calls from CDCR state prison facilities have been free since January 1, 2023 under Senate Bill 1008. Each call is limited to 15 minutes. There is no limit on the number of daily calls. You do not need a prepaid calling account. However, messaging and streaming on Securus tablets are not free and have separate costs.",
+      "Which provider do California state prison families use in 2026? Securus Technologies replaced ViaPath as the CDCR provider starting in February 2025. Most facilities have completed their transition to Securus by 2026. For facilities that have already transitioned, create a Securus account at securustech.net. Check the CDCR transition schedule at cdcr.ca.gov/family-resources/tablets to confirm which provider is active at your specific institution.",
+      "What happened to ViaPath content during the California transition? ViaPath messages, photos, and media do not transfer to Securus tablets. Once a facility transitions, incarcerated individuals permanently lose access to their ViaPath content during incarceration. CDCR states that incarcerated individuals can request their digital content from ViaPath upon release. Families were advised to have their loved one print important messages or photos from the ViaPath kiosk before the transition date.",
+    ],
 
-      "This directory is designed to make that process straightforward. Instead of searching through provider websites, calling facilities directly, or piecing together information from outdated correctional portals, you can find communication options for specific California facilities in one organized place. Whether you need to set up messaging at a state prison, arrange a video visit at a county jail, or understand the rules for sending photos, this guide brings the essential information together so families can focus on staying connected rather than navigating an unnecessarily complicated system.",
+    faq: [
+      {
+        question: "Are phone calls free at California state prisons?",
+        answer: "Yes. Phone calls from all CDCR California state prison facilities have been free since January 1, 2023 under Senate Bill 1008, the Keep Families Connected Act. Each call is limited to 15 minutes with no daily limit on the number of calls. You do not need to fund a prepaid account to receive calls. Messaging and streaming on tablets are not covered by the free call program and have separate costs.",
+      },
+      {
+        question: "Which provider do I use for California state prisons in 2026?",
+        answer: "Securus Technologies replaced ViaPath as the CDCR provider starting in February 2025. Most facilities completed their transition to Securus by 2026. Create a Securus account at securustech.net. Check the CDCR transition schedule at cdcr.ca.gov/family-resources/tablets to confirm which provider is currently active at your specific institution. Some facilities may still be on ViaPath during the transition period.",
+      },
+      {
+        question: "What happened to my loved one's ViaPath messages and photos?",
+        answer: "ViaPath messages, photos, and media do not transfer to Securus tablets. Once a facility transitions, incarcerated individuals permanently lose access to their ViaPath content during incarceration. CDCR states that incarcerated individuals can request their digital content from ViaPath upon release. Families were advised to have their loved one print important messages or photos from the ViaPath tablet or kiosk before the institution's transition date.",
+      },
+      {
+        question: "How do I find someone currently in a California state prison?",
+        answer: "Use the CDCR Inmate Locator at cdcr.ca.gov. You can search by the inmate CDCR number or by name. The locator shows the current facility, admission date, and projected release date. For federal inmates in California, use the Bureau of Prisons locator at bop.gov. For county jail inmates, use the county sheriff's website for the county where they are held.",
+      },
+      {
+        question: "Do California county jails also offer free phone calls?",
+        answer: "Some California counties have implemented free calls at county jails independently of the CDCR program. Los Angeles County eliminated jail call charges in December 2023. San Francisco and other counties have also implemented free call programs. County jail communication uses different providers than CDCR state prisons. Contact the specific county jail to find out whether free calls apply at that location.",
+      },
+      {
+        question: "How do I send money to someone at a California state prison?",
+        answer: "Money transfers to CDCR inmate trust accounts can be made through JPay at jpay.com, by phone through JPay, by money order mailed to the facility, or at JPay kiosks. Always include the inmate CDCR number and full legal name. Transaction fees apply for online and phone transfers. Money orders mailed directly may take longer to process.",
+      },
+      {
+        question: "Can I send photos to someone at a California state prison?",
+        answer: "Yes. Physical photos can be mailed to CDCR facilities following size and content rules. Standard 4x6 inch photos are generally accepted. Digital photos can also be sent through the Securus tablet system at facilities that have completed the transition. ViaPath photo delivery is no longer available at transitioned facilities. Check the specific facility's mail rules before sending.",
+      },
+      {
+        question: "What is the difference between California state prisons and county jails?",
+        answer: "California state prisons are operated by CDCR and hold people convicted of state crimes serving sentences longer than one year. County jails are operated by county sheriffs and hold people awaiting trial or serving short sentences. State prisons use Securus for tablets and have free phone calls under SB 1008. County jails use their own contracted providers which vary by county and may or may not offer free calls.",
+      },
     ],
 
     facilitiesByType: { federal: 35, state: 35, county: 248, private: 32 },

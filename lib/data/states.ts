@@ -34,6 +34,8 @@ export interface StateDetail extends StateBasic {
   intro: string[]      // Array of paragraphs for the intro section
   overview?: string[]  // Optional inline question/answer strings, split at the first "?"
   description: string  // Single-line for metadata
+  seoTitle?: string
+  seoDescription?: string
   facilitiesByType: {
     federal: number
     state: number
@@ -119,6 +121,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in California. Compare messaging, video, and phone providers for correctional facilities across California.",
+    seoTitle: "California Prison Communication Guide: Free Calls, Securus Transition and CDCR Provider Info",
+    seoDescription: "Find communication options for California state prisons and county jails. Phone calls from CDCR facilities are free under SB 1008. Learn how the 2025 Securus transition affects families and how to set up accounts.",
 
     intro: [
       "California operates one of the most complex correctional systems in the country, encompassing state prisons managed by the California Department of Corrections and Rehabilitation, federal Bureau of Prisons institutions, and hundreds of county jails and detention centers scattered across its 58 counties. The scale of the system, combined with California's geographic diversity from the Pacific coast to the Central Valley, means that communication options vary significantly from one facility to the next. Some institutions offer robust digital communication services while others operate under tighter restrictions, and the available options depend heavily on which provider has been contracted for that specific location.",
@@ -203,6 +207,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Texas. Compare messaging, video, and phone providers for correctional facilities across Texas.",
+    seoTitle: "Texas Prison Communication Guide: TDCJ Phone Calls, JPay Messaging and County Jail Providers",
+    seoDescription: "Find communication options for Texas state prisons and county jails. Learn which providers serve TDCJ facilities, how to set up Securus phone accounts, and how to send money through JPay.",
 
     intro: [
       "Texas runs one of the largest correctional systems in the United States, with the Texas Department of Criminal Justice overseeing more than a hundred prison units spread across the state. In addition to TDCJ state facilities, Texas has a substantial federal Bureau of Prisons presence and hundreds of county jails operating across its 254 counties. The sheer size of the state means that the communication setup for a facility in Houston can be entirely different from one in San Antonio, El Paso, or the Rio Grande Valley. Provider availability, messaging rules, and video visitation options are not consistent statewide.",
@@ -273,6 +279,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Florida. Compare messaging, video, and phone providers for correctional facilities across Florida.",
+    seoTitle: "Florida Prison Communication Guide: JPay Messaging, Phone Calls and FDC Provider Info",
+    seoDescription: "Find communication options for Florida state prisons and county jails. Learn which providers serve Florida Department of Corrections facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Florida's correctional landscape encompasses state prisons operated by the Florida Department of Corrections, a significant federal Bureau of Prisons presence, and county detention centers run by individual sheriff's offices across its 67 counties. The state's geography and large population mean that communication arrangements at different facilities vary considerably. Urban county jails in Miami-Dade and Broward operate under different systems from rural state prisons in Bradford or Union counties, and families often discover that the provider they know from one context does not serve the facility they need.",
@@ -434,6 +442,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Georgia. Compare messaging, video, and phone providers for correctional facilities across Georgia.",
+    seoTitle: "Georgia Prison Communication Guide: GDC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Georgia state prisons and county jails. Learn which providers serve Georgia Department of Corrections facilities and how to set up accounts for messaging and phone calls.",
 
     intro: [
       "Georgia's correctional system is managed primarily by the Georgia Department of Corrections, which oversees state prisons scattered across the state from the Piedmont region to the coast. Beyond the state system, Georgia has a federal Bureau of Prisons presence including facilities in Jesup and the Atlanta area, and county detention centers run by sheriffs across its 159 counties. The sheer number of counties means that communication options are not uniform statewide. A family trying to reach someone at a state prison in Reidsville is using a different system than a family dealing with a county jail in Fulton County or a federal facility in South Georgia.",
@@ -518,6 +528,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Ohio. Compare messaging, video, and phone providers for correctional facilities across Ohio.",
+    seoTitle: "Ohio Prison Communication Guide: ODRC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Ohio state prisons and county jails. Learn which providers serve Ohio Department of Rehabilitation and Correction facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Ohio operates a large correctional system through the Ohio Department of Rehabilitation and Correction, which runs state prisons at locations including Youngstown, Chillicothe, Lucasville, and Marion. The state also has a significant federal Bureau of Prisons presence, with institutions such as FCI Elkton in Columbiana County. County jails, operated by individual sheriffs, add another layer across all 88 Ohio counties. The result is a three-tier system where the provider, communication rules, and account requirements depend entirely on which specific facility a person is held in.",
@@ -602,6 +614,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Illinois. Compare messaging, video, and phone providers for correctional facilities across Illinois.",
+    seoTitle: "Illinois Prison Communication Guide: IDOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Illinois state prisons and county jails. Learn which providers serve Illinois Department of Corrections facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Illinois has a layered correctional system that includes state prisons under the Illinois Department of Corrections, federal Bureau of Prisons institutions, and county jails operated by sheriffs across its 102 counties. Cook County alone runs one of the largest single-site jails in the United States, which operates under its own rules and contracts separate from the state prison system. Downstate facilities serve populations across the rural areas of central and southern Illinois, and the provider landscape changes significantly depending on whether a facility is a state prison, a county detention center, or a federal institution.",
@@ -686,6 +700,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Michigan. Compare messaging, video, and phone providers for correctional facilities across Michigan.",
+    seoTitle: "Michigan Prison Communication Guide: MDOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Michigan state prisons and county jails. Learn which providers serve Michigan Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Michigan's correctional system is divided between the Michigan Department of Corrections, which operates prisons throughout both peninsulas of the state, county jails run by local sheriffs, and several federal Bureau of Prisons institutions including facilities in the Milan area and near Detroit. The geographic spread of Michigan, from the Upper Peninsula to the southern border, means that some correctional facilities serve remote populations with limited local services, while others are in major urban counties like Wayne, Oakland, and Kent. Communication options are not standardized across the state and vary considerably based on the specific institution.",
@@ -854,6 +870,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Arizona. Compare messaging, video, and phone providers for correctional facilities across Arizona.",
+    seoTitle: "Arizona Prison Communication Guide: ADC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Arizona state prisons and county jails. Learn which providers serve Arizona Department of Corrections facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Arizona's correctional system is managed by the Arizona Department of Corrections, Rehabilitation and Reentry, which operates state prison complexes in several counties including Maricopa, Pinal, Pima, and Yuma. The state makes notable use of private prison contractors, and a meaningful share of Arizona inmates are housed in privately operated facilities that have communication arrangements separate from state-run institutions. Arizona also has a federal Bureau of Prisons presence in the Phoenix and Tucson areas, and Maricopa County alone operates one of the largest county jail systems in the country. Each layer of this system uses different providers and different rules.",
@@ -938,6 +956,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Pennsylvania. Compare messaging, video, and phone providers for correctional facilities across Pennsylvania.",
+    seoTitle: "Pennsylvania Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Pennsylvania state prisons and county jails. Learn which providers serve Pennsylvania Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Pennsylvania's correctional system includes state prisons operated by the Pennsylvania Department of Corrections, a substantial federal Bureau of Prisons presence particularly in the central part of the state, and county jails in each of its 67 counties. The PA DOC system includes facilities ranging from maximum-security state correctional institutions to smaller specialized treatment facilities. Federal prisons in Pennsylvania include USP Lewisburg, FCI Allenwood, USP Canaan, and several other institutions in the Susquehanna and Pocono regions, making central Pennsylvania home to a dense concentration of federal correctional facilities.",
@@ -1022,6 +1042,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Tennessee. Compare messaging, video, and phone providers for correctional facilities across Tennessee.",
+    seoTitle: "Tennessee Prison Communication Guide: TDOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Tennessee state prisons and county jails. Learn which providers serve Tennessee Department of Correction facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Tennessee's correctional system includes state prisons run by the Tennessee Department of Correction, county jails operated by local sheriffs across its 95 counties, and private facilities contracted to manage overflow population. The state's geography spans from Memphis in the west through Nashville in the center to Knoxville and Chattanooga in the east, and the communication options at correctional facilities follow no single statewide standard. A facility in the rural northeast may have different provider arrangements from a large urban jail in Shelby County, and families often find that accurate information is not published in any organized location.",
@@ -1106,6 +1128,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Indiana. Compare messaging, video, and phone providers for correctional facilities across Indiana.",
+    seoTitle: "Indiana Prison Communication Guide: IDOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Indiana state prisons and county jails. Learn which providers serve Indiana Department of Correction facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Indiana's correctional system is organized around the Indiana Department of Correction, which operates state prisons at locations including Michigan City, Pendleton, Carlisle, and Westville. County jails across Indiana's 92 counties add a second tier of facilities, each operating under local sheriff's oversight with separate communication arrangements. The federal Bureau of Prisons also maintains a presence in Indiana, most notably at the Terre Haute federal complex, which includes a United States Penitentiary and a federal medical center. Each tier of this system has its own provider relationships, and the rules governing communication differ across them.",
@@ -1190,6 +1214,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Virginia. Compare messaging, video, and phone providers for correctional facilities across Virginia.",
+    seoTitle: "Virginia Prison Communication Guide: VADOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Virginia state prisons and county jails. Learn which providers serve Virginia Department of Corrections facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Virginia's correctional system includes state prisons operated by the Virginia Department of Corrections, local and regional jails run by cities and counties, and federal Bureau of Prisons facilities including institutions in the Hopewell and Lee County areas. One distinctive feature of Virginia's system is the role of regional jails, which are multi-jurisdiction facilities serving more than one locality and operating under different arrangements than single-county jails. The state has over 130 independent cities and counties, many of which share jail resources through these regional agreements, adding a layer of complexity that families do not encounter in most other states.",
@@ -1274,6 +1300,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Louisiana. Compare messaging, video, and phone providers for correctional facilities across Louisiana.",
+    seoTitle: "Louisiana Prison Communication Guide: DOC Messaging, Phone Calls and Parish Jail Providers",
+    seoDescription: "Find communication options for Louisiana state prisons and parish jails. Learn which providers serve Louisiana Department of Corrections facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Louisiana's correctional system is one of the most distinctive in the country, operated primarily through the Louisiana Department of Public Safety and Corrections, which oversees state prisons including the Louisiana State Penitentiary at Angola, one of the largest maximum-security prisons in the United States. Unlike most states, Louisiana divides its land into parishes rather than counties, and each parish typically operates its own detention center under the oversight of the local sheriff. This parish jail system is one of the most extensive of its type in the country, and the facilities in it range from large urban lockups in the New Orleans area to smaller rural detention centers spread across the state.",
@@ -1358,6 +1386,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Alabama. Compare messaging, video, and phone providers for correctional facilities across Alabama.",
+    seoTitle: "Alabama Prison Communication Guide: Securus Phone Calls, JPay Money Transfers and ADOC Info",
+    seoDescription: "Find communication options for Alabama state prisons and county jails. Phone calls use Securus Technologies. JPay handles money transfers. Mail now goes to San Antonio TX processing center since November 2025.",
 
     intro: [
       "Alabama's correctional system is operated by the Alabama Department of Corrections (ADOC), headquartered in Montgomery. The ADOC system includes state prisons, work release centers, and community corrections facilities across all 67 counties. Securus Technologies holds the ADOC state contract for phone calls and video visits. JPay is the primary platform for money transfers to inmate trust accounts at ADOC state facilities.",
@@ -1481,6 +1511,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Missouri. Compare messaging, video, and phone providers for correctional facilities across Missouri.",
+    seoTitle: "Missouri Prison Communication Guide: MDOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Missouri state prisons and county jails. Learn which providers serve Missouri Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Missouri's correctional system is built around the Missouri Department of Corrections, which operates state prisons distributed across the state from the St. Louis metro area to the Ozarks and the Kansas City corridor. The state has 114 counties plus the independent City of St. Louis, each running its own jail system under sheriff or city oversight. The geographic split between eastern and western Missouri means that the two largest urban areas, St. Louis and Kansas City, each have distinct detention systems operating independently from one another and from the state prison network. Federal correctional institutions in Missouri add a third tier with their own provider requirements.",
@@ -1565,6 +1597,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Oklahoma. Compare messaging, video, and phone providers for correctional facilities across Oklahoma.",
+    seoTitle: "Oklahoma Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Oklahoma state prisons and county jails. Learn which providers serve Oklahoma Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Oklahoma's correctional system involves the Oklahoma Department of Corrections, which runs state prisons across its 77 counties, county detention centers operated by local sheriffs, and a significant federal Bureau of Prisons presence that includes the Federal Transfer Center in Oklahoma City, one of the busiest federal inmate transit hubs in the country. Oklahoma also has a distinctive layer of complexity due to its large Native American population and tribal land jurisdictions, which can affect which court and which correctional system oversees a given case. Families in Oklahoma sometimes find their situation involves a facility type they were not expecting based on the legal jurisdiction that applied.",
@@ -1649,6 +1683,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Kentucky. Compare messaging, video, and phone providers for correctional facilities across Kentucky.",
+    seoTitle: "Kentucky Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Kentucky state prisons and county jails. Learn which providers serve Kentucky Department of Corrections facilities for messaging, phone calls, video visits, and money transfers.",
 
     intro: [
       "Kentucky's correctional system is managed by the Kentucky Department of Corrections, which operates state prisons at locations including the Kentucky State Penitentiary in Lyon County, Luther Luckett Correctional Complex in Oldham County, and facilities in the eastern part of the state where coal country geography shapes both the local economy and the prison landscape. The state has 120 counties, each with its own detention center, and the Louisville metro area includes Jefferson County's large urban jail system operating separately from state prisons. Federal Bureau of Prisons facilities in Kentucky, including FCI Manchester in Clay County and FCI Ashland in Boyd County, serve inmates across the region.",
@@ -1817,6 +1853,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Wisconsin. Compare messaging, video, and phone providers for correctional facilities across Wisconsin.",
+    seoTitle: "Wisconsin Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Wisconsin state prisons and county jails. Learn which providers serve Wisconsin Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Wisconsin's correctional system is run by the Wisconsin Department of Corrections, which operates state prisons at facilities including Waupun Correctional Institution in Dodge County, Green Bay Correctional Institution, and several other prisons distributed across the state's 72 counties. County jails in Wisconsin operate under local sheriff's authority, with Milwaukee County running the largest jail system in the state. The geographic spread from the Milwaukee and Madison metro areas in the southeast to the northern woodlands and Lake Superior shoreline means that rural county jails and urban detention centers serve very different populations but both require families to navigate the same provider landscape.",
@@ -1985,6 +2023,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Colorado. Compare messaging, video, and phone providers for correctional facilities across Colorado.",
+    seoTitle: "Colorado Prison Communication Guide: Free Calls, DOC Messaging and County Jail Providers",
+    seoDescription: "Find communication options for Colorado state prisons and county jails. Colorado implemented free phone calls at state facilities in 2026. Learn which providers serve Colorado DOC facilities.",
 
     intro: [
       "Colorado's correctional system is operated by the Colorado Department of Corrections, which runs state prisons at several locations including a concentration of facilities in the Canon City area of Fremont County, where both state and federal institutions sit in close proximity. Colorado's 64 counties each operate their own detention system, and the population and geography of the state range from the Denver Front Range metro to rural mountain counties and the Western Slope. The Fremont County area is particularly notable because it houses multiple Colorado state prisons, the federal ADX Florence supermaximum security prison, and FCI Florence, making it one of the highest-density correctional areas in the country.",
@@ -2069,6 +2109,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Washington. Compare messaging, video, and phone providers for correctional facilities across Washington.",
+    seoTitle: "Washington Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Washington state prisons and county jails. Learn which providers serve Washington Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Washington State's correctional system is managed by the Washington State Department of Corrections, which operates prisons at locations including the Washington State Penitentiary in Walla Walla and the Monroe Correctional Complex in Snohomish County east of Seattle. The state's 39 counties each operate their own jail system, and the significant geographic divide between the densely populated Puget Sound region and the drier, more rural eastern side of the Cascades means that King County's large urban detention system in Seattle operates in a very different environment from county jails in Yakima or Walla Walla. A federal detention presence in the SeaTac area serves the broader Pacific Northwest region.",
@@ -2153,6 +2195,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Arkansas. Compare messaging, video, and phone providers for correctional facilities across Arkansas.",
+    seoTitle: "Arkansas Prison Communication Guide: ADC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Arkansas state prisons and county jails. Learn which providers serve Arkansas Division of Correction facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Arkansas operates its state prison system through the Arkansas Division of Correction, which manages facilities spread across the state's diverse geography, from the Ozark highlands in the northwest to the Arkansas Delta in the east. The Delta region is home to several large state prison farms, including the Cummins Unit in Lincoln County, one of the most historically significant correctional institutions in the South. Arkansas's 75 counties each operate their own detention facilities under county sheriff oversight, and the size and resources of these jails vary considerably between urban counties like Pulaski and Washington and the smaller rural counties of the eastern and southern parts of the state.",
@@ -2237,6 +2281,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Mississippi. Compare messaging, video, and phone providers for correctional facilities across Mississippi.",
+    seoTitle: "Mississippi Prison Communication Guide: MDOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Mississippi state prisons and county jails. Learn which providers serve Mississippi Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Mississippi's correctional system is operated by the Mississippi Department of Corrections, which manages state prisons including the Mississippi State Penitentiary at Parchman in the Delta, one of the oldest and most well-known correctional institutions in the United States. The Parchman farm, as it is historically known, has operated in Sunflower County for over a century and remains central to the state prison system today. Beyond Parchman and other MDOC state facilities, Mississippi's 82 counties each operate their own jails under local sheriff oversight. The rural nature of much of the state means that many county detention centers serve small populations with limited communication infrastructure.",
@@ -2321,6 +2367,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Kansas. Compare messaging, video, and phone providers for correctional facilities across Kansas.",
+    seoTitle: "Kansas Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Kansas state prisons and county jails. Learn which providers serve Kansas Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Kansas operates its state correctional system through the Kansas Department of Corrections, which manages prisons including Lansing Correctional Facility and El Dorado Correctional Facility distributed across the state. Leavenworth County holds a unique place in American corrections history: it is home to both the Kansas state prison at Lansing and the federal United States Penitentiary at Leavenworth, one of the oldest and most well-known federal prisons in the country, as well as the adjacent Fort Leavenworth military installation. Families dealing with Leavenworth-area facilities need to identify whether the situation involves a state, federal, or military institution, since each operates under entirely separate rules and providers.",
@@ -2405,6 +2453,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Minnesota. Compare messaging, video, and phone providers for correctional facilities across Minnesota.",
+    seoTitle: "Minnesota Prison Communication Guide: Free Phone Calls, DOC Messaging and County Jail Providers",
+    seoDescription: "Find communication options for Minnesota state prisons and county jails. Phone calls from Minnesota DOC facilities are free since July 2023. Learn which providers serve Minnesota correctional facilities.",
 
     intro: [
       "Minnesota's correctional system is managed by the Minnesota Department of Corrections, which operates state prisons at locations including MCF-Stillwater in Washington County, MCF-St. Cloud, and facilities in Faribault, Moose Lake, and other locations across the state. The Minneapolis-St. Paul metro area presents a layered detention landscape: Hennepin County, which includes Minneapolis, and Ramsey County, which includes St. Paul, each operate large county jail systems that function independently from one another and from state prisons. Federal Bureau of Prisons facilities in Minnesota include FMC Rochester, a federal medical center in Olmsted County that serves inmates with significant health needs from across the region.",
@@ -2489,6 +2539,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Iowa. Compare messaging, video, and phone providers for correctional facilities across Iowa.",
+    seoTitle: "Iowa Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Iowa state prisons and county jails. Learn which providers serve Iowa Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Iowa's correctional system is managed by the Iowa Department of Corrections, which operates state prisons at facilities including the Iowa State Penitentiary in Fort Madison, the oldest operating prison west of the Mississippi River, and Anamosa State Penitentiary, a historic stone institution in Jones County. Iowa's 99 counties each operate their own detention facilities under local sheriff oversight, and the distribution of correctional facilities across a largely agricultural state means that many families are dealing with jails in small county seats rather than large urban lockups. Des Moines, served by Polk County, and Cedar Rapids, served by Linn County, operate the two largest county jail systems in the state.",
@@ -2573,6 +2625,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Maryland. Compare messaging, video, and phone providers for correctional facilities across Maryland.",
+    seoTitle: "Maryland Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Maryland state prisons and county jails. Learn which providers serve Maryland Department of Public Safety facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Maryland's correctional system is managed by the Department of Public Safety and Correctional Services, which operates state prisons and pre-trial facilities across the state. One distinctive feature of Maryland's geography is the status of Baltimore City, which is an independent city separate from Baltimore County, each running its own detention infrastructure under separate administrations. The Baltimore City Detention Center serves the independent city population while Baltimore County operates its own detention center for the surrounding county. Suburban counties like Montgomery and Prince George's in the Washington metro area also run their own large detention systems, and a federal correctional complex in the mountains of western Maryland adds the federal tier.",
@@ -2657,6 +2711,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Massachusetts. Compare messaging, video, and phone providers for correctional facilities across Massachusetts.",
+    seoTitle: "Massachusetts Prison Communication Guide: DOC Messaging, Free Calls and County Jail Providers",
+    seoDescription: "Find communication options for Massachusetts state prisons and county jails. Massachusetts has implemented free or reduced-cost calls at state facilities. Learn which providers serve Massachusetts correctional facilities.",
 
     intro: [
       "Massachusetts operates a two-tier corrections structure that includes state prisons run by the Massachusetts Department of Correction and county-level facilities called Houses of Correction, which serve as the jail and short-sentence institution for each of the state's 14 counties. The House of Correction model is distinctive to Massachusetts and a small number of other New England states. It means that a family dealing with a pre-trial detainee or someone serving a sentence of less than two and a half years is dealing with a county House of Correction rather than a state DOC prison. Each House of Correction operates under the county sheriff and has separate provider arrangements from state prisons. A federal medical center in Devens adds to the state's correctional landscape.",
@@ -2741,6 +2797,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Connecticut. Compare messaging, video, and phone providers for correctional facilities across Connecticut.",
+    seoTitle: "Connecticut Prison Communication Guide: DOC Messaging, Free Calls and County Jail Providers",
+    seoDescription: "Find communication options for Connecticut state prisons and county jails. Connecticut offers free phone calls at state facilities. Learn which providers serve Connecticut Department of Corrections facilities.",
 
     intro: [
       "Connecticut operates one of the most centralized correctional systems in the country. Unlike most states, Connecticut abolished its county sheriff jail system decades ago and consolidated all detention operations under the Connecticut Department of Correction, which runs both prisons and what other states would call county jails. This means that whether someone is awaiting trial, serving a short sentence, or serving a long-term state prison sentence, they are held in a facility operated and contracted by the state DOC rather than a county government. Connecticut's 8 counties still exist as geographic divisions but have no separate jail administration. The result is a simpler provider landscape than most states, but one that families unfamiliar with Connecticut's structure sometimes misunderstand.",
@@ -2823,6 +2881,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Nebraska. Compare messaging, video, and phone providers for correctional facilities across Nebraska.",
+    seoTitle: "Nebraska Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Nebraska state prisons and county jails. Learn which providers serve Nebraska Department of Correctional Services facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Nebraska's correctional system is operated by the Nebraska Department of Correctional Services, which manages state prisons including the Nebraska State Penitentiary in Lincoln and Tecumseh State Correctional Institution in southeastern Nebraska, as well as community corrections centers distributed across the state. Nebraska's 93 counties operate their own jail systems under local sheriff authority, though the rural nature of much of the state means that many county jails are small facilities with more limited communication options than the larger urban lockups in Omaha and Lincoln. Douglas County, which encompasses Omaha, and Lancaster County, which encompasses Lincoln, operate the two most active county detention systems in the state.",
@@ -2991,6 +3051,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Oregon. Compare messaging, video, and phone providers for correctional facilities across Oregon.",
+    seoTitle: "Oregon Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Oregon state prisons and county jails. Learn which providers serve Oregon Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Oregon's correctional system is managed by the Oregon Department of Corrections, which operates state prisons at locations including the Oregon State Penitentiary in Salem, Coffee Creek Correctional Facility in Wilsonville, and facilities in the eastern part of the state. Oregon's geography divides sharply between the densely populated Willamette Valley, which runs from Portland south through Salem and Eugene, and the vast rural expanse east of the Cascades. Multnomah County, which includes Portland, operates the state's largest county jail system. Federal Bureau of Prisons presence in Oregon includes FCI Sheridan in rural Yamhill County, one of the major federal correctional facilities on the West Coast.",
@@ -3075,6 +3137,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Nevada. Compare messaging, video, and phone providers for correctional facilities across Nevada.",
+    seoTitle: "Nevada Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Nevada state prisons and county jails. Learn which providers serve Nevada Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Nevada's correctional landscape is dominated by Clark County, which encompasses Las Vegas and contains both Nevada Department of Corrections facilities in the southern part of the state and the Clark County Detention Center, one of the busiest urban jail facilities in the western United States. The concentration of Nevada's population in the Las Vegas metro means that Clark County accounts for a disproportionately large share of the state's total corrections activity compared to the rest of the state. Washoe County, which includes Reno in northern Nevada, operates the second-largest county detention system. The Nevada Department of Corrections manages state prisons at several locations including facilities in Ely, Carson City, and the Las Vegas area.",
@@ -3243,6 +3307,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Idaho. Compare messaging, video, and phone providers for correctional facilities across Idaho.",
+    seoTitle: "Idaho Prison Communication Guide: DOC Messaging, Free ViaPath Tablets and County Jail Providers",
+    seoDescription: "Find communication options for Idaho state prisons and county jails. Idaho transitioned from JPay to ViaPath Bridge tablets in May 2025. Learn which providers serve Idaho Department of Correction facilities.",
 
     intro: [
       "Idaho's correctional system is run by the Idaho Department of Correction, which operates state prisons anchored in the Boise metro area including the Idaho Maximum Security Institution and Idaho State Correctional Center in Ada County. The state is experiencing one of the fastest population growth rates in the country, and the Boise and Nampa corridor now accounts for a significant share of Idaho's corrections activity. At the same time, rural counties across central, eastern, and northern Idaho maintain their own county jail systems in small communities that can be hours from the nearest major city. The contrast between the urban Treasure Valley and the remote agricultural and forested regions of the state creates a wide range of communication options across facilities.",
@@ -3327,6 +3393,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Utah. Compare messaging, video, and phone providers for correctional facilities across Utah.",
+    seoTitle: "Utah Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Utah state prisons and county jails. Learn which providers serve Utah Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Utah's correctional system is operated by the Utah Department of Corrections, which manages state prisons including the Utah State Correctional Facility in Salt Lake City, which opened in 2022 and replaced the older campus in Draper. Utah also makes notable use of private correctional contractors to house state inmates at facilities in various locations. The Wasatch Front, which runs from Ogden through Salt Lake City to Provo and contains roughly 80 percent of Utah's population, concentrates most of the state's corrections activity. Salt Lake County and Utah County together account for the bulk of county jail bookings, while smaller rural counties from the Colorado Plateau to the Great Basin operate much smaller detention systems.",
@@ -3411,6 +3479,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Montana. Compare messaging, video, and phone providers for correctional facilities across Montana.",
+    seoTitle: "Montana Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Montana state prisons and county jails. Learn which providers serve Montana Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Montana is the fourth-largest state by land area but has one of the smallest populations in the country, and its correctional system reflects that combination. The Montana Department of Corrections operates Montana State Prison in Deer Lodge, a historic institution in Powell County that has served as the state's primary prison for over a century, along with additional facilities and a prerelease center network distributed across the state. Montana's 56 counties each maintain their own county jail, and the vast distances between communities mean that county jails in rural areas like eastern Montana or the Hi-Line along the Canadian border are isolated facilities serving enormous geographic regions with very small staff and inmate populations.",
@@ -3579,6 +3649,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Maine. Compare messaging, video, and phone providers for correctional facilities across Maine.",
+    seoTitle: "Maine Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Maine state prisons and county jails. Learn which providers serve Maine Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Maine operates one of the smaller correctional systems in the country through the Maine Department of Corrections, which manages state prisons including the Maine State Prison in Warren on the mid-coast and several correctional centers distributed across the state. Maine's 16 counties each operate their own county jail under local sheriff oversight, and the state's geography, which ranges from the developed southern tier around Portland to the vast and sparsely populated northern Aroostook County, means that some county jails serve enormous geographic areas with small populations. The state's rural character and limited federal correctional presence make it one of the more straightforward systems to navigate once the right facility has been identified.",
@@ -3663,6 +3735,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Alaska. Compare messaging, video, and phone providers for correctional facilities across Alaska.",
+    seoTitle: "Alaska Prison Communication Guide: DOC Messaging, Phone Calls and Borough Jail Providers",
+    seoDescription: "Find communication options for Alaska state prisons and borough jails. Learn which providers serve Alaska Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Alaska's correctional system presents challenges unlike any other state. The Alaska Department of Corrections operates prisons and correctional centers primarily in the Anchorage area and in Fairbanks, but the state's geography means that Alaska Native communities in remote villages are often hundreds of miles from the nearest road, let alone a correctional facility. Alaska uses boroughs and census-designated areas instead of counties, and many of these regions have no permanent road connection to the rest of the state. The Anchorage area handles the majority of the state's corrections activity, with Goose Creek Correctional Center in the Matanuska-Susitna Borough and the Anchorage Correctional Complex serving the largest populations.",
@@ -3831,6 +3905,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Delaware. Compare messaging, video, and phone providers for correctional facilities across Delaware.",
+    seoTitle: "Delaware Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Delaware state prisons and county jails. Learn which providers serve Delaware Department of Correction facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Delaware is one of the few states in the country with a fully unified correctional system. The Delaware Department of Correction operates both prisons and what other states call county jails, meaning there is no separate county jail layer to navigate. Delaware has only three counties, New Castle, Kent, and Sussex, and none of them maintain their own detention facilities. Every person in Delaware state custody, whether awaiting trial or serving a sentence, is held in a facility run directly by the Delaware DOC. This structure makes Delaware's corrections system considerably more straightforward than most states, with all state custody matters flowing through one administrative system.",
@@ -4077,6 +4153,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Wyoming. Compare messaging, video, and phone providers for correctional facilities across Wyoming.",
+    seoTitle: "Wyoming Prison Communication Guide: DOC Messaging, Phone Calls and County Jail Providers",
+    seoDescription: "Find communication options for Wyoming state prisons and county jails. Learn which providers serve Wyoming Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Wyoming is the least populous state in the United States, and its correctional system is scaled accordingly. The Wyoming Department of Corrections operates the Wyoming State Penitentiary in Rawlins and the Wyoming Medium Correctional Institution in Torrington, along with a women's correctional facility in Lusk and a minimum security camp. Wyoming's 23 counties each maintain their own county jail under local sheriff oversight, and the wide geographic spread of the state means that facilities in the Powder River Basin and the Big Horn Basin serve communities separated by hours of driving across high-altitude terrain. Laramie County, which includes Cheyenne, operates the largest county detention system in the state.",
@@ -4161,6 +4239,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Hawaii. Compare messaging, video, and phone providers for correctional facilities across Hawaii.",
+    seoTitle: "Hawaii Prison Communication Guide: PSD Messaging, Phone Calls and Community Jail Providers",
+    seoDescription: "Find communication options for Hawaii state prisons and community correctional centers. Learn which providers serve Hawaii Department of Public Safety facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Hawaii's correctional system presents a challenge that no other state's families face: because the islands lack sufficient capacity to house all state inmates locally, the Hawaii Department of Public Safety has historically contracted with private correctional facilities on the US mainland to hold some state inmates. A family in Honolulu may be trying to communicate with a loved one who is physically housed at a CoreCivic facility in Arizona or another mainland state, thousands of miles away. For those families, the provider setup, visiting rules, and communication options are tied to the mainland facility rather than to any Hawaii state institution. Locally, the main state correctional facilities are concentrated on Oahu, with community correctional centers on Maui, Hawaii Island, and Kauai serving the outer islands.",
@@ -4243,6 +4323,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Vermont. Compare messaging, video, and phone providers for correctional facilities across Vermont.",
+    seoTitle: "Vermont Prison Communication Guide: DOC Messaging, Phone Calls and Regional Jail Providers",
+    seoDescription: "Find communication options for Vermont state prisons and regional facilities. Learn which providers serve Vermont Department of Corrections facilities for messaging, phone calls, and video visits.",
 
     intro: [
       "Vermont operates one of the smallest and most distinctive correctional systems in the country. The Vermont Department of Corrections runs a unified state system with no separate county jails, meaning every person in Vermont state custody is held in a facility operated directly by the VTDOC. Vermont has 14 counties, but none maintain independent detention operations. The DOC operates correctional facilities in Rutland, Burlington, Newport, Springfield, and St. Albans, along with community facilities distributed across the state. Vermont has also historically contracted with private facilities in other states when its own capacity is strained, so some Vermont inmates may at times be housed outside the state.",

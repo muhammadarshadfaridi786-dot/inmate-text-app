@@ -39,9 +39,11 @@ export const defaultMetadata: Metadata = {
 export function generateStateMetadata(state: {
   name: string
   slug: string
+  seoTitle?: string
+  seoDescription?: string
 }): Metadata {
-  const title = `${state.name} Prison Communication Guide`
-  const description = `Find prisons and communication options in ${state.name}. Compare messaging, video, and phone providers for correctional facilities across ${state.name}.`
+  const title = state.seoTitle ?? `${state.name} Prison Communication Guide: Messaging, Phone and Video Options`
+  const description = state.seoDescription ?? `Find messaging, phone calls, video visits, and money transfer options for correctional facilities in ${state.name}. Compare providers and discover which services are available at prisons and jails across ${state.name}.`
   return {
     title,
     description,

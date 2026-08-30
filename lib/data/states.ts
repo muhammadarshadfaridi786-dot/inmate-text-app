@@ -565,11 +565,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Georgia jail or prison. GDC facilities use JPay for messaging and money. Find the right provider for Georgia state prisons and county jails.",
 
     intro: [
-      "Georgia's correctional system is managed primarily by the Georgia Department of Corrections, which oversees state prisons scattered across the state from the Piedmont region to the coast. Beyond the state system, Georgia has a federal Bureau of Prisons presence including facilities in Jesup and the Atlanta area, and county detention centers run by sheriffs across its 159 counties. The sheer number of counties means that communication options are not uniform statewide. A family trying to reach someone at a state prison in Reidsville is using a different system than a family dealing with a county jail in Fulton County or a federal facility in South Georgia.",
+      "Georgia operates its state prison system through the Georgia Department of Corrections (GDC). Securus Technologies holds the GDC contract for phone calls at most state prisons. JPay handles electronic messaging, video visits, and money transfers. Georgia has 159 counties with individual county jails that negotiate their own provider contracts separately from GDC state prisons. Every person in GDC custody is assigned a GDC number at intake that stays with them for their entire sentence regardless of facility transfers.",
+      "Georgia is not among the states that offer free inmate phone calls. Families pay per-minute rates subject to FCC caps effective April 6, 2026. Phone calls at GDC state prisons cost $0.06 per minute under the current Securus contract. A 25-minute call costs approximately $1.50. The GDC number must appear on all mail sent to a GDC facility. Mail without the GDC number is routinely delayed or returned. Find the GDC number through the GDC Public Offender Query at gdc.georgia.gov.",
+      "Video visits at GDC facilities are handled through JPay at $3.95 for a 30-minute session. Visits must be scheduled in advance through GDConnect, the GDC online scheduling system. Deposits to Securus prepaid accounts are limited to $200 per deposit. JPay money transfer fees are tiered based on the amount sent. You must be on the offender's approved visitor list to send money to them.",
+    ],
 
-      "JPay is the primary platform for messaging and money transfer across Georgia Department of Corrections facilities. Phone and video services at state and county facilities are handled through providers including Securus and GTL, with contracts varying by institution and county. Federal facilities in Georgia operate under Bureau of Prisons guidelines, which means CorrLinks is the required platform for electronic communication. Families frequently run into problems by assuming one provider covers all facilities. Setting up a JPay account does not help if your family member is in a county jail that uses a different system, and vice versa.",
+    overview: [
+      "Which providers do Georgia state prison families use? Securus Technologies handles phone calls at most GDC state facilities. JPay handles electronic messaging, video visits, and money transfers. These are two separate accounts. You need a Securus account to receive phone calls and a JPay account to send messages, schedule video visits, and deposit money. Check the specific facility page to confirm which providers are active at your loved one's location.",
+      "What is the GDC number and why is it important? The GDC number is assigned at intake and stays with the inmate for their entire sentence regardless of facility transfers. You need the GDC number for mail, JPay deposits, visitor applications, and any contact with GDC or the facility directly. Mail sent without the GDC number is routinely delayed or returned. Find it through the GDC Public Offender Query at gdc.georgia.gov or ask your loved one to provide it during a call.",
+      "What is the most common mistake Georgia prison families make? Sending mail without the GDC number is the most common mistake. Mail without the GDC number on the envelope is routinely delayed or returned without delivery. Always include the inmate full name and GDC number on every piece of mail. County jail inmates use a different booking number assigned by the specific county, not a GDC number.",
+    ],
 
-      "This directory helps families in Georgia identify the right communication provider for the right facility without having to call the jail, navigate outdated government websites, or piece together information from multiple sources. Whether you need to set up messaging at a state prison, arrange a video call at a county detention center, or understand the money transfer process at a federal institution, the information here is organized by facility so you can get to the right answer quickly.",
+    faq: [
+      {
+        question: "Which provider do I use for Georgia state prison phone calls?",
+        answer: "Securus Technologies handles phone calls at most Georgia Department of Corrections state facilities. Create a Securus prepaid account at securustech.net to receive calls. Phone calls cost $0.06 per minute under the current GDC contract. Deposits to Securus prepaid accounts are limited to $200 per deposit. For Securus customer service visit securustech.net.",
+      },
+      {
+        question: "How do I send messages and money to someone at a Georgia state prison?",
+        answer: "JPay handles electronic messaging, video visits, and money transfers at GDC state facilities. Visit jpay.com or use the JPay app. JPay money transfer fees are tiered based on the amount sent. You must be on the offender's approved visitor list to send money. Always include the inmate GDC number when making deposits or sending messages.",
+      },
+      {
+        question: "What is the GDC number and where do I find it?",
+        answer: "The GDC number is the identification number assigned to every person in Georgia DOC custody at intake. It stays with the inmate for their entire sentence regardless of facility transfers. Find it through the GDC Public Offender Query at gdc.georgia.gov, on court commitment documents, or ask your loved one to provide it. The GDC number must appear on all mail sent to GDC facilities or mail will be delayed or returned.",
+      },
+      {
+        question: "Are phone calls free at Georgia state prisons?",
+        answer: "No. Georgia is not among the states offering free inmate phone calls. Families pay per-minute rates subject to FCC caps. Phone calls at GDC state prisons cost $0.06 per minute under the current Securus contract. A 25-minute call costs approximately $1.50. Contact Securus for current rate information at your specific facility.",
+      },
+      {
+        question: "How do I schedule a video visit at a Georgia state prison?",
+        answer: "Video visits at GDC facilities are scheduled through GDConnect, the GDC online scheduling system. Video visits are handled through JPay and cost $3.95 for a 30-minute session. Weekend visit requests close at 5:00 PM Wednesday. State holiday visit requests close at 5:00 PM three days before the holiday. You must be on the approved visitor list to schedule visits.",
+      },
+      {
+        question: "How do I find someone currently in a Georgia state prison?",
+        answer: "Use the GDC Public Offender Query at gdc.georgia.gov. You can search by name or GDC number. The search shows the current facility and basic incarceration information. For county jail inmates, use the specific county sheriff's website. Georgia has 159 counties each with their own jail system. For federal inmates in Georgia, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Do Georgia county jails use the same providers as state prisons?",
+        answer: "No. Georgia has 159 counties and each county jail negotiates its own provider contracts independently from GDC. County jails commonly use Securus but the specific provider and rates vary by county. The GDC contract with Securus applies only to state DOC facilities. Always confirm which provider serves the specific county jail before setting up any account.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Georgia county jail to a state prison?",
+        answer: "When someone transfers from a Georgia county jail to a GDC state prison, they are assigned a GDC number and the communication providers may change. You will need a Securus account for phone calls and a JPay account for messaging and money transfers at the state prison. Your county jail accounts do not transfer. Confirm the new facility and GDC number before setting up new accounts.",
+      },
     ],
 
     facilitiesByType: { federal: 15, state: 38, county: 158, private: 17 },

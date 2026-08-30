@@ -250,11 +250,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Texas jail or prison. TDCJ uses Securus for phone calls. JPay handles money transfers. Register through TDCJ Friends and Family system.",
 
     intro: [
-      "Texas runs one of the largest correctional systems in the United States, with the Texas Department of Criminal Justice overseeing more than a hundred prison units spread across the state. In addition to TDCJ state facilities, Texas has a substantial federal Bureau of Prisons presence and hundreds of county jails operating across its 254 counties. The sheer size of the state means that the communication setup for a facility in Houston can be entirely different from one in San Antonio, El Paso, or the Rio Grande Valley. Provider availability, messaging rules, and video visitation options are not consistent statewide.",
+      "Texas operates one of the largest state prison systems in the United States through the Texas Department of Criminal Justice (TDCJ). All phone calls at TDCJ facilities are handled through Securus Technologies using the AdvanceConnect prepaid account system. Before you can receive calls, your phone number must be registered through the Texas Friends and Family Registration system at texasprisonphone.com. Registration and Securus account setup are two separate steps. Both must be completed before calls can connect.",
+      "Effective December 1, 2025, a funded AdvanceConnect account is required to pay for all TDCJ phone calls. Families who previously received calls without a funded account must now create and fund an AdvanceConnect account at securustech.net or through the Securus Mobile app. As a transition measure, each registered phone number receives one free 60-second call per month if no funded account is associated. Call Securus 24-hour Customer Care at 972-734-1111 for account setup assistance.",
+      "All personal mail to TDCJ inmates must be sent to the Digital Mail Processing Center rather than directly to the facility. Include the inmate full name and TDCJ number on every piece of mail. E-messages can be sent to all TDCJ inmates through the Securus e-messaging system. Video visits through Securus are available at select TDCJ facilities, last 60 minutes, cost $10, and are limited to one remote visit per month per inmate.",
+    ],
 
-      "Several providers serve Texas correctional institutions, and knowing which one is right for your situation depends on the specific facility. JPay and GTL are among the most common platforms for Texas Department of Criminal Justice state prisons, supporting messaging, phone calls, and in some cases video visits. County jails across the state often use ICSolutions or Securus, with separate account systems and rate structures from state facilities. For families with a loved one in a federal institution such as those in the Beaumont or Houston areas, CorrLinks is the required platform under Bureau of Prisons guidelines. Setting up an account with the wrong provider is a frustratingly common mistake that this guide helps you avoid.",
+    overview: [
+      "How do I register to receive calls from a Texas TDCJ prison? You must complete two separate steps. First, register your phone number at texasprisonphone.com through the Texas Friends and Family Registration system. Second, create and fund a Securus AdvanceConnect account at securustech.net. Both steps must be completed before calls can connect. Do not contact Securus before your Texas Friends and Family registration is confirmed.",
+      "What changed about TDCJ phone calls after December 2025? Effective December 1, 2025, a funded AdvanceConnect prepaid account is now required to pay for all TDCJ phone calls. Families who previously received calls on collect or without a prepaid account must now set up and fund an AdvanceConnect account. Each unregistered number receives one free 60-second call per month as a transition measure. Contact Securus at 972-734-1111 for help.",
+      "What is the most common mistake Texas prison families make? Calling Securus before completing the Texas Friends and Family Registration is the most common mistake. Securus cannot help you until your phone number is successfully registered through the TDCJ system at texasprisonphone.com. Complete the registration first, receive your confirmation, and then contact Securus to set up your AdvanceConnect account.",
+    ],
 
-      "Finding accurate, current provider information for Texas facilities has historically required significant effort. Correctional websites are often outdated, provider coverage maps are incomplete, and calling a facility directly does not always yield a clear answer. This directory aggregates facility and provider data for Texas correctional institutions so families can quickly identify the right platform, understand what communication options are available, and begin the process of staying connected without unnecessary delays.",
+    faq: [
+      {
+        question: "How do I set up phone calls from a Texas TDCJ prison?",
+        answer: "You must complete two steps. First, register your phone number at texasprisonphone.com through the Texas Friends and Family Registration system. Second, create and fund a Securus AdvanceConnect account at securustech.net or through the Securus Mobile app. Do not contact Securus before your Texas registration is confirmed. Securus cannot assist until your number is successfully registered with TDCJ.",
+      },
+      {
+        question: "Do I need a funded AdvanceConnect account to receive TDCJ calls?",
+        answer: "Yes. Effective December 1, 2025, a funded Securus AdvanceConnect account is required to pay for all TDCJ phone calls. Create your account at securustech.net and add funds before the inmate calls you. Each unregistered phone number receives one free 60-second call per month as a transition measure. Call Securus 24-hour Customer Care at 972-734-1111 for setup help.",
+      },
+      {
+        question: "How do I send money to someone in a Texas state prison?",
+        answer: "Money can be deposited to an inmate trust account through JPay at jpay.com or the JPay app. You can also use the TDCJ Monthly Checking Account Debit (ACH) service which is free and automatically debits a set amount from your checking account each month. Contact the Inmate Trust Fund at TDCJ for ACH setup. Always include the inmate full name and TDCJ number on all transactions.",
+      },
+      {
+        question: "Can I send mail directly to a Texas TDCJ facility?",
+        answer: "No. All personal mail to TDCJ inmates must be sent to the Digital Mail Processing Center. Do not send mail directly to the facility. Include the inmate full name and TDCJ number on every envelope. Mail sent directly to a facility may be returned or delayed. Check the TDCJ website for the current Digital Mail Processing Center address.",
+      },
+      {
+        question: "How do I find someone currently in a Texas state prison?",
+        answer: "Use the TDCJ Offender Search tool at tdcj.texas.gov. You can search by TDCJ number or by name. The search shows the current facility, admission date, and projected release date. For county jail inmates, use the county sheriff's website for the specific county. For federal inmates in Texas, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Are video visits available at Texas state prisons?",
+        answer: "Yes, at select TDCJ facilities. Video visits through Securus are 60 minutes long and cost $10. Inmates are limited to one remote video visit per month. Visits run on a set schedule and begin and end at scheduled times. Create a Securus account and check the list of facilities that offer video visitation on the TDCJ website. For problems contact Securus Customer Care at 877-578-3658.",
+      },
+      {
+        question: "What are the phone call rules at Texas state prisons?",
+        answer: "TDCJ inmates can make calls from 5 AM to midnight. Each call is limited to 30 minutes with a one-minute warning before disconnection. Calls may only go to home landlines or cell phones within the US. No calls to 800 numbers, pay phones, international numbers, or virtual numbers like MagicJack. All calls are monitored and recorded except calls to the attorney of record.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Texas county jail to TDCJ?",
+        answer: "When someone transfers from a Texas county jail to a TDCJ state prison, the communication provider changes. County jails use their own contracted providers which are separate from TDCJ. You will need to register your number through the Texas Friends and Family Registration system and set up a Securus AdvanceConnect account for TDCJ calls. Your county jail account does not transfer to the TDCJ system.",
+      },
     ],
 
     facilitiesByType: { federal: 40, state: 108, county: 322, private: 32 },

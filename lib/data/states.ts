@@ -815,11 +815,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in an Illinois jail or prison. Find the right provider for IDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Illinois has a layered correctional system that includes state prisons under the Illinois Department of Corrections, federal Bureau of Prisons institutions, and county jails operated by sheriffs across its 102 counties. Cook County alone runs one of the largest single-site jails in the United States, which operates under its own rules and contracts separate from the state prison system. Downstate facilities serve populations across the rural areas of central and southern Illinois, and the provider landscape changes significantly depending on whether a facility is a state prison, a county detention center, or a federal institution.",
+      "Illinois operates its state prison system through the Illinois Department of Corrections (IDOC). ICSolutions is the current provider for phone calls, electronic messaging, and video visits at all IDOC facilities except Adult Transition Centers. Illinois recently switched from GTL to ICSolutions for both phone and video services. If any guide directs you to use GTL or ConnectNetwork for Illinois state prison calls, that information is out of date. Create your account at icscorrections.com.",
+      "Illinois launched the Voices of Connection program providing incarcerated people with 775 free domestic phone call minutes per month. The program launched in November 2025 and was extended after seeing significant increase in usage. Calls are limited to 20 minutes each with a 10-minute lockout period between calls. People under phone privilege restrictions cannot access free minutes. Families still need a registered ICSolutions account to receive calls.",
+      "Starting September 30, 2025, IDOC scans or photocopies all non-privileged mail including letters, cards, and photos before delivery. Publications must now be mailed directly by the publisher. Money can be sent by money order with the individual IDOC number and sender name and address included. The IDOC number must appear on all mail. You can also get deposit slips from each facility or through JPay for commissary deposits.",
+    ],
 
-      "For Illinois Department of Corrections state prisons, JPay handles messaging, money transfer, and photo sharing. Phone and video services at state facilities are managed through GTL or Securus depending on the specific institution. Cook County Jail operates under a separate provider arrangement from state facilities, and families dealing with the Chicago-area detention system will need to verify which platform applies to their specific facility. Federal correctional institutions in Illinois use CorrLinks for electronic communication. Families who have set up accounts with one provider often discover it does not apply at the specific facility they need.",
+    overview: [
+      "Which provider do Illinois state prison families use? ICSolutions is the current provider for phone calls, electronic messaging, and video visits at all IDOC facilities except Adult Transition Centers. Illinois switched from GTL to ICSolutions. Create an account at icscorrections.com. When registering, entering your GTL Visitor ID can expedite the approval process if you previously had a GTL account.",
+      "Does Illinois offer free phone calls at state prisons? Yes. The Voices of Connection program provides 775 free domestic phone call minutes per month to incarcerated people. The program launched in November 2025 and was extended after strong usage results. Calls are 20 minutes each with a 10-minute lockout between calls. People under phone privilege restrictions cannot access the free minutes. Families still need a registered ICSolutions account to receive calls.",
+      "What changed about Illinois prison mail? Starting September 30, 2025, IDOC scans all non-privileged mail before delivery. Publications must be mailed directly by the publisher. Families and visitors can no longer drop off books or magazines at facilities. Include the individual IDOC number on all mail or it may be delayed. Money orders must include the IDOC number, the sender's name, and the sender's address.",
+    ],
 
-      "Getting accurate communication information for Illinois correctional facilities can be surprisingly difficult. The state prison system, the Chicago-area jail system, and federal facilities all operate independently and publish information in different places. This directory organizes provider and facility data across all three systems so Illinois families can find the right platform quickly, understand what communication options are available, and avoid the common frustration of setting up an account that does not work for their specific situation.",
+    faq: [
+      {
+        question: "Which provider do I use for Illinois state prison phone calls?",
+        answer: "ICSolutions is the current provider for phone calls at all IDOC Illinois state facilities except Adult Transition Centers. Create an account at icscorrections.com. Illinois switched from GTL to ICSolutions. If a guide tells you to use GTL or ConnectNetwork for Illinois state prison calls, that information is outdated. For ICSolutions customer service call 217-426-0499.",
+      },
+      {
+        question: "Are phone calls free at Illinois state prisons?",
+        answer: "Partially. The Voices of Connection program provides 775 free domestic phone call minutes per month to incarcerated people. The program launched in November 2025 and was extended. Calls are limited to 20 minutes each with a 10-minute lockout period between calls. People under phone privilege restrictions cannot access the free minutes. Families still need a registered ICSolutions account to receive any calls.",
+      },
+      {
+        question: "How do I set up video visits at an Illinois state prison?",
+        answer: "Video visits at IDOC facilities now use ICSolutions after transitioning from GTL. Create an ICSolutions account at icscorrections.com. When registering, enter your GTL Visitor ID if you had one to expedite approval. Video visits must be scheduled through your ICSolutions account. Contact ICSolutions for current scheduling instructions and visit availability at your loved one's facility.",
+      },
+      {
+        question: "How do I send messages to someone at an Illinois state prison?",
+        answer: "Electronic messaging at IDOC facilities uses ICSolutions. Friends and family can send messages through the ICSolutions system at icscorrections.com. Messages are screened and monitored. Electronic messaging is available to inmates in A grade at all IDOC facilities except Adult Transition Centers. Include the inmate IDOC number when setting up your messaging account.",
+      },
+      {
+        question: "How do I find someone currently in an Illinois state prison?",
+        answer: "Use the IDOC Inmate Search tool at idoc.illinois.gov. You can search by last name, birthday, or IDOC number. The search shows the current facility and basic information. You can also register with VINELink to receive notifications when an inmate moves or is approaching parole. For county jail inmates, use the specific county sheriff's website.",
+      },
+      {
+        question: "How do I send money to someone at an Illinois state prison?",
+        answer: "Send money by money order with the individual IDOC number, sender name, and sender address included. Money orders are limited to $999.99. You can also get deposit slips from each facility or through JPay for commissary deposits. Always include the IDOC number on all money orders or the deposit may be delayed or rejected.",
+      },
+      {
+        question: "What changed about mail at Illinois state prisons?",
+        answer: "Starting September 30, 2025, IDOC scans or photocopies all non-privileged mail including letters, cards, and photos before delivery. Publications such as books and magazines must now be mailed directly by the publisher. Friends and visitors can no longer drop off publications at facilities. Include the individual IDOC number on all mail envelopes or processing may be delayed.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Illinois county jail to a state prison?",
+        answer: "When someone transfers from an Illinois county jail to an IDOC state prison, the communication provider changes. County jails use their own contracted providers. IDOC state prisons use ICSolutions for phone calls, messaging, and video visits. Your county jail accounts do not transfer. Create new ICSolutions accounts after confirming the transfer is complete and you have the inmate IDOC number.",
+      },
     ],
 
     facilitiesByType: { federal: 15, state: 28, county: 148, private: 14 },

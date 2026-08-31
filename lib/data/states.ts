@@ -940,11 +940,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Michigan jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Michigan's correctional system is divided between the Michigan Department of Corrections, which operates prisons throughout both peninsulas of the state, county jails run by local sheriffs, and several federal Bureau of Prisons institutions including facilities in the Milan area and near Detroit. The geographic spread of Michigan, from the Upper Peninsula to the southern border, means that some correctional facilities serve remote populations with limited local services, while others are in major urban counties like Wayne, Oakland, and Kent. Communication options are not standardized across the state and vary considerably based on the specific institution.",
+      "Michigan operates its state prison system through the Michigan Department of Corrections (MDOC), which manages 30 facilities spread across both the Upper and Lower peninsulas. GTL through ConnectNetwork is the primary phone service vendor for MDOC state facilities. Contact GTL at 855-466-2832 for account setup. You can fund up to three prepaid accounts with a single transaction and single fee when processed through a GTL customer service agent. There is no minimum deposit for transactions done online, by phone, or IVR.",
+      "Michigan is not among the states that offer free inmate phone calls. Families pay per-minute rates subject to FCC caps. Michigan has implemented a near-universal centralized mail scanning system. Physical mail sent to virtually any MDOC facility is intercepted at a central scanning facility rather than delivered directly to the prison. Letters are converted to digital copies and delivered electronically. This makes phone calls and electronic messaging especially important for Michigan families who relied on physical mail.",
+      "JPay tablet-based messaging is available at most MDOC facilities as a lower-cost alternative to phone calls. GTL kiosks are installed in the lobby at several MDOC facilities for funding prepaid phone accounts. You can also fund accounts by cashier's check or money order with no fee by mailing to GTL AdvancePay Service Department P.O. Box 911722, Denver CO 80291-1722. There is a $25 minimum for mail payments. Allow up to five business days for mailed payments to be credited.",
+    ],
 
-      "JPay is the primary provider for Michigan Department of Corrections state facilities, supporting messaging, photo sharing, and money transfer. Phone services at state facilities and many county jails are handled by Securus and GTL. Wayne County, which includes Detroit, operates a large jail complex with its own provider setup separate from state prisons. Michigan's federal facilities fall under Bureau of Prisons guidelines, requiring CorrLinks for electronic messaging. Families dealing with more than one correctional system, such as a person held at a county jail while awaiting a state prison transfer, may need separate accounts for each.",
+    overview: [
+      "Which provider do Michigan state prison families use? GTL through ConnectNetwork is the primary phone service vendor for MDOC state facilities. Call GTL at 855-466-2832 for account setup or fund online at connectnetwork.com. You can fund multiple prepaid accounts with a single transaction. GTL kiosks are available at several MDOC lobby locations for in-person deposits.",
+      "Does Michigan scan prison mail? Yes. Michigan has implemented a near-universal centralized mail scanning system. Physical mail sent to virtually any MDOC facility goes to a central scanning facility rather than directly to the prison. Letters are converted to digital copies before delivery. This makes phone calls and JPay tablet messaging especially important for Michigan families who relied on physical mail to stay connected.",
+      "What is the most common mistake Michigan prison families make? Calling the wrong provider is common because Michigan county jails use multiple different vendors. GTL ConnectNetwork serves MDOC state prisons but individual county jails may use Securus, ICSolutions, or Smart Communications. Always confirm the specific provider for each county facility. For Wayne County Jail in Detroit, the provider is ConnectNetwork GTL.",
+    ],
 
-      "Finding accurate and current information about Michigan correctional communication can take significant time. Facility websites are often thin on details, provider coverage is not clearly published, and the three-tier structure of state, county, and federal systems means the right answer is not always obvious. This directory brings facility and provider data together for Michigan so families can identify the correct platform for their specific situation, understand available services, and start the communication process without unnecessary delays.",
+    faq: [
+      {
+        question: "Which provider do I use for Michigan state prison phone calls?",
+        answer: "GTL through ConnectNetwork is the primary phone service vendor for MDOC Michigan state facilities. Call GTL at 855-466-2832 to set up or fund a prepaid account. You can also fund online at connectnetwork.com. You can fund up to three prepaid accounts with a single transaction and fee when processed through a GTL agent.",
+      },
+      {
+        question: "Are phone calls free at Michigan state prisons?",
+        answer: "No. Michigan is not among the states offering free inmate phone calls. Families pay per-minute rates subject to FCC caps effective April 2026. Because Michigan has also implemented mail scanning that converts letters to digital copies, phone calls take on extra importance as a form of genuine human connection for Michigan families.",
+      },
+      {
+        question: "How does the Michigan prison mail scanning system work?",
+        answer: "Michigan has implemented a near-universal centralized mail scanning system. Physical mail sent to virtually any MDOC facility is intercepted at a central scanning facility rather than delivered directly to the prison. Letters, cards, and photos are converted to digital copies before delivery. Send mail to the MDOC facility address but be aware it will be scanned and delivered digitally, not as a physical letter.",
+      },
+      {
+        question: "How do I find someone currently in a Michigan state prison?",
+        answer: "Use the MDOC Offender Tracking Information System (OTIS) at michigan.gov/corrections. You can search by name or MDOC number. MDOC records date back to 1980. For county jail inmates, use the specific county sheriff's website. For federal inmates in Michigan, use the Bureau of Prisons locator at bop.gov. For MDOC central office assistance call 517-335-1426.",
+      },
+      {
+        question: "How do I send money to someone at a Michigan state prison?",
+        answer: "Fund a GTL prepaid phone account at connectnetwork.com, by calling GTL at 855-466-2832, at GTL kiosks in MDOC facility lobbies, or by cashier's check or money order mailed to GTL AdvancePay Service Department P.O. Box 911722, Denver CO 80291-1722. Money orders have no processing fee. There is a $25 minimum for mailed payments. Allow up to five business days for mailed payments.",
+      },
+      {
+        question: "Can I send electronic messages to someone at a Michigan state prison?",
+        answer: "Yes. JPay tablet-based messaging is available at most MDOC facilities. Visit jpay.com or use the JPay app to create an account and send messages. JPay messaging is a lower-cost alternative to phone calls for Michigan families. Because MDOC has implemented mail scanning, electronic messaging through JPay is one of the more reliable communication methods available.",
+      },
+      {
+        question: "Do Michigan county jails use the same provider as state prisons?",
+        answer: "No. Michigan county jails negotiate their own provider contracts independently. Common providers at Michigan county jails include GTL ConnectNetwork, Securus, ICSolutions, and Smart Communications. GTL ConnectNetwork serves Wayne County Jail in Detroit. Always confirm which provider serves the specific county jail before setting up any account. Contact GTL at 855-466-2832, Securus at 800-844-6591, or ICSolutions at 888-506-8407.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Michigan county jail to a state prison?",
+        answer: "When someone transfers from a Michigan county jail to an MDOC state prison, the communication provider usually changes. County jails use various providers while MDOC state prisons use GTL ConnectNetwork for phone calls. Your county jail account may not carry over. Create a new ConnectNetwork account after confirming the transfer is complete. Also set up JPay for electronic messaging at the state facility.",
+      },
     ],
 
     facilitiesByType: { federal: 10, state: 31, county: 142, private: 15 },

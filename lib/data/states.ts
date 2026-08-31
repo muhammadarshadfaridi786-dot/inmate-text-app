@@ -690,11 +690,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in an Ohio jail or prison. Find the right provider for ODRC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Ohio operates a large correctional system through the Ohio Department of Rehabilitation and Correction, which runs state prisons at locations including Youngstown, Chillicothe, Lucasville, and Marion. The state also has a significant federal Bureau of Prisons presence, with institutions such as FCI Elkton in Columbiana County. County jails, operated by individual sheriffs, add another layer across all 88 Ohio counties. The result is a three-tier system where the provider, communication rules, and account requirements depend entirely on which specific facility a person is held in.",
+      "Ohio operates its state prison system through the Ohio Department of Rehabilitation and Correction (ODRC). ViaPath Technologies through ConnectNetwork handles all phone calls at ODRC state facilities. Ohio switched from Securus Technologies to ViaPath in mid-2023. If any guide tells you to use Securus or JPay for Ohio state prison phone calls, that information is out of date. Electronic messaging at ODRC facilities is handled through GettingOut by Telmate, which is also a ViaPath platform.",
+      "Ohio is not among the states that offer free inmate phone calls. Families pay per-minute rates subject to FCC caps. To receive calls, answer the automated approval call and say yes, or set up a prepaid account at ConnectNetwork.com and choose Ohio DRC as the agency. Money can be deposited through ConnectNetwork online, by phone at 1-888-988-4768 using site ID 86, at retail kiosks at stores like Walmart and Kroger, or by money order using the ConnectNetwork mail-in form. Money orders have no processing fee. The overall deposit limit is $400 per person per calendar month.",
+      "Do not put a letter inside a money order envelope when sending funds for an Ohio ODRC inmate. Letters included with money orders are discarded. Each deposit transaction is capped at $200 without warden approval. Retail kiosk deposits are capped at $50 to $100. For ODRC facility or visitor information call 614-752-1159. To block calls from a specific inmate or from all Ohio prisons, call 877-650-4249.",
+    ],
 
-      "JPay is the main platform used across Ohio Department of Rehabilitation and Correction state facilities for messaging and money transfer. Securus and GTL handle phone and video services at various state and county institutions. At the county level, different jails have negotiated separate provider contracts, so a family member at the Cuyahoga County Corrections Center will use a different platform than someone at Franklin County's facilities. Federal institutions in Ohio require CorrLinks for electronic messaging. Knowing exactly which facility applies to your situation is the most important step before creating any account.",
+    overview: [
+      "Which provider do Ohio state prison families use? ViaPath Technologies through ConnectNetwork handles all phone calls at ODRC state facilities. Ohio switched from Securus and JPay to ViaPath in mid-2023. Create a ConnectNetwork account at connectnetwork.com and select Ohio DRC as the agency. If you previously had a Securus or JPay account for Ohio calls, that account no longer works for ODRC state prison calls.",
+      "How do I send money to someone at an Ohio state prison? Send funds through ConnectNetwork online, by phone at 1-888-988-4768 using site ID 86, at Walmart or Kroger retail kiosks, or by money order. Money orders have no processing fee and are the cheapest deposit method. Do not include a letter in the money order envelope. The deposit limit is $400 per person per calendar month with a $200 per transaction maximum.",
+      "What is the most common mistake Ohio prison families make? Using Securus or JPay for Ohio state prison phone calls is the most common mistake. Ohio switched providers in mid-2023 and Securus no longer handles ODRC calls. Many outdated guides still direct families to Securus. Always use ConnectNetwork for Ohio ODRC state prison phone calls. County jails in Ohio may still use Securus or ICSolutions, so confirm the provider for each specific facility.",
+    ],
 
-      "Ohio families navigating the correctional communication system often spend hours trying to find accurate information before they can send a single message. Provider coverage maps are inconsistent, facility websites rarely explain which communication service is available, and the three-tier structure of state, county, and federal systems means the right answer is not always obvious. This directory brings provider and facility information together for Ohio so you can identify the right platform, understand what services are available, and move forward without the confusion that normally comes with this process.",
+    faq: [
+      {
+        question: "Which provider do I use for Ohio state prison phone calls?",
+        answer: "ViaPath Technologies through ConnectNetwork handles all phone calls at ODRC Ohio state facilities. Create a ConnectNetwork account at connectnetwork.com and select Ohio DRC as the agency. Ohio switched from Securus to ViaPath in mid-2023. Do not use Securus or JPay for Ohio ODRC state prison phone calls as those are no longer the correct providers for state facilities.",
+      },
+      {
+        question: "How do I send money to someone at an Ohio state prison?",
+        answer: "Send funds through ConnectNetwork online, by phone at 1-888-988-4768 using site ID 86, at retail kiosks at Walmart or Kroger stores, or by money order using the ConnectNetwork mail-in form. Money orders have no processing fee. Do not put a letter inside a money order envelope. The deposit limit is $400 per person per calendar month with a maximum of $200 per transaction without warden approval.",
+      },
+      {
+        question: "Are phone calls free at Ohio state prisons?",
+        answer: "No. Ohio is not among the states offering free inmate phone calls. Families pay per-minute rates subject to FCC caps effective April 2026. To receive calls, answer the automated approval prompt when the inmate first calls, or set up a prepaid ConnectNetwork account in advance. For calls you do not want to receive, call 877-650-4249 to block calls from a specific inmate or from all Ohio prisons.",
+      },
+      {
+        question: "How do I set up electronic messaging for an Ohio state prison inmate?",
+        answer: "Electronic messaging at ODRC facilities is handled through GettingOut by Telmate, which is a ViaPath platform. Create a GettingOut account at gettingout.com to send electronic messages. This is a separate account from your ConnectNetwork phone account. Check the specific facility page to confirm whether electronic messaging is available at your loved one's location.",
+      },
+      {
+        question: "How do I find someone currently in an Ohio state prison?",
+        answer: "Use the ODRC offender search tool at drc.ohio.gov. You can search by name or ODRC number. The search shows the current facility and basic incarceration information. For county jail inmates, use the specific county sheriff's website. Ohio county jails are not included in the ODRC search. For federal inmates in Ohio, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Do Ohio county jails use the same provider as state prisons?",
+        answer: "No. Ohio county jails negotiate their own provider contracts independently from ODRC. Common providers at Ohio county jails include Securus Technologies and ICSolutions. ViaPath ConnectNetwork serves ODRC state prisons but individual county jails may use different providers. Always confirm which provider serves the specific county jail before setting up any account.",
+      },
+      {
+        question: "What is the ODRC number and where do I find it?",
+        answer: "The ODRC number is the identification number assigned to every person in Ohio DOC custody. You need this number for deposits, messaging accounts, and inmate search. Find it through the ODRC offender search at drc.ohio.gov or ask your loved one to provide it. The ODRC number is different from any court case number.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Ohio county jail to a state prison?",
+        answer: "When someone transfers from an Ohio county jail to an ODRC state prison, the communication provider changes. County jails use their own providers such as Securus or ICSolutions. ODRC state prisons use ViaPath ConnectNetwork for phone calls and GettingOut for messaging. Your county jail accounts do not transfer. Set up new ConnectNetwork and GettingOut accounts after confirming the transfer is complete.",
+      },
     ],
 
     facilitiesByType: { federal: 14, state: 34, county: 153, private: 17 },

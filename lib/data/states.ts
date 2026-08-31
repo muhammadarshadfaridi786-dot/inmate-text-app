@@ -1151,11 +1151,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in an Arizona jail or prison. Find the right provider for ADC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Arizona's correctional system is managed by the Arizona Department of Corrections, Rehabilitation and Reentry, which operates state prison complexes in several counties including Maricopa, Pinal, Pima, and Yuma. The state makes notable use of private prison contractors, and a meaningful share of Arizona inmates are housed in privately operated facilities that have communication arrangements separate from state-run institutions. Arizona also has a federal Bureau of Prisons presence in the Phoenix and Tucson areas, and Maricopa County alone operates one of the largest county jail systems in the country. Each layer of this system uses different providers and different rules.",
+      "Arizona operates its state prison system through the Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR). ICSolutions handles phone calls at Arizona state facilities through a Prepaid Collect account system. Called parties must submit an application and be approved before they can receive phone calls from ADC inmates. If you have previously been approved to receive calls, you do not need to re-apply. Contact ICSolutions at 888-506-8407 or visit icsolutions.com to set up an account.",
+      "Effective February 15, 2026, ADCRR reimplemented security measures for inmate phone calls including the Personal Allowed Number (PAN) list. Inmates can only call approved numbers from their visitation list, up to 20 people. Families who are not on the inmate visitation list cannot be added to the PAN list. If you want to receive calls, you must first be approved on the inmate visitation list and then be added to their PAN list. Securus Technologies handles electronic messaging at ADCRR state facilities for e-stamps and text messages.",
+      "Arizona has not eliminated phone call fees at state facilities. Families pay per-minute rates subject to FCC caps. Mail processing varies by unit at Arizona facilities. Some units still deliver physical mail while others have transitioned to digital scanning. Before sending mail to an Arizona facility, call the complex directly or check the ADCRR website to confirm the current mail processing method for the specific unit. For family assistance contact the ADCRR Family and Friends Liaison at 602-364-3945 or toll-free at 866-333-2039.",
+    ],
 
-      "JPay and Securus are among the primary providers across Arizona Department of Corrections state facilities, handling messaging, money transfer, phone calls, and video visitation. Maricopa County's jail system operates under its own provider contracts, and ICSolutions has historically served county jails in Arizona. Federal facilities in the state use CorrLinks under Bureau of Prisons guidelines. Families dealing with Arizona's correctional system frequently encounter account setup problems when they start with the wrong provider, particularly given the variety of facility types operating in close proximity in the Phoenix metro area.",
+    overview: [
+      "Which provider do Arizona state prison families use? ICSolutions handles phone calls at ADCRR state facilities. Contact ICSolutions at 888-506-8407 or visit icsolutions.com. Securus Technologies handles electronic messaging including e-stamps and text messages. You need separate accounts for phone calls and electronic messaging since these are different providers.",
+      "What is the PAN list and how does it affect calls? Effective February 15, 2026, ADCRR reimplemented the Personal Allowed Number (PAN) list. Inmates can only call approved numbers from their visitation list, up to 20 people. To receive calls you must first be approved on the inmate visitation list and then be added to the PAN list by the inmate. Families not on the visitation list cannot receive calls regardless of having an ICSolutions account.",
+      "What is the most common mistake Arizona prison families make? Setting up an ICSolutions account before being approved on the visitation list is the most common mistake. Arizona requires you to be on the inmate visitation list before being added to the PAN call list. Create your ICSolutions account but also ensure you are approved on the visitation list. Apply for visitation through the ADCRR visitation application at corrections.az.gov.",
+    ],
 
-      "For families in Arizona, understanding which facility type applies to their situation is the essential first step. The same area of Phoenix can include state prisons, county jails, private prisons, and federal facilities, each using a different communication platform. This directory helps Arizona families identify the correct provider and service for the specific facility they are dealing with, so you can start the communication process without having to call multiple agencies or work through outdated government resources.",
+    faq: [
+      {
+        question: "Which provider do I use for Arizona state prison phone calls?",
+        answer: "ICSolutions handles phone calls at ADCRR Arizona state facilities. Contact ICSolutions at 888-506-8407 or visit icsolutions.com to set up a Prepaid Collect account. You must also be approved on the inmate visitation list and added to the Personal Allowed Number (PAN) list before calls can connect. If you accept a call before setting up an account, you receive one complimentary 60-second call then are routed to set up an account.",
+      },
+      {
+        question: "What is the PAN list and how do I get on it?",
+        answer: "The Personal Allowed Number (PAN) list was reimplemented by ADCRR effective February 15, 2026. Inmates can only call numbers from their approved visitation list, up to 20 people. To be added to the PAN list, you must first be approved on the inmate visitation list. The inmate then requests to add your number to their PAN list. Families not on the visitation list cannot receive calls regardless of having an ICSolutions account.",
+      },
+      {
+        question: "How do I send electronic messages to someone at an Arizona state prison?",
+        answer: "Securus Technologies handles electronic messaging at ADCRR state facilities. Visit securustech.net or download the Securus app to create an account and purchase e-stamps. Text message packages range from 100 messages for $10 to 300 messages for $30. Messages have a 160-character limit. Both sender and recipient must be approved contacts. This is a separate account from your ICSolutions phone account.",
+      },
+      {
+        question: "Are phone calls free at Arizona state prisons?",
+        answer: "No. Arizona has not eliminated phone call fees at ADCRR state facilities. Families pay per-minute rates subject to FCC caps effective April 2026. Arizona families have historically paid among the higher rates in the country. The FCC caps have reduced rates significantly. Contact ICSolutions at 888-506-8407 for current rate information at your specific facility.",
+      },
+      {
+        question: "How do I find someone currently in an Arizona state prison?",
+        answer: "Use the ADCRR inmate search tool at corrections.az.gov. Include the ADC number on all mail sent to ADCRR facilities. The ADC number must be on the envelope along with the assigned prison complex, unit, and the inmate full legal name. For family assistance contact the ADCRR Family and Friends Liaison at 602-364-3945 or toll-free at 866-333-2039.",
+      },
+      {
+        question: "How do I apply for visitation at an Arizona state prison?",
+        answer: "Apply for visitation through the ADCRR visitation application at corrections.az.gov. You must be approved on the visitation list before you can be added to the PAN phone list. Schedule in-person or video visitation through the ADCRR portal after approval. For visitation contact emails and assistance, use the ADCRR Family and Friends Liaison at familyandfriendsliaison@azdoa.gov.",
+      },
+      {
+        question: "Does Arizona scan prison mail?",
+        answer: "Mail processing varies by unit at Arizona facilities. Some units still deliver physical mail while others have transitioned to digital scanning where letters are read on a screen rather than held physically by the inmate. Before sending anything to an Arizona facility, call the complex directly or check the ADCRR website to confirm the current mail processing method for the specific unit your loved one is in.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Arizona county jail to a state prison?",
+        answer: "When someone transfers from an Arizona county jail to an ADCRR state prison, the communication providers change. You will need an ICSolutions account for phone calls and a Securus account for electronic messaging. You must also apply for the visitation list and be added to the PAN call list. Your county jail accounts do not transfer. Confirm the new facility and ADC number before setting up accounts.",
+      },
     ],
 
     facilitiesByType: { federal: 12, state: 22, county: 140, private: 21 },

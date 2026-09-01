@@ -1362,11 +1362,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Tennessee jail or prison. Find the right provider for TDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Tennessee's correctional system includes state prisons run by the Tennessee Department of Correction, county jails operated by local sheriffs across its 95 counties, and private facilities contracted to manage overflow population. The state's geography spans from Memphis in the west through Nashville in the center to Knoxville and Chattanooga in the east, and the communication options at correctional facilities follow no single statewide standard. A facility in the rural northeast may have different provider arrangements from a large urban jail in Shelby County, and families often find that accurate information is not published in any organized location.",
+      "Tennessee operates its state prison system through the Tennessee Department of Correction (TDOC). ConnectNetwork powered by GTL and ViaPath Technologies is the primary platform for phone calls at all TDOC state facilities. The per-minute rate for ConnectNetwork decreased to $0.075 effective July 1, 2024. Tennessee does not permit inbound telephone calls for inmates. All calls are outbound from the facility. In the event of a family emergency, contact the facility chaplain who may facilitate a call where necessary.",
+      "Every Tennessee state inmate is assigned a unique TDOC number at intake that must appear on all mail sent to TDOC facilities. Find the TDOC number through the Tennessee DOC offender search at foil.app.tn.gov. The TDOC number is permanent for the duration of the sentence regardless of facility transfers within the Tennessee system. County jail detainees have their own booking numbers that are separate from TDOC numbers.",
+      "Tennessee is not among the states that offer free inmate phone calls. Tennessee has 95 county jails and each contracts its own phone vendor independently from TDOC. County rates and providers vary significantly. Davidson County Nashville uses ICSolutions. Shelby County Memphis uses NCIC Inmate Communications. Hamilton County Chattanooga uses GettingOut. Always confirm the specific provider for each county jail before setting up any account.",
+    ],
 
-      "JPay is the primary platform for Tennessee Department of Correction state prisons, covering messaging, photo sharing, and money transfer. Phone and video services at state facilities are handled by Securus and GTL depending on the institution. Shelby County, which includes Memphis, operates one of the larger county jail systems in the state with its own provider contracts. Davidson County, which includes Nashville, similarly has its own arrangements separate from the state system. Federal facilities in Tennessee use CorrLinks for electronic communication under Bureau of Prisons guidelines.",
+    overview: [
+      "Which provider do Tennessee state prison families use? ConnectNetwork powered by GTL and ViaPath Technologies handles all phone calls at TDOC Tennessee state facilities. Create a ConnectNetwork account at connectnetwork.com. The per-minute rate is $0.075 as of July 1, 2024. Tennessee does not permit inbound calls to inmates. Your loved one must initiate all calls from facility phones during approved calling hours.",
+      "What is the TDOC number and why does it matter? The TDOC number is assigned at intake and stays with the inmate for their entire sentence. It must appear on all mail sent to TDOC facilities. Find it through the Tennessee DOC offender search at foil.app.tn.gov. The TDOC number is different from any court case number or county booking number. Mail without the TDOC number is routinely delayed or returned.",
+      "What is the most common mistake Tennessee prison families make? Using the wrong provider for county jails is the most common mistake. TDOC state prisons use ConnectNetwork but Tennessee has 95 county jails each with its own vendor. Families with loved ones at Davidson County Nashville should use ICSolutions. Shelby County Memphis families should use NCIC. Hamilton County Chattanooga families should use GettingOut. Always confirm the specific jail provider before setting up any account.",
+    ],
 
-      "Tennessee families navigating inmate communication typically face the same challenge as families in every other state: the right provider for one facility is not the right provider for another, and finding out which applies requires more effort than it should. This directory aggregates facility and provider information for Tennessee to make that process straightforward. Whether you are looking for messaging options at a state correctional institution, setting up phone or video calls at a county jail, or finding the right platform for a federal facility in Memphis, this guide helps you reach the correct answer without the guesswork.",
+    faq: [
+      {
+        question: "Which provider do I use for Tennessee state prison phone calls?",
+        answer: "ConnectNetwork powered by GTL and ViaPath Technologies handles all phone calls at TDOC Tennessee state facilities. Create a ConnectNetwork account at connectnetwork.com. The per-minute rate decreased to $0.075 effective July 1, 2024. Tennessee does not permit inbound calls. Your loved one must initiate all calls from facility phones.",
+      },
+      {
+        question: "Are phone calls free at Tennessee state prisons?",
+        answer: "No. Tennessee is not among the states offering free inmate phone calls. ConnectNetwork GTL holds the TDOC contract and charges $0.075 per minute as of July 1, 2024. This rate applies to TDOC state prison calls. County jail rates vary by county and provider. Contact ConnectNetwork at connectnetwork.com for current rate information.",
+      },
+      {
+        question: "What is the TDOC number and where do I find it?",
+        answer: "The TDOC number is the identification number assigned at intake that is permanent for the entire sentence. It must appear on all mail sent to TDOC facilities. Find it through the Tennessee DOC offender search at foil.app.tn.gov or ask your loved one to provide it. The TDOC number is different from any court case number or county booking number.",
+      },
+      {
+        question: "How do I find someone currently in a Tennessee state prison?",
+        answer: "Use the Tennessee DOC offender search at foil.app.tn.gov. You can search by name, TDOC ID, or social security number. Results include the inmate photo, status, location, conviction details, sentence length, and parole eligibility date. For county jail inmates use the specific county sheriff's website. For federal inmates in Tennessee use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Which provider does Davidson County Nashville jail use?",
+        answer: "Davidson County Sheriff's Office in Nashville uses ICSolutions for prepaid phone accounts. The DDC video registration uses Securus. For 24-hour inmate information call 615-862-8123. ICSolutions is a different provider from ConnectNetwork which serves TDOC state prisons. Always confirm the current provider directly with the county facility before setting up accounts.",
+      },
+      {
+        question: "Which provider does Shelby County Memphis jail use?",
+        answer: "Shelby County Jail in Memphis at 201 Poplar Avenue uses NCIC Inmate Communications for prepaid phone accounts. Contact the jail at 901-222-5500 for current provider information. NCIC is a different provider from ConnectNetwork which serves TDOC state prisons. Do not set up a ConnectNetwork account for Shelby County jail calls.",
+      },
+      {
+        question: "How do I send money to someone at a Tennessee state prison?",
+        answer: "Money can be deposited through ConnectNetwork at connectnetwork.com for TDOC state prison trust accounts. ConnectNetwork payments are instantly processed with all transactions credited within two business days. For county jail money transfers, contact the specific county jail for their approved deposit methods as these vary by county.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Tennessee county jail to a state prison?",
+        answer: "When someone transfers from a Tennessee county jail to a TDOC state prison, the provider changes to ConnectNetwork GTL. They receive a TDOC number that must be used for all future communication and mail. Your county jail account does not transfer. Create a new ConnectNetwork account after confirming the transfer is complete and you have the TDOC number.",
+      },
     ],
 
     facilitiesByType: { federal: 10, state: 14, county: 130, private: 14 },

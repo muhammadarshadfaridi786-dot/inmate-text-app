@@ -91,7 +91,7 @@ export default function FacilityHero({ facility }: FacilityHeroProps) {
           {/* CTAs */}
           <div className="flex flex-wrap justify-center gap-3">
             <Link
-              href="/facilities"
+              href={`/facilities?state=${facility.stateAbbr}`}
               className={cn(
                 buttonVariants({ size: "lg" }),
                 "h-11 px-8 text-sm font-semibold"

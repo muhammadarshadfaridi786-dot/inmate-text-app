@@ -27,7 +27,7 @@ export default function FacilityCTA({ facility, stateHasPage }: FacilityCTAProps
           </p>
           <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
-              href="/facilities"
+              href={`/facilities?state=${facility.stateAbbr}`}
               className={cn(
                 buttonVariants({ variant: "secondary", size: "lg" }),
                 "h-11 px-8 text-sm font-semibold"

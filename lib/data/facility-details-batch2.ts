@@ -521,6 +521,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "St. Gabriel, Iberville Parish",
     securityLevel: "Medium / Maximum",
     hasDetailPage: true,
+    seoTitle: "Elayn Hunt Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Elayn Hunt Correctional Center in St. Gabriel LA. Find the correct provider for phone calls, messaging, and money transfers at this Louisiana DOC facility.",
 
     description:
       "Elayn Hunt Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this Louisiana DOC facility in St. Gabriel, Iberville Parish.",
@@ -623,6 +625,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Orleans Parish",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Orleans Justice Center: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Orleans Justice Center in New Orleans LA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this facility.",
 
     description:
       "Orleans Justice Center communication guide. Find GTL phone, video, and messaging options for families in New Orleans. Learn how to stay connected at the Orleans Parish jail.",
@@ -1031,6 +1035,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Marquette County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Marquette Branch Prison: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Marquette Branch Prison in Michigan. GTL ConnectNetwork handles phone calls. JPay for messaging. Michigan mail scanning converts letters to digital copies.",
 
     description:
       "Marquette Branch Prison communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security Michigan facility in the Upper Peninsula.",
@@ -1241,6 +1247,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Lyon County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Kentucky State Penitentiary: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Kentucky State Penitentiary in Eddyville. Find the correct provider for phone calls, electronic messaging, and money transfers at this Kentucky DOC facility.",
 
     description:
       "Kentucky State Penitentiary communication guide. Find JPay messaging and Securus phone options for families at Kentucky's oldest and only maximum-security state prison in Eddyville.",
@@ -1655,6 +1663,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Burlington County",
     securityLevel: "Low / Medium",
     hasDetailPage: true,
+    seoTitle: "FCI Fort Dix: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at FCI Fort Dix in New Jersey. CorrLinks for electronic messaging. ConnectNetwork for phone calls. One of the largest federal BOP facilities in the country.",
 
     description:
       "FCI Fort Dix communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at the largest federal prison in the United States by population.",
@@ -1861,6 +1871,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Fayette County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Mount Olive Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Mount Olive Correctional Complex in West Virginia. Find the correct provider for phone calls, messaging, and money transfers at this West Virginia DOC facility.",
 
     description:
       "Mount Olive Correctional Complex communication guide. Find JPay messaging and GTL phone options for families at West Virginia's only maximum-security state prison in Fayette County.",
@@ -1963,6 +1975,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Milwaukee County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Milwaukee County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Milwaukee County Jail in Wisconsin. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
 
     description:
       "Milwaukee County Jail communication guide. Find Securus phone, video, and messaging options for families in Milwaukee. Learn how to stay connected at Wisconsin's largest county jail.",

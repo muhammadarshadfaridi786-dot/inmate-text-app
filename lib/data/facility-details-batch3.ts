@@ -634,6 +634,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Knox County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Maine State Prison: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Maine State Prison in Warren. Find the correct provider for phone calls, electronic messaging, and money transfers at this Maine DOC facility.",
 
     description:
       "Maine State Prison communication guide. Find JPay messaging and GTL phone options for families at Maine's only maximum-security state prison in Warren, Knox County.",
@@ -1242,6 +1244,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Burleigh County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "North Dakota State Pen: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at North Dakota State Penitentiary in Bismarck. Find the correct provider for phone calls, electronic messaging, and money transfers at this DOCR facility.",
 
     description:
       "North Dakota State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at North Dakota's maximum-security state prison in Bismarck.",
@@ -2366,6 +2370,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Cole County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Jefferson City Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Jefferson City Correctional Center in Missouri. Find the correct provider for phone calls, electronic messaging, and money transfers at this Missouri DOC facility.",
 
     description:
       "Jefferson City Correctional Center communication guide. Find JPay messaging and GTL phone options for families at Missouri's maximum-security state prison in the state capital.",

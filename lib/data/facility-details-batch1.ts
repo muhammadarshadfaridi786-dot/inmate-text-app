@@ -2422,6 +2422,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Walker County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Huntsville Unit TDCJ: Securus Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Huntsville Unit in Texas. Securus Technologies handles TDCJ phone calls. Register at texasprisonphone.com before setting up Securus AdvanceConnect account.",
 
     description:
       "Huntsville Unit communication guide. Find JPay messaging and GTL phone options for families at the Walls Unit, the oldest and most historic Texas Department of Criminal Justice facility.",
@@ -4486,6 +4488,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Los Angeles County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "LA Men's Central Jail: Free Calls, GTL Setup and Messaging Guide",
+    seoDescription: "How to contact someone at LA County Men's Central Jail. Phone calls from LA County jails are free since December 2023. GTL ConnectNetwork handles communication. No prepaid account needed.",
 
     description:
       "Los Angeles County Men's Central Jail communication guide. Find GTL phone, video, and messaging options for families at one of the largest jails in the United States.",

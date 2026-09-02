@@ -1487,11 +1487,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in an Indiana jail or prison. Find the right provider for IDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Indiana's correctional system is organized around the Indiana Department of Correction, which operates state prisons at locations including Michigan City, Pendleton, Carlisle, and Westville. County jails across Indiana's 92 counties add a second tier of facilities, each operating under local sheriff's oversight with separate communication arrangements. The federal Bureau of Prisons also maintains a presence in Indiana, most notably at the Terre Haute federal complex, which includes a United States Penitentiary and a federal medical center. Each tier of this system has its own provider relationships, and the rules governing communication differ across them.",
+      "Indiana operates its state prison system through the Indiana Department of Correction (IDOC). ViaPath Technologies through ConnectNetwork handles phone calls at all IDOC state facilities. For questions about calling options contact ViaPath at 877-650-4249. Each incarcerated individual must complete and sign a telephone list identifying no more than 20 names and phone numbers of approved contacts. You must be on this approved list before calls can connect to your number.",
+      "Indiana IDOC has transitioned to GettingOut.com for digital correspondence including electronic messages and photos. Friends and family must create a new account at gettingout.com to send messages and photos. After the transition, PIN debit funds added through ConnectNetwork work for both phone calls and tablet services under a unified account. IDOC has a designated intake facility for each population group. Adult males go to the Reception Diagnostic Center. Adult females go to Rockville Correctional Facility.",
+      "Indiana is not among the states that offer free inmate phone calls. Families pay per-minute rates subject to FCC caps. Collect calls cannot be made to cell phones, office phones, or hospital numbers. For cell phone users, setting up a ConnectNetwork prepaid account is required. Find the DOC number and facility location using the IDOC incarcerated locator at in.gov/idoc.",
+    ],
 
-      "JPay is used across Indiana Department of Correction state prisons for messaging, photos, and money transfer. Phone and video services at state facilities and many county jails are provided by Securus and GTL. Marion County, which encompasses Indianapolis and operates one of the larger county jail systems in the state, has its own provider setup. Federal facilities at Terre Haute and other locations in Indiana require CorrLinks for electronic communication. As with most states, the challenge for families is not a lack of options. It is knowing which option applies to the specific facility in their situation.",
+    overview: [
+      "Which providers do Indiana state prison families use? ViaPath through ConnectNetwork handles phone calls at all IDOC state facilities. GettingOut.com handles digital messaging and photos after the IDOC platform transition. These are two separate accounts. Contact ViaPath at 877-650-4249 for phone account questions. Create a GettingOut account at gettingout.com for digital correspondence.",
+      "What changed about Indiana prison digital messaging? IDOC transitioned to GettingOut.com for digital correspondence including electronic messages and photos. Friends and family must create a new GettingOut account to send messages and photos. PIN debit funds through ConnectNetwork now work for both phone calls and tablets. If you had an account on a previous platform, create a new GettingOut account and set it up in advance of your loved one receiving their new tablet.",
+      "What is the most common mistake Indiana prison families make? Not being on the approved telephone list is the most common mistake. Each incarcerated person can have no more than 20 names on their call list. If your number is not on the list, calls cannot connect regardless of whether you have a ConnectNetwork account. Also, collect calls cannot be made to cell phones. Cell phone users must set up a ConnectNetwork prepaid account to receive calls.",
+    ],
 
-      "Indiana families dealing with the correctional communication system for the first time often spend considerable time figuring out the basics. Which provider? Which account type? What rules apply at this particular facility? This directory organizes that information for Indiana so you can go directly to the correct answer. Whether the facility is a state prison in the northern part of the state, a county jail in Indianapolis, or a federal complex in Terre Haute, this guide gives you a reliable starting point without the confusion that normally comes with this process.",
+    faq: [
+      {
+        question: "Which provider do I use for Indiana state prison phone calls?",
+        answer: "ViaPath Technologies through ConnectNetwork handles phone calls at all IDOC Indiana state facilities. Contact ViaPath at 877-650-4249 for account setup questions. You must also be on the incarcerated person's approved telephone list of no more than 20 names. Collect calls cannot be made to cell phones. Cell phone users must set up a prepaid ConnectNetwork account.",
+      },
+      {
+        question: "How do I send messages and photos to someone at an Indiana state prison?",
+        answer: "Indiana IDOC transitioned digital correspondence to GettingOut.com. Create a new account at gettingout.com to send electronic messages and photos. You can search for your incarcerated loved one and add them as a contact. The Friends and Family feature allows you to add funds for messages and photos. PIN debit funds through ConnectNetwork also work for both phones and tablets.",
+      },
+      {
+        question: "Are phone calls free at Indiana state prisons?",
+        answer: "No. Indiana is not among the states offering free inmate phone calls. Families pay per-minute rates subject to FCC caps. Collect calls cannot be made to cell phones, requiring cell phone users to set up a prepaid ConnectNetwork account. Contact ViaPath at 877-650-4249 for current rate information at your specific facility.",
+      },
+      {
+        question: "How do I get on the approved call list at an Indiana state prison?",
+        answer: "The incarcerated person must complete and sign a telephone list identifying no more than 20 names and phone numbers of approved contacts. You must ask your loved one to add your name and number to their list from inside the facility. Without being on this list, calls cannot connect to your number even with a funded ConnectNetwork account.",
+      },
+      {
+        question: "How do I find someone currently in an Indiana state prison?",
+        answer: "Use the IDOC incarcerated locator at in.gov/idoc to find the facility location and DOC number. IDOC has designated intake facilities for each population group. Adult males go to the Reception Diagnostic Center. Adult females go to Rockville Correctional Facility. For federal inmates in Indiana use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "What is the DOC number and where do I find it?",
+        answer: "The DOC number is the identification number assigned to every person in Indiana DOC custody. You need it for communication accounts and the incarcerated locator. Find it through the IDOC incarcerated locator at in.gov/idoc or ask your loved one to provide it. The DOC number is different from any court case number.",
+      },
+      {
+        question: "Can I receive collect calls from Indiana state prisons on my cell phone?",
+        answer: "No. Collect calls cannot be made to cell phones from Indiana state prisons. Cell phone users must set up a ViaPath ConnectNetwork prepaid account before receiving calls. Contact ViaPath at 877-650-4249 to set up a prepaid account linked to your cell phone number. Once the prepaid account is funded, your loved one can call your cell phone directly.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Indiana county jail to a state prison?",
+        answer: "When someone transfers from an Indiana county jail to an IDOC state prison, the providers change. County jails use their own contracted vendors. IDOC state prisons use ViaPath ConnectNetwork for calls and GettingOut for digital messaging. Your county jail accounts do not transfer. Create new accounts and ensure you are added to the approved telephone list after the transfer is confirmed.",
+      },
     ],
 
     facilitiesByType: { federal: 8, state: 22, county: 125, private: 13 },

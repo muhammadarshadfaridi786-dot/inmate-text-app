@@ -2705,4 +2705,3078 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   relatedFacilitySlugs: ["lew-sterrett-justice-center", "essex-county-correctional-facility", "theo-lacy-facility"],
 },
 
+
+"twin-towers-correctional-facility": {
+  id: "f-141",
+  name: "Twin Towers Correctional Facility",
+  slug: "twin-towers-correctional-facility",
+  type: "county",
+  stateSlug: "california",
+  stateName: "California",
+  stateAbbr: "CA",
+  countySlug: null,
+  countyName: "Los Angeles County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Twin Towers Correctional Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Twin Towers Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Twin Towers Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Los Angeles County facility.",
+
+  overview: [
+    "Twin Towers Correctional Facility is a county detention facility in Los Angeles County, California, operated by the Los Angeles County Sheriff's Office. Communication for families follows the standard process used across Los Angeles County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Twin Towers Correctional Facility is handled through GTL and ConnectNetwork. GTL handles phone calls, video visits. ConnectNetwork handles electronic messaging, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Los Angeles County Sheriff's Office",
+
+  providers: [
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: true, video: false, photos: false, phone: false, moneyTransfer: true, notes: "Handles messaging, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "ConnectNetwork", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "GTL", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "GTL", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "ConnectNetwork handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "GTL handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Twin Towers Correctional Facility?", answer: "Create an account with ConnectNetwork, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Twin Towers Correctional Facility?", answer: "Phone calls run through GTL. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Twin Towers Correctional Facility?", answer: "Video visits are available through GTL. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Twin Towers Correctional Facility?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"mens-central-jail-los-angeles": {
+  id: "f-142",
+  name: "Men's Central Jail Los Angeles",
+  slug: "mens-central-jail-los-angeles",
+  type: "county",
+  stateSlug: "california",
+  stateName: "California",
+  stateAbbr: "CA",
+  countySlug: null,
+  countyName: "Los Angeles County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Men's Central Jail Los Angeles: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Men's Central Jail Los Angeles. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Men's Central Jail Los Angeles communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Los Angeles County facility.",
+
+  overview: [
+    "Men's Central Jail Los Angeles is a county detention facility in Los Angeles County, California, operated by the Los Angeles County Sheriff's Office. Communication for families follows the standard process used across Los Angeles County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Men's Central Jail Los Angeles is handled through GTL and ConnectNetwork. GTL handles phone calls, video visits. ConnectNetwork handles electronic messaging, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Los Angeles County Sheriff's Office",
+
+  providers: [
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: true, video: false, photos: false, phone: false, moneyTransfer: true, notes: "Handles messaging, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "ConnectNetwork", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "GTL", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "GTL", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "ConnectNetwork handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "GTL handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Men's Central Jail Los Angeles?", answer: "Create an account with ConnectNetwork, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Men's Central Jail Los Angeles?", answer: "Phone calls run through GTL. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Men's Central Jail Los Angeles?", answer: "Video visits are available through GTL. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Men's Central Jail Los Angeles?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"california-state-prison-los-angeles-county": {
+  id: "f-143",
+  name: "California State Prison Los Angeles County",
+  slug: "california-state-prison-los-angeles-county",
+  type: "state",
+  stateSlug: "california",
+  stateName: "California",
+  stateAbbr: "CA",
+  countySlug: null,
+  countyName: "Los Angeles County",
+  securityLevel: "Level III/IV",
+  hasDetailPage: true,
+  seoTitle: "California State Prison Los Angeles County: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at California State Prison Los Angeles County. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "California State Prison Los Angeles County communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Los Angeles County facility.",
+
+  overview: [
+    "California State Prison Los Angeles County is a state correctional facility in Los Angeles County, California, operated by the California Department of Corrections. Communication for families follows the standard process used across California correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at California State Prison Los Angeles County is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "California Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at California State Prison Los Angeles County?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at California State Prison Los Angeles County?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at California State Prison Los Angeles County?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at California State Prison Los Angeles County?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"pre-trial-detention-center-miami": {
+  id: "f-144",
+  name: "Pre-Trial Detention Center Miami",
+  slug: "pre-trial-detention-center-miami",
+  type: "county",
+  stateSlug: "florida",
+  stateName: "Florida",
+  stateAbbr: "FL",
+  countySlug: null,
+  countyName: "Miami-Dade County",
+  securityLevel: "Pretrial",
+  hasDetailPage: true,
+  seoTitle: "Pre-Trial Detention Center Miami: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Pre-Trial Detention Center Miami. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Pre-Trial Detention Center Miami communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Miami-Dade County facility.",
+
+  overview: [
+    "Pre-Trial Detention Center Miami is a county detention facility in Miami-Dade County, Florida, operated by the Miami-Dade County Sheriff's Office. Communication for families follows the standard process used across Miami-Dade County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Pre-Trial Detention Center Miami is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Miami-Dade County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Pre-Trial Detention Center Miami?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Pre-Trial Detention Center Miami?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Pre-Trial Detention Center Miami?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Pre-Trial Detention Center Miami?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"turner-guilford-knight-correctional-center": {
+  id: "f-145",
+  name: "Turner Guilford Knight Correctional Center",
+  slug: "turner-guilford-knight-correctional-center",
+  type: "county",
+  stateSlug: "florida",
+  stateName: "Florida",
+  stateAbbr: "FL",
+  countySlug: null,
+  countyName: "Miami-Dade County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Turner Guilford Knight Correctional Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Turner Guilford Knight Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Turner Guilford Knight Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Miami-Dade County facility.",
+
+  overview: [
+    "Turner Guilford Knight Correctional Center is a county detention facility in Miami-Dade County, Florida, operated by the Miami-Dade County Sheriff's Office. Communication for families follows the standard process used across Miami-Dade County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Turner Guilford Knight Correctional Center is handled through Securus and ConnectNetwork. Securus handles electronic messaging, phone calls, video visits, money transfers. ConnectNetwork provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Miami-Dade County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: true, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles messaging, phone calls, video visits, money transfers." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Serves this facility for select communication services." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "Securus", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "Securus handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Turner Guilford Knight Correctional Center?", answer: "Create an account with Securus, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Turner Guilford Knight Correctional Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Turner Guilford Knight Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Turner Guilford Knight Correctional Center?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"federal-detention-center-miami": {
+  id: "f-146",
+  name: "Federal Detention Center Miami",
+  slug: "federal-detention-center-miami",
+  type: "federal",
+  stateSlug: "florida",
+  stateName: "Florida",
+  stateAbbr: "FL",
+  countySlug: null,
+  countyName: "Miami-Dade County",
+  securityLevel: "Administrative",
+  hasDetailPage: true,
+  seoTitle: "Federal Detention Center Miami: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at Federal Detention Center Miami. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "Federal Detention Center Miami communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Miami-Dade County facility.",
+
+  overview: [
+    "Federal Detention Center Miami is a federal correctional facility in Miami-Dade County, Florida, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Federal Detention Center Miami is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Federal Detention Center Miami?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Federal Detention Center Miami?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Federal Detention Center Miami?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Federal Detention Center Miami?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"rikers-island-amkc": {
+  id: "f-147",
+  name: "Rikers Island AMKC",
+  slug: "rikers-island-amkc",
+  type: "county",
+  stateSlug: "new-york",
+  stateName: "New York",
+  stateAbbr: "NY",
+  countySlug: null,
+  countyName: "New York City",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Rikers Island AMKC: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Rikers Island AMKC. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Rikers Island AMKC communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this New York City facility.",
+
+  overview: [
+    "Rikers Island AMKC is a county detention facility in New York City, New York, operated by the New York County Sheriff's Office. Communication for families follows the standard process used across New York City jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Rikers Island AMKC is handled through GTL and ConnectNetwork. GTL handles phone calls, video visits. ConnectNetwork handles electronic messaging, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "New York County Sheriff's Office",
+
+  providers: [
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: true, video: false, photos: false, phone: false, moneyTransfer: true, notes: "Handles messaging, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "ConnectNetwork", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "GTL", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "GTL", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "ConnectNetwork handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "GTL handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Rikers Island AMKC?", answer: "Create an account with ConnectNetwork, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Rikers Island AMKC?", answer: "Phone calls run through GTL. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Rikers Island AMKC?", answer: "Video visits are available through GTL. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Rikers Island AMKC?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"brooklyn-detention-complex": {
+  id: "f-148",
+  name: "Brooklyn Detention Complex",
+  slug: "brooklyn-detention-complex",
+  type: "county",
+  stateSlug: "new-york",
+  stateName: "New York",
+  stateAbbr: "NY",
+  countySlug: null,
+  countyName: "Kings County",
+  securityLevel: "Pretrial",
+  hasDetailPage: true,
+  seoTitle: "Brooklyn Detention Complex: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Brooklyn Detention Complex. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Brooklyn Detention Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Kings County facility.",
+
+  overview: [
+    "Brooklyn Detention Complex is a county detention facility in Kings County, New York, operated by the Kings County Sheriff's Office. Communication for families follows the standard process used across Kings County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Brooklyn Detention Complex is handled through GTL and ConnectNetwork. GTL handles phone calls, video visits. ConnectNetwork handles electronic messaging, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Kings County Sheriff's Office",
+
+  providers: [
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: true, video: false, photos: false, phone: false, moneyTransfer: true, notes: "Handles messaging, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "ConnectNetwork", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "GTL", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "GTL", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "ConnectNetwork handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "GTL handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Brooklyn Detention Complex?", answer: "Create an account with ConnectNetwork, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Brooklyn Detention Complex?", answer: "Phone calls run through GTL. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Brooklyn Detention Complex?", answer: "Video visits are available through GTL. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Brooklyn Detention Complex?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"metropolitan-detention-center-brooklyn": {
+  id: "f-149",
+  name: "Metropolitan Detention Center Brooklyn",
+  slug: "metropolitan-detention-center-brooklyn",
+  type: "federal",
+  stateSlug: "new-york",
+  stateName: "New York",
+  stateAbbr: "NY",
+  countySlug: null,
+  countyName: "Kings County",
+  securityLevel: "Administrative",
+  hasDetailPage: true,
+  seoTitle: "Metropolitan Detention Center Brooklyn: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at Metropolitan Detention Center Brooklyn. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "Metropolitan Detention Center Brooklyn communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Kings County facility.",
+
+  overview: [
+    "Metropolitan Detention Center Brooklyn is a federal correctional facility in Kings County, New York, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Metropolitan Detention Center Brooklyn is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Metropolitan Detention Center Brooklyn?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Metropolitan Detention Center Brooklyn?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Metropolitan Detention Center Brooklyn?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Metropolitan Detention Center Brooklyn?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"fdc-houston": {
+  id: "f-150",
+  name: "FDC Houston",
+  slug: "fdc-houston",
+  type: "federal",
+  stateSlug: "texas",
+  stateName: "Texas",
+  stateAbbr: "TX",
+  countySlug: null,
+  countyName: "Harris County",
+  securityLevel: "Administrative",
+  hasDetailPage: true,
+  seoTitle: "FDC Houston: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FDC Houston. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "FDC Houston communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Harris County facility.",
+
+  overview: [
+    "FDC Houston is a federal correctional facility in Harris County, Texas, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at FDC Houston is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at FDC Houston?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at FDC Houston?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at FDC Houston?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at FDC Houston?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"harris-county-jail-baker-street-annex": {
+  id: "f-151",
+  name: "Harris County Jail Baker Street Annex",
+  slug: "harris-county-jail-baker-street-annex",
+  type: "county",
+  stateSlug: "texas",
+  stateName: "Texas",
+  stateAbbr: "TX",
+  countySlug: null,
+  countyName: "Harris County",
+  securityLevel: "Pretrial",
+  hasDetailPage: true,
+  seoTitle: "Harris County Jail Baker Street Annex: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Harris County Jail Baker Street Annex. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Harris County Jail Baker Street Annex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Harris County facility.",
+
+  overview: [
+    "Harris County Jail Baker Street Annex is a county detention facility in Harris County, Texas, operated by the Harris County Sheriff's Office. Communication for families follows the standard process used across Harris County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Harris County Jail Baker Street Annex is handled through Securus. Securus handles electronic messaging, phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Harris County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: true, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles messaging, phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "Securus", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "Securus handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Harris County Jail Baker Street Annex?", answer: "Create an account with Securus, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Harris County Jail Baker Street Annex?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Harris County Jail Baker Street Annex?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Harris County Jail Baker Street Annex?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"maryland-correctional-institution-jessup": {
+  id: "f-152",
+  name: "Maryland Correctional Institution Jessup",
+  slug: "maryland-correctional-institution-jessup",
+  type: "state",
+  stateSlug: "maryland",
+  stateName: "Maryland",
+  stateAbbr: "MD",
+  countySlug: null,
+  countyName: "Howard County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Maryland Correctional Institution Jessup: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Maryland Correctional Institution Jessup. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Maryland Correctional Institution Jessup communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Howard County facility.",
+
+  overview: [
+    "Maryland Correctional Institution Jessup is a state correctional facility in Howard County, Maryland, operated by the Maryland Department of Corrections. Communication for families follows the standard process used across Maryland correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Maryland Correctional Institution Jessup is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Maryland Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Maryland Correctional Institution Jessup?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Maryland Correctional Institution Jessup?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Maryland Correctional Institution Jessup?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Maryland Correctional Institution Jessup?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"st-louis-city-justice-center": {
+  id: "f-153",
+  name: "St. Louis City Justice Center",
+  slug: "st-louis-city-justice-center",
+  type: "county",
+  stateSlug: "missouri",
+  stateName: "Missouri",
+  stateAbbr: "MO",
+  countySlug: null,
+  countyName: "St. Louis City",
+  securityLevel: "Pretrial",
+  hasDetailPage: true,
+  seoTitle: "St. Louis City Justice Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at St. Louis City Justice Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "St. Louis City Justice Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this St. Louis City facility.",
+
+  overview: [
+    "St. Louis City Justice Center is a county detention facility in St. Louis City, Missouri, operated by the St. Louis County Sheriff's Office. Communication for families follows the standard process used across St. Louis City jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at St. Louis City Justice Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "St. Louis County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at St. Louis City Justice Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at St. Louis City Justice Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at St. Louis City Justice Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at St. Louis City Justice Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"crossroads-correctional-center": {
+  id: "f-154",
+  name: "Crossroads Correctional Center",
+  slug: "crossroads-correctional-center",
+  type: "state",
+  stateSlug: "missouri",
+  stateName: "Missouri",
+  stateAbbr: "MO",
+  countySlug: null,
+  countyName: "Linn County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Crossroads Correctional Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Crossroads Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Crossroads Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Linn County facility.",
+
+  overview: [
+    "Crossroads Correctional Center is a state correctional facility in Linn County, Missouri, operated by the Missouri Department of Corrections. Communication for families follows the standard process used across Missouri correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Crossroads Correctional Center is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Missouri Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Crossroads Correctional Center?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Crossroads Correctional Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Crossroads Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Crossroads Correctional Center?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"pulaski-county-detention-facility": {
+  id: "f-155",
+  name: "Pulaski County Detention Facility",
+  slug: "pulaski-county-detention-facility",
+  type: "county",
+  stateSlug: "arkansas",
+  stateName: "Arkansas",
+  stateAbbr: "AR",
+  countySlug: null,
+  countyName: "Pulaski County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Pulaski County Detention Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Pulaski County Detention Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Pulaski County Detention Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Pulaski County facility.",
+
+  overview: [
+    "Pulaski County Detention Facility is a county detention facility in Pulaski County, Arkansas, operated by the Pulaski County Sheriff's Office. Communication for families follows the standard process used across Pulaski County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Pulaski County Detention Facility is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Pulaski County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Pulaski County Detention Facility?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Pulaski County Detention Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Pulaski County Detention Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Pulaski County Detention Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"hinds-county-detention-center": {
+  id: "f-156",
+  name: "Hinds County Detention Center",
+  slug: "hinds-county-detention-center",
+  type: "county",
+  stateSlug: "mississippi",
+  stateName: "Mississippi",
+  stateAbbr: "MS",
+  countySlug: null,
+  countyName: "Hinds County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Hinds County Detention Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Hinds County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Hinds County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hinds County facility.",
+
+  overview: [
+    "Hinds County Detention Center is a county detention facility in Hinds County, Mississippi, operated by the Hinds County Sheriff's Office. Communication for families follows the standard process used across Hinds County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Hinds County Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Hinds County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Hinds County Detention Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Hinds County Detention Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Hinds County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Hinds County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"arizona-state-prison-complex-perryville": {
+  id: "f-157",
+  name: "Arizona State Prison Complex Perryville",
+  slug: "arizona-state-prison-complex-perryville",
+  type: "state",
+  stateSlug: "arizona",
+  stateName: "Arizona",
+  stateAbbr: "AZ",
+  countySlug: null,
+  countyName: "Maricopa County",
+  securityLevel: "Multiple",
+  hasDetailPage: true,
+  seoTitle: "Arizona State Prison Complex Perryville: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Arizona State Prison Complex Perryville. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Arizona State Prison Complex Perryville communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Maricopa County facility.",
+
+  overview: [
+    "Arizona State Prison Complex Perryville is a state correctional facility in Maricopa County, Arizona, operated by the Arizona Department of Corrections. Communication for families follows the standard process used across Arizona correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Arizona State Prison Complex Perryville is handled through ICSolutions and Securus. ICSolutions handles electronic messaging, phone calls, video visits, money transfers. Securus provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Arizona Department of Corrections",
+
+  providers: [
+    { name: "ICSolutions", slug: "icsolutions", initial: "I", color: "bg-sky-700", messaging: true, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles messaging, phone calls, video visits, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Serves this facility for select communication services." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "ICSolutions", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ICSolutions", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ICSolutions", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ICSolutions", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "ICSolutions handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ICSolutions handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Arizona State Prison Complex Perryville?", answer: "Create an account with ICSolutions, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Arizona State Prison Complex Perryville?", answer: "Phone calls run through ICSolutions. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Arizona State Prison Complex Perryville?", answer: "Video visits are available through ICSolutions. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Arizona State Prison Complex Perryville?", answer: "Deposits go through ICSolutions. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"fcc-yazoo-city": {
+  id: "f-158",
+  name: "FCC Yazoo City",
+  slug: "fcc-yazoo-city",
+  type: "federal",
+  stateSlug: "mississippi",
+  stateName: "Mississippi",
+  stateAbbr: "MS",
+  countySlug: null,
+  countyName: "Yazoo County",
+  securityLevel: "Medium / Low",
+  hasDetailPage: true,
+  seoTitle: "FCC Yazoo City: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCC Yazoo City. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "FCC Yazoo City communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Yazoo County facility.",
+
+  overview: [
+    "FCC Yazoo City is a federal correctional facility in Yazoo County, Mississippi, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at FCC Yazoo City is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at FCC Yazoo City?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at FCC Yazoo City?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at FCC Yazoo City?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at FCC Yazoo City?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"johnson-county-detention-center": {
+  id: "f-159",
+  name: "Johnson County Detention Center",
+  slug: "johnson-county-detention-center",
+  type: "county",
+  stateSlug: "kansas",
+  stateName: "Kansas",
+  stateAbbr: "KS",
+  countySlug: null,
+  countyName: "Johnson County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Johnson County Detention Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Johnson County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Johnson County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Johnson County facility.",
+
+  overview: [
+    "Johnson County Detention Center is a county detention facility in Johnson County, Kansas, operated by the Johnson County Sheriff's Office. Communication for families follows the standard process used across Johnson County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Johnson County Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Johnson County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Johnson County Detention Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Johnson County Detention Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Johnson County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Johnson County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"strafford-county-house-of-corrections": {
+  id: "f-160",
+  name: "Strafford County House of Corrections",
+  slug: "strafford-county-house-of-corrections",
+  type: "county",
+  stateSlug: "new-hampshire",
+  stateName: "New Hampshire",
+  stateAbbr: "NH",
+  countySlug: null,
+  countyName: "Strafford County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Strafford County House of Corrections: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Strafford County House of Corrections. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Strafford County House of Corrections communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Strafford County facility.",
+
+  overview: [
+    "Strafford County House of Corrections is a county detention facility in Strafford County, New Hampshire, operated by the Strafford County Sheriff's Office. Communication for families follows the standard process used across Strafford County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Strafford County House of Corrections is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Strafford County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Strafford County House of Corrections?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Strafford County House of Corrections?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Strafford County House of Corrections?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Strafford County House of Corrections?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"hillsborough-county-department-of-corrections": {
+  id: "f-161",
+  name: "Hillsborough County Department of Corrections",
+  slug: "hillsborough-county-department-of-corrections",
+  type: "county",
+  stateSlug: "florida",
+  stateName: "Florida",
+  stateAbbr: "FL",
+  countySlug: null,
+  countyName: "Hillsborough County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Hillsborough County Department of Corrections: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Hillsborough County Department of Corrections. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Hillsborough County Department of Corrections communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hillsborough County facility.",
+
+  overview: [
+    "Hillsborough County Department of Corrections is a county detention facility in Hillsborough County, Florida, operated by the Hillsborough County Sheriff's Office. Communication for families follows the standard process used across Hillsborough County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Hillsborough County Department of Corrections is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Hillsborough County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Hillsborough County Department of Corrections?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Hillsborough County Department of Corrections?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Hillsborough County Department of Corrections?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Hillsborough County Department of Corrections?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"goose-creek-correctional-center": {
+  id: "f-162",
+  name: "Goose Creek Correctional Center",
+  slug: "goose-creek-correctional-center",
+  type: "state",
+  stateSlug: "alaska",
+  stateName: "Alaska",
+  stateAbbr: "AK",
+  countySlug: null,
+  countyName: "Matanuska-Susitna Borough",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Goose Creek Correctional Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Goose Creek Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Goose Creek Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Matanuska-Susitna Borough facility.",
+
+  overview: [
+    "Goose Creek Correctional Center is a state correctional facility in Matanuska-Susitna Borough, Alaska, operated by the Alaska Department of Corrections. Communication for families follows the standard process used across Alaska correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Goose Creek Correctional Center is handled through Securus and ConnectNetwork. Securus handles electronic messaging, phone calls, video visits, money transfers. ConnectNetwork provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Alaska Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: true, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles messaging, phone calls, video visits, money transfers." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Serves this facility for select communication services." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "Securus", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "Securus handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Goose Creek Correctional Center?", answer: "Create an account with Securus, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Goose Creek Correctional Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Goose Creek Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Goose Creek Correctional Center?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"anchorage-correctional-complex": {
+  id: "f-163",
+  name: "Anchorage Correctional Complex",
+  slug: "anchorage-correctional-complex",
+  type: "state",
+  stateSlug: "alaska",
+  stateName: "Alaska",
+  stateAbbr: "AK",
+  countySlug: null,
+  countyName: "Anchorage",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Anchorage Correctional Complex: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Anchorage Correctional Complex. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Anchorage Correctional Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Anchorage facility.",
+
+  overview: [
+    "Anchorage Correctional Complex is a state correctional facility in Anchorage, Alaska, operated by the Alaska Department of Corrections. Communication for families follows the standard process used across Alaska correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Anchorage Correctional Complex is handled through Securus and ConnectNetwork. Securus handles electronic messaging, phone calls, video visits, money transfers. ConnectNetwork provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Alaska Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: true, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles messaging, phone calls, video visits, money transfers." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Serves this facility for select communication services." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "Securus", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "Securus handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Anchorage Correctional Complex?", answer: "Create an account with Securus, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Anchorage Correctional Complex?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Anchorage Correctional Complex?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Anchorage Correctional Complex?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"valdosta-state-prison": {
+  id: "f-164",
+  name: "Valdosta State Prison",
+  slug: "valdosta-state-prison",
+  type: "state",
+  stateSlug: "georgia",
+  stateName: "Georgia",
+  stateAbbr: "GA",
+  countySlug: null,
+  countyName: "Lowndes County",
+  securityLevel: "High",
+  hasDetailPage: true,
+  seoTitle: "Valdosta State Prison: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Valdosta State Prison. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Valdosta State Prison communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Lowndes County facility.",
+
+  overview: [
+    "Valdosta State Prison is a state correctional facility in Lowndes County, Georgia, operated by the Georgia Department of Corrections. Communication for families follows the standard process used across Georgia correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Valdosta State Prison is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Georgia Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Valdosta State Prison?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Valdosta State Prison?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Valdosta State Prison?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Valdosta State Prison?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"idaho-state-correctional-center": {
+  id: "f-165",
+  name: "Idaho State Correctional Center",
+  slug: "idaho-state-correctional-center",
+  type: "state",
+  stateSlug: "idaho",
+  stateName: "Idaho",
+  stateAbbr: "ID",
+  countySlug: null,
+  countyName: "Ada County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Idaho State Correctional Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Idaho State Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Idaho State Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Ada County facility.",
+
+  overview: [
+    "Idaho State Correctional Center is a state correctional facility in Ada County, Idaho, operated by the Idaho Department of Corrections. Communication for families follows the standard process used across Idaho correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Idaho State Correctional Center is handled through ConnectNetwork and GettingOut. ConnectNetwork handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Idaho Department of Corrections",
+
+  providers: [
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Idaho State Correctional Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Idaho State Correctional Center?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Idaho State Correctional Center?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Idaho State Correctional Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"ada-county-jail": {
+  id: "f-166",
+  name: "Ada County Jail",
+  slug: "ada-county-jail",
+  type: "county",
+  stateSlug: "idaho",
+  stateName: "Idaho",
+  stateAbbr: "ID",
+  countySlug: null,
+  countyName: "Ada County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Ada County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Ada County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Ada County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Ada County facility.",
+
+  overview: [
+    "Ada County Jail is a county detention facility in Ada County, Idaho, operated by the Ada County Sheriff's Office. Communication for families follows the standard process used across Ada County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Ada County Jail is handled through ConnectNetwork and GettingOut. ConnectNetwork handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Ada County Sheriff's Office",
+
+  providers: [
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Ada County Jail?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Ada County Jail?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Ada County Jail?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Ada County Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"idaho-maximum-security-institution": {
+  id: "f-167",
+  name: "Idaho Maximum Security Institution",
+  slug: "idaho-maximum-security-institution",
+  type: "state",
+  stateSlug: "idaho",
+  stateName: "Idaho",
+  stateAbbr: "ID",
+  countySlug: null,
+  countyName: "Ada County",
+  securityLevel: "Maximum",
+  hasDetailPage: true,
+  seoTitle: "Idaho Maximum Security Institution: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Idaho Maximum Security Institution. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Idaho Maximum Security Institution communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Ada County facility.",
+
+  overview: [
+    "Idaho Maximum Security Institution is a state correctional facility in Ada County, Idaho, operated by the Idaho Department of Corrections. Communication for families follows the standard process used across Idaho correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Idaho Maximum Security Institution is handled through ConnectNetwork and GettingOut. ConnectNetwork handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Idaho Department of Corrections",
+
+  providers: [
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Idaho Maximum Security Institution?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Idaho Maximum Security Institution?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Idaho Maximum Security Institution?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Idaho Maximum Security Institution?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"northeast-correctional-complex": {
+  id: "f-168",
+  name: "Northeast Correctional Complex",
+  slug: "northeast-correctional-complex",
+  type: "state",
+  stateSlug: "tennessee",
+  stateName: "Tennessee",
+  stateAbbr: "TN",
+  countySlug: null,
+  countyName: "Sullivan County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Northeast Correctional Complex: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Northeast Correctional Complex. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Northeast Correctional Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Sullivan County facility.",
+
+  overview: [
+    "Northeast Correctional Complex is a state correctional facility in Sullivan County, Tennessee, operated by the Tennessee Department of Corrections. Communication for families follows the standard process used across Tennessee correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Northeast Correctional Complex is handled through ConnectNetwork and JPay. ConnectNetwork handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Tennessee Department of Corrections",
+
+  providers: [
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Northeast Correctional Complex?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Northeast Correctional Complex?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Northeast Correctional Complex?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Northeast Correctional Complex?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"shelby-county-correctional-center": {
+  id: "f-169",
+  name: "Shelby County Correctional Center",
+  slug: "shelby-county-correctional-center",
+  type: "county",
+  stateSlug: "tennessee",
+  stateName: "Tennessee",
+  stateAbbr: "TN",
+  countySlug: null,
+  countyName: "Shelby County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Shelby County Correctional Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Shelby County Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Shelby County Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Shelby County facility.",
+
+  overview: [
+    "Shelby County Correctional Center is a county detention facility in Shelby County, Tennessee, operated by the Shelby County Sheriff's Office. Communication for families follows the standard process used across Shelby County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Shelby County Correctional Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Shelby County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Shelby County Correctional Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Shelby County Correctional Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Shelby County Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Shelby County Correctional Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"aci-intake-service-center": {
+  id: "f-170",
+  name: "ACI Intake Service Center",
+  slug: "aci-intake-service-center",
+  type: "state",
+  stateSlug: "rhode-island",
+  stateName: "Rhode Island",
+  stateAbbr: "RI",
+  countySlug: null,
+  countyName: "Providence County",
+  securityLevel: "Administrative",
+  hasDetailPage: true,
+  seoTitle: "ACI Intake Service Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at ACI Intake Service Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "ACI Intake Service Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Providence County facility.",
+
+  overview: [
+    "ACI Intake Service Center is a state correctional facility in Providence County, Rhode Island, operated by the Rhode Island Department of Corrections. Communication for families follows the standard process used across Rhode Island correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at ACI Intake Service Center is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Rhode Island Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at ACI Intake Service Center?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at ACI Intake Service Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at ACI Intake Service Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at ACI Intake Service Center?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"aci-medium-security": {
+  id: "f-171",
+  name: "ACI Medium Security",
+  slug: "aci-medium-security",
+  type: "state",
+  stateSlug: "rhode-island",
+  stateName: "Rhode Island",
+  stateAbbr: "RI",
+  countySlug: null,
+  countyName: "Providence County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "ACI Medium Security: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at ACI Medium Security. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "ACI Medium Security communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Providence County facility.",
+
+  overview: [
+    "ACI Medium Security is a state correctional facility in Providence County, Rhode Island, operated by the Rhode Island Department of Corrections. Communication for families follows the standard process used across Rhode Island correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at ACI Medium Security is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Rhode Island Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at ACI Medium Security?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at ACI Medium Security?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at ACI Medium Security?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at ACI Medium Security?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"western-regional-jail": {
+  id: "f-172",
+  name: "Western Regional Jail",
+  slug: "western-regional-jail",
+  type: "state",
+  stateSlug: "west-virginia",
+  stateName: "West Virginia",
+  stateAbbr: "WV",
+  countySlug: null,
+  countyName: "Cabell County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Western Regional Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Western Regional Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Western Regional Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Cabell County facility.",
+
+  overview: [
+    "Western Regional Jail is a state correctional facility in Cabell County, West Virginia, operated by the West Virginia Department of Corrections. Communication for families follows the standard process used across West Virginia correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Western Regional Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "West Virginia Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Western Regional Jail?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Western Regional Jail?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Western Regional Jail?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Western Regional Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"sussex-correctional-institution": {
+  id: "f-173",
+  name: "Sussex Correctional Institution",
+  slug: "sussex-correctional-institution",
+  type: "state",
+  stateSlug: "delaware",
+  stateName: "Delaware",
+  stateAbbr: "DE",
+  countySlug: null,
+  countyName: "Sussex County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Sussex Correctional Institution: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Sussex Correctional Institution. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Sussex Correctional Institution communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Sussex County facility.",
+
+  overview: [
+    "Sussex Correctional Institution is a state correctional facility in Sussex County, Delaware, operated by the Delaware Department of Corrections. Communication for families follows the standard process used across Delaware correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Sussex Correctional Institution is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Delaware Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Sussex Correctional Institution?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Sussex Correctional Institution?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Sussex Correctional Institution?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Sussex Correctional Institution?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"fci-manchester": {
+  id: "f-174",
+  name: "FCI Manchester",
+  slug: "fci-manchester",
+  type: "federal",
+  stateSlug: "kentucky",
+  stateName: "Kentucky",
+  stateAbbr: "KY",
+  countySlug: null,
+  countyName: "Clay County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "FCI Manchester: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCI Manchester. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "FCI Manchester communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Clay County facility.",
+
+  overview: [
+    "FCI Manchester is a federal correctional facility in Clay County, Kentucky, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at FCI Manchester is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at FCI Manchester?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at FCI Manchester?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at FCI Manchester?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at FCI Manchester?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"federal-transfer-center-oklahoma-city": {
+  id: "f-175",
+  name: "Federal Transfer Center Oklahoma City",
+  slug: "federal-transfer-center-oklahoma-city",
+  type: "federal",
+  stateSlug: "oklahoma",
+  stateName: "Oklahoma",
+  stateAbbr: "OK",
+  countySlug: null,
+  countyName: "Oklahoma County",
+  securityLevel: "Administrative",
+  hasDetailPage: true,
+  seoTitle: "Federal Transfer Center Oklahoma City: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at Federal Transfer Center Oklahoma City. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "Federal Transfer Center Oklahoma City communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Oklahoma County facility.",
+
+  overview: [
+    "Federal Transfer Center Oklahoma City is a federal correctional facility in Oklahoma County, Oklahoma, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Federal Transfer Center Oklahoma City is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Federal Transfer Center Oklahoma City?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Federal Transfer Center Oklahoma City?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Federal Transfer Center Oklahoma City?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Federal Transfer Center Oklahoma City?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"oklahoma-county-detention-center": {
+  id: "f-176",
+  name: "Oklahoma County Detention Center",
+  slug: "oklahoma-county-detention-center",
+  type: "county",
+  stateSlug: "oklahoma",
+  stateName: "Oklahoma",
+  stateAbbr: "OK",
+  countySlug: null,
+  countyName: "Oklahoma County",
+  securityLevel: "Pretrial",
+  hasDetailPage: true,
+  seoTitle: "Oklahoma County Detention Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Oklahoma County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Oklahoma County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Oklahoma County facility.",
+
+  overview: [
+    "Oklahoma County Detention Center is a county detention facility in Oklahoma County, Oklahoma, operated by the Oklahoma County Sheriff's Office. Communication for families follows the standard process used across Oklahoma County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Oklahoma County Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Oklahoma County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Oklahoma County Detention Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Oklahoma County Detention Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Oklahoma County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Oklahoma County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"central-utah-correctional-facility": {
+  id: "f-177",
+  name: "Central Utah Correctional Facility",
+  slug: "central-utah-correctional-facility",
+  type: "state",
+  stateSlug: "utah",
+  stateName: "Utah",
+  stateAbbr: "UT",
+  countySlug: null,
+  countyName: "Millard County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Central Utah Correctional Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Central Utah Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Central Utah Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Millard County facility.",
+
+  overview: [
+    "Central Utah Correctional Facility is a state correctional facility in Millard County, Utah, operated by the Utah Department of Corrections. Communication for families follows the standard process used across Utah correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Central Utah Correctional Facility is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Utah Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Central Utah Correctional Facility?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Central Utah Correctional Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Central Utah Correctional Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Central Utah Correctional Facility?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"alvin-s-glenn-detention-center": {
+  id: "f-178",
+  name: "Alvin S. Glenn Detention Center",
+  slug: "alvin-s-glenn-detention-center",
+  type: "county",
+  stateSlug: "south-carolina",
+  stateName: "South Carolina",
+  stateAbbr: "SC",
+  countySlug: null,
+  countyName: "Richland County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Alvin S. Glenn Detention Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Alvin S. Glenn Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Alvin S. Glenn Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Richland County facility.",
+
+  overview: [
+    "Alvin S. Glenn Detention Center is a county detention facility in Richland County, South Carolina, operated by the Richland County Sheriff's Office. Communication for families follows the standard process used across Richland County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Alvin S. Glenn Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Richland County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Alvin S. Glenn Detention Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Alvin S. Glenn Detention Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Alvin S. Glenn Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Alvin S. Glenn Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"salt-lake-county-metro-jail": {
+  id: "f-179",
+  name: "Salt Lake County Metro Jail",
+  slug: "salt-lake-county-metro-jail",
+  type: "county",
+  stateSlug: "utah",
+  stateName: "Utah",
+  stateAbbr: "UT",
+  countySlug: null,
+  countyName: "Salt Lake County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Salt Lake County Metro Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Salt Lake County Metro Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Salt Lake County Metro Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Salt Lake County facility.",
+
+  overview: [
+    "Salt Lake County Metro Jail is a county detention facility in Salt Lake County, Utah, operated by the Salt Lake County Sheriff's Office. Communication for families follows the standard process used across Salt Lake County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Salt Lake County Metro Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Salt Lake County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Salt Lake County Metro Jail?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Salt Lake County Metro Jail?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Salt Lake County Metro Jail?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Salt Lake County Metro Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"pennington-county-jail": {
+  id: "f-180",
+  name: "Pennington County Jail",
+  slug: "pennington-county-jail",
+  type: "county",
+  stateSlug: "south-dakota",
+  stateName: "South Dakota",
+  stateAbbr: "SD",
+  countySlug: null,
+  countyName: "Pennington County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Pennington County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Pennington County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Pennington County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Pennington County facility.",
+
+  overview: [
+    "Pennington County Jail is a county detention facility in Pennington County, South Dakota, operated by the Pennington County Sheriff's Office. Communication for families follows the standard process used across Pennington County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Pennington County Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Pennington County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Pennington County Jail?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Pennington County Jail?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Pennington County Jail?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Pennington County Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"hennepin-county-adult-detention-center": {
+  id: "f-181",
+  name: "Hennepin County Adult Detention Center",
+  slug: "hennepin-county-adult-detention-center",
+  type: "county",
+  stateSlug: "minnesota",
+  stateName: "Minnesota",
+  stateAbbr: "MN",
+  countySlug: null,
+  countyName: "Hennepin County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Hennepin County Adult Detention Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Hennepin County Adult Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Hennepin County Adult Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hennepin County facility.",
+
+  overview: [
+    "Hennepin County Adult Detention Center is a county detention facility in Hennepin County, Minnesota, operated by the Hennepin County Sheriff's Office. Communication for families follows the standard process used across Hennepin County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Hennepin County Adult Detention Center is handled through ConnectNetwork and GettingOut. ConnectNetwork handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Hennepin County Sheriff's Office",
+
+  providers: [
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Hennepin County Adult Detention Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Hennepin County Adult Detention Center?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Hennepin County Adult Detention Center?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Hennepin County Adult Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"cumberland-county-jail": {
+  id: "f-182",
+  name: "Cumberland County Jail",
+  slug: "cumberland-county-jail",
+  type: "county",
+  stateSlug: "maine",
+  stateName: "Maine",
+  stateAbbr: "ME",
+  countySlug: null,
+  countyName: "Cumberland County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Cumberland County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Cumberland County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Cumberland County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Cumberland County facility.",
+
+  overview: [
+    "Cumberland County Jail is a county detention facility in Cumberland County, Maine, operated by the Cumberland County Sheriff's Office. Communication for families follows the standard process used across Cumberland County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Cumberland County Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Cumberland County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Cumberland County Jail?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Cumberland County Jail?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Cumberland County Jail?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Cumberland County Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"lea-county-correctional-facility": {
+  id: "f-183",
+  name: "Lea County Correctional Facility",
+  slug: "lea-county-correctional-facility",
+  type: "county",
+  stateSlug: "new-mexico",
+  stateName: "New Mexico",
+  stateAbbr: "NM",
+  countySlug: null,
+  countyName: "Lea County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Lea County Correctional Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Lea County Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Lea County Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Lea County facility.",
+
+  overview: [
+    "Lea County Correctional Facility is a county detention facility in Lea County, New Mexico, operated by the Lea County Sheriff's Office. Communication for families follows the standard process used across Lea County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Lea County Correctional Facility is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Lea County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Lea County Correctional Facility?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Lea County Correctional Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Lea County Correctional Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Lea County Correctional Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"multnomah-county-detention-center": {
+  id: "f-184",
+  name: "Multnomah County Detention Center",
+  slug: "multnomah-county-detention-center",
+  type: "county",
+  stateSlug: "oregon",
+  stateName: "Oregon",
+  stateAbbr: "OR",
+  countySlug: null,
+  countyName: "Multnomah County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Multnomah County Detention Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Multnomah County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Multnomah County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Multnomah County facility.",
+
+  overview: [
+    "Multnomah County Detention Center is a county detention facility in Multnomah County, Oregon, operated by the Multnomah County Sheriff's Office. Communication for families follows the standard process used across Multnomah County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Multnomah County Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Multnomah County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Multnomah County Detention Center?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Multnomah County Detention Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Multnomah County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Multnomah County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"fci-sheridan": {
+  id: "f-185",
+  name: "FCI Sheridan",
+  slug: "fci-sheridan",
+  type: "federal",
+  stateSlug: "oregon",
+  stateName: "Oregon",
+  stateAbbr: "OR",
+  countySlug: null,
+  countyName: "Polk County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "FCI Sheridan: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCI Sheridan. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "FCI Sheridan communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Polk County facility.",
+
+  overview: [
+    "FCI Sheridan is a federal correctional facility in Polk County, Oregon, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at FCI Sheridan is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at FCI Sheridan?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at FCI Sheridan?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at FCI Sheridan?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at FCI Sheridan?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"chittenden-regional-correctional-facility": {
+  id: "f-186",
+  name: "Chittenden Regional Correctional Facility",
+  slug: "chittenden-regional-correctional-facility",
+  type: "state",
+  stateSlug: "vermont",
+  stateName: "Vermont",
+  stateAbbr: "VT",
+  countySlug: null,
+  countyName: "Chittenden County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "Chittenden Regional Correctional Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Chittenden Regional Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "Chittenden Regional Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Chittenden County facility.",
+
+  overview: [
+    "Chittenden Regional Correctional Facility is a state correctional facility in Chittenden County, Vermont, operated by the Vermont Department of Corrections. Communication for families follows the standard process used across Vermont correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Chittenden Regional Correctional Facility is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Vermont Department of Corrections",
+
+  providers: [
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Chittenden Regional Correctional Facility?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Chittenden Regional Correctional Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Chittenden Regional Correctional Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Chittenden Regional Correctional Facility?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"fci-seagoville": {
+  id: "f-187",
+  name: "FCI Seagoville",
+  slug: "fci-seagoville",
+  type: "federal",
+  stateSlug: "texas",
+  stateName: "Texas",
+  stateAbbr: "TX",
+  countySlug: null,
+  countyName: "Dallas County",
+  securityLevel: "Low",
+  hasDetailPage: true,
+  seoTitle: "FCI Seagoville: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCI Seagoville. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "FCI Seagoville communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Dallas County facility.",
+
+  overview: [
+    "FCI Seagoville is a federal correctional facility in Dallas County, Texas, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at FCI Seagoville is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at FCI Seagoville?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at FCI Seagoville?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at FCI Seagoville?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at FCI Seagoville?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
+"south-florida-reception-center": {
+  id: "f-188",
+  name: "South Florida Reception Center",
+  slug: "south-florida-reception-center",
+  type: "state",
+  stateSlug: "florida",
+  stateName: "Florida",
+  stateAbbr: "FL",
+  countySlug: null,
+  countyName: "Dade County",
+  securityLevel: "Reception",
+  hasDetailPage: true,
+  seoTitle: "South Florida Reception Center: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at South Florida Reception Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "South Florida Reception Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Dade County facility.",
+
+  overview: [
+    "South Florida Reception Center is a state correctional facility in Dade County, Florida, operated by the Florida Department of Corrections. Communication for families follows the standard process used across Florida correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at South Florida Reception Center is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Florida Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at South Florida Reception Center?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at South Florida Reception Center?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at South Florida Reception Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at South Florida Reception Center?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"broward-county-jail": {
+  id: "f-189",
+  name: "Broward County Jail",
+  slug: "broward-county-jail",
+  type: "county",
+  stateSlug: "florida",
+  stateName: "Florida",
+  stateAbbr: "FL",
+  countySlug: null,
+  countyName: "Broward County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Broward County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Broward County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Broward County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Broward County facility.",
+
+  overview: [
+    "Broward County Jail is a county detention facility in Broward County, Florida, operated by the Broward County Sheriff's Office. Communication for families follows the standard process used across Broward County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Broward County Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Broward County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Broward County Jail?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Broward County Jail?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Broward County Jail?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Broward County Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"las-colinas-womens-detention-facility": {
+  id: "f-190",
+  name: "Las Colinas Women's Detention Facility",
+  slug: "las-colinas-womens-detention-facility",
+  type: "county",
+  stateSlug: "california",
+  stateName: "California",
+  stateAbbr: "CA",
+  countySlug: null,
+  countyName: "San Diego County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Las Colinas Women's Detention Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Las Colinas Women's Detention Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "Las Colinas Women's Detention Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this San Diego County facility.",
+
+  overview: [
+    "Las Colinas Women's Detention Facility is a county detention facility in San Diego County, California, operated by the San Diego County Sheriff's Office. Communication for families follows the standard process used across San Diego County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Las Colinas Women's Detention Facility is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "San Diego County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Las Colinas Women's Detention Facility?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Las Colinas Women's Detention Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Las Colinas Women's Detention Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Las Colinas Women's Detention Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"california-institution-for-men": {
+  id: "f-191",
+  name: "California Institution for Men",
+  slug: "california-institution-for-men",
+  type: "state",
+  stateSlug: "california",
+  stateName: "California",
+  stateAbbr: "CA",
+  countySlug: null,
+  countyName: "San Bernardino County",
+  securityLevel: "Level I/II/III",
+  hasDetailPage: true,
+  seoTitle: "California Institution for Men: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at California Institution for Men. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+
+  description:
+    "California Institution for Men communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this San Bernardino County facility.",
+
+  overview: [
+    "California Institution for Men is a state correctional facility in San Bernardino County, California, operated by the California Department of Corrections. Communication for families follows the standard process used across California correctional facilities: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at California Institution for Men is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "California Department of Corrections",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "Securus", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "JPay", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "Securus", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "JPay handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "Securus handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at California Institution for Men?", answer: "Create an account with JPay, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at California Institution for Men?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at California Institution for Men?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at California Institution for Men?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
+},
+
+"james-a-musick-facility": {
+  id: "f-192",
+  name: "James A. Musick Facility",
+  slug: "james-a-musick-facility",
+  type: "county",
+  stateSlug: "california",
+  stateName: "California",
+  stateAbbr: "CA",
+  countySlug: null,
+  countyName: "Orange County",
+  securityLevel: "Minimum",
+  hasDetailPage: true,
+  seoTitle: "James A. Musick Facility: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at James A. Musick Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+
+  description:
+    "James A. Musick Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Orange County facility.",
+
+  overview: [
+    "James A. Musick Facility is a county detention facility in Orange County, California, operated by the Orange County Sheriff's Office. Communication for families follows the standard process used across Orange County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at James A. Musick Facility is handled through ConnectNetwork and GettingOut. ConnectNetwork handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Orange County Sheriff's Office",
+
+  providers: [
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
+    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "available", provider: "GettingOut", notes: "Digital photos can be attached to messages through the provider." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "GettingOut handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "After sentencing to state prison, communication providers change at the receiving facility.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at James A. Musick Facility?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at James A. Musick Facility?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at James A. Musick Facility?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at James A. Musick Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
+},
+
+"federal-detention-center-houston": {
+  id: "f-193",
+  name: "Federal Detention Center Houston",
+  slug: "federal-detention-center-houston",
+  type: "federal",
+  stateSlug: "texas",
+  stateName: "Texas",
+  stateAbbr: "TX",
+  countySlug: null,
+  countyName: "Harris County",
+  securityLevel: "Administrative",
+  hasDetailPage: true,
+  seoTitle: "Federal Detention Center Houston: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at Federal Detention Center Houston. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+
+  description:
+    "Federal Detention Center Houston communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Harris County facility.",
+
+  overview: [
+    "Federal Detention Center Houston is a federal correctional facility in Harris County, Texas, operated by the Federal Bureau of Prisons. Communication for families follows the standard process used across Bureau of Prisons institutions: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Federal Detention Center Houston is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Handles phone calls, video visits, money transfers." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Electronic messaging is reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "ConnectNetwork", notes: "Video visits are scheduled in advance through the provider platform." },
+    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+  },
+
+  rules: [
+    "CorrLinks handles messaging. Create your account first and add the inmate using their full name and ID number.",
+    "ConnectNetwork handles phone calls. Fund an account so inmate-initiated calls can connect.",
+    "All communications are monitored and reviewed under the operating agency's policy.",
+    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
+    "Visiting hours and communication rules can change with little notice. Check the operating agency's website first.",
+  ],
+
+  faq: [
+    { question: "How do I message someone at Federal Detention Center Houston?", answer: "Create an account with CorrLinks, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Federal Detention Center Houston?", answer: "Phone calls run through ConnectNetwork. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Federal Detention Center Houston?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
+    { question: "How do I send money to someone at Federal Detention Center Houston?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+  ],
+
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+},
+
 }

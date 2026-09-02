@@ -417,6 +417,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Sussex County",
     securityLevel: "Close / Maximum",
     hasDetailPage: true,
+    seoTitle: "Sussex I State Prison: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Sussex I State Prison in Waverly VA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Virginia DOC facility.",
 
     description:
       "Sussex I State Prison communication guide. Find JPay messaging and GTL phone options for families at this close-security Virginia DOC facility in Sussex County.",
@@ -825,6 +827,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Ross County",
     securityLevel: "Medium",
     hasDetailPage: true,
+    seoTitle: "Chillicothe Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Chillicothe Correctional Institution in Ohio. ViaPath ConnectNetwork handles phone calls after Ohio switched from Securus. Find messaging and visit options.",
 
     description:
       "Chillicothe Correctional Institution communication guide. Find JPay messaging and GTL phone and video options for families at this medium-security Ohio DOC facility.",

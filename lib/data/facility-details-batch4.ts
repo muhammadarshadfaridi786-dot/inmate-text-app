@@ -188,6 +188,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Yankton County",
   securityLevel: "Minimum",
   hasDetailPage: true,
+  seoTitle: "FCI Yankton: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCI Yankton in South Dakota. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP minimum security facility in Yankton County SD.",
 
   description:
     "FCI Yankton communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this South Dakota minimum-security camp.",
@@ -779,6 +781,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dodge County",
   securityLevel: "Maximum",
   hasDetailPage: true,
+  seoTitle: "Waupun Correctional Institution: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Waupun Correctional Institution in Wisconsin. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wisconsin DOC facility.",
 
   description:
     "Waupun Correctional Institution communication guide. Find JPay messaging and Securus phone and video options for families of inmates at this Wisconsin maximum-security prison.",
@@ -1788,6 +1792,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Rutland County",
   securityLevel: "Medium",
   hasDetailPage: true,
+  seoTitle: "Marble Valley Correctional: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Marble Valley Correctional Facility in Rutland VT. Find the correct provider for phone calls, electronic messaging, and money transfers at this Vermont DOC facility.",
 
   description:
     "Marble Valley Correctional Facility communication guide. Find JPay and Securus options for families reaching people held at this Vermont Department of Corrections facility in Rutland.",
@@ -1848,6 +1854,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "White Pine County",
   securityLevel: "Maximum",
   hasDetailPage: true,
+  seoTitle: "Ely State Prison: Phone Calls, Messaging and Money Transfer Guide",
+  seoDescription: "How to contact someone at Ely State Prison in Nevada. Find the correct provider for phone calls, electronic messaging, and money transfers at this Nevada DOC maximum security facility.",
 
   description:
     "Ely State Prison communication guide. Find JPay and Securus options for families reaching people held at Nevada's maximum-security prison in White Pine County.",
@@ -2586,6 +2594,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Laramie County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Laramie County Detention: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Laramie County Detention Center in Cheyenne WY. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wyoming facility.",
 
   description:
     "Laramie County Detention Center communication guide. Find GettingOut and Securus options for families reaching someone at this Cheyenne, Wyoming jail.",
@@ -2645,6 +2655,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dallas County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
+  seoTitle: "Kays Detention Facility: Securus Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Suzanne Lee Kays Detention Facility in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required. Call 214-761-9025.",
 
   description:
     "Suzanne Lee Kays Detention Facility communication guide. Find GettingOut and Securus options for families reaching someone at this Dallas County jail tower, part of the Lew Sterrett Justice Center complex.",

@@ -1142,6 +1142,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Santa Fe County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "New Mexico State Penitentiary: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at New Mexico State Penitentiary in Santa Fe. Find the correct provider for phone calls, electronic messaging, and money transfers at this NMCD facility.",
 
     description:
       "New Mexico State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at New Mexico's maximum-security state prison south of Santa Fe.",
@@ -1348,6 +1350,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Providence County",
     securityLevel: "Medium / Maximum",
     hasDetailPage: true,
+    seoTitle: "Rhode Island ACI: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Rhode Island ACI Donald Price in Cranston. Find the correct provider for phone calls, electronic messaging, and money transfers at this Rhode Island DOC facility.",
 
     description:
       "Rhode Island ACI Donald Price Complex communication guide. Find JPay messaging and GTL phone options for families at Rhode Island's adult correctional complex in Cranston.",
@@ -1866,6 +1870,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Tolland County",
     securityLevel: "High",
     hasDetailPage: true,
+    seoTitle: "MacDougall-Walker Correctional: Free Calls and Messaging Guide",
+    seoDescription: "How to contact someone at MacDougall-Walker Correctional Institution in Connecticut. Connecticut offers free phone calls at state facilities. Find messaging and money transfer options.",
 
     description:
       "MacDougall-Walker Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Connecticut's largest state prison in Suffield.",
@@ -2566,6 +2572,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Osage County",
     securityLevel: "Medium",
     hasDetailPage: true,
+    seoTitle: "Dick Conner Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Dick Conner Correctional Center in Hominy OK. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oklahoma DOC facility.",
 
     description:
       "Dick Conner Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this medium-security Oklahoma DOC facility in Hominy.",

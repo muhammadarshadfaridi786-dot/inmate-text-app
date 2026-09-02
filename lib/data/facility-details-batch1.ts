@@ -1904,6 +1904,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Washtenaw County",
     securityLevel: "Low / Camp",
     hasDetailPage: true,
+    seoTitle: "FCI Milan: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at FCI Milan in Michigan. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP low security facility for male inmates in Milan MI.",
 
     description:
       "FCI Milan communication guide. Find CorrLinks messaging and ConnectNetwork phone options for families of federal inmates at this low-security Michigan facility.",
@@ -4670,6 +4672,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Dallas County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Dallas County Jail: Securus Phone, Video Visits and Money Guide",
+    seoDescription: "How to contact someone at Dallas County Jail in Dallas TX. Securus handles phone calls at $0.20 per minute and video visits at $10 per 20 minutes. Book-in number required at 214-761-9025.",
 
     description:
       "Dallas County Jail (Lew Sterrett Justice Center) communication guide. Find Securus phone, video, and messaging options for families. Learn how to stay connected at the downtown Dallas jail.",

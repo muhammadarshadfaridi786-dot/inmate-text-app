@@ -1,9 +1,14 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { COUNTY_DETAILS } from "@/lib/data/counties"
+import { ALL_FACILITIES } from "@/lib/data/facilities"
 import { buildWebPageSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
+
+// Only facilities that actually exist in the directory get a clickable link.
+// Anything else renders as plain text so we never ship a /facility/ 404.
+const FACILITY_SLUGS = new Set(ALL_FACILITIES.map((f) => f.slug))
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -222,16 +227,28 @@ export default async function CountyPage({ params }: PageProps) {
                   communication options for that specific location.
                 </p>
                 <div className="space-y-2">
-                  {county.featuredFacilities.map((facility) => (
-                    <a
-                      key={facility.slug}
-                      href={`/facility/${facility.slug}`}
-                      className="flex items-center justify-between rounded-lg border p-3 hover:border-primary transition-colors"
-                    >
-                      <span className="text-sm font-medium">{facility.name}</span>
-                      <span className="text-xs text-primary">View communication guide →</span>
-                    </a>
-                  ))}
+                  {county.featuredFacilities.map((facility) =>
+                    FACILITY_SLUGS.has(facility.slug) ? (
+                      <a
+                        key={facility.slug}
+                        href={`/facility/${facility.slug}`}
+                        className="flex items-center justify-between rounded-lg border p-3 hover:border-primary transition-colors"
+                      >
+                        <span className="text-sm font-medium">{facility.name}</span>
+                        <span className="text-xs text-primary">View communication guide →</span>
+                      </a>
+                    ) : (
+                      <div
+                        key={facility.slug}
+                        className="flex items-center justify-between rounded-lg border p-3"
+                      >
+                        <span className="text-sm font-medium">{facility.name}</span>
+                        <span className="text-xs text-muted-foreground">
+                          Detail page coming soon
+                        </span>
+                      </div>
+                    )
+                  )}
                 </div>
               </div>
             )}

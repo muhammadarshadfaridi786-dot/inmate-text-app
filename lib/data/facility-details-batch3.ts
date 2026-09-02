@@ -1662,6 +1662,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Windsor County",
     securityLevel: "Medium",
     hasDetailPage: true,
+    seoTitle: "Southern State Correctional Facility: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Southern State Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
 
     description:
       "Southern State Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Vermont's medium-security state correctional facility in Springfield.",
@@ -2274,6 +2276,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Rankin County",
     securityLevel: "Medium / Close",
     hasDetailPage: true,
+    seoTitle: "Central Mississippi Correctional Facility: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Central Mississippi Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
 
     description:
       "Central Mississippi Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at this major Mississippi DOC facility in Rankin County.",
@@ -2780,6 +2784,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lee County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Lee Correctional Institution: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Lee Correctional Institution. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
 
     description:
       "Lee Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at South Carolina's maximum-security state prison in Bishopville.",

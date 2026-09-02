@@ -12,7 +12,12 @@ import { buttonVariants } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import PageWrapper from "@/components/layout/PageWrapper"
 import SectionHeading from "@/components/shared/SectionHeading"
+import { ALL_FACILITIES } from "@/lib/data/facilities"
 import type { StateFacility } from "@/lib/data/states"
+
+// Only facilities that actually exist in the directory get a clickable link.
+// Anything else renders as plain text so we never ship a /facility/ 404.
+const FACILITY_SLUGS = new Set(ALL_FACILITIES.map((f) => f.slug))
 
 type FeatureKey =
   | "Messaging"
@@ -90,15 +95,21 @@ export default function StateFacilities({ stateName, facilities }: StateFaciliti
               </div>
 
               {/* CTA */}
-              <Link
-                href={`/facility/${facility.slug}`}
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }),
-                  "mt-auto w-full justify-center text-xs"
-                )}
-              >
-                View Details
-              </Link>
+              {FACILITY_SLUGS.has(facility.slug) ? (
+                <Link
+                  href={`/facility/${facility.slug}`}
+                  className={cn(
+                    buttonVariants({ variant: "outline", size: "sm" }),
+                    "mt-auto w-full justify-center text-xs"
+                  )}
+                >
+                  View Details
+                </Link>
+              ) : (
+                <span className="mt-auto w-full text-center text-xs text-muted-foreground">
+                  Detail page coming soon
+                </span>
+              )}
             </div>
           ))}
         </div>

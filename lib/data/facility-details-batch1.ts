@@ -4192,6 +4192,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Houston County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Eastham Unit: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Eastham Unit. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
 
     description:
       "Eastham Unit communication guide. Find JPay messaging and GTL phone options for families at one of the oldest and largest Texas Department of Criminal Justice facilities.",
@@ -4582,6 +4584,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Bexar County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Bexar County Adult Detention Center: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Bexar County Adult Detention Center. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
 
     description:
       "Bexar County Adult Detention Center communication guide. Find Securus phone, video, and messaging options for families in San Antonio. Learn how to stay connected at the Bexar County jail.",
@@ -5132,6 +5136,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Denver County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Denver County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Denver County Jail. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
 
     description:
       "Denver County Jail communication guide. Find Securus phone, video, and messaging options for families. Learn how to stay connected at Denver Sheriff Department facilities in Colorado.",

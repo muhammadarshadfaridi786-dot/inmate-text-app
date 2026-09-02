@@ -1987,11 +1987,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Missouri jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Missouri's correctional system is built around the Missouri Department of Corrections, which operates state prisons distributed across the state from the St. Louis metro area to the Ozarks and the Kansas City corridor. The state has 114 counties plus the independent City of St. Louis, each running its own jail system under sheriff or city oversight. The geographic split between eastern and western Missouri means that the two largest urban areas, St. Louis and Kansas City, each have distinct detention systems operating independently from one another and from the state prison network. Federal correctional institutions in Missouri add a third tier with their own provider requirements.",
+      "Missouri operates its state prison system through the Missouri Department of Corrections (MDOC). Securus Technologies is the phone service provider for all MDOC adult institutions. All calls are outbound from the facility. Inmates cannot receive incoming calls. Inmates use a personal identification number (PIN) to place calls through the automated security system. All calls are monitored and recorded. A recorded message plays throughout the conversation alerting both parties that the call originates from a correctional facility.",
+      "Missouri DOC issues JPay computer tablets to all inmates in adult institutions. These tablets can be used to send and receive email through Securus Technologies. To communicate electronically with a Missouri DOC inmate, create a Securus account at securustech.net. Electronic messages are paid for by purchasing a book of electronic stamps. Families can send text messages, attach up to five photos, share a 30-second VideoGram, or send an image using Snap n Send. All messages, photos, and VideoGrams are subject to review.",
+      "Missouri personal mail is no longer accepted directly at most facilities. All personal correspondence now goes to the Securus JPay digital mail center for scanning. To request personal correspondence be returned, call Securus at 800-844-6591. Missouri DOC facilities still accept certified mail pre-approved by the case manager, publications sent directly from publishers, visitor applications, and cards purchased through securustech.net. The DOC number must appear on the outside of every envelope or mail is delayed or returned.",
+    ],
 
-      "JPay handles messaging, photo sharing, and money transfer across Missouri Department of Corrections state facilities. Securus and GTL provide phone and video services at state and county institutions. The St. Louis City Justice Center operates as a standalone city jail separate from the county sheriff system, and the Jackson County Detention Center in Kansas City operates under its own provider contract. Federal facilities in Missouri use CorrLinks for electronic communication. Families who are unfamiliar with Missouri's split between the independent City of St. Louis and St. Louis County sometimes encounter confusion about which system applies, as the two operate entirely separately under different administrations.",
+    overview: [
+      "Which provider do Missouri state prison families use? Securus Technologies handles both phone calls and electronic messaging at all MDOC adult institutions. For phone accounts visit securustech.net or call 800-844-6591. For electronic messaging create a Securus account and purchase electronic stamps. Missouri DOC inmates also make calls through a phone application on JPay tablets powered by Securus. Phone privileges can be revoked for misuse including attempted three-way calls.",
+      "What is the DOC number and why is it important? The DOC number is the unique identification number assigned by MDOC to every person sentenced to Missouri state prison. It must appear on the outside of every envelope mailed to a Missouri DOC facility. Mail without the DOC number is delayed or returned. Find the DOC number through the MDOC offender search at doc.mo.gov or ask your loved one to provide it.",
+      "What is the most common mistake Missouri prison families make? Mailing personal letters directly to the facility is a common mistake. Missouri DOC personal mail now goes to the Securus JPay digital mail center for scanning rather than directly to the facility. Families used to direct mail who are not aware of this change may find their letters returned or delayed. Always check the current mailing procedures at doc.mo.gov before sending mail to confirm the correct address.",
+    ],
 
-      "Getting straightforward communication information for Missouri correctional facilities typically requires knowing not just the facility name but whether it falls under the city, county, state, or federal system. Each layer has separate provider relationships and account requirements. This directory organizes that information for Missouri facilities so families can identify the correct communication platform without having to navigate multiple government websites or make phone calls to figure out which system they are dealing with.",
+    faq: [
+      {
+        question: "Which provider do I use for Missouri state prison phone calls?",
+        answer: "Securus Technologies is the phone provider for all MDOC Missouri state institutions. Visit securustech.net or call 800-844-6591 to set up an account. You can set up an AdvanceConnect prepaid account to fund calls to your specific number. Inmates can also use debit minutes purchased from the canteen or kiosk. All calls are monitored and recorded for security purposes.",
+      },
+      {
+        question: "How do I send messages to someone at a Missouri state prison?",
+        answer: "Missouri DOC inmates are issued JPay tablets powered by Securus Technologies. Create a Securus account at securustech.net to send electronic messages. Messages are paid for by purchasing electronic stamps. You can send text messages, attach up to five photos, share a 30-second VideoGram, or send images using Snap n Send. All messages and photos are subject to review before delivery.",
+      },
+      {
+        question: "Are phone calls free at Missouri state prisons?",
+        answer: "No. Missouri is not among the states offering free inmate phone calls. Securus Technologies holds the MDOC contract and calls are charged per minute subject to FCC caps effective April 2026. Missouri has 114 counties and wide geographic distances make phone contact especially important for families. If phone costs are a barrier, JPay electronic messaging is a lower-cost alternative.",
+      },
+      {
+        question: "Can I still mail letters directly to a Missouri state prison?",
+        answer: "No. Missouri personal mail now goes to the Securus JPay digital mail center for scanning rather than directly to the facility. To request personal correspondence be returned, call Securus at 800-844-6591. MDOC facilities still accept certified mail pre-approved by the case manager, publications sent directly from publishers, visitor applications, and cards purchased through securustech.net.",
+      },
+      {
+        question: "What is the DOC number and where do I find it?",
+        answer: "The DOC number is the identification number assigned to every person sentenced to Missouri state prison. It must appear on the outside of every envelope mailed to an MDOC facility or the mail will be delayed or returned. Find it through the MDOC offender search at doc.mo.gov, on court documents, or ask your loved one to provide it during a call.",
+      },
+      {
+        question: "How do I find someone currently in a Missouri state prison?",
+        answer: "Use the Missouri DOC offender search at doc.mo.gov. You can search by name or DOC number. The search shows the current facility and basic information. For county jail inmates in Missouri, contact the specific county sheriff's office. Missouri has 114 counties each with their own jail system. For federal inmates in Missouri, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "What types of phone calls are available from Missouri state prisons?",
+        answer: "Missouri DOC inmates can place collect calls, Securus Direct-Bill collect calls, debit calls using minutes purchased at the canteen or kiosk, and prepaid calls through AdvanceConnect. Collect calls appear on your regular phone bill. AdvanceConnect lets families fund calls in advance to a specific number. Inmates can also call through a phone app on their JPay tablet. Three-way calls are prohibited and detection results in disconnection and possible conduct violations.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Missouri county jail to a state prison?",
+        answer: "When someone transfers from a Missouri county jail to an MDOC state prison, the provider changes to Securus. They receive a DOC number that must be used for all future communication and mail. County jail accounts do not transfer. Create a new Securus account and ensure you know the DOC number after the transfer is confirmed. Personal mail now goes to the Securus JPay digital mail center rather than directly to the facility.",
+      },
     ],
 
     facilitiesByType: { federal: 12, state: 22, county: 130, private: 14 },

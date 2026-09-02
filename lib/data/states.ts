@@ -2112,11 +2112,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in an Oklahoma jail or prison. Find the right provider for ODOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Oklahoma's correctional system involves the Oklahoma Department of Corrections, which runs state prisons across its 77 counties, county detention centers operated by local sheriffs, and a significant federal Bureau of Prisons presence that includes the Federal Transfer Center in Oklahoma City, one of the busiest federal inmate transit hubs in the country. Oklahoma also has a distinctive layer of complexity due to its large Native American population and tribal land jurisdictions, which can affect which court and which correctional system oversees a given case. Families in Oklahoma sometimes find their situation involves a facility type they were not expecting based on the legal jurisdiction that applied.",
+      "Oklahoma operates its state prison system through the Oklahoma Department of Corrections (ODOC). Securus Technologies is the phone provider for all ODOC state facilities. Each facility has a unique outbound phone number to help prevent calls from being labeled as spam by mobile carriers. Save the specific calling number for your loved one's facility in your contacts to avoid missing calls. All non-privileged calls are recorded and monitored. Three-way calling, call forwarding, and spoofed numbers are blocked and misuse results in call restrictions.",
+      "Oklahoma banned physical mail from entering state prisons in September 2024. All non-legal mail is sent to a processing center in Dallas, Texas for digital scanning before delivery. Legal mail is still delivered directly to the facility. Families who previously mailed letters directly must now send to the Dallas processing center. Contact the facility or the ODOC website for the current Dallas processing center address. Publications must be sent directly from the publisher.",
+      "Oklahoma county jails use their own phone providers which differ from ODOC state prisons. Oklahoma County Detention Center in Oklahoma City uses NCIC Inmate Communications at 800-943-2189. Cleveland County Detention Center in Norman also uses NCIC. Securus handles ODOC state prisons. Always confirm which provider serves the specific facility before setting up any account. For video visits at select ODOC facilities including Mabel Bassett Correctional Center, schedule through the Securus platform.",
+    ],
 
-      "JPay is the primary platform for Oklahoma Department of Corrections state facilities, supporting messaging, money transfer, and photo sharing. Securus and GTL handle phone and video services across state and county institutions. The Oklahoma County Detention Center in Oklahoma City, which serves as the county jail for the state's most populous county, operates under its own provider contract separate from the state prison system. Federal facilities in Oklahoma, including the Federal Transfer Center, use CorrLinks for electronic messaging. Families dealing with the federal transfer center should be aware that inmates passing through it may be moved to permanent facilities in other states, which changes the provider setup entirely.",
+    overview: [
+      "Which provider do Oklahoma state prison families use? Securus Technologies handles phone calls at all ODOC state prison facilities. Visit securustech.net or call 800-844-6591 to set up an account. Each facility has a unique outbound phone number. Save the specific number for your loved one's facility in your contacts. Oklahoma County Detention Center uses NCIC at 800-943-2189, not Securus.",
+      "What happened to mail at Oklahoma state prisons? Oklahoma banned physical non-legal mail from state prisons in September 2024. All personal mail now goes to a Dallas Texas processing center for digital scanning. Legal mail is still delivered directly to the facility. Contact the ODOC website or the facility directly for the current Dallas processing center mailing address before sending anything.",
+      "What is the most common mistake Oklahoma prison families make? Saving the wrong phone number and missing calls is very common. Oklahoma ODOC changed each facility to have its own unique outbound phone number specifically to prevent calls from being marked as spam. If you do not have the correct number saved, your phone may block the call or send it to voicemail. Contact the facility or the ODOC Securus resources page at oklahoma.gov to get the correct outbound number for the specific facility.",
+    ],
 
-      "Oklahoma families researching inmate communication options frequently encounter the challenge of multiple overlapping systems with no centralized information source. The state prison system, county jails, tribal facilities, and federal institutions each publish information independently and use different platforms. This directory brings facility and provider information together for Oklahoma so families can identify the correct communication platform quickly, understand what services are available at the relevant facility type, and avoid the time and frustration of working through the wrong provider.",
+    faq: [
+      {
+        question: "Which provider do I use for Oklahoma state prison phone calls?",
+        answer: "Securus Technologies handles phone calls at all ODOC Oklahoma state prison facilities. Visit securustech.net or call 800-844-6591 to set up an account. Each ODOC facility now has a unique outbound phone number to prevent spam labeling. Contact the facility or visit oklahoma.gov to get the correct outbound number for your loved one's specific facility and save it in your contacts.",
+      },
+      {
+        question: "Why are Oklahoma prison calls showing as spam on my phone?",
+        answer: "Oklahoma ODOC changed to unique outbound phone numbers per facility specifically to address this problem. If calls are still being flagged as spam, save the specific facility outbound number in your contacts, contact your mobile carrier to whitelist the number, or call Securus at 800-844-6591 for assistance. Getting the correct unique number for the specific facility and saving it in contacts is the most effective solution.",
+      },
+      {
+        question: "Can I still mail letters to Oklahoma state prisons?",
+        answer: "No. Oklahoma banned physical non-legal mail from entering state prisons in September 2024. All personal mail now goes to a processing center in Dallas, Texas for digital scanning before delivery. Legal mail is still delivered directly to the facility. Contact the ODOC website or the specific facility for the current Dallas processing center mailing address before sending any personal correspondence.",
+      },
+      {
+        question: "Which provider does Oklahoma County Detention Center use?",
+        answer: "Oklahoma County Detention Center in Oklahoma City uses NCIC Inmate Communications, not Securus. Contact NCIC at 800-943-2189 for account setup. The facility is located at 201 N Shartel Ave, Oklahoma City, OK 73102 and can be reached at 405-713-1910. Cleveland County Detention Center in Norman also uses NCIC. Always confirm the provider for each specific county facility before setting up any account.",
+      },
+      {
+        question: "Are video visits available at Oklahoma state prisons?",
+        answer: "Yes, at select ODOC facilities. Video visits are available at Mabel Bassett Correctional Center, Joseph Harp Correctional Center, and Great Plains Correctional Center through Securus. Video visits are 20 minutes long and can be scheduled through the Securus platform using your smartphone or computer with webcam. Visit securustech.net to apply and schedule a video visit.",
+      },
+      {
+        question: "How do I find someone currently in an Oklahoma state prison?",
+        answer: "Use the ODOC Offender Search at oklahoma.gov/doc. You can search by name or DOC number. The search shows the current facility and basic information. For county jail inmates, contact the specific county sheriff's office. Oklahoma County Detention Center can be reached at 405-713-1910. For federal inmates in Oklahoma, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Are phone calls free at Oklahoma state prisons?",
+        answer: "No. Oklahoma is not among the states offering free inmate phone calls. Securus Technologies holds the ODOC contract. Oklahoma families paid 14 cents per minute after an FCC waiver raised rates from 6 cents in September 2025. FCC rate caps effective April 2026 apply to Oklahoma state facilities. For current rate information contact Securus at 800-844-6591.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Oklahoma county jail to a state prison?",
+        answer: "When someone transfers from an Oklahoma county jail to an ODOC state prison, the provider changes to Securus. County jails use various providers including NCIC. Create a new Securus account after confirming the transfer is complete. Also note that personal mail now goes to the Dallas processing center rather than directly to the state prison. Verify the current mailing procedure at oklahoma.gov before sending mail.",
+      },
     ],
 
     facilitiesByType: { federal: 8, state: 18, county: 138, private: 14 },

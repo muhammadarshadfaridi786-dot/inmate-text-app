@@ -267,6 +267,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Worcester County",
   securityLevel: "Administrative",
   hasDetailPage: true,
+  seoTitle: "FMC Devens: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FMC Devens in Massachusetts. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medical center facility in Worcester County MA.",
 
   description:
     "FMC Devens communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Massachusetts federal medical center.",
@@ -350,6 +352,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Edgefield County",
   securityLevel: "Medium",
   hasDetailPage: true,
+  seoTitle: "FCI Edgefield: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCI Edgefield in South Carolina. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Edgefield County SC.",
 
   description:
     "FCI Edgefield communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this South Carolina medium-security facility.",
@@ -514,6 +518,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "St. Francis County",
   securityLevel: "Low / Medium",
   hasDetailPage: true,
+  seoTitle: "FCI Forrest City: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FCI Forrest City in Arkansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility at 870-630-6000. Low and medium security.",
 
   description:
     "FCI Forrest City communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Arkansas federal correctional complex.",
@@ -970,6 +976,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Mecklenburg County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Mecklenburg County Jail: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Mecklenburg County Detention Center in Charlotte NC. Securus Technologies handles phone calls. Find messaging, video visits, and money transfer options.",
 
   description:
     "Mecklenburg County Detention Center communication guide for Charlotte, North Carolina. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at this Mecklenburg County Sheriff's Office facility.",
@@ -1092,6 +1100,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Providence County",
   securityLevel: "Maximum",
   hasDetailPage: true,
+  seoTitle: "ACI Maximum Security: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at ACI Maximum Security in Cranston RI. Find the correct provider for phone calls, electronic messaging, and money transfers at this Rhode Island DOC facility.",
 
   description:
     "ACI Maximum Security communication guide for Cranston, Rhode Island. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Rhode Island Department of Corrections facility.",
@@ -1577,6 +1587,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Philadelphia County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Philadelphia Prisons: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Philadelphia Department of Prisons. Securus Technologies handles phone calls. Find messaging, video visits, and money transfer options at Philadelphia jails.",
 
   description:
     "Philadelphia Department of Prisons communication guide. Find GettingOut and Securus options for families reaching people held in Philadelphia's county jail system.",
@@ -1636,6 +1648,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Jefferson County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Louisville Metro Corrections: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Louisville Metro Corrections in Kentucky. Call Metro311 at 502-574-5000 for information. Find phone calls, video visits, and messaging options at LMDC.",
 
   description:
     "Louisville Metro Corrections communication guide. Find GettingOut and Securus options for families reaching people held in downtown Louisville's main jail.",
@@ -1994,6 +2008,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Franklin County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Franklin County Corrections: Phone Calls and Jail Messaging",
+  seoDescription: "How to contact someone at Franklin County Correctional Center. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
 
   description:
     "Franklin County Correctional Center communication guide. Find GettingOut and Securus options for families reaching people held in Columbus, Ohio's county jail system.",
@@ -2232,6 +2248,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Johnson County",
   securityLevel: "Medium",
   hasDetailPage: true,
+  seoTitle: "Tecumseh State Correctional: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Tecumseh State Correctional Institution in Nebraska. Find the correct provider for phone calls, messaging, and money transfers at this Nebraska DOC facility.",
 
   description:
     "Tecumseh State Correctional Institution communication guide. Find JPay and Securus options for families reaching someone at Nebraska's largest state prison.",
@@ -2293,6 +2311,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Douglas County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Douglas County Corrections: Phone Calls and Jail Messaging",
+  seoDescription: "How to contact someone at Douglas County Department of Corrections in Omaha NE. Find the correct provider for phone calls, messaging, and money transfers at this Nebraska facility.",
 
   description:
     "Douglas County Department of Corrections communication guide. Find GettingOut and Securus options for families reaching someone at Omaha's main county jail.",

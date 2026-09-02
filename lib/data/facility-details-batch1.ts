@@ -2006,6 +2006,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Shelby County",
     securityLevel: "Medium",
     hasDetailPage: true,
+    seoTitle: "FCI Memphis: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at FCI Memphis in Tennessee. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP low security facility for female inmates in Memphis TN.",
 
     description:
       "FCI Memphis communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this medium-security Tennessee facility.",
@@ -2522,6 +2524,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Bradford County",
     securityLevel: "Close / Maximum",
     hasDetailPage: true,
+    seoTitle: "Florida State Prison: Securus Phone, JPay Messaging and Money",
+    seoDescription: "How to contact someone at Florida State Prison in Raiford. Securus Technologies handles phone calls. JPay for messaging, video visits, and money transfers. DC number required.",
 
     description:
       "Florida State Prison communication guide. Find JPay messaging and GTL phone options for families. Learn how to stay connected with inmates at this close and maximum security Florida facility.",
@@ -3248,6 +3252,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Wise County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Red Onion State Prison: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Red Onion State Prison in Pound VA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Virginia DOC facility.",
 
     description:
       "Red Onion State Prison communication guide. Find JPay messaging and GTL phone options for families at this remote maximum-security facility in Wise County, Virginia.",
@@ -3454,6 +3460,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Ionia County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Ionia Correctional Facility: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Ionia Correctional Facility in Michigan. GTL ConnectNetwork handles phone calls. JPay for messaging. Michigan mail scanning converts letters to digital copies.",
 
     description:
       "Ionia Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at this maximum-security Michigan Department of Corrections facility.",
@@ -3556,6 +3564,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Davidson County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Riverbend Maximum Security: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Riverbend Maximum Security Institution in Nashville TN. ConnectNetwork GTL handles phone calls. Find messaging and money transfer options at this TDOC facility.",
 
     description:
       "Riverbend Maximum Security Institution communication guide. Find JPay messaging and GTL phone options for families at Tennessee's death row facility in Nashville.",
@@ -4838,6 +4848,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Shelby County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Shelby County Jail Memphis: NCIC Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Shelby County Criminal Justice Center in Memphis TN. NCIC Inmate Communications handles phone calls at 201 Poplar Avenue. Find messaging and visit options.",
 
     description:
       "Shelby County Criminal Justice Center communication guide. Find GTL phone, video, and messaging options for families in Memphis. Learn how to stay connected at the 201 Poplar jail complex.",
@@ -5202,6 +5214,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Wake County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Wake County Detention: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Wake County Detention Center in Raleigh NC. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this NC facility.",
 
     description:
       "Wake County Detention Center communication guide. Find GTL phone, video, and messaging options for families in Raleigh, North Carolina. Learn how to stay connected at the Wake County jail.",

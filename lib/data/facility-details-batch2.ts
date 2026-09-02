@@ -715,6 +715,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Pittsburg County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Oklahoma State Penitentiary: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Oklahoma State Penitentiary in McAlester. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oklahoma DOC facility.",
 
     description:
       "Oklahoma State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Oklahoma's maximum-security facility in McAlester.",
@@ -1133,6 +1135,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Wake County",
     securityLevel: "Close / Maximum",
     hasDetailPage: true,
+    seoTitle: "Central Prison NC: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Central Prison in Raleigh NC. Find the correct provider for phone calls, electronic messaging, and money transfers at this North Carolina DPS facility.",
 
     description:
       "Central Prison communication guide. Find JPay messaging and GTL phone options for families at North Carolina's primary maximum-security facility in Raleigh.",

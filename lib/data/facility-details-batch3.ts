@@ -22,6 +22,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Kenai Peninsula Borough",
     securityLevel: "Close",
     hasDetailPage: true,
+    seoTitle: "Spring Creek Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Spring Creek Correctional Center in Seward AK. Find the correct provider for phone calls, electronic messaging, and money transfers at this Alaska DOC facility.",
 
     description:
       "Spring Creek Correctional Center communication guide. Find JPay messaging and GTL phone options for families at Alaska's close-security state prison in Seward.",
@@ -124,6 +126,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lincoln County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Cummins Unit Arkansas: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Cummins Unit in Grady AR. Find the correct provider for phone calls, electronic messaging, and money transfers at this Arkansas Division of Correction facility.",
 
     description:
       "Cummins Unit communication guide. Find JPay messaging and GTL phone options for families at Arkansas's largest maximum-security state prison in Lincoln County.",
@@ -422,6 +426,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Ada County",
     securityLevel: "Medium / Close",
     hasDetailPage: true,
+    seoTitle: "Idaho State Correctional: Free ViaPath Tablets and Phone Guide",
+    seoDescription: "How to contact someone at Idaho State Correctional Institution. Idaho provides free ViaPath Bridge tablets to inmates. Find phone calls, messaging, and money transfer options.",
 
     description:
       "Idaho State Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Idaho's primary state prison complex near Boise.",
@@ -926,6 +932,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lancaster County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Nebraska State Penitentiary: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Nebraska State Penitentiary in Lincoln. Find the correct provider for phone calls, electronic messaging, and money transfers at this Nebraska DOC facility.",
 
     description:
       "Nebraska State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Nebraska's maximum-security state prison in Lincoln.",
@@ -1028,6 +1036,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Merrimack County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "NH State Prison: Phone Calls, Messaging and Money Transfer Guide",
+    seoDescription: "How to contact someone at New Hampshire State Prison for Men in Concord. Find the correct provider for phone calls, messaging, and money transfers at this NHDOC facility.",
 
     description:
       "New Hampshire State Prison for Men communication guide. Find JPay messaging and GTL phone options for families at New Hampshire's maximum-security state prison in Concord.",
@@ -1540,6 +1550,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Salt Lake County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Utah State Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Utah State Correctional Facility in Salt Lake City. Find the correct provider for phone calls, electronic messaging, and money transfers at this UDOC facility.",
 
     description:
       "Utah State Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Utah's primary state prison in Salt Lake City.",
@@ -1952,6 +1964,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Leavenworth County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Lansing Correctional Facility: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Lansing Correctional Facility in Kansas. Find the correct provider for phone calls, electronic messaging, and money transfers at this Kansas DOC facility.",
 
     description:
       "Lansing Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Kansas's largest state prison in Leavenworth County.",
@@ -2146,6 +2160,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Washington County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "MCF Oak Park Heights: Free Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at MCF Oak Park Heights in Minnesota. Minnesota DOC phone calls are free for families. No prepaid account needed. Find messaging and communication options.",
 
     description:
       "MCF Oak Park Heights communication guide. Find JPay messaging and GTL phone options for families at Minnesota's only supermax-level state prison in Washington County.",
@@ -2646,6 +2662,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Malheur County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Snake River Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Snake River Correctional Institution in Ontario OR. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oregon DOC facility.",
 
     description:
       "Snake River Correctional Institution communication guide. Find JPay messaging and Securus phone options for families at Oregon's largest state prison in Ontario, Malheur County.",
@@ -2850,6 +2868,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Snohomish County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Monroe Correctional Complex: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Monroe Correctional Complex in Monroe WA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Washington DOC facility.",
 
     description:
       "Monroe Correctional Complex communication guide. Find JPay messaging and GTL phone options for families at Washington's major state prison complex in Monroe, Snohomish County.",
@@ -2952,6 +2972,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Brown County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Green Bay Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Green Bay Correctional Institution in Wisconsin. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wisconsin DOC facility.",
 
     description:
       "Green Bay Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Wisconsin's maximum-security state prison in Brown County.",

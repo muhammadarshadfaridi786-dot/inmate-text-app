@@ -1737,11 +1737,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Louisiana jail or prison. Find the right provider for LDOC state prisons and parish jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Louisiana's correctional system is one of the most distinctive in the country, operated primarily through the Louisiana Department of Public Safety and Corrections, which oversees state prisons including the Louisiana State Penitentiary at Angola, one of the largest maximum-security prisons in the United States. Unlike most states, Louisiana divides its land into parishes rather than counties, and each parish typically operates its own detention center under the oversight of the local sheriff. This parish jail system is one of the most extensive of its type in the country, and the facilities in it range from large urban lockups in the New Orleans area to smaller rural detention centers spread across the state.",
+      "Louisiana operates its state prison system through the Department of Public Safety and Corrections (DPS&C). Securus Technologies holds the LDOC contract for phone calls at most state facilities. The inmate must add your phone number to their approved call list, which can hold up to 20 numbers and is updated quarterly. Calls to prepaid cell phones are not allowed. You must set up a Securus account and provide your primary residence information to receive calls. Contact Securus at 1-800-844-6591 or visit securustech.net.",
+      "JPay provides electronic messaging and money transfer services for Louisiana state prison inmates. All state correctional facilities use JPay for money deposits to inmate accounts. Deposits can be made via U.S. mail, internet, telephone, JPay kiosks at the facility, and MoneyGram locations using MoneyGram code 8714. JPay email service is faster than regular mail and allows appropriate photos to be attached. Visit jpay.com to create an account and find your loved one by name or LDOC number.",
+      "Louisiana is not among the states that offer free inmate phone calls. Louisiana also houses a significant portion of its incarcerated population in parish jails under state contract. Parish jails use their own phone carriers with their own rate structures. The provider and rates at parish jails vary significantly from state facilities. Always confirm the specific provider for the exact facility before setting up any account. Use VINELink at vinelink.vineapps.com to search for Louisiana state inmates.",
+    ],
 
-      "JPay is the primary platform for messaging and money transfer at Louisiana Department of Public Safety and Corrections state facilities. Phone and video services at state and parish facilities are handled through Securus and GTL depending on the specific institution. The New Orleans area, which includes Orleans Parish and Jefferson Parish, has its own provider arrangements for detention centers that are separate from the state prison system. Federal correctional facilities in Louisiana require CorrLinks for electronic communication under Bureau of Prisons guidelines. Because parish jails operate independently, the provider for one facility can differ completely from the next parish over.",
+    overview: [
+      "Which providers do Louisiana state prison families use? Securus Technologies handles phone calls at most LDOC state facilities. Call Securus at 1-800-844-6591 or visit securustech.net. JPay handles electronic messaging and money transfers. Visit jpay.com to create an account. Calls to prepaid cell phones are not allowed under the LDOC contract. Your number must be on the inmate approved call list before calls can connect.",
+      "What is the LDOC number and how do I find it? The LDOC number is the identification number assigned to every person in Louisiana DOC custody. You need this number to find the inmate through VINELink, to set up JPay messaging, and for money transfers. Search VINELink at vinelink.vineapps.com for Louisiana state inmates. You can also call the DPS&C main line at 225-342-9711 to confirm the current facility and LDOC number.",
+      "What is the most common mistake Louisiana prison families make? Setting up a Securus account and expecting calls to connect without being on the approved call list is the most common mistake. The inmate must add your number to their approved call list from inside the facility. The list is updated quarterly and holds up to 20 numbers. Also, calls to prepaid cell phones are not allowed. If you have a prepaid cell phone you cannot receive LDOC calls regardless of having a Securus account.",
+    ],
 
-      "For families in Louisiana, finding communication information for a specific facility requires navigating parish-level systems that are not organized in any single location. The state prison system, the parish jail network, and federal institutions all publish information separately and use different platforms. This directory brings facility and provider information together for Louisiana so families can identify the correct communication service quickly, understand what options are available at their specific facility, and start the process of staying in contact without the confusion that comes from sorting through multiple independent sources.",
+    faq: [
+      {
+        question: "Which provider do I use for Louisiana state prison phone calls?",
+        answer: "Securus Technologies holds the LDOC contract for most Louisiana state facilities. Visit securustech.net or call 1-800-844-6591 to set up an account. The inmate must add your number to their approved call list before calls can connect. Calls to prepaid cell phones are not allowed. You must provide your primary residence information when setting up your Securus account.",
+      },
+      {
+        question: "Are phone calls free at Louisiana state prisons?",
+        answer: "No. Louisiana is not among the states offering free inmate phone calls. Securus Technologies holds the LDOC contract and charges per-minute rates subject to FCC caps effective April 2026. Parish jails in Louisiana use their own carriers with their own rates. Phone costs have been documented as a financial burden for Louisiana families. JPay electronic messaging is a lower-cost alternative to phone calls.",
+      },
+      {
+        question: "How do I send money to someone at a Louisiana state prison?",
+        answer: "All Louisiana state correctional facilities use JPay for money deposits. Deposits can be made online at jpay.com, by phone through JPay, by U.S. mail, at JPay kiosks at the facility, or through MoneyGram locations using MoneyGram code 8714. Always include the inmate LDOC number and full name. For questions contact JPay at 800-574-5729.",
+      },
+      {
+        question: "How do I find someone currently in a Louisiana state prison?",
+        answer: "Search VINELink at vinelink.vineapps.com for Louisiana state inmates. You can search by name to find the current facility, LDOC number, and basic information. For parish jail inmates, contact the specific parish facility directly. You can also call the DPS&C main line at 225-342-9711 to confirm current location. Always verify the current facility before setting up accounts.",
+      },
+      {
+        question: "Can I receive calls from a Louisiana prison on my cell phone?",
+        answer: "Yes, but only if your cell phone is not a prepaid phone. The Louisiana DOC allows calls to approved cell phone numbers but calls to prepaid cell phones are not allowed. You must set up a Securus account and provide your primary residence information. If you have a prepaid cell phone you cannot receive LDOC calls. Contact Securus at 1-800-844-6591 to confirm whether your number qualifies.",
+      },
+      {
+        question: "How do I send messages to someone at a Louisiana state prison?",
+        answer: "JPay provides electronic messaging for Louisiana state prison inmates. Visit jpay.com to create an account and find your loved one by name or LDOC number. JPay email is faster than regular mail and allows appropriate photos to be attached. All messages go through a secure connection. The inmate never has direct internet access. For JPay customer service call 800-574-5729.",
+      },
+      {
+        question: "Do Louisiana parish jails use the same providers as state prisons?",
+        answer: "No. Louisiana parish jails use their own phone carriers with their own rate structures that vary from state facilities. Common providers at Louisiana parish jails include Securus and GTL. Some parish jails are housed under state contract with their own provider agreements. Always confirm the specific provider for the exact parish jail before setting up any account.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Louisiana parish jail to a state prison?",
+        answer: "When someone transfers from a Louisiana parish jail to an LDOC state prison, the providers may change. Parish jails use various carriers while LDOC state prisons primarily use Securus for calls and JPay for messaging. Your parish jail accounts may not transfer. Create new accounts after confirming the transfer is complete and you have the LDOC number. Search VINELink at vinelink.vineapps.com to find the new facility.",
+      },
     ],
 
     facilitiesByType: { federal: 12, state: 18, county: 175, private: 13 },

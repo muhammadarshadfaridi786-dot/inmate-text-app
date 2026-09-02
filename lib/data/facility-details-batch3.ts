@@ -724,6 +724,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Baltimore City",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Baltimore City Detention: Phone Calls, Messaging and Money Guide",
+    seoDescription: "How to contact someone at Baltimore City Detention Center in Maryland. Find the correct provider for phone calls, electronic messaging, and money transfers at this Maryland facility.",
 
     description:
       "Baltimore City Detention Center communication guide. Find GTL phone and video options for families in Baltimore. Learn how to stay connected at Maryland's largest pretrial detention facility.",
@@ -814,6 +816,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Powell County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Montana State Prison: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Montana State Prison in Deer Lodge. Find the correct provider for phone calls, electronic messaging, and money transfers at this Montana DOC facility.",
 
     description:
       "Montana State Prison communication guide. Find JPay messaging and GTL phone options for families at Montana's maximum-security state prison in Deer Lodge, Powell County.",
@@ -2040,6 +2044,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Suffolk County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Suffolk County HOC: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Suffolk County House of Correction in Boston MA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Massachusetts facility.",
 
     description:
       "Suffolk County House of Correction communication guide. Find GTL phone and video options for families in Boston. Learn how to stay connected at this major Boston-area detention facility.",
@@ -2436,6 +2442,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Clark County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Clark County Detention Center: Phone Calls and Jail Messaging",
+    seoDescription: "How to contact someone at Clark County Detention Center in Las Vegas NV. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers.",
 
     description:
       "Clark County Detention Center communication guide. Find GTL phone and video options for families in Las Vegas. Learn how to stay connected at Nevada's largest county detention facility.",

@@ -1431,6 +1431,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Walla Walla County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Washington State Penitentiary: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Washington State Penitentiary in Walla Walla. Find the correct provider for phone calls, electronic messaging, and money transfers at this WDOC facility.",
 
     description:
       "Washington State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Washington's maximum-security state prison in Walla Walla.",

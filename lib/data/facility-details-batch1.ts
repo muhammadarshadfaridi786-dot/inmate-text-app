@@ -18,6 +18,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Marin County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "San Quentin: Free Calls, Securus Setup and Inmate Messaging",
+    seoDescription: "How to contact someone at San Quentin Rehabilitation Center. Phone calls from CDCR are free under SB 1008. Securus replaced ViaPath. Find messaging and visit options at 415-454-1460.",
 
     description:
       "San Quentin State Prison communication guide. Find messaging, video visitation, and phone options. Compare JPay and GTL services for families staying connected.",
@@ -147,6 +149,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Wyoming County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Attica Correctional Facility: Phone Calls, Visits and Messaging",
+    seoDescription: "How to contact someone at Attica Correctional Facility in NY. Set up phone calls, schedule visits by last name group, send money and messages. DIN number required for all contact.",
 
     description:
       "Attica Correctional Facility communication guide. Find messaging, video, and phone options for families. Compare JPay and Securus services at Attica.",
@@ -276,6 +280,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Sumter County",
     securityLevel: "Low / Medium / High",
     hasDetailPage: true,
+    seoTitle: "FCC Coleman: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at Federal Correctional Complex Coleman in Florida. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP facility in Sumter County FL.",
 
     description:
       "Federal Correctional Complex Coleman communication guide. Find CorrLinks messaging, BOP phone, and video options for families of federal inmates in Sumter County, Florida.",
@@ -405,6 +411,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "New York City",
     securityLevel: "Multiple",
     hasDetailPage: true,
+    seoTitle: "Rikers Island: Free Calls, GTL Setup and NYC Jail Messaging",
+    seoDescription: "How to contact someone at Rikers Island NYC. Phone calls from NYC jails are free since 2019. GTL ConnectNetwork handles communication. Find messaging and visit options at Rikers.",
 
     description:
       "Rikers Island communication guide. Find messaging, video visitation, and phone options for NYC DOC facilities. Learn how GTL services work for families in New York City.",
@@ -522,6 +530,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Cook County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Cook County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Cook County Jail in Chicago. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Illinois county facility.",
 
     description:
       "Cook County Jail communication guide. Find phone, video, and messaging options for families. Learn how Securus services work at the Chicago jail complex.",
@@ -639,6 +649,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Del Norte County",
     securityLevel: "Maximum / SHU",
     hasDetailPage: true,
+    seoTitle: "Pelican Bay: Free Calls, Securus Transition and Messaging Guide",
+    seoDescription: "How to contact someone at Pelican Bay State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options.",
 
     description:
       "Pelican Bay State Prison communication guide. Find JPay messaging and phone options for families. Learn about communication restrictions at this maximum-security California facility.",
@@ -768,6 +780,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Sacramento County",
     securityLevel: "Level II / IV",
     hasDetailPage: true,
+    seoTitle: "Folsom Prison: Free Calls, Securus Transition and Messaging Guide",
+    seoDescription: "How to contact someone at Folsom State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options at Folsom.",
 
     description:
       "Folsom State Prison communication guide. Find JPay, GTL messaging, video, and phone options for families. Learn how to stay connected with inmates at California's historic Folsom facility.",
@@ -897,6 +911,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Westchester County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Sing Sing: Free NY State Calls, Messaging and Visit Guide",
+    seoDescription: "How to contact someone at Sing Sing Correctional Facility in Ossining NY. New York state prison calls are free. GTL ConnectNetwork handles communication. DIN number required.",
 
     description:
       "Sing Sing Correctional Facility communication guide. Find JPay messaging and Securus phone options for families. Learn how to stay connected with inmates at Sing Sing in Ossining, New York.",
@@ -1026,6 +1042,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Miami-Dade County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Miami-Dade Jail: Securus Phone, GTL Video and TouchPay Money",
+    seoDescription: "How to contact someone at Miami-Dade Corrections. Securus for phone calls at 972-734-1111. GTL ConnectNetwork for video visits. TouchPay for money transfers at 1-866-232-1899.",
 
     description:
       "Miami-Dade Corrections Facility communication guide. Find GTL phone, video, and messaging options for families. Learn how to stay connected at Miami-Dade County detention facilities.",
@@ -1143,6 +1161,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Harris County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Harris County Jail: Securus Phone, JPay Money and Mail Info",
+    seoDescription: "How to contact someone at Harris County Jail in Houston TX. Securus handles phone calls. Mail goes to San Antonio TX processing center. SPN number required. Call 713-755-5000.",
 
     description:
       "Harris County Jail communication guide. Find Securus phone, video, and messaging options for families in Houston. Learn how to stay connected at the Harris County jail complex.",
@@ -1464,6 +1484,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Granville County",
     securityLevel: "Low / Medium / High",
     hasDetailPage: true,
+    seoTitle: "FCC Butner: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at Federal Correctional Complex Butner in North Carolina. CorrLinks for messaging. ConnectNetwork for phone calls. Find providers for this federal BOP facility.",
 
     description:
       "Federal Correctional Complex Butner communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this North Carolina complex.",
@@ -1566,6 +1588,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Fairfield County",
     securityLevel: "Low / Camp",
     hasDetailPage: true,
+    seoTitle: "FCI Danbury: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at FCI Danbury in Connecticut. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility for female inmates in Danbury CT.",
 
     description:
       "FCI Danbury communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Connecticut low-security facility.",
@@ -1770,6 +1794,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Vigo County",
     securityLevel: "Low / Medium / USP",
     hasDetailPage: true,
+    seoTitle: "FCC Terre Haute: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at Federal Correctional Complex Terre Haute in Indiana. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP facility with death row.",
 
     description:
       "Federal Correctional Complex Terre Haute communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Indiana complex.",
@@ -2076,6 +2102,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Dinwiddie County",
     securityLevel: "Low / Medium",
     hasDetailPage: true,
+    seoTitle: "FCC Petersburg: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at Federal Correctional Complex Petersburg in Virginia. CorrLinks for messaging. ConnectNetwork for phone calls. Find providers for this federal BOP facility.",
 
     description:
       "Federal Correctional Complex Petersburg communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Virginia complex.",
@@ -2280,6 +2308,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "West Feliciana Parish",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Angola Prison: Phone Calls, Messaging and Money Transfer Guide",
+    seoDescription: "How to contact someone at Louisiana State Penitentiary (Angola). Find the correct provider for phone calls, messaging, video visits, and money transfers at this Louisiana DOC facility.",
 
     description:
       "Louisiana State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Angola, the largest maximum-security prison in the United States.",
@@ -2586,6 +2616,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Will County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Stateville Correctional: ICSolutions Phone and GettingOut Messaging",
+    seoDescription: "How to contact someone at Stateville Correctional Center in Illinois. ICSolutions handles phone calls. GettingOut for digital messaging. Illinois offers partial free calling program.",
 
     description:
       "Stateville Correctional Center communication guide. Find JPay messaging and GTL phone options for families. Learn how to stay connected with inmates at this historic maximum-security Illinois facility.",
@@ -2688,6 +2720,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Pinal County",
     securityLevel: "Close / Death Row",
     hasDetailPage: true,
+    seoTitle: "ASPC Florence: ICSolutions Phone, Securus Messaging and PAN List",
+    seoDescription: "How to contact someone at Arizona State Prison Complex Florence. ICSolutions handles phone calls. Securus for messaging. Must be on PAN list and visitation list to receive calls.",
 
     description:
       "Arizona State Prison Complex Florence communication guide. Find JPay messaging and Securus phone options for families at this historic Pinal County correctional complex.",
@@ -2790,6 +2824,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Mahoning County",
     securityLevel: "Supermax",
     hasDetailPage: true,
+    seoTitle: "Ohio State Penitentiary: ConnectNetwork Phone and Messaging Guide",
+    seoDescription: "How to contact someone at Ohio State Penitentiary in Youngstown. ViaPath ConnectNetwork handles phone calls after Ohio switched from Securus. Find messaging and visit options.",
 
     description:
       "Ohio State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Ohio's only supermax correctional facility in Youngstown.",
@@ -2892,6 +2928,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Montgomery County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "SCI Phoenix: Securus Phone, ViaPath Messaging and Money Guide",
+    seoDescription: "How to contact someone at SCI Phoenix in Collegeville PA. Securus Technologies handles phone calls. ViaPath ConnectNetwork for messaging. DC number required for all contact.",
 
     description:
       "SCI Phoenix communication guide. Find JPay messaging and GTL phone options for families at Pennsylvania's newest maximum-security state correctional institution in Montgomery County.",
@@ -2994,6 +3032,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Sunflower County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Parchman Farm: Phone Calls, Messaging and Money Transfer Guide",
+    seoDescription: "How to contact someone at Mississippi State Penitentiary Parchman. Find the correct provider for phone calls, messaging, video visits, and money transfers at this Mississippi DOC facility.",
 
     description:
       "Mississippi State Penitentiary (Parchman Farm) communication guide. Find JPay messaging and Securus phone options for families at this historic Mississippi Delta correctional facility.",
@@ -3300,6 +3340,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Norfolk County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "MCI Cedar Junction: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at MCI Cedar Junction in Walpole MA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Massachusetts DOC facility.",
 
     description:
       "MCI Cedar Junction communication guide. Find JPay messaging and Securus phone options for families at Massachusetts' only Level VI maximum-security correctional institution in Walpole.",
@@ -3606,6 +3648,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Clark County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "High Desert State Prison: Free Calls, Securus and Messaging Guide",
+    seoDescription: "How to contact someone at High Desert State Prison in Susanville CA. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options.",
 
     description:
       "High Desert State Prison communication guide. Find JPay messaging and GTL phone options for families at Nevada's largest correctional facility near Las Vegas.",
@@ -3912,6 +3956,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "LaPorte County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Indiana State Prison: ViaPath Phone, GettingOut Messaging Guide",
+    seoDescription: "How to contact someone at Indiana State Prison in Michigan City. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging. Must be on approved 20-person call list.",
 
     description:
       "Indiana State Prison communication guide. Find JPay messaging and GTL phone options for families at this maximum-security facility in Michigan City, Indiana.",

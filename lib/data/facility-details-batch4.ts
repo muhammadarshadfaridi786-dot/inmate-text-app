@@ -846,6 +846,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Wayne County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Wayne County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Wayne County Jail in Detroit MI. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Michigan facility.",
 
   description:
     "Wayne County Jail communication guide for Detroit, Michigan. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at the Wayne County Sheriff's Office jail.",
@@ -1208,6 +1210,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "King County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "King County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at King County Correctional Facility in Seattle WA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers.",
 
   description:
     "King County Correctional Facility communication guide for Seattle, Washington. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at this King County Department of Adult and Juvenile Detention facility.",

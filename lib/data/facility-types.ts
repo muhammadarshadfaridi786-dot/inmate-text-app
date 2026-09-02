@@ -42,6 +42,8 @@ export interface FacilityBasic {
 
 export interface FacilityDetail extends FacilityBasic {
   description: string
+  seoTitle?: string
+  seoDescription?: string
   overview: string[]
   address?: string
   phone?: string

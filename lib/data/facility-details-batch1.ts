@@ -1280,6 +1280,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Fremont County",
     securityLevel: "Administrative Maximum",
     hasDetailPage: true,
+    seoTitle: "ADX Florence: CorrLinks Messaging and Phone Guide for Families",
+    seoDescription: "How to contact someone at ADX Florence supermax in Colorado. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Phone limited to 300 minutes per month at federal supermax.",
 
     description:
       "ADX Florence communication guide. Learn how CorrLinks messaging and BOP phone services work at the nation's only federal supermax prison in Florence, Colorado.",
@@ -1382,6 +1384,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Leavenworth County",
     securityLevel: "High",
     hasDetailPage: true,
+    seoTitle: "USP Leavenworth: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at USP Leavenworth in Kansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP high security facility in Leavenworth KS.",
 
     description:
       "USP Leavenworth communication guide. Find CorrLinks messaging and ConnectNetwork phone options for families of federal inmates at this historic Kansas penitentiary.",
@@ -1692,6 +1696,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Kings County",
     securityLevel: "Administrative",
     hasDetailPage: true,
+    seoTitle: "MDC Brooklyn: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at Metropolitan Detention Center Brooklyn NY. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP facility in Brooklyn NY. Call 718-840-4200.",
 
     description:
       "MDC Brooklyn communication guide. Find CorrLinks messaging and BOP phone options for families of federal detainees at the Metropolitan Detention Center in Brooklyn, New York.",
@@ -2206,6 +2212,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Essex County",
     securityLevel: "Medium",
     hasDetailPage: true,
+    seoTitle: "FCI Ray Brook: CorrLinks Messaging and ConnectNetwork Phone Guide",
+    seoDescription: "How to contact someone at FCI Ray Brook in New York. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Essex County NY.",
 
     description:
       "FCI Ray Brook communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Adirondack facility in Essex County, New York.",
@@ -3136,6 +3144,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Butts County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Georgia Diagnostic Prison: Securus Phone and JPay Messaging Guide",
+    seoDescription: "How to contact someone at Georgia Diagnostic and Classification Prison in Jackson. Securus for phone calls. JPay for messaging and money transfers. GDC number required for all contact.",
 
     description:
       "Georgia Diagnostic and Classification Prison communication guide. Find JPay messaging and GTL phone options for families at Georgia's main intake and death row facility in Butts County.",
@@ -3752,6 +3762,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Kings County",
     securityLevel: "Level III / SHU",
     hasDetailPage: true,
+    seoTitle: "Corcoran State Prison: Free Calls, Securus and Messaging Guide",
+    seoDescription: "How to contact someone at California State Prison Corcoran. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options at Corcoran.",
 
     description:
       "Corcoran State Prison communication guide. Find JPay messaging and GTL phone options for families at this Kings County California facility known for its Security Housing Unit.",
@@ -3854,6 +3866,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Richland County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Broad River Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Broad River Correctional Institution in Columbia SC. Find the correct provider for phone calls, messaging, and money transfers at this SCDC facility.",
 
     description:
       "Broad River Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at South Carolina's maximum-security facility in Columbia.",
@@ -4060,6 +4074,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Washington County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Potosi Correctional Center: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Potosi Correctional Center in Mineral Point MO. Find the correct provider for phone calls, electronic messaging, and money transfers at this Missouri facility.",
 
     description:
       "Potosi Correctional Center communication guide. Find JPay messaging and Securus phone options for families at Missouri's maximum-security death row facility in Washington County.",
@@ -4264,6 +4280,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Escambia County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Holman Correctional Facility: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Holman Correctional Facility in Atmore AL. Securus Technologies handles phone calls. JPay for money transfers. Find messaging and communication options.",
 
     description:
       "Holman Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Alabama's death row and maximum-security facility in Escambia County.",
@@ -4366,6 +4384,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Maricopa County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Maricopa County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Maricopa County Jail in Phoenix AZ. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Arizona facility.",
 
     description:
       "Maricopa County Jail communication guide. Find GTL phone, video, and messaging options for families. Learn how to stay connected at the Maricopa County Sheriff's Office jail system in Phoenix.",
@@ -4726,6 +4746,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Philadelphia County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Philadelphia Detention Center: Phone Calls and Jail Messaging",
+    seoDescription: "How to contact someone at Philadelphia Detention Center. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Philadelphia facility.",
 
     description:
       "Philadelphia Detention Center communication guide. Find GTL phone, video, and messaging options for families. Learn how to stay connected at the Philadelphia Department of Prisons facility.",
@@ -4906,6 +4928,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Cuyahoga County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Cuyahoga County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Cuyahoga County Jail in Cleveland OH. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Ohio facility.",
 
     description:
       "Cuyahoga County Jail communication guide. Find Securus phone, video, and messaging options for families in Cleveland. Learn how to stay connected at the Cuyahoga County correctional facility.",
@@ -4996,6 +5020,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Jefferson County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
+    seoTitle: "Jefferson County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Jefferson County Jail. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county jail facility.",
 
     description:
       "Jefferson County Jail communication guide. Find Securus phone, video, and messaging options for families in Birmingham. Learn how to stay connected at the Jefferson County detention facility.",

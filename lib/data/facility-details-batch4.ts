@@ -908,6 +908,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dallas County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
+  seoTitle: "Lew Sterrett Justice Center: Securus Phone and Jail Messaging",
+  seoDescription: "How to contact someone at Lew Sterrett Justice Center in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required. Call 214-761-9025.",
 
   description:
     "Lew Sterrett Justice Center communication guide for Dallas County, Texas. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at Dallas County's main jail.",
@@ -1029,6 +1031,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Penobscot County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
+  seoTitle: "Penobscot County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Penobscot County Jail in Bangor ME. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Maine facility.",
 
   description:
     "Penobscot County Jail communication guide for Bangor, Maine. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at the Penobscot County Sheriff's Office jail.",
@@ -1149,6 +1153,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Goshen County",
   securityLevel: "Maximum",
   hasDetailPage: true,
+  seoTitle: "Wyoming State Penitentiary: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Wyoming State Penitentiary in Rawlins. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wyoming DOC facility.",
 
   description:
     "Wyoming State Penitentiary communication guide for Rawlins, Wyoming. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Wyoming Department of Corrections facility.",
@@ -1332,6 +1338,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Orleans County",
   securityLevel: "Medium",
   hasDetailPage: true,
+  seoTitle: "Northern State Correctional: Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Northern State Correctional Facility in Newport VT. Find the correct provider for phone calls, messaging, and money transfers at this Vermont DOC facility.",
 
   description:
     "Northern State Correctional Facility communication guide for Newport, Vermont. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Vermont Department of Corrections facility.",

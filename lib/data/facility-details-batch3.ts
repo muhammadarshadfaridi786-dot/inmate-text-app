@@ -226,6 +226,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Kent County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Vaughn Correctional: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at James T Vaughn Correctional Center in Smyrna DE. Find the correct provider for phone calls, messaging, and money transfers at this Delaware DOC facility.",
 
     description:
       "James T. Vaughn Correctional Center communication guide. Find JPay messaging and GTL phone options for families at Delaware's maximum-security state prison in Smyrna.",
@@ -328,6 +330,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Honolulu County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Oahu OCCC: Phone Calls, Messaging and Money Transfer Guide",
+    seoDescription: "How to contact someone at Oahu Community Correctional Center in Honolulu Hawaii. Find the correct provider for phone calls, messaging, and money transfers at this Hawaii facility.",
 
     description:
       "Oahu Community Correctional Center communication guide. Find Securus phone and video options for families in Honolulu. Learn how to stay connected at Hawaii's largest correctional facility.",
@@ -520,6 +524,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lee County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Iowa State Penitentiary: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Iowa State Penitentiary in Fort Madison. Find the correct provider for phone calls, electronic messaging, and money transfers at this Iowa DOC facility.",
 
     description:
       "Iowa State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Iowa's only maximum-security state prison in Fort Madison.",
@@ -1430,6 +1436,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Minnehaha County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "SD State Penitentiary: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at South Dakota State Penitentiary in Sioux Falls. Find the correct provider for phone calls, electronic messaging, and money transfers at this SDDOC facility.",
 
     description:
       "South Dakota State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at South Dakota's maximum-security state prison in Sioux Falls.",
@@ -1736,6 +1744,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Carbon County",
     securityLevel: "Medium / Close",
     hasDetailPage: true,
+    seoTitle: "Wyoming Medium Correctional: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Wyoming Medium Correctional Institution in Torrington. Find the correct provider for phone calls, messaging, and money transfers at this Wyoming DOC facility.",
 
     description:
       "Wyoming Medium Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Wyoming's primary state correctional facility in Rawlins.",

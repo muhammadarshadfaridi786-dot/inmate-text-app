@@ -21,6 +21,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Tattnall County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Georgia State Prison: Securus Phone, JPay Messaging and Money",
+    seoDescription: "How to contact someone at Georgia State Prison in Reidsville. Securus Technologies handles phone calls. JPay for messaging, video visits, and money transfers. GDC number required.",
 
     description:
       "Georgia State Prison communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security facility in Reidsville, Georgia.",
@@ -123,6 +125,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Fulton County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Fulton County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Fulton County Jail in Atlanta GA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Georgia facility.",
 
     description:
       "Fulton County Jail communication guide. Find GTL phone, video, and messaging options for families in Atlanta. Learn how to stay connected at the Fulton County jail complex.",
@@ -215,6 +219,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Madison County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Pendleton Correctional: ViaPath Phone and GettingOut Messaging",
+    seoDescription: "How to contact someone at Pendleton Correctional Facility in Indiana. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging. Must be on approved 20-person call list.",
 
     description:
       "Pendleton Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at this Indiana Department of Correction maximum-security facility.",
@@ -317,6 +323,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Marion County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
+    seoTitle: "Marion County Jail: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Marion County Jail in Indianapolis IN. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging. Find providers and contact information.",
 
     description:
       "Marion County Jail communication guide. Find GTL phone, video, and messaging options for families in Indianapolis. Learn how to stay connected at the Indianapolis jail complex.",
@@ -915,6 +923,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Randolph County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Menard Correctional: ICSolutions Phone and GettingOut Messaging",
+    seoDescription: "How to contact someone at Menard Correctional Center in Chester IL. ICSolutions handles phone calls. GettingOut for digital messaging. Illinois offers partial free calling program.",
 
     description:
       "Menard Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security Illinois facility in Chester.",
@@ -1329,6 +1339,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Marion County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "Oregon State Penitentiary: Phone Calls and Messaging Guide",
+    seoDescription: "How to contact someone at Oregon State Penitentiary in Salem. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oregon DOC facility.",
 
     description:
       "Oregon State Penitentiary communication guide. Find JPay messaging and Securus phone options for families at Oregon's only maximum-security state prison in Salem.",
@@ -1535,6 +1547,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Mercer County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "NJ State Prison: Phone Calls, ViaPath Transition and Messaging",
+    seoDescription: "How to contact someone at New Jersey State Prison in Trenton. NJ transitioning from JPay to ViaPath. Phone rates cut to $0.034 per minute. Find current providers and contact info.",
 
     description:
       "New Jersey State Prison communication guide. Find JPay messaging and GTL phone options for families at New Jersey's oldest and highest-security state prison in Trenton.",
@@ -1739,6 +1753,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Washington County",
     securityLevel: "Maximum",
     hasDetailPage: true,
+    seoTitle: "MCF Stillwater: Free Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at MCF Stillwater in Minnesota. Minnesota DOC phone calls are free for families. No prepaid account needed. Find messaging and communication options.",
 
     description:
       "Minnesota Correctional Facility Stillwater communication guide. Find JPay messaging and GTL phone options for families at Minnesota's oldest and most historic maximum-security state prison.",

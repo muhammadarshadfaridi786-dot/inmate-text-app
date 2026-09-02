@@ -1612,11 +1612,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Virginia jail or prison. Find the right provider for VADOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Virginia's correctional system includes state prisons operated by the Virginia Department of Corrections, local and regional jails run by cities and counties, and federal Bureau of Prisons facilities including institutions in the Hopewell and Lee County areas. One distinctive feature of Virginia's system is the role of regional jails, which are multi-jurisdiction facilities serving more than one locality and operating under different arrangements than single-county jails. The state has over 130 independent cities and counties, many of which share jail resources through these regional agreements, adding a layer of complexity that families do not encounter in most other states.",
+      "Virginia operates its state prison system through the Virginia Department of Corrections (VADOC), which manages 26 state prisons and oversees 71 local jails across 133 counties. GTL ConnectNetwork is the phone provider for all VADOC state facilities. All calls are limited to 20 minutes. Upon reception, inmates are automatically enrolled in the phone system and given a PIN. They then create an approved call list. Only numbers on the approved call list can receive calls. You will need the inmate's 7-digit state ID number to set up your ConnectNetwork account.",
+      "To set up a prepaid phone account, visit connectnetwork.com and select Virginia as the state and Department of Corrections as the agency. For ConnectNetwork customer service call 1-800-483-8314. Inmates can also use a PIN Debit Account where the inmate manages the account and the cost of calls is deducted from their account. To deposit money into a PIN Debit Account, create a ConnectNetwork account and select Virginia DOC. All calls are recorded and monitored except properly verified attorney calls.",
+      "Virginia is not among the states that offer free phone calls at state prisons. All calls are collect or prepaid. Collect calls are limited to a small amount before the system prompts families to create or use a prepaid account. Family and friends can send JPay secure messages and photos through the VADOC central mail distribution center. The central mail distribution center receives all incoming mail and screens it before delivery. Photos are limited to three per envelope.",
+    ],
 
-      "Virginia Department of Corrections state prisons use JPay as the primary platform for messaging, money transfer, and photo sharing. Phone and video services at state facilities are provided by Securus and GTL. Regional and local jails across Northern Virginia, Richmond, Tidewater, and other areas each have separate provider contracts. Federal facilities in Virginia require CorrLinks for electronic communication under Bureau of Prisons rules. The combination of state prisons, regional jails, independent city jails, and federal institutions means that Virginia has one of the more varied communication landscapes in the Mid-Atlantic region.",
+    overview: [
+      "Which provider do Virginia state prison families use? GTL ConnectNetwork handles all phone calls at VADOC state facilities. Visit connectnetwork.com and select Virginia DOC. Call ConnectNetwork at 1-800-483-8314 for help. You will need the inmate's 7-digit state ID number. Find the state ID number using the VADOC Inmate and Supervisee Locator at vadoc.virginia.gov.",
+      "What is the 7-digit state ID number and how do I find it? The 7-digit state ID number is the VADOC identification number assigned to every person in Virginia DOC custody. You need this number to set up a ConnectNetwork account and to locate the inmate online. Find it using the VADOC Inmate and Supervisee Locator at vadoc.virginia.gov by searching by name. The number appears in the second column of the search results next to the inmate's name.",
+      "What is the most common mistake Virginia prison families make? Setting up a collect call account instead of a prepaid account is the most common mistake. Collect calls are limited to a small amount before the system prompts you to create a prepaid account. Setting up a ConnectNetwork prepaid account from the start avoids this limitation and typically costs less per minute than collect calls. Visit connectnetwork.com to create your prepaid account before the first call.",
+    ],
 
-      "For families in Virginia, identifying the right communication provider often requires navigating several different government and provider websites before reaching a clear answer. This directory brings provider and facility information together for Virginia so you can identify the correct platform for your specific situation without working through the complexity of the state's fragmented system. Whether you need to reach someone at a state prison in Southwest Virginia, a regional jail in the Shenandoah Valley, or a federal facility near Richmond, this guide is designed to give you organized information to start the process.",
+    faq: [
+      {
+        question: "Which provider do I use for Virginia state prison phone calls?",
+        answer: "GTL ConnectNetwork handles all phone calls at VADOC Virginia state facilities. Visit connectnetwork.com and select Virginia as the state and Department of Corrections as the agency. For customer service call 1-800-483-8314. You will need the inmate's 7-digit state ID number to set up your account.",
+      },
+      {
+        question: "How do I find the 7-digit state ID number for a Virginia inmate?",
+        answer: "Use the VADOC Inmate and Supervisee Locator at vadoc.virginia.gov. Search by the inmate's name. The 7-digit state ID number appears in the second column of the search results next to the inmate's name. You need this number to set up a ConnectNetwork phone account and to deposit money into a PIN Debit Account.",
+      },
+      {
+        question: "Are phone calls free at Virginia state prisons?",
+        answer: "No. Virginia is not among the states offering free phone calls at state prisons. All calls are collect or prepaid. Collect calls are limited to a small amount before the system prompts families to create a prepaid ConnectNetwork account. Setting up a prepaid account from the start is recommended. Phone rates are subject to FCC caps effective April 6, 2026.",
+      },
+      {
+        question: "What is a PIN Debit Account and how does it work in Virginia?",
+        answer: "A PIN Debit Account is managed by the inmate. The cost of calls is deducted from the inmate's account rather than from a family-funded prepaid account. Family members can deposit money into the inmate's PIN Debit Account by visiting connectnetwork.com, creating an account, and selecting Virginia DOC. The inmate can then use the PIN Debit Account to call any approved number on their call list.",
+      },
+      {
+        question: "How do I send messages and photos to someone at a Virginia state prison?",
+        answer: "Family and friends can send JPay secure messages and photos through the VADOC system. Visit jpay.com to create an account and send electronic messages. Physical photos sent by mail are limited to three per envelope and go through the VADOC central mail distribution center for screening. All incoming mail is inspected before delivery.",
+      },
+      {
+        question: "How do I find someone currently in a Virginia state prison?",
+        answer: "Use the VADOC Inmate and Supervisee Locator at vadoc.virginia.gov. You can search by name or DOC ID number. The locator is updated daily and includes people housed in state correctional facilities as well as those supervised in the community. For additional questions contact the VADOC Correspondence Unit at P.O. Box 26963, Richmond, VA 23261-6963.",
+      },
+      {
+        question: "What are the phone call rules at Virginia state prisons?",
+        answer: "All calls at VADOC facilities are limited to 20 minutes. Inmates must have an approved call list and can only call numbers on that list. All calls are recorded and monitored except properly verified attorney calls. Inmates are automatically enrolled in the phone system upon reception and given a PIN to access the system. Phone privileges can be revoked for abuse.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Virginia county jail to a state prison?",
+        answer: "When someone transfers from a Virginia county jail to a VADOC state prison, they receive a 7-digit state ID number and the communication providers may change. County jails use their own contracted providers. VADOC state prisons use GTL ConnectNetwork for phone calls. Create a new ConnectNetwork account after confirming the transfer and obtaining the new state ID number.",
+      },
     ],
 
     facilitiesByType: { federal: 12, state: 30, county: 105, private: 11 },

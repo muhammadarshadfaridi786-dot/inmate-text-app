@@ -2237,11 +2237,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Kentucky jail or prison. Find the right provider for KDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Kentucky's correctional system is managed by the Kentucky Department of Corrections, which operates state prisons at locations including the Kentucky State Penitentiary in Lyon County, Luther Luckett Correctional Complex in Oldham County, and facilities in the eastern part of the state where coal country geography shapes both the local economy and the prison landscape. The state has 120 counties, each with its own detention center, and the Louisville metro area includes Jefferson County's large urban jail system operating separately from state prisons. Federal Bureau of Prisons facilities in Kentucky, including FCI Manchester in Clay County and FCI Ashland in Boyd County, serve inmates across the region.",
+      "Kentucky operates its state prison system through the Kentucky Department of Corrections (KDOC). Securus Technologies is the phone provider for all KDOC state facilities. To receive calls, set up a Securus AdvanceConnect or Inmate Debit account at securustech.net or call Securus at 972-734-1111 or 800-844-6591. AdvanceConnect lets you control which phone numbers the inmate can call and requires funds in your account. Inmate Debit allows the inmate to call anyone on their approved list using their own funds. Both options connect to cell phones.",
+      "Money for inmate accounts in Kentucky state prisons is deposited through JPay at jpay.com or by phone, by MoneyGram, or by mailed money order. Many state-sentenced people in Kentucky are held in county jails rather than state prisons due to the state's contract system. If your loved one is in a county jail under state contract, confirm whether they use KDOC phone procedures or the county jail's own provider. Use the KOOL Kentucky Offender Online Lookup tool to find the current location and offender ID number.",
+      "Kentucky is not among the states that offer free phone calls at state prisons. Securus phone call costs are subject to FCC caps effective April 2026. Kentucky's significant poverty rate makes phone costs a particular burden for families. JPay electronic messaging and written mail are lower-cost alternatives for regular contact. Incoming personal mail goes directly to the facility for inspection before delivery. Books and magazines must come directly from a publisher or approved retailer.",
+    ],
 
-      "JPay is the standard provider for Kentucky Department of Corrections state facilities, handling messaging, photo sharing, and money transfer. Securus and GTL manage phone and video services at state institutions and many county jails. Louisville Metro Corrections, which serves Jefferson County and the Louisville metro area, operates under its own provider setup separate from state facilities. The federal institutions in Kentucky require CorrLinks for electronic communication. Eastern Kentucky has a concentration of both state correctional facilities and federal prisons in a relatively compact area, which means families in that region may need to deal with multiple provider systems depending on where their family member is being held.",
+    overview: [
+      "Which providers do Kentucky state prison families use? Securus Technologies handles phone calls at all KDOC state facilities. Call 972-734-1111 or 800-844-6591 or visit securustech.net. JPay handles money deposits at jpay.com. These are two separate services. Use the KOOL offender lookup at corrections.ky.gov to find the current location and offender ID number before setting up any accounts.",
+      "What is the KOOL system and why do I need the offender ID? KOOL stands for Kentucky Offender Online Lookup. It is the official KDOC search tool at corrections.ky.gov. You need the offender ID number for setting up Securus and JPay accounts, for mail, and for any contact with the facility. Without the correct ID number, account setup can fail or funds can be sent to the wrong person. Search by name to find the ID and current location.",
+      "What is the most common mistake Kentucky prison families make? Not knowing whether their loved one is in a state prison or a county jail under state contract is the most common confusion. Kentucky uses county jails extensively to house state-sentenced inmates. If your loved one is in a county jail, that jail may use its own phone provider such as Securus, ViaPath, or ICSolutions rather than the standard KDOC Securus setup. Always confirm the specific facility and its provider before setting up accounts.",
+    ],
 
-      "Kentucky families navigating inmate communication often find that the information they need is spread across state corrections resources, individual county sheriff pages, and provider websites. The layered structure of state, county, and federal facilities means there is no single source that covers everything. This directory organizes Kentucky facility and provider information so families can find the right communication platform without having to search through multiple disconnected systems to determine which one applies to their specific situation.",
+    faq: [
+      {
+        question: "Which provider do I use for Kentucky state prison phone calls?",
+        answer: "Securus Technologies handles phone calls at all KDOC Kentucky state facilities. Visit securustech.net or call 972-734-1111 or 800-844-6591. You can set up an AdvanceConnect account to control which numbers the inmate can call, or fund an Inmate Debit account so the inmate can call from their own funds. Both options work with cell phones.",
+      },
+      {
+        question: "How do I send money to someone at a Kentucky state prison?",
+        answer: "JPay handles money deposits for KDOC state prison inmate accounts. Visit jpay.com or call JPay to make a deposit by credit card, debit card, or MoneyGram. You can also mail a money order to the facility. Always include the offender ID number on all transactions. Find the offender ID using the KOOL tool at corrections.ky.gov.",
+      },
+      {
+        question: "Are phone calls free at Kentucky state prisons?",
+        answer: "No. Kentucky is not among the states offering free inmate phone calls. Securus Technologies holds the KDOC contract and calls are charged per minute subject to FCC caps effective April 2026. Multiple advocacy organizations have pushed for state legislation eliminating fees but as of 2026 it has not passed. JPay electronic messaging is a lower-cost alternative for regular contact.",
+      },
+      {
+        question: "What is the KOOL tool and how do I use it?",
+        answer: "KOOL stands for Kentucky Offender Online Lookup. It is the official KDOC search tool at corrections.ky.gov. Search by name to find the offender ID number and current facility location. You need the offender ID for Securus and JPay account setup, for mail, and for any contact with the DOC. Many Kentucky state-sentenced inmates are housed in county jails rather than state prisons.",
+      },
+      {
+        question: "My loved one is in a county jail but sentenced to state prison. Which provider do I use?",
+        answer: "Kentucky uses county jails extensively to house state-sentenced inmates. If your loved one is in a county jail under state contract, that jail may use its own phone provider rather than the standard KDOC Securus setup. Common providers at Kentucky county jails include Securus, ViaPath ConnectNetwork, and ICSolutions. Contact the specific county jail directly to confirm which provider and setup process they use.",
+      },
+      {
+        question: "How do I find someone currently in a Kentucky state prison?",
+        answer: "Use the KOOL Kentucky Offender Online Lookup at corrections.ky.gov. Search by the first three letters of the first and last name. The search shows the current facility and offender ID number. For federal inmates in Kentucky, use the Bureau of Prisons locator at bop.gov. Federal Medical Center Lexington is a federal facility that requires CorrLinks for messaging, not Securus.",
+      },
+      {
+        question: "Can I send electronic messages to someone at a Kentucky state prison?",
+        answer: "Electronic messaging availability varies by facility in Kentucky. Some KDOC facilities offer messaging through Securus or JPay. Contact the specific facility to confirm whether electronic messaging is available and which platform to use. Written physical mail goes directly to the facility for inspection. Books and magazines must be sent directly from a publisher or approved retailer.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Kentucky county jail to a state prison?",
+        answer: "When someone transfers from a county jail to a KDOC state prison, confirm the new facility using the KOOL tool at corrections.ky.gov. The phone provider at a state prison is Securus. If they were in a county jail using a different provider, you may need to create a new Securus account. JPay handles money deposits at state facilities. Get the new offender ID number and facility name before setting up any new accounts.",
+      },
     ],
 
     facilitiesByType: { federal: 8, state: 14, county: 120, private: 10 },

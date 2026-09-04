@@ -2909,11 +2909,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in an Arkansas jail or prison. Find the right provider for ADC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Arkansas operates its state prison system through the Arkansas Division of Correction, which manages facilities spread across the state's diverse geography, from the Ozark highlands in the northwest to the Arkansas Delta in the east. The Delta region is home to several large state prison farms, including the Cummins Unit in Lincoln County, one of the most historically significant correctional institutions in the South. Arkansas's 75 counties each operate their own detention facilities under county sheriff oversight, and the size and resources of these jails vary considerably between urban counties like Pulaski and Washington and the smaller rural counties of the eastern and southern parts of the state.",
+      "Arkansas operates its state prison system through the Arkansas Department of Corrections (ADC). Securus Technologies holds the ADC contract for phone calls and e-messaging at most state facilities. To receive calls, set up a Securus AdvanceConnect prepaid account at securustech.net or call 1-800-844-6591. You can also fund an Inmate Debit account directly so the inmate pays for calls from their own funds without you needing your own account. Arkansas DOC also has an automated phone deposit IVR at 501-474-6460 for state prison prepaid accounts. As of May 31, 2025, Arkansas DOC no longer accepts paper money orders.",
+      "Video visitation at Arkansas DOC facilities is available through Securus at $5.00 per 30-minute session as of January 2025. Contact Securus customer service for video visit technical assistance and billing at 877-578-3658. E-messaging through Securus uses a digital stamp system. Attorneys may not use the ADC video visitation system. All non-legal calls are recorded and may be monitored.",
+      "Arkansas county and city jails use their own phone vendors with their own rate structures. Pulaski County Regional Detention Facility in Little Rock uses TouchPay for money transfers at touchpay.com rather than JPay. Some smaller Arkansas jails use Correct Solutions Group at 877-618-3516 or City Tele Coin. Always confirm which provider serves the specific county facility before setting up any account. For state prison DOC number lookup, use the ADC inmate search at doc.arkansas.gov.",
+    ],
 
-      "JPay is the primary platform for Arkansas Division of Correction state facilities, covering messaging, money transfer, and photo sharing. Securus and GTL handle phone and video services at state prisons and county jails. The Pulaski County Detention Facility in Little Rock, which serves as the jail for the state's most populous county, operates under its own provider contract. Arkansas also has a notable federal Bureau of Prisons presence in St. Francis County, where the Federal Correctional Institution Forrest City includes both a low-security and a medium-security facility on the same campus. Federal inmates at Forrest City and elsewhere in Arkansas require CorrLinks for electronic messaging.",
+    overview: [
+      "Which provider do Arkansas state prison families use? Securus Technologies holds the ADC contract for most Arkansas state facilities. Visit securustech.net or call 1-800-844-6591 for account setup. You can set up an AdvanceConnect prepaid account or fund an Inmate Debit account. The ADC also has an IVR deposit line at 501-474-6460. As of May 31, 2025, paper money orders are no longer accepted at Arkansas DOC facilities.",
+      "What changed about money transfers at Arkansas state prisons? Arkansas DOC stopped accepting paper money orders after May 31, 2025. Money must now be deposited through electronic methods including the Securus website, the ADC IVR at 501-474-6460, JPay, or other approved electronic deposit services. Pulaski County Regional Detention Facility uses TouchPay rather than JPay for money transfers. Always confirm the current accepted methods for each specific facility.",
+      "What is the most common mistake Arkansas prison families make? Using the wrong provider for county jails is very common in Arkansas. Securus handles ADC state prisons but Arkansas county jails use different vendors including Correct Solutions Group, City Tele Coin, and Securus depending on the county. Pulaski County in Little Rock uses TouchPay for money deposits rather than JPay. Always call the specific facility or check its website to confirm the current phone and money transfer providers.",
+    ],
 
-      "Arkansas families researching inmate communication often find that the relevant information is scattered across the state DOC website, individual county sheriff pages, and provider portals that do not consistently reflect which facilities they serve. Whether you are trying to reach someone at an ADC state prison, a county jail in Fayetteville or Fort Smith, or the federal complex in Forrest City, this directory organizes the provider and facility information for Arkansas so you can identify the right platform and get started without sorting through multiple disconnected resources.",
+    faq: [
+      {
+        question: "Which provider do I use for Arkansas state prison phone calls?",
+        answer: "Securus Technologies holds the ADC Arkansas state prison contract. Visit securustech.net or call 1-800-844-6591. Set up an AdvanceConnect prepaid account to receive calls or fund an Inmate Debit account so the inmate pays from their own funds. The ADC also has an IVR deposit line at 501-474-6460. As of May 31, 2025, paper money orders are no longer accepted at Arkansas DOC facilities.",
+      },
+      {
+        question: "Are phone calls free at Arkansas state prisons?",
+        answer: "No. Arkansas is not among the states offering free inmate phone calls. Securus Technologies holds the ADC contract and charges per-minute rates subject to FCC caps effective April 2026. FCC rate caps have significantly reduced costs from historical Arkansas highs. JPay electronic messaging and written mail are lower-cost alternatives for regular contact with someone at an Arkansas state prison.",
+      },
+      {
+        question: "How do I send money to someone at an Arkansas state prison?",
+        answer: "Electronic deposit methods are required at Arkansas DOC as paper money orders are no longer accepted after May 31, 2025. Deposit through the Securus website at securustech.net, through the ADC IVR at 501-474-6460, through JPay at jpay.com, or other approved electronic services. Always include the inmate DOC number on all transactions. For Pulaski County Regional Detention Facility use TouchPay rather than JPay.",
+      },
+      {
+        question: "How do I schedule a video visit at an Arkansas state prison?",
+        answer: "Video visits at ADC facilities are available through Securus at $5.00 per 30-minute session as of January 2025. Contact Securus customer service for technical assistance and billing at 877-578-3658. Attorneys may not use the ADC video visitation system. Schedule visits through your Securus account at securustech.net. All video visits are recorded and monitored.",
+      },
+      {
+        question: "How do I find someone currently in an Arkansas state prison?",
+        answer: "Use the ADC inmate search at doc.arkansas.gov to find the DOC number and current facility. You need the DOC number to set up Securus and JPay accounts and for all mail. For county jail inmates, contact the specific county facility. Pulaski County Regional Detention Facility in Little Rock can be reached directly. For federal inmates in Arkansas, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "Which provider does Pulaski County jail in Little Rock use?",
+        answer: "Pulaski County Regional Detention Facility in Little Rock uses a different money transfer system than Arkansas state prisons. TouchPay is the primary platform for deposits at Pulaski County. Deposit online at touchpay.com or by calling their automated line. Contact the facility directly to confirm the current phone provider for calls. Do not use JPay for Pulaski County money deposits.",
+      },
+      {
+        question: "Can I send e-messages to someone at an Arkansas state prison?",
+        answer: "Yes. Securus e-messaging is available at Arkansas ADC state facilities through a digital stamp system. Create a Securus account at securustech.net and purchase stamps to send electronic messages. All messages are reviewed before delivery. E-messaging is a lower-cost alternative to phone calls for maintaining regular contact with someone at an Arkansas state prison.",
+      },
+      {
+        question: "What happens when my loved one transfers from an Arkansas county jail to a state prison?",
+        answer: "When someone transfers from an Arkansas county jail to an ADC state prison, the provider changes to Securus. Set up a Securus AdvanceConnect account at securustech.net after confirming the transfer and obtaining the DOC number from the ADC inmate search at doc.arkansas.gov. Paper money orders are no longer accepted at ADC facilities. Use electronic deposit methods through Securus or JPay for money transfers.",
+      },
     ],
 
     facilitiesByType: { federal: 8, state: 18, county: 92, private: 10 },

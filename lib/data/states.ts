@@ -2448,11 +2448,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Wisconsin jail or prison. Find the right provider for WDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Wisconsin's correctional system is run by the Wisconsin Department of Corrections, which operates state prisons at facilities including Waupun Correctional Institution in Dodge County, Green Bay Correctional Institution, and several other prisons distributed across the state's 72 counties. County jails in Wisconsin operate under local sheriff's authority, with Milwaukee County running the largest jail system in the state. The geographic spread from the Milwaukee and Madison metro areas in the southeast to the northern woodlands and Lake Superior shoreline means that rural county jails and urban detention centers serve very different populations but both require families to navigate the same provider landscape.",
+      "Wisconsin operates its state prison system through the Wisconsin Department of Corrections (WIDOC). ICSolutions is the phone provider for all WIDOC state adult correctional facilities. To set up a Prepaid Collect account, visit icscorrections.com or call ICSolutions at 888-506-8407. If you accept a call from a WIDOC inmate before setting up an account, you receive one complimentary 60-second call and are then automatically connected with a customer service agent to set up an account. Debit calling can also be set up so the inmate calls from their own trust account funds.",
+      "Every Wisconsin DOC inmate is assigned a unique DOC number when they enter state custody. This number must appear on all mail sent to WIDOC facilities and is required for the Wisconsin DOC LOIS offender search at appsdoc.wi.gov. The DOC number is permanent for the entire sentence regardless of facility transfers. If your loved one was recently sentenced and transferred from county to state custody, allow 24 to 48 hours for LOIS to update before searching. County jail detainees have their own booking numbers that are separate from state DOC numbers.",
+      "JPay handles money deposits for Wisconsin DOC inmate trust accounts. JPay is available at jpay.com and through the JPay mobile app. Wisconsin county jails use their own contracted providers which differ from state facilities. Dane County Jail in Madison uses GTL ConnectNetwork. Outagamie County Jail in Appleton also uses GTL ConnectNetwork. Lincoln County Jail in Merrill uses Securus Technologies. Always confirm which provider serves the specific county facility before setting up any account.",
+    ],
 
-      "JPay is the primary platform for Wisconsin Department of Corrections state facilities, supporting messaging, photo sharing, and money transfer. Securus and GTL provide phone and video services at state prisons and many county jails. Milwaukee County Jail, which processes a large volume of bookings for the state's largest city, has its own provider arrangement. The federal correctional campus near Oxford in Marquette County, which includes FCI Oxford, operates under Bureau of Prisons guidelines and requires CorrLinks for electronic communication. Wisconsin's smaller county jails, particularly in northern and western parts of the state, may operate with more limited communication options than urban facilities.",
+    overview: [
+      "Which provider do Wisconsin state prison families use? ICSolutions is the phone provider for all WIDOC adult state correctional facilities. Visit icscorrections.com or call 888-506-8407 to set up an account. JPay handles money deposits. Use the LOIS offender search at appsdoc.wi.gov to find the DOC number and current facility. Wisconsin county jails use different providers including GTL ConnectNetwork and Securus.",
+      "What is the DOC number and the LOIS system? The DOC number is the unique identification number assigned to every person in WIDOC custody. LOIS stands for the Wisconsin DOC offender search tool at appsdoc.wi.gov. You need the DOC number to set up ICSolutions and JPay accounts, for mail, and for any contact with the DOC. The DOC number appears in LOIS search results and is permanent for the entire sentence. Allow 24 to 48 hours after a county to state transfer before searching.",
+      "What is the most common mistake Wisconsin prison families make? Using the wrong provider for county jails is very common in Wisconsin. ICSolutions serves WIDOC state prisons but Wisconsin county jails use GTL ConnectNetwork, Securus, or ICSolutions depending on the county. Families setting up an ICSolutions account for a county jail that uses GTL ConnectNetwork will not be able to receive calls. Always check the specific county jail website or call the facility to confirm the current provider.",
+    ],
 
-      "Wisconsin families dealing with the correctional communication system for the first time often find that the right provider is not obvious without knowing the specific facility type. State prisons, county jails, and federal institutions each have separate platforms and separate processes, and the information is not published in any single location. This directory organizes facility and provider data for Wisconsin so families can identify the correct communication service, understand what options are available at the relevant facility, and get started without having to work through multiple disconnected sources.",
+    faq: [
+      {
+        question: "Which provider do I use for Wisconsin state prison phone calls?",
+        answer: "ICSolutions is the phone provider for all WIDOC Wisconsin adult state correctional facilities. Visit icscorrections.com or call 888-506-8437. You can set up a Prepaid Collect account linked to your number or fund a Debit account for the inmate. If you accept a call before setting up an account, you receive one complimentary 60-second call and are connected to an agent to set up an account.",
+      },
+      {
+        question: "How do I send money to someone at a Wisconsin state prison?",
+        answer: "JPay handles money deposits for Wisconsin DOC inmate trust accounts. Visit jpay.com or use the JPay app to create an account and make a deposit. You can also send a money order or cashier's check by mail. Always include the inmate's full name and DOC number on all transactions. County jail money deposits use different providers depending on the specific county facility.",
+      },
+      {
+        question: "Are phone calls free at Wisconsin state prisons?",
+        answer: "No. Wisconsin is not among the states offering free inmate phone calls. ICSolutions holds the WIDOC contract and calls are charged per minute subject to FCC caps effective April 2026. Wisconsin has one of the most severe racial disparities in incarceration in the country and advocacy organizations have pushed for free calls but legislation has not passed as of 2026.",
+      },
+      {
+        question: "What is the LOIS system and how do I find the DOC number?",
+        answer: "LOIS is the Wisconsin DOC offender search tool at appsdoc.wi.gov. Search by name to find the DOC number and current facility location. The DOC number is permanent for the entire sentence regardless of facility transfers. Allow 24 to 48 hours after a county to state transfer before searching. County jail detainees have booking numbers separate from the state DOC number.",
+      },
+      {
+        question: "Which provider does Dane County Jail in Madison use?",
+        answer: "Dane County Jail in Madison uses GTL ConnectNetwork, not ICSolutions. Contact the jail at 608-284-6100 and visit connectnetwork.com to set up an account. Outagamie County Jail in Appleton also uses GTL ConnectNetwork. Lincoln County Jail in Merrill uses Securus Technologies. Always confirm the provider directly with the county facility before setting up any account.",
+      },
+      {
+        question: "How do I find someone currently in a Wisconsin state prison?",
+        answer: "Use the LOIS Wisconsin DOC offender search at appsdoc.wi.gov. Search by name to find the DOC number and current facility. For county jail inmates, contact the specific county sheriff's office. For federal inmates in Wisconsin, use the Bureau of Prisons locator at bop.gov. For general DOC questions call 608-240-5000 or email DOCGeneral@wisconsin.gov.",
+      },
+      {
+        question: "What is Debit calling and how does it work in Wisconsin?",
+        answer: "Debit calling allows the inmate to call any approved number using funds from their own trust account rather than requiring the family to fund a calling account. Family members can deposit money into the inmate trust account through JPay, and the inmate uses those funds for calls. Debit services belong to the inmate and can only be refunded to the inmate. There is no fee for Debit refunds. Contact ICSolutions at 888-506-8407 for details.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Wisconsin county jail to a state prison?",
+        answer: "When someone transfers from a county jail to a WIDOC state prison, the provider changes to ICSolutions. They receive a permanent DOC number that must be used for all future communication. County jail accounts do not transfer. Allow 24 to 48 hours after the transfer before searching LOIS at appsdoc.wi.gov. Create a new ICSolutions account at icscorrections.com and set up JPay for money deposits after confirming the transfer and DOC number.",
+      },
     ],
 
     facilitiesByType: { federal: 8, state: 18, county: 94, private: 8 },

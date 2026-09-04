@@ -2784,11 +2784,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Washington jail or prison. Find the right provider for WDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Washington State's correctional system is managed by the Washington State Department of Corrections, which operates prisons at locations including the Washington State Penitentiary in Walla Walla and the Monroe Correctional Complex in Snohomish County east of Seattle. The state's 39 counties each operate their own jail system, and the significant geographic divide between the densely populated Puget Sound region and the drier, more rural eastern side of the Cascades means that King County's large urban detention system in Seattle operates in a very different environment from county jails in Yakima or Walla Walla. A federal detention presence in the SeaTac area serves the broader Pacific Northwest region.",
+      "Washington State operates its prison system through the Washington State Department of Corrections (WDOC). Securus Technologies holds the current contract for all phone, e-messaging, video, and electronic media services at Washington state facilities. Each incarcerated individual is assigned a Personal Identification Number (PIN) and uses it to initiate all calls. There is no application or verification process required to receive calls. When a call comes in, you hear a pre-recorded message identifying the facility and the name of the person calling, then choose to accept or deny.",
+      "Under Washington's contract with Securus, each incarcerated individual receives two free 20-minute phone calls per week, monthly free Video Connect sessions, and free stamps for e-messaging. Additional calls beyond the free allotment are charged at the Securus contracted rate. Funds can be added to a Securus Debit account owned by the inmate, or to an AdvanceConnect account owned by the family. The Securus Debit account can be used for phone calls, e-messaging, stamps, tablet media including games, music, and movies, and Video Connect sessions.",
+      "Money can also be sent to Washington DOC inmates through JPay or through Western Union, cashier's check, or money order. Washington state prison mail policies require the incarcerated individual's DOC number on all correspondence. Washington county and city jails use their own phone providers. Pierce County Jail and many other county facilities in Washington also use Securus Technologies at 800-844-6591. King County Correctional Facility in Seattle uses its own contracted vendor.",
+    ],
 
-      "JPay is the primary platform for Washington State Department of Corrections facilities, handling messaging, photo sharing, and money transfer. Securus and GTL provide phone and video services at state prisons and county jails. King County, which operates the King County Correctional Facility in Seattle and the Maleng Regional Justice Center in Kent, runs one of the most active county detention systems on the West Coast under its own provider arrangements. Federal facilities in Washington, including the Federal Detention Center SeaTac, require CorrLinks for electronic communication under Bureau of Prisons guidelines. Families dealing with Washington's correctional system for the first time may not realize that the Seattle-area jail system, the state prison system, and federal facilities are entirely separate with different providers and different account requirements.",
+    overview: [
+      "Which provider do Washington state prison families use? Securus Technologies handles all phone calls, e-messaging, video visits, and electronic media at Washington state facilities. Visit securustech.net or the WDOC Securus Services page at doc.wa.gov. No application or verification is required to receive calls. Each incarcerated individual receives two free 20-minute calls per week plus monthly free video sessions and free e-messaging stamps.",
+      "What is the difference between Securus Debit and AdvanceConnect in Washington? Securus Debit is an account owned by the incarcerated individual that family members fund directly. It can be used for phone calls, e-messaging, stamps, tablet media, and video sessions. AdvanceConnect is an account owned by the family member that allows them to receive collect calls with charges deducted from a prepaid balance. Both options work at Washington state facilities and cover different use cases.",
+      "What is the most common mistake Washington prison families make? Not knowing that Securus Debit and the commissary account are separate is a common confusion. Securus Debit funds pay for Securus services like calls, messages, and media. Commissary account funds pay for items purchased from the facility store. Sending money to the wrong account type means the inmate cannot use it for the intended purpose. Always confirm which account type serves your specific need before making a deposit.",
+    ],
 
-      "Washington families researching inmate communication options typically find that the most difficult part is identifying which facility and which system applies to their situation. The state prison system in eastern Washington, the Puget Sound county jail network, and federal facilities near Sea-Tac airport each have separate providers and separate processes. This directory brings that information together for Washington so families can find the correct platform quickly and start the communication process without having to navigate multiple government and provider websites to find a basic answer.",
+    faq: [
+      {
+        question: "Which provider do I use for Washington state prison phone calls?",
+        answer: "Securus Technologies handles all phone calls at Washington state DOC facilities. Visit securustech.net or contact Securus for account setup. No application or verification process is required to receive calls. Each incarcerated individual receives two free 20-minute calls per week under the Washington DOC Securus contract. Additional calls beyond the free allotment are charged at the contracted rate.",
+      },
+      {
+        question: "Does Washington state offer free phone calls from prison?",
+        answer: "Partially. Each incarcerated individual in Washington state DOC facilities receives two free 20-minute phone calls per week, monthly free Video Connect sessions, and free e-messaging stamps under the Securus contract. Additional calls beyond the free allotment are charged. Washington is not among the states that offer fully unlimited free calling but the free allotment significantly reduces costs for families.",
+      },
+      {
+        question: "What is the difference between Securus Debit and AdvanceConnect?",
+        answer: "Securus Debit is owned by the incarcerated individual and funded by family contributions. It pays for calls, e-messaging, stamps, tablet media, and Video Connect. AdvanceConnect is owned by the family member and allows collect calls with charges deducted from a prepaid balance. Both work at Washington state facilities. Contact Securus at securustech.net to choose which account type works best for your situation.",
+      },
+      {
+        question: "How do I send money to someone at a Washington state prison?",
+        answer: "Money can be sent through JPay at jpay.com, through Securus Technologies, by Western Union, or by cashier's check or money order. You can fund the Securus Debit account for Securus services or the trust account for commissary. Always include the incarcerated individual's DOC number on all transactions. Confirm which account type you are funding before making a deposit.",
+      },
+      {
+        question: "How do I find someone currently in a Washington state prison?",
+        answer: "Use the Washington DOC offender search at doc.wa.gov. You can search by name or DOC number. The DOC number must appear on all mail sent to Washington state facilities. For county jail inmates, contact the specific county facility. Pierce County Jail uses Securus at 800-844-6591. King County Correctional Facility in Seattle uses its own provider. For federal inmates in Washington, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "How do I block calls from a Washington state prison?",
+        answer: "You can block calls from a specific incarcerated individual or from all Washington state prison facilities. Contact Securus at securustech.net or call 800-844-6591 to set up a block. For Pierce County Jail, contact the jail directly at 253-798-4590 or through Securus. Washington DOC does not maintain block lists directly. According to a 2025 investigation, block lists are maintained by Securus rather than by the DOC.",
+      },
+      {
+        question: "Are video visits available at Washington state prisons?",
+        answer: "Yes. Video Connect sessions are available at Washington state DOC facilities through Securus. Each incarcerated individual receives a limited number of free monthly Video Connect sessions under the Washington DOC contract. Additional sessions can be purchased. Schedule visits through the Securus platform at securustech.net after setting up an account. Custom call features such as three-way calling and call forwarding are not permitted.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Washington county jail to a state prison?",
+        answer: "When someone transfers from a county jail to a Washington state DOC prison, they begin receiving the Securus contract benefits including two free calls per week and free monthly video sessions. County jails may use different providers. Pierce County Jail uses Securus so the account may carry over, but confirm with Securus directly. Create or update your Securus account after confirming the transfer and obtaining the new DOC number.",
+      },
     ],
 
     facilitiesByType: { federal: 8, state: 14, county: 72, private: 8 },

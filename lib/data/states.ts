@@ -2659,11 +2659,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "Colorado DOC phone calls are free for families. How to contact someone in a Colorado prison or county jail. Find the right provider for CO state prisons and jails.",
 
     intro: [
-      "Colorado's correctional system is operated by the Colorado Department of Corrections, which runs state prisons at several locations including a concentration of facilities in the Canon City area of Fremont County, where both state and federal institutions sit in close proximity. Colorado's 64 counties each operate their own detention system, and the population and geography of the state range from the Denver Front Range metro to rural mountain counties and the Western Slope. The Fremont County area is particularly notable because it houses multiple Colorado state prisons, the federal ADX Florence supermaximum security prison, and FCI Florence, making it one of the highest-density correctional areas in the country.",
+      "Colorado operates its state prison system through the Colorado Department of Corrections (CDOC). Phone calls from all CDOC state prison facilities are free and unlimited under House Bill 23-1133, which took full effect on July 1, 2025. Neither the inmate nor the person receiving the call is charged per minute or per call. Video calls are also available at no cost through the CDOC tablet program. You do not need to fund a prepaid calling account to receive calls from Colorado state prisons.",
+      "Even though calls are free, families still need to be on the approved contact list to receive calls. Video visits at CDOC facilities are scheduled online through Securus after being approved on the visiting list. Visitor approval is processed through CDOC's visitor registration system and takes two to four weeks. Background checks are required for adult visitors. Children under 18 must be on the visitor list and accompanied by an approved adult.",
+      "Colorado DOC mail requires the inmate DOC number on all envelopes. Photos must be 4x6 inch prints. Many CDOC facilities are located in Canon City and it is important to confirm which specific facility your loved one is at before mailing anything. For federal inmates in Colorado, ADX Florence is the federal Supermax in Fremont County. Federal inmates use CorrLinks for messaging and ConnectNetwork for phone calls, which are separate from CDOC systems and not free.",
+    ],
 
-      "JPay is the primary platform for Colorado Department of Corrections state facilities, covering messaging, money transfer, and photo sharing. Securus and GTL provide phone and video services at state prisons and many county jails across the state. Denver County, which operates the Denver County Jail and houses the largest urban detention population in the state, has its own provider setup. Federal facilities in Colorado, including ADX Florence, FCI Florence, and FMC Englewood, require CorrLinks for electronic communication under Bureau of Prisons guidelines. Families with a loved one in a federal institution in the Canon City area should be aware that communication options at ADX Florence may be more restricted than at a standard federal prison due to its supermaximum security designation.",
+    overview: [
+      "Are phone calls free at Colorado state prisons? Yes. Phone calls from CDOC state prison facilities became fully free on July 1, 2025 under House Bill 23-1133. Video calls are also free through the CDOC tablet program. Colorado is one of six states including California, Connecticut, Massachusetts, Minnesota, and New York to have fully eliminated phone call charges at state prisons. You do not need a prepaid account. Contact must still go through approved calling procedures.",
+      "Which provider handles video visits at Colorado state prisons? Video visits at CDOC facilities use the Securus platform for scheduling after visitor approval. Apply for visitor approval through the CDOC visitor registration system online. Approval takes two to four weeks and a background check is required. Once approved, schedule visits through the Securus platform. For Colorado State Penitentiary visiting appointments call 719-269-5252.",
+      "What is the most common mistake Colorado prison families make? Thinking that free calls mean no setup is required at all is the most common mistake. Families must still be on the approved contact list to receive calls even though there is no charge. Visitors also need approval before scheduling video visits. Also, do not confuse CDOC state prisons with federal facilities in Colorado. ADX Florence is a federal Supermax and uses completely separate systems with charges.",
+    ],
 
-      "Colorado families trying to find communication information for correctional facilities often encounter a system that is more layered than it appears from the outside. The high concentration of state and federal prisons near Canon City can create confusion about which system and which provider applies when facilities with similar names sit in close proximity. This directory organizes facility and provider data for Colorado so families can identify the correct platform for their specific situation, understand what communication services are available, and avoid the common mistake of setting up an account with the wrong system.",
+    faq: [
+      {
+        question: "Are phone calls really free at Colorado state prisons?",
+        answer: "Yes. Phone calls from all CDOC Colorado state prison facilities became fully free on July 1, 2025 under House Bill 23-1133. Neither the inmate nor the person receiving the call is charged. Video calls are also free through the CDOC tablet program. Colorado is one of six states that have fully eliminated phone call charges at state prisons. You do not need to fund a prepaid calling account.",
+      },
+      {
+        question: "Do I still need to do anything to receive free calls from Colorado state prisons?",
+        answer: "Yes. Even though calls are free, you still need to be on the approved contact list to receive calls. The inmate adds approved contacts from inside the facility. Contact the facility directly if you are not receiving calls to confirm you are on the approved list. Video visits also require advance visitor approval through the CDOC visitor registration system which takes two to four weeks.",
+      },
+      {
+        question: "How do I schedule a video visit at a Colorado state prison?",
+        answer: "Apply for visitor approval through the CDOC visitor registration system online at cdoc.colorado.gov. Approval requires a background check and takes two to four weeks. Once approved, schedule video visits through the Securus platform online. For Colorado State Penitentiary visiting appointments call 719-269-5252. Children under 18 must be on the visitor list and accompanied by an approved adult.",
+      },
+      {
+        question: "How do I find someone currently in a Colorado state prison?",
+        answer: "Use the CDOC offender search at doc.colorado.gov/offender-search. You can search by DOC number or name. Many CDOC facilities are located in Canon City so confirm the specific facility before mailing anything. For federal inmates in Colorado including those at ADX Florence, use the Bureau of Prisons locator at bop.gov. Federal inmates are separate from CDOC and use different communication systems.",
+      },
+      {
+        question: "Is ADX Florence in Colorado free for phone calls?",
+        answer: "No. ADX Florence is a federal Bureau of Prisons Supermax facility in Fremont County Colorado. Federal prisons are completely separate from CDOC state prisons. Federal inmates use CorrLinks for messaging and ConnectNetwork for phone calls. These services are not free and are not covered by Colorado's state free call program. The Colorado free call law applies only to CDOC state facilities.",
+      },
+      {
+        question: "How do I send money to someone at a Colorado state prison?",
+        answer: "Since phone calls are free, the primary reason to send money is for commissary purchases. Money can be sent through CDOC approved deposit methods. Always include the inmate's DOC number when making any deposit. Contact the specific facility or check cdoc.colorado.gov for current approved money transfer methods and any applicable limits.",
+      },
+      {
+        question: "Can I send photos to someone at a Colorado state prison?",
+        answer: "Yes. Photos must be 4x6 inch prints. Many CDOC facilities are in Canon City so confirm the exact facility and mailing address before sending anything. The inmate's DOC number must appear on all envelopes. Check the specific facility's mail rules before sending as requirements can vary between facilities.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Colorado county jail to a state prison?",
+        answer: "When someone transfers from a Colorado county jail to a CDOC state prison, phone calls become free. County jails in Colorado use their own providers and typically charge for calls. CDOC state prisons offer free unlimited calls under HB23-1133. Contact the new facility to confirm approved contact procedures and get the CDOC DOC number which is required for mail and other communication.",
+      },
     ],
 
     facilitiesByType: { federal: 10, state: 18, county: 82, private: 8 },

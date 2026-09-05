@@ -3034,11 +3034,50 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     seoDescription: "How to contact someone in a Mississippi jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
 
     intro: [
-      "Mississippi's correctional system is operated by the Mississippi Department of Corrections, which manages state prisons including the Mississippi State Penitentiary at Parchman in the Delta, one of the oldest and most well-known correctional institutions in the United States. The Parchman farm, as it is historically known, has operated in Sunflower County for over a century and remains central to the state prison system today. Beyond Parchman and other MDOC state facilities, Mississippi's 82 counties each operate their own jails under local sheriff oversight. The rural nature of much of the state means that many county detention centers serve small populations with limited communication infrastructure.",
+      "Mississippi operates its state prison system through the Mississippi Department of Corrections (MDOC). GTL ViaPath Technologies holds the MDOC contract for phone calls and messaging services at most state facilities. New accounts can be established by calling 877-650-4249. Service is also available through the ConnectNetwork website and app. Mississippi has not eliminated phone call fees for state inmates. FCC rate caps effective April 2026 significantly reduced per-minute costs from historically very high Mississippi rates, but calls are still charged per minute.",
+      "Phone contact is especially important for Mississippi families because many state facilities are located in rural parts of the Delta, Piney Woods, and other areas far from where families live. Traveling to visit in person is expensive and time-consuming for many families. The MDOC number is the unique identification number assigned to every person sentenced to Mississippi state prison. It must appear on all mail sent to MDOC facilities. Use the MDOC offender search at mdoc.ms.gov to find the MDOC number and current facility location.",
+      "Mississippi county jails use their own phone providers which differ from MDOC state prisons. Hinds County Detention Center in Raymond uses its own contracted provider. Money can be deposited to inmate accounts through JPay at jpay.com. Written mail and JPay electronic messaging are the most cost-effective alternatives when phone costs are a barrier. Mississippi state prison visit approval typically takes two to six weeks and requires a background check for adult visitors.",
+    ],
 
-      "JPay is the primary messaging and money transfer platform for Mississippi Department of Corrections state facilities. Securus and GTL provide phone and video services at state and county institutions. County jails in Mississippi each have separate provider contracts, and the service at a jail in the Gulf Coast counties of Harrison and Jackson may differ from what is available at a rural detention center in the Delta or the Pine Hills region. Federal correctional facilities near Yazoo City, which include a Bureau of Prisons campus housing multiple security levels, require CorrLinks for electronic communication.",
+    overview: [
+      "Which provider do Mississippi state prison families use? GTL ViaPath Technologies holds the MDOC contract. New accounts can be established by calling 877-650-4249 or through ConnectNetwork at connectnetwork.com. Use the MDOC offender search at mdoc.ms.gov to find the MDOC number and current facility. Mississippi has not eliminated phone call fees. FCC rate caps effective April 2026 significantly reduced per-minute rates from historically very high levels.",
+      "Why is phone contact especially important for Mississippi prison families? Many Mississippi DOC facilities are in rural areas of the Delta, Piney Woods, and other remote regions far from population centers. Traveling to visit in person is expensive and time-consuming for many families. This makes phone contact and electronic messaging through GTL ViaPath the primary way many Mississippi families stay connected with incarcerated loved ones.",
+      "What is the most common mistake Mississippi prison families make? Not having the MDOC number before setting up accounts is very common. You need the MDOC number to set up ConnectNetwork and JPay accounts, for all mail, and for the MDOC offender search. The MDOC number is different from any county booking number or court case number. Find it through the MDOC offender search at mdoc.ms.gov or ask your loved one to provide it in their first communication.",
+    ],
 
-      "Mississippi families dealing with the state's correctional communication system often encounter the same challenge that families everywhere face: identifying which provider is correct for the specific facility without access to a single organized source. The MDOC state system, county jails across 82 counties, and the federal facilities near Yazoo City all use different platforms and publish information in different places. This directory brings facility and provider data together for Mississippi so families can find the right communication service for their specific situation and move forward without unnecessary confusion.",
+    faq: [
+      {
+        question: "Which provider do I use for Mississippi state prison phone calls?",
+        answer: "GTL ViaPath Technologies holds the MDOC Mississippi state prison contract. Establish a new account by calling 877-650-4249 or through ConnectNetwork at connectnetwork.com. You need the inmate MDOC number to set up the account. Mississippi has not eliminated phone fees. FCC rate caps effective April 2026 reduced per-minute rates significantly from historically very high Mississippi levels.",
+      },
+      {
+        question: "Are phone calls free at Mississippi state prisons?",
+        answer: "No. Mississippi is not among the states offering free inmate phone calls. GTL ViaPath holds the MDOC contract and charges per-minute rates subject to FCC caps effective April 2026. Mississippi historically had among the highest prison phone rates in the country. The FCC rate caps represent a significant improvement but calls are still charged per minute. JPay electronic messaging and written mail are lower-cost alternatives.",
+      },
+      {
+        question: "What is the MDOC number and where do I find it?",
+        answer: "The MDOC number is the unique identification number assigned to every person sentenced to Mississippi state prison. It must appear on all mail sent to MDOC facilities and is required for ConnectNetwork and JPay account setup. Find it using the MDOC offender search at mdoc.ms.gov or ask your loved one to provide it. The MDOC number is different from any county booking number or court case number.",
+      },
+      {
+        question: "How do I send money to someone at a Mississippi state prison?",
+        answer: "JPay handles money deposits for MDOC state prison inmates. Visit jpay.com or use the JPay app to create an account and deposit funds. Always include the inmate MDOC number when making deposits. For county jail money transfers, contact the specific county facility as providers vary. Hinds County Detention Center uses its own money transfer system separate from JPay.",
+      },
+      {
+        question: "How do I find someone currently in a Mississippi state prison?",
+        answer: "Use the MDOC offender search at mdoc.ms.gov. Search by name to find the MDOC number and current facility location. For records and eligibility information contact the MDOC Records Department at 601-933-2889 or MDOCRecordsDepartment@mdoc.state.ms.us. For county jail inmates, contact the specific county sheriff's office. For federal inmates in Mississippi including those at FCC Yazoo City, use the Bureau of Prisons locator at bop.gov.",
+      },
+      {
+        question: "How long does visitor approval take at Mississippi state prisons?",
+        answer: "Visitor approval at Mississippi state prisons typically takes two to six weeks. A background check is required for adult visitors. Contact the specific facility to start the visitor application process. Mississippi facilities are often in remote rural locations so plan travel arrangements well in advance after approval is confirmed.",
+      },
+      {
+        question: "Do Mississippi county jails use the same provider as state prisons?",
+        answer: "No. Mississippi county jails use their own phone providers which differ from MDOC state prisons. GTL ViaPath serves MDOC state facilities but individual county jails contract their own vendors. Hinds County Detention Center in Raymond uses its own contracted provider. Always confirm the specific provider for each county jail before setting up any account.",
+      },
+      {
+        question: "What happens when my loved one transfers from a Mississippi county jail to a state prison?",
+        answer: "When someone transfers from a Mississippi county jail to an MDOC state prison, they receive an MDOC number and the communication provider changes to GTL ViaPath ConnectNetwork. County jail accounts do not transfer. Create a new ConnectNetwork account at connectnetwork.com or call 877-650-4249 after confirming the transfer. Search the MDOC offender search at mdoc.ms.gov to confirm the new facility and MDOC number.",
+      },
     ],
 
     facilitiesByType: { federal: 10, state: 18, county: 90, private: 10 },

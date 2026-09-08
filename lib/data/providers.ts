@@ -673,7 +673,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "corrlinks",
     initial: "C",
     color: "bg-emerald-700",
-    tagline: "CorrLinks - Official Federal Bureau of Prisons Messaging System for All Federal Inmates",
+    tagline: "CorrLinks: What It Is, How It Works and Federal Prison Email Guide",
     services: { messaging: true, video: false, photos: false, phone: false, moneyTransfer: false },
     statesCount: 50,
     facilitiesCount: 120,
@@ -681,20 +681,22 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "CorrLinks is the only approved electronic messaging platform for all federal Bureau of Prisons facilities. Federal inmates must use CorrLinks exclusively - no other messaging platform is accepted at BOP facilities. Creating an outside contact account is free.",
+      "CorrLinks is the official email system for all federal Bureau of Prisons inmates. Learn what CorrLinks is, how it works, how much it costs, how to reach CorrLinks customer service, and how to send money to a federal inmate. Creating an outside contact account on CorrLinks is free.",
 
-    seoTitle: "CorrLinks Review: Federal Bureau of Prisons Email System Guide for Families",
+    seoTitle: "What Is CorrLinks: Federal Prison Email, Cost and Customer Service",
     seoDescription:
-      "CorrLinks is the only approved messaging platform for all federal prisons. Learn how to receive your invitation, create a free account, send messages, and what it costs.",
+      "What is CorrLinks and how does it work for federal inmates. CorrLinks customer service phone number, how to send money, BOP TRULINCS email system explained. Free outside contact account.",
 
     website: "https://www.corrlinks.com",
 
     overview: [
-      "CorrLinks is the official electronic messaging system for the Federal Bureau of Prisons, operating under the TRULINCS system. If your loved one is in any federal prison in the United States, CorrLinks is the only platform you can use for electronic messaging. No other messaging service is approved for federal inmates.",
+      "What is CorrLinks and how does it work? CorrLinks is the official electronic messaging system for the Federal Bureau of Prisons, operating through the TRULINCS system. If your loved one is in any federal prison in the United States, CorrLinks is the only platform approved for electronic messaging. No other messaging service works at federal BOP facilities. CorrLinks is not the same as JPay. JPay serves state prisons. CorrLinks serves federal prisons only.",
 
-      "The CorrLinks system works differently from other platforms. The process must begin with the inmate - they log in to a TRULINCS terminal at the facility, enter your name and email address, and submit a contact request. CorrLinks then sends you a free invitation email. You cannot start the process yourself from outside.",
+      "How do I get started with CorrLinks? The process must begin with the inmate. Your loved one logs in to a TRULINCS terminal at their federal facility, enters your name and email address, and sends you a contact request. CorrLinks then sends you a free invitation email. You cannot start the process yourself from outside. Check your spam folder if the invitation does not arrive within 48 hours. As of late 2024, CorrLinks limits inmates to 10 outside contacts at one time.",
 
-      "CorrLinks does not support video calls, photo delivery, or phone services. Those functions at federal facilities are handled separately through ConnectNetwork by GTL. Creating a basic CorrLinks account as an outside contact is completely free. The inmate pays a usage fee of $0.05 per minute from their trust account.",
+      "Does CorrLinks cost money? Creating an outside contact account on CorrLinks is completely free. The inmate pays a usage fee of $0.30 per message from their trust account as of 2025. As an outside contact you do not pay per message. You can upgrade to a CorrLinks Premier Account for approximately $8 per year which adds push notifications so you know immediately when a new message arrives. Without Premier, you must log in and check manually.",
+
+      "What is the CorrLinks customer service phone number? CorrLinks customer service can be reached through the corrlinks.com website support section. For billing disputes and account issues, submit a written support ticket through your account rather than relying on phone support. If CorrLinks charged you for a Premier Account that is not functioning, contact customer service with your payment confirmation and if unresolved dispute the charge with your bank. The most reliable way to reach a live agent is to call during off-peak hours.",
     ],
 
     serviceDetails: {

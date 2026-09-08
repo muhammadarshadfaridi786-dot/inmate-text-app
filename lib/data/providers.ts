@@ -546,7 +546,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "gettingout",
     initial: "G",
     color: "bg-violet-600",
-    tagline: "GettingOut by Telmate Video Visits, Messaging and Phone Calls at 2,200+ County Jails",
+    tagline: "GettingOut App: What It Is, How It Works and County Jail Video Visit Guide",
     services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 45,
     facilitiesCount: 2200,
@@ -554,23 +554,25 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-          "GettingOut by Telmate provides video visitation, messaging, phone calls, photo sharing, and money transfers at 2,200+ county jails across 45 states. Best known for easy-to-use remote video visits from home.",
+          "GettingOut by Telmate is a video visitation, messaging, and phone call app for county jails. Learn what GettingOut is used for, how to set up video visits, send messages, and make phone calls from home without traveling to the jail. GettingOut serves 2,200+ county jails across 45 states.",
 
-    seoTitle: "GettingOut Review: Video Visits, Messaging and Phone Calls at County Jails",
+    seoTitle: "What Is GettingOut App: County Jail Video Visits, Messaging and Setup",
     seoDescription:
-      "GettingOut by Telmate guide for families how to schedule video visits, send messages, make phone calls, and transfer money at 2,200+ county jails across 45 states.",
+      "What is the GettingOut app and what is it used for. How does GettingOut work for county jail video visits, messaging and phone calls. GettingOut reviews and setup guide for families.",
 
     website: "https://www.gettingout.com",
     iosUrl: "https://apps.apple.com/us/app/gettingout/id453021164",
     androidUrl: "https://play.google.com/store/apps/details?id=com.telmate.gettingout",
 
     overview: [
-  "GettingOut is operated by Telmate, a subsidiary of GTL (Global Tel Link) and part of ViaPath Technologies. The platform serves over 2,200 county jails across 45 states and is one of the most widely used video visitation tools at the county jail level in the United States. If your loved one is in a county jail, GettingOut is one of the first platforms to check.",
+      "What is the GettingOut app and what is it used for? GettingOut is operated by Telmate, a subsidiary of GTL and part of ViaPath Technologies. It is an app for families to stay connected with loved ones in county jails. GettingOut is used for remote video visits from home, electronic messaging, photo sharing, phone calls, and money transfers. You do not need to travel to the facility to have a video visit through GettingOut. The app is available free for iOS and Android.",
 
-  "In addition to video visits, GettingOut supports electronic messaging, photo sharing, phone calls, and money transfers at participating facilities. Families create a single free account that covers all these services at any GettingOut-served facility. The same account and contact history carries over if a loved one transfers between county facilities in the same system.",
+      "How does GettingOut work for video visits? Create a free account at gettingout.com or download the GettingOut app. Find the county jail where your loved one is held and add them as a contact. Schedule a video visit by selecting an available time slot and paying in advance. At the scheduled time, open the app and join the session. You need a device with a camera and a stable internet connection. Sessions are 20 to 30 minutes and cost between $7.50 and $15 depending on the facility. All visits are recorded.",
 
-  "GettingOut is primarily a county jail platform. Most state prisons use different providers such as JPay or Securus. If your loved one transfers from a county jail to a state prison after sentencing, you will likely need to create a new account on the state facility provider. Always confirm the current facility and its provider before setting up a new account.",
-],
+      "What is GettingOut used for besides video visits? GettingOut also supports electronic messaging at participating facilities. You type a message, pay for the credit, and the message is delivered after staff review. Photo sharing is available at some facilities. You can also make phone calls through GettingOut and send money to inmate accounts. All these services are available under one account at facilities that have contracted for them. Check your dashboard to see which services are available at your specific facility.",
+
+      "GettingOut reviews from families show the app has a low rating due to technical problems and high fees. Common complaints include video visits dropping mid-session, accidental charges, and slow customer service. If a video visit fails due to a technical issue on the GettingOut side, report it immediately with your confirmation number to request a credit. GettingOut is operated by Telmate which is owned by GTL as part of ViaPath Technologies. Despite complaints, GettingOut remains the most widely used video visitation app at county jails because it holds exclusive contracts at 2,200+ facilities.",
+    ],
 
     serviceDetails: {
       messaging: {

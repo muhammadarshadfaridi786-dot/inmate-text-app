@@ -2018,7 +2018,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "city-tele-coin",
     initial: "C",
     color: "bg-red-700",
-    tagline: "City Tele Coin (CTC) Inmate Phone Calls & Money Transfer for County Jails",
+    tagline: "City Tele Coin (CTC): How to Add Money, Set Up Phone Calls and Commissary Deposits",
     services: { messaging: false, video: false, photos: false, phone: true, moneyTransfer: true },
     statesCount: 12,
     facilitiesCount: 180,
@@ -2026,25 +2026,23 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "City Tele Coin (CTC) is an inmate phone service provider serving 180+ county jails across 12 states. Families can fund prepaid phone accounts, deposit commissary money, and stay connected with incarcerated loved ones. Account setup is free and calls can begin within hours of adding funds.",
+      "City Tele Coin (CTC) provides inmate phone calls and commissary deposits at county jails across the South and Midwest since 1986. Learn how to add money on the CTC app, make commissary deposits, set up a DirectPay account, and fix common CTC problems. CTC customer service is available at 318-756-1114.",
 
-    seoTitle: "City Tele Coin (CTC) Review: Inmate Phone Calls and Money Transfer Guide",
+    seoTitle: "City Tele Coin (CTC): How to Add Money, Set Up Phone Calls and Commissary",
     seoDescription:
-      "City Tele Coin CTC guide for families how to set up a prepaid phone account, fund calls, transfer money, and which county jails use CTC services.",
+      "How to add money on City Tele Coin app, set up CTC inmate phone calls, make commissary deposits at citytelecoin.com. Step-by-step guide for families. CTC customer service: 318-756-1114.",
 
     website: "https://www.citytelecoin.com",
 
     overview: [
-  "City Tele Coin (CTC) is an inmate telephone service provider operating in over 180 county jails and local detention centers across 12 states. CTC specializes in phone calls and commissary deposits for families of incarcerated individuals in smaller county facilities.",
+      "How do I add money to City Tele Coin for an inmate? Visit citytelecoin.com and log in to your account. Select Add Funds, choose the account type (phone account or commissary deposit), enter the amount, and pay by debit card, credit card, or money order. You can also add money through the City Tele Coin mobile app. Search for City Tele-Coin in the iOS App Store or Google Play Store to download it. For live help call CTC customer service at 318-756-1114 between 7 AM and 7 PM Central time seven days a week.",
 
-  "To receive calls from an inmate using CTC, families must create a free prepaid account at citytelecoin.com and add funds before the first call. Once funds are added, the inmate can call your number directly from the facility phone.",
+      "How do I set up a CTC account for the first time? Go to citytelecoin.com and create a free DirectPay account linked to your phone number. Add the facility where your loved one is held by searching the facility name. Add funds via debit card, credit card, or money order. Once your account is funded the inmate can call your registered number directly from facility phones. You can also purchase a prepaid calling card at a CTC lobby kiosk inside the facility if you visit in person. For setup help call 318-756-1114.",
 
-  "CTC phone call rates vary by facility and are regulated by the FCC for interstate calls. Most families pay between $0.06 and $0.21 per minute depending on the facility location and call type.",
+      "What is the difference between a phone account and a commissary deposit at City Tele Coin? The phone account funds are for inmate calls to your registered number. The commissary account goes to the inmate trust account for use at the facility store. These are two separate accounts and funds cannot be transferred between them. Funding the phone account does not fund commissary and vice versa. Always select the correct account type before making a deposit to avoid sending funds to the wrong account.",
 
-  "In addition to phone calls, CTC offers commissary deposit services that allow families to send money directly to an inmate trust account. Funds are typically credited within one to two business days.",
-
-  "To find out if your loved one is in a CTC facility, contact the facility directly and ask which phone provider they use, or search our facility directory for the complete provider list.",
-],
+      "City Tele Coin has provided inmate telephone services since 1986 and serves county jails and local detention centers primarily in the South and Southeast United States. CTC is a regional provider and its facilities are concentrated in Louisiana, Texas, Tennessee, Alabama, and surrounding states. Unlike larger national providers such as Securus or GTL, CTC is family owned and operated and handles its own programming, installation, and field service in-house without outsourcing. All CTC systems are tested in-house before installation.",
+    ],
 
     serviceDetails: {
       messaging: {

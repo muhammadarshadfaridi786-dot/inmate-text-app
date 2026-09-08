@@ -24,14 +24,14 @@ const FaqPreview          = dynamic(() => import("@/components/home/FaqPreview")
 const FinalCTA            = dynamic(() => import("@/components/home/FinalCTA"))
 
 export const metadata: Metadata = {
-  title: "Inmate Text App: Find Prison Communication Options",
+  title: "Inmate Text App: Find Messaging, Phone Calls and Video Visit Options",
   description:
-    "Find inmate messaging, video visitation, and communication options at prisons across the United States. Compare providers, discover facilities, and learn how prison communication works.",
+    "Find inmate texting, phone calls, and video visit options at prisons and jails across the United States. Compare JPay, CorrLinks, ConnectNetwork, GettingOut and more. Free directory covering all 50 states.",
   openGraph: {
     url: "/",
-    title: "Inmate Text App: Find Prison Communication Options",
+    title: "Inmate Text App: Find Messaging, Phone Calls and Video Visit Options",
     description:
-      "Search 7,000+ correctional facilities. Compare providers, discover messaging options, and understand prison communication in minutes.",
+      "Find inmate texting, phone calls, and video visit options at prisons and jails across the US. Compare providers, discover facilities, and learn how prison communication works.",
   },
   twitter: {
     title: "Inmate Text App: Find Prison Communication Options",
@@ -43,44 +43,44 @@ export const metadata: Metadata = {
 
 const homeFaqs = [
   {
-    question: "What is InmateTextApp.com?",
-    answer: "InmateTextApp.com is a free directory that helps families find communication options at U.S. correctional facilities. We cover messaging, phone calls, video visits, photo sharing, and money transfers across 7,000+ facilities and 15 providers.",
+    question: "Can I text an inmate in jail or prison?",
+    answer: "Yes, but not through regular SMS text messages. Inmates use approved platforms like JPay, CorrLinks, GettingOut, and ConnectNetwork for electronic messaging. The platform depends on which facility your loved one is in. Each facility contracts with a specific provider. Create a free account on the correct platform, and the inmate can then exchange messages with you after staff review.",
   },
   {
-    question: "How do I find out which provider my loved one facility uses?",
-    answer: "Search our facility directory by facility name or browse by state. Each facility page lists which providers are available for messaging, phone calls, video visits, and money transfers.",
+    question: "What is the best inmate text app?",
+    answer: "The best inmate text app depends on which facility your loved one is in. JPay is the most widely used for state prisons, serving over 35 states. CorrLinks is the only approved platform for all federal Bureau of Prisons facilities. GettingOut by Telmate serves 2,200+ county jails. ConnectNetwork by GTL covers both state prisons and county jails. You cannot choose your preferred app. The facility determines which platform to use.",
   },
   {
-    question: "Is this website free to use?",
-    answer: "Yes. InmateTextApp.com is completely free. We do not charge for any information on this site. Creating accounts on communication providers like JPay, CorrLinks, or ConnectNetwork is also free, though the services themselves charge per message or per call.",
+    question: "How do I find out which inmate text service my loved one uses?",
+    answer: "Search our facility directory by the facility name or browse by state. Each facility page lists which providers are available for messaging, phone calls, video visits, and money transfers. You can also call the facility directly and ask which provider they use for each type of communication.",
   },
   {
-    question: "What is the difference between JPay, CorrLinks, and ConnectNetwork?",
-    answer: "JPay serves most state prisons. CorrLinks is the only approved platform for federal Bureau of Prisons facilities. ConnectNetwork by GTL serves county jails and some state prisons. The platform you need depends entirely on which facility your loved one is in.",
+    question: "Is InmateTextApp.com free to use?",
+    answer: "Yes. InmateTextApp.com is completely free. We do not charge for any information on this site. No account or registration is required. Creating accounts on communication providers like JPay, CorrLinks, or ConnectNetwork is also free, though the services themselves charge per message or per call.",
+  },
+  {
+    question: "How can I text an inmate for free?",
+    answer: "Free inmate texting depends on the facility. Several states including California, Colorado, Connecticut, Massachusetts, Minnesota, and New York have eliminated messaging costs at state facilities. Some county jails in Los Angeles, San Diego, and New York City also offer free communication. For facilities that still charge, electronic messages typically cost $0.25 to $0.50 each. Physical mail through services like TextBehind or Pigeonly converts your digital message to a printed letter and is often the most affordable option.",
+  },
+  {
+    question: "What is the difference between JPay, CorrLinks, and GettingOut?",
+    answer: "JPay serves most state prisons and handles messaging, photos, video visits, and money transfers. CorrLinks is the only approved platform for all federal Bureau of Prisons facilities. GettingOut by Telmate serves 2,200+ county jails and focuses on video visits. ConnectNetwork by GTL handles phone calls and messaging at both state prisons and county jails. The platform you need depends entirely on which specific facility your loved one is in.",
+  },
+  {
+    question: "How much do prison phone calls cost in 2026?",
+    answer: "Under FCC rules effective April 6, 2026, prison phone call rates are capped at $0.11 per minute for large prisons and large jails. Smaller facilities have higher caps up to $0.18 per minute for the smallest jails. Several states including California, Colorado, Connecticut, Massachusetts, Minnesota, and New York now offer free calls at state facilities. Check the specific facility page to find the current rate.",
   },
   {
     question: "Can I use the same account for multiple facilities?",
-    answer: "Most platforms allow you to add multiple inmates to one account as long as they are at facilities served by the same provider. If your contacts are at facilities using different providers, you will need separate accounts on each platform.",
+    answer: "Most platforms allow you to add multiple inmates to one account as long as they are at facilities served by the same provider. If your contacts are at facilities using different providers, you will need separate accounts on each platform. For example, a JPay account works for state prison contacts but you need a separate CorrLinks account for any federal prison contacts.",
   },
   {
     question: "How long does it take for an inmate message to arrive?",
-    answer: "Most electronic messages are delivered within a few hours to one business day after submission. Messages go through a staff review process before delivery. There is no way to expedite delivery.",
-  },
-  {
-    question: "Why are prison phone calls so expensive?",
-    answer: "Prison phone providers pay facilities a commission from call revenue in exchange for exclusive contracts. To cover these payments, providers charge families higher rates. The FCC has capped interstate calls at $0.21 per minute for prisons and $0.13 per minute for jails.",
+    answer: "Most electronic messages are delivered within a few hours to one business day after submission. Messages go through a staff review process before delivery. Physical letters sent through services like TextBehind or Pigeonly typically arrive within three to seven business days after printing and mailing.",
   },
   {
     question: "How do I send money to an inmate?",
-    answer: "Find out which money transfer provider the facility uses through our facility directory. Common providers include JPay, Access Corrections, and TouchPay. Create a free account, find the inmate by their ID number, and add funds by credit or debit card.",
-  },
-  {
-    question: "Can I visit someone in prison?",
-    answer: "Yes, but you must be approved and placed on the inmate visiting list first. This process takes two to six weeks and begins with the inmate submitting your information. Read our complete prison visitation guide for everything you need to know before your first visit.",
-  },
-  {
-    question: "What should I do if my messages are being blocked?",
-    answer: "Check your platform account for any notifications. Contact the messaging platform customer service to find out if your account has been flagged. If the block came from the facility, write a formal letter to the Warden or Communication Coordinator requesting a review.",
+    answer: "Find out which money transfer provider the facility uses through our facility directory. Common providers include JPay, Access Corrections, TouchPay, and ConnectNetwork. Create a free account on the correct platform, find the inmate by their ID number, and add funds by credit or debit card. Always confirm the inmate ID number and facility name before sending funds to avoid sending to the wrong account.",
   },
 ]
 

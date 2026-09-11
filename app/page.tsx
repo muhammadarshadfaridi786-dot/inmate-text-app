@@ -24,19 +24,19 @@ const FaqPreview          = dynamic(() => import("@/components/home/FaqPreview")
 const FinalCTA            = dynamic(() => import("@/components/home/FinalCTA"))
 
 export const metadata: Metadata = {
-  title: "Inmate Text App: Find Messaging, Phone Calls and Video Visit Options",
+  title: "Inmate Text App: Find Prison Messaging and Phone Options",
   description:
-    "Find inmate texting, phone calls, and video visit options at prisons and jails across the United States. Compare JPay, CorrLinks, ConnectNetwork, GettingOut and more. Free directory covering all 50 states.",
+    "Find inmate texting, phone calls, and video visits at US prisons and jails. Compare JPay, CorrLinks, GettingOut and more. Free directory, all 50 states.",
   openGraph: {
     url: "/",
-    title: "Inmate Text App: Find Messaging, Phone Calls and Video Visit Options",
+    title: "Inmate Text App: Find Prison Messaging and Phone Options",
     description:
-      "Find inmate texting, phone calls, and video visit options at prisons and jails across the US. Compare providers, discover facilities, and learn how prison communication works.",
+      "Compare JPay, CorrLinks, GettingOut and more. Find messaging, phone calls, and video visit options at prisons and jails across all 50 states.",
   },
   twitter: {
-    title: "Inmate Text App: Find Prison Communication Options",
+    title: "Inmate Text App: Find Prison Messaging and Phone Options",
     description:
-      "Search 7,000+ correctional facilities. Compare providers, discover messaging options, and understand prison communication in minutes.",
+      "Compare JPay, CorrLinks, GettingOut and more. Find messaging, phone calls, and video visit options at prisons and jails across all 50 states.",
   },
   alternates: { canonical: "/" },
 }
@@ -48,7 +48,7 @@ const homeFaqs = [
   },
   {
     question: "What is the best inmate text app?",
-    answer: "The best inmate text app depends on which facility your loved one is in. JPay is the most widely used for state prisons, serving over 35 states. CorrLinks is the only approved platform for all federal Bureau of Prisons facilities. GettingOut by Telmate serves 2,200+ county jails. ConnectNetwork by GTL covers both state prisons and county jails. You cannot choose your preferred app. The facility determines which platform to use.",
+    answer: "The best inmate text app depends on which facility your loved one is in. JPay is the most widely used for state prisons, serving over 35 states. CorrLinks is the only approved platform for all federal Bureau of Prisons facilities. GettingOut by Telmate serves 2,200 plus county jails. ConnectNetwork by GTL covers both state prisons and county jails. You cannot choose your preferred app because the facility determines which platform to use.",
   },
   {
     question: "How do I find out which inmate text service my loved one uses?",
@@ -64,7 +64,7 @@ const homeFaqs = [
   },
   {
     question: "What is the difference between JPay, CorrLinks, and GettingOut?",
-    answer: "JPay serves most state prisons and handles messaging, photos, video visits, and money transfers. CorrLinks is the only approved platform for all federal Bureau of Prisons facilities. GettingOut by Telmate serves 2,200+ county jails and focuses on video visits. ConnectNetwork by GTL handles phone calls and messaging at both state prisons and county jails. The platform you need depends entirely on which specific facility your loved one is in.",
+    answer: "JPay serves most state prisons and handles messaging, photos, video visits, and money transfers. CorrLinks is the only approved platform for all federal Bureau of Prisons facilities. GettingOut by Telmate serves 2,200 plus county jails and focuses on video visits. ConnectNetwork by GTL handles phone calls and messaging at both state prisons and county jails. The platform you need depends entirely on which specific facility your loved one is in.",
   },
   {
     question: "How much do prison phone calls cost in 2026?",

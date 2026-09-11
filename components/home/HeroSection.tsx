@@ -9,7 +9,7 @@ import SearchBar from "@/components/search/SearchBar"
 const trustItems = [
   "Free to Use",
   "No Account Required",
-  "Covers All 50 States",
+  "All 50 States Covered",
 ]
 
 export default function HeroSection() {
@@ -33,14 +33,15 @@ export default function HeroSection() {
             id="hero-heading"
             className="mb-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl"
           >
-            Find the Right Inmate Communication Service for Any Facility
+            Inmate Texting and Phone Calls: Find the Right Service for Any Prison or Jail
           </h1>
 
           {/* Supporting description */}
           <p className="animate-hero-2 mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Search facilities, compare providers, and understand your
-            communication options in minutes. We organize the information
-            so your family doesn&apos;t have to.
+            Search facilities by name or state to find which inmate texting
+            app, phone service, or video visit platform your loved one uses.
+            Compare JPay, CorrLinks, GettingOut, ConnectNetwork, and more.
+            Free directory covering all 50 states.
           </p>
 
           {/* Search bar */}

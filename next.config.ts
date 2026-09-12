@@ -132,7 +132,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/facility/twin-towers-correctional-facility',
-        destination: '/facility/twin-towers-jail',
+        destination: '/facilities',
         permanent: true,
       },
       {
@@ -142,7 +142,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/facility/joseph-v-conte-facility',
-        destination: '/county/san-francisco-county',
+        destination: '/state/california',
         permanent: true,
       },
       {

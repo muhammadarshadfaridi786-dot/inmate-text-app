@@ -5779,4 +5779,217 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
 },
 
+"cascade-county-regional-correctional-facility": {
+  id: "f-194",
+  name: "Cascade County Regional Correctional Facility",
+  slug: "cascade-county-regional-correctional-facility",
+  type: "county",
+  stateSlug: "montana",
+  stateName: "Montana",
+  stateAbbr: "MT",
+  countySlug: null,
+  countyName: "Cascade County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Cascade County Regional Correctional: Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Cascade County Regional Correctional Facility in Great Falls MT. Securus handles phone calls. Find messaging and money transfer options.",
+
+  description: "Cascade County Regional Correctional Facility in Great Falls Montana. Find phone calls, messaging, and money transfer options for this Montana county jail.",
+
+  overview: [
+    "Cascade County Regional Correctional Facility is located in Great Falls, Montana and serves as the county detention center for Cascade County. The facility houses pretrial detainees and sentenced inmates under county jurisdiction. Securus Technologies handles phone calls at this facility.",
+    "To receive calls from Cascade County Regional Correctional Facility, set up a Securus AdvancePay account at securustech.net or call 800-844-6591. Money transfers go through the facility approved provider. Contact the facility directly to confirm current provider and communication options.",
+  ],
+
+  operatedBy: "Cascade County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Primary phone and video provider at Cascade County Regional Correctional Facility." },
+  ],
+
+  communication: {
+    messaging: { status: "limited", provider: "Securus", notes: "Contact facility to confirm messaging availability." },
+    video: { status: "available", provider: "Securus", notes: "Video visits available through Securus." },
+    photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus AdvancePay." },
+    moneyTransfer: { status: "available", provider: "Securus", notes: "Money transfers through Securus." },
+  },
+
+  rules: [
+    "All calls are monitored and recorded.",
+    "Inmates must be on approved contact list.",
+    "Contact facility for current visiting schedule.",
+    "Three-way calling is prohibited.",
+    "Follow facility mail rules for all correspondence.",
+  ],
+
+  faq: [
+    { question: "Which provider handles phone calls at Cascade County Regional Correctional Facility?", answer: "Securus Technologies handles phone calls. Set up an account at securustech.net or call 800-844-6591." },
+    { question: "How do I find someone at Cascade County Regional Correctional Facility?", answer: "Contact the Cascade County Sheriff's Office or use the Montana DOC offender search at cor.mt.gov." },
+    { question: "How do I send money to someone at Cascade County Regional Correctional Facility?", answer: "Use Securus for phone account deposits at securustech.net. Contact the facility for commissary deposit options." },
+  ],
+
+  relatedFacilitySlugs: ["montana-state-prison", "yellowstone-county-detention-facility", "missoula-county-detention-facility"],
+},
+
+"fci-talladega": {
+  id: "f-195",
+  name: "FCI Talladega",
+  slug: "fci-talladega",
+  type: "federal",
+  stateSlug: "alabama",
+  stateName: "Alabama",
+  stateAbbr: "AL",
+  countySlug: null,
+  countyName: "Talladega County",
+  securityLevel: "Medium",
+  hasDetailPage: true,
+  seoTitle: "FCI Talladega: CorrLinks Messaging and ConnectNetwork Phone Guide",
+  seoDescription: "How to contact someone at FCI Talladega in Alabama. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Talladega County AL.",
+
+  description: "FCI Talladega is a federal correctional institution in Talladega Alabama. CorrLinks for messaging and ConnectNetwork for phone calls serve this federal BOP facility.",
+
+  overview: [
+    "FCI Talladega is a federal Bureau of Prisons medium security correctional institution located in Talladega, Alabama. The facility houses adult male inmates. All electronic messaging at FCI Talladega goes through CorrLinks, the only approved messaging platform for federal Bureau of Prisons facilities.",
+    "Phone calls at FCI Talladega are handled through ConnectNetwork by GTL. Families must create a free ConnectNetwork account at connectnetwork.com and fund an AdvancePay prepaid phone account to receive calls. The inmate must initiate all calls from facility phones.",
+  ],
+
+  operatedBy: "Federal Bureau of Prisons (BOP)",
+
+  providers: [
+    { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Official federal BOP messaging platform. Inmate must send invitation first." },
+    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: false, photos: false, phone: true, moneyTransfer: true, notes: "Phone calls and money transfers at FCI Talladega." },
+  ],
+
+  communication: {
+    messaging: { status: "available", provider: "CorrLinks", notes: "Federal BOP email through CorrLinks TRULINCS system." },
+    video: { status: "unavailable", provider: undefined, notes: "Video visitation not available at federal facilities through outside providers." },
+    photos: { status: "limited", provider: "CorrLinks", notes: "Contact facility for photo policy." },
+    phone: { status: "available", provider: "ConnectNetwork", notes: "Phone calls through ConnectNetwork AdvancePay." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Money transfers through ConnectNetwork." },
+  },
+
+  rules: [
+    "All non-legal calls are monitored and recorded.",
+    "Inmate must send CorrLinks invitation before messaging can begin.",
+    "Phone calls are inmate-initiated only.",
+    "Three-way calling is prohibited.",
+    "Follow BOP mail rules for all correspondence.",
+  ],
+
+  faq: [
+    { question: "Which provider handles messaging at FCI Talladega?", answer: "CorrLinks is the only approved messaging platform for all federal Bureau of Prisons facilities including FCI Talladega. The inmate must send you an invitation first from a TRULINCS terminal." },
+    { question: "Which provider handles phone calls at FCI Talladega?", answer: "ConnectNetwork by GTL handles phone calls. Create a free account at connectnetwork.com and fund an AdvancePay account to receive calls." },
+    { question: "How do I find someone at FCI Talladega?", answer: "Use the Bureau of Prisons inmate locator at bop.gov. Search by name to confirm the current facility and register number." },
+  ],
+
+  relatedFacilitySlugs: ["fci-cumberland", "fci-hazelton", "fci-manchester"],
+},
+
+"yellowstone-county-detention-facility": {
+  id: "f-196",
+  name: "Yellowstone County Detention Facility",
+  slug: "yellowstone-county-detention-facility",
+  type: "county",
+  stateSlug: "montana",
+  stateName: "Montana",
+  stateAbbr: "MT",
+  countySlug: null,
+  countyName: "Yellowstone County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Yellowstone County Detention Facility: Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Yellowstone County Detention Facility in Billings MT. Securus handles phone calls. Find messaging and money transfer options.",
+
+  description: "Yellowstone County Detention Facility in Billings Montana. Find phone calls, messaging, and money transfer options for this Montana county jail.",
+
+  overview: [
+    "Yellowstone County Detention Facility is located in Billings, Montana and is operated by the Yellowstone County Sheriff's Office. The facility houses pretrial detainees and sentenced inmates under county jurisdiction. Securus Technologies handles phone calls at this facility.",
+    "To receive calls, set up a Securus AdvancePay account at securustech.net or call 800-844-6591. Contact the facility directly to confirm current provider and communication options before setting up any accounts.",
+  ],
+
+  operatedBy: "Yellowstone County Sheriff's Office",
+
+  providers: [
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Primary phone and video provider at Yellowstone County Detention Facility." },
+  ],
+
+  communication: {
+    messaging: { status: "limited", provider: "Securus", notes: "Contact facility to confirm messaging availability." },
+    video: { status: "available", provider: "Securus", notes: "Video visits available through Securus." },
+    photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus AdvancePay." },
+    moneyTransfer: { status: "available", provider: "Securus", notes: "Money transfers through Securus." },
+  },
+
+  rules: [
+    "All calls are monitored and recorded.",
+    "Inmates must be on approved contact list.",
+    "Contact facility for current visiting schedule.",
+    "Three-way calling is prohibited.",
+    "Follow facility mail rules for all correspondence.",
+  ],
+
+  faq: [
+    { question: "Which provider handles phone calls at Yellowstone County Detention Facility?", answer: "Securus Technologies handles phone calls. Set up an account at securustech.net or call 800-844-6591." },
+    { question: "How do I find someone at Yellowstone County Detention Facility?", answer: "Contact the Yellowstone County Sheriff's Office in Billings Montana directly." },
+    { question: "How do I send money to someone at Yellowstone County Detention Facility?", answer: "Use Securus for phone account deposits. Contact the facility for commissary deposit options." },
+  ],
+
+  relatedFacilitySlugs: ["montana-state-prison", "cascade-county-regional-correctional-facility", "missoula-county-detention-facility"],
+},
+
+"fairfax-county-adult-detention-center": {
+  id: "f-197",
+  name: "Fairfax County Adult Detention Center",
+  slug: "fairfax-county-adult-detention-center",
+  type: "county",
+  stateSlug: "virginia",
+  stateName: "Virginia",
+  stateAbbr: "VA",
+  countySlug: null,
+  countyName: "Fairfax County",
+  securityLevel: "Pretrial / Sentenced",
+  hasDetailPage: true,
+  seoTitle: "Fairfax County Adult Detention Center: Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Fairfax County Adult Detention Center in Fairfax VA. GTL ConnectNetwork handles phone calls. Find messaging and money transfer options.",
+
+  description: "Fairfax County Adult Detention Center in Fairfax Virginia. Find phone calls, messaging, and money transfer options for this Virginia county jail.",
+
+  overview: [
+    "Fairfax County Adult Detention Center is located in Fairfax, Virginia and is operated by the Fairfax County Sheriff's Office. The facility houses pretrial detainees and sentenced inmates. GTL ConnectNetwork handles phone calls at this Virginia county facility.",
+    "To receive calls from Fairfax County Adult Detention Center, create a ConnectNetwork account at connectnetwork.com. Contact the facility directly to confirm current provider and all communication options before setting up accounts.",
+  ],
+
+  operatedBy: "Fairfax County Sheriff's Office",
+
+  providers: [
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Primary phone and video provider at Fairfax County Adult Detention Center." },
+  ],
+
+  communication: {
+    messaging: { status: "limited", provider: "GTL", notes: "Contact facility to confirm messaging availability." },
+    video: { status: "available", provider: "GTL", notes: "Video visits available through GTL ConnectNetwork." },
+    photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL ConnectNetwork." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Money transfers through GTL ConnectNetwork." },
+  },
+
+  rules: [
+    "All calls are monitored and recorded.",
+    "Inmates must be on approved contact list.",
+    "Contact facility for current visiting schedule.",
+    "Three-way calling is prohibited.",
+    "Follow facility mail rules for all correspondence.",
+  ],
+
+  faq: [
+    { question: "Which provider handles phone calls at Fairfax County Adult Detention Center?", answer: "GTL ConnectNetwork handles phone calls. Create a free account at connectnetwork.com to receive calls." },
+    { question: "How do I find someone at Fairfax County Adult Detention Center?", answer: "Contact the Fairfax County Sheriff's Office directly or use the VADOC inmate search at vadoc.virginia.gov." },
+    { question: "How do I send money to someone at Fairfax County Adult Detention Center?", answer: "Use GTL ConnectNetwork for phone account and money deposits at connectnetwork.com." },
+  ],
+
+  relatedFacilitySlugs: ["red-onion-state-prison", "sussex-i-state-prison", "northern-state-correctional-facility"],
+},
+
 }

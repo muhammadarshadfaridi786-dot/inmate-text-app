@@ -101,6 +101,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: '/facility/butner-federal-correctional-complex',
+        destination: '/facility/federal-correctional-complex-butner',
+        permanent: true,
+      },
+      {
         source: '/facility/metropolitan-detention-center-brooklyn',
         destination: '/facility/mdc-brooklyn',
         permanent: true,

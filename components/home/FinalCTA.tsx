@@ -21,7 +21,7 @@ export default function FinalCTA() {
             Start Finding Communication Options Today
           </h2>
           <p className="mb-8 text-base leading-relaxed text-primary-foreground/80">
-            Search our database of 7,000+ correctional facilities across all 50
+            Search our directory of 200+ correctional facilities across all 50
             states. Discover which providers serve your facility and get connected
             in minutes, free with no account required.
           </p>

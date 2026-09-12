@@ -60,7 +60,7 @@ export default function StatesPage() {
                 <div className="text-sm text-muted-foreground mt-1">States Covered</div>
               </div>
               <div className="rounded-lg border p-4 text-center">
-                <div className="text-2xl font-bold text-primary">7,000+</div>
+                <div className="text-2xl font-bold text-primary">200+</div>
                 <div className="text-sm text-muted-foreground mt-1">Facilities Nationwide</div>
               </div>
               <div className="rounded-lg border p-4 text-center">

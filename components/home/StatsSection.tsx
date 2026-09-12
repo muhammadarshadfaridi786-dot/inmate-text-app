@@ -5,7 +5,7 @@ import PageWrapper from "@/components/layout/PageWrapper"
 const stats = [
   {
     icon: Building2,
-    value: "7,000+",
+    value: "200+",
     label: "Facilities Tracked",
     description: "Federal, state, county, and private facilities",
     href: "/facilities",

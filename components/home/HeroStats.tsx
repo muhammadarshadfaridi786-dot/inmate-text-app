@@ -27,7 +27,7 @@ const glossaryCount  = ALL_TERMS.length
 const gridStats = [
   {
     icon: Building2,
-    value: "7,000+",
+    value: "200+",
     label: "Facilities",
     href: "/facilities",
   },

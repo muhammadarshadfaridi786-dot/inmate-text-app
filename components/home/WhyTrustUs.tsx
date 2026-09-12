@@ -33,7 +33,7 @@ const reasons = [
     icon: Search,
     title: "Facility Discovery",
     description:
-      "Search 7,000+ correctional facilities nationwide. Find any federal prison, state prison, county jail, or private facility instantly.",
+      "Search 200+ correctional facilities nationwide. Find federal prisons, state prisons, county jails, and local detention centers with detailed communication guides.",
     linkLabel: "Find a facility",
     linkHref: "/facilities",
   },

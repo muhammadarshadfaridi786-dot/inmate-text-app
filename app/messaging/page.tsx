@@ -235,7 +235,7 @@ export default function MessagingPage() {
                 <div className="flex justify-center mb-2">
                   <Building2 className="h-5 w-5 text-primary" aria-hidden="true" />
                 </div>
-                <p className="text-2xl font-bold text-foreground">7,000+</p>
+                <p className="text-2xl font-bold text-foreground">200+</p>
                 <p className="text-sm text-muted-foreground">Facilities covered</p>
               </div>
               <div className="rounded-xl border border-border bg-background p-4 text-center shadow-sm">

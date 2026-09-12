@@ -245,7 +245,7 @@ export default function TermsPage() {
                 If you have questions about these Terms of Service or how they apply to your use
                 of this website, contact us at:
               </p>
-              <p className="font-medium text-foreground">support@inmatemessaging.com</p>
+              <p className="font-medium text-foreground">contact@inmatetextapp.com</p>
             </div>
 
             <div className="border-t pt-6 text-xs text-muted-foreground/70">

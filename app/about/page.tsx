@@ -85,6 +85,36 @@ export default function AboutPage() {
           </div>
         </PageWrapper>
       </section>
+
+      <section className="py-12 border-t">
+        <PageWrapper>
+          <div className="max-w-2xl space-y-8">
+            <SectionHeading as="h2" title="Platform at a Glance" />
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="rounded-lg border p-4 text-center">
+                <div className="text-2xl font-bold text-primary">193+</div>
+                <div className="text-sm text-muted-foreground mt-1">Facilities Listed</div>
+              </div>
+              <div className="rounded-lg border p-4 text-center">
+                <div className="text-2xl font-bold text-primary">50</div>
+                <div className="text-sm text-muted-foreground mt-1">States Covered</div>
+              </div>
+              <div className="rounded-lg border p-4 text-center">
+                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-sm text-muted-foreground mt-1">Providers Covered</div>
+              </div>
+            </div>
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              InmateTextApp.com launched to address a genuine gap in available resources for
+              families of incarcerated people. Prison communication is fragmented across dozens
+              of providers with no central directory. We built this platform to bring that
+              information together in one place, organized by facility, state, and provider, so
+              families can find answers quickly without having to call multiple agencies or
+              navigate confusing provider websites.
+            </p>
+          </div>
+        </PageWrapper>
+      </section>
     </>
   )
 }

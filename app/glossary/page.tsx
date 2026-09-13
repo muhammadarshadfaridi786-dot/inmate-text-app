@@ -55,17 +55,24 @@ export default function GlossaryPage() {
         </PageWrapper>
       </section>
 
+      {/* Searchable glossary with alphabet nav */}
+      <section className="py-10" aria-label="Glossary directory">
+        <PageWrapper>
+          <GlossarySearch terms={ALL_TERMS} />
+        </PageWrapper>
+      </section>
+
       {/* SEO content */}
       <section className="py-8 border-b">
         <PageWrapper>
           <div className="max-w-3xl space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="rounded-lg border p-4 text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-2xl font-bold text-primary">100+</div>
                 <div className="text-sm text-muted-foreground mt-1">Terms Defined</div>
               </div>
               <div className="rounded-lg border p-4 text-center">
-                <div className="text-2xl font-bold text-primary">5</div>
+                <div className="text-2xl font-bold text-primary">6</div>
                 <div className="text-sm text-muted-foreground mt-1">Categories</div>
               </div>
               <div className="rounded-lg border p-4 text-center">
@@ -133,13 +140,6 @@ export default function GlossaryPage() {
             </div>
 
           </div>
-        </PageWrapper>
-      </section>
-
-      {/* Searchable glossary with alphabet nav */}
-      <section className="py-10" aria-label="Glossary directory">
-        <PageWrapper>
-          <GlossarySearch terms={ALL_TERMS} />
         </PageWrapper>
       </section>
 

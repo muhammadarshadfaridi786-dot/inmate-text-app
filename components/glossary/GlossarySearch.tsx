@@ -23,6 +23,7 @@ const CATEGORY_OPTIONS: Array<{ value: GlossaryCategory | "all"; label: string }
   { value: "Finance",        label: "Finance"         },
   { value: "Technology",     label: "Technology"      },
   { value: "Administration", label: "Administration"  },
+  { value: "Providers",      label: "Providers"       },
 ]
 
 interface GlossarySearchProps {

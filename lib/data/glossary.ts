@@ -8,6 +8,7 @@ export type GlossaryCategory =
   | "Finance"
   | "Technology"
   | "Administration"
+  | "Providers"
 
 export interface GlossaryTermBasic {
   id: string
@@ -1783,6 +1784,1014 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     faq: [],
 
     relatedTermSlugs: ["commissary", "inmate-trust-account", "spending-limit"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "gtl": {
+    id: "term-55",
+    term: "GTL",
+    slug: "gtl",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "GTL stands for Global Tel Link, a telecommunications company founded in 1989 that provides phone, messaging, video, and money transfer services to correctional facilities. GTL rebranded as ViaPath Technologies and operates ConnectNetwork as its consumer platform and GettingOut through its Telmate subsidiary. GTL delivers services to over 1,800 facilities across the United States.",
+
+    fullExplanation: [
+      "GTL stands for Global Tel Link, a telecommunications company that is one of the two dominant providers in the prison communication industry alongside Securus Technologies. GTL was founded in 1989 and rebranded as ViaPath Technologies. Its consumer-facing platforms include ConnectNetwork for state prisons and GettingOut through its Telmate subsidiary for county jails.",
+
+      "GTL operates under several brand names that families encounter. ConnectNetwork is the website and app for state prison phone calls and messaging. GettingOut is the app for county jail video visits and messaging. AdvancePay is GTL's prepaid calling product. If your loved one is at a facility served by GTL, you will create an account on one of these platforms depending on which services the specific facility contracts for.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["viapath", "advancepay"],
+    relatedProviderSlugs: ["gtl", "connectnetwork", "gettingout"],
+    relatedHubs: [],
+  },
+
+  "viapath": {
+    id: "term-56",
+    term: "ViaPath",
+    slug: "viapath",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "ViaPath Technologies is the rebranded name of GTL (Global Tel Link), one of the two largest prison communication companies in the United States. ViaPath operates ConnectNetwork for consumer-facing phone and messaging services and GettingOut through its Telmate subsidiary for county jail video visits. ViaPath lost the California CDCR contract to Securus in 2025.",
+
+    fullExplanation: [
+      "ViaPath Technologies is the corporate name under which GTL now operates. The company rebranded from GTL to ViaPath in recent years. ViaPath serves over 1,800 correctional facilities through its ConnectNetwork and GettingOut platforms. New Jersey began transitioning from JPay to ViaPath in 2025, and Ohio previously transitioned from Securus to ViaPath.",
+
+      "The name ViaPath appears in official state DOC communications but families typically interact with the brand through ConnectNetwork at connectnetwork.com or GettingOut at gettingout.com. Customer service for ViaPath can be reached at 877-650-4249.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["gtl", "advancepay"],
+    relatedProviderSlugs: ["gtl", "connectnetwork", "gettingout"],
+    relatedHubs: [],
+  },
+
+  "telmate": {
+    id: "term-57",
+    term: "Telmate",
+    slug: "telmate",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Telmate is a subsidiary of GTL ViaPath Technologies that operates the GettingOut platform for county jail video visits, messaging, and phone calls. Telmate holds contracts with over 2,200 county jails across 45 states. If a family member is at a county jail using GettingOut, Telmate is the underlying company operating the service.",
+
+    fullExplanation: [
+      "Telmate is the GTL ViaPath subsidiary responsible for the GettingOut app and platform. While families interact with the GettingOut brand, Telmate is the company holding the facility contracts and operating the backend systems. Telmate specializes in county jail communication and has a particularly strong focus on video visitation.",
+
+      "When researching or troubleshooting GettingOut issues, families may encounter the Telmate name in terms of service documents, BBB complaints, or official correspondence. Telmate customer service is accessed through the GettingOut platform at gettingout.com.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["gtl", "viapath"],
+    relatedProviderSlugs: ["gettingout", "gtl"],
+    relatedHubs: [],
+  },
+
+  "securus": {
+    id: "term-58",
+    term: "Securus Technologies",
+    slug: "securus",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Securus Technologies is one of the two largest prison communication companies in the United States alongside GTL ViaPath. Securus provides phone calls, video visits, messaging, and digital mail services to over 1,200 correctional facilities across 45 states. Securus was acquired by Aventiv Technologies and also owns JPay. In 2025, Securus won the California CDCR contract worth $315 million replacing ViaPath.",
+
+    fullExplanation: [
+      "Securus Technologies serves a large number of county jails and some state prisons with phone calls, video visits, and messaging. Securus and JPay are both owned by Aventiv Technologies. If your loved one is at a county jail, Securus is one of the most likely providers. For state prisons, JPay handles messaging while Securus handles phone calls at many facilities.",
+
+      "Securus customer service is available at 800-844-6591 and at securustech.net. The Securus Mobile app is available for iOS and Android. Common issues families report include video visits failing without refunds and account restrictions after bank chargebacks.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["advancepay", "inmate-phone-calls"],
+    relatedProviderSlugs: ["securus"],
+    relatedHubs: [],
+  },
+
+  "access-corrections": {
+    id: "term-59",
+    term: "Access Corrections",
+    slug: "access-corrections",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Access Corrections is a money transfer service operated by Keefe Group that allows families to deposit funds to inmate trust accounts at many correctional facilities. Access Corrections is commonly used at county jails and some state facilities as an alternative or complement to JPay and ConnectNetwork. Deposits can be made online, by phone, or at MoneyGram and Western Union locations.",
+
+    fullExplanation: [
+      "Access Corrections is operated by Keefe Group, a company that also provides commissary services to many jails and prisons. Access Corrections specializes in money transfers to inmate accounts and is contracted at numerous county jail facilities. Unlike JPay which also offers messaging, Access Corrections focuses primarily on financial transactions.",
+
+      "When a county jail uses Access Corrections, families deposit funds online at accesscorrections.com, by phone, or at approved retail locations. Always confirm whether a facility uses Access Corrections or another money transfer provider before sending funds.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["money-transfer", "inmate-trust-account", "commissary", "touchpay"],
+    relatedProviderSlugs: ["access-corrections"],
+    relatedHubs: [],
+  },
+
+  "touchpay": {
+    id: "term-60",
+    term: "TouchPay",
+    slug: "touchpay",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "TouchPay is a money transfer and payment service used at some correctional facilities for depositing funds to inmate accounts. TouchPay is commonly used at county jails and some state facilities. Miami-Dade Corrections uses TouchPay for commissary deposits. TouchPay can be reached at 1-866-232-1899 and provides lobby kiosks at some facilities.",
+
+    fullExplanation: [
+      "TouchPay is a financial services company that provides money transfer services to correctional facilities. It is one of several approved deposit providers used at county jails and some state facilities. TouchPay is specifically used at Miami-Dade Corrections in Florida for commissary deposits. TouchPay kiosks are available in the lobbies of some facilities for in-person deposits.",
+
+      "When a facility uses TouchPay, families deposit funds online, by phone at 1-866-232-1899, or at lobby kiosks. Always verify whether TouchPay is the approved provider for your specific facility before sending money to ensure funds reach the correct account.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["money-transfer", "inmate-trust-account", "access-corrections"],
+    relatedProviderSlugs: ["touchpay"],
+    relatedHubs: [],
+  },
+
+  "pigeonly": {
+    id: "term-61",
+    term: "Pigeonly",
+    slug: "pigeonly",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Pigeonly is a service that converts digital messages and photos into physical printed letters delivered to inmates through the postal system. Pigeonly has sent over 15 million photos and letters and maintains compliance rules for over 4,000 facilities. Pigeonly offers a free plan for a limited number of monthly communications and paid unlimited plans. It is particularly useful when electronic messaging is not available or when physical mail quality is better.",
+
+    fullExplanation: [
+      "Pigeonly works by accepting your digital message or uploaded photos, printing them on physical paper, and mailing them to the facility address on your behalf. This is useful for families at facilities that do not have electronic messaging or where photo quality through digital platforms is poor.",
+
+      "Pigeonly maintains current facility-specific rules including photo restrictions and content guidelines. Their free Forever Free Plan allows a limited number of monthly communications at no charge. Pigeonly recommends sending no more than five photos per envelope unless the facility specifically allows more.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["digital-mail", "mail-scanning", "textbehind"],
+    relatedProviderSlugs: ["pigeonly"],
+    relatedHubs: [],
+  },
+
+  "textbehind": {
+    id: "term-62",
+    term: "TextBehind",
+    slug: "textbehind",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "TextBehind is a service that converts digital messages and photos into physical printed letters delivered to inmates as standard mail. TextBehind costs approximately $0.49 per page and works at nearly any facility that accepts mail. It is particularly useful at facilities that do not have electronic messaging contracts with major providers like JPay or CorrLinks.",
+
+    fullExplanation: [
+      "TextBehind allows families to type messages and upload photos through their website or app, then delivers them as physical printed letters to the facility. Because TextBehind delivers as standard mail rather than through a provider platform, it works at virtually any facility that accepts incoming mail.",
+
+      "TextBehind is a good option when the facility does not have a JPay or ConnectNetwork contract, when electronic messaging is unavailable, or as a supplement to electronic messaging for longer letters or more photos.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["digital-mail", "mail-scanning", "pigeonly"],
+    relatedProviderSlugs: ["textbehind"],
+    relatedHubs: [],
+  },
+
+  "smartinmate": {
+    id: "term-63",
+    term: "Smart Communications",
+    slug: "smartinmate",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Smart Communications is a prison communication company that provides phone calls, video visits, messaging, and mail processing services. Smart Communications operates the SmartInmate platform and serves county jails and some state facilities. San Diego County uses Smart Communications for all jail communication including free phone calls. Smart Communications can be reached at 727-349-1561.",
+
+    fullExplanation: [
+      "Smart Communications operates the SmartInmate system which bundles phone calls, video visits, electronic messaging, and mail processing under one platform. San Diego County transitioned to Smart Communications and now offers free phone calls to inmates. Calls from San Diego County jails display from the number 727-349-1561 which families should save in their contacts.",
+
+      "Smart Communications serves a smaller number of facilities than Securus or GTL but is notable for its presence in San Diego County and other jurisdictions. If your loved one is in a San Diego County jail, create an account at smartjailmail.com.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-phone-calls", "video-visitation", "digital-mail"],
+    relatedProviderSlugs: ["smartinmate"],
+    relatedHubs: [],
+  },
+
+  "corrlinks-premier": {
+    id: "term-64",
+    term: "CorrLinks Premier",
+    slug: "corrlinks-premier",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "CorrLinks Premier is a paid upgrade to the standard free CorrLinks account that adds push notification alerts when a new message arrives from a federal inmate. The standard free account requires the outside contact to log in manually to check for new messages. CorrLinks Premier costs approximately $8 per year. It does not change the messaging system itself, only adds the notification feature.",
+
+    fullExplanation: [
+      "The standard CorrLinks account for outside contacts is completely free. The only limitation is that you must log in to corrlinks.com to see if a new message has arrived since no notifications are sent. CorrLinks Premier adds an alert notification so you know immediately when a message comes in without having to check manually.",
+
+      "For families who exchange messages frequently with a federal inmate, CorrLinks Premier at approximately $8 per year can be worth the convenience. For occasional messaging, the free account is sufficient. Contact CorrLinks customer service through corrlinks.com if there are billing issues with a Premier account.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["trulincs", "emessaging"],
+    relatedProviderSlugs: ["corrlinks"],
+    relatedHubs: [],
+  },
+
+  "snap-n-send": {
+    id: "term-65",
+    term: "Snap n Send",
+    slug: "snap-n-send",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Snap n Send is a feature within the Securus platform that allows families to send images to incarcerated loved ones. Images are sent digitally and reviewed by facility staff before delivery. Snap n Send is available at Securus-contracted facilities that have enabled the feature. It is an alternative to mailing physical photos.",
+
+    fullExplanation: [
+      "Snap n Send is one of several Securus features for sending images to inmates alongside standard photo messaging. Through Snap n Send, families upload images through their Securus account and the images are delivered digitally to the inmate's tablet or kiosk after staff review.",
+
+      "Availability of Snap n Send depends on whether the specific facility has enabled the feature. Check your Securus account dashboard to see which services are available at your loved one's facility before attempting to use Snap n Send.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["digital-mail", "emessaging", "securus"],
+    relatedProviderSlugs: ["securus"],
+    relatedHubs: [],
+  },
+
+  "videogram": {
+    id: "term-66",
+    term: "VideoGram",
+    slug: "videogram",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "VideoGram is a Securus feature that allows families to send a short pre-recorded video message to an incarcerated loved one. VideoGrams are reviewed by staff before delivery and are viewed by the inmate on their tablet or kiosk. VideoGrams are distinct from live video visits which occur in real time at a scheduled time.",
+
+    fullExplanation: [
+      "A VideoGram is a short recorded video that a family member creates and sends through their Securus account. Unlike a live video visit which requires both parties to be available at the same time, a VideoGram is recorded at any time and delivered asynchronously for the inmate to watch when available.",
+
+      "VideoGram availability depends on whether the facility has enabled the feature through Securus. Check your account dashboard for availability. VideoGrams go through staff review before delivery. They are a good option when scheduling a live video visit is difficult.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["video-visitation", "emessaging", "securus"],
+    relatedProviderSlugs: ["securus"],
+    relatedHubs: [],
+  },
+
+  "fcc-rate-cap": {
+    id: "term-67",
+    term: "FCC Rate Cap",
+    slug: "fcc-rate-cap",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "FCC rate caps are federal limits set by the Federal Communications Commission on how much correctional facilities and their contracted phone providers can charge per minute for inmate phone calls. Under rules effective April 6, 2026, the cap is $0.11 per minute for large prisons and jails, up to $0.18 per minute for the smallest facilities. Video call caps are $0.23 per minute at large facilities.",
+
+    fullExplanation: [
+      "The FCC has been regulating prison phone call rates since 2013. The 2025 order, effective April 6, 2026, set interim caps of $0.11 per minute at large prisons and jails, $0.14 at medium facilities, $0.16 at small facilities, and $0.18 at the smallest jails. These are significantly lower than historical rates that often exceeded $1.00 per minute.",
+
+      "These are caps, not fixed rates. Providers can charge less. States that have eliminated call charges entirely such as California, Colorado, Connecticut, Massachusetts, Minnesota, and New York go beyond the FCC caps. The FCC rate caps do not cover transaction fees on money transfers or tablet content purchases.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-phone-calls", "collect-call", "advancepay"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "approved-vendor": {
+    id: "term-68",
+    term: "Approved Vendor",
+    slug: "approved-vendor",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "An approved vendor is a company or retailer that a correctional facility has specifically authorized to send publications, packages, or other items to inmates. Facilities typically require that books, magazines, and packages come only from an approved vendor list to prevent contraband from entering through mail. Common approved vendors for books include Amazon and Barnes and Noble online.",
+
+    fullExplanation: [
+      "Correctional facilities maintain approved vendor lists for publications and packages. Only items shipped directly from these approved sources are accepted. South Carolina, for example, requires books from Barnes and Noble to be purchased online rather than in-store. Books from unapproved sources are rejected and may be destroyed.",
+
+      "Before sending any book or publication to an inmate, check the facility's approved vendor list. Sending through an unapproved source wastes money as the item is typically rejected or classified as contraband without a refund to the sender.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["contraband", "legal-mail", "mail-scanning"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "count": {
+    id: "term-69",
+    term: "Count",
+    slug: "count",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A count is a mandatory security procedure at correctional facilities where all inmates are physically located and accounted for by staff. During count, all activities including phone calls, visits, and movement are suspended until every inmate is accounted for. Counts occur multiple times per day at scheduled intervals. If a count comes up short, a recount is ordered and the facility may enter lockdown until all inmates are located.",
+
+    fullExplanation: [
+      "Correctional facilities conduct multiple counts per day to verify the location of every incarcerated person. Count times vary by facility but typically occur in the early morning, afternoon, and evening. During count, phone calls are unavailable which families may notice as a sudden disconnection or inability to receive calls at certain times.",
+
+      "If a family member suddenly stops receiving calls at a previously reliable time, the count schedule may have changed. Count times are not typically published for security reasons. Families learn the rough count schedule through their incarcerated loved ones.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["lockdown", "general-population", "inmate-phone-calls"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "orientation": {
+    id: "term-70",
+    term: "Orientation",
+    slug: "orientation",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Orientation is the period after an inmate arrives at a new facility during which they learn the rules, procedures, and available services. During orientation, inmates are typically informed about how to set up phone accounts, add contacts to their approved list, and access available communication services. Families may experience a delay in receiving calls while the inmate completes orientation.",
+
+    fullExplanation: [
+      "When someone arrives at a new correctional facility, they go through an orientation period that can last from a few days to several weeks. During this time, communication with family may be limited while the inmate sets up their approved contact list, learns facility rules, and completes any required intake assessments.",
+
+      "If a family does not hear from a loved one shortly after a transfer or initial incarceration, the orientation period is a common reason. The inmate typically sends a letter or card during orientation with their new address and any ID numbers the facility assigned.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["approved-contact-list", "inmate-id-number", "doc-number"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "classification": {
+    id: "term-71",
+    term: "Classification",
+    slug: "classification",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Classification is the process by which a correctional system assigns an inmate to a specific security level and facility based on their offense, criminal history, behavior, and other factors. Classification determines whether someone is housed at minimum, medium, or maximum security. The classification level affects communication privileges, visitation rules, and which specific facility the person is assigned to.",
+
+    fullExplanation: [
+      "When someone enters the state or federal prison system, they go through a classification process at a reception or diagnostic center. Evaluators assess the nature of the offense, the length of the sentence, prior criminal history, and behavioral risk factors to determine the appropriate security level.",
+
+      "Classification is not permanent. Inmates can be reclassified up or down based on behavior during incarceration. Good behavior over time can result in a lower security classification and potentially a transfer to a less restrictive facility closer to family.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["minimum-security", "medium-security", "maximum-security", "orientation"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "facility-transfer": {
+    id: "term-72",
+    term: "Facility Transfer",
+    slug: "facility-transfer",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A facility transfer is when an incarcerated person is moved from one correctional facility to another. Transfers can be within the same system such as from one state prison to another, or between systems such as from county jail to state prison. Communication accounts and balances may or may not transfer depending on whether the new facility uses the same provider. Families should always verify the new facility and provider before funding new accounts.",
+
+    fullExplanation: [
+      "Facility transfers are common in the correctional system and happen for many reasons including reclassification, programming needs, facility overcrowding, or disciplinary reasons. When a transfer occurs, families often experience a period of no communication while the inmate is processed at the new facility.",
+
+      "The most important step after a transfer is confirmed is to find out whether the new facility uses the same communication provider. If the provider changes, existing account balances may not transfer. Contact the original provider about refund options and set up new accounts with the new provider as quickly as possible.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["doc-number", "classification", "inmate-search", "orientation"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "residential-reentry-center": {
+    id: "term-73",
+    term: "Residential Reentry Center",
+    slug: "residential-reentry-center",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "A Residential Reentry Center (RRC) is a halfway house operated under contract with the federal Bureau of Prisons where federal inmates serve the final months of their sentence in a community setting. RRCs provide transitional housing and support services to help people prepare for full release. Communication rules at RRCs are generally less restrictive than at federal prisons.",
+
+    fullExplanation: [
+      "Federal inmates nearing their release date are often transferred to a Residential Reentry Center in or near their home community. At an RRC, residents typically have greater phone access, may be able to work in the community, and participate in reentry programming.",
+
+      "The length of time spent at an RRC varies by case. Families of federal inmates should contact the case manager as the projected release date approaches to understand whether an RRC placement is planned and which RRC will be used.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["halfway-house", "reentry", "work-release", "bop"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "phone-privilege": {
+    id: "term-74",
+    term: "Phone Privilege",
+    slug: "phone-privilege",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Phone privilege refers to an inmate's access to the facility phone system, which can be granted, restricted, or revoked based on behavior and facility rules. Phone access is a privilege rather than a right in correctional facilities. Violations such as attempting three-way calling, using abusive language, or receiving disciplinary sanctions can result in temporary or permanent loss of phone privileges.",
+
+    fullExplanation: [
+      "When an inmate loses phone privileges, families receive no advance notice and simply stop receiving calls. Common reasons for phone privilege loss include disciplinary violations, attempted three-way calling, use of profanity or threats during calls, and placement in the SHU or restrictive housing.",
+
+      "If calls suddenly stop with no explanation, the inmate may have lost phone privileges. The only way to find out is for the inmate to send a letter or for the family to contact the facility case manager directly.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["three-way-calling", "shu", "approved-contact-list", "lockdown"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "call-block": {
+    id: "term-75",
+    term: "Call Block",
+    slug: "call-block",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "A call block is a restriction placed on a specific phone number to prevent an inmate from calling it or to prevent calls from a facility from reaching a specific number. Family members can request call blocks from the phone provider if they do not want to receive calls from a specific inmate or from all facility calls. Facilities can also block numbers for security reasons. Call blocks are typically managed through the phone provider rather than the facility.",
+
+    fullExplanation: [
+      "Call blocks work in two directions. An individual can contact the facility's phone provider such as Securus or GTL to request that their number be blocked from receiving any calls from a specific inmate. This is useful in situations involving domestic violence protective orders or unwanted contact.",
+
+      "Facilities also block numbers for security reasons. If a number is associated with known criminal activity or violations of calling rules, the facility may add it to a blocked list. Families can contact the provider to find out whether their number has been blocked and request removal if appropriate.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["phone-privilege", "approved-contact-list", "inmate-phone-calls"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "mail-processing-center": {
+    id: "term-76",
+    term: "Mail Processing Center",
+    slug: "mail-processing-center",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "A mail processing center is an off-site facility where incoming inmate mail is sent for scanning and digital conversion before delivery. Several state prison systems use centralized mail processing centers rather than delivering physical mail directly to facilities. North Dakota uses a Securus Digital Mail Center in Tampa Florida. Oklahoma routes all non-legal mail to a Dallas Texas processing center. Missouri routes personal mail to a Securus digital mail center.",
+
+    fullExplanation: [
+      "When a state uses a mail processing center, families must address mail to the processing center address rather than the prison address. Mail sent directly to the prison is rejected and returned. The processing center scans the letter and delivers it digitally to the inmate's tablet or as a photocopy.",
+
+      "Mail processing center addresses vary by state and provider. Check the specific state DOC website or the facility directly for the current mailing address before sending any correspondence. Using an outdated address causes mail to be returned or lost.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["mail-scanning", "digital-mail", "legal-mail", "contraband"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "release-date": {
+    id: "term-77",
+    term: "Release Date",
+    slug: "release-date",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A release date is the date on which an incarcerated person is scheduled to be released from custody. Release dates can be projected (estimated) or confirmed based on sentence calculations, good time credits, and parole decisions. Federal inmate release dates are publicly available through the BOP inmate locator at bop.gov. State inmate release information varies by state and may be found through the state DOC offender search.",
+
+    fullExplanation: [
+      "Release dates in the federal system are calculated based on the sentence imposed, time served, and good time credits earned. Federal inmates generally earn 54 days of good time credit per year. The BOP inmate locator shows a projected release date that updates as credits are earned.",
+
+      "For state inmates, release date information varies by state. Some states make projected release dates publicly available through their offender search tools while others restrict this information. Parole board decisions can change release dates for those serving indeterminate sentences.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["parole", "reentry", "halfway-house", "inmate-search"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "good-time-credit": {
+    id: "term-78",
+    term: "Good Time Credit",
+    slug: "good-time-credit",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Good time credit is a reduction in the length of a prison sentence earned by an inmate for good behavior and program participation. In the federal system, inmates can earn up to 54 days of good time credit per year of sentence imposed under the First Step Act. Good time credits accumulate over the sentence and reduce the projected release date. State good time credit policies vary significantly.",
+
+    fullExplanation: [
+      "Good time credits are one of the primary ways incarcerated people can reduce their time in custody. Federal inmates earn 54 days per year of sentence imposed, calculated annually. The First Step Act passed in 2018 increased good time credits from the previous 47 days per year.",
+
+      "State good time credit policies vary widely. Some states offer day-for-day good time where one day of good behavior reduces the sentence by one day. Others offer partial credits. Some offenses are not eligible for good time reductions. Check the specific state DOC policies for accurate information.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["release-date", "parole", "reentry"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "first-step-act": {
+    id: "term-79",
+    term: "First Step Act",
+    slug: "first-step-act",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "The First Step Act is a federal criminal justice reform law signed in 2018 that made significant changes to federal sentencing and prison policies. Key provisions include increasing good time credits from 47 to 54 days per year, creating earned time credit programs for program participation, and expanding eligibility for elderly and terminally ill inmate compassionate release. The law affects federal inmates only and does not apply to state prisons.",
+
+    fullExplanation: [
+      "The First Step Act was a bipartisan criminal justice reform that passed Congress in 2018 and was signed into law. For federal inmates and their families, the most significant impact is the increase in good time credits which reduces time served for eligible inmates.",
+
+      "Beyond good time credits, the First Step Act created Earned Time Credits where federal inmates can earn additional reductions by participating in approved programming and productive activities. These credits can be used toward early placement in a halfway house or on home confinement.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["good-time-credit", "release-date", "bop", "halfway-house"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "compassionate-release": {
+    id: "term-80",
+    term: "Compassionate Release",
+    slug: "compassionate-release",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Compassionate release is a provision that allows early release from prison for inmates with extraordinary and compelling circumstances such as terminal illness, debilitating medical conditions, or advanced age. Federal compassionate release is administered by the BOP under 18 U.S.C. 3582(c)(1)(A). The First Step Act allowed inmates to petition courts directly for compassionate release if the BOP does not act on a request within 30 days.",
+
+    fullExplanation: [
+      "Compassionate release allows courts to reduce a federal sentence when extraordinary circumstances exist. Qualifying circumstances include terminal illness with a life expectancy of 18 months or less, serious medical conditions that substantially diminish the ability to provide self-care, and age combined with time served.",
+
+      "The process begins with a request to the BOP Warden. If the BOP does not act within 30 days, the inmate can petition the sentencing court directly under the First Step Act. Family members often play an important role by providing letters of support and a release plan to the court.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["first-step-act", "bop", "release-date", "reentry"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "protective-custody": {
+    id: "term-81",
+    term: "Protective Custody",
+    slug: "protective-custody",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Protective custody is a form of administrative segregation where an inmate is separated from the general population for their own safety. Unlike disciplinary segregation in the SHU, protective custody is not a punishment. Inmates in protective custody may have similar communication restrictions as those in the SHU, with limited phone access and fewer visits. Common reasons for protective custody include threats from other inmates, gang-related safety concerns, and cooperation with law enforcement.",
+
+    fullExplanation: [
+      "Protective custody can be voluntary when an inmate requests it for their own safety, or involuntary when the facility places an inmate there based on a safety assessment. Communication restrictions in protective custody vary by facility but are generally more limited than general population.",
+
+      "Families may notice reduced or eliminated calls if their loved one is placed in protective custody. The inmate may not be able to explain the reason for restricted communication. Families can contact the case manager to understand the general situation without receiving specific details.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["shu", "general-population", "phone-privilege", "lockdown"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "recidivism": {
+    id: "term-82",
+    term: "Recidivism",
+    slug: "recidivism",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Recidivism refers to the tendency of a formerly incarcerated person to reoffend and return to prison. Research consistently shows that maintaining family contact during incarceration significantly reduces recidivism rates. This is a key argument used by advocates for free prison phone calls and improved communication access. Studies show that incarcerated people who maintain strong family bonds are less likely to return to prison after release.",
+
+    fullExplanation: [
+      "Recidivism is measured in different ways but typically refers to rearrest, reconviction, or reincarceration within a specified period after release. The Bureau of Justice Statistics tracks recidivism rates nationally.",
+
+      "The link between family communication and reduced recidivism is well documented. Families who stay connected through calls, visits, and messages help incarcerated people maintain community ties and accountability. This evidence base supports advocacy for reduced-cost or free communication as a public safety measure.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["reentry", "parole", "good-time-credit"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "inmate-calling-service": {
+    id: "term-83",
+    term: "Inmate Calling Service",
+    slug: "inmate-calling-service",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Inmate Calling Service (ICS) is the industry term for the telephone service provided to correctional facilities for inmate-initiated outgoing calls. ICS providers hold exclusive contracts with facilities and are regulated by the FCC. Major ICS providers include Securus Technologies, GTL ViaPath, and ICSolutions. The FCC has jurisdiction over interstate ICS rates and has implemented rate caps effective April 2026.",
+
+    fullExplanation: [
+      "The Inmate Calling Service industry has historically been characterized by very high per-minute rates due to exclusive contracts and the captive nature of the market. The FCC began regulating ICS rates in 2013 following advocacy by families and reform organizations.",
+
+      "ICS providers pay commissions to correctional facilities in exchange for exclusive contracts, which has been identified as a contributor to high rates. The FCC 2025 interim rules capped rates at $0.11 per minute for large prisons and jails. Additional FCC rulemaking is ongoing to set permanent rate caps.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["fcc-rate-cap", "inmate-phone-calls", "collect-call", "advancepay"],
+    relatedProviderSlugs: ["securus", "gtl", "icsolutions"],
+    relatedHubs: [],
+  },
+
+  "worth-rises": {
+    id: "term-84",
+    term: "Worth Rises",
+    slug: "worth-rises",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Worth Rises is a nonprofit advocacy organization focused on ending the exploitation of incarcerated people and their families by the prison industry. Worth Rises produces research and policy advocacy on prison phone rates, commissary pricing, and other issues that affect families. Their annual reports track which states offer free calls and document the financial burden of prison communication on families.",
+
+    fullExplanation: [
+      "Worth Rises was founded to advocate for the abolition of for-profit prison services that burden incarcerated people and their families. The organization produces widely cited research on prison phone call costs, including estimates that free call programs save Massachusetts families an average of $1,801 per year.",
+
+      "Worth Rises maintains the Free Calls Coalition, tracks legislation related to prison communication costs, and provides advocacy tools for families and organizations working on these issues. Their website at worthrises.org provides current information on which states have free call programs.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["fcc-rate-cap", "recidivism", "reentry"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "prison-policy-initiative": {
+    id: "term-85",
+    term: "Prison Policy Initiative",
+    slug: "prison-policy-initiative",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Prison Policy Initiative (PPI) is a nonprofit research organization that produces data and analysis on mass incarceration and its effects on communities and families. PPI maintains a mail scanning appendix tracking which states use mail scanning systems, tracks postcard-only mail restrictions, and produces research on prison phone costs and communication barriers. Their website at prisonpolicy.org is a key resource for families seeking current information on state policies.",
+
+    fullExplanation: [
+      "Prison Policy Initiative was founded in 2001 and is known for producing detailed research reports on mass incarceration. For families navigating prison communication, PPI is particularly useful for its mail policy tracking which documents which states have implemented mail scanning, where processing centers are located, and which counties have postcard-only restrictions.",
+
+      "PPI also tracks county jail policies and produces the widely cited Whole Pie report annually documenting the full scope of incarceration in the United States. Families can use PPI's resources at prisonpolicy.org to find current state and county-level policy information.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["mail-scanning", "digital-mail", "recidivism"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "aventiv": {
+    id: "term-86",
+    term: "Aventiv Technologies",
+    slug: "aventiv",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Aventiv Technologies is the parent company of both Securus Technologies and JPay, two of the largest prison communication companies in the United States. Aventiv was formed as a holding company to own these subsidiaries. Because both Securus and JPay are owned by Aventiv, they share corporate leadership while operating as separate platforms facing different markets.",
+
+    fullExplanation: [
+      "Aventiv Technologies acquired both Securus and JPay, making it one of the dominant forces in the prison communication industry. Despite being owned by the same parent company, Securus and JPay operate as separate platforms with different products. Securus focuses on phone calls and video, while JPay focuses on messaging, money transfers, and tablet services.",
+
+      "Aventiv has faced regulatory and consumer protection scrutiny. In November 2024, the FCC ordered GTL ViaPath to pay $3 million in penalties for consumer protection violations. Families dealing with JPay or Securus billing issues may find that the same corporate leadership oversees both.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["securus", "fcc-rate-cap"],
+    relatedProviderSlugs: ["securus", "jpay"],
+    relatedHubs: [],
+  },
+
+  "keefe-group": {
+    id: "term-87",
+    term: "Keefe Group",
+    slug: "keefe-group",
+    category: "Providers",
+    featured: false,
+
+    definition:
+      "Keefe Group is a company that provides commissary services and money transfer services to correctional facilities through its Access Corrections platform. Keefe operates commissary stores at many jails and prisons, supplying the products that inmates purchase. Keefe's Access Corrections service allows families to deposit money into inmate accounts at facilities where Keefe holds the commissary contract.",
+
+    fullExplanation: [
+      "Keefe Group is one of the largest commissary providers in the correctional industry, supplying goods and operating commissary stores at many facilities. When a facility uses Keefe for commissary, families typically use Access Corrections for money deposits.",
+
+      "Keefe and its subsidiary Access Corrections are separate from the phone and messaging providers. A facility can use Keefe for commissary and Securus for phone calls, requiring families to use different platforms for different services.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["commissary", "access-corrections", "inmate-trust-account"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "cop-out": {
+    id: "term-88",
+    term: "Cop Out",
+    slug: "cop-out",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A cop out is informal prison slang for an inmate request form submitted to staff to ask for specific actions, information, or services. Inmates use cop outs to request changes to their phone list, ask case managers for information, request medical appointments, and communicate needs to facility staff. The term is widely used in federal and state correctional facilities.",
+
+    fullExplanation: [
+      "The cop out form is the standard internal communication tool for inmates to make official requests to facility staff. When an inmate wants to add a new contact to their phone list, request a special visit, or ask a question of their case manager, they typically do so through a cop out form.",
+
+      "Families can help by ensuring their loved one knows to submit cop outs for communication-related requests such as adding phone numbers to the approved list or reporting account issues. Responses to cop outs can take days to weeks depending on the facility and the nature of the request.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["approved-contact-list", "case-manager", "phone-privilege"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "hold": {
+    id: "term-89",
+    term: "Hold",
+    slug: "hold",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "A hold in the correctional finance context refers to a restriction placed on an inmate's trust account funds. Holds can be placed for several reasons including outstanding court costs, restitution obligations, medical co-pay debts, or facility-specific fines. When a hold is placed, incoming deposits may be partially or fully applied to the hold before the inmate can access the funds for commissary or other expenses.",
+
+    fullExplanation: [
+      "Holds on inmate trust accounts mean that money deposited by family does not go directly to the inmate's available balance. Instead, some or all of the deposit is applied to the outstanding debt first. Families can be frustrated when they deposit money and the inmate reports not receiving the full amount.",
+
+      "Common types of holds include court-ordered restitution, victim fees, court costs, medical co-pay debts, and disciplinary fines. Some holds are mandatory while others can potentially be negotiated. Contact the facility's trust fund or business office for information about specific holds on an account.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-trust-account", "commissary", "spending-limit"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "restitution": {
+    id: "term-90",
+    term: "Restitution",
+    slug: "restitution",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Restitution is a court-ordered payment that an incarcerated person must make to their victim or victims to compensate for harm caused by their crime. Restitution obligations continue during and after incarceration. Correctional facilities deduct a percentage of inmate earnings and sometimes of deposits to apply toward restitution. Outstanding restitution can affect parole eligibility and release conditions.",
+
+    fullExplanation: [
+      "When a court orders restitution, the incarcerated person is legally required to pay the amount regardless of their financial situation. During incarceration, facilities typically deduct 25 percent or more of the inmate's earnings toward restitution obligations.",
+
+      "Families sending money to an incarcerated loved one should be aware that some of those funds may be automatically applied to restitution, reducing the amount available for commissary. The case manager can provide information about the specific restitution deduction schedule at that facility.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["hold", "inmate-trust-account", "parole", "case-manager"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "mail-rejection": {
+    id: "term-91",
+    term: "Mail Rejection",
+    slug: "mail-rejection",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Mail rejection occurs when incoming mail to an inmate is refused by the facility and returned to the sender. Common reasons for mail rejection include prohibited content, failure to include required information such as the inmate ID number, sending from an unapproved vendor, using prohibited materials such as glitter or stickers, or sending mail directly to a facility that uses a mail processing center. Rejected mail is typically returned to the sender without the inmate receiving it.",
+
+    fullExplanation: [
+      "Facilities have detailed mail rules that must be followed precisely to avoid rejection. Common rejection triggers include sending books from unapproved vendors, including glitter, stickers, or staples in the envelope, sending photos that do not meet the facility's photo policy, and failing to include the inmate's full name and ID number on the envelope.",
+
+      "When mail is rejected, the inmate is typically notified but the family may not be. The sender may or may not receive the item back depending on facility policy. Using approved vendors and following the specific facility's mail rules carefully avoids preventable rejections.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["contraband", "approved-vendor", "mail-scanning", "digital-mail"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "photo-policy": {
+    id: "term-92",
+    term: "Photo Policy",
+    slug: "photo-policy",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "A photo policy is the set of rules governing what types of photos can be sent to an inmate, in what format, through what method, and in what quantities. Photo policies vary significantly by facility. Common restrictions include limiting photos to 4x6 inch prints, prohibiting Polaroid photos, limiting the number of photos per envelope, and prohibiting photos showing alcohol, weapons, gang signs, or suggestive content.",
+
+    fullExplanation: [
+      "Before sending any photos to an inmate, check the specific facility's photo policy. Policies differ on print size requirements, number of photos allowed per envelope, whether digital or physical photos are accepted, and what content is prohibited.",
+
+      "Hand gestures are a frequently overlooked photo rejection trigger. Even innocent gestures like peace signs or thumbs up can be misinterpreted as gang signs. Photos with alcohol in the background even if incidental can also cause rejection. Services like Pigeonly and Inmate Photos show facility-specific rules at upload to help avoid preventable rejections.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["mail-rejection", "contraband", "digital-mail"],
+    relatedProviderSlugs: ["pigeonly"],
+    relatedHubs: [],
+  },
+
+  "victim-notification": {
+    id: "term-93",
+    term: "Victim Notification",
+    slug: "victim-notification",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Victim notification is a system that alerts crime victims when an offender's status changes, such as when they are released, transferred, or escape. VINELink is the primary national victim notification service. Victims register to receive automatic notifications. Families of incarcerated people can also use VINELink to track status changes, though they are not the primary intended audience.",
+
+    fullExplanation: [
+      "Victim notification services like VINELink allow registered individuals to receive automatic alerts when an offender's custody status changes. Crime victims use this service to know when someone who harmed them is being released. Families of incarcerated people can also register to receive transfer and release notifications.",
+
+      "VINELink is available at vinelink.vineapps.com and is operated in partnership with most state corrections systems. Registration is free and notifications can be received by phone, email, or text message.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["vinelink", "inmate-search", "release-date"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "prison-rape-elimination-act": {
+    id: "term-94",
+    term: "PREA",
+    slug: "prison-rape-elimination-act",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "PREA stands for the Prison Rape Elimination Act, a federal law enacted in 2003 that established national standards to prevent, detect, and respond to sexual abuse in correctional facilities. PREA affects how facilities handle reports of abuse and requires staff training and audits. Inmates have the right to report PREA violations confidentially. Families can reference PREA when an incarcerated loved one reports sexual abuse at a facility.",
+
+    fullExplanation: [
+      "PREA established the first national standards addressing sexual abuse in prisons, jails, and other confinement settings. The law created the National Prison Rape Elimination Commission and required the Department of Justice to develop and publish standards for correctional facilities.",
+
+      "If an incarcerated person experiences sexual abuse, they have the right to report it through PREA channels at the facility. Reports can also be made to the facility's PREA coordinator, the DOC, or the Department of Justice. Families can contact advocacy organizations for guidance on supporting a loved one through a PREA report.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["case-manager", "shu", "general-population"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "legal-aid": {
+    id: "term-95",
+    term: "Legal Aid",
+    slug: "legal-aid",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Legal aid refers to free or reduced-cost legal services provided to people who cannot afford an attorney. Incarcerated people and their families can access legal aid through law school clinics, public defender offices, nonprofit legal organizations, and prison legal services programs. Legal aid is particularly relevant for post-conviction matters, appeals, compassionate release petitions, and civil rights claims.",
+
+    fullExplanation: [
+      "Many incarcerated people cannot afford private attorneys for post-conviction matters. Legal aid organizations provide free or low-cost legal assistance for appeals, sentence reduction motions, civil rights claims, and reentry matters. Each state has different legal aid resources available.",
+
+      "Families can help their loved one access legal aid by researching organizations in the state where the person is incarcerated. The Legal Services Corporation maintains a directory of legal aid organizations at lsc.gov. Law school clinics often handle criminal justice matters at no cost.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["attorney-call", "legal-mail", "compassionate-release", "first-step-act"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "inmate-locator": {
+    id: "term-96",
+    term: "Inmate Locator",
+    slug: "inmate-locator",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "An inmate locator is an online tool used to find an incarcerated person and confirm their current facility and basic status. The federal Bureau of Prisons maintains an inmate locator at bop.gov searchable by name or register number. Each state DOC maintains its own offender search tool. County jail inmate rosters are maintained by individual sheriff offices. Inmate locators are free to use and publicly accessible.",
+
+    fullExplanation: [
+      "Inmate locators are the first step for families who have lost contact with an incarcerated loved one or need to find the current facility after a transfer. The BOP inmate locator at bop.gov shows name, age, race, registration number, projected release date, and facility location for federal inmates.",
+
+      "State inmate locators vary in the information they provide. Most show the current facility and inmate ID number which families need for setting up communication accounts. County jail rosters typically show only basic booking information. Search by full legal name for the best results.",
+
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-search", "bop", "doc-number", "register-number"],
     relatedProviderSlugs: [],
     relatedHubs: [],
   },

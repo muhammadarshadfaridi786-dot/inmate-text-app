@@ -890,6 +890,903 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
       },
     ],
   },
+  "advancepay": {
+    id: "term-16",
+    term: "AdvancePay",
+    slug: "advancepay",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "AdvancePay is a prepaid collect calling service offered by GTL through ConnectNetwork that allows family members to fund a calling account linked to their phone number so an inmate can call them.",
+
+    fullExplanation: [
+      "AdvancePay is a prepaid collect calling service offered by GTL through ConnectNetwork that allows family members to fund a calling account linked to their phone number so an inmate can call them. You deposit money into your AdvancePay account and when the inmate calls your registered number, the cost is deducted from your balance. AdvancePay works with all phone types including cell phones. It is the most common way families receive calls from state prison inmates.",
+
+      "A family member creates a free ConnectNetwork account, adds their phone number, and deposits $25 into their AdvancePay account. When their loved one calls from the facility, the call connects and per-minute charges are deducted from the $25 balance.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["pin-debit", "collect-call", "inmate-phone-calls"],
+    relatedProviderSlugs: ["connectnetwork"],
+    relatedHubs: [],
+  },
+
+  "pin-debit": {
+    id: "term-17",
+    term: "PIN Debit",
+    slug: "pin-debit",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "PIN Debit is a phone account managed by the inmate rather than the family.",
+
+    fullExplanation: [
+      "PIN Debit is a phone account managed by the inmate rather than the family. The inmate uses their personal identification number (PIN) to place calls and the cost is deducted from their own account balance. Family members can deposit money directly into the inmate's PIN Debit account, and the inmate can call any approved number on their facility call list. PIN Debit calls are generally less expensive per minute than collect calls.",
+
+      "A family deposits $20 into their loved one's PIN Debit account through ConnectNetwork. The inmate can then use those funds to call any approved number on their list, not just one designated family phone number.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["advancepay", "collect-call", "approved-contact-list", "inmate-phone-calls"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "collect-call": {
+    id: "term-18",
+    term: "Collect Call",
+    slug: "collect-call",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "A collect call is a telephone call where the charges are billed to the person receiving the call rather than the person placing it.",
+
+    fullExplanation: [
+      "A collect call is a telephone call where the charges are billed to the person receiving the call rather than the person placing it. Prison and jail phone systems historically used collect calls as the primary billing method. Collect calls from correctional facilities typically cannot be accepted on cell phones through most carriers. Setting up an AdvancePay prepaid account is the recommended alternative to collect calls for families with cell phones.",
+
+      "An inmate places a collect call from the facility phone. The family member's landline accepts the call and the per-minute charges appear on their phone bill at the end of the month.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["advancepay", "pin-debit", "inmate-phone-calls"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "inmate-trust-account": {
+    id: "term-19",
+    term: "Inmate Trust Account",
+    slug: "inmate-trust-account",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "An inmate trust account is the financial account maintained by the correctional facility on behalf of each incarcerated person.",
+
+    fullExplanation: [
+      "An inmate trust account is the financial account maintained by the correctional facility on behalf of each incarcerated person. All money deposited by family members, earned from prison jobs, or received from any other source goes into this account. The inmate uses trust account funds to pay for commissary purchases, phone calls, electronic messaging, and other approved expenses. The inmate never handles cash directly.",
+
+      "A family deposits $50 through JPay to their loved one's trust account. The inmate can then spend $30 at commissary and use $20 for phone call minutes purchased through the facility phone system.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["commissary", "jpay-stamps", "money-transfer", "spending-limit"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "booking-number": {
+    id: "term-20",
+    term: "Booking Number",
+    slug: "booking-number",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A booking number is the identification number assigned to a person when they are booked into a county jail.",
+
+    fullExplanation: [
+      "A booking number is the identification number assigned to a person when they are booked into a county jail. It is specific to that booking and that jail. The booking number is required for county jail communication accounts, money deposits, and mail. It is different from a court case number and different from the state DOC number assigned if the person is later sentenced to state prison.",
+
+      "When someone is arrested and booked at Harris County Jail, they receive a booking number. Family members need this number to set up a Securus account to receive calls and to send money to the jail trust account.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["doc-number", "inmate-id-number", "inmate-search"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "doc-number": {
+    id: "term-21",
+    term: "DOC Number",
+    slug: "doc-number",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A DOC number is the identification number assigned by a state Department of Corrections to every person sentenced to state prison.",
+
+    fullExplanation: [
+      "A DOC number is the identification number assigned by a state Department of Corrections to every person sentenced to state prison. It is permanent for the duration of the sentence regardless of which facility the person is transferred to. The DOC number is required for state prison communication accounts, money deposits, and mail. Each state uses different terminology such as TDCJ number in Texas, CDCR number in California, MDOC number in Mississippi, and GDC number in Georgia.",
+
+      "When someone is transferred from county jail to a Texas state prison, they receive a TDCJ number. This number must appear on all mail and is required to set up Securus and JPay accounts for that person.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["booking-number", "register-number", "inmate-id-number", "inmate-search"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "register-number": {
+    id: "term-22",
+    term: "Register Number",
+    slug: "register-number",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A register number is the identification number assigned by the federal Bureau of Prisons to every person sentenced to federal prison.",
+
+    fullExplanation: [
+      "A register number is the identification number assigned by the federal Bureau of Prisons to every person sentenced to federal prison. It consists of eight digits followed by a dash and three more digits. The register number is required to locate a federal inmate using the BOP inmate locator at bop.gov, to set up a CorrLinks account, and to send money to a federal inmate's trust account through MoneyGram or Western Union.",
+
+      "A federal inmate's register number is 12345-678. Family members need this number to find the inmate on bop.gov and to send funds through the BOP approved money transfer methods.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["bop", "doc-number", "booking-number", "inmate-search"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "three-way-calling": {
+    id: "term-23",
+    term: "Three-Way Calling",
+    slug: "three-way-calling",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Three-way calling refers to adding a third person to an active phone call, which is strictly prohibited at all correctional facilities.",
+
+    fullExplanation: [
+      "Three-way calling refers to adding a third person to an active phone call, which is strictly prohibited at all correctional facilities. Prison phone systems automatically detect and disconnect calls where a third party is added. Attempting three-way calling is a violation of facility rules and can result in the loss of phone privileges. The prohibition exists because three-way calling has been used to make anonymous calls that circumvent monitoring.",
+
+      "A family member receives a call from their incarcerated loved one and attempts to conference in another family member. The system detects the additional connection and immediately disconnects the call. The inmate may receive a conduct violation.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-phone-calls", "approved-contact-list", "lockdown"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "approved-contact-list": {
+    id: "term-24",
+    term: "Approved Contact List",
+    slug: "approved-contact-list",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "An approved contact list is the list of people an inmate is authorized to communicate with through phone calls, messages, or visits.",
+
+    fullExplanation: [
+      "An approved contact list is the list of people an inmate is authorized to communicate with through phone calls, messages, or visits. Inmates submit the names and contact information of approved contacts, and the facility reviews and approves them before communication can begin. The number of approved contacts is typically limited to 20 or fewer. Family members must be on this list before they can receive calls or exchange messages with an inmate.",
+
+      "When someone arrives at an Indiana state prison, they are allowed to list up to 20 approved phone contacts. A family member not on this list cannot receive calls regardless of whether they have a funded ConnectNetwork account.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-phone-calls", "three-way-calling", "visitation-rules"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "mail-scanning": {
+    id: "term-25",
+    term: "Mail Scanning",
+    slug: "mail-scanning",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Mail scanning is a system where incoming physical mail is intercepted at a central processing facility, scanned digitally, and delivered to the inmate electronically or as a photocopy rather than as the original physical letter.",
+
+    fullExplanation: [
+      "Mail scanning is a system where incoming physical mail is intercepted at a central processing facility, scanned digitally, and delivered to the inmate electronically or as a photocopy rather than as the original physical letter. Many state prison systems have adopted mail scanning as a security measure to prevent contraband from entering facilities through mail. Oklahoma, Missouri, North Carolina, and North Dakota are among the states with mail scanning systems.",
+
+      "A family mails a letter to a Missouri state prison. Instead of being delivered physically to the facility, the letter is rerouted to a Securus Digital Mail Center in another city, scanned, and delivered digitally to the inmate's tablet.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["digital-mail", "legal-mail", "contraband"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "digital-mail": {
+    id: "term-26",
+    term: "Digital Mail",
+    slug: "digital-mail",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Digital mail is the electronic delivery of letters and photos to inmates through approved platforms, either by family uploading content directly through a service like JPay or Pigeonly, or through a mail scanning system that converts physical mail into digital format.",
+
+    fullExplanation: [
+      "Digital mail is the electronic delivery of letters and photos to inmates through approved platforms, either by family uploading content directly through a service like JPay or Pigeonly, or through a mail scanning system that converts physical mail into digital format. Digital mail is delivered to inmate tablets or kiosk terminals. Services like Pigeonly and TextBehind allow families to send digital messages that are printed and delivered as physical letters.",
+
+      "A family uses JPay to send a digital letter and three attached photos to their loved one at a state prison. The message appears on the inmate's JPay tablet within 24 hours after staff review.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["mail-scanning", "emessaging", "legal-mail"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "emessaging": {
+    id: "term-27",
+    term: "eMessaging",
+    slug: "emessaging",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "eMessaging refers to electronic messaging services available to prison and jail inmates through approved communication platforms such as JPay, CorrLinks, ConnectNetwork, and GettingOut.",
+
+    fullExplanation: [
+      "eMessaging refers to electronic messaging services available to prison and jail inmates through approved communication platforms such as JPay, CorrLinks, ConnectNetwork, and GettingOut. Messages are typed by the sender, paid for using stamps or credits, and delivered to the inmate after staff review. The inmate reads messages on a tablet or kiosk terminal and can send replies. eMessaging is typically faster than physical mail but slower than real-time communication.",
+
+      "A family member purchases 10 JPay stamps at approximately $0.40 each and sends a message to their loved one at a state prison. The message is reviewed and delivered within several hours.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["jpay-stamps", "digital-mail", "trulincs"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "pretrial-detention": {
+    id: "term-28",
+    term: "Pretrial Detention",
+    slug: "pretrial-detention",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Pretrial detention is the holding of a person in custody before their trial or conviction.",
+
+    fullExplanation: [
+      "Pretrial detention is the holding of a person in custody before their trial or conviction. People in pretrial detention have not been found guilty and are held either because they cannot afford bail or because a judge determined they pose a flight risk or danger. Most pretrial detainees are held in county jails. Communication rules and provider availability are generally the same as for sentenced inmates at the same facility.",
+
+      "Someone is arrested and unable to post bail. They are held at Miami-Dade County Jail in pretrial detention while awaiting trial. Their family uses Securus for phone calls and GTL for video visits at that facility.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["county-jail", "booking-number"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "halfway-house": {
+    id: "term-29",
+    term: "Halfway House",
+    slug: "halfway-house",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "A halfway house, also called a Residential Reentry Center (RRC), is a transitional facility where people are placed toward the end of their prison sentence to help them reintegrate into the community.",
+
+    fullExplanation: [
+      "A halfway house, also called a Residential Reentry Center (RRC), is a transitional facility where people are placed toward the end of their prison sentence to help them reintegrate into the community. Federal inmates are often placed in a halfway house operated by a BOP contract provider in the months before their release date. Communication rules at halfway houses are typically less restrictive than at prisons.",
+
+      "A federal inmate with six months remaining on their sentence is transferred to a Residential Reentry Center in their home city. They have greater freedom to use phones and communicate with family while preparing for full release.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["reentry", "federal-prison", "work-release"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "shu": {
+    id: "term-30",
+    term: "SHU",
+    slug: "shu",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "SHU stands for Special Housing Unit, which is a segregated area of a correctional facility where inmates are held separately from the general population for disciplinary reasons or for their own protection.",
+
+    fullExplanation: [
+      "SHU stands for Special Housing Unit, which is a segregated area of a correctional facility where inmates are held separately from the general population for disciplinary reasons or for their own protection. Inmates in the SHU typically have severely restricted communication privileges including limited or no phone calls, no electronic messaging, and only limited mail access. SHU placement significantly reduces or eliminates contact with families.",
+
+      "After a disciplinary incident, an inmate is placed in the SHU for 30 days. During this period, their family receives no phone calls and electronic messaging is suspended. Only legal mail may be received.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["general-population", "lockdown", "contraband"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "general-population": {
+    id: "term-31",
+    term: "General Population",
+    slug: "general-population",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "General population refers to the main housing area of a correctional facility where inmates live and follow the standard daily schedule including meals, recreation, work, and programming.",
+
+    fullExplanation: [
+      "General population refers to the main housing area of a correctional facility where inmates live and follow the standard daily schedule including meals, recreation, work, and programming. Communication privileges such as phone calls, messaging, and visits are available to general population inmates subject to facility rules. Being placed in general population means an inmate has the full range of communication options available at that facility.",
+
+      "After completing intake and classification, an inmate is assigned to general population housing. They immediately begin the process of setting up their approved contact list and their family can start receiving calls.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["shu", "lockdown", "approved-contact-list"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "minimum-security": {
+    id: "term-32",
+    term: "Minimum Security",
+    slug: "minimum-security",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Minimum security is the lowest level of security classification in the correctional system.",
+
+    fullExplanation: [
+      "Minimum security is the lowest level of security classification in the correctional system. Minimum security facilities house inmates who pose the lowest risk, have shorter sentences, or have demonstrated good behavior. They have fewer physical restrictions and typically more relaxed communication rules. Federal minimum security facilities are called Federal Prison Camps (FPC).",
+
+      "After serving several years at a medium security facility with good behavior, an inmate is reclassified and transferred to a minimum security Federal Prison Camp where they have more freedom of movement and more flexible communication hours.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["medium-security", "maximum-security", "general-population"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "medium-security": {
+    id: "term-33",
+    term: "Medium Security",
+    slug: "medium-security",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Medium security is the middle classification level in the correctional system.",
+
+    fullExplanation: [
+      "Medium security is the middle classification level in the correctional system. Most state prison inmates are held at medium security facilities. Medium security facilities have more physical controls than minimum security but less than maximum. Communication options including phone calls, messaging, and visits are available subject to facility rules.",
+
+      "Someone convicted of a state felony is classified as medium security and assigned to a state correctional institution. They follow standard communication procedures with phone calls, JPay messaging, and scheduled visiting hours.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["minimum-security", "maximum-security", "general-population"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "maximum-security": {
+    id: "term-34",
+    term: "Maximum Security",
+    slug: "maximum-security",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Maximum security is the highest standard classification level for correctional facilities, housing inmates who pose the greatest risk or have committed the most serious offenses.",
+
+    fullExplanation: [
+      "Maximum security is the highest standard classification level for correctional facilities, housing inmates who pose the greatest risk or have committed the most serious offenses. Communication is more restricted than at lower security levels. Phone call hours may be limited, visitor lists are strictly controlled, and movement within the facility is highly restricted. ADX Florence in Colorado is the federal supermax, which is a step above maximum security.",
+
+      "An inmate classified as maximum security at a state penitentiary has access to phone calls only during designated hours and may have a shorter approved contact list than inmates at lower security levels.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["medium-security", "minimum-security", "shu"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "moneygram": {
+    id: "term-35",
+    term: "MoneyGram",
+    slug: "moneygram",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "MoneyGram is a money transfer service used to send funds to federal Bureau of Prisons inmate trust accounts and to some state and county facility accounts.",
+
+    fullExplanation: [
+      "MoneyGram is a money transfer service used to send funds to federal Bureau of Prisons inmate trust accounts and to some state and county facility accounts. For federal inmates, MoneyGram transfers are sent online or at MoneyGram agent locations such as Walmart and CVS using the inmate's full committed name and register number. MoneyGram transfers to federal accounts typically clear within one to two business days.",
+
+      "A family sends $100 to their loved one at a federal prison using MoneyGram online. They enter the inmate's full committed name and eight-digit register number. The funds clear in the trust account within two business days.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["western-union", "inmate-trust-account", "bop", "money-transfer"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "western-union": {
+    id: "term-36",
+    term: "Western Union",
+    slug: "western-union",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "Western Union is a money transfer service used to send funds to federal Bureau of Prisons inmate trust accounts and some other facility accounts.",
+
+    fullExplanation: [
+      "Western Union is a money transfer service used to send funds to federal Bureau of Prisons inmate trust accounts and some other facility accounts. For federal inmates, Western Union transfers use FBOP as the receive city. Transfers can be made online or at Western Union agent locations. Like MoneyGram, Western Union transfers to federal accounts typically clear within one to two business days.",
+
+      "A family sends funds to their loved one at FCI Cumberland using Western Union online, entering FBOP as the receive city and the inmate's committed name and register number. The funds appear in the trust account within two business days.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["moneygram", "inmate-trust-account", "bop", "money-transfer"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "jpay-stamps": {
+    id: "term-37",
+    term: "JPay Stamps",
+    slug: "jpay-stamps",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "JPay stamps are virtual credits used to send electronic messages through the JPay platform at state prison facilities.",
+
+    fullExplanation: [
+      "JPay stamps are virtual credits used to send electronic messages through the JPay platform at state prison facilities. Each standard text message requires one stamp. Stamps cost between $0.33 and $0.47 each depending on the state. Photo attachments require one additional stamp per image. Stamps are purchased in bundles and do not expire. JPay stamps are only used for messaging and cannot be applied to money transfers or other services.",
+
+      "A family purchases a bundle of 10 JPay stamps at $0.40 each for $4.00. They use one stamp to send a text message and one stamp to attach a photo, using two stamps total for that message.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["emessaging", "inmate-trust-account", "transaction-fee"],
+    relatedProviderSlugs: ["jpay"],
+    relatedHubs: [],
+  },
+
+  "transaction-fee": {
+    id: "term-38",
+    term: "Transaction Fee",
+    slug: "transaction-fee",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "A transaction fee is a charge applied by a communication or money transfer provider each time a deposit or purchase is made.",
+
+    fullExplanation: [
+      "A transaction fee is a charge applied by a communication or money transfer provider each time a deposit or purchase is made. Transaction fees at prison communication providers can range from $2.95 to $11.99 per transaction depending on the provider, payment method, and deposit amount. Mailed money orders typically have lower or no transaction fees compared to online or phone deposits. The FCC has regulated call rates but transaction fees on money transfers remain largely unregulated.",
+
+      "A family deposits $20 to their loved one's JPay account and is charged a $3.99 transaction fee, meaning $23.99 total leaves their account but only $20 reaches the inmate trust account.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["money-transfer", "jpay-stamps", "moneygram"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "spending-limit": {
+    id: "term-39",
+    term: "Spending Limit",
+    slug: "spending-limit",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "A spending limit is the maximum amount an inmate can spend on commissary purchases within a given time period, typically per week or per month.",
+
+    fullExplanation: [
+      "A spending limit is the maximum amount an inmate can spend on commissary purchases within a given time period, typically per week or per month. Spending limits vary by facility and security level. Federal Bureau of Prisons facilities have a standard monthly commissary spending limit of $360. County jails often have lower weekly limits of $50 to $100. Spending limits do not affect how much money can be deposited into the trust account, only how much can be spent at once.",
+
+      "At a federal prison, an inmate has $500 in their trust account but the $360 monthly spending limit means they can only spend $360 at the commissary that month. The remaining $140 carries forward to the next month.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["commissary", "inmate-trust-account", "canteen"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "debit-link": {
+    id: "term-40",
+    term: "Debit Link",
+    slug: "debit-link",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "Debit Link is the digital currency system used by ViaPath Technologies for tablet-based services at facilities they serve.",
+
+    fullExplanation: [
+      "Debit Link is the digital currency system used by ViaPath Technologies for tablet-based services at facilities they serve. One dollar buys 100 link units at a rate of $0.01 per unit. Debit Link funds are used for tablet services including streaming music, games, and ebooks rather than for phone calls or commissary. Debit Link purchases are final and nonrefundable, which is different from phone account funds that may be eligible for refunds.",
+
+      "A family deposits $10 to their loved one's Debit Link account, which converts to 1,000 link units. The inmate uses 500 units to purchase a streaming music subscription on their ViaPath tablet for the month.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-trust-account", "emessaging", "transaction-fee"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "vinelink": {
+    id: "term-41",
+    term: "VINELink",
+    slug: "vinelink",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "VINELink is a free national victim notification service that also allows the public to search for inmate status information.",
+
+    fullExplanation: [
+      "VINELink is a free national victim notification service that also allows the public to search for inmate status information. It is used in many states as a way to find an inmate's current facility, custody status, and scheduled release date. VINELink is particularly useful in Louisiana and other states where it serves as the primary public inmate search tool. The service also sends automatic notifications when an inmate's status changes.",
+
+      "A Louisiana family uses VINELink at vinelink.vineapps.com to find their loved one's current LDOC facility and confirm which provider to use for phone calls before setting up a Securus account.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-search", "doc-number"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "bop": {
+    id: "term-42",
+    term: "BOP",
+    slug: "bop",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "BOP stands for Bureau of Prisons, which is the federal agency that operates all federal correctional facilities in the United States.",
+
+    fullExplanation: [
+      "BOP stands for Bureau of Prisons, which is the federal agency that operates all federal correctional facilities in the United States. The BOP is part of the Department of Justice. All BOP facilities use CorrLinks for electronic messaging and ConnectNetwork for phone calls. Money transfers to federal inmates go through MoneyGram or Western Union rather than JPay, which serves state prisons. The BOP inmate locator at bop.gov is used to find any current or former federal inmate.",
+
+      "A family learns their loved one was sentenced to federal prison. They visit bop.gov to find the facility using the inmate locator, then set up CorrLinks for messaging and ConnectNetwork for phone calls since all BOP facilities use these providers.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["federal-prison", "trulincs", "register-number", "moneygram"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "trulincs": {
+    id: "term-43",
+    term: "TRULINCS",
+    slug: "trulincs",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "TRULINCS stands for Trust Fund Limited Inmate Computer System.",
+
+    fullExplanation: [
+      "TRULINCS stands for Trust Fund Limited Inmate Computer System. It is the secure computer network operated by the Federal Bureau of Prisons that gives incarcerated people access to electronic messaging through CorrLinks, along with limited other digital services. Inmates access TRULINCS through secure terminals in their housing units. The TRULINCS system is the infrastructure that powers all CorrLinks federal email communication.",
+
+      "A federal inmate uses a TRULINCS terminal in their housing unit to send a contact request to a family member through CorrLinks. The family member receives an invitation email and creates a free account to begin exchanging messages.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["bop", "federal-prison", "emessaging"],
+    relatedProviderSlugs: ["corrlinks"],
+    relatedHubs: [],
+  },
+
+  "dress-code": {
+    id: "term-44",
+    term: "Dress Code",
+    slug: "dress-code",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "The visiting dress code is a set of rules governing what clothing visitors may wear to a correctional facility.",
+
+    fullExplanation: [
+      "The visiting dress code is a set of rules governing what clothing visitors may wear to a correctional facility. Dress codes exist to distinguish visitors from inmates and prevent the introduction of contraband. Common restrictions include no clothing similar in color to inmate uniforms such as khaki, tan, or orange, no revealing clothing, no open-toed shoes, and no excessive jewelry. Dress code violations are among the most common reasons visitors are turned away.",
+
+      "A visitor arrives at a federal prison wearing khaki pants similar in color to the facility's inmate uniform. The officer at the entrance turns them away. The visitor drives to a nearby store, purchases acceptable clothing, and returns for their visit.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["visitation-rules", "approved-contact-list", "video-visitation"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "attorney-call": {
+    id: "term-45",
+    term: "Attorney Call",
+    slug: "attorney-call",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "An attorney call is a phone call between an incarcerated person and their legal counsel that is legally protected and not recorded or monitored.",
+
+    fullExplanation: [
+      "An attorney call is a phone call between an incarcerated person and their legal counsel that is legally protected and not recorded or monitored. Attorney calls are exempt from the standard recording and monitoring that applies to all other inmate phone calls. For an attorney call to be protected, the attorney's phone number must typically be verified and registered with the facility as a legal contact. Attorney-client privilege applies to these calls.",
+
+      "An inmate's attorney contacts the facility and registers their direct line as a legal number. When the inmate calls that number from the facility phone, the call is not recorded and is protected by attorney-client privilege.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["inmate-phone-calls", "legal-mail", "approved-contact-list"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "legal-mail": {
+    id: "term-46",
+    term: "Legal Mail",
+    slug: "legal-mail",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Legal mail is correspondence between an incarcerated person and their attorney, court, or government agency that is protected by attorney-client privilege and handled differently from regular personal mail.",
+
+    fullExplanation: [
+      "Legal mail is correspondence between an incarcerated person and their attorney, court, or government agency that is protected by attorney-client privilege and handled differently from regular personal mail. Legal mail is typically opened in the presence of the inmate but not read by staff. In states that have implemented mail scanning systems, legal mail is generally still delivered directly to the facility rather than going through the scanning center.",
+
+      "In Oklahoma, which banned physical mail at state prisons in 2024, legal mail from attorneys is still delivered directly to the facility. Personal mail from family goes to the Dallas processing center for scanning.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["mail-scanning", "digital-mail", "attorney-call"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "work-release": {
+    id: "term-47",
+    term: "Work Release",
+    slug: "work-release",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Work release is a program that allows incarcerated people nearing the end of their sentence to work at jobs in the community while returning to the facility during non-working hours.",
+
+    fullExplanation: [
+      "Work release is a program that allows incarcerated people nearing the end of their sentence to work at jobs in the community while returning to the facility during non-working hours. Work release participants have greater access to phones and communication but still follow facility rules for contact with approved persons. Communication providers vary by the specific work release or community corrections facility.",
+
+      "An inmate with 90 days remaining on their sentence is approved for work release and moved to a community corrections center. They work at a local business during the day and return to the center in the evening where they have regular access to facility phones.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["halfway-house", "reentry", "general-population"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "reentry": {
+    id: "term-48",
+    term: "Reentry",
+    slug: "reentry",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Reentry refers to the process of transitioning from incarceration back into the community, including finding housing, employment, and support services.",
+
+    fullExplanation: [
+      "Reentry refers to the process of transitioning from incarceration back into the community, including finding housing, employment, and support services. Many correctional facilities offer reentry programs to help prepare incarcerated people for release. Federal inmates often transition through a halfway house (Residential Reentry Center) before full release. Maintaining family communication during incarceration is shown to improve reentry outcomes and reduce recidivism.",
+
+      "Six months before release, a federal inmate begins participating in a reentry program that includes job preparation, housing assistance, and family communication planning. They are later transferred to a Residential Reentry Center near their home community.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["halfway-house", "work-release", "parole"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "parole": {
+    id: "term-49",
+    term: "Parole",
+    slug: "parole",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Parole is a form of early release from prison that allows a person to serve the remainder of their sentence under supervision in the community rather than in a facility.",
+
+    fullExplanation: [
+      "Parole is a form of early release from prison that allows a person to serve the remainder of their sentence under supervision in the community rather than in a facility. Parolees must follow conditions set by their parole officer and report regularly. Communication restrictions ease significantly after release on parole. The federal system uses supervised release rather than traditional parole. State parole policies and eligibility vary significantly.",
+
+      "After serving two-thirds of a state prison sentence, an inmate is granted parole. They are released from the facility and must report to a parole officer weekly, maintain employment, and avoid contact with prohibited individuals.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["reentry", "probation", "halfway-house"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "probation": {
+    id: "term-50",
+    term: "Probation",
+    slug: "probation",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Probation is a form of court-imposed supervision that allows a person to serve their sentence in the community rather than in a correctional facility, subject to conditions set by the court.",
+
+    fullExplanation: [
+      "Probation is a form of court-imposed supervision that allows a person to serve their sentence in the community rather than in a correctional facility, subject to conditions set by the court. Probation is typically an alternative to incarceration for first-time or lower-level offenses. Probationers must follow their conditions, report to a probation officer, and may have restrictions on who they can contact.",
+
+      "Instead of prison time, someone convicted of a first-time nonviolent offense is sentenced to three years of probation. They remain at home but must check in with their probation officer monthly and follow all conditions of their sentence.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["parole", "reentry"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "case-manager": {
+    id: "term-51",
+    term: "Case Manager",
+    slug: "case-manager",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A case manager is a correctional staff member assigned to each inmate who is responsible for managing their programming, classification, correspondence, and release planning.",
+
+    fullExplanation: [
+      "A case manager is a correctional staff member assigned to each inmate who is responsible for managing their programming, classification, correspondence, and release planning. Case managers are the primary point of contact for inmates who need to add someone to their approved contact list, request certified mail approval, or address issues with their communication accounts. Case manager approval is sometimes required for money deposits above certain amounts.",
+
+      "An inmate needs to add a new family member to their approved phone contact list. They submit a request to their case manager, who reviews the application and adds the approved number to the system within a week.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["approved-contact-list", "visitation-rules", "reentry"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "contraband": {
+    id: "term-52",
+    term: "Contraband",
+    slug: "contraband",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "Contraband is any item that is prohibited inside a correctional facility.",
+
+    fullExplanation: [
+      "Contraband is any item that is prohibited inside a correctional facility. Common contraband includes drugs, weapons, unauthorized food, cell phones, and items sent through unapproved channels. Mail scanning and mail bans at many facilities are implemented specifically to prevent contraband from entering through incoming correspondence. Items confiscated as contraband are typically destroyed, and the sender may not receive a refund.",
+
+      "Books sent to a South Carolina state prison after October 2025 through an unapproved vendor are classified as contraband. The books are confiscated and sent to Contraband disposal without a refund to the sender.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["mail-scanning", "legal-mail", "shu", "lockdown"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "lockdown": {
+    id: "term-53",
+    term: "Lockdown",
+    slug: "lockdown",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A lockdown is a security measure at a correctional facility where all inmates are confined to their cells and normal activities including phone calls, visits, and programming are suspended.",
+
+    fullExplanation: [
+      "A lockdown is a security measure at a correctional facility where all inmates are confined to their cells and normal activities including phone calls, visits, and programming are suspended. Lockdowns are ordered in response to security incidents, counts, emergencies, or disturbances. Families often have no advance notice when a lockdown occurs and may receive no calls during the lockdown period. Lockdowns can last from hours to days.",
+
+      "A family member expects a call from their loved one but receives nothing. They later learn the facility was placed on lockdown following a disturbance and all communication was suspended for 48 hours. Calls resume once normal operations restart.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["shu", "general-population", "inmate-phone-calls"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "canteen": {
+    id: "term-54",
+    term: "Canteen",
+    slug: "canteen",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "Canteen is an alternative term for commissary used at some correctional facilities, particularly in federal and some state systems.",
+
+    fullExplanation: [
+      "Canteen is an alternative term for commissary used at some correctional facilities, particularly in federal and some state systems. The canteen and commissary refer to the same thing , the store inside the facility where inmates purchase items beyond what the institution provides. Some facilities use canteen and commissary interchangeably while others use one term exclusively. Purchases are always paid from the inmate trust account.",
+
+      "At a federal Bureau of Prisons facility, the inmate store is called the commissary in official BOP documents but some staff and inmates refer to it informally as the canteen. Both terms refer to the same place.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["commissary", "inmate-trust-account", "spending-limit"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

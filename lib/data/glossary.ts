@@ -2796,6 +2796,98 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     relatedHubs: [],
   },
 
+  "supermax": {
+    id: "term-97",
+    term: "Supermax",
+    slug: "supermax",
+    category: "Facility Types",
+    featured: false,
+
+    definition:
+      "Supermax is an abbreviation for super maximum security prison, the highest level of security in the correctional system above standard maximum security. Supermax facilities house the most dangerous or disruptive inmates in extreme isolation. ADX Florence in Colorado is the only federal supermax. Communication is severely restricted at supermax facilities with very limited phone and mail access.",
+
+    fullExplanation: [
+      "Supermax facilities use solitary confinement as the standard housing condition rather than as a punishment. Inmates at supermax prisons spend 22 to 24 hours per day in their cells with minimal human contact. Communication with family is severely restricted and may be limited to a small number of monitored calls per month and limited mail.",
+
+      "ADX Florence in Fremont County Colorado is the federal supermax, officially called the United States Penitentiary Administrative Maximum Facility. Federal inmates at ADX Florence are limited to 300 phone minutes per month. Families of ADX Florence inmates face significant communication barriers compared to other federal facilities.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["maximum-security", "shu", "protective-custody", "phone-privilege"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "sentence": {
+    id: "term-98",
+    term: "Sentence",
+    slug: "sentence",
+    category: "Administration",
+    featured: false,
+
+    definition:
+      "A sentence is the punishment imposed by a court on a person convicted of a crime, specifying the length of incarceration and any additional conditions. Sentence length determines which type of facility an inmate is housed in. Sentences of less than one year are typically served in county jails while longer sentences are served in state or federal prisons. Understanding an inmate's sentence helps families anticipate communication timelines.",
+
+    fullExplanation: [
+      "Criminal sentences come in several forms. A determinate sentence has a fixed length such as five years. An indeterminate sentence has a range such as five to ten years with parole eligibility. A life sentence may or may not include the possibility of parole. Federal sentences generally do not include parole but have supervised release after incarceration.",
+
+      "Sentence length affects many practical aspects of communication. Longer sentences mean more time to navigate the communication system and potentially more facility transfers. Understanding the general structure of the sentence helps families plan for long-term communication needs.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["parole", "good-time-credit", "release-date", "classification"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "prison-commission": {
+    id: "term-99",
+    term: "Prison Commission",
+    slug: "prison-commission",
+    category: "Finance",
+    featured: false,
+
+    definition:
+      "A prison commission is a payment made by a communication or commissary provider to a correctional facility in exchange for an exclusive contract. Commissions are paid as a percentage of revenue generated from inmate calls, messages, and purchases. Critics argue that commissions incentivize facilities to select the highest-paying provider rather than the best or most affordable service for families. The FCC has investigated commissions as a contributor to high prison phone rates.",
+
+    fullExplanation: [
+      "Prison commissions work like kickbacks where the provider shares a portion of every dollar families spend on calls, messages, and money transfers with the facility that granted them the exclusive contract. This creates a financial incentive for facilities to choose providers that generate the most revenue rather than those offering the best value to families.",
+
+      "Commission rates have historically been as high as 50 percent or more of call revenue. The FCC has moved to cap and eventually eliminate site commissions as part of its effort to reduce inmate calling costs. Some states have passed laws restricting or eliminating commissions while others continue the practice.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["fcc-rate-cap", "inmate-calling-service", "transaction-fee"],
+    relatedProviderSlugs: [],
+    relatedHubs: [],
+  },
+
+  "collect2phone": {
+    id: "term-100",
+    term: "Collect2Phone",
+    slug: "collect2phone",
+    category: "Communication",
+    featured: false,
+
+    definition:
+      "Collect2Phone is a GTL ViaPath pay-per-call option that allows a family member to accept a collect call from an inmate on a cell phone without setting up a prepaid account. The charge for the call appears on the cell phone bill. Collect2Phone is an alternative to AdvancePay for people who do not want to set up a prepaid account but still need to receive occasional calls on their cell phone.",
+
+    fullExplanation: [
+      "Traditional collect calls from correctional facilities cannot be accepted on cell phones through most carriers. Collect2Phone solves this problem by enabling cell phone users to accept collect calls and have the charges billed directly to their cell phone account.",
+
+      "Collect2Phone is available at GTL ConnectNetwork facilities. It is best suited for occasional calls rather than regular communication because per-call rates without a prepaid account are typically higher than AdvancePay rates. For families who expect regular calls, setting up an AdvancePay account is generally more cost-effective.",
+    ],
+
+    faq: [],
+
+    relatedTermSlugs: ["collect-call", "advancepay", "inmate-phone-calls", "pin-debit"],
+    relatedProviderSlugs: ["gtl", "connectnetwork"],
+    relatedHubs: [],
+  },
+
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

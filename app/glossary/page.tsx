@@ -91,13 +91,15 @@ export default function GlossaryPage() {
                 assuming any prior knowledge.
               </p>
               <p>
-                Terms are organized into five categories: Communication covers
+                Terms are organized into six categories: Communication covers
                 messaging, phone, and video platforms. Facility Types explains
                 the difference between federal prisons, state prisons, county jails,
                 and private facilities. Finance covers money transfer, trust accounts,
                 commissary, and fees. Technology covers the systems and platforms
                 providers use. Administration covers legal and procedural terms
-                families encounter during the incarceration process.
+                families encounter during the incarceration process. Providers
+                covers the companies that deliver communication services at
+                correctional facilities.
               </p>
             </div>
 

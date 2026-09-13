@@ -164,6 +164,66 @@ export const ALL_COMPARISONS: ComparisonBasic[] = [
     category: "County Jails",
     featured: false,
   },
+  {
+    id: "cmp-jpay-securus",
+    slug: "jpay-vs-securus",
+    providerASlug: "jpay",
+    providerBSlug: "securus",
+    providerAName: "JPay",
+    providerBName: "Securus Technologies",
+    winner: null,
+    winnerReason: "JPay and Securus serve complementary roles — JPay for messaging and money transfers, Securus for phone calls — so most families need both rather than choosing one.",
+    category: "Same Parent Company",
+    featured: false,
+  },
+  {
+    id: "cmp-securus-gtl",
+    slug: "securus-vs-gtl",
+    providerASlug: "securus",
+    providerBSlug: "connectnetwork",
+    providerAName: "Securus Technologies",
+    providerBName: "ConnectNetwork",
+    winner: null,
+    winnerReason: "Securus and ConnectNetwork offer functionally similar phone, video, and messaging services; which one you use is determined entirely by the facility's exclusive contract, not by product quality.",
+    category: "Two Largest Providers",
+    featured: false,
+  },
+  {
+    id: "cmp-gettingout-securus",
+    slug: "gettingout-vs-securus",
+    providerASlug: "gettingout",
+    providerBSlug: "securus",
+    providerAName: "GettingOut",
+    providerBName: "Securus Technologies",
+    winner: null,
+    winnerReason: "GettingOut and Securus serve overlapping county jail markets with different strengths — GettingOut on video, Securus on breadth of services — so the facility contract determines which one applies.",
+    category: "County Jails",
+    featured: false,
+  },
+  {
+    id: "cmp-pigeonly-textbehind",
+    slug: "pigeonly-vs-textbehind",
+    providerASlug: "pigeonly",
+    providerBSlug: "textbehind",
+    providerAName: "Pigeonly",
+    providerBName: "TextBehind",
+    winner: "pigeonly",
+    winnerReason: "Pigeonly offers a free plan, facility-specific compliance rules, and a larger network of over 4,000 facilities, giving it a practical edge over TextBehind's simpler per-page model.",
+    category: "Print and Mail Services",
+    featured: false,
+  },
+  {
+    id: "cmp-corrlinks-securus",
+    slug: "corrlinks-vs-securus",
+    providerASlug: "corrlinks",
+    providerBSlug: "securus",
+    providerAName: "CorrLinks",
+    providerBName: "Securus Technologies",
+    winner: null,
+    winnerReason: "CorrLinks and Securus serve almost entirely different facility types, so the winner depends entirely on whether your loved one is in a federal prison or a county jail.",
+    category: "Federal vs County",
+    featured: false,
+  },
 ]
 
 // ─────────────────────────────────────────────
@@ -1277,5 +1337,740 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "jpay-vs-connectnetwork",
       "corrlinks-vs-connectnetwork",
     ],
+  },
+
+  "jpay-vs-securus": {
+    id: "cmp-jpay-securus",
+    slug: "jpay-vs-securus",
+    providerASlug: "jpay",
+    providerBSlug: "securus",
+    providerAName: "JPay",
+    providerBName: "Securus Technologies",
+    winner: null,
+    winnerReason: "JPay and Securus serve complementary roles — JPay for messaging and money transfers, Securus for phone calls — so most families need both rather than choosing one.",
+    category: "Same Parent Company",
+    featured: false,
+
+    description:
+      "Compare JPay and Securus Technologies for inmate messaging, phone calls, video visits, and money transfers. Both are owned by Aventiv but serve different facility types.",
+
+    intro: [
+      "JPay and Securus are both owned by Aventiv Technologies but serve different purposes. JPay focuses on messaging, tablets, and money transfers at state prisons. Securus focuses on phone calls and video visits at county jails and some state prisons. Most families dealing with state prison inmates use JPay for messaging and Securus for calls at the same time.",
+
+      "JPay and Securus Technologies are both subsidiaries of Aventiv Technologies, making them sister companies under the same corporate parent. JPay was founded in 2002 as a payments company and later expanded into messaging and tablets. Securus was founded in 2004 and focuses on phone calls, video visits, and facility technology. Despite shared ownership, they operate as separate platforms with separate accounts.",
+
+      "JPay serves over 35 state Departments of Corrections for messaging, money transfers, and tablet services. Securus serves over 1,200 facilities primarily county jails and some state prisons for phone calls and video visits. At many state prisons, both companies serve the same facility simultaneously. JPay handles messaging and money while Securus handles calls. Families at these facilities need separate accounts on both platforms.",
+    ],
+
+    verdict: [
+      "JPay and Securus serve complementary roles in the prison communication system.",
+      "JPay dominates messaging and money transfers at state prisons.",
+      "Securus dominates phone calls and video at county jails.",
+      "Many families need both.",
+      "Neither is better overall because the facility contract determines which you must use.",
+    ],
+
+    sideA: {
+      slug: "jpay", name: "JPay", initial: "J", color: "bg-blue-600",
+      score: { messaging: 9, video: 6, photos: 8, phone: 2, moneyTransfer: 8, coverage: 6, easeOfUse: 7 },
+      overallScore: 6.6,
+    },
+    sideB: {
+      slug: "securus", name: "Securus Technologies", initial: "S", color: "bg-indigo-700",
+      score: { messaging: 5, video: 7, photos: 2, phone: 8, moneyTransfer: 5, coverage: 7, easeOfUse: 6 },
+      overallScore: 5.7,
+    },
+
+    services: {
+      messaging: {
+        providerA: "JPay is the dominant messaging platform for state prisons, using a stamp-based system with messages reviewed by staff before delivery.",
+        providerB: "Securus offers e-messaging at some facilities as a secondary service, but JPay is more widely used and established for this purpose.",
+        winner: "jpay",
+        notes: "JPay's messaging network at state prisons is significantly larger than Securus's e-messaging footprint.",
+      },
+      video: {
+        providerA: "JPay offers video visits at participating facilities, often through a GTL partnership rather than its own infrastructure.",
+        providerB: "Securus provides video visitation as one of its core services at county jails and state prisons where it holds the contract.",
+        winner: "securus",
+        notes: "Video is a more central part of the Securus product than the JPay product.",
+      },
+      photos: {
+        providerA: "JPay supports digital photo delivery directly through its app and website, reviewed for compliance before reaching the inmate.",
+        providerB: "Securus does not offer a comparable digital photo messaging feature at most facilities.",
+        winner: "jpay",
+        notes: "Digital photo sharing is one of JPay's clearest advantages over Securus.",
+      },
+      phone: {
+        providerA: "JPay does not primarily handle phone calls. Where JPay serves a facility, phone service is often handled separately by another provider.",
+        providerB: "Securus is a leading phone call provider with AdvancePay and Securus Debit account options and deep calling infrastructure at its contracted facilities.",
+        winner: "securus",
+        notes: "Phone calls are a core Securus strength and a weak point for JPay.",
+      },
+      moneyTransfer: {
+        providerA: "JPay is the dominant money transfer platform for state prison trust accounts, with deposits available online, by phone, at kiosks, and through MoneyGram.",
+        providerB: "Securus also offers money transfer services at some of its contracted facilities, though it is not the primary focus of the platform.",
+        winner: "jpay",
+        notes: "Money transfer is a bigger part of the JPay product than the Securus product.",
+      },
+    },
+
+    coverage: {
+      providerA: "JPay serves over 35 state Departments of Corrections, primarily for messaging, money transfers, and tablet services.",
+      providerB: "Securus serves over 1,200 facilities across 45 states, primarily county jails and some state prisons, for phone calls and video visits.",
+      winner: null,
+      notes: "Both companies are owned by Aventiv Technologies but cover different service categories at overlapping facility types.",
+    },
+
+    pricing: {
+      providerA: "JPay stamps for messaging cost between $0.33 and $0.47 each, with money transfer fees around 2.75% or $2.95, whichever is greater.",
+      providerB: "Securus phone call rates are capped under FCC rules at $0.11 per minute for large facilities effective April 2026.",
+      winner: null,
+      notes: "The two platforms charge for different services, so a direct price comparison depends on which service you need.",
+    },
+
+    mobileApp: {
+      providerA: "JPay has a well-reviewed mobile app for iOS and Android covering messaging, photos, video scheduling, and money transfers.",
+      providerB: "Securus also offers a mobile app for managing phone accounts and scheduling video visits.",
+      winner: null,
+      notes: "Both platforms offer functional mobile apps for their respective core services.",
+    },
+
+    prosConsA: {
+      pros: [
+        "Dominant messaging platform at 35+ state Departments of Corrections.",
+        "Digital photo sharing built directly into the app.",
+        "Strong money transfer integration for trust account deposits.",
+        "Well-reviewed mobile app for iOS and Android.",
+      ],
+      cons: [
+        "Does not primarily handle phone calls.",
+        "Owned by the same parent company as Securus, which can cause account confusion for families.",
+        "Video visitation is less central than on Securus.",
+      ],
+    },
+    prosConsB: {
+      pros: [
+        "Leading phone call provider with deep calling infrastructure.",
+        "Strong video visitation product used at many county jails.",
+        "Serves over 1,200 facilities across 45 states.",
+      ],
+      cons: [
+        "Does not offer digital photo messaging at most facilities.",
+        "Messaging is a secondary feature compared to JPay.",
+        "Owned by the same parent company as JPay, which can cause account confusion for families.",
+      ],
+    },
+
+    bestFor: [
+      {
+        scenario: "Messaging and sending photos to a state prison inmate",
+        winner: "jpay",
+        reason: "JPay is the dominant messaging and photo-sharing platform for state Departments of Corrections.",
+      },
+      {
+        scenario: "Receiving regular phone calls from an incarcerated loved one",
+        winner: "securus",
+        reason: "Securus has deeper phone infrastructure and is the primary calling provider at many of its contracted facilities.",
+      },
+      {
+        scenario: "Sending money to a trust account at a state prison",
+        winner: "jpay",
+        reason: "JPay's money transfer service is the standard option at most state prisons it serves.",
+      },
+    ],
+
+    faq: [
+      { question: "Are JPay and Securus the same company?", answer: "No but they share the same corporate parent. Both JPay and Securus are subsidiaries of Aventiv Technologies. They operate as separate platforms with separate accounts and different products." },
+      { question: "Do I need both JPay and Securus?", answer: "Possibly. At many state prisons, JPay handles messaging and money transfers while Securus handles phone calls. If your loved one is at such a facility you need accounts on both platforms. Check the specific facility to confirm." },
+      { question: "Which is cheaper, JPay or Securus?", answer: "They charge for different services so direct cost comparison is difficult. JPay stamps for messaging cost $0.33 to $0.47 each. Securus phone call rates are capped at $0.11 per minute for large facilities under FCC rules effective April 2026." },
+    ],
+
+    relatedComparisonSlugs: ["jpay-vs-corrlinks", "jpay-vs-connectnetwork", "securus-vs-gtl", "corrlinks-vs-securus"],
+  },
+
+  "securus-vs-gtl": {
+    id: "cmp-securus-gtl",
+    slug: "securus-vs-gtl",
+    providerASlug: "securus",
+    providerBSlug: "connectnetwork",
+    providerAName: "Securus Technologies",
+    providerBName: "ConnectNetwork",
+    winner: null,
+    winnerReason: "Securus and ConnectNetwork offer functionally similar phone, video, and messaging services; which one you use is determined entirely by the facility's exclusive contract, not by product quality.",
+    category: "Two Largest Providers",
+    featured: false,
+
+    description:
+      "Compare Securus Technologies and GTL ViaPath ConnectNetwork for inmate phone calls, video visits, and messaging. Both serve county jails and state prisons but with different coverage.",
+
+    intro: [
+      "Securus Technologies and GTL (now ViaPath, operating as ConnectNetwork) are the two largest inmate phone service providers in the United States. Both offer phone calls, video visits, and messaging at correctional facilities. Which one you need depends entirely on which provider your specific facility has contracted with.",
+
+      "Securus Technologies is owned by Aventiv Technologies and serves over 1,200 facilities across 45 states. GTL rebranded as ViaPath Technologies and operates ConnectNetwork as its consumer platform serving over 1,800 facilities. Both companies hold exclusive facility contracts meaning you cannot choose between them. The facility contract determines which provider you must use.",
+
+      "Both Securus and GTL have low consumer ratings with similar complaints about failed video visits without refunds, billing errors, and slow customer service. Securus customer service is at 800-844-6591. GTL ViaPath ConnectNetwork customer service is at 877-650-4249. Filing a Better Business Bureau complaint often gets faster resolution than standard customer service for both providers.",
+    ],
+
+    verdict: [
+      "Securus and GTL ConnectNetwork are functionally similar and both serve the same market.",
+      "The facility contract determines which you use.",
+      "Neither is meaningfully better than the other from a family perspective.",
+      "Both have significant consumer complaints.",
+      "Focus on setting up the correct account for your specific facility rather than comparing the two.",
+    ],
+
+    sideA: {
+      slug: "securus", name: "Securus Technologies", initial: "S", color: "bg-indigo-700",
+      score: { messaging: 6, video: 7, photos: 5, phone: 7, moneyTransfer: 6, coverage: 6, easeOfUse: 5 },
+      overallScore: 6.0,
+    },
+    sideB: {
+      slug: "connectnetwork", name: "ConnectNetwork", initial: "C", color: "bg-teal-600",
+      score: { messaging: 6, video: 7, photos: 4, phone: 7, moneyTransfer: 6, coverage: 8, easeOfUse: 5 },
+      overallScore: 6.1,
+    },
+
+    services: {
+      messaging: {
+        providerA: "Securus offers e-messaging at some facilities alongside its phone and video services, including features like Snap n Send for images and VideoGram for short recorded videos.",
+        providerB: "GTL ConnectNetwork offers electronic messaging through its platform at facilities that have enabled the feature.",
+        winner: null,
+        notes: "Messaging is a secondary feature for both platforms, which primarily compete on phone and video.",
+      },
+      video: {
+        providerA: "Securus offers video visitation through the Securus platform and app, with session length and pricing set by the facility contract.",
+        providerB: "GTL ConnectNetwork offers video visits through ConnectNetwork and its GettingOut subsidiary, also requiring advance scheduling.",
+        winner: null,
+        notes: "Video call rates are capped at $0.23 per minute for large facilities under FCC rules effective April 2026 on both platforms.",
+      },
+      photos: {
+        providerA: "Securus offers limited digital image sharing through features like Snap n Send at facilities where it is enabled.",
+        providerB: "GTL ConnectNetwork does not offer a comparable dedicated photo-sharing feature; its GettingOut subsidiary handles photos separately at county jails.",
+        winner: "securus",
+        notes: "Neither platform makes photo sharing a central feature compared to JPay.",
+      },
+      phone: {
+        providerA: "Securus offers AdvancePay and Securus Debit prepaid calling accounts with deep phone infrastructure at its contracted facilities.",
+        providerB: "GTL ConnectNetwork offers AdvancePay prepaid calling accounts with a similarly large phone network across its contracted facilities.",
+        winner: null,
+        notes: "Both are among the largest inmate calling service providers in the country and offer comparable account types.",
+      },
+      moneyTransfer: {
+        providerA: "Securus offers money transfer services to inmate trust and phone accounts at its contracted facilities.",
+        providerB: "GTL ConnectNetwork also offers money transfer services to trust and phone accounts at its contracted facilities.",
+        winner: null,
+        notes: "Both platforms handle deposits similarly; the facility contract determines which one you use.",
+      },
+    },
+
+    coverage: {
+      providerA: "Securus serves over 1,200 facilities across 45 states.",
+      providerB: "GTL ViaPath ConnectNetwork serves over 1,800 facilities, a larger network than Securus.",
+      winner: "connectnetwork",
+      notes: "ConnectNetwork's facility count is larger, though both companies hold exclusive contracts, so coverage is not something a family can choose between at a given facility.",
+    },
+
+    pricing: {
+      providerA: "Securus phone calls are capped at $0.11 per minute for large facilities and video visits at $0.23 per minute under FCC rules effective April 2026.",
+      providerB: "GTL ConnectNetwork phone and video rates are capped at the same FCC levels, since both providers are subject to the same federal regulation.",
+      winner: null,
+      notes: "Pricing is governed by the same FCC rate caps regardless of which provider serves your facility.",
+    },
+
+    mobileApp: {
+      providerA: "Securus has a mobile app for managing phone accounts, video visits, and messaging.",
+      providerB: "GTL ConnectNetwork also has a mobile app, and its GettingOut subsidiary has a separately rated app focused on video visitation.",
+      winner: null,
+      notes: "Both platforms offer functional apps, though consumer ratings are similarly low for both.",
+    },
+
+    prosConsA: {
+      pros: [
+        "Extensive phone call infrastructure at 1,200+ facilities.",
+        "Snap n Send and VideoGram features for images and short videos.",
+        "Serves both county jails and some state prisons.",
+      ],
+      cons: [
+        "Facility-exclusive contracts mean you cannot choose Securus over a competitor.",
+        "Low consumer ratings tied to billing and technical issues.",
+        "Customer service response times can be slow.",
+      ],
+    },
+    prosConsB: {
+      pros: [
+        "Largest facility network among the providers compared, with 1,800+ facilities.",
+        "Serves both state prisons and county jails through GTL ViaPath and its GettingOut subsidiary.",
+        "Comparable phone and video pricing under the same FCC caps.",
+      ],
+      cons: [
+        "Facility-exclusive contracts mean you cannot choose ConnectNetwork over a competitor.",
+        "Low consumer ratings similar to Securus.",
+        "GTL ViaPath was fined $3 million by the FCC in November 2024 for consumer protection violations.",
+      ],
+    },
+
+    bestFor: [
+      {
+        scenario: "A facility with the largest possible network reach",
+        winner: "connectnetwork",
+        reason: "GTL ViaPath ConnectNetwork serves more facilities nationwide than Securus.",
+      },
+      {
+        scenario: "Sending images alongside calls at a county jail",
+        winner: "securus",
+        reason: "Securus's Snap n Send feature offers a dedicated image-sharing option that ConnectNetwork does not directly match.",
+      },
+    ],
+
+    faq: [
+      { question: "Is Securus or GTL better for phone calls?", answer: "Both offer similar phone call services at similar regulated rates. The facility contract determines which provider you use. You cannot choose between them." },
+      { question: "What is ConnectNetwork?", answer: "ConnectNetwork is the consumer-facing platform operated by GTL, now part of ViaPath Technologies. It handles phone calls, video visits, and messaging for families at GTL-contracted facilities." },
+      { question: "Can I use both Securus and GTL at the same facility?", answer: "No. Facilities hold exclusive contracts with one provider for each service type. You use whichever provider the facility has contracted with." },
+    ],
+
+    relatedComparisonSlugs: ["jpay-vs-securus", "corrlinks-vs-securus", "gettingout-vs-securus", "corrlinks-vs-connectnetwork"],
+  },
+
+  "gettingout-vs-securus": {
+    id: "cmp-gettingout-securus",
+    slug: "gettingout-vs-securus",
+    providerASlug: "gettingout",
+    providerBSlug: "securus",
+    providerAName: "GettingOut",
+    providerBName: "Securus Technologies",
+    winner: null,
+    winnerReason: "GettingOut and Securus serve overlapping county jail markets with different strengths — GettingOut on video, Securus on breadth of services — so the facility contract determines which one applies.",
+    category: "County Jails",
+    featured: false,
+
+    description:
+      "Compare GettingOut by Telmate and Securus Technologies for county jail video visits and phone calls. Both serve county jails but with different facility coverage.",
+
+    intro: [
+      "GettingOut by Telmate and Securus Technologies both serve county jails for video visits and phone calls. GettingOut focuses primarily on video visitation at county jails and is used at over 2,200 facilities. Securus has a broader range of services including phone calls, video visits, and digital mail. Which you need depends on which provider your specific county jail has contracted with.",
+
+      "GettingOut is operated by Telmate, a subsidiary of GTL ViaPath Technologies. It specializes in county jail video visitation and is used at over 2,200 county jails across 45 states. Securus Technologies is owned by Aventiv and serves over 1,200 facilities across 45 states with a broader product range. Both companies hold exclusive contracts at their facilities.",
+
+      "GettingOut has a well-reviewed mobile app available for iOS and Android with a focus on user experience for video visits. Securus also has a mobile app. Both providers have low overall consumer ratings due to billing issues and technical problems with video visits. GettingOut has a 1.4 star rating based on over 135 reviews. Common complaints for both include failed visits without refunds and slow customer service.",
+    ],
+
+    verdict: [
+      "GettingOut and Securus serve overlapping markets at county jails.",
+      "GettingOut has a stronger focus on video visitation while Securus has a broader product range.",
+      "The facility contract determines which you use.",
+      "Neither can be chosen over the other.",
+      "Both have significant consumer complaints but remain the dominant options at their contracted facilities.",
+    ],
+
+    sideA: {
+      slug: "gettingout", name: "GettingOut", initial: "G", color: "bg-violet-600",
+      score: { messaging: 6, video: 8, photos: 7, phone: 5, moneyTransfer: 6, coverage: 8, easeOfUse: 6 },
+      overallScore: 6.6,
+    },
+    sideB: {
+      slug: "securus", name: "Securus Technologies", initial: "S", color: "bg-indigo-700",
+      score: { messaging: 6, video: 6, photos: 3, phone: 8, moneyTransfer: 6, coverage: 6, easeOfUse: 5 },
+      overallScore: 5.7,
+    },
+
+    services: {
+      messaging: {
+        providerA: "GettingOut offers messaging at some county jail facilities alongside its core video visitation service.",
+        providerB: "Securus offers e-messaging at some county jail facilities as a secondary service to its phone and video products.",
+        winner: null,
+        notes: "Messaging is a secondary feature on both platforms, which primarily compete on video and phone.",
+      },
+      video: {
+        providerA: "GettingOut is built around remote video visitation, with sessions typically costing $7.50 to $15 for 20 to 30 minutes and a well-reviewed dedicated app.",
+        providerB: "Securus also offers remote video visits, with pricing and session length varying by facility contract.",
+        winner: "gettingout",
+        notes: "Video visitation is GettingOut's core product, giving it an edge in features and app quality for this specific service.",
+      },
+      photos: {
+        providerA: "GettingOut supports photo sharing at facilities where the feature is enabled.",
+        providerB: "Securus offers limited image sharing through features like Snap n Send but does not make photo sharing a central feature.",
+        winner: "gettingout",
+        notes: "GettingOut's photo support is more consistently available across its network.",
+      },
+      phone: {
+        providerA: "GettingOut offers phone calls at contracted facilities, though this is secondary to its video visitation focus.",
+        providerB: "Securus is a leading phone call provider with AdvancePay and Securus Debit account options and deep calling infrastructure.",
+        winner: "securus",
+        notes: "Phone calls are a stronger, more central part of the Securus product than the GettingOut product.",
+      },
+      moneyTransfer: {
+        providerA: "GettingOut offers money transfer services at county jail facilities where it is enabled.",
+        providerB: "Securus also offers money transfer services to trust and phone accounts at its contracted facilities.",
+        winner: null,
+        notes: "Both platforms provide comparable money transfer options where enabled by the facility.",
+      },
+    },
+
+    coverage: {
+      providerA: "GettingOut by Telmate serves over 2,200 county jails across 45 states.",
+      providerB: "Securus serves over 1,200 facilities across 45 states, including county jails and some state prisons.",
+      winner: "gettingout",
+      notes: "GettingOut serves more individual county jail facilities, though Securus's network includes some state prisons as well.",
+    },
+
+    pricing: {
+      providerA: "GettingOut video sessions typically cost $7.50 to $15 for 20 to 30 minutes, and phone rates are capped at $0.11 per minute for large facilities under FCC rules.",
+      providerB: "Securus phone and video pricing is set by facility contract, subject to the same FCC caps of $0.11 per minute for phone and $0.23 per minute for video at large facilities.",
+      winner: null,
+      notes: "Both are subject to the same FCC rate caps effective April 2026.",
+    },
+
+    mobileApp: {
+      providerA: "GettingOut has a well-reviewed mobile app for iOS and Android focused on the video visitation experience.",
+      providerB: "Securus also has a mobile app, though both providers have low overall consumer ratings.",
+      winner: "gettingout",
+      notes: "GettingOut's app is more consistently reviewed for its video visit user experience specifically.",
+    },
+
+    prosConsA: {
+      pros: [
+        "Strong focus on remote video visitation with a well-reviewed app.",
+        "Serves over 2,200 county jails across 45 states, the largest network among county jail specialists.",
+        "Supports photo sharing at most participating facilities.",
+      ],
+      cons: [
+        "Phone service is secondary to its video visitation focus.",
+        "Low overall consumer rating around 1.4 stars based on over 135 reviews.",
+        "Common complaints about failed visits without refunds.",
+      ],
+    },
+    prosConsB: {
+      pros: [
+        "Deep, established phone call infrastructure.",
+        "Broader overall product range including phone, video, and messaging.",
+        "Serves both county jails and some state prisons.",
+      ],
+      cons: [
+        "Video visitation is less central than on GettingOut.",
+        "Limited photo-sharing capability compared to GettingOut.",
+        "Low overall consumer ratings tied to billing and technical issues.",
+      ],
+    },
+
+    bestFor: [
+      {
+        scenario: "Scheduling remote video visits from home",
+        winner: "gettingout",
+        reason: "Video visitation is GettingOut's core focus, with a more polished dedicated app experience.",
+      },
+      {
+        scenario: "Receiving regular phone calls from a county jail",
+        winner: "securus",
+        reason: "Securus has deeper, more established phone call infrastructure.",
+      },
+      {
+        scenario: "Sending photos to a loved one at a county jail",
+        winner: "gettingout",
+        reason: "GettingOut more consistently supports photo sharing across its network than Securus.",
+      },
+    ],
+
+    faq: [
+      { question: "Is GettingOut or Securus better for video visits?", answer: "Both offer similar video visit services. GettingOut has a stronger focus on video visitation and a better-reviewed app. Securus has a broader product range. The facility contract determines which you use." },
+      { question: "Can I use GettingOut and Securus at the same jail?", answer: "Generally no. County jails hold exclusive contracts. However, some jails may use different providers for different services such as GettingOut for video and Securus for phone calls. Check the specific facility." },
+      { question: "What do I do if a GettingOut or Securus video visit fails?", answer: "Contact customer service immediately with your confirmation number and a description of what failed. Keep records of all communication. If unresolved, file a BBB complaint. Avoid bank chargebacks as they may result in account restrictions." },
+    ],
+
+    relatedComparisonSlugs: ["gettingout-vs-connectnetwork", "jpay-vs-gettingout", "jpay-vs-securus", "corrlinks-vs-securus"],
+  },
+
+  "pigeonly-vs-textbehind": {
+    id: "cmp-pigeonly-textbehind",
+    slug: "pigeonly-vs-textbehind",
+    providerASlug: "pigeonly",
+    providerBSlug: "textbehind",
+    providerAName: "Pigeonly",
+    providerBName: "TextBehind",
+    winner: "pigeonly",
+    winnerReason: "Pigeonly offers a free plan, facility-specific compliance rules, and a larger network of over 4,000 facilities, giving it a practical edge over TextBehind's simpler per-page model.",
+    category: "Print and Mail Services",
+    featured: false,
+
+    description:
+      "Compare Pigeonly and TextBehind for sending printed letters and photos to inmates. Both convert digital messages to physical mail but with different pricing and features.",
+
+    intro: [
+      "Pigeonly and TextBehind both convert digital messages and photos into physical printed letters delivered to inmates through the postal system. They work at nearly any facility that accepts mail, making them useful when electronic messaging is unavailable or when physical print quality is preferred. Pigeonly has a free plan and has sent over 15 million pieces of correspondence. TextBehind charges approximately $0.49 per page.",
+
+      "Both Pigeonly and TextBehind accept digital uploads of letters and photos, print them on physical paper, and mail them to the facility address on your behalf. Because they deliver as standard mail rather than through a provider platform, they work at virtually any facility that accepts incoming mail. This makes them particularly useful at facilities without JPay or ConnectNetwork contracts.",
+
+      "Pigeonly serves over 4,000 facilities and maintains current compliance rules specific to each. When uploading content, Pigeonly shows the rules for your specific facility. TextBehind works at any facility that accepts mail. Both handle addressing and mailing on your behalf. Mail rejection rates are lower with these services compared to sending directly because they handle formatting to meet facility requirements.",
+    ],
+
+    verdict: [
+      "Pigeonly is the stronger option for most families due to its free plan, facility-specific compliance rules, and larger network.",
+      "TextBehind is a simpler per-page option for occasional use.",
+      "Both are useful alternatives when electronic messaging is unavailable or when physical mail quality is preferred over digital delivery.",
+    ],
+
+    sideA: {
+      slug: "pigeonly", name: "Pigeonly", initial: "P", color: "bg-rose-600",
+      score: { messaging: 8, video: 1, photos: 8, phone: 6, moneyTransfer: 1, coverage: 8, easeOfUse: 8 },
+      overallScore: 5.7,
+    },
+    sideB: {
+      slug: "textbehind", name: "TextBehind", initial: "T", color: "bg-orange-600",
+      score: { messaging: 7, video: 1, photos: 6, phone: 1, moneyTransfer: 1, coverage: 7, easeOfUse: 7 },
+      overallScore: 4.3,
+    },
+
+    services: {
+      messaging: {
+        providerA: "Pigeonly converts digital messages into printed letters and offers a Forever Free Plan for a limited number of monthly communications, with paid plans for unlimited use.",
+        providerB: "TextBehind converts digital messages into printed letters at approximately $0.49 per page with no free tier.",
+        winner: "pigeonly",
+        notes: "Pigeonly's free plan gives it a cost advantage for families who send letters occasionally.",
+      },
+      video: {
+        providerA: "Pigeonly does not offer video visitation; it focuses on physical mail conversion.",
+        providerB: "TextBehind does not offer video visitation either.",
+        winner: null,
+        notes: "Neither service is a video visitation platform.",
+      },
+      photos: {
+        providerA: "Pigeonly prints and mails photos, recommending no more than five per envelope unless the facility allows more, with facility-specific rules shown at upload.",
+        providerB: "TextBehind also prints and mails photos as part of its standard letter service.",
+        winner: "pigeonly",
+        notes: "Pigeonly's facility-specific compliance checking at upload reduces the chance of photo rejection compared to TextBehind's more general approach.",
+      },
+      phone: {
+        providerA: "Pigeonly also offers low-cost calling services in addition to its mail conversion business.",
+        providerB: "TextBehind does not offer phone call services; it is focused exclusively on mail conversion.",
+        winner: "pigeonly",
+        notes: "Pigeonly is the more complete platform, offering calling as an additional service.",
+      },
+      moneyTransfer: {
+        providerA: "Pigeonly does not offer money transfer services.",
+        providerB: "TextBehind does not offer money transfer services.",
+        winner: null,
+        notes: "Neither service handles trust account deposits; both are focused on mail and messaging conversion.",
+      },
+    },
+
+    coverage: {
+      providerA: "Pigeonly maintains facility-specific compliance rules for over 4,000 facilities and shows the applicable rules at upload.",
+      providerB: "TextBehind works at nearly any facility that accepts standard mail, without the same facility-specific rule display.",
+      winner: "pigeonly",
+      notes: "Pigeonly's structured facility database is a practical advantage even though TextBehind's raw reach is also broad.",
+    },
+
+    pricing: {
+      providerA: "Pigeonly offers a Forever Free Plan for a limited number of monthly communications, with paid unlimited plans available.",
+      providerB: "TextBehind charges a flat rate of approximately $0.49 per page with no free option.",
+      winner: "pigeonly",
+      notes: "Pigeonly's free tier makes it more cost-effective for most use levels, while TextBehind's flat per-page rate is simple to predict.",
+    },
+
+    mobileApp: {
+      providerA: "Pigeonly offers a website and app-based upload process for letters and photos.",
+      providerB: "TextBehind offers a website and app for uploading messages and photos.",
+      winner: null,
+      notes: "Both platforms offer comparable upload tools for composing and sending mail.",
+    },
+
+    prosConsA: {
+      pros: [
+        "Forever Free Plan for occasional use.",
+        "Facility-specific compliance rules shown at upload, reducing rejection risk.",
+        "Serves over 4,000 facilities.",
+        "Also offers low-cost calling as an additional service.",
+      ],
+      cons: [
+        "Paid plans required for unlimited or frequent use.",
+        "Facility-specific rules add a step compared to TextBehind's simpler flat pricing.",
+      ],
+    },
+    prosConsB: {
+      pros: [
+        "Simple flat per-page pricing of about $0.49.",
+        "Works at nearly any facility that accepts standard mail.",
+        "No account tier decisions needed.",
+      ],
+      cons: [
+        "No free plan.",
+        "No facility-specific compliance display at upload.",
+        "Does not offer phone call services.",
+      ],
+    },
+
+    bestFor: [
+      {
+        scenario: "Sending letters occasionally at no cost",
+        winner: "pigeonly",
+        reason: "Pigeonly's Forever Free Plan covers a limited number of monthly communications at no charge.",
+      },
+      {
+        scenario: "Sending mail to a facility with strict photo or content rules",
+        winner: "pigeonly",
+        reason: "Pigeonly shows facility-specific compliance rules at upload, reducing the chance of rejection.",
+      },
+      {
+        scenario: "Wanting the simplest possible flat-rate pricing",
+        winner: "textbehind",
+        reason: "TextBehind's flat per-page rate is straightforward with no plan tiers to evaluate.",
+      },
+    ],
+
+    faq: [
+      { question: "Is Pigeonly free?", answer: "Pigeonly offers a Forever Free Plan that allows a limited number of monthly communications at no charge. Paid plans offer unlimited correspondence. Visit pigeonly.com for current plan details." },
+      { question: "Which is better for sending photos, Pigeonly or TextBehind?", answer: "Both print and mail photos as physical copies. Pigeonly has facility-specific compliance rules visible at upload which reduces rejection rates. For Texas facilities where JPay prints in black and white, both are better alternatives for color photo quality." },
+      { question: "Do Pigeonly and TextBehind work at federal prisons?", answer: "Both work at any facility that accepts standard mail including federal prisons. CorrLinks does not support photo attachments so physical print services are the main option for sending photos to federal inmates." },
+    ],
+
+    relatedComparisonSlugs: ["textbehind-vs-smartinmate", "jpay-vs-securus", "corrlinks-vs-securus"],
+  },
+
+  "corrlinks-vs-securus": {
+    id: "cmp-corrlinks-securus",
+    slug: "corrlinks-vs-securus",
+    providerASlug: "corrlinks",
+    providerBSlug: "securus",
+    providerAName: "CorrLinks",
+    providerBName: "Securus Technologies",
+    winner: null,
+    winnerReason: "CorrLinks and Securus serve almost entirely different facility types, so the winner depends entirely on whether your loved one is in a federal prison or a county jail.",
+    category: "Federal vs County",
+    featured: false,
+
+    description:
+      "CorrLinks is for federal prisons. Securus is for county jails and some state prisons. Compare CorrLinks and Securus to understand which provider you need.",
+
+    intro: [
+      "CorrLinks and Securus serve almost entirely different facility types. CorrLinks is the exclusive messaging platform for all federal Bureau of Prisons facilities. Securus serves county jails and some state prisons for phone calls, video visits, and messaging. If your loved one is in a federal prison, you need CorrLinks. If they are in a county jail, you likely need Securus.",
+
+      "CorrLinks serves exclusively the Federal Bureau of Prisons. Every federal prison in the United States uses CorrLinks for messaging regardless of location. Securus serves over 1,200 county jails and some state prisons across 45 states. These two platforms do not compete for the same facilities. Federal inmates use CorrLinks and county jail inmates likely use Securus.",
+
+      "CorrLinks outside contact accounts are completely free. The inmate pays per message. Securus phone call rates are capped at $0.11 per minute for large facilities under FCC rules. Securus video visit rates are capped at $0.23 per minute. Account setup on both platforms is free.",
+    ],
+
+    verdict: [
+      "CorrLinks and Securus do not compete because they serve different facility types.",
+      "Use CorrLinks for federal prison messaging.",
+      "Use Securus for county jail phone calls and video visits.",
+      "If you are unsure which type of facility your loved one is in, search bop.gov to check if they are a federal inmate.",
+    ],
+
+    sideA: {
+      slug: "corrlinks", name: "CorrLinks", initial: "C", color: "bg-emerald-700",
+      score: { messaging: 8, video: 1, photos: 1, phone: 1, moneyTransfer: 1, coverage: 6, easeOfUse: 5 },
+      overallScore: 3.3,
+    },
+    sideB: {
+      slug: "securus", name: "Securus Technologies", initial: "S", color: "bg-indigo-700",
+      score: { messaging: 4, video: 7, photos: 3, phone: 8, moneyTransfer: 6, coverage: 7, easeOfUse: 6 },
+      overallScore: 5.9,
+    },
+
+    services: {
+      messaging: {
+        providerA: "CorrLinks is the exclusive, mandatory electronic messaging platform for all federal Bureau of Prisons facilities, with the inmate initiating contact from a TRULINCS terminal.",
+        providerB: "Securus offers e-messaging at some county jail facilities as a secondary feature alongside its phone and video services.",
+        winner: "corrlinks",
+        notes: "Within its narrow federal-only scope, CorrLinks is the more essential and exclusive messaging service.",
+      },
+      video: {
+        providerA: "CorrLinks does not offer video visitation in any form.",
+        providerB: "Securus offers video visitation as one of its core services at county jails and some state prisons.",
+        winner: "securus",
+        notes: "Video is not available on CorrLinks at all, making Securus the clear choice where video visitation matters.",
+      },
+      photos: {
+        providerA: "CorrLinks does not support photo attachments to messages as of 2025; physical photos must be mailed directly to the federal facility.",
+        providerB: "Securus offers limited digital image sharing through features like Snap n Send at some facilities.",
+        winner: "securus",
+        notes: "Securus offers at least some photo functionality, while CorrLinks offers none.",
+      },
+      phone: {
+        providerA: "CorrLinks does not handle phone calls; federal inmate phone calls go through the separate ConnectNetwork platform by GTL.",
+        providerB: "Securus is a leading phone call provider with deep calling infrastructure at its contracted county jails and state prisons.",
+        winner: "securus",
+        notes: "Families of federal inmates need a separate ConnectNetwork account for calls since CorrLinks does not offer this service at all.",
+      },
+      moneyTransfer: {
+        providerA: "CorrLinks does not process money transfers or commissary deposits; federal deposits go through ConnectNetwork or by money order.",
+        providerB: "Securus offers money transfer services to inmate trust and phone accounts at its contracted facilities.",
+        winner: "securus",
+        notes: "CorrLinks is messaging-only and has no money transfer function of its own.",
+      },
+    },
+
+    coverage: {
+      providerA: "CorrLinks serves all 120 federal Bureau of Prisons facilities nationwide, which is its complete and exclusive scope.",
+      providerB: "Securus serves over 1,200 facilities across 45 states, primarily county jails and some state prisons, but does not serve federal facilities.",
+      winner: null,
+      notes: "These platforms cover entirely separate systems, similar to the JPay and CorrLinks comparison — federal versus county and state.",
+    },
+
+    pricing: {
+      providerA: "Creating an outside contact account on CorrLinks is completely free. The inmate pays approximately $0.30 per message from their trust account.",
+      providerB: "Securus phone calls are capped at $0.11 per minute and video visits at $0.23 per minute for large facilities under FCC rules effective April 2026.",
+      winner: null,
+      notes: "CorrLinks is effectively free for the outside contact, while Securus charges the outside contact directly for calls and video.",
+    },
+
+    mobileApp: {
+      providerA: "CorrLinks has no official mobile app and is accessible only through a web browser.",
+      providerB: "Securus has a mobile app for managing phone accounts, video visits, and messaging.",
+      winner: "securus",
+      notes: "Securus's mobile app is a meaningful usability advantage over the browser-only CorrLinks platform.",
+    },
+
+    prosConsA: {
+      pros: [
+        "Only approved messaging platform for all 120 federal BOP facilities.",
+        "Free to create an outside contact account.",
+        "Legally compliant and fully integrated with Bureau of Prisons systems.",
+      ],
+      cons: [
+        "Messaging only. No video, photos, phone, or money transfer.",
+        "Inmate must initiate contact before messaging can begin.",
+        "No mobile app. Browser-based only.",
+        "Does not serve county jails or state prisons.",
+      ],
+    },
+    prosConsB: {
+      pros: [
+        "Leading phone call provider with deep infrastructure.",
+        "Strong video visitation product.",
+        "Mobile app available for iOS and Android.",
+        "Serves over 1,200 county jails and state prisons.",
+      ],
+      cons: [
+        "Does not serve federal Bureau of Prisons facilities.",
+        "Photo sharing is limited compared to dedicated photo services.",
+        "Low overall consumer ratings tied to billing and technical issues.",
+      ],
+    },
+
+    bestFor: [
+      {
+        scenario: "Messaging someone in a federal Bureau of Prisons facility",
+        winner: "corrlinks",
+        reason: "CorrLinks is the only approved electronic messaging platform for federal inmates; there is no alternative.",
+      },
+      {
+        scenario: "Calling or video visiting someone at a county jail",
+        winner: "securus",
+        reason: "Securus provides established phone and video infrastructure at county jails, which CorrLinks does not offer at all.",
+      },
+      {
+        scenario: "Sending money to an inmate's account",
+        winner: "securus",
+        reason: "CorrLinks has no money transfer function at all, while Securus offers deposits to trust and phone accounts at its contracted facilities.",
+      },
+    ],
+
+    faq: [
+      { question: "My loved one is in a federal prison. Do I use CorrLinks or Securus?", answer: "Use CorrLinks for messaging at any federal Bureau of Prisons facility. For phone calls at federal prisons, use ConnectNetwork by GTL, not Securus. Securus serves county jails and some state prisons but not federal prisons." },
+      { question: "Is CorrLinks or Securus free to set up?", answer: "Both platforms are free to create an account. CorrLinks outside contact messaging is free. Securus charges per minute for phone calls and per session for video visits." },
+      { question: "How do I know if my loved one is in a federal or county facility?", answer: "Search bop.gov using the inmate's name. If they appear in the BOP locator, they are in a federal facility and need CorrLinks. If they do not appear, they are likely in a state prison or county jail. Contact the county sheriff for county jail inmates." },
+    ],
+
+    relatedComparisonSlugs: ["jpay-vs-corrlinks", "corrlinks-vs-connectnetwork", "gettingout-vs-securus", "jpay-vs-securus"],
   },
 }

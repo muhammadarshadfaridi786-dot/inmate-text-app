@@ -12,7 +12,7 @@ export const defaultMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: `${SITE_NAME}: Find Prison Communication Options`,
-    template: `%s | ${SITE_NAME}`,
+    template: `%s`,
   },
   description:
     "Find inmate messaging, video visitation, and communication options at prisons across the United States. Compare providers, discover facilities, and learn how prison communication works.",

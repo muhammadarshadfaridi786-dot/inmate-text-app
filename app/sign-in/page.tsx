@@ -3,7 +3,7 @@ import PageWrapper from "@/components/layout/PageWrapper"
 import SignInForm from "@/components/auth/SignInForm"
 
 export const metadata: Metadata = {
-  title: "Sign In",
+  title: "Sign In - Inmate Text App",
   description: "Sign in to your Inmate Text App account.",
   robots: { index: false, follow: true },
 }

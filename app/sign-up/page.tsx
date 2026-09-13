@@ -3,7 +3,7 @@ import PageWrapper from "@/components/layout/PageWrapper"
 import SignUpForm from "@/components/auth/SignUpForm"
 
 export const metadata: Metadata = {
-  title: "Create Free Account",
+  title: "Create Free Account - Inmate Text App",
   description: "Create a free Inmate Text App account to save facilities and get updates.",
   robots: { index: false, follow: true },
 }

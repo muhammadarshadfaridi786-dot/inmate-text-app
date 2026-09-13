@@ -4,7 +4,7 @@ import SectionHeading from "@/components/shared/SectionHeading"
 import Breadcrumb from "@/components/layout/Breadcrumb"
 
 export const metadata: Metadata = {
-  title: "Disclaimer",
+  title: "Disclaimer - Inmate Text App",
   description:
     "Inmate Text App is an independent information directory. We are not affiliated with any correctional facility, government agency, or inmate communication provider.",
   alternates: { canonical: "/disclaimer" },

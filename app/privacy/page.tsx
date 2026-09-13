@@ -5,7 +5,7 @@ import SectionHeading from "@/components/shared/SectionHeading"
 import Breadcrumb from "@/components/layout/Breadcrumb"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy - Inmate Text App",
   description:
     "Learn how Inmate Text App collects, uses, and protects your information. We are committed to your privacy and do not sell personal data.",
   alternates: { canonical: "/privacy" },

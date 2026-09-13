@@ -5,7 +5,7 @@ import SectionHeading from "@/components/shared/SectionHeading"
 import Breadcrumb from "@/components/layout/Breadcrumb"
 
 export const metadata: Metadata = {
-  title: "Terms of Service",
+  title: "Terms of Service - Inmate Text App",
   description:
     "Read the Inmate Text App Terms of Service. This platform provides informational content only and is not affiliated with any correctional facility or communication provider.",
   alternates: { canonical: "/terms" },

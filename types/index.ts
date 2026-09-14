@@ -132,6 +132,7 @@ export interface GuideBasic {
   featured: boolean
   popular: boolean
   readingTimeMinutes: number
+  country?: string
 }
 
 export interface GuideDetail extends GuideBasic {

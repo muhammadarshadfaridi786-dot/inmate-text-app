@@ -1,73 +1,55 @@
 "use client"
 
-import Link from "next/link"
-import { ArrowRight } from "lucide-react"
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
+import { useState } from "react"
 import GuidesSearch from "@/components/guides/GuidesSearch"
-import GuideCard from "@/components/guides/GuideCard"
 import type { GuideBasic } from "@/types"
 
 interface GuidesDirectoryProps {
   guides: GuideBasic[]
 }
 
+const COUNTRIES = [
+  { label: "All", value: "all" },
+  { label: "United States", value: "us" },
+  { label: "Canada", value: "canada" },
+  { label: "United Kingdom", value: "uk" },
+  { label: "Australia", value: "australia" },
+  { label: "Mexico", value: "mexico" },
+]
+
 export default function GuidesDirectory({ guides }: GuidesDirectoryProps) {
-  const featured = guides.filter((g) => g.featured)
-  const popular  = guides.filter((g) => g.popular && !g.featured)
+  const [selectedCountry, setSelectedCountry] = useState("all")
+
+  const filteredGuides = selectedCountry === "all"
+    ? guides
+    : guides.filter((g) =>
+        g.country === selectedCountry ||
+        g.country === "all" ||
+        !g.country
+      )
 
   return (
     <div>
-      {/* Featured Guides */}
-      {featured.length > 0 && (
-        <section className="mb-12" aria-labelledby="featured-guides-heading">
-          <div className="mb-5 flex items-center justify-between">
-            <h2
-              id="featured-guides-heading"
-              className="text-xl font-bold tracking-tight text-foreground"
-            >
-              Featured Guides
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((g) => (
-              <GuideCard key={g.id} guide={g} />
-            ))}
-          </div>
-        </section>
-      )}
+      {/* Country Filter */}
+      <div className="mb-6 flex flex-wrap gap-2">
+        {COUNTRIES.map((c) => (
+          <button
+            key={c.value}
+            onClick={() => setSelectedCountry(c.value)}
+            className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+              selectedCountry === c.value
+                ? "bg-primary text-primary-foreground"
+                : "bg-muted text-muted-foreground hover:bg-muted/80"
+            }`}
+          >
+            {c.label}
+          </button>
+        ))}
+      </div>
 
-      {/* Popular Guides */}
-      {popular.length > 0 && (
-        <section className="mb-12" aria-labelledby="popular-guides-heading">
-          <div className="mb-5 flex items-center justify-between">
-            <h2
-              id="popular-guides-heading"
-              className="text-xl font-bold tracking-tight text-foreground"
-            >
-              Popular Guides
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {popular.map((g) => (
-              <GuideCard key={g.id} guide={g} />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Divider before search */}
-      <div className="mb-10 border-t" />
-
-      {/* All Guides with search + filter */}
+      {/* All Guides with search */}
       <section aria-labelledby="all-guides-heading">
-        <h2
-          id="all-guides-heading"
-          className="mb-5 text-xl font-bold tracking-tight text-foreground"
-        >
-          All Guides
-        </h2>
-        <GuidesSearch guides={guides} />
+        <GuidesSearch guides={filteredGuides} />
       </section>
     </div>
   )

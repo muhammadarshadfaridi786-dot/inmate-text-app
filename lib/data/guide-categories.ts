@@ -8,4 +8,5 @@ export const GUIDE_CATEGORIES: GuideCategory[] = [
   "Communication Tips",
   "Money and Accounts",
   "Visitation",
+  "International",
 ]

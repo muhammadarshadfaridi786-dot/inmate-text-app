@@ -3892,6 +3892,381 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     ctaTarget: "/provider/gettingout",
     ctaLabel: "View GettingOut Provider Page",
   },
+
+  "canadian-prison-communication-guide": {
+    id: "guide-canada-01",
+    slug: "canadian-prison-communication-guide",
+    title: "Canadian Prison Communication Guide: How to Contact Someone in a Canadian Prison",
+    excerpt: "A complete guide for families trying to contact someone in a Canadian federal or provincial prison. Covers the CSC Inmate Telephone System, FedPhoneLine, email, visits, and how to find a federal inmate.",
+    category: "International",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 6,
+    country: "canada",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    seoTitle: "Canadian Prison Communication Guide: Phone Calls, Email and Visits",
+    seoDescription: "How to contact someone in a Canadian federal or provincial prison. Learn how CSC phone calls work, how to use FedPhoneLine, how to send email, and how to find a federal inmate.",
+
+    intro: [
+      "Canada's correctional system is divided into two levels. The federal Correctional Service Canada (CSC) manages federal penitentiaries for people serving sentences of two years or more. Provincial and territorial corrections systems manage jails and prisons for sentences under two years and for people in pretrial detention. The communication rules, phone systems, and providers differ significantly between the two levels.",
+      "Families trying to contact someone in a Canadian prison face a different system than US families. Canada does not use JPay or CorrLinks. Federal inmates in CSC facilities use the Inmate Telephone System (ITS), which operates through Smart Cards and PINs. FedPhoneLine is the most widely used service that helps families receive calls from Canadian federal inmates on their cell phones.",
+      "This guide covers the key steps for contacting someone in a Canadian federal prison, finding an inmate through the CSC offender locator, understanding provincial jail communication, and using email and mail where available.",
+    ],
+
+    sections: [
+      {
+        heading: "Federal vs Provincial: Which System Is Your Loved One In?",
+        body: [
+          "Federal sentences in Canada are two years or more and are served in CSC penitentiaries. Provincial sentences are under two years and are served in provincial jails or remand centers. This distinction is critical because the phone systems, email options, and rules are completely different between the two levels.",
+          "If you are not sure which system your loved one is in, use the CSC offender locator at csc-scc.gc.ca. If they appear in the CSC database, they are in the federal system. If they do not appear, they are likely in a provincial jail. Contact the provincial corrections ministry or the local jail directly for provincial inmates.",
+        ],
+      },
+      {
+        heading: "Phone Calls from Canadian Federal Prisons",
+        body: [
+          "Canadian federal inmates use the Inmate Telephone System (ITS) to make outgoing calls. Inmates cannot receive incoming calls. Before an inmate can call you, your phone number must be added to their authorized call list. The institution verifies and approves all numbers before they can be called.",
+          "Inmates use a Smart Card or PIN to access the phone system and link to their authorized call list. The Smart Card stays with the inmate if they transfer to another CSC facility. Calls are typically charged to the inmate's canteen account or placed as collect calls.",
+          "The biggest challenge for Canadian families is that most inmates call from payphones using the local call rate, which is typically $0.40 per call. If you have a cell phone or a number outside the local calling area, you may receive expensive long distance charges. FedPhoneLine solves this problem by providing you a local phone number that the inmate can call at the local rate.",
+        ],
+      },
+      {
+        heading: "What Is FedPhoneLine?",
+        body: [
+          "FedPhoneLine is a service that provides families with a local phone number that federal inmates can call at the local call rate. Instead of calling your cell phone long distance, the inmate calls the FedPhoneLine number which then connects to your actual phone. FedPhoneLine has been helping Canadian families for over 10 years.",
+          "To use FedPhoneLine, create an account at fedphoneline.com, select the institution where your loved one is held, and choose a plan. FedPhoneLine will provide you a local number by email. Give this number to your loved one and have them add it to their authorized call list at the institution. Once approved the inmate can call the FedPhoneLine number which connects directly to your phone.",
+        ],
+      },
+      {
+        heading: "How to Find Someone in a Canadian Federal Prison",
+        body: [
+          "The Correctional Service Canada maintains a free public offender locator at csc-scc.gc.ca. Search by the person's full name to find their current CSC institution, security level, and expected release date. The locator shows whether the person is eligible for parole and their current location within the federal system.",
+          "For provincial inmates, there is no single national database. Each province manages its own jail system. Contact the provincial corrections ministry or the local jail directly. Ontario does not have an online locator and requires a direct phone call to the specific facility.",
+        ],
+      },
+      {
+        heading: "Email and Mail at Canadian Federal Prisons",
+        body: [
+          "Email availability at CSC federal institutions varies by facility. Some institutions offer email programs while others do not. Contact the specific institution directly to find out whether email is available and how to register as an approved contact.",
+          "Physical mail is accepted at all CSC federal institutions. Write the inmate's full name and CSC number on the envelope along with the institution mailing address. All non-legal mail is inspected before delivery. Legal mail from lawyers is treated as privileged correspondence and is not read by staff.",
+        ],
+      },
+      {
+        heading: "Provincial Jail Communication",
+        body: [
+          "Provincial jails across Canada each have their own phone systems and rules. Some provinces have standardized systems while others vary by facility. Ontario provincial jails often use Telmate or similar providers. British Columbia provincial jails have their own communication systems.",
+          "For provincial jail phone calls, contact the specific facility directly to find out which phone provider they use, how to add your number to the approved list, and whether collect calls or prepaid accounts are required. Rules change by province and by facility.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Canada has two separate systems: federal (CSC) for sentences of two years or more, and provincial for shorter sentences and pretrial detention. Rules differ significantly between them.",
+      "Canada does not use JPay or CorrLinks. Federal inmates use the CSC Inmate Telephone System (ITS) with Smart Cards and PINs.",
+      "FedPhoneLine at fedphoneline.com provides a local phone number so families with cell phones or out-of-area numbers avoid expensive long distance charges from prison payphones.",
+      "Use the CSC offender locator at csc-scc.gc.ca to confirm whether your loved one is in the federal system before setting up any communication accounts.",
+      "Provincial jails have no national database or standard system. Contact the specific province or facility directly.",
+      "Email availability at CSC institutions varies by facility. Physical mail is accepted everywhere and requires the inmate's full name and CSC number.",
+    ],
+
+    faq: [
+      {
+        question: "Do Canadian federal prisons use JPay or CorrLinks?",
+        answer: "No. Canadian federal prisons operate their own Inmate Telephone System (ITS) through the Correctional Service Canada. JPay and CorrLinks are US-only services that do not operate in Canada. FedPhoneLine is the most widely used service for Canadian federal inmate phone calls.",
+      },
+      {
+        question: "What is FedPhoneLine and do I need it?",
+        answer: "FedPhoneLine provides families with a local phone number that federal inmates can call at the local call rate from CSC prison payphones. Without FedPhoneLine, inmates calling cell phones or numbers outside the local calling area generate expensive long distance charges. If you have a cell phone or live outside the prison local calling area, FedPhoneLine is strongly recommended. Sign up at fedphoneline.com.",
+      },
+      {
+        question: "How do I find someone in a Canadian federal prison?",
+        answer: "Use the CSC offender locator at csc-scc.gc.ca. Search by the person's full name to find their current institution and basic information. For provincial jail inmates, contact the provincial corrections ministry or the specific jail directly as there is no national database for provincial inmates.",
+      },
+      {
+        question: "How long does it take for a new number to be approved on the call list?",
+        answer: "Processing times vary by institution. The CSC requires that all phone numbers be verified before an inmate can call them. This process can take several days to a few weeks depending on the facility workload. Contact the institution case management officer to check on the approval status of a new number.",
+      },
+      {
+        question: "Can I call a Canadian prison inmate directly?",
+        answer: "No. Canadian federal inmates cannot receive incoming calls. All calls are outgoing from the inmate using the prison phone system. The inmate must initiate the call to your number which must be on their approved call list.",
+      },
+      {
+        question: "What is a CSC number?",
+        answer: "The CSC number is the identification number assigned to every person in Canadian federal custody. It must appear on all mail sent to CSC institutions. You can find the CSC number using the offender locator at csc-scc.gc.ca or by asking your loved one to provide it.",
+      },
+      {
+        question: "Is there an email system for Canadian federal prisons?",
+        answer: "Email availability varies by CSC institution. Some institutions offer email programs while others rely on physical mail only. Contact the specific institution directly to find out whether email is available and how to register. Physical mail is accepted at all CSC institutions.",
+      },
+      {
+        question: "What is the difference between a federal penitentiary and a provincial jail in Canada?",
+        answer: "Federal penitentiaries hold people serving sentences of two years or more and are operated by the Correctional Service Canada. Provincial jails hold people serving sentences under two years and pretrial detainees, and are operated by each province. Phone systems, email availability, and visitation rules differ between the two systems.",
+      },
+    ],
+
+    relatedGuideSlugs: ["uk-prison-communication-guide", "australian-prison-communication-guide", "how-to-find-an-inmate"],
+    relatedTermSlugs: [],
+    relatedProviderSlugs: [],
+    relatedComparisonSlugs: [],
+    ctaType: "directory",
+    ctaTarget: "/guides",
+    ctaLabel: "Browse All Guides",
+  },
+
+  "uk-prison-communication-guide": {
+    id: "guide-uk-01",
+    slug: "uk-prison-communication-guide",
+    title: "UK Prison Communication Guide: Phone Calls, Email a Prisoner and Visits",
+    excerpt: "A complete guide for families trying to contact someone in a UK prison. Covers phone calls, Email a Prisoner, video calls, visits, sending money, and finding a prisoner in England, Wales, Scotland, and Northern Ireland.",
+    category: "International",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 5,
+    country: "uk",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    seoTitle: "UK Prison Communication Guide: Phone Calls, Email and Visits Explained",
+    seoDescription: "How to contact someone in a UK prison. Learn how prison phone calls work in England and Wales, how to use Email a Prisoner, video calls, visits, and how to find a prisoner.",
+
+    intro: [
+      "The United Kingdom prison system is divided into three separate systems. England and Wales share a prison system managed by His Majesty's Prison and Probation Service (HMPPS). Scotland has its own system managed by the Scottish Prison Service. Northern Ireland has its own system managed by the Northern Ireland Prison Service. Communication rules differ slightly between these systems.",
+      "UK prisons do not use JPay, CorrLinks, or US-style communication providers. Phone calls from UK prisons use dedicated prison phone systems. Email a Prisoner is the most widely used service for sending electronic messages to people in UK prisons. Video calls are available at many UK prisons through secure apps approved by the prison service.",
+      "This guide covers the essential steps for contacting someone in an England and Wales prison and notes key differences for Scotland and Northern Ireland.",
+    ],
+
+    sections: [
+      {
+        heading: "Phone Calls from UK Prisons",
+        body: [
+          "Prison inmates in the UK can only make outgoing calls using designated prison phones. They cannot receive incoming calls. Inmates must register phone numbers on their approved contact list before calling. All non-legal calls are recorded and monitored by prison staff.",
+          "Prison phone calls in the UK are charged at standard rates. Calls from prison phones are typically paid from the inmate's prison account (sometimes called a private cash account). To receive calls, your number must be on the inmate's approved list. Save the prison's outgoing number in your contacts so you recognise the call when it comes.",
+          "Prison Phone is a UK service available at prisonphone.co.uk that provides mobile plans specifically designed to reduce costs for families receiving prison calls. The Prisoners Families Helpline at 0808 808 2003 can advise on reducing call costs.",
+        ],
+      },
+      {
+        heading: "Email a Prisoner",
+        body: [
+          "Email a Prisoner is a UK service that allows families to send electronic messages to prisoners in England and Wales. Messages are sent digitally and printed for delivery to the prisoner. The service is available at emailaprisoner.com. Each message costs a small fee paid by the sender.",
+          "Email a Prisoner is not real-time email. Messages are printed and delivered as physical letters to the prisoner's cell. The prisoner reads the printed letter and can respond through the prison mail system. This service is available at most prisons in England and Wales.",
+        ],
+      },
+      {
+        heading: "Video Calls",
+        body: [
+          "Video calls are available at many UK prisons. Prisoners are typically entitled to one free video call per month of up to 30 minutes under current HM Prison and Probation Service guidelines. Additional video calls may be available at some facilities.",
+          "To arrange a video call, you must be on the prisoner's approved visitor list. Install the secure video calling app used by that prison. Check with the specific prison to confirm which app they use and how to schedule a call. All video calls are recorded.",
+        ],
+      },
+      {
+        heading: "Visits",
+        body: [
+          "In-person visits require advance approval. You must be on the prisoner's approved visitor list and book visits in advance through the prison. Each prisoner is entitled to a minimum number of visits per month based on their security category and behaviour.",
+          "Visit booking can often be done online through the prison's own system or by phone. Bring photo ID to every visit. Follow the prison dress code. Contact the specific prison for current visiting rules as they vary by facility and security level.",
+        ],
+      },
+      {
+        heading: "Sending Money",
+        body: [
+          "Money can be sent to prisoners in England and Wales through the Prison Service online payment system at gov.uk. Use the prisoner's name and prisoner number. Payments are processed and added to the prisoner's private cash account. The prisoner uses this account for phone calls, canteen purchases, and approved items.",
+        ],
+      },
+      {
+        heading: "Finding a Prisoner",
+        body: [
+          "Use the Find a Prisoner service at gov.uk to locate someone in an England and Wales prison. The prisoner must give their consent for their information to be shared unless the request comes from certain organisations such as police or solicitors.",
+          "For Scotland, contact the Scottish Prison Service directly. For Northern Ireland, contact the Northern Ireland Prison Service. Contact details for all prisons can be found on the respective prison service websites.",
+        ],
+      },
+      {
+        heading: "Support for Families",
+        body: [
+          "The Prisoners Families Helpline provides free, confidential information and support for anyone with a loved one in UK prison. Call 0808 808 2003 Monday to Friday 9am to 8pm and Saturday to Sunday 10am to 3pm. The helpline is operated by the Prison Advice and Care Trust (PACT).",
+          "In Scotland, contact the Families Outside support and information helpline at 0800 254 0088. In Northern Ireland, contact the Family Links service.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "The UK has three separate prison systems: England and Wales (HMPPS), Scotland, and Northern Ireland, each with slightly different rules.",
+      "UK prisons do not use JPay or CorrLinks. Email a Prisoner at emailaprisoner.com is the main service for sending digital messages, which are printed and delivered as letters.",
+      "Prisoners can only make outgoing calls and cannot receive incoming calls. Your number must be on their approved contact list first.",
+      "Prisoners are typically entitled to one free video call per month of up to 30 minutes under current HMPPS guidelines.",
+      "Send money through the Prison Service online payment system at gov.uk using the prisoner's name and prisoner number.",
+      "Use Find a Prisoner at gov.uk for England and Wales. Scotland and Northern Ireland each have their own prison services to contact directly.",
+      "The Prisoners Families Helpline at 0808 808 2003 offers free, confidential support for families of UK prisoners.",
+    ],
+
+    faq: [
+      {
+        question: "Do UK prisons use JPay or CorrLinks?",
+        answer: "No. UK prisons use their own phone systems managed by HM Prison and Probation Service in England and Wales. JPay and CorrLinks are US-only services. Email a Prisoner at emailaprisoner.com is the main electronic messaging service for UK prisons.",
+      },
+      {
+        question: "What is Email a Prisoner?",
+        answer: "Email a Prisoner is a UK service at emailaprisoner.com that lets families send electronic messages to prisoners. Messages are printed and delivered as physical letters. The prisoner reads them in their cell. Each message costs a small fee. The prisoner can respond by standard mail.",
+      },
+      {
+        question: "How do I find someone in a UK prison?",
+        answer: "Use the Find a Prisoner service at gov.uk for prisons in England and Wales. The prisoner must consent to sharing their information unless the request is from police or solicitors. For Scotland, contact the Scottish Prison Service. For Northern Ireland, contact the Northern Ireland Prison Service.",
+      },
+      {
+        question: "How do I send money to someone in a UK prison?",
+        answer: "Send money through the Prison Service online payment system at gov.uk. Use the prisoner's name and prisoner number. Payments are added to the prisoner's private cash account which they use for phone calls, canteen, and approved purchases.",
+      },
+      {
+        question: "How many visits is a prisoner entitled to in the UK?",
+        answer: "The minimum number of visits depends on the prisoner's security category and behaviour. Standard prisoners in England and Wales are entitled to at least two visits per month. Prisoners on enhanced status may be entitled to more. Contact the specific prison for current visiting entitlements.",
+      },
+      {
+        question: "Where can I get support as a family member of a UK prisoner?",
+        answer: "The Prisoners Families Helpline at 0808 808 2003 provides free, confidential support Monday to Friday 9am to 8pm and Saturday to Sunday 10am to 3pm. In Scotland, call Families Outside at 0800 254 0088. In Northern Ireland, contact the Family Links service.",
+      },
+      {
+        question: "Are UK prison phone calls free?",
+        answer: "No. Prison phone calls in the UK are charged at standard rates paid from the inmate's prison account. However some prison reform advocacy groups are pushing for reduced rates. The Prisoners Families Helpline at 0808 808 2003 can advise on reducing call costs.",
+      },
+      {
+        question: "Can I receive calls directly from a UK prison?",
+        answer: "No. Prisoners can only make outgoing calls from designated prison phones. They cannot receive incoming calls. Your number must be on the prisoner's approved contact list before they can call you. Save the prison's outgoing phone number in your contacts so you recognise the call.",
+      },
+    ],
+
+    relatedGuideSlugs: ["canadian-prison-communication-guide", "australian-prison-communication-guide", "how-to-find-an-inmate"],
+    relatedTermSlugs: [],
+    relatedProviderSlugs: [],
+    relatedComparisonSlugs: [],
+    ctaType: "directory",
+    ctaTarget: "/guides",
+    ctaLabel: "Browse All Guides",
+  },
+
+  "australian-prison-communication-guide": {
+    id: "guide-au-01",
+    slug: "australian-prison-communication-guide",
+    title: "Australian Prison Communication Guide: Phone Calls, Email and Visits by State",
+    excerpt: "A complete guide for families trying to contact someone in an Australian prison. Covers phone calls, email, video visits, sending money, and finding a prisoner in NSW, Victoria, Queensland, and other Australian states.",
+    category: "International",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 6,
+    country: "australia",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    seoTitle: "Australian Prison Communication Guide: Phone Calls, Email and Visits",
+    seoDescription: "How to contact someone in an Australian prison. Learn how prison phone calls work in NSW, Victoria and other states, how to send email, schedule video visits, and find a prisoner.",
+
+    intro: [
+      "Australia's prison system is managed separately by each state and territory. New South Wales (NSW), Victoria, Queensland, Western Australia, South Australia, Tasmania, the Australian Capital Territory, and the Northern Territory each operate their own correctional systems with different rules, phone systems, and communication options. There is no single national prison communication platform in Australia.",
+      "Australian prisons do not use JPay, CorrLinks, or US-style communication providers. Each state has its own phone system for outgoing inmate calls. Inmates cannot receive incoming calls. Email options vary significantly by state, with some states offering digital messaging while others rely on physical mail only.",
+      "This guide covers the key steps for contacting someone in an Australian state prison, with specific information for NSW and Victoria, which together hold the largest prison populations.",
+    ],
+
+    sections: [
+      {
+        heading: "Phone Calls: How Australian Prison Phones Work",
+        body: [
+          "Australian prisoners can make outgoing calls but cannot receive incoming calls. Inmates must have their numbers approved on their Personal Allowed Numbers (PAN) list before calling. All non-legal calls are recorded and monitored. Call duration is typically limited to 10 minutes to ensure fair access across all inmates.",
+          "Phone calls from Australian prisons are paid from the inmate's prison account. Prisoners can transfer money from their general prison account to their telephone account. Some states allow families to top up the inmate's phone account directly through the prison's approved payment system.",
+        ],
+      },
+      {
+        heading: "NSW Prison Phone Calls",
+        body: [
+          "In New South Wales, the Offenders Telephone System (OTS) regulates all prison phone calls. Regulations introduced in June 2023 require that phone numbers on the approved list be fixed local numbers with a single answering location, no VoIP, and no call diversion. This means most cell phones cannot be directly added to NSW prison approved lists under the current OTS rules.",
+          "NSW Prison Calling at nswprisoncalling.com.au is a service built specifically for OTS compliance. It provides a compliant fixed local number for $39 per month with unlimited calling. The inmate pays the standard $0.40 local call rate. Your loved one adds the NSW Prison Calling number to their approved list at the prison.",
+        ],
+      },
+      {
+        heading: "Victoria Prison Phone Calls and Video Visits",
+        body: [
+          "Victoria's correctional facilities offer phone calls and video visits. Video visits are available at Victorian prisons and can be scheduled through the prison's approved system. Families can send emails to prisoners in Victoria through the approved email program at corrections.vic.gov.au.",
+          "Contact the specific Victorian prison to confirm current phone account setup procedures, video visit scheduling, and email registration requirements. Rules and availability vary by facility.",
+        ],
+      },
+      {
+        heading: "South Australia Prison Phone Calls",
+        body: [
+          "South Australia's Department for Correctional Services allows inmates to make calls to numbers on their approved list of up to 10 authorized numbers. Legal numbers and support group contacts are included in the 10 allowed numbers. After completing a phone access form, numbers are approved within 24 hours.",
+          "A credit of $1 is given to each inmate's account when first admitted. Inmates can transfer money from their prison account to their telephone account on a weekly or monthly basis. Calls are limited to 10 minutes for fair access. All calls except to approved legal numbers are recorded.",
+        ],
+      },
+      {
+        heading: "Sending Email in Australia",
+        body: [
+          "Email availability varies significantly by state and facility. Victoria offers an email program for some facilities. South Australia and other states may have limited or no email programs. Contact the specific prison directly to find out whether email is available and how to register.",
+          "Where email is not available, physical mail is accepted at all Australian state prisons. Letters must include the prisoner's full name and prisoner number on the envelope. Mail is inspected before delivery. Legal mail from lawyers is treated as privileged and is not read by staff.",
+        ],
+      },
+      {
+        heading: "Finding a Prisoner in Australia",
+        body: [
+          "There is no single national prisoner locator in Australia. Each state manages its own records. Contact the state corrections department directly or call the specific prison to confirm a prisoner's location. For NSW, contact Corrective Services NSW at correctiveservices.dcj.nsw.gov.au. For Victoria, contact Corrections Victoria at corrections.vic.gov.au.",
+          "Ask your loved one to provide their prisoner number (sometimes called a CSID or ID number) as soon as possible. This number is required for all communication account setup, mail, and sending money.",
+        ],
+      },
+      {
+        heading: "Sending Money to Australian Prisoners",
+        body: [
+          "Money transfer procedures vary by state. In South Australia, families can top up a prisoner's telephone account directly. In NSW, deposits are made through the prison's approved payment system. Contact the specific prison to confirm the current accepted payment methods before sending money.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Australia has no national prison system. Each state and territory (NSW, Victoria, Queensland, WA, SA, Tasmania, ACT, NT) runs its own correctional system with different rules.",
+      "Australian prisons do not use JPay or CorrLinks. Inmates can only make outgoing calls and must have your number approved on their Personal Allowed Numbers (PAN) list first.",
+      "NSW's Offenders Telephone System (OTS), updated in June 2023, requires fixed local numbers with no VoIP or call diversion, which blocks most direct cell phone additions. NSW Prison Calling offers a compliant local number for $39 per month.",
+      "Email availability varies by state. Victoria offers an email program at some facilities; other states rely mainly on physical mail.",
+      "There is no national prisoner locator. Contact the specific state corrections department, such as Corrective Services NSW or Corrections Victoria, or the facility directly.",
+      "Money transfer methods vary by state. Confirm the accepted payment method with the specific prison before sending funds.",
+    ],
+
+    faq: [
+      {
+        question: "Do Australian prisons use JPay or CorrLinks?",
+        answer: "No. Australian prisons use their own state-managed phone systems. JPay and CorrLinks are US-only services. Each Australian state has its own communication setup. NSW uses the Offenders Telephone System (OTS). Victoria has its own system. Contact the specific prison for current communication options.",
+      },
+      {
+        question: "Can I add my cell phone number to an Australian prison approved list?",
+        answer: "It depends on the state. In NSW, the OTS regulations introduced in June 2023 require fixed local numbers with no VoIP and no call diversion, which means most cell phones cannot be directly added. NSW Prison Calling at nswprisoncalling.com.au provides a compliant local number that connects to your cell phone. In other states, policies vary. Contact the specific facility.",
+      },
+      {
+        question: "How do I find someone in an Australian prison?",
+        answer: "There is no single national prisoner locator. Contact the state corrections department or the specific prison directly. For NSW, contact Corrective Services NSW. For Victoria, contact Corrections Victoria. Ask your loved one to provide their prisoner number as soon as possible.",
+      },
+      {
+        question: "How long are prison phone calls in Australia?",
+        answer: "Call duration varies by state. In South Australia, calls are normally limited to 10 minutes to ensure fair access. Other states have similar limits. Calls are outgoing only from the inmate using designated prison phones during scheduled access times.",
+      },
+      {
+        question: "Is email available at Australian prisons?",
+        answer: "Email availability varies significantly by state and facility. Victoria offers email programs at some facilities. Other states may have limited or no email programs. Contact the specific prison to confirm whether email is available and how to register.",
+      },
+      {
+        question: "Are Australian prison phone calls free?",
+        answer: "No. Prison phone calls in Australia are charged from the inmate's prison account. The inmate typically pays the local call rate from the prison payphone. In NSW, the standard rate is $0.40 per local call. Families can help by ensuring the inmate has funds in their prison account.",
+      },
+      {
+        question: "What is NSW Prison Calling?",
+        answer: "NSW Prison Calling at nswprisoncalling.com.au is a service that provides a compliant local phone number for families to receive calls from NSW prisoners under the OTS regulations. The service costs $39 per month with unlimited calling. The inmate pays the $0.40 standard local call rate. The number must be approved on the inmate's PAN list at the prison.",
+      },
+      {
+        question: "How do I send money to someone in an Australian prison?",
+        answer: "Money transfer procedures vary by state. Contact the specific prison to confirm current accepted payment methods. In South Australia, families can top up the inmate's telephone account directly. Keep the inmate's prisoner number ready as it is required for all financial transactions.",
+      },
+    ],
+
+    relatedGuideSlugs: ["canadian-prison-communication-guide", "uk-prison-communication-guide", "how-to-find-an-inmate"],
+    relatedTermSlugs: [],
+    relatedProviderSlugs: [],
+    relatedComparisonSlugs: [],
+    ctaType: "directory",
+    ctaTarget: "/guides",
+    ctaLabel: "Browse All Guides",
+  },
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

@@ -114,6 +114,7 @@ export type GuideCategory =
   | "Communication Tips"
   | "Money and Accounts"
   | "Visitation"
+  | "International"
 
 export type GuideDifficulty = "Beginner" | "Intermediate" | "Advanced"
 

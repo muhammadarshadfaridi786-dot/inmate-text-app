@@ -81,7 +81,7 @@ export default function GuidesSearch({ guides, selectedCountry, setSelectedCount
           onValueChange={(v) => setCategory((v ?? "all") as GuideCategory | "all")}
         >
           <SelectTrigger className="w-[180px]" aria-label="Filter by category">
-            <SelectValue placeholder="All Categories" />
+            <SelectValue placeholder="Category" />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all">All Categories</SelectItem>
@@ -98,7 +98,7 @@ export default function GuidesSearch({ guides, selectedCountry, setSelectedCount
           onValueChange={(v) => setSelectedCountry(v ?? "all")}
         >
           <SelectTrigger className="w-[180px]" aria-label="Filter by country">
-            <SelectValue placeholder="All Countries" />
+            <SelectValue placeholder="Countries" />
           </SelectTrigger>
           <SelectContent>
             {COUNTRIES.map((c) => (

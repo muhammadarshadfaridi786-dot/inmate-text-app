@@ -14,11 +14,22 @@ import { GUIDE_CATEGORIES } from "@/lib/data/guide-categories"
 import type { GuideBasic, GuideCategory } from "@/types"
 import GuideCard from "@/components/guides/GuideCard"
 
+const COUNTRIES = [
+  { label: "All Countries", value: "all" },
+  { label: "United States", value: "us" },
+  { label: "Canada", value: "canada" },
+  { label: "United Kingdom", value: "uk" },
+  { label: "Australia", value: "australia" },
+  { label: "Mexico", value: "mexico" },
+]
+
 interface GuidesSearchProps {
   guides: GuideBasic[]
+  selectedCountry: string
+  setSelectedCountry: (country: string) => void
 }
 
-export default function GuidesSearch({ guides }: GuidesSearchProps) {
+export default function GuidesSearch({ guides, selectedCountry, setSelectedCountry }: GuidesSearchProps) {
   const [query, setQuery]       = useState("")
   const [category, setCategory] = useState<GuideCategory | "all">("all")
 
@@ -37,11 +48,12 @@ export default function GuidesSearch({ guides }: GuidesSearchProps) {
     })
   }, [guides, query, category])
 
-  const hasActiveFilter = query || category !== "all"
+  const hasActiveFilter = query || category !== "all" || selectedCountry !== "all"
 
   function clearAll() {
     setQuery("")
     setCategory("all")
+    setSelectedCountry("all")
   }
 
   return (
@@ -75,6 +87,22 @@ export default function GuidesSearch({ guides }: GuidesSearchProps) {
             {GUIDE_CATEGORIES.map((cat) => (
               <SelectItem key={cat} value={cat}>
                 {cat}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+
+        <Select
+          value={selectedCountry}
+          onValueChange={(v) => setSelectedCountry(v ?? "all")}
+        >
+          <SelectTrigger className="w-[180px]" aria-label="Filter by country">
+            <SelectValue placeholder="All Countries" />
+          </SelectTrigger>
+          <SelectContent>
+            {COUNTRIES.map((c) => (
+              <SelectItem key={c.value} value={c.value}>
+                {c.label}
               </SelectItem>
             ))}
           </SelectContent>

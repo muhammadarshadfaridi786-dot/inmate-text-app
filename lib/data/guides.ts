@@ -4274,8 +4274,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const ALL_GUIDES: GuideBasic[] = Object.values(GUIDE_DETAILS)
-  .map(({ id, slug, title, excerpt, category, difficulty, featured, popular, readingTimeMinutes }) => ({
-    id, slug, title, excerpt, category, difficulty, featured, popular, readingTimeMinutes,
+  .map(({ id, slug, title, excerpt, category, difficulty, featured, popular, readingTimeMinutes, country }) => ({
+    id, slug, title, excerpt, category, difficulty, featured, popular, readingTimeMinutes, country,
   }))
   .sort((a, b) => {
     if (a.featured !== b.featured) return a.featured ? -1 : 1

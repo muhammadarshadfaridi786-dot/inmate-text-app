@@ -2023,10 +2023,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     initial: "C",
     color: "bg-red-700",
     tagline: "City Tele Coin (CTC): How to Add Money, Set Up Phone Calls and Commissary Deposits",
-    services: { messaging: false, video: false, photos: false, phone: true, moneyTransfer: true },
+    services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 12,
     facilitiesCount: 180,
-    appAvailable: false,
+    appAvailable: true,
     hasDetailPage: true,
 
     description:
@@ -2037,6 +2037,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "How to add money on City Tele Coin app, set up CTC inmate phone calls, make commissary deposits at citytelecoin.com. Step-by-step guide for families. CTC customer service: 318-756-1114.",
 
     website: "https://www.citytelecoin.com",
+    iosUrl: "https://apps.apple.com/us/app/citytelecoin/id1436829796",
+    androidUrl: "https://play.google.com/store/apps/details?id=com.citytelecoin.mobile",
 
     overview: [
       "How do I add money to City Tele Coin for an inmate? Visit citytelecoin.com and log in to your account. Select Add Funds, choose the account type (phone account or commissary deposit), enter the amount, and pay by debit card, credit card, or money order. You can also add money through the City Tele Coin mobile app. Search for City Tele-Coin in the iOS App Store or Google Play Store to download it. For live help call CTC customer service at 318-756-1114 between 7 AM and 7 PM Central time seven days a week.",

@@ -36,6 +36,7 @@ export default function GuidesSearch({ guides, selectedCountry, setSelectedCount
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
     return guides.filter((g) => {
+      if (selectedCountry !== "all" && g.country !== selectedCountry) return false
       if (category !== "all" && g.category !== category) return false
       if (q) {
         return (
@@ -46,7 +47,7 @@ export default function GuidesSearch({ guides, selectedCountry, setSelectedCount
       }
       return true
     })
-  }, [guides, query, category])
+  }, [guides, query, category, selectedCountry])
 
   const hasActiveFilter = query || category !== "all" || selectedCountry !== "all"
 

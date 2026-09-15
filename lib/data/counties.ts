@@ -115,10 +115,50 @@ export const ALL_COUNTIES: CountyBasic[] = [
     facilityCount: 11,
     hasDetailPage: true,
   },
+  {
+    id: "c-cook",
+    name: "Cook County",
+    slug: "cook-county",
+    stateSlug: "illinois",
+    stateName: "Illinois",
+    stateAbbr: "IL",
+    facilityCount: 24,
+    hasDetailPage: true,
+  },
+  {
+    id: "c-maricopa",
+    name: "Maricopa County",
+    slug: "maricopa-county",
+    stateSlug: "arizona",
+    stateName: "Arizona",
+    stateAbbr: "AZ",
+    facilityCount: 20,
+    hasDetailPage: true,
+  },
+  {
+    id: "c-wayne-mi",
+    name: "Wayne County",
+    slug: "wayne-county-mi",
+    stateSlug: "michigan",
+    stateName: "Michigan",
+    stateAbbr: "MI",
+    facilityCount: 14,
+    hasDetailPage: true,
+  },
+  {
+    id: "c-hennepin",
+    name: "Hennepin County",
+    slug: "hennepin-county",
+    stateSlug: "minnesota",
+    stateName: "Minnesota",
+    stateAbbr: "MN",
+    facilityCount: 10,
+    hasDetailPage: true,
+  },
 ]
 
 // ─────────────────────────────────────────────
-// DETAILED COUNTY DATA — 8 seeded counties
+// DETAILED COUNTY DATA — 12 seeded counties
 // ─────────────────────────────────────────────
 
 export const COUNTY_DETAILS: Record<string, CountyDetail> = {
@@ -1099,6 +1139,403 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         type: "State Prison",
         county: "San Bernardino County",
         features: ["Messaging", "Video Calls", "Phone Calls", "Money Transfer"],
+      },
+    ],
+  },
+
+  "cook-county": {
+    id: "c-cook",
+    name: "Cook County",
+    slug: "cook-county",
+    stateSlug: "illinois",
+    stateName: "Illinois",
+    stateAbbr: "IL",
+    facilityCount: 24,
+    hasDetailPage: true,
+
+    description:
+      "Cook County is home to Chicago and is one of the most populous counties in the United States. Cook County Jail on California Avenue is one of the largest single-site jails in the country. GTL ViaPath ConnectNetwork handles phone calls and ViaPath handles text messaging at Cook County correctional facilities.",
+
+    intro: [
+      "Cook County is home to Chicago and is one of the most populous counties in the United States. Cook County Jail on South California Avenue is one of the largest single-site jails in the country, capable of housing thousands of individuals in custody. GTL ViaPath ConnectNetwork became the phone service provider for Cook County Jail in September 2021, replacing the previous provider Legacy Inmate Communications.",
+      "Text messaging at Cook County Jail is available through ViaPath at a fee of $0.06 per message. This is separate from phone call services. To set up phone accounts, call GTL ConnectNetwork at 877-650-4249 or visit connectnetwork.com. You will need the inmate booking number to set up any communication account. Use the Cook County Sheriff's Individual in Custody Locator at cookcountysheriff.org to find the booking number and confirm the current facility.",
+      "Cook County operates multiple correctional facilities in addition to the main jail on California Avenue. Always confirm which specific facility your loved one is held at before setting up accounts or sending mail. The Cook County Sheriff's Office can be reached at 773-869-7100 for general information about individuals in custody.",
+    ],
+
+    overview: [
+      "Which provider do Cook County jail families use? GTL ViaPath ConnectNetwork handles phone calls at Cook County correctional facilities. Call 877-650-4249 or visit connectnetwork.com to set up a prepaid account. ViaPath handles text messaging at $0.06 per message. You need the inmate booking number for all account setup. Find it using the Individual in Custody Locator at cookcountysheriff.org.",
+      "What is the booking number and where do I find it? The booking number is the identification number assigned when someone is booked into Cook County custody. It is required for phone account setup, messaging, money deposits, and mail. Find it using the Cook County Sheriff's Individual in Custody Locator at cookcountysheriff.org or by calling the Sheriff's Office at 773-869-7100.",
+      "What is the most common mistake Cook County jail families make? Using an outdated provider is very common. Cook County Jail switched from Legacy Inmate Communications to GTL ViaPath ConnectNetwork in September 2021. Families who set up Legacy accounts after the switch were unable to receive calls. Always confirm the current provider at cookcountysheriff.org before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Which provider handles phone calls at Cook County Jail?",
+        answer: "GTL ViaPath ConnectNetwork handles phone calls at Cook County Jail since September 2021. Call 877-650-4249 or visit connectnetwork.com to set up a prepaid account. You need the inmate booking number to set up the account. Cook County previously used Legacy Inmate Communications which is no longer active.",
+      },
+      {
+        question: "How do I send text messages to someone at Cook County Jail?",
+        answer: "Text messaging at Cook County Jail is available through ViaPath at $0.06 per message. Visit the Cook County Sheriff's phone account page at cookcountysheriff.org for the current messaging setup link. This is separate from the phone call account. You need the inmate booking number to set up messaging.",
+      },
+      {
+        question: "How do I find someone at Cook County Jail?",
+        answer: "Use the Cook County Sheriff's Individual in Custody Locator at cookcountysheriff.org. Search by name to find the booking number, current facility, and basic information. You can also call the Sheriff's Office at 773-869-7100 for assistance. Always confirm the specific facility before setting up accounts or sending mail.",
+      },
+      {
+        question: "How do I send money to someone at Cook County Jail?",
+        answer: "Money can be deposited through GTL ConnectNetwork at connectnetwork.com for phone account credits. For inmate trust account commissary deposits, check the Cook County Sheriff's website at cookcountysheriff.org for the current approved deposit methods. Always include the inmate booking number on all transactions.",
+      },
+      {
+        question: "Are phone calls free at Cook County Jail?",
+        answer: "No. Cook County Jail phone calls are not free. GTL ConnectNetwork holds the contract and charges per-minute rates subject to FCC caps effective April 2026. Rates are capped at $0.11 per minute for large jails. Illinois state prisons have a partial free call program but county jails are not included.",
+      },
+      {
+        question: "How do I schedule a video visit at Cook County Jail?",
+        answer: "Video visits at Cook County Jail can be scheduled through the GTL Friends and Family platform. You must be on the inmate's approved visitor list. Contact the Cook County Sheriff's Office at 773-869-7100 or visit cookcountysheriff.org for current video visit scheduling procedures and available time slots.",
+      },
+      {
+        question: "What address do I use for mail to Cook County Jail?",
+        answer: "The main Cook County Jail address for mail is 2700 South California Avenue, Chicago, Illinois 60608. Always include the inmate's full name and booking number on the envelope. Mail is inspected before delivery. Check cookcountysheriff.org for any current mail restrictions or changes before sending correspondence.",
+      },
+      {
+        question: "What happens when my loved one transfers from Cook County Jail to Illinois state prison?",
+        answer: "When someone transfers from Cook County Jail to an Illinois IDOC state prison, the provider changes to ICSolutions. Illinois state prisons offer a partial free calling program through Voices of Connection providing 775 free monthly minutes. Create a new ICSolutions account at icscorrections.com after confirming the transfer and obtaining the IDOC number.",
+      },
+    ],
+
+    facilitiesByType: { federal: 2, state: 6, county: 14, private: 2 },
+
+    providers: [
+      {
+        name: "ConnectNetwork",
+        slug: "connectnetwork",
+        initial: "C",
+        color: "bg-teal-600",
+        description:
+          "GTL ViaPath ConnectNetwork handles phone calls and text messaging at Cook County Jail. Call 877-650-4249 or visit connectnetwork.com to set up an account.",
+      },
+      {
+        name: "CorrLinks",
+        slug: "corrlinks",
+        initial: "C",
+        color: "bg-emerald-700",
+        description:
+          "Federal Bureau of Prisons email system for federal inmates held at facilities in the Chicago area.",
+      },
+      {
+        name: "ICSolutions",
+        slug: "icsolutions",
+        initial: "I",
+        color: "bg-sky-700",
+        description:
+          "Handles phone calls for Illinois Department of Corrections state prisons after a transfer out of Cook County Jail.",
+      },
+    ],
+
+    featuredFacilities: [
+      {
+        name: "Cook County Jail",
+        slug: "cook-county-jail",
+        type: "County Jail",
+        county: "Cook County",
+        features: ["Phone Calls", "Text Messaging"],
+      },
+    ],
+  },
+
+  "maricopa-county": {
+    id: "c-maricopa",
+    name: "Maricopa County",
+    slug: "maricopa-county",
+    stateSlug: "arizona",
+    stateName: "Arizona",
+    stateAbbr: "AZ",
+    facilityCount: 20,
+    hasDetailPage: true,
+
+    description:
+      "Maricopa County includes Phoenix and is the most populous county in Arizona. The Maricopa County Sheriff's Office operates several detention centers in the Phoenix area. GTL ConnectNetwork handles phone calls and Securus handles video visits at Maricopa County detention facilities.",
+
+    intro: [
+      "Maricopa County includes Phoenix and is the most populous county in Arizona. The Maricopa County Sheriff's Office operates several detention centers including Fourth Avenue Jail at 201 S. 4th Avenue, Lower Buckeye Jail at 3250 W. Lower Buckeye Road, Estrella Jail for women, Towers Jail, and the Intake Transfer and Release center. GTL ConnectNetwork manages the inmate telephone system at Maricopa County detention facilities. Call 877-650-4249 or visit connectnetwork.com to set up an account.",
+      "Phones at Maricopa County facilities are available from approximately 7:30 AM to 10:00 PM daily unless security or disciplinary restrictions are in place. Each call is limited to 20 minutes. Three-way calling is prohibited and will result in immediate disconnection. All personal calls are recorded and monitored. GTL outgoing numbers at Maricopa County are 480-448-2204 and 480-409-2926. Save these numbers in your contacts to avoid missing calls flagged as spam.",
+      "Securus Video Connect handles video visits at Maricopa County facilities with onsite terminals at Fourth Avenue and Lower Buckeye jails. Remote at-home video visits are also available through Securus. You must have an active Securus account and a confirmed appointment to participate in video visits. For general Maricopa County Sheriff questions call 602-876-1000.",
+    ],
+
+    overview: [
+      "Which provider do Maricopa County jail families use? GTL ConnectNetwork handles phone calls at Maricopa County Sheriff detention facilities. Call 877-650-4249 or visit connectnetwork.com. Securus handles video visits through Securus Video Connect. These are two separate accounts. Phones are available from 7:30 AM to 10:00 PM with a 20-minute call limit. Save GTL outgoing numbers 480-448-2204 and 480-409-2926 in your contacts.",
+      "Why are Maricopa County calls showing as spam on my phone? GTL calls from Maricopa County facilities display from specific outgoing numbers 480-448-2204 and 480-409-2926. These numbers may be flagged as spam or robo calls by mobile carriers. To fix this, contact your cell phone carrier to unblock these numbers or manually change your spam settings to allow calls from these numbers. Saving them in your contacts also helps prevent spam filtering.",
+      "What is the most common mistake Maricopa County jail families make? Not saving the GTL outgoing phone numbers is very common. Calls from Maricopa County jail come from 480-448-2204 or 480-409-2926 and are frequently flagged as spam by mobile phones. Save both numbers in your contacts immediately after setting up your ConnectNetwork account to avoid missing calls.",
+    ],
+
+    faq: [
+      {
+        question: "Which provider handles phone calls at Maricopa County Jail?",
+        answer: "GTL ConnectNetwork handles phone calls at all Maricopa County Sheriff detention facilities. Call 877-650-4249 or visit connectnetwork.com to set up a Collect or AdvancePay account. Save GTL outgoing numbers 480-448-2204 and 480-409-2926 in your contacts to avoid missing calls flagged as spam.",
+      },
+      {
+        question: "Why are calls from Maricopa County Jail showing as spam?",
+        answer: "GTL outgoing numbers at Maricopa County are 480-448-2204 and 480-409-2926. These are frequently flagged as spam by mobile carriers. Contact your carrier to unblock these specific numbers or manually change your spam filter settings. Saving both numbers in your contacts helps prevent spam filtering.",
+      },
+      {
+        question: "How do I schedule a video visit at Maricopa County Jail?",
+        answer: "Video visits at Maricopa County use Securus Video Connect. Onsite video terminals are at Fourth Avenue and Lower Buckeye jails. Remote at-home visits are also available. Create a Securus account at securustech.net and schedule a visit online. Contact Maricopa County Sheriff at 602-876-1000 for current scheduling information.",
+      },
+      {
+        question: "What is the call length limit at Maricopa County Jail?",
+        answer: "Each call at Maricopa County detention facilities is limited to 20 minutes. Three-way calling is prohibited and results in immediate disconnection. Phones are available from approximately 7:30 AM to 10:00 PM daily unless security or disciplinary restrictions are in place. All non-legal calls are recorded and monitored.",
+      },
+      {
+        question: "How do I find someone at Maricopa County Jail?",
+        answer: "Use the Maricopa County Sheriff inmate search at the MCSO website at mcso.org. You can also call the Sheriff's main information line at 602-876-1000 or 602-876-0322 for inmate information. Always confirm which specific detention facility your loved one is in before setting up accounts or sending mail.",
+      },
+      {
+        question: "How do I send money to someone at Maricopa County Jail?",
+        answer: "Money can be deposited through GTL ConnectNetwork for phone account credits at connectnetwork.com. For inmate commissary account deposits, check the Maricopa County Sheriff website at mcso.org for current approved deposit methods and the specific facility mailing address. Always include the inmate's full name and booking number.",
+      },
+      {
+        question: "Are phone calls free at Maricopa County Jail?",
+        answer: "No. Phone calls at Maricopa County detention facilities are not free. GTL ConnectNetwork holds the contract and charges per-minute rates subject to FCC caps effective April 2026. Arizona state prisons also use a separate system through ICSolutions and are not free. Only a small number of Arizona county jails offer free calls.",
+      },
+      {
+        question: "What happens when my loved one transfers from Maricopa County Jail to Arizona state prison?",
+        answer: "When someone transfers from Maricopa County Jail to an Arizona state prison, the provider changes to ICSolutions for phone calls and Securus for messaging. Arizona also requires being on the Personal Allowed Number (PAN) list to receive calls. Create a new ICSolutions account at icscorrections.com after confirming the transfer.",
+      },
+    ],
+
+    facilitiesByType: { federal: 1, state: 5, county: 12, private: 2 },
+
+    providers: [
+      {
+        name: "GTL (ViaPath Technologies)",
+        slug: "gtl",
+        initial: "G",
+        color: "bg-amber-600",
+        description:
+          "Handles phone calls at Maricopa County Sheriff detention facilities. Call 877-650-4249 or visit connectnetwork.com to set up an account.",
+      },
+      {
+        name: "Securus Technologies",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-700",
+        description:
+          "Securus Video Connect handles video visits at Fourth Avenue and Lower Buckeye jails, plus remote at-home visits.",
+      },
+      {
+        name: "ICSolutions",
+        slug: "icsolutions",
+        initial: "I",
+        color: "bg-sky-700",
+        description:
+          "Handles phone calls for Arizona state prisons after a transfer out of Maricopa County jail custody.",
+      },
+    ],
+
+    featuredFacilities: [
+      {
+        name: "Maricopa County Jail",
+        slug: "maricopa-county-jail",
+        type: "County Jail",
+        county: "Maricopa County",
+        features: ["Phone Calls", "Video Calls"],
+      },
+      {
+        name: "Arizona State Prison Complex Florence",
+        slug: "arizona-state-prison-complex-florence",
+        type: "State Prison",
+        county: "Pinal County",
+        features: ["Phone Calls", "Messaging"],
+      },
+    ],
+  },
+
+  "wayne-county-mi": {
+    id: "c-wayne-mi",
+    name: "Wayne County",
+    slug: "wayne-county-mi",
+    stateSlug: "michigan",
+    stateName: "Michigan",
+    stateAbbr: "MI",
+    facilityCount: 14,
+    hasDetailPage: true,
+
+    description:
+      "Wayne County includes Detroit and is the most populous county in Michigan. The Wayne County Criminal Justice Center at 5301 Russell Street in Detroit houses the Adult Detention Facility. GTL ConnectNetwork handles phone calls and the GTL Friends and Family Visit Now app handles video visits.",
+
+    intro: [
+      "Wayne County includes Detroit and is the most populous county in Michigan. The Wayne County Criminal Justice Center is located at 5301 Russell Street in Detroit, Michigan 48211 and houses the Adult Detention Facility. This facility spans more than one million square feet across seven buildings. GTL ConnectNetwork handles phone calls at Wayne County Criminal Justice Center. Call 877-650-4249 or the AdvancePay line at 800-483-8314 to set up an account.",
+      "Video visits at Wayne County use the GTL Friends and Family Visit Now App. All social visitation is conducted via video. Persons at least 17 years old with acceptable photo identification are allowed one non-contact video visit per week for up to 30 minutes. Visitors can attend video visits through terminals at the facility or using their own smartphone, computer, or tablet. In-person visits for friends and family are currently conducted through video only.",
+      "Michigan DOC state prisons use GTL ConnectNetwork for phone calls. Michigan has also implemented mail scanning at most state facilities. Wayne County Jail uses its own communication system separate from MDOC. Always confirm the specific facility type before setting up accounts. The Wayne County Sheriff inmate search is available at sheriffconnect.com.",
+    ],
+
+    overview: [
+      "Which provider do Wayne County jail families use? GTL ConnectNetwork handles phone calls at Wayne County Criminal Justice Center in Detroit. Call 877-650-4249 or the AdvancePay line at 800-483-8314 or visit connectnetwork.com. GTL Friends and Family Visit Now App handles video visits. One video visit per week up to 30 minutes. Use the inmate search at sheriffconnect.com.",
+      "How do video visits work at Wayne County Jail? All social visits at Wayne County are video visits only. No in-person visits are available for friends and family. Visitors must be at least 17 years old with acceptable photo ID. One video visit per week for up to 30 minutes is allowed. Connect through the GTL Friends and Family Visit Now App on your smartphone, tablet, or computer, or through terminals at the facility visitation center.",
+      "What is the most common mistake Wayne County jail families make? Confusing Wayne County Jail with MDOC Michigan state prisons is common. Michigan state prisons use GTL ConnectNetwork but MDOC and Wayne County Jail are separate systems with separate accounts. Also note that all visits at Wayne County are video only. Families expecting in-person visits will be turned away.",
+    ],
+
+    faq: [
+      {
+        question: "Which provider handles phone calls at Wayne County Jail in Detroit?",
+        answer: "GTL ConnectNetwork handles phone calls at Wayne County Criminal Justice Center in Detroit. Call 877-650-4249 or the AdvancePay support line at 800-483-8314 or visit connectnetwork.com. The facility is located at 5301 Russell Street, Detroit, MI 48211. Contact the jail at 313-224-0797 for general inmate information.",
+      },
+      {
+        question: "How do I schedule a video visit at Wayne County Jail?",
+        answer: "All social visits at Wayne County are video visits. Set up through the GTL Friends and Family Visit Now App. Visitors must be at least 17 years old with photo ID. One video visit per week for up to 30 minutes is allowed. Connect through your own smartphone, tablet, or computer, or through terminals at the facility. Contact the jail at 313-224-0797 for scheduling information.",
+      },
+      {
+        question: "Are in-person visits available at Wayne County Jail?",
+        answer: "No. All social visitation at Wayne County Criminal Justice Center is conducted via video. There are no in-person visits available for friends and family at this time. Attorneys and law enforcement may visit in person with proper credentials. Video visits are through the GTL Friends and Family Visit Now App.",
+      },
+      {
+        question: "How do I find someone at Wayne County Jail in Detroit?",
+        answer: "Use the Wayne County Sheriff inmate search at sheriffconnect.com. You can search by name to find the current facility status. The jail information line is 313-224-0797. The facility is located at 5301 Russell Street, Detroit, MI 48211. For MDOC Michigan state prison inmates use the OTIS search at michigan.gov/corrections.",
+      },
+      {
+        question: "How do I send money to someone at Wayne County Jail?",
+        answer: "Money can be deposited through GTL ConnectNetwork for phone account credits at connectnetwork.com. For commissary account deposits, contact the Wayne County jail directly at 313-224-0797 for current approved deposit methods. Always include the inmate's full name and booking number on all transactions.",
+      },
+      {
+        question: "Are phone calls free at Wayne County Jail?",
+        answer: "No. Phone calls at Wayne County Criminal Justice Center are not free. GTL ConnectNetwork holds the contract and charges per-minute rates subject to FCC caps effective April 2026. Michigan state prisons also use GTL ConnectNetwork but are a separate system. Michigan state prisons do not offer free calls.",
+      },
+      {
+        question: "What is the mailing address for Wayne County Jail?",
+        answer: "The mailing address for Wayne County Criminal Justice Center is 5301 Russell Street, Detroit, MI 48211. Include the inmate's full name and booking number on all mail. Mail is inspected before delivery. Contact the jail at 313-224-0797 before sending any packages or unusual items.",
+      },
+      {
+        question: "What happens when my loved one transfers from Wayne County Jail to a Michigan state prison?",
+        answer: "When someone transfers from Wayne County Jail to an MDOC Michigan state prison, they receive a state DOC number and the provider remains GTL ConnectNetwork but as a separate MDOC account. Michigan state prisons also have mail scanning at most facilities. Use the MDOC OTIS search at michigan.gov/corrections to find the new facility.",
+      },
+    ],
+
+    facilitiesByType: { federal: 1, state: 4, county: 8, private: 1 },
+
+    providers: [
+      {
+        name: "GTL (ViaPath Technologies)",
+        slug: "gtl",
+        initial: "G",
+        color: "bg-amber-600",
+        description:
+          "Handles phone calls at Wayne County Criminal Justice Center and video visits through the Friends and Family Visit Now app. Call 877-650-4249 or the AdvancePay line at 800-483-8314.",
+      },
+      {
+        name: "CorrLinks",
+        slug: "corrlinks",
+        initial: "C",
+        color: "bg-emerald-700",
+        description:
+          "Federal Bureau of Prisons email system for federal inmates held at facilities near Detroit.",
+      },
+    ],
+
+    featuredFacilities: [
+      {
+        name: "Wayne County Jail",
+        slug: "wayne-county-jail",
+        type: "County Jail",
+        county: "Wayne County",
+        features: ["Phone Calls", "Video Calls"],
+      },
+      {
+        name: "FCI Milan",
+        slug: "fci-milan",
+        type: "Federal Prison",
+        county: "Washtenaw County",
+        features: ["Messaging (CorrLinks)", "Phone Calls"],
+      },
+    ],
+  },
+
+  "hennepin-county": {
+    id: "c-hennepin",
+    name: "Hennepin County",
+    slug: "hennepin-county",
+    stateSlug: "minnesota",
+    stateName: "Minnesota",
+    stateAbbr: "MN",
+    facilityCount: 10,
+    hasDetailPage: true,
+
+    description:
+      "Hennepin County includes Minneapolis and is the most populous county in Minnesota. The Hennepin County Adult Detention Center operates at two locations in downtown Minneapolis. Securus Technologies handles phone calls and video visits at Hennepin County jail. Minnesota state prisons offer free calls since July 2023 but Hennepin County jail calls are not free.",
+
+    intro: [
+      "Hennepin County includes Minneapolis and is the most populous county in Minnesota. The Hennepin County Adult Detention Center (ADC) operates at two adjacent downtown locations: the Public Safety Facility at 401 South 4th Avenue and a secure unit inside Minneapolis City Hall at 350 South 5th Street. Both locations are near the Government Plaza light rail station. Securus Technologies handles phone calls at the Hennepin County Adult Detention Center. Call 800-844-6591 or visit securustech.net to set up an account.",
+      "An important distinction for Minnesota families is that Minnesota Department of Corrections state prison calls have been free since July 2023. However, Hennepin County Jail is a county facility and is not covered by the MN DOC free call program. County jail calls through Securus are charged per minute. If your loved one is in a Minnesota state prison, calls are free. If they are at Hennepin County Jail, calls are charged through Securus.",
+      "All social visiting at Hennepin County Adult Detention Center is done via video. In-person visits for the public are not available. Securus handles video visits at the facility. The main jail information line is 612-348-5112. The contact email is sheriff.jailinfo@hennepin.us. All calls except legal calls are recorded and monitored.",
+    ],
+
+    overview: [
+      "Which provider do Hennepin County jail families use? Securus Technologies handles phone calls and video visits at Hennepin County Adult Detention Center in Minneapolis. Call 800-844-6591 or visit securustech.net. The jail information line is 612-348-5112. Note that Minnesota state prison calls are free since July 2023 but Hennepin County jail calls through Securus are not free.",
+      "Are phone calls free at Hennepin County Jail? No. Minnesota state DOC prison calls are free since July 2023 but this does not apply to county jails. Hennepin County Jail uses Securus Technologies and calls are charged per minute subject to FCC rate caps. If your loved one has been transferred to a Minnesota state prison, calls become free. Confirm with the facility whether your loved one is in state or county custody.",
+      "What is the most common mistake Hennepin County jail families make? Assuming Hennepin County jail calls are free because Minnesota state prison calls are free is very common. The MN DOC free call program applies only to state correctional facilities. Hennepin County jail is a separate county system and calls are charged through Securus. Always confirm which system your loved one is in before assuming call costs.",
+    ],
+
+    faq: [
+      {
+        question: "Which provider handles phone calls at Hennepin County Jail?",
+        answer: "Securus Technologies handles phone calls at Hennepin County Adult Detention Center in Minneapolis. Call 800-844-6591 or visit securustech.net to set up an account. The jail information line is 612-348-5112. Calls are outgoing only from the inmate. You cannot call the jail and reach an inmate directly.",
+      },
+      {
+        question: "Are phone calls free at Hennepin County Jail like at Minnesota state prisons?",
+        answer: "No. Minnesota state DOC prison calls became free in July 2023 but Hennepin County Jail is a county facility not covered by the state free call program. Calls at Hennepin County Jail use Securus Technologies and are charged per minute subject to FCC caps effective April 2026. If your loved one transfers to a state prison, calls become free.",
+      },
+      {
+        question: "How do I find someone at Hennepin County Jail?",
+        answer: "Use the Hennepin County online inmate roster which updates hourly at the Sheriff's website. The roster shows housing status, charges, bail, and court dates. Call the jail information line at 612-348-5112 or email sheriff.jailinfo@hennepin.us. For Minnesota state prison inmates, use the MN DOC offender search at coms.doc.state.mn.us.",
+      },
+      {
+        question: "Are in-person visits available at Hennepin County Jail?",
+        answer: "No. In-person visits for the public are not currently available at Hennepin County Adult Detention Center. All social visiting is done via video. Securus handles video visits at the facility. Attorneys and law enforcement may visit in person with proper credentials. Contact the jail at 612-348-5112 for current visitation information.",
+      },
+      {
+        question: "How do I send mail to Hennepin County Jail?",
+        answer: "Send mail to: Inmate Full Name, Hennepin County Public Safety Complex, 401 South 4th Avenue, Minneapolis, MN 55415. Include the inmate's full name and return address. Content is screened for safety. Standard letters, plain photos, and simple cards are accepted. Packages must come from a publisher, mail-order bookseller, or attorney.",
+      },
+      {
+        question: "How do I send money to someone at Hennepin County Jail?",
+        answer: "Money can be deposited through Securus for phone account credits at securustech.net. For commissary deposits, contact the Hennepin County jail at 612-348-5112 for current approved deposit methods. Always include the inmate's full name and booking number on all transactions.",
+      },
+      {
+        question: "What is the address for Hennepin County Jail?",
+        answer: "Hennepin County Adult Detention Center has two locations. Public Safety Facility: 401 South 4th Avenue, Suite 100, Minneapolis, MN 55415. City Hall location: 350 South 5th Street, Minneapolis, MN 55415. Both are near the Government Plaza light rail station. Bail is accepted 24 hours a day at the Public Safety Facility.",
+      },
+      {
+        question: "What happens when my loved one transfers from Hennepin County Jail to a Minnesota state prison?",
+        answer: "When someone transfers from Hennepin County Jail to an MN DOC state prison, phone calls become free. The state prison uses a different system from Securus county jail. Search the MN DOC offender search at coms.doc.state.mn.us to confirm the new facility. Contact the new facility to be added to the approved contact list.",
+      },
+    ],
+
+    facilitiesByType: { federal: 1, state: 3, county: 5, private: 1 },
+
+    providers: [
+      {
+        name: "Securus Technologies",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-700",
+        description:
+          "Handles phone calls and video visits at Hennepin County Adult Detention Center. Call 800-844-6591 or visit securustech.net.",
+      },
+    ],
+
+    featuredFacilities: [
+      {
+        name: "Hennepin County Adult Detention Center",
+        slug: "hennepin-county-adult-detention-center",
+        type: "County Jail",
+        county: "Hennepin County",
+        features: ["Phone Calls", "Video Calls"],
+      },
+      {
+        name: "Minnesota Correctional Facility Stillwater",
+        slug: "minnesota-correctional-facility-stillwater",
+        type: "State Prison",
+        county: "Washington County",
+        features: ["Phone Calls", "Video Calls"],
       },
     ],
   },

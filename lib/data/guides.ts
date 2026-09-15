@@ -1574,9 +1574,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     seoDescription: "Complete guide to JPay for families - how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state prisons. Free step-by-step guide.",
 
     intro: [
-      "JPay is the most widely used inmate communication platform in the United States, serving over 35 states and more than 1,000 correctional facilities. If your loved one is in a state prison, JPay is the most likely platform you will need to use for messaging, money transfers, and video visits.",
-      "JPay operates through a virtual stamp system. You purchase stamps in advance and use them to send messages and photos to your loved one. The inmate reads and replies through a JPay tablet or kiosk inside the facility. Everything goes through the JPay platform and is subject to facility review.",
-      "This guide explains how to create a JPay account, how the stamp system works, how to send your first message, how to transfer money, and how to schedule a video visit.",
+      "JPay is a digital communication and money transfer service for families of incarcerated people at state prisons and county jails across the United States. If you are asking what JPay is, the short answer is this: JPay lets you send messages, photos, and money to someone in a state prison, and schedule video visits from home. JPay is not a phone call service. JPay is owned by Aventiv Technologies, the same parent company that owns Securus Technologies.",
+      "JPay is not the same as CorrLinks. CorrLinks is the only approved messaging platform for federal Bureau of Prisons facilities. JPay serves state prisons only. If your loved one is in a federal prison, you need CorrLinks, not JPay. If they are in a state prison, you most likely need JPay. Search the facility name in our directory to confirm which provider serves that location.",
+      "Creating a JPay account is completely free at jpay.com or through the JPay mobile app on iOS and Android. You pay only when you use services such as purchasing stamps to send messages or depositing money to the inmate trust account. JPay serves over 35 states and more than 1,000 correctional facilities making it the most widely used state prison communication platform in the United States.",
     ],
 
     sections: [
@@ -1726,6 +1726,14 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "How do I contact a real person at JPay customer service?",
         answer: "Call the JPay customer service number listed on jpay.com. If the automated system does not connect you to a live agent, try calling at off-peak hours such as early morning. You can also submit a written support ticket through your JPay account. For unresolved issues, file a formal complaint with the Better Business Bureau at bbb.org or contact your state Department of Corrections.",
+      },
+      {
+        question: "What is the difference between JPay and CorrLinks?",
+        answer: "JPay serves state prisons across more than 35 states for messaging, money transfers, video visits, and tablet services. CorrLinks is the only approved messaging platform for federal Bureau of Prisons facilities. These two platforms do not overlap. If your loved one is in a state prison use JPay. If they are in a federal prison use CorrLinks. Using the wrong platform means your messages will never reach the inmate.",
+      },
+      {
+        question: "What does JPay mean and who owns it?",
+        answer: "JPay stands for Jail Pay and was founded in 2002 originally as a payments company before expanding into messaging and tablets. JPay is owned by Aventiv Technologies, the same parent company that owns Securus Technologies. Despite being owned by the same parent company, JPay and Securus operate as separate platforms with separate accounts serving different services at correctional facilities.",
       },
     ],
 

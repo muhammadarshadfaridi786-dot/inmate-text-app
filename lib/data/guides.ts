@@ -1735,6 +1735,38 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         question: "What does JPay mean and who owns it?",
         answer: "JPay stands for Jail Pay and was founded in 2002 originally as a payments company before expanding into messaging and tablets. JPay is owned by Aventiv Technologies, the same parent company that owns Securus Technologies. Despite being owned by the same parent company, JPay and Securus operate as separate platforms with separate accounts serving different services at correctional facilities.",
       },
+      {
+        question: "Can I do a JPay video visit on my phone?",
+        answer: "Yes. JPay video visits can be done on a smartphone using the JPay mobile app available for iOS and Android. Download the app, log in to your JPay account, and schedule a video visit from your device. You need a stable internet connection and a working camera. All video visits are recorded and monitored by facility staff.",
+      },
+      {
+        question: "What is a JPay cash advance fee and how do I avoid it?",
+        answer: "A JPay cash advance fee is a charge applied when you use a credit card to deposit money and your card issuer classifies the transaction as a cash advance rather than a purchase. Cash advance fees are charged by your bank or credit card company, not by JPay. To avoid this fee, use a debit card instead of a credit card when making JPay deposits. Debit card transactions are not classified as cash advances.",
+      },
+      {
+        question: "Does JPay accept Cash App?",
+        answer: "JPay does not directly accept Cash App as a payment method. JPay accepts debit cards, credit cards, and money orders. If you want to use Cash App funds, transfer the money from your Cash App balance to a linked debit card first, then use that debit card to fund your JPay account. Always verify current accepted payment methods at jpay.com as they may change.",
+      },
+      {
+        question: "How long does JPay take to process money for inmates?",
+        answer: "JPay money transfers to inmate trust accounts are typically processed within two business days for online and app deposits. Deposits made by phone are also typically processed within two business days. Mailed money orders take longer, usually five to seven business days after JPay receives them. Processing times can be longer around holidays or if there are facility lockdowns.",
+      },
+      {
+        question: "What does offender mean in JPay?",
+        answer: "In JPay, the term offender refers to the incarcerated person you are trying to communicate with. When you search for someone on JPay, the search field is labeled offender search. This is standard correctional industry terminology used by JPay and most correctional systems. Enter the incarcerated person's name and facility in the offender search to add them to your JPay account.",
+      },
+      {
+        question: "What is a JPay kiosk?",
+        answer: "A JPay kiosk is a self-service terminal located inside correctional facilities that allows inmates to access JPay services including reading messages, sending replies, viewing photos, and managing their account. Kiosks are the main way inmates at facilities without tablets interact with JPay. Some facilities have kiosks in common areas while others have them in housing units. Availability and hours depend on the specific facility.",
+      },
+      {
+        question: "Is JPay legitimate and safe to use?",
+        answer: "Yes. JPay is a legitimate company that has operated since 2002 and is the most widely used state prison communication platform in the United States. JPay is owned by Aventiv Technologies and serves over 35 states. JPay uses standard security measures for online transactions. Some families report billing issues and delayed processing. Always keep transaction receipts and contact JPay customer service at jpay.com if there are problems.",
+      },
+      {
+        question: "How do I find the inmate ID number for JPay?",
+        answer: "The inmate ID number for JPay is the DOC number assigned by the state Department of Corrections. Find it using the state DOC offender search tool for the state where your loved one is incarcerated. For example, use tdcj.texas.gov for Texas, cdcr.ca.gov for California, or search our facility directory and follow the inmate search link for the specific state. You can also ask your loved one to provide their DOC number directly.",
+      },
     ],
 
     relatedGuideSlugs: ["how-inmate-messaging-works", "how-corrlinks-works", "best-inmate-messaging-services"],

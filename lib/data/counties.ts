@@ -512,6 +512,47 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "This directory provides communication information for Kings County and Brooklyn-area correctional facilities so families can navigate the right system without unnecessary confusion. Whether you are trying to reach someone at Rikers Island through the NYC DOC system, set up messaging at the Brooklyn Detention Complex, or contact a loved one at the federal facility on 29th Street, this guide helps you identify the correct provider and process without having to search through multiple agency websites.",
     ],
 
+    overview: [
+      "Which providers do Kings County jail families use? NYC jails including those in Kings County offer free phone calls since 2019. GTL ConnectNetwork and GettingOut by Telmate are the most common providers at Kings County facilities. Rikers Island uses GTL ConnectNetwork. MDC Brooklyn is a federal facility that uses CorrLinks for messaging and ConnectNetwork for phone calls. Always confirm the specific facility before setting up any account.",
+      "Are phone calls free at Kings County NYC jails? Yes. New York City eliminated jail call charges in 2019. Phone calls from all NYC Department of Corrections facilities including those in Kings County are free. You do not need a funded prepaid account to receive calls from NYC jail facilities. NYC was the first jurisdiction in the country to make jail calls free. Note that federal facilities in Brooklyn such as MDC Brooklyn are not NYC DOC facilities and are not covered by the free call program.",
+      "What is the most common mistake Kings County jail families make? Confusing NYC DOC facilities with federal facilities is very common in Kings County. MDC Brooklyn is a federal Bureau of Prisons facility that is not part of the NYC jail system. Families trying to reach someone at MDC Brooklyn need CorrLinks for messaging and ConnectNetwork for phone calls which are not free. Always confirm whether the facility is NYC DOC or federal BOP before setting up any accounts.",
+    ],
+
+    faq: [
+      {
+        question: "Are phone calls free at Kings County NYC jails?",
+        answer: "Yes. New York City eliminated jail call charges in 2019. All NYC Department of Corrections facilities including those in Kings County offer free phone calls. You do not need a prepaid account. NYC was the first jurisdiction in the country to make jail calls free. Federal facilities in Brooklyn such as MDC Brooklyn are separate from the NYC system and are not free.",
+      },
+      {
+        question: "Which provider do I use for Kings County NYC jail phone calls?",
+        answer: "GTL ConnectNetwork handles phone calls at most Kings County NYC DOC facilities including Rikers Island. Since calls are free you do not need to fund a prepaid account. Visit connectnetwork.com for account information. GettingOut by Telmate is also used at some Kings County facilities. Always confirm the specific facility and provider before setting up any account.",
+      },
+      {
+        question: "What is the difference between NYC DOC facilities and MDC Brooklyn?",
+        answer: "NYC DOC facilities such as Rikers Island AMKC are operated by the New York City Department of Corrections and offer free phone calls since 2019. MDC Brooklyn is a federal Bureau of Prisons facility that is completely separate from the NYC jail system. Federal inmates at MDC Brooklyn use CorrLinks for messaging and ConnectNetwork for phone calls which are not free and are not covered by NYC free call policy.",
+      },
+      {
+        question: "How do I contact someone at Rikers Island?",
+        answer: "Rikers Island is operated by the NYC Department of Corrections. Phone calls from Rikers are free since 2019. GTL ConnectNetwork handles communication at Rikers. The inmate must add your number to their approved contact list. You can also schedule video visits through the NYC DOC system. For general Rikers information contact NYC DOC at 718-546-0700.",
+      },
+      {
+        question: "How do I contact someone at MDC Brooklyn?",
+        answer: "MDC Brooklyn is a federal Bureau of Prisons facility. Use CorrLinks for electronic messaging. The inmate must send you a contact request from a TRULINCS terminal first. For phone calls use ConnectNetwork by GTL at connectnetwork.com. MDC Brooklyn phone calls are not free and are not covered by the NYC free call policy. Call MDC Brooklyn at 718-840-4200 for general information.",
+      },
+      {
+        question: "How do I find someone in a Kings County jail?",
+        answer: "Use the NYC DOC inmate lookup at a.ciims.nyc.gov to find someone in an NYC DOC facility including Kings County jails. Search by name to find the current facility and book and case number. For federal inmates at MDC Brooklyn use the Bureau of Prisons locator at bop.gov. For New York state prison inmates use the DOCCS lookup at doccs.ny.gov.",
+      },
+      {
+        question: "How do I send money to someone in a Kings County NYC jail?",
+        answer: "Money can be sent to NYC DOC inmate accounts through the NYC DOC website at nyc.gov/doc or through JPay. You can also send money by money order mailed to the facility. Always include the inmate book and case number on all transactions. For federal inmates at MDC Brooklyn, money transfers go through the Bureau of Prisons approved methods including MoneyGram and Western Union.",
+      },
+      {
+        question: "Are video visits available at Kings County jails?",
+        answer: "Yes. Video visits are available at NYC DOC facilities in Kings County. NYC DOC offers both in-person and video visits. Video visits can be scheduled through the NYC DOC visitation system. All visits require advance approval and must be booked in advance. Contact NYC DOC at 718-546-0700 for current video visit scheduling instructions.",
+      },
+    ],
+
     facilitiesByType: { federal: 1, state: 1, county: 5, private: 1 },
 
     providers: [

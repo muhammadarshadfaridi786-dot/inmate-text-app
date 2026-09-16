@@ -165,6 +165,25 @@ export function buildFAQSchema(faqs: { question: string; answer: string }[]): Js
   }
 }
 
+export function buildProviderHowToSchema(
+  name: string,
+  description: string,
+  steps: { name: string; text: string }[]
+): JsonLdSchema {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name,
+    description,
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  }
+}
+
 export function buildArticleSchema(guide: {
   title: string
   description: string

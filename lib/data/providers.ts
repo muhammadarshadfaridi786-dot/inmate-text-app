@@ -447,7 +447,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "connectnetwork",
     initial: "C",
     color: "bg-teal-600",
-    tagline: "ConnectNetwork by GTL — Inmate Messaging, Video & Phone for County Jails",
+    tagline: "ConnectNetwork by GTL ViaPath: How to Set Up AdvancePay, PIN Debit and Receive Calls",
     services: { messaging: true, video: true, photos: false, phone: true, moneyTransfer: true },
     statesCount: 50,
     facilitiesCount: 1800,
@@ -455,26 +455,24 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-       "ConnectNetwork by GTL is one of the largest inmate communication platforms in the U.S., serving 1,800+ facilities across 50 states. Families can send messages, schedule video visits, fund phone accounts, and transfer money — all from one account. Setting up is free and takes less than 5 minutes.",
+       "ConnectNetwork is the family-facing platform operated by GTL ViaPath Technologies for receiving inmate phone calls, scheduling video visits, sending messages, and depositing money. Create a free account at connectnetwork.com or call ConnectNetwork customer service at 877-650-4249. The ConnectNetwork mobile app is available for iOS and Android.",
 
-    seoTitle: "ConnectNetwork Review: GTL Inmate Messaging, Video Visits and Phone Guide",
+    seoTitle: "What Is ConnectNetwork: GTL Phone Calls, AdvancePay and Account Setup",
     seoDescription:
-      "ConnectNetwork by GTL guide for families how to set up AdvancePay for phone calls, send messages, schedule video visits, and transfer money at county jails and state prisons.",
+      "What is ConnectNetwork by GTL and how does it work. Set up AdvancePay or PIN Debit account at connectnetwork.com. Customer service at 877-650-4249. Free guide for families.",
 
     website: "https://www.connectnetwork.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
     androidUrl: "https://play.google.com/store/apps/details?id=com.gtl.connect",
 
     overview: [
-  "ConnectNetwork is operated by GTL (Global Tel Link), one of the largest inmate communication companies in the United States, serving over 1,800 correctional facilities across all 50 states.",
+  "What is ConnectNetwork and what is it used for? ConnectNetwork is the consumer platform operated by GTL, now known as ViaPath Technologies. ConnectNetwork is used to receive phone calls from incarcerated loved ones at state prisons and county jails, schedule video visits, send electronic messages, and deposit money to inmate accounts. ConnectNetwork serves over 1,800 facilities across the United States. Create a free account at connectnetwork.com. Customer service is available at 877-650-4249. The AdvancePay customer service line is 800-483-8314.",
 
-  "The platform is especially strong in county jails and federal facilities. If your loved one is in a county detention center, ConnectNetwork is likely the provider you will need to use.",
+  "What is the difference between AdvancePay and PIN Debit on ConnectNetwork? AdvancePay is a prepaid account linked to your phone number that you fund in advance. When the inmate calls your registered number, the cost is deducted from your AdvancePay balance. PIN Debit is an account owned by the incarcerated person. Family members deposit money into the PIN Debit account and the inmate uses those funds to call any approved number on their list. AdvancePay calls can only come to your registered number. PIN Debit calls can go to any approved number on the inmate's list. Both account types can be managed at connectnetwork.com.",
 
-  "Creating a ConnectNetwork account is free. Families can set up an AdvancePay phone account, schedule video visits, send electronic messages, and deposit money to an inmate trust account — all from the same login.",
+  "Why are ConnectNetwork GTL calls showing as spam on my phone? GTL uses specific outgoing phone numbers that vary by facility. These numbers are often flagged as spam or robo calls by mobile carriers. To fix this, save the specific GTL outgoing number for your loved one's facility in your contacts. You can also contact your mobile carrier and ask them to whitelist the number. Call GTL customer service at 877-650-4249 for the specific outgoing number for your facility.",
 
-  "ConnectNetwork phone rates are regulated by the FCC for interstate calls. For most families, the cost is $0.06 to $0.21 per minute depending on the facility and call type.",
-
-  "To get started, visit connectnetwork.com, create a free account, search for your loved one's facility, and add funds to begin receiving calls or sending messages.",
+  "What is ConnectNetwork Debit Link? Debit Link is GTL ViaPath's digital currency for tablet-based services at facilities they serve. One dollar buys 100 Debit Link units at $0.01 per unit. Debit Link funds are used for tablet entertainment including streaming music, games, and ebooks. Debit Link is separate from phone account credits and commissary funds. Debit Link purchases are final and nonrefundable. Contact ConnectNetwork at 877-650-4249 for Debit Link questions.",
 ],
 
     serviceDetails: {
@@ -546,24 +544,48 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "What is the difference between ConnectNetwork and GTL?",
-        answer: "ConnectNetwork is the consumer-facing brand name for the platform operated by GTL (Global Tel Link), now also known as ViaPath Technologies. GTL holds the facility contracts, while ConnectNetwork is the portal families use to manage accounts. They are the same underlying service.",
+        question: "What is ConnectNetwork?",
+        answer: "ConnectNetwork is the consumer platform operated by GTL ViaPath Technologies for families of incarcerated people. It handles phone calls, video visits, electronic messaging, and money deposits at over 1,800 facilities. Create a free account at connectnetwork.com. Customer service is at 877-650-4249.",
       },
       {
-        question: "Does ConnectNetwork work at federal prisons?",
-        answer: "Yes. ConnectNetwork/GTL serves many federal Bureau of Prisons facilities for phone calls, video visits, and money transfers. However, for electronic messaging at federal facilities, you still need a CorrLinks account — messaging at BOP facilities is handled exclusively through the TRULINCS/CorrLinks system.",
+        question: "How do I set up a ConnectNetwork account?",
+        answer: "Go to connectnetwork.com and click Create Account. Enter your name, email, and create a password. Confirm your age. After email verification, log in and go to My Facilities to add the facility. Then go to My Inmates and search for the incarcerated person by name or DOC number. Add them to your account and then fund an AdvancePay or PIN Debit account to begin receiving calls.",
       },
       {
-        question: "How do I set up phone calls through ConnectNetwork?",
-        answer: "Create a free account at connectnetwork.com. Set up an AdvancePay account linked to your phone number and add funds via debit card, credit card, or Western Union. Once your account is funded, the incarcerated individual can call your number directly from facility phones. You cannot initiate calls. All calls are inmate-initiated.",
+        question: "What is the difference between AdvancePay and PIN Debit?",
+        answer: "AdvancePay is your account tied to your phone number. You deposit money and when the inmate calls your registered number the cost is deducted from your balance. PIN Debit is the inmate's account. You deposit money for the inmate and they can call any approved number on their list using those funds. AdvancePay is simpler for families. PIN Debit gives the inmate more flexibility. Both are managed at connectnetwork.com.",
       },
       {
-        question: "Can I send photos through ConnectNetwork?",
-        answer: "No. ConnectNetwork does not offer a photo sharing service. If photo sharing is available at the facility you need, check whether JPay or TextBehind serves that location — those platforms offer digital photo delivery.",
+        question: "What is the ConnectNetwork customer service number?",
+        answer: "ConnectNetwork GTL customer service is available at 877-650-4249. For AdvancePay account deposits and support call 800-483-8314. For Debit Link tablet service questions call 877-650-4249. Customer service hours are generally Monday through Friday 7am to 11pm Central and Saturday to Sunday 8am to 7pm Central.",
       },
       {
-        question: "How do I schedule a video visit through ConnectNetwork?",
-        answer: "Log into your ConnectNetwork account and navigate to the video visitation section. Search for the facility, select an available time slot, and complete the booking. You will need a device with a working camera and a stable internet connection. Schedule visits at least 24 to 48 hours in advance.",
+        question: "Why are GTL ConnectNetwork calls showing as spam?",
+        answer: "GTL uses specific outgoing phone numbers that vary by facility. Mobile carriers often flag these as spam or robo calls. Save the specific GTL outgoing number for your facility in your contacts. Contact your mobile carrier to whitelist the number. Call GTL at 877-650-4249 to get the correct outgoing number for your specific facility.",
+      },
+      {
+        question: "Is ConnectNetwork the same as GTL?",
+        answer: "ConnectNetwork is the consumer-facing platform operated by GTL, now known as ViaPath Technologies. GTL is the company. ConnectNetwork is the website and app families use to manage accounts. GettingOut is another GTL platform for county jails operated through their Telmate subsidiary. All three refer to services under the same ViaPath Technologies parent company.",
+      },
+      {
+        question: "Does ConnectNetwork have a mobile app?",
+        answer: "Yes. The ConnectNetwork mobile app is available for iOS and Android. Search for ConnectNetwork in the App Store or Google Play. The app provides access to deposits, account management, and messaging services from your smartphone. It works just like the connectnetwork.com dashboard.",
+      },
+      {
+        question: "What is Debit Link on ConnectNetwork?",
+        answer: "Debit Link is GTL ViaPath's digital currency for tablet services. One dollar buys 100 Debit Link units at $0.01 per unit. Inmates use Debit Link for streaming music, games, and ebooks on their facility tablets. Debit Link is separate from phone credits and commissary. Debit Link purchases are nonrefundable. Effective June 1, 2026, AdvancePay accounts inactive for 180 days will expire. Contact ConnectNetwork at 877-650-4249 for details.",
+      },
+      {
+        question: "How do I deposit money through ConnectNetwork?",
+        answer: "Log in to connectnetwork.com and go to the deposit section. Select AdvancePay for your phone account or PIN Debit for the inmate account. ConnectNetwork accepts Visa and Mastercard including debit cards. You can also call 800-483-8314 for phone deposits. Deposits are processed 24 hours a day, 7 days a week.",
+      },
+      {
+        question: "What states use ConnectNetwork GTL?",
+        answer: "ConnectNetwork GTL serves over 1,800 facilities across 50 states including Ohio DOC state prisons, Illinois DOC through ICSolutions which is a GTL subsidiary, Washington state prisons, Tennessee state prisons, and many county jails nationwide. New Jersey is transitioning from JPay to ViaPath ConnectNetwork in 2025 and 2026. Check your specific facility to confirm whether ConnectNetwork is the active provider.",
+      },
+      {
+        question: "What happens to my AdvancePay balance if I stop using it?",
+        answer: "Effective June 1, 2026, ConnectNetwork AdvancePay accounts inactive for 180 consecutive days will expire. If you opt in to notifications, GTL will send a text or email reminder 30 days before expiration. After the account expires you have an additional 90 days to request a refund. After that the balance is converted to free calling minutes in ViaPath's free calling program. Contact GTL at 877-650-4249 to request a refund.",
       },
     ],
 

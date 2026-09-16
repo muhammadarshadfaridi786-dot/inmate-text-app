@@ -2071,7 +2071,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "touchpay",
     initial: "T",
     color: "bg-lime-700",
-    tagline: "TouchPay - Fast Inmate Trust Account Deposits Available Every Day of the Year",
+    tagline: "TouchPay: What It Is, How Inmate Deposits Work and How to Send Money",
     services: { messaging: false, video: false, photos: false, phone: false, moneyTransfer: true },
     statesCount: 50,
     facilitiesCount: 1200,
@@ -2079,20 +2079,22 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "TouchPay specializes in inmate trust account deposits at county jails and correctional facilities, offering 24-hour processing every day of the year. TouchPay accepts credit and debit card payments online and through kiosks at participating facilities.",
+      "TouchPay is a money transfer and payment service operated by TouchPay Holdings LLC, a GTL ViaPath subsidiary, that allows families to deposit funds to inmate accounts at county jails and some state facilities. TouchPay handles commissary deposits, phone account deposits, and other inmate payments. TouchPay is used at Miami-Dade Corrections and other facilities. Visit touchpaydirect.com for account setup.",
 
-    seoTitle: "TouchPay Review: Fast Inmate Trust Account Deposits Available Every Day",
+    seoTitle: "What Is TouchPay: How to Send Money to Inmates and Jail Deposits",
     seoDescription:
-      "TouchPay guide for families how to make fast deposits to inmate trust accounts at county jails, kiosk locations, payment methods, and processing times.",
+      "What is TouchPay and what is it used for. How to make TouchPay inmate commissary deposits, web deposits, and phone deposits. TouchPay phone number and customer service guide.",
 
     website: "https://www.touchpaydirect.com",
 
     overview: [
-      "TouchPay is an inmate money transfer service that specializes in fast deposits to inmate trust accounts at county jails and correctional facilities. TouchPay offers 24-hour processing every day of the year including holidays, which makes it one of the most reliable options when same-day or next-day funding is important.",
+      "What is TouchPay and what is it used for? TouchPay is a money transfer service operated by TouchPay Holdings LLC, a subsidiary of GTL ViaPath Technologies. TouchPay is used to deposit funds to inmate commissary accounts, phone accounts, and other payment types at county jails and detention centers where TouchPay holds the payment contract. TouchPay is different from JPay and ConnectNetwork. Always confirm whether your specific facility uses TouchPay before sending funds. Visit touchpaydirect.com to create an account and make deposits.",
 
-      "Families can make deposits through the TouchPay website, the mobile app, by phone, or at TouchPay kiosks located in facility lobbies. Kiosk deposits are often processed faster than online transfers and may have lower transaction fees. TouchPay accepts credit cards and debit cards as payment methods.",
+      "How do TouchPay deposits work? Go to touchpaydirect.com or call the TouchPay customer service line. Select the facility and find the inmate by name or ID number. Choose the deposit type such as commissary or phone account. Enter the amount and pay by debit or credit card. TouchPay also operates lobby kiosks at some facilities for in-person cash deposits. TouchPay phone number for customer service is 1-866-232-1899. GTL TouchPay deposits may also be accessible through connectnetwork.com at some facilities.",
 
-      "TouchPay deposits go directly to the inmate trust account managed by the facility. The inmate can use these funds for commissary purchases, phone call credits, messaging stamps, and other approved expenses. Transaction fees apply and vary by facility and deposit amount. Check the TouchPay website for the current fee schedule before sending funds.",
+      "What is the difference between TouchPay and JPay? TouchPay and JPay are both money transfer services for inmate accounts but they serve different facilities. JPay serves state prisons across more than 35 states for commissary and trust account deposits. TouchPay serves county jails and detention centers where TouchPay holds the payment contract. Miami-Dade Corrections uses TouchPay for commissary deposits. Always confirm which service your specific facility uses before sending money to avoid delays.",
+
+      "Is TouchPay the same as GTL ConnectNetwork? TouchPay Holdings LLC is a GTL ViaPath subsidiary making it related to ConnectNetwork. However TouchPay and ConnectNetwork are separate platforms handling different services. ConnectNetwork handles phone call accounts and AdvancePay deposits. TouchPay handles commissary and trust account deposits at facilities where TouchPay is the payment contractor. Some facilities use both ConnectNetwork for phone accounts and TouchPay for commissary. Check the specific facility to confirm which service handles which payment type.",
     ],
 
     serviceDetails: {
@@ -2160,24 +2162,44 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "What is the difference between TouchPay and Access Corrections?",
-        answer: "Both are commissary deposit platforms in the GTL (ViaPath) family. TouchPay emphasizes kiosk deposits — the machines you see in jail lobbies — and also offers online and phone deposits. Access Corrections is a primarily web-based platform used at many of the same facilities. In practice, the two platforms often serve the same facilities under different access points. If one does not list your facility, try the other.",
+        question: "What is TouchPay?",
+        answer: "TouchPay is a money transfer service operated by TouchPay Holdings LLC, a GTL ViaPath Technologies subsidiary. TouchPay deposits funds to inmate commissary accounts, phone accounts, and other payment types at county jails and detention centers. Visit touchpaydirect.com to create an account and make deposits. TouchPay customer service is at 1-866-232-1899.",
       },
       {
-        question: "How do I use a TouchPay kiosk to send money?",
-        answer: "Find a TouchPay kiosk at the facility's lobby or visiting area. Select the facility on the screen, enter the inmate's ID or booking number, insert cash or a payment card, and confirm the deposit amount. The machine will print a receipt confirming the transaction. Funds are typically credited within one to two business days.",
+        question: "What is TouchPay used for?",
+        answer: "TouchPay is used to deposit funds to inmate accounts at county jails and detention centers where TouchPay holds the payment contract. Services include commissary deposits, trust account deposits, and phone account funding. Miami-Dade Corrections uses TouchPay for commissary. Always confirm whether your specific facility uses TouchPay before sending funds.",
       },
       {
-        question: "Can I deposit money online through TouchPay?",
-        answer: "Yes. Visit touchpaydirect.com and search for the facility. Enter the inmate's ID, choose a payment method — debit or credit card — and complete the deposit. You do not need to create an account for a one-time deposit, though creating an account saves your information for faster future deposits.",
+        question: "What is the TouchPay phone number?",
+        answer: "TouchPay customer service is available at 1-866-232-1899. You can also make deposits and manage your account at touchpaydirect.com. For technical issues or deposit questions contact TouchPay through the website or by phone. GTL TouchPay may also be accessible through connectnetwork.com at some facilities.",
       },
       {
-        question: "Does TouchPay handle phone calls or video visits?",
-        answer: "No. TouchPay handles commissary deposits only. For phone calls at GTL facilities, create a separate calling account through telmate.com or the GTL Connect app. For video visits, use the same GTL account. These are separate from your commissary deposit.",
+        question: "How do I make a TouchPay web deposit?",
+        answer: "Go to touchpaydirect.com. Create a free account or log in. Search for the facility and find the inmate by name or ID number. Select the deposit type such as commissary or phone account. Enter the amount and pay by debit or credit card. You will receive a confirmation after the deposit is processed.",
       },
       {
-        question: "How long does a TouchPay deposit take to process?",
-        answer: "Funds are typically credited to the inmate's trust account within one to two business days after the deposit is submitted. Kiosk deposits process at the same speed as online deposits. Deposits made on weekends or holidays may take an additional day to process depending on the facility's account update schedule.",
+        question: "What is TouchPay commissary deposit?",
+        answer: "A TouchPay commissary deposit sends funds directly to the inmate's commissary account at the facility. The inmate uses commissary funds to purchase food, hygiene items, and other approved products from the facility store. Commissary deposits are separate from phone account deposits. Always confirm whether TouchPay handles commissary at your specific facility before sending money.",
+      },
+      {
+        question: "Is TouchPay the same as GTL ConnectNetwork?",
+        answer: "TouchPay Holdings LLC is a GTL ViaPath subsidiary making it related to ConnectNetwork. However TouchPay and ConnectNetwork are separate platforms. ConnectNetwork handles phone call accounts and AdvancePay deposits. TouchPay handles commissary and trust account deposits at facilities where TouchPay is the contractor. Some facilities use both. Check the specific facility to confirm which service handles which payment type.",
+      },
+      {
+        question: "Is TouchPay the same as JPay?",
+        answer: "No. TouchPay and JPay are separate companies handling different facilities. JPay serves state prisons across more than 35 states. TouchPay serves county jails where TouchPay holds the payment contract. Do not use JPay for a TouchPay facility or vice versa. Always confirm which service your specific facility uses before sending money.",
+      },
+      {
+        question: "Does TouchPay have a mobile app?",
+        answer: "TouchPay services are available through touchpaydirect.com and through the ConnectNetwork app at some facilities since both are GTL ViaPath subsidiaries. Check the App Store or Google Play for the current TouchPay app availability. You can also access TouchPay deposits through a mobile browser at touchpaydirect.com.",
+      },
+      {
+        question: "What facilities use TouchPay?",
+        answer: "TouchPay is used at county jails and detention centers where TouchPay Holdings LLC holds the payment contract. Miami-Dade Corrections in Florida uses TouchPay for commissary deposits. Other facilities include various county jails across the South and Southeast. Always confirm whether your specific facility uses TouchPay before setting up an account.",
+      },
+      {
+        question: "What is TouchPay Direct?",
+        answer: "TouchPay Direct refers to the TouchPay payment platform accessible at touchpaydirect.com. It is the consumer-facing website where families create accounts, search for facilities, and make inmate deposits. TouchPay Direct is operated by TouchPay Holdings LLC, a GTL ViaPath Technologies subsidiary. The customer service number is 1-866-232-1899.",
       },
     ],
 

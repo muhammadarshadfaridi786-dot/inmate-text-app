@@ -1828,7 +1828,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "homewav",
     initial: "H",
     color: "bg-purple-600",
-    tagline: "HomeWAV - Video Visitation and Messaging for County Jails Without Travel",
+    tagline: "HomeWAV: What It Is, How Video Visits Work and How to Add General Funds",
     services: { messaging: true, video: true, photos: true, phone: false, moneyTransfer: false },
     statesCount: 30,
     facilitiesCount: 350,
@@ -1836,22 +1836,24 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "HomeWAV provides video visitation and messaging services at county jails, allowing families to connect with incarcerated loved ones from home without traveling to the facility. HomeWAV sessions are scheduled through the website or mobile app.",
+      "HomeWAV is an all-in-one inmate communication platform founded in 2011 and headquartered in St. Louis, Missouri. HomeWAV provides video visitation, voice calls, eMessaging, mail scanning, commissary integration, and tablet services at county jails and detention centers across the United States. The HomeWAV mobile app is available free for iOS and Android. Create a free account at homewav.com. You pay only for the minutes you use with no plans or packages required.",
 
-    seoTitle: "HomeWAV Review: Video Visitation and Messaging for County Jails From Home",
+    seoTitle: "What Is HomeWAV App: Inmate Video Visits, Calls and General Funds",
     seoDescription:
-      "HomeWAV guide for families how to schedule video visits from home, send messages, and connect with loved ones in county jails without traveling to the facility.",
+      "What is the HomeWAV app for inmates. How HomeWAV video visits work, how to add general funds, customer service at homewav.com. Johnson County and Okaloosa County jail guide.",
 
     website: "https://www.homewav.com",
     iosUrl: "https://apps.apple.com/us/app/homewav/id980905046",
     androidUrl: "https://play.google.com/store/apps/details?id=com.homewav.mobile",
 
     overview: [
-      "HomeWAV is a video visitation and messaging platform designed for county jails. HomeWAV allows families to schedule and join video visits from home using a smartphone, tablet, or computer, eliminating the need to travel to the facility for every visit. HomeWAV is used at county jails that have contracted for remote video visitation services.",
+      "What is the HomeWAV app and what is it used for? HomeWAV is an all-in-one inmate communication platform for county jails and detention centers. HomeWAV is used for remote video visits from home, voice phone calls, eMessaging, mail scanning, commissary deposits, and tablet services. HomeWAV is available at facilities across the country including Johnson County jails in Missouri, Okaloosa County jail in Florida, and hundreds of other county facilities. Create a free account at homewav.com or download the HomeWAV app for iOS or Android. Use Chrome or Firefox for the best browser experience.",
 
-      "To use HomeWAV, families create a free account at homewav.com or through the HomeWAV mobile app, find their loved one's facility, and schedule a video visit. Sessions are paid in advance and typically last 20 to 30 minutes. All visits are recorded and monitored by facility staff.",
+      "How do HomeWAV video visits work and how do I add funds? Create a free HomeWAV account at homewav.com. Upload a head-on profile photo from the shoulders up with no filters, and a clear photo of your government-issued ID such as a driver's license, state ID, or passport. Search for the facility and add the inmate. Once your account is approved by the detention facility you receive a notification when your incarcerated loved one is logged in and available. The inmate initiates the call from their end. No advance scheduling is required for remote video visits. To add funds log in and click Add Talk to Me Funds. You pay only for the minutes you use with no plans or packages.",
 
-      "HomeWAV also supports electronic messaging at some facilities. Families can send text messages and in some cases photo attachments through the HomeWAV platform. Message delivery times vary by facility review process. Check your HomeWAV account dashboard to see which services are available at your specific facility.",
+      "What are HomeWAV General Funds? HomeWAV General Funds are the funds you add to your HomeWAV account to pay for video visits and voice calls. To add General Funds log in to your HomeWAV account at homewav.com or on the HomeWAV app and click Add Talk to Me Funds. Add your credit or debit card and enter the amount. Funds are used at a per-minute rate as calls and visits occur. You only pay for the minutes you use. There are no monthly plans, packages, or subscriptions required.",
+
+      "How is HomeWAV different from GettingOut and Securus? HomeWAV, GettingOut, and Securus all provide video visitation at county jails but with different facility coverage. HomeWAV serves a regional network of county jails and detention centers primarily in the Midwest and Southeast. GettingOut by Telmate serves over 2,200 county jails nationwide. Securus serves over 1,200 facilities. HomeWAV uses an inmate-initiated system where the inmate sees that you are online and calls you, eliminating the need for advance scheduling. HomeWAV charges per minute with no plans required.",
     ],
 
     serviceDetails: {
@@ -1921,24 +1923,44 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "How is HomeWAV different from GettingOut?",
-        answer: "Both serve county jails with video visitation and messaging, but they serve different facility networks. GettingOut (by Telmate/GTL) requires facilities to install proprietary hardware and is more common at larger county systems. HomeWAV is software-only, making it accessible to smaller jails without hardware budgets. If your loved one's county jail is not on GettingOut, HomeWAV is a strong next option to check.",
+        question: "What is the HomeWAV app?",
+        answer: "HomeWAV is an all-in-one inmate communication app for county jails and detention centers. HomeWAV provides video visits, voice calls, eMessaging, and commissary services. The app is available free for iOS and Android. Create a free account at homewav.com. You pay only for the minutes you use with no plans or packages required.",
       },
       {
-        question: "How do I schedule a video visit through HomeWAV?",
-        answer: "Download the HomeWAV app on iOS or Android, or visit homewav.com. Create a free account and search for the facility. Select an available time slot and complete the booking. You will need a device with a working camera. You must be on the inmate's approved contact list before scheduling a visit.",
+        question: "What is the HomeWAV app used for?",
+        answer: "HomeWAV is used for remote video visits from home, voice phone calls, eMessaging, mail scanning, commissary deposits, and tablet services at county jails and detention centers. Facilities using HomeWAV include Johnson County jails in Missouri, Okaloosa County jail in Florida, and hundreds of other county facilities across the Midwest and Southeast.",
       },
       {
-        question: "Does HomeWAV offer phone calls?",
-        answer: "No. HomeWAV handles video visits, messaging, and photos only. For phone calls, you need to use the facility's contracted phone provider, which is typically Securus, ICSolutions, or a regional carrier depending on the jail.",
+        question: "How do I add HomeWAV General Funds?",
+        answer: "Log in to your HomeWAV account at homewav.com or on the HomeWAV app. Click Add Talk to Me Funds. Add your credit or debit card and enter the amount you want to deposit. Funds are used at a per-minute rate as calls and visits occur. There are no monthly plans or packages. You only pay for the minutes you use.",
       },
       {
-        question: "Can I send money through HomeWAV?",
-        answer: "No. HomeWAV does not process commissary deposits or money transfers. For sending money to an inmate at a HomeWAV-served facility, use the facility's designated deposit platform — typically Access Corrections, TouchPay, or a provider specified on the facility's website.",
+        question: "How do I set up a HomeWAV account?",
+        answer: "Go to homewav.com or download the HomeWAV app for iOS or Android. Click Sign Up and create a free account. Upload a head-on profile photo from the shoulders up with no filters and a clear photo of your government-issued ID. Search for the facility and add the inmate. Some accounts require facility approval which can take up to 24 hours. Once approved you receive notifications when your loved one is online.",
       },
       {
-        question: "How do I know if HomeWAV is available at my loved one's facility?",
-        answer: "Visit homewav.com and use the facility search. If the facility appears, HomeWAV is the provider for video visits and messaging at that location. If it does not appear, the facility uses a different provider. GettingOut, Securus, and ICSolutions are common alternatives at county jails.",
+        question: "What facilities use HomeWAV?",
+        answer: "HomeWAV serves county jails and detention centers across the United States. Known HomeWAV facilities include Johnson County jails in Missouri, Okaloosa County jail in Florida, Christian County Sheriff's Office in Missouri, Phelps County Sheriff's Department in Missouri, and Okeechobee County Sheriff's Office in Florida. Search homewav.com for your specific facility.",
+      },
+      {
+        question: "Does HomeWAV require advance scheduling for video visits?",
+        answer: "No advance scheduling is required for remote video visits. HomeWAV uses an inmate-initiated system where the inmate sees that you are online and available, and initiates the call from their end. You receive a notification when your loved one is logged in. For on-site visitation at the facility, scheduling 24 hours in advance is typically required.",
+      },
+      {
+        question: "What is HomeWAV customer service?",
+        answer: "HomeWAV customer service is available through homewav.com. The HomeWAV Field Service Team offers support 24 hours a day, 7 days a week, 365 days a year. For account questions, billing issues, or technical problems visit homewav.com and use the support options. Tutorial videos are also available on the HomeWAV website.",
+      },
+      {
+        question: "Is HomeWAV the same as GettingOut?",
+        answer: "No. HomeWAV and GettingOut are separate platforms serving different county jail facilities. HomeWAV is headquartered in St. Louis and serves a regional network of county jails. GettingOut by Telmate serves over 2,200 county jails nationwide. The facility contract determines which platform you use. Check whether your specific jail uses HomeWAV or GettingOut before creating an account.",
+      },
+      {
+        question: "Can I do a HomeWAV video visit on my phone?",
+        answer: "Yes. The HomeWAV mobile app is available free for iOS and Android. Download the HomeWAV app from the App Store or Google Play. For best results use a WiFi connection and a headset. You can also visit homewav.com on a computer using Chrome or Firefox for the best browser experience. Safari may cause issues.",
+      },
+      {
+        question: "What is HomeWAV commissary?",
+        answer: "HomeWAV offers commissary integration at some facilities allowing families to deposit funds directly to the inmate's commissary account through the HomeWAV platform. Commissary funds are used by the inmate to purchase food, hygiene items, and other approved products from the facility store. Check whether your specific facility has HomeWAV commissary enabled at homewav.com.",
       },
     ],
 

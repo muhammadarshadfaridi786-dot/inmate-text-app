@@ -945,7 +945,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     initial: "S",
     color: "bg-cyan-600",
     tagline: "SmartInmate by Smart Communications: What It Is and How to Set Up Video Visits and Messaging",
-    services: { messaging: true, video: true, photos: true, phone: false, moneyTransfer: true },
+    services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 20,
     facilitiesCount: 400,
     appAvailable: true,
@@ -992,8 +992,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
         notes: "Per-photo pricing. Standard content guidelines apply.",
       },
       phone: {
-        available: false,
-        description: "SmartInmate does not currently offer phone call services.",
+        available: true,
+        description: "SmartInmate offers Prepaid Accounts tied to your phone number and PIN Accounts owned by the incarcerated person. Contact Smart Communications at 727-349-1561 to set up a phone account. San Diego County calls are free. Rates vary by facility.",
         notes: "For phone calls, use the facility's contracted provider (Securus, GTL, or ICSolutions).",
       },
       moneyTransfer: {
@@ -1033,7 +1033,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     ],
     cons: [
       "Smaller coverage, serving 400 facilities across 20 states versus 1,000+ for JPay.",
-      "Phone calls not supported. Use a separate provider account for calls.",
+      "Phone call availability varies by facility. Confirm with your specific detention center whether SmartInmate handles calls or a separate provider is used.",
       "Less established than JPay or GTL, with fewer years of operational history.",
       "Growing but currently limited coverage means not available at many facilities.",
       "Pricing details require account creation to view in full.",

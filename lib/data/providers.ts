@@ -290,7 +290,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "jpay",
     initial: "J",
     color: "bg-blue-600",
-    tagline: "JPay - Messaging, Photos, Video Visits and Money Transfer for State Prison Families",
+    tagline: "JPay: What It Is, How Stamps Work and How to Send Money to State Prison Inmates",
     services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 35,
     facilitiesCount: 1000,
@@ -298,22 +298,24 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "JPay is the most widely used inmate communication platform in the United States, serving over 1,000 state prison facilities across 35+ states. Families use JPay for electronic messaging, photo sharing, video visitation, and money transfers. Creating an account is free.",
+      "JPay is the most widely used messaging, money transfer, and video visit platform for state prison inmates in the United States. Learn what JPay is, how JPay stamps work, how much it costs to send money through JPay, and how to use the JPay mobile app. JPay serves over 35 states and 1,000 plus correctional facilities.",
 
-    seoTitle: "JPay Review: Messaging, Photos, Video Visits and Money Transfer for State Prisons",
+    seoTitle: "What Is JPay: How It Works, Stamps, Money Transfer and App Guide",
     seoDescription:
-      "JPay guide for families how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state prisons. Free step-by-step guide.",
+      "What is JPay and how does it work for state prison families. JPay stamps cost, money transfer fees, video visits, and mobile app explained. Free guide for families.",
 
     website: "https://www.jpay.com",
     iosUrl: "https://apps.apple.com/us/app/jpay/id388308268",
     androidUrl: "https://play.google.com/store/apps/details?id=com.jpay.android",
 
     overview: [
-      "JPay is owned by Aventiv Technologies and is the most widely deployed inmate communication platform for state prisons in the United States, serving over 35 states and more than 1,000 correctional facilities. If your loved one is in a state prison, JPay is the most likely platform you will need to use for messaging, money transfers, and video visits.",
+      "What is JPay and what is it used for? JPay is a digital communication and money transfer platform for families of incarcerated people at state prisons and county jails. JPay is used for four things. First, electronic messaging using a stamp system where one stamp equals one message. Second, money transfers to inmate trust accounts for commissary and phone calls. Third, video visits scheduled from home without traveling to the facility. Fourth, tablet services funding entertainment and education content on JPay facility tablets. JPay is owned by Aventiv Technologies, the same parent company as Securus.",
 
-      "JPay operates through a virtual stamp system. You purchase stamps in advance and use them to send messages and photo attachments to your loved one. Each standard text message requires one stamp costing between $0.33 and $0.47 depending on the state. The JPay app is available for free on iOS and Android and is one of the better-designed apps in this category.",
+      "How does JPay work for sending messages? Create a free account at jpay.com or on the JPay mobile app for iOS and Android. Search for the facility and add the inmate using their DOC number. Purchase stamps to send messages. JPay stamps cost between $0.33 and $0.47 each depending on the state. One stamp sends one standard message. One additional stamp attaches a photo. Messages go through staff review before delivery. Delivery typically takes 24 to 48 hours on business days.",
 
-      "JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks for messaging. If you are unsure whether your loved one is in a federal or state facility, search our facility directory to find the correct provider for their specific location.",
+      "How does JPay money transfer work and how much does it cost? Log in to your JPay account and go to Send Money. Select the facility, enter the inmate DOC number, and choose a payment method. JPay accepts debit cards, credit cards, and cash at MoneyGram locations. Transfer fees are typically 2.75 percent of the amount or $2.95 whichever is greater. Funds are credited to the inmate trust account within one to two business days. Using a debit card instead of a credit card avoids cash advance fees charged by your bank. JPay does not accept Cash App directly.",
+
+      "What is the difference between JPay and CorrLinks? JPay serves state prisons across more than 35 states. CorrLinks is the only approved messaging platform for all federal Bureau of Prisons facilities. These two platforms do not overlap and do not compete. If your loved one is in a state prison you need JPay. If they are in a federal prison you need CorrLinks. Using the wrong platform means messages never reach the inmate. Search our facility directory to confirm which provider serves the specific facility.",
     ],
 
     serviceDetails: {
@@ -387,24 +389,52 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "How do I get started with JPay?",
-        answer: "Create a free account at jpay.com or through the JPay mobile app. Search for the facility where your loved one is housed to confirm JPay is available there. Add the inmate using their ID number, purchase stamps, and compose your first message.",
+        question: "What is JPay?",
+        answer: "JPay is a digital messaging, money transfer, and video visit service for families of incarcerated people at state prisons. JPay is the most widely used state prison communication platform in the United States serving over 35 states and 1,000 plus facilities. JPay is owned by Aventiv Technologies. Create a free account at jpay.com or on the JPay mobile app.",
       },
       {
-        question: "What is a JPay stamp?",
-        answer: "A JPay stamp is the digital currency used to send electronic messages. One stamp covers one standard-length message. Stamp prices vary by state, typically between $0.33 and $0.47 each. You purchase stamps in advance and use them each time you send a message.",
+        question: "What is JPay used for?",
+        answer: "JPay is used for four main services. Electronic messaging using stamps to send messages and photos. Money transfers to inmate trust accounts for commissary purchases. Video visits scheduled from home. Tablet services for entertainment and education content on JPay facility tablets. Not all four services are available at every facility. Check the specific facility to see which services are active.",
+      },
+      {
+        question: "What are JPay stamps and how much do they cost?",
+        answer: "JPay stamps are virtual credits used to send electronic messages. One stamp equals one standard message. One additional stamp attaches a photo. Stamps cost between $0.33 and $0.47 each depending on the state. You purchase stamps in advance in bundles. Stamps do not expire. Buy stamps through jpay.com or the JPay mobile app.",
+      },
+      {
+        question: "What is the difference between JPay and CorrLinks?",
+        answer: "JPay serves state prisons. CorrLinks serves federal Bureau of Prisons facilities only. These are completely separate platforms. If your loved one is in a state prison use JPay. If they are in a federal prison use CorrLinks. Using the wrong platform means messages will never reach the inmate. Do not sign up for JPay for a federal inmate.",
+      },
+      {
+        question: "How does JPay money transfer work?",
+        answer: "Log in to jpay.com and go to Send Money. Select the facility and enter the inmate DOC number. Choose a payment method. JPay accepts debit cards, credit cards, and cash at MoneyGram locations. Transfer fees are typically 2.75 percent or $2.95 whichever is greater. Funds are credited to the inmate trust account within one to two business days.",
+      },
+      {
+        question: "How much does JPay charge to send money?",
+        answer: "JPay money transfer fees are typically 2.75 percent of the amount sent or $2.95 whichever is greater. For example, sending $50 would cost approximately $3.33 in fees. Using a debit card instead of a credit card avoids additional cash advance fees that your bank may charge. Always check the fee before confirming the transaction in your JPay account.",
+      },
+      {
+        question: "Does JPay accept Cash App?",
+        answer: "JPay does not directly accept Cash App as a payment method. JPay accepts debit cards, credit cards, and cash at MoneyGram locations. If you want to use Cash App funds, transfer the money from Cash App to a linked debit card first, then use that debit card to make the JPay deposit. Always verify current accepted methods at jpay.com.",
+      },
+      {
+        question: "What is a JPay cash advance fee?",
+        answer: "A cash advance fee is charged by your credit card company, not by JPay, when your card issuer classifies the JPay transaction as a cash advance. To avoid this fee, use a debit card instead of a credit card for JPay deposits. Debit card transactions are not classified as cash advances. Contact your card issuer if you see unexpected fees after a JPay transaction.",
+      },
+      {
+        question: "Is JPay safe and legitimate?",
+        answer: "Yes. JPay is a legitimate company founded in 2002 and is the most widely used state prison communication platform in the United States. JPay is owned by Aventiv Technologies and serves over 35 states. JPay uses standard security for online transactions. Keep all transaction receipts and contact JPay customer service at jpay.com if there are issues.",
+      },
+      {
+        question: "Is JPay free to use?",
+        answer: "Creating a JPay account is completely free. You pay only for the services you use. Stamps for messaging cost $0.33 to $0.47 each. Money transfer fees are typically 2.75 percent or $2.95. Video visits have per-session pricing. JPay does not charge for account creation or maintenance fees.",
       },
       {
         question: "Does JPay work for federal prisons?",
-        answer: "No. Federal Bureau of Prisons facilities use CorrLinks — the BOP's official email system — not JPay. If your loved one is in a federal facility (such as a Federal Correctional Institution or United States Penitentiary), you need a CorrLinks account, not JPay.",
+        answer: "No. JPay does not serve federal Bureau of Prisons facilities. Federal inmates use CorrLinks exclusively for electronic messaging. If your loved one is in a federal prison do not sign up for JPay. Use CorrLinks instead. The inmate must send you a contact request from a TRULINCS terminal at the federal facility to start CorrLinks messaging.",
       },
       {
-        question: "How long does it take for a JPay message to arrive?",
-        answer: "JPay messages are typically reviewed by facility staff before delivery to the inmate. Delivery usually takes 24 to 48 hours on business days, though some facilities process messages faster. Responses from the inmate depend on their access to JPay tablets or kiosks within the facility.",
-      },
-      {
-        question: "How do I send money through JPay?",
-        answer: "Log into your JPay account and navigate to the Send Money section. Select the facility, enter the inmate's ID, and choose a payment method — debit card, credit card, or cash at a MoneyGram location. Funds are typically credited to the inmate's trust account within one to two business days. A processing fee applies.",
+        question: "How do I find the inmate DOC number for JPay?",
+        answer: "The DOC number is the state Department of Corrections identification number. Use the state DOC offender search for the state where your loved one is incarcerated. For example tdcj.texas.gov for Texas, cdcr.ca.gov for California, gdc.georgia.gov for Georgia. You can also ask your loved one to provide their DOC number directly. Do not guess the number as sending to the wrong account causes delays.",
       },
     ],
 

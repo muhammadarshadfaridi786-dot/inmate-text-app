@@ -994,7 +994,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       phone: {
         available: true,
         description: "SmartInmate offers Prepaid Accounts tied to your phone number and PIN Accounts owned by the incarcerated person. Contact Smart Communications at 727-349-1561 to set up a phone account. San Diego County calls are free. Rates vary by facility.",
-        notes: "For phone calls, use the facility's contracted provider (Securus, GTL, or ICSolutions).",
+        notes: "SmartInmate offers both Prepaid and PIN phone accounts at contracted facilities. Call Smart Communications at 727-349-1561 to confirm phone availability at your specific facility.",
       },
       moneyTransfer: {
         available: true,

@@ -1185,7 +1185,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "pigeonly",
     initial: "P",
     color: "bg-rose-600",
-    tagline: "Pigeonly - Photo Printing and Letter Delivery Service for Inmates at Any Facility",
+    tagline: "Pigeonly: What It Is, How It Works, Prices and Free Plan Explained",
     services: { messaging: true, video: false, photos: true, phone: true, moneyTransfer: false },
     statesCount: 50,
     facilitiesCount: 3000,
@@ -1193,22 +1193,24 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "Pigeonly is a photo and letter delivery service that prints and mails your photos and messages directly to inmates as physical mail. Pigeonly works at nearly any facility that accepts mail, making it one of the most universally available inmate communication options.",
+      "Pigeonly is a print-and-mail service that converts digital messages and photos into physical letters delivered to inmates at prisons and jails across the United States. Pigeonly offers a Forever Free Plan that allows a limited number of monthly letters at no charge. Paid unlimited plans are also available. Pigeonly has sent over 15 million photos and letters and maintains compliance rules for over 4,000 facilities. The Pigeonly app is available for iOS and Android.",
 
-    seoTitle: "Pigeonly Review: Photo Printing and Letter Delivery for Inmates at Any Facility",
+    seoTitle: "What Is Pigeonly: How It Works, Prices and Free Plan Guide",
     seoDescription:
-      "Pigeonly guide for families how to upload and send photos and letters to inmates as physical mail at any facility that accepts mail. Works where electronic messaging is not available.",
+      "What is Pigeonly and how does it work for inmate mail. Pigeonly prices, free forever plan, app for iOS and Android, and how to send photos to any prison or jail.",
 
     website: "https://www.pigeonly.com",
     iosUrl: "https://apps.apple.com/us/app/pigeonly-inmate-mail-calling/id1077048131",
     androidUrl: "https://play.google.com/store/apps/details?id=com.pigeonly.android",
 
     overview: [
-      "Pigeonly is a print-and-deliver service that allows families to upload photos and letters online, and Pigeonly handles printing and mailing them directly to the inmate as physical mail. Because Pigeonly delivers as physical mail rather than electronic messages, it works at nearly any correctional facility that accepts mail, giving it broader reach than most electronic platforms.",
+      "What is Pigeonly and how does it work? Pigeonly is a print-and-mail service for families of incarcerated people. You type your message and upload photos through pigeonly.com or the Pigeonly app. Pigeonly prints your message on physical paper and mails it to the facility on your behalf. Because Pigeonly delivers as standard postal mail it works at any facility that accepts incoming mail including federal prisons, state prisons, and county jails. Pigeonly has sent over 15 million photos and letters and maintains current facility compliance rules for over 4,000 facilities.",
 
-      "Pigeonly is especially useful at facilities that do not offer electronic messaging, or when families want to send physical photos that the inmate can keep. You upload your photo through the Pigeonly website or app, and Pigeonly prints it to facility-compliant specifications and mails it to the correct address.",
+      "How much does Pigeonly cost and what is the Forever Free Plan? Pigeonly offers a Forever Free Plan that allows a limited number of monthly letters and photos at no charge. This makes Pigeonly one of the only print-and-mail services with a free option. Paid plans offer unlimited correspondence and additional features. Visit pigeonly.com for current plan pricing. Pigeonly recommends sending no more than five photos per envelope unless the specific facility allows more. Photo and content rules are shown at upload based on facility-specific compliance data.",
 
-      "Pigeonly also offers a phone plan service that provides a local phone number for inmates to call, reducing long-distance charges. The service costs a monthly subscription fee. Pigeonly is not an electronic messaging platform. It does not provide real-time digital communication between families and inmates.",
+      "What is Pigeonly used for? Pigeonly is used for sending letters and color photos to inmates at facilities without electronic messaging contracts, sending photos to facilities where JPay or other digital platforms only print in black and white, and sending correspondence without per-message stamp costs. Pigeonly also offers additional services at some plans including inmate search, phone account management, and facility rule lookups. The Pigeonly app for iOS and Android handles all services from your smartphone.",
+
+      "How does Pigeonly compare to TextBehind? Pigeonly and TextBehind both convert digital messages to physical printed letters. Pigeonly has a Forever Free Plan with limited monthly letters at no cost while TextBehind charges approximately $0.49 per page with no subscription. Pigeonly maintains facility-specific compliance rules for over 4,000 facilities and shows restrictions at upload which reduces mail rejection rates. Both services work at any facility that accepts postal mail. Pigeonly is generally better for families who send letters regularly. TextBehind is simpler for occasional use.",
     ],
 
     serviceDetails: {
@@ -1279,24 +1281,44 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "How does Pigeonly's letter service work?",
-        answer: "You compose a letter through the Pigeonly app or website and submit it. Pigeonly prints your letter and mails it to the facility via the postal service. The inmate receives it as a standard physical letter through the mail. Delivery typically takes 3 to 7 days depending on the facility's mail processing.",
+        question: "What is Pigeonly?",
+        answer: "Pigeonly is a print-and-mail service that converts digital messages and photos into physical printed letters delivered to inmates. You type your message and upload photos through pigeonly.com or the Pigeonly app, and Pigeonly prints and mails the letter to the facility on your behalf. Pigeonly has sent over 15 million photos and letters and works at any facility that accepts standard mail.",
+      },
+      {
+        question: "How does Pigeonly work?",
+        answer: "Create an account at pigeonly.com or on the Pigeonly app for iOS or Android. Search for the facility and add the inmate. Type your message and upload photos. Select your plan and submit your order. Pigeonly prints your message and mails it to the facility. Delivery typically takes three to seven business days. Pigeonly shows facility-specific photo and content rules at upload to reduce rejection rates.",
+      },
+      {
+        question: "How much does Pigeonly cost?",
+        answer: "Pigeonly offers a Forever Free Plan that allows a limited number of monthly letters and photos at no charge. Paid plans offer unlimited correspondence and additional features. Visit pigeonly.com for current plan pricing as rates may change. Pigeonly is generally more cost-effective than per-stamp electronic messaging for families who send letters regularly.",
+      },
+      {
+        question: "What is the Pigeonly Forever Free Plan?",
+        answer: "The Forever Free Plan is Pigeonly's no-cost tier that allows a limited number of monthly letters and photos at no charge. It is one of the only free options for sending inmate mail. The free plan has monthly limits on the number of letters and photos. For unlimited correspondence, upgrade to a paid Pigeonly plan. Visit pigeonly.com to see the current free plan limits and paid plan options.",
+      },
+      {
+        question: "Does Pigeonly have an app?",
+        answer: "Yes. The Pigeonly app is available for iOS and Android. Search for Pigeonly in the App Store or Google Play. The app allows you to type messages, upload photos, manage your plan, and track orders from your smartphone. All features available on pigeonly.com are accessible through the app.",
+      },
+      {
+        question: "What is Pigeonly used for?",
+        answer: "Pigeonly is used for sending letters and color photos to inmates at facilities without JPay or electronic messaging contracts, sending photos to facilities where digital platforms print only in black and white, and sending correspondence without per-stamp costs. Pigeonly works at any facility that accepts standard postal mail including federal prisons, state prisons, and county jails.",
       },
       {
         question: "Does Pigeonly work at federal prisons?",
-        answer: "Yes. Because Pigeonly's letter and photo services are delivered as physical postal mail, they work at any facility that accepts standard mail — including federal Bureau of Prisons institutions. Physical mail is generally accepted at all BOP facilities. For electronic messaging with a federal inmate, you still need CorrLinks separately.",
+        answer: "Yes. Pigeonly works at federal Bureau of Prisons facilities because it delivers as standard postal mail. CorrLinks is the only electronic messaging platform for federal prisons but CorrLinks does not support photo attachments. Pigeonly is the main option for sending photos to federal prison inmates since it prints and mails physical copies.",
       },
       {
-        question: "How does Pigeonly's phone plan save money?",
-        answer: "Pigeonly partners with lower-cost calling networks to offer rates below what the facility's default contracted provider charges. The exact savings depend on your state and facility. Pigeonly does not replace the facility's phone system — the inmate still calls from facility phones, but the call is routed through Pigeonly's network at a reduced rate. Phone plan availability is not universal and must be confirmed for your specific state.",
+        question: "How many photos can I send through Pigeonly?",
+        answer: "Pigeonly recommends sending no more than five photos per envelope unless the specific facility allows more. The photo limit varies by facility. Pigeonly shows facility-specific photo and content rules at upload before you submit your order. This helps avoid mail rejection due to exceeding the facility's photo limits.",
       },
       {
-        question: "Is Pigeonly a subscription service?",
-        answer: "Yes. Pigeonly offers monthly subscription plans that include a set number of letters and photos per month. This makes costs predictable for families who maintain regular written correspondence. Additional letters or photos beyond the plan allowance are available at per-unit pricing. Phone services are prepay and billed separately from the subscription.",
+        question: "What is Pigeonly customer service?",
+        answer: "Pigeonly customer service is available through pigeonly.com. Contact them if a letter was not delivered or if there are billing or account issues. Include your order confirmation number when contacting support. Pigeonly also has a help center on their website with answers to common questions about plans, delivery, and facility rules.",
       },
       {
-        question: "Can I use Pigeonly alongside JPay or GettingOut?",
-        answer: "Yes. Many families use Pigeonly for letter writing and photos while using JPay or GettingOut for digital messaging and video visits. Because Pigeonly's letter service is postal-based, it works in parallel with any digital platform without conflict. This combination is common for families who want both the immediacy of digital messaging and the personal feel of a physical letter.",
+        question: "What is the difference between Pigeonly and TextBehind?",
+        answer: "Pigeonly has a Forever Free Plan with limited monthly letters at no cost while TextBehind charges approximately $0.49 per page with no subscription. Pigeonly maintains facility-specific compliance rules for over 4,000 facilities and shows restrictions at upload. TextBehind is simpler for occasional use. Both work at any facility that accepts postal mail. Pigeonly is generally better for families who send letters regularly.",
       },
     ],
 

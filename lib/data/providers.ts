@@ -944,7 +944,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "smartinmate",
     initial: "S",
     color: "bg-cyan-600",
-    tagline: "SmartInmate - Tablet-Based Messaging and Entertainment for Incarcerated People",
+    tagline: "SmartInmate by Smart Communications: What It Is and How to Set Up Video Visits and Messaging",
     services: { messaging: true, video: true, photos: true, phone: false, moneyTransfer: true },
     statesCount: 20,
     facilitiesCount: 400,
@@ -952,22 +952,24 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "SmartInmate provides tablet-based communication and entertainment services at correctional facilities. Families can send messages through the SmartInmate platform to inmates who have access to SmartInmate tablets inside the facility.",
+      "SmartInmate is the family-facing platform operated by Smart Communications that provides video visits, electronic messaging, phone calls, and photo sharing at county jails and detention centers. Create a free account at smartinmate.com or call Smart Communications customer care at 727-349-1561. Safari is not compatible with SmartInmate. Use Google Chrome on all devices including iPhones and iPads.",
 
-    seoTitle: "SmartInmate Review: Tablet-Based Messaging and Entertainment for Inmates",
+    seoTitle: "What Is SmartInmate: Video Visits, Messaging and Phone Calls Guide",
     seoDescription:
-      "SmartInmate guide for families how tablet-based messaging works, which facilities have SmartInmate tablets, and how to send messages to incarcerated loved ones.",
+      "What is SmartInmate and how does it work. SmartInmate video visitation app setup, messaging, phone calls and customer service at 727-349-1561. Free guide for families.",
 
     website: "https://www.smartinmate.com",
     iosUrl: "https://apps.apple.com/us/app/smart-inmate/id1191826649",
     androidUrl: "https://play.google.com/store/apps/details?id=com.smartinmate",
 
     overview: [
-      "SmartInmate is a tablet-based communication and entertainment platform that provides incarcerated people with access to messaging, educational content, and entertainment through secure tablets inside the facility. SmartInmate tablets are distributed to inmates at participating facilities under contract with the facility or state Department of Corrections.",
+      "What is SmartInmate and what is it used for? SmartInmate is an online platform operated by Smart Communications that connects families with incarcerated loved ones at county jails and detention centers. SmartInmate is used for electronic messaging, video visits from home, phone calls, and photo sharing. Creating a SmartInmate account at smartinmate.com is free. You pay only when you use paid services such as remote video visits or phone calls. SmartInmate does not handle commissary orders. For commissary contact the detention facility directly.",
 
-      "Families send messages to SmartInmate users through the platform website or app. The inmate reads and replies through their facility tablet. SmartInmate tablets do not have open internet access. They connect to a secure internal network managed by the provider and approved by the facility.",
+      "How do SmartInmate video visits work? Log in to smartinmate.com and select Visits from the main menu. Choose the incarcerated person and select local on-site visit or remote home visit. Local on-site visits at facility kiosks may be free. Remote visits from home are billed per minute with costs varying by facility. Visits are scheduled in 15 or 30 minute time slots. You must use Google Chrome as your browser. Safari is not compatible with SmartInmate video visits even on Apple devices. Download Google Chrome from the App Store before your first visit. Visits can be scheduled up to 14 days in advance.",
 
-      "SmartInmate availability depends entirely on whether the specific facility has a SmartInmate contract. If the facility does not participate in the program, SmartInmate cannot be used regardless of whether the family creates an account. Search our facility directory to find out which tablet and messaging providers serve your loved one's facility.",
+      "How do SmartInmate phone calls work? SmartInmate offers two types of phone accounts. A Prepaid Account is tied to your registered phone number and you deposit funds in advance to receive calls. A PIN Account is owned by the incarcerated person who pays for calls from their own account. Contact Smart Communications at 727-349-1561 to set up a phone account. Phone calls from San Diego County facilities using Smart Communications are free. Contact your specific facility to confirm whether calls are free or charged.",
+
+      "Is SmartInmate legitimate? Yes. SmartInmate is operated by Smart Communications Holding Inc, a legitimate corrections communications company. Smart Communications serves county jails and detention centers across the United States. The website is smartinmate.com and customer care is at 727-349-1561. Common user complaints include session timing issues and billing questions for remote video visits. Report problems immediately after a session with your confirmation number to request a credit.",
     ],
 
     serviceDetails: {
@@ -1039,24 +1041,44 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "What makes SmartInmate different from JPay or GettingOut?",
-        answer: "SmartInmate differentiates itself with a more modern, user-friendly interface and responsive customer service. It is smaller than JPay or GettingOut in terms of facility coverage, but families who prioritize ease of use and quality support often find it preferable. The tradeoff is coverage: SmartInmate serves 400+ facilities versus 1,000+ for JPay.",
+        question: "What is SmartInmate?",
+        answer: "SmartInmate is an online communication platform operated by Smart Communications that connects families with people in county jails and detention centers. Services include electronic messaging, video visits from home, phone calls, and photo sharing. Create a free account at smartinmate.com. Customer care is available at 727-349-1561.",
       },
       {
-        question: "Does SmartInmate support phone calls?",
-        answer: "No. SmartInmate does not currently offer phone call services. For phone calls, you will need to use the facility's contracted phone provider, which is typically Securus, GTL/ConnectNetwork, or ICSolutions depending on the institution.",
+        question: "Is SmartInmate legit or a scam?",
+        answer: "SmartInmate is a legitimate service operated by Smart Communications Holding Inc, a corrections communications company serving county jails across the United States. The website is smartinmate.com and customer care is at 727-349-1561. Some users report billing issues with remote video visits. Always report problems immediately with your confirmation number to request a credit.",
       },
       {
-        question: "How do I confirm SmartInmate is available at my loved one's facility?",
-        answer: "Visit smartinmate.com and use the facility search tool to look up the specific correctional facility. If it appears in the SmartInmate network, you can create an account and begin setting up communication. If it does not appear, you will need to use a different provider.",
+        question: "Does SmartInmate have an app?",
+        answer: "SmartInmate does not have a dedicated mobile app in the traditional sense. You access SmartInmate through a web browser at smartinmate.com. Google Chrome is required on all devices including iPhones and iPads. Safari is not compatible with SmartInmate and will cause problems with video visits and account access. Download Google Chrome from the App Store before your first visit on an Apple device.",
       },
       {
-        question: "Can I use SmartInmate for both messaging and video visits?",
-        answer: "Yes, SmartInmate supports both electronic messaging and remote video visitation at participating facilities. Both services are managed through the same account. Messaging and video visit scheduling are available through the SmartInmate app and website.",
+        question: "How do I set up a SmartInmate video visit?",
+        answer: "Create a free account at smartinmate.com using Google Chrome. Enter your name, email, and phone number. Search for the incarcerated person at the facility. Select Visits and choose between local on-site or remote home visit. Remote visits are billed per minute. Schedule up to 14 days in advance. You must be at least 18 years old to create an account. Visitors under 17 must have a parent or guardian present during the visit.",
       },
       {
-        question: "Is SmartInmate available at federal prisons?",
-        answer: "SmartInmate does not serve federal Bureau of Prisons facilities. For federal inmates, CorrLinks is the only approved messaging platform. If your loved one is in a federal facility, you will need CorrLinks for messaging and ConnectNetwork for phone and video.",
+        question: "How much do SmartInmate video visits cost?",
+        answer: "Local on-site visits at facility kiosks may be free. Remote video visits from home are billed per minute with costs varying by facility. Polk County jail charges $0.17 per minute for 15-minute sessions. Costs vary by facility contract. Check the specific facility's SmartInmate page for current rates. All billing is handled by Smart Communications at 727-349-1561.",
+      },
+      {
+        question: "What browser do I need for SmartInmate?",
+        answer: "Google Chrome is required for all SmartInmate features including video visits. Safari is not compatible with SmartInmate and will cause problems with video visits, account access, and other features. If you are on an iPhone or iPad you must download Google Chrome from the App Store and use it instead of Safari. SmartInmate does not work in Firefox, Edge, or other browsers.",
+      },
+      {
+        question: "How do SmartInmate phone calls work?",
+        answer: "SmartInmate offers Prepaid Accounts tied to your phone number where you deposit funds in advance, and PIN Accounts owned by the incarcerated person. Contact Smart Communications at 727-349-1561 to set up a phone account. San Diego County jail phone calls through Smart Communications are free. Contact your specific facility to confirm whether calls are free or charged per minute.",
+      },
+      {
+        question: "What is SmartInmate customer service phone number?",
+        answer: "Smart Communications customer care is available at 727-349-1561. You can also contact them through the Contact Us form at smartinmate.com. For facility-specific questions such as visit scheduling or inmate location, contact the detention facility directly. Smart Communications handles billing and technical issues only.",
+      },
+      {
+        question: "Does SmartInmate handle commissary?",
+        answer: "No. Smart Communications provides communication services only. SmartInmate does not handle commissary orders, deposits to commissary accounts, or any commissary-related services. For commissary questions contact the detention facility directly.",
+      },
+      {
+        question: "Can SmartInmate messaging reach any jail?",
+        answer: "No. SmartInmate only works at facilities where Smart Communications holds the contract. Not all jails use SmartInmate. Common SmartInmate facilities include San Diego County jails, Polk County Florida, Collier County Florida, Pinellas County Florida, and Washoe County Nevada. Always confirm that the specific facility uses Smart Communications before creating an account.",
       },
     ],
 

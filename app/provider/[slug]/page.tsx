@@ -129,6 +129,21 @@ export default async function ProviderPage({ params }: PageProps) {
           )}
         />
       )}
+      {provider.slug === "textbehind" && (
+        <JsonLd
+          schema={buildProviderHowToSchema(
+            "How to Send a Letter to an Inmate Using TextBehind",
+            "Step by step guide to sending a printed letter or photo to any inmate at any correctional facility using TextBehind.",
+            [
+              { name: "Create a free TextBehind account", text: "Go to textbehind.com or download the TextBehind app for iOS or Android. Click Sign Up and create a free account using your name, email, and password." },
+              { name: "Search for the facility and add the inmate", text: "Search for the correctional facility by name or location. Add the inmate by their full name and inmate ID number. Verify the facility address before proceeding." },
+              { name: "Type your message and attach photos", text: "Type your message in the text editor. Attach photos if desired. Each page including photos counts as one page at approximately $0.49 per page. Review your message before submitting." },
+              { name: "Pay and submit your order", text: "Pay per page using a credit or debit card. Review your order summary and submit. You will receive an order confirmation by email." },
+              { name: "TextBehind prints and mails your letter", text: "TextBehind prints your message on physical paper and mails it to the facility address on your behalf. Delivery typically takes three to seven business days after processing." },
+            ]
+          )}
+        />
+      )}
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

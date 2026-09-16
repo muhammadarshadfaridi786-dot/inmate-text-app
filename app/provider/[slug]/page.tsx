@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { PROVIDER_DETAILS } from "@/lib/data/providers"
 import { generateProviderMetadata } from "@/lib/seo"
-import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema } from "@/lib/schema"
+import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema, buildFAQSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
@@ -87,6 +87,16 @@ export default async function ProviderPage({ params }: PageProps) {
           reviewCount: provider.facilitiesCount,
         })}
       />
+      {provider.faq && provider.faq.length > 0 && (
+        <JsonLd
+          schema={buildFAQSchema(
+            provider.faq.map((f) => ({
+              question: f.question,
+              answer: f.answer,
+            }))
+          )}
+        />
+      )}
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

@@ -127,6 +127,7 @@ export function buildProviderSchema(provider: {
   description: string
   slug: string
   website?: string
+  phone?: string
 }): JsonLdSchema {
   return {
     "@context": "https://schema.org",
@@ -135,6 +136,32 @@ export function buildProviderSchema(provider: {
     description: provider.description,
     url: absoluteUrl(`/provider/${provider.slug}`),
     ...(provider.website ? { sameAs: [provider.website] } : {}),
+    ...(provider.phone ? { telephone: provider.phone } : {}),
+    areaServed: {
+      "@type": "Country",
+      name: "United States",
+    },
+    knowsAbout: [
+      "Inmate Communication",
+      "Prison Phone Calls",
+      "Inmate Messaging",
+      "Correctional Facility Communication",
+    ],
+  }
+}
+
+export function buildFAQSchema(faqs: { question: string; answer: string }[]): JsonLdSchema {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
   }
 }
 

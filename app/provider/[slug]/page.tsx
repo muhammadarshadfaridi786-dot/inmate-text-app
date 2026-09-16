@@ -106,10 +106,10 @@ export default async function ProviderPage({ params }: PageProps) {
             "Step by step guide to creating a free CorrLinks account to receive messages from a federal Bureau of Prisons inmate.",
             [
               { name: "Ask the inmate to send a contact request", text: "The process must begin with the inmate. Your loved one logs in to a TRULINCS terminal at their federal facility, enters your name and email address, and sends you a contact request." },
-              { name: "Check your email for the CorrLinks invitation", text: "CorrLinks sends you a free invitation email after the inmate submits your contact request. Check your spam folder if it does not arrive within 48 hours." },
+              { name: "Check your email for the CorrLinks invitation", text: "CorrLinks sends you a free invitation email. Check your spam folder if it does not arrive within 48 hours." },
               { name: "Create your free CorrLinks account", text: "Go to corrlinks.com and follow the link in the invitation email. Create your free account by entering your personal information and creating a password." },
-              { name: "Find your PIC number", text: "After creating your account, go to your account settings to find your PIC number which stands for Personal Identification Code. Share this number with your loved one so they can add you as a contact on their TRULINCS terminal." },
-              { name: "Begin exchanging messages", text: "Once the inmate adds you using your PIC number, you can exchange messages through corrlinks.com. Log in to check for new messages. Consider upgrading to CorrLinks Premier for approximately $8 per year to receive push notifications when new messages arrive." },
+              { name: "Find your PIC number", text: "After creating your account go to your account settings to find your PIC number which stands for Personal Identification Code. Share this number with your loved one so they can add you on their TRULINCS terminal." },
+              { name: "Begin exchanging messages", text: "Once the inmate adds you using your PIC number you can exchange messages through corrlinks.com. Consider upgrading to CorrLinks Premier for approximately $8 per year to receive push notifications when new messages arrive." },
             ]
           )}
         />

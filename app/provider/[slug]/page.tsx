@@ -114,6 +114,21 @@ export default async function ProviderPage({ params }: PageProps) {
           )}
         />
       )}
+      {provider.slug === "pigeonly" && (
+        <JsonLd
+          schema={buildProviderHowToSchema(
+            "How to Send a Letter or Photo to an Inmate Using Pigeonly",
+            "Step by step guide to sending a printed letter or photo to any inmate using the Pigeonly print and mail service.",
+            [
+              { name: "Create a Pigeonly account", text: "Go to pigeonly.com or download the Pigeonly app for iOS or Android. Sign up for the Forever Free Plan at no cost or choose a paid unlimited plan. Create your account using your name and email." },
+              { name: "Search for the facility and add the inmate", text: "Search for the correctional facility by name or state. Add the inmate by their full name and inmate ID number. Pigeonly shows facility-specific photo and content rules at this step to help you avoid rejection." },
+              { name: "Type your message and upload photos", text: "Type your letter in the Pigeonly editor. Upload photos if desired. Pigeonly recommends no more than five photos per envelope unless the facility allows more. Review the facility rules shown on screen before adding content." },
+              { name: "Submit your order", text: "Review your letter and submit your order. The Forever Free Plan covers a limited number of monthly letters at no charge. Additional letters use paid plan credits. You will receive an order confirmation." },
+              { name: "Pigeonly prints and mails your letter", text: "Pigeonly prints your message on physical paper and mails it to the facility address on your behalf. Delivery typically takes three to seven business days after processing. Track your order through your Pigeonly account." },
+            ]
+          )}
+        />
+      )}
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

@@ -895,7 +895,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "textbehind",
     initial: "T",
     color: "bg-orange-600",
-    tagline: "TextBehind - Print and Deliver Letters and Photos to Inmates as Physical Mail",
+    tagline: "TextBehind: What It Is, How It Works and How to Send Letters to Any Inmate",
     services: { messaging: true, video: false, photos: true, phone: false, moneyTransfer: false },
     statesCount: 25,
     facilitiesCount: 600,
@@ -903,22 +903,24 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "TextBehind converts your digital messages and photos into physical printed mail delivered directly to inmates. TextBehind works at facilities that do not offer electronic messaging, making it a universal option for families who cannot reach their loved one through digital platforms.",
+      "TextBehind is a service that converts digital messages and photos into physical printed letters delivered to inmates through the postal system. TextBehind works at virtually any correctional facility that accepts mail including federal prisons, state prisons, and county jails. You type your message online or in the TextBehind app, pay per page, and TextBehind prints and mails the letter on your behalf.",
 
-    seoTitle: "TextBehind Review: Print and Deliver Letters and Photos to Inmates by Mail",
+    seoTitle: "What Is TextBehind: How It Works, Cost and Inmate Mail Guide",
     seoDescription:
-      "TextBehind guide for families how to send printed letters and photos to inmates at facilities without electronic messaging. Works at nearly any facility that accepts physical mail.",
+      "What is TextBehind and how does it work for sending inmate mail. TextBehind converts digital messages to physical letters delivered to any jail or prison. Cost and setup guide.",
 
     website: "https://www.textbehind.com",
     iosUrl: "https://apps.apple.com/us/app/textbehind/id836022386",
     androidUrl: "https://play.google.com/store/apps/details?id=com.textbehind.android",
 
     overview: [
-      "TextBehind is a print-and-deliver service that allows families to type messages and upload photos online, and TextBehind prints and mails them to the inmate as physical letters and photos. This makes TextBehind useful at facilities that do not offer any electronic messaging system, as physical mail is accepted at nearly all correctional facilities.",
+      "What is TextBehind and how does it work? TextBehind is a print-and-mail service for families of incarcerated people. You type your message and upload photos through the TextBehind website or app. TextBehind prints your message on physical paper and mails it to the facility on your behalf. Because TextBehind delivers as standard postal mail rather than through a provider platform, it works at virtually any facility that accepts incoming mail including federal prisons, state prisons, and county jails. You do not need the facility to have a contract with any specific messaging provider.",
 
-      "You type your message at textbehind.com, pay per page, and TextBehind handles printing, addressing, and mailing. The cost is approximately $0.49 per page. TextBehind maintains current mailing specifications for thousands of facilities and formats your content to meet facility rules automatically.",
+      "How much does TextBehind cost? TextBehind charges approximately $0.49 per page. A standard letter page is one side of an 8.5 by 11 inch page. Photos count as one page each. There is no monthly fee or subscription required. You pay only for what you send. TextBehind is particularly useful at facilities that do not have JPay, ConnectNetwork, or CorrLinks contracts, and for sending color photos to facilities where digital platforms only deliver black and white images.",
 
-      "TextBehind is not an electronic messaging platform. Messages are not delivered digitally, they arrive as printed physical mail. Delivery takes several business days after submission. TextBehind is best used as a backup option when electronic messaging is not available at a facility, or when families want to send content that will be physically held by the inmate.",
+      "What is TextBehind used for? TextBehind is used for three main purposes. First, sending letters to inmates at facilities without electronic messaging contracts. Second, sending color photos to facilities where JPay or other digital platforms print in black and white. Third, sending longer, more detailed letters without stamp limits or character limits that electronic messaging platforms impose. TextBehind also handles addressing and mailing on your behalf, reducing the risk of mail rejection due to formatting errors.",
+
+      "How do I use the TextBehind app? Download the TextBehind app for iOS or Android or visit textbehind.com. Create a free account, search for the facility, and add the inmate by name and ID number. Type your message, attach photos if desired, and submit your order. TextBehind handles printing and mailing. Delivery typically takes three to seven business days after TextBehind processes the order. For customer service contact TextBehind through textbehind.com.",
     ],
 
     serviceDetails: {
@@ -986,24 +988,44 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "Do I need to create an account to use TextBehind?",
-        answer: "Not for all features. TextBehind allows some basic messaging without requiring an account, which makes it accessible for one-time or infrequent use. Creating an account unlocks additional features and makes it easier to track message history and manage contacts.",
+        question: "What is TextBehind?",
+        answer: "TextBehind is a print-and-mail service that converts digital messages and photos into physical printed letters delivered to inmates. You type your message online or in the TextBehind app, pay per page, and TextBehind prints and mails the letter to the facility. TextBehind works at any facility that accepts standard postal mail.",
       },
       {
-        question: "How does TextBehind deliver messages to inmates?",
-        answer: "Messages sent through TextBehind are converted to printed letters and delivered to the inmate through the facility's regular mail system. At some facilities, digital delivery is supported. Delivery time depends on how quickly the facility processes incoming mail, typically one to three business days after the message is sent.",
+        question: "How does TextBehind work?",
+        answer: "Create a free account at textbehind.com or on the TextBehind app for iOS or Android. Search for the facility and add the inmate. Type your message and attach photos if desired. Pay per page at approximately $0.49 per page. TextBehind prints your message and mails it to the facility address. Delivery typically takes three to seven business days after processing.",
       },
       {
-        question: "Can I use TextBehind for phone calls or video visits?",
-        answer: "No. TextBehind is a messaging and photo service only. For phone calls, set up an account with the facility's phone provider (typically Securus, GTL/ConnectNetwork, or ICSolutions). For video visits, use a platform like GettingOut or ConnectNetwork depending on the facility.",
+        question: "How much does TextBehind cost?",
+        answer: "TextBehind charges approximately $0.49 per page. A standard letter page is one side of an 8.5 by 11 inch sheet. Photos count as one page each. There is no monthly fee or subscription. You pay only for what you send. Compare this to JPay stamps which cost $0.33 to $0.47 per message at facilities that have JPay contracts.",
       },
       {
-        question: "How are photos delivered through TextBehind?",
-        answer: "Photos uploaded through TextBehind are printed on photo paper and mailed to the inmate as physical prints. This means photos arrive through the facility mail system. Photos must meet facility content guidelines. Inappropriate images will not be processed or delivered.",
+        question: "What is TextBehind used for?",
+        answer: "TextBehind is used for sending letters to inmates at facilities without JPay or other electronic messaging contracts, sending color photos to facilities where digital platforms only print in black and white, and sending longer letters without the character limits or stamp costs of electronic messaging platforms. TextBehind works at any facility that accepts postal mail.",
       },
       {
-        question: "Is TextBehind available at federal prisons?",
-        answer: "TextBehind coverage at federal facilities is limited. For electronic messaging at federal Bureau of Prisons institutions, CorrLinks is the required and only approved platform. TextBehind's physical letter and photo service may still be available as a supplement, since physical mail is generally accepted at all facilities.",
+        question: "Does TextBehind work at federal prisons?",
+        answer: "Yes. TextBehind works at federal Bureau of Prisons facilities because it delivers as standard postal mail. CorrLinks is the only electronic messaging platform for federal prisons, but CorrLinks does not support photo attachments. TextBehind is the main option for sending photos to federal prison inmates since it prints and mails physical copies.",
+      },
+      {
+        question: "Does TextBehind work at county jails?",
+        answer: "Yes. TextBehind works at virtually any county jail that accepts standard postal mail. This makes it useful at county jails that do not have GettingOut, Securus, or other electronic messaging contracts. Always check the specific county jail's mail rules before sending to ensure your letter meets content and format requirements.",
+      },
+      {
+        question: "Is there a TextBehind app?",
+        answer: "Yes. The TextBehind app is available for iOS and Android. Search for TextBehind in the App Store or Google Play. The app allows you to type messages, attach photos, and submit orders from your smartphone. You can also use TextBehind through the website at textbehind.com.",
+      },
+      {
+        question: "How long does TextBehind delivery take?",
+        answer: "TextBehind delivery typically takes three to seven business days after TextBehind processes and mails your order. This includes printing time and standard postal delivery. Delivery may take longer around holidays or due to postal delays. TextBehind is slower than electronic messaging platforms like JPay but works at more facilities.",
+      },
+      {
+        question: "What is TextBehind customer service?",
+        answer: "TextBehind customer service is available through the textbehind.com website. Contact them through the website if a letter was not delivered or if there are billing issues. Include the order confirmation number when contacting support. TextBehind does not have a published customer service phone number and handles support through the website.",
+      },
+      {
+        question: "What is the difference between TextBehind and Pigeonly?",
+        answer: "TextBehind and Pigeonly both convert digital messages to physical printed letters. TextBehind charges approximately $0.49 per page with no subscription required. Pigeonly offers a free plan with limited monthly letters and paid unlimited plans. Pigeonly maintains facility-specific compliance rules for over 4,000 facilities and shows restrictions at upload. Both services are good alternatives when electronic messaging is unavailable.",
       },
     ],
 

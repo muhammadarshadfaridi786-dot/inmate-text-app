@@ -144,6 +144,21 @@ export default async function ProviderPage({ params }: PageProps) {
           )}
         />
       )}
+      {provider.slug === "touchpay" && (
+        <JsonLd
+          schema={buildProviderHowToSchema(
+            "How to Make a TouchPay Inmate Deposit at touchpaydirect.com",
+            "Step by step guide to depositing funds to an inmate account using TouchPay at county jails and detention centers.",
+            [
+              { name: "Go to touchpaydirect.com", text: "Open a browser and go to touchpaydirect.com. Click Create Account to register a free account using your name, email, and password. If you already have an account click Log In." },
+              { name: "Search for the facility", text: "Search for the county jail or detention center by name or state. Select the correct facility from the results. Confirm the facility address matches your loved one's location." },
+              { name: "Find the inmate", text: "Search for the inmate by their full legal name or inmate ID number. Select the correct person from the results. Verify the name and ID before proceeding." },
+              { name: "Select deposit type and amount", text: "Select the deposit type such as commissary account or phone account. Enter the amount you want to deposit. Review the transaction fee before confirming. TouchPay charges a fee per transaction." },
+              { name: "Pay and confirm", text: "Pay by debit or credit card. Review the order summary and submit your payment. You will receive an email confirmation. For questions contact TouchPay customer service at 1-866-232-1899." },
+            ]
+          )}
+        />
+      )}
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

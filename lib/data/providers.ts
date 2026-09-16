@@ -753,7 +753,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     slug: "corrlinks",
     initial: "C",
     color: "bg-emerald-700",
-    tagline: "CorrLinks: What It Is, How It Works and Federal Prison Email Guide",
+    tagline: "CorrLinks: What It Is, How TRULINCS Works and How to Set Up Your Free Account",
     services: { messaging: true, video: false, photos: false, phone: false, moneyTransfer: false },
     statesCount: 50,
     facilitiesCount: 120,
@@ -761,22 +761,22 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     hasDetailPage: true,
 
     description:
-      "CorrLinks is the official email system for all federal Bureau of Prisons inmates. Learn what CorrLinks is, how it works, how much it costs, how to reach CorrLinks customer service, and how to send money to a federal inmate. Creating an outside contact account on CorrLinks is free.",
+      "CorrLinks is the official email system for all federal Bureau of Prisons inmates, powered by the TRULINCS network. Learn what CorrLinks is, whether it is free, how to sign up, what the PIC number is, and how TRULINCS inmate email works. Creating an outside contact account on CorrLinks is completely free. CorrLinks only works for federal prisons. JPay serves state prisons.",
 
-    seoTitle: "What Is CorrLinks: Federal Prison Email, Cost and Customer Service",
+    seoTitle: "What Is CorrLinks: Federal Prison Email, TRULINCS and Free Account Guide",
     seoDescription:
-      "What is CorrLinks and how does it work for federal inmates. CorrLinks customer service phone number, how to send money, BOP TRULINCS email system explained. Free outside contact account.",
+      "What is CorrLinks and is it free. How TRULINCS federal prison email works, how to sign up, and what the PIC number is. Free outside contact account guide for families.",
 
     website: "https://www.corrlinks.com",
 
     overview: [
-      "What is CorrLinks and how does it work? CorrLinks is the official electronic messaging system for the Federal Bureau of Prisons, operating through the TRULINCS system. If your loved one is in any federal prison in the United States, CorrLinks is the only platform approved for electronic messaging. No other messaging service works at federal BOP facilities. CorrLinks is not the same as JPay. JPay serves state prisons. CorrLinks serves federal prisons only.",
+      "What is CorrLinks and is it free? CorrLinks is the official electronic messaging platform for the Federal Bureau of Prisons, operating through the TRULINCS system which stands for Trust Fund Limited Inmate Computer System. CorrLinks is how families send and receive electronic messages with federal prison inmates. Creating an outside contact account on CorrLinks at corrlinks.com is completely free. You do not pay per message as an outside contact. The inmate pays $0.30 per message from their trust account. The only paid option is CorrLinks Premier at approximately $8 per year which adds push notifications.",
 
-      "How do I get started with CorrLinks? The process must begin with the inmate. Your loved one logs in to a TRULINCS terminal at their federal facility, enters your name and email address, and sends you a contact request. CorrLinks then sends you a free invitation email. You cannot start the process yourself from outside. Check your spam folder if the invitation does not arrive within 48 hours. As of late 2024, CorrLinks limits inmates to 10 outside contacts at one time.",
+      "What is TRULINCS and how does it work? TRULINCS is the secure federal BOP computer network that powers CorrLinks messaging. Inmates access TRULINCS through secure terminals in their housing units at federal prisons. The process must begin with the inmate. Your loved one logs in to a TRULINCS terminal, enters your name and email address, and sends you a contact request. CorrLinks then sends you a free invitation email. You cannot start the process from outside. Check your spam folder if the invitation does not arrive within 48 hours. CorrLinks limits inmates to 10 outside contacts.",
 
-      "Does CorrLinks cost money? Creating an outside contact account on CorrLinks is completely free. The inmate pays a usage fee of $0.30 per message from their trust account as of 2025. As an outside contact you do not pay per message. You can upgrade to a CorrLinks Premier Account for approximately $8 per year which adds push notifications so you know immediately when a new message arrives. Without Premier, you must log in and check manually.",
+      "What is the PIC number on CorrLinks? PIC stands for Personal Identification Code. It is the unique number assigned to each outside contact on CorrLinks. The inmate uses your PIC number to find and add you as a contact on their TRULINCS terminal. Your PIC number appears in your CorrLinks account settings after you create your free account. Share your PIC number with your loved one so they can add you as a contact from the TRULINCS terminal at their federal facility.",
 
-      "What is the CorrLinks customer service phone number? CorrLinks customer service can be reached through the corrlinks.com website support section. For billing disputes and account issues, submit a written support ticket through your account rather than relying on phone support. If CorrLinks charged you for a Premier Account that is not functioning, contact customer service with your payment confirmation and if unresolved dispute the charge with your bank. The most reliable way to reach a live agent is to call during off-peak hours.",
+      "What is the difference between CorrLinks and JPay? CorrLinks works only at federal Bureau of Prisons facilities. JPay works at state prisons. These are completely separate platforms that do not overlap. If your loved one is in a federal prison use CorrLinks. If they are in a state prison use JPay. Using the wrong platform means your messages will never reach the inmate. Federal prisons include facilities with names like FCI, USP, FCC, FMC, and ADX. State prisons are operated by state Departments of Corrections.",
     ],
 
     serviceDetails: {
@@ -841,24 +841,48 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     faq: [
       {
-        question: "Can I create a CorrLinks account and message a federal inmate right away?",
-        answer: "No. You cannot initiate contact with a federal inmate through CorrLinks on your own. The inmate must first add your email address to their TRULINCS contact list from within the facility and send you an invitation. Once you receive the invitation, you can create a CorrLinks account and accept it to begin exchanging messages.",
+        question: "What is CorrLinks?",
+        answer: "CorrLinks is the official electronic messaging platform for all federal Bureau of Prisons facilities in the United States. It is powered by the TRULINCS system. If your loved one is in any federal prison, CorrLinks is the only approved platform for electronic messaging. Creating an outside contact account at corrlinks.com is completely free.",
       },
       {
-        question: "Does CorrLinks work for state prisons or county jails?",
-        answer: "No. CorrLinks is exclusively for federal Bureau of Prisons facilities. State prisons and county jails use different providers — JPay and Securus for state prisons, GettingOut and Securus for county jails. If your loved one is not in a federal BOP institution, CorrLinks does not apply.",
+        question: "Is CorrLinks free?",
+        answer: "Creating a CorrLinks outside contact account is completely free. You do not pay per message as an outside contact. The inmate pays $0.30 per message from their federal trust account. The only paid option is CorrLinks Premier at approximately $8 per year which adds push notifications so you know immediately when a new message arrives. Without Premier you must log in manually to check for new messages.",
       },
       {
-        question: "How do I fund my CorrLinks account for messaging?",
-        answer: "Visit corrlinks.com and log into your account. Navigate to the funding section and add money to your prepay balance via credit card or check. Messages are charged against this balance each time you send. The per-message cost is small, but regular messaging can deplete the balance over time.",
+        question: "What is TRULINCS?",
+        answer: "TRULINCS stands for Trust Fund Limited Inmate Computer System. It is the secure federal BOP computer network that powers CorrLinks messaging. Inmates access TRULINCS through secure terminals in their housing units at federal prisons. All CorrLinks messages go through TRULINCS. The system is managed by the Federal Bureau of Prisons.",
       },
       {
-        question: "How do I set up phone calls with a federal inmate if CorrLinks doesn't handle phone?",
-        answer: "Phone calls from federal facilities are managed through the BOP's Inmate Telephone System, accessed through ConnectNetwork. Create a separate ConnectNetwork account at connectnetwork.com and fund a prepaid calling account linked to your phone number. The inmate can then call you from facility phones.",
+        question: "How do I sign up for CorrLinks?",
+        answer: "The process must begin with the inmate. Your loved one logs in to a TRULINCS terminal at their federal facility, enters your name and email address, and sends you a contact request. CorrLinks then sends you a free invitation email. Go to corrlinks.com and follow the link in the invitation to create your free account. You cannot start the process from outside. Check your spam folder if the invitation does not arrive within 48 hours.",
       },
       {
-        question: "Is there a CorrLinks mobile app?",
-        answer: "There is no official CorrLinks mobile app. The platform is browser-based and accessible through any web browser, including mobile browsers on smartphones and tablets. Some third-party apps claim CorrLinks compatibility, but the official platform is web-only at corrlinks.com.",
+        question: "What is the PIC number on CorrLinks?",
+        answer: "PIC stands for Personal Identification Code. It is the unique number assigned to your CorrLinks outside contact account. The inmate uses your PIC number to find and add you as a contact on their TRULINCS terminal. Your PIC number appears in your CorrLinks account settings after you create your free account. Share your PIC number with your loved one so they can add you.",
+      },
+      {
+        question: "What is the difference between CorrLinks and JPay?",
+        answer: "CorrLinks serves only federal Bureau of Prisons facilities. JPay serves state prisons across more than 35 states. These are completely separate platforms. If your loved one is in a federal prison use CorrLinks. If they are in a state prison use JPay. Federal prisons include FCI, USP, FCC, FMC, and ADX facilities. Do not sign up for JPay for a federal inmate.",
+      },
+      {
+        question: "Is CorrLinks legitimate?",
+        answer: "Yes. CorrLinks is the official electronic messaging system operated by the Federal Bureau of Prisons through the TRULINCS network. It is not a third-party service. CorrLinks is the only approved messaging platform for all federal BOP facilities in the United States. The website is corrlinks.com.",
+      },
+      {
+        question: "Is CorrLinks down?",
+        answer: "If you cannot access CorrLinks, first check your internet connection and try a different browser. Clear your browser cache and cookies. If the problem continues, the TRULINCS system may be undergoing maintenance. Contact CorrLinks support through corrlinks.com. Planned maintenance is not typically announced publicly in advance. Try again after a few hours if the site is unavailable.",
+      },
+      {
+        question: "What is the CorrLinks phone number?",
+        answer: "CorrLinks customer service is available through the corrlinks.com website support section. Submit a support ticket through your account for billing and technical issues. CorrLinks Premier billing disputes should include your payment confirmation. For urgent matters contact the federal facility directly. The most reliable way to reach support is through the corrlinks.com help center.",
+      },
+      {
+        question: "How do I email a federal inmate?",
+        answer: "Create a free CorrLinks account at corrlinks.com after receiving an invitation from the inmate. The inmate must initiate the process from a TRULINCS terminal at their federal facility by entering your name and email. Once your account is active, log in to corrlinks.com and compose a message. The inmate reads your message on a TRULINCS terminal and can reply. Messages are reviewed by staff before delivery.",
+      },
+      {
+        question: "Does CorrLinks work at state prisons?",
+        answer: "No. CorrLinks only works at federal Bureau of Prisons facilities. State prisons use JPay, ConnectNetwork, ICSolutions, or other state-contracted messaging providers. If your loved one is in a state prison do not sign up for CorrLinks. Use our facility directory to find the correct provider for the specific state prison.",
       },
     ],
 

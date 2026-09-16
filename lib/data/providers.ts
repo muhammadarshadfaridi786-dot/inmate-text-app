@@ -74,6 +74,8 @@ export interface ProviderDetail extends ProviderBasic {
   cons: string[]
   faq: Array<{ question: string; answer: string }>
   relatedProviderSlugs: string[]
+  rating?: number
+  reviewCount?: number
 }
 
 // ─────────────────────────────────────────────

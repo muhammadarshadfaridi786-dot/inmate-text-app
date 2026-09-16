@@ -78,15 +78,17 @@ export default async function ProviderPage({ params }: PageProps) {
         })}
       />
       <JsonLd schema={buildBreadcrumbSchema(breadcrumbItems)} />
-      <JsonLd
-        schema={buildReviewSchema({
-          name: provider.name,
-          slug: provider.slug,
-          description: provider.description,
-          ratingValue: 7.5,
-          reviewCount: provider.facilitiesCount,
-        })}
-      />
+      {provider.rating && (
+        <JsonLd
+          schema={buildReviewSchema({
+            name: provider.name,
+            slug: provider.slug,
+            description: provider.description,
+            ratingValue: provider.rating ?? 7.5,
+            reviewCount: provider.reviewCount ?? 100,
+          })}
+        />
+      )}
       {provider.faq && provider.faq.length > 0 && (
         <JsonLd
           schema={buildFAQSchema(

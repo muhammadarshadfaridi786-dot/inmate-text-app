@@ -2288,10 +2288,10 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       "Money can be sent to CMCF inmates through JPay at jpay.com, by phone through JPay at 1-800-574-5729, through Western Union using DOC receive code 135, or through Premier Services of the Mississippi government. Always include the inmate full name and MDOC number on all transactions. For mail, send to: Inmate Name, MDOC Number, CMCF, PO Box 88550, 3794 Hwy 468, Pearl, MS 39208. All incoming mail is inspected before delivery.",
     ],
 
-    address: "3794 Highway 468 West, Pearl, MS 39208",
+    address: "PO Box 88550, 3794 Highway 468, Pearl, MS 39208",
     phone: "(601) 932-2880",
     website: "https://www.mdoc.ms.gov",
-    inmateCapacity: 3000,
+    inmateCapacity: 3557,
     established: 1984,
     operatedBy: "Mississippi Department of Corrections (MDOC)",
 

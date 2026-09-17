@@ -62,8 +62,9 @@ export function generateStateMetadata(state: {
 export function generateCountyMetadata(county: {
   name: string
   slug: string
+  seoTitle?: string
 }): Metadata {
-  const title = `${county.name} Jail and Prison Communication Guide`
+  const title = county.seoTitle ?? `${county.name} Jail Communication Guide: Find the Right Provider`
   const description = `${county.name} jail and prison communication guide. Find messaging, video visitation, and phone options for ${county.name} correctional facilities.`
   return {
     title,
@@ -118,8 +119,8 @@ export function generateProviderMetadata(provider: {
   const title =
     provider.seoTitle ??
     (provider.tagline
-      ? `${provider.tagline} | Inmate Text App`
-      : `${provider.name}: Inmate Communication Review and Guide | Inmate Text App`)
+      ? provider.tagline
+      : `${provider.name}: Inmate Communication Guide`)
   const description =
     provider.seoDescription ??
     provider.description ??
@@ -145,7 +146,7 @@ export function generateCompareMetadata(
   nameA: string,
   nameB: string
 ): Metadata {
-  const title = `${nameA} vs ${nameB}: Which Is Better?`
+  const title = `${nameA} vs ${nameB}: Compare Features, Cost and Coverage`
   const description = `${nameA} vs ${nameB}: compare features, pricing, availability, and apps to find the best inmate communication service.`
   const path = `/compare/${slugA}-vs-${slugB}`
   return {
@@ -215,7 +216,7 @@ export function generateHubMetadata(
   feature: string,
   displayName: string
 ): Metadata {
-  const title = `${displayName}: How It Works and Best Apps`
+  const title = `${displayName}: How It Works, Providers and Setup Guide`
   const description = `Learn how ${displayName.toLowerCase()} works for inmates. Find which prisons offer ${displayName.toLowerCase()}, compare providers, and discover how to get started.`
   return {
     title,
@@ -236,7 +237,7 @@ export function generateFacilityTypeMetadata(
   type: string,
   displayName: string
 ): Metadata {
-  const title = `${displayName} Directory: Communication Guide`
+  const title = `${displayName} Communication Directory: Find Phone, Messaging and Video Options`
   const description = `Browse all ${displayName.toLowerCase()} in the United States. Find communication providers, messaging options, and video visitation availability.`
   return {
     title,

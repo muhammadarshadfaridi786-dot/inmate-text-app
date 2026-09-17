@@ -2276,16 +2276,16 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Rankin County",
     securityLevel: "Medium / Close",
     hasDetailPage: true,
-    seoTitle: "Central Mississippi Correctional Facility: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Central Mississippi Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+    seoTitle: "CMCF: Central Mississippi Correctional Facility Phone, Mail and Address",
+    seoDescription: "Central Mississippi Correctional Facility (CMCF) in Pearl MS. GTL ConnectNetwork for phone calls. JPay for money transfers. Mailing address: PO Box 88550, 3794 Hwy 468, Pearl MS 39208.",
 
     description:
-      "Central Mississippi Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at this major Mississippi DOC facility in Rankin County.",
+      "Central Mississippi Correctional Facility (CMCF) is a Mississippi Department of Corrections state prison located at PO Box 88550, 3794 Highway 468 in Pearl, Rankin County, Mississippi 39208. CMCF houses adult male and female inmates with a capacity of approximately 3,557. Phone calls use GTL ViaPath ConnectNetwork. Money transfers use JPay or Western Union with DOC code 135.",
 
     overview: [
-      "Central Mississippi Correctional Facility (CMCF) is one of Mississippi's largest state correctional facilities, operated by the Mississippi Department of Corrections and located in Pearl in Rankin County, about 10 miles east of downtown Jackson. CMCF serves multiple functions within the Mississippi correctional system: it houses adult male and female inmates at medium and close security classifications and also serves as the intake and classification center for newly sentenced women entering the MDOC system. Its location near the state capital makes it administratively central to Mississippi's correctional network.",
-      "Communication at Central Mississippi Correctional Facility follows Mississippi DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Mississippi DOC number to begin correspondence. GTL manages phone calls and video visitation under the MDOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. As at other Mississippi facilities, these are separate platforms requiring separate accounts.",
-      "CMCF's location in Pearl, Rankin County, just east of Jackson puts it within easy reach of the Jackson metropolitan area. Pearl is accessible from I-20 and US-80, and the facility is a short drive from the metro. For families in Jackson, Flowood, or the surrounding suburbs, in-person visits are logistically straightforward. For families in the Gulf Coast area — Gulfport or Biloxi — the drive north to Rankin County is about two to two and a half hours. Mississippi DOC accounts created for CMCF carry over to any other Mississippi facility if an inmate transfers within the state system.",
+      "Central Mississippi Correctional Facility (CMCF) is a Mississippi Department of Corrections state prison located in an unincorporated area of Rankin County between the cities of Pearl and Brandon, Mississippi. The mailing address is PO Box 88550, 3794 Highway 468, Pearl, MS 39208. The facility phone number is 601-932-2880. CMCF houses adult male and female inmates and has a capacity of approximately 3,557. To locate an inmate at CMCF, use the MDOC inmate search at mdoc.ms.gov or call the MDOC Central Office switchboard at 601-359-5600.",
+      "Phone calls from CMCF are handled through GTL ViaPath ConnectNetwork. To receive calls, create a free ConnectNetwork account at connectnetwork.com or call ConnectNetwork customer service at 877-650-4249. You will need the inmate MDOC number to set up the account. All calls from CMCF are outgoing only and are monitored and recorded. The inmate must initiate all calls from facility phones. Only approved numbers on the inmate call list can receive calls.",
+      "Money can be sent to CMCF inmates through JPay at jpay.com, by phone through JPay at 1-800-574-5729, through Western Union using DOC receive code 135, or through Premier Services of the Mississippi government. Always include the inmate full name and MDOC number on all transactions. For mail, send to: Inmate Name, MDOC Number, CMCF, PO Box 88550, 3794 Hwy 468, Pearl, MS 39208. All incoming mail is inspected before delivery.",
     ],
 
     address: "3794 Highway 468 West, Pearl, MS 39208",
@@ -2340,24 +2340,36 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
 
     faq: [
       {
-        question: "How do I message someone at Central Mississippi Correctional Facility?",
-        answer: "Create a JPay account at jpay.com and add the inmate using their Mississippi DOC number. Purchase stamps and compose your message. MDOC staff review messages before delivery, typically within 24 to 48 hours.",
+        question: "What is CMCF and where is it located?",
+        answer: "CMCF stands for Central Mississippi Correctional Facility. It is a Mississippi Department of Corrections state prison located at PO Box 88550, 3794 Highway 468, Pearl, MS 39208 in Rankin County between the cities of Pearl and Brandon. The facility phone number is 601-932-2880.",
       },
       {
-        question: "How do I set up phone calls from CMCF?",
-        answer: "Phone calls use GTL. Create an account at telmate.com or through the GTL Connect app. Set up a prepaid AdvancePay account linked to your phone number and add funds. The inmate calls you from facility phones.",
+        question: "What is the CMCF mailing address for inmate mail?",
+        answer: "The mailing address for inmate mail at CMCF is: Inmate Full Name, MDOC Number, Central Mississippi Correctional Facility, PO Box 88550, 3794 Hwy 468, Pearl, MS 39208. Always include the inmate full name and MDOC number on the envelope. All incoming mail is inspected before delivery.",
       },
       {
-        question: "Does CMCF house both male and female inmates?",
-        answer: "Yes. CMCF serves as a medium and close security facility for male inmates and as the intake and classification center for women entering the MDOC system. Women classified at CMCF may be transferred to another Mississippi facility based on their security level and programming needs.",
+        question: "What is the CMCF phone number?",
+        answer: "The Central Mississippi Correctional Facility phone number is 601-932-2880. For inmate custody status, recent transfers, or release information call this number directly. For MDOC-wide inmate search call the MDOC Central Office switchboard at 601-359-5600.",
       },
       {
-        question: "How far is CMCF from downtown Jackson?",
-        answer: "CMCF is in Pearl in Rankin County, about 10 miles east of downtown Jackson on I-20 — roughly a 15 to 20-minute drive. For Jackson-area families, in-person visits are very accessible.",
+        question: "Which provider handles phone calls at CMCF?",
+        answer: "GTL ViaPath ConnectNetwork handles phone calls at Central Mississippi Correctional Facility. Create a free ConnectNetwork account at connectnetwork.com or call 877-650-4249. You need the inmate MDOC number. All calls are outgoing only from the inmate. Your number must be on the inmate approved call list.",
       },
       {
-        question: "How do I send money to a CMCF inmate?",
-        answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Central Mississippi Correctional Facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
+        question: "How do I send money to someone at CMCF?",
+        answer: "Send money to CMCF inmates through JPay at jpay.com, by phone at 1-800-574-5729, through Western Union using DOC receive code 135, or through Premier Services of the Mississippi government. Always include the inmate full name and MDOC number. Funds are credited to the inmate trust account.",
+      },
+      {
+        question: "How do I find someone at Central Mississippi Correctional Facility?",
+        answer: "Use the MDOC inmate search at mdoc.ms.gov to find the MDOC number and current facility. You can also call the MDOC Central Office switchboard at 601-359-5600 or the facility directly at 601-932-2880. The MDOC number is required for all communication accounts, money transfers, and mail.",
+      },
+      {
+        question: "What does CMCF WC mean?",
+        answer: "CMCF WC refers to the Work Center unit at Central Mississippi Correctional Facility. CMCF has multiple units including R&C which stands for Reception and Classification, and WC which is the Work Center. When corresponding with an inmate, confirm which specific unit they are assigned to as unit assignment affects housing location within the facility.",
+      },
+      {
+        question: "What does CMCF R&C mean?",
+        answer: "CMCF R&C stands for Reception and Classification at Central Mississippi Correctional Facility. The R&C unit is where new inmates are processed and classified when they first arrive at CMCF. After classification, inmates are assigned to their permanent housing unit within the facility. During the R&C process communication may be limited.",
       },
     ],
 

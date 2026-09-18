@@ -423,49 +423,49 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Miami-Dade County, Florida. Compare messaging, video, and phone providers for Miami-Dade correctional facilities.",
 
     intro: [
-      "Miami-Dade County operates its correctional system through the Miami-Dade Corrections and Rehabilitation Department (MDCR). Major facilities include Turner Guilford Knight Correctional Center (TGK) at 7000 NW 41st Street, Metro West Detention Center at 13850 NW 41st Street, and the Pre-Trial Detention Center at 1321 NW 13th Street. Phone services at all MDCR facilities are handled by Securus Technologies.",
-      "Inmates at Miami-Dade facilities cannot receive incoming calls. Your loved one must initiate all calls from facility phones. To receive calls, set up a Securus AdvancePay account at securustech.net or through the Securus Mobile app. Securus automated support is available at 972-734-1111 and customer service at 1-800-844-6591. MDCR posts step-by-step account setup guides in English, Spanish, and Creole on the county website.",
-      "Miami-Dade is among the Florida counties that offer free phone calls at its facilities. For commissary and trust account deposits, MDCR supports TouchPay online and by phone at 1-866-232-1899. Lobby kiosks are available at TGK and Metro West with extended daily hours. Video visitation at MDCR uses Global Tel Link (GTL) through ConnectNetwork, which is a separate account from the Securus phone account.",
+      "Miami-Dade County operates one of the largest jail systems in the United States through the Miami-Dade Corrections and Rehabilitation Department (MDCR). Major facilities include Turner Guilford Knight Correctional Center (TGK) at 7000 NW 41st Street Miami FL 33166, Metro West Detention Center at 13850 NW 41st Street Miami FL 33178, and the Pre-Trial Detention Center (PDC) at 1321 NW 13th Street Miami FL 33125. GTL ViaPath ConnectNetwork handles phone calls and video visitation at all Miami-Dade county jail facilities.",
+      "To receive phone calls from any Miami-Dade county jail, create a free GTL ConnectNetwork account at connectnetwork.com or call 877-650-4249. The inmate must add your number to their approved call list. For video visits at Turner Guilford Knight, register with GTL at connectnetwork.com. Allow up to 24 hours for processing. For video visit questions contact MDCR Inmate Visitation at 786-263-4119. Remote video visits are available for friends and family. In-person visits are available Monday through Saturday with sign-in at least 15 minutes before scheduled time.",
+      "Money transfers to Miami-Dade inmate accounts go through TouchPay using facility number 233101. Deposits must include the inmate name and inmate ID number. For inmate search and booking information use the Miami-Dade Corrections inmate search at miamidade.gov/corrections or call the Detention Office at 305-375-5100. TGK direct line is 786-263-5600. Metro West direct line is 786-263-7000.",
     ],
 
     overview: [
-      "Which provider do Miami-Dade jail families use? Securus Technologies handles all phone calls at Miami-Dade Corrections facilities. GTL ConnectNetwork handles video visitation. TouchPay handles commissary and trust account deposits. These are three separate providers and three separate accounts. You may need accounts with more than one provider depending on which services you use.",
-      "Are phone calls free at Miami-Dade facilities? Miami-Dade is among the Florida counties that have implemented free or reduced-cost calling. Contact the specific facility or check your Securus account for current rate information as policies can change. Even if calls are free or discounted, you still need a registered Securus account to receive calls.",
-      "What is the most common mistake Miami-Dade families make? Confusing the phone provider and the video provider is the most common mistake. Securus handles phone calls and GTL ConnectNetwork handles video visits. Funding your Securus account does not enable video visits and funding your ConnectNetwork account does not enable phone calls. Set up both accounts separately if you plan to use both services.",
+      "Which provider handles phone calls at Miami-Dade county jails? GTL ViaPath ConnectNetwork handles phone calls at all Miami-Dade Corrections and Rehabilitation Department facilities including Turner Guilford Knight (TGK), Metro West Detention Center, and the Pre-Trial Detention Center. Create a free ConnectNetwork account at connectnetwork.com or call 877-650-4249. You need the inmate ID number to set up the account.",
+      "What is Turner Guilford Knight (TGK) and how do I contact someone there? Turner Guilford Knight Correctional Center (TGK) is Miami-Dade's largest pretrial holding facility located at 7000 NW 41st Street Miami FL 33166. TGK has a capacity of approximately 1,300 inmates. Phone: 786-263-5600. Phone calls use GTL ConnectNetwork. Video visits require GTL registration at connectnetwork.com. Money deposits go through TouchPay using facility number 233101. For video visit questions call MDCR Inmate Visitation at 786-263-4119.",
+      "What is the most common mistake Miami-Dade jail families make? Sending money through the wrong provider is very common. Miami-Dade uses TouchPay with facility number 233101 for inmate deposits, not JPay. Using JPay for Miami-Dade deposits will cause delays. Also, for GTL video visitation at TGK, professional visitors including attorneys must complete a separate application. Friends and family use the standard GTL ConnectNetwork registration. Allow up to 24 hours for video visit account approval.",
     ],
 
     faq: [
       {
-        question: "Which provider do I use for Miami-Dade jail phone calls?",
-        answer: "Securus Technologies handles all phone calls at Miami-Dade Corrections facilities. Create a Securus AdvancePay account at securustech.net or through the Securus Mobile app. For automated support call 972-734-1111 or customer service at 1-800-844-6591. MDCR posts setup guides in English, Spanish, and Creole on the county website.",
+        question: "What is Turner Guilford Knight (TGK) correctional center?",
+        answer: "Turner Guilford Knight Correctional Center (TGK) is Miami-Dade County's largest pretrial holding facility located at 7000 Northwest 41st Street, Miami, FL 33166. TGK is operated by the Miami-Dade Corrections and Rehabilitation Department (MDCR) and houses approximately 1,300 inmates. Phone: 786-263-5600. GTL ViaPath ConnectNetwork handles phone calls and video visits.",
       },
       {
-        question: "How do I set up video visits at Miami-Dade jail?",
-        answer: "Video visitation at Miami-Dade Corrections uses Global Tel Link (GTL) through ConnectNetwork. Create a separate ConnectNetwork account at connectnetwork.com. This is a different account from your Securus phone account. Attorneys and professional visitors must complete a remote video visitation application and register on the GTL website. All visitors must acknowledge and comply with all visitation rules.",
+        question: "Which provider handles phone calls at Miami-Dade jails?",
+        answer: "GTL ViaPath ConnectNetwork handles phone calls at all Miami-Dade county jail facilities including Turner Guilford Knight (TGK), Metro West Detention Center, and the Pre-Trial Detention Center. Create a free account at connectnetwork.com or call 877-650-4249. You need the inmate ID number to set up the account.",
       },
       {
-        question: "How do I send money to someone at Miami-Dade jail?",
-        answer: "For commissary and trust account deposits, Miami-Dade Corrections supports TouchPay online and by phone at 1-866-232-1899. Lobby kiosks are available at TGK and Metro West with extended daily hours. The Pre-Trial Detention Center has evening windows. Always verify current hours on the MDCR trust deposits page before visiting a kiosk.",
+        question: "How do I set up GTL video visitation at Turner Guilford Knight?",
+        answer: "Register and create a GTL account at connectnetwork.com. Allow up to 24 hours for processing after registration. Once approved you can schedule remote video visits. For questions contact MDCR Inmate Visitation at 786-263-4119. Public visits at TGK are available Monday through Saturday. Visitors must sign in at least 15 minutes before their scheduled visit.",
       },
       {
-        question: "Can I call Miami-Dade jail to speak with an inmate?",
-        answer: "No. Inmates at Miami-Dade facilities cannot receive incoming calls. Your loved one must initiate all calls from facility phones to your registered Securus number. Set up a Securus AdvancePay account and fund it so calls can connect when they call you. Calls are limited in length and frequency by system settings and housing unit schedules.",
+        question: "How do I send money to someone at a Miami-Dade jail?",
+        answer: "Money transfers to Miami-Dade inmate accounts go through TouchPay using facility number 233101. Deposits must include the inmate name and inmate ID number. Do not use JPay for Miami-Dade deposits. Deposits made at inmate intake are posted to the inmate trust account for commissary purchases and self-bonding.",
       },
       {
-        question: "Which Miami-Dade facility is my loved one at?",
-        answer: "Miami-Dade Corrections operates multiple facilities. Turner Guilford Knight (TGK) is at 7000 NW 41st Street, Metro West is at 13850 NW 41st Street, and the Pre-Trial Detention Center is at 1321 NW 13th Street. Contact the MDCR main line to confirm the current location. Knowing the exact facility is important because kiosk hours and some services vary by location.",
+        question: "What is TGK phone calls and how do I receive them?",
+        answer: "TGK phone calls are outgoing calls from inmates at Turner Guilford Knight using the GTL ConnectNetwork phone system. Create a free ConnectNetwork AdvancePay account at connectnetwork.com, add your phone number, and fund the account. The inmate must add your number to their approved call list. Call GTL at 877-650-4249 for setup help.",
       },
       {
-        question: "What happens when my loved one transfers from Miami-Dade jail to a Florida state prison?",
-        answer: "When someone transfers from Miami-Dade county jail to a Florida Department of Corrections state prison, the communication providers change. Florida state prisons use JPay for messaging and money transfers. Phone services at Florida state prisons are handled by a separate FDOC contracted provider. Contact JPay and the new facility to set up accounts after confirming the transfer is complete.",
+        question: "How do I find someone in a Miami-Dade county jail?",
+        answer: "Use the Miami-Dade Corrections inmate search at miamidade.gov/corrections. You can also call the Detention Office at 305-375-5100 or TGK directly at 786-263-5600. For Metro West call 786-263-7000. For general inquiries about custody status, recent transfers, or release information call 786-263-5341.",
       },
       {
-        question: "Is there a Securus app I can use for Miami-Dade calls?",
-        answer: "Yes. Securus has a free mobile app available for iOS and Android called Securus Mobile. Download it from your app store and log in with your Securus account details to manage your AdvancePay account, check your balance, and receive notifications. The app makes it easier to manage your account and ensure your balance stays funded.",
+        question: "What are the Miami-Dade county jail facilities?",
+        answer: "Miami-Dade operates three main jail facilities. Turner Guilford Knight (TGK) at 7000 NW 41st Street Miami FL 33166, phone 786-263-5600. Metro West Detention Center at 13850 NW 41st Street Miami FL 33178, phone 786-263-7000. Pre-Trial Detention Center (PDC) at 1321 NW 13th Street Miami FL 33125. All use GTL ConnectNetwork for phone calls and video visits.",
       },
       {
-        question: "My call from Miami-Dade jail is not connecting. What should I do?",
-        answer: "Check that your Securus AdvancePay balance is funded. Confirm your phone number is registered and approved in your Securus account. Check that your phone settings are not blocking unknown numbers or sending them to voicemail. If the problem persists, contact Securus customer service at 1-800-844-6591. Calls may also be restricted during facility counts, lockdowns, or disciplinary actions.",
+        question: "Is Miami-Dade GTL video visitation available at home?",
+        answer: "Yes. Miami-Dade Corrections offers remote video visitation for friends and family using GTL ConnectNetwork. Register at connectnetwork.com and allow up to 24 hours for processing. Once approved you can schedule remote video visits from home. Attorneys and professional visitors must complete a separate application. For questions call MDCR Inmate Visitation at 786-263-4119.",
       },
     ],
 

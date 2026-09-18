@@ -299,51 +299,51 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Harris County, Texas. Compare messaging, video, and phone providers for Harris County correctional facilities.",
 
     intro: [
-      "Harris County is home to one of the largest jail systems in the United States, operated by the Harris County Sheriff's Office. The main facilities include the Harris County Jail on Baker Street and the LaSalle Corrections Center. Communication at Harris County facilities is handled by Securus Technologies for phone calls at the main jail and the Correct Solutions Group for LaSalle. These are two separate systems and funds cannot be transferred between them.",
+      "Harris County is home to Houston and is the third most populous county in the United States. The Harris County Sheriff's Office operates the Harris County Jail at 1200 Baker Street, Houston, TX 77002. The jail information line is 713-755-5300. Securus Technologies handles phone calls at Harris County Jail. Contact Securus at 1-800-844-6591 or visit securustech.net to set up an AdvancePay account. Inmates at Harris County Jail cannot receive incoming calls. All calls are outgoing only and are limited to 15 minutes per call.",
 
-      "As of June 16, 2025, Harris County Sheriff's Office no longer accepts personal physical mail at the facility. All personal mail now goes to the Securus Digital Mail Center where it is scanned and made available to inmates through eMessaging tablets and kiosks. Families must include the inmate full name as booked, SPN number, and housing facility and cell block location on all mail. Missing details can cause your envelope to be returned.",
+      "As of June 16 2025, Harris County Sheriff's Office no longer accepts personal mail at the facility. Personal mail now goes to the Securus Digital Mail Center where it is scanned and made available to the inmate through eMessaging tablets and kiosks. Physical letters should still be addressed to: Inmate Full Name, SPN Number, Harris County Jail, 701 N San Jacinto St, Houston TX 77002. Legal mail continues to be delivered directly to the facility. All incoming mail is reviewed before delivery.",
 
-      "Phone calls from Harris County Jail are inmate-initiated only. You cannot call the jail to reach an inmate. Your loved one must place the call out. To receive calls, set up a Securus AdvancePay account by calling Securus at 1-800-844-6591. For LaSalle Corrections Center, contact Correct Solutions Group separately at 1-877-618-3516.",
+      "Video visitation at Harris County Jail requires advance scheduling through the Securus system. Walk-in visits are not permitted. Off-site remote video visits cost $5.99 per 20 minutes and are only available for inmates housed at 700 N San Jacinto Street, the Joint Processing Center. For scheduling help contact Securus at 1-800-844-6591 or call 346-286-1480 after hours. Each inmate is allowed two on-site visits per week. A valid government-issued photo ID is required at check-in.",
     ],
 
     overview: [
-      "Which provider do Harris County jail families use? Securus Technologies handles phone calls and video visits at the Harris County Jail on Baker Street. LaSalle Corrections Center uses Correct Solutions Group. These are separate companies and separate accounts. Funds in a Securus account cannot be transferred to a Correct Solutions Group account when an inmate transfers between facilities.",
-      "What happened to mail at Harris County Jail? As of June 16, 2025, physical mail is no longer accepted directly at the facility. All mail goes through the Securus Digital Mail Center for scanning before delivery. Include the inmate full name as booked, SPN number, and complete housing location on every envelope to avoid returns.",
-      "What is the most common mistake Harris County families make? Signing up for the wrong provider is the most common mistake. Families with loved ones at LaSalle sign up for Securus when they should be using Correct Solutions Group. Always confirm which specific facility your loved one is currently at before creating any account or sending funds.",
+      "Which provider handles phone calls at Harris County Jail? Securus Technologies handles phone calls at Harris County Jail in Houston. Contact Securus at 1-800-844-6591 or visit securustech.net to set up an AdvancePay prepaid account. Inmates cannot receive incoming calls. They place outgoing calls limited to 15 minutes. Three-way calling and call forwarding are prohibited and result in immediate disconnection. All non-legal calls are recorded and monitored.",
+      "What changed about Harris County Jail mail in 2025? As of June 16 2025, Harris County Jail no longer accepts personal mail directly at the facility. Personal mail goes to the Securus Digital Mail Center where it is scanned and delivered to inmates electronically through tablets and kiosks. Address mail to: Inmate Full Name, SPN Number, Harris County Jail, 701 N San Jacinto St, Houston TX 77002. Legal mail is still delivered directly. Always include the inmate SPN number on all correspondence.",
+      "What is the most common mistake Harris County jail families make? Attempting walk-in visits is very common. Harris County Jail does not allow walk-in visits. All visits must be scheduled online in advance through the Securus system. Off-site video visits cost $5.99 per 20 minutes and are only available for inmates at the Joint Processing Center at 700 N San Jacinto. Also note that since June 2025 personal mail no longer goes directly to the facility. Always use the Securus Digital Mail Center address.",
     ],
 
     faq: [
       {
-        question: "Which provider do I use for Harris County Jail?",
-        answer: "Securus Technologies handles phone calls and video visits at the Harris County Jail on Baker Street. Call Securus at 1-800-844-6591 to set up a prepaid AdvancePay account. If your loved one is at the LaSalle Corrections Center, use Correct Solutions Group instead at 1-877-618-3516. These are separate systems and funds cannot be transferred between them.",
+        question: "Which provider handles phone calls at Harris County Jail?",
+        answer: "Securus Technologies handles phone calls at Harris County Jail in Houston. Contact Securus at 1-800-844-6591 or visit securustech.net to set up an AdvancePay prepaid account. Inmates cannot receive incoming calls. All calls are outgoing only and limited to 15 minutes. Three-way calling is prohibited.",
       },
       {
-        question: "Why is my phone blocked from receiving calls from Harris County Jail?",
-        answer: "If you are not receiving calls from Harris County Jail, your phone number may be blocked or not registered with Securus. Contact Securus at 1-800-844-6591 to check your number status and remove any block. Also check that your phone settings are not sending unknown numbers to voicemail. Collect calls may also be restricted depending on your phone carrier.",
+        question: "How do I set up a Securus AdvancePay account for Harris County Jail?",
+        answer: "Contact Securus at 1-800-844-6591 or visit securustech.net. Create a free account and set up an AdvancePay prepaid balance linked to your phone number. Fund the account so the inmate can call you. If your phone number blocks collect calls AdvancePay allows you to still receive calls. The inmate must have your number on their approved call list.",
       },
       {
-        question: "Can I send physical mail to someone at Harris County Jail?",
-        answer: "As of June 16, 2025, Harris County Sheriff's Office no longer accepts personal mail directly at the facility. All personal mail now goes to the Securus Digital Mail Center where it is scanned and delivered digitally. Include the inmate full name as booked, SPN number, and housing facility and cell block location. Missing information will cause your mail to be returned.",
+        question: "How do I find someone at Harris County Jail?",
+        answer: "Use the Harris County Sheriff's Office inmate search at harriscountyso.org or call the jail information line at 713-755-5300. You can also visit the public viewing room on the second floor of the Joint Processing Center at 700 N San Jacinto Street, Houston TX 77002. Have the person's full name and date of birth ready.",
       },
       {
-        question: "What is the SPN number and where do I find it?",
-        answer: "The SPN (System Person Number) is the identification number assigned to everyone booked into Harris County Jail. You need this number for mail, messaging accounts, and money transfers. You can find it by searching the Harris County Sheriff's Office online inmate locator or by calling the jail directly.",
+        question: "Can I still send mail to Harris County Jail?",
+        answer: "Yes but the process changed as of June 16 2025. Personal mail no longer goes directly to the facility. Mail is sent to the Securus Digital Mail Center where it is scanned and delivered to inmates electronically through tablets and kiosks. Address mail to: Inmate Full Name, SPN Number, Harris County Jail, 701 N San Jacinto St, Houston TX 77002. Legal mail is still delivered directly to the facility.",
       },
       {
-        question: "My loved one transferred from Harris County Jail to LaSalle. Do I need a new account?",
-        answer: "Yes. Harris County Jail uses Securus Technologies and LaSalle Corrections Center uses Correct Solutions Group. These are separate systems and funds cannot be transferred between them. Contact each company separately when an inmate moves between facilities. Call Securus at 1-800-844-6591 for the main jail and Correct Solutions Group at 1-877-618-3516 for LaSalle.",
+        question: "How do I schedule a video visit at Harris County Jail?",
+        answer: "All visits at Harris County Jail must be scheduled online in advance. Walk-in visits are not permitted. Off-site remote video visits cost $5.99 per 20 minutes and are only available for inmates at the Joint Processing Center at 700 N San Jacinto Street. For scheduling help contact Securus at 1-800-844-6591 or call 346-286-1480 after hours. Each inmate is allowed two on-site visits per week.",
       },
       {
-        question: "How do I send money to someone at Harris County Jail?",
-        answer: "For the main Harris County Jail, deposit money through Securus at securustech.net or by calling 1-800-844-6591. For LaSalle Corrections Center, use Correct Solutions Group at 1-877-618-3516. Money deposited in one system cannot be transferred to the other. Always confirm which facility your loved one is currently at before making a deposit.",
+        question: "What is the Harris County Jail address?",
+        answer: "The Harris County Jail main address is 1200 Baker Street, Houston TX 77002. The jail information line is 713-755-5300. For mail send to: Inmate Full Name, SPN Number, Harris County Jail, 701 N San Jacinto St, Houston TX 77002. For video visits and Joint Processing Center: 700 N San Jacinto Street, Houston TX 77002.",
       },
       {
-        question: "What happens if my loved one transfers from Harris County Jail to a Texas state prison?",
-        answer: "When someone moves from Harris County Jail to a Texas Department of Criminal Justice state prison, the communication provider changes. TDCJ uses Securus Technologies for phone calls but you must register your phone number separately through the TDCJ Friends and Family Enrollment system on the TDCJ website. Your existing Harris County Securus account may not automatically carry over to TDCJ.",
+        question: "What is the SPN number for Harris County Jail?",
+        answer: "The SPN stands for System Person Number and is the unique identification number assigned to every person booked into Harris County Jail. It must appear on all mail sent to the facility. Find the SPN number using the Harris County Sheriff's Office inmate search at harriscountyso.org or by calling 713-755-5300. The inmate can also provide their SPN number directly.",
       },
       {
-        question: "Can I do a video visit with someone at Harris County Jail?",
-        answer: "Yes. Video visits at Harris County Jail are available through Securus. Create a Securus account at securustech.net or through the Securus Mobile app. Schedule your visit in advance and select an available time slot. You need a device with a camera and a stable internet connection. All video visits are recorded and monitored by facility staff.",
+        question: "What happens when my loved one transfers from Harris County Jail to TDCJ?",
+        answer: "When someone is sentenced and transferred to the Texas Department of Criminal Justice (TDCJ) state prison system, the provider changes from Securus county jail accounts to the TDCJ phone system. TDCJ also uses Securus but as a separate account. Use the TDCJ offender search at tdcj.texas.gov to find the new facility and TDCJ number after the transfer is confirmed.",
       },
     ],
 

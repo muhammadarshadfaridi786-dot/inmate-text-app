@@ -356,7 +356,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         initial: "S",
         color: "bg-indigo-600",
         description:
-          "Primary phone and video visitation provider for the Harris County Jail in downtown Houston.",
+          "Securus Technologies handles phone calls, video visits, and digital mail at Harris County Jail. AdvancePay at securustech.net or 1-800-844-6591. As of June 2025 personal mail goes to the Securus Digital Mail Center. Video visits cost $5.99 per 20 minutes. Walk-in visits not allowed.",
       },
       {
         name: "JPay",

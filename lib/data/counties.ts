@@ -478,7 +478,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         initial: "G",
         color: "bg-amber-600",
         description:
-          "Phone calls and video visitation for Miami-Dade county jail facilities including Turner Guilford Knight.",
+          "GTL ViaPath ConnectNetwork is the primary phone call and video visitation provider at all Miami-Dade Corrections and Rehabilitation Department (MDCR) facilities including Turner Guilford Knight (TGK) at 786-263-5600, Metro West Detention Center, and the Pre-Trial Detention Center. Create account at connectnetwork.com or call 877-650-4249.",
       },
       {
         name: "JPay",
@@ -494,7 +494,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         initial: "S",
         color: "bg-indigo-600",
         description:
-          "Phone and communication services at select Miami-Dade detention and private correctional facilities.",
+          "Securus handles phone calls at select private correctional facilities in Miami-Dade County. For main county jail facilities including Turner Guilford Knight (TGK), Metro West, and the Pre-Trial Detention Center, GTL ConnectNetwork is the primary phone provider.",
       },
       {
         name: "CorrLinks",

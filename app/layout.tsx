@@ -73,25 +73,6 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <div id="container-2ca1b183d44c851e16dbc56c8b04add8" />
-        <Script
-          id="adsterra-banner-desktop"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              atOptions = {
-                'key' : '3e35eaa2dcc7aff7efb1d0aabd6bae91',
-                'format' : 'iframe',
-                'height' : 90,
-                'width' : 728,
-                'params' : {}
-              };
-            `,
-          }}
-        />
-        <Script
-          src="https://www.highrevenueformat.com/3e35eaa2dcc7aff7efb1d0aabd6bae91/invoke.js"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   )

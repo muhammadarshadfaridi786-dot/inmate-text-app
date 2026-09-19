@@ -19,7 +19,6 @@ import ProviderFaq from "@/components/provider/ProviderFaq"
 import ProviderCompareWith from "@/components/provider/ProviderCompareWith"
 import RelatedProviders from "@/components/provider/RelatedProviders"
 import ProviderCTA from "@/components/provider/ProviderCTA"
-import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner"
 import AdsterraBanner from "@/components/ads/AdsterraBanner"
 
 interface PageProps {
@@ -179,7 +178,6 @@ export default async function ProviderPage({ params }: PageProps) {
         facilities={provider.supportedFacilities}
       />
       <ProviderPricing providerName={provider.name} pricing={provider.pricing} />
-      <AdsterraNativeBanner />
       <ProviderProscons
         providerName={provider.name}
         pros={provider.pros}

@@ -62,17 +62,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <Script
-          src="https://pl31408495.profitableratecpmnetwork.com/18/29/eb/1829eb983050bfebb54af02ef95d0b3b.js"
-          strategy="afterInteractive"
-        />
-        <Script
-          async
-          data-cfasync="false"
-          src="https://pl31408504.profitableratecpmnetwork.com/2ca1b183d44c851e16dbc56c8b04add8/invoke.js"
-          strategy="afterInteractive"
-        />
-        <div id="container-2ca1b183d44c851e16dbc56c8b04add8" />
       </body>
     </html>
   )

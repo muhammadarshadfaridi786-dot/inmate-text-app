@@ -18,6 +18,7 @@ import FacilityRulesNotice from "@/components/facility/FacilityRulesNotice"
 import RelatedFacilities from "@/components/facility/RelatedFacilities"
 import FacilityFaq from "@/components/facility/FacilityFaq"
 import FacilityCTA from "@/components/facility/FacilityCTA"
+import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -104,6 +105,7 @@ export default async function FacilityPage({ params }: PageProps) {
       <StateIntro stateName={facility.name} intro={facility.overview} />
       <FacilityInfo facility={facility} />
       <FacilityCommunication facility={facility} />
+      <AdsterraNativeBanner />
       <FacilityProviders facilityName={facility.name} providers={facility.providers} />
       <FacilityRulesNotice facilityName={facility.name} rules={facility.rules} />
       <RelatedFacilities slugs={facility.relatedFacilitySlugs} />

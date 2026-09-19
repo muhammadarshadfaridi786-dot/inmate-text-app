@@ -24,34 +24,39 @@ const CSP = [
     "https://www.googletagmanager.com",
     "https://www.google-analytics.com",
     "https://www.clarity.ms",
+    "https://pagead2.googlesyndication.com",
+    "https://partner.googleadservices.com",
+    "https://www.highrevenueformat.com",
+    "https://pl31408495.profitableratecpmnetwork.com",
+    "https://pl31408504.profitableratecpmnetwork.com",
   ].join(" "),
   "style-src 'self' 'unsafe-inline'",
-  // data: for Next.js base64 image optimisation; https: covers provider logos
   "img-src 'self' data: https:",
-  "font-src 'self'",
+  "font-src 'self' data:",
   [
     "connect-src",
     "'self'",
-    // Supabase auth and database
     "https://*.supabase.co",
-    // Google Analytics
     "https://www.google-analytics.com",
     "https://analytics.google.com",
     "https://stats.g.doubleclick.net",
-    // Microsoft Clarity
     "https://www.clarity.ms",
     "https://c.clarity.ms",
     "https://t.clarity.ms",
+    "https://pagead2.googlesyndication.com",
+    "https://*.profitableratecpmnetwork.com",
+    "https://www.highrevenueformat.com",
   ].join(" "),
-  // No iframes anywhere on the site
-  "frame-src 'none'",
-  // No Flash, Java applets, or plugins
+  [
+    "frame-src",
+    "https://googleads.g.doubleclick.net",
+    "https://tpc.googlesyndication.com",
+    "https://*.profitableratecpmnetwork.com",
+    "https://www.highrevenueformat.com",
+  ].join(" "),
   "object-src 'none'",
-  // Prevent <base> tag injection
   "base-uri 'self'",
-  // Form submissions stay on our domain
   "form-action 'self'",
-  // Only upgrade insecure requests; do not block mixed content outright
   "upgrade-insecure-requests",
 ].join("; ")
 

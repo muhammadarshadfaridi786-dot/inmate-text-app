@@ -20,6 +20,7 @@ import ProviderCompareWith from "@/components/provider/ProviderCompareWith"
 import RelatedProviders from "@/components/provider/RelatedProviders"
 import ProviderCTA from "@/components/provider/ProviderCTA"
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner"
+import AdsterraBanner from "@/components/ads/AdsterraBanner"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -168,6 +169,7 @@ export default async function ProviderPage({ params }: PageProps) {
 
       {/* Page sections */}
       <ProviderHero provider={provider} />
+      <AdsterraBanner />
       <ProviderTrustMetrics provider={provider} />
       <StateIntro stateName={provider.name} intro={provider.overview} />
       <ProviderServices provider={provider} />

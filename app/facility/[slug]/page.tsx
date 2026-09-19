@@ -19,6 +19,7 @@ import RelatedFacilities from "@/components/facility/RelatedFacilities"
 import FacilityFaq from "@/components/facility/FacilityFaq"
 import FacilityCTA from "@/components/facility/FacilityCTA"
 import AdsterraNativeBanner from "@/components/ads/AdsterraNativeBanner"
+import AdsterraBanner from "@/components/ads/AdsterraBanner"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -101,6 +102,7 @@ export default async function FacilityPage({ params }: PageProps) {
 
       {/* Page sections */}
       <FacilityHero facility={facility} />
+      <AdsterraBanner />
       <FacilityQuickFacts facility={facility} />
       <StateIntro stateName={facility.name} intro={facility.overview} />
       <FacilityInfo facility={facility} />

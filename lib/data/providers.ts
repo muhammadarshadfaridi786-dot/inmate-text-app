@@ -2293,17 +2293,17 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       messaging: {
         available: true,
         description: "Send and receive electronic messages through the CityTeleCoin app at contracted facilities. Messages are reviewed by staff before delivery.",
-        notes: "Many CTC-contracted facilities do not have a messaging provider. Check with the facility directly about available communication options.",
+        notes: "Electronic messaging available through the CityTeleCoin app at contracted facilities. Message availability varies by facility. Contact CTC at 318-756-1114 to confirm messaging at your specific facility.",
       },
       video: {
         available: true,
         description: "Schedule and receive video visits through the CityTeleCoin app on iOS and Android. Video visits available at facilities with CTC video kiosks or tablets.",
-        notes: "If video visits are available at a CTC facility, they would be through a separate contracted provider. Confirm with the facility.",
+        notes: "Video visits available through the CityTeleCoin app at facilities with CTC video kiosks or tablets. Schedule visits through citytelecoin.com or the CTC app. Contact CTC at 318-756-1114 for video visit availability.",
       },
       photos: {
         available: true,
         description: "Send and receive photos through the CityTeleCoin app at participating facilities. Photo content is reviewed by facility staff before delivery.",
-        notes: "For photo services at CTC facilities, Pigeonly's physical letter and photo printing service works at most facilities that accept standard mail.",
+        notes: "Photo sharing available through the CityTeleCoin app at participating facilities. Photos are reviewed by staff before delivery. Availability varies by facility contract.",
       },
       phone: {
         available: true,

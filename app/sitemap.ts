@@ -37,14 +37,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     }))
 
-  const providerEntries: MetadataRoute.Sitemap = ALL_PROVIDERS
-    .filter((p) => p.hasDetailPage)
-    .map((p) => ({
-      url: `${siteUrl}/provider/${p.slug}`,
-      lastModified: new Date("2026-09-08"),
-      changeFrequency: "monthly",
-      priority: 0.85,
-    }))
+  const providerEntries: MetadataRoute.Sitemap = [
+    ...ALL_PROVIDERS
+      .filter((p) => p.hasDetailPage)
+      .map((p) => ({
+        url: `${siteUrl}/provider/${p.slug}`,
+        lastModified: new Date("2026-09-08"),
+        changeFrequency: "monthly" as const,
+        priority: 0.85,
+      })),
+    {
+      url: `${siteUrl}/provider/city-tele-coin/app`,
+      lastModified: new Date("2026-09-24"),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+  ]
 
   const comparisonEntries: MetadataRoute.Sitemap = ALL_COMPARISONS.map((c) => ({
     url: `${siteUrl}/compare/${c.slug}`,

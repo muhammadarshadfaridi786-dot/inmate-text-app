@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
+import Link from "next/link"
 import { PROVIDER_DETAILS } from "@/lib/data/providers"
 import { generateProviderMetadata } from "@/lib/seo"
 import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema, buildFAQSchema, buildProviderHowToSchema, buildSoftwareAppSchema } from "@/lib/schema"
@@ -226,6 +227,14 @@ export default async function ProviderPage({ params }: PageProps) {
                   <p className="text-xs font-medium text-foreground">Developer</p>
                   <p className="text-xs text-muted-foreground">City Tele-Coin Company, Inc., since 1986</p>
                 </div>
+              </div>
+              <div className="mt-4 text-center">
+                <Link
+                  href="/provider/city-tele-coin/app"
+                  className="text-sm text-primary hover:underline"
+                >
+                  Full CTC App Download Guide for iOS and Android
+                </Link>
               </div>
             </div>
           </section>

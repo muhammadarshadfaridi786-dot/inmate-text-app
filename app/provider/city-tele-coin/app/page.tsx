@@ -42,47 +42,47 @@ const faqSchema = {
       name: "Is there an app for City Tele Coin?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. The City Tele Coin app is available free for iOS on the Apple App Store and for Android on Google Play. Search for CityTeleCoin to find the official app published by City Tele-Coin Company Inc.",
+        text: "Yes. The City Tele Coin app is available free for iOS on the Apple App Store and for Android on Google Play. Search for CityTeleCoin to find the official app.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I download the City Tele Coin app for Android?",
+      name: "How do I download City Tele Coin app for Android free?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Open Google Play Store on your Android device and search for CityTeleCoin. Select the app published by City Tele-Coin Company and tap Install. The app is free to download.",
+        text: "Open Google Play Store, search for CityTeleCoin, and tap Install. The app is completely free to download. Charges only apply when you use paid services like phone calls or video visits.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I download the City Tele Coin app for iPhone?",
+      name: "How do I login to City Tele Coin app on iPhone?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Open the Apple App Store on your iPhone or iPad and search for City Tele Coin. Select the app published by City Tele-Coin Company Inc and tap Get. The app is free to download.",
+        text: "Open the CityTeleCoin app on your iPhone, enter your email and password, and tap Login. If you forgot your password use the Forgot Password link. For help call 318-756-1114.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I login to the City Tele Coin app?",
+      name: "How do I login to City Tele Coin app on Android?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Open the CityTeleCoin app and enter your registered email address and password. If you forgot your password tap Forgot Password and follow the reset instructions. If you cannot login contact CTC customer service at 318-756-1114.",
+        text: "Open the CityTeleCoin app on your Android device, enter your registered email and password, and tap Login. If you cannot access your account call CTC support at 318-756-1114.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I put money on City Tele Coin?",
+      name: "Is there a GettingOut app for GTL?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Open the CityTeleCoin app or go to citytelecoin.com. Log in to your account. Select Add Funds and choose the account type such as phone account or commissary. Enter the amount and pay by credit or debit card. Funds are typically credited within a few minutes to a few hours.",
+        text: "Yes but GettingOut is a different app from City Tele Coin. GettingOut is operated by Telmate, a GTL ViaPath subsidiary, and serves county jails. City Tele Coin serves a separate network of county jails primarily in the South. Check which provider your specific facility uses before downloading either app.",
       },
     },
     {
       "@type": "Question",
-      name: "How much does City Tele Coin cost?",
+      name: "How much does City Tele Coin cost per minute?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The City Tele Coin app is free to download. Charges apply for services used. Phone call rates are subject to FCC caps effective April 2026. Video visit costs vary by facility. Contact CTC at 318-756-1114 or visit citytelecoin.com for current rates at your specific facility.",
+        text: "City Tele Coin phone call rates are regulated by the FCC and capped at $0.11 per minute for large facilities effective April 2026. Video visit and message costs vary by facility. Contact CTC at 318-756-1114 for current rates.",
       },
     },
   ],

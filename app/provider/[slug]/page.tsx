@@ -181,22 +181,6 @@ export default async function ProviderPage({ params }: PageProps) {
 
       {/* Page sections */}
       <ProviderHero provider={provider} />
-      <AdsterraBanner />
-      <ProviderTrustMetrics provider={provider} />
-      <StateIntro stateName={provider.name} intro={provider.overview} />
-      <ProviderServices provider={provider} />
-      <ProviderCoverage provider={provider} />
-      <ProviderFacilities
-        providerName={provider.name}
-        facilities={provider.supportedFacilities}
-      />
-      <ProviderPricing providerName={provider.name} pricing={provider.pricing} />
-      <ProviderProscons
-        providerName={provider.name}
-        pros={provider.pros}
-        cons={provider.cons}
-      />
-      <ProviderFaq providerName={provider.name} faq={provider.faq} />
       {provider.slug === "city-tele-coin" && provider.appInfo && (
         <PageWrapper>
           <section className="py-8 border-t flex flex-col items-center text-center">
@@ -247,6 +231,22 @@ export default async function ProviderPage({ params }: PageProps) {
           </section>
         </PageWrapper>
       )}
+      <AdsterraBanner />
+      <ProviderTrustMetrics provider={provider} />
+      <StateIntro stateName={provider.name} intro={provider.overview} />
+      <ProviderServices provider={provider} />
+      <ProviderCoverage provider={provider} />
+      <ProviderFacilities
+        providerName={provider.name}
+        facilities={provider.supportedFacilities}
+      />
+      <ProviderPricing providerName={provider.name} pricing={provider.pricing} />
+      <ProviderProscons
+        providerName={provider.name}
+        pros={provider.pros}
+        cons={provider.cons}
+      />
+      <ProviderFaq providerName={provider.name} faq={provider.faq} />
       <ProviderCompareWith
         providerSlug={provider.slug}
         providerName={provider.name}

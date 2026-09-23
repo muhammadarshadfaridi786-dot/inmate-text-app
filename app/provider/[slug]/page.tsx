@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { PROVIDER_DETAILS } from "@/lib/data/providers"
 import { generateProviderMetadata } from "@/lib/seo"
-import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema, buildFAQSchema, buildProviderHowToSchema } from "@/lib/schema"
+import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema, buildFAQSchema, buildProviderHowToSchema, buildSoftwareAppSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
@@ -100,6 +100,19 @@ export default async function ProviderPage({ params }: PageProps) {
           )}
         />
       )}
+      {provider.slug === "city-tele-coin" && (
+        <JsonLd
+          schema={buildSoftwareAppSchema({
+            name: "City Tele Coin (CTC) App",
+            description: "City Tele Coin app for video visits, messaging, photo sharing, and payments at county jails. Available free on iOS and Android. Start, schedule, and receive video calls from incarcerated friends and family without leaving home.",
+            slug: "city-tele-coin",
+            operatingSystem: "Android, iOS",
+            applicationCategory: "UtilitiesApplication",
+            rating: 3.3,
+            ratingCount: 342,
+          })}
+        />
+      )}
       {provider.slug === "corrlinks" && (
         <JsonLd
           schema={buildProviderHowToSchema(
@@ -184,6 +197,56 @@ export default async function ProviderPage({ params }: PageProps) {
         cons={provider.cons}
       />
       <ProviderFaq providerName={provider.name} faq={provider.faq} />
+      {provider.slug === "city-tele-coin" && provider.appInfo && (
+        <PageWrapper>
+          <section className="py-8 border-t">
+            <div className="max-w-2xl">
+              <h2 className="text-lg font-bold text-foreground mb-2">
+                Download the City Tele Coin App
+              </h2>
+              <p className="text-sm text-muted-foreground mb-4">
+                The CityTeleCoin app is available free on iOS and Android. Use it to video visit, send messages, share photos, and manage your account from your smartphone.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href={provider.appInfo.iosUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-black text-white px-5 py-2.5 text-sm font-medium hover:bg-black/80 transition-colors"
+                >
+                  Download on the App Store
+                </a>
+                <a
+                  href={provider.appInfo.androidUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-green-700 text-white px-5 py-2.5 text-sm font-medium hover:bg-green-800 transition-colors"
+                >
+                  Get it on Google Play
+                </a>
+              </div>
+              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="rounded-lg border p-3">
+                  <p className="text-xs font-medium text-foreground">iOS Version</p>
+                  <p className="text-xs text-muted-foreground">Version 16.0.0, June 2026</p>
+                </div>
+                <div className="rounded-lg border p-3">
+                  <p className="text-xs font-medium text-foreground">Android Version</p>
+                  <p className="text-xs text-muted-foreground">Available on Google Play</p>
+                </div>
+                <div className="rounded-lg border p-3">
+                  <p className="text-xs font-medium text-foreground">App Features</p>
+                  <p className="text-xs text-muted-foreground">Video visits, messaging, photos, payments</p>
+                </div>
+                <div className="rounded-lg border p-3">
+                  <p className="text-xs font-medium text-foreground">Developer</p>
+                  <p className="text-xs text-muted-foreground">City Tele-Coin Company, Inc., since 1986</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </PageWrapper>
+      )}
       <ProviderCompareWith
         providerSlug={provider.slug}
         providerName={provider.name}

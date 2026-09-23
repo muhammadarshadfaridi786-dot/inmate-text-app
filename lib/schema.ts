@@ -352,3 +352,38 @@ export function buildSiteLinksSearchBoxSchema(): JsonLdSchema {
     },
   }
 }
+
+export function buildSoftwareAppSchema(app: {
+  name: string
+  description: string
+  slug: string
+  operatingSystem?: string
+  applicationCategory?: string
+  appUrl?: string
+  rating?: number
+  ratingCount?: number
+}): JsonLdSchema {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: app.name,
+    description: app.description,
+    url: absoluteUrl(`/provider/${app.slug}`),
+    operatingSystem: app.operatingSystem ?? "Android, iOS",
+    applicationCategory: app.applicationCategory ?? "UtilitiesApplication",
+    aggregateRating: app.rating ? {
+      "@type": "AggregateRating",
+      ratingValue: app.rating,
+      bestRating: 5,
+      worstRating: 1,
+      ratingCount: app.ratingCount ?? 100,
+    } : undefined,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    downloadUrl: "https://play.google.com/store/apps/details?id=com.citytelecoin.mobile",
+    installUrl: "https://apps.apple.com/us/app/city-tele-coin/id1144120270",
+  }
+}

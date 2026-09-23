@@ -30,6 +30,19 @@ export interface ProviderSupportedFacility {
   type: string
 }
 
+export interface ProviderAppInfo {
+  name: string
+  developer: string
+  iosUrl: string
+  androidUrl: string
+  iosVersion?: string
+  operatingSystem: string
+  applicationCategory: string
+  features: string[]
+  rating?: number
+  ratingCount?: number
+}
+
 export interface ProviderBasic {
   id: string
   name: string
@@ -76,6 +89,7 @@ export interface ProviderDetail extends ProviderBasic {
   relatedProviderSlugs: string[]
   rating?: number
   reviewCount?: number
+  appInfo?: ProviderAppInfo
 }
 
 // ─────────────────────────────────────────────
@@ -2251,6 +2265,19 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     website: "https://www.citytelecoin.com",
     iosUrl: "https://apps.apple.com/us/app/citytelecoin/id1436829796",
     androidUrl: "https://play.google.com/store/apps/details?id=com.citytelecoin.mobile",
+
+    appInfo: {
+      name: "City Tele Coin (CTC) App",
+      developer: "City Tele-Coin Company, Inc.",
+      iosUrl: "https://apps.apple.com/us/app/city-tele-coin/id1144120270",
+      androidUrl: "https://play.google.com/store/apps/details?id=com.citytelecoin.mobile",
+      iosVersion: "16.0.0 (June 2026)",
+      operatingSystem: "Android, iOS",
+      applicationCategory: "UtilitiesApplication",
+      features: ["Video visits", "Messaging", "Photos", "Payments"],
+      rating: 3.3,
+      ratingCount: 342,
+    },
 
     overview: [
       "How do I add money to City Tele Coin for an inmate? Visit citytelecoin.com and log in to your account. Select Add Funds, choose the account type (phone account or commissary deposit), enter the amount, and pay by debit card, credit card, or money order. You can also add money through the City Tele Coin mobile app. Search for City Tele-Coin in the iOS App Store or Google Play Store to download it. For live help call CTC customer service at 318-756-1114 between 7 AM and 7 PM Central time seven days a week.",

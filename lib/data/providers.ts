@@ -286,7 +286,7 @@ export const ALL_PROVIDERS: ProviderBasic[] = [
     initial: "C",
     color: "bg-red-700",
     tagline: "Inmate phone calls and communication services for county facilities",
-    services: { messaging: false, video: false, photos: false, phone: true, moneyTransfer: true },
+    services: { messaging: true, video: true, photos: true, phone: true, moneyTransfer: true },
     statesCount: 12,
     facilitiesCount: 180,
     appAvailable: false,
@@ -2263,7 +2263,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "How to add money on City Tele Coin app, set up CTC inmate phone calls, make commissary deposits at citytelecoin.com. Step-by-step guide for families. CTC customer service: 318-756-1114.",
 
     website: "https://www.citytelecoin.com",
-    iosUrl: "https://apps.apple.com/us/app/citytelecoin/id1436829796",
+    iosUrl: "https://apps.apple.com/us/app/citytelecoin/id1144120270",
     androidUrl: "https://play.google.com/store/apps/details?id=com.citytelecoin.mobile",
 
     appInfo: {

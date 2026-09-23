@@ -181,9 +181,25 @@ export default async function ProviderPage({ params }: PageProps) {
 
       {/* Page sections */}
       <ProviderHero provider={provider} />
+      <AdsterraBanner />
+      <ProviderTrustMetrics provider={provider} />
+      <StateIntro stateName={provider.name} intro={provider.overview} />
+      <ProviderServices provider={provider} />
+      <ProviderCoverage provider={provider} />
+      <ProviderFacilities
+        providerName={provider.name}
+        facilities={provider.supportedFacilities}
+      />
+      <ProviderPricing providerName={provider.name} pricing={provider.pricing} />
+      <ProviderProscons
+        providerName={provider.name}
+        pros={provider.pros}
+        cons={provider.cons}
+      />
+      <ProviderFaq providerName={provider.name} faq={provider.faq} />
       {provider.slug === "city-tele-coin" && provider.appInfo && (
         <PageWrapper>
-          <section className="py-8 border-t">
+          <section className="py-8 border-t flex flex-col items-center text-center">
             <div className="max-w-2xl">
               <h2 className="text-lg font-bold text-foreground mb-2">
                 Download the City Tele Coin App
@@ -191,7 +207,7 @@ export default async function ProviderPage({ params }: PageProps) {
               <p className="text-sm text-muted-foreground mb-4">
                 The CityTeleCoin app is available free on iOS and Android. Use it to video visit, send messages, share photos, and manage your account from your smartphone.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a
                   href={provider.appInfo.iosUrl}
                   target="_blank"
@@ -209,7 +225,7 @@ export default async function ProviderPage({ params }: PageProps) {
                   Get it on Google Play
                 </a>
               </div>
-              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-lg mx-auto">
                 <div className="rounded-lg border p-3">
                   <p className="text-xs font-medium text-foreground">iOS Version</p>
                   <p className="text-xs text-muted-foreground">Version 16.0.0, June 2026</p>
@@ -231,22 +247,6 @@ export default async function ProviderPage({ params }: PageProps) {
           </section>
         </PageWrapper>
       )}
-      <AdsterraBanner />
-      <ProviderTrustMetrics provider={provider} />
-      <StateIntro stateName={provider.name} intro={provider.overview} />
-      <ProviderServices provider={provider} />
-      <ProviderCoverage provider={provider} />
-      <ProviderFacilities
-        providerName={provider.name}
-        facilities={provider.supportedFacilities}
-      />
-      <ProviderPricing providerName={provider.name} pricing={provider.pricing} />
-      <ProviderProscons
-        providerName={provider.name}
-        pros={provider.pros}
-        cons={provider.cons}
-      />
-      <ProviderFaq providerName={provider.name} faq={provider.faq} />
       <ProviderCompareWith
         providerSlug={provider.slug}
         providerName={provider.name}

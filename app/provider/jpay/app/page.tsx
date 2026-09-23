@@ -42,23 +42,15 @@ const faqSchema = {
       name: "Is there a JPay app for inmates?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. The JPay app is available free for iOS and Android. Families use it to send money, email messages, photos, and schedule video visits with incarcerated loved ones at state prisons. The app is published by JPay LLC and Jpay Mobile.",
+        text: "Yes. The JPay app is available free for iOS and Android. Families use it to send money, email, photos, and schedule video visits. The app is published by JPay LLC and Jpay Mobile. JPay serves state prisons only, not federal prisons.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I download the JPay app for Android free?",
+      name: "How do I download JPay app for Android free?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Open Google Play Store on your Android device and search for JPay. Select the app published by Jpay Mobile and tap Install. The app is free to download. You must be 18 or older to use the JPay app per requirements effective January 2026.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do I download the JPay app for iPhone?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Open the Apple App Store on your iPhone and search for JPay. Select the app published by JPay LLC and tap Get. The app is free. You must confirm you are 18 or older per requirements effective December 2025.",
+        text: "Open Google Play Store, search for JPay, select the Jpay Mobile app, and tap Install. Free to download. Age 18 plus verification required as of January 2026. Android 9.0 or higher required.",
       },
     },
     {
@@ -66,15 +58,7 @@ const faqSchema = {
       name: "How do I login to JPay?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Open the JPay app or go to jpay.com. Enter your registered email address and password and tap Login. If you forgot your password tap Forgot Password. For account help call JPay customer service at 1-800-574-5729.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do I send money on the JPay app?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Open the JPay app and log in. Tap Send Money and select the facility and inmate. Enter the amount and pay by debit or credit card. Funds are typically credited to the inmate trust account within one to two business days. JPay accepts Visa, Mastercard, and money orders.",
+        text: "Open the JPay app, enter your email and password, and tap Login. Forgot password link is available on the login screen. For help call 1-800-574-5729. You can also login at jpay.com without app age verification.",
       },
     },
     {
@@ -82,15 +66,23 @@ const faqSchema = {
       name: "Why is the JPay app not working?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Common JPay app issues include login errors, payment failures, and video visit problems. First check your internet connection. Try uninstalling and reinstalling the app. Make sure your age is verified in your App Store or Google Play account since JPay requires 18-plus verification as of late 2025. If the problem continues call JPay support at 1-800-574-5729.",
+        text: "Most JPay app issues are caused by age verification not being set up. Open your Apple ID or Google Play account settings and confirm your birthdate shows 18 or older. Also try uninstalling and reinstalling the app. For persistent problems call 1-800-574-5729.",
       },
     },
     {
       "@type": "Question",
-      name: "What is JPay email for inmates?",
+      name: "What is the new JPay app for inmates?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "JPay email is the electronic messaging system for state prison inmates. You purchase JPay stamps to send messages. Each stamp costs between $0.33 and $0.47 and sends one message. Attach photos for one additional stamp each. Messages are reviewed by staff before delivery. JPay email only works at state prisons, not federal prisons.",
+        text: "JPay updated its app with new age verification requirements starting December 2025 for iOS and January 2026 for Android. Users must confirm they are 18 or older through their Apple ID or Google account settings before the app will work.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I put money on JPay app?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Log in to the JPay app, tap Send Money, select the facility and inmate, enter the amount, and pay by debit or credit card. Transaction fees apply. Funds are credited within one to two business days. JPay accepts Visa and Mastercard.",
       },
     },
   ],

@@ -182,6 +182,18 @@ export default async function ProviderPage({ params }: PageProps) {
 
       {/* Page sections */}
       <ProviderHero provider={provider} />
+      {provider.slug === "jpay" && (
+        <div className="border-b py-4">
+          <PageWrapper>
+            <p className="text-sm text-muted-foreground">
+              Looking for the JPay app?{" "}
+              <Link href="/provider/jpay/app" className="text-primary hover:underline">
+                Full JPay App Download Guide for iOS and Android
+              </Link>
+            </p>
+          </PageWrapper>
+        </div>
+      )}
       {provider.slug === "city-tele-coin" && provider.appInfo && (
         <PageWrapper>
           <section className="py-8 border-t flex flex-col items-center text-center">

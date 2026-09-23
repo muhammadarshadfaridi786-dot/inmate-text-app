@@ -52,6 +52,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    {
+      url: `${siteUrl}/provider/jpay/app`,
+      lastModified: new Date("2026-09-24"),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
   ]
 
   const comparisonEntries: MetadataRoute.Sitemap = ALL_COMPARISONS.map((c) => ({

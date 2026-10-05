@@ -2,6 +2,23 @@ import { createServerClient } from "@supabase/ssr"
 import { NextResponse, type NextRequest } from "next/server"
 
 export async function proxy(request: NextRequest) {
+  const { pathname } = request.nextUrl
+
+  // Performance: the Supabase getUser() call below does a network round-trip
+  // on every request. Public content pages don't need session validation, so
+  // skip it entirely there — this keeps TTFB low for anonymous readers (the
+  // vast majority of traffic). Auth pages still get full session handling.
+  const needsAuth =
+    pathname === "/sign-in" ||
+    pathname === "/sign-up" ||
+    pathname === "/account" ||
+    pathname.startsWith("/account/") ||
+    pathname.startsWith("/dashboard")
+
+  if (!needsAuth) {
+    return NextResponse.next({ request })
+  }
+
   let supabaseResponse = NextResponse.next({ request })
 
   const supabase = createServerClient(
@@ -30,8 +47,6 @@ export async function proxy(request: NextRequest) {
   const {
     data: { user },
   } = await supabase.auth.getUser()
-
-  const { pathname } = request.nextUrl
 
   // Redirect authenticated users away from auth pages
   if (user && (pathname === "/sign-in" || pathname === "/sign-up")) {

@@ -3,7 +3,7 @@ import { absoluteUrl } from "./utils"
 
 const SITE_NAME = "Inmate Text App"
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
-const DEFAULT_OG_IMAGE = absoluteUrl("/og")
+export const DEFAULT_OG_IMAGE = absoluteUrl("/og")
 
 const GSC_TOKEN = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
 const BING_TOKEN = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION

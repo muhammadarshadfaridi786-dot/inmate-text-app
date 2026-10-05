@@ -22,14 +22,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at San Quentin Rehabilitation Center. Phone calls from CDCR are free under SB 1008. Securus replaced ViaPath. Find messaging and visit options at 415-454-1460.",
 
     description:
-      "San Quentin State Prison communication guide. Find messaging, video visitation, and phone options. Compare JPay and GTL services for families staying connected.",
+      "San Quentin State Prison communication guide. Find messaging, video visitation, and phone options. Compare JPay and Securus services for families staying connected.",
 
     overview: [
       "San Quentin State Prison, located on the shores of San Francisco Bay in Marin County, is California's oldest correctional institution and one of the most well-known prisons in the United States. Opened in 1852, the facility has housed some of California's most serious offenders and has also been home to noteworthy educational and rehabilitation programs. In recent years, California has announced plans to transform the facility into a rehabilitation and education campus, which may affect future operations and communication arrangements. For now, the standard communication systems used across California Department of Corrections and Rehabilitation facilities remain in place.",
 
-      "Communication at San Quentin is primarily handled through two platforms. JPay manages electronic messaging, photo sharing, and money transfers for incarcerated individuals at the facility, while GTL handles phone calls and video visitation. Families who want to send messages or photos need to create a JPay account, fund it with stamps, and address messages to the correct inmate ID. For phone calls, families can add funds to a GTL AdvancePay account, which allows inmates to call directly from their housing unit. Video visits are also managed through GTL and must be scheduled in advance — same-day bookings are not typically available, and slots fill up quickly around weekends and holidays.",
+      "Communication at San Quentin is primarily handled through two platforms. JPay manages electronic messaging, photo sharing, and money transfers for incarcerated individuals at the facility, while Securus handles phone calls and video visitation. Families who want to send messages or photos need to create a JPay account, fund it with stamps, and address messages to the correct inmate ID. For phone calls, families can add funds to a Securus AdvancePay account, which allows inmates to call directly from their housing unit. Video visits are also managed through Securus and must be scheduled in advance — same-day bookings are not typically available, and slots fill up quickly around weekends and holidays.",
 
-      "For families new to the system, the most common challenge is understanding that JPay and GTL are separate platforms requiring separate accounts. Messaging credits purchased on JPay cannot be used for phone calls or video visits, and phone funds in a GTL account cannot pay for messaging. Setting up both accounts before your first contact attempt will save significant time. The facility does not directly process communication requests — all account setup, funding, and scheduling must be done through the provider platforms directly. This guide provides direct pathways to those platforms and the most current information on available services.",
+      "For families new to the system, the most common challenge is understanding that JPay and Securus are separate platforms requiring separate accounts. Messaging credits purchased on JPay cannot be used for phone calls or video visits, and phone funds in a Securus account cannot pay for messaging. Setting up both accounts before your first contact attempt will save significant time. The facility does not directly process communication requests — all account setup, funding, and scheduling must be done through the provider platforms directly. This guide provides direct pathways to those platforms and the most current information on available services.",
     ],
 
     address: "1 Main Street, San Quentin, CA 94964",
@@ -53,16 +53,16 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         notes: "Primary platform for electronic messaging, photo sharing, and inmate money deposits.",
       },
       {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-700",
         messaging: false,
         video: true,
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "Phone calls and video visitation. Manage your AdvancePay or Direct Bill account through GTL.",
+        notes: "Phone calls and video visitation. Manage your AdvancePay or Direct Bill account through Securus.",
       },
     ],
 
@@ -74,8 +74,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       video: {
         status: "available",
-        provider: "GTL",
-        notes: "Remote video visits available. Must be scheduled in advance through GTL.",
+        provider: "Securus",
+        notes: "Remote video visits available. Must be scheduled in advance through Securus.",
       },
       photos: {
         status: "available",
@@ -84,8 +84,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       phone: {
         status: "available",
-        provider: "GTL",
-        notes: "Inmate-initiated calls via GTL. Fund a GTL AdvancePay account to receive calls.",
+        provider: "Securus",
+        notes: "Inmate-initiated calls via Securus. Fund a Securus AdvancePay account to receive calls.",
       },
       moneyTransfer: {
         status: "available",
@@ -96,7 +96,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     rules: [
       "All electronic messages are subject to review by facility staff before delivery.",
-      "Video visits must be booked in advance through GTL. Walk-in video is not available.",
+      "Video visits must be booked in advance through Securus. Walk-in video is not available.",
       "Photos submitted through JPay must comply with CDCR content guidelines.",
       "Phone accounts must be funded before an inmate can place a call.",
       "Senders must be on the inmate's approved contact list to exchange messages or visits.",
@@ -111,7 +111,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I schedule a video visit at San Quentin?",
         answer:
-          "Video visits at San Quentin are managed through GTL. Create an account at gtlvisitme.com or through the GTL Video Visitation app, search for San Quentin, and select an available time slot. You will need the inmate's ID number and must be on their approved visitor list. Slots should be booked at least 48 hours in advance.",
+          "Video visits at San Quentin are managed through Securus. Create an account at www.securustech.net or through the Securus Mobile app, search for San Quentin, and select an available time slot. You will need the inmate's ID number and must be on their approved visitor list. Slots should be booked at least 48 hours in advance.",
       },
       {
         question: "Can I send photos to someone at San Quentin?",
@@ -121,7 +121,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I add money to a phone account for San Quentin calls?",
         answer:
-          "Phone calls at San Quentin are managed by GTL. To receive calls, set up a GTL AdvancePay account at telmate.com or through the GTL app using your phone number. Add funds via debit or credit card, and the inmate can call your number directly once funds are available.",
+          "Phone calls at San Quentin are managed by Securus. To receive calls, set up a Securus AdvancePay account at www.securustech.net or through the Securus app using your phone number. Add funds via debit or credit card, and the inmate can call your number directly once funds are available.",
       },
       {
         question: "How do I send money directly to an inmate at San Quentin?",
@@ -658,9 +658,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Pelican Bay State Prison is a maximum-security facility located in Del Norte County in the far northern corner of California, near the Oregon border. Opened in 1989, it was designed specifically to house California's most serious and gang-affiliated offenders. The facility is perhaps best known for its Security Housing Unit, or SHU — a restrictive housing program where inmates are held in near-complete isolation for extended periods. Following legal settlements and California CDCR policy changes in the mid-2010s, the SHU program has been significantly reformed, but Pelican Bay remains one of the state's most restrictive facilities in terms of programs, privileges, and communication access.",
 
-      "Communication options at Pelican Bay are available but more limited than at general-population California state prisons. JPay is the primary platform for electronic messaging and money transfers, as it is across the CDCR system. Families can send messages and photos through JPay using the inmate's CDCR number. Phone calls are managed by GTL and are available for most general-population inmates, though those in more restrictive housing assignments may have reduced or restricted phone access depending on their current status and programming level. Families should confirm the inmate's current housing assignment and program status, as this directly affects what communication is permitted.",
+      "Communication options at Pelican Bay are available but more limited than at general-population California state prisons. JPay is the primary platform for electronic messaging and money transfers, as it is across the CDCR system. Families can send messages and photos through JPay using the inmate's CDCR number. Phone calls are managed by Securus and are available for most general-population inmates, though those in more restrictive housing assignments may have reduced or restricted phone access depending on their current status and programming level. Families should confirm the inmate's current housing assignment and program status, as this directly affects what communication is permitted.",
 
-      "Video visitation at Pelican Bay is available for some inmates but can be subject to restrictions based on housing status. Remote video visits through GTL are the standard approach, but families should verify eligibility before booking. Because the facility is so remote — it is more than 350 miles from San Francisco and more than 400 miles from Los Angeles — in-person visits are logistically difficult for many families, making electronic communication options especially important. Setting up JPay and GTL accounts in advance of any visit or attempted contact is strongly recommended.",
+      "Video visitation at Pelican Bay is available for some inmates but can be subject to restrictions based on housing status. Remote video visits through Securus are the standard approach, but families should verify eligibility before booking. Because the facility is so remote — it is more than 350 miles from San Francisco and more than 400 miles from Los Angeles — in-person visits are logistically difficult for many families, making electronic communication options especially important. Setting up JPay and Securus accounts in advance of any visit or attempted contact is strongly recommended.",
     ],
 
     address: "5905 Lake Earl Drive, Crescent City, CA 95531",
@@ -684,10 +684,10 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         notes: "Electronic messaging, photos, and money transfers. Uses CDCR ID number.",
       },
       {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-700",
         messaging: false,
         video: true,
         photos: false,
@@ -705,7 +705,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       video: {
         status: "limited",
-        provider: "GTL",
+        provider: "Securus",
         notes: "Available for general population. Restricted housing inmates may not have video access.",
       },
       photos: {
@@ -715,7 +715,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       phone: {
         status: "limited",
-        provider: "GTL",
+        provider: "Securus",
         notes: "Available for general population. Phone access restricted for some housing assignments.",
       },
       moneyTransfer: {
@@ -747,17 +747,17 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "Are phone calls available at Pelican Bay?",
         answer:
-          "Phone calls at Pelican Bay are managed by GTL. General population inmates have access to facility phones, and families can fund a GTL prepaid account to receive calls. However, phone access can be restricted for inmates in disciplinary housing or those with specific program restrictions. The facility's extremely remote location also affects inmate count and program availability.",
+          "Phone calls at Pelican Bay are managed by Securus. General population inmates have access to facility phones, and families can fund a Securus prepaid account to receive calls. However, phone access can be restricted for inmates in disciplinary housing or those with specific program restrictions. The facility's extremely remote location also affects inmate count and program availability.",
       },
       {
         question: "Is video visitation available at Pelican Bay?",
         answer:
-          "Remote video visitation is available for eligible inmates through GTL. However, given the higher-security nature of the facility, video visit availability may be more limited than at other California state prisons. Families should create a GTL account and confirm video visit eligibility for their specific loved one before booking.",
+          "Remote video visitation is available for eligible inmates through Securus. However, given the higher-security nature of the facility, video visit availability may be more limited than at other California state prisons. Families should create a Securus account and confirm video visit eligibility for their specific loved one before booking.",
       },
       {
         question: "How do I send money to someone at Pelican Bay?",
         answer:
-          "Trust account deposits for Pelican Bay inmates are processed through JPay. Log in, navigate to Send Money, and select Pelican Bay State Prison. Funds go to the inmate's trust account for commissary purchases. GTL also accepts phone account funding separately if the inmate has phone access.",
+          "Trust account deposits for Pelican Bay inmates are processed through JPay. Log in, navigate to Send Money, and select Pelican Bay State Prison. Funds go to the inmate's trust account for commissary purchases. Securus also accepts phone account funding separately if the inmate has phone access.",
       },
     ],
 
@@ -784,14 +784,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at Folsom State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options at Folsom.",
 
     description:
-      "Folsom State Prison communication guide. Find JPay, GTL messaging, video, and phone options for families. Learn how to stay connected with inmates at California's historic Folsom facility.",
+      "Folsom State Prison communication guide. Find JPay, Securus messaging, video, and phone options for families. Learn how to stay connected with inmates at California's historic Folsom facility.",
 
     overview: [
       "Folsom State Prison is one of California's most historically significant correctional facilities, located in the foothills of the Sierra Nevada about 20 miles northeast of Sacramento in Sacramento County. Opened in 1880, it is the second-oldest prison in California and housed the state's death row for many decades. The facility became widely known through Johnny Cash's 1968 live album recorded there. Today, Folsom houses male inmates at Level II and Level IV security classifications under the California Department of Corrections and Rehabilitation, with a reputation for active educational and vocational programming compared to higher-security facilities.",
 
-      "Communication at Folsom operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers for inmates at the facility. Families can send messages and digital photos through their JPay account using the inmate's CDCR identification number. GTL manages phone calls and video visitation. For phone calls, families set up a GTL AdvancePay or Direct Bill account linked to their phone number. Video visits are available remotely through GTL and can be scheduled in advance through the GTL website or app. Compared to higher-security facilities like Pelican Bay, Folsom has broader communication access given its lower-security Level II population.",
+      "Communication at Folsom operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers for inmates at the facility. Families can send messages and digital photos through their JPay account using the inmate's CDCR identification number. Securus manages phone calls and video visitation. For phone calls, families set up a Securus AdvancePay or Direct Bill account linked to their phone number. Video visits are available remotely through Securus and can be scheduled in advance through the Securus website or app. Compared to higher-security facilities like Pelican Bay, Folsom has broader communication access given its lower-security Level II population.",
 
-      "One practical note for families: Sacramento County and the broader Sacramento area have good transit access to Folsom, making in-person visits more feasible than at remote facilities. However, many families still rely primarily on electronic communication between in-person visits, and having active JPay and GTL accounts allows for more frequent contact. Money transfers through JPay for commissary are a common way families support incarcerated loved ones with personal items beyond what the state provides. Understanding both platforms — JPay for messaging and money, GTL for phone and video — gives families the full range of available options.",
+      "One practical note for families: Sacramento County and the broader Sacramento area have good transit access to Folsom, making in-person visits more feasible than at remote facilities. However, many families still rely primarily on electronic communication between in-person visits, and having active JPay and Securus accounts allows for more frequent contact. Money transfers through JPay for commissary are a common way families support incarcerated loved ones with personal items beyond what the state provides. Understanding both platforms — JPay for messaging and money, Securus for phone and video — gives families the full range of available options.",
     ],
 
     address: "300 Prison Road, Represa, CA 95671",
@@ -815,10 +815,10 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         notes: "Electronic messaging, photo sharing, and trust account money deposits.",
       },
       {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-700",
         messaging: false,
         video: true,
         photos: false,
@@ -836,8 +836,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       video: {
         status: "available",
-        provider: "GTL",
-        notes: "Remote video visits via GTL. Schedule in advance through the GTL website or app.",
+        provider: "Securus",
+        notes: "Remote video visits via Securus. Schedule in advance through the Securus website or app.",
       },
       photos: {
         status: "available",
@@ -846,21 +846,21 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       phone: {
         status: "available",
-        provider: "GTL",
-        notes: "Inmate-initiated phone calls via GTL. Fund AdvancePay account to receive calls.",
+        provider: "Securus",
+        notes: "Inmate-initiated phone calls via Securus. Fund AdvancePay account to receive calls.",
       },
       moneyTransfer: {
         status: "available",
         provider: "JPay",
-        notes: "Trust account and phone account deposits available through JPay and GTL respectively.",
+        notes: "Trust account and phone account deposits available through JPay and Securus respectively.",
       },
     },
 
     rules: [
       "All electronic messages and calls are subject to CDCR monitoring and review.",
-      "JPay (messaging/money) and GTL (phone/video) are separate accounts. Funds do not transfer between them.",
+      "JPay (messaging/money) and Securus (phone/video) are separate accounts. Funds do not transfer between them.",
       "Photos submitted via JPay must comply with CDCR content guidelines.",
-      "Video visits must be scheduled in advance through GTL.",
+      "Video visits must be scheduled in advance through Securus.",
       "Inmate-initiated calls only. Families cannot call the facility to speak with an inmate directly.",
     ],
 
@@ -873,7 +873,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I set up video visitation at Folsom?",
         answer:
-          "Video visits at Folsom State Prison are managed by GTL. Create an account at telmate.com or through the GTL app, search for Folsom State Prison, and select an available time slot. Video visits must be scheduled in advance. Same-day bookings are not available. You will need a device with a camera and the inmate's CDCR number.",
+          "Video visits at Folsom State Prison are managed by Securus. Create an account at www.securustech.net or through the Securus app, search for Folsom State Prison, and select an available time slot. Video visits must be scheduled in advance. Same-day bookings are not available. You will need a device with a camera and the inmate's CDCR number.",
       },
       {
         question: "Can I send photos to someone at Folsom?",
@@ -883,12 +883,12 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I add money for phone calls from Folsom?",
         answer:
-          "Phone calls from Folsom are handled by GTL. Set up a GTL AdvancePay account at telmate.com or through the app using your phone number. Add funds, and the inmate can call your number directly from facility phones. Calls are inmate-initiated only.",
+          "Phone calls from Folsom are handled by Securus. Set up a Securus AdvancePay account at www.securustech.net or through the app using your phone number. Add funds, and the inmate can call your number directly from facility phones. Calls are inmate-initiated only.",
       },
       {
-        question: "What is the difference between JPay and GTL, and do I need both?",
+        question: "What is the difference between JPay and Securus, and do I need both?",
         answer:
-          "JPay handles messaging, photo sharing, and money transfers for the inmate's trust account. GTL handles phone calls and video visitation. They are completely separate platforms with separate accounts. If you want to use all available communication options at Folsom, you will need accounts on both platforms. Funds on JPay cannot be used for phone calls, and GTL phone funds cannot be used for messaging.",
+          "JPay handles messaging, photo sharing, and money transfers for the inmate's trust account. Securus handles phone calls and video visitation. They are completely separate platforms with separate accounts. If you want to use all available communication options at Folsom, you will need accounts on both platforms. Funds on JPay cannot be used for phone calls, and Securus phone funds cannot be used for messaging.",
       },
     ],
 
@@ -3780,12 +3780,12 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at California State Prison Corcoran. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options at Corcoran.",
 
     description:
-      "Corcoran State Prison communication guide. Find JPay messaging and GTL phone options for families at this Kings County California facility known for its Security Housing Unit.",
+      "Corcoran State Prison communication guide. Find JPay messaging and Securus phone options for families at this Kings County California facility known for its Security Housing Unit.",
 
     overview: [
       "California State Prison, Corcoran, commonly called Corcoran State Prison, is a Level III and IV state correctional facility operated by the California Department of Corrections and Rehabilitation, located in the agricultural San Joaquin Valley in Kings County, about 60 miles south of Fresno and roughly 200 miles north of Los Angeles. Opened in 1988, it also houses a Security Housing Unit designed for inmates who require the most restrictive housing available within the CDCR system. Over the years, the facility has housed a number of high-profile inmates, and it has been the subject of significant legal proceedings related to its SHU program. Following California's reforms to the SHU system in the mid-2010s, the facility's restrictive housing program has changed significantly from its earlier form.",
-      "Communication at Corcoran operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their California CDCR number to send messages and photos. GTL manages phone calls and video visitation. The setup is the same as at other California state prisons — JPay for messaging and money, GTL for phone and video, with separate accounts and separate funding required for each. For SHU-assigned inmates, communication access may be more restricted depending on the inmate's current program level.",
-      "Corcoran's location in the Central Valley means it is a significant distance from both the Bay Area and Los Angeles, making in-person visits logistically challenging for many California families. The nearest major city is Fresno, about 60 miles to the north. For families in Southern California, the drive from Los Angeles takes approximately three hours. This distance makes JPay messaging and GTL video visits particularly valuable for regular contact. Because CDCR uses JPay and GTL system-wide, accounts created for Corcoran will work at any other California state prison if an inmate is transferred within the system.",
+      "Communication at Corcoran operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their California CDCR number to send messages and photos. Securus manages phone calls and video visitation. The setup is the same as at other California state prisons — JPay for messaging and money, Securus for phone and video, with separate accounts and separate funding required for each. For SHU-assigned inmates, communication access may be more restricted depending on the inmate's current program level.",
+      "Corcoran's location in the Central Valley means it is a significant distance from both the Bay Area and Los Angeles, making in-person visits logistically challenging for many California families. The nearest major city is Fresno, about 60 miles to the north. For families in Southern California, the drive from Los Angeles takes approximately three hours. This distance makes JPay messaging and Securus video visits particularly valuable for regular contact. Because CDCR uses JPay and Securus system-wide, accounts created for Corcoran will work at any other California state prison if an inmate is transferred within the system.",
     ],
 
     address: "4001 King Avenue, Corcoran, CA 93212",
@@ -3809,10 +3809,10 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         notes: "Electronic messaging, photo sharing, and trust account deposits. Uses CDCR number. SHU inmates may have restricted access.",
       },
       {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-700",
         messaging: false,
         video: true,
         photos: false,
@@ -3824,16 +3824,16 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     communication: {
       messaging: { status: "available", provider: "JPay", notes: "Available for general population. SHU inmates may have restricted messaging access." },
-      video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. SHU status may limit video access." },
+      video: { status: "limited", provider: "Securus", notes: "Available for eligible inmates. SHU status may limit video access." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to CDCR content guidelines." },
-      phone: { status: "limited", provider: "GTL", notes: "Available for general population. SHU inmates may have restricted phone access." },
+      phone: { status: "limited", provider: "Securus", notes: "Available for general population. SHU inmates may have restricted phone access." },
       moneyTransfer: { status: "available", provider: "JPay", notes: "Trust account deposits via JPay. Available regardless of housing assignment." },
     },
 
     rules: [
       "SHU-assigned inmates may have more restricted communication access than general-population Level III/IV inmates.",
       "Confirm the inmate's current housing assignment before setting up or funding accounts.",
-      "JPay and GTL are separate platforms. Messaging and phone funds do not transfer between them.",
+      "JPay and Securus are separate platforms. Messaging and phone funds do not transfer between them.",
       "Messages are reviewed by CDCR staff before delivery.",
       "CDCR system-wide accounts carry over if the inmate transfers to another California state prison.",
     ],
@@ -3845,7 +3845,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I set up phone calls from Corcoran?",
-        answer: "Phone calls use GTL. Create an account at telmate.com or through the GTL Connect app. Set up a prepaid AdvancePay account linked to your phone number and add funds. General-population inmates call from facility phones on scheduled call days. SHU inmates may have restricted phone access.",
+        answer: "Phone calls use Securus. Create an account at www.securustech.net or through the Securus Mobile app. Set up a prepaid AdvancePay account linked to your phone number and add funds. General-population inmates call from facility phones on scheduled call days. SHU inmates may have restricted phone access.",
       },
       {
         question: "What is the SHU at Corcoran?",

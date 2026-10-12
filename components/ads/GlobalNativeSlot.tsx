@@ -1,20 +1,19 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import NativeBanner, { NATIVE_CONTAINER_ID } from "./NativeBanner"
+import { usePathname } from "next/navigation"
+import NativeBanner from "./NativeBanner"
 
 /**
  * Site-wide native slot rendered above the footer.
- * Skips itself when the page already has an in-content native banner
- * (e.g. guide detail pages), so every page gets exactly one unit.
+ * Hidden on guide detail pages because those already render an
+ * in-content native banner (GuideContent). Route-aware so client-side
+ * navigation always leaves exactly one unit per page.
  */
 export default function GlobalNativeSlot() {
-  const [show, setShow] = useState(false)
+  const pathname = usePathname()
+  const isGuideDetail =
+    !!pathname && pathname.startsWith("/guides/") && pathname !== "/guides/"
 
-  useEffect(() => {
-    setShow(!document.getElementById(NATIVE_CONTAINER_ID))
-  }, [])
-
-  if (!show) return null
+  if (isGuideDetail) return null
   return <NativeBanner />
 }

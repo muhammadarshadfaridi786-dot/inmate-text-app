@@ -144,10 +144,14 @@ export function generateCompareMetadata(
   slugA: string,
   slugB: string,
   nameA: string,
-  nameB: string
+  nameB: string,
+  overrides?: { seoTitle?: string; seoDescription?: string }
 ): Metadata {
-  const title = `${nameA} vs ${nameB}: Compare Features, Cost and Coverage`
-  const description = `${nameA} vs ${nameB}: compare features, pricing, availability, and apps to find the best inmate communication service.`
+  const title =
+    overrides?.seoTitle ?? `${nameA} vs ${nameB}: Compare Features, Cost and Coverage`
+  const description =
+    overrides?.seoDescription ??
+    `${nameA} vs ${nameB}: compare features, pricing, availability, and apps to find the best inmate communication service.`
   const path = `/compare/${slugA}-vs-${slugB}`
   return {
     title,

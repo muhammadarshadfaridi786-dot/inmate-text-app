@@ -245,7 +245,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     featured: true,
 
     description:
-      "JPay vs CorrLinks: compare features, coverage, and pricing. Find out which platform is right for state prison or federal facility communication.",
+      "JPay vs CorrLinks: compare state and federal prison messaging. Find out which is right for messaging, photos, video visits, and money transfers.",
 
     intro: [
       "JPay and CorrLinks are two of the most recognized names in inmate communication, but they serve completely different correctional systems and are not interchangeable. JPay is primarily a state prison platform, contracted with departments of corrections across 35 states to provide messaging, photo sharing, video visits, and money transfers. CorrLinks — officially known as TRULINCS — is the Bureau of Prisons' own electronic messaging system and is the only approved way to send electronic messages to anyone in federal custody. If you are not sure which one applies to your situation, the single most important question to answer first is whether your loved one is in a state facility or a federal Bureau of Prisons institution.",

@@ -1961,7 +1961,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
   "best-inmate-messaging-services": {
     id: "guide-12",
     slug: "best-inmate-messaging-services",
-    title: "Best Inmate Messaging Services in 2026: JPay, CorrLinks, ConnectNetwork Compared",
+    title: "Best Inmate Text Service in 2026: JPay, CorrLinks, ConnectNetwork Compared",
     excerpt: "Compare the top inmate messaging platforms including JPay, CorrLinks, ConnectNetwork, and GettingOut to find the right option for your situation.",
     category: "Provider Guides",
     difficulty: "Beginner",
@@ -1971,9 +1971,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
-    seoTitle: "Best Inmate Messaging Services 2026: JPay vs CorrLinks vs ConnectNetwork vs GettingOut",
-    seoDescription: "Compare the best inmate messaging services in 2026 - JPay for state prisons, CorrLinks for federal prisons, ConnectNetwork for county jails, and GettingOut for local detention. Find which platform your facility uses, free.",
+    updatedAt: "2026-10-12",
+    seoTitle: "Best Inmate Text Service (2026): Top 5 Compared",
+    seoDescription: "Best inmate text service guide for 2026: JPay, CorrLinks, ConnectNetwork, GettingOut and TextBehind compared. Find which platform your facility uses.",
 
     intro: [
       "The best inmate messaging service is whichever one your loved one facility uses - you cannot choose freely. Every correctional facility has a contract with one messaging provider, and all communication goes through that provider only. This guide compares the four main platforms so you know exactly what to expect before you sign up.",
@@ -1981,6 +1981,12 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     ],
 
     sections: [
+      {
+        heading: "Best Inmate Text Services Compared",
+        body: [
+          "The five main inmate text services are JPay, CorrLinks, ConnectNetwork, GettingOut, and TextBehind. JPay leads for state prisons, CorrLinks is the only option for federal prisons, ConnectNetwork and GettingOut cover county jails, and TextBehind works anywhere physical mail is accepted. The right choice depends entirely on which platform your loved one's facility uses, so the sections below break down each service in detail.",
+        ],
+      },
       {
         heading: "JPay - Best for State Prisons",
         body: [

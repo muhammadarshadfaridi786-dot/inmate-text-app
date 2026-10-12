@@ -3,7 +3,8 @@
 import { useEffect } from "react"
 
 const NATIVE_KEY = "2ca1b183d44c851e16dbc56c8b04add8"
-const CONTAINER_ID = `container-${NATIVE_KEY}`
+export const NATIVE_CONTAINER_ID = `container-${NATIVE_KEY}`
+const CONTAINER_ID = NATIVE_CONTAINER_ID
 
 /**
  * Adsterra Native Banner (in-content). Rendered once per page;

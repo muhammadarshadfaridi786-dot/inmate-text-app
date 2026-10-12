@@ -6,6 +6,7 @@ import ThemeProvider from "@/components/providers/ThemeProvider"
 import { AuthProvider } from "@/components/providers/AuthProvider"
 import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
+import GlobalNativeSlot from "@/components/ads/GlobalNativeSlot"
 import JsonLd from "@/components/seo/JsonLd"
 import { buildOrganizationSchema } from "@/lib/schema"
 import { defaultMetadata } from "@/lib/seo"
@@ -49,6 +50,7 @@ export default function RootLayout({
             <main className="flex-1" id="main-content">
               {children}
             </main>
+            <GlobalNativeSlot />
             <Footer />
             <LazyEmailCapturePopup />
           </AuthProvider>

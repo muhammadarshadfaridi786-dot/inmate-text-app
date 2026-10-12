@@ -741,6 +741,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
         answer: "Contact GettingOut customer service immediately through gettingout.com with your confirmation number and a description of what failed. Keep records of all communication. Do not close the session without noting the failure. If customer service does not resolve it, file a Better Business Bureau complaint. Avoid bank chargebacks as they may result in account restrictions.",
       },
       {
+        question: "Why did my GettingOut balance disappear and then reappear?",
+        answer: "Some GettingOut users report balances that vanish and then reappear hours later, and difficulty adding funds when the balance looks wrong. First, take screenshots of the balance, the transaction history, and any confirmation numbers from your deposits. Second, check both the app and the website at gettingout.com, since display glitches in one do not always show in the other. Third, allow pending deposits time to fully post before adding more funds. Fourth, contact Telmate or GettingOut support through gettingout.com with your screenshots and confirmation numbers. Avoid filing a bank chargeback while the issue is being reviewed, as chargebacks can lead to account restrictions.",
+      },
+      {
         question: "Does GettingOut work at state prisons?",
         answer: "No. GettingOut is designed for county jails and serves over 2,200 county jail facilities. State prisons typically use ConnectNetwork by GTL, JPay, or Securus. If your loved one moves from a county jail to a state prison, GettingOut no longer works. Create a new account on the correct state prison provider after confirming the transfer.",
       },
@@ -1040,6 +1044,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       {
         question: "What is the difference between TextBehind and Pigeonly?",
         answer: "TextBehind and Pigeonly both convert digital messages to physical printed letters. TextBehind charges approximately $0.49 per page with no subscription required. Pigeonly offers a free plan with limited monthly letters and paid unlimited plans. Pigeonly maintains facility-specific compliance rules for over 4,000 facilities and shows restrictions at upload. Both services are good alternatives when electronic messaging is unavailable.",
+      },
+      {
+        question: "What does processed mean for my TextBehind order status?",
+        answer: "Processed means TextBehind has received your order, printed your letter, and prepared it for mailing. It does not mean the inmate has received it. Delivery typically takes three to seven business days after processing, and the facility mailroom inspection can add more days. If the status stays at processed well beyond that window, contact TextBehind support through textbehind.com with your order confirmation number.",
       },
     ],
 
@@ -1460,6 +1468,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       {
         question: "What is the difference between Securus and JPay?",
         answer: "Both Securus and JPay are large correctional communication providers under the Aventiv Technologies umbrella, but they operate under separate facility contracts. Securus is strongest at county jails and select state prisons, particularly in Texas, Arizona, Illinois, and New York. JPay is strongest at state prisons across 35 states. Which one you need depends entirely on which company holds the contract at your loved one's specific facility.",
+      },
+      {
+        question: "Why is my Securus account active but the inmate is not receiving my calls?",
+        answer: "Run through this checklist in order. First, confirm the facility actually uses Securus, since an account with the wrong provider will not work. Second, confirm the inmate added you to their approved contact list and that any required inmate account setup is complete. Third, confirm your Securus account is funded and your phone number is registered correctly, including the area code. Fourth, check that your phone is not blocking unknown or short numbers, since Securus calls can arrive from numbers you do not recognize. Fifth, ask the facility staff whether the inmate has active phone privileges. If everything checks out, contact Securus support with your account number and the facility name.",
+      },
+      {
+        question: "What is the VELOCITY VALIDATION ERROR when scheduling a Securus video visit?",
+        answer: "This error comes from the payment processor and means your card was blocked by an automated fraud check when multiple payment attempts happened in a short period. Stop retrying immediately, since each attempt can extend the block. First, wait before trying again. Second, try a different debit or credit card. Third, call your bank to confirm it is not declining the charge on its end. If the error continues, contact Securus customer support to complete the booking by phone or to have the block reviewed.",
+      },
+      {
+        question: "Why does my Securus video visit work on Windows 10 but not on Windows 11?",
+        answer: "The most common cause is Windows 11 camera and microphone privacy settings blocking the browser. Open Windows Settings, go to Privacy and security, and confirm your browser is allowed to access the camera and microphone. Update the browser to the latest version, and try Google Chrome or Microsoft Edge if you were using a different browser. Update your camera drivers through Device Manager. Disable any VPN, since facility systems can reject connections that come through a VPN. If the camera still fails, open the Windows Camera app to confirm the hardware itself works.",
       },
     ],
 
@@ -2344,10 +2364,10 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "FCC-regulated interstate rates provide cost protection for long-distance families.",
     ],
     cons: [
-      "Phone and money transfer only. No video visits, messaging, or photos.",
-      "Small network — 180 facilities across 12 states. Not useful for most families nationally.",
+      "Video visits, messaging, and photos are available only at facilities where the CityTeleCoin app services are contracted.",
+      "Small network, 180 facilities across 12 states. Not useful for most families nationally.",
       "Regional concentration means it is the correct provider only in specific states.",
-      "No mobile app. Account management is web-based only.",
+      "The CTC app has a 3.3 star app store rating, and reliability reviews are mixed.",
       "Less name recognition means families often search for other providers first.",
     ],
 
@@ -2362,7 +2382,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       },
       {
         question: "Does City Tele Coin offer video visits?",
-        answer: "No. City Tele Coin is a phone and money transfer provider only. If the facility where your loved one is held offers video visitation, it would be through a separate provider. Check with the facility directly about whether a video visit option is available.",
+        answer: "Yes, at facilities where CTC provides video visits through the CityTeleCoin app for iOS and Android. Video visits are not available at every CTC facility, and policies vary by facility. Check citytelecoin.com for your specific facility or call CTC customer service at 318-756-1114 to confirm availability.",
       },
       {
         question: "Can I send commissary money through City Tele Coin?",
@@ -2371,6 +2391,18 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       {
         question: "Is City Tele Coin available at state prisons or federal facilities?",
         answer: "No. City Tele Coin serves county jails and local detention centers in its regional markets. State prisons typically use GTL or Securus for phone services. Federal Bureau of Prisons facilities use ConnectNetwork. If your loved one is transferred from a CTC county jail to a state prison, you will need to set up a new account with the appropriate state-level provider.",
+      },
+      {
+        question: "Why does my City Tele Coin video visit say connected then immediately disconnect?",
+        answer: "This usually means the call dropped during the initial connection between the app and the facility system. Work through these steps in order. First, switch from mobile data to a stable WiFi connection, or from WiFi to mobile data if the signal is weak. Second, force-close the CityTeleCoin app completely and reopen it. Third, check your phone settings and confirm the app has permission to use the camera and microphone. Fourth, update the app to the latest version from the App Store or Google Play. Fifth, try a different device if one is available. If the problem continues, call CTC customer service at 318-756-1114 with your account details and the time of the failed call.",
+      },
+      {
+        question: "What is the real cost of a City Tele Coin deposit after fees?",
+        answer: "CTC charges processing fees on every deposit, so the amount available for calls or commissary is less than the amount you pay. User reports indicate that a $20 deposit may leave only about $12 to $14 of usable talk time after fees. Fee amounts vary by payment method and deposit amount, and policies vary by facility. Always check the fee shown on the payment confirmation screen before completing a deposit, and keep the confirmation number in case you need to dispute a charge.",
+      },
+      {
+        question: "Why did my City Tele Coin deposit disappear or never arrive?",
+        answer: "First, confirm you funded the correct account type. CTC keeps phone account funds and commissary deposits in separate accounts, and funds cannot be moved between them. Second, allow one to two business days for the deposit to post, since funds are typically credited within one to two business days. Third, check your bank or card statement to confirm the charge actually posted. Fourth, save your confirmation number from the deposit receipt. If the charge posted but the deposit never appears in the account, call CTC customer service at 318-756-1114 with your confirmation number.",
       },
     ],
 

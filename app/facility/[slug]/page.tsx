@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { FACILITY_DETAILS } from "@/lib/data/facilities"
+import { GUIDE_DETAILS } from "@/lib/data/guides"
 import { STATE_DETAILS } from "@/lib/data/states"
 import { generateFacilityMetadata } from "@/lib/seo"
 import { buildBreadcrumbSchema, buildFacilitySchema, buildWebPageSchema } from "@/lib/schema"
@@ -66,7 +67,12 @@ export default async function FacilityPage({ params }: PageProps) {
     { label: "Money Transfer",       href: "/money-transfer"},
     { label: "Compare Providers",    href: "/compare"       },
     { label: "Communication Guides", href: "/guides"        },
-    { label: "All States",           href: "/states"        },
+    // Provider-matched troubleshooting guides (data-driven, same component, no visual change)
+    ...(facility.relatedGuideSlugs ?? [])
+      .map((slug) => GUIDE_DETAILS[slug])
+      .filter(Boolean)
+      .map((g) => ({ label: g.title, href: `/guides/${g.slug}` })),
+    { label: "All States", href: "/states"        },
     ...(facility.countySlug
       ? [{ label: `${facility.countyName} Guide`, href: `/county/${facility.countySlug}` }]
       : []),

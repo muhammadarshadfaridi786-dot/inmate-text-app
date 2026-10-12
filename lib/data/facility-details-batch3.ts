@@ -107,6 +107,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "washington-state-penitentiary",
       "oregon-state-penitentiary",
@@ -211,6 +212,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "louisiana-state-penitentiary",
       "mississippi-state-penitentiary",
@@ -315,6 +317,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "new-jersey-state-prison",
       "sci-phoenix",
@@ -511,6 +514,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "montana-state-prison",
       "wyoming-medium-correctional-institution",
@@ -615,6 +619,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "menard-correctional-center",
       "nebraska-state-penitentiary",
@@ -719,6 +724,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "mci-cedar-junction",
       "new-hampshire-state-prison-for-men",
@@ -915,6 +921,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "wyoming-medium-correctional-institution",
       "idaho-state-correctional-institution",
@@ -1019,6 +1026,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "iowa-state-penitentiary",
       "south-dakota-state-penitentiary",
@@ -1123,6 +1131,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "maine-state-prison",
       "mci-cedar-junction",
@@ -1227,6 +1236,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "arizona-state-prison-complex-florence",
       "utah-state-correctional-facility",
@@ -1331,6 +1341,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "south-dakota-state-penitentiary",
       "montana-state-prison",
@@ -1435,6 +1446,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "mci-cedar-junction",
       "new-hampshire-state-prison-for-men",
@@ -1539,6 +1551,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "north-dakota-state-penitentiary",
       "iowa-state-penitentiary",
@@ -1643,6 +1656,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "arizona-state-prison-complex-florence",
       "new-mexico-state-penitentiary",
@@ -1747,6 +1761,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "maine-state-prison",
       "mci-cedar-junction",
@@ -1851,6 +1866,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "idaho-state-correctional-institution",
       "montana-state-prison",
@@ -1957,6 +1973,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "fci-danbury",
       "new-jersey-state-prison",
@@ -2061,6 +2078,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "usp-leavenworth",
       "potosi-correctional-center",
@@ -2257,6 +2275,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "minnesota-correctional-facility-stillwater",
       "stateville-correctional-center",
@@ -2371,8 +2390,17 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "What does CMCF R&C mean?",
         answer: "CMCF R&C stands for Reception and Classification at Central Mississippi Correctional Facility. The R&C unit is where new inmates are processed and classified when they first arrive at CMCF. After classification, inmates are assigned to their permanent housing unit within the facility. During the R&C process communication may be limited.",
       },
+      {
+        question: "My JPay video visit for CMCF failed or disconnected. Can I get a refund?",
+        answer: "JPay video visit refunds depend on who caused the failure. If the visit never started due to a technical problem on JPay's side, contact JPay support with your visit confirmation number. Document the exact time and error message. See our JPay video visit refund guide for the step-by-step process.",
+      },
+      {
+        question: "Why do I get an error message when logging into JPay for a CMCF inmate?",
+        answer: "Common causes are using an email tied to another JPay account, entering the wrong state during setup, or a locked account after too many attempts. Make sure you selected Mississippi and entered the inmate MDOC number exactly. See our JPay error messages guide for what each error means and how to fix it.",
+      },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "mississippi-state-penitentiary",
       "holman-correctional-facility",
@@ -2477,6 +2505,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "potosi-correctional-center",
       "lansing-correctional-facility",
@@ -2673,6 +2702,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "oklahoma-state-penitentiary",
       "huntsville-unit",
@@ -2777,6 +2807,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "oregon-state-penitentiary",
       "washington-state-penitentiary",
@@ -2881,6 +2912,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "broad-river-correctional-institution",
       "holman-correctional-facility",
@@ -2985,6 +3017,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "washington-state-penitentiary",
       "snake-river-correctional-institution",
@@ -3089,6 +3122,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "milwaukee-county-jail",
       "minnesota-correctional-facility-stillwater",

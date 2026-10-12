@@ -1341,7 +1341,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     featuredFacilities: [
       {
         name: "State Correctional Institution Phoenix",
-        slug: "state-correctional-institution-phoenix",
+        slug: "sci-phoenix",
         type: "State Prison",
         county: "Montgomery County",
         features: ["Messaging", "Phone Calls", "Video Calls", "Money Transfer"],

@@ -142,6 +142,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/facility/state-correctional-institution-phoenix',
+        destination: '/facility/sci-phoenix',
+        permanent: true,
+      },
+      {
         source: '/facility/joseph-v-conte-facility',
         destination: '/state/california',
         permanent: true,

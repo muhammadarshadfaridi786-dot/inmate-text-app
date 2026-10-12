@@ -276,7 +276,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can inmates message me from West Valley Detention Center?", answer: "Electronic messaging is not confirmed for this facility. Phone calls, video visits, and mail are the established contact options. Check the Sheriff's corrections page for updates." },
   ],
 
-  relatedFacilitySlugs: ["mens-central-jail-los-angeles", "twin-towers-correctional-facility", "san-diego-central-jail"],
+  relatedFacilitySlugs: ["los-angeles-county-mens-central-jail", "twin-towers-correctional-facility", "san-diego-central-jail"],
 },
 
 "elmwood-correctional-facility": {

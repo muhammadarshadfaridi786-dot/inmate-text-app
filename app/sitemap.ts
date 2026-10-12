@@ -28,8 +28,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     }))
 
+  // Facility slugs that 308-redirect to a canonical page (see redirects() in next.config.ts).
+  // Listing them in the sitemap wastes crawl budget, so only canonical URLs go out.
+  const REDIRECTED_FACILITY_SLUGS = new Set([
+    "metropolitan-detention-center-brooklyn",
+    "mens-central-jail-los-angeles",
+    "fdc-houston",
+    "state-correctional-institution-phoenix",
+    "pre-trial-detention-center-miami",
+    "harris-county-jail-baker-street-annex",
+    "brooklyn-detention-complex",
+    "rikers-island-amkc",
+    "twin-towers-correctional-facility",
+    "california-state-prison-los-angeles-county",
+  ])
   const facilityEntries: MetadataRoute.Sitemap = ALL_FACILITIES
-    .filter((f) => f.hasDetailPage)
+    .filter((f) => f.hasDetailPage && !REDIRECTED_FACILITY_SLUGS.has(f.slug))
     .map((f) => ({
       url: `${siteUrl}/facility/${f.slug}`,
       lastModified: new Date("2026-09-08"),

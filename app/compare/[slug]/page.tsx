@@ -35,7 +35,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     comparison.providerASlug,
     comparison.providerBSlug,
     comparison.providerAName,
-    comparison.providerBName
+    comparison.providerBName,
+    { seoTitle: comparison.seoTitle, seoDescription: comparison.seoDescription }
   )
 }
 

@@ -12,7 +12,6 @@ import { buildOrganizationSchema } from "@/lib/schema"
 import { defaultMetadata } from "@/lib/seo"
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics"
 import MicrosoftClarity from "@/components/analytics/MicrosoftClarity"
-import LazyEmailCapturePopup from "@/components/auth/LazyEmailCapturePopup"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -52,7 +51,6 @@ export default function RootLayout({
             </main>
             <GlobalNativeSlot />
             <Footer />
-            <LazyEmailCapturePopup />
           </AuthProvider>
         </ThemeProvider>
         <JsonLd schema={buildOrganizationSchema()} />

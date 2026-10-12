@@ -214,7 +214,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-08-01",
+    updatedAt: "2026-10-12",
     seoTitle: "How to Send Money to an Inmate: Methods, Fees, and Step-by-Step Setup",
     seoDescription: "Complete guide to sending money to an incarcerated loved one - which platforms to use, how much fees cost, how long transfers take, and how to avoid common mistakes. Free guide for families.",
 
@@ -293,6 +293,16 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "One of the most common mistakes families make is sending money to the facility their loved one was in before a transfer rather than the new facility. Money sent to the wrong facility can be delayed by weeks or returned entirely. Always confirm the current facility before sending funds.",
           "When an inmate transfers from a county jail to a state prison, the money transfer provider often changes as well. Funds in a JPay account linked to a county jail do not automatically transfer to a state prison account. Contact both the old provider and the new provider to ask about fund transfer procedures when a facility change occurs.",
           "The inmate is assigned a new ID number at the new facility in most cases. This new ID number must be used for all money transfers at the new location. The old ID number from the county jail will not work at the state prison. Confirm the new ID number with the inmate or the facility before sending any funds to avoid the transfer being rejected or delayed.",
+        ],
+      },
+      {
+        heading: "Transfer Times by Payment Method",
+        body: [
+          "Online card payments through providers like JPay, Access Corrections, or ConnectNetwork are usually the fastest option. Deposits made online typically reach the inmate trust account within a few hours to one business day, though facility processing can add extra time on top of the provider transfer.",
+          "Phone payments with a debit or credit card follow roughly the same timeline as online payments, since they run through the same provider systems. The main difference is convenience, not speed.",
+          "Lobby kiosk cash deposits at the facility are often credited quickly, sometimes within the hour, because the money never leaves the facility system. This is the fastest option when you can visit in person.",
+          "Mailed money orders are the slowest method. The order must travel through the postal system, then through the facility mail room and trust account office. Families should allow one to two weeks and should never mail cash.",
+          "Weekends, holidays, and facility lockdowns delay every method. A deposit made on a Friday evening may not post until the following business day or later. If money is urgently needed, online payment early on a weekday gives the best chance of same-week posting. Exact timelines vary by provider and facility, so confirm with the facility trust account office when timing matters.",
         ],
       },
     ],
@@ -381,7 +391,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-08-01",
+    updatedAt: "2026-10-12",
     seoTitle: "How Video Visitation Works: Setup, Cost, Equipment and Scheduling",
     seoDescription: "Learn how video visitation works at prisons and jails - how to schedule a video visit, what equipment you need, how much sessions cost, and which providers offer video visits. Free complete guide.",
 
@@ -477,6 +487,25 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Before traveling to visit a facility in person, always call ahead to confirm whether the facility offers contact visits or video-only visits. This information is not always clearly stated on facility websites and policies can change without public notice. If you arrive for a contact visit and the facility has moved to video-only, you may be able to conduct a lobby video visit at no charge depending on the facility policy.",
         ],
       },
+      {
+        heading: "Video Visit Troubleshooting Checklist",
+        body: [
+          "Frozen screen: close other programs using your camera, check that your internet connection is stable, and rejoin the session. If the freeze happens at the same point every time, try a different browser or device before assuming the provider is at fault.",
+          "Dropped visit mid-session: note the exact time it dropped and whether you received any error message. Rejoin immediately if the session allows it. If the visit cannot be recovered, contact the provider the same day with your booking confirmation and the drop time to ask for a credit.",
+          "Webpage cannot be found error: this usually means the visit link expired or was generated for a different session. Do not keep refreshing the dead link. Go back to the provider site or app, find your scheduled visit in your account, and use the current join link from there.",
+          "No audio or video on your end: check browser permissions for camera and microphone. The browser must be explicitly allowed to use both. Test with the provider pre-visit equipment check if one is offered, at least 30 minutes before the visit.",
+          "General rule: test everything before the scheduled time, join a few minutes early, and screenshot any error the moment it appears. Same-day reporting with documentation is what gets credits issued.",
+        ],
+      },
+      {
+        heading: "Dress Code and Visit Rules",
+        body: [
+          "Video visits follow dress standards similar to in-person visits. Dress modestly and avoid revealing clothing, sleeveless tops, or anything that could be considered inappropriate by facility staff. When in doubt, dress as you would for an in-person visit.",
+          "Stay seated and keep only yourself visible on camera for the entire visit. Staff may end the visit if you move around the room or if other people appear in the frame. Use a quiet, private location where you will not be interrupted.",
+          "Do not attempt to record the visit unless the facility explicitly allows recording. Unauthorized recording can lead to loss of visiting privileges.",
+          "Follow any additional rules announced at the start of the visit. Staff commonly state the rules before connecting you, and those instructions override any general guidance. Rules vary by facility, so treat the staff briefing as the final word.",
+        ],
+      },
     ],
 
     takeaways: [
@@ -542,6 +571,10 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         question: "Can I do a video visit if I travel to the facility in person?",
         answer: "Some facilities offer on-site lobby video visits where you come to the facility and connect through a terminal in the lobby. These are sometimes free or lower cost than remote video visits. Call the facility before traveling to confirm what visit options are available and whether an appointment is required.",
+      },
+      {
+        question: "What ID do I need for a video visit?",
+        answer: "Have a valid government-issued photo ID ready, such as a driver license or state ID. Staff may ask you to show it on camera before or during the visit. If you are visiting from outside the US, a foreign passport is generally accepted as photo ID, but confirm with the facility in advance since ID policies vary. Some families report using other official photo IDs successfully. When in doubt, call the facility visitation office before your scheduled visit to confirm which IDs they accept.",
       },
     ],
 
@@ -1215,7 +1248,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-10-12",
     seoTitle: "Inmate Tablets Explained: JPay Tablets, What Is on Them, Costs and How to Send Money",
     seoDescription: "Learn how inmate tablets work at prisons and jails - what JPay and GTL tablets include, what services cost, how families send money for tablet use, and which facilities have tablet programs.",
 
@@ -1302,6 +1335,42 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "If JPay does not respond within 14 days, escalate to your state Department of Corrections. The DOC holds the contract with JPay and has leverage to require resolution. New York established a 14-day resolution requirement as part of its Attorney General agreement.",
           "For families who cannot resolve tablet issues through these channels, filing a complaint with your state attorney general consumer protection office is the most effective escalation option. The New York Attorney General case demonstrates that state AG offices will act on widespread tablet complaints when they receive sufficient documentation.",
           "Document all tablet content purchases with confirmation numbers and screenshots before any announced provider transition date. This documentation is essential for any credit or refund claim when content is lost during a platform change.",
+        ],
+      },
+      {
+        heading: "Tablet Warranty and the FLUSH Warning",
+        body: [
+          "Families report that tablets can be remotely wiped, a process some support agents call a FLUSH, during maintenance, troubleshooting, or provider transitions. A FLUSH resets the tablet to factory state and can erase purchased pictures, games, music, and other downloaded content.",
+          "Purchased content is not always restored after a wipe. This is one of the most painful tablet surprises families face: money was spent on content that simply disappears with no automatic refund.",
+          "Before agreeing to any remote reset or troubleshooting wipe suggested by support, ask explicitly whether purchased content will be preserved. Get the answer in writing if you can, such as in a support ticket reply.",
+          "Keep your own records of every content purchase: confirmation numbers, dates, and screenshots of the purchased items on the tablet. These records are your only evidence if content vanishes and you need to request a credit.",
+        ],
+      },
+      {
+        heading: "Tablet Lost After a Facility Transfer",
+        body: [
+          "When an inmate transfers to a new facility, the tablet usually does not go with them. Tablets are tied to the facility contract, and the new facility may use a different provider, a different tablet model, or no tablet program at all.",
+          "Content purchased on the old tablet typically does not transfer to the new facility system. Families should treat a transfer as a likely loss of purchased content and plan purchases accordingly.",
+          "If the new facility uses the same provider, ask support whether the inmate account and any remaining balances can be linked at the new location. Balances and content are handled separately, so ask about both explicitly.",
+          "Before a known transfer, avoid large new content purchases. Spend down existing balances on things the inmate can use immediately rather than building a library that may not survive the move.",
+        ],
+      },
+      {
+        heading: "Apps Won't Sync or No Apps on the Tablet",
+        body: [
+          "A common tablet complaint: the apps that should be on the tablet are missing, will not open, or will not sync new content. The tablet looks fine but the app list is empty or frozen.",
+          "First, check whether the facility is doing maintenance or a system update. App sync failures during announced or unannounced maintenance windows usually resolve on their own within a day or two.",
+          "If the problem persists, the inmate should report it to facility staff or submit a support request through the provider. From the outside, you can contact provider customer service with the inmate ID and describe the sync failure.",
+          "Do not repurchase missing apps or content while the sync issue is unresolved. Duplicate purchases during a glitch are difficult to get refunded, and the original content often reappears once sync is restored.",
+        ],
+      },
+      {
+        heading: "GTL Tablet Glitches to Know About",
+        body: [
+          "GTL, now operating as ViaPath, tablets have their own set of reported glitches. Families and inmates report video calls dropping mid-session, movies freezing during playback, and the on-screen keyboard vanishing when trying to type messages.",
+          "These glitches are usually software-side rather than hardware failures. Restarting the tablet resolves many of them temporarily, but recurring glitches should be reported so they are logged against the account.",
+          "For dropped video calls, note whether the drop happens at a consistent time into the call. A pattern helps support distinguish a tablet glitch from a network or facility problem.",
+          "Document each glitch with the date, what was happening, and any error shown. If purchased content becomes unusable because of persistent glitches, that documentation supports a credit request.",
         ],
       },
     ],
@@ -1569,7 +1638,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-31",
+    updatedAt: "2026-10-12",
     seoTitle: "How JPay Works: Stamps, Messaging, Money Transfer, Video Visits Setup Guide",
     seoDescription: "Complete guide to JPay for families - how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state prisons. Free step-by-step guide.",
 
@@ -1658,6 +1727,32 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "File a complaint with the Better Business Bureau at bbb.org. JPay is registered with the BBB and complaints filed there receive a formal response. The BBB complaint process has resulted in resolutions for many families who could not get answers through JPay directly.",
           "Contact your state Department of Corrections. The DOC contracts with JPay and has leverage over the provider that individual families do not have. A complaint filed with the DOC communications office about ongoing JPay failures may result in faster resolution than a direct complaint to JPay.",
           "If JPay took money from your account and did not deliver the service, you can dispute the charge with your bank or credit card company. Provide your JPay confirmation number, the date of the transaction, and documentation that the service was not delivered. Banks generally side with consumers in clear cases of non-delivery.",
+        ],
+      },
+      {
+        heading: "JPay Reply Notifications: How to Know He Replied",
+        body: [
+          "JPay does not reliably tell you when a reply arrives. Many families report no inbox, no notification, and no obvious indicator that the inmate responded. If you are waiting on a reply, do not assume silence means no answer.",
+          "The practical fix is to check your inbox manually and regularly. Log in to your JPay account on the website or app and open the inbox or message history. Replies appear there even when no notification was ever sent.",
+          "On the inmate side, your loved one is notified through the facility kiosk or tablet when a new message arrives, so they generally know you wrote. The notification gap is mostly on the outside contact side.",
+          "If you consistently receive no notifications at all, check your account notification settings and make sure the email address on file is one you actually check. Also check your spam folder, since JPay mail is sometimes filtered.",
+        ],
+      },
+      {
+        heading: "Videograms That Never Arrived: No Resend, No Refund",
+        body: [
+          "Videograms, the short video messages you can send through JPay, have a documented failure problem. Families report recording a videogram, sending it, and the video failing during processing with no way to retry. In some cases the recorded video was simply deleted by the program after the failure.",
+          "When this happens, JPay typically offers neither a resend nor a refund for the failed videogram. The fee for the video is lost along with the recording, and support responses on this issue are inconsistent.",
+          "To reduce the risk, record shorter videograms and send them when your connection is stable. If a videogram fails, document the date, time, and what happened, and contact JPay support with your transaction details to ask for a credit. Keep expectations modest, since refunds for failed videograms are rarely granted.",
+        ],
+      },
+      {
+        heading: "Buy JPay Stamps by Phone or Kiosk Without a Computer",
+        body: [
+          "You do not need a computer to buy JPay stamps. JPay customer service can take stamp purchases over the phone, which is useful if you do not have reliable internet access or struggle with the website.",
+          "Have your JPay account email address, the inmate name and ID number, and your payment card ready before you call. Phone purchases go through the same stamp system as online purchases, so the stamps land in the same account.",
+          "Facility lobby kiosks are another no-computer option. Many facilities with JPay service have kiosks where visitors can purchase stamps and other services during visits. Kiosk availability varies by facility.",
+          "Note that JPay support hold times can be long, so call well before you need the stamps. If phone support cannot complete the purchase, ask for the specific reason and a reference number rather than hanging up.",
         ],
       },
     ],
@@ -1791,7 +1886,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-08-01",
+    updatedAt: "2026-10-12",
     seoTitle: "How CorrLinks Works: Setup, Invitation Process, Costs and Rules for Federal Inmates",
     seoDescription: "Complete guide to CorrLinks for families of federal inmates - how to receive your invitation, create an account, send messages, what it costs, and what rules apply. Free step-by-step guide.",
 
@@ -1878,6 +1973,38 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
           "Under a rule introduced in late 2024 that remains in effect, the Bureau of Prisons limits CorrLinks accounts to a maximum of 10 outside contacts per inmate at one time. Before this change, inmates could have more than 10 approved contacts. If an inmate has already reached the 10-contact limit, they cannot add new contacts until an existing one is removed.",
           "If you submitted a contact request and have not received your invitation email after 48 hours, the 10-contact limit may be the reason. Ask your loved one to log in to their TRULINCS terminal and check their contact list. If they are at the limit, they will need to remove an inactive contact before your request can be processed.",
           "The 10-contact limit affects extended families and support networks more than immediate family members. Inmates who had large networks of pen pals, advocacy contacts, or distant family members on CorrLinks may have had to reduce their contact list to comply with the new rule. If you were previously connected and the connection was dropped without explanation, this policy change may be the cause.",
+        ],
+      },
+      {
+        heading: "CorrLinks Invite Code Timeline and Expiry",
+        body: [
+          "Your CorrLinks identification code does not last forever. Families report codes becoming invalid after roughly 10 days when registration was never completed. If you wait too long after receiving the invitation, you will need a new one.",
+          "There is no way to extend an expired code from the CorrLinks website. The inmate must submit a fresh contact request through the TRULINCS terminal, which generates a new invitation email with a new code.",
+          "Register within a day or two of receiving the invitation to avoid expiry entirely. For the full step-by-step fix process, see our guide on what to do when the CorrLinks invite code is not working.",
+        ],
+      },
+      {
+        heading: "What To Do When the Password Reset Email Never Arrives",
+        body: [
+          "If you forgot your CorrLinks password, go to the password reset page at corrlinks.com/ForgotPassword.aspx. Enter the exact email address you registered with, complete the reCAPTCHA, and click Next. CorrLinks sends a reset link to that email address.",
+          "If the reset email does not arrive, check your spam and junk folders first. Then verify you entered the registered address exactly. If you registered with a different address than the one you are entering, the reset email is going somewhere you are not checking.",
+          "If the reset link expires before you use it, request a new one rather than trying the old link repeatedly. Old reset links stop working once a newer one is generated.",
+        ],
+      },
+      {
+        heading: "CorrLinks Video Visit Invitations Expire in 48 Hours",
+        body: [
+          "CorrLinks video visit invitations expire 48 hours after they are issued. If you do not accept the invitation within that window, it lapses and the visit cannot be scheduled from it.",
+          "Accept video invitations as soon as they arrive. If an invitation expired before you could act, ask the inmate to send a new video visit invitation from their TRULINCS terminal.",
+          "Do not confuse the video invitation with the messaging invitation. They are separate invitations with separate expiry rules. An active messaging connection does not keep a video invitation alive past its 48-hour window.",
+        ],
+      },
+      {
+        heading: "Email Alerts When an Inmate Messages You",
+        body: [
+          "Without a Premier Account, CorrLinks does not push notifications to your phone. But you can turn on email alerts so you know when a new message is waiting. Log in to corrlinks.com with your account.",
+          "Click Account Management, then click Manage My Inmate List. Find the inmate name in your list and check the box under the email alert column next to their name. This turns alerts on for that specific inmate.",
+          "The alerts go to the email address you registered with, not to a different address. If you use multiple email accounts, make sure you are checking the one tied to your CorrLinks login. Alerts tell you a message is waiting. You still need to log in to read it.",
         ],
       },
     ],
@@ -1994,7 +2121,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         body: [
           "CorrLinks is the exclusive messaging platform for all federal Bureau of Prisons facilities. If your loved one is in a federal prison, CorrLinks is your only option - no other platform is approved.",
           "The system works differently from other platforms. The inmate must send you an invitation first. You cannot initiate contact until you receive and accept that invitation. There is no mobile app. CorrLinks runs through a website that works on mobile browsers but was built for desktop.",
-          "Messaging costs are charged per message to both the sender and receiver. Despite its limitations, CorrLinks is reliable and widely used across all 122 federal facilities.",
+          "Messaging costs $0.30 per message, paid by the inmate from their trust account. Outside contacts pay nothing per message. Despite its limitations, CorrLinks is reliable and widely used across all 122 federal facilities.",
         ],
       },
       {
@@ -4306,6 +4433,1159 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     ctaType: "directory",
     ctaTarget: "/guides",
     ctaLabel: "Browse All Guides",
+  },
+
+  "corrlinks-invite-code-not-working": {
+    id: "guide-24",
+    slug: "corrlinks-invite-code-not-working",
+    title: "CorrLinks Invite Code Not Working? How to Fix It",
+    excerpt: "CorrLinks invite code not working or never arrived? Learn why the invitation email goes missing, when codes expire, and step-by-step fixes to get connected.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: true,
+    readingTimeMinutes: 5,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "CorrLinks Invite Code Not Working: 7 Fixes That Work",
+    seoDescription: "CorrLinks invite code not working? Why the invitation email never arrives, when codes expire, and step-by-step fixes to get connected.",
+
+    intro: [
+      "CorrLinks will not let you create a contact connection on your own. The inmate must add you through the TRULINCS terminal, and CorrLinks sends an invitation email containing an authorization (identification) code. Without that code, you cannot complete registration.",
+      "This invitation step is the single most common place where families get stuck. The invitation email never arrives, arrives but the code is rejected, or the code worked once and now seems expired. Each of these has a different fix.",
+      "This guide walks through every common failure point in the CorrLinks invitation process, based on reports from families who worked through the same problems. Follow the fixes in order before asking the inmate to resubmit the request again.",
+    ],
+
+    sections: [
+      {
+        heading: "Why Your CorrLinks Invitation Email Never Arrives",
+        body: [
+          "The most common reason is simple: the invitation went to the wrong email address or landed in spam. The inmate enters your email address on the TRULINCS terminal by hand. One wrong character means the invitation went to someone else or nowhere at all.",
+          "Check your spam, junk, and promotions folders for mail from CorrLinks. Users report that invitations from CorrLinks frequently land in spam folders, especially on Gmail and Yahoo accounts. Search your entire mailbox for the word CorrLinks before doing anything else.",
+          "Ask your loved one to read the email address back to you exactly as they entered it on the terminal. If it does not match your real address exactly, they need to submit the contact request again with the correct address. There is no way to fix a mistyped address from the CorrLinks website.",
+          "If several requests have been sent and nothing has arrived at either of your email addresses, ask the inmate to confirm the request actually went through. TRULINCS terminals can time out or fail to submit the request without the inmate realizing it.",
+        ],
+      },
+      {
+        heading: "CorrLinks Invite Code Expiry and Timeline",
+        body: [
+          "CorrLinks identification codes do expire. Families report codes becoming invalid after roughly 10 days if the registration was never completed. If you waited more than a week after receiving the invitation, the code may no longer work.",
+          "When a code expires, there is no reset or extension option on the CorrLinks website. The inmate must submit a fresh contact request through TRULINCS, which generates a new invitation email with a new code.",
+          "Register as soon as the invitation arrives. Do not wait. The registration itself is quick, and completing it within a day or two eliminates expiry as a possible problem.",
+        ],
+      },
+      {
+        heading: "How to Enter the Invite Code Correctly",
+        body: [
+          "Many rejected codes are simply entered incorrectly. Go to corrlinks.com and click the Register button under the New User block. Enter the email address exactly as it appears in the invitation email, including the full domain name after the @ sign.",
+          "Copy and paste the identification code directly from the invitation email into the Identification Code box instead of typing it by hand. This eliminates mistakes from confusing characters like the number 0 and the letter O.",
+          "Your password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number. If your password does not meet these rules, the registration will fail and the error may look like a code problem.",
+          "Make sure Caps Lock is off when entering the email address. Email addresses are not case sensitive in practice, but entering exactly what the invitation shows removes one more variable.",
+        ],
+      },
+      {
+        heading: "Why You Must Use the Same Email Address",
+        body: [
+          "A frequent trap: the inmate had the code sent to one email address, but you try to register with a different one. CorrLinks ties the identification code to the email address the invitation was sent to. Registering with a different address will not work even if the code is copied perfectly.",
+          "Use the exact email address from the invitation email for every step of registration. If that address is one you no longer use, the inmate needs to resubmit the request with your current address and you need to start with the new invitation.",
+          "If you need the invitation sent to a second email address because you have two accounts, the inmate must submit a separate contact request for the other address. One invitation cannot be redirected to a different address.",
+        ],
+      },
+      {
+        heading: "What To Do After Registration Is Approved",
+        body: [
+          "After submitting registration, the account typically activates within about 30 minutes. If you try to log in immediately and it fails, wait at least half an hour before assuming something went wrong.",
+          "After logging in, you still need to accept the contact request from the inmate before you can exchange messages. Registration alone does not complete the connection. Look for the pending contact request in your account and accept it.",
+          "If more than 24 hours have passed with no activation and no error message, contact CorrLinks support. Keep your registration confirmation email as documentation.",
+        ],
+      },
+      {
+        heading: "When to Ask the Inmate to Resubmit the Request",
+        body: [
+          "Ask for a fresh request when any of these are true: the original code is more than 10 days old, the invitation went to a mistyped address, the code keeps being rejected after careful copy-paste, or no invitation ever arrived despite correct details.",
+          "Before asking for a resubmit, have the inmate check their TRULINCS contact list. If you appear as removed or as a pending entry that never resolved, ask them to delete the old entry first so the new request starts clean.",
+          "Note that the Bureau of Prisons limits inmates to 10 approved CorrLinks contacts at one time. If the inmate is at the limit, new requests cannot be processed until an inactive contact is removed. This can look exactly like an invitation problem from your side.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "The CorrLinks invitation process must start with the inmate on the TRULINCS terminal. You cannot generate an invite code yourself.",
+      "Check spam and junk folders before assuming the invitation never came. CorrLinks mail is frequently filtered.",
+      "Codes can expire after roughly 10 days. Register within a day or two of receiving the invitation.",
+      "Copy and paste the code from the email. Do not type it by hand.",
+      "Use the exact email address the invitation was sent to, and pick a password with uppercase, lowercase, and a number.",
+      "Activation typically takes about 30 minutes after registration is submitted.",
+      "If the inmate is already at the 10-contact limit, no new invitation can be processed until a contact is removed.",
+    ],
+
+    faq: [
+      {
+        question: "Why does CorrLinks say my invite code is invalid?",
+        answer: "The most common causes are a mistyped code, a code older than about 10 days, or registering with a different email address than the one the invitation was sent to. Copy and paste the code directly from the email, use the exact invited address, and request a new code if the original is old.",
+      },
+      {
+        question: "My CorrLinks invitation email never arrived. What do I do?",
+        answer: "Search your spam and junk folders for CorrLinks first. Then have the inmate read back the email address they entered on the terminal to catch typos. If the address was wrong or the mail still does not arrive, ask them to resubmit the contact request. Also check whether the inmate is at the 10-contact limit, which blocks new requests.",
+      },
+      {
+        question: "Can I request a CorrLinks invite myself?",
+        answer: "No. Only the inmate can initiate the contact request from a TRULINCS terminal at the facility. Outside contacts cannot generate invitation codes. If you have no inmate connection yet, you need your loved one to submit your name and email address from inside.",
+      },
+      {
+        question: "How long does CorrLinks activation take after registering?",
+        answer: "Typically around 30 minutes. If you cannot log in immediately, wait at least half an hour. If 24 hours pass with no activation, contact CorrLinks support and keep your registration confirmation email as documentation.",
+      },
+      {
+        question: "Can I use one CorrLinks account for two different email addresses?",
+        answer: "One CorrLinks login is tied to one email address. If the inmate needs to invite you at a second address, they must submit a separate contact request for that address, which generates a separate invitation and code.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-corrlinks-works", "corrlinks-add-second-inmate", "how-inmate-messaging-works", "how-to-set-up-inmate-email"],
+    relatedTermSlugs: ["inmate-messaging", "electronic-messaging", "federal-prison"],
+    relatedProviderSlugs: ["corrlinks"],
+    relatedComparisonSlugs: ["jpay-vs-corrlinks"],
+    ctaType: "provider",
+    ctaTarget: "/provider/corrlinks",
+    ctaLabel: "View CorrLinks Details",
+  },
+
+  "corrlinks-add-second-inmate": {
+    id: "guide-25",
+    slug: "corrlinks-add-second-inmate",
+    title: "How to Add a Second Inmate on CorrLinks",
+    excerpt: "CorrLinks says your email is already in use? Learn how to add a second inmate to your existing CorrLinks account using Account Management and the identification code.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 4,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "How to Add a Second Inmate on CorrLinks (Email in Use Fix)",
+    seoDescription: "How to add a second inmate on CorrLinks when it says your email is already in use. Log in, open Account Management, Manage My Inmate List, enter the code.",
+
+    intro: [
+      "You do not need a new CorrLinks account for each inmate. One CorrLinks account can hold multiple inmate connections, and each new inmate is added to the existing account with their own identification code.",
+      "The confusion comes from the registration screen. If you try to register again with the same email address for a second inmate, CorrLinks rejects you with an email already in use message. That error is telling you that you already have an account, not that the second inmate cannot be added.",
+      "This guide shows the correct steps to add another inmate to your existing CorrLinks account.",
+    ],
+
+    sections: [
+      {
+        heading: "Why CorrLinks Says Your Email Is Already in Use",
+        body: [
+          "The email already in use error appears when you click Register instead of Log In. Your email address is already tied to your CorrLinks account from the first inmate, so the registration system refuses to create a duplicate account with the same address.",
+          "The fix is not to create a second account. It is to log in to your existing account and add the second inmate through Account Management. Each inmate needs their own identification code, but the login stays the same.",
+          "Do not try to work around this with a second email address. Managing multiple CorrLinks logins creates confusion, and you still need each inmate to invite each address separately.",
+        ],
+      },
+      {
+        heading: "How to Add a Second Inmate Step by Step",
+        body: [
+          "First, ask the second inmate to add you as a contact from their TRULINCS terminal, exactly like the first one did. They must enter your email address and you will receive a separate invitation email with a new identification code for this inmate.",
+          "Log in to www.corrlinks.com with your existing account. Do not click Register. Use the same email and password you already set up.",
+          "Click Account Management, then click Manage My Inmate List. Choose the Federal Bureau of Prisons as the agency when prompted.",
+          "Enter the new identification code in the code field. Important: enter the identification code from the invitation email, not the inmate register number. These are different values and the register number will not work here. Then click Go.",
+          "After the code is accepted, the second inmate appears in your contact list. Accept the pending contact request to complete the connection. You can now message both inmates from the same login.",
+        ],
+      },
+      {
+        heading: "Identification Code vs Register Number",
+        body: [
+          "This is the most common stumbling point. The identification code is the authorization code CorrLinks emails you when an inmate requests you as a contact. The register number is the inmate federal ID number assigned by the Bureau of Prisons.",
+          "When adding a new inmate through Manage My Inmate List, the field asks for the identification code. Entering the register number here fails. If you do not have an invitation email with a code, the inmate has not submitted the contact request yet.",
+          "Each inmate generates a separate identification code tied to your email address. Codes are not shared between inmates and cannot be reused.",
+        ],
+      },
+      {
+        heading: "Limits When Adding Multiple Inmates",
+        body: [
+          "One CorrLinks account can hold connections to multiple inmates without a fixed limit on the outside contact side. The limit that matters is on the inmate side: each inmate can have at most 10 outside contacts at one time under Bureau of Prisons rules.",
+          "If an inmate cannot add you because they already have 10 contacts, no registration trick will fix it. They need to remove an inactive contact from their TRULINCS terminal before the new request can go through.",
+          "Remember that CorrLinks is only for federal inmates. If the second person is in a state prison or county jail, you need a different platform entirely, and no amount of CorrLinks troubleshooting will connect you.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "One CorrLinks account handles multiple inmates. Do not create a second account.",
+      "Log in to your existing account, then go to Account Management and Manage My Inmate List to add the next inmate.",
+      "Enter the identification code from the invitation email, not the inmate register number.",
+      "Each new inmate must send you their own invitation with their own code.",
+      "The email already in use message means you clicked Register instead of Log In.",
+    ],
+
+    faq: [
+      {
+        question: "Why does CorrLinks say my email address is already in use?",
+        answer: "Because you clicked Register instead of Log In. Your email is already attached to your CorrLinks account. Log in to your existing account and add the second inmate through Account Management, then Manage My Inmate List.",
+      },
+      {
+        question: "What is the difference between the identification code and the register number?",
+        answer: "The identification code is the authorization code CorrLinks emails you when an inmate requests you as a contact. The register number is the inmate federal ID number. When adding an inmate, enter the identification code, not the register number.",
+      },
+      {
+        question: "How many inmates can I connect with on one CorrLinks account?",
+        answer: "There is no fixed limit on the outside contact side. You can add multiple inmates to one login. The binding limit is on the inmate side: each inmate can have at most 10 approved CorrLinks contacts at one time.",
+      },
+      {
+        question: "I added the code but the second inmate does not show up. What now?",
+        answer: "Make sure you entered the identification code from the latest invitation email, not the register number. Then look for a pending contact request and accept it. If the code keeps failing, ask the inmate to resubmit the contact request from TRULINCS so you get a fresh code.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-corrlinks-works", "corrlinks-invite-code-not-working", "how-inmate-messaging-works", "federal-prison-vs-state-prison"],
+    relatedTermSlugs: ["inmate-messaging", "electronic-messaging", "federal-prison"],
+    relatedProviderSlugs: ["corrlinks"],
+    relatedComparisonSlugs: ["jpay-vs-corrlinks"],
+    ctaType: "provider",
+    ctaTarget: "/provider/corrlinks",
+    ctaLabel: "View CorrLinks Details",
+  },
+
+  "how-to-tell-if-inmate-blocked-you-on-jpay": {
+    id: "guide-26",
+    slug: "how-to-tell-if-inmate-blocked-you-on-jpay",
+    title: "How to Tell If an Inmate Blocked You on JPay",
+    excerpt: "JPay does not notify you when an inmate removes you. Learn the real signs you were blocked, how to check, and what to do about it.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: true,
+    readingTimeMinutes: 5,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "How to Tell If an Inmate Blocked You on JPay: 5 Signs",
+    seoDescription: "How to tell if an inmate blocked you on JPay: no notification is sent when you are removed. Check these 5 signs and learn how to confirm your status.",
+
+    intro: [
+      "If an inmate removes you from their contacts on JPay, you will not receive any notification. There is no you were removed message, no email, and no status change announced on your account. This silence is by design and it confuses nearly everyone the first time it happens.",
+      "That means you have to read the indirect signs: messages that stop getting replies, a contact that disappears from your list, options like Send Message that are suddenly greyed out. Each sign on its own is ambiguous, but several together usually tell the story.",
+      "This guide covers what actually happens when an inmate removes you, the signs to check, and how to rule out other causes like facility restrictions or account problems.",
+    ],
+
+    sections: [
+      {
+        heading: "JPay Does Not Notify You When You Are Removed",
+        body: [
+          "The first thing to understand is that JPay sends no alert when an inmate deletes or blocks a contact. Your account will not show a banner, your email will get nothing, and the app will not push a notification. The removal happens entirely on the inmate side.",
+          "Since mid-2021, inmates have been able to remove contacts themselves directly from their JPay account inside the facility. Before that change, blocking required a written request to facility security, which took much longer.",
+          "Because there is no notification, families often spend weeks unsure whether they were blocked, whether messages are being held in review, or whether the facility changed a policy. The checks below help you narrow it down.",
+        ],
+      },
+      {
+        heading: "The 5 Signs an Inmate Removed You on JPay",
+        body: [
+          "Sign one: the inmate profile disappears from your Contacts or Friends list, or shows limited interaction options. If you could previously send messages and request video visits and those buttons are now greyed out or gone, that points to removal.",
+          "Sign two: communication stops suddenly with no explanation. Messages you send appear to go through on your end but no replies ever come back. Video and phone call attempts fail or return contact unavailable style errors.",
+          "Sign three: stamps and money transactions behave differently. You can usually still send money to an inmate account even after being removed, because financial transactions are tied to the inmate account number rather than contact status. If even a money transfer is rejected, the problem is more likely an account restriction or facility issue rather than a simple removal.",
+          "Sign four: your return stamps or reply options vanish. If you previously had the option to attach return stamps for the inmate reply and that option disappeared, the contact link is likely broken.",
+          "Sign five: no new messages arrive over a long period while the facility is operating normally. By itself this proves nothing, but combined with greyed-out options it strengthens the case.",
+        ],
+      },
+      {
+        heading: "Other Causes That Look Like Being Blocked",
+        body: [
+          "Do not assume removal until you rule out the alternatives. A facility lockdown, disciplinary loss of messaging privileges, or a transfer to another facility can all stop communication without any notification to you.",
+          "Account and technical problems also mimic blocking. JPay app glitches, login issues, or messages stuck in content review can all look like silence from the other side. Check whether JPay is having a widespread outage before concluding you were removed.",
+          "If your messages stopped arriving at the same time as a known facility event, such as a transfer or a lockdown, the facility is the likely cause. Ask around or contact the facility communication office rather than assuming a personal falling out.",
+        ],
+      },
+      {
+        heading: "How to Confirm Your Contact Status",
+        body: [
+          "Try to send a test e-message. A clear error such as unable to deliver or contact not available suggests removal or a messaging restriction. Messages that appear to send normally tell you less.",
+          "Try a small money transaction using the inmate ID or booking number. If the system accepts the payment, the inmate account still exists and the issue is likely contact-level. If payment is rejected too, you are dealing with an account or facility restriction.",
+          "Contact JPay customer service and ask them to verify the delivery status of your recent messages. They may be limited in what they can disclose, but they can sometimes confirm whether a block is in place.",
+          "If the facility allows it, contact the facility inmate communications office. They can sometimes confirm whether a messaging restriction exists, though privacy rules limit what they will share.",
+        ],
+      },
+      {
+        heading: "What To Do If You Were Removed",
+        body: [
+          "Only the inmate can restore the contact. There is no appeal process on the outside contact side and JPay support cannot add you back. The inmate must add you again from their JPay account inside the facility.",
+          "In the meantime, standard mail still works. If the relationship matters to you, a letter is often the fastest way to find out what happened and whether the removal was intentional.",
+          "Resist the urge to create a brand new JPay account to get around the removal. It is easy to do, since anyone can register, but the inmate can remove the new account just as quickly. Respect the decision and communicate through other channels.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "JPay sends no notification when an inmate removes you from contacts.",
+      "Watch for a missing profile, greyed-out Send Message and video buttons, and communication that stops cold.",
+      "You can usually still send money after being removed, since payments are tied to the account number, not contact status.",
+      "Rule out lockdowns, transfers, privilege loss, and JPay outages before assuming removal.",
+      "Only the inmate can restore the contact. JPay support cannot add you back.",
+    ],
+
+    faq: [
+      {
+        question: "Will JPay tell me if an inmate deletes me from their contacts?",
+        answer: "No. JPay does not send any notification, message, or alert when an inmate removes a contact. You have to notice the indirect signs, such as the profile disappearing from your contacts or interaction options becoming unavailable.",
+      },
+      {
+        question: "Can I still send money on JPay if an inmate blocked me?",
+        answer: "Usually yes. Money transfers are tied to the inmate account number rather than your contact status, so they often still go through after a removal. If a money transfer is also rejected, you are likely facing an account or facility restriction rather than a simple removal.",
+      },
+      {
+        question: "Can an inmate block me on JPay by themselves?",
+        answer: "Yes. Since mid-2021, inmates have been able to remove contacts directly from their JPay account without filing a request with facility security. Before that change, blocking required a written request and took much longer.",
+      },
+      {
+        question: "How do I get unblocked on JPay?",
+        answer: "Only the inmate can restore the contact by adding you again from their JPay account inside the facility. JPay customer service cannot add you back. Standard mail is the most reliable way to reach the person and find out what happened.",
+      },
+      {
+        question: "Why did my messages suddenly stop getting replies on JPay?",
+        answer: "Removal is one possibility, but not the only one. Messages can also stop because of a facility lockdown, loss of messaging privileges, a transfer, JPay technical problems, or messages held in content review. Check for outages and facility events before concluding you were removed.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-jpay-works", "how-inmate-messaging-works", "inmate-communication-guide", "how-to-appeal-blocked-messages"],
+    relatedTermSlugs: ["inmate-messaging", "electronic-messaging", "inmate-phone-calls"],
+    relatedProviderSlugs: ["jpay"],
+    relatedComparisonSlugs: ["jpay-vs-corrlinks"],
+    ctaType: "provider",
+    ctaTarget: "/provider/jpay",
+    ctaLabel: "View JPay Details",
+  },
+
+  "gettingout-app-not-working": {
+    id: "guide-27",
+    slug: "gettingout-app-not-working",
+    title: "GettingOut App Not Working? Fixes That Actually Help",
+    excerpt: "GettingOut app freezing, crashing, or stuck on the verification photo step? Try these fixes in order, including the website workaround that bypasses the app entirely.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 4,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "GettingOut App Not Working? Fixes That Actually Help",
+    seoDescription: "GettingOut app not working? Fix freezing, crashes, and the verification photo that never submits. Step-by-step fixes plus the website workaround.",
+
+    intro: [
+      "The GettingOut app is the main way many county jail families schedule video visits, deposit money, and message their loved ones. When it breaks, everything stops, and the app has a reputation for breaking at the worst moments.",
+      "Common reports include the app freezing mid-session, crashing on launch, and the visitor verification photo step where the submit button does nothing no matter how many times it is pressed. If you are stuck on any of these, you are not alone.",
+      "This guide runs through the fixes in order, from the quickest to the most thorough, and ends with the website workaround that many families use when the app simply will not cooperate.",
+    ],
+
+    sections: [
+      {
+        heading: "Quick Fixes to Try First",
+        body: [
+          "Force close the app completely and reopen it. On both iPhone and Android, swipe the app away from the recent apps list. A frozen app will not recover on its own, and a fresh launch fixes most temporary freezes.",
+          "Check your internet connection. GettingOut needs a stable connection for video visits and photo uploads. Switch between Wi-Fi and mobile data to see if one works better. The verification photo step fails silently on weak connections.",
+          "Restart your phone. This clears temporary system issues that can make the app behave strangely even when the app itself is fine. It takes a minute and fixes more problems than people expect.",
+        ],
+      },
+      {
+        heading: "Verification Photo Submit Does Nothing",
+        body: [
+          "This is one of the most reported GettingOut problems: you take the verification photo and press submit, and nothing happens, even after multiple attempts. The screen just sits there.",
+          "First, make sure the app has camera permission in your phone settings. Without camera permission, the photo capture can appear to work while the upload silently fails.",
+          "Take the photo in good lighting against a plain background. Poor lighting or a cluttered background can cause the verification to reject the image without telling you why.",
+          "If submit still does nothing, the upload is likely failing on the connection. Try again on a different network, or switch to the GettingOut website in your phone browser, where the same verification can often be completed without the app.",
+        ],
+      },
+      {
+        heading: "Update, Reinstall, and Clear Cache",
+        body: [
+          "Make sure you are running the latest version of the GettingOut app from the App Store or Google Play. Old versions break when the service changes something on its end, and the app will not always tell you an update is required.",
+          "On Android, clear the app cache from Settings, then Apps, then GettingOut, then Storage. Cached data that goes stale is a common cause of freezing and login loops.",
+          "If the problems continue, delete the app completely and reinstall it. A fresh install removes corrupted local data that cache clearing does not touch. You will need to log in again, so make sure you know your password first.",
+          "Check that your phone operating system is up to date. GettingOut drops support for very old OS versions, and an outdated phone can cause crashes that look like app bugs.",
+        ],
+      },
+      {
+        heading: "The Website Workaround",
+        body: [
+          "When the app will not cooperate, use the GettingOut website in your phone or computer browser instead. The website offers the same core features: scheduling video visits, messaging, and deposits.",
+          "Many families report the website is more stable than the app for scheduling visits and managing accounts. Bookmark the site and use it as your primary access method if the app keeps failing.",
+          "For video visits specifically, test your camera and microphone on the website before your scheduled time. Browser permissions for camera and microphone must be allowed, just like in the app.",
+        ],
+      },
+      {
+        heading: "When Nothing Works: Contact Support",
+        body: [
+          "If you have tried the app, the website, and a fresh install, contact GettingOut customer support. Note the exact error or behavior, your phone model, and the app version so support can help faster.",
+          "For time-sensitive problems like a visit scheduled today, contact support as early as possible. Policies vary by facility on missed visits, and there is no guarantee a technical failure earns you a reschedule, so document everything with screenshots.",
+          "If a visit failed because of a GettingOut outage rather than your device, ask support explicitly about a credit or reschedule. Keep your confirmation emails and any error screenshots as evidence.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Force close and restart the app and your phone before trying anything drastic.",
+      "The verification photo step usually fails because of camera permissions or a weak connection.",
+      "Update the app, clear the cache, or reinstall if problems persist.",
+      "The GettingOut website in a browser works when the app does not, and many families prefer it.",
+      "Document failures with screenshots if you need to ask support for a credit or reschedule.",
+    ],
+
+    faq: [
+      {
+        question: "Why does the GettingOut app keep freezing?",
+        answer: "Freezing is usually caused by stale cached data, an outdated app version, or a weak connection. Force close the app, update to the latest version, clear the cache on Android, and try a different network. If it keeps freezing, switch to the GettingOut website in your browser.",
+      },
+      {
+        question: "The verification photo submit button does nothing. How do I fix it?",
+        answer: "Check that the app has camera permission in your phone settings, take the photo in good lighting against a plain background, and try again on a stronger network. If it still fails, complete verification through the GettingOut website in your phone browser instead.",
+      },
+      {
+        question: "Can I use GettingOut without the app?",
+        answer: "Yes. The GettingOut website offers the same core features as the app, including scheduling video visits, messaging, and deposits. Many families find the website more stable and use it as their primary access method.",
+      },
+      {
+        question: "Will I get a refund if the GettingOut app ruins my video visit?",
+        answer: "Policies vary by facility. Contact GettingOut support with your confirmation email and screenshots of the failure and ask for a credit or reschedule. There is no automatic refund, so document everything at the time it happens.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-gettingout-works", "how-video-visitation-works", "how-inmate-messaging-works", "jpay-error-messages-explained"],
+    relatedTermSlugs: ["inmate-messaging", "electronic-messaging", "video-visitation"],
+    relatedProviderSlugs: ["gettingout"],
+    relatedComparisonSlugs: [],
+    ctaType: "provider",
+    ctaTarget: "/provider/gettingout",
+    ctaLabel: "View GettingOut Details",
+  },
+
+  "jpay-stamps-wrong-state": {
+    id: "guide-28",
+    slug: "jpay-stamps-wrong-state",
+    title: "JPay Stamps for the Wrong State? What to Do",
+    excerpt: "Bought JPay stamps for the wrong state? Learn why stamps are state-specific, what options you have, and how to avoid buying the wrong stamps again.",
+    category: "Money and Accounts",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 4,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "JPay Stamps for the Wrong State: What You Can Do",
+    seoDescription: "Bought JPay stamps for the wrong state? Stamps are tied to the state selected at purchase and rarely transfer. Learn your options and how to avoid this.",
+
+    intro: [
+      "JPay stamps are not universal. They are purchased for a specific state agency, and stamps bought for one state cannot be used to message an inmate in another state. Families discover this the hard way after buying stamps for the wrong state.",
+      "The JPay website has been known to glitch during purchase, selecting a different state than the one intended, leaving buyers with dozens of stamps they cannot use. JPay customer service is frequently reported as unhelpful on this issue, with refunds and transfers denied or ignored.",
+      "This guide explains why stamps are state-specific, what you can realistically do with wrong-state stamps, and how to make sure it does not happen again.",
+    ],
+
+    sections: [
+      {
+        heading: "Why JPay Stamps Are State-Specific",
+        body: [
+          "JPay contracts with each state correctional agency separately, and the stamp system follows those contracts. When you buy stamps, you are buying them for the agency currently selected in your JPay account, not for JPay in general.",
+          "This means stamps bought while Colorado was selected can only be used for messaging connected to the Colorado system. If your loved one is in Texas, those stamps are useless to you, and JPay does not move them across state lines on request.",
+          "Always check which state or agency is selected before you click buy. The purchase screen should show the agency name. If it does not match your inmate state, stop and fix the selection before paying.",
+        ],
+      },
+      {
+        heading: "Can You Get a Refund or Transfer",
+        body: [
+          "In practice, getting wrong-state stamps refunded or transferred is very difficult. Families report that JPay customer service often refuses refunds for stamp purchases, and support tickets on this issue frequently go unanswered.",
+          "You can still try. Contact JPay customer service with your transaction confirmation number, the date of purchase, and a clear explanation that the website selected the wrong state. Keep copies of every message you send.",
+          "If JPay does not resolve it and the charge was made to your card, you can contact your bank to dispute the charge, providing your confirmation email as evidence that the purchased service was not usable. Banks decide these case by case.",
+          "Note that refund policies vary and JPay terms of service generally treat stamp purchases as final. Treat the dispute route as a last resort, not an expectation.",
+        ],
+      },
+      {
+        heading: "What About States Where Inmates Cannot Reply by JPay",
+        body: [
+          "Some states, including Colorado and Texas, have systems where outside contacts use JPay stamps to write in, but the inmate replies by physical mail rather than through JPay. Stamps in these states only cover your outgoing messages.",
+          "This matters when you are stuck with wrong-state stamps, because transferring them to someone else messaging an inmate in that state is one of the few practical uses. You cannot move the stamps to your own account for a different state, but they are not fake money, they are real stamps tied to that state system.",
+          "Do not buy stamps from or for strangers online to solve this. Handing account access or payment details to people you met on a forum is a common scam setup.",
+        ],
+      },
+      {
+        heading: "How to Avoid Buying the Wrong Stamps Again",
+        body: [
+          "Before every purchase, verify the selected inmate and the state or agency shown in your JPay account. If you message inmates in more than one state, check the selection every single time, because the site can default to a different state than you expect.",
+          "Buy stamps in smaller amounts until you are sure the correct state is selected. Losing 10 stamps to a glitch hurts far less than losing 64.",
+          "Take a screenshot of the purchase confirmation showing the state. If a dispute becomes necessary, that screenshot is your proof of what was selected versus what you intended.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "JPay stamps are tied to the state agency selected at purchase and cannot be moved to another state by you.",
+      "Always verify the selected state before buying. The site has been reported to select the wrong state during purchase.",
+      "JPay rarely refunds wrong-state stamps, so treat every purchase as final.",
+      "If customer service does not help, a bank dispute with your confirmation email is a last resort.",
+      "Buy in smaller amounts and screenshot every purchase confirmation.",
+    ],
+
+    faq: [
+      {
+        question: "Can I transfer JPay stamps to a different state?",
+        answer: "No. JPay does not let you move stamps between states yourself, and customer service rarely does it on request. Stamps stay tied to the state agency selected at purchase.",
+      },
+      {
+        question: "Will JPay refund stamps bought for the wrong state?",
+        answer: "Usually not. Families report that JPay customer service frequently refuses refunds for stamp purchases or does not respond. You can try with your transaction confirmation number, and as a last resort dispute the charge with your bank. Refund policies vary, so treat every purchase as final.",
+      },
+      {
+        question: "Why did JPay buy stamps for a different state than I selected?",
+        answer: "The JPay website has been reported to glitch during purchase and select a different state than the one intended, especially for users who message inmates in more than one state. Always verify the selected state on the confirmation screen and take a screenshot before paying.",
+      },
+      {
+        question: "Do inmates in Colorado and Texas reply through JPay?",
+        answer: "In these states, outside contacts use JPay stamps to write in, but inmates typically reply by physical mail rather than through JPay. Your stamps cover your outgoing messages only. Policies vary by facility, so confirm the current setup with the facility if you are unsure.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-jpay-works", "how-to-send-money-to-an-inmate", "how-inmate-messaging-works", "inmate-communication-guide"],
+    relatedTermSlugs: ["inmate-messaging", "money-transfer", "inmate-account"],
+    relatedProviderSlugs: ["jpay"],
+    relatedComparisonSlugs: ["jpay-vs-corrlinks"],
+    ctaType: "provider",
+    ctaTarget: "/provider/jpay",
+    ctaLabel: "View JPay Details",
+  },
+
+  "jpay-account-locked": {
+    id: "guide-29",
+    slug: "jpay-account-locked",
+    title: "JPay Account Locked? How to Unlock It",
+    excerpt: "Locked out of JPay, or told to agree to terms but unable to log in? Work through these steps to recover your account and get back to messaging.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 4,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "JPay Account Locked? How to Unlock It Fast",
+    seoDescription: "JPay account locked or stuck at the terms screen? Work through login recovery, password reset, and support escalation steps to unlock your JPay account.",
+
+    intro: [
+      "A locked JPay account cuts off messaging, video visits, and money transfers all at once. The lockout can come from too many failed login attempts, a security flag on the account, or a terms-of-service update that you are asked to accept before you can get in.",
+      "One particularly frustrating loop: JPay tells you to log in and agree to the new terms, but the login itself is what is failing. If you are stuck in that loop, this guide is for you.",
+      "Work through the steps below in order. Most lockouts are resolved without needing customer service, but the escalation steps are here for the ones that are not.",
+    ],
+
+    sections: [
+      {
+        heading: "Try the Website Instead of the App",
+        body: [
+          "Many JPay lockouts only affect one access method. If the app will not let you in, try jpay.com in a browser on your phone or computer. If the website fails, try the app. Families frequently find that one works while the other is stuck.",
+          "Clear your browser cache and cookies before retrying on the website. Stale login data is a common cause of login loops that look like a locked account.",
+          "Try a different browser if the first one keeps looping. A fresh browser with no saved JPay data removes extensions and cached sessions as possible causes.",
+        ],
+      },
+      {
+        heading: "Reset Your Password Properly",
+        body: [
+          "Use the official password reset on the JPay website. Enter the exact email address you registered with, then check your inbox and your spam folder for the reset email.",
+          "If the reset email never arrives, the address on file may not match what you are entering. Try any other email addresses you might have used when you first registered.",
+          "After resetting, log in on the website first before trying the app. Confirm the new password works in the browser, then use it in the app.",
+        ],
+      },
+      {
+        heading: "Stuck at the Agree to Terms Screen",
+        body: [
+          "JPay periodically updates its terms of service and requires users to accept before continuing. If you are told to agree but cannot reach the agreement screen because login fails, the login problem is the real issue, not the terms.",
+          "Get the login working first using the steps above. The terms screen appears immediately after a successful login, and accepting it takes one click.",
+          "Do not try to bypass the terms screen with old bookmarks or deep links into the site. Those routes can trigger security flags that make the lockout worse.",
+        ],
+      },
+      {
+        heading: "Contact JPay Support to Unlock the Account",
+        body: [
+          "If none of the self-service steps work, contact JPay customer service. Have your registered email address, the inmate name and ID if relevant, and details of any recent transactions ready. Support uses these to verify your identity.",
+          "Ask specifically whether the account has a security hold and what is needed to lift it. Vague requests get vague answers. A direct question about the hold status gets you further.",
+          "Document every contact: dates, ticket numbers, and what you were told. If support does not resolve the issue, this record is what you need for escalation. Policies on account holds vary, and timelines are not published, so ask for a specific next step and a reference number on every call.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Try both the website and the app. Many lockouts affect only one access method.",
+      "Clear cache and cookies, then reset your password with the exact registered email address.",
+      "If you are told to agree to terms but cannot log in, fix the login first. The terms screen appears after a successful login.",
+      "Contact support with your registered email and transaction details, and ask directly about a security hold.",
+      "Document every support contact with dates and ticket numbers.",
+    ],
+
+    faq: [
+      {
+        question: "Why is my JPay account locked?",
+        answer: "Common causes include too many failed login attempts, a security flag triggered by unusual activity, or an unaccepted terms-of-service update. Try the website and the app separately, clear your cache, and reset your password before assuming the worst.",
+      },
+      {
+        question: "JPay tells me to agree to the terms but I cannot log in to agree. What do I do?",
+        answer: "Fix the login first. The terms screen appears right after a successful login, so the login failure is the real problem. Try the opposite access method from the one failing, clear cache and cookies, and reset your password. Once you can log in, accepting the terms takes one click.",
+      },
+      {
+        question: "How long does it take JPay support to unlock an account?",
+        answer: "Timelines are not published and vary by case. Ask support directly for the hold status, the specific steps to lift it, and a reference number. Document every contact so you can escalate if the issue drags on.",
+      },
+      {
+        question: "Can I just make a new JPay account if mine is locked?",
+        answer: "That is not recommended. A new account will not have your purchase history, contacts, or transaction records, and creating duplicate accounts can trigger additional security flags. Recover the original account through the steps in this guide.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-jpay-works", "jpay-error-messages-explained", "how-inmate-messaging-works", "how-to-set-up-inmate-email"],
+    relatedTermSlugs: ["inmate-messaging", "electronic-messaging", "inmate-account"],
+    relatedProviderSlugs: ["jpay"],
+    relatedComparisonSlugs: ["jpay-vs-corrlinks"],
+    ctaType: "provider",
+    ctaTarget: "/provider/jpay",
+    ctaLabel: "View JPay Details",
+  },
+
+  "city-tele-coin-account-types": {
+    id: "guide-30",
+    slug: "city-tele-coin-account-types",
+    title: "City Tele Coin Account Types Explained (Phone vs Commissary)",
+    excerpt: "Put money in the wrong City Tele Coin account? Learn the difference between DirectPay phone, commissary, and media accounts, and why funds cannot be moved between them.",
+    category: "Money and Accounts",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 5,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "City Tele Coin Account Types: Phone vs Commissary vs Media",
+    seoDescription: "City Tele Coin account types explained: DirectPay phone, commissary deposits, and media accounts. Why funds cannot move between them and how to fund correctly.",
+
+    intro: [
+      "City Tele Coin keeps your money in separate accounts for separate purposes, and this is where most families go wrong. Money added to the commissary account cannot be used for phone calls. Money in the phone account cannot buy commissary items. Picking the wrong account type means the inmate cannot use the funds the way you intended.",
+      "City Tele Coin serves county jails and local detention centers, mainly in the Southern and Southeastern United States. It is a family-owned provider operating since 1986, and its system centers on the DirectPay prepaid calling account plus separate fund accounts.",
+      "This guide explains each account type, how to fund the right one, and what to do when money lands in the wrong place.",
+    ],
+
+    sections: [
+      {
+        heading: "The Three Account Types",
+        body: [
+          "The DirectPay account is a prepaid calling account linked to your phone number. It lets the incarcerated person call you directly from facility phones. This is the account you fund when the goal is phone calls.",
+          "The commissary account is a deposit into the inmate trust account for purchases at the facility store, such as snacks and hygiene items. This money is for the inmate to spend inside, not for communication.",
+          "The media account covers tablet usage, such as music, movies, and games where the facility offers them. Like the others, it is a separate balance with a separate purpose.",
+          "All three are funded through the same City Tele Coin login at citytelecoin.com or through the CityTeleCoin mobile app for iOS and Android, but they remain distinct balances.",
+        ],
+      },
+      {
+        heading: "Why Funds Cannot Be Moved Between Accounts",
+        body: [
+          "Funds cannot be transferred between account types. This is the single most important thing to understand. If you put $50 in the commissary account but meant it for phone calls, City Tele Coin cannot shift it to the phone account for you.",
+          "This catches families constantly. The symptom is always the same: you added money, but the inmate still cannot call you, or cannot buy what they need, because the balance sits in the wrong account.",
+          "When adding funds, the Add Funds flow asks you to choose the account type: phone, commissary, or media. Slow down at this step and pick the one that matches your goal. There is no undo after the payment completes.",
+        ],
+      },
+      {
+        heading: "How to Fund the Right Account",
+        body: [
+          "Log in at citytelecoin.com or open the CityTeleCoin app. Select Add Funds, choose the account type (phone, commissary, or media), enter the amount, and pay with a debit card, credit card, or money order. Funds are typically credited quickly.",
+          "If the goal is for the inmate to call your number, choose the phone account under DirectPay. Make sure the phone number linked to the DirectPay account is your current number, since the account is tied to a specific number.",
+          "If your phone number changed and you have a DirectPay account, contact City Tele Coin to request transferring your existing balance to the new number. Do not just create a new account and abandon the old balance.",
+          "Every funding transaction includes a processing fee, and additional administrative or card fees and state taxes may apply. You must agree to these before completing payment, so check the total before you confirm.",
+        ],
+      },
+      {
+        heading: "Money in the Wrong Account: What To Do",
+        body: [
+          "If the funds just went in and you immediately realize the mistake, contact City Tele Coin customer service at 318-756-1114, available 7 AM to 7 PM Central time, 7 days a week. Explain which account received the funds and which one you intended.",
+          "Be prepared for the answer to be no. Because transfers between account types are not supported, support may not be able to move the money. Ask anyway, and ask whether a refund of the mistaken deposit is possible so you can re-add it correctly.",
+          "Going forward, label the purpose of each deposit for yourself before you start the Add Funds flow. One extra minute of care beats a support call and a stuck balance.",
+        ],
+      },
+      {
+        heading: "Other City Tele Coin Features Worth Knowing",
+        body: [
+          "Beyond funding, the CityTeleCoin app supports video visitation scheduling at participating facilities with CTC video kiosks or tablets, electronic messaging where contracted, and photo sharing.",
+          "You can also purchase calling cards online or at lobby kiosks and give the PIN to the inmate for use. Your full transaction and communication history is visible in your account.",
+          "Remember that all calls, messages, and video visits are recorded, stored, and may be reviewed by facility staff. There is no private communication on the platform.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "DirectPay is the phone calling account. Commissary is for the facility store. Media is for tablet content. They are separate balances.",
+      "Funds cannot be transferred between account types. Choose correctly at the Add Funds step.",
+      "If the inmate cannot call you after you added money, check that the funds went to the phone account, not commissary or media.",
+      "DirectPay is linked to a specific phone number. Update it if your number changes.",
+      "Customer service is at 318-756-1114, 7 AM to 7 PM Central, 7 days a week.",
+      "All funding transactions carry a processing fee plus possible administrative fees and taxes.",
+    ],
+
+    faq: [
+      {
+        question: "What is a City Tele Coin DirectPay account?",
+        answer: "DirectPay is a prepaid calling account linked to your phone number. It allows the incarcerated person to call you directly from facility phones. Fund the DirectPay phone account when your goal is receiving calls.",
+      },
+      {
+        question: "Can I move money from commissary to the phone account?",
+        answer: "No. Funds cannot be transferred between City Tele Coin account types. If money landed in the wrong account, contact customer service at 318-756-1114 to ask about a refund so you can re-add it correctly, but transfers are not supported.",
+      },
+      {
+        question: "I added money but the inmate still cannot call me. Why?",
+        answer: "The most common cause is that the funds went to the commissary or media account instead of the phone account. Log in and check your balances by account type. Also confirm the DirectPay account is linked to your current phone number.",
+      },
+      {
+        question: "Are there fees for adding money to City Tele Coin?",
+        answer: "Yes. City Tele Coin is prepaid-only and every funding transaction includes a processing fee. Additional administrative fees, credit card fees, and state taxes may also apply, and you must agree to them before completing the payment.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-to-send-money-to-an-inmate", "how-prison-phone-calls-work", "prison-phone-call-costs", "how-video-visitation-works"],
+    relatedTermSlugs: ["money-transfer", "inmate-account", "commissary", "inmate-phone-calls"],
+    relatedProviderSlugs: ["city-tele-coin"],
+    relatedComparisonSlugs: [],
+    ctaType: "provider",
+    ctaTarget: "/provider/city-tele-coin",
+    ctaLabel: "View City Tele Coin Details",
+  },
+
+  "jpay-video-visit-refund-policy": {
+    id: "guide-31",
+    slug: "jpay-video-visit-refund-policy",
+    title: "JPay Video Visit Refunds: The Real Policy",
+    excerpt: "Conflicting answers on JPay video visit refunds? Learn what happens with cancelled, failed, and late-starting visits, and how to ask for a credit or reschedule.",
+    category: "Visitation",
+    difficulty: "Beginner",
+    featured: false,
+    popular: true,
+    readingTimeMinutes: 6,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "JPay Video Visit Refunds: The Real Policy Explained",
+    seoDescription: "JPay video visit refunds explained: what happens when visits are cancelled, never start, or start late. How to request a credit or free reschedule.",
+
+    intro: [
+      "JPay video visits cost real money, and when a visit fails, families want to know one thing: do I get my money back? The honest answer is that it depends, and JPay support has given families conflicting answers on this for years.",
+      "The common failure scenarios are well documented: a visit is scheduled but never starts, the visit starts late and eats into your paid time, a promised free weekly visit disappears and you are charged instead, or you miss the visit because of a facility problem like the kiosk being in a different dorm.",
+      "This guide lays out what families report actually happening in each scenario, and the exact steps that give you the best chance of a credit or free reschedule. Refund policies vary by facility, so treat this as a playbook, not a guarantee.",
+    ],
+
+    sections: [
+      {
+        heading: "The Refund Reality: Conflicting Answers",
+        body: [
+          "There is no single published JPay video visit refund policy that families can point to. What you get depends on who you talk to at JPay support, what the facility says, and how well you document the failure.",
+          "Families report receiving directly contradictory answers: one agent promises a credit, another says no refunds are possible for the same situation. This inconsistency is itself the most reliable fact about JPay video visit refunds.",
+          "Because of this, your approach matters more than the official policy. Contact support promptly, be specific about what failed, and always ask for a reference or ticket number so the next agent can see the history.",
+        ],
+      },
+      {
+        heading: "Visit Scheduled but Never Started",
+        body: [
+          "This is the clearest case for a credit: you paid, you showed up on time with working equipment, and the inmate never appeared or the session never connected. Families in this situation generally have the strongest claim.",
+          "Contact JPay support as soon as possible after the missed visit. State the scheduled date and time, confirm you were present and ready, and ask explicitly for either a refund or a free reschedule.",
+          "If support resists, ask to escalate and ask the facility as well. Sometimes the failure was on the facility side, such as the inmate not being brought to the video station, and the facility can authorize a reschedule even when JPay will not.",
+        ],
+      },
+      {
+        heading: "Visit Started Late and Ate Into Your Time",
+        body: [
+          "A frequent complaint: a 30-minute visit starts 4 or 5 minutes late because of technical delays, and the clock still runs out at the original end time. You paid for 30 minutes and received 25.",
+          "Document the actual start and end times with screenshots if you can. The visit interface usually shows a timer, and a screenshot of a late start is your evidence.",
+          "Ask support for a partial credit or a time extension on a future visit. This is a weaker claim than a visit that never happened, so be polite, be specific about the minutes lost, and accept a reschedule offer if a refund is refused.",
+        ],
+      },
+      {
+        heading: "Free Weekly Visit Disappeared or Was Charged",
+        body: [
+          "Some facilities offer one free video visit per week, and families report this benefit disappearing without notice, with visits suddenly being charged, in some cases around $3.50 per visit.",
+          "If your free visit vanished, first confirm the benefit still exists at the facility. Free visit policies are set by the facility, not by JPay, and they can change. Call the facility visitation office and ask directly.",
+          "If the facility confirms the free visit should still apply, take that confirmation back to JPay support and ask for the charge to be reversed. A statement from the facility carries more weight than your word alone.",
+        ],
+      },
+      {
+        heading: "Missed Visit Because of a Facility Problem",
+        body: [
+          "Families report missing visits because the video kiosk was in a different dorm than the inmate, the inmate was not moved in time, or the facility was on an unannounced lockdown. In these cases JPay typically says the failure was not theirs and refuses a refund.",
+          "Your recourse here is the facility, not JPay. Contact the facility visitation coordinator, explain what happened, and ask for a free reschedule. Facilities handle these case by case.",
+          "Document everything: your confirmation email, the scheduled time, and any communication from the facility. If the facility acknowledges the problem, ask for that acknowledgment in writing or by email so you can show JPay.",
+        ],
+      },
+      {
+        heading: "How to Ask for a Credit or Reschedule",
+        body: [
+          "Step one: contact JPay support promptly, ideally the same day. Delays weaken your case. Have your confirmation email, the scheduled date and time, and a description of exactly what failed.",
+          "Step two: state what you want clearly. Ask for a refund to your payment method or a free reschedule, not both vaguely. Specific requests get specific answers.",
+          "Step three: get a ticket or reference number for every contact. If the first agent says no, call back with the reference number and ask to escalate. Conflicting answers mean a second attempt sometimes succeeds where the first failed.",
+          "Step four: if JPay will not budge and the failure was clearly on their technical side, you can dispute the charge with your bank as a last resort, providing your confirmation and documentation of the failure.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "There is no single consistent JPay video visit refund policy. Answers from support vary by agent and facility.",
+      "Visits that never started give you the strongest claim for a credit or free reschedule.",
+      "Late starts that eat into your paid time are worth disputing with screenshots of the actual times.",
+      "Free weekly visits are a facility benefit, not a JPay benefit. Confirm changes with the facility first.",
+      "Missed visits caused by facility problems must be taken up with the facility, not JPay.",
+      "Always get a ticket number, and try again with a different agent if the first one refuses.",
+    ],
+
+    faq: [
+      {
+        question: "Does JPay refund cancelled video visits?",
+        answer: "Sometimes. There is no consistent published policy, and support agents give conflicting answers. Visits that were paid for but never started have the strongest claim. Contact support the same day with your confirmation email and ask explicitly for a refund or free reschedule, and always get a ticket number.",
+      },
+      {
+        question: "My video visit started 5 minutes late. Can I get that time back?",
+        answer: "You can ask. Screenshot the actual start and end times as evidence, then contact JPay support and request a partial credit or a time extension on a future visit. This is a weaker claim than a visit that never happened, so be specific about the minutes lost and accept a reschedule if a refund is refused.",
+      },
+      {
+        question: "I missed my visit because the kiosk was in another dorm. Can I get a refund?",
+        answer: "JPay typically refuses refunds for facility-side problems. Take this to the facility visitation coordinator instead and ask for a free reschedule. Document your confirmation email and the scheduled time, and get any facility acknowledgment in writing.",
+      },
+      {
+        question: "Is there really a free weekly JPay video visit?",
+        answer: "Some facilities offer one free video visit per week, but this is a facility benefit, not a JPay guarantee, and it can change or disappear. If you were charged unexpectedly, confirm the current policy with the facility visitation office first, then take that confirmation to JPay support to reverse the charge.",
+      },
+      {
+        question: "What if JPay support keeps giving me different answers?",
+        answer: "That is common. Get a ticket or reference number on every contact, then call back and ask to escalate. A different agent sometimes resolves what the first one refused. Keep copies of all confirmations, screenshots, and correspondence.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-video-visitation-works", "how-jpay-works", "prison-visitation-rules", "what-to-expect-first-prison-visit"],
+    relatedTermSlugs: ["video-visitation", "visitation-rules", "money-transfer"],
+    relatedProviderSlugs: ["jpay"],
+    relatedComparisonSlugs: [],
+    ctaType: "hub",
+    ctaTarget: "/video-calls",
+    ctaLabel: "Explore Video Visitation Options",
+  },
+
+  "jpay-error-messages-explained": {
+    id: "guide-32",
+    slug: "jpay-error-messages-explained",
+    title: "JPay Error Messages Explained",
+    excerpt: "Seeing Error Occurred, illegal input values, or a JPay app stuck on the sign-in screen? Learn what JPay errors actually mean and how to fix each one.",
+    category: "Provider Guides",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 5,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "JPay Error Messages Explained: What They Mean",
+    seoDescription: "JPay error messages explained: what Error Occurred and illegal input values really mean, why the site reroutes to home, and how to fix a stuck sign-in screen.",
+
+    intro: [
+      "JPay error messages are famously unhelpful. A message about illegal input values sounds like you are in trouble, a site that keeps dumping you back on the home screen feels broken, and an app frozen on the sign-in screen gives you nothing to work with.",
+      "Most of these errors are technical glitches or input quirks, not account problems. Families who have seen them before report simple fixes that the error text never suggests.",
+      "This guide translates the most common JPay errors into plain language and gives you the fix for each one.",
+    ],
+
+    sections: [
+      {
+        heading: "Error Occurred: Illegal Input Values",
+        body: [
+          "The full message reads: Error Occurred! We are sorry, but an error occurred processing your last request. This could be a result of illegal input values. Please, try again. It usually appears when logging in or submitting a form on the JPay website.",
+          "Despite how it sounds, illegal input values does not mean you did anything illegal or that your messages were flagged. It is a software term meaning the site received characters or data it did not expect.",
+          "The most common trigger is pasting text that contains special characters, emojis, or formatting copied from another app, such as a word processor or notes app. These hidden characters confuse the JPay form processing.",
+          "The fix: refresh the page and try again. If the error repeats on a message, retype the message directly in the JPay text box instead of pasting it. Avoid emojis and unusual symbols. Families report the error usually clears on retry.",
+        ],
+      },
+      {
+        heading: "Site Keeps Rerouting to the Home Screen",
+        body: [
+          "Some users report that the JPay website keeps sending them back to the home screen when they try to do something specific, such as setting up a video visit. The session seems to reset instead of completing the task.",
+          "This is typically a session or browser problem. Clear your browser cache and cookies for the JPay site, then log in fresh and retry the task immediately.",
+          "Try a different browser, or try the JPay mobile app for the same task. If the website session handling is broken, the app sometimes works, and vice versa.",
+          "If the rerouting happens for everyone and not just you, JPay may be having a site-wide problem. Check outage reports, wait a few hours, and try again before assuming your account is the issue.",
+        ],
+      },
+      {
+        heading: "App Stuck on the Sign-In Screen",
+        body: [
+          "The JPay app sometimes idles on the sign-in screen: you enter your credentials, tap sign in, and nothing happens. No error, no progress, just the same screen.",
+          "Force close the app completely and reopen it. On both iPhone and Android, remove the app from the recent apps list so it fully restarts.",
+          "Check for an app update in the App Store or Google Play. An outdated app can fail silently when JPay changes something on the server side.",
+          "If it still hangs, delete and reinstall the app. Make sure you know your password first, since you will need to log in again. A fresh install clears corrupted local data that causes most persistent sign-in hangs.",
+        ],
+      },
+      {
+        heading: "General Rules for Any JPay Error",
+        body: [
+          "First, determine whether the problem is you or JPay. If the site or app fails the same way on two different devices or networks, it is likely a JPay outage. Wait and retry later instead of troubleshooting your own setup endlessly.",
+          "Second, switch access methods. The website and the app fail independently of each other. Whatever is broken on one often works fine on the other.",
+          "Third, simplify your input. Type directly instead of pasting, avoid special characters and emojis, and complete one task at a time instead of rushing through multiple screens.",
+          "Fourth, screenshot every error. If you end up contacting support, an exact screenshot of the message and what you were doing when it appeared gets you help far faster than a description from memory.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Illegal input values is a software glitch term, not an accusation. It usually means pasted special characters confused the form.",
+      "Retype messages directly instead of pasting from other apps, and avoid emojis and unusual symbols.",
+      "If the site dumps you back to the home screen, clear cache and cookies or switch browsers.",
+      "If the app hangs on sign-in, force close, update, or reinstall it.",
+      "The website and the app fail independently. Always try the other one before giving up.",
+      "Screenshot every error before contacting support.",
+    ],
+
+    faq: [
+      {
+        question: "What does illegal input values mean on JPay?",
+        answer: "It is a software error meaning the site received characters it did not expect, not an accusation of wrongdoing. It is usually triggered by pasting text with special characters, emojis, or hidden formatting from another app. Refresh and retype the message directly in the JPay text box.",
+      },
+      {
+        question: "Did I get flagged for illegal content because of this error?",
+        answer: "No. The word illegal in this message refers to input the software could not process, not to the content of your messages. Families who saw this error report it clearing on retry with no consequences to their accounts.",
+      },
+      {
+        question: "Why does the JPay website keep sending me back to the home screen?",
+        answer: "This is usually a broken browser session. Clear your cache and cookies, log in fresh, and retry the task. If it persists, try a different browser or the JPay mobile app, or check whether JPay is having a site-wide outage.",
+      },
+      {
+        question: "The JPay app is stuck on the sign-in screen. How do I fix it?",
+        answer: "Force close the app and reopen it first. Then check for an app update. If it still hangs, delete and reinstall the app, making sure you know your password first. If the app will not cooperate at all, use the JPay website in your browser instead.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-jpay-works", "jpay-account-locked", "how-inmate-messaging-works", "gettingout-app-not-working"],
+    relatedTermSlugs: ["inmate-messaging", "electronic-messaging", "inmate-account"],
+    relatedProviderSlugs: ["jpay"],
+    relatedComparisonSlugs: [],
+    ctaType: "provider",
+    ctaTarget: "/provider/jpay",
+    ctaLabel: "View JPay Details",
+  },
+
+  "inmate-call-cut-off-third-party": {
+    id: "guide-33",
+    slug: "inmate-call-cut-off-third-party",
+    title: "Why Inmate Calls Get Cut Off (Third-Party Warning)",
+    excerpt: "Inmate calls cut off with a third-party warning when nothing happened? Learn how the detection works, what triggers false cutoffs, and how to keep calls connected.",
+    category: "How It Works",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 5,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "Inmate Calls Cut Off? Third-Party Warning Explained",
+    seoDescription: "Why inmate calls get cut off with a third-party warning even when nothing happened. How detection works, what triggers false cutoffs, and how to prevent them.",
+
+    intro: [
+      "Few things are more frustrating than a call with your loved one suddenly ending with a warning about a third-party call when you did nothing wrong. The call just drops, the money for the minutes is gone, and you are left wondering what happened.",
+      "Prison phone systems actively monitor calls for three-way calling and call forwarding, because those are the main ways inmates reach numbers that are not approved. The detection is automated, and automated detection makes mistakes.",
+      "This guide explains how third-party call detection works, what commonly triggers a false cutoff, and the habits that keep your calls connected. Policies and detection sensitivity vary by facility and provider.",
+    ],
+
+    sections: [
+      {
+        heading: "How Third-Party Call Detection Works",
+        body: [
+          "Prison phone systems listen for the audio signatures of a third party joining the call: the click of call waiting, the tones of merging calls, sudden changes in background noise, or a second voice on the line. When the system detects these patterns, it plays a warning and may terminate the call automatically.",
+          "This monitoring exists because three-way calling lets an inmate talk to someone who is not on the approved call list, which facilities treat as a security violation. The system errs on the side of cutting the call rather than letting a possible violation continue.",
+          "Because the detection is automated, it reacts to patterns, not intentions. Anything that sounds like a third party joining, even briefly, can trigger it.",
+        ],
+      },
+      {
+        heading: "What Triggers a False Cutoff",
+        body: [
+          "Call waiting is the most common false trigger. If someone calls your phone while you are on the inmate call, the call-waiting beep can sound exactly like a third party joining, and the system may cut the call. Disable call waiting before accepting inmate calls if your carrier allows it.",
+          "Background noise and multiple voices near your phone can also trigger detection. A television playing, another person talking in the room, or a child shouting near the phone can all sound like an extra party on the line.",
+          "Speakerphone, Bluetooth headsets, and poor connections create audio artifacts that the system can misread. Families report more cutoffs on speakerphone than on a direct handset call.",
+          "Brief connection drops that reconnect can register as a new party joining. If your carrier signal is weak, the reconnection pattern alone can end the call.",
+        ],
+      },
+      {
+        heading: "Habits That Keep Calls Connected",
+        body: [
+          "Take inmate calls in a quiet room on a handset, not speakerphone. Hold the phone normally and keep background noise as low as possible.",
+          "Disable call waiting and do not use any phone features during the call. Do not merge calls, do not put the call on hold to answer another, and do not use your phone conferencing features while connected.",
+          "Do not hand the phone to someone else mid-call unless that person is also approved, and even then, the voice change can trigger the system. Keep the approved caller on the line for the whole call.",
+          "Use a strong, stable connection. If you are on a cell phone, stay in one place with good signal rather than walking around. A stable connection produces fewer artifacts for the system to misread.",
+        ],
+      },
+      {
+        heading: "What To Do After a False Cutoff",
+        body: [
+          "First, do not assume the inmate did something wrong or that you are in trouble. False cutoffs are common and are a known limitation of automated detection.",
+          "If cutoffs happen on every call, contact the phone provider customer service and describe the pattern. Ask whether the facility has had similar reports and whether the detection sensitivity can be reviewed.",
+          "You can also raise it with the facility communications office, especially if the cutoffs started suddenly after working fine for months. A change in equipment or settings on the facility side can increase false detections.",
+          "Keep a simple log: date, time, how far into the call the cutoff happened, and what you were doing. A pattern in the log, such as cutoffs always at the same minute mark, helps support diagnose the cause. Note that the exact detection triggers are proprietary and providers do not publish them, so some trial and error is unavoidable.",
+        ],
+      },
+      {
+        heading: "Dropped Calls vs Third-Party Cutoffs",
+        body: [
+          "Not every dropped call is a third-party cutoff. Families also report plain poor quality: choppy audio, long delays, one side unable to hear the other, and calls that simply disconnect without any warning message.",
+          "These quality problems come from aging facility phone infrastructure and network issues, and they are documented in oversight reports on prison telecommunications. They are a different problem with a different fix.",
+          "If your calls drop without any third-party warning, focus on connection quality: your carrier signal, the time of day, and whether the facility has known phone system problems. If calls end specifically with a third-party warning, focus on the habits in this guide.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Third-party detection is automated and reacts to audio patterns, not intentions. False cutoffs are common.",
+      "Call waiting beeps, background voices, speakerphone, and weak signals are the top false triggers.",
+      "Take calls in a quiet room on a handset with call waiting disabled.",
+      "Never merge calls or use conferencing features during an inmate call.",
+      "Log repeated cutoffs with dates and times before contacting the provider or facility.",
+      "Dropped calls without a warning are usually a connection quality problem, not a third-party detection.",
+    ],
+
+    faq: [
+      {
+        question: "Why did my inmate call get cut off for a third-party call when nobody else was on the line?",
+        answer: "The detection system reacts to audio patterns like call-waiting beeps, background voices, speakerphone artifacts, or brief reconnections, and it cannot tell these apart from a real third party joining. Disable call waiting, take the call in a quiet room on a handset, and avoid speakerphone.",
+      },
+      {
+        question: "Can I get my money back for minutes lost to a false cutoff?",
+        answer: "Policies vary by provider and facility. Contact the phone provider customer service, describe the pattern, and ask for a credit. Keep a log of dates and times, since documented patterns are more persuasive than a single complaint.",
+      },
+      {
+        question: "Is it safe to use speakerphone on inmate calls?",
+        answer: "It is not recommended. Speakerphone creates audio artifacts and picks up room noise that the third-party detection system can misread as an extra caller. Use the handset directly for the most reliable connection.",
+      },
+      {
+        question: "Will I get in trouble if my call is flagged as third-party?",
+        answer: "A single flagged call from an obvious false trigger is unlikely to cause problems, but repeated flags can draw attention. If the inmate was not actually three-way calling, explain the pattern to the facility communications office. Deliberate three-way calling to reach unapproved numbers is treated as a security violation, so never do it intentionally.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-prison-phone-calls-work", "prison-phone-call-costs", "how-inmate-messaging-works", "inmate-communication-guide"],
+    relatedTermSlugs: ["inmate-phone-calls", "correctional-facility"],
+    relatedProviderSlugs: ["jpay", "gtl", "securus"],
+    relatedComparisonSlugs: [],
+    ctaType: "hub",
+    ctaTarget: "/phone-calls",
+    ctaLabel: "Explore Phone Call Options",
+  },
+
+  "video-visits-without-app": {
+    id: "guide-34",
+    slug: "video-visits-without-app",
+    title: "Video Visits Without an App (Jitsi and Google Meet)",
+    excerpt: "Some facilities run video visits over Jitsi Meet or Google Meet instead of a provider app. Learn how these visits are scheduled and what to expect.",
+    category: "Visitation",
+    difficulty: "Beginner",
+    featured: false,
+    popular: false,
+    readingTimeMinutes: 5,
+    country: "us",
+    featuredImage: undefined,
+    publishedAt: "2026-10-12",
+    updatedAt: "2026-10-12",
+    seoTitle: "Video Visits Without an App: Jitsi and Google Meet Guide",
+    seoDescription: "Video visits without an app: how facilities use Jitsi Meet or Google Meet for video visitation, how to schedule, what ID you need, and the rules to follow.",
+
+    intro: [
+      "Not every facility uses a provider app for video visits. Some run visits over standard video conferencing tools like Jitsi Meet or Google Meet, scheduled directly with the facility instead of through JPay, Securus, or GettingOut.",
+      "This usually happens at facilities where the video visit program is managed by the unit itself, sometimes set up during periods when in-person visiting was restricted. The process is more manual: you coordinate with the warden office or visitation staff by phone and email.",
+      "This guide explains how these app-free video visits work, how to schedule one, and what to expect when you join.",
+    ],
+
+    sections: [
+      {
+        heading: "How App-Free Video Visits Work",
+        body: [
+          "The inmate must add you to their visitation list first, just like with any other video visit. You cannot schedule anything until the facility confirms you are an approved visitor for that inmate.",
+          "Instead of booking through an app, you contact the facility directly, usually the warden office or the visitation coordinator, by phone. You provide the inmate name and ID number, confirm you are on the visit list, and agree on a date and time.",
+          "You give the facility your name, email address, and phone number. Shortly before the visit, often about five minutes prior, you receive an email or text message containing the meeting link.",
+          "You click the link, which opens in Jitsi Meet or Google Meet in your browser or in the conferencing app if you have it installed. A staff member typically explains the visit rules before connecting you to the inmate.",
+        ],
+      },
+      {
+        heading: "Do You Need to Install Anything",
+        body: [
+          "Jitsi Meet works in a web browser without installing anything, which is why some facilities prefer it. You can join from a phone, tablet, or computer browser by clicking the link.",
+          "Google Meet also works in a browser, though having the app installed can make joining smoother on a phone. Either way, no provider account and no special prison-visit app is required.",
+          "Before the visit, test your camera and microphone in the browser you plan to use. Browser permission prompts for camera and microphone must be accepted, or the staff will see a visitor with no video or audio.",
+        ],
+      },
+      {
+        heading: "ID and Scheduling Details",
+        body: [
+          "Have a valid photo ID ready. Staff may ask you to show it on camera before or during the visit. Families report being asked to hold up a driver license or similar photo ID at the start of the session.",
+          "When you schedule, confirm the exact date, time, and time zone with the facility. Ask how far in advance you need to book and whether there is a limit on how many visits per month.",
+          "Save the facility phone number and the name of the person you spoke with. If the link does not arrive before the visit, you need someone to call immediately.",
+          "Procedures differ between units, even within the same state system. One unit may handle everything by email while another requires a phone call to the warden office. Always follow the specific instructions for your inmate unit.",
+        ],
+      },
+      {
+        heading: "Rules to Follow During the Visit",
+        body: [
+          "Stay seated and keep only yourself visible on camera. Staff commonly instruct visitors not to move around and not to have other people visible in the frame. Moving around or showing other people can end the visit.",
+          "Dress modestly. Facilities apply dress standards to video visits similar to in-person visits. Avoid revealing clothing, and when in doubt, dress as you would for an in-person visit.",
+          "Use a quiet, private location with a stable internet connection. Background noise, people walking behind you, and a shaky connection all risk interruption or termination of the visit.",
+          "Do not record the visit unless the facility explicitly allows it. Recording rules vary, and unauthorized recording can lead to loss of visiting privileges.",
+        ],
+      },
+      {
+        heading: "Troubleshooting Common Problems",
+        body: [
+          "If the link never arrives, check your spam folder, then call the facility immediately. Links are typically sent only minutes before the visit, so there is a narrow window to fix a missing link.",
+          "If you join but cannot see or hear the inmate, check your browser camera and microphone permissions first, then try rejoining through the link. Audio routing glitches, such as sound coming from the phone speaker instead of headphones, are common and usually fixed by rejoining.",
+          "If you join early and get disconnected when the inmate connects, simply rejoin and wait. Families report this happening when arriving before the inmate is brought to the station.",
+          "If the visit fails entirely because of a facility technical problem, contact the visitation coordinator afterward and ask for a reschedule. Policies on missed visits vary by facility.",
+        ],
+      },
+    ],
+
+    takeaways: [
+      "Some facilities run video visits over Jitsi Meet or Google Meet instead of a provider app.",
+      "The inmate must add you to the visitation list before you can schedule anything.",
+      "You schedule directly with the facility, usually by calling the warden office, and receive the link minutes before the visit.",
+      "No special account is needed. Jitsi Meet works in a browser with no install.",
+      "Have photo ID ready, dress modestly, stay seated, and keep only yourself on camera.",
+      "Procedures differ by unit. Always follow the specific instructions for your inmate facility.",
+    ],
+
+    faq: [
+      {
+        question: "Does my facility offer video visits without an app?",
+        answer: "It depends on the facility. Some units run visits over Jitsi Meet or Google Meet, scheduled directly with facility staff. Ask your loved one to check with their unit, or call the facility visitation office and ask what video visit options exist.",
+      },
+      {
+        question: "How do I schedule a Jitsi Meet video visit with an inmate?",
+        answer: "First the inmate must add you to their visitation list. Then call the warden office or visitation coordinator, confirm you are on the list, and agree on a date and time. You will receive the meeting link by email or text shortly before the visit.",
+      },
+      {
+        question: "Do I need to download Jitsi Meet for a prison video visit?",
+        answer: "No. Jitsi Meet works in a web browser without installing anything. Click the link the facility sends you and join from your browser. Just make sure your browser has camera and microphone permission enabled.",
+      },
+      {
+        question: "What ID do I need for a video visit?",
+        answer: "Have a valid photo ID ready, such as a driver license. Staff may ask you to hold it up to the camera at the start of the visit. Confirm the exact ID requirements with the facility when you schedule, since policies vary.",
+      },
+      {
+        question: "What are the rules during a Jitsi or Google Meet prison visit?",
+        answer: "Stay seated, keep only yourself visible on camera, dress modestly, and use a quiet private location. A staff member typically explains the rules before connecting you. Do not record the visit unless the facility explicitly allows it.",
+      },
+    ],
+
+    relatedGuideSlugs: ["how-video-visitation-works", "prison-visitation-rules", "what-to-expect-first-prison-visit", "how-to-set-up-inmate-email"],
+    relatedTermSlugs: ["video-visitation", "visitation-rules", "correctional-facility"],
+    relatedProviderSlugs: ["securus"],
+    relatedComparisonSlugs: [],
+    ctaType: "hub",
+    ctaTarget: "/video-calls",
+    ctaLabel: "Explore Video Visitation Options",
   },
 }
 

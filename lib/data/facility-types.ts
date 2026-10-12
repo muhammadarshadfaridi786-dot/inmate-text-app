@@ -62,4 +62,5 @@ export interface FacilityDetail extends FacilityBasic {
   rules: string[]
   faq: Array<{ question: string; answer: string }>
   relatedFacilitySlugs: string[]
+  relatedGuideSlugs?: string[]  // troubleshooting guide slugs wired by provider (rendered via existing RelatedLinks)
 }

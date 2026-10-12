@@ -130,6 +130,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "pelican-bay-state-prison",
       "folsom-state-prison",
@@ -261,6 +262,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "sing-sing-correctional-facility",
       "rikers-island",
@@ -392,6 +394,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "miami-dade-corrections-facility",
       "florida-state-prison",
@@ -761,6 +764,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "san-quentin-state-prison",
       "folsom-state-prison",
@@ -892,6 +896,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "san-quentin-state-prison",
       "pelican-bay-state-prison",
@@ -1023,6 +1028,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "attica-correctional-facility",
       "mdc-brooklyn",
@@ -1365,6 +1371,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "usp-leavenworth",
       "federal-correctional-complex-terre-haute",
@@ -1469,6 +1476,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "adx-florence",
       "federal-correctional-complex-terre-haute",
@@ -1573,6 +1581,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "federal-correctional-complex-coleman",
       "wake-county-detention-center",
@@ -1677,6 +1686,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "mdc-brooklyn",
       "fci-ray-brook",
@@ -1781,6 +1791,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "fci-ray-brook",
       "rikers-island",
@@ -1885,6 +1896,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "adx-florence",
       "indiana-state-prison",
@@ -1989,6 +2001,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "ionia-correctional-facility",
       "federal-correctional-complex-terre-haute",
@@ -2093,6 +2106,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "riverbend-maximum-security-institution",
       "shelby-county-criminal-justice-center",
@@ -2197,6 +2211,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "red-onion-state-prison",
       "federal-correctional-complex-butner",
@@ -2301,6 +2316,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
       "mdc-brooklyn",
       "attica-correctional-facility",
@@ -2405,6 +2421,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "mississippi-state-penitentiary",
       "georgia-diagnostic-and-classification-prison",
@@ -2509,6 +2526,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "eastham-unit",
       "harris-county-jail",
@@ -2613,6 +2631,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "federal-correctional-complex-coleman",
       "miami-dade-corrections-facility",
@@ -2717,6 +2736,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "cook-county-jail",
       "ohio-state-penitentiary",
@@ -2821,6 +2841,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "maricopa-county-jail",
       "adx-florence",
@@ -2925,6 +2946,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "stateville-correctional-center",
       "cuyahoga-county-jail",
@@ -3029,6 +3051,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "ohio-state-penitentiary",
       "philadelphia-detention-center",
@@ -3133,6 +3156,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "louisiana-state-penitentiary",
       "holman-correctional-facility",
@@ -3237,6 +3261,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "louisiana-state-penitentiary",
       "mississippi-state-penitentiary",
@@ -3341,6 +3366,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "federal-correctional-complex-petersburg",
       "sing-sing-correctional-facility",
@@ -3445,6 +3471,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "fci-danbury",
       "fci-ray-brook",
@@ -3549,6 +3576,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "fci-milan",
       "ohio-state-penitentiary",
@@ -3653,6 +3681,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "fci-memphis",
       "shelby-county-criminal-justice-center",
@@ -3757,6 +3786,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "arizona-state-prison-complex-florence",
       "corcoran-state-prison",
@@ -3861,6 +3891,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "san-quentin-state-prison",
       "pelican-bay-state-prison",
@@ -3965,6 +3996,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "federal-correctional-complex-butner",
       "georgia-diagnostic-and-classification-prison",
@@ -4069,6 +4101,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "federal-correctional-complex-terre-haute",
       "stateville-correctional-center",
@@ -4173,6 +4206,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "stateville-correctional-center",
       "louisiana-state-penitentiary",
@@ -4277,6 +4311,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "huntsville-unit",
       "harris-county-jail",
@@ -4381,6 +4416,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
     ],
 
+    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
       "louisiana-state-penitentiary",
       "mississippi-state-penitentiary",

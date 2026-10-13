@@ -47,6 +47,13 @@ const CSP = [
   [
     "connect-src",
     "'self'",
+    // NOTE: connect-src allows all HTTPS because ad networks (Adsterra)
+    // rotate their ad-serving domains on every request
+    // (sleepoverlimitprofound.com -> furiousexpansion.com -> ...).
+    // An allowlist can never keep up. script-src stays strict, which is
+    // the directive that actually prevents XSS; img-src/frame-src are
+    // already https: for the same reason.
+    "https:",
     "https://*.supabase.co",
     "https://www.google-analytics.com",
     "https://analytics.google.com",
@@ -57,8 +64,6 @@ const CSP = [
     "https://pagead2.googlesyndication.com",
     "https://www.highrevenueformat.com",
     "https://*.profitableratecpmnetwork.com",
-    // Adsterra native banner ad-serving + tracking domains (proven by
-    // browser console CSP errors) + AdSense traffic-quality endpoint.
     "https://protrafficinspector.com",
     "https://*.protrafficinspector.com",
     "https://sleepoverlimitprofound.com",

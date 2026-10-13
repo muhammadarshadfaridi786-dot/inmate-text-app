@@ -14,13 +14,17 @@ export default function NativeBanner() {
   useEffect(() => {
     const container = document.getElementById(CONTAINER_ID)
     if (!container) return
-    if (container.querySelector(`script[data-native-key="${NATIVE_KEY}"]`)) return
+    if (document.querySelector(`script[data-native-key="${NATIVE_KEY}"]`)) return
     const s = document.createElement("script")
     s.setAttribute("data-native-key", NATIVE_KEY)
     s.setAttribute("data-cfasync", "false")
     s.async = true
     s.src = `https://pl31408504.profitableratecpmnetwork.com/${NATIVE_KEY}/invoke.js`
-    container.appendChild(s)
+    // Insert as a sibling BEFORE the container, exactly like Adsterra's
+    // embed code (script tag, then the container div). The invoke script
+    // locates its container relative to its own script tag, so nesting the
+    // script inside the container breaks it.
+    container.parentNode?.insertBefore(s, container)
   }, [])
 
   return (

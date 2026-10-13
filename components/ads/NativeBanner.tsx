@@ -29,7 +29,12 @@ export default function NativeBanner() {
 
   return (
     <div className="my-8 flex justify-center w-full overflow-hidden">
-      <div id={CONTAINER_ID} />
+      {/*
+        minHeight is required: an empty container measures 0px tall, and
+        ad scripts treat a 0-height slot as hidden and skip rendering.
+        The old banner containers use the same trick (minHeight 90/50).
+      */}
+      <div id={CONTAINER_ID} style={{ minHeight: 120, width: "100%" }} />
     </div>
   )
 }

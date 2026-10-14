@@ -851,7 +851,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do I add money to an inmate's account?", answer: "Through your JailATM account, which covers commissary funds and money the inmate can apply to the telephone system." },
   ],
 
-  relatedFacilitySlugs: ["usp-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
+  relatedFacilitySlugs: ["fci-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
 },
 
 "wyandotte-county-detention-center": {
@@ -906,7 +906,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "Can inmates make phone calls?", answer: "Yes, inmates can make outgoing calls during the day and evening seven days a week. The phone vendor is not confirmed, so call the jail for setup details." },
   ],
 
-  relatedFacilitySlugs: ["usp-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
+  relatedFacilitySlugs: ["fci-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
 },
 
 "lancaster-county-corrections": {

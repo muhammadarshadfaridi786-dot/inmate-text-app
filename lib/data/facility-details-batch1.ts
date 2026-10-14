@@ -1398,34 +1398,34 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
     relatedFacilitySlugs: [
-      "usp-leavenworth",
+      "fci-leavenworth",
       "federal-correctional-complex-terre-haute",
       "ohio-state-penitentiary",
     ],
   },
 
-  "usp-leavenworth": {
-    id: "f-usp-leavenworth",
-    name: "USP Leavenworth",
-    slug: "usp-leavenworth",
+  "fci-leavenworth": {
+    id: "f-fci-leavenworth",
+    name: "FCI Leavenworth",
+    slug: "fci-leavenworth",
     type: "federal",
     stateSlug: "kansas",
     stateName: "Kansas",
     stateAbbr: "KS",
     countySlug: null,
     countyName: "Leavenworth County",
-    securityLevel: "High",
+    securityLevel: "Medium",
     hasDetailPage: true,
-    seoTitle: "USP Leavenworth: CorrLinks Messaging and ConnectNetwork Phone",
-    seoDescription: "How to contact someone at USP Leavenworth in Kansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP high security facility in Leavenworth KS.",
+    seoTitle: "FCI Leavenworth: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at FCI Leavenworth in Kansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Leavenworth KS.",
 
     description:
-      "USP Leavenworth communication guide. Find CorrLinks messaging and ConnectNetwork phone options for families of federal inmates at this historic Kansas penitentiary.",
+      "FCI Leavenworth communication guide. Find CorrLinks messaging and ConnectNetwork phone options for families of federal inmates at this historic Kansas penitentiary.",
 
     overview: [
-      "United States Penitentiary Leavenworth is a high-security federal prison located in Leavenworth County, Kansas, about 25 miles northwest of Kansas City. It is one of the oldest active federal penitentiaries in the country, having opened in 1906 on a site where military prisoners had been held since the 1870s. The facility's distinctive dome and imposing architecture have made it one of the most recognizable federal prisons in American history. Today, USP Leavenworth operates as a high-security institution housing adult male federal inmates, managed by the Bureau of Prisons. The facility also has a satellite minimum-security camp on the same grounds.",
-      "Like all BOP facilities, USP Leavenworth uses CorrLinks for electronic messaging and the BOP's inmate telephone system — accessible through ConnectNetwork — for phone calls. Families new to the federal system often expect the process to mirror what they have experienced with state or county jails, but BOP communication works differently. For CorrLinks, the inmate must initiate contact or approve your request before any messaging is possible. For phone calls, you fund a prepaid account through ConnectNetwork linked to your phone number, and the inmate calls you from facility phones. Separate accounts are needed for each service.",
-      "USP Leavenworth does not offer remote video visitation. In-person visits are permitted and must be arranged through standard BOP visitor approval procedures, which require submitting a visitor application and waiting for background review before being added to the inmate's approved visitor list. Because Leavenworth is within reasonable driving distance of Kansas City, in-person visits are more accessible for many Midwest families than visits to more remote federal institutions. Families new to the BOP system should review the Bureau of Prisons website for current visiting rules and any updates to phone or messaging procedures before beginning the setup process.",
+      "FCI Leavenworth is a medium-security federal prison located in Leavenworth County, Kansas, about 25 miles northwest of Kansas City. It is one of the oldest active federal prisons in the country, having opened in 1906 on a site where military prisoners had been held since the 1870s. The facility's distinctive dome and imposing architecture have made it one of the most recognizable federal prisons in American history. It was formerly the United States Penitentiary Leavenworth and was renamed FCI Leavenworth in 2024 when the BOP updated the names of several former penitentiaries to match their current security levels. Today, FCI Leavenworth operates as a medium-security institution housing adult male federal inmates, managed by the Bureau of Prisons. The facility also has a satellite minimum-security camp on the same grounds.",
+      "Like all BOP facilities, FCI Leavenworth uses CorrLinks for electronic messaging and the BOP's inmate telephone system, accessible through ConnectNetwork, for phone calls. Families new to the federal system often expect the process to mirror what they have experienced with state or county jails, but BOP communication works differently. For CorrLinks, the inmate must initiate contact or approve your request before any messaging is possible. For phone calls, you fund a prepaid account through ConnectNetwork linked to your phone number, and the inmate calls you from facility phones. Separate accounts are needed for each service.",
+      "FCI Leavenworth does not offer remote video visitation. In-person visits are permitted and must be arranged through standard BOP visitor approval procedures, which require submitting a visitor application and waiting for background review before being added to the inmate's approved visitor list. Because Leavenworth is within reasonable driving distance of Kansas City, in-person visits are more accessible for many Midwest families than visits to more remote federal institutions. Families new to the BOP system should review the Bureau of Prisons website for current visiting rules and any updates to phone or messaging procedures before beginning the setup process.",
     ],
 
     address: "1300 Metropolitan Avenue, Leavenworth, KS 66048",
@@ -1433,7 +1433,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     website: "https://www.bop.gov/locations/institutions/lvn/",
     commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
     rosterUrl: "https://www.bop.gov/inmateloc/",
-    mailingAddress: "Inmate Full Name, Register Number\nU.S. Penitentiary\nP.O. Box 1000\nLeavenworth, KS 66048",
+    mailingAddress: "Inmate Full Name, Register Number\nFCI Leavenworth\nP.O. Box 1000\nLeavenworth, KS 66048",
     inmateCapacity: 1700,
     established: 1906,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -1467,7 +1467,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     communication: {
       messaging: { status: "available", provider: "CorrLinks", notes: "Available via CorrLinks. Inmate must approve contact before messaging begins." },
-      video: { status: "unavailable", provider: undefined, notes: "Remote video visitation is not available at USP Leavenworth." },
+      video: { status: "unavailable", provider: undefined, notes: "Remote video visitation is not available at FCI Leavenworth." },
       photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to BOP content guidelines. No digital photo platform." },
       phone: { status: "available", provider: "ConnectNetwork", notes: "Inmate-initiated calls via BOP phone system. Fund a ConnectNetwork prepaid account to receive calls." },
       moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Trust fund deposits via ConnectNetwork or money order to BOP lockbox." },
@@ -1476,30 +1476,30 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     rules: [
       "CorrLinks contact requires inmate initiation or approval. You cannot simply create an account and send a message.",
       "All BOP communications are subject to monitoring under standard Bureau of Prisons policies.",
-      "Remote video visitation is not offered at USP Leavenworth.",
+      "Remote video visitation is not offered at FCI Leavenworth.",
       "Visitor approval requires submitting a BP-629 form and passing a background check. Allow several weeks.",
       "Phone and commissary accounts are funded separately through ConnectNetwork.",
     ],
 
     faq: [
       {
-        question: "How do I start messaging someone at USP Leavenworth?",
+        question: "How do I start messaging someone at FCI Leavenworth?",
         answer: "Go to corrlinks.com and create a free account. You cannot initiate contact directly. The inmate must either send you an invitation from the TRULINCS terminal inside the facility or approve a contact request you submit. Once approved, both parties can send and receive messages for a per-message fee charged to the sender.",
       },
       {
-        question: "How do I set up phone calls from USP Leavenworth?",
-        answer: "Phone calls from USP Leavenworth are handled through ConnectNetwork, the BOP's calling platform. Create an account at connectnetwork.com and add funds linked to your phone number. The inmate will call your number from facility phones. You cannot call the facility to speak with an inmate directly.",
+        question: "How do I set up phone calls from FCI Leavenworth?",
+        answer: "Phone calls from FCI Leavenworth are handled through ConnectNetwork, the BOP's calling platform. Create an account at connectnetwork.com and add funds linked to your phone number. The inmate will call your number from facility phones. You cannot call the facility to speak with an inmate directly.",
       },
       {
-        question: "Is video visitation available at USP Leavenworth?",
-        answer: "No. USP Leavenworth does not offer remote video visitation. In-person visits are the alternative, and they require advance approval through the BOP visitor application process. Visit bop.gov for current procedures and required forms.",
+        question: "Is video visitation available at FCI Leavenworth?",
+        answer: "No. FCI Leavenworth does not offer remote video visitation. In-person visits are the alternative, and they require advance approval through the BOP visitor application process. Visit bop.gov for current procedures and required forms.",
       },
       {
-        question: "Can I send photos to someone at USP Leavenworth?",
+        question: "Can I send photos to someone at FCI Leavenworth?",
         answer: "Physical photographs can be sent by regular mail and must comply with BOP content guidelines — no nudity, no violence, and no images that could compromise security. There is no digital photo upload service at federal BOP facilities. Photos are inspected upon arrival.",
       },
       {
-        question: "How do I send money to a USP Leavenworth inmate?",
+        question: "How do I send money to a FCI Leavenworth inmate?",
         answer: "Funds for the inmate's trust account can be deposited through ConnectNetwork at connectnetwork.com. You can also send a money order made payable to the inmate via the BOP's national mail processing lockbox. Western Union Quick Collect and MoneyGram are also accepted. Allow one to three business days for funds to post.",
       },
     ],
@@ -1637,7 +1637,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     overview: [
       "Federal Correctional Institution Danbury is a low-security federal prison located in Fairfield County in southwestern Connecticut, serving both a main facility population and a minimum-security satellite camp on the same grounds. The facility has housed both male and female populations at different points in its history and has operated under Bureau of Prisons management since it opened in 1940. FCI Danbury is located within a reasonable distance of both New York City and Hartford, making it somewhat more accessible for families in the northeastern United States than many other federal institutions. At lower security levels, inmates generally have broader access to communication services than at high-security or administrative-maximum facilities.",
-      "Communication at FCI Danbury follows standard BOP rules. CorrLinks provides electronic messaging through the TRULINCS system, and families must wait for the inmate to initiate or approve contact before any correspondence can begin. Phone calls operate through ConnectNetwork, the BOP's calling platform. Because FCI Danbury is a lower-security facility, inmates typically have broader access to facility phones and more frequent communication opportunities compared to higher-security BOP institutions. Families can generally expect a more routine communication schedule here than at penitentiaries like ADX Florence or USP Leavenworth.",
+      "Communication at FCI Danbury follows standard BOP rules. CorrLinks provides electronic messaging through the TRULINCS system, and families must wait for the inmate to initiate or approve contact before any correspondence can begin. Phone calls operate through ConnectNetwork, the BOP's calling platform. Because FCI Danbury is a lower-security facility, inmates typically have broader access to facility phones and more frequent communication opportunities compared to higher-security BOP institutions. Families can generally expect a more routine communication schedule here than at penitentiaries like ADX Florence or FCI Leavenworth.",
       "One important note for families: if your loved one is housed at the satellite camp rather than the main FCI, confirm this distinction when setting up accounts, as the two share the same BOP facility code but may have slightly different day-to-day schedules. Neither the FCI nor the camp offers remote video visitation — in-person visits remain the standard visit format for BOP facilities. The visitor approval process requires submitting a BP-629 application and passing a background review, which can take several weeks, so starting that process early is worthwhile for anyone planning an in-person visit.",
     ],
 

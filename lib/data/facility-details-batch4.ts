@@ -173,7 +173,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to an FCI Hazelton inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["usp-leavenworth", "federal-correctional-complex-petersburg", "fci-forrest-city"],
+  relatedFacilitySlugs: ["fci-leavenworth", "federal-correctional-complex-petersburg", "fci-forrest-city"],
 },
 
 "fci-yankton": {
@@ -596,7 +596,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to an FCI Forrest City inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman", "usp-leavenworth", "fci-edgefield"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman", "fci-leavenworth", "fci-edgefield"],
 },
 
 "rj-donovan-correctional-facility": {
@@ -3054,7 +3054,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Federal Detention Center Miami?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "rikers-island-amkc": {
@@ -3228,7 +3228,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Metropolitan Detention Center Brooklyn?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "fdc-houston": {
@@ -3291,7 +3291,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at FDC Houston?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "harris-county-jail-baker-street-annex": {
@@ -3754,7 +3754,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at FCC Yazoo City?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "johnson-county-detention-center": {
@@ -4682,7 +4682,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at FCI Manchester?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "federal-transfer-center-oklahoma-city": {
@@ -4745,7 +4745,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Federal Transfer Center Oklahoma City?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "oklahoma-county-detention-center": {
@@ -5325,7 +5325,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at FCI Sheridan?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "chittenden-regional-correctional-facility": {
@@ -5445,7 +5445,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at FCI Seagoville?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "south-florida-reception-center": {
@@ -5794,7 +5794,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Federal Detention Center Houston?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","usp-leavenworth"],
+  relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
 },
 
 "cascade-county-regional-correctional-facility": {

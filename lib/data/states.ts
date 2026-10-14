@@ -3205,7 +3205,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
       { question: "Are phone calls free at Kansas state prisons?", answer: "No. Kansas is not among the states offering free inmate phone calls. ICSolutions holds the KDOC contract and charges per-minute rates subject to FCC caps effective April 2026. JPay electronic messaging and written mail are lower-cost alternatives for regular contact." },
       { question: "Which provider does Johnson County Detention Center use?", answer: "Johnson County Detention Center near Kansas City uses Securus Technologies, not ICSolutions. Contact Securus at 800-844-6591 or visit securustech.net. Sedgwick County Jail in Wichita uses its own contracted provider. Always confirm the specific provider for each county facility before setting up any account." },
       { question: "How do I send money to someone at a Kansas state prison?", answer: "JPay handles money deposits for KDOC state prison inmates. Visit jpay.com to create an account and deposit funds. Always include the inmate KDOC number. For county jail money transfers, contact the specific county facility as providers vary by county." },
-      { question: "How do I find someone in a Kansas state prison?", answer: "Use the KDOC offender search at doc.ks.gov to find the KDOC number and current facility. For county jail inmates contact the specific county sheriff. For federal inmates in Kansas including those at USP Leavenworth, use the Bureau of Prisons locator at bop.gov." },
+      { question: "How do I find someone in a Kansas state prison?", answer: "Use the KDOC offender search at doc.ks.gov to find the KDOC number and current facility. For county jail inmates contact the specific county sheriff. For federal inmates in Kansas including those at FCI Leavenworth, use the Bureau of Prisons locator at bop.gov." },
       { question: "How long does visitor approval take at Kansas state prisons?", answer: "Visitor applications at KDOC state prisons require a background check and take two to four weeks. All visitors must be on the approved list before in-person or video visits. Contact the specific facility to start the application process." },
       { question: "Do Kansas county jails use the same provider as state prisons?", answer: "No. Kansas county jails use their own providers. ICSolutions serves most KDOC state prisons but Johnson County uses Securus and other counties use their own vendors. Always confirm which provider serves each specific county facility before setting up accounts." },
       { question: "What happens when my loved one transfers from a Kansas county jail to a state prison?", answer: "When someone transfers to a KDOC state prison they receive a KDOC number and the provider changes to ICSolutions. County jail accounts do not transfer. Create a new ICSolutions account at icscorrections.com after confirming the transfer and KDOC number via doc.ks.gov." },
@@ -3247,7 +3247,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         slug: "corrlinks",
         initial: "C",
         color: "bg-emerald-700",
-        description: "Email communication for federal Bureau of Prisons facilities in Kansas, including USP Leavenworth.",
+        description: "Email communication for federal Bureau of Prisons facilities in Kansas, including FCI Leavenworth.",
       },
     ],
 
@@ -3260,8 +3260,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         features: ["Messaging", "Phone Calls", "Money Transfer"],
       },
       {
-        name: "USP Leavenworth",
-        slug: "usp-leavenworth",
+        name: "FCI Leavenworth",
+        slug: "fci-leavenworth",
         type: "Federal Prison",
         county: "Leavenworth County",
         features: ["Messaging (CorrLinks)", "Phone Calls"],

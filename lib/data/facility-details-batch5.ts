@@ -31,6 +31,8 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   address: "5325 Broder Boulevard, Dublin, CA",
+  visitingHours: "All visits by appointment only. Book up to three days ahead; no same-day appointments. In-person visiting times depend on the housing unit.",
+  mailingAddress: "Personal mail goes to the Pigeonly Corrections processing center, not the jail. See the Sheriff's mail notice on alamedasheriff.gov for the current processing-center address. Legal mail goes directly to: Santa Rita Jail, 5325 Broder Blvd., Dublin, CA 94568. Include the inmate full name and PFN on everything.",
   operatedBy: "Alameda County Sheriff's Office",
 
   providers: [
@@ -100,6 +102,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Orange County Sheriff's Department",
+  visitingHours: "Central Men's and Women's Jails: Friday to Monday, 8:00 AM to 4:00 PM. By appointment only, no walk-ups. Limited to four visits per inmate per week, one per day. Certain hours restricted by housing location. Schedule at 714-647-4543.",
 
   providers: [
     {
@@ -374,6 +377,8 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Sacramento County Sheriff's Office",
+  rosterUrl: "https://www.sacsheriff.com/InmateInformation/",
+  visitingHours: "Two 45-minute social visits per week, Sunday through Saturday. Morning and afternoon visiting hours: 7:30, 8:30, 9:30, 11:30, 12:30, 1:30, and 2:30. Evening visiting hours: 4:30, 5:30, 7:30, 8:30, and 9:30. Last visit registered no later than 9:30 PM. First come, first served.",
 
   providers: [
     {

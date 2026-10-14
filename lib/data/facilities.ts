@@ -186,9 +186,9 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
   {
-    id: "f-usp-leavenworth",
-    name: "USP Leavenworth",
-    slug: "usp-leavenworth",
+    id: "f-fci-leavenworth",
+    name: "FCI Leavenworth",
+    slug: "fci-leavenworth",
     type: "federal",
     stateSlug: "kansas",
     stateName: "Kansas",

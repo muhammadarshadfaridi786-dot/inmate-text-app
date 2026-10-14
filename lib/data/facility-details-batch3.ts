@@ -2002,7 +2002,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Lansing Correctional Facility is Kansas's largest state prison, operated by the Kansas Department of Corrections and located in Lansing in Leavenworth County in northeastern Kansas, about 25 miles northwest of Kansas City and roughly 5 miles from the city of Leavenworth. The current facility was built in phases beginning in 1863 and expanded significantly over the following century. It houses adult male inmates at maximum, medium, and minimum security classifications and serves as the central institution in the Kansas DOC system. Lansing's location in the Kansas City metropolitan corridor makes it one of the more accessible state prisons in the region.",
       "Communication at Lansing Correctional Facility follows Kansas DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Kansas DOC number to begin correspondence. GTL manages phone calls and video visitation under the KDOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate services requiring separate accounts and separate funding.",
-      "Lansing is in Leavenworth County, close to both the city of Leavenworth and the federal penitentiary USP Leavenworth. For Kansas City, Missouri families, the drive across the state line to Lansing is about 35 to 40 minutes northwest on I-70. For families in Topeka, the state capital, the facility is about 35 miles east — a 40-minute drive. Families in Wichita face a longer drive of about 3 hours. The facility's northeastern location makes it very accessible for the Kansas City metro market, which spans both Kansas and Missouri. KDOC accounts carry over to any other Kansas facility if an inmate transfers.",
+      "Lansing is in Leavenworth County, close to both the city of Leavenworth and the federal penitentiary FCI Leavenworth. For Kansas City, Missouri families, the drive across the state line to Lansing is about 35 to 40 minutes northwest on I-70. For families in Topeka, the state capital, the facility is about 35 miles east, a 40-minute drive. Families in Wichita face a longer drive of about 3 hours. The facility's northeastern location makes it very accessible for the Kansas City metro market, which spans both Kansas and Missouri. KDOC accounts carry over to any other Kansas facility if an inmate transfers.",
     ],
 
     address: "301 E. Kansas Avenue, Lansing, KS 66043",
@@ -2048,7 +2048,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     },
 
     rules: [
-      "Lansing Correctional Facility and USP Leavenworth are nearby but separate institutions under different jurisdictions.",
+      "Lansing Correctional Facility and FCI Leavenworth are nearby but separate institutions under different jurisdictions.",
       "JPay and GTL are separate platforms. Messaging and phone funds do not transfer between them.",
       "Messages are reviewed by KDOC staff before delivery.",
       "KDOC system-wide accounts carry over if the inmate transfers to another Kansas facility.",
@@ -2065,12 +2065,12 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         answer: "Phone calls use GTL. Create an account at telmate.com or through the GTL Connect app. Set up a prepaid AdvancePay account linked to your phone number and add funds. The inmate calls you from facility phones.",
       },
       {
-        question: "Is Lansing Correctional Facility the same as USP Leavenworth?",
-        answer: "No. Lansing Correctional Facility is a Kansas state prison operated by the Kansas Department of Corrections. USP Leavenworth is a federal penitentiary operated by the Bureau of Prisons. They are separate institutions in the same geographic area under entirely different jurisdictions, with different inmate populations and communication setups.",
+        question: "Is Lansing Correctional Facility the same as FCI Leavenworth?",
+        answer: "No. Lansing Correctional Facility is a Kansas state prison operated by the Kansas Department of Corrections. FCI Leavenworth is a federal penitentiary operated by the Bureau of Prisons. They are separate institutions in the same geographic area under entirely different jurisdictions, with different inmate populations and communication setups.",
       },
       {
         question: "How far is Lansing from Kansas City?",
-        answer: "Lansing is in Leavenworth County, about 35 to 40 miles northwest of downtown Kansas City, Missouri — roughly a 40-minute drive on I-70. For Kansas City metro families on both sides of the state line, in-person visits are very accessible.",
+        answer: "Lansing is in Leavenworth County, about 35 to 40 miles northwest of downtown Kansas City, Missouri, roughly a 40-minute drive on I-70. For Kansas City metro families on both sides of the state line, in-person visits are very accessible.",
       },
       {
         question: "How do I send money to a Lansing inmate?",
@@ -2080,7 +2080,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [
-      "usp-leavenworth",
+      "fci-leavenworth",
       "potosi-correctional-center",
       "jefferson-city-correctional-center",
     ],
@@ -2540,6 +2540,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     address: "330 S. Casino Center Blvd., Las Vegas, NV 89101",
     phone: "(702) 671-3900",
     website: "https://www.lvmpd.com",
+    mailingAddress: "Inmate Name, Inmate ID Number\nClark County Detention Center\nPO Box 43059\nLas Vegas, NV 89116",
     inmateCapacity: 3500,
     established: 1981,
     operatedBy: "Las Vegas Metropolitan Police Department (LVMPD)",

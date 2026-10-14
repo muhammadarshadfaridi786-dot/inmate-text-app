@@ -103,6 +103,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
 
   address: "100 N. Lamar Street, Fort Worth, TX 76196",
   phone: "(817) 884-3116",
+  visitingHours: "Visits by inmate last name: A to L on Monday and Saturday 9:00 AM to 9:00 PM, plus Friday 9:00 AM to 3:00 PM; M to Z on Tuesday and Sunday 9:00 AM to 9:00 PM, plus Friday 3:00 PM to 9:00 PM. Visitor sign-up begins 30 minutes before visiting hours.",
   operatedBy: "Tarrant County Sheriff's Office",
 
   providers: [],
@@ -850,7 +851,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do I add money to an inmate's account?", answer: "Through your JailATM account, which covers commissary funds and money the inmate can apply to the telephone system." },
   ],
 
-  relatedFacilitySlugs: ["usp-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
+  relatedFacilitySlugs: ["fci-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
 },
 
 "wyandotte-county-detention-center": {
@@ -905,7 +906,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "Can inmates make phone calls?", answer: "Yes, inmates can make outgoing calls during the day and evening seven days a week. The phone vendor is not confirmed, so call the jail for setup details." },
   ],
 
-  relatedFacilitySlugs: ["usp-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
+  relatedFacilitySlugs: ["fci-leavenworth", "lansing-correctional-facility", "douglas-county-department-of-corrections"],
 },
 
 "lancaster-county-corrections": {

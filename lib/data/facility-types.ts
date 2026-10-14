@@ -48,6 +48,14 @@ export interface FacilityDetail extends FacilityBasic {
   address?: string
   phone?: string
   website?: string
+  // Visit and contact details (Phase 2): all optional; section renders only filled subsections
+  mailingAddress?: string
+  visitingHours?: string
+  rosterUrl?: string
+  callRates?: string
+  commissary?: string
+  bailInfo?: string
+  fax?: string
   inmateCapacity?: number
   established?: number
   operatedBy: string

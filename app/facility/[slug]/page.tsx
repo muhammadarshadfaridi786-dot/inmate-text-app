@@ -13,6 +13,7 @@ import StateIntro from "@/components/state/StateIntro"
 import FacilityHero from "@/components/facility/FacilityHero"
 import FacilityQuickFacts from "@/components/facility/FacilityQuickFacts"
 import FacilityInfo from "@/components/facility/FacilityInfo"
+import FacilityVisitInfo from "@/components/facility/FacilityVisitInfo"
 import FacilityCommunication from "@/components/facility/FacilityCommunication"
 import FacilityProviders from "@/components/facility/FacilityProviders"
 import FacilityRulesNotice from "@/components/facility/FacilityRulesNotice"
@@ -112,6 +113,7 @@ export default async function FacilityPage({ params }: PageProps) {
       <FacilityQuickFacts facility={facility} />
       <StateIntro stateName={facility.name} intro={facility.overview} />
       <FacilityInfo facility={facility} />
+      <FacilityVisitInfo facility={facility} />
       <FacilityCommunication facility={facility} />
       <FacilityProviders facilityName={facility.name} providers={facility.providers} />
       <FacilityRulesNotice facilityName={facility.name} rules={facility.rules} />

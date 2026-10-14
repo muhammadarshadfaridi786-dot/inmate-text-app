@@ -19,28 +19,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Miami-Dade County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Miami-Dade County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Miami-Dade County Jail in Miami FL. Phone, visitation and deposit options for this Miami-Dade Corrections jail system.",
+  seoTitle: "Miami-Dade County Jail: Securus Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Miami-Dade County Jail in Miami FL. Securus phone, messaging and video visits for this Miami-Dade Corrections jail system.",
 
   description:
-    "Miami-Dade County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Miami-Dade Corrections jail system in Miami FL.",
+    "Miami-Dade County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this Miami-Dade Corrections jail system in Miami FL.",
 
   overview: [
     "Miami-Dade County Jail is the county jail system in Miami, Florida, operated by the Miami-Dade Corrections and Rehabilitation Department (MDCR). The system includes Turner Guilford Knight Correctional Center, Metro West Detention Center, the Pre-Trial Detention Center, and the Women's Detention Center. Metro West is the system's largest jail.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Miami-Dade County Jail runs through Securus. Effective October 1, 2026, Securus Video Connect became the sole video visitation system, replacing ViaPath/GTL. Securus also handles phone accounts and eMessaging.",
     "Visitation follows MDCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Miami-Dade Corrections and Rehabilitation Department (MDCR)",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service, eMessaging, and video visitation. Securus Video Connect became the sole video system on October 1, 2026, replacing ViaPath/GTL.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -53,7 +65,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Miami-Dade County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Miami-Dade County Jail?", answer: "Phone calls run through Securus. Securus Video Connect became the sole video system on October 1, 2026." },
     { question: "How do I visit someone at Miami-Dade County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow MDCR visiting rules. Confirm which facility holds the inmate and its visiting hours before traveling." },
     { question: "Which facilities are in the Miami-Dade County Jail system?", answer: "The system includes Turner Guilford Knight Correctional Center, Metro West Detention Center, the Pre-Trial Detention Center, and the Women's Detention Center. Metro West is the system's largest jail." },
   ],
@@ -150,21 +162,33 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Cobb County Jail is the county jail in Marietta, Georgia, operated by the Cobb County Sheriff's Office. It is a pretrial facility of about 1 million square feet with a capacity of about 3,077 beds. Building A was completed in 1987, Building B in 1997, and the C Tower in 2010.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Cobb County Jail run through ViaPath (GTL).",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   inmateCapacity: 3077,
   operatedBy: "Cobb County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GTL (ViaPath) provides phone service and video visits.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -177,7 +201,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Cobb County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Cobb County Jail?", answer: "Phone calls run through ViaPath (GTL)." },
     { question: "How do I visit someone at Cobb County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "How big is Cobb County Jail?", answer: "Cobb County Jail is a pretrial facility of about 1 million square feet with a capacity of about 3,077 beds. Building A was completed in 1987, Building B in 1997, and the C Tower in 2010." },
   ],
@@ -197,28 +221,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Mecklenburg County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Mecklenburg County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Mecklenburg County Jail in Charlotte NC. Phone, visitation and deposit options for this Mecklenburg County Sheriff's jail.",
+  seoTitle: "Mecklenburg County Jail: GettingOut Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Mecklenburg County Jail in Charlotte NC. GettingOut phone, messaging and video visits for this Mecklenburg County Sheriff's jail.",
 
   description:
-    "Mecklenburg County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Mecklenburg County Sheriff's jail in Charlotte NC.",
+    "Mecklenburg County Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this Mecklenburg County Sheriff's jail in Charlotte NC.",
 
   overview: [
     "Mecklenburg County Jail is the county jail in Charlotte, North Carolina, operated by the Mecklenburg County Sheriff's Office. The system includes Detention Center Central in uptown Charlotte plus Detention Center North. Jail North reopened after a closure that lasted since 2022, amid overcrowding.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Mecklenburg County Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Mecklenburg County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -231,7 +267,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Mecklenburg County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Mecklenburg County Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at Mecklenburg County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which detention center holds the inmate before traveling." },
     { question: "Which facilities are in the Mecklenburg County Jail system?", answer: "The system includes Detention Center Central in uptown Charlotte plus Detention Center North. Jail North reopened after a closure that lasted since 2022, amid overcrowding." },
   ],
@@ -259,21 +295,34 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Wake County Jail is the county jail system in Raleigh, North Carolina, operated by the Wake County Sheriff's Office Detention Division. It has a total capacity of about 1,574 beds across two facilities: the Wake County Detention Center and the John H. Baker Jr. Public Safety Center. All visits are by video at the Detention Center.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls from Wake County Jail go through PayTel Communications under a county contract. The video visitation vendor is not confirmed.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   inmateCapacity: 1574,
   operatedBy: "Wake County Sheriff's Office",
-  // TODO(Jan): verify provider
+  // TODO(Jan): verify video and messaging provider
 
-  providers: [],
+  providers: [
+    {
+      name: "PayTel",
+      slug: "paytel",
+      initial: "P",
+      color: "bg-orange-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "PayTel Communications provides inmate phone service under a county contract.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
     video: { status: "available", notes: "All visits are by video at the Wake County Detention Center. Confirm scheduling rules with the Sheriff's Office." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "PayTel", notes: "Phone calls through PayTel Communications." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -286,7 +335,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Wake County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Wake County Jail?", answer: "Phone calls go through PayTel Communications under a county contract." },
     { question: "Can I visit in person at Wake County Jail?", answer: "All visits are by video at the Wake County Detention Center. Schedule ahead and follow the Sheriff's Office visiting rules." },
     { question: "Which facilities are in the Wake County Jail system?", answer: "The system includes the Wake County Detention Center and the John H. Baker Jr. Public Safety Center, with a total capacity of about 1,574 beds." },
   ],
@@ -314,20 +363,32 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Shelby County Jail is the county jail in Memphis, Tennessee, operated by the Shelby County Sheriff's Office. The main jail is in the Justice Complex. The county operates multiple detention sites including the Adult Offender Center and the East Women's Facility.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Shelby County Jail run through GTL (ConnectNetwork), per the Sheriff's Office partnership with ConnectNetwork/GTL.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Shelby County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GTL (ViaPath) provides phone service and video visits through ConnectNetwork, per the Sheriff's Office partnership.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -340,7 +401,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Shelby County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Shelby County Jail?", answer: "Phone calls run through GTL (ConnectNetwork)." },
     { question: "How do I visit someone at Shelby County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which facility holds the inmate before traveling." },
     { question: "Which facilities are in the Shelby County Jail system?", answer: "The main jail is in the Justice Complex. The county operates multiple detention sites including the Adult Offender Center and the East Women's Facility." },
   ],
@@ -360,28 +421,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Franklin County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Franklin County Jail Ohio: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Franklin County Jail in Columbus OH. Phone, visitation and deposit options for this Franklin County Sheriff's jail.",
+  seoTitle: "Franklin County Jail: GTL Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Franklin County Jail in Columbus OH. GTL phone, messaging and video visits for this Franklin County Sheriff's jail.",
 
   description:
-    "Franklin County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Franklin County Sheriff's jail in Columbus OH.",
+    "Franklin County Jail communication guide. GTL phone, messaging and video visits for families of inmates at this Franklin County Sheriff's jail in Columbus OH.",
 
   overview: [
     "Franklin County Jail is the county jail in Columbus, Ohio, operated by the Franklin County Sheriff's Office. The Sheriff operates a corrections center system, and the current main center is the James A. Karnes Corrections Center.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Franklin County Jail runs through GTL (ViaPath). Phone calls, video visits, and messaging are handled through GTL's ConnectNetwork and GettingOut platforms.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Franklin County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GTL (ViaPath) provides phone service, video visits, and messaging through ConnectNetwork and GettingOut.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "GTL", notes: "Electronic messaging through GTL." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -394,7 +467,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Franklin County Jail in Ohio?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Franklin County Jail in Ohio?", answer: "Phone calls run through GTL (ViaPath)." },
     { question: "How do I visit someone at Franklin County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the James A. Karnes Corrections Center?", answer: "The James A. Karnes Corrections Center is the current main center of the Franklin County Sheriff's corrections center system in Columbus, Ohio." },
   ],
@@ -414,29 +487,41 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Hamilton County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Hamilton County Jail Ohio: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Hamilton County Jail in Cincinnati OH. Phone, visitation and deposit options for this Hamilton County Sheriff's jail.",
+  seoTitle: "Hamilton County Jail: Securus Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Hamilton County Jail in Cincinnati OH. Securus phone, messaging and video visits for this Hamilton County Sheriff's jail.",
 
   description:
-    "Hamilton County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Hamilton County Sheriff's jail in Cincinnati OH.",
+    "Hamilton County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this Hamilton County Sheriff's jail in Cincinnati OH.",
 
   overview: [
     "Hamilton County Jail is the county jail in Cincinnati, Ohio, operated by the Hamilton County Sheriff's Office. It is housed in the Hamilton County Justice Center, built in 1985, with twin towers connected to the courthouse by a skywalk.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Hamilton County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   established: 1985,
   operatedBy: "Hamilton County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service, eMessaging, and video visitation.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -449,7 +534,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Hamilton County Jail in Ohio?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Hamilton County Jail in Ohio?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
     { question: "How do I visit someone at Hamilton County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Hamilton County Jail in Ohio?", answer: "Hamilton County Jail is housed in the Hamilton County Justice Center in Cincinnati, built in 1985, with twin towers connected to the courthouse by a skywalk." },
   ],
@@ -477,21 +562,33 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Montgomery County Jail is the county jail in Dayton, Ohio, operated by the Montgomery County Sheriff's Office. The current jail was built in 1964 with a 1993 addition. A replacement jail plan was postponed over funding.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Montgomery County Jail run through PayTel (PayTel Connect).",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   established: 1964,
   operatedBy: "Montgomery County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "PayTel",
+      slug: "paytel",
+      initial: "P",
+      color: "bg-orange-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "PayTel provides phone service and video visits through PayTel Connect.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "PayTel", notes: "Video visits through PayTel Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "PayTel", notes: "Phone calls through PayTel." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -504,7 +601,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Montgomery County Jail in Ohio?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Montgomery County Jail in Ohio?", answer: "Phone calls run through PayTel (PayTel Connect)." },
     { question: "How do I visit someone at Montgomery County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "How old is Montgomery County Jail in Ohio?", answer: "The current jail was built in 1964 with a 1993 addition. A replacement jail plan was postponed over funding." },
   ],
@@ -532,20 +629,32 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Wayne County Jail is the county jail in Detroit, Michigan, operated by the Wayne County Sheriff's Office. The system includes Jail I, the Andrew C. Baird Detention Facility, and Jail II, the Old Jail, in downtown Detroit.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Wayne County Jail run through ViaPath (Telmate), per 2022 reporting on the county's jail communications contract.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Wayne County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut (ViaPath/Telmate) provides phone service and video visits, per 2022 reporting on the county contract.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut (ViaPath/Telmate)." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -558,7 +667,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Wayne County Jail in Michigan?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Wayne County Jail in Michigan?", answer: "Phone calls run through GettingOut (ViaPath/Telmate), per 2022 reporting." },
     { question: "How do I visit someone at Wayne County Jail in Michigan?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which jail holds the inmate before traveling." },
     { question: "Which facilities are in the Wayne County Jail system?", answer: "The system includes Jail I, the Andrew C. Baird Detention Facility, and Jail II, the Old Jail, in downtown Detroit." },
   ],
@@ -578,28 +687,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Kent County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Kent County Jail Michigan: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Kent County Jail in Grand Rapids MI. Phone, visitation and deposit options for this Kent County Sheriff's jail.",
+  seoTitle: "Kent County Jail: Smart Communications Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Kent County Jail in Grand Rapids MI. Smart Communications phone, messaging and video visits for this Kent County Sheriff's jail.",
 
   description:
-    "Kent County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Kent County Sheriff's jail in Grand Rapids MI.",
+    "Kent County Jail communication guide. Smart Communications phone, messaging and video visits for families of inmates at this Kent County Sheriff's jail in Grand Rapids MI.",
 
   overview: [
     "Kent County Jail, also known as the Kent County Correctional Facility, is the county's main adult jail in Grand Rapids, Michigan, operated by the Kent County Sheriff's Office. Its operations are reported as ACA accredited.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Kent County Jail runs through Smart Communications. Phone calls, video visits, and tablet messaging run through the Smart Communications system, and mail is scanned to tablets.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Kent County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Smart Communications",
+      slug: "smartinmate",
+      initial: "S",
+      color: "bg-cyan-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Smart Communications provides phone service, video visits, and tablet messaging through smartinmate.com. Mail is scanned to tablets.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "Smart Communications", notes: "Tablet messaging through Smart Communications." },
+    video: { status: "available", provider: "Smart Communications", notes: "Video visits through Smart Communications. Schedule in advance." },
+    photos: { status: "available", provider: "Smart Communications", notes: "Photo sharing through Smart Communications tablets." },
+    phone: { status: "available", provider: "Smart Communications", notes: "Phone calls through Smart Communications (smartinmate.com)." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -612,7 +733,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Kent County Jail in Michigan?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Kent County Jail in Michigan?", answer: "Phone calls run through Smart Communications (smartinmate.com)." },
     { question: "How do I visit someone at Kent County Jail in Michigan?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Kent County Jail in Michigan?", answer: "The facility is also known as the Kent County Correctional Facility. It is the county's main adult jail in Grand Rapids, and its operations are reported as ACA accredited." },
   ],
@@ -778,20 +899,32 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "King County Jail is an adult jail in Seattle, Washington, operated by the King County Department of Adult and Juvenile Detention (DAJD). DAJD operates two adult jails: the King County Correctional Facility in Seattle and the Maleng Regional Justice Center in Kent.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at King County Jail run through Securus, including Securus Video Connect visits.",
     "Visitation follows DAJD rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "King County Department of Adult and Juvenile Detention (DAJD)",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service and video visitation, including Securus Video Connect.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -804,7 +937,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at King County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at King County Jail?", answer: "Phone calls run through Securus Technologies." },
     { question: "How do I visit someone at King County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow DAJD visiting rules. Confirm which jail holds the inmate before traveling." },
     { question: "Which jails does King County DAJD operate?", answer: "DAJD operates two adult jails: the King County Correctional Facility in Seattle and the Maleng Regional Justice Center in Kent." },
   ],
@@ -832,21 +965,45 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Clark County Jail, also known as the Clark County Detention Center, is the county jail in Las Vegas, Nevada, operated by the Las Vegas Metropolitan Police Department (LVMPD) Detention Services. The facility includes the North Valley Complex, also called CCDC North. The LVMPD inmate handbook governs telephone usage.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Clark County Jail run through ViaPath Technologies. Trust account deposits go through TouchPay.",
     "Visitation follows LVMPD rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Las Vegas Metropolitan Police Department (LVMPD)",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ViaPath (GTL) provides phone service and video visits.",
+    },
+    {
+      name: "TouchPay",
+      slug: "touchpay",
+      initial: "T",
+      color: "bg-slate-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: false,
+      moneyTransfer: true,
+      notes: "TouchPay handles trust account deposits.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through ViaPath. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through ViaPath (GTL)." },
+    moneyTransfer: { status: "available", provider: "TouchPay", notes: "Trust account deposits through TouchPay." },
   },
 
   rules: [
@@ -858,7 +1015,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Clark County Jail in Nevada?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Clark County Jail in Nevada?", answer: "Phone calls run through ViaPath Technologies." },
     { question: "How do I visit someone at Clark County Jail in Nevada?", answer: "Visitors must be approved. Bring valid photo ID and follow LVMPD visiting rules. Confirm visiting hours before traveling." },
     { question: "What is CCDC North?", answer: "CCDC North, also called the North Valley Complex, is part of the Clark County Detention Center system in Las Vegas. The LVMPD inmate handbook governs telephone usage." },
   ],
@@ -895,7 +1052,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   providers: [
     {
       name: "Smart Communications",
-      slug: "smart-communications",
+      slug: "smartinmate",
       initial: "S",
       color: "bg-cyan-600",
       messaging: false,
@@ -947,29 +1104,41 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Salt Lake County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Salt Lake County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Salt Lake County Jail in Salt Lake City UT. Phone, visitation and deposit options for this Salt Lake County Metro Jail.",
+  seoTitle: "Salt Lake County Jail: GTL Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Salt Lake County Jail in Salt Lake City UT. GTL phone, messaging and video visits for this Salt Lake County Metro Jail.",
 
   description:
-    "Salt Lake County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Salt Lake County Metro Jail in Salt Lake City UT.",
+    "Salt Lake County Jail communication guide. GTL phone, messaging and video visits for families of inmates at this Salt Lake County Metro Jail in Salt Lake City UT.",
 
   overview: [
     "Salt Lake County Jail, also known as the Salt Lake County Metro Jail, is the county's main pretrial holding facility in Salt Lake City, Utah, operated by the Salt Lake County Sheriff's Office. The Sheriff's Office also runs corrections.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Salt Lake County Jail runs through ViaPath (GTL), including phone calls via ConnectNetwork, video visits and messaging via GettingOut, and deposits via ConnectNetwork.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Salt Lake County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: true,
+      notes: "GTL (ViaPath) provides phone service via ConnectNetwork, video visits and messaging via GettingOut, and deposits via ConnectNetwork.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "GTL", notes: "Electronic messaging through GTL GettingOut." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL GettingOut. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL via ConnectNetwork." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Deposits through GTL ConnectNetwork." },
   },
 
   rules: [
@@ -981,7 +1150,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Salt Lake County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Salt Lake County Jail?", answer: "Phone calls run through GTL (ViaPath) via ConnectNetwork." },
     { question: "How do I visit someone at Salt Lake County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the Salt Lake County Metro Jail?", answer: "The Salt Lake County Metro Jail is the county's main pretrial holding facility in Salt Lake City, operated by the Salt Lake County Sheriff's Office." },
   ],
@@ -1001,28 +1170,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Travis County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Travis County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Travis County Jail in Austin TX. Phone, visitation and deposit options for this Travis County Sheriff's jail system.",
+  seoTitle: "Travis County Jail: GTL Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Travis County Jail in Austin TX. GTL phone, messaging and video visits for this Travis County Sheriff's jail system.",
 
   description:
-    "Travis County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Travis County Sheriff's jail system in Austin TX.",
+    "Travis County Jail communication guide. GTL phone, messaging and video visits for families of inmates at this Travis County Sheriff's jail system in Austin TX.",
 
   overview: [
     "Travis County Jail is the county jail system in Austin, Texas, operated by the Travis County Sheriff's Office. It is a two-site system: the downtown jail plus the Del Valle Correctional Complex.",
-    "A 2013 county document named Securus as the phone provider, but the current provider is not confirmed, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Travis County Jail runs through ViaPath Technologies. Phone calls, video visits, and messaging run through ViaPath's systems, replacing the older Securus contract.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Travis County Sheriff's Office",
-  // TODO(Jan): verify provider (2013 doc named Securus, current not confirmed)
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ViaPath (GTL) provides phone service, video visits, and messaging, replacing the older Securus contract.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "GTL", notes: "Electronic messaging through ViaPath GettingOut." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through ViaPath. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. A 2013 county document named Securus, but the current provider is unconfirmed. Confirm with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through ViaPath (GTL)." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1035,7 +1216,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Travis County Jail?", answer: "The current vendor is not confirmed. A 2013 county document named Securus, but the current provider is unconfirmed. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Travis County Jail?", answer: "Phone calls run through ViaPath Technologies, which replaced the older Securus contract." },
     { question: "How do I visit someone at Travis County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which facility holds the inmate before traveling." },
     { question: "Which facilities are in the Travis County Jail system?", answer: "Travis County Jail is a two-site system: the downtown jail plus the Del Valle Correctional Complex, both in the Austin area." },
   ],
@@ -1063,20 +1244,44 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Collin County Jail, also known as the Collin County Detention Facility, is the county jail in McKinney, Texas, operated by the Collin County Sheriff's Office. It uses the direct supervision method, and the Detention Bureau is a division of the Sheriff's Office.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls at Collin County Jail run through ICSolutions, while video visits, messaging, and photo sharing run through ViaPath's GettingOut platform on tablets.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Collin County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "ICSolutions",
+      slug: "icsolutions",
+      initial: "I",
+      color: "bg-sky-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ICSolutions provides prepaid phone service.",
+    },
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: false,
+      moneyTransfer: false,
+      notes: "GettingOut provides video visits, messaging, and photo sharing on tablets.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut on tablets." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut on tablets." },
+    phone: { status: "available", provider: "ICSolutions", notes: "Phone calls through ICSolutions (prepaid only)." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1089,7 +1294,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Collin County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Collin County Jail?", answer: "Phone calls run through ICSolutions (prepaid only)." },
     { question: "How do I visit someone at Collin County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Collin County Jail?", answer: "The facility is also known as the Collin County Detention Facility. It uses the direct supervision method and is operated by the Collin County Sheriff's Office in McKinney." },
   ],
@@ -1117,18 +1322,31 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Denton County Jail is the county jail in Denton, Texas, operated by the Denton County Sheriff's Office. Visitation is video-based, and the county operates an Inmate Services and Visitation page.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Video visits at Denton County Jail run through HomeWAV. The phone and messaging vendors are not settled, so confirm the current provider with the facility before creating a paid account.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Denton County Sheriff's Office",
-  // TODO(Jan): verify provider
+  // TODO(Jan): verify phone and messaging provider
 
-  providers: [],
+  providers: [
+    {
+      name: "HomeWAV",
+      slug: "homewav",
+      initial: "H",
+      color: "bg-yellow-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "HomeWAV provides video visitation.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "available", notes: "Visitation is video-based. Confirm scheduling rules and the video provider with the Sheriff's Office." },
+    video: { status: "available", provider: "HomeWAV", notes: "Video visits through HomeWAV. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
     phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
@@ -1143,7 +1361,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Denton County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Denton County Jail?", answer: "The phone vendor is not settled between HomeWAV and Smart Communications. Confirm with the facility. Video visits run through HomeWAV." },
     { question: "How do I visit someone at Denton County Jail?", answer: "Visitation is video-based. Schedule ahead and follow the Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Denton County Jail?", answer: "Denton County Jail is in Denton, Texas. It is operated by the Denton County Sheriff's Office." },
   ],
@@ -1225,18 +1443,31 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   overview: [
     "Williamson County Jail is the county jail in Georgetown, Texas, operated by the Williamson County Sheriff's Office. The county Corrections Bureau runs the jail in Georgetown. Separate juvenile facilities exist.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Video visits and messaging at Williamson County Jail run through NCIC. The phone vendor is not confirmed.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Williamson County Sheriff's Office",
-  // TODO(Jan): verify provider
+  // TODO(Jan): verify phone provider
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "NCIC provides video visitation and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
     phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
@@ -1251,7 +1482,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Williamson County Jail in Texas?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Williamson County Jail in Texas?", answer: "The phone vendor is not confirmed. Video visits and messaging run through NCIC." },
     { question: "How do I visit someone at Williamson County Jail in Texas?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Williamson County Jail in Texas?", answer: "Williamson County Jail is in Georgetown, Texas. The county Corrections Bureau runs the jail. Separate juvenile facilities exist." },
   ],
@@ -1271,29 +1502,41 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Galveston County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Galveston County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Galveston County Jail in Galveston TX. Phone, visitation and deposit options for this Galveston County Sheriff's jail.",
+  seoTitle: "Galveston County Jail: GTL Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Galveston County Jail in Galveston TX. GTL phone, messaging and video visits for this Galveston County Sheriff's jail.",
 
   description:
-    "Galveston County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Galveston County Sheriff's jail in Galveston TX.",
+    "Galveston County Jail communication guide. GTL phone, messaging and video visits for families of inmates at this Galveston County Sheriff's jail in Galveston TX.",
 
   overview: [
     "Galveston County Jail is the county's main detention facility in Galveston, Texas, operated by the Galveston County Sheriff's Office. The Sheriff's Corrections Bureau runs booking and release.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Galveston County Jail runs through ViaPath (GTL), including phone calls via ConnectNetwork, video visits and messaging via GettingOut, and trust fund deposits via ConnectNetwork.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Galveston County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: true,
+      notes: "GTL (ViaPath) provides phone service via ConnectNetwork, video visits and messaging via GettingOut, and trust fund deposits via ConnectNetwork.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "GTL", notes: "Electronic messaging through GTL GettingOut." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL GettingOut. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL via ConnectNetwork." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Trust fund deposits through GTL ConnectNetwork." },
   },
 
   rules: [
@@ -1305,7 +1548,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Galveston County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Galveston County Jail?", answer: "Phone calls run through GTL (ViaPath) via ConnectNetwork." },
     { question: "How do I visit someone at Galveston County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Galveston County Jail?", answer: "Galveston County Jail is the county's main detention facility in Galveston, Texas. The Sheriff's Corrections Bureau runs booking and release." },
   ],
@@ -1325,28 +1568,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Cameron County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Cameron County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Cameron County Jail in Brownsville TX. Phone, visitation and deposit options for this Cameron County Sheriff's jail.",
+  seoTitle: "Cameron County Jail: NCIC Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Cameron County Jail in Brownsville TX. NCIC phone, messaging and video visits for this Cameron County Sheriff's jail.",
 
   description:
-    "Cameron County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Cameron County Sheriff's jail in Brownsville TX.",
+    "Cameron County Jail communication guide. NCIC phone, messaging and video visits for families of inmates at this Cameron County Sheriff's jail in Brownsville TX.",
 
   overview: [
     "Cameron County Jail is the county jail in Brownsville, Texas, operated by the Cameron County Sheriff's Office. The Sheriff's Jail Division runs multiple detention sites including Detention Center I and II and the Carrizales-Rucker Detention Center.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Cameron County Jail runs through NCIC Inmate Communications for phone calls, video visits, and messaging.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Cameron County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC provides phone service, video visitation, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1359,7 +1614,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Cameron County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Cameron County Jail?", answer: "Phone calls run through NCIC Inmate Communications." },
     { question: "How do I visit someone at Cameron County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which detention center holds the inmate before traveling." },
     { question: "Which detention sites are in the Cameron County Jail system?", answer: "The Sheriff's Jail Division runs multiple detention sites including Detention Center I and II and the Carrizales-Rucker Detention Center in Brownsville." },
   ],
@@ -1379,28 +1634,40 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Webb County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Webb County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Webb County Jail in Laredo TX. Phone, visitation and deposit options for this Webb County Sheriff's jail.",
+  seoTitle: "Webb County Jail: GettingOut Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Webb County Jail in Laredo TX. GettingOut phone, messaging and video visits for this Webb County Sheriff's jail.",
 
   description:
-    "Webb County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Webb County Sheriff's jail in Laredo TX.",
+    "Webb County Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this Webb County Sheriff's jail in Laredo TX.",
 
   overview: [
     "Webb County Jail is the main detention facility in Laredo, Texas, operated by the Webb County Sheriff's Office. The Sheriff's Office is the county's primary jail operator.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Webb County Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Webb County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1413,7 +1680,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Webb County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Webb County Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at Webb County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Webb County Jail?", answer: "Webb County Jail is the main detention facility in Laredo, Texas. The Webb County Sheriff's Office is the county's primary jail operator." },
   ],

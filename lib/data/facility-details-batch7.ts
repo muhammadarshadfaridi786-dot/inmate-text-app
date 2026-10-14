@@ -678,22 +678,46 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   overview: [
     "The Chatham County Detention Center is the county jail in Savannah, Georgia, operated by the Chatham County Sheriff's Office. Located on Carl Griffin Drive, it houses pretrial and sentenced inmates from across Chatham County and the Savannah metro area. In 2025 the sheriff's office reopened in-person visitation for the first time in over a decade.",
-    "Phone service for the detention center is provided by Paytel Communications, and video visits are also handled through Paytel's system. Because Paytel is outside the provider systems this site tracks in detail, families should confirm the current account setup steps on the sheriff's website or by calling the facility before funding any account.",
+    "Phone service at Chatham County Detention Center runs through PayTel Communications. Video visits and text messaging run through JailATM.",
     "In-person visits resumed in 2025 in dedicated visitation stations, with additional housing units being added over time. Visitors must follow the facility's dress code and scheduling rules. All calls are monitored and recorded except legal communications.",
   ],
 
   address: "1050 Carl Griffin Dr, Savannah, GA 31405",
   phone: "(912) 652-7700",
   operatedBy: "Chatham County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "PayTel",
+      slug: "paytel",
+      initial: "P",
+      color: "bg-orange-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "PayTel Communications provides phone service.",
+    },
+    {
+      name: "JailATM",
+      slug: "jailatm",
+      initial: "J",
+      color: "bg-lime-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "JailATM provides video visitation and text messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", provider: undefined, notes: "Messaging options not confirmed. Check the sheriff's inmate information page." },
-    video: { status: "limited", provider: undefined, notes: "Video visits reported through Paytel; confirm current provider on the sheriff's site." },
+    messaging: { status: "available", provider: "JailATM", notes: "Text messaging through JailATM." },
+    video: { status: "available", provider: "JailATM", notes: "Video visits through JailATM. Confirm scheduling on the sheriff's site." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing not confirmed for this facility." },
-    phone: { status: "limited", provider: undefined, notes: "Phone service reported through Paytel; confirm current provider on the sheriff's site." },
+    phone: { status: "available", provider: "PayTel", notes: "Phone service through PayTel Communications." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposit options are listed on the sheriff's inmate information page." },
   },
 
@@ -706,9 +730,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I call an inmate at Chatham County Detention Center?", answer: "Phone service is reported through Paytel Communications. Confirm the current provider and account setup on the sheriff's website or by calling 912-652-7700 before funding an account." },
+    { question: "How do I call an inmate at Chatham County Detention Center?", answer: "Phone service runs through PayTel Communications. Confirm the current account setup on the sheriff's website or by calling 912-652-7700 before funding an account." },
     { question: "Can I visit in person?", answer: "Yes. The sheriff's office reopened in-person visitation in 2025 in dedicated stations, expanding unit by unit. Check the sheriff's site for current eligibility and scheduling." },
-    { question: "How do video visits work?", answer: "Video visits are reported through Paytel's system. Confirm the current scheduling process on the sheriff's website." },
+    { question: "How do video visits work?", answer: "Video visits run through JailATM. Confirm the current scheduling process on the sheriff's website." },
     { question: "Where is the detention center?", answer: "1050 Carl Griffin Drive, Savannah, GA 31405." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; call 912-652-7700 for current methods." },
   ],
@@ -886,7 +910,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   overview: [
     "The Forsyth County Detention Center is the county jail in Winston-Salem, North Carolina, operated by the Forsyth County Sheriff's Office. The twin-tower facility on North Church Street houses around a thousand pretrial and sentenced inmates and serves as the county's main intake point.",
-    "The sheriff's office lists Paytel Communications as the inmate communications provider for phone and messaging accounts. Because Paytel is outside the provider systems this site tracks in detail, families should confirm the current account setup steps on the sheriff's website or by calling the facility before funding any account.",
+    "Phone calls, messaging, and video visits at Forsyth County Detention Center run through PayTel Communications, per the Sheriff's Office.",
     "Visits are scheduled in advance and visitors must be on the inmate's approved list. Personal mail is processed through a central mail center and scanned for delivery. All calls are monitored and recorded except legal communications.",
   ],
 
@@ -894,15 +918,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   phone: "(336) 917-7600",
   inmateCapacity: 1016,
   operatedBy: "Forsyth County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "PayTel",
+      slug: "paytel",
+      initial: "P",
+      color: "bg-orange-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "PayTel Communications provides phone service, messaging, and video visits, per the Sheriff's Office.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", provider: undefined, notes: "Messaging reported through Paytel; confirm current provider on the sheriff's site." },
-    video: { status: "limited", provider: undefined, notes: "Video visitation not confirmed. Check the sheriff's visitation page for current options." },
+    messaging: { status: "available", provider: "PayTel", notes: "Messaging through PayTel." },
+    video: { status: "available", provider: "PayTel", notes: "Video visits through PayTel. Schedule in advance." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing not confirmed for this facility." },
-    phone: { status: "limited", provider: undefined, notes: "Phone service reported through Paytel; confirm current provider on the sheriff's site." },
+    phone: { status: "available", provider: "PayTel", notes: "Phone service through PayTel Communications." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposit options are listed on the sheriff's inmate information page." },
   },
 
@@ -915,7 +951,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I call an inmate at Forsyth County Detention Center?", answer: "The sheriff's office lists Paytel Communications as the inmate communications provider. Confirm the current account setup on the sheriff's website or by calling 336-917-7600." },
+    { question: "How do I call an inmate at Forsyth County Detention Center?", answer: "The sheriff's office lists PayTel Communications as the inmate communications provider for phone, messaging, and video. Confirm the current account setup on the sheriff's website or by calling 336-917-7600." },
     { question: "How do visits work?", answer: "Visits are scheduled in advance and visitors must be on the approved list. Check the sheriff's visitation page for current hours and options." },
     { question: "Where do I send mail?", answer: "Personal mail goes to the county's mail processing center and is scanned for digital delivery. Legal mail goes directly to the facility at 201 Church Street, Winston-Salem, NC 27101." },
     { question: "How big is the facility?", answer: "The detention center has a rated capacity of about 1,016 beds." },

@@ -186,19 +186,32 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   overview: [
     "The Will County Adult Detention Facility is the county jail in Joliet, Illinois, operated by the Will County Sheriff's Office. It holds pretrial detainees and sentenced inmates for Will County, southwest of Chicago. Video visitation is conducted at the facility's video visitation center on Glenwood Avenue in Joliet.",
     "Inmate telephone services at Will County are provided by Smart Communications through smartinmate.com, per an official notice from the Will County Adult Detention Center. Families and friends create an account at smartinmate.com or call Smart Communications customer care to set up prepaid collect, PIN debit, or voicemail accounts.",
-    "Visits at Will County are by video, scheduled in advance through the sheriff's visitation system. Because the phone vendor is Smart Communications rather than one of the national providers covered in our provider database, account setup steps below are general. Confirm current visit scheduling details on the Will County Sheriff's corrections page.",
+    "Visits at Will County are by video, scheduled in advance through the sheriff's visitation system. Confirm current visit scheduling details on the Will County Sheriff's corrections page.",
   ],
 
   operatedBy: "Will County Sheriff's Office",
-  // TODO(Jan): verify provider: inmate phones officially via Smart Communications (smartinmate.com), which is not in the provider table; model as unverified until a Smart Communications provider entry exists.
+  // TODO(Jan): verify video and messaging provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Smart Communications",
+      slug: "smartinmate",
+      initial: "S",
+      color: "bg-cyan-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Smart Communications provides inmate telephone service through smartinmate.com, per the Sheriff's official notice.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", provider: undefined, notes: "Messaging availability not confirmed. Ask the facility or Smart Communications about electronic messaging options." },
     video: { status: "limited", provider: undefined, notes: "Video visitation is offered, including remote visits. Confirm the scheduling platform on the Will County Sheriff's visitation page." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing not confirmed. Check the current visitation and tablet services information." },
-    phone: { status: "limited", provider: undefined, notes: "Phone service is provided by Smart Communications (smartinmate.com), not yet covered in our provider database." },
+    phone: { status: "available", provider: "Smart Communications", notes: "Phone service through Smart Communications (smartinmate.com)." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Confirm current deposit options on the Will County Sheriff's inmate services page." },
   },
 

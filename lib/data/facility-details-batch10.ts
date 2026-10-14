@@ -97,21 +97,33 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Kauai Community Correctional Center is a Hawaii Department of Corrections and Rehabilitation (DCR) jail in Lihue, Hawaii, on Kauai. It is one of four DCR jails statewide. The Kauai Intake Service Center is located in Lihue.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Kauai Community Correctional Center runs through ViaPath (formerly GTL). Phone calls and video visits run through GTL, and trust deposits go through ViaPath ConnectNetwork. Electronic messaging is not confirmed by DCR sources, so confirm messaging options with the facility.",
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: true,
+      notes: "GTL (ViaPath) provides phone calls and video visits. Trust deposits go through ViaPath ConnectNetwork.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL tablets. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL. Set up a prepaid account through ConnectNetwork." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Trust deposits through ViaPath ConnectNetwork." },
   },
 
   rules: [
@@ -123,7 +135,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Kauai Community Correctional Center?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Kauai Community Correctional Center?", answer: "Phone calls run through GTL (ViaPath). Set up a prepaid account through ConnectNetwork." },
     { question: "How do I visit someone at Kauai Community Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Hawaii DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Kauai Community Correctional Center?", answer: "Kauai Community Correctional Center is in Lihue, Hawaii, on Kauai. It is one of four Hawaii DCR jails statewide." },
   ],
@@ -151,21 +163,33 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Women's Community Correctional Center is the only women's prison in Hawaii, in Kailua, operated by the Hawaii Department of Corrections and Rehabilitation (DCR). It houses maximum, medium, and minimum custody female offenders plus pretrial detainees.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Women's Community Correctional Center runs through ViaPath (formerly GTL). Phone calls and video visits run through GTL, and trust deposits go through ViaPath ConnectNetwork. Electronic messaging is not confirmed by DCR sources, so confirm messaging options with the facility.",
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: true,
+      notes: "GTL (ViaPath) provides phone calls and video visits. Trust deposits go through ViaPath ConnectNetwork.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL tablets. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL. Set up a prepaid account through ConnectNetwork." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Trust deposits through ViaPath ConnectNetwork." },
   },
 
   rules: [
@@ -177,7 +201,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Women's Community Correctional Center?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Women's Community Correctional Center?", answer: "Phone calls run through GTL (ViaPath). Set up a prepaid account through ConnectNetwork." },
     { question: "How do I visit someone at Women's Community Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Hawaii DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Is Women's Community Correctional Center the only women's prison in Hawaii?", answer: "Yes. Women's Community Correctional Center in Kailua is the only women's prison in Hawaii. It houses maximum, medium, and minimum custody female offenders plus pretrial detainees." },
   ],
@@ -287,21 +311,33 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Waiawa Correctional Facility is a minimum security prison in Waipahu, Hawaii, operated by the Hawaii Department of Corrections and Rehabilitation (DCR). It is listed as one of the four prisons of the Hawaii corrections system.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Waiawa Correctional Facility runs through ViaPath (formerly GTL). Phone calls and video visits run through GTL, and trust deposits go through ViaPath ConnectNetwork. Electronic messaging is not confirmed by DCR sources, so confirm messaging options with the facility.",
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: true,
+      notes: "GTL (ViaPath) provides phone calls and video visits. Trust deposits go through ViaPath ConnectNetwork.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL tablets. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL. Set up a prepaid account through ConnectNetwork." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Trust deposits through ViaPath ConnectNetwork." },
   },
 
   rules: [
@@ -313,7 +349,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Waiawa Correctional Facility?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Waiawa Correctional Facility?", answer: "Phone calls run through GTL (ViaPath). Set up a prepaid account through ConnectNetwork." },
     { question: "How do I visit someone at Waiawa Correctional Facility?", answer: "Visitors must be approved. Bring valid photo ID and follow Hawaii DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "What security level is Waiawa Correctional Facility?", answer: "Waiawa is a minimum security prison in Waipahu, Hawaii. It is one of the four prisons of the Hawaii corrections system." },
   ],
@@ -333,28 +369,40 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "York County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "York County Jail Maine: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at York County Jail in Alfred ME. Phone, visitation and deposit options for this York County pretrial jail.",
+  seoTitle: "York County Jail: Securus Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at York County Jail in Alfred ME. Securus phone, messaging and video visits for this York County pretrial jail.",
 
   description:
-    "York County Jail communication guide. Phone, visitation and deposit options for families of inmates at this York County pretrial jail in Alfred ME.",
+    "York County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this York County pretrial jail in Alfred ME.",
 
   overview: [
     "York County Jail is the county jail in Alfred, Maine, operated by the York County Sheriff's Office. It is primarily a pretrial jail.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at York County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "York County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service, eMessaging, and video visitation.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -367,7 +415,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at York County Jail in Maine?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at York County Jail in Maine?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
     { question: "How do I visit someone at York County Jail in Maine?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is York County Jail in Maine?", answer: "York County Jail is in Alfred, Maine. It is primarily a pretrial jail operated by the York County Sheriff's Office." },
   ],
@@ -395,20 +443,32 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Maine Correctional Center is a state prison in Windham, Maine, operated by the Maine Department of Corrections.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visitation at Maine Correctional Center run through Legacy Inmate Communications under the Maine DOC contract. Messaging and money transfer vendors are not confirmed.",
     "Visitation follows Maine DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Maine Department of Corrections",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Legacy Inmate Communications",
+      slug: "legacy-inmate-communications",
+      initial: "L",
+      color: "bg-fuchsia-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Legacy Inmate Communications provides phone service and video visitation under the Maine DOC contract.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "Legacy Inmate Communications", notes: "Video visits through Legacy Inmate Communications. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Legacy Inmate Communications", notes: "Phone calls through Legacy Inmate Communications." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -421,7 +481,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Maine Correctional Center?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Maine Correctional Center?", answer: "Phone calls run through Legacy Inmate Communications under the Maine DOC contract." },
     { question: "How do I visit someone at Maine Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Maine DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Maine Correctional Center?", answer: "Maine Correctional Center is in Windham, Maine. It is operated by the Maine Department of Corrections." },
   ],
@@ -441,28 +501,40 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Androscoggin County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Androscoggin County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Androscoggin County Jail in Auburn ME. Phone, visitation and deposit options for this Androscoggin County jail.",
+  seoTitle: "Androscoggin County Jail: Securus Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Androscoggin County Jail in Auburn ME. Securus phone, messaging and video visits for this Androscoggin County jail.",
 
   description:
-    "Androscoggin County Jail communication guide. Phone, visitation and deposit options for families of inmates at this county jail in Auburn ME.",
+    "Androscoggin County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this Androscoggin County jail in Auburn ME.",
 
   overview: [
     "Androscoggin County Jail is the county jail in Auburn, Maine, operated by the Androscoggin County Sheriff's Department. It primarily holds pretrial inmates.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Androscoggin County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Androscoggin County Sheriff's Department",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service, eMessaging, and video visitation.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -475,7 +547,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Androscoggin County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Androscoggin County Jail?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
     { question: "How do I visit someone at Androscoggin County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Androscoggin County Jail?", answer: "Androscoggin County Jail is in Auburn, Maine. It primarily holds pretrial inmates and is operated by the Androscoggin County Sheriff's Department." },
   ],
@@ -495,28 +567,40 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Kennebec County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Kennebec County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Kennebec County Jail in Augusta ME. Phone, visitation and deposit options for this Kennebec County correctional facility.",
+  seoTitle: "Kennebec County Jail: Securus Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Kennebec County Jail in Augusta ME. Securus phone, messaging and video visits for this Kennebec County correctional facility.",
 
   description:
-    "Kennebec County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Kennebec County correctional facility in Augusta ME.",
+    "Kennebec County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this Kennebec County correctional facility in Augusta ME.",
 
   overview: [
     "Kennebec County Jail, also known as the Kennebec County Correctional Facility, is the county correctional facility in Augusta, Maine, operated by the Kennebec County Sheriff's Office. The Sheriff's Office lists a separate corrections service line and intake unit.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Kennebec County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Kennebec County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service, eMessaging, and video visitation.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -529,7 +613,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Kennebec County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Kennebec County Jail?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
     { question: "How do I visit someone at Kennebec County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Kennebec County Jail?", answer: "The facility is also known as the Kennebec County Correctional Facility. It is operated by the Kennebec County Sheriff's Office in Augusta." },
   ],
@@ -603,29 +687,53 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Minnehaha County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Minnehaha County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Minnehaha County Jail in Sioux Falls SD. Phone, visitation and deposit options for this Minnehaha County jail.",
+  seoTitle: "Minnehaha County Jail: NCIC Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Minnehaha County Jail in Sioux Falls SD. NCIC phone, messaging and video visits for this Minnehaha County jail.",
 
   description:
-    "Minnehaha County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Minnehaha County jail in Sioux Falls SD.",
+    "Minnehaha County Jail communication guide. NCIC phone, messaging and video visits for families of inmates at this Minnehaha County jail in Sioux Falls SD.",
 
   overview: [
     "Minnehaha County Jail is the county jail in Sioux Falls, South Dakota, operated by the Minnehaha County Sheriff's Office.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Minnehaha County Jail runs through NCIC Inmate Communications for phone, video visitation, and messaging. Deposits go through JailATM.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Minnehaha County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC provides phone service, video visitation, and messaging.",
+    },
+    {
+      name: "JailATM",
+      slug: "jailatm",
+      initial: "J",
+      color: "bg-lime-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: false,
+      moneyTransfer: true,
+      notes: "JailATM handles deposits.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications." },
+    moneyTransfer: { status: "available", provider: "JailATM", notes: "Deposits through JailATM." },
   },
 
   rules: [
@@ -637,7 +745,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Minnehaha County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Minnehaha County Jail?", answer: "Phone calls run through NCIC Inmate Communications." },
     { question: "How do I visit someone at Minnehaha County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Minnehaha County Jail?", answer: "Minnehaha County Jail is in Sioux Falls, South Dakota. It is operated by the Minnehaha County Sheriff's Office." },
   ],
@@ -792,28 +900,40 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Yankton County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Yankton County Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Yankton County Jail in Yankton SD. Phone, visitation and deposit options for this Yankton County jail.",
+  seoTitle: "Yankton County Jail: NCIC Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Yankton County Jail in Yankton SD. NCIC phone, messaging and video visits for this Yankton County jail.",
 
   description:
-    "Yankton County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Yankton County jail in Yankton SD.",
+    "Yankton County Jail communication guide. NCIC phone, messaging and video visits for families of inmates at this Yankton County jail in Yankton SD.",
 
   overview: [
     "Yankton County Jail is the county jail in Yankton, South Dakota, under the jurisdiction of the Yankton County Sheriff's Office.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Yankton County Jail runs through NCIC devices, which provide telephone, video, and messaging services.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Yankton County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC provides phone service, video visitation, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -826,7 +946,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Yankton County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Yankton County Jail?", answer: "Phone calls run through NCIC Inmate Communications." },
     { question: "How do I visit someone at Yankton County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Yankton County Jail?", answer: "Yankton County Jail is in Yankton, South Dakota. It is under the jurisdiction of the Yankton County Sheriff's Office." },
   ],
@@ -927,29 +1047,41 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Kanawha County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "South Central Regional Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at South Central Regional Jail in Charleston WV. Phone, visitation and deposit options for this West Virginia regional jail.",
+  seoTitle: "South Central Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at South Central Regional Jail in Charleston WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
-    "South Central Regional Jail communication guide. Phone, visitation and deposit options for families of inmates at this West Virginia regional jail in Charleston WV.",
+    "South Central Regional Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this West Virginia regional jail in Charleston WV.",
 
   overview: [
     "South Central Regional Jail is a West Virginia Division of Corrections and Rehabilitation facility in Charleston, West Virginia. It serves Jackson and Kanawha counties and has been in operation since 1993. It contains the state's only Forensic Evaluation Unit.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at South Central Regional Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   established: 1993,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -962,7 +1094,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at South Central Regional Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at South Central Regional Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at South Central Regional Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow West Virginia DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Which counties does South Central Regional Jail serve?", answer: "South Central Regional Jail serves Jackson and Kanawha counties. It has been in operation since 1993 and contains the state's only Forensic Evaluation Unit." },
   ],
@@ -982,29 +1114,41 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Doddridge County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "North Central Regional Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at North Central Regional Jail in Greenwood WV. Phone, visitation and deposit options for this West Virginia regional jail.",
+  seoTitle: "North Central Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at North Central Regional Jail in Greenwood WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
-    "North Central Regional Jail communication guide. Phone, visitation and deposit options for families of inmates at this West Virginia regional jail in Greenwood WV.",
+    "North Central Regional Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this West Virginia regional jail in Greenwood WV.",
 
   overview: [
     "North Central Regional Jail is a West Virginia Division of Corrections and Rehabilitation facility in Greenwood, West Virginia. It opened in August 2001 and serves nine counties: Doddridge, Harrison, Marion, Monongalia, Pleasants, Ritchie, Tyler, Wirt, and Wood.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at North Central Regional Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   established: 2001,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1017,7 +1161,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at North Central Regional Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at North Central Regional Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at North Central Regional Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow West Virginia DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Which counties does North Central Regional Jail serve?", answer: "North Central Regional Jail serves nine counties: Doddridge, Harrison, Marion, Monongalia, Pleasants, Ritchie, Tyler, Wirt, and Wood. It opened in August 2001." },
   ],
@@ -1037,30 +1181,42 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Berkeley County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Eastern Regional Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Eastern Regional Jail in Martinsburg WV. Phone, visitation and deposit options for this West Virginia regional jail.",
+  seoTitle: "Eastern Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Eastern Regional Jail in Martinsburg WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
-    "Eastern Regional Jail communication guide. Phone, visitation and deposit options for families of inmates at this West Virginia regional jail in Martinsburg WV.",
+    "Eastern Regional Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this West Virginia regional jail in Martinsburg WV.",
 
   overview: [
     "Eastern Regional Jail is a West Virginia Division of Corrections and Rehabilitation facility in Martinsburg, West Virginia. It serves Berkeley, Jefferson, and Morgan counties and has been in operation since September 1999. Its rated capacity is 568.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Eastern Regional Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   inmateCapacity: 568,
   established: 1999,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1073,7 +1229,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Eastern Regional Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Eastern Regional Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at Eastern Regional Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow West Virginia DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Which counties does Eastern Regional Jail serve?", answer: "Eastern Regional Jail serves Berkeley, Jefferson, and Morgan counties. It has been in operation since September 1999 and has a rated capacity of 568." },
   ],
@@ -1093,30 +1249,42 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Marshall County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Northern Regional Jail: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Northern Regional Jail in Moundsville WV. Phone, visitation and deposit options for this West Virginia regional jail.",
+  seoTitle: "Northern Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoDescription: "How to contact someone at Northern Regional Jail in Moundsville WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
-    "Northern Regional Jail communication guide. Phone, visitation and deposit options for families of inmates at this West Virginia regional jail in Moundsville WV.",
+    "Northern Regional Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this West Virginia regional jail in Moundsville WV.",
 
   overview: [
     "Northern Regional Jail is a West Virginia Division of Corrections and Rehabilitation facility in Moundsville, West Virginia. It opened in Marshall County in 1994 and serves Brooke, Hancock, Marshall, Ohio, Tyler, and Wetzel counties. Its designated capacity is 306.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Communication at Northern Regional Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   inmateCapacity: 306,
   established: 1994,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1129,7 +1297,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Northern Regional Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Northern Regional Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at Northern Regional Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow West Virginia DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Which counties does Northern Regional Jail serve?", answer: "Northern Regional Jail serves Brooke, Hancock, Marshall, Ohio, Tyler, and Wetzel counties. It opened in Marshall County in 1994." },
   ],
@@ -1157,22 +1325,46 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Denmar Correctional Center is a medium security prison in Hillsboro, West Virginia, operated by the West Virginia Division of Corrections and Rehabilitation. It houses about 232 adult males. The building originally opened as a hospital in 1919.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone service at Denmar Correctional Center runs through GTL (ConnectNetwork), and video visits and messaging run through GettingOut.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   inmateCapacity: 232,
   established: 1919,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GTL (ViaPath) provides phone service. Accounts are managed through ConnectNetwork.",
+    },
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "GettingOut handles video visits and messaging.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL. Accounts are managed through ConnectNetwork." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1185,7 +1377,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Denmar Correctional Center?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Denmar Correctional Center?", answer: "Phone calls run through GTL (ConnectNetwork)." },
     { question: "How do I visit someone at Denmar Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow West Virginia DCR visiting rules. Confirm visiting hours before traveling." },
     { question: "What was Denmar Correctional Center before it was a prison?", answer: "The building originally opened as a hospital in 1919. Today Denmar is a medium security prison housing about 232 adult males." },
   ],
@@ -1213,20 +1405,32 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Wyoming Women's Center is the Wyoming Department of Corrections primary correctional facility for female offenders, in Lusk, Wyoming. It is a multi-custody campus housing inmates from intake through discharge.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visitation at Wyoming Women's Center run through ICSolutions under the Wyoming DOC contract.",
     "Visitation follows Wyoming DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Wyoming Department of Corrections",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "ICSolutions",
+      slug: "icsolutions",
+      initial: "I",
+      color: "bg-sky-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ICSolutions provides phone service and video visitation under the Wyoming DOC contract.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "ICSolutions", notes: "Video visits through ICSolutions. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "ICSolutions", notes: "Phone calls through ICSolutions." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1239,7 +1443,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Wyoming Women's Center?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Wyoming Women's Center?", answer: "Phone calls run through ICSolutions under the Wyoming DOC contract." },
     { question: "How do I visit someone at Wyoming Women's Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Wyoming DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What is Wyoming Women's Center?", answer: "Wyoming Women's Center in Lusk is the Wyoming Department of Corrections primary correctional facility for female offenders. It is a multi-custody campus housing inmates from intake through discharge." },
   ],
@@ -1267,20 +1471,32 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Natrona County Jail, officially known as the Natrona County Detention Center, is the county detention center in Casper, Wyoming, operated by the Natrona County Sheriff's Office.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Natrona County Jail run through NCIC Correctional Services.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Natrona County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC provides phone service and video visitation.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1293,7 +1509,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Natrona County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Natrona County Jail?", answer: "Phone calls run through NCIC Correctional Services." },
     { question: "How do I visit someone at Natrona County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Natrona County Jail?", answer: "The facility is officially known as the Natrona County Detention Center. It is operated by the Natrona County Sheriff's Office in Casper." },
   ],
@@ -1321,20 +1537,33 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Albany County Jail, officially known as the Albany County Detention Center, is the county detention center in Laramie, Wyoming, operated by the Albany County Sheriff's Office.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls from Albany County Jail go through GettingOut (ViaPath/Telmate). The video visitation vendor is not confirmed.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Albany County Sheriff's Office",
-  // TODO(Jan): verify provider
+  // TODO(Jan): verify video vendor
 
-  providers: [],
+  providers: [
+    {
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Phone calls go through GettingOut (ViaPath/Telmate).",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
     video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls go through GettingOut (ViaPath/Telmate)." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1347,7 +1576,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Albany County Jail in Wyoming?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Albany County Jail in Wyoming?", answer: "Phone calls go through GettingOut (ViaPath/Telmate). The video vendor is not confirmed." },
     { question: "How do I visit someone at Albany County Jail in Wyoming?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Albany County Jail in Wyoming?", answer: "The facility is officially known as the Albany County Detention Center. It is operated by the Albany County Sheriff's Office in Laramie." },
   ],
@@ -1375,20 +1604,32 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Wyoming Honor Farm is a minimum custody facility in Riverton, Wyoming, operated by the Wyoming Department of Corrections. It is known for its wild horse program: the Bureau of Land Management and the Honor Farm have cooperated since 1988 to train and adopt wild horses.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visitation at Wyoming Honor Farm run through ICSolutions under the Wyoming DOC contract.",
     "Visitation follows Wyoming DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Wyoming Department of Corrections",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "ICSolutions",
+      slug: "icsolutions",
+      initial: "I",
+      color: "bg-sky-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ICSolutions provides phone service and video visitation under the Wyoming DOC contract.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "ICSolutions", notes: "Video visits through ICSolutions. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "ICSolutions", notes: "Phone calls through ICSolutions." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1401,7 +1642,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Wyoming Honor Farm?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Wyoming Honor Farm?", answer: "Phone calls run through ICSolutions under the Wyoming DOC contract." },
     { question: "How do I visit someone at Wyoming Honor Farm?", answer: "Visitors must be approved. Bring valid photo ID and follow Wyoming DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the wild horse program at Wyoming Honor Farm?", answer: "The Bureau of Land Management and the Honor Farm have cooperated since 1988 to train and adopt wild horses. Inmates work with the horses as part of the program." },
   ],
@@ -1429,20 +1670,32 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Campbell County Detention Center is the detention center in Gillette, Wyoming, part of the Campbell County Sheriff's Office. It houses county, state, and federal inmates.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits at Campbell County Detention Center run through NCIC Correctional Services.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Campbell County Sheriff's Office",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC provides phone service and video visitation.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -1455,7 +1708,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Campbell County Detention Center?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Campbell County Detention Center?", answer: "Phone calls run through NCIC Correctional Services." },
     { question: "How do I visit someone at Campbell County Detention Center?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Does Campbell County Detention Center hold federal inmates?", answer: "Yes. The detention center in Gillette houses county, state, and federal inmates. It is part of the Campbell County Sheriff's Office." },
   ],

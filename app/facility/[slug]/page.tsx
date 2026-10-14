@@ -18,6 +18,7 @@ import FacilityProviders from "@/components/facility/FacilityProviders"
 import FacilityRulesNotice from "@/components/facility/FacilityRulesNotice"
 import RelatedFacilities from "@/components/facility/RelatedFacilities"
 import FacilityFaq from "@/components/facility/FacilityFaq"
+import FacilityTroubleshooting from "@/components/facility/FacilityTroubleshooting"
 import FacilityCTA from "@/components/facility/FacilityCTA"
 import AdsterraBanner from "@/components/ads/AdsterraBanner"
 
@@ -116,6 +117,10 @@ export default async function FacilityPage({ params }: PageProps) {
       <FacilityRulesNotice facilityName={facility.name} rules={facility.rules} />
       <RelatedFacilities slugs={facility.relatedFacilitySlugs} />
       <FacilityFaq facilityName={facility.name} faq={facility.faq} />
+      <FacilityTroubleshooting
+        facilityName={facility.name}
+        providers={facility.providers}
+      />
 
       {/* Internal links */}
       <PageWrapper className="py-8">

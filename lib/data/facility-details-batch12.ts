@@ -803,7 +803,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   overview: [
     "Union Correctional Institution is a Florida Department of Corrections prison in Raiford, Florida, in Union County. It opened in 1913 as the Florida State Prison and houses adult men across mixed security levels, including maximum, close, medium, minimum, and community custody. It houses Florida male death row and includes the Union Work Camp satellite unit.",
-    "JPay is confirmed for inmate funds deposits under Florida Administrative Code rules. The phone and messaging vendor for this facility is not confirmed from official sources, so families should confirm the current phone and messaging provider with the facility before creating any paid account.",
+    "Phone calls at Union Correctional Institution run through ViaPath (GTL). Messaging, video visits, and inmate funds deposits run through JPay under the Florida DOC system.",
     "Visitation follows Florida Department of Corrections rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
@@ -811,29 +811,40 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   inmateCapacity: 1957,
   established: 1913,
   operatedBy: "Florida Department of Corrections",
-  // TODO(Jan): verify phone and messaging provider (JPay confirmed for funds only)
 
   providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ViaPath (GTL) provides phone service under the Florida DOC contract.",
+    },
     {
       name: "JPay",
       slug: "jpay",
       initial: "J",
       color: "bg-blue-600",
-      messaging: false,
-      video: false,
-      photos: false,
+      messaging: true,
+      video: true,
+      photos: true,
       phone: false,
       moneyTransfer: true,
-      notes: "JPay is confirmed for inmate funds deposits under Florida Administrative Code rules. Phone and messaging vendor not confirmed.",
+      notes: "JPay handles electronic messaging, video visits, and inmate funds deposits.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging vendor is not confirmed. Confirm the current provider with the facility before creating a paid account." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "available", provider: "JPay", notes: "Inmate funds deposits through JPay under Florida Administrative Code rules." },
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging through JPay." },
+    video: { status: "available", provider: "JPay", notes: "Video visits through JPay. Schedule in advance." },
+    photos: { status: "available", provider: "JPay", notes: "Photo sharing through JPay." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through ViaPath (GTL)." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Inmate funds deposits through JPay." },
   },
 
   rules: [
@@ -845,7 +856,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Union Correctional Institution?", answer: "The current phone vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account. JPay is confirmed only for inmate funds deposits." },
+    { question: "Which company handles phone calls at Union Correctional Institution?", answer: "Phone calls run through ViaPath (GTL). Messaging, video visits, and deposits run through JPay." },
     { question: "Does Union Correctional Institution house Florida death row?", answer: "Yes. Union Correctional Institution houses Florida male death row. It opened in 1913 as the Florida State Prison." },
     { question: "How do I add money to an inmate's account at Union Correctional Institution?", answer: "Inmate funds deposits go through JPay under Florida Administrative Code rules. Confirm the current deposit method before sending money." },
     { question: "How do I visit someone at Union Correctional Institution?", answer: "Visitors must be approved by the Florida Department of Corrections. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
@@ -874,7 +885,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   overview: [
     "Santa Rosa Correctional Institution is a Florida Department of Corrections prison in Milton, Florida, in Santa Rosa County. It opened in 1996, and its Annex opened in 2006. It houses adult men across mixed security levels and is described as one of Florida's toughest prisons.",
-    "JPay is confirmed for inmate funds deposits under Florida Administrative Code rules. The phone and messaging vendor for this facility is not confirmed from official sources, so families should confirm the current phone and messaging provider with the facility before creating any paid account.",
+    "Phone calls at Santa Rosa Correctional Institution run through ViaPath (GTL). Messaging, video visits, and inmate funds deposits run through JPay under the Florida DOC system.",
     "Visitation follows Florida Department of Corrections rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
@@ -882,29 +893,40 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   inmateCapacity: 1614,
   established: 1996,
   operatedBy: "Florida Department of Corrections",
-  // TODO(Jan): verify phone and messaging provider (JPay confirmed for funds only)
 
   providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "ViaPath (GTL) provides phone service under the Florida DOC contract.",
+    },
     {
       name: "JPay",
       slug: "jpay",
       initial: "J",
       color: "bg-blue-600",
-      messaging: false,
-      video: false,
-      photos: false,
+      messaging: true,
+      video: true,
+      photos: true,
       phone: false,
       moneyTransfer: true,
-      notes: "JPay is confirmed for inmate funds deposits under Florida Administrative Code rules. Phone and messaging vendor not confirmed.",
+      notes: "JPay handles electronic messaging, video visits, and inmate funds deposits.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging vendor is not confirmed. Confirm the current provider with the facility before creating a paid account." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "available", provider: "JPay", notes: "Inmate funds deposits through JPay under Florida Administrative Code rules." },
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging through JPay." },
+    video: { status: "available", provider: "JPay", notes: "Video visits through JPay. Schedule in advance." },
+    photos: { status: "available", provider: "JPay", notes: "Photo sharing through JPay." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through ViaPath (GTL)." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Inmate funds deposits through JPay." },
   },
 
   rules: [
@@ -916,7 +938,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Santa Rosa Correctional Institution?", answer: "The current phone vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account. JPay is confirmed only for inmate funds deposits." },
+    { question: "Which company handles phone calls at Santa Rosa Correctional Institution?", answer: "Phone calls run through ViaPath (GTL). Messaging, video visits, and deposits run through JPay." },
     { question: "What is the Santa Rosa Annex?", answer: "The Santa Rosa Annex opened in 2006 as an additional housing area of Santa Rosa Correctional Institution. The main institution opened in 1996." },
     { question: "How do I add money to an inmate's account at Santa Rosa Correctional Institution?", answer: "Inmate funds deposits go through JPay under Florida Administrative Code rules. Confirm the current deposit method before sending money." },
     { question: "How do I visit someone at Santa Rosa Correctional Institution?", answer: "Visitors must be approved by the Florida Department of Corrections. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
@@ -945,23 +967,35 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   overview: [
     "Lebanon Correctional Institution is an Ohio Department of Rehabilitation and Correction prison in Lebanon, Ohio, in Warren County. It opened in 1960 and houses adult men, mostly at medium security, with some close and maximum security populations.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls, video visits, and money deposits at Lebanon Correctional Institution run through ViaPath (GTL) under the Ohio DOC contract. The email vendor is unconfirmed after GTL's expansion.",
     "Visitation follows Ohio Department of Rehabilitation and Correction rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   website: "https://www.drc.ohio.gov/leci",
   established: 1960,
   operatedBy: "Ohio Department of Rehabilitation and Correction",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: true,
+      notes: "GTL (ViaPath) provides phone service, video visits, and money deposits under the Ohio DOC contract.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "limited", notes: "Email vendor is unconfirmed after GTL's expansion; JPay previously handled email." },
+    video: { status: "available", provider: "GTL", notes: "Video visits through GTL. Schedule in advance." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL." },
+    moneyTransfer: { status: "available", provider: "GTL", notes: "Money deposits through GTL ConnectNetwork." },
   },
 
   rules: [
@@ -973,7 +1007,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Lebanon Correctional Institution?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Lebanon Correctional Institution?", answer: "Phone calls run through GTL (ViaPath) under the Ohio DOC contract." },
     { question: "How do I visit someone at Lebanon Correctional Institution?", answer: "Visitors must be approved by the Ohio Department of Rehabilitation and Correction. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
     { question: "What security level is Lebanon Correctional Institution?", answer: "Lebanon houses adult men, mostly at medium security, with some close and maximum security populations. It opened in 1960." },
   ],
@@ -1001,7 +1035,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   overview: [
     "Macon State Prison is a Georgia Department of Corrections prison in Oglethorpe, Georgia, in Macon County. It was constructed in 1993 and opened in 1994. It operates at close security, a very high security level, and houses inmates deemed to have the highest potential security risks. It is a Tier I and Tier II facility.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls at Macon State Prison run through Securus under the Georgia DOC contract. Messaging, video visits, and money deposits run through JPay.",
     "Visitation follows Georgia Department of Corrections rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
@@ -1009,16 +1043,40 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   inmateCapacity: 1762,
   established: 1994,
   operatedBy: "Georgia Department of Corrections",
-  // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service under the Georgia DOC contract.",
+    },
+    {
+      name: "JPay",
+      slug: "jpay",
+      initial: "J",
+      color: "bg-blue-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: false,
+      moneyTransfer: true,
+      notes: "JPay handles electronic messaging, video visits, and money deposits.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    messaging: { status: "available", provider: "JPay", notes: "Electronic messaging through JPay." },
+    video: { status: "available", provider: "JPay", notes: "Video visits through JPay. Schedule in advance." },
+    photos: { status: "available", provider: "JPay", notes: "Photo sharing through JPay." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus." },
+    moneyTransfer: { status: "available", provider: "JPay", notes: "Money deposits through JPay." },
   },
 
   rules: [
@@ -1030,7 +1088,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Macon State Prison?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Macon State Prison?", answer: "Phone calls run through Securus under the Georgia DOC contract. Messaging, video, and deposits run through JPay." },
     { question: "How do I visit someone at Macon State Prison?", answer: "Visitors must be approved by the Georgia Department of Corrections. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
     { question: "What security level is Macon State Prison?", answer: "Macon State Prison operates at close security, a very high security level. It houses inmates deemed to have the highest potential security risks and is a Tier I and Tier II facility." },
   ],

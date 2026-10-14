@@ -11,19 +11,22 @@ interface FaqItem {
 interface FacilityFaqProps {
   facilityName: string
   faq: FaqItem[]
+  extraFaq?: FaqItem[]
 }
 
-export default function FacilityFaq({ facilityName, faq }: FacilityFaqProps) {
-  if (!faq.length) return null
+export default function FacilityFaq({ facilityName, faq, extraFaq }: FacilityFaqProps) {
+  const allFaq = [...faq, ...(extraFaq ?? [])]
+  if (!allFaq.length) return null
 
   return (
     <>
-      <JsonLd schema={buildFaqSchema(faq)} />
+      <JsonLd schema={buildFaqSchema(allFaq)} />
+      {faq.length > 0 && (
       <section className="border-b py-16" aria-labelledby="faq-heading">
         <PageWrapper>
           <SectionHeading
             id="faq-heading"
-            title={`Frequently Asked Questions — ${facilityName}`}
+            title={`Frequently Asked Questions: ${facilityName}`}
             subtitle="Common questions from families about communication at this facility."
             className="mb-8"
           />
@@ -41,6 +44,7 @@ export default function FacilityFaq({ facilityName, faq }: FacilityFaqProps) {
           </dl>
         </PageWrapper>
       </section>
+      )}
     </>
   )
 }

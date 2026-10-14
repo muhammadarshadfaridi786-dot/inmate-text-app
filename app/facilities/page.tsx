@@ -8,7 +8,7 @@ import SectionHeading from "@/components/shared/SectionHeading"
 import FacilitiesSearch from "@/components/facility/FacilitiesSearch"
 
 export const metadata: Metadata = {
-  title: "Correctional Facilities Directory: 100+ U.S. Prisons, Jails and Detention Centers",
+  title: `Correctional Facilities Directory: ${ALL_FACILITIES.length} Prisons and Jails`,
   description:
     "Search our directory of federal prisons, state prisons, county jails and detention centers across the United States. Find which communication providers serve each facility for messaging, phone calls, video visits and money transfers.",
   alternates: { canonical: "/facilities" },

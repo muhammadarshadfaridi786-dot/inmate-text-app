@@ -1,8 +1,6 @@
 import Link from "next/link"
 import PageWrapper from "@/components/layout/PageWrapper"
 import SectionHeading from "@/components/shared/SectionHeading"
-import JsonLd from "@/components/seo/JsonLd"
-import { buildFaqSchema } from "@/lib/schema"
 import { getTroubleshootingFaqs } from "@/lib/data/facility-troubleshooting"
 import type { FacilityProvider } from "@/lib/data/facilities"
 
@@ -20,7 +18,6 @@ export default function FacilityTroubleshooting({
 
   return (
     <>
-      <JsonLd schema={buildFaqSchema(faqs)} />
       <section className="border-b py-16" aria-labelledby="troubleshooting-heading">
         <PageWrapper>
           <SectionHeading

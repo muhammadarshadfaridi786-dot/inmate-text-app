@@ -19,8 +19,8 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Hawaii County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Hawaii Community Correctional Center: ConnectNetwork Phones and Contact Guide",
-  seoDescription: "How to contact someone at Hawaii Community Correctional Center in Hilo HI. ConnectNetwork phone service, visitation, and contact rules for this Hawaii DCR facility.",
+  seoTitle: "Hawaii Community Correctional Center: ConnectNetwork Phones",
+  seoDescription: "How to contact someone at Hawaii Community Correctional Center in Hilo HI.",
 
   description:
     "Hawaii Community Correctional Center communication guide. ConnectNetwork phone service, visitation, and contact rules for families of inmates at this Hawaii DCR facility in Hilo HI.",
@@ -89,7 +89,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Kauai County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Kauai Community Correctional Center: Phone and Visitation Guide",
+  seoTitle: "Kauai Community Correctional Center: Phone and Visitation",
   seoDescription: "How to contact someone at Kauai Community Correctional Center in Lihue HI. Phone, visitation and deposit options for this Hawaii DCR jail.",
 
   description:
@@ -155,7 +155,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Honolulu County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Women's Community Correctional Center: Phone and Visitation Guide",
+  seoTitle: "Women's Community Correctional Center: Phone and Visitation",
   seoDescription: "How to contact someone at Women's Community Correctional Center in Kailua HI. Phone, visitation and deposit options for Hawaii's only women's prison.",
 
   description:
@@ -221,8 +221,8 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Honolulu County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "FDC Honolulu: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FDC Honolulu in Hawaii. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this federal detention center.",
+  seoTitle: "FDC Honolulu: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at FDC Honolulu in Hawaii.",
 
   description:
     "FDC Honolulu communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of pretrial and holdover inmates at this federal detention center in Honolulu HI.",
@@ -501,7 +501,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Androscoggin County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Androscoggin County Jail: Securus Phone, Messaging and Video Visits",
+  seoTitle: "Androscoggin County Jail: Securus Phone, Messaging and",
   seoDescription: "How to contact someone at Androscoggin County Jail in Auburn ME. Securus phone, messaging and video visits for this Androscoggin County jail.",
 
   description:
@@ -567,7 +567,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Kennebec County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Kennebec County Jail: Securus Phone, Messaging and Video Visits",
+  seoTitle: "Kennebec County Jail: Securus Phone, Messaging and Video",
   seoDescription: "How to contact someone at Kennebec County Jail in Augusta ME. Securus phone, messaging and video visits for this Kennebec County correctional facility.",
 
   description:
@@ -687,7 +687,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Minnehaha County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Minnehaha County Jail: NCIC Phone, Messaging and Video Visits",
+  seoTitle: "Minnehaha County Jail: NCIC Phone, Messaging and Video",
   seoDescription: "How to contact someone at Minnehaha County Jail in Sioux Falls SD. NCIC phone, messaging and video visits for this Minnehaha County jail.",
 
   description:
@@ -765,7 +765,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Bon Homme County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Mike Durfee State Prison: GTL Phones and GettingOut Visits Guide",
+  seoTitle: "Mike Durfee State Prison: GTL Phones and GettingOut Visits",
   seoDescription: "How to contact someone at Mike Durfee State Prison in Springfield SD. GTL phones and GettingOut messaging and video visits for this South Dakota men's prison.",
 
   description:
@@ -966,7 +966,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Hughes County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "South Dakota Women's Prison: GTL Phones and GettingOut Visits Guide",
+  seoTitle: "South Dakota Women's Prison: GTL Phones and GettingOut",
   seoDescription: "How to contact someone at South Dakota Women's Prison in Pierre SD. GTL phones and GettingOut messaging and video visits for this South Dakota women's prison.",
 
   description:
@@ -1047,7 +1047,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Kanawha County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "South Central Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoTitle: "South Central Regional Jail: GettingOut Phone, Messaging",
   seoDescription: "How to contact someone at South Central Regional Jail in Charleston WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
@@ -1114,7 +1114,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Doddridge County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "North Central Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoTitle: "North Central Regional Jail: GettingOut Phone, Messaging",
   seoDescription: "How to contact someone at North Central Regional Jail in Greenwood WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
@@ -1181,7 +1181,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Berkeley County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Eastern Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoTitle: "Eastern Regional Jail: GettingOut Phone, Messaging and",
   seoDescription: "How to contact someone at Eastern Regional Jail in Martinsburg WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:
@@ -1249,7 +1249,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "Marshall County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Northern Regional Jail: GettingOut Phone, Messaging and Video Visits",
+  seoTitle: "Northern Regional Jail: GettingOut Phone, Messaging and",
   seoDescription: "How to contact someone at Northern Regional Jail in Moundsville WV. GettingOut phone, messaging and video visits for this West Virginia regional jail.",
 
   description:

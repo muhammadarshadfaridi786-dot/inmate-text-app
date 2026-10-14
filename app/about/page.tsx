@@ -19,7 +19,7 @@ export default function AboutPage() {
           <div className="mt-4 max-w-2xl">
             <SectionHeading
               as="h1"
-              title="About Inmate Text App — Free Prison Communication Directory"
+              title="About Inmate Text App: Free Prison Communication Directory"
               subtitle="A free prison communication discovery platform for families across the United States."
             />
           </div>

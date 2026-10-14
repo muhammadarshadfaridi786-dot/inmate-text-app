@@ -49,7 +49,7 @@ export interface StateDetail extends StateBasic {
 }
 
 // ─────────────────────────────────────────────
-// ALL 50 US STATES — Basic data for directory
+// ALL 50 US STATES, Basic data for directory
 // ─────────────────────────────────────────────
 
 export const ALL_STATES: StateBasic[] = [
@@ -106,7 +106,7 @@ export const ALL_STATES: StateBasic[] = [
 ]
 
 // ─────────────────────────────────────────────
-// DETAILED STATE DATA — 4 seeded states
+// DETAILED STATE DATA, 4 seeded states
 // ─────────────────────────────────────────────
 
 export const STATE_DETAILS: Record<string, StateDetail> = {
@@ -122,7 +122,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in California. Compare messaging, video, and phone providers for correctional facilities across California.",
     seoTitle: "California Free Inmate Calls, Messaging and Money Transfer",
-    seoDescription: "CDCR phone calls are free for families under SB 1008. Securus replaced ViaPath. How to send messages and money to someone in a California prison or county jail. Find your provider.",
+    seoDescription: "CDCR phone calls are free for families under SB 1008. Securus replaced ViaPath. How to send messages and money to someone in a California prison or county jail.",
 
     intro: [
       "California's correctional system is operated by the California Department of Corrections and Rehabilitation (CDCR), one of the largest state prison systems in the United States with over 90,000 incarcerated people. Phone calls from all CDCR state prisons have been free since January 1, 2023 under Senate Bill 1008, the Keep Families Connected Act. Each call is limited to 15 minutes with no cap on the number of daily calls. You do not need to fund a prepaid account to receive calls from California state prisons.",
@@ -247,7 +247,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Texas. Compare messaging, video, and phone providers for correctional facilities across Texas.",
     seoTitle: "Texas Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in a Texas jail or prison. TDCJ uses Securus for phone calls. JPay handles money transfers. Register through TDCJ Friends and Family system.",
+    seoDescription: "How to contact someone in a Texas jail or prison. TDCJ uses Securus for phone calls. JPay handles money transfers.",
 
     intro: [
       "Texas operates one of the largest state prison systems in the United States through the Texas Department of Criminal Justice (TDCJ). All phone calls at TDCJ facilities are handled through Securus Technologies using the AdvanceConnect prepaid account system. Before you can receive calls, your phone number must be registered through the Texas Friends and Family Registration system at texasprisonphone.com. Registration and Securus account setup are two separate steps. Both must be completed before calls can connect.",
@@ -358,7 +358,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Florida. Compare messaging, video, and phone providers for correctional facilities across Florida.",
     seoTitle: "Florida Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Florida jail or prison. FDC uses JPay for messaging and money transfers. Find the right provider for Florida state prisons and county jails.",
+    seoDescription: "How to contact someone in a Florida jail or prison. FDC uses JPay for messaging and money transfers.",
 
     intro: [
       "Florida operates the third largest state prison system in the country through the Florida Department of Corrections (FDC), housing approximately 80,000 inmates. Phone calls at all FDC state facilities are handled through Securus Technologies. JPay handles electronic messaging, money transfers, and tablet services for Florida state prison inmates. Both Securus and JPay accounts are required if you want to receive phone calls and also send electronic messages.",
@@ -475,7 +475,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in New York. Compare messaging, video, and phone providers for correctional facilities across New York.",
-    seoTitle: "New York Free Inmate Calls, Messaging and Money Transfer Guide",
+    seoTitle: "New York Free Inmate Calls, Messaging and Money Transfer",
     seoDescription: "New York state prison calls are free for families. NYC jail calls are free for families. How to contact someone in NY prison or county jail. Find your provider.",
 
     intro: [
@@ -577,7 +577,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Georgia. Compare messaging, video, and phone providers for correctional facilities across Georgia.",
     seoTitle: "Georgia Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Georgia jail or prison. GDC facilities use JPay for messaging and money. Find the right provider for Georgia state prisons and county jails.",
+    seoDescription: "How to contact someone in a Georgia jail or prison. GDC facilities use JPay for messaging and money.",
 
     intro: [
       "Georgia operates its state prison system through the Georgia Department of Corrections (GDC). Securus Technologies holds the GDC contract for phone calls at most state prisons. JPay handles electronic messaging, video visits, and money transfers. Georgia has 159 counties with individual county jails that negotiate their own provider contracts separately from GDC state prisons. Every person in GDC custody is assigned a GDC number at intake that stays with them for their entire sentence regardless of facility transfers.",
@@ -702,7 +702,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Ohio. Compare messaging, video, and phone providers for correctional facilities across Ohio.",
     seoTitle: "Ohio Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in an Ohio jail or prison. Find the right provider for ODRC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Ohio jail or prison. Find the right provider for ODRC state prisons and county jails.",
 
     intro: [
       "Ohio operates its state prison system through the Ohio Department of Rehabilitation and Correction (ODRC). ViaPath Technologies through ConnectNetwork handles all phone calls at ODRC state facilities. Ohio switched from Securus Technologies to ViaPath in mid-2023. If any guide tells you to use Securus or JPay for Ohio state prison phone calls, that information is out of date. Electronic messaging at ODRC facilities is handled through GettingOut by Telmate, which is also a ViaPath platform.",
@@ -827,7 +827,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Illinois. Compare messaging, video, and phone providers for correctional facilities across Illinois.",
     seoTitle: "Illinois Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in an Illinois jail or prison. Find the right provider for IDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Illinois jail or prison. Find the right provider for IDOC state prisons and county jails.",
 
     intro: [
       "Illinois operates its state prison system through the Illinois Department of Corrections (IDOC). ICSolutions is the current provider for phone calls, electronic messaging, and video visits at all IDOC facilities except Adult Transition Centers. Illinois recently switched from GTL to ICSolutions for both phone and video services. If any guide directs you to use GTL or ConnectNetwork for Illinois state prison calls, that information is out of date. Create your account at icscorrections.com.",
@@ -952,7 +952,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Michigan. Compare messaging, video, and phone providers for correctional facilities across Michigan.",
     seoTitle: "Michigan Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Michigan jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Michigan jail or prison. Find the right provider for MDOC state prisons and county jails.",
 
     intro: [
       "Michigan operates its state prison system through the Michigan Department of Corrections (MDOC), which manages 30 facilities spread across both the Upper and Lower peninsulas. GTL through ConnectNetwork is the primary phone service vendor for MDOC state facilities. Contact GTL at 855-466-2832 for account setup. You can fund up to three prepaid accounts with a single transaction and single fee when processed through a GTL customer service agent. There is no minimum deposit for transactions done online, by phone, or IVR.",
@@ -1076,8 +1076,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in North Carolina. Compare messaging, video, and phone providers for correctional facilities across North Carolina.",
-    seoTitle: "North Carolina Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a North Carolina jail or prison. Find the right provider for NCDPS state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "North Carolina Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a North Carolina jail or prison. Find the right provider for NCDPS state prisons and county jails.",
 
     intro: [
       "North Carolina's correctional landscape includes state prisons managed by the Department of Adult Correction, a notable federal Bureau of Prisons presence centered around the Butner Federal Correctional Complex in Granville County, and county detention centers operated by sheriffs across the state's 100 counties. The Butner complex is one of the larger federal correctional campuses in the country and serves a specialized inmate population. State facilities range from maximum-security prisons in the Piedmont region to smaller medium-security units distributed across more rural parts of the state.",
@@ -1163,7 +1163,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Arizona. Compare messaging, video, and phone providers for correctional facilities across Arizona.",
     seoTitle: "Arizona Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in an Arizona jail or prison. Find the right provider for ADC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Arizona jail or prison. Find the right provider for ADC state prisons and county jails.",
 
     intro: [
       "Arizona operates its state prison system through the Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR). ICSolutions handles phone calls at Arizona state facilities through a Prepaid Collect account system. Called parties must submit an application and be approved before they can receive phone calls from ADC inmates. If you have previously been approved to receive calls, you do not need to re-apply. Contact ICSolutions at 888-506-8407 or visit icsolutions.com to set up an account.",
@@ -1287,8 +1287,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Pennsylvania. Compare messaging, video, and phone providers for correctional facilities across Pennsylvania.",
-    seoTitle: "Pennsylvania Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Pennsylvania jail or prison. Find the right provider for PA DOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "Pennsylvania Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a Pennsylvania jail or prison. Find the right provider for PA DOC state prisons and county jails.",
 
     intro: [
       "Pennsylvania's correctional system includes state prisons operated by the Pennsylvania Department of Corrections, a substantial federal Bureau of Prisons presence particularly in the central part of the state, and county jails in each of its 67 counties. The PA DOC system includes facilities ranging from maximum-security state correctional institutions to smaller specialized treatment facilities. Federal prisons in Pennsylvania include USP Lewisburg, FCI Allenwood, USP Canaan, and several other institutions in the Susquehanna and Pocono regions, making central Pennsylvania home to a dense concentration of federal correctional facilities.",
@@ -1374,7 +1374,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Tennessee. Compare messaging, video, and phone providers for correctional facilities across Tennessee.",
     seoTitle: "Tennessee Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Tennessee jail or prison. Find the right provider for TDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Tennessee jail or prison. Find the right provider for TDOC state prisons and county jails.",
 
     intro: [
       "Tennessee operates its state prison system through the Tennessee Department of Correction (TDOC). ConnectNetwork powered by GTL and ViaPath Technologies is the primary platform for phone calls at all TDOC state facilities. The per-minute rate for ConnectNetwork decreased to $0.075 effective July 1, 2024. Tennessee does not permit inbound telephone calls for inmates. All calls are outbound from the facility. In the event of a family emergency, contact the facility chaplain who may facilitate a call where necessary.",
@@ -1499,7 +1499,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Indiana. Compare messaging, video, and phone providers for correctional facilities across Indiana.",
     seoTitle: "Indiana Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in an Indiana jail or prison. Find the right provider for IDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Indiana jail or prison. Find the right provider for IDOC state prisons and county jails.",
 
     intro: [
       "Indiana operates its state prison system through the Indiana Department of Correction (IDOC). ViaPath Technologies through ConnectNetwork handles phone calls at all IDOC state facilities. For questions about calling options contact ViaPath at 877-650-4249. Each incarcerated individual must complete and sign a telephone list identifying no more than 20 names and phone numbers of approved contacts. You must be on this approved list before calls can connect to your number.",
@@ -1624,7 +1624,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Virginia. Compare messaging, video, and phone providers for correctional facilities across Virginia.",
     seoTitle: "Virginia Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Virginia jail or prison. Find the right provider for VADOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Virginia jail or prison. Find the right provider for VADOC state prisons and county jails.",
 
     intro: [
       "Virginia operates its state prison system through the Virginia Department of Corrections (VADOC), which manages 26 state prisons and oversees 71 local jails across 133 counties. GTL ConnectNetwork is the phone provider for all VADOC state facilities. All calls are limited to 20 minutes. Upon reception, inmates are automatically enrolled in the phone system and given a PIN. They then create an approved call list. Only numbers on the approved call list can receive calls. You will need the inmate's 7-digit state ID number to set up your ConnectNetwork account.",
@@ -1749,7 +1749,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Louisiana. Compare messaging, video, and phone providers for correctional facilities across Louisiana.",
     seoTitle: "Louisiana Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Louisiana jail or prison. Find the right provider for LDOC state prisons and parish jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Louisiana jail or prison. Find the right provider for LDOC state prisons and parish jails.",
 
     intro: [
       "Louisiana operates its state prison system through the Department of Public Safety and Corrections (DPS&C). Securus Technologies holds the LDOC contract for phone calls at most state facilities. The inmate must add your phone number to their approved call list, which can hold up to 20 numbers and is updated quarterly. Calls to prepaid cell phones are not allowed. You must set up a Securus account and provide your primary residence information to receive calls. Contact Securus at 1-800-844-6591 or visit securustech.net.",
@@ -1874,7 +1874,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Alabama. Compare messaging, video, and phone providers for correctional facilities across Alabama.",
     seoTitle: "Alabama Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in an Alabama jail or prison. Securus handles ADOC phone calls. JPay sends money to inmates. Mail goes to San Antonio TX processing center.",
+    seoDescription: "How to contact someone in an Alabama jail or prison. Securus handles ADOC phone calls. JPay sends money to inmates.",
 
     intro: [
       "Alabama's correctional system is operated by the Alabama Department of Corrections (ADOC), headquartered in Montgomery. The ADOC system includes state prisons, work release centers, and community corrections facilities across all 67 counties. Securus Technologies holds the ADOC state contract for phone calls and video visits. JPay is the primary platform for money transfers to inmate trust accounts at ADOC state facilities.",
@@ -1999,7 +1999,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Missouri. Compare messaging, video, and phone providers for correctional facilities across Missouri.",
     seoTitle: "Missouri Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Missouri jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Missouri jail or prison. Find the right provider for MDOC state prisons and county jails.",
 
     intro: [
       "Missouri operates its state prison system through the Missouri Department of Corrections (MDOC). Securus Technologies is the phone service provider for all MDOC adult institutions. All calls are outbound from the facility. Inmates cannot receive incoming calls. Inmates use a personal identification number (PIN) to place calls through the automated security system. All calls are monitored and recorded. A recorded message plays throughout the conversation alerting both parties that the call originates from a correctional facility.",
@@ -2124,7 +2124,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Oklahoma. Compare messaging, video, and phone providers for correctional facilities across Oklahoma.",
     seoTitle: "Oklahoma Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in an Oklahoma jail or prison. Find the right provider for ODOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Oklahoma jail or prison. Find the right provider for ODOC state prisons and county jails.",
 
     intro: [
       "Oklahoma operates its state prison system through the Oklahoma Department of Corrections (ODOC). Securus Technologies is the phone provider for all ODOC state facilities. Each facility has a unique outbound phone number to help prevent calls from being labeled as spam by mobile carriers. Save the specific calling number for your loved one's facility in your contacts to avoid missing calls. All non-privileged calls are recorded and monitored. Three-way calling, call forwarding, and spoofed numbers are blocked and misuse results in call restrictions.",
@@ -2249,7 +2249,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Kentucky. Compare messaging, video, and phone providers for correctional facilities across Kentucky.",
     seoTitle: "Kentucky Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Kentucky jail or prison. Find the right provider for KDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Kentucky jail or prison. Find the right provider for KDOC state prisons and county jails.",
 
     intro: [
       "Kentucky operates its state prison system through the Kentucky Department of Corrections (KDOC). Securus Technologies is the phone provider for all KDOC state facilities. To receive calls, set up a Securus AdvanceConnect or Inmate Debit account at securustech.net or call Securus at 972-734-1111 or 800-844-6591. AdvanceConnect lets you control which phone numbers the inmate can call and requires funds in your account. Inmate Debit allows the inmate to call anyone on their approved list using their own funds. Both options connect to cell phones.",
@@ -2373,8 +2373,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in South Carolina. Compare messaging, video, and phone providers for correctional facilities across South Carolina.",
-    seoTitle: "South Carolina Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a South Carolina jail or prison. Find the right provider for SCDC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "South Carolina Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a South Carolina jail or prison. Find the right provider for SCDC state prisons and county jails.",
 
     intro: [
       "South Carolina operates its state prison system through the South Carolina Department of Corrections (SCDC). SCDC operates telephone systems for sentenced inmates at state prison complexes. All calls are outbound from the facility. Incoming calls to inmates are not accepted. Each inmate is issued a Personal Identification Number (PIN) at admission and must use it to place calls according to the calling schedule of their institution. All calls are recorded and monitored for security purposes. Calls to toll-free numbers are not allowed.",
@@ -2475,7 +2475,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Wisconsin. Compare messaging, video, and phone providers for correctional facilities across Wisconsin.",
     seoTitle: "Wisconsin Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Wisconsin jail or prison. Find the right provider for WDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Wisconsin jail or prison. Find the right provider for WDOC state prisons and county jails.",
 
     intro: [
       "Wisconsin operates its state prison system through the Wisconsin Department of Corrections (WIDOC). ICSolutions is the phone provider for all WIDOC state adult correctional facilities. To set up a Prepaid Collect account, visit icscorrections.com or call ICSolutions at 888-506-8407. If you accept a call from a WIDOC inmate before setting up an account, you receive one complimentary 60-second call and are then automatically connected with a customer service agent to set up an account. Debit calling can also be set up so the inmate calls from their own trust account funds.",
@@ -2600,7 +2600,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in New Jersey. Compare messaging, video, and phone providers for correctional facilities across New Jersey.",
     seoTitle: "New Jersey Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "New Jersey reduced inmate call rates to $0.034 per minute. How to contact someone in NJ prison or county jail. JPay transitioning to ViaPath. Find your provider.",
+    seoDescription: "New Jersey reduced inmate call rates to $0.034 per minute. How to contact someone in NJ prison or county jail. JPay transitioning to ViaPath.",
 
     intro: [
       "New Jersey operates a correctional system through the New Jersey Department of Corrections, which manages state prisons including New Jersey State Prison in Trenton, East Jersey State Prison in Middlesex County, and several other institutions distributed across the state. New Jersey's 21 counties each operate their own county jail, and the density of the state means that multiple large county facilities serve populations in close geographic proximity. Essex County Correctional Facility in Newark, Hudson County Correctional Center, and the Mercer County Correction Center in Trenton each serve major urban populations under separate provider arrangements. The federal correctional complex at Fort Dix in Burlington County adds a significant federal population to the state.",
@@ -2685,8 +2685,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Colorado. Compare messaging, video, and phone providers for correctional facilities across Colorado.",
-    seoTitle: "Colorado Free Inmate Calls, Messaging and Money Transfer Guide",
-    seoDescription: "Colorado DOC phone calls are free for families. How to contact someone in a Colorado prison or county jail. Find the right provider for CO state prisons and jails.",
+    seoTitle: "Colorado Free Inmate Calls, Messaging and Money Transfer",
+    seoDescription: "Colorado DOC phone calls are free for families. How to contact someone in a Colorado prison or county jail.",
 
     intro: [
       "Colorado operates its state prison system through the Colorado Department of Corrections (CDOC). Phone calls from all CDOC state prison facilities are free and unlimited under House Bill 23-1133, which took full effect on July 1, 2025. Neither the inmate nor the person receiving the call is charged per minute or per call. Video calls are also available at no cost through the CDOC tablet program. You do not need to fund a prepaid calling account to receive calls from Colorado state prisons.",
@@ -2811,7 +2811,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Washington. Compare messaging, video, and phone providers for correctional facilities across Washington.",
     seoTitle: "Washington Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Washington jail or prison. Find the right provider for WDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Washington jail or prison. Find the right provider for WDOC state prisons and county jails.",
 
     intro: [
       "Washington State operates its prison system through the Washington State Department of Corrections (WDOC). Securus Technologies holds the current contract for all phone, e-messaging, video, and electronic media services at Washington state facilities. Each incarcerated individual is assigned a Personal Identification Number (PIN) and uses it to initiate all calls. There is no application or verification process required to receive calls. When a call comes in, you hear a pre-recorded message identifying the facility and the name of the person calling, then choose to accept or deny.",
@@ -2936,7 +2936,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Arkansas. Compare messaging, video, and phone providers for correctional facilities across Arkansas.",
     seoTitle: "Arkansas Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in an Arkansas jail or prison. Find the right provider for ADC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Arkansas jail or prison. Find the right provider for ADC state prisons and county jails.",
 
     intro: [
       "Arkansas operates its state prison system through the Arkansas Department of Corrections (ADC). Securus Technologies holds the ADC contract for phone calls and e-messaging at most state facilities. To receive calls, set up a Securus AdvanceConnect prepaid account at securustech.net or call 1-800-844-6591. You can also fund an Inmate Debit account directly so the inmate pays for calls from their own funds without you needing your own account. Arkansas DOC also has an automated phone deposit IVR at 501-474-6460 for state prison prepaid accounts. As of May 31, 2025, Arkansas DOC no longer accepts paper money orders.",
@@ -3061,7 +3061,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Mississippi. Compare messaging, video, and phone providers for correctional facilities across Mississippi.",
     seoTitle: "Mississippi Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Mississippi jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Mississippi jail or prison. Find the right provider for MDOC state prisons and county jails.",
 
     intro: [
       "Mississippi operates its state prison system through the Mississippi Department of Corrections (MDOC). GTL ViaPath Technologies holds the MDOC contract for phone calls and messaging services at most state facilities. New accounts can be established by calling 877-650-4249. Service is also available through the ConnectNetwork website and app. Mississippi has not eliminated phone call fees for state inmates. FCC rate caps effective April 2026 significantly reduced per-minute costs from historically very high Mississippi rates, but calls are still charged per minute.",
@@ -3185,8 +3185,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Kansas. Compare messaging, video, and phone providers for correctional facilities across Kansas.",
-    seoTitle: "Kansas Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in a Kansas jail or prison. Find the right provider for KDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "Kansas Inmate Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone in a Kansas jail or prison. Find the right provider for KDOC state prisons and county jails.",
 
     intro: [
       "Kansas operates its state prison system through the Kansas Department of Corrections (KDOC). ICSolutions is the phone provider for most KDOC state facilities. Contact ICSolutions at 888-506-8407 or visit icscorrections.com to set up an account. Kansas is not among the states that offer free phone calls at state prisons. All calls are monitored and recorded except attorney calls. The KDOC number is required for all communication accounts and mail sent to Kansas state facilities.",
@@ -3388,7 +3388,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Iowa. Compare messaging, video, and phone providers for correctional facilities across Iowa.",
     seoTitle: "Iowa Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in an Iowa jail or prison. Find the right provider for Iowa DOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in an Iowa jail or prison. Find the right provider for Iowa DOC state prisons and county jails.",
 
     intro: [
       "Iowa operates its state prison system through the Iowa Department of Corrections (IDOC). GTL ViaPath Technologies through ConnectNetwork handles phone calls at Iowa state correctional institutions. Contact ConnectNetwork at 800-483-8314 or visit connectnetwork.com. Iowa is not among the states that offer free phone calls at state prisons. The IDOC number is required for all communication accounts and mail. Use the Iowa Offender Search at doc.iowa.gov to find the IDOC number and current facility.",
@@ -3489,7 +3489,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Maryland. Compare messaging, video, and phone providers for correctional facilities across Maryland.",
     seoTitle: "Maryland Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Maryland jail or prison. Find the right provider for DPSCS state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Maryland jail or prison. Find the right provider for DPSCS state prisons and county jails.",
 
     intro: [
       "Maryland operates its state prison system through the Maryland Department of Public Safety and Correctional Services (DPSCS). Securus Technologies handles phone calls at Maryland state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net. Maryland considered legislation to make prison calls free in 2025 but the proposal did not pass. Maryland inmates are required to use their assigned PIN to initiate all outbound calls. All non-legal calls are monitored and recorded.",
@@ -3589,8 +3589,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Massachusetts. Compare messaging, video, and phone providers for correctional facilities across Massachusetts.",
-    seoTitle: "Massachusetts Free Inmate Calls, Messaging and Money Transfer",
-    seoDescription: "Massachusetts offers free inmate phone calls at state facilities. How to contact someone in a MA prison or county jail. Find the right provider for your facility.",
+    seoTitle: "Massachusetts Free Inmate Calls, Messaging and Money",
+    seoDescription: "Massachusetts offers free inmate phone calls at state facilities. How to contact someone in a MA prison or county jail.",
 
     intro: [
       "Massachusetts operates its state prison system through the Massachusetts Department of Correction (MADOC). Phone calls and electronic messaging from all Massachusetts state prison and county jail facilities are free under legislation signed by Governor Maura Healey. Massachusetts was the fifth state to make prison calls free and the first state to include county jails in the free call program. The law took effect December 1, 2023. Free calls save Massachusetts families an average of $1,801 per year according to a Worth Rises study published in 2026.",
@@ -3790,7 +3790,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Nebraska. Compare messaging, video, and phone providers for correctional facilities across Nebraska.",
     seoTitle: "Nebraska Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Nebraska jail or prison. Find the right provider for NDCS state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Nebraska jail or prison. Find the right provider for NDCS state prisons and county jails.",
 
     intro: [
       "Nebraska operates its state prison system through the Nebraska Department of Correctional Services (NDCS). Securus Technologies handles phone calls at Nebraska state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net to set up an account. Nebraska is not among the states that offer free phone calls at state prisons. The NDCS number is required for all communication accounts and mail. Use the NDCS inmate search at corrections.nebraska.gov to find the NDCS number and current facility.",
@@ -3891,7 +3891,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in New Mexico. Compare messaging, video, and phone providers for correctional facilities across New Mexico.",
     seoTitle: "New Mexico Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a New Mexico jail or prison. Find the right provider for NMCD state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a New Mexico jail or prison. Find the right provider for NMCD state prisons and county jails.",
 
     intro: [
       "New Mexico's correctional system involves the New Mexico Corrections Department, which operates state prisons across the state, a notable presence of privately operated correctional facilities contracted to house state inmates, and county detention centers run by sheriffs in each of the state's 33 counties. New Mexico has one of the higher rates of private prison use in the country, meaning some state inmates are held in facilities operated by private companies rather than the NMCD directly, which affects which communication provider is available at a specific institution. New Mexico also has jurisdictional complexity due to its large Native American population, with tribal lands and tribal law enforcement adding a layer that can affect which system oversees a given case.",
@@ -3976,8 +3976,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Oregon. Compare messaging, video, and phone providers for correctional facilities across Oregon.",
-    seoTitle: "Oregon Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in an Oregon jail or prison. Find the right provider for ODOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "Oregon Inmate Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone in an Oregon jail or prison. Find the right provider for ODOC state prisons and county jails.",
 
     intro: [
       "Oregon operates its state prison system through the Oregon Department of Corrections (ODOC). Securus Technologies handles phone calls at Oregon state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net to set up an account. Oregon is not among the states that offer free phone calls at state prisons. The SID number is the identification number assigned to every person in ODOC custody and must appear on all mail sent to Oregon state facilities. Use the ODOC inmate search at oregon.gov/doc to find the SID number and current facility.",
@@ -4077,8 +4077,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Nevada. Compare messaging, video, and phone providers for correctional facilities across Nevada.",
-    seoTitle: "Nevada Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in a Nevada jail or prison. Find the right provider for NDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "Nevada Inmate Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone in a Nevada jail or prison. Find the right provider for NDOC state prisons and county jails.",
 
     intro: [
       "Nevada operates its state prison system through the Nevada Department of Corrections (NDOC). Securus Technologies handles phone calls at Nevada state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net. Nevada is not among the states that offer free phone calls at state prisons. The NDOC number is required for all communication accounts and mail sent to Nevada state facilities. Use the NDOC inmate search at doc.nv.gov to find the NDOC number and current facility.",
@@ -4178,8 +4178,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in West Virginia. Compare messaging, video, and phone providers for correctional facilities across West Virginia.",
-    seoTitle: "West Virginia Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a West Virginia jail or prison. Find the right provider for WVDCR state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "West Virginia Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a West Virginia jail or prison. Find the right provider for WVDCR state prisons and county jails.",
 
     intro: [
       "West Virginia operates its state prison system through the West Virginia Division of Corrections and Rehabilitation (WVDCR). Securus Technologies handles phone calls at West Virginia state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net to set up an account. West Virginia is not among the states that offer free phone calls at state prisons. The WV DOC number is required for all communication accounts and mail sent to West Virginia state facilities.",
@@ -4279,7 +4279,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Idaho. Compare messaging, video, and phone providers for correctional facilities across Idaho.",
-    seoTitle: "Idaho Free Inmate Tablets, Phone Calls and Money Transfer Guide",
+    seoTitle: "Idaho Free Inmate Tablets, Phone Calls and Money Transfer",
     seoDescription: "Idaho provides free ViaPath tablets to inmates. How to contact someone in an Idaho prison or county jail. Find the right provider for ID DOC facilities.",
 
     intro: [
@@ -4381,7 +4381,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Utah. Compare messaging, video, and phone providers for correctional facilities across Utah.",
     seoTitle: "Utah Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in a Utah jail or prison. Find the right provider for UDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Utah jail or prison. Find the right provider for UDOC state prisons and county jails.",
 
     intro: [
       "Utah operates its state prison system through the Utah Department of Corrections (UDOC). Securus Technologies handles phone calls at Utah state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net to set up an account. Utah is not among the states that offer free phone calls at state prisons. The Utah state correctional system is centralized with the Utah State Correctional Facility in Salt Lake City being the primary intake and classification center opened in 2022.",
@@ -4482,7 +4482,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Montana. Compare messaging, video, and phone providers for correctional facilities across Montana.",
     seoTitle: "Montana Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Montana jail or prison. Find the right provider for MDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Montana jail or prison. Find the right provider for MDOC state prisons and county jails.",
 
     intro: [
       "Montana operates its state prison system through the Montana Department of Corrections (MDOC). Securus Technologies handles phone calls at Montana state correctional facilities including Montana State Prison in Deer Lodge and Montana Women's Prison in Billings. Contact Securus at 800-844-6591 or visit securustech.net. Montana is not among the states that offer free phone calls at state prisons. The MDOC number is required for all mail and communication accounts.",
@@ -4582,8 +4582,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in South Dakota. Compare messaging, video, and phone providers for correctional facilities across South Dakota.",
-    seoTitle: "South Dakota Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a South Dakota jail or prison. Find the right provider for SDDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "South Dakota Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a South Dakota jail or prison. Find the right provider for SDDOC state prisons and county jails.",
 
     intro: [
       "South Dakota operates its state prison system through the South Dakota Department of Corrections (SDDOC). Securus Technologies handles phone calls at South Dakota state correctional facilities including the South Dakota State Penitentiary in Sioux Falls and the Mike Durfee State Prison in Springfield. Contact Securus at 800-844-6591 or visit securustech.net to set up an account. South Dakota is not among the states that offer free phone calls at state prisons. The SDDOC number is required for all communication accounts and mail.",
@@ -4684,7 +4684,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Maine. Compare messaging, video, and phone providers for correctional facilities across Maine.",
     seoTitle: "Maine Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in a Maine jail or prison. Find the right provider for Maine DOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Maine jail or prison. Find the right provider for Maine DOC state prisons and county jails.",
 
     intro: [
       "Maine operates its state prison system through the Maine Department of Corrections (MDOC). Securus Technologies handles phone calls at Maine state correctional facilities including Maine State Prison in Warren. Contact Securus at 800-844-6591 or visit securustech.net. Maine is not among the states that offer free phone calls at state prisons. The Maine DOC number is required for all mail and communication accounts at Maine state facilities.",
@@ -4784,8 +4784,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Alaska. Compare messaging, video, and phone providers for correctional facilities across Alaska.",
-    seoTitle: "Alaska Inmate Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone in an Alaska jail or prison. Find the right provider for ADOC state prisons and borough jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "Alaska Inmate Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone in an Alaska jail or prison. Find the right provider for ADOC state prisons and borough jails.",
 
     intro: [
       "Alaska operates its state prison system through the Alaska Department of Corrections (ADOC). Securus Technologies handles phone calls at Alaska state correctional facilities. Contact Securus at 800-844-6591 or visit securustech.net. Alaska is not among the states that offer free phone calls at state prisons. The ADOC number is required for all mail and communication accounts at Alaska state facilities. Use the ADOC inmate search at doc.alaska.gov to find the ADOC number and current facility.",
@@ -4885,8 +4885,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in North Dakota. Compare messaging, video, and phone providers for correctional facilities across North Dakota.",
-    seoTitle: "North Dakota Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a North Dakota jail or prison. Find the right provider for DOCR state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "North Dakota Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a North Dakota jail or prison. Find the right provider for DOCR state prisons and county jails.",
 
     intro: [
       "North Dakota operates a small correctional system through the North Dakota Department of Corrections and Rehabilitation, which manages the North Dakota State Penitentiary in Bismarck and the James River Correctional Center in Jamestown. County jails in each of North Dakota's 53 counties serve their local populations, ranging from the growing Fargo metro area in the east to the Bakken oil patch communities in the western part of the state. The oil boom that transformed western North Dakota over the past two decades brought significant population growth to areas like Williams and Mountrail counties, which had correctional infrastructure originally designed for much smaller communities. North Dakota also has a substantial Native American population, with Standing Rock, Turtle Mountain, Fort Berthold, and other reservations each involving their own jurisdictional considerations.",
@@ -4972,7 +4972,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Delaware. Compare messaging, video, and phone providers for correctional facilities across Delaware.",
     seoTitle: "Delaware Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Delaware jail or prison. Find the right provider for DDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Delaware jail or prison. Find the right provider for DDOC state prisons and county jails.",
 
     intro: [
       "Delaware operates its state prison system through the Delaware Department of Correction (DDOC). Securus Technologies handles phone calls at Delaware state correctional facilities including Howard R. Young Correctional Institution in Wilmington, James T. Vaughn Correctional Center in Smyrna, and Sussex Correctional Institution in Georgetown. Contact Securus at 800-844-6591 or visit securustech.net. Delaware is not among the states that offer free phone calls at state prisons. Delaware does not have traditional county jails as the state operates a unified correctional system.",
@@ -5069,8 +5069,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in New Hampshire. Compare messaging, video, and phone providers for correctional facilities across New Hampshire.",
-    seoTitle: "New Hampshire Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a New Hampshire jail or prison. Find the right provider for NHDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "New Hampshire Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a New Hampshire jail or prison. Find the right provider for NHDOC state prisons and county jails.",
 
     intro: [
       "New Hampshire operates a correctional system that includes both state prisons under the New Hampshire Department of Corrections and county jails run by sheriffs in each of the state's 10 counties. This differs from some of its New England neighbors that have consolidated detention under state control. The NHDOC manages the New Hampshire State Prison for Men and the New Hampshire State Prison for Women, both located in Concord, the state capital. County jails in New Hampshire range from the comparatively larger Hillsborough County Department of Corrections, which serves the Manchester and Nashua metro areas, to smaller facilities in the more rural northern and western counties. New Hampshire's compact geography means that families are rarely far from the relevant facility.",
@@ -5154,8 +5154,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Rhode Island. Compare messaging, video, and phone providers for correctional facilities across Rhode Island.",
-    seoTitle: "Rhode Island Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Rhode Island jail or prison. Find the right provider for RIDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoTitle: "Rhode Island Inmate Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone in a Rhode Island jail or prison. Find the right provider for RIDOC state prisons and county jails.",
 
     intro: [
       "Rhode Island operates its state prison system through the Rhode Island Department of Corrections (RIDOC). GTL ViaPath Technologies through ConnectNetwork handles phone calls at Rhode Island state correctional facilities. Visit connectnetwork.com or call 877-650-4249 to set up an account. Rhode Island operates a unified correctional system similar to Delaware, Vermont, and Connecticut, meaning the state DOC handles both pretrial detention and sentenced incarceration. There are no traditional county jails in Rhode Island.",
@@ -5254,7 +5254,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     description: "Find prisons and communication options in Wyoming. Compare messaging, video, and phone providers for correctional facilities across Wyoming.",
     seoTitle: "Wyoming Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a Wyoming jail or prison. Find the right provider for WDOC state prisons and county jails. Set up messaging, phone calls, and video visits.",
+    seoDescription: "How to contact someone in a Wyoming jail or prison. Find the right provider for WDOC state prisons and county jails.",
 
     intro: [
       "Wyoming operates its state prison system through the Wyoming Department of Corrections (WDOC). Securus Technologies handles phone calls at Wyoming state correctional facilities including Wyoming State Penitentiary in Rawlins and Wyoming Medium Correctional Institution in Torrington. Contact Securus at 800-844-6591 or visit securustech.net. Wyoming is not among the states that offer free phone calls at state prisons. The WDOC number is required for all mail and communication accounts.",
@@ -5354,7 +5354,7 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Hawaii. Compare messaging, video, and phone providers for correctional facilities across Hawaii.",
-    seoTitle: "Hawaii Inmate Phone Calls, Messaging and Money Transfer Guide",
+    seoTitle: "Hawaii Inmate Phone Calls, Messaging and Money Transfer",
     seoDescription: "How to contact someone in a Hawaii jail or prison. Find the right provider for Hawaii PSD state prisons and community correctional centers.",
 
     intro: [

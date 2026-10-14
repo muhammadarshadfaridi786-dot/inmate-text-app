@@ -33,11 +33,6 @@ export function buildOrganizationSchema(): JsonLdSchema {
       url: SITE_URL + "/about",
       availableLanguage: "English",
     },
-    sameAs: [
-      "https://www.jpay.com",
-      "https://www.corrlinks.com",
-      "https://www.connectnetwork.com",
-    ],
   }
 }
 
@@ -295,7 +290,7 @@ export function buildHowToSchema(guide: {
   title: string
   description: string
   slug: string
-  steps: string[]
+  steps: { name: string; text: string }[]
 }): JsonLdSchema {
   return {
     "@context": "https://schema.org",
@@ -304,52 +299,12 @@ export function buildHowToSchema(guide: {
     description: guide.description,
     url: absoluteUrl(`/guides/${guide.slug}`),
     inLanguage: "en-US",
-    step: guide.steps.map((stepText, index) => ({
+    step: guide.steps.map((step, index) => ({
       "@type": "HowToStep",
       position: index + 1,
-      name: stepText.substring(0, 50),
-      text: stepText,
+      name: step.name,
+      text: step.text,
     })),
-  }
-}
-
-export function buildReviewSchema(provider: {
-  name: string
-  slug: string
-  description: string
-  ratingValue: number
-  reviewCount: number
-}): JsonLdSchema {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: provider.name,
-    description: provider.description,
-    url: absoluteUrl(`/provider/${provider.slug}`),
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: provider.ratingValue,
-      bestRating: 10,
-      worstRating: 1,
-      reviewCount: provider.reviewCount,
-    },
-  }
-}
-
-export function buildSiteLinksSearchBoxSchema(): JsonLdSchema {
-  return {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: SITE_NAME,
-    url: SITE_URL,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   }
 }
 
@@ -360,6 +315,8 @@ export function buildSoftwareAppSchema(app: {
   operatingSystem?: string
   applicationCategory?: string
   appUrl?: string
+  downloadUrl?: string
+  installUrl?: string
   rating?: number
   ratingCount?: number
 }): JsonLdSchema {
@@ -376,14 +333,14 @@ export function buildSoftwareAppSchema(app: {
       ratingValue: app.rating,
       bestRating: 5,
       worstRating: 1,
-      ratingCount: app.ratingCount ?? 100,
+      ...(app.ratingCount ? { ratingCount: app.ratingCount } : {}),
     } : undefined,
     offers: {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD",
     },
-    downloadUrl: "https://play.google.com/store/apps/details?id=com.citytelecoin.mobile",
-    installUrl: "https://apps.apple.com/us/app/city-tele-coin/id1144120270",
+    ...(app.downloadUrl ? { downloadUrl: app.downloadUrl } : {}),
+    ...(app.installUrl ? { installUrl: app.installUrl } : {}),
   }
 }

@@ -18,7 +18,7 @@ export function estimateGuideReadingTime(guide: GuideDetail): number {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// DETAILED GUIDE DATA — 20 seed guides
+// DETAILED GUIDE DATA, 20 seed guides
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const GUIDE_DETAILS: Record<string, GuideDetail> = {
@@ -37,8 +37,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-08-01",
-    seoTitle: "How Inmate Messaging Works: Platforms, Costs, Rules and Setup",
-    seoDescription: "Learn how inmate messaging works - which platforms to use, how messages are reviewed, what it costs, and how to send your first message to an incarcerated loved one. Free complete guide.",
+    seoTitle: "How Inmate Messaging Works: Platforms, Costs, Rules and",
+    seoDescription: "Learn how inmate messaging works - which platforms to use, how messages are reviewed, what it costs, and how to send your first message to an incarcerated",
 
     intro: [
       "Inmate messaging lets families and approved contacts send written messages to incarcerated loved ones through a digital platform. It works similarly to email but operates through a dedicated system approved by the correctional facility. You cannot use a regular email address to reach someone in prison.",
@@ -215,8 +215,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-10-12",
-    seoTitle: "How to Send Money to an Inmate: Methods, Fees, and Step-by-Step Setup",
-    seoDescription: "Complete guide to sending money to an incarcerated loved one - which platforms to use, how much fees cost, how long transfers take, and how to avoid common mistakes. Free guide for families.",
+    seoTitle: "How to Send Money to an Inmate: Methods, Fees, and",
+    seoDescription: "Complete guide to sending money to an incarcerated loved one - which platforms to use, how much fees cost, how long transfers take, and how to avoid common",
 
     intro: [
       "Sending money to an incarcerated loved one allows them to purchase items from the facility commissary, pay for phone calls, buy messaging stamps, and cover other approved expenses. Most facilities use a trust account system where funds are deposited and drawn from as needed.",
@@ -392,8 +392,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-10-12",
-    seoTitle: "How Video Visitation Works: Setup, Cost, Equipment and Scheduling",
-    seoDescription: "Learn how video visitation works at prisons and jails - how to schedule a video visit, what equipment you need, how much sessions cost, and which providers offer video visits. Free complete guide.",
+    seoTitle: "How Video Visitation Works: Setup, Cost, Equipment and",
+    seoDescription: "Learn how video visitation works at prisons and jails - how to schedule a video visit, what equipment you need, how much sessions cost, and which providers",
 
     intro: [
       "Video visitation allows families to see and speak with an incarcerated loved one through a live video connection without traveling to the facility. Sessions are scheduled in advance through the facility approved platform, and you connect using a smartphone, tablet, or computer from your home.",
@@ -601,8 +601,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-08-01",
-    seoTitle: "How to Find an Inmate: Federal, State and County Inmate Search Guide",
-    seoDescription: "Learn how to find an inmate in federal prison, state prison, or county jail - which search tools to use, how to search by name or ID, and what to do if the inmate does not appear. Free guide.",
+    seoTitle: "How to Find an Inmate: Federal, State and County Inmate",
+    seoDescription: "Learn how to find an inmate in federal prison, state prison, or county jail - which search tools to use, how to search by name or ID, and what to do if the",
 
     intro: [
       "Finding out where an incarcerated person is housed is the first step before you can send messages, make phone calls, arrange visits, or send money. Each correctional system maintains its own inmate search tool, and the tool you need depends on whether your loved one is in a federal prison, a state prison, or a county jail.",
@@ -912,8 +912,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Complete Inmate Communication Guide: Messaging, Calls, Video and Mail",
-    seoDescription: "Complete guide to communicating with an incarcerated loved one - how digital messaging works, how to receive phone calls, how to schedule video visits, how to send photos, and how to send money. Free, no account needed.",
+    seoTitle: "Complete Inmate Communication Guide: Messaging, Calls",
+    seoDescription: "Complete guide to communicating with an incarcerated loved one - how digital messaging works, how to receive phone calls, how to schedule video visits, how to",
 
     intro: [
       "Staying connected with an incarcerated loved one means learning a system that works very differently from normal communication. There is no single app or phone number that works at every facility. Each prison, jail, or detention center contracts with specific providers for each type of communication, and you must use whichever provider that facility has chosen.",
@@ -1084,8 +1084,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Federal Prison vs State Prison: Differences in Communication, Rules and Providers",
-    seoDescription: "Learn the key differences between federal and state prisons - who goes where, how communication works in each system, which providers to use, and how to find your loved one. Free guide for families.",
+    seoTitle: "Federal Prison vs State Prison: Differences in",
+    seoDescription: "Learn the key differences between federal and state prisons - who goes where, how communication works in each system, which providers to use, and how to find",
 
     intro: [
       "Federal prisons and state prisons are two completely separate systems operated by different levels of government. Who ends up in each system depends on the type of crime committed, not the severity. Understanding which system your loved one is in determines which communication providers you must use and how the rules apply.",
@@ -1249,8 +1249,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-10-12",
-    seoTitle: "Inmate Tablets Explained: JPay Tablets, What Is on Them, Costs and How to Send Money",
-    seoDescription: "Learn how inmate tablets work at prisons and jails - what JPay and GTL tablets include, what services cost, how families send money for tablet use, and which facilities have tablet programs.",
+    seoTitle: "Inmate Tablets Explained: JPay Tablets, What Is on Them",
+    seoDescription: "Learn how inmate tablets work at prisons and jails - what JPay and GTL tablets include, what services cost, how families send money for tablet use, and which",
 
     intro: [
       "Inmate tablets are secure electronic devices provided to incarcerated people at facilities that have contracted with a tablet program provider. They allow inmates to send and receive messages, make video calls, download entertainment and educational content, and in some facilities access legal resources and file grievances - all from inside the facility without internet access.",
@@ -1456,8 +1456,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-08-01",
-    seoTitle: "Prison Visitation Rules: Approval Process, Dress Code, ID Requirements and What to Expect",
-    seoDescription: "Complete guide to prison visitation rules - how to get approved as a visitor, what ID to bring, what to wear, what you can and cannot bring inside, and what to expect on visiting day. Free guide.",
+    seoTitle: "Prison Visitation Rules: Approval Process, Dress Code, ID",
+    seoDescription: "Complete guide to prison visitation rules - how to get approved as a visitor, what ID to bring, what to wear, what you can and cannot bring inside, and what to",
 
     intro: [
       "Visiting a loved one in prison requires advance preparation. Every correctional facility has specific rules for visitors, and not following them can result in being turned away at the entrance. Rules vary by facility and security level, but the core requirements are consistent across most systems.",
@@ -1639,8 +1639,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-10-12",
-    seoTitle: "How JPay Works: Stamps, Messaging, Money Transfer, Video Visits Setup Guide",
-    seoDescription: "Complete guide to JPay for families - how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state prisons. Free step-by-step guide.",
+    seoTitle: "How JPay Works: Stamps, Messaging, Money Transfer, Video",
+    seoDescription: "Complete guide to JPay for families - how to create an account, buy stamps, send messages and photos, transfer money, and schedule video visits at state",
 
     intro: [
       "JPay is a digital communication and money transfer service for families of incarcerated people at state prisons and county jails across the United States. If you are asking what JPay is, the short answer is this: JPay lets you send messages, photos, and money to someone in a state prison, and schedule video visits from home. JPay is not a phone call service. JPay is owned by Aventiv Technologies, the same parent company that owns Securus Technologies.",
@@ -1887,8 +1887,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-10-12",
-    seoTitle: "How CorrLinks Works: Setup, Invitation Process, Costs and Rules for Federal Inmates",
-    seoDescription: "Complete guide to CorrLinks for families of federal inmates - how to receive your invitation, create an account, send messages, what it costs, and what rules apply. Free step-by-step guide.",
+    seoTitle: "How CorrLinks Works: Setup, Invitation Process, Costs and",
+    seoDescription: "Complete guide to CorrLinks for families of federal inmates - how to receive your invitation, create an account, send messages, what it costs, and what rules",
 
     intro: [
       "CorrLinks is the only approved electronic messaging platform for all federal Bureau of Prisons facilities in the United States. If your loved one is in a federal prison, CorrLinks is your only option for digital communication. No other messaging platform is accepted at BOP facilities.",
@@ -2214,8 +2214,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How to Set Up Inmate Email: JPay, CorrLinks, ConnectNetwork Account Setup Guide",
-    seoDescription: "Step-by-step guide to setting up inmate email - how to create an account on JPay, CorrLinks, or ConnectNetwork, find your loved one, get approved, buy credits, and send your first message.",
+    seoTitle: "How to Set Up Inmate Email: JPay, CorrLinks, ConnectNetwork",
+    seoDescription: "Step-by-step guide to setting up inmate email - how to create an account on JPay, CorrLinks, or ConnectNetwork, find your loved one, get approved, buy credits",
 
     intro: [
       "Setting up inmate email is not the same as creating a regular email account. You cannot simply send a message to a prison address. You must create an account on the specific platform your loved one facility uses, find your loved one in the system, get approved as a contact, purchase messaging credits, and then send your first message.",
@@ -2378,8 +2378,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How ConnectNetwork Works: AdvancePay, Messaging, Video Visits and Money Transfer Guide",
-    seoDescription: "Complete guide to ConnectNetwork by GTL for families - how to create an account, set up AdvancePay for phone calls, send messages, schedule video visits, and transfer money. Free step-by-step guide.",
+    seoTitle: "How ConnectNetwork Works: AdvancePay, Messaging, Video",
+    seoDescription: "Complete guide to ConnectNetwork by GTL for families - how to create an account, set up AdvancePay for phone calls, send messages, schedule video visits, and",
 
     intro: [
       "ConnectNetwork is the consumer-facing platform operated by GTL, also known as Global Tel Link or ViaPath Technologies. GTL is one of the largest inmate communication companies in the United States, serving over 1,800 correctional facilities across all 50 states. ConnectNetwork is the website and app families use to manage their accounts and stay connected.",
@@ -2556,8 +2556,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-08-01",
-    seoTitle: "Why Prison Phone Calls Are So Expensive: New FCC Rate Caps Explained",
-    seoDescription: "Learn why prison phone calls cost so much and how FCC rate caps changed - cut to $0.06 per minute in 2024, then raised to $0.11 per minute in 2025. Find out current rates, which states offer free calls, and how to reduce your costs.",
+    seoTitle: "Why Prison Phone Calls Are So Expensive: New FCC Rate Caps",
+    seoDescription: "Learn why prison phone calls cost so much and how FCC rate caps changed - cut to $0.06 per minute in 2024, then raised to $0.11 per minute in 2025.",
 
     intro: [
       "Prison phone calls are among the most expensive telephone services in the United States. A call that would cost a few cents per minute on a standard phone plan can cost several times more when placed from a correctional facility. For families who depend on regular calls to stay connected with an incarcerated loved one, these costs add up quickly and place a significant financial burden on people who are often already struggling.",
@@ -2746,8 +2746,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "County Jail vs State Prison: Differences in Communication, Visitation and Providers",
-    seoDescription: "Learn the key differences between county jails and state prisons - who is held where, how long stays last, which communication providers to use, and what changes when someone transfers. Free guide.",
+    seoTitle: "County Jail vs State Prison: Differences in Communication",
+    seoDescription: "Learn the key differences between county jails and state prisons - who is held where, how long stays last, which communication providers to use, and what",
 
     intro: [
       "County jails and state prisons are two completely different types of facilities that serve different purposes in the criminal justice system. Understanding which type of facility your loved one is in determines which communication providers you must use, what visitation rules apply, and how long they are likely to stay.",
@@ -2908,8 +2908,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "First Prison Visit: What to Expect, What to Bring, Dress Code and Security Rules",
-    seoDescription: "Complete guide to your first prison visit - what happens at the entrance, what to wear, what to bring, what the visiting room is like, and how to make the most of your time. Free guide for families.",
+    seoTitle: "First Prison Visit: What to Expect, What to Bring, Dress",
+    seoDescription: "Complete guide to your first prison visit - what happens at the entrance, what to wear, what to bring, what the visiting room is like, and how to make the most",
 
     intro: [
       "Your first visit to a prison or jail can feel overwhelming. The environment is unfamiliar, the rules are strict, and not knowing what to expect makes everything harder. Being prepared before you arrive makes a significant difference - both for how smoothly the visit goes and for how you feel when you walk in.",
@@ -2994,9 +2994,9 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "Complete Dress Code Checklist for Prison Visits",
         body: [
-          "Clothing restrictions that apply at most facilities include the following. No clothing resembling inmate uniforms including all-orange, all-khaki, all-white, or military camouflage. No revealing clothing including shorts above the knee, tank tops, low-cut shirts, or sheer fabrics. Sleeves required at most facilities with a minimum length of at least two inches at some institutions. No open-toed shoes at most facilities. No excessive jewelry — a wedding ring and small earrings are generally permitted. No hats or head coverings except religious head coverings which are generally permitted with prior approval.",
+          "Clothing restrictions that apply at most facilities include the following. No clothing resembling inmate uniforms including all-orange, all-khaki, all-white, or military camouflage. No revealing clothing including shorts above the knee, tank tops, low-cut shirts, or sheer fabrics. Sleeves required at most facilities with a minimum length of at least two inches at some institutions. No open-toed shoes at most facilities. No excessive jewelry, a wedding ring and small earrings are generally permitted. No hats or head coverings except religious head coverings which are generally permitted with prior approval.",
           "Items that cause the most preventable turn-aways include underwire bras that trigger metal detectors, leggings worn without a top that covers the hips when arms are raised, button-front shirts left unbuttoned enough to show a low neckline, and any color that can be questioned as similar to prisoner clothing. Philadelphia specifically prohibits plain white t-shirts. Dauphin County Prison requires sleeves of at least two inches. Rules vary by facility and are enforced at the discretion of the officer at the entrance.",
-          "A practical solution adopted by many experienced visitors is to keep a bag in the vehicle with a change of clothes. If you are turned away for a dress code issue, you can change in the parking lot and return on the same day. This eliminates the wasted trip. Choose the backup outfit to be the most conservative option possible — solid neutral colors, fully covered, no jewelry, flat closed-toe shoes.",
+          "A practical solution adopted by many experienced visitors is to keep a bag in the vehicle with a change of clothes. If you are turned away for a dress code issue, you can change in the parking lot and return on the same day. This eliminates the wasted trip. Choose the backup outfit to be the most conservative option possible, solid neutral colors, fully covered, no jewelry, flat closed-toe shoes.",
         ],
       },
       {
@@ -3108,8 +3108,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "How to Send Photos to an Inmate: Rules, Services, Sizes and What Is Allowed",
-    seoDescription: "Learn how to send photos to someone in prison or jail - which services to use, what size and content rules apply, how to avoid rejection, and the easiest way to get photos delivered. Free guide.",
+    seoTitle: "How to Send Photos to an Inmate: Rules, Services, Sizes and",
+    seoDescription: "Learn how to send photos to someone in prison or jail - which services to use, what size and content rules apply, how to avoid rejection, and the easiest way",
 
     intro: [
       "Sending photos to an incarcerated loved one is one of the most meaningful ways to stay connected. Seeing family photos, special moments, and everyday life helps incarcerated people feel remembered and supported. However, sending photos to a prison or jail is not as simple as mailing an envelope - every facility has specific rules, and photos that do not comply are rejected and often disposed of without being returned.",
@@ -3291,8 +3291,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Inmate Communication Rules by State: Messaging, Phone, Visitation Differences Explained",
-    seoDescription: "Learn how inmate communication rules vary by state - which messaging providers are used, how phone rates differ, what visitation rules apply, and how to find the specific rules for any state system.",
+    seoTitle: "Inmate Communication Rules by State: Messaging, Phone",
+    seoDescription: "Learn how inmate communication rules vary by state - which messaging providers are used, how phone rates differ, what visitation rules apply, and how to find",
 
     intro: [
       "Inmate communication rules are not the same across the United States. Every state operates its own Department of Corrections with its own contracted providers, its own policies for messaging, phone calls, visitation, and mail, and its own rules for what families can and cannot do. What works in one state may not work in another.",
@@ -3353,7 +3353,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       {
         heading: "States With Free Phone Calls as of 2026",
         body: [
-          "A growing number of states have gone beyond federal FCC requirements and eliminated phone call charges entirely at state correctional facilities. As of August 2026, the states that have implemented free phone call programs at state prisons include California, Colorado (fully effective 2026), Connecticut, Massachusetts, Minnesota, and New York. New York made calls free on August 1, 2025 — the first state to do so administratively without requiring legislation.",
+          "A growing number of states have gone beyond federal FCC requirements and eliminated phone call charges entirely at state correctional facilities. As of August 2026, the states that have implemented free phone call programs at state prisons include California, Colorado (fully effective 2026), Connecticut, Massachusetts, Minnesota, and New York. New York made calls free on August 1, 2025, the first state to do so administratively without requiring legislation.",
           "New York City became the first U.S. city to make jail calls free in 2019, saving city families an estimated $10 million per year. New York State followed on August 1, 2025 with statewide implementation at state prisons. The move came after nearly five years of legislative advocacy. Senator Jamaal T. Bailey stated that the policy drives public safety because communication anchors rehabilitation.",
           "Colorado's free call policy was announced in 2025 and took full effect in 2026. Connecticut, Massachusetts, and Minnesota had implemented free calls at state facilities in prior years. At least two additional states, Maryland and Missouri, considered legislation in 2025 to make prison and jail calls more affordable. Missouri capped rates at $0.12 per minute regardless of facility size regardless of the federal cap.",
           "Free call programs at the state level apply only to state-operated facilities. County jails and private facilities within these states may not be covered by the free call policy. Always confirm with the specific facility whether free calls apply to their location. Families whose loved ones are in federal prisons within these states are not covered by state free call programs, which apply only to state DOC facilities.",
@@ -3451,8 +3451,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-05-31",
-    seoTitle: "Inmate Messages Blocked: Why It Happens, How to Appeal and Restore Communication",
-    seoDescription: "Learn why inmate messages get blocked, how to find out the reason, who to contact to appeal, and what steps to take to restore communication with an incarcerated loved one. Free guide.",
+    seoTitle: "Inmate Messages Blocked: Why It Happens, How to Appeal and",
+    seoDescription: "Learn why inmate messages get blocked, how to find out the reason, who to contact to appeal, and what steps to take to restore communication with an",
 
     intro: [
       "Having messages blocked or rejected is one of the most frustrating experiences families face when communicating with an incarcerated loved one. Messages may stop being delivered without warning, and in many cases you will not receive a clear explanation of why. The process for finding out what happened and getting communication restored is different depending on whether the block came from the facility or from the messaging platform provider.",
@@ -3626,8 +3626,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-06-01",
     updatedAt: "2026-08-01",
-    seoTitle: "How Securus Technologies Works: Phone Calls, Video Visits and Account Setup Guide",
-    seoDescription: "Complete guide to Securus Technologies for families - how to create an account, set up phone calls, schedule video visits, send money, and which facilities use Securus.",
+    seoTitle: "How Securus Technologies Works: Phone Calls, Video Visits",
+    seoDescription: "Complete guide to Securus Technologies for families - how to create an account, set up phone calls, schedule video visits, send money, and which facilities use",
 
     intro: [
       "Securus Technologies is one of the largest inmate communication providers in the United States, serving over 1,200 correctional facilities across 45 states. If your loved one is in a county jail or state prison that uses Securus, this guide explains everything you need to know to set up an account and start communicating.",
@@ -3796,8 +3796,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-06-01",
     updatedAt: "2026-08-01",
-    seoTitle: "How GTL Works: ViaPath Technologies Phone Calls, Video Visits and ConnectNetwork Guide",
-    seoDescription: "Complete guide to GTL ViaPath Technologies for families - how GTL relates to ConnectNetwork, how to set up phone calls and video visits, which facilities use GTL, and how to contact support.",
+    seoTitle: "How GTL Works: ViaPath Technologies Phone Calls, Video",
+    seoDescription: "Complete guide to GTL ViaPath Technologies for families - how GTL relates to ConnectNetwork, how to set up phone calls and video visits, which facilities use",
 
     intro: [
       "GTL, which stands for Global Tel Link, is one of the largest inmate communication companies in the United States. GTL is now part of ViaPath Technologies and operates ConnectNetwork, the consumer-facing platform that families use to manage phone calls, video visits, and money transfers.",
@@ -3953,8 +3953,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-06-01",
     updatedAt: "2026-08-01",
-    seoTitle: "How GettingOut Works: Video Visits, Messaging and Account Setup for County Jails",
-    seoDescription: "Complete guide to GettingOut by Telmate for families - how to create an account, schedule your first video visit, send messages, make phone calls, and transfer money at county jails. Free step-by-step guide.",
+    seoTitle: "How GettingOut Works: Video Visits, Messaging and Account",
+    seoDescription: "Complete guide to GettingOut by Telmate for families - how to create an account, schedule your first video visit, send messages, make phone calls, and transfer",
 
     intro: [
       "GettingOut is an inmate communication platform operated by Telmate, a subsidiary of GTL and part of the ViaPath Technologies family. GettingOut serves over 2,200 county jails across 45 states and is one of the most widely used platforms for families of people held in local detention.",
@@ -4079,8 +4079,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "canada",
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
-    seoTitle: "Canadian Prison Communication Guide: Phone Calls, Email and Visits",
-    seoDescription: "How to contact someone in a Canadian federal or provincial prison. Learn how CSC phone calls work, how to use FedPhoneLine, how to send email, and how to find a federal inmate.",
+    seoTitle: "Canadian Prison Communication Guide: Phone Calls, Email and",
+    seoDescription: "How to contact someone in a Canadian federal or provincial prison.",
 
     intro: [
       "Canada's correctional system is divided into two levels. The federal Correctional Service Canada (CSC) manages federal penitentiaries for people serving sentences of two years or more. Provincial and territorial corrections systems manage jails and prisons for sentences under two years and for people in pretrial detention. The communication rules, phone systems, and providers differ significantly between the two levels.",
@@ -4200,8 +4200,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "uk",
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
-    seoTitle: "UK Prison Communication Guide: Phone Calls, Email and Visits Explained",
-    seoDescription: "How to contact someone in a UK prison. Learn how prison phone calls work in England and Wales, how to use Email a Prisoner, video calls, visits, and how to find a prisoner.",
+    seoTitle: "UK Prison Communication Guide: Phone Calls, Email and",
+    seoDescription: "How to contact someone in a UK prison. Learn how prison phone calls work in England and Wales, how to use Email a Prisoner, video calls, visits, and how to",
 
     intro: [
       "The United Kingdom prison system is divided into three separate systems. England and Wales share a prison system managed by His Majesty's Prison and Probation Service (HMPPS). Scotland has its own system managed by the Scottish Prison Service. Northern Ireland has its own system managed by the Northern Ireland Prison Service. Communication rules differ slightly between these systems.",
@@ -4328,8 +4328,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     country: "australia",
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",
-    seoTitle: "Australian Prison Communication Guide: Phone Calls, Email and Visits",
-    seoDescription: "How to contact someone in an Australian prison. Learn how prison phone calls work in NSW, Victoria and other states, how to send email, schedule video visits, and find a prisoner.",
+    seoTitle: "Australian Prison Communication Guide: Phone Calls, Email",
+    seoDescription: "How to contact someone in an Australian prison.",
 
     intro: [
       "Australia's prison system is managed separately by each state and territory. New South Wales (NSW), Victoria, Queensland, Western Australia, South Australia, Tasmania, the Australian Capital Territory, and the Northern Territory each operate their own correctional systems with different rules, phone systems, and communication options. There is no single national prison communication platform in Australia.",
@@ -5596,7 +5596,7 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// DIRECTORY EXPORT — featured first, then popular, then alphabetical by title
+// DIRECTORY EXPORT, featured first, then popular, then alphabetical by title
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const ALL_GUIDES: GuideBasic[] = Object.values(GUIDE_DETAILS)

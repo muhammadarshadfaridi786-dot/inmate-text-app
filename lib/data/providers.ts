@@ -93,7 +93,7 @@ export interface ProviderDetail extends ProviderBasic {
 }
 
 // ─────────────────────────────────────────────
-// ALL PROVIDERS — Directory listing
+// ALL PROVIDERS, Directory listing
 // ─────────────────────────────────────────────
 
 export const ALL_PROVIDERS: ProviderBasic[] = [
@@ -295,7 +295,7 @@ export const ALL_PROVIDERS: ProviderBasic[] = [
 ]
 
 // ─────────────────────────────────────────────
-// DETAILED PROVIDER DATA — 7 seeded providers
+// DETAILED PROVIDER DATA, 7 seeded providers
 // ─────────────────────────────────────────────
 
 export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
@@ -316,9 +316,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "JPay is the most widely used messaging, money transfer, and video visit platform for state prison inmates in the United States. Learn what JPay is, how JPay stamps work, how much it costs to send money through JPay, and how to use the JPay mobile app. JPay serves over 35 states and 1,000 plus correctional facilities.",
 
-    seoTitle: "What Is JPay: How It Works, Stamps, Money Transfer and App Guide",
-    seoDescription:
-      "What is JPay and how does it work for state prison families. JPay stamps cost, money transfer fees, video visits, and mobile app explained. Free guide for families.",
+    seoTitle: "What Is JPay: How It Works, Stamps, Money Transfer and App",
+    seoDescription: "What is JPay and how does it work for state prison families. JPay stamps cost, money transfer fees, video visits, and mobile app explained.",
 
     website: "https://www.jpay.com",
     iosUrl: "https://apps.apple.com/us/app/jpay/id388308268",
@@ -369,7 +368,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     coverage: {
       facilityTypes: ["State Prison", "County Jail"],
       geographic: "35+ states nationwide",
-      notes: "JPay is primarily a state prison provider. Coverage varies significantly by state — some states use JPay system-wide while others use it only at select facilities. JPay does not serve federal Bureau of Prisons facilities.",
+      notes: "JPay is primarily a state prison provider. Coverage varies significantly by state, some states use JPay system-wide while others use it only at select facilities. JPay does not serve federal Bureau of Prisons facilities.",
     },
 
     supportedFacilities: [
@@ -473,9 +472,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
        "ConnectNetwork is the family-facing platform operated by GTL ViaPath Technologies for receiving inmate phone calls, scheduling video visits, sending messages, and depositing money. Create a free account at connectnetwork.com or call ConnectNetwork customer service at 877-650-4249. The ConnectNetwork mobile app is available for iOS and Android.",
 
-    seoTitle: "What Is ConnectNetwork: GTL Phone Calls, AdvancePay and Account Setup",
-    seoDescription:
-      "What is ConnectNetwork by GTL and how does it work. Set up AdvancePay or PIN Debit account at connectnetwork.com. Customer service at 877-650-4249. Free guide for families.",
+    seoTitle: "What Is ConnectNetwork: GTL Phone Calls, AdvancePay and",
+    seoDescription: "What is ConnectNetwork by GTL and how does it work. Set up AdvancePay or PIN Debit account at connectnetwork.com. Customer service at 877-650-4249.",
 
     website: "https://www.connectnetwork.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
@@ -624,9 +622,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
           "GettingOut is a video visitation, messaging, and phone call app for county jails operated by Telmate, a subsidiary of GTL ViaPath Technologies. GettingOut serves over 2,200 county jails across 45 states. Create a free account at gettingout.com to schedule video visits, send messages, and make phone calls. GettingOut is not the same as ConnectNetwork. Both are GTL ViaPath platforms but serve different facility types.",
 
-    seoTitle: "What Is GettingOut App: Video Visits, Messaging and How It Works",
-    seoDescription:
-      "What is the GettingOut app and what is it used for. How GettingOut video visits work, cost per minute, account setup at gettingout.com. GTL Telmate guide for families.",
+    seoTitle: "What Is GettingOut App: Video Visits, Messaging and How It",
+    seoDescription: "What is the GettingOut app and what is it used for. How GettingOut video visits work, cost per minute, account setup at gettingout.com.",
 
     website: "https://www.gettingout.com",
     iosUrl: "https://apps.apple.com/us/app/gettingout/id453021164",
@@ -781,9 +778,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "CorrLinks is the official email system for all federal Bureau of Prisons inmates, powered by the TRULINCS network. Learn what CorrLinks is, whether it is free, how to sign up, what the PIC number is, and how TRULINCS inmate email works. Creating an outside contact account on CorrLinks is completely free. CorrLinks only works for federal prisons. JPay serves state prisons.",
 
-    seoTitle: "What Is CorrLinks: Federal Prison Email, TRULINCS and Free Account Guide",
-    seoDescription:
-      "What is CorrLinks and is it free. How TRULINCS federal prison email works, how to sign up, and what the PIC number is. Free outside contact account guide for families.",
+    seoTitle: "What Is CorrLinks: Federal Prison Email, TRULINCS and Free",
+    seoDescription: "What is CorrLinks and is it free. How TRULINCS federal prison email works, how to sign up, and what the PIC number is.",
 
     website: "https://www.corrlinks.com",
 
@@ -924,8 +920,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "TextBehind is a service that converts digital messages and photos into physical printed letters delivered to inmates through the postal system. TextBehind works at virtually any correctional facility that accepts mail including federal prisons, state prisons, and county jails. You type your message online or in the TextBehind app, pay per page, and TextBehind prints and mails the letter on your behalf.",
 
     seoTitle: "What Is TextBehind: How It Works, Cost and Inmate Mail Guide",
-    seoDescription:
-      "What is TextBehind and how does it work for sending inmate mail. TextBehind converts digital messages to physical letters delivered to any jail or prison. Cost and setup guide.",
+    seoDescription: "What is TextBehind and how does it work for sending inmate mail. TextBehind converts digital messages to physical letters delivered to any jail or prison.",
 
     website: "https://www.textbehind.com",
     iosUrl: "https://apps.apple.com/us/app/textbehind/id836022386",
@@ -1070,9 +1065,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "SmartInmate is the family-facing platform operated by Smart Communications that provides video visits, electronic messaging, phone calls, and photo sharing at county jails and detention centers. Create a free account at smartinmate.com or call Smart Communications customer care at 727-349-1561. Safari is not compatible with SmartInmate. Use Google Chrome on all devices including iPhones and iPads.",
 
-    seoTitle: "What Is SmartInmate: Video Visits, Messaging and Phone Calls Guide",
-    seoDescription:
-      "What is SmartInmate and how does it work. SmartInmate video visitation app setup, messaging, phone calls and customer service at 727-349-1561. Free guide for families.",
+    seoTitle: "What Is SmartInmate: Video Visits, Messaging and Phone",
+    seoDescription: "What is SmartInmate and how does it work. SmartInmate video visitation app setup, messaging, phone calls and customer service at 727-349-1561.",
 
     website: "https://www.smartinmate.com",
     iosUrl: "https://apps.apple.com/us/app/smart-inmate/id1191826649",
@@ -1218,8 +1212,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "Pigeonly is a print-and-mail service that converts digital messages and photos into physical letters delivered to inmates at prisons and jails across the United States. Pigeonly offers a Forever Free Plan that allows a limited number of monthly letters at no charge. Paid unlimited plans are also available. Pigeonly has sent over 15 million photos and letters and maintains compliance rules for over 4,000 facilities. The Pigeonly app is available for iOS and Android.",
 
     seoTitle: "What Is Pigeonly: How It Works, Prices and Free Plan Guide",
-    seoDescription:
-      "What is Pigeonly and how does it work for inmate mail. Pigeonly prices, free forever plan, app for iOS and Android, and how to send photos to any prison or jail.",
+    seoDescription: "What is Pigeonly and how does it work for inmate mail.",
 
     website: "https://www.pigeonly.com",
     iosUrl: "https://apps.apple.com/us/app/pigeonly-inmate-mail-calling/id1077048131",
@@ -1240,7 +1233,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
         available: true,
         description: "Compose messages through the Pigeonly app that are printed as physical letters and mailed to the inmate.",
         setupUrl: "https://www.pigeonly.com",
-        notes: "Included in subscription plan. Physical delivery via postal mail — typically 3 to 7 days. Works at virtually all facilities that accept standard mail.",
+        notes: "Included in subscription plan. Physical delivery via postal mail, typically 3 to 7 days. Works at virtually all facilities that accept standard mail.",
       },
       video: {
         available: false,
@@ -1268,7 +1261,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
 
     coverage: {
       facilityTypes: ["Federal Prison", "State Prison", "County Jail", "Private Facility"],
-      geographic: "All 50 states — physical mail service works at any mail-accepting facility",
+      geographic: "All 50 states, physical mail service works at any mail-accepting facility",
       notes: "Pigeonly's letter and photo services work at virtually any facility that accepts standard postal mail. Phone service coverage is more limited and varies by state. Families should verify phone plan availability for their specific state.",
     },
 
@@ -1283,7 +1276,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       { label: "Monthly Subscription", value: "~$9.99/month", notes: "Includes letters and photos per month. Higher tiers available." },
       { label: "Printed Letter",       value: "Included",     notes: "In subscription. Additional letters at per-letter rate." },
       { label: "Photo Print",          value: "Included",     notes: "In subscription. Additional photos at per-photo rate." },
-      { label: "Phone Calling",        value: "Varies",       notes: "Prepay plan — rates vary by state. Lower than standard facility rates." },
+      { label: "Phone Calling",        value: "Varies",       notes: "Prepay plan, rates vary by state. Lower than standard facility rates." },
     ],
 
     pros: [
@@ -1363,9 +1356,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "Securus Technologies serves over 1,200 correctional facilities across 45 states, primarily county jails and state prisons. Securus provides phone calls, video visitation, electronic messaging, and money transfers. The free Securus Mobile app is available for iOS and Android.",
 
-    seoTitle: "Securus Technologies Review: Phone Calls, Video Visits and Account Setup Guide",
-    seoDescription:
-      "Securus Technologies guide for families how to create an account, set up phone calls, schedule video visits, and send money at 1,200+ county jails and state prisons.",
+    seoTitle: "Securus Technologies Review: Phone Calls, Video Visits and",
+    seoDescription: "Securus Technologies guide for families how to create an account, set up phone calls, schedule video visits, and send money at 1,200+ county jails and state",
 
     website: "https://www.securustech.net",
     iosUrl: "https://apps.apple.com/us/app/securus-mobile/id1090154482",
@@ -1502,9 +1494,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "GTL, now part of ViaPath Technologies, operates ConnectNetwork and serves over 800 facilities across 30 states. GTL provides phone calls and video visitation at state prisons and county jails. Families access GTL services through the ConnectNetwork website and app.",
 
-    seoTitle: "GTL ViaPath Technologies Review: ConnectNetwork Phone and Video Guide for Families",
-    seoDescription:
-      "GTL guide for families how GTL relates to ConnectNetwork, how to set up phone calls and video visits, and which facilities use GTL services across 30 states.",
+    seoTitle: "GTL ViaPath Technologies Review: ConnectNetwork Phone and",
+    seoDescription: "GTL guide for families how GTL relates to ConnectNetwork, how to set up phone calls and video visits, and which facilities use GTL services across 30 states.",
 
     website: "https://www.viapath.com",
     iosUrl: "https://apps.apple.com/us/app/gtl-connect/id943869522",
@@ -1552,7 +1543,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     coverage: {
       facilityTypes: ["State Prison", "County Jail"],
       geographic: "30+ states, primarily at state prison systems under statewide DOC contracts",
-      notes: "GTL holds statewide contracts in many systems — one account typically works at all facilities within the same state DOC. Coverage differs from GettingOut (county jails) and ConnectNetwork (federal), though all are part of the ViaPath Technologies family.",
+      notes: "GTL holds statewide contracts in many systems, one account typically works at all facilities within the same state DOC. Coverage differs from GettingOut (county jails) and ConnectNetwork (federal), though all are part of the ViaPath Technologies family.",
     },
 
     supportedFacilities: [
@@ -1574,12 +1565,12 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "Statewide contracts in many systems mean one account works across facility transfers within the same state.",
       "GTL Connect app consolidates phone account management and video scheduling.",
       "Widely used across 30+ state prison systems, making it one of the most common state-level phone providers.",
-      "Part of the ViaPath/Telmate ecosystem — same login infrastructure as GettingOut at some facilities.",
+      "Part of the ViaPath/Telmate ecosystem, same login infrastructure as GettingOut at some facilities.",
       "Regulated interstate calling rates provide cost predictability for long-distance families.",
     ],
     cons: [
       "Messaging and photos not handled by GTL at state prisons. Requires a separate JPay account for those services.",
-      "Commissary deposits go through Access Corrections, not GTL directly — a separate step many families find confusing.",
+      "Commissary deposits go through Access Corrections, not GTL directly, a separate step many families find confusing.",
       "In-state calling rates can be significantly higher than the regulated interstate rate.",
       "GTL, GettingOut, ConnectNetwork, and ViaPath are all part of the same company but operate through different portals, which causes confusion.",
       "Not available at federal Bureau of Prisons facilities.",
@@ -1592,19 +1583,19 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       },
       {
         question: "Do I need both a JPay account and a GTL account for a state prison?",
-        answer: "At most state prisons where both are available, yes. JPay typically handles messaging, photo sharing, and trust account deposits. GTL handles phone calls and video visits under a separate facility contract. These are independent systems — you need both accounts and must fund them separately. Check the specific facility to confirm which services each provider handles there.",
+        answer: "At most state prisons where both are available, yes. JPay typically handles messaging, photo sharing, and trust account deposits. GTL handles phone calls and video visits under a separate facility contract. These are independent systems, you need both accounts and must fund them separately. Check the specific facility to confirm which services each provider handles there.",
       },
       {
         question: "How do I set up a GTL phone account?",
-        answer: "Go to telmate.com or download the GTL Connect app. Create a free account and set up an AdvancePay account linked to your phone number. Add funds via debit card, credit card, or Western Union. Once your account is active and funded, the incarcerated individual can call your number directly from facility phones. Calls are inmate-initiated — you cannot call the facility to reach an inmate.",
+        answer: "Go to telmate.com or download the GTL Connect app. Create a free account and set up an AdvancePay account linked to your phone number. Add funds via debit card, credit card, or Western Union. Once your account is active and funded, the incarcerated individual can call your number directly from facility phones. Calls are inmate-initiated, you cannot call the facility to reach an inmate.",
       },
       {
         question: "Will my GTL account work if my loved one is transferred to a different facility?",
-        answer: "In most cases, yes — if the transfer is within the same state DOC system under a GTL statewide contract. GTL holds system-wide contracts in many states, so accounts carry over automatically between facilities in the same system. You may need to update the scheduled facility for video visits after a transfer. If the transfer is to a different state or a county jail, you will likely need a different provider account.",
+        answer: "In most cases, yes, if the transfer is within the same state DOC system under a GTL statewide contract. GTL holds system-wide contracts in many states, so accounts carry over automatically between facilities in the same system. You may need to update the scheduled facility for video visits after a transfer. If the transfer is to a different state or a county jail, you will likely need a different provider account.",
       },
       {
         question: "How do I send commissary money to an inmate at a GTL facility?",
-        answer: "GTL commissary deposits are processed through Access Corrections, not GTL directly. Visit accesscorrections.com, search for the facility, and follow the deposit process. Funds can be added via debit card, credit card, or cash at participating retail locations. Note that commissary deposits and your GTL phone account are separate — you need to fund both independently.",
+        answer: "GTL commissary deposits are processed through Access Corrections, not GTL directly. Visit accesscorrections.com, search for the facility, and follow the deposit process. Funds can be added via debit card, credit card, or cash at participating retail locations. Note that commissary deposits and your GTL phone account are separate, you need to fund both independently.",
       },
     ],
 
@@ -1627,9 +1618,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "ICSolutions provides inmate phone call services at state and federal correctional facilities across the United States. Families set up a prepaid account to receive calls from incarcerated loved ones at facilities served by ICSolutions.",
 
-    seoTitle: "ICSolutions Review: Inmate Phone Call Services at State and Federal Facilities",
-    seoDescription:
-      "ICSolutions guide for families how to set up a prepaid phone account, register your number, add funds, and receive calls from incarcerated loved ones.",
+    seoTitle: "ICSolutions Review: Inmate Phone Call Services at State and",
+    seoDescription: "ICSolutions guide for families how to set up a prepaid phone account, register your number, add funds, and receive calls from incarcerated loved ones.",
 
     website: "https://www.icsolutions.com",
     iosUrl: "https://apps.apple.com/us/app/icsolutions/id899399526",
@@ -1702,7 +1692,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "Straightforward account structure with clear prepaid calling and deposit options.",
     ],
     cons: [
-      "Smaller network — 300 facilities across 15 states versus 1,200+ for Securus.",
+      "Smaller network, 300 facilities across 15 states versus 1,200+ for Securus.",
       "No digital photo delivery service.",
       "Coverage is regional, so it is not the correct provider for families in states where ICSolutions does not hold contracts.",
       "Less name recognition means families often overlook it when searching for their facility's provider.",
@@ -1712,15 +1702,15 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     faq: [
       {
         question: "How do I know if ICSolutions serves my loved one's facility?",
-        answer: "Visit icsolutions.com and use the facility search tool. Enter the facility name, city, or state to check. If the facility appears, ICSolutions holds that contract and you can create an account. If it does not appear, a different provider — Securus, GTL, or ConnectNetwork — likely holds the contract at that facility.",
+        answer: "Visit icsolutions.com and use the facility search tool. Enter the facility name, city, or state to check. If the facility appears, ICSolutions holds that contract and you can create an account. If it does not appear, a different provider, Securus, GTL, or ConnectNetwork, likely holds the contract at that facility.",
       },
       {
         question: "How do I set up phone calls through ICSolutions?",
-        answer: "Create a free account at icsolutions.com or through the ICSolutions mobile app. Set up a prepaid account linked to your phone number and add funds via debit card, credit card, or cash at a participating retail location. Once funded, the incarcerated individual can call you directly from facility phones. You cannot initiate calls — all calls are inmate-initiated.",
+        answer: "Create a free account at icsolutions.com or through the ICSolutions mobile app. Set up a prepaid account linked to your phone number and add funds via debit card, credit card, or cash at a participating retail location. Once funded, the incarcerated individual can call you directly from facility phones. You cannot initiate calls, all calls are inmate-initiated.",
       },
       {
         question: "Does ICSolutions offer video visits?",
-        answer: "Yes, remote video visits are available at participating ICSolutions facilities. Log into your account, navigate to the video visitation section, and select an available time slot for the specific facility. You will need a device with a working camera and a stable internet connection. Not every ICSolutions-contracted facility offers video visits — check the facility's available services within your account.",
+        answer: "Yes, remote video visits are available at participating ICSolutions facilities. Log into your account, navigate to the video visitation section, and select an available time slot for the specific facility. You will need a device with a working camera and a stable internet connection. Not every ICSolutions-contracted facility offers video visits, check the facility's available services within your account.",
       },
       {
         question: "Can I send money to an inmate through ICSolutions?",
@@ -1751,9 +1741,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "Access Corrections is a money transfer service that allows families to deposit funds directly to inmate trust accounts at county jails and correctional facilities. Access Corrections accepts credit cards, debit cards, and cash deposits at participating locations.",
 
-    seoTitle: "Access Corrections Review: Inmate Money Deposits and Trust Account Funding Guide",
-    seoDescription:
-      "Access Corrections guide for families how to deposit money to inmate trust accounts at county jails, accepted payment methods, fees, and processing times.",
+    seoTitle: "Access Corrections Review: Inmate Money Deposits and Trust",
+    seoDescription: "Access Corrections guide for families how to deposit money to inmate trust accounts at county jails, accepted payment methods, fees, and processing times.",
 
     website: "https://www.accesscorrections.com",
 
@@ -1823,17 +1812,17 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "Funds typically credited within one to two business days.",
     ],
     cons: [
-      "Money transfer only — no phone, video, messaging, or photo services.",
+      "Money transfer only, no phone, video, messaging, or photo services.",
       "Families at GTL facilities still need a separate GTL calling account, which requires a second account setup.",
       "Processing fees add cost over time, especially for frequent smaller deposits.",
-      "Not universal — families at non-GTL facilities must use a different deposit platform.",
+      "Not universal, families at non-GTL facilities must use a different deposit platform.",
       "No mobile app. Web-based only, which is less convenient for mobile users.",
     ],
 
     faq: [
       {
         question: "How do I send money through Access Corrections?",
-        answer: "Visit accesscorrections.com and search for the facility by name, city, or state. Enter the inmate's ID or booking number. Choose a payment method — debit card, credit card, or cash at a participating retail location — and complete the transaction. Funds are typically credited to the inmate's trust account within one to two business days. A processing fee is charged at the time of the transaction.",
+        answer: "Visit accesscorrections.com and search for the facility by name, city, or state. Enter the inmate's ID or booking number. Choose a payment method, debit card, credit card, or cash at a participating retail location, and complete the transaction. Funds are typically credited to the inmate's trust account within one to two business days. A processing fee is charged at the time of the transaction.",
       },
       {
         question: "Is Access Corrections the same as GTL?",
@@ -1872,9 +1861,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "HomeWAV is an all-in-one inmate communication platform founded in 2011 and headquartered in St. Louis, Missouri. HomeWAV provides video visitation, voice calls, eMessaging, mail scanning, commissary integration, and tablet services at county jails and detention centers across the United States. The HomeWAV mobile app is available free for iOS and Android. Create a free account at homewav.com. You pay only for the minutes you use with no plans or packages required.",
 
-    seoTitle: "What Is HomeWAV App: Inmate Video Visits, Calls and General Funds",
-    seoDescription:
-      "What is the HomeWAV app for inmates. How HomeWAV video visits work, how to add general funds, customer service at homewav.com. Johnson County and Okaloosa County jail guide.",
+    seoTitle: "What Is HomeWAV App: Inmate Video Visits, Calls and General",
+    seoDescription: "What is the HomeWAV app for inmates. How HomeWAV video visits work, how to add general funds, customer service at homewav.com.",
 
     website: "https://www.homewav.com",
     iosUrl: "https://apps.apple.com/us/app/homewav/id980905046",
@@ -2008,6 +1996,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     initial: "N",
     color: "bg-slate-600",
     tagline: "Phone, tablet, and video services for regional correctional facilities",
+    seoTitle: "NCIC Inmate Communications: Phone, Video and Messaging",
+    seoDescription: "NCIC Inmate Communications provides phone calls, video visitation, messaging, and money transfers at 250+ regional county jails across 20 states.",
     services: { messaging: true, video: true, photos: false, phone: true, moneyTransfer: true },
     statesCount: 20,
     facilitiesCount: 250,
@@ -2024,9 +2014,9 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     overview: [
       "NCIC Inmate Communications is a regional correctional communication provider serving county jails, detention centers, and smaller correctional facilities across 20 states. The company offers phone calls, video visitation, electronic messaging, and commissary deposits as an integrated service. NCIC is a family-owned company with a long history in the corrections industry, and it positions itself as a more customer-focused alternative to the large national providers. While its network is smaller than Securus or GTL, NCIC holds exclusive contracts at the facilities it serves, meaning it is the only provider available at those locations.",
 
-      "NCIC's services are accessible through the NCIC website and a companion mobile app. Families create an account, confirm the facility is served by NCIC, and fund phone accounts, schedule video visits, or send messages from a single interface. Phone calls follow the standard inmate-calling model — the incarcerated individual initiates calls to approved numbers, and families fund a prepaid account in advance. Video visits are conducted remotely through the app or browser. NCIC also provides tablet services at many of its contracted facilities, with inmates using NCIC-provided tablets for messaging and access to educational content.",
+      "NCIC's services are accessible through the NCIC website and a companion mobile app. Families create an account, confirm the facility is served by NCIC, and fund phone accounts, schedule video visits, or send messages from a single interface. Phone calls follow the standard inmate-calling model, the incarcerated individual initiates calls to approved numbers, and families fund a prepaid account in advance. Video visits are conducted remotely through the app or browser. NCIC also provides tablet services at many of its contracted facilities, with inmates using NCIC-provided tablets for messaging and access to educational content.",
 
-      "NCIC's strongest markets include parts of the South, Southwest, and Great Plains. Families who find their loved one's county jail is not covered by Securus, GTL, GettingOut, or ICSolutions should check NCIC as the next possibility. The provider's focus on smaller regional markets means it often holds contracts at jails that the largest companies overlook. NCIC's customer service is frequently cited as a strength — the company offers extended support hours and is generally easier to reach than the largest national providers for account issues or dispute resolution.",
+      "NCIC's strongest markets include parts of the South, Southwest, and Great Plains. Families who find their loved one's county jail is not covered by Securus, GTL, GettingOut, or ICSolutions should check NCIC as the next possibility. The provider's focus on smaller regional markets means it often holds contracts at jails that the largest companies overlook. NCIC's customer service is frequently cited as a strength, the company offers extended support hours and is generally easier to reach than the largest national providers for account issues or dispute resolution.",
     ],
 
     serviceDetails: {
@@ -2088,7 +2078,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "Regional focus means dedicated attention to the markets it serves.",
     ],
     cons: [
-      "Smaller network — 250 facilities across 20 states. Not a solution for most facilities nationwide.",
+      "Smaller network, 250 facilities across 20 states. Not a solution for most facilities nationwide.",
       "No photo delivery service.",
       "Limited name recognition makes it easy to overlook when searching for a facility's provider.",
       "Coverage is concentrated in smaller regional markets, not major metropolitan areas.",
@@ -2098,7 +2088,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     faq: [
       {
         question: "How do I find out if NCIC serves my loved one's facility?",
-        answer: "Visit ncic.com and use the facility search. Enter the facility name, city, or state. If the facility appears, NCIC is the provider. If it does not, another provider holds the contract — Securus, GTL, GettingOut, or ICSolutions are the most common alternatives at county jails.",
+        answer: "Visit ncic.com and use the facility search. Enter the facility name, city, or state. If the facility appears, NCIC is the provider. If it does not, another provider holds the contract, Securus, GTL, GettingOut, or ICSolutions are the most common alternatives at county jails.",
       },
       {
         question: "How do I set up phone calls through NCIC?",
@@ -2137,9 +2127,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "TouchPay is a money transfer and payment service operated by TouchPay Holdings LLC, a GTL ViaPath subsidiary, that allows families to deposit funds to inmate accounts at county jails and some state facilities. TouchPay handles commissary deposits, phone account deposits, and other inmate payments. TouchPay is used at Miami-Dade Corrections and other facilities. Visit touchpaydirect.com for account setup.",
 
-    seoTitle: "What Is TouchPay: How to Send Money to Inmates and Jail Deposits",
-    seoDescription:
-      "What is TouchPay and what is it used for. How to make TouchPay inmate commissary deposits, web deposits, and phone deposits. TouchPay phone number and customer service guide.",
+    seoTitle: "What Is TouchPay: How to Send Money to Inmates and Jail",
+    seoDescription: "What is TouchPay and what is it used for. How to make TouchPay inmate commissary deposits, web deposits, and phone deposits.",
 
     website: "https://www.touchpaydirect.com",
 
@@ -2204,7 +2193,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     pros: [
       "In-person kiosk option is convenient for families who prefer cash or want immediate confirmation.",
       "Available at 1,200+ facilities across all 50 states.",
-      "Multiple deposit methods — kiosk, online, and phone — give families flexibility.",
+      "Multiple deposit methods, kiosk, online, and phone, give families flexibility.",
       "No account required for kiosk deposits, which is useful for one-time or infrequent use.",
       "Part of the GTL family, so widely recognized at county jails with GTL contracts.",
     ],
@@ -2212,7 +2201,7 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
       "Money transfer only. No phone, video, messaging, or photo services.",
       "Processing fees apply across all payment methods.",
       "Families at GTL facilities still need a separate account for phone calls.",
-      "Kiosks are only useful for in-person visits — remote families must use the online option.",
+      "Kiosks are only useful for in-person visits, remote families must use the online option.",
       "No mobile app. Web-based online deposits only.",
     ],
 
@@ -2278,9 +2267,8 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     description:
       "City Tele Coin (CTC) provides inmate phone calls and commissary deposits at county jails across the South and Midwest since 1986. Learn how to add money on the CTC app, make commissary deposits, set up a DirectPay account, and fix common CTC problems. CTC customer service is available at 318-756-1114.",
 
-    seoTitle: "City Tele Coin (CTC): How to Add Money, Set Up Phone Calls and Commissary",
-    seoDescription:
-      "How to add money on City Tele Coin app, set up CTC inmate phone calls, make commissary deposits at citytelecoin.com. Step-by-step guide for families. CTC customer service: 318-756-1114.",
+    seoTitle: "City Tele Coin (CTC): How to Add Money, Set Up Phone Calls",
+    seoDescription: "How to add money on City Tele Coin app, set up CTC inmate phone calls, make commissary deposits at citytelecoin.com. Step-by-step guide for families.",
 
     website: "https://www.citytelecoin.com",
     iosUrl: "https://apps.apple.com/us/app/citytelecoin/id1144120270",
@@ -2374,11 +2362,11 @@ export const PROVIDER_DETAILS: Record<string, ProviderDetail> = {
     faq: [
       {
         question: "How do I know if City Tele Coin serves my loved one's facility?",
-        answer: "Visit citytelecoin.com and use the facility search tool. Enter the facility name, city, or state. If it appears, CTC holds the phone contract there. If it does not, the facility uses a different provider — Securus, GTL, or ICSolutions are the most common alternatives at county jails.",
+        answer: "Visit citytelecoin.com and use the facility search tool. Enter the facility name, city, or state. If it appears, CTC holds the phone contract there. If it does not, the facility uses a different provider, Securus, GTL, or ICSolutions are the most common alternatives at county jails.",
       },
       {
         question: "How do I set up a calling account with City Tele Coin?",
-        answer: "Go to citytelecoin.com and create a prepaid account linked to your phone number. Add funds via debit card, credit card, or money order. Once your account is funded, the incarcerated individual can call your number directly from facility phones. Calls are inmate-initiated — you cannot initiate contact.",
+        answer: "Go to citytelecoin.com and create a prepaid account linked to your phone number. Add funds via debit card, credit card, or money order. Once your account is funded, the incarcerated individual can call your number directly from facility phones. Calls are inmate-initiated, you cannot initiate contact.",
       },
       {
         question: "Does City Tele Coin offer video visits?",

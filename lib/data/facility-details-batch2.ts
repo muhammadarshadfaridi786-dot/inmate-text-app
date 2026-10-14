@@ -1,7 +1,7 @@
 import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 2 (20 new facilities)
+// FACILITY DETAILS, Batch 2 (20 new facilities)
 // Includes 12 orphan fixes + 8 new state expansions
 // ─────────────────────────────────────────────
 
@@ -21,8 +21,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Tattnall County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Georgia State Prison (Closed 2022): What Families Need to Know",
-    seoDescription: "Georgia State Prison in Reidsville closed on February 19, 2022. Learn where inmates were transferred and how to find current housing through the GDC offender search.",
+    seoTitle: "Georgia State Prison (Closed 2022): What Families Need to",
+    seoDescription: "Georgia State Prison in Reidsville closed on February 19, 2022.",
 
     description:
       "Georgia State Prison closed on February 19, 2022. This page explains the closure and how to find where an inmate was transferred through the GDC offender search.",
@@ -126,8 +126,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Fulton County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "Fulton County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Fulton County Jail in Atlanta GA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Georgia facility.",
+    seoTitle: "Fulton County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Fulton County Jail in Atlanta GA.",
 
     description:
       "Fulton County Jail communication guide. Find GTL phone, video, and messaging options for families in Atlanta. Learn how to stay connected at the Fulton County jail complex.",
@@ -158,7 +158,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "All Fulton County Jail communication — phone, video, messaging, and money — runs through GTL.",
+        notes: "All Fulton County Jail communication, phone, video, messaging, and money, runs through GTL.",
       },
     ],
 
@@ -181,7 +181,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Fulton County Jail?",
-        answer: "All communication services at Fulton County Jail — phone, video, messaging, and money — are through GTL. Create a single account at telmate.com or through the GTL Connect app to access everything.",
+        answer: "All communication services at Fulton County Jail, phone, video, messaging, and money, are through GTL. Create a single account at telmate.com or through the GTL Connect app to access everything.",
       },
       {
         question: "Can I do a video visit with someone at Fulton County Jail?",
@@ -222,8 +222,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Madison County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Pendleton Correctional: ViaPath Phone and GettingOut Messaging",
-    seoDescription: "How to contact someone at Pendleton Correctional Facility in Indiana. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging. Must be on approved 20-person call list.",
+    seoTitle: "Pendleton Correctional: ViaPath Phone and GettingOut",
+    seoDescription: "How to contact someone at Pendleton Correctional Facility in Indiana. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging.",
 
     description:
       "Pendleton Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at this Indiana Department of Correction maximum-security facility.",
@@ -296,7 +296,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Pendleton from Indianapolis?",
-        answer: "Pendleton is about 35 miles northeast of Indianapolis — roughly a 40-minute drive via I-69. For Indianapolis-area families, in-person visits are very feasible.",
+        answer: "Pendleton is about 35 miles northeast of Indianapolis, roughly a 40-minute drive via I-69. For Indianapolis-area families, in-person visits are very feasible.",
       },
       {
         question: "Do accounts carry over if my loved one is transferred to another Indiana facility?",
@@ -349,8 +349,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Marion County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "Marion County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Marion County Jail in Indianapolis IN. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging. Find providers and contact information.",
+    seoTitle: "Marion County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Marion County Jail in Indianapolis IN. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging.",
 
     description:
       "Marion County Jail communication guide. Find GTL phone, video, and messaging options for families in Indianapolis. Learn how to stay connected at the Indianapolis jail complex.",
@@ -379,7 +379,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "All Marion County Jail communication — phone, video, messaging, and money — runs through GTL.",
+        notes: "All Marion County Jail communication, phone, video, messaging, and money, runs through GTL.",
       },
     ],
 
@@ -402,7 +402,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Marion County Jail?",
-        answer: "All services — phone, video, messaging, and money — are through GTL. Create an account at telmate.com or through the GTL Connect app. One account covers all communication.",
+        answer: "All services, phone, video, messaging, and money, are through GTL. Create an account at telmate.com or through the GTL Connect app. One account covers all communication.",
       },
       {
         question: "Can I do a video visit with someone at Marion County Jail?",
@@ -444,7 +444,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Close / Maximum",
     hasDetailPage: true,
     seoTitle: "Sussex I State Prison: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Sussex I State Prison in Waverly VA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Virginia DOC facility.",
+    seoDescription: "How to contact someone at Sussex I State Prison in Waverly VA.",
 
     description:
       "Sussex I State Prison communication guide. Find JPay messaging and GTL phone options for families at this close-security Virginia DOC facility in Sussex County.",
@@ -452,7 +452,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     overview: [
       "Sussex I State Prison is a close-security state correctional facility operated by the Virginia Department of Corrections, located in Sussex County in the southeastern part of Virginia, roughly 40 miles south of Richmond and about 60 miles west of the Hampton Roads area. The facility was opened in the early 1990s and operates alongside Sussex II State Prison on the same grounds, with both institutions sharing administrative infrastructure. Sussex I houses adult male inmates at close-security classification, which is the designation in the Virginia system for inmates requiring a high level of supervision short of supermax-style restriction.",
       "Communication at Sussex I follows Virginia DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Virginia DOC number to begin correspondence. GTL manages phone calls and video visitation under the VADOC statewide contract. As with other Virginia state facilities, the two-platform setup applies: JPay for messaging and money, GTL for phone and video. Both platforms serve the Virginia DOC system statewide, so accounts created for Sussex I carry over if an inmate transfers within the system.",
-      "Sussex County is rural, located between Richmond and Hampton Roads along a stretch of US-460. For families in Richmond, the facility is about 40 miles away — a straightforward drive. For Northern Virginia families, the distance is greater. Because JPay and GTL cover the entire VADOC system, families who have already set up accounts for other Virginia DOC facilities do not need to start over when dealing with Sussex I. Confirm current housing using the VADOC offender search at vadoc.virginia.gov before setting up or funding any account.",
+      "Sussex County is rural, located between Richmond and Hampton Roads along a stretch of US-460. For families in Richmond, the facility is about 40 miles away, a straightforward drive. For Northern Virginia families, the distance is greater. Because JPay and GTL cover the entire VADOC system, families who have already set up accounts for other Virginia DOC facilities do not need to start over when dealing with Sussex I. Confirm current housing using the VADOC offender search at vadoc.virginia.gov before setting up or funding any account.",
     ],
 
     address: "24414 Musselwhite Drive, Waverly, VA 23891",
@@ -520,7 +520,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Sussex I from Richmond?",
-        answer: "Sussex I is in Waverly in Sussex County, about 40 miles south of Richmond via US-460 — roughly a 45-minute drive. For Hampton Roads families, the facility is about 60 miles west. In-person visits are feasible for families in both areas.",
+        answer: "Sussex I is in Waverly in Sussex County, about 40 miles south of Richmond via US-460, roughly a 45-minute drive. For Hampton Roads families, the facility is about 60 miles west. In-person visits are feasible for families in both areas.",
       },
       {
         question: "How do I send money to a Sussex I inmate?",
@@ -551,7 +551,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Medium / Maximum",
     hasDetailPage: true,
     seoTitle: "Elayn Hunt Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Elayn Hunt Correctional Center in St. Gabriel LA. Find the correct provider for phone calls, messaging, and money transfers at this Louisiana DOC facility.",
+    seoDescription: "How to contact someone at Elayn Hunt Correctional Center in St. Gabriel LA.",
 
     description:
       "Elayn Hunt Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this Louisiana DOC facility in St. Gabriel, Iberville Parish.",
@@ -627,7 +627,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Elayn Hunt from Baton Rouge and New Orleans?",
-        answer: "Hunt is in St. Gabriel, about 25 miles south of Baton Rouge — roughly a 30-minute drive. New Orleans is approximately 80 miles east on I-10, about an hour and 15 minutes. In-person visits are feasible for families in both cities.",
+        answer: "Hunt is in St. Gabriel, about 25 miles south of Baton Rouge, roughly a 30-minute drive. New Orleans is approximately 80 miles east on I-10, about an hour and 15 minutes. In-person visits are feasible for families in both cities.",
       },
       {
         question: "How do I send money to an Elayn Hunt inmate?",
@@ -655,8 +655,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Orleans Parish",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "Orleans Justice Center: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Orleans Justice Center in New Orleans LA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this facility.",
+    seoTitle: "Orleans Justice Center: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Orleans Justice Center in New Orleans LA.",
 
     description:
       "Orleans Justice Center communication guide. Find GTL phone, video, and messaging options for families in New Orleans. Learn how to stay connected at the Orleans Parish jail.",
@@ -686,7 +686,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "All Orleans Justice Center communication — phone, video, messaging, and money — runs through GTL.",
+        notes: "All Orleans Justice Center communication, phone, video, messaging, and money, runs through GTL.",
       },
     ],
 
@@ -709,7 +709,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Orleans Justice Center?",
-        answer: "All communication services — phone, video, messaging, and money — are through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers everything at OJC.",
+        answer: "All communication services, phone, video, messaging, and money, are through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers everything at OJC.",
       },
       {
         question: "Can I do a video visit at Orleans Justice Center?",
@@ -772,7 +772,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Oklahoma State Penitentiary: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Oklahoma State Penitentiary in McAlester. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oklahoma DOC facility.",
+    seoDescription: "How to contact someone at Oklahoma State Penitentiary in McAlester.",
 
     description:
       "Oklahoma State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Oklahoma's maximum-security facility in McAlester.",
@@ -818,7 +818,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm with facility." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to ODOC content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls via GTL. Fund AdvancePay account to receive calls." },
@@ -848,7 +848,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is OSP from Oklahoma City?",
-        answer: "Oklahoma State Penitentiary is in McAlester, about 110 miles southeast of Oklahoma City — roughly a two-hour drive. For Oklahoma City-area families, day trips for visits are possible but require planning.",
+        answer: "Oklahoma State Penitentiary is in McAlester, about 110 miles southeast of Oklahoma City, roughly a two-hour drive. For Oklahoma City-area families, day trips for visits are possible but require planning.",
       },
       {
         question: "How do I send money to an Oklahoma State Penitentiary inmate?",
@@ -879,14 +879,14 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Medium",
     hasDetailPage: true,
     seoTitle: "Chillicothe Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Chillicothe Correctional Institution in Ohio. ViaPath ConnectNetwork handles phone calls after Ohio switched from Securus. Find messaging and visit options.",
+    seoDescription: "How to contact someone at Chillicothe Correctional Institution in Ohio. ViaPath ConnectNetwork handles phone calls after Ohio switched from Securus.",
 
     description:
       "Chillicothe Correctional Institution communication guide. Find JPay messaging and GTL phone and video options for families at this medium-security Ohio DOC facility.",
 
     overview: [
       "Chillicothe Correctional Institution is a medium-security state prison operated by the Ohio Department of Rehabilitation and Correction, located in Ross County near the city of Chillicothe in south-central Ohio, approximately 50 miles south of Columbus. CCI houses adult male inmates at medium-security classification and is one of several Ohio DOC facilities serving the south-central part of the state. Chillicothe is a small city with historical significance as Ohio's first state capital, and the correctional facility is one of the larger employers in the region.",
-      "Communication at Chillicothe Correctional Institution follows ODRC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Ohio DOC number. GTL manages phone calls and video visitation under the ODRC statewide contract. The standard setup — JPay for messaging and money, GTL for phone and video — applies here as it does across the Ohio state system. At a medium-security facility like CCI, communication access is generally broader and more routine than at supermax or maximum-security Ohio prisons.",
+      "Communication at Chillicothe Correctional Institution follows ODRC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Ohio DOC number. GTL manages phone calls and video visitation under the ODRC statewide contract. The standard setup, JPay for messaging and money, GTL for phone and video, applies here as it does across the Ohio state system. At a medium-security facility like CCI, communication access is generally broader and more routine than at supermax or maximum-security Ohio prisons.",
       "CCI's location about 50 miles south of Columbus makes it accessible for Columbus-area families and those in the surrounding central Ohio region. I-71 provides a direct route from Columbus to the Chillicothe area. For families further afield, JPay messaging and GTL video visits are practical alternatives to the drive. Ohio DOC accounts created for Chillicothe carry over to any other ODRC facility if an inmate is transferred within the state system.",
     ],
 
@@ -951,7 +951,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Chillicothe CI from Columbus?",
-        answer: "Chillicothe Correctional Institution is in Ross County, about 50 miles south of Columbus via US-23 or I-71 — roughly a 50-minute drive. For Columbus-area families, in-person visits are very accessible.",
+        answer: "Chillicothe Correctional Institution is in Ross County, about 50 miles south of Columbus via US-23 or I-71, roughly a 50-minute drive. For Columbus-area families, in-person visits are very accessible.",
       },
       {
         question: "Do accounts carry over if my loved one transfers within Ohio DOC?",
@@ -985,8 +985,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Randolph County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Menard Correctional: ICSolutions Phone and GettingOut Messaging",
-    seoDescription: "How to contact someone at Menard Correctional Center in Chester IL. ICSolutions handles phone calls. GettingOut for digital messaging. Illinois offers partial free calling program.",
+    seoTitle: "Menard Correctional: ICSolutions Phone and GettingOut",
+    seoDescription: "How to contact someone at Menard Correctional Center in Chester IL. ICSolutions handles phone calls. GettingOut for digital messaging.",
 
     description:
       "Menard Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security Illinois facility in Chester.",
@@ -994,7 +994,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     overview: [
       "Menard Correctional Center is a maximum-security state prison operated by the Illinois Department of Corrections, located in the town of Chester in Randolph County in southwestern Illinois along the Mississippi River, roughly 60 miles southeast of St. Louis. Opened in 1878, Menard is one of Illinois's oldest and most well-known prisons, with a history spanning nearly 150 years. The facility houses adult male inmates serving long sentences and is one of the largest prisons in the Illinois DOC system. Chester is a small town whose economy is closely tied to the prison complex.",
       "Communication at Menard Correctional Center follows Illinois DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Illinois DOC number to begin correspondence. GTL manages phone calls and video visitation under the IDOC statewide contract. As with other Illinois state facilities, the two-platform model applies: JPay for messaging and money, GTL for phone and video, with each requiring a separate account.",
-      "Menard's location along the Mississippi in far southwestern Illinois means it is more accessible from the St. Louis metropolitan area than from Chicago. For St. Louis-area families in Missouri or Illinois, the drive is about 60 miles. For Chicago families, the distance is more than 300 miles — a long trip that makes electronic communication and video visits especially important. Because IDOC uses JPay and GTL system-wide, accounts created for Menard work at any other Illinois DOC facility if an inmate is transferred.",
+      "Menard's location along the Mississippi in far southwestern Illinois means it is more accessible from the St. Louis metropolitan area than from Chicago. For St. Louis-area families in Missouri or Illinois, the drive is about 60 miles. For Chicago families, the distance is more than 300 miles, a long trip that makes electronic communication and video visits especially important. Because IDOC uses JPay and GTL system-wide, accounts created for Menard work at any other Illinois DOC facility if an inmate is transferred.",
     ],
 
     address: "711 Kaskaskia Street, Chester, IL 62233",
@@ -1061,7 +1061,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Menard from Chicago and St. Louis?",
-        answer: "Menard is in Chester in Randolph County — about 60 miles southeast of St. Louis (roughly an hour's drive) and more than 300 miles south of Chicago (about five hours). For Chicago-area families, electronic communication and GTL video visits are the most practical options for regular contact.",
+        answer: "Menard is in Chester in Randolph County, about 60 miles southeast of St. Louis (roughly an hour's drive) and more than 300 miles south of Chicago (about five hours). For Chicago-area families, electronic communication and GTL video visits are the most practical options for regular contact.",
       },
       {
         question: "Do my accounts work if my loved one transfers to another Illinois facility?",
@@ -1117,7 +1117,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Marquette Branch Prison: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Marquette Branch Prison in Michigan. GTL ConnectNetwork handles phone calls. JPay for messaging. Michigan mail scanning converts letters to digital copies.",
+    seoDescription: "How to contact someone at Marquette Branch Prison in Michigan. GTL ConnectNetwork handles phone calls. JPay for messaging.",
 
     description:
       "Marquette Branch Prison communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security Michigan facility in the Upper Peninsula.",
@@ -1190,7 +1190,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Marquette Branch Prison from Detroit?",
-        answer: "Marquette is in the Upper Peninsula, roughly 300 miles from Detroit — about a six to seven-hour drive that includes crossing the Mackinac Bridge. For most Lower Peninsula families, electronic communication and GTL video visits are the most practical options for regular contact.",
+        answer: "Marquette is in the Upper Peninsula, roughly 300 miles from Detroit, about a six to seven-hour drive that includes crossing the Mackinac Bridge. For most Lower Peninsula families, electronic communication and GTL video visits are the most practical options for regular contact.",
       },
       {
         question: "Is video visitation available at Marquette Branch Prison?",
@@ -1246,13 +1246,13 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Close / Maximum",
     hasDetailPage: true,
     seoTitle: "Central Prison NC: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Central Prison in Raleigh NC. Find the correct provider for phone calls, electronic messaging, and money transfers at this North Carolina DPS facility.",
+    seoDescription: "How to contact someone at Central Prison in Raleigh NC.",
 
     description:
       "Central Prison communication guide. Find JPay messaging and GTL phone options for families at North Carolina's primary maximum-security facility in Raleigh.",
 
     overview: [
-      "Central Prison is a close and maximum-security state correctional facility operated by the North Carolina Department of Adult Correction, located in Raleigh in Wake County. It is the oldest continuously operating prison in North Carolina and one of the most significant correctional facilities in the state, serving as the site of North Carolina's execution chamber and housing some of the state's most serious offenders. The facility's location in the state capital makes it unusual among maximum-security prisons — it sits within a major metropolitan area rather than a remote rural location, which affects in-person visit accessibility for many families.",
+      "Central Prison is a close and maximum-security state correctional facility operated by the North Carolina Department of Adult Correction, located in Raleigh in Wake County. It is the oldest continuously operating prison in North Carolina and one of the most significant correctional facilities in the state, serving as the site of North Carolina's execution chamber and housing some of the state's most serious offenders. The facility's location in the state capital makes it unusual among maximum-security prisons, it sits within a major metropolitan area rather than a remote rural location, which affects in-person visit accessibility for many families.",
       "Communication at Central Prison follows North Carolina DAC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their North Carolina DOC number to begin correspondence. GTL manages phone calls and video visitation under the NCDAC statewide contract. Death row inmates at Central Prison may have communication access that differs from the general close-custody population. Families with a loved one on North Carolina's death row should confirm current communication access with the facility before setting up accounts.",
       "Raleigh's size and infrastructure mean in-person visits to Central Prison are logistically more accessible than at many remote state prisons. The facility is near downtown Raleigh, served by multiple road routes. For families in the Research Triangle area, a visit is practical. For families in Charlotte, the coast, or other parts of North Carolina, JPay messaging and GTL video visits offer reliable alternatives. North Carolina DAC accounts work system-wide and carry over to any other NCDAC facility if an inmate is transferred.",
     ],
@@ -1292,7 +1292,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm with facility." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to NCDAC content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls via GTL. Fund AdvancePay account to receive calls." },
@@ -1374,7 +1374,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Kentucky State Penitentiary: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Kentucky State Penitentiary in Eddyville. Find the correct provider for phone calls, electronic messaging, and money transfers at this Kentucky DOC facility.",
+    seoDescription: "How to contact someone at Kentucky State Penitentiary in Eddyville.",
 
     description:
       "Kentucky State Penitentiary communication guide. Find JPay messaging and Securus phone options for families at Kentucky's oldest and only maximum-security state prison in Eddyville.",
@@ -1429,7 +1429,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
 
     rules: [
       "JPay handles messaging and money. Securus handles phone and video. Both require separate accounts.",
-      "Death row inmates may have stricter communication limits — confirm access directly with the facility.",
+      "Death row inmates may have stricter communication limits, confirm access directly with the facility.",
       "Messages are reviewed by KDOC staff before delivery.",
       "KDOC system-wide accounts carry over if the inmate transfers to another Kentucky facility.",
       "Senders must be on the inmate's approved contact list.",
@@ -1446,7 +1446,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "Why does Kentucky use Securus for phone calls instead of GTL?",
-        answer: "Communication provider contracts are negotiated by each state's correctional system. Kentucky DOC uses JPay for messaging and Securus for phone and video services. These are the correct platforms for Kentucky state prisons — using GTL will not work at KSP.",
+        answer: "Communication provider contracts are negotiated by each state's correctional system. Kentucky DOC uses JPay for messaging and Securus for phone and video services. These are the correct platforms for Kentucky state prisons, using GTL will not work at KSP.",
       },
       {
         question: "Is video visitation available at Kentucky State Penitentiary?",
@@ -1500,14 +1500,14 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Oregon State Penitentiary: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Oregon State Penitentiary in Salem. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oregon DOC facility.",
+    seoDescription: "How to contact someone at Oregon State Penitentiary in Salem.",
 
     description:
       "Oregon State Penitentiary communication guide. Find JPay messaging and Securus phone options for families at Oregon's only maximum-security state prison in Salem.",
 
     overview: [
-      "Oregon State Penitentiary is the only maximum-security state prison in Oregon, operated by the Oregon Department of Corrections and located in Salem in Marion County, which is also the state capital. Opened in 1866, it is Oregon's oldest prison and houses the state's most serious long-term offenders and death row population. Its location within Salem — a city of roughly 175,000 that sits between Portland and Eugene — makes it more accessible than many rural maximum-security facilities. The prison occupies a prominent position in the city and has been central to Oregon's correctional history for over 150 years.",
-      "Communication at Oregon State Penitentiary follows Oregon DOC provider contracts. JPay is the primary platform for electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oregon DOC number. Securus Technologies manages phone calls and video visitation under the ODOC statewide contract. Setting up a Securus prepaid account allows families to receive phone calls, and video visits can be scheduled through the Securus platform. Oregon uses JPay for messaging and Securus for phone and video — these are separate platforms requiring separate accounts.",
+      "Oregon State Penitentiary is the only maximum-security state prison in Oregon, operated by the Oregon Department of Corrections and located in Salem in Marion County, which is also the state capital. Opened in 1866, it is Oregon's oldest prison and houses the state's most serious long-term offenders and death row population. Its location within Salem, a city of roughly 175,000 that sits between Portland and Eugene, makes it more accessible than many rural maximum-security facilities. The prison occupies a prominent position in the city and has been central to Oregon's correctional history for over 150 years.",
+      "Communication at Oregon State Penitentiary follows Oregon DOC provider contracts. JPay is the primary platform for electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oregon DOC number. Securus Technologies manages phone calls and video visitation under the ODOC statewide contract. Setting up a Securus prepaid account allows families to receive phone calls, and video visits can be scheduled through the Securus platform. Oregon uses JPay for messaging and Securus for phone and video, these are separate platforms requiring separate accounts.",
       "Salem's location along I-5 between Portland and Eugene makes OSP accessible from multiple population centers. Portland is about 45 miles north, and Eugene is about 65 miles south. For families in the Willamette Valley, in-person visits are practical. For families in eastern Oregon or out of state, JPay and Securus video visits provide reliable alternatives. Oregon DOC accounts created for OSP carry over to any other Oregon facility if an inmate transfers.",
     ],
 
@@ -1557,7 +1557,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
 
     rules: [
       "JPay handles messaging and money. Securus handles phone and video. Both require separate accounts.",
-      "Death row inmates may have restricted communication access — confirm directly with the facility.",
+      "Death row inmates may have restricted communication access, confirm directly with the facility.",
       "Messages are reviewed by ODOC staff before delivery.",
       "ODOC system-wide accounts carry over if the inmate transfers to another Oregon facility.",
       "Senders must be on the inmate's approved contact list.",
@@ -1574,11 +1574,11 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Oregon State Penitentiary from Portland?",
-        answer: "OSP is in Salem, roughly 45 miles south of Portland on I-5 — about a 45-minute to one-hour drive. For Portland-area families, in-person visits are very feasible on a day trip.",
+        answer: "OSP is in Salem, roughly 45 miles south of Portland on I-5, about a 45-minute to one-hour drive. For Portland-area families, in-person visits are very feasible on a day trip.",
       },
       {
         question: "Is video visitation available at Oregon State Penitentiary?",
-        answer: "Yes, through Securus. Log into your Securus account, search for Oregon State Penitentiary, and select an available time slot. Schedule in advance. Death row inmates may have restricted access — confirm eligibility first.",
+        answer: "Yes, through Securus. Log into your Securus account, search for Oregon State Penitentiary, and select an available time slot. Schedule in advance. Death row inmates may have restricted access, confirm eligibility first.",
       },
       {
         question: "How do I send money to an Oregon State Penitentiary inmate?",
@@ -1606,8 +1606,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Walla Walla County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Washington State Penitentiary: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Washington State Penitentiary in Walla Walla. Find the correct provider for phone calls, electronic messaging, and money transfers at this WDOC facility.",
+    seoTitle: "Washington State Penitentiary: Phone Calls and Messaging",
+    seoDescription: "How to contact someone at Washington State Penitentiary in Walla Walla.",
 
     description:
       "Washington State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Washington's maximum-security state prison in Walla Walla.",
@@ -1615,7 +1615,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     overview: [
       "Washington State Penitentiary is the primary maximum-security state prison in Washington, operated by the Washington Department of Corrections and located in Walla Walla County in the southeastern corner of the state, roughly 150 miles southeast of Yakima and about 260 miles from Seattle. Opened in 1886, it is Washington's oldest prison and houses the state's most serious long-term offenders. Walla Walla is a small city known for its wine region, and the prison has been part of the local community for well over a century. The facility's location in eastern Washington means many families in the Seattle and Puget Sound area face a significant drive.",
       "Communication at Washington State Penitentiary follows Washington DOC provider contracts. JPay is the primary platform for electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Washington DOC number. GTL manages phone calls and video visitation under the WDOC statewide contract. Setting up a GTL AdvancePay account allows families to receive inmate-initiated calls, and video visits can be scheduled through the GTL platform. The two-platform setup applies here: JPay for messaging and money, GTL for phone and video.",
-      "For families in western Washington — Seattle, Tacoma, Olympia — the drive to Walla Walla is roughly four to five hours over the Cascade Mountains. Many families rely primarily on JPay messaging and GTL video visits for regular contact rather than making the long cross-state trip. For families in eastern Washington or the Spokane area, the drive is much shorter. Washington DOC accounts created for WSP carry over to any other Washington facility if an inmate is transferred.",
+      "For families in western Washington, Seattle, Tacoma, Olympia, the drive to Walla Walla is roughly four to five hours over the Cascade Mountains. Many families rely primarily on JPay messaging and GTL video visits for regular contact rather than making the long cross-state trip. For families in eastern Washington or the Spokane area, the drive is much shorter. Washington DOC accounts created for WSP carry over to any other Washington facility if an inmate is transferred.",
     ],
 
     address: "1313 N. 13th Avenue, Walla Walla, WA 99362",
@@ -1679,7 +1679,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is WSP from Seattle?",
-        answer: "Washington State Penitentiary is in Walla Walla, roughly 260 miles southeast of Seattle — about a four to five-hour drive over the Cascades. For western Washington families, GTL video visits and JPay messaging are the most practical options for regular contact.",
+        answer: "Washington State Penitentiary is in Walla Walla, roughly 260 miles southeast of Seattle, about a four to five-hour drive over the Cascades. For western Washington families, GTL video visits and JPay messaging are the most practical options for regular contact.",
       },
       {
         question: "Is video visitation available at WSP?",
@@ -1711,8 +1711,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Mercer County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "NJ State Prison: Phone Calls, ViaPath Transition and Messaging",
-    seoDescription: "How to contact someone at New Jersey State Prison in Trenton. NJ transitioning from JPay to ViaPath. Phone rates cut to $0.034 per minute. Find current providers and contact info.",
+    seoTitle: "NJ State Prison: Phone Calls, ViaPath Transition and",
+    seoDescription: "How to contact someone at New Jersey State Prison in Trenton. NJ transitioning from JPay to ViaPath. Phone rates cut to $0.034 per minute.",
 
     description:
       "New Jersey State Prison communication guide. Find JPay messaging and GTL phone options for families at New Jersey's oldest and highest-security state prison in Trenton.",
@@ -1837,16 +1837,16 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Burlington County",
     securityLevel: "Low / Medium",
     hasDetailPage: true,
-    seoTitle: "FCI Fort Dix: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at FCI Fort Dix in New Jersey. CorrLinks for electronic messaging. ConnectNetwork for phone calls. One of the largest federal BOP facilities in the country.",
+    seoTitle: "FCI Fort Dix: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at FCI Fort Dix in New Jersey. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "FCI Fort Dix communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at the largest federal prison in the United States by population.",
 
     overview: [
-      "Federal Correctional Institution Fort Dix is a low and medium-security federal prison located on Joint Base McGuire-Dix-Lakehurst in Burlington County, New Jersey, about 30 miles southeast of Trenton and roughly 60 miles south of New York City. FCI Fort Dix is consistently one of the largest federal prisons in the United States by inmate population, regularly housing more than 4,000 people across its two facilities — FCI Fort Dix (low security) and FCI Fort Dix Camp (minimum security). The facility operates on a large military base alongside active Air Force and Army installations, which shapes the physical environment significantly.",
+      "Federal Correctional Institution Fort Dix is a low and medium-security federal prison located on Joint Base McGuire-Dix-Lakehurst in Burlington County, New Jersey, about 30 miles southeast of Trenton and roughly 60 miles south of New York City. FCI Fort Dix is consistently one of the largest federal prisons in the United States by inmate population, regularly housing more than 4,000 people across its two facilities, FCI Fort Dix (low security) and FCI Fort Dix Camp (minimum security). The facility operates on a large military base alongside active Air Force and Army installations, which shapes the physical environment significantly.",
       "Communication at FCI Fort Dix follows Bureau of Prisons rules. CorrLinks handles electronic messaging through the TRULINCS system. Families must create a CorrLinks account and wait for the inmate to initiate contact or approve a request before any correspondence can begin. Phone calls operate through ConnectNetwork, the BOP's calling platform. Because FCI Fort Dix is a low-security facility with a very large population, phone access tends to be more routine than at higher-security BOP institutions. Families can expect a predictable communication schedule compared to higher-security penitentiaries.",
-      "FCI Fort Dix's location in central New Jersey puts it within reasonable reach of the New York and Philadelphia metropolitan areas. The facility is accessible by car from I-295 and the New Jersey Turnpike. In-person visits follow standard BOP visitor approval procedures and are conducted on scheduled visiting days. Remote video visitation is not available at FCI Fort Dix, as it is not offered at any Bureau of Prisons facility. BOP accounts — CorrLinks and ConnectNetwork — are system-wide and carry over if an inmate is transferred to another federal facility.",
+      "FCI Fort Dix's location in central New Jersey puts it within reasonable reach of the New York and Philadelphia metropolitan areas. The facility is accessible by car from I-295 and the New Jersey Turnpike. In-person visits follow standard BOP visitor approval procedures and are conducted on scheduled visiting days. Remote video visitation is not available at FCI Fort Dix, as it is not offered at any Bureau of Prisons facility. BOP accounts, CorrLinks and ConnectNetwork, are system-wide and carry over if an inmate is transferred to another federal facility.",
     ],
 
     address: "5756 Hartford & Pointville Road, Joint Base MDL, NJ 08640",
@@ -1913,7 +1913,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "Is FCI Fort Dix really the largest federal prison in the country?",
-        answer: "By population, yes — FCI Fort Dix consistently has one of the highest inmate counts of any BOP facility in the country, regularly exceeding 4,000. The combination of the main FCI and the satellite camp means the grounds house a very large federal population at relatively low security levels.",
+        answer: "By population, yes, FCI Fort Dix consistently has one of the highest inmate counts of any BOP facility in the country, regularly exceeding 4,000. The combination of the main FCI and the satellite camp means the grounds house a very large federal population at relatively low security levels.",
       },
       {
         question: "Is video visitation available at FCI Fort Dix?",
@@ -1945,8 +1945,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Washington County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "MCF Stillwater: Free Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at MCF Stillwater in Minnesota. Minnesota DOC phone calls are free for families. No prepaid account needed. Find messaging and communication options.",
+    seoTitle: "MCF Stillwater: Free Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at MCF Stillwater in Minnesota. Minnesota DOC phone calls are free for families. No prepaid account needed.",
 
     description:
       "Minnesota Correctional Facility Stillwater communication guide. Find JPay messaging and GTL phone options for families at Minnesota's oldest and most historic maximum-security state prison.",
@@ -2019,7 +2019,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is MCF Stillwater from the Twin Cities?",
-        answer: "MCF Stillwater is in Bayport in Washington County, about 25 miles east of Saint Paul and 30 miles east of Minneapolis. For Twin Cities families, in-person visits are very accessible — the drive from downtown Saint Paul takes about 30 minutes.",
+        answer: "MCF Stillwater is in Bayport in Washington County, about 25 miles east of Saint Paul and 30 miles east of Minneapolis. For Twin Cities families, in-person visits are very accessible, the drive from downtown Saint Paul takes about 30 minutes.",
       },
       {
         question: "Do my accounts carry over if my loved one transfers to another Minnesota facility?",
@@ -2073,7 +2073,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Mount Olive Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Mount Olive Correctional Complex in West Virginia. Find the correct provider for phone calls, messaging, and money transfers at this West Virginia DOC facility.",
+    seoDescription: "How to contact someone at Mount Olive Correctional Complex in West Virginia.",
 
     description:
       "Mount Olive Correctional Complex communication guide. Find JPay messaging and GTL phone options for families at West Virginia's only maximum-security state prison in Fayette County.",
@@ -2119,7 +2119,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm with facility." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to WVDCR content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls via GTL. Fund AdvancePay account to receive calls." },
@@ -2128,7 +2128,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
 
     rules: [
       "JPay and GTL are separate platforms. Messaging stamps and phone funds are not interchangeable.",
-      "Death row inmates may face stricter communication limits — confirm access with the facility.",
+      "Death row inmates may face stricter communication limits, confirm access with the facility.",
       "Messages are reviewed by WVDCR staff before delivery.",
       "WVDCR system-wide accounts carry over if the inmate transfers to another West Virginia facility.",
       "Senders must be on the inmate's approved contact list.",
@@ -2145,7 +2145,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Mount Olive from Charleston?",
-        answer: "Mount Olive Correctional Complex is about 30 miles south of Charleston, West Virginia — roughly a 45-minute drive on US-60. For Charleston-area families, in-person visits are accessible. The facility is also within a few hours of Huntington and Beckley.",
+        answer: "Mount Olive Correctional Complex is about 30 miles south of Charleston, West Virginia, roughly a 45-minute drive on US-60. For Charleston-area families, in-person visits are accessible. The facility is also within a few hours of Huntington and Beckley.",
       },
       {
         question: "Is video visitation available at Mount Olive?",
@@ -2177,8 +2177,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Milwaukee County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "Milwaukee County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Milwaukee County Jail in Wisconsin. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
+    seoTitle: "Milwaukee County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Milwaukee County Jail in Wisconsin.",
 
     description:
       "Milwaukee County Jail communication guide. Find Securus phone, video, and messaging options for families in Milwaukee. Learn how to stay connected at Wisconsin's largest county jail.",
@@ -2207,7 +2207,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "Primary provider for all Milwaukee County Jail communication — phone, video, messaging, and money.",
+        notes: "Primary provider for all Milwaukee County Jail communication, phone, video, messaging, and money.",
       },
     ],
 
@@ -2230,7 +2230,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Milwaukee County Jail?",
-        answer: "All communication services at Milwaukee County Jail — phone, video, messaging, and money — are through Securus. Create an account at securustech.net or through the Securus app. One account covers all services.",
+        answer: "All communication services at Milwaukee County Jail, phone, video, messaging, and money, are through Securus. Create an account at securustech.net or through the Securus app. One account covers all services.",
       },
       {
         question: "Can I do a video visit at Milwaukee County Jail?",

@@ -11,7 +11,7 @@ import PageWrapper from "@/components/layout/PageWrapper"
 import SectionHeading from "@/components/shared/SectionHeading"
 
 export const metadata: Metadata = {
-  title: "Compare Inmate Communication Providers: JPay vs CorrLinks vs ConnectNetwork vs Securus",
+  title: "Compare Inmate Communication Providers",
   description:
     "Compare inmate communication providers side by side. See which provider is best for messaging, phone calls, video visits, and money transfers at federal prisons, state prisons, and county jails.",
   alternates: { canonical: "/compare" },
@@ -67,7 +67,7 @@ export default function ComparePage() {
             <div className="prose prose-sm max-w-none text-muted-foreground">
               <p>
                 Every correctional facility contracts with specific providers for
-                communication services. You cannot choose your preferred provider —
+                communication services. You cannot choose your preferred provider:
                 you must use whichever company the facility has selected. However,
                 understanding how providers compare helps you know what to expect
                 when you find out which one your loved one facility uses.
@@ -220,7 +220,7 @@ export default function ComparePage() {
                 <div className="rounded-lg border p-4">
                   <h3 className="font-medium text-sm">Which inmate communication provider is the best?</h3>
                   <p className="text-sm text-muted-foreground mt-2">
-                    There is no single best provider because you cannot choose — the
+                    There is no single best provider because you cannot choose: the
                     facility decides which provider to use. Among the providers,
                     GettingOut has the best-reviewed mobile app. CorrLinks is the
                     most reliable because it is the only federal option. JPay has

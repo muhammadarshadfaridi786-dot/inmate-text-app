@@ -1,7 +1,7 @@
 import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 5 (25 facilities, Phase 2 expansion)
+// FACILITY DETAILS, Batch 5 (25 facilities, Phase 2 expansion)
 // ─────────────────────────────────────────────
 
 export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
@@ -232,7 +232,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["san-diego-central-jail", "los-angeles-county-mens-central-jail", "twin-towers-correctional-facility"],
+  relatedFacilitySlugs: ["san-diego-central-jail", "los-angeles-county-mens-central-jail"],
 },
 
 "west-valley-detention-center": {
@@ -327,7 +327,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["los-angeles-county-mens-central-jail", "twin-towers-correctional-facility", "san-diego-central-jail"],
+  relatedFacilitySlugs: ["los-angeles-county-mens-central-jail", "san-diego-central-jail"],
 },
 
 "elmwood-correctional-facility": {
@@ -673,7 +673,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["san-diego-central-jail", "twin-towers-correctional-facility", "theo-lacy-facility"],
+  relatedFacilitySlugs: ["san-diego-central-jail", "theo-lacy-facility"],
 },
 
 "pima-county-adult-detention-complex": {
@@ -1843,7 +1843,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "What do I need to set up contact?", answer: "Start with the inmate's booking number. You will need it for phone accounts, commissary deposits, mail, and visitation registration." },
   ],
 
-  relatedFacilitySlugs: ["san-diego-central-jail", "twin-towers-correctional-facility", "theo-lacy-facility"],
+  relatedFacilitySlugs: ["san-diego-central-jail", "theo-lacy-facility"],
 },
 
 }

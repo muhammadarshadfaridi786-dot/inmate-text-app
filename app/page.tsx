@@ -2,7 +2,7 @@ import { Suspense } from "react"
 import dynamic from "next/dynamic"
 import type { Metadata } from "next"
 import JsonLd from "@/components/seo/JsonLd"
-import { buildWebSiteSchema, buildFaqSchema, buildSiteLinksSearchBoxSchema } from "@/lib/schema"
+import { buildWebSiteSchema, buildFaqSchema } from "@/lib/schema"
 import { HOME_FAQS } from "@/lib/data/home-faqs"
 import { DEFAULT_OG_IMAGE } from "@/lib/seo"
 
@@ -56,7 +56,6 @@ export default function HomePage() {
           HOME_FAQS.map((faq) => ({ question: faq.question, answer: faq.plainAnswer }))
         )}
       />
-      <JsonLd schema={buildSiteLinksSearchBoxSchema()} />
 
       {/* Section order: hero → quick links → stats → communication →
           providers → comparisons → facilities → states → counties →

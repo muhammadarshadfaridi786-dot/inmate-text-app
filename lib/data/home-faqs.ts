@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────
-// HOME_FAQS — single source of truth for the homepage FAQ section.
+// HOME_FAQS, single source of truth for the homepage FAQ section.
 //
 // These FAQs are rendered VISIBLY on the homepage (FaqPreview) AND used to
 // build the FAQPage JSON-LD schema in app/page.tsx. Keeping both in one place

@@ -19,7 +19,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Rockingham County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Rockingham County Jail: Securus Phones, Messaging and Video Visits",
+  seoTitle: "Rockingham County Jail: Securus Phones, Messaging and Video",
   seoDescription: "How to contact someone at Rockingham County Jail in Brentwood NH. Securus phone, eMessaging and remote video visitation for this Rockingham County jail.",
 
   description:
@@ -305,8 +305,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Merrimack County",
   securityLevel: "Medium / Minimum",
   hasDetailPage: true,
-  seoTitle: "New Hampshire State Prison for Women: ConnectNetwork Phones and Contact Guide",
-  seoDescription: "How to contact someone at the New Hampshire State Prison for Women in Concord NH. ConnectNetwork phone service, visitation, and contact rules for the only women's prison in NH.",
+  seoTitle: "New Hampshire State Prison for Women: ConnectNetwork Phones",
+  seoDescription: "How to contact someone at the New Hampshire State Prison for Women in Concord NH.",
 
   description:
     "New Hampshire State Prison for Women communication guide. ConnectNetwork phone service, visitation, and contact rules for families of inmates at the only women's prison in New Hampshire.",
@@ -443,7 +443,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Grand Forks County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Grand Forks County Jail: HomeWAV Phone, Messaging and Video Visits",
+  seoTitle: "Grand Forks County Jail: HomeWAV Phone, Messaging and Video",
   seoDescription: "How to contact someone at Grand Forks County Jail in Grand Forks ND. HomeWAV phone, messaging and video visits for this Grand Forks County jail.",
 
   description:
@@ -578,7 +578,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Stutsman County Jail: Video Visits and Contact Guide",
-  seoDescription: "How to contact someone at Stutsman County Jail in Jamestown ND. Video visitation via Turnkey Corrections, phone, and visitation rules for this Stutsman County jail.",
+  seoDescription: "How to contact someone at Stutsman County Jail in Jamestown ND.",
 
   description:
     "Stutsman County Jail communication guide. Video visitation via Turnkey Corrections, phone, and visitation rules for families of inmates at this county jail in Jamestown ND.",
@@ -645,8 +645,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Burleigh County",
   securityLevel: "Minimum",
   hasDetailPage: true,
-  seoTitle: "Missouri River Correctional Center: Phone and Visitation Guide",
-  seoDescription: "How to contact someone at Missouri River Correctional Center in Bismarck ND. Phone, visitation and deposit options for this minimum security ND correctional center.",
+  seoTitle: "Missouri River Correctional Center: Phone and Visitation",
+  seoDescription: "How to contact someone at Missouri River Correctional Center in Bismarck ND.",
 
   description:
     "Missouri River Correctional Center communication guide. Phone, visitation and deposit options for families of inmates at this minimum security correctional center in Bismarck ND.",
@@ -714,7 +714,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Fairbanks North Star Borough",
   securityLevel: "Close",
   hasDetailPage: true,
-  seoTitle: "Fairbanks Correctional Center: Securus Phones and Contact Guide",
+  seoTitle: "Fairbanks Correctional Center: Securus Phones and Contact",
   seoDescription: "How to contact someone at Fairbanks Correctional Center in Fairbanks AK. Securus phone service, visitation, and contact rules for this Alaska DOC facility.",
 
   description:
@@ -785,8 +785,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Juneau Borough",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Lemon Creek Correctional Center: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Lemon Creek Correctional Center in Juneau AK. Securus phone service, visitation, and contact rules for Southeast Alaska's only state correctional facility.",
+  seoTitle: "Lemon Creek Correctional Center: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Lemon Creek Correctional Center in Juneau AK.",
 
   description:
     "Lemon Creek Correctional Center communication guide. Securus phone service, visitation, and contact rules for families of inmates at this Alaska DOC facility in Juneau AK.",
@@ -855,8 +855,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Ketchikan Gateway Borough",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Ketchikan Correctional Center: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Ketchikan Correctional Center in Ketchikan AK. Securus phone service, visitation, and contact rules for this co-gender Alaska DOC facility.",
+  seoTitle: "Ketchikan Correctional Center: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Ketchikan Correctional Center in Ketchikan AK.",
 
   description:
     "Ketchikan Correctional Center communication guide. Securus phone service, visitation, and contact rules for families of inmates at this co-gender Alaska DOC facility in Ketchikan AK.",
@@ -996,7 +996,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Kenai Peninsula Borough",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Wildwood Correctional Complex: Securus Phones and Contact Guide",
+  seoTitle: "Wildwood Correctional Complex: Securus Phones and Contact",
   seoDescription: "How to contact someone at Wildwood Correctional Complex in Kenai AK. Securus phone service, visitation, and contact rules for this Alaska DOC facility.",
 
   description:
@@ -1067,8 +1067,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "New London County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "York Correctional Institution: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at York Correctional Institution in Niantic CT. Securus phone service, visitation, and contact rules for Connecticut's only women's prison.",
+  seoTitle: "York Correctional Institution: Securus Phones and Contact",
+  seoDescription: "How to contact someone at York Correctional Institution in Niantic CT.",
 
   description:
     "York Correctional Institution communication guide. Securus phone service, visitation, and contact rules for families of inmates at Connecticut's only women's prison in Niantic CT.",
@@ -1138,7 +1138,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Fairfield County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Garner Correctional Institution: Securus Phones and Contact Guide",
+  seoTitle: "Garner Correctional Institution: Securus Phones and Contact",
   seoDescription: "How to contact someone at Garner Correctional Institution in Newtown CT. Securus phone service, visitation, and contact rules for this Connecticut prison.",
 
   description:
@@ -1208,8 +1208,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "New London County",
   securityLevel: "Level 3 / 4",
   hasDetailPage: true,
-  seoTitle: "Corrigan-Radgowski Correctional Center: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Corrigan-Radgowski Correctional Center in Uncasville CT. Securus phone service, visitation, and contact rules for this Connecticut prison.",
+  seoTitle: "Corrigan-Radgowski Correctional Center: Securus Phones and",
+  seoDescription: "How to contact someone at Corrigan-Radgowski Correctional Center in Uncasville CT.",
 
   description:
     "Corrigan-Radgowski Correctional Center communication guide. Securus phone service, visitation, and contact rules for families of inmates at this Connecticut prison in Uncasville CT.",
@@ -1278,8 +1278,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Hartford County",
   securityLevel: "Level 4",
   hasDetailPage: true,
-  seoTitle: "Hartford Correctional Center: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Hartford Correctional Center in Hartford CT. Securus phone service, visitation, and contact rules for this Connecticut pretrial facility.",
+  seoTitle: "Hartford Correctional Center: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Hartford Correctional Center in Hartford CT.",
 
   description:
     "Hartford Correctional Center communication guide. Securus phone service, visitation, and contact rules for families of inmates at this Connecticut pretrial facility in Hartford CT.",
@@ -1349,7 +1349,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Tolland County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Osborn Correctional Institution: Securus Phones and Contact Guide",
+  seoTitle: "Osborn Correctional Institution: Securus Phones and Contact",
   seoDescription: "How to contact someone at Osborn Correctional Institution in Somers CT. Securus phone service, visitation, and contact rules for this Connecticut prison.",
 
   description:
@@ -1420,8 +1420,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "New Castle County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Baylor Women's Correctional Institution: GettingOut Messaging and Video Visits",
-  seoDescription: "How to contact someone at Baylor Women's Correctional Institution in New Castle DE. GettingOut tablet messaging and video visitation for Delaware's only women's prison.",
+  seoTitle: "Baylor Women's Correctional Institution: GettingOut",
+  seoDescription: "How to contact someone at Baylor Women's Correctional Institution in New Castle DE.",
 
   description:
     "Baylor Women's Correctional Institution communication guide. GettingOut tablet messaging and video visitation for families of inmates at Delaware's only women's prison in New Castle DE.",
@@ -1491,7 +1491,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Franklin County",
   securityLevel: "Medium / Multi-Level",
   hasDetailPage: true,
-  seoTitle: "Northwest State Correctional Facility: ICSolutions Phone, Messaging and Video Visits",
+  seoTitle: "Northwest State Correctional Facility: ICSolutions Phone",
   seoDescription: "How to contact someone at Northwest State Correctional Facility in Swanton VT. ICSolutions phone, messaging and video visits for this Vermont men's prison.",
 
   description:
@@ -1558,8 +1558,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Rutland County",
   securityLevel: "Multi-Custody",
   hasDetailPage: true,
-  seoTitle: "Marble Valley Regional Correctional Facility: ICSolutions Phone, Messaging and Video Visits",
-  seoDescription: "How to contact someone at Marble Valley Regional Correctional Facility in Rutland VT. ICSolutions phone, messaging and video visits for this Vermont correctional facility.",
+  seoTitle: "Marble Valley Regional Correctional Facility: ICSolutions",
+  seoDescription: "How to contact someone at Marble Valley Regional Correctional Facility in Rutland VT.",
 
   description:
     "Marble Valley Regional Correctional Facility communication guide. ICSolutions phone, messaging and video visits for families of inmates at this Vermont correctional facility in Rutland VT.",
@@ -1625,7 +1625,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Gallatin County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Gallatin County Detention Center: GettingOut Messaging and Video Visits",
+  seoTitle: "Gallatin County Detention Center: GettingOut Messaging and",
   seoDescription: "How to contact someone at Gallatin County Detention Center in Bozeman MT. GettingOut messaging, video visitation, and voice messaging for this Montana jail.",
 
   description:
@@ -1693,7 +1693,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Missoula County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Missoula County Detention Center: Smart Communications Phones and Video Visits",
+  seoTitle: "Missoula County Detention Center: Smart Communications",
   seoDescription: "How to contact someone at Missoula County Detention Center in Missoula MT. Smart Communications telecom and video visits for this Montana detention facility.",
 
   description:

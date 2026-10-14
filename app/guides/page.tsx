@@ -8,7 +8,7 @@ import SectionHeading from "@/components/shared/SectionHeading"
 import GuidesDirectory from "@/components/guides/GuidesDirectory"
 
 export const metadata: Metadata = {
-  title: "Prison Communication Guides: How to Message, Call, Visit and Send Money to an Inmate",
+  title: "Prison Communication Guides: Messaging, Calls and Visits",
   description:
     "Free step-by-step guides covering every aspect of inmate communication. Learn how JPay, CorrLinks, and ConnectNetwork work, how to set up phone calls, schedule video visits, send money, and navigate the prison communication system.",
   alternates: { canonical: "/guides" },

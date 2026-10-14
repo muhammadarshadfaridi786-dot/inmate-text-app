@@ -3,6 +3,7 @@ import Link from "next/link"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
 import JsonLd from "@/components/seo/JsonLd"
+import { buildBreadcrumbSchema } from "@/lib/schema"
 
 export const metadata: Metadata = {
   title: "JPay App Download: iOS and Android Guide for Inmates and Families",
@@ -99,6 +100,7 @@ export default function JPayAppPage() {
     <>
       <JsonLd schema={appSchema} />
       <JsonLd schema={faqSchema} />
+      <JsonLd schema={buildBreadcrumbSchema(breadcrumbItems)} />
 
       <section className="border-b bg-gradient-to-b from-primary/5 to-background py-10">
         <PageWrapper>

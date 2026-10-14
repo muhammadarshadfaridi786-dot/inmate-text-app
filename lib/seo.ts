@@ -15,7 +15,7 @@ export const defaultMetadata: Metadata = {
     template: `%s`,
   },
   description:
-    "Find inmate messaging, video visitation, and communication options at prisons across the United States. Compare providers, discover facilities, and learn how prison communication works.",
+    "Find inmate messaging, video visitation, and communication options at US prisons and jails. Compare providers and learn how prison communication works.",
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
@@ -42,8 +42,8 @@ export function generateStateMetadata(state: {
   seoTitle?: string
   seoDescription?: string
 }): Metadata {
-  const title = state.seoTitle ?? `${state.name} Prison Communication Guide: Messaging, Phone and Video Options`
-  const description = state.seoDescription ?? `Find messaging, phone calls, video visits, and money transfer options for correctional facilities in ${state.name}. Compare providers and discover which services are available at prisons and jails across ${state.name}.`
+  const title = state.seoTitle ?? `${state.name} Prison Communication Guide`
+  const description = state.seoDescription ?? `Find messaging, phone calls, video visits, and money transfer options for correctional facilities in ${state.name}. Compare providers and discover which services are available.`
   return {
     title,
     description,
@@ -63,9 +63,10 @@ export function generateCountyMetadata(county: {
   name: string
   slug: string
   seoTitle?: string
+  description?: string
 }): Metadata {
-  const title = county.seoTitle ?? `${county.name} Jail Communication Guide: Find the Right Provider`
-  const description = `${county.name} jail and prison communication guide. Find messaging, video visitation, and phone options for ${county.name} correctional facilities.`
+  const title = county.seoTitle ?? `${county.name} Jail Communication Guide`
+  const description = county.description ?? `${county.name} jail and prison communication guide. Find messaging, video visitation, and phone options for ${county.name} correctional facilities.`
   return {
     title,
     description,
@@ -88,8 +89,7 @@ export function generateFacilityMetadata(facility: {
   seoDescription?: string
 }): Metadata {
   const title =
-    facility.seoTitle ??
-    `${facility.name}: Messaging, Video and Communication Options`
+    facility.seoTitle ?? `${facility.name}: Communication Guide`
   const description =
     facility.seoDescription ??
     `${facility.name} communication guide. Find messaging, video visitation, phone calls, and photo sharing options. Compare available providers.`
@@ -148,7 +148,7 @@ export function generateCompareMetadata(
   overrides?: { seoTitle?: string; seoDescription?: string }
 ): Metadata {
   const title =
-    overrides?.seoTitle ?? `${nameA} vs ${nameB}: Compare Features, Cost and Coverage`
+    overrides?.seoTitle ?? `${nameA} vs ${nameB}: Features, Cost and Coverage`
   const description =
     overrides?.seoDescription ??
     `${nameA} vs ${nameB}: compare features, pricing, availability, and apps to find the best inmate communication service.`
@@ -176,7 +176,9 @@ export function generateGlossaryMetadata(term: {
   seoDescription?: string
 }): Metadata {
   const title = term.seoTitle ?? `What Is ${term.term}? Definition and Guide`
-  const description = term.seoDescription ?? term.definition.slice(0, 160)
+  const fallback = term.definition.slice(0, 160)
+  const cutAt = fallback.lastIndexOf(" ")
+  const description = term.seoDescription ?? (cutAt > 100 ? fallback.slice(0, cutAt) : fallback)
   return {
     title,
     description,

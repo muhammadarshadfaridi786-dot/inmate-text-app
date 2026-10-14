@@ -1583,7 +1583,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
-  relatedFacilitySlugs: ["sci-phoenix", "state-correctional-institution-dallas", "state-correctional-institution-phoenix"],
+  relatedFacilitySlugs: ["sci-phoenix", "state-correctional-institution-dallas"],
 },
 
 "pontiac-correctional-center": {

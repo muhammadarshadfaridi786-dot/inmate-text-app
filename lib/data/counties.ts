@@ -263,7 +263,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
     featuredFacilities: [
       {
         name: "Men's Central Jail",
-        slug: "mens-central-jail-los-angeles",
+        slug: "los-angeles-county-mens-central-jail",
         type: "County Jail",
         county: "Los Angeles County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
@@ -401,7 +401,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       },
       {
         name: "FDC Houston",
-        slug: "fdc-houston",
+        slug: "federal-detention-center-houston",
         type: "Federal Prison",
         county: "Harris County",
         features: ["Messaging (CorrLinks)", "Phone Calls"],
@@ -640,7 +640,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       },
       {
         name: "Metropolitan Detention Center Brooklyn",
-        slug: "metropolitan-detention-center-brooklyn",
+        slug: "mdc-brooklyn",
         type: "Federal Prison",
         county: "Kings County",
         features: ["Messaging (CorrLinks)", "Phone Calls"],

@@ -2271,7 +2271,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Does the same JPay account work if someone transfers to a different Pennsylvania prison?", answer: "Yes. JPay and Securus are used across the Pennsylvania DOC system, so the same accounts generally continue to work after a transfer to another state facility. Confirm the new facility name in your account before sending funds or messages." },
   ],
 
-  relatedFacilitySlugs: ["state-correctional-institution-phoenix", "attica-correctional-facility", "fci-danbury"],
+  relatedFacilitySlugs: ["sci-phoenix", "attica-correctional-facility", "fci-danbury"],
 },
 
 "tecumseh-state-correctional-institution": {

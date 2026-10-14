@@ -1258,7 +1258,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     ],
 
     address: "1300 Western Boulevard, Raleigh, NC 27606",
-    phone: "(919) 838-4000",
+    phone: "(919) 733-0800",
     website: "https://www.dac.nc.gov",
     inmateCapacity: 1000,
     established: 1884,

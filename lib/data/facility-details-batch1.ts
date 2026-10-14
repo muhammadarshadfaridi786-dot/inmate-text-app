@@ -1531,13 +1531,12 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       "Federal Correctional Complex Butner communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this North Carolina complex.",
 
     overview: [
-      "Federal Correctional Complex Butner is a multi-institution federal prison campus located in Granville County, North Carolina, about 20 miles north of Durham. The complex includes several separate institutions operating at different security levels — FCI Butner Low, FCI Butner Medium I, FCI Butner Medium II, and FCI Butner High — as well as a Federal Medical Center that provides specialized healthcare for federal inmates with serious medical or mental health needs. The medical center component gives FCC Butner a distinct character among federal complexes. Families should confirm which specific institution their loved one is housed in, as each operates somewhat independently within the broader complex.",
+      "Federal Correctional Complex Butner is a multi-institution federal prison campus located in Granville County, North Carolina, about 20 miles north of Durham. The complex includes several separate institutions operating at different security levels: FCI Butner Low, FCI Butner Medium I, FCI Butner Medium II, and FCI Butner High, as well as a Federal Medical Center that provides specialized healthcare for federal inmates with serious medical or mental health needs. The medical center component gives FCC Butner a distinct character among federal complexes. Families should confirm which specific institution their loved one is housed in, as each operates somewhat independently within the broader complex. The complex does not publish a single complex-wide phone number. Each institution has its own number, so confirm the specific institution before calling.",
       "Communication across all FCC Butner institutions follows standard Bureau of Prisons rules. CorrLinks handles electronic messaging through the TRULINCS system. Families need to create a CorrLinks account and wait for the inmate to initiate or approve contact before correspondence can begin. Phone calls are managed through ConnectNetwork, the BOP's calling platform — families fund a prepaid account linked to their phone number to receive inmate-initiated calls. Neither service requires a separate account setup per institution within the complex, so if an inmate is transferred between Butner institutions, existing accounts should remain usable.",
       "The medical center at FCC Butner can affect communication in ways that differ from standard penitentiaries. Inmates housed in the medical center may have communication schedules or access that differs from those in the general-population institutions depending on their treatment program or housing assignment. Families whose loved one is in the FMC component should confirm current access levels with BOP staff before expecting the standard communication schedule. For inmates in the low, medium, or high security institutions, communication access broadly follows standard BOP rules, and the process for setting up CorrLinks and ConnectNetwork is the same as at any other federal facility.",
     ],
 
     address: "Old NC 75, Butner, NC 27509",
-    phone: "(919) 575-4541",
     website: "https://www.bop.gov/locations/institutions/but/",
     rosterUrl: "https://www.bop.gov/inmateloc/",
     inmateCapacity: 4000,
@@ -1663,8 +1662,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       "One important note for families: if your loved one is housed at the satellite camp rather than the main FCI, confirm this distinction when setting up accounts, as the two share the same BOP facility code but may have slightly different day-to-day schedules. Neither the FCI nor the camp offers remote video visitation — in-person visits remain the standard visit format for BOP facilities. The visitor approval process requires submitting a BP-629 application and passing a background review, which can take several weeks, so starting that process early is worthwhile for anyone planning an in-person visit.",
     ],
 
-    address: "33 1/2 Pemberton Road, Danbury, CT 06811",
-    phone: "(203) 312-5100",
+    address: "33 1/2 Pembroke Road, Danbury, CT 06811",
+    phone: "(203) 743-6471",
     website: "https://www.bop.gov/locations/institutions/dan/",
     mailingAddress: "INMATE NAME and REGISTER NUMBER, FCI Danbury, FEDERAL CORRECTIONAL INSTITUTION, ROUTE 37, DANBURY, CT 06811",
     rosterUrl: "https://www.bop.gov/inmateloc/",

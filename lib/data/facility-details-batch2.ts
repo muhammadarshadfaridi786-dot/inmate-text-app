@@ -21,16 +21,16 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Tattnall County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Georgia State Prison: Securus Phone, JPay Messaging and Money",
-    seoDescription: "How to contact someone at Georgia State Prison in Reidsville. Securus Technologies handles phone calls. JPay for messaging, video visits, and money transfers. GDC number required.",
+    seoTitle: "Georgia State Prison (Closed 2022): What Families Need to Know",
+    seoDescription: "Georgia State Prison in Reidsville closed on February 19, 2022. Learn where inmates were transferred and how to find current housing through the GDC offender search.",
 
     description:
-      "Georgia State Prison communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security facility in Reidsville, Georgia.",
+      "Georgia State Prison closed on February 19, 2022. This page explains the closure and how to find where an inmate was transferred through the GDC offender search.",
 
     overview: [
-      "Georgia State Prison is a maximum-security correctional facility operated by the Georgia Department of Corrections, located in Reidsville in Tattnall County in the southeastern part of the state, roughly 65 miles west of Savannah. Founded in 1937, it is one of the oldest state prisons in Georgia and has housed some of the state's most serious offenders throughout its history. The facility sits in a largely rural area and has been the subject of significant attention over the years due to its conditions and population management. Today it functions as a maximum-security institution within the Georgia DOC system.",
-      "Communication at Georgia State Prison follows the statewide Georgia Department of Corrections provider contracts. JPay is the primary platform for electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Georgia DOC number to begin correspondence. GTL manages phone calls and video visitation under the GDC statewide contract. The standard two-platform approach applies here as it does across the Georgia state system: JPay for messaging and money, GTL for phone and video, with each requiring a separate account and separate funding.",
-      "For families in the Savannah area, Georgia State Prison is a reasonable drive west. For those in Atlanta or other parts of the state, the facility is more distant. Many families rely on JPay messaging and GTL video visits for regular contact rather than making the full trip to Tattnall County. Because JPay and GTL serve all Georgia DOC facilities statewide, accounts created for Georgia State Prison carry over automatically if an inmate is transferred to another Georgia facility. Use the GDC offender search at gdc.ga.gov to confirm current housing location before setting up or funding any account.",
+      "Georgia State Prison closed on February 19, 2022, and no longer houses inmates. It was a maximum-security correctional facility operated by the Georgia Department of Corrections, located in Reidsville in Tattnall County in the southeastern part of the state, roughly 65 miles west of Savannah. Founded in 1937, it was one of the oldest state prisons in Georgia and housed some of the state's most serious offenders throughout its history.",
+      "Before closure, communication at Georgia State Prison followed the statewide Georgia Department of Corrections provider contracts: JPay for electronic messaging, photo sharing, and money transfers, and GTL for phone calls and video visitation. Those accounts no longer apply to this facility. Inmates were transferred to other Georgia facilities when the prison closed. Use the GDC offender search to confirm a person's current housing location before setting up or funding any account.",
+      "Do not send mail, money, or visit requests to the old Georgia State Prison address. Use the GDC offender search at gdc.ga.gov to confirm current housing location, then follow the communication setup for the facility where the person is now housed. Because JPay and GTL serve all Georgia DOC facilities statewide, existing JPay and GTL accounts generally carry over to the new facility.",
     ],
 
     address: "100 Georgia State Prison Road, Reidsville, GA 30453",

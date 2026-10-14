@@ -5158,8 +5158,8 @@ export const ALL_FACILITIES: FacilityBasic[] = [
   },
   {
     id: "f-392",
-    name: "USP Atlanta",
-    slug: "usp-atlanta",
+    name: "FCI Atlanta",
+    slug: "fci-atlanta",
     type: "federal",
     stateSlug: "georgia",
     stateName: "Georgia",
@@ -5171,8 +5171,8 @@ export const ALL_FACILITIES: FacilityBasic[] = [
   },
   {
     id: "f-393",
-    name: "USP Lewisburg",
-    slug: "usp-lewisburg",
+    name: "FCI Lewisburg",
+    slug: "fci-lewisburg",
     type: "federal",
     stateSlug: "pennsylvania",
     stateName: "Pennsylvania",

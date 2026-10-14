@@ -1035,7 +1035,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "What security level is Macon State Prison?", answer: "Macon State Prison operates at close security, a very high security level. It houses inmates deemed to have the highest potential security risks and is a Tier I and Tier II facility." },
   ],
 
-  relatedFacilitySlugs: ["usp-atlanta", "fci-seagoville", "federal-detention-center-houston"],
+  relatedFacilitySlugs: ["fci-atlanta", "fci-seagoville", "federal-detention-center-houston"],
 },
 
 "fci-elkton": {
@@ -1370,31 +1370,31 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   relatedGuideSlugs: ["how-corrlinks-works", "corrlinks-invite-code-not-working"],
 },
 
-"usp-atlanta": {
+"fci-atlanta": {
   id: "f-392",
-  name: "USP Atlanta",
-  slug: "usp-atlanta",
+  name: "FCI Atlanta",
+  slug: "fci-atlanta",
   type: "federal",
   stateSlug: "georgia",
   stateName: "Georgia",
   stateAbbr: "GA",
   countySlug: null,
   countyName: "Fulton County",
-  securityLevel: "Medium",
+  securityLevel: "Low",
   hasDetailPage: true,
-  seoTitle: "USP Atlanta: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at USP Atlanta in Georgia. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this medium security federal prison.",
+  seoTitle: "FCI Atlanta: CorrLinks Messaging and Phone Guide for Families",
+  seoDescription: "How to contact someone at FCI Atlanta in Georgia. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this low security federal prison.",
 
   description:
-    "USP Atlanta communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this medium security federal prison in Atlanta GA.",
+    "FCI Atlanta communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this low security federal prison in Atlanta GA.",
 
   overview: [
-    "USP Atlanta is a medium security federal prison for men in Atlanta, Georgia, operated by the Federal Bureau of Prisons. It opened in January 1902 and was formerly a high security United States Penitentiary before being downgraded to medium security and renamed FCI Atlanta in 2024. It includes a detention center for pretrial and holdover inmates plus a minimum security satellite camp.",
-    "Electronic messaging at USP Atlanta runs through CorrLinks, the BOP's TRULINCS system. The inmate must add you to their approved contact list before any messaging can begin. Phone calls run through the BOP phone system funded through the inmate's trust account, and money for the trust fund can be sent through approved BOP deposit methods.",
+    "FCI Atlanta is a low security federal prison for men in Atlanta, Georgia, operated by the Federal Bureau of Prisons. It opened in January 1902 and was formerly a high security United States Penitentiary before being downgraded to low security and renamed FCI Atlanta in 2024. It includes a detention center for pretrial and holdover inmates plus a minimum security satellite camp.",
+    "Electronic messaging at FCI Atlanta runs through CorrLinks, the BOP's TRULINCS system. The inmate must add you to their approved contact list before any messaging can begin. Phone calls run through the BOP phone system funded through the inmate's trust account, and money for the trust fund can be sent through approved BOP deposit methods.",
     "In-person visiting follows BOP rules. Visitors must be approved and on the inmate's visiting list, and must bring valid photo identification. All calls and messages are monitored. The BOP does not offer general remote video visitation at most facilities, so plan in-person visits ahead.",
   ],
 
-  website: "http://www.bop.gov/locations/institutions/atl/",
+  website: "https://www.bop.gov/locations/institutions/atl/",
   established: 1902,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -1442,21 +1442,21 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I message an inmate at USP Atlanta?", answer: "Use CorrLinks, the BOP electronic messaging system. The inmate must add you to their approved contact list before messaging can begin. Create a CorrLinks account and wait for the inmate's approval." },
-    { question: "Is USP Atlanta now called FCI Atlanta?", answer: "Yes. The facility was formerly a high security United States Penitentiary. It was downgraded to medium security and renamed FCI Atlanta in 2024. Many people still know it as USP Atlanta." },
-    { question: "Can I video visit an inmate at USP Atlanta?", answer: "The BOP does not offer general remote video visitation at most facilities, including USP Atlanta. Plan in-person visits instead." },
-    { question: "How do phone calls work at USP Atlanta?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
-    { question: "How do I add money to an inmate's trust fund at USP Atlanta?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
+    { question: "How do I message an inmate at FCI Atlanta?", answer: "Use CorrLinks, the BOP electronic messaging system. The inmate must add you to their approved contact list before messaging can begin. Create a CorrLinks account and wait for the inmate's approval." },
+    { question: "Was FCI Atlanta formerly called USP Atlanta?", answer: "Yes. The facility was formerly a high security United States Penitentiary known as USP Atlanta. It was downgraded to low security and renamed FCI Atlanta in 2024. Many people still know it by the old name." },
+    { question: "Can I video visit an inmate at FCI Atlanta?", answer: "The BOP does not offer general remote video visitation at most facilities, including FCI Atlanta. Plan in-person visits instead." },
+    { question: "How do phone calls work at FCI Atlanta?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
+    { question: "How do I add money to an inmate's trust fund at FCI Atlanta?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
   ],
 
-  relatedFacilitySlugs: ["fci-seagoville", "usp-lewisburg", "fdc-philadelphia"],
+  relatedFacilitySlugs: ["fci-seagoville", "fci-lewisburg", "fdc-philadelphia"],
   relatedGuideSlugs: ["how-corrlinks-works", "corrlinks-invite-code-not-working"],
 },
 
-"usp-lewisburg": {
+"fci-lewisburg": {
   id: "f-393",
-  name: "USP Lewisburg",
-  slug: "usp-lewisburg",
+  name: "FCI Lewisburg",
+  slug: "fci-lewisburg",
   type: "federal",
   stateSlug: "pennsylvania",
   stateName: "Pennsylvania",
@@ -1465,15 +1465,15 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Union County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "USP Lewisburg: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at USP Lewisburg in Pennsylvania. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this medium security federal prison.",
+  seoTitle: "FCI Lewisburg: CorrLinks Messaging and Phone Guide for Families",
+  seoDescription: "How to contact someone at FCI Lewisburg in Pennsylvania. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this medium security federal prison.",
 
   description:
-    "USP Lewisburg communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this medium security federal prison in Lewisburg PA.",
+    "FCI Lewisburg communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this medium security federal prison in Lewisburg PA.",
 
   overview: [
-    "USP Lewisburg is a medium security federal prison for men in Lewisburg, Pennsylvania, operated by the Federal Bureau of Prisons. It opened in 1932 as the Northeastern Penitentiary and was formerly a high security United States Penitentiary before being renamed FCI Lewisburg in 2024. It includes a minimum security satellite camp.",
-    "Electronic messaging at USP Lewisburg runs through CorrLinks, the BOP's TRULINCS system. The inmate must add you to their approved contact list before any messaging can begin. Phone calls run through the BOP phone system funded through the inmate's trust account, and money for the trust fund can be sent through approved BOP deposit methods.",
+    "FCI Lewisburg is a medium security federal prison for men in Lewisburg, Pennsylvania, operated by the Federal Bureau of Prisons. It opened in 1932 as the Northeastern Penitentiary and was formerly a high security United States Penitentiary before being renamed FCI Lewisburg in 2024. It includes a minimum security satellite camp.",
+    "Electronic messaging at FCI Lewisburg runs through CorrLinks, the BOP's TRULINCS system. The inmate must add you to their approved contact list before any messaging can begin. Phone calls run through the BOP phone system funded through the inmate's trust account, and money for the trust fund can be sent through approved BOP deposit methods.",
     "In-person visiting follows BOP rules. Visitors must be approved and on the inmate's visiting list, and must bring valid photo identification. All calls and messages are monitored. The BOP does not offer general remote video visitation at most facilities, so plan in-person visits ahead.",
   ],
 
@@ -1525,14 +1525,14 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I message an inmate at USP Lewisburg?", answer: "Use CorrLinks, the BOP electronic messaging system. The inmate must add you to their approved contact list before messaging can begin. Create a CorrLinks account and wait for the inmate's approval." },
-    { question: "Is USP Lewisburg now called FCI Lewisburg?", answer: "Yes. The facility was formerly a high security United States Penitentiary. It was renamed FCI Lewisburg in 2024. Many people still know it as USP Lewisburg." },
-    { question: "Can I video visit an inmate at USP Lewisburg?", answer: "The BOP does not offer general remote video visitation at most facilities, including USP Lewisburg. Plan in-person visits instead." },
-    { question: "How do phone calls work at USP Lewisburg?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
-    { question: "How do I add money to an inmate's trust fund at USP Lewisburg?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
+    { question: "How do I message an inmate at FCI Lewisburg?", answer: "Use CorrLinks, the BOP electronic messaging system. The inmate must add you to their approved contact list before messaging can begin. Create a CorrLinks account and wait for the inmate's approval." },
+    { question: "Was FCI Lewisburg formerly called USP Lewisburg?", answer: "Yes. The facility was formerly a high security United States Penitentiary known as USP Lewisburg. It was renamed FCI Lewisburg in 2024. Many people still know it by the old name." },
+    { question: "Can I video visit an inmate at FCI Lewisburg?", answer: "The BOP does not offer general remote video visitation at most facilities, including FCI Lewisburg. Plan in-person visits instead." },
+    { question: "How do phone calls work at FCI Lewisburg?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
+    { question: "How do I add money to an inmate's trust fund at FCI Lewisburg?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
   ],
 
-  relatedFacilitySlugs: ["fci-seagoville", "usp-atlanta", "fdc-philadelphia"],
+  relatedFacilitySlugs: ["fci-seagoville", "fci-atlanta", "fdc-philadelphia"],
   relatedGuideSlugs: ["how-corrlinks-works", "corrlinks-invite-code-not-working"],
 },
 
@@ -1697,7 +1697,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I add money to an inmate's trust fund at FDC Philadelphia?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
   ],
 
-  relatedFacilitySlugs: ["usp-lewisburg", "fci-seagoville", "mcc-chicago"],
+  relatedFacilitySlugs: ["fci-lewisburg", "fci-seagoville", "mcc-chicago"],
   relatedGuideSlugs: ["how-corrlinks-works", "corrlinks-invite-code-not-working"],
 },
 

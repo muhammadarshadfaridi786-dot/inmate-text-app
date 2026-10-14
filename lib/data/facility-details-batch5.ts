@@ -209,6 +209,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can an inmate text me from the Robert Presley Detention Center?", answer: "No. Inmates cannot text from the facility phones. Messaging availability through kiosks or tablets is not confirmed, so check the Riverside County Sheriff's corrections pages for current options." },
     { question: "How much do calls cost?", answer: "Rates are subject to change and are published by Securus. AdvanceConnect and inmate debit calls have been listed around $0.21 per minute, but confirm current rates when you enroll." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the county's communication pages. Check the Riverside County Sheriff's corrections pages or the commissary information for the current approved deposit method." },
+      {
+        question: "How do I find or search for an inmate at Robert Presley Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Riverside County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Robert Presley Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Robert Presley Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Robert Presley Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Robert Presley Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-diego-central-jail", "los-angeles-county-mens-central-jail", "twin-towers-correctional-facility"],
@@ -238,6 +259,12 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Deposits for inmate accounts can be made online through ConnectNetwork or JailATM, at the lobby kiosk, or by mail with a money order. Because visitation is conducted largely through video, schedule appointments through the GTL VisitMe website and confirm the schedule with the facility, since hours vary by housing unit and classification.",
   ],
 
+  address: "9500 Etiwanda Ave, Rancho Cucamonga, CA 91739",
+  phone: "909-708-8371",
+  mailingAddress: "Inmate name, booking number, West Valley Detention Center, 9500 Etiwanda Ave, Rancho Cucamonga, CA 91739. Mail must include sender name, return address, inmate name, booking number, facility address on plain envelope",
+  rosterUrl: "https://wp.sbcounty.gov/sheriff/corrections/inmate-locator/",
+  commissary: "Inmates order hygiene, snacks, small items via commissary paid from inmate account. Family can order via iCare. Deposits via lobby kiosk 24/7, cash/credit/debit, no personal checks or money orders",
+  bailInfo: "Bail bond or cash bail accepted 24 hours a day at any jail facility. Department accepts cash, checks, money orders, property bonds, bail bonds. Bail info call (909) 350-2476",
   operatedBy: "San Bernardino County Sheriff's Department",
 
   providers: [
@@ -277,6 +304,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "How do I send money to an inmate at West Valley Detention Center?", answer: "Deposits can be made online through ConnectNetwork or JailATM, at the kiosk in the facility lobby, by phone, or by mailing a money order with the inmate's name and booking number." },
     { question: "Can I call an inmate at West Valley Detention Center?", answer: "No. Inmates cannot receive incoming calls. They can make outgoing collect or prepaid calls, and they get one free outgoing call at booking." },
     { question: "Can inmates message me from West Valley Detention Center?", answer: "Electronic messaging is not confirmed for this facility. Phone calls, video visits, and mail are the established contact options. Check the Sheriff's corrections page for updates." },
+      {
+        question: "How do I find or search for an inmate at West Valley Detention Center?",
+        answer: "Use the official inmate search at https://wp.sbcounty.gov/sheriff/corrections/inmate-locator/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at West Valley Detention Center?",
+        answer: "Address mail as follows: Inmate name, booking number, West Valley Detention Center, 9500 Etiwanda Ave, Rancho Cucamonga, CA 91739. Mail must include sender name, return address, inmate name, booking number, facility address on plain envelope. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at West Valley Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at West Valley Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at West Valley Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["los-angeles-county-mens-central-jail", "twin-towers-correctional-facility", "san-diego-central-jail"],
@@ -308,6 +356,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
 
   address: "701 S. Abel St, Milpitas, CA",
   phone: "(408) 808-4400",
+    mailingAddress: "Inmate name, PFN/booking number, Elmwood Complex, 701 South Abel Street, Milpitas, CA 95035. Commissary mail: Inmate Services, 701 S. Abel Street, Milpitas, CA 95035",
+    visitingHours: "M2, M3, M4, M5, M8, w2d, w2e, w2f: Mon-Thu 7:00 p.m. to 10:30 p.m. slots, Fri 8:00 p.m. to 10:30 p.m. Minimum camp: Sat-Sun 8:00 a.m. to 10:30 a.m. and 8:00 p.m. to 10:30 p.m. Up to two 30-minute visits per week, one per day",
+    commissary: "Order via iCare www.icaregifts.com. Cashier check/money order payable to Santa Clara County Department of Correction, include inmate name plus PFN and sender contact, mail to Inmate Services address above",
   operatedBy: "Santa Clara County Sheriff's Office",
 
   providers: [
@@ -347,6 +398,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Are Elmwood calls and video visits recorded?", answer: "Yes. The Sheriff's tablet monitoring policy states that all tablet activity, including voice and video calls, is managed, monitored, and recorded for safety and security." },
     { question: "Can I message an inmate at Elmwood?", answer: "Electronic messaging is not confirmed for Elmwood. The confirmed remote contact options are voice and video calls through the GTL/ViaPath tablets. Check the Sheriff's custody pages for updates." },
     { question: "How do I send money to an inmate at Elmwood?", answer: "Deposit options are not published on the Sheriff's communication pages. Check the Santa Clara County Sheriff's custody pages for the current approved deposit method." },
+      {
+        question: "How do I find or search for an inmate at Elmwood Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Santa Clara County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Elmwood Correctional Facility?",
+        answer: "Address mail as follows: Inmate name, PFN/booking number, Elmwood Complex, 701 South Abel Street, Milpitas, CA 95035. Commissary mail: Inmate Services, 701 S. Abel Street, Milpitas, CA 95035. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Elmwood Correctional Facility?",
+        answer: "M2, M3, M4, M5, M8, w2d, w2e, w2f: Mon-Thu 7:00 p.m. to 10:30 p.m. slots, Fri 8:00 p.m. to 10:30 p.m. Minimum camp: Sat-Sun 8:00 a.m. to 10:30 a.m. and 8:00 p.m. to 10:30 p.m. Up to two 30-minute visits per week, one per day",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Elmwood Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Elmwood Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-diego-central-jail", "theo-lacy-facility", "james-a-musick-facility"],
@@ -448,6 +520,8 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
 
   address: "1225 \"M\" Street, Fresno, CA 93721",
   phone: "(559) 475-9491",
+    mailingAddress: "Incarcerated person Name, Booking Number / Jail Identification Number (JID), Fresno County Jail - 1900, PO Box 96777, Las Vegas, NV 89193. Effective Sep 15, 2025, non-privileged mail to Pigeonly processing center",
+    commissary: "Deposit via TouchPay kiosks in Jail Lobbies, online www.touchpaydirect.com, phone 866-232-1899",
   operatedBy: "Fresno County Sheriff's Office",
 
   providers: [
@@ -487,6 +561,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "When can inmates make phone calls?", answer: "After booking, inmates assigned to housing units generally have phone access from 8:00 am to 9:45 pm, except during searches, emergencies, lockdowns, or disciplinary restrictions. All calls are recorded and monitored." },
     { question: "Can I message an inmate at Fresno County Jail?", answer: "Electronic messaging is not confirmed on the Sheriff's jail pages. Phone calls and mail are the established contact options." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the Sheriff's telephone pages. Check the Fresno County Sheriff's jail pages for the current approved commissary deposit method." },
+      {
+        question: "How do I find or search for an inmate at Fresno County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Fresno County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Fresno County Jail?",
+        answer: "Address mail as follows: Incarcerated person Name, Booking Number / Jail Identification Number (JID), Fresno County Jail - 1900, PO Box 96777, Las Vegas, NV 89193. Effective Sep 15, 2025, non-privileged mail to Pigeonly processing center. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Fresno County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Fresno County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Fresno County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-diego-central-jail", "corcoran-state-prison", "rj-donovan-correctional-facility"],
@@ -555,6 +650,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I video visit someone in San Francisco County Jail?", answer: "Free video calls are included under the city's GTL contract. Check the Sheriff's pages for the current scheduling process." },
     { question: "Can I message an inmate?", answer: "Two-way electronic messaging is not confirmed. The Sheriff's Office has pursued a free tablet program, but check the current Sheriff's pages for what messaging is actually available." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the Sheriff's communication pages. Check the San Francisco Sheriff's pages for the current approved deposit method." },
+      {
+        question: "How do I find or search for an inmate at San Francisco County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for San Francisco County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at San Francisco County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at San Francisco County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at San Francisco County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at San Francisco County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-diego-central-jail", "twin-towers-correctional-facility", "theo-lacy-facility"],
@@ -1021,6 +1137,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes. Tablet-based messaging is available through GettingOut. Fund the account at gettingout.com." },
     { question: "How do I send money to an inmate?", answer: "Deposit online through ConnectNetwork or gettingout.com, through the mobile apps, at the lobby kiosk, or by toll-free phone. You will need the offender's name, ID number, and date of birth. Fees apply." },
     { question: "Why are there different accounts?", answer: "The county separates AdvancePay (calls to your number), PIN debit (the inmate's own calling and tablet use), and GettingOut video visitation into different accounts. Fund each one for the service you want to use." },
+      {
+        question: "How do I find or search for an inmate at Arapahoe County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Arapahoe County, Colorado. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Arapahoe County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Arapahoe County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Arapahoe County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Arapahoe County Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["denver-county-jail", "laramie-county-detention-center", "douglas-county-department-of-corrections"],
@@ -1257,6 +1394,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   phone: "(503) 846-2600",
+    visitingHours: "Social and video visiting Mon to Sun 7:15 am to 10:45 am and 1:45 pm to 5 pm, holidays same. Hours updated 12/3/2025 on official page",
+    callRates: "Video visit 30-minute call is $7.50, charged to scheduler. Phone call rates not stated, Viapath prepaid or collect",
+    commissary: "Deposit money via Viapath kiosks in jail lobby or online at gettingout.com. AICs can buy prepaid phone time with commissary funds",
+    notToConfuseWith: "Not to be confused with Washington County Detention Center in Fayetteville, Arkansas.",
   operatedBy: "Washington County Sheriff's Office",
 
   providers: [
@@ -1296,6 +1437,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I call an inmate at the jail?", answer: "No. Adults in custody cannot receive telephone calls, and jail staff cannot relay messages. They call you through the ViaPath phone system." },
     { question: "What are the contact visiting hours?", answer: "Contact visiting runs daily, seven days a week including holidays, in morning and afternoon or early evening blocks posted on the county's contact-and-visit page." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not listed on the county's contact page. Call (503) 846-2600 for the current approved deposit method." },
+      {
+        question: "How do I find or search for an inmate at Washington County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Washington County, Oregon. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Washington County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "How much does it cost to call or video-visit an inmate at Washington County Jail?",
+        answer: "Verified rates: Video visit 30-minute call is $7.50, charged to scheduler. Phone call rates not stated, Viapath prepaid or collect",
+      },
+      {
+        question: "What are the visiting hours at Washington County Jail?",
+        answer: "Social and video visiting Mon to Sun 7:15 am to 10:45 am and 1:45 pm to 5 pm, holidays same. Hours updated 12/3/2025 on official page",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Washington County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["multnomah-county-detention-center", "oregon-state-penitentiary", "snake-river-correctional-institution"],

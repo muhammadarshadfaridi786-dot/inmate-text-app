@@ -48,6 +48,8 @@ export interface FacilityDetail extends FacilityBasic {
   address?: string
   phone?: string
   website?: string
+  // Disambiguation (Phase 3): shown when another same-named facility exists
+  notToConfuseWith?: string
   // Visit and contact details (Phase 2): all optional; section renders only filled subsections
   mailingAddress?: string
   visitingHours?: string

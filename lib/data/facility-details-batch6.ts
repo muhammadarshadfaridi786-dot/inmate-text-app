@@ -292,6 +292,27 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do remote video visits work?", answer: "Through GettingOut. Create an account at gettingout.com, add funds, select the El Paso County facility and the inmate, then schedule the visit at least 24 hours in advance." },
     { question: "Can inmates message from tablets?", answer: "Yes. The jail's tablets run GettingOut, which supports email, photo and video sharing alongside messaging." },
     { question: "How do I add money to an inmate's account?", answer: "Deposits are reported through JailATM online, the lobby kiosk, or by phone. Money orders can also be mailed. Confirm the current method with the sheriff's office before sending." },
+      {
+        question: "How do I find or search for an inmate at El Paso County Detention Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for El Paso County, Texas. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at El Paso County Detention Facility?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at El Paso County Detention Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at El Paso County Detention Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at El Paso County Detention Facility?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["harris-county-jail", "dallas-county-jail", "bexar-county-adult-detention-center"],
@@ -699,6 +720,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   address: "300 N. Denver Avenue, Tulsa, OK 74103",
   phone: "918-596-8900",
   website: "https://tcso.org/jail/",
+    visitingHours: "Visiting days Tue, Thu and Sat 8:00 am to 6:30 pm for Units F17, F18, F22, J1, J2, J5, J6, J9, J10, J14, Special Housing. Wed, Fri and Sun 8:00 am to 6:30 pm for Units F19, F20, F24, J3, J4, J7, J8, J11, J12, J16, Medical if approved. Check in no later than 6:30 pm. One visit per allowable day, 30 min, noncontact",
   operatedBy: "Tulsa County Sheriff's Office",
 
   providers: [],
@@ -724,6 +746,31 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do I put money on an inmate's account?", answer: "Through Correct Solutions Group at csgpay.com. When prompted, enter facility code 24038." },
     { question: "What is the facility's official name?", answer: "The David L. Moss Criminal Justice Center, commonly called the Tulsa County Jail, at 300 N. Denver Avenue, Tulsa, OK 74103." },
     { question: "Can inmates receive phone calls?", answer: "No. Inmates can make outgoing calls but cannot receive incoming calls." },
+      {
+        question: "How do I find or search for an inmate at David L. Moss Criminal Justice Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Tulsa County, Oklahoma. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at David L. Moss Criminal Justice Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at David L. Moss Criminal Justice Center?",
+        answer: "Visiting days Tue, Thu and Sat 8:00 am to 6:30 pm for Units F17, F18, F22, J1, J2, J5, J6, J9, J10, J14, Special Housing. Wed, Fri and Sun 8:00 am to 6:30 pm for Units F19, F20, F24, J3, J4, J7, J8, J11, J12, J16, Medical if approved. Check in no later than 6:30 pm. One visit per allowable day, 30 min, noncontact",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at David L. Moss Criminal Justice Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at David L. Moss Criminal Justice Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at David L. Moss Criminal Justice Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["oklahoma-county-detention-center", "dick-conner-correctional-center", "federal-transfer-center-oklahoma-city"],
@@ -1167,6 +1214,27 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do remote video visits work?", answer: "Register or log in on the Securus website, select the facility, review the available days, hours and cost, then schedule. You can join from a computer, the Securus video app, or an on-site kiosk." },
     { question: "How do phone calls work?", answer: "Inmates make outgoing calls through Securus. Families set up a prepaid account or accept collect calls. Inmates cannot receive incoming calls." },
     { question: "What is the visitation phone number?", answer: "Call 816-881-4236 for visitation information, or the jail's main line at 816-881-4200." },
+      {
+        question: "How do I find or search for an inmate at Jackson County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Jackson County, Missouri. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Jackson County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Jackson County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Jackson County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Jackson County Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["st-louis-city-justice-center", "jefferson-city-correctional-center", "potosi-correctional-center"],
@@ -1248,6 +1316,27 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Visits are 20 minutes on kiosks in the housing unit dayrooms, between 8:00 am and 8:30 pm, with 16 time slots per kiosk per day. All visits are monitored and recorded." },
     { question: "How do I add money to a resident's account?", answer: "At the kiosk in the building lobby, or at the bonding and cashier window if the kiosk is not working." },
     { question: "Can I visit in person?", answer: "In-person social visits use the visiting booths and require passing a metal detector screening. All personal property must be secured in the lobby lockers first." },
+      {
+        question: "How do I find or search for an inmate at St. Louis County Justice Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for St. Louis County, Missouri. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at St. Louis County Justice Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at St. Louis County Justice Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at St. Louis County Justice Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at St. Louis County Justice Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["st-louis-city-justice-center", "jefferson-city-correctional-center", "potosi-correctional-center"],
@@ -1419,6 +1508,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
 
   address: "1155 W. Clydesdale Drive, Fayetteville, AR 72701",
   phone: "(479) 444-5700",
+    notToConfuseWith: "Not to be confused with Washington County Jail in Hillsboro, Oregon.",
   operatedBy: "Washington County Sheriff's Office",
 
   providers: [
@@ -1526,6 +1616,27 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Visitation is by on-site video through ICSolutions. Inmates get two free visits per week using the video stations." },
     { question: "Can I leave a voicemail for an inmate?", answer: "Yes. Friends and family can leave a 30-second voicemail for $0.50 by calling with the inmate's ID number and an established ICSolutions prepaid account." },
     { question: "How do I add money to an inmate's account?", answer: "Deposits are reported through the lobby kiosk and the facility's approved online deposit service. Confirm the current method with the sheriff's office before sending." },
+      {
+        question: "How do I find or search for an inmate at East Baton Rouge Parish Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for East Baton Rouge Parish, Louisiana. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at East Baton Rouge Parish Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at East Baton Rouge Parish Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at East Baton Rouge Parish Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at East Baton Rouge Parish Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["orleans-justice-center", "elayn-hunt-correctional-center", "louisiana-state-penitentiary"],

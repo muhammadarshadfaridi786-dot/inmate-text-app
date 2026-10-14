@@ -2540,6 +2540,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     address: "330 S. Casino Center Blvd., Las Vegas, NV 89101",
     phone: "(702) 671-3900",
     website: "https://www.lvmpd.com",
+    mailingAddress: "Inmate Name, Inmate ID Number\nClark County Detention Center\nPO Box 43059\nLas Vegas, NV 89116",
     inmateCapacity: 3500,
     established: 1981,
     operatedBy: "Las Vegas Metropolitan Police Department (LVMPD)",

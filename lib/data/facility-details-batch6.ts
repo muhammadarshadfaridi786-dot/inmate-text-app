@@ -103,6 +103,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
 
   address: "100 N. Lamar Street, Fort Worth, TX 76196",
   phone: "(817) 884-3116",
+  visitingHours: "Visits by inmate last name: A to L on Monday and Saturday 9:00 AM to 9:00 PM, plus Friday 9:00 AM to 3:00 PM; M to Z on Tuesday and Sunday 9:00 AM to 9:00 PM, plus Friday 3:00 PM to 9:00 PM. Visitor sign-up begins 30 minutes before visiting hours.",
   operatedBy: "Tarrant County Sheriff's Office",
 
   providers: [],

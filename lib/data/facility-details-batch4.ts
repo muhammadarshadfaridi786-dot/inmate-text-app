@@ -711,6 +711,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "1173 Front Street, San Diego, CA 92101",
   phone: "(619) 610-1647",
   website: "https://www.sdsheriff.gov/",
+  visitingHours: "In-person social visits: reserve by calling (619) 409-5000 Wednesday through Sunday, 6:30 AM to 6:00 PM. No visits on Tuesdays and Wednesdays. Social visits are 30 minutes; maximum 3 visitors. Video visitation available 7 days a week, 30 minutes, 2 per week; reserve one day in advance via SmartInmate; no same-day visits.",
   inmateCapacity: 944,
   established: 1998,
   operatedBy: "San Diego County Sheriff's Department",
@@ -2731,6 +2732,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Los Angeles County Sheriff's Office",
+  address: "450 Bauchet Street, Los Angeles, CA 90012",
+  rosterUrl: "https://app5.lasd.org/iic/ajis_search.cfm",
 
   providers: [
     { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
@@ -3253,6 +3256,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Federal Bureau of Prisons (BOP)",
+  address: "1200 Texas Avenue, Houston, TX 77002",
+  phone: "(713) 221-5400",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nFDC Houston\nFederal Detention Center\nP.O. Box 526255\nHouston, TX 77052",
 
   providers: [
     { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
@@ -4702,6 +4710,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Federal Bureau of Prisons (BOP)",
+  address: "7410 S MacArthur Blvd, Oklahoma City, OK 73169",
+  phone: "(405) 682-4075",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nFTC Oklahoma City\nFederal Transfer Center\nP.O. Box 898801\nOklahoma City, OK 73189",
 
   providers: [
     { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
@@ -5398,6 +5411,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Federal Bureau of Prisons (BOP)",
+  address: "2113 North Hwy 175, Seagoville, TX 75159",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nFCI Seagoville\nFederal Correctional Institution\nP.O. Box 9000\nSeagoville, TX 75159",
 
   providers: [
     { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Handles messaging." },
@@ -5514,6 +5531,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Broward County Sheriff's Office",
+  rosterUrl: "https://apps.sheriff.org/ArrestSearch/",
 
   providers: [
     { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },

@@ -455,6 +455,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   inmateCapacity: 2984,
   established: 1993,
   operatedBy: "Texas Department of Criminal Justice (TDCJ)",
+  address: "3872 FM 350, Livingston, TX 77351",
+  phone: "(936) 967-8082",
+  commissary: "Deposits via eCommDirect (Texas.gov), JPay, TouchPay, ACE, or Access Corrections; money order or cashier's check; or monthly ACH. Mail money orders or cashier's checks payable to Inmate Trust Fund for Offender Name and Number to Inmate Trust Fund, PO Box 60, Huntsville, TX 77342-0060. Only approved senders (approved visitor list or telephone list). No cash or personal checks. No deposits directly to the unit.",
+  rosterUrl: "https://inmate.tdcj.texas.gov/InmateSearch/",
+  visitingHours: "Regular visits Saturday and Sunday, 8:00 AM to 5:30 PM (two-hour visits); death row visits Tuesday and Thursday 1:00 PM to 5:00 PM, Saturday 6:00 PM to 8:30 PM.",
 
   providers: [
     {
@@ -808,6 +813,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://fdc.myflorida.com/ci/213.html",
+  rosterUrl: "https://pubapps.fdc.myflorida.com/OffenderSearch/Search.aspx?TypeSearch=AI",
   inmateCapacity: 1957,
   established: 1913,
   operatedBy: "Florida Department of Corrections",
@@ -1204,6 +1210,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/mim/",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  visitingHours: "Saturday, Sunday, and Monday, 8:00 a.m. to 3:00 p.m.",
+  mailingAddress: "Committed Name, Register Number\nFederal Correctional Institution\nP.O. Box 779800\nMiami, FL 33177",
   established: 1976,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -1287,6 +1297,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/phx/",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nFCI Phoenix\nFederal Correctional Institution\n37910 N 45th Ave\nPhoenix, AZ 85086",
+  address: "37900 N 45th Ave, Phoenix, AZ 85086",
   inmateCapacity: 1022,
   established: 1985,
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -1619,6 +1633,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "http://www.bop.gov/locations/institutions/tcp/",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nUSP Tucson\nU.S. Penitentiary\nP.O. Box 24550\nTucson, AZ 85734",
+  address: "9300 S. Wilmot Road, Tucson, AZ 85756",
   established: 2007,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -1702,6 +1720,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "http://www.bop.gov/locations/institutions/phl/index.jsp",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nFDC Philadelphia\nFederal Detention Center\nP.O. Box 562\nPhiladelphia, PA 19105",
+  address: "700 Arch Street, Philadelphia, PA 19106",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -1784,6 +1806,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/ccc/",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nMCC Chicago\nMetropolitan Correctional Center\n71 West Van Buren Street\nChicago, IL 60605",
+  address: "71 West Van Buren Street, Chicago, IL 60605",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -1866,6 +1892,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/los/",
+  commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  visitingHours: "Social visits vary by housing unit and day: for example, Sunday 5 North 8:00 AM to 1:00 PM; Monday to Friday assigned units 2:30 to 8:00 PM; Saturday 5 North 8:00 AM to 1:00 PM; holidays 8:00 AM to 1:00 PM. Confirm with the facility.",
+  mailingAddress: "INMATE NAME & REGISTER NUMBER\nMDC Los Angeles\nMetropolitan Detention Center\nP.O. Box 531500\nLos Angeles, CA 90053",
+  address: "535 N Alameda Street, Los Angeles, CA 90012",
   established: 1988,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 

@@ -31,7 +31,7 @@ export interface CountyDetail extends CountyBasic {
 }
 
 // ─────────────────────────────────────────────
-// ALL SEEDED COUNTIES — Directory listing
+// ALL SEEDED COUNTIES, Directory listing
 // ─────────────────────────────────────────────
 
 export const ALL_COUNTIES: CountyBasic[] = [
@@ -158,7 +158,7 @@ export const ALL_COUNTIES: CountyBasic[] = [
 ]
 
 // ─────────────────────────────────────────────
-// DETAILED COUNTY DATA — 12 seeded counties
+// DETAILED COUNTY DATA, 12 seeded counties
 // ─────────────────────────────────────────────
 
 export const COUNTY_DETAILS: Record<string, CountyDetail> = {
@@ -267,20 +267,6 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         type: "County Jail",
         county: "Los Angeles County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
-      },
-      {
-        name: "Twin Towers Correctional Facility",
-        slug: "twin-towers-correctional-facility",
-        type: "County Jail",
-        county: "Los Angeles County",
-        features: ["Video Calls", "Phone Calls"],
-      },
-      {
-        name: "California State Prison, Los Angeles County",
-        slug: "california-state-prison-los-angeles-county",
-        type: "State Prison",
-        county: "Los Angeles County",
-        features: ["Messaging", "Video Calls", "Phone Calls", "Money Transfer"],
       },
     ],
   },
@@ -391,13 +377,6 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         type: "County Jail",
         county: "Harris County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
-      },
-      {
-        name: "Harris County Jail — Baker Street Annex",
-        slug: "harris-county-jail-baker-street-annex",
-        type: "County Jail",
-        county: "Harris County",
-        features: ["Phone Calls", "Money Transfer"],
       },
       {
         name: "FDC Houston",
@@ -515,8 +494,8 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
       },
       {
-        name: "Pre-Trial Detention Center Miami",
-        slug: "pre-trial-detention-center-miami",
+        name: "Miami-Dade County Jail",
+        slug: "miami-dade-county-jail",
         type: "County Jail",
         county: "Miami-Dade County",
         features: ["Phone Calls", "Money Transfer"],
@@ -545,9 +524,9 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
       "Find jail and prison communication options in Kings County (Brooklyn), New York. Compare messaging, video, and phone providers for Brooklyn correctional facilities.",
 
     intro: [
-      "Kings County — the borough of Brooklyn — is part of the New York City jail and correctional system rather than operating its own separate county jail. People detained in Brooklyn are typically held at Rikers Island, which is the main New York City jail complex, or at the Brooklyn Detention Complex on Atlantic Avenue. The Metropolitan Detention Center Brooklyn is a federal facility that holds pretrial and sentenced inmates under Bureau of Prisons jurisdiction. Each of these facilities operates under a different system with different providers and different communication rules, which makes it essential to know exactly which facility is involved before setting up an account.",
+      "Kings County, the borough of Brooklyn, is part of the New York City jail and correctional system rather than operating its own separate county jail. People detained in Brooklyn are typically held at Rikers Island, which is the main New York City jail complex, or at the Brooklyn Detention Complex on Atlantic Avenue. The Metropolitan Detention Center Brooklyn is a federal facility that holds pretrial and sentenced inmates under Bureau of Prisons jurisdiction. Each of these facilities operates under a different system with different providers and different communication rules, which makes it essential to know exactly which facility is involved before setting up an account.",
 
-      "New York City jails, including those housing people from Brooklyn, have historically used GTL for phone services and video visitation. The NYC Department of Correction manages the overall system, and communication access operates under city-level contracts rather than individual facility contracts. People held at Rikers Island or the Brooklyn Detention Complex are part of the NYC DOC system. The Metropolitan Detention Center Brooklyn, by contrast, is entirely separate — it is a federal facility where inmates communicate through CorrLinks under Bureau of Prisons guidelines, and phone calls are handled through different federal contracted providers.",
+      "New York City jails, including those housing people from Brooklyn, have historically used GTL for phone services and video visitation. The NYC Department of Correction manages the overall system, and communication access operates under city-level contracts rather than individual facility contracts. People held at Rikers Island or the Brooklyn Detention Complex are part of the NYC DOC system. The Metropolitan Detention Center Brooklyn, by contrast, is entirely separate, it is a federal facility where inmates communicate through CorrLinks under Bureau of Prisons guidelines, and phone calls are handled through different federal contracted providers.",
 
       "This directory provides communication information for Kings County and Brooklyn-area correctional facilities so families can navigate the right system without unnecessary confusion. Whether you are trying to reach someone at Rikers Island through the NYC DOC system, set up messaging at the Brooklyn Detention Complex, or contact a loved one at the federal facility on 29th Street, this guide helps you identify the correct provider and process without having to search through multiple agency websites.",
     ],
@@ -632,13 +611,6 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
 
     featuredFacilities: [
       {
-        name: "Brooklyn Detention Complex",
-        slug: "brooklyn-detention-complex",
-        type: "County Jail",
-        county: "Kings County",
-        features: ["Video Calls", "Phone Calls", "Money Transfer"],
-      },
-      {
         name: "Metropolitan Detention Center Brooklyn",
         slug: "mdc-brooklyn",
         type: "Federal Prison",
@@ -646,8 +618,8 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         features: ["Messaging (CorrLinks)", "Phone Calls"],
       },
       {
-        name: "Rikers Island — AMKC",
-        slug: "rikers-island-amkc",
+        name: "Rikers Island",
+        slug: "rikers-island",
         type: "County Jail",
         county: "New York City",
         features: ["Video Calls", "Phone Calls"],
@@ -1003,13 +975,6 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         type: "County Jail",
         county: "Broward County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
-      },
-      {
-        name: "Joseph V. Conte Facility",
-        slug: "joseph-v-conte-facility",
-        type: "County Jail",
-        county: "Broward County",
-        features: ["Phone Calls", "Money Transfer"],
       },
       {
         name: "South Florida Reception Center",

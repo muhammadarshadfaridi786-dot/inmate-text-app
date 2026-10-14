@@ -1,7 +1,7 @@
 import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 4 (40 facilities added to replace placeholder redirects)
+// FACILITY DETAILS, Batch 4 (40 facilities added to replace placeholder redirects)
 // ─────────────────────────────────────────────
 
 export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
@@ -18,8 +18,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Allegany County",
   securityLevel: "Low / Camp",
   hasDetailPage: true,
-  seoTitle: "FCI Cumberland: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Cumberland in Maryland. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP low security facility in Allegany County MD.",
+  seoTitle: "FCI Cumberland: CorrLinks Messaging and ConnectNetwork",
+  seoDescription: "How to contact someone at FCI Cumberland in Maryland. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FCI Cumberland communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this western Maryland facility.",
@@ -103,8 +103,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Preston County",
   securityLevel: "Medium / Camp",
   hasDetailPage: true,
-  seoTitle: "FCI Hazelton: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Hazelton in West Virginia. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Preston County WV.",
+  seoTitle: "FCI Hazelton: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FCI Hazelton in West Virginia. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FCI Hazelton communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this West Virginia medium-security facility.",
@@ -210,8 +210,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Yankton County",
   securityLevel: "Minimum",
   hasDetailPage: true,
-  seoTitle: "FCI Yankton: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Yankton in South Dakota. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP minimum security facility in Yankton County SD.",
+  seoTitle: "FCI Yankton: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FCI Yankton in South Dakota. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FCI Yankton communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this South Dakota minimum-security camp.",
@@ -295,8 +295,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Worcester County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "FMC Devens: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FMC Devens in Massachusetts. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medical center facility in Worcester County MA.",
+  seoTitle: "FMC Devens: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FMC Devens in Massachusetts. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FMC Devens communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Massachusetts federal medical center.",
@@ -380,8 +380,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Edgefield County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Edgefield: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Edgefield in South Carolina. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Edgefield County SC.",
+  seoTitle: "FCI Edgefield: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FCI Edgefield in South Carolina. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FCI Edgefield communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this South Carolina medium-security facility.",
@@ -488,8 +488,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Olmsted County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "FMC Rochester: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FMC Rochester in Minnesota. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medical center facility in Olmsted County MN.",
+  seoTitle: "FMC Rochester: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FMC Rochester in Minnesota. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FMC Rochester communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Minnesota federal medical center.",
@@ -572,8 +572,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "St. Francis County",
   securityLevel: "Low / Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Forrest City: CorrLinks Messaging and ConnectNetwork Phone",
-  seoDescription: "How to contact someone at FCI Forrest City in Arkansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility at 870-630-6000. Low and medium security.",
+  seoTitle: "FCI Forrest City: CorrLinks Messaging and ConnectNetwork",
+  seoDescription: "How to contact someone at FCI Forrest City in Arkansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
   description:
     "FCI Forrest City communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Arkansas federal correctional complex.",
@@ -657,8 +657,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "San Diego County",
   securityLevel: "Level III / IV",
   hasDetailPage: true,
-  seoTitle: "RJ Donovan: Free CDCR Calls, Securus Transition and Messaging",
-  seoDescription: "How to contact someone at RJ Donovan Correctional Facility in San Diego CA. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options.",
+  seoTitle: "RJ Donovan: Free CDCR Calls, Securus Transition and",
+  seoDescription: "How to contact someone at RJ Donovan Correctional Facility in San Diego CA. CDCR phone calls are free under SB 1008. Securus replaced ViaPath.",
 
   description:
     "RJ Donovan Correctional Facility communication guide. Find JPay messaging and Securus phone and video options for families of inmates at this San Diego County state prison.",
@@ -764,8 +764,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "San Diego County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "San Diego Central Jail: Free Calls, Smart Communications Guide",
-  seoDescription: "How to contact someone at San Diego Central Jail. Phone calls are free. Smart Communications handles all services at 727-349-1561. Video visits scheduled 24 hours in advance at smartjailmail.com.",
+  seoTitle: "San Diego Central Jail: Free Calls, Smart Communications",
+  seoDescription: "How to contact someone at San Diego Central Jail. Phone calls are free. Smart Communications handles all services at 727-349-1561.",
 
   description:
     "San Diego Central Jail communication guide. Find GettingOut messaging and Securus phone and video options for families of inmates at this downtown San Diego facility.",
@@ -850,8 +850,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dodge County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Waupun Correctional Institution: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Waupun Correctional Institution in Wisconsin. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wisconsin DOC facility.",
+  seoTitle: "Waupun Correctional Institution: Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Waupun Correctional Institution in Wisconsin.",
 
   description:
     "Waupun Correctional Institution communication guide. Find JPay messaging and Securus phone and video options for families of inmates at this Wisconsin maximum-security prison.",
@@ -936,7 +936,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Wayne County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Wayne County Jail in Detroit MI. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Michigan facility.",
+  seoDescription: "How to contact someone at Wayne County Jail in Detroit MI.",
 
   description:
     "Wayne County Jail communication guide for Detroit, Michigan. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at the Wayne County Sheriff's Office jail.",
@@ -997,8 +997,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dallas County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Lew Sterrett Justice Center: Securus Phone and Jail Messaging",
-  seoDescription: "How to contact someone at Lew Sterrett Justice Center in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required. Call 214-761-9025.",
+  seoTitle: "Lew Sterrett Justice Center: Securus Phone and Jail",
+  seoDescription: "How to contact someone at Lew Sterrett Justice Center in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required.",
 
   description:
     "Lew Sterrett Justice Center communication guide for Dallas County, Texas. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at Dallas County's main jail.",
@@ -1060,7 +1060,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Mecklenburg County Jail: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Mecklenburg County Detention Center in Charlotte NC. Securus Technologies handles phone calls. Find messaging, video visits, and money transfer options.",
+  seoDescription: "How to contact someone at Mecklenburg County Detention Center in Charlotte NC. Securus Technologies handles phone calls.",
 
   description:
     "Mecklenburg County Detention Center communication guide for Charlotte, North Carolina. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at this Mecklenburg County Sheriff's Office facility.",
@@ -1122,8 +1122,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Penobscot County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Penobscot County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Penobscot County Jail in Bangor ME. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Maine facility.",
+  seoTitle: "Penobscot County Jail: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Penobscot County Jail in Bangor ME.",
 
   description:
     "Penobscot County Jail communication guide for Bangor, Maine. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at the Penobscot County Sheriff's Office jail.",
@@ -1184,7 +1184,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Maximum",
   hasDetailPage: true,
   seoTitle: "ACI Maximum Security: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at ACI Maximum Security in Cranston RI. Find the correct provider for phone calls, electronic messaging, and money transfers at this Rhode Island DOC facility.",
+  seoDescription: "How to contact someone at ACI Maximum Security in Cranston RI.",
 
   description:
     "ACI Maximum Security communication guide for Cranston, Rhode Island. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Rhode Island Department of Corrections facility.",
@@ -1247,7 +1247,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Maximum",
   hasDetailPage: true,
   seoTitle: "Wyoming State Penitentiary: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Wyoming State Penitentiary in Rawlins. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wyoming DOC facility.",
+  seoDescription: "How to contact someone at Wyoming State Penitentiary in Rawlins.",
 
   description:
     "Wyoming State Penitentiary communication guide for Rawlins, Wyoming. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Wyoming Department of Corrections facility.",
@@ -1310,7 +1310,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "King County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at King County Correctional Facility in Seattle WA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers.",
+  seoDescription: "How to contact someone at King County Correctional Facility in Seattle WA.",
 
   description:
     "King County Correctional Facility communication guide for Seattle, Washington. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at this King County Department of Adult and Juvenile Detention facility.",
@@ -1371,8 +1371,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Honolulu County",
   securityLevel: "Medium / High",
   hasDetailPage: true,
-  seoTitle: "Halawa Correctional Facility: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Halawa Correctional Facility in Aiea Hawaii. Find the correct provider for phone calls, electronic messaging, and money transfers at this Hawaii PSD facility.",
+  seoTitle: "Halawa Correctional Facility: Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Halawa Correctional Facility in Aiea Hawaii.",
 
   description:
     "Halawa Correctional Facility communication guide for Aiea, Oahu. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Hawaii Department of Corrections and Rehabilitation facility.",
@@ -1434,7 +1434,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Medium",
   hasDetailPage: true,
   seoTitle: "Northern State Correctional: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Northern State Correctional Facility in Newport VT. Find the correct provider for phone calls, messaging, and money transfers at this Vermont DOC facility.",
+  seoDescription: "How to contact someone at Northern State Correctional Facility in Newport VT.",
 
   description:
     "Northern State Correctional Facility communication guide for Newport, Vermont. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Vermont Department of Corrections facility.",
@@ -1495,8 +1495,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Cass County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Cass County Jail ND: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Cass County Jail in Fargo ND. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this North Dakota facility.",
+  seoTitle: "Cass County Jail ND: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Cass County Jail in Fargo ND.",
 
   description:
     "Cass County Jail communication guide for Fargo, North Dakota. Find GettingOut and Securus options for messaging, phone calls, and video visits with someone held at this Cass County Sheriff's Office facility.",
@@ -1556,8 +1556,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Bernalillo County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Bernalillo County MDC: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Bernalillo County Metropolitan Detention Center in Albuquerque NM. Find the correct provider for phone calls, messaging, and money transfers at this NM facility.",
+  seoTitle: "Bernalillo County MDC: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Bernalillo County Metropolitan Detention Center in Albuquerque NM.",
 
   description:
     "Bernalillo County Metropolitan Detention Center communication guide. Find GettingOut and Securus contact options for families reaching inmates at MDC in Albuquerque, New Mexico.",
@@ -1640,7 +1640,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Medium / High",
   hasDetailPage: true,
   seoTitle: "Cheshire Correctional: Free Calls, Phone and Messaging Guide",
-  seoDescription: "How to contact someone at Cheshire Correctional Institution in Connecticut. Connecticut offers free phone calls at state facilities. Find messaging and money transfer options.",
+  seoDescription: "How to contact someone at Cheshire Correctional Institution in Connecticut. Connecticut offers free phone calls at state facilities.",
 
   description:
     "Cheshire Correctional Institution communication guide. Find JPay and Securus options for families reaching inmates at this Connecticut Department of Correction facility.",
@@ -1700,8 +1700,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Philadelphia County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Philadelphia Prisons: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Philadelphia Department of Prisons. Securus Technologies handles phone calls. Find messaging, video visits, and money transfer options at Philadelphia jails.",
+  seoTitle: "Philadelphia Prisons: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Philadelphia Department of Prisons. Securus Technologies handles phone calls.",
 
   description:
     "Philadelphia Department of Prisons communication guide. Find GettingOut and Securus options for families reaching people held in Philadelphia's county jail system.",
@@ -1715,7 +1715,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   phone: "(215) 685-7711",
   website: "https://www.phila.gov/departments/philadelphia-department-of-prisons/",
   operatedBy: "City of Philadelphia, Philadelphia Department of Prisons",
-  // UNVERIFIED: could not confirm a single administrative street address via search — please verify manually
+  // UNVERIFIED: could not confirm a single administrative street address via search, please verify manually
 
   providers: [
     { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, and money deposits across the Philadelphia jail system." },
@@ -1761,8 +1761,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Jefferson County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Louisville Metro Corrections: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Louisville Metro Corrections in Kentucky. Call Metro311 at 502-574-5000 for information. Find phone calls, video visits, and messaging options at LMDC.",
+  seoTitle: "Louisville Metro Corrections: Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Louisville Metro Corrections in Kentucky. Call Metro311 at 502-574-5000 for information.",
 
   description:
     "Louisville Metro Corrections communication guide. Find GettingOut and Securus options for families reaching people held in downtown Louisville's main jail.",
@@ -1843,8 +1843,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Montgomery County",
   securityLevel: "Medium / Maximum",
   hasDetailPage: true,
-  seoTitle: "Kilby Correctional Facility: Securus Phone and JPay Messaging",
-  seoDescription: "How to contact someone at Kilby Correctional Facility in Alabama. Securus Technologies handles ADOC phone calls. JPay for money transfers. Mail goes to San Antonio TX processing center.",
+  seoTitle: "Kilby Correctional Facility: Securus Phone and JPay",
+  seoDescription: "How to contact someone at Kilby Correctional Facility in Alabama. Securus Technologies handles ADOC phone calls. JPay for money transfers.",
 
   description:
     "Kilby Correctional Facility communication guide. Find JPay and Securus options for families reaching people held at this Alabama Department of Corrections prison.",
@@ -1905,7 +1905,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Medium",
   hasDetailPage: true,
   seoTitle: "Marble Valley Correctional: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Marble Valley Correctional Facility in Rutland VT. Find the correct provider for phone calls, electronic messaging, and money transfers at this Vermont DOC facility.",
+  seoDescription: "How to contact someone at Marble Valley Correctional Facility in Rutland VT.",
 
   description:
     "Marble Valley Correctional Facility communication guide. Find JPay and Securus options for families reaching people held at this Vermont Department of Corrections facility in Rutland.",
@@ -1966,8 +1966,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "White Pine County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Ely State Prison: Phone Calls, Messaging and Money Transfer Guide",
-  seoDescription: "How to contact someone at Ely State Prison in Nevada. Find the correct provider for phone calls, electronic messaging, and money transfers at this Nevada DOC maximum security facility.",
+  seoTitle: "Ely State Prison: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Ely State Prison in Nevada.",
 
   description:
     "Ely State Prison communication guide. Find JPay and Securus options for families reaching people held at Nevada's maximum-security prison in White Pine County.",
@@ -2051,7 +2051,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Maui MCCC: Phone Calls, Messaging and Money Transfer Guide",
-  seoDescription: "How to contact someone at Maui Community Correctional Center in Wailuku Hawaii. Find the correct provider for phone calls, messaging, and money transfers at this Hawaii PSD facility.",
+  seoDescription: "How to contact someone at Maui Community Correctional Center in Wailuku Hawaii.",
 
   description:
     "Maui Community Correctional Center communication guide. Find GettingOut and Securus options for families reaching people held at Maui's main jail in Wailuku.",
@@ -2112,7 +2112,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Medium",
   hasDetailPage: true,
   seoTitle: "Howard Young Correctional: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Howard R Young Correctional Institution in Wilmington DE. Find the correct provider for phone calls, messaging, and money transfers at this Delaware DOC facility.",
+  seoDescription: "How to contact someone at Howard R Young Correctional Institution in Wilmington DE.",
 
   description:
     "Howard R Young Correctional Institution communication guide. Find JPay and Securus options for families reaching people held at this Delaware Department of Correction facility in Wilmington.",
@@ -2175,7 +2175,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Franklin County Corrections: Phone Calls and Jail Messaging",
-  seoDescription: "How to contact someone at Franklin County Correctional Center. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
+  seoDescription: "How to contact someone at Franklin County Correctional Center.",
 
   description:
     "Franklin County Correctional Center communication guide. Find GettingOut and Securus options for families reaching people held in Columbus, Ohio's county jail system.",
@@ -2235,8 +2235,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Essex County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Essex County Jail NJ: Phone Calls, ViaPath and Messaging Guide",
-  seoDescription: "How to contact someone at Essex County Correctional Facility in Newark NJ. NJ transitioning from JPay to ViaPath. Phone rates cut to $0.034 per minute. Find current providers.",
+  seoTitle: "Essex County Jail NJ: Phone Calls, ViaPath and Messaging",
+  seoDescription: "How to contact someone at Essex County Correctional Facility in Newark NJ. NJ transitioning from JPay to ViaPath. Phone rates cut to $0.034 per minute.",
 
   description:
     "Essex County Correctional Facility communication guide. Find GettingOut and Securus options for families reaching someone at New Jersey's largest county jail in Newark.",
@@ -2318,8 +2318,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Montgomery County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "SCI Phoenix PA: Securus Phone, ViaPath Messaging and Money Guide",
-  seoDescription: "How to contact someone at SCI Phoenix in Collegeville PA. Securus handles phone calls. ViaPath ConnectNetwork for messaging. DC number required. Mail sent to central processing facility.",
+  seoTitle: "SCI Phoenix PA: Securus Phone, ViaPath Messaging and Money",
+  seoDescription: "How to contact someone at SCI Phoenix in Collegeville PA. Securus handles phone calls. ViaPath ConnectNetwork for messaging. DC number required.",
 
   description:
     "State Correctional Institution Phoenix communication guide. Find JPay and Securus options for families reaching someone at Pennsylvania's maximum-security prison in Collegeville.",
@@ -2381,8 +2381,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Luzerne County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "SCI Dallas PA: Securus Phone, ViaPath Messaging and Money Guide",
-  seoDescription: "How to contact someone at SCI Dallas in Dallas PA. Securus handles phone calls. ViaPath ConnectNetwork for messaging. DC number required. Mail sent to central processing facility.",
+  seoTitle: "SCI Dallas PA: Securus Phone, ViaPath Messaging and Money",
+  seoDescription: "How to contact someone at SCI Dallas in Dallas PA. Securus handles phone calls. ViaPath ConnectNetwork for messaging. DC number required.",
 
   description:
     "State Correctional Institution Dallas communication guide. Find JPay and Securus options for families reaching someone at this Pennsylvania state prison in Luzerne County.",
@@ -2443,7 +2443,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Medium",
   hasDetailPage: true,
   seoTitle: "Tecumseh State Correctional: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Tecumseh State Correctional Institution in Nebraska. Find the correct provider for phone calls, messaging, and money transfers at this Nebraska DOC facility.",
+  seoDescription: "How to contact someone at Tecumseh State Correctional Institution in Nebraska.",
 
   description:
     "Tecumseh State Correctional Institution communication guide. Find JPay and Securus options for families reaching someone at Nebraska's largest state prison.",
@@ -2506,7 +2506,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Douglas County Corrections: Phone Calls and Jail Messaging",
-  seoDescription: "How to contact someone at Douglas County Department of Corrections in Omaha NE. Find the correct provider for phone calls, messaging, and money transfers at this Nebraska facility.",
+  seoDescription: "How to contact someone at Douglas County Department of Corrections in Omaha NE.",
 
   description:
     "Douglas County Department of Corrections communication guide. Find GettingOut and Securus options for families reaching someone at Omaha's main county jail.",
@@ -2587,8 +2587,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Polk County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Polk County Jail: Phone Calls, Messaging and Money Transfer Guide",
-  seoDescription: "How to contact someone at Polk County Jail in Des Moines IA. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Iowa facility.",
+  seoTitle: "Polk County Jail: Phone Calls, Messaging and Money Transfer",
+  seoDescription: "How to contact someone at Polk County Jail in Des Moines IA.",
 
   description:
     "Polk County Jail communication guide. Find GettingOut and Securus options for families reaching someone at Iowa's largest county jail in Des Moines.",
@@ -2649,7 +2649,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Medium",
   hasDetailPage: true,
   seoTitle: "Anamosa State Penitentiary: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Anamosa State Penitentiary in Iowa. Find the correct provider for phone calls, electronic messaging, and money transfers at this Iowa DOC facility.",
+  seoDescription: "How to contact someone at Anamosa State Penitentiary in Iowa.",
 
   description:
     "Anamosa State Penitentiary communication guide. Find JPay and Securus options for families reaching someone at this Iowa state prison in Jones County.",
@@ -2709,8 +2709,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Orange County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Theo Lacy Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Theo Lacy Facility in Orange CA. GTL ConnectNetwork handles phone calls. Orange County jail communication. Find messaging and money transfer options.",
+  seoTitle: "Theo Lacy Facility: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Theo Lacy Facility in Orange CA. GTL ConnectNetwork handles phone calls. Orange County jail communication.",
 
   description:
     "Theo Lacy Facility communication guide. Find GettingOut and Securus options for families reaching someone at this Orange County, California jail.",
@@ -2772,7 +2772,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Laramie County Detention: Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Laramie County Detention Center in Cheyenne WY. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wyoming facility.",
+  seoDescription: "How to contact someone at Laramie County Detention Center in Cheyenne WY.",
 
   description:
     "Laramie County Detention Center communication guide. Find GettingOut and Securus options for families reaching someone at this Cheyenne, Wyoming jail.",
@@ -2832,8 +2832,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dallas County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Kays Detention Facility: Securus Phone Calls and Messaging Guide",
-  seoDescription: "How to contact someone at Suzanne Lee Kays Detention Facility in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required. Call 214-761-9025.",
+  seoTitle: "Kays Detention Facility: Securus Phone Calls and Messaging",
+  seoDescription: "How to contact someone at Suzanne Lee Kays Detention Facility in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required.",
 
   description:
     "Suzanne Lee Kays Detention Facility communication guide. Find GettingOut and Securus options for families reaching someone at this Dallas County jail tower, part of the Lew Sterrett Justice Center complex.",
@@ -2895,8 +2895,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Los Angeles County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Twin Towers Correctional Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Twin Towers Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Twin Towers Correctional Facility: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Twin Towers Correctional Facility.",
 
   description:
     "Twin Towers Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Los Angeles County facility.",
@@ -2955,8 +2955,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Los Angeles County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Men's Central Jail Los Angeles: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Men's Central Jail Los Angeles. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Men's Central Jail Los Angeles: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Men's Central Jail Los Angeles.",
 
   description:
     "Men's Central Jail Los Angeles communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Los Angeles County facility.",
@@ -3013,8 +3013,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Los Angeles County",
   securityLevel: "Level III/IV",
   hasDetailPage: true,
-  seoTitle: "California State Prison Los Angeles County: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at California State Prison Los Angeles County. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "California State Prison Los Angeles County: Phone Calls",
+  seoDescription: "How to contact someone at California State Prison Los Angeles County.",
 
   description:
     "California State Prison Los Angeles County communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Los Angeles County facility.",
@@ -3071,8 +3071,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Miami-Dade County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Pre-Trial Detention Center Miami: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Pre-Trial Detention Center Miami. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Pre-Trial Detention Center Miami: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Pre-Trial Detention Center Miami.",
 
   description:
     "Pre-Trial Detention Center Miami communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Miami-Dade County facility.",
@@ -3129,8 +3129,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Miami-Dade County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Turner Guilford Knight Correctional Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Turner Guilford Knight Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Turner Guilford Knight Correctional Center: Phone Calls",
+  seoDescription: "How to contact someone at Turner Guilford Knight Correctional Center.",
 
   description:
     "Turner Guilford Knight Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Miami-Dade County facility.",
@@ -3187,8 +3187,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Miami-Dade County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "Federal Detention Center Miami: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at Federal Detention Center Miami. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "Federal Detention Center Miami: CorrLinks Messaging and",
+  seoDescription: "How to contact someone at Federal Detention Center Miami. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "Federal Detention Center Miami communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Miami-Dade County facility.",
@@ -3271,8 +3271,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "New York City",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Rikers Island AMKC: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Rikers Island AMKC. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Rikers Island AMKC: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Rikers Island AMKC.",
 
   description:
     "Rikers Island AMKC communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this New York City facility.",
@@ -3329,8 +3329,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Kings County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Brooklyn Detention Complex: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Brooklyn Detention Complex. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Brooklyn Detention Complex: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Brooklyn Detention Complex.",
 
   description:
     "Brooklyn Detention Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Kings County facility.",
@@ -3387,8 +3387,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Kings County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "Metropolitan Detention Center Brooklyn: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at Metropolitan Detention Center Brooklyn. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "Metropolitan Detention Center Brooklyn: CorrLinks Messaging",
+  seoDescription: "How to contact someone at Metropolitan Detention Center Brooklyn. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "Metropolitan Detention Center Brooklyn communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Kings County facility.",
@@ -3445,8 +3445,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Harris County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "FDC Houston: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FDC Houston. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "FDC Houston: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FDC Houston. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "FDC Houston communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Harris County facility.",
@@ -3508,8 +3508,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Harris County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Harris County Jail Baker Street Annex: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Harris County Jail Baker Street Annex. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Harris County Jail Baker Street Annex: Phone Calls",
+  seoDescription: "How to contact someone at Harris County Jail Baker Street Annex.",
 
   description:
     "Harris County Jail Baker Street Annex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Harris County facility.",
@@ -3565,8 +3565,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Howard County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Maryland Correctional Institution Jessup: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Maryland Correctional Institution Jessup. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Maryland Correctional Institution Jessup: Phone Calls",
+  seoDescription: "How to contact someone at Maryland Correctional Institution Jessup.",
 
   description:
     "Maryland Correctional Institution Jessup communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Howard County facility.",
@@ -3623,8 +3623,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "St. Louis City",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "St. Louis City Justice Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at St. Louis City Justice Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "St. Louis City Justice Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at St. Louis City Justice Center.",
 
   description:
     "St. Louis City Justice Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this St. Louis City facility.",
@@ -3702,8 +3702,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Linn County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Crossroads Correctional Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Crossroads Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Crossroads Correctional Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Crossroads Correctional Center.",
 
   description:
     "Crossroads Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Linn County facility.",
@@ -3760,8 +3760,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Pulaski County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Pulaski County Detention Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Pulaski County Detention Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Pulaski County Detention Facility: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Pulaski County Detention Facility.",
 
   description:
     "Pulaski County Detention Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Pulaski County facility.",
@@ -3818,8 +3818,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Hinds County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Hinds County Detention Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Hinds County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Hinds County Detention Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Hinds County Detention Center.",
 
   description:
     "Hinds County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hinds County facility.",
@@ -3876,8 +3876,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Maricopa County",
   securityLevel: "Multiple",
   hasDetailPage: true,
-  seoTitle: "Arizona State Prison Complex Perryville: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Arizona State Prison Complex Perryville. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Arizona State Prison Complex Perryville: Phone Calls",
+  seoDescription: "How to contact someone at Arizona State Prison Complex Perryville.",
 
   description:
     "Arizona State Prison Complex Perryville communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Maricopa County facility.",
@@ -3934,8 +3934,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Yazoo County",
   securityLevel: "Medium / Low",
   hasDetailPage: true,
-  seoTitle: "FCC Yazoo City: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCC Yazoo City. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "FCC Yazoo City: CorrLinks Messaging and ConnectNetwork",
+  seoDescription: "How to contact someone at FCC Yazoo City. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "FCC Yazoo City communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Yazoo County facility.",
@@ -3992,8 +3992,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Johnson County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Johnson County Detention Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Johnson County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Johnson County Detention Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Johnson County Detention Center.",
 
   description:
     "Johnson County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Johnson County facility.",
@@ -4050,8 +4050,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Strafford County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Strafford County House of Corrections: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Strafford County House of Corrections. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Strafford County House of Corrections: Phone Calls",
+  seoDescription: "How to contact someone at Strafford County House of Corrections.",
 
   description:
     "Strafford County House of Corrections communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Strafford County facility.",
@@ -4108,8 +4108,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Hillsborough County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Hillsborough County Department of Corrections: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Hillsborough County Department of Corrections. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Hillsborough County Department of Corrections: Phone Calls",
+  seoDescription: "How to contact someone at Hillsborough County Department of Corrections.",
 
   description:
     "Hillsborough County Department of Corrections communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hillsborough County facility.",
@@ -4166,8 +4166,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Matanuska-Susitna Borough",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Goose Creek Correctional Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Goose Creek Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Goose Creek Correctional Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Goose Creek Correctional Center.",
 
   description:
     "Goose Creek Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Matanuska-Susitna Borough facility.",
@@ -4224,8 +4224,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Anchorage",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Anchorage Correctional Complex: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Anchorage Correctional Complex. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Anchorage Correctional Complex: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Anchorage Correctional Complex.",
 
   description:
     "Anchorage Correctional Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Anchorage facility.",
@@ -4282,8 +4282,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Lowndes County",
   securityLevel: "High",
   hasDetailPage: true,
-  seoTitle: "Valdosta State Prison: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Valdosta State Prison. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Valdosta State Prison: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Valdosta State Prison.",
 
   description:
     "Valdosta State Prison communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Lowndes County facility.",
@@ -4366,8 +4366,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Ada County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Idaho State Correctional Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Idaho State Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Idaho State Correctional Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Idaho State Correctional Center.",
 
   description:
     "Idaho State Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Ada County facility.",
@@ -4425,7 +4425,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Ada County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Ada County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoDescription: "How to contact someone at Ada County Jail.",
 
   description:
     "Ada County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Ada County facility.",
@@ -4482,8 +4482,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Ada County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Idaho Maximum Security Institution: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Idaho Maximum Security Institution. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Idaho Maximum Security Institution: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Idaho Maximum Security Institution.",
 
   description:
     "Idaho Maximum Security Institution communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Ada County facility.",
@@ -4540,8 +4540,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Sullivan County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Northeast Correctional Complex: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Northeast Correctional Complex. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Northeast Correctional Complex: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Northeast Correctional Complex.",
 
   description:
     "Northeast Correctional Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Sullivan County facility.",
@@ -4598,8 +4598,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Shelby County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Shelby County Correctional Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Shelby County Correctional Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Shelby County Correctional Center: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Shelby County Correctional Center.",
 
   description:
     "Shelby County Correctional Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Shelby County facility.",
@@ -4656,8 +4656,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Providence County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "ACI Intake Service Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at ACI Intake Service Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "ACI Intake Service Center: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at ACI Intake Service Center.",
 
   description:
     "ACI Intake Service Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Providence County facility.",
@@ -4714,8 +4714,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Providence County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "ACI Medium Security: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at ACI Medium Security. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "ACI Medium Security: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at ACI Medium Security.",
 
   description:
     "ACI Medium Security communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Providence County facility.",
@@ -4772,8 +4772,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Cabell County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Western Regional Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Western Regional Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Western Regional Jail: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Western Regional Jail.",
 
   description:
     "Western Regional Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Cabell County facility.",
@@ -4830,8 +4830,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Sussex County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Sussex Correctional Institution: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Sussex Correctional Institution. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Sussex Correctional Institution: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Sussex Correctional Institution.",
 
   description:
     "Sussex Correctional Institution communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Sussex County facility.",
@@ -4888,8 +4888,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Clay County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Manchester: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Manchester. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "FCI Manchester: CorrLinks Messaging and ConnectNetwork",
+  seoDescription: "How to contact someone at FCI Manchester. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "FCI Manchester communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Clay County facility.",
@@ -4946,8 +4946,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Oklahoma County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "Federal Transfer Center Oklahoma City: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at Federal Transfer Center Oklahoma City. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "Federal Transfer Center Oklahoma City: CorrLinks Messaging",
+  seoDescription: "How to contact someone at Federal Transfer Center Oklahoma City. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "Federal Transfer Center Oklahoma City communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Oklahoma County facility.",
@@ -5009,8 +5009,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Oklahoma County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Oklahoma County Detention Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Oklahoma County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Oklahoma County Detention Center: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Oklahoma County Detention Center.",
 
   description:
     "Oklahoma County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Oklahoma County facility.",
@@ -5088,8 +5088,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Millard County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Central Utah Correctional Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Central Utah Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Central Utah Correctional Facility: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Central Utah Correctional Facility.",
 
   description:
     "Central Utah Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Millard County facility.",
@@ -5146,8 +5146,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Richland County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Alvin S. Glenn Detention Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Alvin S. Glenn Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Alvin S. Glenn Detention Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Alvin S. Glenn Detention Center.",
 
   description:
     "Alvin S. Glenn Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Richland County facility.",
@@ -5204,8 +5204,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Salt Lake County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Salt Lake County Metro Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Salt Lake County Metro Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Salt Lake County Metro Jail: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at Salt Lake County Metro Jail.",
 
   description:
     "Salt Lake County Metro Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Salt Lake County facility.",
@@ -5262,8 +5262,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Pennington County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Pennington County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Pennington County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Pennington County Jail: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Pennington County Jail.",
 
   description:
     "Pennington County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Pennington County facility.",
@@ -5320,8 +5320,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Hennepin County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Hennepin County Adult Detention Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Hennepin County Adult Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Hennepin County Adult Detention Center: Phone Calls",
+  seoDescription: "How to contact someone at Hennepin County Adult Detention Center.",
 
   description:
     "Hennepin County Adult Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hennepin County facility.",
@@ -5378,8 +5378,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Cumberland County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Cumberland County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Cumberland County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Cumberland County Jail: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Cumberland County Jail.",
 
   description:
     "Cumberland County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Cumberland County facility.",
@@ -5436,8 +5436,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Lea County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Lea County Correctional Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Lea County Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Lea County Correctional Facility: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Lea County Correctional Facility.",
 
   description:
     "Lea County Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Lea County facility.",
@@ -5494,8 +5494,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Multnomah County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Multnomah County Detention Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Multnomah County Detention Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Multnomah County Detention Center: Phone Calls, Messaging",
+  seoDescription: "How to contact someone at Multnomah County Detention Center.",
 
   description:
     "Multnomah County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Multnomah County facility.",
@@ -5573,8 +5573,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Polk County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Sheridan: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Sheridan. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "FCI Sheridan: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FCI Sheridan. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "FCI Sheridan communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Polk County facility.",
@@ -5631,8 +5631,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Chittenden County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Chittenden Regional Correctional Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Chittenden Regional Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "Chittenden Regional Correctional Facility: Phone Calls",
+  seoDescription: "How to contact someone at Chittenden Regional Correctional Facility.",
 
   description:
     "Chittenden Regional Correctional Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Chittenden County facility.",
@@ -5689,8 +5689,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dallas County",
   securityLevel: "Low",
   hasDetailPage: true,
-  seoTitle: "FCI Seagoville: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Seagoville. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "FCI Seagoville: CorrLinks Messaging and ConnectNetwork",
+  seoDescription: "How to contact someone at FCI Seagoville. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "FCI Seagoville communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Dallas County facility.",
@@ -5751,8 +5751,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dade County",
   securityLevel: "Reception",
   hasDetailPage: true,
-  seoTitle: "South Florida Reception Center: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at South Florida Reception Center. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "South Florida Reception Center: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at South Florida Reception Center.",
 
   description:
     "South Florida Reception Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Dade County facility.",
@@ -5809,8 +5809,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Broward County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Broward County Jail: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Broward County Jail. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Broward County Jail: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at Broward County Jail.",
 
   description:
     "Broward County Jail communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Broward County facility.",
@@ -5868,8 +5868,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "San Diego County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Las Colinas Women's Detention Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at Las Colinas Women's Detention Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "Las Colinas Women's Detention Facility: Phone Calls",
+  seoDescription: "How to contact someone at Las Colinas Women's Detention Facility.",
 
   description:
     "Las Colinas Women's Detention Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this San Diego County facility.",
@@ -5926,8 +5926,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "San Bernardino County",
   securityLevel: "Level I/II/III",
   hasDetailPage: true,
-  seoTitle: "California Institution for Men: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at California Institution for Men. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+  seoTitle: "California Institution for Men: Phone Calls, Messaging and",
+  seoDescription: "How to contact someone at California Institution for Men.",
 
   description:
     "California Institution for Men communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this San Bernardino County facility.",
@@ -6005,8 +6005,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Orange County",
   securityLevel: "Minimum",
   hasDetailPage: true,
-  seoTitle: "James A. Musick Facility: Phone Calls, Messaging and Money Transfer",
-  seoDescription: "How to contact someone at James A. Musick Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this county correctional facility.",
+  seoTitle: "James A. Musick Facility: Phone Calls, Messaging and Money",
+  seoDescription: "How to contact someone at James A. Musick Facility.",
 
   description:
     "James A. Musick Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Orange County facility.",
@@ -6063,8 +6063,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Harris County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "Federal Detention Center Houston: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at Federal Detention Center Houston. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility. Find providers and communication options.",
+  seoTitle: "Federal Detention Center Houston: CorrLinks Messaging and",
+  seoDescription: "How to contact someone at Federal Detention Center Houston. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility.",
 
   description:
     "Federal Detention Center Houston communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Harris County facility.",
@@ -6148,8 +6148,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Cascade County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Cascade County Regional Correctional: Phone Calls and Messaging",
-  seoDescription: "How to contact someone at Cascade County Regional Correctional Facility in Great Falls MT. Securus handles phone calls. Find messaging and money transfer options.",
+  seoTitle: "Cascade County Regional Correctional: Phone Calls and",
+  seoDescription: "How to contact someone at Cascade County Regional Correctional Facility in Great Falls MT. Securus handles phone calls.",
 
   description: "Cascade County Regional Correctional Facility in Great Falls Montana. Find phone calls, messaging, and money transfer options for this Montana county jail.",
 
@@ -6201,8 +6201,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Talladega County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Talladega: CorrLinks Messaging and ConnectNetwork Phone Guide",
-  seoDescription: "How to contact someone at FCI Talladega in Alabama. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Talladega County AL.",
+  seoTitle: "FCI Talladega: CorrLinks Messaging and ConnectNetwork Phone",
+  seoDescription: "How to contact someone at FCI Talladega in Alabama. CorrLinks for messaging. ConnectNetwork for phone calls.",
 
   description: "FCI Talladega is a federal correctional institution in Talladega Alabama. CorrLinks for messaging and ConnectNetwork for phone calls serve this federal BOP facility.",
 
@@ -6255,7 +6255,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Yellowstone County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Yellowstone County Detention Facility: Phone Calls and Messaging",
+  seoTitle: "Yellowstone County Detention Facility: Phone Calls and",
   seoDescription: "How to contact someone at Yellowstone County Detention Facility in Billings MT. Securus handles phone calls. Find messaging and money transfer options.",
 
   description: "Yellowstone County Detention Facility in Billings Montana. Find phone calls, messaging, and money transfer options for this Montana county jail.",
@@ -6308,8 +6308,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Fairfax County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Fairfax County Adult Detention Center: Phone Calls and Messaging",
-  seoDescription: "How to contact someone at Fairfax County Adult Detention Center in Fairfax VA. GTL ConnectNetwork handles phone calls. Find messaging and money transfer options.",
+  seoTitle: "Fairfax County Adult Detention Center: Phone Calls and",
+  seoDescription: "How to contact someone at Fairfax County Adult Detention Center in Fairfax VA. GTL ConnectNetwork handles phone calls.",
 
   description: "Fairfax County Adult Detention Center in Fairfax Virginia. Find phone calls, messaging, and money transfer options for this Virginia county jail.",
 

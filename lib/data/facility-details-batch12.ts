@@ -19,8 +19,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Clinton County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Clinton Correctional Facility: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Clinton Correctional Facility in Dannemora NY. Securus phone service and tablets, visitation, and mail rules for this maximum security NY DOCCS prison.",
+  seoTitle: "Clinton Correctional Facility: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Clinton Correctional Facility in Dannemora NY.",
 
   description:
     "Clinton Correctional Facility communication guide. Securus phone service and tablets, visitation, and contact rules for families of inmates at this maximum security prison in Dannemora NY.",
@@ -114,8 +114,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Washington County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Great Meadow Correctional Facility: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Great Meadow Correctional Facility in Comstock NY. Securus phone service and tablets, visitation, and contact rules for this maximum security NY DOCCS prison.",
+  seoTitle: "Great Meadow Correctional Facility: Securus Phones and",
+  seoDescription: "How to contact someone at Great Meadow Correctional Facility in Comstock NY.",
 
   description:
     "Great Meadow Correctional Facility communication guide. Securus phone service and tablets, visitation, and contact rules for families of inmates at this maximum security prison in Comstock NY.",
@@ -209,8 +209,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Cayuga County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Auburn Correctional Facility: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Auburn Correctional Facility in Auburn NY. Securus phone service and tablets, visitation, and contact rules for this maximum security NY DOCCS prison.",
+  seoTitle: "Auburn Correctional Facility: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Auburn Correctional Facility in Auburn NY.",
 
   description:
     "Auburn Correctional Facility communication guide. Securus phone service and tablets, visitation, and contact rules for families of inmates at this maximum security prison in Auburn NY.",
@@ -304,8 +304,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Chemung County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Elmira Correctional Facility: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Elmira Correctional Facility in Elmira NY. Securus phone service and tablets, visitation, and contact rules for this maximum security NY DOCCS prison, known as The Hill.",
+  seoTitle: "Elmira Correctional Facility: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Elmira Correctional Facility in Elmira NY.",
 
   description:
     "Elmira Correctional Facility communication guide. Securus phone service and tablets, visitation, and contact rules for families of inmates at this maximum security prison in Elmira NY.",
@@ -400,8 +400,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Westchester County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Bedford Hills Correctional Facility: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Bedford Hills Correctional Facility in Bedford Hills NY. Securus phone service and tablets, visitation, and contact rules for the only maximum security women's prison in New York.",
+  seoTitle: "Bedford Hills Correctional Facility: Securus Phones and",
+  seoDescription: "How to contact someone at Bedford Hills Correctional Facility in Bedford Hills NY.",
 
   description:
     "Bedford Hills Correctional Facility communication guide. Securus phone service and tablets, visitation, and contact rules for families of inmates at New York's only maximum security women's prison.",
@@ -494,8 +494,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Dutchess County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "Fishkill Correctional Facility: Securus Phones and Contact Guide",
-  seoDescription: "How to contact someone at Fishkill Correctional Facility in Beacon NY. Securus phone service and tablets, visitation, and contact rules for this medium security NY DOCCS prison.",
+  seoTitle: "Fishkill Correctional Facility: Securus Phones and Contact",
+  seoDescription: "How to contact someone at Fishkill Correctional Facility in Beacon NY.",
 
   description:
     "Fishkill Correctional Facility communication guide. Securus phone service and tablets, visitation, and contact rules for families of inmates at this medium security prison in Beacon NY.",
@@ -589,7 +589,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Walker County",
   securityLevel: "Maximum",
   hasDetailPage: true,
-  seoTitle: "Allan B. Polunsky Unit: Securus Phones, Messaging and Contact Guide",
+  seoTitle: "Allan B. Polunsky Unit: Securus Phones, Messaging and",
   seoDescription: "How to contact someone at the Polunsky Unit in Livingston TX. Securus phone, eMessaging, video visitation and tablets. Texas male death row is housed here.",
 
   description:
@@ -666,7 +666,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   securityLevel: "Mixed",
   hasDetailPage: true,
   seoTitle: "Estelle Unit: Securus Phones, Messaging and Contact Guide",
-  seoDescription: "How to contact someone at the Estelle Unit in Huntsville TX. Securus phone, eMessaging, video visitation and tablets for this TDCJ prison with geriatric and medical facilities.",
+  seoDescription: "How to contact someone at the Estelle Unit in Huntsville TX.",
 
   description:
     "Estelle Unit communication guide. Securus phone, eMessaging, video visitation and tablets for families of inmates at this TDCJ prison in Huntsville TX.",
@@ -808,7 +808,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   securityLevel: "Mixed",
   hasDetailPage: true,
   seoTitle: "Ellis Unit: Securus Phones, Messaging and Contact Guide",
-  seoDescription: "How to contact someone at the Ellis Unit in Huntsville TX. Securus phone, eMessaging, video visitation and tablets for this TDCJ prison, former home of Texas male death row.",
+  seoDescription: "How to contact someone at the Ellis Unit in Huntsville TX.",
 
   description:
     "Ellis Unit communication guide. Securus phone, eMessaging, video visitation and tablets for families of inmates at this TDCJ prison in Huntsville TX.",
@@ -1032,7 +1032,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Santa Rosa County",
   securityLevel: "Mixed",
   hasDetailPage: true,
-  seoTitle: "Santa Rosa Correctional Institution: Phone and Visitation Guide",
+  seoTitle: "Santa Rosa Correctional Institution: Phone and Visitation",
   seoDescription: "How to contact someone at Santa Rosa Correctional Institution in Milton FL. Phone, visitation and deposit options for this Florida prison and its Annex.",
 
   description:
@@ -1291,7 +1291,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   securityLevel: "Low",
   hasDetailPage: true,
   seoTitle: "FCI Elkton: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FCI Elkton in Ohio. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this low security federal prison.",
+  seoDescription: "How to contact someone at FCI Elkton in Ohio.",
 
   description:
     "FCI Elkton communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this low security federal prison in Elkton OH.",
@@ -1398,7 +1398,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   securityLevel: "Low",
   hasDetailPage: true,
   seoTitle: "FCI Miami: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FCI Miami in Florida. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this low security federal prison.",
+  seoDescription: "How to contact someone at FCI Miami in Florida.",
 
   description:
     "FCI Miami communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this low security federal prison in Miami FL.",
@@ -1484,8 +1484,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Maricopa County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Phoenix: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FCI Phoenix in Arizona. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this medium security federal prison.",
+  seoTitle: "FCI Phoenix: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at FCI Phoenix in Arizona.",
 
   description:
     "FCI Phoenix communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this medium security federal prison in Phoenix AZ.",
@@ -1572,8 +1572,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Bowie County",
   securityLevel: "Low",
   hasDetailPage: true,
-  seoTitle: "FCI Texarkana: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FCI Texarkana in Texas. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this low security federal prison.",
+  seoTitle: "FCI Texarkana: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at FCI Texarkana in Texas.",
 
   description:
     "FCI Texarkana communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this low security federal prison in Texarkana TX.",
@@ -1680,8 +1680,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Fulton County",
   securityLevel: "Low",
   hasDetailPage: true,
-  seoTitle: "FCI Atlanta: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FCI Atlanta in Georgia. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this low security federal prison.",
+  seoTitle: "FCI Atlanta: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at FCI Atlanta in Georgia.",
 
   description:
     "FCI Atlanta communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this low security federal prison in Atlanta GA.",
@@ -1786,8 +1786,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Union County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Lewisburg: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FCI Lewisburg in Pennsylvania. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this medium security federal prison.",
+  seoTitle: "FCI Lewisburg: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at FCI Lewisburg in Pennsylvania.",
 
   description:
     "FCI Lewisburg communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this medium security federal prison in Lewisburg PA.",
@@ -1894,7 +1894,7 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   securityLevel: "High",
   hasDetailPage: true,
   seoTitle: "USP Tucson: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at USP Tucson in Arizona. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this high security federal prison.",
+  seoDescription: "How to contact someone at USP Tucson in Arizona.",
 
   description:
     "USP Tucson communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of inmates at this high security federal prison in Tucson AZ.",
@@ -1980,8 +1980,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Philadelphia County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "FDC Philadelphia: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at FDC Philadelphia in Pennsylvania. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this federal detention center.",
+  seoTitle: "FDC Philadelphia: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at FDC Philadelphia in Pennsylvania.",
 
   description:
     "FDC Philadelphia communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of pretrial and holdover inmates at this federal detention center in Philadelphia PA.",
@@ -2066,8 +2066,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Cook County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "MCC Chicago: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at MCC Chicago in Illinois. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this federal detention center.",
+  seoTitle: "MCC Chicago: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at MCC Chicago in Illinois.",
 
   description:
     "MCC Chicago communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of pretrial and holdover inmates at this federal detention center in Chicago IL.",
@@ -2152,8 +2152,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   countyName: "Los Angeles County",
   securityLevel: "Administrative",
   hasDetailPage: true,
-  seoTitle: "MDC Los Angeles: CorrLinks Messaging and Phone Guide for Families",
-  seoDescription: "How to contact someone at MDC Los Angeles in California. CorrLinks electronic messaging through TRULINCS, BOP phone calls, and visitation rules for this federal detention center.",
+  seoTitle: "MDC Los Angeles: CorrLinks Messaging and Phone Guide for",
+  seoDescription: "How to contact someone at MDC Los Angeles in California.",
 
   description:
     "MDC Los Angeles communication guide. CorrLinks messaging, BOP phone calls, and visitation rules for families of pretrial and holdover inmates at this federal detention center in Los Angeles CA.",

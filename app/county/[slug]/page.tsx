@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
+import Link from "next/link"
 import { COUNTY_DETAILS } from "@/lib/data/counties"
 import { ALL_FACILITIES } from "@/lib/data/facilities"
-import { buildWebPageSchema } from "@/lib/schema"
+import { generateCountyMetadata } from "@/lib/seo"
+import { buildFaqSchema, buildWebPageSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 
@@ -22,16 +24,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params
   const county = COUNTY_DETAILS[slug]
   if (!county) return {}
-  return {
-    title: `${county.name} Jail Communication Guide: Find the Right Provider`,
+  return generateCountyMetadata({
+    name: county.name,
+    slug,
     description: `Find the correct messaging, phone, and video provider for ${county.name} correctional facilities in ${county.stateName}. Avoid signing up for the wrong platform. Free directory updated for 2026.`,
-    alternates: { canonical: `/county/${slug}` },
-    openGraph: {
-      url: `/county/${slug}`,
-      title: `${county.name} Jail Communication Guide`,
-      description: `Find messaging, phone, video, and money transfer options for ${county.name} correctional facilities in ${county.stateName}.`,
-    },
-  }
+  })
 }
 
 export default async function CountyPage({ params }: PageProps) {
@@ -87,6 +84,11 @@ export default async function CountyPage({ params }: PageProps) {
           `${county.name} Jail and Prison Communication Guide`,
           `Find messaging, phone, video, and money transfer options for ${county.name} correctional facilities in ${county.stateName}.`,
           `/county/${county.slug}`
+        )}
+      />
+      <JsonLd
+        schema={buildFaqSchema(
+          faqItems.map((item) => ({ question: item.q, answer: item.a }))
         )}
       />
 
@@ -202,7 +204,7 @@ export default async function CountyPage({ params }: PageProps) {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {county.providers.map((provider) => (
-                    <a
+                    <Link
                       key={provider.slug}
                       href={`/provider/${provider.slug}`}
                       className="rounded-lg border p-4 hover:border-primary transition-colors"
@@ -211,7 +213,7 @@ export default async function CountyPage({ params }: PageProps) {
                       <div className="text-xs text-muted-foreground mt-1">
                         View setup guide and account instructions →
                       </div>
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -229,14 +231,14 @@ export default async function CountyPage({ params }: PageProps) {
                 <div className="space-y-2">
                   {county.featuredFacilities.map((facility) =>
                     FACILITY_SLUGS.has(facility.slug) ? (
-                      <a
+                      <Link
                         key={facility.slug}
                         href={`/facility/${facility.slug}`}
                         className="flex items-center justify-between rounded-lg border p-3 hover:border-primary transition-colors"
                       >
                         <span className="text-sm font-medium">{facility.name}</span>
                         <span className="text-xs text-primary">View communication guide →</span>
-                      </a>
+                      </Link>
                     ) : (
                       <div
                         key={facility.slug}
@@ -277,24 +279,24 @@ export default async function CountyPage({ params }: PageProps) {
             <div className="rounded-lg bg-muted/50 p-4 space-y-2">
               <h2 className="font-semibold text-sm">Related Resources</h2>
               <div className="flex flex-wrap gap-x-4 gap-y-1">
-                <a href="/guides/county-jail-vs-state-prison" className="text-sm text-primary hover:underline">
+                <Link href="/guides/county-jail-vs-state-prison" className="text-sm text-primary hover:underline">
                   County Jail vs State Prison Guide
-                </a>
-                <a href="/guides/how-to-find-an-inmate" className="text-sm text-primary hover:underline">
+                </Link>
+                <Link href="/guides/how-to-find-an-inmate" className="text-sm text-primary hover:underline">
                   How to Find an Inmate
-                </a>
-                <a href="/guides/how-to-set-up-inmate-email" className="text-sm text-primary hover:underline">
+                </Link>
+                <Link href="/guides/how-to-set-up-inmate-email" className="text-sm text-primary hover:underline">
                   How to Set Up Inmate Email
-                </a>
-                <a href="/guides/how-inmate-messaging-works" className="text-sm text-primary hover:underline">
+                </Link>
+                <Link href="/guides/how-inmate-messaging-works" className="text-sm text-primary hover:underline">
                   How Inmate Messaging Works
-                </a>
-                <a href="/providers" className="text-sm text-primary hover:underline">
+                </Link>
+                <Link href="/providers" className="text-sm text-primary hover:underline">
                   All Providers
-                </a>
-                <a href="/facilities" className="text-sm text-primary hover:underline">
+                </Link>
+                <Link href="/facilities" className="text-sm text-primary hover:underline">
                   All Facilities
-                </a>
+                </Link>
               </div>
             </div>
 

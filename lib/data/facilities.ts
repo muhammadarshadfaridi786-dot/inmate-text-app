@@ -696,7 +696,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     securityLevel: "Pretrial",
     hasDetailPage: true,
   },
-  // ─── Batch 2: Orphan Fixes — Georgia ───
+  // ─── Batch 2: Orphan Fixes, Georgia ───
   {
     id: "f-georgia-state-prison",
     name: "Georgia State Prison",
@@ -724,7 +724,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fixes — Indiana ───
+  // ─── Batch 2: Orphan Fixes, Indiana ───
   {
     id: "f-pendleton-cf",
     name: "Pendleton Correctional Facility",
@@ -752,7 +752,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fix — Virginia ───
+  // ─── Batch 2: Orphan Fix, Virginia ───
   {
     id: "f-sussex-i",
     name: "Sussex I State Prison",
@@ -767,7 +767,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fixes — Louisiana ───
+  // ─── Batch 2: Orphan Fixes, Louisiana ───
   {
     id: "f-elayn-hunt",
     name: "Elayn Hunt Correctional Center",
@@ -795,7 +795,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fix — Oklahoma ───
+  // ─── Batch 2: Orphan Fix, Oklahoma ───
   {
     id: "f-oklahoma-state-pen",
     name: "Oklahoma State Penitentiary",
@@ -810,7 +810,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fix — Ohio ───
+  // ─── Batch 2: Orphan Fix, Ohio ───
   {
     id: "f-chillicothe-ci",
     name: "Chillicothe Correctional Institution",
@@ -825,7 +825,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fix — Illinois ───
+  // ─── Batch 2: Orphan Fix, Illinois ───
   {
     id: "f-menard-cc",
     name: "Menard Correctional Center",
@@ -840,7 +840,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fix — Michigan ───
+  // ─── Batch 2: Orphan Fix, Michigan ───
   {
     id: "f-marquette-bp",
     name: "Marquette Branch Prison",
@@ -855,7 +855,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     hasDetailPage: true,
   },
 
-  // ─── Batch 2: Orphan Fix — North Carolina ───
+  // ─── Batch 2: Orphan Fix, North Carolina ───
   {
     id: "f-central-prison-nc",
     name: "Central Prison",

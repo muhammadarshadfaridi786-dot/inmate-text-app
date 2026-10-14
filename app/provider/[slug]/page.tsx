@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { PROVIDER_DETAILS } from "@/lib/data/providers"
 import { generateProviderMetadata } from "@/lib/seo"
-import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildReviewSchema, buildFAQSchema, buildProviderHowToSchema, buildSoftwareAppSchema } from "@/lib/schema"
+import { buildBreadcrumbSchema, buildProviderSchema, buildWebPageSchema, buildProviderHowToSchema, buildSoftwareAppSchema } from "@/lib/schema"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
@@ -80,27 +80,6 @@ export default async function ProviderPage({ params }: PageProps) {
         })}
       />
       <JsonLd schema={buildBreadcrumbSchema(breadcrumbItems)} />
-      {provider.rating && (
-        <JsonLd
-          schema={buildReviewSchema({
-            name: provider.name,
-            slug: provider.slug,
-            description: provider.description,
-            ratingValue: provider.rating ?? 7.5,
-            reviewCount: provider.reviewCount ?? 100,
-          })}
-        />
-      )}
-      {provider.faq && provider.faq.length > 0 && (
-        <JsonLd
-          schema={buildFAQSchema(
-            provider.faq.map((f) => ({
-              question: f.question,
-              answer: f.answer,
-            }))
-          )}
-        />
-      )}
       {provider.slug === "city-tele-coin" && (
         <JsonLd
           schema={buildSoftwareAppSchema({
@@ -109,6 +88,8 @@ export default async function ProviderPage({ params }: PageProps) {
             slug: "city-tele-coin",
             operatingSystem: "Android, iOS",
             applicationCategory: "UtilitiesApplication",
+            downloadUrl: provider.appInfo?.androidUrl,
+            installUrl: provider.appInfo?.iosUrl,
             rating: 3.3,
             ratingCount: 342,
           })}

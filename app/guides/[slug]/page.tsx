@@ -70,15 +70,15 @@ export default async function GuideDetailPage({ params }: PageProps) {
       {/* Structured data */}
       <JsonLd
         schema={buildWebPageSchema(
-          guide.seoTitle,
-          guide.seoDescription,
+          guide.seoTitle ?? guide.title,
+          guide.seoDescription ?? guide.excerpt,
           `/guides/${guide.slug}`
         )}
       />
       <JsonLd
         schema={buildArticleSchema({
-          title: guide.seoTitle,
-          description: guide.seoDescription,
+          title: guide.seoTitle ?? guide.title,
+          description: guide.seoDescription ?? guide.excerpt,
           slug: guide.slug,
           publishedAt: guide.publishedAt,
           updatedAt: guide.updatedAt,
@@ -87,14 +87,19 @@ export default async function GuideDetailPage({ params }: PageProps) {
       <JsonLd schema={buildBreadcrumbSchema(breadcrumbItems)} />
       {guide.faq.length > 0 && <JsonLd schema={buildFaqSchema(guide.faq)} />}
 
-      <JsonLd
-        schema={buildHowToSchema({
-          title: guide.title,
-          description: guide.seoDescription,
-          slug: guide.slug,
-          steps: guide.sections.map((s: { heading: string }) => s.heading),
-        })}
-      />
+      {guide.slug.startsWith("how-to-") && (
+        <JsonLd
+          schema={buildHowToSchema({
+            title: guide.title,
+            description: guide.seoDescription ?? guide.excerpt,
+            slug: guide.slug,
+            steps: guide.sections.map((s: { heading: string; body?: string[] }) => ({
+              name: s.heading,
+              text: s.body?.[0] ?? s.heading,
+            })),
+          })}
+        />
+      )}
 
       {/* Breadcrumb */}
       <PageWrapper className="flex justify-center pt-4">

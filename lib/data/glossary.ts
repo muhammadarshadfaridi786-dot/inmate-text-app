@@ -47,7 +47,7 @@ export function estimateReadingTime(term: GlossaryTermDetail): number {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// DETAILED TERM DATA — 15 seeded terms
+// DETAILED TERM DATA, 15 seeded terms
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
@@ -72,8 +72,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is Inmate Messaging?: Prison Communication Glossary",
-    seoDescription:
-      "Inmate messaging lets families send digital messages to incarcerated loved ones through platforms like JPay and CorrLinks. Learn how it works and what it costs.",
+    seoDescription: "Inmate messaging lets families send digital messages to incarcerated loved ones through platforms like JPay and CorrLinks. Learn how it works and what it costs.",
 
     faq: [
       {
@@ -128,8 +127,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is Video Visitation?: Prison Communication Glossary",
-    seoDescription:
-      "Video visitation lets families connect with incarcerated loved ones through a scheduled video call, without visiting the facility in person. Learn how it works.",
+    seoDescription: "Video visitation lets families connect with incarcerated loved ones through a scheduled video call, without visiting the facility in person. Learn how it works.",
 
     relatedTermSlugs: ["inmate-messaging", "visitation-rules", "county-jail", "inmate-phone-calls"],
     relatedProviderSlugs: ["gettingout", "connectnetwork", "jpay"],
@@ -184,8 +182,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Are Inmate Phone Calls?: Prison Communication Glossary",
-    seoDescription:
-      "Inmate phone calls are outgoing calls placed by incarcerated people to approved contacts. Learn how to receive calls, set up a prepaid account, and what they cost.",
+    seoDescription: "Inmate phone calls are outgoing calls placed by incarcerated people to approved contacts.",
 
     relatedTermSlugs: ["inmate-account", "money-transfer", "inmate-messaging", "video-visitation"],
     relatedProviderSlugs: ["connectnetwork", "gettingout"],
@@ -239,9 +236,8 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
       "Communication options differ significantly between these facility types. Federal inmates use CorrLinks for electronic messaging and ConnectNetwork for phone calls. State prison inmates commonly use JPay for messaging and money transfers. County jail inmates often use GettingOut or ConnectNetwork. Each facility also sets its own specific rules around visits, phone access, tablet availability, and approved contact lists. The facility's website or intake paperwork is usually the best source for this information.",
     ],
 
-    seoTitle: "What Is a Correctional Facility?: Prison Communication Glossary",
-    seoDescription:
-      "A correctional facility is any institution housing people under arrest or sentence, including federal prisons, state prisons, and county jails. Learn the key differences.",
+    seoTitle: "What Is a Correctional Facility?: Prison Communication",
+    seoDescription: "A correctional facility is any institution housing people under arrest or sentence, including federal prisons, state prisons, and county jails.",
 
     relatedTermSlugs: ["federal-prison", "state-prison", "county-jail", "inmate-search", "inmate-id-number"],
     relatedProviderSlugs: [],
@@ -296,8 +292,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is a Federal Prison?: Prison Communication Glossary",
-    seoDescription:
-      "A federal prison is a BOP facility holding people convicted of federal crimes. Learn about CorrLinks messaging, how to find an inmate, and how communication works.",
+    seoDescription: "A federal prison is a BOP facility holding people convicted of federal crimes.",
 
     relatedTermSlugs: ["correctional-facility", "state-prison", "county-jail", "electronic-messaging", "inmate-id-number"],
     relatedProviderSlugs: ["corrlinks", "connectnetwork"],
@@ -352,8 +347,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is a State Prison?: Prison Communication Glossary",
-    seoDescription:
-      "A state prison is a DOC-operated facility holding people convicted of state felonies. Learn about JPay messaging, how to find an inmate, and how communication works.",
+    seoDescription: "A state prison is a DOC-operated facility holding people convicted of state felonies.",
 
     relatedTermSlugs: ["correctional-facility", "federal-prison", "county-jail", "inmate-messaging", "inmate-id-number"],
     relatedProviderSlugs: ["jpay", "connectnetwork"],
@@ -408,8 +402,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is a County Jail?: Prison Communication Glossary",
-    seoDescription:
-      "A county jail is a local facility run by a sheriff's office that holds people awaiting trial or serving short sentences. Learn about GettingOut, phone calls, and visits.",
+    seoDescription: "A county jail is a local facility run by a sheriff's office that holds people awaiting trial or serving short sentences.",
 
     relatedTermSlugs: ["correctional-facility", "state-prison", "video-visitation", "inmate-messaging"],
     relatedProviderSlugs: ["gettingout", "connectnetwork"],
@@ -464,8 +457,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is an Inmate Account?: Prison Communication Glossary",
-    seoDescription:
-      "An inmate account (trust fund account) holds money sent by families for commissary, phone calls, and services. Learn how to send money and what fees to expect.",
+    seoDescription: "An inmate account (trust fund account) holds money sent by families for commissary, phone calls, and services. Learn how to send money and what fees to expect.",
 
     relatedTermSlugs: ["commissary", "money-transfer", "inmate-phone-calls", "inmate-id-number"],
     relatedProviderSlugs: ["jpay", "connectnetwork", "pigeonly"],
@@ -520,8 +512,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is Commissary in Prison?: Prison Communication Glossary",
-    seoDescription:
-      "Commissary is an in-facility store where incarcerated people buy food, hygiene items, and stationery using their inmate account. Learn how commissary works.",
+    seoDescription: "Commissary is an in-facility store where incarcerated people buy food, hygiene items, and stationery using their inmate account. Learn how commissary works.",
 
     relatedTermSlugs: ["inmate-account", "money-transfer", "inmate-tablet"],
     relatedProviderSlugs: ["jpay", "connectnetwork"],
@@ -575,9 +566,8 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
       "Before sending money, confirm the exact format of the inmate's ID number and the facility's full official name. Incorrect information can cause the deposit to be delayed or rejected. Most platforms let you save your loved one's information after the first successful transfer, making future deposits faster. Some facilities also have daily or monthly limits on the amount of money that can be deposited.",
     ],
 
-    seoTitle: "What Is an Inmate Money Transfer?: Prison Communication Glossary",
-    seoDescription:
-      "A money transfer sends funds to an inmate's account for commissary, phone calls, and other services. Learn how to send money, what fees to expect, and how long it takes.",
+    seoTitle: "What Is an Inmate Money Transfer?: Prison Communication",
+    seoDescription: "A money transfer sends funds to an inmate's account for commissary, phone calls, and other services.",
 
     relatedTermSlugs: ["commissary", "inmate-account", "inmate-phone-calls"],
     relatedProviderSlugs: ["jpay", "connectnetwork", "pigeonly"],
@@ -631,9 +621,8 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
       "Electronic messaging is faster than physical mail but is not instant. Most messages are delivered within a few hours to one business day once the review process is complete. The key advantages over physical mail are speed, the ability to include digital photos where the facility permits, and the convenience of managing communication from a phone or computer. The key limitation is that all messages are reviewed by facility staff and can be accessed by correctional officers at any time.",
     ],
 
-    seoTitle: "What Is Electronic Messaging for Inmates?: Prison Communication Glossary",
-    seoDescription:
-      "Electronic messaging lets families send digital messages to incarcerated loved ones through platforms like JPay and CorrLinks. Learn how it differs from regular email.",
+    seoTitle: "What Is Electronic Messaging for Inmates?: Prison",
+    seoDescription: "Electronic messaging lets families send digital messages to incarcerated loved ones through platforms like JPay and CorrLinks.",
 
     relatedTermSlugs: ["inmate-messaging", "inmate-tablet", "federal-prison", "state-prison"],
     relatedProviderSlugs: ["corrlinks", "jpay", "textbehind", "smartinmate"],
@@ -688,8 +677,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is an Inmate Tablet?: Prison Communication Glossary",
-    seoDescription:
-      "An inmate tablet is a restricted device used in correctional facilities for messaging, education, and entertainment. Learn how they work and how families can use them.",
+    seoDescription: "An inmate tablet is a restricted device used in correctional facilities for messaging, education, and entertainment.",
 
     relatedTermSlugs: ["electronic-messaging", "inmate-messaging", "video-visitation", "commissary"],
     relatedProviderSlugs: ["jpay", "smartinmate"],
@@ -743,9 +731,8 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
       "Remote video visits have become a common alternative to in-person visits at many facilities. The rules for video visits are managed separately through the facility's contracted video platform and do not follow the same dress code or ID requirements as in-person visits. Remote visits still require the family member to be on an approved contact list. Many families use video visits for regular contact and save in-person visits for special occasions, since in-person visits require more planning and may be limited in frequency.",
     ],
 
-    seoTitle: "What Are Prison Visitation Rules?: Prison Communication Glossary",
-    seoDescription:
-      "Visitation rules set by each correctional facility govern who can visit, how to schedule visits, and what to bring. Learn what to expect for in-person and video visits.",
+    seoTitle: "What Are Prison Visitation Rules?: Prison Communication",
+    seoDescription: "Visitation rules set by each correctional facility govern who can visit, how to schedule visits, and what to bring.",
 
     relatedTermSlugs: ["video-visitation", "county-jail", "state-prison", "federal-prison"],
     relatedProviderSlugs: ["gettingout", "connectnetwork"],
@@ -800,8 +787,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is an Inmate ID Number?: Prison Communication Glossary",
-    seoDescription:
-      "An inmate ID number is a unique code used across all prison systems to identify an incarcerated person. Learn about BOP register numbers, CDCR numbers, and DOC numbers.",
+    seoDescription: "An inmate ID number is a unique code used across all prison systems to identify an incarcerated person.",
 
     relatedTermSlugs: ["inmate-search", "inmate-account", "federal-prison", "state-prison"],
     relatedProviderSlugs: [],
@@ -856,8 +842,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
     ],
 
     seoTitle: "What Is an Inmate Search?: Prison Communication Glossary",
-    seoDescription:
-      "An inmate search uses an official database to find where someone is incarcerated. Learn how to use the BOP inmate locator and state DOC search tools.",
+    seoDescription: "An inmate search uses an official database to find where someone is incarcerated. Learn how to use the BOP inmate locator and state DOC search tools.",
 
     relatedTermSlugs: ["inmate-id-number", "correctional-facility", "federal-prison", "state-prison", "county-jail"],
     relatedProviderSlugs: [],
@@ -2891,7 +2876,7 @@ export const TERM_DETAILS: Record<string, GlossaryTermDetail> = {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// ALL TERMS — flat array for directory (featured first, then alphabetical)
+// ALL TERMS, flat array for directory (featured first, then alphabetical)
 // ─────────────────────────────────────────────────────────────────────────────
 
 function toBasic(d: GlossaryTermDetail): GlossaryTermBasic {

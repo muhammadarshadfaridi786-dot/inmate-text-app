@@ -1,7 +1,7 @@
 import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 8 (25 facilities, Phase 2 expansion)
+// FACILITY DETAILS, Batch 8 (25 facilities, Phase 2 expansion)
 // ─────────────────────────────────────────────
 
 export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
@@ -1158,7 +1158,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["essex-county-correctional-facility", "brooklyn-detention-complex", "rikers-island"],
+  relatedFacilitySlugs: ["essex-county-correctional-facility", "mdc-brooklyn", "rikers-island"],
 },
 
 "hudson-county-correctional-center": {
@@ -1263,7 +1263,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["essex-county-correctional-facility", "brooklyn-detention-complex", "rikers-island"],
+  relatedFacilitySlugs: ["essex-county-correctional-facility", "mdc-brooklyn", "rikers-island"],
 },
 
 "middlesex-jail-and-house-of-correction": {

@@ -1,7 +1,7 @@
 import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 7 (25 facilities, Phase 2 expansion)
+// FACILITY DETAILS, Batch 7 (25 facilities, Phase 2 expansion)
 // ─────────────────────────────────────────────
 
 export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {

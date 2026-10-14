@@ -1,7 +1,7 @@
 ﻿import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 1 (Original 50 facilities)
+// FACILITY DETAILS, Batch 1 (Original 50 facilities)
 // ─────────────────────────────────────────────
 
 export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
@@ -19,7 +19,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "San Quentin: Free Calls, Securus Setup and Inmate Messaging",
-    seoDescription: "How to contact someone at San Quentin Rehabilitation Center. Phone calls from CDCR are free under SB 1008. Securus replaced ViaPath. Find messaging and visit options at 415-454-1460.",
+    seoDescription: "How to contact someone at San Quentin Rehabilitation Center. Phone calls from CDCR are free under SB 1008. Securus replaced ViaPath.",
 
     description:
       "San Quentin State Prison communication guide. Find messaging, video visitation, and phone options. Compare JPay and Securus services for families staying connected.",
@@ -27,9 +27,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "San Quentin State Prison, located on the shores of San Francisco Bay in Marin County, is California's oldest correctional institution and one of the most well-known prisons in the United States. Opened in 1852, the facility has housed some of California's most serious offenders and has also been home to noteworthy educational and rehabilitation programs. In recent years, California has announced plans to transform the facility into a rehabilitation and education campus, which may affect future operations and communication arrangements. For now, the standard communication systems used across California Department of Corrections and Rehabilitation facilities remain in place.",
 
-      "Communication at San Quentin is primarily handled through two platforms. JPay manages electronic messaging, photo sharing, and money transfers for incarcerated individuals at the facility, while Securus handles phone calls and video visitation. Families who want to send messages or photos need to create a JPay account, fund it with stamps, and address messages to the correct inmate ID. For phone calls, families can add funds to a Securus AdvancePay account, which allows inmates to call directly from their housing unit. Video visits are also managed through Securus and must be scheduled in advance — same-day bookings are not typically available, and slots fill up quickly around weekends and holidays.",
+      "Communication at San Quentin is primarily handled through two platforms. JPay manages electronic messaging, photo sharing, and money transfers for incarcerated individuals at the facility, while Securus handles phone calls and video visitation. Families who want to send messages or photos need to create a JPay account, fund it with stamps, and address messages to the correct inmate ID. For phone calls, families can add funds to a Securus AdvancePay account, which allows inmates to call directly from their housing unit. Video visits are also managed through Securus and must be scheduled in advance, same-day bookings are not typically available, and slots fill up quickly around weekends and holidays.",
 
-      "For families new to the system, the most common challenge is understanding that JPay and Securus are separate platforms requiring separate accounts. Messaging credits purchased on JPay cannot be used for phone calls or video visits, and phone funds in a Securus account cannot pay for messaging. Setting up both accounts before your first contact attempt will save significant time. The facility does not directly process communication requests — all account setup, funding, and scheduling must be done through the provider platforms directly. This guide provides direct pathways to those platforms and the most current information on available services.",
+      "For families new to the system, the most common challenge is understanding that JPay and Securus are separate platforms requiring separate accounts. Messaging credits purchased on JPay cannot be used for phone calls or video visits, and phone funds in a Securus account cannot pay for messaging. Setting up both accounts before your first contact attempt will save significant time. The facility does not directly process communication requests, all account setup, funding, and scheduling must be done through the provider platforms directly. This guide provides direct pathways to those platforms and the most current information on available services.",
     ],
 
     address: "100 Main Street, San Quentin, CA 94964",
@@ -153,8 +153,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Wyoming County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Attica Correctional Facility: Phone Calls, Visits and Messaging",
-    seoDescription: "How to contact someone at Attica Correctional Facility in NY. Set up phone calls, schedule visits by last name group, send money and messages. DIN number required for all contact.",
+    seoTitle: "Attica Correctional Facility: Phone Calls, Visits and",
+    seoDescription: "How to contact someone at Attica Correctional Facility in NY. Set up phone calls, schedule visits by last name group, send money and messages.",
 
     description:
       "Attica Correctional Facility communication guide. Find messaging, video, and phone options for families. Compare JPay and Securus services at Attica.",
@@ -288,18 +288,18 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Sumter County",
     securityLevel: "Low / Medium / High",
     hasDetailPage: true,
-    seoTitle: "FCC Coleman: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at Federal Correctional Complex Coleman in Florida. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP facility in Sumter County FL.",
+    seoTitle: "FCC Coleman: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at Federal Correctional Complex Coleman in Florida. CorrLinks for messaging. ConnectNetwork for phone calls.",
 
     description:
       "Federal Correctional Complex Coleman communication guide. Find CorrLinks messaging, BOP phone, and video options for families of federal inmates in Sumter County, Florida.",
 
     overview: [
-      "Federal Correctional Complex Coleman, located in Sumter County in central Florida, is one of the largest federal correctional campuses in the United States. The complex encompasses multiple institutions operating at different security levels — Coleman Low, Coleman Medium, Coleman II Medium, Coleman USP (United States Penitentiary), and an adjacent Federal Detention Center. Together these facilities house thousands of federal inmates under Bureau of Prisons jurisdiction. The complex is located near the town of Coleman, roughly midway between Tampa and Orlando, in a largely rural part of the state.",
+      "Federal Correctional Complex Coleman, located in Sumter County in central Florida, is one of the largest federal correctional campuses in the United States. The complex encompasses multiple institutions operating at different security levels, Coleman Low, Coleman Medium, Coleman II Medium, Coleman USP (United States Penitentiary), and an adjacent Federal Detention Center. Together these facilities house thousands of federal inmates under Bureau of Prisons jurisdiction. The complex is located near the town of Coleman, roughly midway between Tampa and Orlando, in a largely rural part of the state.",
 
-      "All communication at FCC Coleman operates under Bureau of Prisons rules, which differ significantly from state or county systems. Electronic messaging is handled exclusively through CorrLinks — the federal email system operated under the TRULINCS program. To correspond electronically, families must be invited by the inmate or submit a contact request through CorrLinks after the inmate has initiated contact. CorrLinks is a paid service with per-message fees, and families need to create and fund an account at corrlinks.com. Phone calls are handled through the BOP's ITS (Inmate Telephone System), and families can add funds to a prepaid account at connectnetwork.com or through the Global Tel Link platform contracted by BOP.",
+      "All communication at FCC Coleman operates under Bureau of Prisons rules, which differ significantly from state or county systems. Electronic messaging is handled exclusively through CorrLinks, the federal email system operated under the TRULINCS program. To correspond electronically, families must be invited by the inmate or submit a contact request through CorrLinks after the inmate has initiated contact. CorrLinks is a paid service with per-message fees, and families need to create and fund an account at corrlinks.com. Phone calls are handled through the BOP's ITS (Inmate Telephone System), and families can add funds to a prepaid account at connectnetwork.com or through the Global Tel Link platform contracted by BOP.",
 
-      "Video visitation at FCC Coleman is available but operates under stricter policies than most county or state systems. BOP video visits are managed through TRULINCS and typically require advance scheduling through the facility, not through a consumer app. The approval process for contacts and visitors can take longer at federal facilities than at state or county jails — families should plan several weeks in advance if possible, particularly for first-time communication setup. Mail and money transfers follow standard BOP procedures, with funds sent to the inmate's commissary account through BOP's formal money transfer processes.",
+      "Video visitation at FCC Coleman is available but operates under stricter policies than most county or state systems. BOP video visits are managed through TRULINCS and typically require advance scheduling through the facility, not through a consumer app. The approval process for contacts and visitors can take longer at federal facilities than at state or county jails, families should plan several weeks in advance if possible, particularly for first-time communication setup. Mail and money transfers follow standard BOP procedures, with funds sent to the inmate's commissary account through BOP's formal money transfer processes.",
     ],
 
     address: "846 NE 54th Terrace, Coleman, FL 33521",
@@ -391,7 +391,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "Can I send photos to someone at FCC Coleman?",
         answer:
-          "Physical photos can be sent by mail and must comply with Bureau of Prisons content guidelines — no nudity, no violence, no contraband depictions. There is no digital photo service available at federal BOP facilities like FCC Coleman. Photos are reviewed upon arrival and may be rejected if they violate facility rules.",
+          "Physical photos can be sent by mail and must comply with Bureau of Prisons content guidelines, no nudity, no violence, no contraband depictions. There is no digital photo service available at federal BOP facilities like FCC Coleman. Photos are reviewed upon arrival and may be rejected if they violate facility rules.",
       },
       {
         question: "How do I send money to an FCC Coleman inmate?",
@@ -421,17 +421,17 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Multiple",
     hasDetailPage: true,
     seoTitle: "Rikers Island: Free Calls, GTL Setup and NYC Jail Messaging",
-    seoDescription: "How to contact someone at Rikers Island NYC. Phone calls from NYC jails are free since 2019. GTL ConnectNetwork handles communication. Find messaging and visit options at Rikers.",
+    seoDescription: "How to contact someone at Rikers Island NYC. Phone calls from NYC jails are free since 2019. GTL ConnectNetwork handles communication.",
 
     description:
       "Rikers Island communication guide. Find messaging, video visitation, and phone options for NYC DOC facilities. Learn how GTL services work for families in New York City.",
 
     overview: [
-      "Rikers Island is New York City's primary jail complex, situated on a 413-acre island in the East River between Queens and the Bronx. Operated by the New York City Department of Correction, the complex houses multiple individual jails serving different populations — men, women, adolescents, and those with specific medical or mental health needs. On any given day, the island holds anywhere from 5,000 to 8,000 people, the vast majority of whom are in pretrial detention awaiting court proceedings. New York City has announced plans to close Rikers Island and replace it with a network of smaller borough-based facilities, though the transition is ongoing and the main complex remains in operation.",
+      "Rikers Island is New York City's primary jail complex, situated on a 413-acre island in the East River between Queens and the Bronx. Operated by the New York City Department of Correction, the complex houses multiple individual jails serving different populations, men, women, adolescents, and those with specific medical or mental health needs. On any given day, the island holds anywhere from 5,000 to 8,000 people, the vast majority of whom are in pretrial detention awaiting court proceedings. New York City has announced plans to close Rikers Island and replace it with a network of smaller borough-based facilities, though the transition is ongoing and the main complex remains in operation.",
 
-      "Communication at Rikers Island operates through New York City DOC contracts with GTL. Phone calls, video visitation, and electronic messaging all run through GTL's platform, which means families only need a single account to access multiple services. For phone calls, families can set up a GTL prepaid account or a direct-bill account linked to their phone number. Video visits are available and can be scheduled remotely through the GTL app or website, which is a significant convenience for families who cannot easily travel to the island in person. Electronic messaging — referred to as IntelliMail within the GTL system — allows families to send messages that are printed and delivered to the inmate as paper correspondence.",
+      "Communication at Rikers Island operates through New York City DOC contracts with GTL. Phone calls, video visitation, and electronic messaging all run through GTL's platform, which means families only need a single account to access multiple services. For phone calls, families can set up a GTL prepaid account or a direct-bill account linked to their phone number. Video visits are available and can be scheduled remotely through the GTL app or website, which is a significant convenience for families who cannot easily travel to the island in person. Electronic messaging, referred to as IntelliMail within the GTL system, allows families to send messages that are printed and delivered to the inmate as paper correspondence.",
 
-      "One important distinction for families is that Rikers Island houses people under NYC DOC jurisdiction, not New York State DOCCS. This means JPay — which is used for state facilities — is not the right platform for Rikers inmates. Using JPay to try to reach someone at Rikers will not work. Similarly, if a loved one is transferred from Rikers to a state facility upstate, the provider will change and a new account may be needed. Confirming the current facility and jurisdiction before setting up any accounts is always the right first step when someone is newly detained or has been transferred.",
+      "One important distinction for families is that Rikers Island houses people under NYC DOC jurisdiction, not New York State DOCCS. This means JPay, which is used for state facilities, is not the right platform for Rikers inmates. Using JPay to try to reach someone at Rikers will not work. Similarly, if a loved one is transferred from Rikers to a state facility upstate, the provider will change and a new account may be needed. Confirming the current facility and jurisdiction before setting up any accounts is always the right first step when someone is newly detained or has been transferred.",
     ],
 
     address: "Rikers Island, East River, New York, NY 10035",
@@ -454,7 +454,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "All Rikers Island communication services — messaging, video, phone, and money — run through GTL.",
+        notes: "All Rikers Island communication services, messaging, video, phone, and money, run through GTL.",
       },
     ],
 
@@ -498,7 +498,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "What provider do I use to contact someone at Rikers Island?",
         answer:
-          "All communication services at Rikers Island — phone calls, video visits, electronic messaging, and money transfers — are handled by GTL (Global Tel Link). Create a single GTL account at telmate.com or through the GTL Connect app. You will not need separate accounts for different services as long as your loved one remains at a NYC DOC facility.",
+          "All communication services at Rikers Island, phone calls, video visits, electronic messaging, and money transfers, are handled by GTL (Global Tel Link). Create a single GTL account at telmate.com or through the GTL Connect app. You will not need separate accounts for different services as long as your loved one remains at a NYC DOC facility.",
       },
       {
         question: "Can I do a video visit with someone at Rikers Island?",
@@ -542,7 +542,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Pretrial",
     hasDetailPage: true,
     seoTitle: "Cook County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Cook County Jail in Chicago. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Illinois county facility.",
+    seoDescription: "How to contact someone at Cook County Jail in Chicago.",
 
     description:
       "Cook County Jail communication guide. Find phone, video, and messaging options for families. Learn how Securus services work at the Chicago jail complex.",
@@ -550,9 +550,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Cook County Jail is one of the largest single-site county jails in the United States, located in Chicago on the near west side of the city. Operated by the Cook County Sheriff's Office, the facility houses tens of thousands of people annually, the majority of whom are in pretrial detention awaiting court proceedings in the Cook County court system. The complex spans multiple divisions and buildings, with specialized units for different populations and needs. Given its scale and the constant flow of people through the system, communication access is an everyday priority for thousands of families in the Chicago area.",
 
-      "Communication at Cook County Jail is managed through Securus Technologies, which provides phone calls, video visitation, and electronic messaging services for the facility. Families can create a Securus account at securustech.net or through the Securus app to access all available services. For phone calls, setting up a prepaid AdvancePay account or a Direct Bill account linked to your phone number allows you to receive inmate-initiated calls. Video visitation is available remotely and must be scheduled in advance — same-day booking is rarely available at this volume, so planning ahead is strongly recommended, especially around weekends and court dates.",
+      "Communication at Cook County Jail is managed through Securus Technologies, which provides phone calls, video visitation, and electronic messaging services for the facility. Families can create a Securus account at securustech.net or through the Securus app to access all available services. For phone calls, setting up a prepaid AdvancePay account or a Direct Bill account linked to your phone number allows you to receive inmate-initiated calls. Video visitation is available remotely and must be scheduled in advance, same-day booking is rarely available at this volume, so planning ahead is strongly recommended, especially around weekends and court dates.",
 
-      "Electronic messaging at Cook County Jail is available through Securus's messaging platform, which delivers messages electronically within the facility rather than printing them as paper mail. Money transfers for commissary accounts can also be processed through Securus. Because the jail primarily holds pretrial inmates, population movement can be significant — someone booked at Cook County may be transferred to another facility after sentencing or a court decision, which could change the communication platform entirely. Verifying the current location before setting up or funding an account helps avoid paying into a system the inmate can no longer access.",
+      "Electronic messaging at Cook County Jail is available through Securus's messaging platform, which delivers messages electronically within the facility rather than printing them as paper mail. Money transfers for commissary accounts can also be processed through Securus. Because the jail primarily holds pretrial inmates, population movement can be significant, someone booked at Cook County may be transferred to another facility after sentencing or a court decision, which could change the communication platform entirely. Verifying the current location before setting up or funding an account helps avoid paying into a system the inmate can no longer access.",
     ],
 
     address: "2700 S. California Avenue, Chicago, IL 60608",
@@ -662,18 +662,18 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Del Norte County",
     securityLevel: "Maximum / SHU",
     hasDetailPage: true,
-    seoTitle: "Pelican Bay: Free Calls, Securus Transition and Messaging Guide",
-    seoDescription: "How to contact someone at Pelican Bay State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options.",
+    seoTitle: "Pelican Bay: Free Calls, Securus Transition and Messaging",
+    seoDescription: "How to contact someone at Pelican Bay State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath.",
 
     description:
       "Pelican Bay State Prison communication guide. Find JPay messaging and phone options for families. Learn about communication restrictions at this maximum-security California facility.",
 
     overview: [
-      "Pelican Bay State Prison is a maximum-security facility located in Del Norte County in the far northern corner of California, near the Oregon border. Opened in 1989, it was designed specifically to house California's most serious and gang-affiliated offenders. The facility is perhaps best known for its Security Housing Unit, or SHU — a restrictive housing program where inmates are held in near-complete isolation for extended periods. Following legal settlements and California CDCR policy changes in the mid-2010s, the SHU program has been significantly reformed, but Pelican Bay remains one of the state's most restrictive facilities in terms of programs, privileges, and communication access.",
+      "Pelican Bay State Prison is a maximum-security facility located in Del Norte County in the far northern corner of California, near the Oregon border. Opened in 1989, it was designed specifically to house California's most serious and gang-affiliated offenders. The facility is perhaps best known for its Security Housing Unit, or SHU, a restrictive housing program where inmates are held in near-complete isolation for extended periods. Following legal settlements and California CDCR policy changes in the mid-2010s, the SHU program has been significantly reformed, but Pelican Bay remains one of the state's most restrictive facilities in terms of programs, privileges, and communication access.",
 
       "Communication options at Pelican Bay are available but more limited than at general-population California state prisons. JPay is the primary platform for electronic messaging and money transfers, as it is across the CDCR system. Families can send messages and photos through JPay using the inmate's CDCR number. Phone calls are managed by Securus and are available for most general-population inmates, though those in more restrictive housing assignments may have reduced or restricted phone access depending on their current status and programming level. Families should confirm the inmate's current housing assignment and program status, as this directly affects what communication is permitted.",
 
-      "Video visitation at Pelican Bay is available for some inmates but can be subject to restrictions based on housing status. Remote video visits through Securus are the standard approach, but families should verify eligibility before booking. Because the facility is so remote — it is more than 350 miles from San Francisco and more than 400 miles from Los Angeles — in-person visits are logistically difficult for many families, making electronic communication options especially important. Setting up JPay and Securus accounts in advance of any visit or attempted contact is strongly recommended.",
+      "Video visitation at Pelican Bay is available for some inmates but can be subject to restrictions based on housing status. Remote video visits through Securus are the standard approach, but families should verify eligibility before booking. Because the facility is so remote, it is more than 350 miles from San Francisco and more than 400 miles from Los Angeles, in-person visits are logistically difficult for many families, making electronic communication options especially important. Setting up JPay and Securus accounts in advance of any visit or attempted contact is strongly recommended.",
     ],
 
     address: "5905 Lake Earl Drive, Crescent City, CA 95531",
@@ -745,7 +745,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       "Communication privileges may be reduced or suspended based on the inmate's housing and disciplinary status.",
       "SHU or restricted housing assignments may limit phone, video, and messaging access.",
       "All communications are monitored and subject to CDCR review.",
-      "The remote location makes in-person visits logistically difficult — electronic options are especially important here.",
+      "The remote location makes in-person visits logistically difficult, electronic options are especially important here.",
       "Confirm the inmate's current housing assignment before setting up or funding any account.",
     ],
 
@@ -797,8 +797,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Sacramento County",
     securityLevel: "Level II / IV",
     hasDetailPage: true,
-    seoTitle: "Folsom Prison: Free Calls, Securus Transition and Messaging Guide",
-    seoDescription: "How to contact someone at Folsom State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options at Folsom.",
+    seoTitle: "Folsom Prison: Free Calls, Securus Transition and Messaging",
+    seoDescription: "How to contact someone at Folsom State Prison in California. CDCR phone calls are free under SB 1008. Securus replaced ViaPath.",
 
     description:
       "Folsom State Prison communication guide. Find JPay, Securus messaging, video, and phone options for families. Learn how to stay connected with inmates at California's historic Folsom facility.",
@@ -808,7 +808,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
       "Communication at Folsom operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers for inmates at the facility. Families can send messages and digital photos through their JPay account using the inmate's CDCR identification number. Securus manages phone calls and video visitation. For phone calls, families set up a Securus AdvancePay or Direct Bill account linked to their phone number. Video visits are available remotely through Securus and can be scheduled in advance through the Securus website or app. Compared to higher-security facilities like Pelican Bay, Folsom has broader communication access given its lower-security Level II population.",
 
-      "One practical note for families: Sacramento County and the broader Sacramento area have good transit access to Folsom, making in-person visits more feasible than at remote facilities. However, many families still rely primarily on electronic communication between in-person visits, and having active JPay and Securus accounts allows for more frequent contact. Money transfers through JPay for commissary are a common way families support incarcerated loved ones with personal items beyond what the state provides. Understanding both platforms — JPay for messaging and money, Securus for phone and video — gives families the full range of available options.",
+      "One practical note for families: Sacramento County and the broader Sacramento area have good transit access to Folsom, making in-person visits more feasible than at remote facilities. However, many families still rely primarily on electronic communication between in-person visits, and having active JPay and Securus accounts allows for more frequent contact. Money transfers through JPay for commissary are a common way families support incarcerated loved ones with personal items beyond what the state provides. Understanding both platforms, JPay for messaging and money, Securus for phone and video, gives families the full range of available options.",
     ],
 
     address: "300 Prison Road, Represa, CA 95671",
@@ -934,7 +934,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Sing Sing: Free NY State Calls, Messaging and Visit Guide",
-    seoDescription: "How to contact someone at Sing Sing Correctional Facility in Ossining NY. New York state prison calls are free. GTL ConnectNetwork handles communication. DIN number required.",
+    seoDescription: "How to contact someone at Sing Sing Correctional Facility in Ossining NY. New York state prison calls are free. GTL ConnectNetwork handles communication.",
 
     description:
       "Sing Sing Correctional Facility communication guide. Find JPay messaging and Securus phone options for families. Learn how to stay connected with inmates at Sing Sing in Ossining, New York.",
@@ -942,9 +942,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Sing Sing Correctional Facility is a maximum-security state prison located in the village of Ossining in Westchester County, New York, approximately 30 miles north of New York City along the Hudson River. Operated by the New York State Department of Corrections and Community Supervision, the facility was established in 1826 and takes its name from the Sint Sinck Native American tribe that inhabited the area. Sing Sing has housed some of the most notable names in American criminal history and remains a landmark in discussions of the American correctional system. Today it houses maximum-security adult male inmates and has been recognized for active programming and education initiatives.",
 
-      "Communication at Sing Sing follows New York State DOCCS contracts. JPay is the primary platform for electronic messaging, photo sharing, and trust account money transfers. Families create a JPay account and link an inmate using their DOCCS DIN number to begin correspondence. Messages are subject to staff review before delivery. Phone calls are managed by Securus Technologies — families can set up a Securus prepaid account at securustech.net to fund calls and receive inmate-initiated phone contact. Video visitation is also available through Securus, which manages both phone and video services under the DOCCS contract.",
+      "Communication at Sing Sing follows New York State DOCCS contracts. JPay is the primary platform for electronic messaging, photo sharing, and trust account money transfers. Families create a JPay account and link an inmate using their DOCCS DIN number to begin correspondence. Messages are subject to staff review before delivery. Phone calls are managed by Securus Technologies, families can set up a Securus prepaid account at securustech.net to fund calls and receive inmate-initiated phone contact. Video visitation is also available through Securus, which manages both phone and video services under the DOCCS contract.",
 
-      "Sing Sing's location in Westchester County makes it one of the more accessible state facilities for families in the New York City metro area compared to upstate facilities like Attica. Many families combine in-person visits with JPay messaging and Securus phone calls to maintain more regular contact. If your loved one is transferred between state facilities — a common occurrence within DOCCS — the provider will remain the same (JPay for messaging, Securus for phone), as these contracts are system-wide rather than facility-specific. This means accounts and contact lists you establish for Sing Sing should carry over to other DOCCS facilities without needing a full re-setup.",
+      "Sing Sing's location in Westchester County makes it one of the more accessible state facilities for families in the New York City metro area compared to upstate facilities like Attica. Many families combine in-person visits with JPay messaging and Securus phone calls to maintain more regular contact. If your loved one is transferred between state facilities, a common occurrence within DOCCS, the provider will remain the same (JPay for messaging, Securus for phone), as these contracts are system-wide rather than facility-specific. This means accounts and contact lists you establish for Sing Sing should carry over to other DOCCS facilities without needing a full re-setup.",
     ],
 
     address: "354 Hunter Street, Ossining, NY 10562",
@@ -1017,7 +1017,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       "Electronic messages are reviewed by DOCCS staff before reaching the inmate.",
       "JPay handles messaging and money; Securus handles phone and video. Separate accounts are required.",
       "DOCCS contacts and visitor lists apply system-wide and carry over if the inmate is transferred.",
-      "Inmate-initiated calls only via Securus — you cannot call the facility to speak with an inmate.",
+      "Inmate-initiated calls only via Securus, you cannot call the facility to speak with an inmate.",
     ],
 
     faq: [
@@ -1069,15 +1069,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
     seoTitle: "Miami-Dade Jail: Securus Phone, GTL Video and TouchPay Money",
-    seoDescription: "How to contact someone at Miami-Dade Corrections. Securus for phone calls at 972-734-1111. GTL ConnectNetwork for video visits. TouchPay for money transfers at 1-866-232-1899.",
+    seoDescription: "How to contact someone at Miami-Dade Corrections. Securus for phone calls at 972-734-1111. GTL ConnectNetwork for video visits.",
 
     description:
       "Miami-Dade Corrections Facility communication guide. Find GTL phone, video, and messaging options for families. Learn how to stay connected at Miami-Dade County detention facilities.",
 
     overview: [
-      "Miami-Dade Corrections and Rehabilitation is the county agency responsible for operating the detention and corrections system in Miami-Dade County, Florida. The agency runs multiple facilities across the county, including the Turner Guilford Knight Correctional Center — the primary intake and pre-trial facility — and the Pre-Trial Detention Center in downtown Miami. The system serves one of the most diverse populations in the country, with significant Spanish-speaking and multilingual communities, and the department provides some bilingual support through its services. The Miami-Dade jail system handles both short-term pre-trial detention and post-conviction sentences for misdemeanor and some felony offenders.",
+      "Miami-Dade Corrections and Rehabilitation is the county agency responsible for operating the detention and corrections system in Miami-Dade County, Florida. The agency runs multiple facilities across the county, including the Turner Guilford Knight Correctional Center, the primary intake and pre-trial facility, and the Pre-Trial Detention Center in downtown Miami. The system serves one of the most diverse populations in the country, with significant Spanish-speaking and multilingual communities, and the department provides some bilingual support through its services. The Miami-Dade jail system handles both short-term pre-trial detention and post-conviction sentences for misdemeanor and some felony offenders.",
 
-      "Communication at Miami-Dade county facilities is managed through GTL, which provides phone calls, video visitation, and electronic messaging under the county's provider contract. Families can create a single GTL account to access all available services. For phone calls, set up a GTL prepaid account linked to your phone number to receive inmate-initiated calls. Remote video visits are available and can be scheduled through the GTL platform — they are especially useful for families who live outside Miami-Dade or who have transportation challenges. Electronic messaging through GTL allows families to send messages that are delivered digitally at participating facilities within the system.",
+      "Communication at Miami-Dade county facilities is managed through GTL, which provides phone calls, video visitation, and electronic messaging under the county's provider contract. Families can create a single GTL account to access all available services. For phone calls, set up a GTL prepaid account linked to your phone number to receive inmate-initiated calls. Remote video visits are available and can be scheduled through the GTL platform, they are especially useful for families who live outside Miami-Dade or who have transportation challenges. Electronic messaging through GTL allows families to send messages that are delivered digitally at participating facilities within the system.",
 
       "If your loved one is transferred after sentencing from a Miami-Dade county facility to a Florida Department of Corrections state prison, you will need to switch to JPay for messaging and money transfers. State facilities use JPay under a separate FDOC contract, not GTL. Families who have been using a GTL account at the county level will need to create a new JPay account when this transition happens. Checking the facility type and jurisdiction before setting up any account is the most reliable way to avoid funding a platform that no longer applies to your situation.",
     ],
@@ -1189,7 +1189,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Pretrial",
     hasDetailPage: true,
     seoTitle: "Harris County Jail: Securus Phone, JPay Money and Mail Info",
-    seoDescription: "How to contact someone at Harris County Jail in Houston TX. Securus handles phone calls. Mail goes to San Antonio TX processing center. SPN number required. Call 713-755-5000.",
+    seoDescription: "How to contact someone at Harris County Jail in Houston TX. Securus handles phone calls. Mail goes to San Antonio TX processing center. SPN number required.",
 
     description:
       "Harris County Jail communication guide. Find Securus phone, video, and messaging options for families in Houston. Learn how to stay connected at the Harris County jail complex.",
@@ -1197,9 +1197,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Harris County Jail is the detention facility operated by the Harris County Sheriff's Office in Houston, Texas. With a capacity of approximately 9,000 and a daily population that often approaches that number, it is among the largest county jail systems in the United States. The main facility complex is located at 1200 Baker Street in downtown Houston and includes multiple buildings that house both pre-trial detainees and individuals serving short sentences. The jail processes an enormous volume of new bookings daily, making it one of the most active detention systems in the country. Harris County also operates satellite detention facilities that expand total county-wide capacity.",
 
-      "Communication at the Harris County Jail is provided through Securus Technologies, which handles phone calls, video visitation, and electronic messaging under the county contract. Families can create a Securus account at securustech.net to access all of these services. For phone calls, a Securus AdvancePay account funded with your phone number allows the inmate to call you directly from facility phones. Remote video visits are available and must be scheduled in advance through the Securus platform — they are a practical option for families who want to maintain visual contact without navigating the logistics of an in-person visit at the downtown facility. Electronic messaging through Securus is also available at Harris County.",
+      "Communication at the Harris County Jail is provided through Securus Technologies, which handles phone calls, video visitation, and electronic messaging under the county contract. Families can create a Securus account at securustech.net to access all of these services. For phone calls, a Securus AdvancePay account funded with your phone number allows the inmate to call you directly from facility phones. Remote video visits are available and must be scheduled in advance through the Securus platform, they are a practical option for families who want to maintain visual contact without navigating the logistics of an in-person visit at the downtown facility. Electronic messaging through Securus is also available at Harris County.",
 
-      "One note for families in Houston: Harris County Jail is specifically a county facility, and the providers there are distinct from those used at Texas Department of Criminal Justice state prisons. If someone is convicted and transferred to a TDCJ state prison, the communication providers will change — JPay and GTL are the primary platforms at TDCJ state facilities, not Securus. Families should verify the current facility and jurisdiction before funding any account, especially in the period following a sentencing hearing when transfers can happen within days. Confirming the current location through the Harris County inmate search tool is the most reliable first step.",
+      "One note for families in Houston: Harris County Jail is specifically a county facility, and the providers there are distinct from those used at Texas Department of Criminal Justice state prisons. If someone is convicted and transferred to a TDCJ state prison, the communication providers will change, JPay and GTL are the primary platforms at TDCJ state facilities, not Securus. Families should verify the current facility and jurisdiction before funding any account, especially in the period following a sentencing hearing when transfers can happen within days. Confirming the current location through the Harris County inmate search tool is the most reliable first step.",
     ],
 
     address: "1200 Baker Street, Houston, TX 77002",
@@ -1308,15 +1308,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Fremont County",
     securityLevel: "Administrative Maximum",
     hasDetailPage: true,
-    seoTitle: "ADX Florence: CorrLinks Messaging and Phone Guide for Families",
-    seoDescription: "How to contact someone at ADX Florence supermax in Colorado. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Phone limited to 300 minutes per month at federal supermax.",
+    seoTitle: "ADX Florence: CorrLinks Messaging and Phone Guide for",
+    seoDescription: "How to contact someone at ADX Florence supermax in Colorado. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "ADX Florence communication guide. Learn how CorrLinks messaging and BOP phone services work at the nation's only federal supermax prison in Florence, Colorado.",
 
     overview: [
-      "ADX Florence, formally the United States Penitentiary Administrative Maximum Facility, sits in the foothills of south-central Colorado in Fremont County, roughly two hours south of Denver. Opened in 1994, it is the only facility in the federal prison system operating at the administrative maximum security level. The Bureau of Prisons built it specifically to house individuals who posed serious safety or management challenges that standard maximum-security penitentiaries could not contain. The population is small — generally between 350 and 500 people — but includes some of the most extensively monitored federal prisoners in the country. Most inmates at ADX have been transferred from other BOP institutions after serious incidents rather than arriving directly from court.",
-      "Communication at ADX Florence follows Bureau of Prisons rules, but the restrictions go further than at any other federal facility. Electronic messaging runs through CorrLinks, the BOP's TRULINCS system, and requires the inmate to have you on their approved contact list before any correspondence is possible. At ADX, that approval process can take significantly longer than at other BOP facilities — sometimes months — because each contact request goes through a more thorough review. Access to CorrLinks is also tied directly to each inmate's current privilege level, which is determined by behavior and program participation. An inmate who has recently lost privileges may have messaging access suspended or reduced.",
+      "ADX Florence, formally the United States Penitentiary Administrative Maximum Facility, sits in the foothills of south-central Colorado in Fremont County, roughly two hours south of Denver. Opened in 1994, it is the only facility in the federal prison system operating at the administrative maximum security level. The Bureau of Prisons built it specifically to house individuals who posed serious safety or management challenges that standard maximum-security penitentiaries could not contain. The population is small, generally between 350 and 500 people, but includes some of the most extensively monitored federal prisoners in the country. Most inmates at ADX have been transferred from other BOP institutions after serious incidents rather than arriving directly from court.",
+      "Communication at ADX Florence follows Bureau of Prisons rules, but the restrictions go further than at any other federal facility. Electronic messaging runs through CorrLinks, the BOP's TRULINCS system, and requires the inmate to have you on their approved contact list before any correspondence is possible. At ADX, that approval process can take significantly longer than at other BOP facilities, sometimes months, because each contact request goes through a more thorough review. Access to CorrLinks is also tied directly to each inmate's current privilege level, which is determined by behavior and program participation. An inmate who has recently lost privileges may have messaging access suspended or reduced.",
       "Phone access at ADX is among the most restricted in the entire federal system. Many housing units permit only a handful of calls per month, and some inmates have no phone access at all depending on their current program status. Remote video visitation is not available at ADX Florence. For most families, CorrLinks messaging is the most consistent and reliable communication option, provided the contact approval has been completed. Confirming the inmate's current access status directly with the facility before setting up or funding any account is strongly recommended. In-person visits are permitted but require advance approval and are conducted under close supervision.",
     ],
 
@@ -1366,7 +1366,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     },
 
     rules: [
-      "All contact — mail, CorrLinks, and phone — requires prior approval. Contact list additions take longer than at most BOP facilities.",
+      "All contact, mail, CorrLinks, and phone, requires prior approval. Contact list additions take longer than at most BOP facilities.",
       "CorrLinks access depends on the inmate's current privilege level and may be suspended for disciplinary reasons.",
       "Phone calls are strictly limited. Some housing units permit no inmate-initiated calls at all.",
       "Video visitation is not offered at ADX Florence under any circumstances.",
@@ -1416,8 +1416,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Leavenworth County",
     securityLevel: "Medium",
     hasDetailPage: true,
-    seoTitle: "FCI Leavenworth: CorrLinks Messaging and ConnectNetwork Phone",
-    seoDescription: "How to contact someone at FCI Leavenworth in Kansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Leavenworth KS.",
+    seoTitle: "FCI Leavenworth: CorrLinks Messaging and ConnectNetwork",
+    seoDescription: "How to contact someone at FCI Leavenworth in Kansas. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "FCI Leavenworth communication guide. Find CorrLinks messaging and ConnectNetwork phone options for families of federal inmates at this historic Kansas penitentiary.",
@@ -1496,7 +1496,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "Can I send photos to someone at FCI Leavenworth?",
-        answer: "Physical photographs can be sent by regular mail and must comply with BOP content guidelines — no nudity, no violence, and no images that could compromise security. There is no digital photo upload service at federal BOP facilities. Photos are inspected upon arrival.",
+        answer: "Physical photographs can be sent by regular mail and must comply with BOP content guidelines, no nudity, no violence, and no images that could compromise security. There is no digital photo upload service at federal BOP facilities. Photos are inspected upon arrival.",
       },
       {
         question: "How do I send money to a FCI Leavenworth inmate?",
@@ -1524,15 +1524,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Granville County",
     securityLevel: "Low / Medium / High",
     hasDetailPage: true,
-    seoTitle: "FCC Butner: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at Federal Correctional Complex Butner in North Carolina. CorrLinks for messaging. ConnectNetwork for phone calls. Find providers for this federal BOP facility.",
+    seoTitle: "FCC Butner: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at Federal Correctional Complex Butner in North Carolina. CorrLinks for messaging. ConnectNetwork for phone calls.",
 
     description:
       "Federal Correctional Complex Butner communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this North Carolina complex.",
 
     overview: [
       "Federal Correctional Complex Butner is a multi-institution federal prison campus located in Granville County, North Carolina, about 20 miles north of Durham. The complex includes several separate institutions operating at different security levels: FCI Butner Low, FCI Butner Medium I, FCI Butner Medium II, and FCI Butner High, as well as a Federal Medical Center that provides specialized healthcare for federal inmates with serious medical or mental health needs. The medical center component gives FCC Butner a distinct character among federal complexes. Families should confirm which specific institution their loved one is housed in, as each operates somewhat independently within the broader complex. The complex does not publish a single complex-wide phone number. Each institution has its own number, so confirm the specific institution before calling.",
-      "Communication across all FCC Butner institutions follows standard Bureau of Prisons rules. CorrLinks handles electronic messaging through the TRULINCS system. Families need to create a CorrLinks account and wait for the inmate to initiate or approve contact before correspondence can begin. Phone calls are managed through ConnectNetwork, the BOP's calling platform — families fund a prepaid account linked to their phone number to receive inmate-initiated calls. Neither service requires a separate account setup per institution within the complex, so if an inmate is transferred between Butner institutions, existing accounts should remain usable.",
+      "Communication across all FCC Butner institutions follows standard Bureau of Prisons rules. CorrLinks handles electronic messaging through the TRULINCS system. Families need to create a CorrLinks account and wait for the inmate to initiate or approve contact before correspondence can begin. Phone calls are managed through ConnectNetwork, the BOP's calling platform, families fund a prepaid account linked to their phone number to receive inmate-initiated calls. Neither service requires a separate account setup per institution within the complex, so if an inmate is transferred between Butner institutions, existing accounts should remain usable.",
       "The medical center at FCC Butner can affect communication in ways that differ from standard penitentiaries. Inmates housed in the medical center may have communication schedules or access that differs from those in the general-population institutions depending on their treatment program or housing assignment. Families whose loved one is in the FMC component should confirm current access levels with BOP staff before expecting the standard communication schedule. For inmates in the low, medium, or high security institutions, communication access broadly follows standard BOP rules, and the process for setting up CorrLinks and ConnectNetwork is the same as at any other federal facility.",
     ],
 
@@ -1579,7 +1579,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     },
 
     rules: [
-      "Confirm the specific institution within FCC Butner before contacting the facility — each operates independently.",
+      "Confirm the specific institution within FCC Butner before contacting the facility, each operates independently.",
       "CorrLinks contact requires inmate initiation or approval. You cannot message first.",
       "Inmates in the Federal Medical Center may have different communication schedules based on their treatment program.",
       "Remote video visitation is not available at FCC Butner.",
@@ -1589,7 +1589,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I know which institution within FCC Butner my loved one is in?",
-        answer: "The BOP inmate locator at bop.gov/inmateloc will show the specific institution — Butner Low, Medium I, Medium II, High, or the Federal Medical Center. Knowing the specific institution matters for scheduling visits and understanding communication schedules, particularly for inmates at the medical center.",
+        answer: "The BOP inmate locator at bop.gov/inmateloc will show the specific institution, Butner Low, Medium I, Medium II, High, or the Federal Medical Center. Knowing the specific institution matters for scheduling visits and understanding communication schedules, particularly for inmates at the medical center.",
       },
       {
         question: "How do I set up CorrLinks messaging at FCC Butner?",
@@ -1601,7 +1601,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "Does the Federal Medical Center at Butner have different communication rules?",
-        answer: "Potentially yes. Inmates housed in the medical component may have communication schedules or restrictions tied to their treatment program or housing assignment. The standard BOP platforms — CorrLinks and ConnectNetwork — still apply, but access times and frequency may differ. Confirm current access with BOP staff if your loved one is in the FMC.",
+        answer: "Potentially yes. Inmates housed in the medical component may have communication schedules or restrictions tied to their treatment program or housing assignment. The standard BOP platforms, CorrLinks and ConnectNetwork, still apply, but access times and frequency may differ. Confirm current access with BOP staff if your loved one is in the FMC.",
       },
       {
         question: "How do I send money to a FCC Butner inmate?",
@@ -1650,8 +1650,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Fairfield County",
     securityLevel: "Low / Camp",
     hasDetailPage: true,
-    seoTitle: "FCI Danbury: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at FCI Danbury in Connecticut. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP facility for female inmates in Danbury CT.",
+    seoTitle: "FCI Danbury: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at FCI Danbury in Connecticut. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "FCI Danbury communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Connecticut low-security facility.",
@@ -1659,7 +1659,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Federal Correctional Institution Danbury is a low-security federal prison located in Fairfield County in southwestern Connecticut, serving both a main facility population and a minimum-security satellite camp on the same grounds. The facility has housed both male and female populations at different points in its history and has operated under Bureau of Prisons management since it opened in 1940. FCI Danbury is located within a reasonable distance of both New York City and Hartford, making it somewhat more accessible for families in the northeastern United States than many other federal institutions. At lower security levels, inmates generally have broader access to communication services than at high-security or administrative-maximum facilities.",
       "Communication at FCI Danbury follows standard BOP rules. CorrLinks provides electronic messaging through the TRULINCS system, and families must wait for the inmate to initiate or approve contact before any correspondence can begin. Phone calls operate through ConnectNetwork, the BOP's calling platform. Because FCI Danbury is a lower-security facility, inmates typically have broader access to facility phones and more frequent communication opportunities compared to higher-security BOP institutions. Families can generally expect a more routine communication schedule here than at penitentiaries like ADX Florence or FCI Leavenworth.",
-      "One important note for families: if your loved one is housed at the satellite camp rather than the main FCI, confirm this distinction when setting up accounts, as the two share the same BOP facility code but may have slightly different day-to-day schedules. Neither the FCI nor the camp offers remote video visitation — in-person visits remain the standard visit format for BOP facilities. The visitor approval process requires submitting a BP-629 application and passing a background review, which can take several weeks, so starting that process early is worthwhile for anyone planning an in-person visit.",
+      "One important note for families: if your loved one is housed at the satellite camp rather than the main FCI, confirm this distinction when setting up accounts, as the two share the same BOP facility code but may have slightly different day-to-day schedules. Neither the FCI nor the camp offers remote video visitation, in-person visits remain the standard visit format for BOP facilities. The visitor approval process requires submitting a BP-629 application and passing a background review, which can take several weeks, so starting that process early is worthwhile for anyone planning an in-person visit.",
     ],
 
     address: "33 1/2 Pembroke Road, Danbury, CT 06811",
@@ -1779,14 +1779,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Kings County",
     securityLevel: "Administrative",
     hasDetailPage: true,
-    seoTitle: "MDC Brooklyn: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at Metropolitan Detention Center Brooklyn NY. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP facility in Brooklyn NY. Call 718-840-4200.",
+    seoTitle: "MDC Brooklyn: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at Metropolitan Detention Center Brooklyn NY. CorrLinks for messaging. ConnectNetwork for phone calls.",
 
     description:
       "MDC Brooklyn communication guide. Find CorrLinks messaging and BOP phone options for families of federal detainees at the Metropolitan Detention Center in Brooklyn, New York.",
 
     overview: [
-      "The Metropolitan Detention Center Brooklyn is a federal detention facility operated by the Bureau of Prisons in the Sunset Park neighborhood of Brooklyn, in Kings County, New York. Opened in 1994, MDC Brooklyn primarily houses pretrial detainees — people who have been charged with federal crimes and are awaiting trial — along with some sentenced individuals serving shorter terms. Because of its location in New York City and its role in federal prosecutions handled by the Eastern District of New York, MDC Brooklyn frequently houses high-profile defendants during federal cases. On any given day, the population includes people at various stages of the federal legal process, from initial detention through sentencing.",
+      "The Metropolitan Detention Center Brooklyn is a federal detention facility operated by the Bureau of Prisons in the Sunset Park neighborhood of Brooklyn, in Kings County, New York. Opened in 1994, MDC Brooklyn primarily houses pretrial detainees, people who have been charged with federal crimes and are awaiting trial, along with some sentenced individuals serving shorter terms. Because of its location in New York City and its role in federal prosecutions handled by the Eastern District of New York, MDC Brooklyn frequently houses high-profile defendants during federal cases. On any given day, the population includes people at various stages of the federal legal process, from initial detention through sentencing.",
       "Communication at MDC Brooklyn follows Bureau of Prisons rules, though the pretrial nature of much of the population introduces some important differences from standard federal prisons. CorrLinks is used for electronic messaging, but access for pretrial inmates may be subject to court orders or attorney-imposed restrictions in some cases. Families should confirm whether their loved one has been cleared for general communication before setting up accounts, particularly if the case is actively ongoing. Phone calls run through ConnectNetwork, and families can fund a prepaid account to receive inmate-initiated calls from the facility.",
       "MDC Brooklyn does not offer remote video visitation. In-person visits must be arranged through the standard BOP visitor approval process, but given the detention center's role in active prosecutions, visit scheduling can sometimes be more complex than at a standard federal prison. The facility is accessible by subway from Manhattan and other parts of the city, which makes in-person visits more practical for New York area families than visits to more distant BOP institutions. If a pretrial detainee is later sentenced and transferred to a federal prison elsewhere, the communication platform will remain CorrLinks and ConnectNetwork, but accounts may need to be updated to reflect the new facility.",
     ],
@@ -1887,15 +1887,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Vigo County",
     securityLevel: "Low / Medium / USP",
     hasDetailPage: true,
-    seoTitle: "FCC Terre Haute: CorrLinks Messaging and ConnectNetwork Phone",
-    seoDescription: "How to contact someone at Federal Correctional Complex Terre Haute in Indiana. CorrLinks for messaging. ConnectNetwork for phone calls. Federal BOP facility with death row.",
+    seoTitle: "FCC Terre Haute: CorrLinks Messaging and ConnectNetwork",
+    seoDescription: "How to contact someone at Federal Correctional Complex Terre Haute in Indiana. CorrLinks for messaging. ConnectNetwork for phone calls.",
 
     description:
       "Federal Correctional Complex Terre Haute communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Indiana complex.",
 
     overview: [
       "Federal Correctional Complex Terre Haute is a multi-institution federal prison campus located in Vigo County in west-central Indiana, roughly 75 miles west of Indianapolis. The complex includes FCI Terre Haute (medium security), a minimum-security satellite camp, and the United States Penitentiary Terre Haute (USP), which is a high-security federal penitentiary. The USP component has held the federal death row for male inmates and has been the site of federal executions. Because the complex houses multiple security levels, families need to confirm which specific institution their loved one is assigned to, as rules and communication schedules can differ between USP Terre Haute and the medium-security FCI.",
-      "Communication follows Bureau of Prisons rules across all institutions within the complex. CorrLinks handles electronic messaging through the TRULINCS system, and ConnectNetwork manages phone calls. For inmates in the USP, communication access may be more restricted than at the FCI or camp, particularly for those on death row or in special housing units. The process for setting up accounts is the same regardless of which institution within the complex is involved — create a CorrLinks account and wait for the inmate to initiate contact, and fund a ConnectNetwork prepaid account to receive phone calls.",
+      "Communication follows Bureau of Prisons rules across all institutions within the complex. CorrLinks handles electronic messaging through the TRULINCS system, and ConnectNetwork manages phone calls. For inmates in the USP, communication access may be more restricted than at the FCI or camp, particularly for those on death row or in special housing units. The process for setting up accounts is the same regardless of which institution within the complex is involved, create a CorrLinks account and wait for the inmate to initiate contact, and fund a ConnectNetwork prepaid account to receive phone calls.",
       "The Terre Haute area is roughly accessible from several Midwest population centers, including Indianapolis, Chicago, and St. Louis, though the complex is located on the western edge of Indiana in a more rural setting. In-person visits require advance approval through the BOP visitor process and should be arranged well in advance. Families whose loved one is housed in the USP rather than the FCI should be aware that visiting and communication procedures at high-security penitentiaries involve additional screening steps. Remote video visitation is not available at any institution within FCC Terre Haute.",
     ],
 
@@ -1946,7 +1946,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     },
 
     rules: [
-      "Confirm which institution — FCI, camp, or USP — your loved one is assigned to before contacting the facility.",
+      "Confirm which institution, FCI, camp, or USP, your loved one is assigned to before contacting the facility.",
       "USP Terre Haute inmates, particularly those on death row, face stricter communication limits than FCI inmates.",
       "CorrLinks contact requires inmate initiation. Remote video is not available.",
       "All BOP communications are monitored under standard Bureau of Prisons surveillance policy.",
@@ -1996,15 +1996,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Washtenaw County",
     securityLevel: "Low / Camp",
     hasDetailPage: true,
-    seoTitle: "FCI Milan: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at FCI Milan in Michigan. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP low security facility for male inmates in Milan MI.",
+    seoTitle: "FCI Milan: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at FCI Milan in Michigan. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "FCI Milan communication guide. Find CorrLinks messaging and ConnectNetwork phone options for families of federal inmates at this low-security Michigan facility.",
 
     overview: [
       "Federal Correctional Institution Milan is a low-security federal prison located in Washtenaw County in southeastern Michigan, about 35 miles southwest of Detroit and 10 miles south of Ann Arbor. The facility also includes a minimum-security satellite camp. FCI Milan has operated since 1932, making it one of the longer-running federal prisons in the Midwest. The low-security designation means inmates generally have more access to programs, phone use, and daily movement than at medium or high-security facilities, which translates to a more predictable communication schedule for families.",
-      "Communication at FCI Milan follows Bureau of Prisons rules. CorrLinks is the platform for electronic messaging — families create an account at corrlinks.com and wait for the inmate to initiate contact or approve a request before any correspondence can begin. Phone calls use ConnectNetwork, and families fund a prepaid account linked to their phone number to receive calls. At a low-security facility like FCI Milan, phone access is generally more routine than at higher-security BOP institutions, though it is still subject to the facility's schedule and the inmate's program status.",
+      "Communication at FCI Milan follows Bureau of Prisons rules. CorrLinks is the platform for electronic messaging, families create an account at corrlinks.com and wait for the inmate to initiate contact or approve a request before any correspondence can begin. Phone calls use ConnectNetwork, and families fund a prepaid account linked to their phone number to receive calls. At a low-security facility like FCI Milan, phone access is generally more routine than at higher-security BOP institutions, though it is still subject to the facility's schedule and the inmate's program status.",
       "FCI Milan's location in southeastern Michigan makes it more accessible to families in the Detroit metropolitan area and other parts of the Midwest compared to more remote federal facilities. In-person visits require advance approval through the BOP visitor application process and are conducted on scheduled visiting days. Remote video visitation is not available at FCI Milan. For families who are new to the federal prison system, the lower-security environment at FCI Milan generally means the communication process is less complicated than at higher-security BOP institutions, though the BOP-wide rules about contact approval and account setup still apply.",
     ],
 
@@ -2124,15 +2124,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Shelby County",
     securityLevel: "Medium",
     hasDetailPage: true,
-    seoTitle: "FCI Memphis: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at FCI Memphis in Tennessee. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP low security facility for female inmates in Memphis TN.",
+    seoTitle: "FCI Memphis: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at FCI Memphis in Tennessee. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "FCI Memphis communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this medium-security Tennessee facility.",
 
     overview: [
       "Federal Correctional Institution Memphis is a medium-security federal prison located in Shelby County in the western part of Tennessee, within the Memphis metropolitan area. The facility serves as the primary federal BOP institution in the Memphis region and houses adult male federal inmates at the medium-security level. Its location within a major metropolitan area makes it somewhat more accessible for families in the Mid-South than federal facilities in more rural locations. The facility also includes a minimum-security satellite camp on the same grounds.",
-      "Communication at FCI Memphis follows standard Bureau of Prisons procedures. CorrLinks is the electronic messaging platform. Families must create an account and wait for the inmate to initiate contact or approve a request before correspondence can begin. Phone calls are handled through ConnectNetwork, and families fund a prepaid account with their phone number to receive calls. Medium-security facilities generally have broader communication access than high-security penitentiaries, though BOP rules around monitoring and scheduling still apply. The facility is in the same county as the Shelby County Criminal Justice Center, but the two are completely separate systems — BOP inmates and county detainees use entirely different provider platforms.",
+      "Communication at FCI Memphis follows standard Bureau of Prisons procedures. CorrLinks is the electronic messaging platform. Families must create an account and wait for the inmate to initiate contact or approve a request before correspondence can begin. Phone calls are handled through ConnectNetwork, and families fund a prepaid account with their phone number to receive calls. Medium-security facilities generally have broader communication access than high-security penitentiaries, though BOP rules around monitoring and scheduling still apply. The facility is in the same county as the Shelby County Criminal Justice Center, but the two are completely separate systems, BOP inmates and county detainees use entirely different provider platforms.",
       "One consideration for Memphis-area families is that a loved one held at FCI Memphis may later be transferred to another BOP facility elsewhere in the country, which is common with federal sentences. CorrLinks and ConnectNetwork accounts transfer with the inmate system-wide, so you generally would not need to create new accounts after a transfer, though you may need to update the facility information within each platform. Remote video visitation is not available at FCI Memphis, and in-person visits require completing the BOP visitor approval process before any visit can occur.",
     ],
 
@@ -2192,7 +2192,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I set up messaging at FCI Memphis?",
-        answer: "Create a free account at corrlinks.com. The inmate must send you an invitation or approve your request through the TRULINCS system inside the facility. Once approved, both parties can send and receive electronic messages. This process is the same at every BOP facility — the inmate must go first.",
+        answer: "Create a free account at corrlinks.com. The inmate must send you an invitation or approve your request through the TRULINCS system inside the facility. Once approved, both parties can send and receive electronic messages. This process is the same at every BOP facility, the inmate must go first.",
       },
       {
         question: "How do phone calls work at FCI Memphis?",
@@ -2253,14 +2253,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Dinwiddie County",
     securityLevel: "Low / Medium",
     hasDetailPage: true,
-    seoTitle: "FCC Petersburg: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at Federal Correctional Complex Petersburg in Virginia. CorrLinks for messaging. ConnectNetwork for phone calls. Find providers for this federal BOP facility.",
+    seoTitle: "FCC Petersburg: CorrLinks Messaging and ConnectNetwork",
+    seoDescription: "How to contact someone at Federal Correctional Complex Petersburg in Virginia. CorrLinks for messaging. ConnectNetwork for phone calls.",
 
     description:
       "Federal Correctional Complex Petersburg communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Virginia complex.",
 
     overview: [
-      "Federal Correctional Complex Petersburg is a multi-institution federal prison campus located in Dinwiddie County, Virginia, about 25 miles south of Richmond. The complex includes FCI Petersburg Low, FCI Petersburg Medium, and a minimum-security satellite camp. There is no high-security penitentiary within the Petersburg complex — the institutions housed here operate at low and medium security levels, which means broader program access and generally more routine communication schedules for inmates compared to higher-security BOP facilities. The complex sits in a largely rural part of south-central Virginia.",
+      "Federal Correctional Complex Petersburg is a multi-institution federal prison campus located in Dinwiddie County, Virginia, about 25 miles south of Richmond. The complex includes FCI Petersburg Low, FCI Petersburg Medium, and a minimum-security satellite camp. There is no high-security penitentiary within the Petersburg complex, the institutions housed here operate at low and medium security levels, which means broader program access and generally more routine communication schedules for inmates compared to higher-security BOP facilities. The complex sits in a largely rural part of south-central Virginia.",
       "Communication across all FCC Petersburg institutions follows Bureau of Prisons rules. CorrLinks handles electronic messaging, and families must wait for the inmate to initiate or approve contact before correspondence can begin. Phone calls are managed through ConnectNetwork. Because the complex houses only low and medium-security inmates, phone access tends to be more predictable and less restricted than at high-security penitentiaries or the USP Terre Haute. Commissary accounts and phone accounts are funded separately through ConnectNetwork.",
       "FCC Petersburg's location about 25 miles from Richmond makes it accessible to families in the Richmond metro area, Hampton Roads, and other parts of Virginia and North Carolina. In-person visits require BOP visitor application approval. Remote video visitation is not available. Families whose loved one is in the low-security institution versus the medium should be aware that programming and daily schedules can differ, though the communication platforms are identical. If an inmate transfers within the complex from low to medium or vice versa, existing CorrLinks and ConnectNetwork accounts remain valid.",
     ],
@@ -2308,7 +2308,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     },
 
     rules: [
-      "Confirm whether your loved one is in FCI Petersburg Low or Medium — different schedules apply.",
+      "Confirm whether your loved one is in FCI Petersburg Low or Medium, different schedules apply.",
       "CorrLinks contact requires inmate initiation or approval.",
       "Remote video visitation is not available at FCC Petersburg.",
       "In-person visits require BOP visitor application approval well in advance.",
@@ -2358,15 +2358,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Essex County",
     securityLevel: "Medium",
     hasDetailPage: true,
-    seoTitle: "FCI Ray Brook: CorrLinks Messaging and ConnectNetwork Phone Guide",
-    seoDescription: "How to contact someone at FCI Ray Brook in New York. CorrLinks for electronic messaging. ConnectNetwork for phone calls. Federal BOP medium security facility in Essex County NY.",
+    seoTitle: "FCI Ray Brook: CorrLinks Messaging and ConnectNetwork Phone",
+    seoDescription: "How to contact someone at FCI Ray Brook in New York. CorrLinks for electronic messaging. ConnectNetwork for phone calls.",
 
     description:
       "FCI Ray Brook communication guide. Find CorrLinks messaging and BOP phone options for families of federal inmates at this Adirondack facility in Essex County, New York.",
 
     overview: [
-      "Federal Correctional Institution Ray Brook is a medium-security federal prison located in the hamlet of Ray Brook in Essex County, in the Adirondack Mountains of northern New York. The facility opened in 1980 on a site that was constructed as the Olympic Village for the 1980 Winter Olympics in nearby Lake Placid — the same games famous for the U.S. hockey team's 'Miracle on Ice' victory. After the Olympics concluded, the buildings were repurposed as a federal correctional facility. This origin makes FCI Ray Brook one of the more unusual physical settings in the federal prison system, tucked into a mountainous region more than four hours north of New York City.",
-      "Communication at FCI Ray Brook follows standard Bureau of Prisons rules. CorrLinks handles electronic messaging, and families need to wait for the inmate to initiate contact before correspondence can begin. Phone calls use ConnectNetwork. Because the facility is medium security, communication access is generally routine compared to higher-security BOP institutions. The remote location in the Adirondacks, however, makes in-person visits significantly more difficult for most families — particularly those in New York City or other downstate areas, who face a long drive or multi-leg travel to reach the facility.",
+      "Federal Correctional Institution Ray Brook is a medium-security federal prison located in the hamlet of Ray Brook in Essex County, in the Adirondack Mountains of northern New York. The facility opened in 1980 on a site that was constructed as the Olympic Village for the 1980 Winter Olympics in nearby Lake Placid, the same games famous for the U.S. hockey team's 'Miracle on Ice' victory. After the Olympics concluded, the buildings were repurposed as a federal correctional facility. This origin makes FCI Ray Brook one of the more unusual physical settings in the federal prison system, tucked into a mountainous region more than four hours north of New York City.",
+      "Communication at FCI Ray Brook follows standard Bureau of Prisons rules. CorrLinks handles electronic messaging, and families need to wait for the inmate to initiate contact before correspondence can begin. Phone calls use ConnectNetwork. Because the facility is medium security, communication access is generally routine compared to higher-security BOP institutions. The remote location in the Adirondacks, however, makes in-person visits significantly more difficult for most families, particularly those in New York City or other downstate areas, who face a long drive or multi-leg travel to reach the facility.",
       "For families whose loved one is at FCI Ray Brook, electronic communication through CorrLinks and phone calls through ConnectNetwork are especially practical because the distance from most population centers makes frequent in-person visits logistically challenging. Remote video visitation is not available at FCI Ray Brook, as it is not offered at any BOP facility. Families should set up CorrLinks and ConnectNetwork accounts early in the process to avoid gaps in communication during the initial period of incarceration. The BOP visitor approval process should also begin as early as possible for anyone planning to visit in person.",
     ],
 
@@ -2414,7 +2414,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     rules: [
       "CorrLinks contact requires inmate initiation or approval. You cannot message first.",
-      "The facility is in a remote Adirondack location — set up electronic communication early to avoid gaps.",
+      "The facility is in a remote Adirondack location, set up electronic communication early to avoid gaps.",
       "Remote video visitation is not available. In-person visits require BOP visitor approval and significant travel for most families.",
       "All BOP communications are monitored under standard Bureau of Prisons policy.",
       "Phone and commissary funds are maintained in separate ConnectNetwork accounts.",
@@ -2463,16 +2463,16 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "West Feliciana Parish",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Angola Prison: Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone at Louisiana State Penitentiary (Angola). Find the correct provider for phone calls, messaging, video visits, and money transfers at this Louisiana DOC facility.",
+    seoTitle: "Angola Prison: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Louisiana State Penitentiary (Angola).",
 
     description:
       "Louisiana State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Angola, the largest maximum-security prison in the United States.",
 
     overview: [
-      "Louisiana State Penitentiary, commonly known as Angola, is a maximum-security state prison located in West Feliciana Parish in the rural farmlands of northern Louisiana, roughly 50 miles northwest of Baton Rouge. It is the largest maximum-security prison in the United States, holding more than 6,000 people on a roughly 18,000-acre site that was historically a cotton plantation — a history that shapes much of the public understanding of the facility. Angola is operated by the Louisiana Department of Public Safety and Corrections and houses both general-population maximum-security inmates and Louisiana's death row. The facility is known for its highly remote location, which makes in-person visits challenging for most families.",
-      "Communication at Angola is handled through two primary platforms. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Louisiana DOC number to begin correspondence. Messages are reviewed by staff before delivery, and photos are subject to content guidelines. GTL handles phone calls and video visitation. Setting up a GTL AdvancePay account linked to your phone number allows you to receive inmate-initiated calls, and video visits are available and can be scheduled through the GTL platform — a meaningful option for families who cannot easily make the trip to the remote West Feliciana Parish location.",
-      "Angola's remote setting in the West Feliciana countryside is a practical challenge for families. The prison is not served by public transit and sits at the end of a highway with no nearby towns of meaningful size. This makes electronic communication through JPay and GTL video visits more important for regular contact than at facilities in or near major cities. When a loved one is first assigned to Angola, confirming which housing unit they are in is useful because the facility is large enough that unit-specific rules can apply to things like visiting schedules and programming access. The main communication setup process — creating JPay and GTL accounts — is the same regardless of unit assignment.",
+      "Louisiana State Penitentiary, commonly known as Angola, is a maximum-security state prison located in West Feliciana Parish in the rural farmlands of northern Louisiana, roughly 50 miles northwest of Baton Rouge. It is the largest maximum-security prison in the United States, holding more than 6,000 people on a roughly 18,000-acre site that was historically a cotton plantation, a history that shapes much of the public understanding of the facility. Angola is operated by the Louisiana Department of Public Safety and Corrections and houses both general-population maximum-security inmates and Louisiana's death row. The facility is known for its highly remote location, which makes in-person visits challenging for most families.",
+      "Communication at Angola is handled through two primary platforms. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Louisiana DOC number to begin correspondence. Messages are reviewed by staff before delivery, and photos are subject to content guidelines. GTL handles phone calls and video visitation. Setting up a GTL AdvancePay account linked to your phone number allows you to receive inmate-initiated calls, and video visits are available and can be scheduled through the GTL platform, a meaningful option for families who cannot easily make the trip to the remote West Feliciana Parish location.",
+      "Angola's remote setting in the West Feliciana countryside is a practical challenge for families. The prison is not served by public transit and sits at the end of a highway with no nearby towns of meaningful size. This makes electronic communication through JPay and GTL video visits more important for regular contact than at facilities in or near major cities. When a loved one is first assigned to Angola, confirming which housing unit they are in is useful because the facility is large enough that unit-specific rules can apply to things like visiting schedules and programming access. The main communication setup process, creating JPay and GTL accounts, is the same regardless of unit assignment.",
     ],
 
     address: "17544 Tunica Trace, Angola, LA 70712",
@@ -2569,8 +2569,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Walker County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Huntsville Unit TDCJ: Securus Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Huntsville Unit in Texas. Securus Technologies handles TDCJ phone calls. Register at texasprisonphone.com before setting up Securus AdvanceConnect account.",
+    seoTitle: "Huntsville Unit TDCJ: Securus Phone Calls and Messaging",
+    seoDescription: "How to contact someone at Huntsville Unit in Texas. Securus Technologies handles TDCJ phone calls.",
 
     description:
       "Huntsville Unit communication guide. Find JPay messaging and GTL phone options for families at the Walls Unit, the oldest and most historic Texas Department of Criminal Justice facility.",
@@ -2676,8 +2676,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Bradford County",
     securityLevel: "Close / Maximum",
     hasDetailPage: true,
-    seoTitle: "Florida State Prison: Securus Phone, JPay Messaging and Money",
-    seoDescription: "How to contact someone at Florida State Prison in Raiford. Securus Technologies handles phone calls. JPay for messaging, video visits, and money transfers. DC number required.",
+    seoTitle: "Florida State Prison: Securus Phone, JPay Messaging and",
+    seoDescription: "How to contact someone at Florida State Prison in Raiford. Securus Technologies handles phone calls. JPay for messaging, video visits, and money transfers.",
 
     description:
       "Florida State Prison communication guide. Find JPay messaging and GTL phone options for families. Learn how to stay connected with inmates at this close and maximum security Florida facility.",
@@ -2723,7 +2723,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm status directly." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm status directly." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row inmates may have restricted video access." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay, subject to FDOC content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls. Death row phone access depends on current status." },
@@ -2732,7 +2732,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     rules: [
       "Death row inmates may have different communication restrictions. Confirm access directly with the facility.",
-      "JPay and GTL are separate platforms — messaging and phone funds do not transfer between them.",
+      "JPay and GTL are separate platforms, messaging and phone funds do not transfer between them.",
       "Messages via JPay are reviewed by FDOC staff before delivery.",
       "FDOC JPay and GTL accounts are system-wide and transfer if the inmate is moved to another FDOC facility.",
       "Senders must be on the inmate's approved contact list before communication is possible.",
@@ -2781,15 +2781,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Will County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Stateville Correctional: ICSolutions Phone and GettingOut Messaging",
-    seoDescription: "How to contact someone at Stateville Correctional Center in Illinois. ICSolutions handles phone calls. GettingOut for digital messaging. Illinois offers partial free calling program.",
+    seoTitle: "Stateville Correctional: ICSolutions Phone and GettingOut",
+    seoDescription: "How to contact someone at Stateville Correctional Center in Illinois. ICSolutions handles phone calls. GettingOut for digital messaging.",
 
     description:
       "Stateville Correctional Center communication guide. Find JPay messaging and GTL phone options for families. Learn how to stay connected with inmates at this historic maximum-security Illinois facility.",
 
     overview: [
-      "Stateville Correctional Center is a maximum-security state prison operated by the Illinois Department of Corrections, located in Crest Hill in Will County, about 35 miles southwest of Chicago. Opened in 1925, Stateville is one of the most historically significant prisons in Illinois and has housed many notable inmates over the past century. The facility is distinctive for its architecture — it includes a circular panopticon-style cellhouse designed so that a single guard station can observe all surrounding cells, a design concept from 19th-century prison theory. The facility's proximity to Chicago makes it one of the more accessible major prisons in the state for Cook County and suburban Chicago families.",
-      "Communication at Stateville follows Illinois Department of Corrections provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their IDOC number, and purchase stamps to begin correspondence. GTL manages phone calls and video visitation under the IDOC contract. For families new to the Illinois system, understanding that JPay and GTL are separate platforms — each requiring its own account and funding — is the most important starting point. Messaging credits on JPay cannot be used for phone calls, and phone funds in GTL cannot pay for messages.",
+      "Stateville Correctional Center is a maximum-security state prison operated by the Illinois Department of Corrections, located in Crest Hill in Will County, about 35 miles southwest of Chicago. Opened in 1925, Stateville is one of the most historically significant prisons in Illinois and has housed many notable inmates over the past century. The facility is distinctive for its architecture, it includes a circular panopticon-style cellhouse designed so that a single guard station can observe all surrounding cells, a design concept from 19th-century prison theory. The facility's proximity to Chicago makes it one of the more accessible major prisons in the state for Cook County and suburban Chicago families.",
+      "Communication at Stateville follows Illinois Department of Corrections provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their IDOC number, and purchase stamps to begin correspondence. GTL manages phone calls and video visitation under the IDOC contract. For families new to the Illinois system, understanding that JPay and GTL are separate platforms, each requiring its own account and funding, is the most important starting point. Messaging credits on JPay cannot be used for phone calls, and phone funds in GTL cannot pay for messages.",
       "Stateville's location within Will County, adjacent to the Chicago metropolitan area, makes it more accessible for in-person visits than many downstate Illinois prisons. The facility is located off I-55 and is reachable from Chicago in about 45 minutes. Because JPay and GTL serve the entire IDOC system statewide, accounts you set up for Stateville will work if an inmate is later transferred to another Illinois facility. Stateville has undergone significant operational changes in recent years as the Illinois Department of Corrections has worked to modernize and reform its facilities, so confirming current visiting rules and communication access with the facility or IDOC directly is always a good step.",
     ],
 
@@ -2887,8 +2887,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Pinal County",
     securityLevel: "Close / Death Row",
     hasDetailPage: true,
-    seoTitle: "ASPC Florence: ICSolutions Phone, Securus Messaging and PAN List",
-    seoDescription: "How to contact someone at Arizona State Prison Complex Florence. ICSolutions handles phone calls. Securus for messaging. Must be on PAN list and visitation list to receive calls.",
+    seoTitle: "ASPC Florence: ICSolutions Phone, Securus Messaging and PAN",
+    seoDescription: "How to contact someone at Arizona State Prison Complex Florence. ICSolutions handles phone calls. Securus for messaging.",
 
     description:
       "Arizona State Prison Complex Florence communication guide. Find JPay messaging and Securus phone options for families at this historic Pinal County correctional complex.",
@@ -2992,8 +2992,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Mahoning County",
     securityLevel: "Supermax",
     hasDetailPage: true,
-    seoTitle: "Ohio State Penitentiary: ConnectNetwork Phone and Messaging Guide",
-    seoDescription: "How to contact someone at Ohio State Penitentiary in Youngstown. ViaPath ConnectNetwork handles phone calls after Ohio switched from Securus. Find messaging and visit options.",
+    seoTitle: "Ohio State Penitentiary: ConnectNetwork Phone and Messaging",
+    seoDescription: "How to contact someone at Ohio State Penitentiary in Youngstown. ViaPath ConnectNetwork handles phone calls after Ohio switched from Securus.",
 
     description:
       "Ohio State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Ohio's only supermax correctional facility in Youngstown.",
@@ -3001,7 +3001,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Ohio State Penitentiary is a supermax correctional facility operated by the Ohio Department of Rehabilitation and Correction, located in Mahoning County near Youngstown in northeastern Ohio. Opened in 1998, it is the only supermax facility in the Ohio prison system. OSP was built to house Ohio's most serious and difficult-to-manage inmates, including those on death row and those who have committed serious violations at other Ohio facilities. The supermax design means most inmates are in single-occupancy cells with highly restricted movement and programming access, which directly affects communication options.",
       "Communication at Ohio State Penitentiary operates through ODRC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Ohio DOC number, and purchase stamps to send messages. GTL manages phone calls and video visitation. At a supermax facility, communication access is more restricted than at general-population Ohio prisons. Phone calls and video visits may be limited based on an inmate's current classification level and privilege tier. Death row inmates at OSP may have specific communication restrictions separate from general supermax rules.",
-      "The restricted nature of OSP means families should not assume standard Ohio DOC communication access applies. Confirming the inmate's current privilege level — and what that means for messaging, phone, and video access — before setting up or funding accounts will prevent frustration. When an inmate's status or privilege tier changes, communication access can shift significantly. The Ohio DOC inmate search tool provides basic housing information, but for specific communication access questions, contacting the facility directly or checking with an attorney or case manager is the most reliable approach. JPay and GTL accounts created for OSP work across the Ohio DOC system if an inmate is transferred to a lower-security facility.",
+      "The restricted nature of OSP means families should not assume standard Ohio DOC communication access applies. Confirming the inmate's current privilege level, and what that means for messaging, phone, and video access, before setting up or funding accounts will prevent frustration. When an inmate's status or privilege tier changes, communication access can shift significantly. The Ohio DOC inmate search tool provides basic housing information, but for specific communication access questions, contacting the facility directly or checking with an attorney or case manager is the most reliable approach. JPay and GTL accounts created for OSP work across the Ohio DOC system if an inmate is transferred to a lower-security facility.",
     ],
 
     address: "878 Coitsville-Hubbard Road, Youngstown, OH 44505",
@@ -3118,8 +3118,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Montgomery County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "SCI Phoenix: Securus Phone, ViaPath Messaging and Money Guide",
-    seoDescription: "How to contact someone at SCI Phoenix in Collegeville PA. Securus Technologies handles phone calls. ViaPath ConnectNetwork for messaging. DC number required for all contact.",
+    seoTitle: "SCI Phoenix: Securus Phone, ViaPath Messaging and Money",
+    seoDescription: "How to contact someone at SCI Phoenix in Collegeville PA. Securus Technologies handles phone calls. ViaPath ConnectNetwork for messaging.",
 
     description:
       "SCI Phoenix communication guide. Find JPay messaging and GTL phone options for families at Pennsylvania's newest maximum-security state correctional institution in Montgomery County.",
@@ -3127,7 +3127,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "State Correctional Institution Phoenix is a maximum-security state prison operated by the Pennsylvania Department of Corrections, located in Collegeville, Montgomery County, roughly 30 miles northwest of Philadelphia. SCI Phoenix opened in 2018 as a purpose-built replacement for SCI Graterford, which had operated on the same grounds for more than 90 years. The new facility was designed with modern correctional programming and safety standards in mind. It is the only maximum-security state prison in southeastern Pennsylvania, making it the closest major state correctional facility for Philadelphia-area families.",
       "Communication at SCI Phoenix operates through Pennsylvania DOC provider contracts. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their PA DOC inmate number to begin correspondence. GTL handles phone calls and video visitation under the Pennsylvania DOC contract. Setting up a GTL AdvancePay account allows families to receive inmate-initiated calls. Video visits through GTL are available and can be scheduled remotely. Given the facility's location about 30 miles from Philadelphia, in-person visits are feasible for many southeastern Pennsylvania families.",
-      "Because SCI Phoenix replaced SCI Graterford, some long-term inmates and their families may be more familiar with the Graterford name. The physical facility is entirely new, and all communication happens through the same JPay and GTL platforms used at other PA DOC institutions. If an inmate was previously at Graterford, their JPay and GTL account history carries forward since the same platforms serve the entire Pennsylvania state system. Families new to the Pennsylvania system should note that JPay handles messaging and money while GTL handles phones and video — these are separate platforms requiring separate setup.",
+      "Because SCI Phoenix replaced SCI Graterford, some long-term inmates and their families may be more familiar with the Graterford name. The physical facility is entirely new, and all communication happens through the same JPay and GTL platforms used at other PA DOC institutions. If an inmate was previously at Graterford, their JPay and GTL account history carries forward since the same platforms serve the entire Pennsylvania state system. Families new to the Pennsylvania system should note that JPay handles messaging and money while GTL handles phones and video, these are separate platforms requiring separate setup.",
     ],
 
     address: "1200 Mokychic Drive, Collegeville, PA 19426",
@@ -3225,15 +3225,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Sunflower County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Parchman Farm: Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone at Mississippi State Penitentiary Parchman. Find the correct provider for phone calls, messaging, video visits, and money transfers at this Mississippi DOC facility.",
+    seoTitle: "Parchman Farm: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at Mississippi State Penitentiary Parchman.",
 
     description:
       "Mississippi State Penitentiary (Parchman Farm) communication guide. Find JPay messaging and Securus phone options for families at this historic Mississippi Delta correctional facility.",
 
     overview: [
       "Mississippi State Penitentiary, widely known as Parchman Farm or simply Parchman, is a maximum-security state prison operated by the Mississippi Department of Corrections, located in Sunflower County in the heart of the Mississippi Delta. Parchman has operated as a working prison farm since its founding in 1901 on land that was previously a cotton plantation. It is one of the oldest continuously operating prisons in the United States and one of the most historically significant correctional facilities in American history, having held a wide range of individuals from civil rights activists to some of the state's most serious offenders. The facility occupies a large rural tract in an agricultural part of the Delta.",
-      "Communication at Parchman operates through Mississippi DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Mississippi DOC number to begin correspondence. Securus Technologies manages phone calls and video visitation at Parchman under the MDOC contract. Setting up a Securus prepaid account allows families to receive inmate-initiated calls. Video visits through Securus are available and are a practical option given how remote the facility is — Parchman is more than two hours north of Jackson in a rural area without major nearby towns.",
+      "Communication at Parchman operates through Mississippi DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Mississippi DOC number to begin correspondence. Securus Technologies manages phone calls and video visitation at Parchman under the MDOC contract. Setting up a Securus prepaid account allows families to receive inmate-initiated calls. Video visits through Securus are available and are a practical option given how remote the facility is, Parchman is more than two hours north of Jackson in a rural area without major nearby towns.",
       "The conditions and operations at Parchman have been the subject of ongoing legal and reform proceedings, and conditions can change more rapidly here than at more stable facilities. Communication access may be affected by facility lockdowns, population movement, or administrative changes. Families whose loved one has recently arrived at Parchman should confirm current communication availability directly with the facility or through MDOC before counting on a specific communication schedule. The Mississippi DOC offers an inmate search tool that can help confirm current housing assignment within the large facility.",
     ],
 
@@ -3333,14 +3333,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Butts County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Georgia Diagnostic Prison: Securus Phone and JPay Messaging Guide",
-    seoDescription: "How to contact someone at Georgia Diagnostic and Classification Prison in Jackson. Securus for phone calls. JPay for messaging and money transfers. GDC number required for all contact.",
+    seoTitle: "Georgia Diagnostic Prison: Securus Phone and JPay Messaging",
+    seoDescription: "How to contact someone at Georgia Diagnostic and Classification Prison in Jackson. Securus for phone calls. JPay for messaging and money transfers.",
 
     description:
       "Georgia Diagnostic and Classification Prison communication guide. Find JPay messaging and GTL phone options for families at Georgia's main intake and death row facility in Butts County.",
 
     overview: [
-      "Georgia Diagnostic and Classification Prison is a maximum-security state correctional facility operated by the Georgia Department of Corrections, located in Butts County near the town of Jackson, approximately 60 miles south of Atlanta. It serves as the primary intake and classification facility for new Georgia state prison commitments — most newly sentenced male inmates in the Georgia system pass through GDCP before being assigned to a permanent facility. The prison also houses Georgia's death row. Because of its classification function, the population at GDCP is constantly changing as inmates are processed and transferred, which is an important consideration for families in terms of communication setup timing.",
+      "Georgia Diagnostic and Classification Prison is a maximum-security state correctional facility operated by the Georgia Department of Corrections, located in Butts County near the town of Jackson, approximately 60 miles south of Atlanta. It serves as the primary intake and classification facility for new Georgia state prison commitments, most newly sentenced male inmates in the Georgia system pass through GDCP before being assigned to a permanent facility. The prison also houses Georgia's death row. Because of its classification function, the population at GDCP is constantly changing as inmates are processed and transferred, which is an important consideration for families in terms of communication setup timing.",
       "Communication at GDCP operates through Georgia DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Georgia DOC number. GTL manages phone calls and video visitation. Because many inmates at GDCP are in the initial classification process, it is worth noting that newly admitted inmates may take several weeks to fully enter the system before all communication access is active. Families are often advised to wait until an inmate has been classified and assigned a permanent facility before investing heavily in account setup, though setting up accounts early can help avoid delays.",
       "Once an inmate is classified and transferred out of GDCP to a permanent Georgia DOC facility, communication continues through JPay and GTL since both serve the entire state system. Georgia DOC accounts do not need to be recreated after transfer. If your loved one has been at GDCP for more than a few weeks without communication, it may indicate the classification process is still underway or that they have recently been transferred and the new facility information has not yet been updated. The Georgia DOC offender search tool at gdc.ga.gov allows families to look up current housing location.",
     ],
@@ -3463,7 +3463,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Red Onion State Prison: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Red Onion State Prison in Pound VA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Virginia DOC facility.",
+    seoDescription: "How to contact someone at Red Onion State Prison in Pound VA.",
 
     description:
       "Red Onion State Prison communication guide. Find JPay messaging and GTL phone options for families at this remote maximum-security facility in Wise County, Virginia.",
@@ -3471,7 +3471,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Red Onion State Prison is a maximum-security state correctional facility operated by the Virginia Department of Corrections, located in Wise County in the far southwestern corner of Virginia, near the towns of Pound and Clintwood in the Appalachian coalfields region. Opened in 1998, the facility was built in a part of Virginia that is more than 350 miles from Northern Virginia and the Washington D.C. metro area, making it one of the more remote state prisons in the eastern United States. Red Onion was designed as a supermax-style facility and houses Virginia's most serious offenders, with a focus on segregation and restrictive housing.",
       "Communication at Red Onion operates through Virginia DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Virginia DOC number to begin correspondence. GTL manages phone calls and video visitation under the VADOC statewide contract. At a maximum-security facility like Red Onion, communication access depends significantly on the inmate's current housing assignment and privilege level. Those in segregated housing may have restricted messaging or phone access, while general-population maximum-security inmates have broader access.",
-      "The extreme remoteness of Red Onion — it sits at the western tip of Virginia, accessible primarily via US-23 through the mountains — makes in-person visits exceptionally difficult for most families, particularly those in Northern Virginia, Richmond, or other population centers. For many families, JPay messaging and GTL video visits are the primary means of regular contact. Setting up both accounts early after an inmate's arrival at Red Onion is strongly recommended. Because JPay and GTL serve the entire Virginia DOC system, accounts created for Red Onion will work at any other VADOC facility if an inmate is transferred.",
+      "The extreme remoteness of Red Onion, it sits at the western tip of Virginia, accessible primarily via US-23 through the mountains, makes in-person visits exceptionally difficult for most families, particularly those in Northern Virginia, Richmond, or other population centers. For many families, JPay messaging and GTL video visits are the primary means of regular contact. Setting up both accounts early after an inmate's arrival at Red Onion is strongly recommended. Because JPay and GTL serve the entire Virginia DOC system, accounts created for Red Onion will work at any other VADOC facility if an inmate is transferred.",
     ],
 
     address: "10800 Morgan Ford Road, Pound, VA 24279",
@@ -3535,7 +3535,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Red Onion from major Virginia cities?",
-        answer: "Red Onion is in Wise County at the far southwestern tip of Virginia — more than 350 miles from Northern Virginia, about 310 miles from Richmond, and about 200 miles from Roanoke. The drive from Northern Virginia takes five to six hours. For most families, GTL video visits and JPay messaging are far more practical than regular in-person visits.",
+        answer: "Red Onion is in Wise County at the far southwestern tip of Virginia, more than 350 miles from Northern Virginia, about 310 miles from Richmond, and about 200 miles from Roanoke. The drive from Northern Virginia takes five to six hours. For most families, GTL video visits and JPay messaging are far more practical than regular in-person visits.",
       },
       {
         question: "Can I do a video visit with someone at Red Onion?",
@@ -3567,8 +3567,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Norfolk County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "MCI Cedar Junction: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at MCI Cedar Junction in Walpole MA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Massachusetts DOC facility.",
+    seoTitle: "MCI Cedar Junction: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at MCI Cedar Junction in Walpole MA.",
 
     description:
       "MCI Cedar Junction communication guide. Find JPay messaging and Securus phone options for families at Massachusetts' only Level VI maximum-security correctional institution in Walpole.",
@@ -3673,14 +3673,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Ionia Correctional Facility: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Ionia Correctional Facility in Michigan. GTL ConnectNetwork handles phone calls. JPay for messaging. Michigan mail scanning converts letters to digital copies.",
+    seoDescription: "How to contact someone at Ionia Correctional Facility in Michigan. GTL ConnectNetwork handles phone calls. JPay for messaging.",
 
     description:
       "Ionia Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at this maximum-security Michigan Department of Corrections facility.",
 
     overview: [
       "Ionia Correctional Facility is a maximum-security state prison operated by the Michigan Department of Corrections, located in the city of Ionia in Ionia County in west-central Michigan, about 30 miles east of Grand Rapids. The facility has roots stretching back to 1877 when the site first operated as the Michigan Asylum for the Insane, and the grounds were later converted to correctional use. The current maximum-security facility houses adult male inmates serving longer sentences and represents one of the higher-security institutions in the Michigan prison system. Ionia County has a long history as a correctional hub in Michigan, with several facilities historically operating in the area.",
-      "Communication at Ionia Correctional Facility follows Michigan DOC provider contracts. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Michigan DOC number, and purchase stamps to begin correspondence. GTL handles phone calls and video visitation under the MDOC statewide contract. The standard two-platform setup — JPay for messaging and GTL for phone and video — applies here as it does across the Michigan state system.",
+      "Communication at Ionia Correctional Facility follows Michigan DOC provider contracts. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Michigan DOC number, and purchase stamps to begin correspondence. GTL handles phone calls and video visitation under the MDOC statewide contract. The standard two-platform setup, JPay for messaging and GTL for phone and video, applies here as it does across the Michigan state system.",
       "Ionia's location in west-central Michigan makes it reasonably accessible for families in the Grand Rapids area and other parts of western Michigan, though families in Detroit or southeastern Michigan face a two- to three-hour drive. For those who cannot visit in person regularly, JPay messaging and GTL video visits provide reliable alternatives. Because Michigan DOC uses JPay and GTL system-wide, accounts created at Ionia will transfer to any other Michigan DOC facility if an inmate is moved. The MDOC online offender search can confirm current housing location if there is uncertainty about which facility a loved one is assigned to.",
     ],
 
@@ -3745,7 +3745,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Ionia from Grand Rapids and Detroit?",
-        answer: "Ionia is about 30 miles east of Grand Rapids — roughly a 30 to 40 minute drive. Detroit is approximately 130 miles east, making it about a two-hour drive. For Grand Rapids-area families, in-person visits are fairly accessible.",
+        answer: "Ionia is about 30 miles east of Grand Rapids, roughly a 30 to 40 minute drive. Detroit is approximately 130 miles east, making it about a two-hour drive. For Grand Rapids-area families, in-person visits are fairly accessible.",
       },
       {
         question: "Do JPay and GTL accounts carry over if my loved one transfers to another Michigan facility?",
@@ -3778,7 +3778,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Riverbend Maximum Security: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Riverbend Maximum Security Institution in Nashville TN. ConnectNetwork GTL handles phone calls. Find messaging and money transfer options at this TDOC facility.",
+    seoDescription: "How to contact someone at Riverbend Maximum Security Institution in Nashville TN. ConnectNetwork GTL handles phone calls.",
 
     description:
       "Riverbend Maximum Security Institution communication guide. Find JPay messaging and GTL phone options for families at Tennessee's death row facility in Nashville.",
@@ -3882,15 +3882,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Clark County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "High Desert State Prison: Free Calls, Securus and Messaging Guide",
-    seoDescription: "How to contact someone at High Desert State Prison in Susanville CA. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options.",
+    seoTitle: "High Desert State Prison: Free Calls, Securus and Messaging",
+    seoDescription: "How to contact someone at High Desert State Prison in Susanville CA. CDCR phone calls are free under SB 1008. Securus replaced ViaPath.",
 
     description:
       "High Desert State Prison communication guide. Find JPay messaging and GTL phone options for families at Nevada's largest correctional facility near Las Vegas.",
 
     overview: [
       "High Desert State Prison is a maximum-security state correctional facility operated by the Nevada Department of Corrections, located in Indian Springs in Clark County, roughly 45 miles northwest of Las Vegas on US-95. Opened in 2012, it is the largest prison in Nevada by capacity and houses adult male inmates at maximum-security and medium-security levels. The facility sits in the Mojave Desert landscape of southern Nevada, near the Nevada Test and Training Range. Indian Springs is a small community with limited services, and the prison is the dominant employer in the area.",
-      "Communication at High Desert State Prison operates through Nevada DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Nevada DOC number, and purchase stamps to begin correspondence. GTL manages phone calls and video visitation under the NDOC statewide contract. For families in the Las Vegas area, the facility is roughly 45 miles away — a manageable drive — making in-person visits more feasible than for families elsewhere in the country. For those outside Nevada, JPay and GTL provide the primary means of regular contact.",
+      "Communication at High Desert State Prison operates through Nevada DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Nevada DOC number, and purchase stamps to begin correspondence. GTL manages phone calls and video visitation under the NDOC statewide contract. For families in the Las Vegas area, the facility is roughly 45 miles away, a manageable drive, making in-person visits more feasible than for families elsewhere in the country. For those outside Nevada, JPay and GTL provide the primary means of regular contact.",
       "Nevada's prison system is smaller than those of larger states, and High Desert is one of only a handful of major state correctional institutions. JPay and GTL accounts created for High Desert will work at any other Nevada DOC facility if an inmate is transferred within the state system. The NDOC offender search tool at doc.nv.gov provides housing information if there is uncertainty about current location. Like all state facilities, communication access is subject to privilege levels and may be affected by disciplinary status or special housing assignments.",
     ],
 
@@ -3988,15 +3988,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Kings County",
     securityLevel: "Level III / SHU",
     hasDetailPage: true,
-    seoTitle: "Corcoran State Prison: Free Calls, Securus and Messaging Guide",
-    seoDescription: "How to contact someone at California State Prison Corcoran. CDCR phone calls are free under SB 1008. Securus replaced ViaPath. Find messaging and communication options at Corcoran.",
+    seoTitle: "Corcoran State Prison: Free Calls, Securus and Messaging",
+    seoDescription: "How to contact someone at California State Prison Corcoran. CDCR phone calls are free under SB 1008. Securus replaced ViaPath.",
 
     description:
       "Corcoran State Prison communication guide. Find JPay messaging and Securus phone options for families at this Kings County California facility known for its Security Housing Unit.",
 
     overview: [
       "California State Prison, Corcoran, commonly called Corcoran State Prison, is a Level III and IV state correctional facility operated by the California Department of Corrections and Rehabilitation, located in the agricultural San Joaquin Valley in Kings County, about 60 miles south of Fresno and roughly 200 miles north of Los Angeles. Opened in 1988, it also houses a Security Housing Unit designed for inmates who require the most restrictive housing available within the CDCR system. Over the years, the facility has housed a number of high-profile inmates, and it has been the subject of significant legal proceedings related to its SHU program. Following California's reforms to the SHU system in the mid-2010s, the facility's restrictive housing program has changed significantly from its earlier form.",
-      "Communication at Corcoran operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their California CDCR number to send messages and photos. Securus manages phone calls and video visitation. The setup is the same as at other California state prisons — JPay for messaging and money, Securus for phone and video, with separate accounts and separate funding required for each. For SHU-assigned inmates, communication access may be more restricted depending on the inmate's current program level.",
+      "Communication at Corcoran operates through the standard CDCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their California CDCR number to send messages and photos. Securus manages phone calls and video visitation. The setup is the same as at other California state prisons, JPay for messaging and money, Securus for phone and video, with separate accounts and separate funding required for each. For SHU-assigned inmates, communication access may be more restricted depending on the inmate's current program level.",
       "Corcoran's location in the Central Valley means it is a significant distance from both the Bay Area and Los Angeles, making in-person visits logistically challenging for many California families. The nearest major city is Fresno, about 60 miles to the north. For families in Southern California, the drive from Los Angeles takes approximately three hours. This distance makes JPay messaging and Securus video visits particularly valuable for regular contact. Because CDCR uses JPay and Securus system-wide, accounts created for Corcoran will work at any other California state prison if an inmate is transferred within the system.",
     ],
 
@@ -4066,7 +4066,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Corcoran from Los Angeles and San Francisco?",
-        answer: "Corcoran is in the San Joaquin Valley in Kings County — about 200 miles north of Los Angeles (roughly three hours) and about 230 miles southeast of San Francisco (roughly three and a half hours). Neither city is a short trip, making electronic communication and video visits important for regular contact.",
+        answer: "Corcoran is in the San Joaquin Valley in Kings County, about 200 miles north of Los Angeles (roughly three hours) and about 230 miles southeast of San Francisco (roughly three and a half hours). Neither city is a short trip, making electronic communication and video visits important for regular contact.",
       },
       {
         question: "How do I send money to a Corcoran inmate?",
@@ -4116,14 +4116,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Broad River Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Broad River Correctional Institution in Columbia SC. Find the correct provider for phone calls, messaging, and money transfers at this SCDC facility.",
+    seoDescription: "How to contact someone at Broad River Correctional Institution in Columbia SC.",
 
     description:
       "Broad River Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at South Carolina's maximum-security facility in Columbia.",
 
     overview: [
       "Broad River Correctional Institution is a maximum-security state prison operated by the South Carolina Department of Corrections, located in Richland County in the city of Columbia, the state capital. The facility opened in 1999 and houses South Carolina's most serious offenders, including those on death row. Its location within Columbia rather than a remote rural area makes it more accessible for families in the Midlands of South Carolina and for those visiting from the state's larger population centers. The facility sits in a largely industrial and institutional area on the western edge of Columbia.",
-      "Communication at Broad River operates through South Carolina DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their South Carolina DOC number to begin sending messages. GTL manages phone calls and video visitation under the SCDOC statewide contract. For families who cannot travel to Columbia regularly, GTL video visits provide a practical remote alternative. The standard two-platform approach — JPay for messaging and money, GTL for phone and video — applies here as it does across the South Carolina state system.",
+      "Communication at Broad River operates through South Carolina DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their South Carolina DOC number to begin sending messages. GTL manages phone calls and video visitation under the SCDOC statewide contract. For families who cannot travel to Columbia regularly, GTL video visits provide a practical remote alternative. The standard two-platform approach, JPay for messaging and money, GTL for phone and video, applies here as it does across the South Carolina state system.",
       "Death row at Broad River means a portion of the population faces stricter communication rules than the general maximum-security population. Families whose loved one is on South Carolina's death row should confirm current communication access with the facility before assuming standard rules apply. For general-population maximum-security inmates, the full JPay and GTL setup is available. Because both platforms serve the SCDOC system statewide, accounts created for Broad River will carry over to any other South Carolina DOC facility if an inmate is transferred.",
     ],
 
@@ -4220,15 +4220,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "LaPorte County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Indiana State Prison: ViaPath Phone, GettingOut Messaging Guide",
-    seoDescription: "How to contact someone at Indiana State Prison in Michigan City. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging. Must be on approved 20-person call list.",
+    seoTitle: "Indiana State Prison: ViaPath Phone, GettingOut Messaging",
+    seoDescription: "How to contact someone at Indiana State Prison in Michigan City. ViaPath ConnectNetwork handles phone calls. GettingOut for digital messaging.",
 
     description:
       "Indiana State Prison communication guide. Find JPay messaging and GTL phone options for families at this maximum-security facility in Michigan City, Indiana.",
 
     overview: [
       "Indiana State Prison is a maximum-security state correctional facility operated by the Indiana Department of Correction, located in the city of Michigan City in LaPorte County in the northwest corner of Indiana, about five miles from Lake Michigan and roughly 60 miles east of Chicago. The facility opened in 1860, making it one of the oldest prisons in Indiana, and it houses adult male inmates serving long sentences, including those on Indiana's death row. Its location near the southern shore of Lake Michigan and close to the Chicago metropolitan area means many Indiana families are within reasonable driving distance.",
-      "Communication at Indiana State Prison operates through Indiana DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Indiana DOC number, and purchase stamps to begin correspondence. GTL manages phone calls and video visitation under the IDOC statewide contract. The two-platform model — JPay for messaging and money, GTL for phone and video — is consistent across Indiana state facilities. For death row inmates, communication access may be subject to additional restrictions compared to general maximum-security population inmates.",
+      "Communication at Indiana State Prison operates through Indiana DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account, add the inmate using their Indiana DOC number, and purchase stamps to begin correspondence. GTL manages phone calls and video visitation under the IDOC statewide contract. The two-platform model, JPay for messaging and money, GTL for phone and video, is consistent across Indiana state facilities. For death row inmates, communication access may be subject to additional restrictions compared to general maximum-security population inmates.",
       "Michigan City's location near the Illinois-Indiana border and relatively close to the Chicago area makes Indiana State Prison more geographically accessible for families in northern Indiana and suburban Chicago than most Indiana state prisons. Interstate 94 runs nearby, providing a direct route from the Chicago metropolitan area. For families elsewhere in Indiana or from other states, JPay messaging and GTL video visits are the practical alternatives to long-distance travel. Indiana DOC accounts created at Indiana State Prison will work at other IDOC facilities if an inmate is transferred within the state system.",
     ],
 
@@ -4327,7 +4327,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Potosi Correctional Center: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Potosi Correctional Center in Mineral Point MO. Find the correct provider for phone calls, electronic messaging, and money transfers at this Missouri facility.",
+    seoDescription: "How to contact someone at Potosi Correctional Center in Mineral Point MO.",
 
     description:
       "Potosi Correctional Center communication guide. Find JPay messaging and Securus phone options for families at Missouri's maximum-security death row facility in Washington County.",
@@ -4399,11 +4399,11 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Potosi from St. Louis?",
-        answer: "Potosi is in Washington County in the Ozarks, roughly 70 miles southwest of St. Louis — about an hour and 15 minutes by car. For St. Louis-area families, in-person visits are feasible on a day trip. For families further afield, electronic communication and video visits are the more practical options.",
+        answer: "Potosi is in Washington County in the Ozarks, roughly 70 miles southwest of St. Louis, about an hour and 15 minutes by car. For St. Louis-area families, in-person visits are feasible on a day trip. For families further afield, electronic communication and video visits are the more practical options.",
       },
       {
         question: "Is video visitation available at Potosi?",
-        answer: "Yes, through Securus. Log into your Securus account, search for Potosi Correctional Center, and select an available time slot. Schedule in advance. Death row inmates may have restricted video access — confirm eligibility before booking.",
+        answer: "Yes, through Securus. Log into your Securus account, search for Potosi Correctional Center, and select an available time slot. Schedule in advance. Death row inmates may have restricted video access, confirm eligibility before booking.",
       },
       {
         question: "How do I send money to a Potosi inmate?",
@@ -4432,14 +4432,14 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Eastham Unit: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Eastham Unit. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+    seoDescription: "How to contact someone at Eastham Unit.",
 
     description:
       "Eastham Unit communication guide. Find JPay messaging and GTL phone options for families at one of the oldest and largest Texas Department of Criminal Justice facilities.",
 
     overview: [
       "The Eastham Unit is a maximum-security state prison operated by the Texas Department of Criminal Justice, located in Houston County in East Texas near the small town of Lovelady, roughly 120 miles north of Houston. The unit has operated since 1917, making it one of the oldest facilities in the TDCJ system. With a capacity of more than 2,000, it is one of the larger units in Texas, historically known as a working farm prison in the East Texas Piney Woods. The facility houses adult male inmates serving longer sentences, and its rural setting in Houston County makes it more remote than the Huntsville Unit but still accessible from Houston within a two-hour drive.",
-      "Communication at the Eastham Unit follows TDCJ provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their TDCJ number to begin correspondence. GTL manages phone calls and video visitation under the TDCJ statewide contract. The two-platform model is the same as across all TDCJ units — separate accounts for JPay and GTL, with separate funding required. Because TDCJ uses these platforms statewide, accounts created for the Eastham Unit will work at any other TDCJ unit if an inmate is transferred.",
+      "Communication at the Eastham Unit follows TDCJ provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their TDCJ number to begin correspondence. GTL manages phone calls and video visitation under the TDCJ statewide contract. The two-platform model is the same as across all TDCJ units, separate accounts for JPay and GTL, with separate funding required. Because TDCJ uses these platforms statewide, accounts created for the Eastham Unit will work at any other TDCJ unit if an inmate is transferred.",
       "Lovelady and Houston County are in the loblolly pine region of East Texas, roughly two hours north of Houston and significantly more rural than the Huntsville Unit. For families in the Houston area, the drive is manageable for occasional visits. For families elsewhere in Texas or from out of state, JPay messaging and GTL video visits are the most practical means of regular contact. The TDCJ offender search at tdcj.texas.gov can confirm current housing assignment if there is uncertainty about which unit a loved one has been assigned to.",
     ],
 
@@ -4504,7 +4504,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Eastham from Houston?",
-        answer: "The Eastham Unit is in Lovelady in Houston County, roughly 120 miles north of Houston — about a two-hour drive. The facility is in a rural East Texas area. For Houston-area families, a day trip for in-person visits is feasible but requires planning.",
+        answer: "The Eastham Unit is in Lovelady in Houston County, roughly 120 miles north of Houston, about a two-hour drive. The facility is in a rural East Texas area. For Houston-area families, a day trip for in-person visits is feasible but requires planning.",
       },
       {
         question: "If my loved one transfers to another TDCJ unit, do I need new accounts?",
@@ -4536,8 +4536,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Escambia County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Holman Correctional Facility: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Holman Correctional Facility in Atmore AL. Securus Technologies handles phone calls. JPay for money transfers. Find messaging and communication options.",
+    seoTitle: "Holman Correctional Facility: Phone Calls and Messaging",
+    seoDescription: "How to contact someone at Holman Correctional Facility in Atmore AL. Securus Technologies handles phone calls. JPay for money transfers.",
 
     description:
       "Holman Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Alabama's death row and maximum-security facility in Escambia County.",
@@ -4583,7 +4583,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm with facility." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Especially useful given the remote rural location." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to ADOC content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls. Fund GTL AdvancePay account to receive calls." },
@@ -4613,7 +4613,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Holman from Birmingham and Mobile?",
-        answer: "Holman is near Atmore in Escambia County — roughly 80 miles northeast of Mobile (about 90 minutes) and approximately 220 miles south of Birmingham (about three hours). The nearest large city with regular airport service is Mobile or Pensacola, Florida.",
+        answer: "Holman is near Atmore in Escambia County, roughly 80 miles northeast of Mobile (about 90 minutes) and approximately 220 miles south of Birmingham (about three hours). The nearest large city with regular airport service is Mobile or Pensacola, Florida.",
       },
       {
         question: "How do I send money to a Holman inmate?",
@@ -4641,8 +4641,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Maricopa County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Maricopa County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Maricopa County Jail in Phoenix AZ. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Arizona facility.",
+    seoTitle: "Maricopa County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Maricopa County Jail in Phoenix AZ.",
 
     description:
       "Maricopa County Jail communication guide. Find GTL phone, video, and messaging options for families. Learn how to stay connected at the Maricopa County Sheriff's Office jail system in Phoenix.",
@@ -4650,7 +4650,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Maricopa County Jail is the detention system operated by the Maricopa County Sheriff's Office in the Phoenix metropolitan area, the fourth-largest county by population in the United States. The system encompasses multiple facilities including the downtown Phoenix intake complex and several satellite jails spread across the Valley. With a total capacity exceeding 8,000 and a daily population that routinely approaches that number, Maricopa County's jail system is one of the largest in the country. The vast majority of people held in the system are pretrial detainees awaiting court proceedings in the Maricopa County court system.",
       "Communication across Maricopa County jail facilities is managed through GTL, which provides phone calls, video visitation, and electronic messaging services under the sheriff's office contract. Families can create a single GTL account to access all available services. For phone calls, setting up a GTL prepaid account linked to your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through the GTL platform. Electronic messaging through GTL delivers messages digitally within the system. Commissary deposits can also be processed through GTL or AccessCorrections.",
-      "One thing to know about the Maricopa County system is that it operates several distinct jails, and your loved one may be housed at any of them — the downtown 4th Avenue Jail, Towers Jail, Madison Street Jail, or one of the other facilities. The GTL platform and account setup are the same across all Maricopa County Sheriff's Office facilities, but confirming the specific facility and booking number is important when scheduling video visits or making deposits. After a conviction and sentencing, inmates transferred to the Arizona Department of Corrections state system will require a switch from GTL to JPay and Securus.",
+      "One thing to know about the Maricopa County system is that it operates several distinct jails, and your loved one may be housed at any of them, the downtown 4th Avenue Jail, Towers Jail, Madison Street Jail, or one of the other facilities. The GTL platform and account setup are the same across all Maricopa County Sheriff's Office facilities, but confirming the specific facility and booking number is important when scheduling video visits or making deposits. After a conviction and sentencing, inmates transferred to the Arizona Department of Corrections state system will require a switch from GTL to JPay and Securus.",
     ],
 
     address: "100 W. Madison Street, Phoenix, AZ 85003",
@@ -4672,7 +4672,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "All Maricopa County jail communication — phone, video, messaging, and money — runs through GTL.",
+        notes: "All Maricopa County jail communication, phone, video, messaging, and money, runs through GTL.",
       },
     ],
 
@@ -4695,7 +4695,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone in Maricopa County Jail?",
-        answer: "All communication services — phone, video, messaging, and money — are through GTL. Create a single GTL account at telmate.com or through the GTL Connect app. One account covers all Maricopa County Sheriff's Office jail facilities.",
+        answer: "All communication services, phone, video, messaging, and money, are through GTL. Create a single GTL account at telmate.com or through the GTL Connect app. One account covers all Maricopa County Sheriff's Office jail facilities.",
       },
       {
         question: "Which specific jail is my loved one in?",
@@ -4734,8 +4734,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Los Angeles County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "LA Men's Central Jail: Free Calls, GTL Setup and Messaging Guide",
-    seoDescription: "How to contact someone at LA County Men's Central Jail. Phone calls from LA County jails are free since December 2023. GTL ConnectNetwork handles communication. No prepaid account needed.",
+    seoTitle: "LA Men's Central Jail: Free Calls, GTL Setup and Messaging",
+    seoDescription: "How to contact someone at LA County Men's Central Jail. Phone calls from LA County jails are free since December 2023. GTL ConnectNetwork handles communication.",
 
     description:
       "Los Angeles County Men's Central Jail communication guide. Find GTL phone, video, and messaging options for families at one of the largest jails in the United States.",
@@ -4743,7 +4743,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Los Angeles County Men's Central Jail is the primary adult detention facility operated by the Los Angeles County Sheriff's Department, located in downtown Los Angeles adjacent to the Hall of Justice on Bauchet Street. With a capacity exceeding 5,000 and a daily population that frequently approaches that number, MCJ is one of the largest single-site county jails in the United States. The facility serves as a central booking and housing location for the LA County jail system, which also includes Twin Towers Correctional Facility, the Pitchess Detention Center complex in Castaic, and several other jails. Booking into the LA County system typically begins at MCJ before possible transfer to another facility.",
       "Communication at Men's Central Jail and other LASD facilities is managed through GTL, which provides phone calls, video visitation, and electronic messaging services. Families create a GTL account at telmate.com to access all available services. For phone calls, a GTL prepaid account funded with your phone number allows you to receive inmate-initiated calls. Video visits can be scheduled remotely through GTL. Messaging via GTL delivers communications digitally within the facility. Money for commissary accounts can be deposited through GTL or AccessCorrections.",
-      "An important note for families of LA County inmates: after processing and classification, your loved one may be transferred from MCJ to another facility within the LASD system — Twin Towers, the Century Regional Detention Center, or one of the Pitchess facilities. The GTL account and setup remain the same across all LASD facilities, but confirming the current location is necessary when scheduling video visits or making facility-specific requests. If your loved one is sentenced to a California state prison rather than remaining at an LASD facility, communication will shift to JPay for messaging and GTL phone remains but under a different system contract.",
+      "An important note for families of LA County inmates: after processing and classification, your loved one may be transferred from MCJ to another facility within the LASD system, Twin Towers, the Century Regional Detention Center, or one of the Pitchess facilities. The GTL account and setup remain the same across all LASD facilities, but confirming the current location is necessary when scheduling video visits or making facility-specific requests. If your loved one is sentenced to a California state prison rather than remaining at an LASD facility, communication will shift to JPay for messaging and GTL phone remains but under a different system contract.",
     ],
 
     address: "441 Bauchet Street, Los Angeles, CA 90012",
@@ -4787,7 +4787,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at LA County Men's Central Jail?",
-        answer: "All communication services at LASD jails — phone, video, messaging, and money — are through GTL. Create an account at telmate.com or through the GTL Connect app. One GTL account works across all Los Angeles County Sheriff's Department facilities.",
+        answer: "All communication services at LASD jails, phone, video, messaging, and money, are through GTL. Create an account at telmate.com or through the GTL Connect app. One GTL account works across all Los Angeles County Sheriff's Department facilities.",
       },
       {
         question: "What if my loved one has been transferred to another LASD facility?",
@@ -4826,8 +4826,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Bexar County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Bexar County Adult Detention Center: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Bexar County Adult Detention Center. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
+    seoTitle: "Bexar County Adult Detention Center: Phone Calls, Messaging",
+    seoDescription: "How to contact someone at Bexar County Adult Detention Center.",
 
     description:
       "Bexar County Adult Detention Center communication guide. Find Securus phone, video, and messaging options for families in San Antonio. Learn how to stay connected at the Bexar County jail.",
@@ -4857,7 +4857,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "Primary provider for all Bexar County jail communication — phone, video, messaging, and money.",
+        notes: "Primary provider for all Bexar County jail communication, phone, video, messaging, and money.",
       },
     ],
 
@@ -4880,7 +4880,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Bexar County Adult Detention Center?",
-        answer: "All communication services — phone, video, messaging, and money — are through Securus. Create an account at securustech.net or download the Securus app. For phone calls, set up a prepaid AdvancePay account linked to your phone number.",
+        answer: "All communication services, phone, video, messaging, and money, are through Securus. Create an account at securustech.net or download the Securus app. For phone calls, set up a prepaid AdvancePay account linked to your phone number.",
       },
       {
         question: "Can I do a video visit at Bexar County Jail?",
@@ -4919,8 +4919,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Dallas County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Dallas County Jail: Securus Phone, Video Visits and Money Guide",
-    seoDescription: "How to contact someone at Dallas County Jail in Dallas TX. Securus handles phone calls at $0.20 per minute and video visits at $10 per 20 minutes. Book-in number required at 214-761-9025.",
+    seoTitle: "Dallas County Jail: Securus Phone, Video Visits and Money",
+    seoDescription: "How to contact someone at Dallas County Jail in Dallas TX. Securus handles phone calls at $0.20 per minute and video visits at $10 per 20 minutes.",
 
     description:
       "Dallas County Jail (Lew Sterrett Justice Center) communication guide. Find Securus phone, video, and messaging options for families. Learn how to stay connected at the downtown Dallas jail.",
@@ -5035,8 +5035,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Philadelphia County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "Philadelphia Detention Center: Phone Calls and Jail Messaging",
-    seoDescription: "How to contact someone at Philadelphia Detention Center. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Philadelphia facility.",
+    seoTitle: "Philadelphia Detention Center: Phone Calls and Jail",
+    seoDescription: "How to contact someone at Philadelphia Detention Center.",
 
     description:
       "Philadelphia Detention Center communication guide. Find GTL phone, video, and messaging options for families. Learn how to stay connected at the Philadelphia Department of Prisons facility.",
@@ -5044,7 +5044,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "The Philadelphia Detention Center is one of several facilities operated by the Philadelphia Department of Prisons, located in the Northeast Philadelphia neighborhood near State Road, roughly 10 miles from Center City. Philadelphia has its own city-run prison system separate from the Pennsylvania state correctional system, reflecting the city's status as a consolidated city-county. The Philadelphia prison system includes the Detention Center, the Curran-Fromhold Correctional Facility, the House of Correction, and other facilities. The Detention Center primarily houses pretrial detainees and some sentenced individuals serving shorter terms in the city system.",
       "Communication at Philadelphia Detention Center and other Philadelphia Department of Prisons facilities is managed through GTL. Phone calls, video visitation, and messaging all run through the GTL platform, which means families can use a single account to access all services. For phone calls, funding a GTL prepaid account linked to your phone number allows you to receive inmate-initiated calls. Video visits are available remotely through GTL. Because the Philadelphia prison system is city-operated rather than county or state, it functions independently from both the Pennsylvania state system and the federal system.",
-      "An important distinction for Philadelphia families: the Philadelphia Department of Prisons uses GTL, which is different from what Pennsylvania state prisons use. If someone serving time at a Philadelphia facility is later transferred to a Pennsylvania DOC state prison (SCI), communication will shift to JPay for messaging and GTL under a different contract for phone. Keeping track of which system your loved one is in — city, state, or federal — ensures you are funding the correct accounts. The Philadelphia Department of Prisons provides an inmate locator to confirm current housing location across city facilities.",
+      "An important distinction for Philadelphia families: the Philadelphia Department of Prisons uses GTL, which is different from what Pennsylvania state prisons use. If someone serving time at a Philadelphia facility is later transferred to a Pennsylvania DOC state prison (SCI), communication will shift to JPay for messaging and GTL under a different contract for phone. Keeping track of which system your loved one is in, city, state, or federal, ensures you are funding the correct accounts. The Philadelphia Department of Prisons provides an inmate locator to confirm current housing location across city facilities.",
     ],
 
     address: "8001 State Road, Philadelphia, PA 19136",
@@ -5079,7 +5079,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     rules: [
       "GTL serves Philadelphia city prisons. Pennsylvania state prisons (SCIs) use a different system.",
-      "Philadelphia has its own city-run prison system — it is separate from state and federal systems.",
+      "Philadelphia has its own city-run prison system, it is separate from state and federal systems.",
       "One GTL account covers all Philadelphia Department of Prisons facilities.",
       "All calls, messages, and visits are monitored.",
       "Senders must be on the inmate's approved contact list.",
@@ -5088,7 +5088,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at the Philadelphia Detention Center?",
-        answer: "All communication services — phone, video, messaging, and money — are through GTL. Create an account at telmate.com or through the GTL Connect app. One GTL account works across all Philadelphia Department of Prisons facilities.",
+        answer: "All communication services, phone, video, messaging, and money, are through GTL. Create an account at telmate.com or through the GTL Connect app. One GTL account works across all Philadelphia Department of Prisons facilities.",
       },
       {
         question: "Is the Philadelphia prison system the same as a Pennsylvania state prison?",
@@ -5147,8 +5147,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Shelby County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Shelby County Jail Memphis: NCIC Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Shelby County Criminal Justice Center in Memphis TN. NCIC Inmate Communications handles phone calls at 201 Poplar Avenue. Find messaging and visit options.",
+    seoTitle: "Shelby County Jail Memphis: NCIC Phone Calls and Messaging",
+    seoDescription: "How to contact someone at Shelby County Criminal Justice Center in Memphis TN. NCIC Inmate Communications handles phone calls at 201 Poplar Avenue.",
 
     description:
       "Shelby County Criminal Justice Center communication guide. Find GTL phone, video, and messaging options for families in Memphis. Learn how to stay connected at the 201 Poplar jail complex.",
@@ -5156,7 +5156,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "The Shelby County Criminal Justice Center, commonly known by its address at 201 Poplar Avenue, is the main pretrial detention facility operated by the Shelby County Sheriff's Office in downtown Memphis, Tennessee. The building houses both the jail and multiple courtrooms, functioning as a combined criminal court and detention complex. Memphis is the largest city in Tennessee and the seat of Shelby County, and the CJC processes a substantial volume of bookings from across the county. The majority of people held at 201 Poplar are awaiting court dates on charges filed in Shelby County courts.",
       "Communication at the Shelby County Criminal Justice Center is managed through GTL, which provides phone calls, video visitation, and electronic messaging under the county contract. Families create a GTL account to access all available services. For phone calls, a GTL prepaid account funded with your phone number allows you to receive inmate-initiated calls. Video visits are available remotely through GTL. Electronic messaging through GTL delivers messages digitally within the facility. Commissary deposits can be processed through GTL or AccessCorrections.",
-      "Shelby County uses GTL for the county jail, while Tennessee state prisons use JPay and GTL under TDOC contracts — so if someone is convicted and transferred to a Tennessee Department of Correction facility, some account changes may be needed. It is also worth noting that FCI Memphis, the federal prison in Shelby County, uses an entirely different system (CorrLinks and ConnectNetwork). Confirming the specific facility and jurisdiction before setting up accounts prevents funding the wrong platform. The Shelby County inmate search at shelby.tn.gov can help verify current custody status.",
+      "Shelby County uses GTL for the county jail, while Tennessee state prisons use JPay and GTL under TDOC contracts, so if someone is convicted and transferred to a Tennessee Department of Correction facility, some account changes may be needed. It is also worth noting that FCI Memphis, the federal prison in Shelby County, uses an entirely different system (CorrLinks and ConnectNetwork). Confirming the specific facility and jurisdiction before setting up accounts prevents funding the wrong platform. The Shelby County inmate search at shelby.tn.gov can help verify current custody status.",
     ],
 
     address: "201 Poplar Avenue, Memphis, TN 38103",
@@ -5200,7 +5200,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at 201 Poplar in Memphis?",
-        answer: "All communication services — phone, video, messaging, and money — are through GTL. Create an account at telmate.com or through the GTL Connect app to access all services with a single account.",
+        answer: "All communication services, phone, video, messaging, and money, are through GTL. Create an account at telmate.com or through the GTL Connect app to access all services with a single account.",
       },
       {
         question: "How is Shelby County Jail different from FCI Memphis?",
@@ -5239,8 +5239,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Cuyahoga County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Cuyahoga County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Cuyahoga County Jail in Cleveland OH. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this Ohio facility.",
+    seoTitle: "Cuyahoga County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Cuyahoga County Jail in Cleveland OH.",
 
     description:
       "Cuyahoga County Jail communication guide. Find Securus phone, video, and messaging options for families in Cleveland. Learn how to stay connected at the Cuyahoga County correctional facility.",
@@ -5248,7 +5248,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Cuyahoga County Jail is the pretrial detention facility operated by the Cuyahoga County Sheriff's Office in Cleveland, Ohio. Located in downtown Cleveland near the Justice Center complex, it serves as the primary detention facility for people charged with crimes in Cuyahoga County courts. Cleveland is the second-largest city in Ohio and the county seat of Cuyahoga County. The jail processes thousands of bookings each year and holds a daily population of roughly 1,500 to 2,000 people, the majority awaiting trial. The facility is part of the Cleveland Justice Center, which also houses the county courthouse and Cleveland Municipal Court.",
       "Communication at Cuyahoga County Jail is managed through Securus Technologies, which provides phone calls, video visitation, and messaging services. Families create a Securus account at securustech.net to access all available services. For phone calls, setting up a Securus AdvancePay account linked to your phone number allows you to receive inmate-initiated calls. Remote video visits are available through Securus and can be scheduled in advance. Electronic messaging is also available. Commissary deposits can be processed through Securus or through separate deposit services accepted by the facility.",
-      "Cuyahoga County Jail uses Securus, which is distinct from the Ohio DOC state prison system. Ohio state prisons use JPay and GTL. If someone serving time at Cuyahoga County is convicted and transferred to an Ohio state correctional institution, communication platforms will change and new accounts will be needed. The Ohio DOC offender search and the Cuyahoga County inmate search are two separate tools — use the county search for county jail information and the state search for Ohio prison information. Confirming current jurisdiction and location before setting up accounts saves time and prevents funding the wrong system.",
+      "Cuyahoga County Jail uses Securus, which is distinct from the Ohio DOC state prison system. Ohio state prisons use JPay and GTL. If someone serving time at Cuyahoga County is convicted and transferred to an Ohio state correctional institution, communication platforms will change and new accounts will be needed. The Ohio DOC offender search and the Cuyahoga County inmate search are two separate tools, use the county search for county jail information and the state search for Ohio prison information. Confirming current jurisdiction and location before setting up accounts saves time and prevents funding the wrong system.",
     ],
 
     address: "1215 West Third Street, Cleveland, OH 44113",
@@ -5301,7 +5301,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "What changes if someone is transferred from Cuyahoga County to an Ohio state prison?",
-        answer: "Ohio state prisons (ODRC) use JPay for messaging and money, and GTL for phone and video. Securus will no longer be the correct platform. Create JPay and GTL accounts when a transfer is anticipated. Remaining Securus funds do not transfer — contact Securus about refund options.",
+        answer: "Ohio state prisons (ODRC) use JPay for messaging and money, and GTL for phone and video. Securus will no longer be the correct platform. Create JPay and GTL accounts when a transfer is anticipated. Remaining Securus funds do not transfer, contact Securus about refund options.",
       },
       {
         question: "How do I find if someone is currently in Cuyahoga County Jail?",
@@ -5332,8 +5332,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Jefferson County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Jefferson County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Jefferson County Jail. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county jail facility.",
+    seoTitle: "Jefferson County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Jefferson County Jail.",
 
     description:
       "Jefferson County Jail communication guide. Find Securus phone, video, and messaging options for families in Birmingham. Learn how to stay connected at the Jefferson County detention facility.",
@@ -5341,7 +5341,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Jefferson County Jail is the pretrial detention facility operated by the Jefferson County Sheriff's Office in Birmingham, Alabama. Located in downtown Birmingham, it serves as the primary detention facility for people charged with crimes in Jefferson County courts. Birmingham is the most populous city in Alabama and the seat of Jefferson County, and the jail handles a large volume of bookings from across the county's metropolitan area. Most people held at the facility are awaiting court dates on charges filed in Jefferson County courts.",
       "Communication at Jefferson County Jail is managed through Securus Technologies, which provides phone calls, video visitation, and messaging services. Families create a Securus account at securustech.net to access all available communication services. For phone calls, setting up a Securus AdvancePay account linked to your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled in advance through the Securus platform. Electronic messaging through Securus delivers communications electronically within the facility.",
-      "Jefferson County Jail uses Securus, which is distinct from Alabama state prisons. Alabama DOC facilities, including Holman Correctional Facility, use JPay and GTL. If someone held at Jefferson County is convicted and later transferred to an Alabama state prison, communication platforms will change and new accounts will be needed. Confirming the current facility and jurisdiction — county versus state — before setting up accounts ensures you are using the right provider. The Jefferson County Sheriff's Office provides an inmate search to confirm current booking status.",
+      "Jefferson County Jail uses Securus, which is distinct from Alabama state prisons. Alabama DOC facilities, including Holman Correctional Facility, use JPay and GTL. If someone held at Jefferson County is convicted and later transferred to an Alabama state prison, communication platforms will change and new accounts will be needed. Confirming the current facility and jurisdiction, county versus state, before setting up accounts ensures you are using the right provider. The Jefferson County Sheriff's Office provides an inmate search to confirm current booking status.",
     ],
 
     address: "2200 8th Avenue North, Birmingham, AL 35203",
@@ -5385,7 +5385,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Jefferson County Jail?",
-        answer: "All communication services — phone, video, messaging, and money — are through Securus. Create an account at securustech.net or through the Securus app. For phone calls, set up a prepaid AdvancePay account linked to your phone number.",
+        answer: "All communication services, phone, video, messaging, and money, are through Securus. Create an account at securustech.net or through the Securus app. For phone calls, set up a prepaid AdvancePay account linked to your phone number.",
       },
       {
         question: "Can I do a video visit with someone at Jefferson County Jail?",
@@ -5424,8 +5424,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Denver County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Denver County Jail: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Denver County Jail. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this county facility.",
+    seoTitle: "Denver County Jail: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Denver County Jail.",
 
     description:
       "Denver County Jail communication guide. Find Securus phone, video, and messaging options for families. Learn how to stay connected at Denver Sheriff Department facilities in Colorado.",
@@ -5479,7 +5479,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Denver County Jail?",
-        answer: "All communication services — phone, video, messaging, and money — are through Securus. Create an account at securustech.net or through the Securus app. Set up a prepaid AdvancePay account linked to your phone number for calls.",
+        answer: "All communication services, phone, video, messaging, and money, are through Securus. Create an account at securustech.net or through the Securus app. Set up a prepaid AdvancePay account linked to your phone number for calls.",
       },
       {
         question: "Which Denver facility is my loved one in?",
@@ -5539,8 +5539,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Wake County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Wake County Detention: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Wake County Detention Center in Raleigh NC. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers at this NC facility.",
+    seoTitle: "Wake County Detention: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Wake County Detention Center in Raleigh NC.",
 
     description:
       "Wake County Detention Center communication guide. Find GTL phone, video, and messaging options for families in Raleigh, North Carolina. Learn how to stay connected at the Wake County jail.",
@@ -5548,7 +5548,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     overview: [
       "Wake County Detention Center is the pretrial detention facility operated by the Wake County Sheriff's Office in Raleigh, North Carolina. Located on Hammond Road in southern Raleigh, the facility serves as the primary jail for the Wake County criminal court system. Raleigh is the state capital of North Carolina and the second-largest city in the state, and it sits at the center of the Research Triangle region. The detention center holds several hundred to over a thousand people on any given day, most of them awaiting court proceedings in Wake County courts.",
       "Communication at Wake County Detention Center is managed through GTL, which provides phone calls, video visitation, and electronic messaging services under the county contract. Families create a GTL account to access all services. For phone calls, a GTL prepaid account funded with your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through GTL. Electronic messaging through GTL delivers messages digitally within the facility. Commissary deposits can be processed through GTL or AccessCorrections.",
-      "Wake County uses GTL for its county jail, which is a different system from what North Carolina state prisons use. North Carolina DOC state prisons operate under separate provider contracts. If someone held at Wake County is convicted and transferred to a North Carolina state correctional institution, communication providers will change and new accounts may be needed. The Wake County Sheriff's Office provides an online inmate search to confirm current custody status. FCC Butner, the federal prison complex in Granville County nearby, uses CorrLinks and ConnectNetwork — a completely different system from the Wake County jail.",
+      "Wake County uses GTL for its county jail, which is a different system from what North Carolina state prisons use. North Carolina DOC state prisons operate under separate provider contracts. If someone held at Wake County is convicted and transferred to a North Carolina state correctional institution, communication providers will change and new accounts may be needed. The Wake County Sheriff's Office provides an online inmate search to confirm current custody status. FCC Butner, the federal prison complex in Granville County nearby, uses CorrLinks and ConnectNetwork, a completely different system from the Wake County jail.",
     ],
 
     address: "3301 Hammond Road, Raleigh, NC 27603",
@@ -5592,7 +5592,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Wake County Detention Center?",
-        answer: "All communication services — phone, video, messaging, and money — are through GTL. Create an account at telmate.com or through the GTL Connect app. One account covers all services at Wake County Detention Center.",
+        answer: "All communication services, phone, video, messaging, and money, are through GTL. Create an account at telmate.com or through the GTL Connect app. One account covers all services at Wake County Detention Center.",
       },
       {
         question: "Can I do a video visit at Wake County Detention Center?",

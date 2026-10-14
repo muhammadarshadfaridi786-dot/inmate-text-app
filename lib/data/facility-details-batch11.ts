@@ -19,7 +19,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Miami-Dade County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Miami-Dade County Jail: Securus Phone, Messaging and Video Visits",
+  seoTitle: "Miami-Dade County Jail: Securus Phone, Messaging and Video",
   seoDescription: "How to contact someone at Miami-Dade County Jail in Miami FL. Securus phone, messaging and video visits for this Miami-Dade Corrections jail system.",
 
   description:
@@ -85,7 +85,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Palm Beach County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Palm Beach County Jail: Securus Phones and Video Visits Guide",
+  seoTitle: "Palm Beach County Jail: Securus Phones and Video Visits",
   seoDescription: "How to contact someone at Palm Beach County Jail in West Palm Beach FL. Securus phone service and video visitation for this Palm Beach County Sheriff's jail.",
 
   description:
@@ -264,7 +264,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Mecklenburg County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Mecklenburg County Jail: GettingOut Phone, Messaging and Video Visits",
+  seoTitle: "Mecklenburg County Jail: GettingOut Phone, Messaging and",
   seoDescription: "How to contact someone at Mecklenburg County Jail in Charlotte NC. GettingOut phone, messaging and video visits for this Mecklenburg County Sheriff's jail.",
 
   description:
@@ -619,7 +619,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Hamilton County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Hamilton County Jail: Securus Phone, Messaging and Video Visits",
+  seoTitle: "Hamilton County Jail: Securus Phone, Messaging and Video",
   seoDescription: "How to contact someone at Hamilton County Jail in Cincinnati OH. Securus phone, messaging and video visits for this Hamilton County Sheriff's jail.",
 
   description:
@@ -884,7 +884,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Kent County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Kent County Jail: Smart Communications Phone, Messaging and Video Visits",
+  seoTitle: "Kent County Jail: Smart Communications Phone, Messaging and",
   seoDescription: "How to contact someone at Kent County Jail in Grand Rapids MI. Smart Communications phone, messaging and video visits for this Kent County Sheriff's jail.",
 
   description:
@@ -1316,7 +1316,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Washoe County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Washoe County Jail: Smart Communications Phones and Video Visits Guide",
+  seoTitle: "Washoe County Jail: Smart Communications Phones and Video",
   seoDescription: "How to contact someone at Washoe County Jail in Reno NV. Smart Communications telecom and video visits for this Washoe County Sheriff's jail.",
 
   description:
@@ -1937,7 +1937,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Webb County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Webb County Jail: GettingOut Phone, Messaging and Video Visits",
+  seoTitle: "Webb County Jail: GettingOut Phone, Messaging and Video",
   seoDescription: "How to contact someone at Webb County Jail in Laredo TX. GettingOut phone, messaging and video visits for this Webb County Sheriff's jail.",
 
   description:

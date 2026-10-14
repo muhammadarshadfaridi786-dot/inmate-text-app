@@ -1,7 +1,7 @@
 import type { FacilityDetail } from "./facility-types"
 
 // ─────────────────────────────────────────────
-// FACILITY DETAILS — Batch 3 (30 new facilities)
+// FACILITY DETAILS, Batch 3 (30 new facilities)
 // 18 zero-coverage states + 12 single-coverage states
 // Brings total to 100 detailed facility pages
 // ─────────────────────────────────────────────
@@ -23,7 +23,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Close",
     hasDetailPage: true,
     seoTitle: "Spring Creek Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Spring Creek Correctional Center in Seward AK. Find the correct provider for phone calls, electronic messaging, and money transfers at this Alaska DOC facility.",
+    seoDescription: "How to contact someone at Spring Creek Correctional Center in Seward AK.",
 
     description:
       "Spring Creek Correctional Center communication guide. Find JPay messaging and GTL phone options for families at Alaska's close-security state prison in Seward.",
@@ -78,7 +78,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
 
     rules: [
       "JPay and GTL are separate platforms. Messaging stamps and phone funds are not interchangeable.",
-      "The Seward Highway can be closed by avalanche or weather — plan in-person visits with flexibility.",
+      "The Seward Highway can be closed by avalanche or weather, plan in-person visits with flexibility.",
       "Messages are reviewed by ADOC staff before delivery.",
       "ADOC system-wide accounts carry over if the inmate transfers to another Alaska facility.",
       "Senders must be on the inmate's approved contact list.",
@@ -95,7 +95,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Spring Creek from Anchorage?",
-        answer: "Spring Creek is in Seward, about 125 miles south of Anchorage via the Seward Highway — roughly a two and a half hour drive in good conditions. The highway is one of the most scenic in Alaska but is subject to closures due to avalanches and winter weather. Plan visits with flexibility and check road conditions before traveling.",
+        answer: "Spring Creek is in Seward, about 125 miles south of Anchorage via the Seward Highway, roughly a two and a half hour drive in good conditions. The highway is one of the most scenic in Alaska but is subject to closures due to avalanches and winter weather. Plan visits with flexibility and check road conditions before traveling.",
       },
       {
         question: "Is video visitation available at Spring Creek?",
@@ -127,16 +127,16 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lincoln County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Cummins Unit Arkansas: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Cummins Unit in Grady AR. Find the correct provider for phone calls, electronic messaging, and money transfers at this Arkansas Division of Correction facility.",
+    seoTitle: "Cummins Unit Arkansas: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Cummins Unit in Grady AR.",
 
     description:
       "Cummins Unit communication guide. Find JPay messaging and GTL phone options for families at Arkansas's largest maximum-security state prison in Lincoln County.",
 
     overview: [
       "Cummins Unit is the largest prison in Arkansas, operated by the Arkansas Division of Correction and located near the town of Grady in Lincoln County in the southeastern part of the state, roughly 90 miles southeast of Little Rock. Originally established in 1902, Cummins is an agricultural prison with a long and documented history that includes significant civil rights litigation in the 1960s and 1970s over inmate conditions. The facility covers thousands of acres of farmland worked by inmates and continues to operate as both a correctional institution and a working farm. It houses adult male inmates at close, maximum, and supermax classifications.",
-      "Communication at Cummins Unit follows Arkansas DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Arkansas DOC number to begin correspondence. GTL manages phone calls and video visitation under the ADC statewide contract. The standard two-platform setup applies: JPay for messaging and money, GTL for phone and video. These are separate accounts — stamps purchased on JPay cannot be used for phone calls, and vice versa.",
-      "Cummins is in rural Lincoln County, roughly 90 miles from Little Rock. For families in the capital area, the drive takes about an hour and a half. For families in Memphis, Tennessee — about 150 miles east — a visit is a reasonable day trip. The facility's rural agricultural setting means it is not near major transit corridors. JPay messaging and GTL video visits are practical for families who cannot travel regularly. Arkansas DOC accounts work across all ADC facilities statewide and carry over automatically if an inmate transfers.",
+      "Communication at Cummins Unit follows Arkansas DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Arkansas DOC number to begin correspondence. GTL manages phone calls and video visitation under the ADC statewide contract. The standard two-platform setup applies: JPay for messaging and money, GTL for phone and video. These are separate accounts, stamps purchased on JPay cannot be used for phone calls, and vice versa.",
+      "Cummins is in rural Lincoln County, roughly 90 miles from Little Rock. For families in the capital area, the drive takes about an hour and a half. For families in Memphis, Tennessee, about 150 miles east, a visit is a reasonable day trip. The facility's rural agricultural setting means it is not near major transit corridors. JPay messaging and GTL video visits are practical for families who cannot travel regularly. Arkansas DOC accounts work across all ADC facilities statewide and carry over automatically if an inmate transfers.",
     ],
 
     address: "1 Chicken Farm Road, Grady, AR 71644",
@@ -200,7 +200,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Cummins from Little Rock?",
-        answer: "Cummins Unit is in Grady, Lincoln County, roughly 90 miles southeast of Little Rock — about an hour and a half by car. For Memphis-area families, the facility is approximately 150 miles west, making it a feasible day trip from Tennessee.",
+        answer: "Cummins Unit is in Grady, Lincoln County, roughly 90 miles southeast of Little Rock, about an hour and a half by car. For Memphis-area families, the facility is approximately 150 miles west, making it a feasible day trip from Tennessee.",
       },
       {
         question: "Is video visitation available at Cummins?",
@@ -232,15 +232,15 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Kent County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Vaughn Correctional: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at James T Vaughn Correctional Center in Smyrna DE. Find the correct provider for phone calls, messaging, and money transfers at this Delaware DOC facility.",
+    seoTitle: "Vaughn Correctional: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at James T Vaughn Correctional Center in Smyrna DE.",
 
     description:
       "James T. Vaughn Correctional Center communication guide. Find JPay messaging and GTL phone options for families at Delaware's maximum-security state prison in Smyrna.",
 
     overview: [
       "James T. Vaughn Correctional Center is Delaware's largest and only maximum-security state prison, operated by the Delaware Department of Correction and located in Smyrna in Kent County, roughly 45 miles south of Wilmington and about 10 miles north of Dover, the state capital. Established in 1901 as the Delaware State Penitentiary and later renamed in honor of a correctional officer killed during the 2017 inmate uprising, Vaughn houses adult male inmates at maximum, medium, and minimum security classifications. The 2017 hostage crisis at the facility drew national attention and led to significant policy reviews of Delaware's correctional system.",
-      "Communication at James T. Vaughn follows Delaware DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Delaware DOC number to begin correspondence. GTL manages phone calls and video visitation under the DDOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. Accounts are separate and serve different functions — message stamps cannot be used for phone minutes and vice versa.",
+      "Communication at James T. Vaughn follows Delaware DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Delaware DOC number to begin correspondence. GTL manages phone calls and video visitation under the DDOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. Accounts are separate and serve different functions, message stamps cannot be used for phone minutes and vice versa.",
       "Vaughn's location in central Delaware between Wilmington and Dover makes it relatively accessible for families across the state. The facility is about 45 minutes south of Wilmington and close to I-1 and US-13. For families in the Philadelphia metro area, the drive from southeastern Pennsylvania is about an hour. For families in Maryland or New Jersey, the facility is also within reasonable reach. Delaware is a small state with limited correctional geography, making Vaughn the central facility for most Delaware inmate families.",
     ],
 
@@ -305,7 +305,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Vaughn from Wilmington and Philadelphia?",
-        answer: "James T. Vaughn is in Smyrna, about 45 miles south of Wilmington — roughly a 45-minute drive. From Philadelphia, the facility is about an hour south via I-95 and US-13. For New Jersey or Maryland families, the drive is similarly accessible.",
+        answer: "James T. Vaughn is in Smyrna, about 45 miles south of Wilmington, roughly a 45-minute drive. From Philadelphia, the facility is about an hour south via I-95 and US-13. For New Jersey or Maryland families, the drive is similarly accessible.",
       },
       {
         question: "Is video visitation available at Vaughn?",
@@ -338,7 +338,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
     seoTitle: "Oahu OCCC: Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone at Oahu Community Correctional Center in Honolulu Hawaii. Find the correct provider for phone calls, messaging, and money transfers at this Hawaii facility.",
+    seoDescription: "How to contact someone at Oahu Community Correctional Center in Honolulu Hawaii.",
 
     description:
       "Oahu Community Correctional Center communication guide. Find Securus phone and video options for families in Honolulu. Learn how to stay connected at Hawaii's largest correctional facility.",
@@ -346,7 +346,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Oahu Community Correctional Center (OCCC) is the largest correctional facility in Hawaii, operated by the Hawaii Department of Public Safety and located in the Kalihi neighborhood of Honolulu on the island of Oahu. The facility serves as both the primary pretrial detention center for Honolulu County and as a short-term sentenced facility for people serving terms of one year or less. OCCC is consistently over its design capacity and processes a large number of bookings from across the island. Because Hawaii has no county-operated jails separate from state facilities, OCCC functions as the main intake and detention center for Oahu.",
       "Communication at OCCC is managed through Securus Technologies, which handles phone calls, video visitation, and electronic messaging under the Hawaii DPS contract. Families create a Securus account at securustech.net to access all available services. Setting up a Securus AdvancePay account funded with your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through Securus. Electronic messaging delivers communications digitally within the facility.",
-      "OCCC's location in Honolulu makes it accessible for families living on Oahu. However, families on neighbor islands — Maui, Hawaii Island, Kauai, Molokai — face a significant barrier because inter-island travel requires a flight or ferry, making in-person visits expensive and difficult to schedule regularly. For neighbor island families, Securus video visits and messaging are the most practical tools for maintaining contact. People held at OCCC may later be transferred to the Hawaii Community Correctional Center on the Big Island or to mainland facilities contracted by Hawaii DPS. Confirm current location before setting up any accounts.",
+      "OCCC's location in Honolulu makes it accessible for families living on Oahu. However, families on neighbor islands, Maui, Hawaii Island, Kauai, Molokai, face a significant barrier because inter-island travel requires a flight or ferry, making in-person visits expensive and difficult to schedule regularly. For neighbor island families, Securus video visits and messaging are the most practical tools for maintaining contact. People held at OCCC may later be transferred to the Hawaii Community Correctional Center on the Big Island or to mainland facilities contracted by Hawaii DPS. Confirm current location before setting up any accounts.",
     ],
 
     address: "2199 Kamehameha Highway, Honolulu, HI 96819",
@@ -367,7 +367,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "Primary provider for all OCCC communication — phone, video, messaging, and commissary deposits.",
+        notes: "Primary provider for all OCCC communication, phone, video, messaging, and commissary deposits.",
       },
     ],
 
@@ -390,7 +390,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Oahu Community Correctional Center?",
-        answer: "All communication services at OCCC — phone, video, messaging, and money — are through Securus. Create an account at securustech.net or through the Securus app. One account covers all services at the facility.",
+        answer: "All communication services at OCCC, phone, video, messaging, and money, are through Securus. Create an account at securustech.net or through the Securus app. One account covers all services at the facility.",
       },
       {
         question: "Can I do a video visit with someone at OCCC from a neighbor island?",
@@ -429,8 +429,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Ada County",
     securityLevel: "Medium / Close",
     hasDetailPage: true,
-    seoTitle: "Idaho State Correctional: Free ViaPath Tablets and Phone Guide",
-    seoDescription: "How to contact someone at Idaho State Correctional Institution. Idaho provides free ViaPath Bridge tablets to inmates. Find phone calls, messaging, and money transfer options.",
+    seoTitle: "Idaho State Correctional: Free ViaPath Tablets and Phone",
+    seoDescription: "How to contact someone at Idaho State Correctional Institution. Idaho provides free ViaPath Bridge tablets to inmates.",
 
     description:
       "Idaho State Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Idaho's primary state prison complex near Boise.",
@@ -502,7 +502,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is ISCI from downtown Boise?",
-        answer: "ISCI is near Kuna, about 20 miles southwest of downtown Boise — roughly a 25 to 30-minute drive. For Boise-area families, in-person visits are very accessible. For families in Twin Falls or Pocatello, the drive is longer but manageable as a day trip.",
+        answer: "ISCI is near Kuna, about 20 miles southwest of downtown Boise, roughly a 25 to 30-minute drive. For Boise-area families, in-person visits are very accessible. For families in Twin Falls or Pocatello, the drive is longer but manageable as a day trip.",
       },
       {
         question: "Does ISCI serve as an intake facility?",
@@ -534,8 +534,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lee County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Iowa State Penitentiary: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Iowa State Penitentiary in Fort Madison. Find the correct provider for phone calls, electronic messaging, and money transfers at this Iowa DOC facility.",
+    seoTitle: "Iowa State Penitentiary: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Iowa State Penitentiary in Fort Madison.",
 
     description:
       "Iowa State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Iowa's only maximum-security state prison in Fort Madison.",
@@ -543,7 +543,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Iowa State Penitentiary is Iowa's only maximum-security state prison, operated by the Iowa Department of Corrections and located in Fort Madison in Lee County in the far southeastern corner of the state, on a bluff above the Mississippi River. Established in 1839, it is one of the oldest continuously operating prisons in the United States and Iowa's oldest correctional institution. The facility houses the state's most serious long-term offenders and Iowa's death row population. Fort Madison is a small river city near the Missouri and Illinois state lines, and the prison's distinctive stone walls along the riverbank make it a well-known local landmark.",
       "Communication at Iowa State Penitentiary follows Iowa DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Iowa DOC number to begin correspondence. GTL manages phone calls and video visitation under the IDOC statewide contract. The two-platform model applies here: JPay for messaging and money, GTL for phone and video. Death row inmates may have more restricted communication access than the general maximum-security population. Confirm current access with the facility for anyone on Iowa's death row.",
-      "Fort Madison's location in the far southeastern corner of Iowa — near Keokuk and across the river from Illinois — means it is relatively distant from Iowa's population centers. Des Moines is about 175 miles northwest; Cedar Rapids and Iowa City are about 100 miles north. For families in the Quad Cities area or across the river in Illinois, the facility is more accessible. JPay messaging and GTL video visits are practical alternatives for families in central or northern Iowa who cannot make the drive regularly. Iowa DOC accounts carry over to any other Iowa facility if an inmate is transferred.",
+      "Fort Madison's location in the far southeastern corner of Iowa, near Keokuk and across the river from Illinois, means it is relatively distant from Iowa's population centers. Des Moines is about 175 miles northwest; Cedar Rapids and Iowa City are about 100 miles north. For families in the Quad Cities area or across the river in Illinois, the facility is more accessible. JPay messaging and GTL video visits are practical alternatives for families in central or northern Iowa who cannot make the drive regularly. Iowa DOC accounts carry over to any other Iowa facility if an inmate is transferred.",
     ],
 
     address: "2500 Iowa Penitentiary Drive, Fort Madison, IA 52627",
@@ -581,7 +581,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm with facility." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to IDOC content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls via GTL. Fund AdvancePay account to receive calls." },
@@ -607,7 +607,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Iowa State Penitentiary from Des Moines?",
-        answer: "Iowa State Penitentiary is in Fort Madison, about 175 miles southeast of Des Moines — roughly a two and a half hour drive. For families in the Quad Cities area on the Illinois-Iowa border, the facility is about 60 miles south, making visits more practical.",
+        answer: "Iowa State Penitentiary is in Fort Madison, about 175 miles southeast of Des Moines, roughly a two and a half hour drive. For families in the Quad Cities area on the Illinois-Iowa border, the facility is about 60 miles south, making visits more practical.",
       },
       {
         question: "Do death row inmates at Iowa State Penitentiary have full communication access?",
@@ -639,8 +639,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Knox County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Maine State Prison: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Maine State Prison in Warren. Find the correct provider for phone calls, electronic messaging, and money transfers at this Maine DOC facility.",
+    seoTitle: "Maine State Prison: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Maine State Prison in Warren.",
 
     description:
       "Maine State Prison communication guide. Find JPay messaging and GTL phone options for families at Maine's only maximum-security state prison in Warren, Knox County.",
@@ -648,7 +648,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Maine State Prison is the only maximum-security state prison in Maine, operated by the Maine Department of Corrections and located in Warren in Knox County along the Georges River in the mid-coast region of the state, roughly 80 miles northeast of Portland and 60 miles south of Bangor. The current facility opened in 2002, replacing the original Maine State Prison that had operated in Thomaston since 1824. The new facility is a modern, campus-style institution that houses adult male inmates at all security classifications from medium to maximum. It is the central facility in Maine's correctional system and serves as the state's primary long-term housing institution.",
       "Communication at Maine State Prison follows Maine DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Maine DOC number to begin correspondence. GTL manages phone calls and video visitation under the MDOC statewide contract. As with other Maine state facilities, the two-platform model applies: JPay for messaging and money, GTL for phone and video, each with its own account and funding.",
-      "Warren is in Knox County on Maine's mid-coast, between Portland to the southwest and Bangor to the northeast. US-1 passes through the region, and the facility is accessible from Route 1 and nearby state roads. For Portland-area families, the drive is about 80 miles — roughly an hour and 20 minutes. For families in Augusta, the state capital, Warren is about 45 miles south. Maine's correctional geography is relatively compact compared to larger states, and the Maine State Prison serves as the destination for most long-term male inmates from across the state. Maine DOC accounts carry over if an inmate transfers within the state system.",
+      "Warren is in Knox County on Maine's mid-coast, between Portland to the southwest and Bangor to the northeast. US-1 passes through the region, and the facility is accessible from Route 1 and nearby state roads. For Portland-area families, the drive is about 80 miles, roughly an hour and 20 minutes. For families in Augusta, the state capital, Warren is about 45 miles south. Maine's correctional geography is relatively compact compared to larger states, and the Maine State Prison serves as the destination for most long-term male inmates from across the state. Maine DOC accounts carry over if an inmate transfers within the state system.",
     ],
 
     address: "807 Cushing Road, Warren, ME 04864",
@@ -712,7 +712,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Maine State Prison from Portland?",
-        answer: "Maine State Prison is in Warren in Knox County, about 80 miles northeast of Portland — roughly an hour and 20 minutes by car via US-1 and Route 90. For Augusta-area families, the drive is about 45 miles south. Maine's mid-coast location makes the facility accessible from most parts of the state.",
+        answer: "Maine State Prison is in Warren in Knox County, about 80 miles northeast of Portland, roughly an hour and 20 minutes by car via US-1 and Route 90. For Augusta-area families, the drive is about 45 miles south. Maine's mid-coast location makes the facility accessible from most parts of the state.",
       },
       {
         question: "What is the difference between the old and new Maine State Prison?",
@@ -744,8 +744,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Baltimore City",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Baltimore City Detention Center (Closed 2015): Where Pretrial Detainees Go Now",
-    seoDescription: "The men's Baltimore City Detention Center closed in July 2015 and was demolished in 2021. Baltimore pretrial intake now runs through the Baltimore Central Booking and Intake Center. Learn where to find someone and how to contact them.",
+    seoTitle: "Baltimore City Detention Center (Closed 2015): Where",
+    seoDescription: "The men's Baltimore City Detention Center closed in July 2015 and was demolished in 2021.",
 
     description:
       "Baltimore City Detention Center closed in July 2015 and was demolished in 2021. This page explains the closure and directs families to the Baltimore Central Booking and Intake Center, which now handles Baltimore pretrial intake.",
@@ -857,8 +857,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Powell County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Montana State Prison: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Montana State Prison in Deer Lodge. Find the correct provider for phone calls, electronic messaging, and money transfers at this Montana DOC facility.",
+    seoTitle: "Montana State Prison: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Montana State Prison in Deer Lodge.",
 
     description:
       "Montana State Prison communication guide. Find JPay messaging and GTL phone options for families at Montana's maximum-security state prison in Deer Lodge, Powell County.",
@@ -866,7 +866,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Montana State Prison is the primary maximum-security state prison in Montana, operated by the Montana Department of Corrections and located in Deer Lodge in Powell County, roughly 75 miles east of Missoula and 80 miles west of Helena. The facility has been operating in Deer Lodge since 1871, making it one of the oldest continuously operating prisons in the western United States. Montana State Prison houses adult male inmates at maximum, medium, and minimum security classifications and serves as the central institution in the Montana DOC system. Deer Lodge is a small town in the Deer Lodge Valley, and the prison complex is a prominent part of the local community.",
       "Communication at Montana State Prison follows Montana DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Montana DOC number to begin correspondence. GTL manages phone calls and video visitation under the MDOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. Each platform requires a separate account and funding; stamps purchased on JPay cannot be used for GTL phone calls.",
-      "Deer Lodge sits along I-90 in the Deer Lodge Valley between Missoula and Butte. For Missoula-area families, the drive east on I-90 takes about 75 minutes. For Helena families, Deer Lodge is about 80 miles west — just over an hour. Families in Great Falls, Billings, or eastern Montana face longer drives, making electronic communication and GTL video visits particularly important for regular contact. Montana is a large state with significant driving distances between communities, and the prison's location roughly in the center-west of the state is not near most population centers. Montana DOC accounts carry over if an inmate transfers within the state system.",
+      "Deer Lodge sits along I-90 in the Deer Lodge Valley between Missoula and Butte. For Missoula-area families, the drive east on I-90 takes about 75 minutes. For Helena families, Deer Lodge is about 80 miles west, just over an hour. Families in Great Falls, Billings, or eastern Montana face longer drives, making electronic communication and GTL video visits particularly important for regular contact. Montana is a large state with significant driving distances between communities, and the prison's location roughly in the center-west of the state is not near most population centers. Montana DOC accounts carry over if an inmate transfers within the state system.",
     ],
 
     address: "400 Conley Lake Road, Deer Lodge, MT 59722",
@@ -930,7 +930,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Montana State Prison from Missoula and Helena?",
-        answer: "Montana State Prison is in Deer Lodge, about 75 miles east of Missoula and 80 miles west of Helena — roughly an hour to an hour and 15 minutes from either city on I-90. For families in Billings or Great Falls, the drive is longer, making electronic communication and GTL video visits more practical for regular contact.",
+        answer: "Montana State Prison is in Deer Lodge, about 75 miles east of Missoula and 80 miles west of Helena, roughly an hour to an hour and 15 minutes from either city on I-90. For families in Billings or Great Falls, the drive is longer, making electronic communication and GTL video visits more practical for regular contact.",
       },
       {
         question: "Is video visitation available at Montana State Prison?",
@@ -984,7 +984,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Nebraska State Penitentiary: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Nebraska State Penitentiary in Lincoln. Find the correct provider for phone calls, electronic messaging, and money transfers at this Nebraska DOC facility.",
+    seoDescription: "How to contact someone at Nebraska State Penitentiary in Lincoln.",
 
     description:
       "Nebraska State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Nebraska's maximum-security state prison in Lincoln.",
@@ -992,7 +992,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Nebraska State Penitentiary is Nebraska's primary maximum-security state prison, operated by the Nebraska Department of Correctional Services and located in Lincoln in Lancaster County, the state capital. Established in 1869, it is one of the oldest prisons in the Great Plains region and houses adult male inmates at maximum, medium, and minimum security classifications. Lincoln is Nebraska's second largest city and its capital, and the prison complex occupies a prominent site in the southern part of the city. The facility also houses Nebraska's death row and some of the state's most serious long-term offenders.",
       "Communication at Nebraska State Penitentiary follows Nebraska NDCS provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Nebraska DOC number to begin correspondence. GTL manages phone calls and video visitation under the NDCS statewide contract. The two-platform setup applies: JPay for messaging and money, GTL for phone and video. Death row inmates may face more restrictive communication rules than the general maximum-security population. Confirm access directly with the facility for anyone on Nebraska's death row.",
-      "Nebraska State Penitentiary's location within Lincoln makes it more accessible than many rural state prisons. Omaha families face a drive of about 50 miles west on I-80 — roughly 45 to 50 minutes. For families in Grand Island, Hastings, or Kearney, the drive is longer but still manageable on Nebraska's interstate network. The prison's urban location also means that public transit options in Lincoln serve the surrounding area, though the facility itself requires a car or arranged transportation for in-person visits. Nebraska NDCS accounts carry over to any other Nebraska facility if an inmate transfers.",
+      "Nebraska State Penitentiary's location within Lincoln makes it more accessible than many rural state prisons. Omaha families face a drive of about 50 miles west on I-80, roughly 45 to 50 minutes. For families in Grand Island, Hastings, or Kearney, the drive is longer but still manageable on Nebraska's interstate network. The prison's urban location also means that public transit options in Lincoln serve the surrounding area, though the facility itself requires a car or arranged transportation for in-person visits. Nebraska NDCS accounts carry over to any other Nebraska facility if an inmate transfers.",
     ],
 
     address: "4201 S. 14th Street, Lincoln, NE 68502",
@@ -1031,7 +1031,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ — confirm with facility." },
+      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
       video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to NDCS content guidelines." },
       phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls via GTL. Fund AdvancePay account to receive calls." },
@@ -1039,7 +1039,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     },
 
     rules: [
-      "Death row inmates may have stricter communication limits — confirm access directly with the facility.",
+      "Death row inmates may have stricter communication limits, confirm access directly with the facility.",
       "JPay and GTL are separate platforms. Messaging and phone funds do not transfer between them.",
       "Messages are reviewed by NDCS staff before delivery.",
       "NDCS system-wide accounts carry over if the inmate transfers to another Nebraska facility.",
@@ -1057,7 +1057,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Nebraska State Penitentiary from Omaha?",
-        answer: "The facility is in Lincoln, roughly 50 miles west of Omaha on I-80 — about a 45 to 50-minute drive. For Omaha-area families, in-person visits are very accessible. Lincoln is also the state capital, with good road access from most parts of Nebraska.",
+        answer: "The facility is in Lincoln, roughly 50 miles west of Omaha on I-80, about a 45 to 50-minute drive. For Omaha-area families, in-person visits are very accessible. Lincoln is also the state capital, with good road access from most parts of Nebraska.",
       },
       {
         question: "Does Nebraska State Penitentiary house death row inmates?",
@@ -1110,8 +1110,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Merrimack County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "NH State Prison: Phone Calls, Messaging and Money Transfer Guide",
-    seoDescription: "How to contact someone at New Hampshire State Prison for Men in Concord. Find the correct provider for phone calls, messaging, and money transfers at this NHDOC facility.",
+    seoTitle: "NH State Prison: Phone Calls, Messaging and Money Transfer",
+    seoDescription: "How to contact someone at New Hampshire State Prison for Men in Concord.",
 
     description:
       "New Hampshire State Prison for Men communication guide. Find JPay messaging and GTL phone options for families at New Hampshire's maximum-security state prison in Concord.",
@@ -1119,7 +1119,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "New Hampshire State Prison for Men is the only maximum-security state prison in New Hampshire, operated by the New Hampshire Department of Corrections and located in Concord in Merrimack County, the state capital. The facility has operated in Concord since 1880 and houses adult male inmates at maximum, medium, and minimum security classifications. As the primary long-term men's facility in the state, it serves as the destination for most male inmates sentenced to more than a year in the New Hampshire system. Concord is a small capital city of roughly 45,000 people, and the prison complex is located near the downtown area.",
       "Communication at New Hampshire State Prison for Men follows NHDOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their New Hampshire DOC number to begin correspondence. GTL manages phone calls and video visitation under the NHDOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video, with each requiring its own account and separate funding.",
-      "Concord's location in central New Hampshire makes it reasonably accessible from most parts of the state. Manchester, New Hampshire's largest city, is about 20 miles south — a 25-minute drive. For families in the Nashua area or across the Massachusetts border, Concord is about 50 to 70 miles north of Boston. New Hampshire is a relatively small state, and Concord's central location means most state residents are within a two-hour drive. For families in the far north — Berlin, Colebrook, or the North Country — the drive is longer, and JPay messaging and GTL video visits become more important for regular contact.",
+      "Concord's location in central New Hampshire makes it reasonably accessible from most parts of the state. Manchester, New Hampshire's largest city, is about 20 miles south, a 25-minute drive. For families in the Nashua area or across the Massachusetts border, Concord is about 50 to 70 miles north of Boston. New Hampshire is a relatively small state, and Concord's central location means most state residents are within a two-hour drive. For families in the far north, Berlin, Colebrook, or the North Country, the drive is longer, and JPay messaging and GTL video visits become more important for regular contact.",
     ],
 
     address: "281 N. State Street, Concord, NH 03301",
@@ -1183,7 +1183,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is NHSP from Manchester and Boston?",
-        answer: "New Hampshire State Prison for Men is in Concord, about 20 miles north of Manchester — roughly a 25-minute drive. From Boston, the facility is about 70 miles north on I-93 — an hour to an hour and 15 minutes depending on traffic. For southern New Hampshire and northeastern Massachusetts families, in-person visits are very feasible.",
+        answer: "New Hampshire State Prison for Men is in Concord, about 20 miles north of Manchester, roughly a 25-minute drive. From Boston, the facility is about 70 miles north on I-93, an hour to an hour and 15 minutes depending on traffic. For southern New Hampshire and northeastern Massachusetts families, in-person visits are very feasible.",
       },
       {
         question: "Is video visitation available at NHSP?",
@@ -1215,8 +1215,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Santa Fe County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "New Mexico State Penitentiary: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at New Mexico State Penitentiary in Santa Fe. Find the correct provider for phone calls, electronic messaging, and money transfers at this NMCD facility.",
+    seoTitle: "New Mexico State Penitentiary: Phone Calls and Messaging",
+    seoDescription: "How to contact someone at New Mexico State Penitentiary in Santa Fe.",
 
     description:
       "New Mexico State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at New Mexico's maximum-security state prison south of Santa Fe.",
@@ -1289,7 +1289,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is the penitentiary from Albuquerque and Santa Fe?",
-        answer: "The facility is about 13 miles south of Santa Fe on State Road 14. From Albuquerque, the drive is roughly 65 to 70 miles north on I-25 and then east — about an hour and 15 minutes. For Santa Fe families, in-person visits are a short drive.",
+        answer: "The facility is about 13 miles south of Santa Fe on State Road 14. From Albuquerque, the drive is roughly 65 to 70 miles north on I-25 and then east, about an hour and 15 minutes. For Santa Fe families, in-person visits are a short drive.",
       },
       {
         question: "Is video visitation available at New Mexico State Penitentiary?",
@@ -1343,7 +1343,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "North Dakota State Pen: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at North Dakota State Penitentiary in Bismarck. Find the correct provider for phone calls, electronic messaging, and money transfers at this DOCR facility.",
+    seoDescription: "How to contact someone at North Dakota State Penitentiary in Bismarck.",
 
     description:
       "North Dakota State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at North Dakota's maximum-security state prison in Bismarck.",
@@ -1351,7 +1351,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "North Dakota State Penitentiary is the primary maximum-security state prison in North Dakota, operated by the North Dakota Department of Corrections and Rehabilitation and located in Bismarck in Burleigh County, the state capital. Established in 1885, the facility houses adult male inmates at maximum and medium security classifications and serves as the central institution in the North Dakota correctional system. Bismarck is a mid-sized capital city along the Missouri River in the south-central part of the state, and the prison's location in the capital makes it geographically central relative to North Dakota's population distribution.",
       "Communication at North Dakota State Penitentiary follows NDDOCR provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their North Dakota DOC number to begin correspondence. GTL manages phone calls and video visitation under the NDDOCR statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video, with each requiring its own account.",
-      "Bismarck's central location in North Dakota makes the facility more accessible from across the state than a remote rural institution would be. Fargo, North Dakota's largest city, is about 190 miles east on I-94 — roughly a two-hour drive. Grand Forks families face a similar distance. For families in Minot or Williston in the northwest, the drive to Bismarck is also roughly two hours or less. North Dakota is a geographically spread-out state, and the prison's location in the capital means it is within a reasonable day-trip range from most populated areas. NDDOCR accounts carry over to any other North Dakota facility if an inmate transfers.",
+      "Bismarck's central location in North Dakota makes the facility more accessible from across the state than a remote rural institution would be. Fargo, North Dakota's largest city, is about 190 miles east on I-94, roughly a two-hour drive. Grand Forks families face a similar distance. For families in Minot or Williston in the northwest, the drive to Bismarck is also roughly two hours or less. North Dakota is a geographically spread-out state, and the prison's location in the capital means it is within a reasonable day-trip range from most populated areas. NDDOCR accounts carry over to any other North Dakota facility if an inmate transfers.",
     ],
 
     address: "3100 Railroad Drive, Bismarck, ND 58501",
@@ -1415,7 +1415,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is NDSP from Fargo?",
-        answer: "North Dakota State Penitentiary is in Bismarck, about 190 miles west of Fargo on I-94 — roughly a two-hour drive. For families in Minot or Williston, Bismarck is also about two hours southeast. The facility's capital city location makes it one of the more centrally accessible prisons in the upper Midwest.",
+        answer: "North Dakota State Penitentiary is in Bismarck, about 190 miles west of Fargo on I-94, roughly a two-hour drive. For families in Minot or Williston, Bismarck is also about two hours southeast. The facility's capital city location makes it one of the more centrally accessible prisons in the upper Midwest.",
       },
       {
         question: "Is video visitation available at North Dakota State Penitentiary?",
@@ -1448,7 +1448,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Medium / Maximum",
     hasDetailPage: true,
     seoTitle: "Rhode Island ACI: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Rhode Island ACI Donald Price in Cranston. Find the correct provider for phone calls, electronic messaging, and money transfers at this Rhode Island DOC facility.",
+    seoDescription: "How to contact someone at Rhode Island ACI Donald Price in Cranston.",
 
     description:
       "Rhode Island ACI Donald Price Complex communication guide. Find JPay messaging and GTL phone options for families at Rhode Island's adult correctional complex in Cranston.",
@@ -1520,7 +1520,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "Are all Rhode Island state inmates at the Cranston campus?",
-        answer: "Yes. Rhode Island's Adult Correctional Institutions campus in Cranston houses all state sentenced inmates in one location at different security levels. There is no need to track an inmate across multiple state facilities within Rhode Island — if they are sentenced to Rhode Island state time, they are at Cranston.",
+        answer: "Yes. Rhode Island's Adult Correctional Institutions campus in Cranston houses all state sentenced inmates in one location at different security levels. There is no need to track an inmate across multiple state facilities within Rhode Island, if they are sentenced to Rhode Island state time, they are at Cranston.",
       },
       {
         question: "Is video visitation available at the Rhode Island ACI?",
@@ -1552,8 +1552,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Minnehaha County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "SD State Penitentiary: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at South Dakota State Penitentiary in Sioux Falls. Find the correct provider for phone calls, electronic messaging, and money transfers at this SDDOC facility.",
+    seoTitle: "SD State Penitentiary: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at South Dakota State Penitentiary in Sioux Falls.",
 
     description:
       "South Dakota State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at South Dakota's maximum-security state prison in Sioux Falls.",
@@ -1561,7 +1561,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "South Dakota State Penitentiary is the primary maximum-security state prison in South Dakota, operated by the South Dakota Department of Corrections and located in Sioux Falls in Minnehaha County, South Dakota's largest city. Established in 1881, the facility houses adult male inmates at maximum, close, and medium security classifications and serves as the central maximum-security institution in the South Dakota correctional system. The penitentiary's brick and stone walls are a prominent feature in Sioux Falls, located in the eastern part of the city near the railroad corridor. Sioux Falls is the state's largest city by a wide margin and serves as its economic hub.",
       "Communication at South Dakota State Penitentiary follows South Dakota DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their South Dakota DOC number to begin correspondence. GTL manages phone calls and video visitation under the SDDOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. Each requires a separate account, and funds on one platform cannot be used on the other.",
-      "Sioux Falls is in the far southeastern corner of South Dakota, about 85 miles north of Sioux City, Iowa, and about 250 miles southeast of Rapid City. For families in the Sioux Falls metro area, in-person visits to the penitentiary are straightforward. For families in the western part of the state — Rapid City, Deadwood, or the Pine Ridge area — the drive across the state is several hours. JPay messaging and GTL video visits are practical for families who cannot make the cross-state trip. South Dakota DOC accounts carry over to any other South Dakota facility if an inmate transfers within the state system.",
+      "Sioux Falls is in the far southeastern corner of South Dakota, about 85 miles north of Sioux City, Iowa, and about 250 miles southeast of Rapid City. For families in the Sioux Falls metro area, in-person visits to the penitentiary are straightforward. For families in the western part of the state, Rapid City, Deadwood, or the Pine Ridge area, the drive across the state is several hours. JPay messaging and GTL video visits are practical for families who cannot make the cross-state trip. South Dakota DOC accounts carry over to any other South Dakota facility if an inmate transfers within the state system.",
     ],
 
     address: "1600 N. Drive, Sioux Falls, SD 57104",
@@ -1625,7 +1625,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is the penitentiary from Rapid City?",
-        answer: "South Dakota State Penitentiary is in Sioux Falls, roughly 350 miles east of Rapid City — about a four to five-hour drive across the state. For western South Dakota families, GTL video visits and JPay messaging are the most practical options for regular contact.",
+        answer: "South Dakota State Penitentiary is in Sioux Falls, roughly 350 miles east of Rapid City, about a four to five-hour drive across the state. For western South Dakota families, GTL video visits and JPay messaging are the most practical options for regular contact.",
       },
       {
         question: "Is video visitation available at South Dakota State Penitentiary?",
@@ -1658,15 +1658,15 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Utah State Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Utah State Correctional Facility in Salt Lake City. Find the correct provider for phone calls, electronic messaging, and money transfers at this UDOC facility.",
+    seoDescription: "How to contact someone at Utah State Correctional Facility in Salt Lake City.",
 
     description:
       "Utah State Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Utah's primary state prison in Salt Lake City.",
 
     overview: [
-      "Utah State Correctional Facility is Utah's primary state prison, operated by the Utah Department of Corrections and located in Salt Lake City in Salt Lake County. The facility opened in September 2022, replacing the former Utah State Prison in Draper that had operated since 1951. The new USCF is a modern facility designed to consolidate most of Utah's maximum and medium security male inmates in a single location within the Salt Lake Valley. Its location inside the city limits of Salt Lake City — on the west side near the Salt Lake City International Airport — makes it more centrally accessible than the old Draper facility south of the city.",
+      "Utah State Correctional Facility is Utah's primary state prison, operated by the Utah Department of Corrections and located in Salt Lake City in Salt Lake County. The facility opened in September 2022, replacing the former Utah State Prison in Draper that had operated since 1951. The new USCF is a modern facility designed to consolidate most of Utah's maximum and medium security male inmates in a single location within the Salt Lake Valley. Its location inside the city limits of Salt Lake City, on the west side near the Salt Lake City International Airport, makes it more centrally accessible than the old Draper facility south of the city.",
       "Communication at Utah State Correctional Facility follows Utah DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Utah DOC number to begin correspondence. GTL manages phone calls and video visitation under the UDOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. Accounts are separate and funding does not transfer between platforms.",
-      "USCF's location in Salt Lake City, near the airport and I-80, makes it accessible from across the Wasatch Front metropolitan area. Ogden families are about 40 miles north, and Provo families are about 50 miles south. For families in southern or eastern Utah — St. George, Moab, Price — the drive is longer, making JPay messaging and GTL video visits important for maintaining regular contact without the trip. Utah DOC accounts work system-wide and carry over if an inmate transfers to another Utah facility.",
+      "USCF's location in Salt Lake City, near the airport and I-80, makes it accessible from across the Wasatch Front metropolitan area. Ogden families are about 40 miles north, and Provo families are about 50 miles south. For families in southern or eastern Utah, St. George, Moab, Price, the drive is longer, making JPay messaging and GTL video visits important for maintaining regular contact without the trip. Utah DOC accounts work system-wide and carry over if an inmate transfers to another Utah facility.",
     ],
 
     address: "1000 W. Cooley Street, Salt Lake City, UT 84104",
@@ -1762,8 +1762,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Windsor County",
     securityLevel: "Medium",
     hasDetailPage: true,
-    seoTitle: "Southern State Correctional Facility: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Southern State Correctional Facility. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+    seoTitle: "Southern State Correctional Facility: Phone Calls",
+    seoDescription: "How to contact someone at Southern State Correctional Facility.",
 
     description:
       "Southern State Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Vermont's medium-security state correctional facility in Springfield.",
@@ -1771,7 +1771,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Southern State Correctional Facility is a medium-security state correctional facility operated by the Vermont Department of Corrections, located in Springfield in Windsor County in the southeastern part of Vermont, roughly 50 miles south of Montpelier and near the Connecticut River that forms the Vermont-New Hampshire border. Vermont operates one of the smaller state correctional systems in the country, and SSCF is one of the department's primary facilities for adult male inmates. The facility is set in the hills of Windsor County near the Black River, and Springfield is a small manufacturing town with roots in the precision tools industry.",
       "Communication at Southern State Correctional Facility follows Vermont DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Vermont DOC number to begin correspondence. GTL manages phone calls and video visitation under the VDOC statewide contract. Vermont DOC uses the same two-platform model as many other state systems: JPay for messaging and money, GTL for phone and video, with separate accounts for each service.",
-      "Vermont is a small state, and SSCF's location in Windsor County puts it within reach of most Vermont communities. Burlington, the state's largest city, is about 100 miles north via I-89 and I-91 — roughly an hour and 45 minutes. For families in the Upper Valley region along the Connecticut River, the facility is much closer. Vermont also regularly transfers some inmates to out-of-state contracted facilities when its own facilities are at capacity. If your loved one has been transferred out of state, confirm their current location through the Vermont DOC offender search before setting up or funding any communication account.",
+      "Vermont is a small state, and SSCF's location in Windsor County puts it within reach of most Vermont communities. Burlington, the state's largest city, is about 100 miles north via I-89 and I-91, roughly an hour and 45 minutes. For families in the Upper Valley region along the Connecticut River, the facility is much closer. Vermont also regularly transfers some inmates to out-of-state contracted facilities when its own facilities are at capacity. If your loved one has been transferred out of state, confirm their current location through the Vermont DOC offender search before setting up or funding any communication account.",
     ],
 
     address: "72 Cedar Street, Springfield, VT 05156",
@@ -1868,7 +1868,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Medium / Close",
     hasDetailPage: true,
     seoTitle: "Wyoming Medium Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Wyoming Medium Correctional Institution in Torrington. Find the correct provider for phone calls, messaging, and money transfers at this Wyoming DOC facility.",
+    seoDescription: "How to contact someone at Wyoming Medium Correctional Institution in Torrington.",
 
     description:
       "Wyoming Medium Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Wyoming's primary state correctional facility in Rawlins.",
@@ -1876,7 +1876,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Wyoming Medium Correctional Institution (WMCI) is Wyoming's primary state correctional facility, operated by the Wyoming Department of Corrections and located in Rawlins in Carbon County in the south-central part of the state, along I-80 roughly midway between Cheyenne and Rock Springs. WMCI opened in 2012 as the successor to the historic Wyoming State Penitentiary that had operated in Rawlins since 1901, and today serves as the main close and medium-security facility for adult male inmates in the Wyoming correctional system. Rawlins is a small high-plains city whose history and economy have long been connected to both the railroad and the prison.",
       "Communication at WMCI follows Wyoming DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Wyoming DOC number to begin correspondence. GTL manages phone calls and video visitation under the WDOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video, with separate accounts and no shared funding between platforms.",
-      "Rawlins sits on I-80 in Carbon County, 105 miles west of Cheyenne and about 120 miles east of Rock Springs. For Cheyenne families, the drive west on I-80 takes about an hour and 15 minutes. For Casper families, the drive south on US-287 is about 90 miles — roughly an hour and 20 minutes. Wyoming is a large, sparsely populated state, and the I-80 corridor that runs through Rawlins is the main east-west transportation artery. Families in northern Wyoming — Gillette, Sheridan, or Jackson — face longer drives and typically rely more on JPay and GTL video visits for regular contact.",
+      "Rawlins sits on I-80 in Carbon County, 105 miles west of Cheyenne and about 120 miles east of Rock Springs. For Cheyenne families, the drive west on I-80 takes about an hour and 15 minutes. For Casper families, the drive south on US-287 is about 90 miles, roughly an hour and 20 minutes. Wyoming is a large, sparsely populated state, and the I-80 corridor that runs through Rawlins is the main east-west transportation artery. Families in northern Wyoming, Gillette, Sheridan, or Jackson, face longer drives and typically rely more on JPay and GTL video visits for regular contact.",
     ],
 
     address: "7836 S. Wolcott Street, Rawlins, WY 82301",
@@ -1940,7 +1940,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is WMCI from Cheyenne and Casper?",
-        answer: "WMCI is in Rawlins, about 105 miles west of Cheyenne on I-80 — roughly an hour and 15 minutes. From Casper, the drive south on US-287 is about 90 miles — about an hour and 20 minutes. For families in northern Wyoming, JPay messaging and GTL video visits are more practical for regular contact.",
+        answer: "WMCI is in Rawlins, about 105 miles west of Cheyenne on I-80, roughly an hour and 15 minutes. From Casper, the drive south on US-287 is about 90 miles, about an hour and 20 minutes. For families in northern Wyoming, JPay messaging and GTL video visits are more practical for regular contact.",
       },
       {
         question: "Is this the same location as the old Wyoming State Penitentiary?",
@@ -1974,16 +1974,16 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Tolland County",
     securityLevel: "High",
     hasDetailPage: true,
-    seoTitle: "MacDougall-Walker Correctional: Free Calls and Messaging Guide",
-    seoDescription: "How to contact someone at MacDougall-Walker Correctional Institution in Connecticut. Connecticut offers free phone calls at state facilities. Find messaging and money transfer options.",
+    seoTitle: "MacDougall-Walker Correctional: Free Calls and Messaging",
+    seoDescription: "How to contact someone at MacDougall-Walker Correctional Institution in Connecticut. Connecticut offers free phone calls at state facilities.",
 
     description:
       "MacDougall-Walker Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Connecticut's largest state prison in Suffield.",
 
     overview: [
-      "MacDougall-Walker Correctional Institution is Connecticut's largest state prison, operated by the Connecticut Department of Correction and located in Suffield in Tolland County in north-central Connecticut, about 15 miles north of Hartford near the Massachusetts border. The facility was formed by combining two adjacent institutions — the MacDougall Unit and the Walker Unit — into a single administrative complex. MacDougall-Walker houses adult male inmates at high security classification and serves as one of the primary long-term institutions in the Connecticut DOC system. Suffield is a small town in the Connecticut River Valley, accessible from I-91 north of Hartford.",
-      "Communication at MacDougall-Walker follows Connecticut DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Connecticut DOC number to begin correspondence. GTL manages phone calls and video visitation under the CT DOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate services with separate accounts — stamps on JPay cannot be used for GTL phone calls.",
-      "MacDougall-Walker's location in Suffield, about 15 miles north of Hartford, makes it accessible for families in the Hartford metro area. For families in New Haven, Bridgeport, or Stamford in southwestern Connecticut, the drive is longer — roughly 1.5 to 2 hours. The facility is near the Bradley International Airport corridor and I-91, making it accessible from Massachusetts as well. Connecticut is a relatively compact state, and most CT residents can reach the facility within two hours. For families in New York City or out of state, JPay and GTL video visits are the most practical means of regular contact.",
+      "MacDougall-Walker Correctional Institution is Connecticut's largest state prison, operated by the Connecticut Department of Correction and located in Suffield in Tolland County in north-central Connecticut, about 15 miles north of Hartford near the Massachusetts border. The facility was formed by combining two adjacent institutions, the MacDougall Unit and the Walker Unit, into a single administrative complex. MacDougall-Walker houses adult male inmates at high security classification and serves as one of the primary long-term institutions in the Connecticut DOC system. Suffield is a small town in the Connecticut River Valley, accessible from I-91 north of Hartford.",
+      "Communication at MacDougall-Walker follows Connecticut DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Connecticut DOC number to begin correspondence. GTL manages phone calls and video visitation under the CT DOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate services with separate accounts, stamps on JPay cannot be used for GTL phone calls.",
+      "MacDougall-Walker's location in Suffield, about 15 miles north of Hartford, makes it accessible for families in the Hartford metro area. For families in New Haven, Bridgeport, or Stamford in southwestern Connecticut, the drive is longer, roughly 1.5 to 2 hours. The facility is near the Bradley International Airport corridor and I-91, making it accessible from Massachusetts as well. Connecticut is a relatively compact state, and most CT residents can reach the facility within two hours. For families in New York City or out of state, JPay and GTL video visits are the most practical means of regular contact.",
     ],
 
     address: "1153 East Street South, Suffield, CT 06078",
@@ -2047,7 +2047,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is MacDougall-Walker from Hartford?",
-        answer: "The facility is in Suffield, about 15 miles north of Hartford on I-91 — roughly a 20-minute drive. For families in the Hartford metro area, in-person visits are very accessible. From New Haven or Bridgeport, the drive is about 1.5 to 2 hours.",
+        answer: "The facility is in Suffield, about 15 miles north of Hartford on I-91, roughly a 20-minute drive. For families in the Hartford metro area, in-person visits are very accessible. From New Haven or Bridgeport, the drive is about 1.5 to 2 hours.",
       },
       {
         question: "Is video visitation available at MacDougall-Walker?",
@@ -2079,8 +2079,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Leavenworth County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Lansing Correctional Facility: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Lansing Correctional Facility in Kansas. Find the correct provider for phone calls, electronic messaging, and money transfers at this Kansas DOC facility.",
+    seoTitle: "Lansing Correctional Facility: Phone Calls and Messaging",
+    seoDescription: "How to contact someone at Lansing Correctional Facility in Kansas.",
 
     description:
       "Lansing Correctional Facility communication guide. Find JPay messaging and GTL phone options for families at Kansas's largest state prison in Leavenworth County.",
@@ -2184,8 +2184,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Suffolk County",
     securityLevel: "Pretrial / Sentenced",
     hasDetailPage: true,
-    seoTitle: "Suffolk County HOC: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Suffolk County House of Correction in Boston MA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Massachusetts facility.",
+    seoTitle: "Suffolk County HOC: Phone Calls, Messaging and Money",
+    seoDescription: "How to contact someone at Suffolk County House of Correction in Boston MA.",
 
     description:
       "Suffolk County House of Correction communication guide. Find GTL phone and video options for families in Boston. Learn how to stay connected at this major Boston-area detention facility.",
@@ -2214,7 +2214,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "Primary provider for all Suffolk County HOC communication — phone, video, messaging, and commissary.",
+        notes: "Primary provider for all Suffolk County HOC communication, phone, video, messaging, and commissary.",
       },
     ],
 
@@ -2237,7 +2237,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Suffolk County House of Correction?",
-        answer: "All communication at Suffolk County HOC — phone, video, messaging, and money — goes through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers all services.",
+        answer: "All communication at Suffolk County HOC, phone, video, messaging, and money, goes through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers all services.",
       },
       {
         question: "Can I do a video visit at Suffolk County HOC?",
@@ -2297,8 +2297,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Washington County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "MCF Oak Park Heights: Free Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at MCF Oak Park Heights in Minnesota. Minnesota DOC phone calls are free for families. No prepaid account needed. Find messaging and communication options.",
+    seoTitle: "MCF Oak Park Heights: Free Calls, Messaging and Money",
+    seoDescription: "How to contact someone at MCF Oak Park Heights in Minnesota. Minnesota DOC phone calls are free for families. No prepaid account needed.",
 
     description:
       "MCF Oak Park Heights communication guide. Find JPay messaging and GTL phone options for families at Minnesota's only supermax-level state prison in Washington County.",
@@ -2306,7 +2306,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Minnesota Correctional Facility Oak Park Heights (MCF Oak Park Heights) is Minnesota's highest-security state prison, operated by the Minnesota Department of Corrections and located in Oak Park Heights in Washington County along the St. Croix River, about 20 miles east of Saint Paul. Opened in 1982, MCF Oak Park Heights was one of the first purpose-built, underground correctional facilities in the United States and is designed to house the state's most dangerous and high-profile inmates. The facility sits below ground level for security purposes and is known for its stringent control unit environment. Inmates at Oak Park Heights include those convicted of the most serious offenses in Minnesota as well as gang leaders and individuals posing heightened security risks.",
       "Communication at MCF Oak Park Heights follows Minnesota DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Minnesota DOC number to begin correspondence. GTL manages phone calls and video visitation under the MNDOC statewide contract. Due to the facility's high-security classification, communication access may be more restricted than at medium-security Minnesota facilities. Phone and messaging privileges are tied to individual inmate behavior and security classification. Confirm current access with the facility before setting up or funding accounts.",
-      "MCF Oak Park Heights is in Washington County, about 20 miles east of Saint Paul near the city of Stillwater. The facility is close to MCF Stillwater, Minnesota's oldest prison, and both are in the western St. Croix Valley. For Twin Cities families, both facilities are accessible from the eastern metro area. The proximity to MCF Stillwater means some families have experience with the Washington County correctional area. For families elsewhere in Minnesota — Duluth, Rochester, or the Iron Range — JPay and GTL video visits are the most practical options for regular contact. Minnesota DOC accounts carry over between facilities if an inmate transfers within the state system.",
+      "MCF Oak Park Heights is in Washington County, about 20 miles east of Saint Paul near the city of Stillwater. The facility is close to MCF Stillwater, Minnesota's oldest prison, and both are in the western St. Croix Valley. For Twin Cities families, both facilities are accessible from the eastern metro area. The proximity to MCF Stillwater means some families have experience with the Washington County correctional area. For families elsewhere in Minnesota, Duluth, Rochester, or the Iron Range, JPay and GTL video visits are the most practical options for regular contact. Minnesota DOC accounts carry over between facilities if an inmate transfers within the state system.",
     ],
 
     address: "5329 Osgood Avenue North, Stillwater, MN 55082",
@@ -2370,11 +2370,11 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "Why is communication more restricted at Oak Park Heights than at other Minnesota prisons?",
-        answer: "MCF Oak Park Heights is Minnesota's highest-security facility, designed for the most dangerous or high-risk offenders. Communication privileges — including phone, messaging, and video — are tied to behavior and security classification. Some inmates may have full access while others face significant restrictions based on their status.",
+        answer: "MCF Oak Park Heights is Minnesota's highest-security facility, designed for the most dangerous or high-risk offenders. Communication privileges, including phone, messaging, and video, are tied to behavior and security classification. Some inmates may have full access while others face significant restrictions based on their status.",
       },
       {
         question: "How far is MCF Oak Park Heights from downtown Saint Paul?",
-        answer: "The facility is in Oak Park Heights in Washington County, about 20 miles east of downtown Saint Paul — roughly a 30 to 35-minute drive. It is near MCF Stillwater and the St. Croix River. For Twin Cities families, in-person visits are logistically accessible.",
+        answer: "The facility is in Oak Park Heights in Washington County, about 20 miles east of downtown Saint Paul, roughly a 30 to 35-minute drive. It is near MCF Stillwater and the St. Croix River. For Twin Cities families, in-person visits are logistically accessible.",
       },
       {
         question: "How do I send money to an MCF Oak Park Heights inmate?",
@@ -2402,8 +2402,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Rankin County",
     securityLevel: "Medium / Close",
     hasDetailPage: true,
-    seoTitle: "CMCF: Central Mississippi Correctional Facility Phone, Mail and Address",
-    seoDescription: "Central Mississippi Correctional Facility (CMCF) in Pearl MS. GTL ConnectNetwork for phone calls. JPay for money transfers. Mailing address: PO Box 88550, 3794 Hwy 468, Pearl MS 39208.",
+    seoTitle: "CMCF: Central Mississippi Correctional Facility Phone, Mail",
+    seoDescription: "Central Mississippi Correctional Facility (CMCF) in Pearl MS. GTL ConnectNetwork for phone calls. JPay for money transfers.",
 
     description:
       "Central Mississippi Correctional Facility (CMCF) is a Mississippi Department of Corrections state prison located at PO Box 88550, 3794 Highway 468 in Pearl, Rankin County, Mississippi 39208. CMCF houses adult male and female inmates with a capacity of approximately 3,557. Phone calls use GTL ViaPath ConnectNetwork. Money transfers use JPay or Western Union with DOC code 135.",
@@ -2528,7 +2528,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Jefferson City Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Jefferson City Correctional Center in Missouri. Find the correct provider for phone calls, electronic messaging, and money transfers at this Missouri DOC facility.",
+    seoDescription: "How to contact someone at Jefferson City Correctional Center in Missouri.",
 
     description:
       "Jefferson City Correctional Center communication guide. Find JPay messaging and GTL phone options for families at Missouri's maximum-security state prison in the state capital.",
@@ -2536,7 +2536,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Jefferson City Correctional Center is Missouri's primary maximum-security state prison, operated by the Missouri Department of Corrections and located in Jefferson City in Cole County, the state capital, on the south bank of the Missouri River. The current facility opened in 2004, built on the same grounds as the historic Missouri State Penitentiary that had operated in Jefferson City since 1836 and became one of the longest continuously operated prisons in the country before closing. JCCC houses adult male inmates at maximum and close security classifications and serves as the destination for Missouri's most serious long-term offenders.",
       "Communication at Jefferson City Correctional Center follows Missouri DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Missouri DOC number to begin correspondence. GTL manages phone calls and video visitation under the MODOC statewide contract. The standard two-platform model applies: JPay for messaging and money, GTL for phone and video. Each platform requires its own account, and funds are not transferable between them.",
-      "Jefferson City is located on I-70 in the center of Missouri, roughly 130 miles west of St. Louis and 150 miles east of Kansas City. For both metro areas, the drive to JCCC is under two hours. For families in Columbia — about 30 miles east on I-70 — the drive is very short. Jefferson City's central location in Missouri makes it one of the more geographically accessible state prisons for families across the state. Missouri DOC accounts work system-wide and carry over to any other Missouri facility if an inmate is transferred.",
+      "Jefferson City is located on I-70 in the center of Missouri, roughly 130 miles west of St. Louis and 150 miles east of Kansas City. For both metro areas, the drive to JCCC is under two hours. For families in Columbia, about 30 miles east on I-70, the drive is very short. Jefferson City's central location in Missouri makes it one of the more geographically accessible state prisons for families across the state. Missouri DOC accounts work system-wide and carry over to any other Missouri facility if an inmate is transferred.",
     ],
 
     address: "8200 No More Victims Road, Jefferson City, MO 65101",
@@ -2600,7 +2600,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is JCCC from St. Louis and Kansas City?",
-        answer: "Jefferson City is on I-70 roughly 130 miles west of St. Louis and 150 miles east of Kansas City — about an hour and 45 minutes from either city. For Columbia-area families, the facility is about 30 miles east — a short drive. JCCC's central Missouri location makes it accessible from both sides of the state.",
+        answer: "Jefferson City is on I-70 roughly 130 miles west of St. Louis and 150 miles east of Kansas City, about an hour and 45 minutes from either city. For Columbia-area families, the facility is about 30 miles east, a short drive. JCCC's central Missouri location makes it accessible from both sides of the state.",
       },
       {
         question: "Is video visitation available at Jefferson City Correctional Center?",
@@ -2632,16 +2632,16 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Clark County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Clark County Detention Center: Phone Calls and Jail Messaging",
-    seoDescription: "How to contact someone at Clark County Detention Center in Las Vegas NV. Find the correct provider for phone calls, electronic messaging, video visits, and money transfers.",
+    seoTitle: "Clark County Detention Center: Phone Calls and Jail",
+    seoDescription: "How to contact someone at Clark County Detention Center in Las Vegas NV.",
 
     description:
       "Clark County Detention Center communication guide. Find GTL phone and video options for families in Las Vegas. Learn how to stay connected at Nevada's largest county detention facility.",
 
     overview: [
-      "Clark County Detention Center (CCDC) is the primary pretrial detention facility operated by the Las Vegas Metropolitan Police Department, located in downtown Las Vegas in Clark County. CCDC is one of the largest single-site jails in the western United States, processing tens of thousands of bookings annually from across the Las Vegas metropolitan area. The Las Vegas Valley — including Las Vegas, North Las Vegas, Henderson, and the surrounding unincorporated areas — is the most populous region in Nevada, and CCDC serves as the main intake and pretrial holding center for Clark County's criminal court system. The facility is located in the heart of downtown Las Vegas near the courthouse complex.",
+      "Clark County Detention Center (CCDC) is the primary pretrial detention facility operated by the Las Vegas Metropolitan Police Department, located in downtown Las Vegas in Clark County. CCDC is one of the largest single-site jails in the western United States, processing tens of thousands of bookings annually from across the Las Vegas metropolitan area. The Las Vegas Valley, including Las Vegas, North Las Vegas, Henderson, and the surrounding unincorporated areas, is the most populous region in Nevada, and CCDC serves as the main intake and pretrial holding center for Clark County's criminal court system. The facility is located in the heart of downtown Las Vegas near the courthouse complex.",
       "Communication at Clark County Detention Center is managed through GTL, which provides phone calls, video visitation, and electronic messaging services under the county contract. Families create a GTL account at telmate.com to access all services. Funding a GTL AdvancePay account linked to your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through the GTL platform. Electronic messaging via GTL delivers communications digitally within the facility. A single GTL account covers all CCDC communication services.",
-      "CCDC is located in downtown Las Vegas on Casino Center Boulevard, near the Las Vegas city hall and courthouse complex. The facility is accessible from I-15, US-95, and major surface streets through downtown. For Las Vegas metro families, in-person visits are logistically practical given the facility's central downtown location. For families from out of state — particularly those from California, Arizona, or Utah whose loved one was arrested in Las Vegas — remote GTL video visits and messaging are the most practical tools for maintaining contact across state lines. People held at CCDC are typically in pretrial status; after conviction, sentences of more than one year result in transfer to a Nevada DOC state facility.",
+      "CCDC is located in downtown Las Vegas on Casino Center Boulevard, near the Las Vegas city hall and courthouse complex. The facility is accessible from I-15, US-95, and major surface streets through downtown. For Las Vegas metro families, in-person visits are logistically practical given the facility's central downtown location. For families from out of state, particularly those from California, Arizona, or Utah whose loved one was arrested in Las Vegas, remote GTL video visits and messaging are the most practical tools for maintaining contact across state lines. People held at CCDC are typically in pretrial status; after conviction, sentences of more than one year result in transfer to a Nevada DOC state facility.",
     ],
 
     address: "330 S. Casino Center Blvd., Las Vegas, NV 89101",
@@ -2663,7 +2663,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         photos: false,
         phone: true,
         moneyTransfer: true,
-        notes: "Primary provider for all CCDC communication — phone, video, messaging, and commissary deposits.",
+        notes: "Primary provider for all CCDC communication, phone, video, messaging, and commissary deposits.",
       },
     ],
 
@@ -2686,7 +2686,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Clark County Detention Center?",
-        answer: "All communication at CCDC — phone, video, messaging, and money — goes through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers everything at the facility.",
+        answer: "All communication at CCDC, phone, video, messaging, and money, goes through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers everything at the facility.",
       },
       {
         question: "Can I do a video visit at CCDC from out of state?",
@@ -2726,15 +2726,15 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Medium",
     hasDetailPage: true,
     seoTitle: "Dick Conner Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Dick Conner Correctional Center in Hominy OK. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oklahoma DOC facility.",
+    seoDescription: "How to contact someone at Dick Conner Correctional Center in Hominy OK.",
 
     description:
       "Dick Conner Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this medium-security Oklahoma DOC facility in Hominy.",
 
     overview: [
       "Dick Conner Correctional Center is a medium-security state prison operated by the Oklahoma Department of Corrections, located in Hominy in Osage County in northeastern Oklahoma, about 55 miles northwest of Tulsa. Named after a former Oklahoma DOC director, the facility houses adult male inmates at medium security classification and is one of the significant mid-size prisons in the northeastern part of the state. Hominy is a small town in Osage County, which is part of the Osage Nation tribal territory. The facility opened in 1983 and provides correctional programming and work opportunities for medium-security inmates.",
-      "Communication at Dick Conner Correctional Center follows Oklahoma DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oklahoma DOC number to begin correspondence. GTL manages phone calls and video visitation under the ODOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate accounts — stamps and phone funds are not transferable between them. At a medium-security facility like Dick Conner, communication access is generally broader and more routine than at the Oklahoma State Penitentiary.",
-      "Hominy is about 55 miles northwest of Tulsa on US-412 and US-60. For Tulsa-area families, the drive takes about an hour. For families in Oklahoma City, the facility is about 120 miles northeast — roughly one and a half to two hours. The relatively shorter drive from Tulsa compared to Oklahoma's maximum-security facilities in McAlester makes Dick Conner a more accessible option for northeastern Oklahoma families. ODOC accounts work system-wide and carry over to any other Oklahoma facility if an inmate is reclassified and transferred.",
+      "Communication at Dick Conner Correctional Center follows Oklahoma DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oklahoma DOC number to begin correspondence. GTL manages phone calls and video visitation under the ODOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate accounts, stamps and phone funds are not transferable between them. At a medium-security facility like Dick Conner, communication access is generally broader and more routine than at the Oklahoma State Penitentiary.",
+      "Hominy is about 55 miles northwest of Tulsa on US-412 and US-60. For Tulsa-area families, the drive takes about an hour. For families in Oklahoma City, the facility is about 120 miles northeast, roughly one and a half to two hours. The relatively shorter drive from Tulsa compared to Oklahoma's maximum-security facilities in McAlester makes Dick Conner a more accessible option for northeastern Oklahoma families. ODOC accounts work system-wide and carry over to any other Oklahoma facility if an inmate is reclassified and transferred.",
     ],
 
     address: "19004 Otter Creek Road, Hominy, OK 74035",
@@ -2798,7 +2798,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Dick Conner from Tulsa?",
-        answer: "Dick Conner is in Hominy, about 55 miles northwest of Tulsa on US-412 — roughly an hour's drive. For Tulsa-area families, in-person visits are a reasonable day trip. From Oklahoma City, the drive is about 120 miles northeast, taking one and a half to two hours.",
+        answer: "Dick Conner is in Hominy, about 55 miles northwest of Tulsa on US-412, roughly an hour's drive. For Tulsa-area families, in-person visits are a reasonable day trip. From Oklahoma City, the drive is about 120 miles northeast, taking one and a half to two hours.",
       },
       {
         question: "Do accounts carry over if my loved one transfers to another Oklahoma facility?",
@@ -2831,14 +2831,14 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Snake River Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Snake River Correctional Institution in Ontario OR. Find the correct provider for phone calls, electronic messaging, and money transfers at this Oregon DOC facility.",
+    seoDescription: "How to contact someone at Snake River Correctional Institution in Ontario OR.",
 
     description:
       "Snake River Correctional Institution communication guide. Find JPay messaging and Securus phone options for families at Oregon's largest state prison in Ontario, Malheur County.",
 
     overview: [
-      "Snake River Correctional Institution (SRCI) is Oregon's largest state prison, operated by the Oregon Department of Corrections and located in Ontario in Malheur County in the far eastern corner of Oregon, along the Idaho border near the Snake River. Opened in 1991, SRCI houses adult male inmates at maximum security classification and is one of the primary long-term institutions in the Oregon DOC system. Ontario is a small agricultural city on the Oregon-Idaho border, and its location roughly 375 miles east of Portland and 60 miles west of Boise makes it one of the more geographically remote state prisons in the Pacific Northwest. The facility's distance from the Willamette Valley — Oregon's main population corridor — means most families rely heavily on electronic communication.",
-      "Communication at Snake River Correctional Institution follows Oregon DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oregon DOC number to begin correspondence. Securus Technologies manages phone calls and video visitation under the ODOC statewide contract. Oregon uses JPay for messaging and money and Securus for phone and video — these are separate platforms requiring separate accounts. Setting up a Securus account allows families to receive inmate-initiated calls and schedule video visits.",
+      "Snake River Correctional Institution (SRCI) is Oregon's largest state prison, operated by the Oregon Department of Corrections and located in Ontario in Malheur County in the far eastern corner of Oregon, along the Idaho border near the Snake River. Opened in 1991, SRCI houses adult male inmates at maximum security classification and is one of the primary long-term institutions in the Oregon DOC system. Ontario is a small agricultural city on the Oregon-Idaho border, and its location roughly 375 miles east of Portland and 60 miles west of Boise makes it one of the more geographically remote state prisons in the Pacific Northwest. The facility's distance from the Willamette Valley, Oregon's main population corridor, means most families rely heavily on electronic communication.",
+      "Communication at Snake River Correctional Institution follows Oregon DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oregon DOC number to begin correspondence. Securus Technologies manages phone calls and video visitation under the ODOC statewide contract. Oregon uses JPay for messaging and money and Securus for phone and video, these are separate platforms requiring separate accounts. Setting up a Securus account allows families to receive inmate-initiated calls and schedule video visits.",
       "Ontario is in Malheur County near the Idaho border, about 60 miles west of Boise and more than six hours east of Portland. For Boise-area families in Idaho, SRCI is actually the closest Oregon state prison, accessible within about an hour's drive. For Willamette Valley families in Portland, Salem, or Eugene, the facility's distance makes regular in-person visits impractical, and JPay messaging and Securus video visits become the primary means of contact. Oregon DOC accounts carry over to any other Oregon facility if an inmate is transferred within the state system.",
     ],
 
@@ -2903,11 +2903,11 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Snake River from Portland?",
-        answer: "Snake River Correctional Institution is in Ontario, roughly 375 miles east of Portland — more than a six-hour drive. For Boise, Idaho families, the facility is about 60 miles west — a much shorter trip. For Portland-area families, Securus video visits and JPay messaging are far more practical for regular contact than making the cross-state drive.",
+        answer: "Snake River Correctional Institution is in Ontario, roughly 375 miles east of Portland, more than a six-hour drive. For Boise, Idaho families, the facility is about 60 miles west, a much shorter trip. For Portland-area families, Securus video visits and JPay messaging are far more practical for regular contact than making the cross-state drive.",
       },
       {
         question: "Why does Oregon use Securus for phone calls instead of GTL?",
-        answer: "Oregon DOC contracts with Securus Technologies for phone and video services at state facilities. Oregon uses JPay for messaging and Securus for phone and video — using GTL will not work at SRCI or other Oregon state prisons.",
+        answer: "Oregon DOC contracts with Securus Technologies for phone and video services at state facilities. Oregon uses JPay for messaging and Securus for phone and video, using GTL will not work at SRCI or other Oregon state prisons.",
       },
       {
         question: "How do I send money to a Snake River inmate?",
@@ -2935,8 +2935,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     countyName: "Lee County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Lee Correctional Institution: Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone at Lee Correctional Institution. Find the correct provider for phone calls, electronic messaging, and money transfers at this state correctional facility.",
+    seoTitle: "Lee Correctional Institution: Phone Calls, Messaging and",
+    seoDescription: "How to contact someone at Lee Correctional Institution.",
 
     description:
       "Lee Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at South Carolina's maximum-security state prison in Bishopville.",
@@ -3008,7 +3008,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Lee Correctional from Columbia?",
-        answer: "Lee Correctional Institution is in Bishopville in Lee County, about 45 miles east of Columbia on I-20 and US-15 — roughly a 45-minute drive. For families in Sumter or Florence, the facility is even closer.",
+        answer: "Lee Correctional Institution is in Bishopville in Lee County, about 45 miles east of Columbia on I-20 and US-15, roughly a 45-minute drive. For families in Sumter or Florence, the facility is even closer.",
       },
       {
         question: "Is video visitation available at Lee Correctional Institution?",
@@ -3041,15 +3041,15 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Monroe Correctional Complex: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Monroe Correctional Complex in Monroe WA. Find the correct provider for phone calls, electronic messaging, and money transfers at this Washington DOC facility.",
+    seoDescription: "How to contact someone at Monroe Correctional Complex in Monroe WA.",
 
     description:
       "Monroe Correctional Complex communication guide. Find JPay messaging and GTL phone options for families at Washington's major state prison complex in Monroe, Snohomish County.",
 
     overview: [
-      "Monroe Correctional Complex is a major state correctional facility operated by the Washington Department of Corrections, located in Monroe in Snohomish County, about 30 miles northeast of Seattle. The complex includes several units at different security levels — including the Twin Rivers Unit, the Special Offender Unit, the Minimum Security Unit, and others — making it one of the largest and most varied correctional campuses in Washington state. Monroe houses adult male inmates at maximum, medium, and minimum security classifications. Its location in western Washington, close to the Seattle metropolitan area, makes it one of the most accessible state prisons for the largest concentration of Washington families.",
-      "Communication at Monroe Correctional Complex follows Washington DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Washington DOC number to begin correspondence. GTL manages phone calls and video visitation under the WDOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate accounts — stamps and phone credits are not transferable between platforms.",
-      "Monroe is in Snohomish County about 30 miles northeast of Seattle via US-2 and SR-522 — roughly a 40 to 45-minute drive from the city in normal traffic conditions. For families in Everett, Marysville, or north Seattle, the facility is even closer. The proximity to the Seattle metro area makes Monroe one of the most visited state prisons in Washington, given how much of the state's population lives in the Puget Sound region. For families east of the Cascades in Spokane or Yakima, the drive is several hours, and JPay and GTL video visits are the most practical options for regular contact. Washington DOC accounts carry over to any other Washington facility if an inmate transfers.",
+      "Monroe Correctional Complex is a major state correctional facility operated by the Washington Department of Corrections, located in Monroe in Snohomish County, about 30 miles northeast of Seattle. The complex includes several units at different security levels, including the Twin Rivers Unit, the Special Offender Unit, the Minimum Security Unit, and others, making it one of the largest and most varied correctional campuses in Washington state. Monroe houses adult male inmates at maximum, medium, and minimum security classifications. Its location in western Washington, close to the Seattle metropolitan area, makes it one of the most accessible state prisons for the largest concentration of Washington families.",
+      "Communication at Monroe Correctional Complex follows Washington DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Washington DOC number to begin correspondence. GTL manages phone calls and video visitation under the WDOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. These are separate accounts, stamps and phone credits are not transferable between platforms.",
+      "Monroe is in Snohomish County about 30 miles northeast of Seattle via US-2 and SR-522, roughly a 40 to 45-minute drive from the city in normal traffic conditions. For families in Everett, Marysville, or north Seattle, the facility is even closer. The proximity to the Seattle metro area makes Monroe one of the most visited state prisons in Washington, given how much of the state's population lives in the Puget Sound region. For families east of the Cascades in Spokane or Yakima, the drive is several hours, and JPay and GTL video visits are the most practical options for regular contact. Washington DOC accounts carry over to any other Washington facility if an inmate transfers.",
     ],
 
     address: "16550 177th Avenue SE, Monroe, WA 98272",
@@ -3113,11 +3113,11 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Monroe Correctional Complex from Seattle?",
-        answer: "Monroe is about 30 miles northeast of Seattle via US-2 — roughly a 40 to 45-minute drive in normal traffic. For families in Everett or north Seattle, the facility is even closer. Monroe's proximity to the Seattle metro makes it one of the most accessible state prisons in Washington.",
+        answer: "Monroe is about 30 miles northeast of Seattle via US-2, roughly a 40 to 45-minute drive in normal traffic. For families in Everett or north Seattle, the facility is even closer. Monroe's proximity to the Seattle metro makes it one of the most accessible state prisons in Washington.",
       },
       {
         question: "Does Monroe have multiple units? Which one is my loved one in?",
-        answer: "Yes. Monroe Correctional Complex includes several units — the Twin Rivers Unit, Special Offender Unit, Minimum Security Unit, and others — each housing inmates at different security levels. Use the WDOC offender search at doc.wa.gov to confirm the specific unit your loved one is assigned to before scheduling visits or sending mail.",
+        answer: "Yes. Monroe Correctional Complex includes several units, the Twin Rivers Unit, Special Offender Unit, Minimum Security Unit, and others, each housing inmates at different security levels. Use the WDOC offender search at doc.wa.gov to confirm the specific unit your loved one is assigned to before scheduling visits or sending mail.",
       },
       {
         question: "How do I send money to a Monroe Correctional Complex inmate?",
@@ -3146,7 +3146,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     securityLevel: "Maximum",
     hasDetailPage: true,
     seoTitle: "Green Bay Correctional: Phone Calls and Messaging Guide",
-    seoDescription: "How to contact someone at Green Bay Correctional Institution in Wisconsin. Find the correct provider for phone calls, electronic messaging, and money transfers at this Wisconsin DOC facility.",
+    seoDescription: "How to contact someone at Green Bay Correctional Institution in Wisconsin.",
 
     description:
       "Green Bay Correctional Institution communication guide. Find JPay messaging and GTL phone options for families at Wisconsin's maximum-security state prison in Brown County.",
@@ -3154,7 +3154,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     overview: [
       "Green Bay Correctional Institution is Wisconsin's primary maximum-security state prison, operated by the Wisconsin Department of Corrections and located in the city of Green Bay in Brown County in northeastern Wisconsin, roughly 110 miles north of Milwaukee. Established in 1898, GBCI houses adult male inmates at maximum security classification and is one of the central institutions in the Wisconsin DOC system. The facility sits within the city limits of Green Bay, Wisconsin's third-largest city and home of the Green Bay Packers NFL franchise. The city's northeastern location along Lake Michigan and the Fox River makes it accessible from both Milwaukee and the Fox Valley communities.",
       "Communication at Green Bay Correctional Institution follows Wisconsin DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Wisconsin DOC number to begin correspondence. GTL manages phone calls and video visitation under the Wisconsin DOC statewide contract. The two-platform model applies: JPay for messaging and money, GTL for phone and video. As with other Wisconsin state facilities, these are separate accounts requiring separate funding.",
-      "Green Bay's location in northeastern Wisconsin puts it about 110 miles north of Milwaukee — roughly an hour and 45 minutes on I-43. For families in the Fox Cities — Appleton, Oshkosh, Fond du Lac — the facility is 30 to 60 miles south, making visits accessible. For Madison-area families, the drive north is about 140 miles, roughly two hours. For families in northern Wisconsin, the facility is actually more accessible than Milwaukee-area prisons. Wisconsin DOC accounts work system-wide and carry over to any other Wisconsin facility if an inmate is transferred.",
+      "Green Bay's location in northeastern Wisconsin puts it about 110 miles north of Milwaukee, roughly an hour and 45 minutes on I-43. For families in the Fox Cities, Appleton, Oshkosh, Fond du Lac, the facility is 30 to 60 miles south, making visits accessible. For Madison-area families, the drive north is about 140 miles, roughly two hours. For families in northern Wisconsin, the facility is actually more accessible than Milwaukee-area prisons. Wisconsin DOC accounts work system-wide and carry over to any other Wisconsin facility if an inmate is transferred.",
     ],
 
     address: "2935 S. Military Avenue, Green Bay, WI 54307",
@@ -3218,7 +3218,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How far is Green Bay CI from Milwaukee?",
-        answer: "Green Bay Correctional Institution is in Green Bay, about 110 miles north of Milwaukee on I-43 — roughly an hour and 45 minutes. For families in the Fox Cities — Appleton, Oshkosh — the facility is 30 to 60 miles south. For Madison families, the drive is about 140 miles north, taking around two hours.",
+        answer: "Green Bay Correctional Institution is in Green Bay, about 110 miles north of Milwaukee on I-43, roughly an hour and 45 minutes. For families in the Fox Cities, Appleton, Oshkosh, the facility is 30 to 60 miles south. For Madison families, the drive is about 140 miles north, taking around two hours.",
       },
       {
         question: "Is video visitation available at Green Bay Correctional Institution?",

@@ -7,7 +7,7 @@ import SectionHeading from "@/components/shared/SectionHeading"
 import ProvidersSearch from "@/components/provider/ProvidersSearch"
 
 export const metadata: Metadata = {
-  title: "Inmate Communication Providers: JPay, CorrLinks, ConnectNetwork, Securus and More",
+  title: "Inmate Communication Providers: JPay, CorrLinks and More",
   description:
     "Compare all major inmate communication providers including JPay, CorrLinks, ConnectNetwork, GettingOut, Securus, and TextBehind. Find pricing, services, facility coverage, and setup guides for each provider.",
   alternates: { canonical: "/providers" },
@@ -75,7 +75,7 @@ export default function ProvidersPage() {
                 Inmate communication providers are companies that contract with correctional
                 facilities to provide messaging, phone calls, video visitation, photo sharing,
                 and money transfer services. Every facility works with specific providers under
-                exclusive contracts. You cannot choose your preferred provider — you must use
+                exclusive contracts. You cannot choose your preferred provider: you must use
                 whichever company the facility has contracted with for each service type.
               </p>
               <p>
@@ -93,7 +93,7 @@ export default function ProvidersPage() {
 
               <div className="space-y-3">
                 <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">JPay — Best for State Prisons</h3>
+                  <h3 className="font-medium text-sm">JPay: Best for State Prisons</h3>
                   <p className="text-sm text-muted-foreground mt-2">
                     JPay serves over 35 states and 1,000+ state prison facilities.
                     Uses a stamp-based messaging system. Also offers video visits,
@@ -102,17 +102,17 @@ export default function ProvidersPage() {
                 </div>
 
                 <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">CorrLinks — Only Option for Federal Prisons</h3>
+                  <h3 className="font-medium text-sm">CorrLinks: Only Option for Federal Prisons</h3>
                   <p className="text-sm text-muted-foreground mt-2">
                     CorrLinks is the exclusive messaging platform for all federal Bureau
                     of Prisons facilities. The inmate must initiate contact first.
-                    Text messaging only — no photo attachments as of 2025. Free for
+                    Text messaging only, no photo attachments as of 2025. Free for
                     outside contacts to create an account.
                   </p>
                 </div>
 
                 <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">ConnectNetwork — Widest Coverage</h3>
+                  <h3 className="font-medium text-sm">ConnectNetwork: Widest Coverage</h3>
                   <p className="text-sm text-muted-foreground mt-2">
                     ConnectNetwork by GTL serves 1,800+ facilities across all 50 states
                     including county jails, state prisons, and federal facilities.
@@ -122,7 +122,7 @@ export default function ProvidersPage() {
                 </div>
 
                 <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">GettingOut — Best for County Jails</h3>
+                  <h3 className="font-medium text-sm">GettingOut: Best for County Jails</h3>
                   <p className="text-sm text-muted-foreground mt-2">
                     GettingOut by Telmate serves 2,200+ county jails across 45 states.
                     Known for its well-reviewed mobile app and video visitation focus.
@@ -132,7 +132,7 @@ export default function ProvidersPage() {
                 </div>
 
                 <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">Securus Technologies — Large County Jail Network</h3>
+                  <h3 className="font-medium text-sm">Securus Technologies: Large County Jail Network</h3>
                   <p className="text-sm text-muted-foreground mt-2">
                     Securus serves 1,200+ facilities across 45 states, primarily county
                     jails and some state prisons. Provides phone calls, video visits,
@@ -141,7 +141,7 @@ export default function ProvidersPage() {
                 </div>
 
                 <div className="rounded-lg border p-4">
-                  <h3 className="font-medium text-sm">TextBehind and Pigeonly — When Electronic Messaging Is Not Available</h3>
+                  <h3 className="font-medium text-sm">TextBehind and Pigeonly: When Electronic Messaging Is Not Available</h3>
                   <p className="text-sm text-muted-foreground mt-2">
                     TextBehind and Pigeonly convert your digital messages and photos
                     into physical printed mail delivered to the inmate. These services

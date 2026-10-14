@@ -78,7 +78,7 @@ export interface ComparisonDetail extends ComparisonBasic {
 }
 
 // ─────────────────────────────────────────────
-// HELPER — resolve slug regardless of order
+// HELPER, resolve slug regardless of order
 // ─────────────────────────────────────────────
 
 export function getComparisonSlug(a: string, b: string): string | null {
@@ -90,7 +90,7 @@ export function getComparisonSlug(a: string, b: string): string | null {
 }
 
 // ─────────────────────────────────────────────
-// ALL COMPARISONS — Directory listing
+// ALL COMPARISONS, Directory listing
 // ─────────────────────────────────────────────
 
 export const ALL_COMPARISONS: ComparisonBasic[] = [
@@ -114,7 +114,7 @@ export const ALL_COMPARISONS: ComparisonBasic[] = [
     providerAName: "JPay",
     providerBName: "ConnectNetwork",
     winner: null,
-    winnerReason: "Depends on your facility type — JPay leads on messaging, ConnectNetwork leads on phone and coverage.",
+    winnerReason: "Depends on your facility type, JPay leads on messaging, ConnectNetwork leads on phone and coverage.",
     category: "State vs Multi-System",
     featured: true,
   },
@@ -174,7 +174,7 @@ export const ALL_COMPARISONS: ComparisonBasic[] = [
     providerAName: "JPay",
     providerBName: "Securus Technologies",
     winner: null,
-    winnerReason: "JPay and Securus serve complementary roles — JPay for messaging and money transfers, Securus for phone calls — so most families need both rather than choosing one.",
+    winnerReason: "JPay and Securus serve complementary roles, JPay for messaging and money transfers, Securus for phone calls, so most families need both rather than choosing one.",
     category: "Same Parent Company",
     featured: false,
   },
@@ -198,7 +198,7 @@ export const ALL_COMPARISONS: ComparisonBasic[] = [
     providerAName: "GettingOut",
     providerBName: "Securus Technologies",
     winner: null,
-    winnerReason: "GettingOut and Securus serve overlapping county jail markets with different strengths — GettingOut on video, Securus on breadth of services — so the facility contract determines which one applies.",
+    winnerReason: "GettingOut and Securus serve overlapping county jail markets with different strengths, GettingOut on video, Securus on breadth of services, so the facility contract determines which one applies.",
     category: "County Jails",
     featured: false,
   },
@@ -229,7 +229,7 @@ export const ALL_COMPARISONS: ComparisonBasic[] = [
 ]
 
 // ─────────────────────────────────────────────
-// DETAILED COMPARISON DATA — 6 seeded comparisons
+// DETAILED COMPARISON DATA, 6 seeded comparisons
 // ─────────────────────────────────────────────
 
 export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
@@ -249,23 +249,22 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     description:
       "JPay vs CorrLinks: compare state and federal prison messaging. Find out which is right for messaging, photos, video visits, and money transfers.",
     seoTitle: "JPay vs CorrLinks: State vs Federal Messaging (2026)",
-    seoDescription:
-      "JPay vs CorrLinks: JPay serves state prisons, CorrLinks (TRULINCS) is mandatory for federal inmates. Compare messaging, photos, video visits and costs.",
+    seoDescription: "JPay vs CorrLinks: JPay serves state prisons, CorrLinks (TRULINCS) is mandatory for federal inmates. Compare messaging, photos, video visits and costs.",
 
     intro: [
-      "JPay and CorrLinks are two of the most recognized names in inmate communication, but they serve completely different correctional systems and are not interchangeable. JPay is primarily a state prison platform, contracted with departments of corrections across 35 states to provide messaging, photo sharing, video visits, and money transfers. CorrLinks — officially known as TRULINCS — is the Bureau of Prisons' own electronic messaging system and is the only approved way to send electronic messages to anyone in federal custody. If you are not sure which one applies to your situation, the single most important question to answer first is whether your loved one is in a state facility or a federal Bureau of Prisons institution.",
+      "JPay and CorrLinks are two of the most recognized names in inmate communication, but they serve completely different correctional systems and are not interchangeable. JPay is primarily a state prison platform, contracted with departments of corrections across 35 states to provide messaging, photo sharing, video visits, and money transfers. CorrLinks, officially known as TRULINCS, is the Bureau of Prisons' own electronic messaging system and is the only approved way to send electronic messages to anyone in federal custody. If you are not sure which one applies to your situation, the single most important question to answer first is whether your loved one is in a state facility or a federal Bureau of Prisons institution.",
 
       "The confusion between JPay and CorrLinks is common, and it leads to families spending time setting up the wrong account. A JPay account is of no use for communicating with someone in a federal penitentiary, federal correctional institution, or federal detention center. Likewise, a CorrLinks account will not work for someone housed in a state prison. The two platforms exist within entirely separate government systems with no overlap. Knowing the distinction before creating any account will save significant frustration.",
 
-      "This comparison breaks down both platforms across every relevant dimension — features, coverage, pricing, ease of use, and mobile access — to help families understand what each one offers and which applies to their situation. For most users, the choice between JPay and CorrLinks is not really a choice at all: it is determined by the facility type. But for families navigating the process for the first time, understanding what each platform does and does not offer is genuinely useful context.",
+      "This comparison breaks down both platforms across every relevant dimension, features, coverage, pricing, ease of use, and mobile access, to help families understand what each one offers and which applies to their situation. For most users, the choice between JPay and CorrLinks is not really a choice at all: it is determined by the facility type. But for families navigating the process for the first time, understanding what each platform does and does not offer is genuinely useful context.",
     ],
 
     verdict: [
-      "Choose JPay if your loved one is held in a state correctional facility — it is the standard platform for messaging, photos, and money transfers across 35 states.",
-      "Choose CorrLinks if they are in any Bureau of Prisons federal facility — it is the only approved electronic messaging platform and is mandatory for federal inmates.",
+      "Choose JPay if your loved one is held in a state correctional facility, it is the standard platform for messaging, photos, and money transfers across 35 states.",
+      "Choose CorrLinks if they are in any Bureau of Prisons federal facility, it is the only approved electronic messaging platform and is mandatory for federal inmates.",
       "JPay offers a broader range of communication services including digital photo sharing, video visits, and direct money transfers.",
       "CorrLinks handles messaging only. Phone calls and video visits with federal inmates require a separate account through ConnectNetwork.",
-      "If you are unsure whether the facility is state or federal, check the facility name online before setting up either account — this single step prevents the most common setup mistake.",
+      "If you are unsure whether the facility is state or federal, check the facility name online before setting up either account, this single step prevents the most common setup mistake.",
     ],
 
     sideA: {
@@ -322,7 +321,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       providerA: "JPay serves 35+ states and over 1,000 state correctional facilities. It does not serve any federal Bureau of Prisons institutions.",
       providerB: "CorrLinks serves all 120 federal Bureau of Prisons facilities across the United States. It does not serve state prisons, county jails, or any non-federal institutions.",
       winner: null,
-      notes: "These platforms cover entirely separate systems. JPay covers state; CorrLinks covers federal. Coverage is not a competition — it is a distinction.",
+      notes: "These platforms cover entirely separate systems. JPay covers state; CorrLinks covers federal. Coverage is not a competition, it is a distinction.",
     },
 
     pricing: {
@@ -345,7 +344,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         "Well-designed mobile app on iOS and Android.",
         "Broad state prison network with 35+ states covered.",
         "Intuitive stamp-based messaging system.",
-        "Faster setup — family initiates contact, no waiting for inmate to act first.",
+        "Faster setup, family initiates contact, no waiting for inmate to act first.",
       ],
       cons: [
         "Not available at any federal Bureau of Prisons facility.",
@@ -359,15 +358,15 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       pros: [
         "Only approved messaging platform for all 120 federal BOP facilities.",
         "Legally compliant and fully integrated with Bureau of Prisons systems.",
-        "Free account creation — pay only per message sent.",
+        "Free account creation, pay only per message sent.",
         "Works on any browser without an app download.",
       ],
       cons: [
-        "Messaging only — no video, photos, or money transfer.",
+        "Messaging only, no video, photos, or money transfer.",
         "Inmate must initiate or approve contact before families can send messages.",
-        "No mobile app — browser-based only.",
+        "No mobile app, browser-based only.",
         "Setup process is slower due to BOP contact approval requirements.",
-        "Only useful for federal facilities — irrelevant for state or county systems.",
+        "Only useful for federal facilities, irrelevant for state or county systems.",
       ],
     },
 
@@ -380,7 +379,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       {
         scenario: "Communicating with federal Bureau of Prisons inmates",
         winner: "corrlinks",
-        reason: "CorrLinks is mandatory for all federal inmates — there is no alternative for electronic messaging with BOP facilities.",
+        reason: "CorrLinks is mandatory for all federal inmates, there is no alternative for electronic messaging with BOP facilities.",
       },
       {
         scenario: "Sending photos to an incarcerated loved one",
@@ -409,7 +408,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       },
       {
         question: "Which platform is easier to set up?",
-        answer: "JPay is generally faster to set up because the family initiates the account and can begin messaging once the inmate is added. CorrLinks requires the inmate to add you to their contact list from inside the facility first — you cannot send a message until the inmate has acted, which can take days depending on facility procedures.",
+        answer: "JPay is generally faster to set up because the family initiates the account and can begin messaging once the inmate is added. CorrLinks requires the inmate to add you to their contact list from inside the facility first, you cannot send a message until the inmate has acted, which can take days depending on facility procedures.",
       },
       {
         question: "Is CorrLinks free?",
@@ -432,7 +431,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     providerAName: "JPay",
     providerBName: "ConnectNetwork",
     winner: null,
-    winnerReason: "Depends on your facility type — JPay leads on messaging, ConnectNetwork leads on phone and coverage.",
+    winnerReason: "Depends on your facility type, JPay leads on messaging, ConnectNetwork leads on phone and coverage.",
     category: "State vs Multi-System",
     featured: true,
 
@@ -440,18 +439,18 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "JPay vs ConnectNetwork: compare messaging, video, phone, and coverage. Find out which platform fits your facility and communication needs.",
 
     intro: [
-      "JPay and ConnectNetwork (operated by GTL) are two of the largest inmate communication platforms in the United States, and many families encounter both at some point. JPay is primarily known as a state prison messaging and money transfer platform, serving correctional departments across 35 states. ConnectNetwork is the consumer-facing platform for GTL — one of the largest correctional communication companies — and serves a wider geographic footprint that includes state prisons, county jails, and federal Bureau of Prisons institutions. Understanding where each platform is strongest helps families set up the right account from the start.",
+      "JPay and ConnectNetwork (operated by GTL) are two of the largest inmate communication platforms in the United States, and many families encounter both at some point. JPay is primarily known as a state prison messaging and money transfer platform, serving correctional departments across 35 states. ConnectNetwork is the consumer-facing platform for GTL, one of the largest correctional communication companies, and serves a wider geographic footprint that includes state prisons, county jails, and federal Bureau of Prisons institutions. Understanding where each platform is strongest helps families set up the right account from the start.",
 
-      "The platforms have different service emphases. JPay's messaging experience — including its digital photo sharing, stamp-based email system, and integrated money transfers — is widely considered one of the stronger state prison communication products available. ConnectNetwork's strength lies in phone services and video visitation, particularly its broad coverage across different institution types. At many state facilities, families use JPay for messaging and money while using GTL or ConnectNetwork for phone calls, meaning both accounts may ultimately be needed regardless of which is 'better' in a direct comparison.",
+      "The platforms have different service emphases. JPay's messaging experience, including its digital photo sharing, stamp-based email system, and integrated money transfers, is widely considered one of the stronger state prison communication products available. ConnectNetwork's strength lies in phone services and video visitation, particularly its broad coverage across different institution types. At many state facilities, families use JPay for messaging and money while using GTL or ConnectNetwork for phone calls, meaning both accounts may ultimately be needed regardless of which is 'better' in a direct comparison.",
 
-      "This comparison examines both platforms across features, pricing, coverage, and usability to give families a clear picture of what each offers. The most important factor in this comparison is not which platform is objectively superior — it is which platform serves the specific facility where your loved one is housed. Checking the facility's contracted providers before creating any account remains the single most important first step.",
+      "This comparison examines both platforms across features, pricing, coverage, and usability to give families a clear picture of what each offers. The most important factor in this comparison is not which platform is objectively superior, it is which platform serves the specific facility where your loved one is housed. Checking the facility's contracted providers before creating any account remains the single most important first step.",
     ],
 
     verdict: [
       "Choose JPay if your primary needs are electronic messaging, photo sharing, and money transfers at a state correctional facility.",
       "Choose ConnectNetwork if your primary need is phone calls or video visits, or if your loved one is in a federal or county facility.",
       "JPay has a more polished messaging and photo experience; ConnectNetwork has broader geographic coverage and stronger phone infrastructure.",
-      "At many state prisons, both accounts are used together — JPay for messaging and ConnectNetwork/GTL for phone.",
+      "At many state prisons, both accounts are used together, JPay for messaging and ConnectNetwork/GTL for phone.",
       "The right choice depends almost entirely on which platform your specific facility is contracted with.",
     ],
 
@@ -475,7 +474,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     services: {
       messaging: {
         providerA: "JPay's stamp-based messaging is available at 1,000+ state facilities. Messages, including digital photos, can be composed in the JPay app and are delivered after staff review.",
-        providerB: "ConnectNetwork messaging is available at select facilities under GTL contracts. Not universally offered — availability varies by facility contract.",
+        providerB: "ConnectNetwork messaging is available at select facilities under GTL contracts. Not universally offered, availability varies by facility contract.",
         winner: "jpay",
         notes: "JPay's messaging system is more widely available at state prisons and more feature-rich for family communication.",
       },
@@ -498,7 +497,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         notes: "ConnectNetwork/GTL is the stronger phone platform by a significant margin.",
       },
       moneyTransfer: {
-        providerA: "JPay's money transfer is one of its strongest features — fast, widely accepted at state facilities, and integrated with the main account.",
+        providerA: "JPay's money transfer is one of its strongest features, fast, widely accepted at state facilities, and integrated with the main account.",
         providerB: "ConnectNetwork handles money transfers at many facilities and is a solid option, particularly for county and federal institutions.",
         winner: "jpay",
         notes: "Both offer reliable money transfers, but JPay's integration with messaging makes it more convenient at state prison facilities.",
@@ -534,7 +533,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         "Good mobile app with all services in one interface.",
       ],
       cons: [
-        "Not available at federal institutions — requires CorrLinks for federal messaging.",
+        "Not available at federal institutions, requires CorrLinks for federal messaging.",
         "Phone services at many facilities use GTL/ConnectNetwork separately.",
         "Narrower geographic coverage than ConnectNetwork.",
         "No photo service through ConnectNetwork if you need a single account.",
@@ -543,7 +542,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
 
     prosConsB: {
       pros: [
-        "Largest geographic coverage — all 50 states plus federal facilities.",
+        "Largest geographic coverage, all 50 states plus federal facilities.",
         "Strongest phone calling platform in the market.",
         "Serves federal, state, and county facilities from one account.",
         "Solid video visitation technology.",
@@ -586,11 +585,11 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       },
       {
         question: "Which platform has better customer support?",
-        answer: "Both platforms have mixed customer service reviews. JPay users frequently cite delays in resolution, particularly for account issues. ConnectNetwork users report similar variability. Neither platform is notably superior for customer service, so setting up accounts correctly from the start — before any issues arise — is important.",
+        answer: "Both platforms have mixed customer service reviews. JPay users frequently cite delays in resolution, particularly for account issues. ConnectNetwork users report similar variability. Neither platform is notably superior for customer service, so setting up accounts correctly from the start, before any issues arise, is important.",
       },
       {
         question: "Does ConnectNetwork serve federal prisons?",
-        answer: "Yes. ConnectNetwork/GTL serves federal Bureau of Prisons facilities for phone calls, video visits, and money transfers. However, for electronic messaging with federal inmates, you still need a CorrLinks account — ConnectNetwork does not provide email-style messaging at BOP facilities.",
+        answer: "Yes. ConnectNetwork/GTL serves federal Bureau of Prisons facilities for phone calls, video visits, and money transfers. However, for electronic messaging with federal inmates, you still need a CorrLinks account, ConnectNetwork does not provide email-style messaging at BOP facilities.",
       },
       {
         question: "Which is better for video visits?",
@@ -625,7 +624,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "JPay vs GettingOut: compare state prison and county jail communication platforms. Find out which fits your facility, messaging needs, and video visit requirements.",
 
     intro: [
-      "JPay and GettingOut serve different parts of the correctional system, and the choice between them is almost always determined by one factor: facility type. JPay is the dominant platform for state prisons, contracted with departments of corrections across more than 35 states. GettingOut — operated by Telmate, part of the GTL/ViaPath family — serves over 2,200 county jails across 45 states and is best known for its video visitation product. If you know whether your loved one is in a state prison or a county jail, you can likely determine the right platform immediately.",
+      "JPay and GettingOut serve different parts of the correctional system, and the choice between them is almost always determined by one factor: facility type. JPay is the dominant platform for state prisons, contracted with departments of corrections across more than 35 states. GettingOut, operated by Telmate, part of the GTL/ViaPath family, serves over 2,200 county jails across 45 states and is best known for its video visitation product. If you know whether your loved one is in a state prison or a county jail, you can likely determine the right platform immediately.",
 
       "That said, comparing the two platforms is still worthwhile because the distinction between a state prison and a county jail is not always obvious to families navigating the system for the first time. County jails are operated by county sheriff's offices and typically hold people in pretrial detention or serving shorter sentences. State prisons hold people convicted of felonies with longer sentences and are operated by the state department of corrections. The facility's formal name and website are usually the fastest way to determine which category applies.",
 
@@ -633,10 +632,10 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     ],
 
     verdict: [
-      "Choose JPay if your loved one is in a state correctional facility — it is the standard messaging and money transfer platform for state prisons across 35 states.",
-      "Choose GettingOut if they are in a county jail — it serves over 2,200 county facilities and is particularly strong for video visitation.",
+      "Choose JPay if your loved one is in a state correctional facility, it is the standard messaging and money transfer platform for state prisons across 35 states.",
+      "Choose GettingOut if they are in a county jail, it serves over 2,200 county facilities and is particularly strong for video visitation.",
       "GettingOut generally has the better video visit experience; JPay has the better messaging and photo platform.",
-      "If your loved one is transferred from a county jail to a state prison after sentencing, your GettingOut account will no longer apply — you will need a new JPay account.",
+      "If your loved one is transferred from a county jail to a state prison after sentencing, your GettingOut account will no longer apply, you will need a new JPay account.",
       "If you are unsure whether the facility is a county jail or state prison, check the operating agency online before setting up either account.",
     ],
 
@@ -660,7 +659,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     services: {
       messaging: {
         providerA: "JPay's stamp-based messaging is a mature, widely-used system at state facilities. Digital photos can be included, and the mobile app makes composing messages easy.",
-        providerB: "GettingOut offers electronic messaging at participating county jails. Messages are delivered digitally. Not all GettingOut facilities use it for messaging — availability varies by contract.",
+        providerB: "GettingOut offers electronic messaging at participating county jails. Messages are delivered digitally. Not all GettingOut facilities use it for messaging, availability varies by contract.",
         winner: "jpay",
         notes: "JPay's messaging is more consistent across facilities and includes better photo integration.",
       },
@@ -671,7 +670,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         notes: "GettingOut's video platform is a significant differentiator and one of the main reasons families choose it.",
       },
       photos: {
-        providerA: "JPay's digital photo service is strong — photos are uploaded through the app and delivered electronically after review.",
+        providerA: "JPay's digital photo service is strong, photos are uploaded through the app and delivered electronically after review.",
         providerB: "GettingOut offers photo services at participating facilities. Digital or print-based delivery depending on the county jail's setup.",
         winner: "jpay",
         notes: "JPay's photo experience is more consistent and better integrated with the main messaging platform.",
@@ -755,7 +754,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       {
         scenario: "Managing all communication from one platform",
         winner: "gettingout",
-        reason: "At county jails, GettingOut typically manages phone, video, messaging, and money under one contract — simpler than managing two accounts.",
+        reason: "At county jails, GettingOut typically manages phone, video, messaging, and money under one contract, simpler than managing two accounts.",
       },
       {
         scenario: "Sending photos to a state prison inmate",
@@ -767,11 +766,11 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     faq: [
       {
         question: "What happens to my GettingOut account when my loved one is sentenced and transferred to a state prison?",
-        answer: "Your GettingOut account will no longer be useful once they are transferred to a state facility. State prisons use different providers — typically JPay for messaging and Securus or GTL for phone. You will need to create new accounts. Any unused GettingOut balance may be refundable — contact GettingOut customer service for options.",
+        answer: "Your GettingOut account will no longer be useful once they are transferred to a state facility. State prisons use different providers, typically JPay for messaging and Securus or GTL for phone. You will need to create new accounts. Any unused GettingOut balance may be refundable, contact GettingOut customer service for options.",
       },
       {
         question: "How do I know if my loved one is in a county jail or state prison?",
-        answer: "County jails are operated by county sheriff's departments and typically hold people awaiting trial or serving sentences under one year. State prisons are run by the state department of corrections and hold people serving longer sentences. You can usually identify the facility type from its name — jails often include 'Jail,' 'Detention Center,' or 'Correctional Center,' while state prisons often include 'State Prison,' 'Correctional Facility,' or 'Correctional Institution.'",
+        answer: "County jails are operated by county sheriff's departments and typically hold people awaiting trial or serving sentences under one year. State prisons are run by the state department of corrections and hold people serving longer sentences. You can usually identify the facility type from its name, jails often include 'Jail,' 'Detention Center,' or 'Correctional Center,' while state prisons often include 'State Prison,' 'Correctional Facility,' or 'Correctional Institution.'",
       },
       {
         question: "Does GettingOut work at state prisons?",
@@ -779,7 +778,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       },
       {
         question: "Can I use both platforms for the same person?",
-        answer: "Generally not at the same time — your loved one is housed in either a county jail or a state prison, not both. However, if they move between the two during legal proceedings, you would need to switch platforms. Some families maintain accounts on both out of preparedness.",
+        answer: "Generally not at the same time, your loved one is housed in either a county jail or a state prison, not both. However, if they move between the two during legal proceedings, you would need to switch platforms. Some families maintain accounts on both out of preparedness.",
       },
       {
         question: "Which platform is easier to set up?",
@@ -810,19 +809,19 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "CorrLinks vs ConnectNetwork: both serve federal Bureau of Prisons facilities but for different services. Learn which you need and whether both are required.",
 
     intro: [
-      "CorrLinks and ConnectNetwork are the two primary platforms that families with federal Bureau of Prisons inmates will encounter — not as alternatives to each other, but as complements. CorrLinks is the BOP's official electronic messaging system, used for all email-style communication with federal inmates. ConnectNetwork (operated by GTL/ViaPath) handles phone calls, video visitation, and money transfers at many federal facilities. Understanding that these platforms serve different functions rather than competing for the same service is the essential starting point for navigating federal inmate communication.",
+      "CorrLinks and ConnectNetwork are the two primary platforms that families with federal Bureau of Prisons inmates will encounter, not as alternatives to each other, but as complements. CorrLinks is the BOP's official electronic messaging system, used for all email-style communication with federal inmates. ConnectNetwork (operated by GTL/ViaPath) handles phone calls, video visitation, and money transfers at many federal facilities. Understanding that these platforms serve different functions rather than competing for the same service is the essential starting point for navigating federal inmate communication.",
 
-      "The distinction matters practically: many families new to the federal system try to find a single platform that covers everything, similar to how JPay works in state systems. No such platform exists in the federal system. If you want to send electronic messages, you need CorrLinks. If you want to make or receive phone calls or schedule video visits, you need ConnectNetwork. Setting up both is not redundant — it is how federal communication works.",
+      "The distinction matters practically: many families new to the federal system try to find a single platform that covers everything, similar to how JPay works in state systems. No such platform exists in the federal system. If you want to send electronic messages, you need CorrLinks. If you want to make or receive phone calls or schedule video visits, you need ConnectNetwork. Setting up both is not redundant, it is how federal communication works.",
 
-      "This comparison examines both platforms to help federal families understand what each does, how to set it up, and what to expect in terms of cost and usability. For families who are primarily evaluating which platform offers more value, ConnectNetwork's broader service set gives it a clear advantage on paper — but since CorrLinks is mandatory for federal messaging, it is not really optional.",
+      "This comparison examines both platforms to help federal families understand what each does, how to set it up, and what to expect in terms of cost and usability. For families who are primarily evaluating which platform offers more value, ConnectNetwork's broader service set gives it a clear advantage on paper, but since CorrLinks is mandatory for federal messaging, it is not really optional.",
     ],
 
     verdict: [
-      "You will likely need both platforms if your loved one is in federal custody — they serve different functions and are not substitutes.",
-      "Use CorrLinks for electronic messaging — it is the only approved way to send messages to federal inmates.",
+      "You will likely need both platforms if your loved one is in federal custody, they serve different functions and are not substitutes.",
+      "Use CorrLinks for electronic messaging, it is the only approved way to send messages to federal inmates.",
       "Use ConnectNetwork for phone calls and video visits at federal facilities.",
       "ConnectNetwork provides more services overall, but CorrLinks is mandatory and cannot be replaced.",
-      "Set up CorrLinks first, since messaging requires the inmate to initiate or approve contact — starting this process early saves time.",
+      "Set up CorrLinks first, since messaging requires the inmate to initiate or approve contact, starting this process early saves time.",
     ],
 
     sideA: {
@@ -847,13 +846,13 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         providerA: "CorrLinks is the only approved electronic messaging platform for all federal BOP facilities. The inmate must initiate or approve contact before families can send messages. Per-message fees apply.",
         providerB: "ConnectNetwork offers messaging at select facilities but it is not its primary service and is not universally available at BOP institutions.",
         winner: "corrlinks",
-        notes: "For federal messaging specifically, CorrLinks wins — it is the only approved option.",
+        notes: "For federal messaging specifically, CorrLinks wins, it is the only approved option.",
       },
       video: {
         providerA: "CorrLinks does not offer video visitation. Federal video visits must be arranged directly through the facility.",
         providerB: "ConnectNetwork offers video visitation at federal facilities under BOP contracts. Video visits require prior approval and advance scheduling.",
         winner: "connectnetwork",
-        notes: "ConnectNetwork is the clear choice for video — CorrLinks has no video capability.",
+        notes: "ConnectNetwork is the clear choice for video, CorrLinks has no video capability.",
       },
       photos: {
         providerA: "CorrLinks does not support digital photo delivery. Physical photos can be sent by postal mail subject to BOP guidelines.",
@@ -871,13 +870,13 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         providerA: "CorrLinks does not process commissary deposits or money transfers.",
         providerB: "ConnectNetwork processes trust fund deposits at BOP facilities through its platform and via money order or third-party services.",
         winner: "connectnetwork",
-        notes: "ConnectNetwork is the only option here — CorrLinks has no money transfer capability.",
+        notes: "ConnectNetwork is the only option here, CorrLinks has no money transfer capability.",
       },
     },
 
     coverage: {
       providerA: "CorrLinks covers all 120 federal Bureau of Prisons facilities exclusively. It does not serve any non-federal institutions.",
-      providerB: "ConnectNetwork covers all 50 states including federal BOP facilities, state prisons, and county jails — over 1,800 facilities total.",
+      providerB: "ConnectNetwork covers all 50 states including federal BOP facilities, state prisons, and county jails, over 1,800 facilities total.",
       winner: "connectnetwork",
       notes: "ConnectNetwork's broader coverage is an advantage, though both serve all BOP facilities for their respective services.",
     },
@@ -900,13 +899,13 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       pros: [
         "The only approved messaging platform for all 120 federal BOP facilities.",
         "Legally compliant with BOP communication policies.",
-        "Free to create an account — pay only per message.",
-        "Reliable within the federal system — fully integrated with BOP infrastructure.",
+        "Free to create an account, pay only per message.",
+        "Reliable within the federal system, fully integrated with BOP infrastructure.",
       ],
       cons: [
-        "Messaging only — no video, phone, or money transfer.",
+        "Messaging only, no video, phone, or money transfer.",
         "Inmate must act first before families can message.",
-        "No mobile app — browser-based access only.",
+        "No mobile app, browser-based access only.",
         "Cannot be used at any non-federal facility.",
       ],
     },
@@ -920,7 +919,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       ],
       cons: [
         "No digital photo service.",
-        "Messaging at BOP facilities not available — CorrLinks is required.",
+        "Messaging at BOP facilities not available, CorrLinks is required.",
         "Phone rates can be high for in-state calls.",
         "Setting up a ConnectNetwork account does not replace the need for CorrLinks.",
       ],
@@ -930,7 +929,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       {
         scenario: "Sending electronic messages to a federal inmate",
         winner: "corrlinks",
-        reason: "CorrLinks is mandatory for all federal BOP messaging — there is no alternative.",
+        reason: "CorrLinks is mandatory for all federal BOP messaging, there is no alternative.",
       },
       {
         scenario: "Phone calls and video visits with federal inmates",
@@ -947,11 +946,11 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     faq: [
       {
         question: "Do I need both CorrLinks and ConnectNetwork for a federal inmate?",
-        answer: "Yes, in most cases. If you want to send electronic messages, you need CorrLinks — there is no substitute. If you want to make phone calls or schedule video visits, you need ConnectNetwork. Most families with federal inmates maintain accounts on both platforms.",
+        answer: "Yes, in most cases. If you want to send electronic messages, you need CorrLinks, there is no substitute. If you want to make phone calls or schedule video visits, you need ConnectNetwork. Most families with federal inmates maintain accounts on both platforms.",
       },
       {
         question: "Why does CorrLinks require the inmate to go first?",
-        answer: "Bureau of Prisons policy requires inmates to add contacts to their approved list from within the TRULINCS system at their facility. This is a security measure — the BOP controls who can communicate with each inmate. Families cannot initiate CorrLinks contact on their own. The inmate must add your email address and send an invitation, which you then accept.",
+        answer: "Bureau of Prisons policy requires inmates to add contacts to their approved list from within the TRULINCS system at their facility. This is a security measure, the BOP controls who can communicate with each inmate. Families cannot initiate CorrLinks contact on their own. The inmate must add your email address and send an invitation, which you then accept.",
       },
       {
         question: "Is ConnectNetwork the same as GTL?",
@@ -990,11 +989,11 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "TextBehind vs SmartInmate: compare messaging, photo delivery, and platform experience. Find out which smaller provider better fits your communication needs.",
 
     intro: [
-      "TextBehind and SmartInmate are both focused on messaging and photo communication but take different approaches to delivering that service. TextBehind converts digital messages into physical letters that are mailed to the inmate through the postal system — meaning it works at virtually any facility that accepts standard mail. SmartInmate is a fully digital platform offering electronic messaging, video visits, photo sharing, and money transfers, with a clean interface that many families find more intuitive than larger legacy platforms.",
+      "TextBehind and SmartInmate are both focused on messaging and photo communication but take different approaches to delivering that service. TextBehind converts digital messages into physical letters that are mailed to the inmate through the postal system, meaning it works at virtually any facility that accepts standard mail. SmartInmate is a fully digital platform offering electronic messaging, video visits, photo sharing, and money transfers, with a clean interface that many families find more intuitive than larger legacy platforms.",
 
-      "The fundamental tradeoff between these two platforms is coverage versus features. TextBehind works at over 600 facilities because its print-based delivery model does not depend on the facility having installed digital kiosks or tablets. SmartInmate's digital-first approach offers a richer communication experience, but it only serves around 400 facilities across 20 states — meaning it may not be available at the specific facility you need. Checking facility availability for each platform is the critical first step before investing time in setup.",
+      "The fundamental tradeoff between these two platforms is coverage versus features. TextBehind works at over 600 facilities because its print-based delivery model does not depend on the facility having installed digital kiosks or tablets. SmartInmate's digital-first approach offers a richer communication experience, but it only serves around 400 facilities across 20 states, meaning it may not be available at the specific facility you need. Checking facility availability for each platform is the critical first step before investing time in setup.",
 
-      "Both platforms are considered alternatives or supplements to the larger legacy providers like JPay and GettingOut. Some families use TextBehind or SmartInmate alongside a primary platform for its specific advantages — TextBehind for the personal feel of physical letters, SmartInmate for its cleaner digital experience. This comparison examines both platforms in detail to help families understand which one fits their situation better.",
+      "Both platforms are considered alternatives or supplements to the larger legacy providers like JPay and GettingOut. Some families use TextBehind or SmartInmate alongside a primary platform for its specific advantages, TextBehind for the personal feel of physical letters, SmartInmate for its cleaner digital experience. This comparison examines both platforms in detail to help families understand which one fits their situation better.",
     ],
 
     verdict: [
@@ -1064,7 +1063,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
 
     pricing: {
       providerA: "TextBehind charges per message (approximately $0.49) and per photo (approximately $0.99–$1.49). No subscription required.",
-      providerB: "SmartInmate pricing varies by service type — messaging packages, per-photo fees, and video visit rates. Some subscription options available.",
+      providerB: "SmartInmate pricing varies by service type, messaging packages, per-photo fees, and video visit rates. Some subscription options available.",
       winner: null,
       notes: "For infrequent contact, TextBehind's pay-per-message model is cost-effective. For regular communication, SmartInmate's package pricing may be more efficient.",
     },
@@ -1078,13 +1077,13 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
 
     prosConsA: {
       pros: [
-        "Works at any facility that accepts standard mail — widest practical coverage.",
-        "Simple and accessible — no technical infrastructure at the facility required.",
+        "Works at any facility that accepts standard mail, widest practical coverage.",
+        "Simple and accessible, no technical infrastructure at the facility required.",
         "Physical letter format has a personal quality that digital messages lack.",
         "No account required for basic features.",
       ],
       cons: [
-        "Physical mail delivery takes 3 to 7 days — not suitable for time-sensitive communication.",
+        "Physical mail delivery takes 3 to 7 days, not suitable for time-sensitive communication.",
         "No video, phone, or money transfer services.",
         "Print-based delivery is not a real-time communication option.",
         "Per-message pricing with no subscription option for frequent users.",
@@ -1099,7 +1098,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         "Single account covers multiple communication needs.",
       ],
       cons: [
-        "Smaller coverage than TextBehind — only available at 400 facilities in 20 states.",
+        "Smaller coverage than TextBehind, only available at 400 facilities in 20 states.",
         "No phone calling support.",
         "Coverage expansion is ongoing but uncertain.",
         "Less established than major providers like JPay or GettingOut.",
@@ -1144,7 +1143,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       },
       {
         question: "How long does TextBehind delivery take?",
-        answer: "TextBehind letters are typically printed and mailed within one to two business days of submission. Standard mail delivery from that point depends on the postal service and the facility's mail processing — typically three to seven business days total from submission to the inmate receiving the letter.",
+        answer: "TextBehind letters are typically printed and mailed within one to two business days of submission. Standard mail delivery from that point depends on the postal service and the facility's mail processing, typically three to seven business days total from submission to the inmate receiving the letter.",
       },
       {
         question: "Is SmartInmate available at my loved one's facility?",
@@ -1175,9 +1174,9 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "GettingOut vs ConnectNetwork: compare county jail communication platforms. Find out which is right for video visits, phone calls, and messaging at your facility.",
 
     intro: [
-      "GettingOut (by Telmate) and ConnectNetwork (by GTL) are both products of ViaPath Technologies — the same parent company — but they operate as separate platforms under different contracts with different facilities. This means the comparison is not about choosing between competing companies, but about understanding which platform your specific facility uses. At some county jails, GettingOut holds the communication contract. At others, ConnectNetwork or GTL serves the same function. Knowing which platform applies to your facility is what matters most.",
+      "GettingOut (by Telmate) and ConnectNetwork (by GTL) are both products of ViaPath Technologies, the same parent company, but they operate as separate platforms under different contracts with different facilities. This means the comparison is not about choosing between competing companies, but about understanding which platform your specific facility uses. At some county jails, GettingOut holds the communication contract. At others, ConnectNetwork or GTL serves the same function. Knowing which platform applies to your facility is what matters most.",
 
-      "Beyond the facility-contract question, there are genuine product differences worth understanding. GettingOut has built its reputation primarily around video visitation at county jails — its app and scheduling interface for remote video visits is widely regarded as one of the most user-friendly in the market. ConnectNetwork's strength is phone calling, and its geographic reach extends across more facility types including federal institutions and some state prisons that GettingOut does not typically serve.",
+      "Beyond the facility-contract question, there are genuine product differences worth understanding. GettingOut has built its reputation primarily around video visitation at county jails, its app and scheduling interface for remote video visits is widely regarded as one of the most user-friendly in the market. ConnectNetwork's strength is phone calling, and its geographic reach extends across more facility types including federal institutions and some state prisons that GettingOut does not typically serve.",
 
       "For families whose loved one is in a county jail, this comparison is highly relevant because many county facilities use one or the other but not both. Understanding what each platform does well helps set expectations for the communication experience and ensures you choose the right platform to invest time in setting up.",
     ],
@@ -1186,7 +1185,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       "Choose GettingOut if your facility uses it and video visitation is your primary communication method.",
       "Choose ConnectNetwork if your facility uses it, or if phone calls are your main priority.",
       "Both platforms are operated by the same parent company (ViaPath) but serve different facilities under separate contracts.",
-      "The platform your specific facility uses is almost always the deciding factor — check the jail's website or call the facility to confirm.",
+      "The platform your specific facility uses is almost always the deciding factor, check the jail's website or call the facility to confirm.",
       "If your loved one is transferred to a federal or state facility, ConnectNetwork has wider cross-system coverage.",
     ],
 
@@ -1269,7 +1268,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
         "Covers phone, video, messaging, and money from one account at most facilities.",
       ],
       cons: [
-        "Primarily a county jail platform — limited state and no federal coverage.",
+        "Primarily a county jail platform, limited state and no federal coverage.",
         "If loved one transfers to state or federal facility, account becomes unusable.",
         "Video pricing can be significant for daily visits.",
         "Messaging not universally available at all GettingOut county facilities.",
@@ -1279,7 +1278,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     prosConsB: {
       pros: [
         "Widest geographic coverage, including federal, state, and county facilities.",
-        "Phone calling is its strongest service — available almost everywhere.",
+        "Phone calling is its strongest service, available almost everywhere.",
         "Account carries value if loved one moves between different facility types.",
         "FCC-regulated interstate call rates.",
       ],
@@ -1321,11 +1320,11 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       },
       {
         question: "How do I know which platform my county jail uses?",
-        answer: "The most reliable way is to check the county jail's official website — it typically lists the communication providers in its visitor information or inmate services section. You can also call the facility directly. If neither option is available, you can check both GettingOut's and ConnectNetwork's facility search tools to see which one lists your facility.",
+        answer: "The most reliable way is to check the county jail's official website, it typically lists the communication providers in its visitor information or inmate services section. You can also call the facility directly. If neither option is available, you can check both GettingOut's and ConnectNetwork's facility search tools to see which one lists your facility.",
       },
       {
         question: "Can I use GettingOut for state prisons?",
-        answer: "No. GettingOut is a county jail platform and does not serve state prisons. If your loved one is transferred from a county jail to a state prison after sentencing, you will need to switch to a different platform — typically JPay for messaging at state facilities.",
+        answer: "No. GettingOut is a county jail platform and does not serve state prisons. If your loved one is transferred from a county jail to a state prison after sentencing, you will need to switch to a different platform, typically JPay for messaging at state facilities.",
       },
       {
         question: "Is video visitation really better on GettingOut than ConnectNetwork?",
@@ -1333,7 +1332,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       },
       {
         question: "What happens to my GettingOut account if my loved one is sentenced and transferred?",
-        answer: "GettingOut accounts do not carry over to state or federal facilities. If your loved one is transferred after sentencing, you will need a new account on the appropriate platform for their new facility. Any unused balance in your GettingOut account may be refundable — contact GettingOut customer service to request a refund.",
+        answer: "GettingOut accounts do not carry over to state or federal facilities. If your loved one is transferred after sentencing, you will need a new account on the appropriate platform for their new facility. Any unused balance in your GettingOut account may be refundable, contact GettingOut customer service to request a refund.",
       },
     ],
 
@@ -1352,7 +1351,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     providerAName: "JPay",
     providerBName: "Securus Technologies",
     winner: null,
-    winnerReason: "JPay and Securus serve complementary roles — JPay for messaging and money transfers, Securus for phone calls — so most families need both rather than choosing one.",
+    winnerReason: "JPay and Securus serve complementary roles, JPay for messaging and money transfers, Securus for phone calls, so most families need both rather than choosing one.",
     category: "Same Parent Company",
     featured: false,
 
@@ -1644,7 +1643,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
     providerAName: "GettingOut",
     providerBName: "Securus Technologies",
     winner: null,
-    winnerReason: "GettingOut and Securus serve overlapping county jail markets with different strengths — GettingOut on video, Securus on breadth of services — so the facility contract determines which one applies.",
+    winnerReason: "GettingOut and Securus serve overlapping county jail markets with different strengths, GettingOut on video, Securus on breadth of services, so the facility contract determines which one applies.",
     category: "County Jails",
     featured: false,
 
@@ -2008,7 +2007,7 @@ export const COMPARISON_DETAILS: Record<string, ComparisonDetail> = {
       providerA: "CorrLinks serves all 120 federal Bureau of Prisons facilities nationwide, which is its complete and exclusive scope.",
       providerB: "Securus serves over 1,200 facilities across 45 states, primarily county jails and some state prisons, but does not serve federal facilities.",
       winner: null,
-      notes: "These platforms cover entirely separate systems, similar to the JPay and CorrLinks comparison — federal versus county and state.",
+      notes: "These platforms cover entirely separate systems, similar to the JPay and CorrLinks comparison, federal versus county and state.",
     },
 
     pricing: {

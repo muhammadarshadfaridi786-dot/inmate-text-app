@@ -5,6 +5,7 @@ import { GUIDE_DETAILS } from "@/lib/data/guides"
 import { STATE_DETAILS } from "@/lib/data/states"
 import { generateFacilityMetadata } from "@/lib/seo"
 import { buildBreadcrumbSchema, buildFacilitySchema, buildWebPageSchema } from "@/lib/schema"
+import { getTroubleshootingFaqs } from "@/lib/data/facility-troubleshooting"
 import JsonLd from "@/components/seo/JsonLd"
 import PageWrapper from "@/components/layout/PageWrapper"
 import Breadcrumb from "@/components/layout/Breadcrumb"
@@ -45,6 +46,24 @@ export default async function FacilityPage({ params }: PageProps) {
 
   const stateHasPage = !!STATE_DETAILS[facility.stateSlug]
 
+  const troubleshootingFaqs = getTroubleshootingFaqs(
+    facility.providers.map((p) => p.slug)
+  )
+
+  // Facilities with no curated guide links fall back to guides that cover
+  // this facility's providers, so no facility page links to zero guides.
+  const providerGuideLinks =
+    (facility.relatedGuideSlugs ?? []).length > 0
+      ? []
+      : Object.values(GUIDE_DETAILS)
+          .filter((g) =>
+            (g.relatedProviderSlugs ?? []).some((s) =>
+              facility.providers.some((p) => p.slug === s)
+            )
+          )
+          .slice(0, 4)
+          .map((g) => ({ label: g.title, href: `/guides/${g.slug}` }))
+
   const breadcrumbItems = [
     { label: "Home",       href: "/" },
     { label: "Facilities", href: "/facilities" },
@@ -74,6 +93,7 @@ export default async function FacilityPage({ params }: PageProps) {
       .map((slug) => GUIDE_DETAILS[slug])
       .filter(Boolean)
       .map((g) => ({ label: g.title, href: `/guides/${g.slug}` })),
+    ...providerGuideLinks,
     { label: "All States", href: "/states"        },
     ...(facility.countySlug
       ? [{ label: `${facility.countyName} Guide`, href: `/county/${facility.countySlug}` }]
@@ -118,7 +138,7 @@ export default async function FacilityPage({ params }: PageProps) {
       <FacilityProviders facilityName={facility.name} providers={facility.providers} />
       <FacilityRulesNotice facilityName={facility.name} rules={facility.rules} />
       <RelatedFacilities slugs={facility.relatedFacilitySlugs} />
-      <FacilityFaq facilityName={facility.name} faq={facility.faq} />
+      <FacilityFaq facilityName={facility.name} faq={facility.faq} extraFaq={troubleshootingFaqs} />
       <FacilityTroubleshooting
         facilityName={facility.name}
         providers={facility.providers}

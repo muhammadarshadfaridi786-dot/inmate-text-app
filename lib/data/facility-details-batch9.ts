@@ -1711,7 +1711,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   providers: [
     {
       name: "Smart Communications",
-      slug: "smart-communications",
+      slug: "smartinmate",
       initial: "S",
       color: "bg-cyan-600",
       messaging: false,

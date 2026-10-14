@@ -186,7 +186,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   overview: [
     "The Will County Adult Detention Facility is the county jail in Joliet, Illinois, operated by the Will County Sheriff's Office. It holds pretrial detainees and sentenced inmates for Will County, southwest of Chicago. Video visitation is conducted at the facility's video visitation center on Glenwood Avenue in Joliet.",
     "Inmate telephone services at Will County are provided by Smart Communications through smartinmate.com, per an official notice from the Will County Adult Detention Center. Families and friends create an account at smartinmate.com or call Smart Communications customer care to set up prepaid collect, PIN debit, or voicemail accounts.",
-    "Visits at Will County are by video, scheduled in advance through the sheriff's visitation system. Because the phone vendor is Smart Communications rather than one of the national providers covered in our provider database, account setup steps below are general. Confirm current visit scheduling details on the Will County Sheriff's corrections page.",
+    "Visits at Will County are by video, scheduled in advance through the sheriff's visitation system. Confirm current visit scheduling details on the Will County Sheriff's corrections page.",
   ],
 
   operatedBy: "Will County Sheriff's Office",
@@ -195,7 +195,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   providers: [
     {
       name: "Smart Communications",
-      slug: "smart-communications",
+      slug: "smartinmate",
       initial: "S",
       color: "bg-cyan-600",
       messaging: false,

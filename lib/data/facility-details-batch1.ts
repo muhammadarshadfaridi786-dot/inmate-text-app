@@ -5107,6 +5107,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Philadelphia Detention Center inmate?",
         answer: "Commissary deposits are processed through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
       },
+      {
+        question: "How do I find or search for an inmate at Philadelphia Detention Center?",
+        answer: "Use the Philadelphia Department of Prisons inmate locator on phila.gov to confirm your loved one is housed at this facility. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Philadelphia Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Philadelphia Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Philadelphia Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Philadelphia Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
     ],
 
     relatedFacilitySlugs: [

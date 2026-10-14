@@ -71,6 +71,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Where is Orange County Jail located?", answer: "3855 S John Young Pkwy, Orlando, FL 32839. The campus includes the main jail and related housing facilities." },
     { question: "Can I send mail to an inmate?", answer: "Yes. Address personal mail with the inmate's full name, booking number, and cell assignment to P.O. Box 4970, Orlando, FL 32802-4970." },
     { question: "How do I find an inmate's booking number?", answer: "Use the Orange County Corrections Department's online inmate search before setting up accounts." },
+      {
+        question: "How do I find or search for an inmate at Orange County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Orange County, Florida. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Orange County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Orange County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Orange County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Orange County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["broward-county-jail", "miami-dade-corrections-facility", "hillsborough-county-department-of-corrections"],
@@ -152,6 +173,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Where do I send mail?", answer: "Since late 2024, personal mail goes to: Jacksonville Sheriff's Office - Duval, FL, inmate name and 10-digit booking number, P.O. Box 247, Phoenix, MD 21131. Legal mail still goes to 500 E. Adams Street." },
     { question: "How do I send money?", answer: "Use Access Secure Deposits at inmatedeposits.com or 1-866-345-1884, or the cash kiosk in the jail lobby." },
     { question: "Are onsite video visits free?", answer: "Free video visits are available at the onsite visitation center at 500 E. Adams Street on select days; book at least 24 hours ahead." },
+      {
+        question: "How do I find or search for an inmate at Duval County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Duval County, Florida. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Duval County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Duval County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Duval County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Duval County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["broward-county-jail", "hillsborough-county-department-of-corrections", "miami-dade-corrections-facility"],
@@ -304,6 +346,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "How do I add money to an inmate's account?", answer: "Deposit online at connectnetwork.com, send a money order by mail, or use the lobby kiosks. Include the inmate's full name, docket number, and housing assignment." },
     { question: "Can I visit in person?", answer: "No. Family visits are remote only. Only professional visits specifically approved by jail command happen in person." },
     { question: "Where is the jail?", answer: "14400 49th Street North, Clearwater, FL 33762. Call 727-464-6415 for general information." },
+      {
+        question: "How do I find or search for an inmate at Pinellas County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Pinellas County, Florida. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Pinellas County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Pinellas County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Pinellas County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Pinellas County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["hillsborough-county-department-of-corrections", "broward-county-jail", "miami-dade-corrections-facility"],
@@ -372,6 +435,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can inmates receive incoming calls?", answer: "No. Inmates can only make outgoing calls to approved contacts." },
     { question: "How do I find an inmate?", answer: "Use the Lee County Sheriff's Office online inmate search to confirm custody status and get the booking number." },
     { question: "Are calls monitored?", answer: "Yes. All calls are recorded and monitored except communications with legal counsel." },
+      {
+        question: "How do I find or search for an inmate at Lee County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Lee County, Florida. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Lee County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Lee County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Lee County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Lee County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["broward-county-jail", "hillsborough-county-department-of-corrections", "miami-dade-corrections-facility"],
@@ -403,6 +487,10 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   address: "520 N Falkenburg Rd, Tampa, FL 33619",
   phone: "(813) 247-8300",
+    mailingAddress: "Personal mail: Inmate Name, Inmate Booking Number, c/o Mail Processing Center, PO BOX 9115, Seminole, FL 33775-9115. Legal/privileged mail: Falkenburg Road Jail, 520 N. Falkenburg Road, Tampa, Florida 33619, or Orient Road Jail, 1201 N. Orient Road, Tampa, FL 33619",
+    visitingHours: "Video Visitation typically 9:30 am to 8:45 pm, 2 hours no-cost prescheduled per week, on-demand for fee. Onsite Visitation Center closed as of Oct 28, 2025, all VVS remote. Professional visits 6:00 am to 11:00 pm daily",
+    commissary: "Inmate Accounts via Aramark, TouchPay. Money order with inmate name and booking number to Aramark, 207 Kelsey Lane Suite G, Tampa, FL 33619, phone 813-626-8800",
+    fax: "Falkenburg Road Jail: 813-242-1885, Orient Road Jail: 813-242-1881, professional documentation only",
   operatedBy: "Hillsborough County Sheriff's Office",
 
   providers: [
@@ -442,6 +530,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Where do I send mail?", answer: "Mail goes to the county's mail processing center: inmate name and booking number, c/o Mail Processing Center, PO Box 9115, Seminole, FL 33775-9115. Legal mail goes to 520 N. Falkenburg Road." },
     { question: "How do I add money?", answer: "Use the deposit kiosk in the Falkenburg Road lobby or the county's phone deposit service." },
     { question: "What are the two jail facilities?", answer: "The Falkenburg Road Jail at 520 N Falkenburg Rd and the Orient Road Jail at 1201 Orient Road, both in Tampa." },
+      {
+        question: "How do I find or search for an inmate at Hillsborough County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Hillsborough County, Florida. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Hillsborough County Jail?",
+        answer: "Address mail as follows: Personal mail: Inmate Name, Inmate Booking Number, c/o Mail Processing Center, PO BOX 9115, Seminole, FL 33775-9115. Legal/privileged mail: Falkenburg Road Jail, 520 N. Falkenburg Road, Tampa, Florida 33619, or Orient Road Jail, 1201 N. Orient Road, Tampa, FL 33619. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Hillsborough County Jail?",
+        answer: "Video Visitation typically 9:30 am to 8:45 pm, 2 hours no-cost prescheduled per week, on-demand for fee. Onsite Visitation Center closed as of Oct 28, 2025, all VVS remote. Professional visits 6:00 am to 11:00 pm daily",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Hillsborough County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Hillsborough County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["hillsborough-county-department-of-corrections", "broward-county-jail", "miami-dade-corrections-facility"],
@@ -512,6 +621,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "What mail is allowed?", answer: "Postcards only, unaltered, in blue or black ink, addressed to the inmate's name and SPN at 4415 Memorial Drive, Decatur, GA 30032." },
     { question: "How do I add money?", answer: "Deposit cash or debit at the lobby kiosks, use TouchPay at 866-232-1899, or mail a Western Union or USPS money order marked for inmate accounting." },
     { question: "Can I message an inmate?", answer: "Yes, through Securus eMessaging once you have an account and the inmate is on your contact list." },
+      {
+        question: "How do I find or search for an inmate at DeKalb County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for DeKalb County, Georgia. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at DeKalb County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at DeKalb County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at DeKalb County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at DeKalb County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fulton-county-jail", "georgia-state-prison", "georgia-diagnostic-and-classification-prison"],
@@ -653,6 +783,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Where do I send mail?", answer: "Postcards go to the JailATM mail processing center: inmate name and ID, JailATM.com - Gwinnett County Jail, 925B Peachtree St. NE, Box 2062, Atlanta, GA 30309." },
     { question: "How do I add money?", answer: "Use the Smart Deposit kiosk in the jail lobby or deposit online at JailATM.com. Money orders can be mailed to the jail marked for deposit only." },
     { question: "Where is the jail?", answer: "2900 University Parkway, Lawrenceville, GA 30043. Call 770-619-6500 for general information." },
+      {
+        question: "How do I find or search for an inmate at Gwinnett County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Gwinnett County, Georgia. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Gwinnett County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Gwinnett County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Gwinnett County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Gwinnett County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fulton-county-jail", "georgia-state-prison", "georgia-diagnostic-and-classification-prison"],
@@ -766,6 +917,8 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   address: "219 S Mangum St, Durham, NC 27701",
   phone: "(919) 560-0912",
+    visitingHours: "Virtual visits via SmartInmate Mon, Wed, Fri, Sat, Sun 9 a.m. to 1 p.m. and 4 p.m. to 9 p.m. In-person visits Tue 4:00PM to 7:30PM Pods A and B, Thu 4:00PM to 7:30PM Pods C and D except 3C North and South, not on Durham County holidays, schedule 2 to 7 days in advance",
+    commissary: "Add funds in person at facility, by mail with money order, or online or by phone via TouchPay, facility ID 227701, inmate number required. Money orders mailed to: Durham County Detention Facility, P.O. Box 544, Durham, NC 27702, include full name and inmate number, no personal correspondence",
   operatedBy: "Durham County Sheriff's Office",
 
   providers: [
@@ -817,6 +970,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes, through the GettingOut app and website once your account is verified and the inmate approves the contact." },
     { question: "Where is the detention center?", answer: "219 South Mangum Street, Durham, NC 27701. Call 919-560-0912 for information." },
     { question: "How do I add money?", answer: "Deposit options include online, phone, lobby kiosk, and mail; confirm current methods on the sheriff's inmate information page." },
+      {
+        question: "How do I find or search for an inmate at Durham County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Durham County, North Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Durham County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Durham County Detention Center?",
+        answer: "Virtual visits via SmartInmate Mon, Wed, Fri, Sat, Sun 9 a.m. to 1 p.m. and 4 p.m. to 9 p.m. In-person visits Tue 4:00PM to 7:30PM Pods A and B, Thu 4:00PM to 7:30PM Pods C and D except 3C North and South, not on Durham County holidays, schedule 2 to 7 days in advance",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Durham County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Durham County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["mecklenburg-county-detention-center", "wake-county-detention-center", "central-prison"],
@@ -885,6 +1059,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Which facilities are part of Guilford County Jail?", answer: "The Greensboro Detention Center and the High Point Detention Center, both operated by the Guilford County Sheriff's Office." },
     { question: "Can I message an inmate?", answer: "Electronic messaging is available through Securus once your account is set up." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I find or search for an inmate at Guilford County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Guilford County, North Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Guilford County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Guilford County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Guilford County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Guilford County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["mecklenburg-county-detention-center", "wake-county-detention-center", "central-prison"],
@@ -916,6 +1111,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   address: "201 N Church St, Winston-Salem, NC 27101",
   phone: "(336) 917-7600",
+    visitingHours: "Public visits in three sessions 9:00 to 11:30 AM, 1:00 to 3:00 PM, 5:30 to 7:30 PM, by housing unit. Units 2A, 2B, 4A, 4C, 6A, 6C, 8A, 10A, 10C: Sun, Tue, Thu. Units 2C, 4B, 4D, 6B, 6D, 8B, 10B, 10D: Mon, Wed, Sat. Unit 2D: Sun through Thu and Sat. Unit 8C: Mon. Unit 8D: Tue. Unit 8E: Thu. Unit 8F: Sun and Sat. Register at least 30 min before session ends, 2 adult visits per week",
   inmateCapacity: 1016,
   operatedBy: "Forsyth County Sheriff's Office",
 
@@ -956,6 +1152,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Where do I send mail?", answer: "Personal mail goes to the county's mail processing center and is scanned for digital delivery. Legal mail goes directly to the facility at 201 Church Street, Winston-Salem, NC 27101." },
     { question: "How big is the facility?", answer: "The detention center has a rated capacity of about 1,016 beds." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; call 336-917-7600 for current methods." },
+      {
+        question: "How do I find or search for an inmate at Forsyth County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Forsyth County, North Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Forsyth County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Forsyth County Detention Center?",
+        answer: "Public visits in three sessions 9:00 to 11:30 AM, 1:00 to 3:00 PM, 5:30 to 7:30 PM, by housing unit. Units 2A, 2B, 4A, 4C, 6A, 6C, 8A, 10A, 10C: Sun, Tue, Thu. Units 2C, 4B, 4D, 6B, 6D, 8B, 10B, 10D: Mon, Wed, Sat. Unit 2D: Sun through Thu and Sat. Unit 8C: Mon. Unit 8D: Tue. Unit 8E: Thu. Unit 8F: Sun and Sat. Register at least 30 min before session ends, 2 adult visits per week",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Forsyth County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Forsyth County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["mecklenburg-county-detention-center", "wake-county-detention-center", "central-prison"],
@@ -987,6 +1204,8 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   address: "3841 Leeds Ave, Charleston, SC 29405",
   phone: "(843) 529-7300",
+    visitingHours: "Video visitation Sun through Sat 8:00 a.m. to 11:00 a.m., 1:00 p.m. to 4:00 p.m. Inmate must be incarcerated at least 72 hours",
+    rosterUrl: "https://inmatesearch.charlestoncounty.org/",
   operatedBy: "Charleston County Sheriff's Office",
 
   providers: [
@@ -1026,6 +1245,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "How do visits work?", answer: "Onsite visits are offered every day in three time blocks: morning, afternoon, and evening. Scheduled visits get priority over walk-ins." },
     { question: "Where do I send mail?", answer: "Personal mail goes to the Securus Digital Mail Center: inmate name and number, c/o Securus Digital Mail Center, PO Box 20207, Tampa, FL 33622." },
     { question: "Where is the detention center?", answer: "3841 Leeds Avenue, Charleston, SC 29405. Call 843-529-7300 for information." },
+      {
+        question: "How do I find or search for an inmate at Charleston County Detention Center?",
+        answer: "Use the official inmate search at https://inmatesearch.charlestoncounty.org/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Charleston County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Charleston County Detention Center?",
+        answer: "Video visitation Sun through Sat 8:00 a.m. to 11:00 a.m., 1:00 p.m. to 4:00 p.m. Inmate must be incarcerated at least 72 hours",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Charleston County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Charleston County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["lee-correctional-institution", "broad-river-correctional-institution", "fulton-county-jail"],
@@ -1057,6 +1297,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   address: "20 McGee St, Greenville, SC 29601",
   phone: "(864) 467-2309",
+    visitingHours: "Two 30-minute visits per week, schedules vary by building and housing unit, first come first served on visiting day. Building Four video-visit office open daily 8:00 AM to 6:00 PM, last visit accepted at 5:30 PM, Building Four visitors report to Building Two lobby. Call 864-467-2330 to confirm inmate building and time",
   operatedBy: "Greenville County Sheriff's Office",
 
   providers: [
@@ -1096,6 +1337,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "How do attorneys visit?", answer: "Professional visits can be scheduled in person, by phone at 864-467-2370, or by email. Business hours are Monday through Friday." },
     { question: "Where is the detention center?", answer: "20 McGee Street, Greenville, SC 29601. Call 864-467-2309 for information." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I find or search for an inmate at Greenville County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Greenville County, South Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Greenville County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Greenville County Detention Center?",
+        answer: "Two 30-minute visits per week, schedules vary by building and housing unit, first come first served on visiting day. Building Four video-visit office open daily 8:00 AM to 6:00 PM, last visit accepted at 5:30 PM, Building Four visitors report to Building Two lobby. Call 864-467-2330 to confirm inmate building and time",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Greenville County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Greenville County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["lee-correctional-institution", "broad-river-correctional-institution", "fulton-county-jail"],
@@ -1258,6 +1520,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes, through Securus messaging on the facility tablets once your account is set up." },
     { question: "What is the Downtown Detention Center?", answer: "The Downtown Detention Center is the Davidson County Sheriff's Office's main facility in downtown Nashville." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I find or search for an inmate at Davidson County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Davidson County, Tennessee. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Davidson County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Davidson County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Davidson County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Davidson County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["shelby-county-criminal-justice-center", "shelby-county-correctional-center", "fci-memphis"],
@@ -1314,6 +1597,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I visit in person?", answer: "Visits are generally by video. Confirm current visitation options on the sheriff's website." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
     { question: "Which facilities are part of the Knox County jail system?", answer: "The main detention facility and the Roger D. Wilson Detention Facility, both operated by the Knox County Sheriff's Office." },
+      {
+        question: "How do I find or search for an inmate at Knox County Detention Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Knox County, Tennessee. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Knox County Detention Facility?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Knox County Detention Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Knox County Detention Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Knox County Detention Facility?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["shelby-county-criminal-justice-center", "northeast-correctional-complex", "riverbend-maximum-security-institution"],
@@ -1346,6 +1650,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   address: "7609 Standifer Gap Rd, Chattanooga, TN",
   phone: "(423) 209-7050",
   website: "https://www.hcsheriff.gov/Corrections",
+    notToConfuseWith: "Not to be confused with Hamilton County Jail in Cincinnati, Ohio.",
   operatedBy: "Hamilton County Sheriff's Office",
 
   providers: [
@@ -1397,6 +1702,27 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes, through the GettingOut app and website once your account is verified." },
     { question: "Where is the jail?", answer: "7609 Standifer Gap Road, Chattanooga, TN. Call 423-209-7050 for information." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's corrections page; confirm current methods before sending funds." },
+      {
+        question: "How do I find or search for an inmate at Hamilton County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Hamilton County, Tennessee. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Hamilton County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Hamilton County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Hamilton County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Hamilton County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["shelby-county-criminal-justice-center", "northeast-correctional-complex", "fci-memphis"],

@@ -110,6 +110,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families set up a GettingOut account online or in the app, select Lake County Jail, and add the inmate to get started. Video visits can be done remotely from home or in the jail lobby, and funds deposited in the inmate's account can be used for phone calls or tablet services.",
   ],
 
+  notToConfuseWith: "Not to be confused with Lake County Jail in Crown Point, Indiana.",
   operatedBy: "Lake County Sheriff's Office",
 
   providers: [
@@ -257,6 +258,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Remote video visits can be done from a computer or phone using the GettingOut app, or from the kiosks at the jail. The friends and family account option lets the outside contact control which numbers the inmate can call and how communication funds are spent.",
   ],
 
+  notToConfuseWith: "Not to be confused with Lake County Jail in Waukegan, Illinois.",
   operatedBy: "Lake County Sheriff's Department",
 
   providers: [
@@ -521,6 +523,27 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit from home?", answer: "Yes. Remote video visits are available through GettingOut from your computer or phone, in addition to on-site video visits at the jail." },
     { question: "How do phone calls work at Lucas County Corrections Center?", answer: "Calls run through GTL. You can load money directly into the inmate's phone account or set up a prepaid account through GettingOut or ConnectNetwork to control costs." },
     { question: "What messaging options are available?", answer: "GettingOut provides email, photo and video sharing, and tablet services for inmates at the Corrections Center." },
+      {
+        question: "How do I find or search for an inmate at Lucas County Corrections Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Lucas County, Ohio. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Lucas County Corrections Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Lucas County Corrections Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Lucas County Corrections Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Lucas County Corrections Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["cuyahoga-county-jail", "franklin-county-correctional-center", "harris-county-jail"],
@@ -588,6 +611,27 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Does Oakland County Jail offer video visitation?", answer: "Sources conflict on video visitation at Oakland County Jail. Call the jail directly to confirm the current visit options before planning a visit." },
     { question: "Who pays for calls at Oakland County Jail?", answer: "Inmates are responsible for the cost of their calls, funded through the Securus phone account that families can add money to." },
     { question: "Can I receive calls from an Oakland County Jail inmate?", answer: "Yes, if you are on the inmate's approved call list and there are funds in the phone account. Inmates cannot receive incoming calls." },
+      {
+        question: "How do I find or search for an inmate at Oakland County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Oakland County, Michigan. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Oakland County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Oakland County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Oakland County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Oakland County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["wayne-county-jail", "harris-county-jail", "cuyahoga-county-jail"],
@@ -936,6 +980,27 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Do inmates at Allegheny County Jail have tablets?", answer: "Yes. GTL tablets are widely used for phone calls, video visits, messaging, reading, and entertainment, according to the county's own surveys." },
     { question: "How do video visits work at Allegheny County Jail?", answer: "Video visits run on GTL tablets and at video stations in the jail. Schedule through GTL's consumer platforms and confirm the inmate's availability." },
     { question: "Can I send photos to an Allegheny County Jail inmate?", answer: "Photos can be shared through GTL tablet messaging, subject to the jail's content rules. Physical photos by mail must follow the mail policy." },
+      {
+        question: "How do I find or search for an inmate at Allegheny County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Allegheny County, Pennsylvania. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Allegheny County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Allegheny County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Allegheny County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Allegheny County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["philadelphia-department-of-prisons", "essex-county-correctional-facility", "harris-county-jail"],
@@ -1070,6 +1135,27 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do phone calls work at Bergen County Jail?", answer: "Calls run through the GTL phone system. Set up an account through GTL ConnectNetwork to deposit funds, and the inmate can call during permitted daytime hours." },
     { question: "Can I do a video visit from home?", answer: "Yes. Video visits can be scheduled through the GettingOut platform for remote visits from your computer or phone." },
     { question: "What are the visiting hours at Bergen County Jail?", answer: "Visiting hours run during the day with time slots booked in advance. Confirm current hours and scheduling rules with the jail before visiting." },
+      {
+        question: "How do I find or search for an inmate at Bergen County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Bergen County, New Jersey. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Bergen County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Bergen County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Bergen County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Bergen County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["essex-county-correctional-facility", "brooklyn-detention-complex", "rikers-island"],
@@ -1099,6 +1185,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Tablet services follow the same rules as video visits and electronic messaging, and violations can result in loss of tablet use. All services on the tablet are subject to the facility's communication rules.",
   ],
 
+  address: "30-35 Hackensack Ave, Kearny, NJ 07032",
+  phone: "(201) 395-5600",
+  commissary: "Funds via Access Corrections online, plus kiosk in Corrections Center lobby",
   operatedBy: "Hudson County, New Jersey",
 
   providers: [
@@ -1149,6 +1238,29 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do I message an inmate at Hudson County Correctional Center?", answer: "Inmate tablets run through gettingout.com, per the county's official page. Create an account, add money to the inmate's tablet account for messaging, and follow the instructions there." },
     { question: "Is tablet money the same as commissary money?", answer: "No. The county states that tablet account money is separate from commissary account money. Fund them separately." },
     { question: "Can I visit someone at Hudson County Correctional Center?", answer: "Yes. Confirm the current visitation schedule and any video visit platform with the facility before planning a visit." },
+      {
+        question: "How do I find or search for an inmate at Hudson County Correctional Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Hudson County, New Jersey. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Hudson County Correctional Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Hudson County Correctional Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Hudson County Correctional Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Hudson County Correctional Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
+
+
   ],
 
   relatedFacilitySlugs: ["essex-county-correctional-facility", "brooklyn-detention-complex", "rikers-island"],
@@ -1217,6 +1329,27 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Middlesex Jail?", answer: "Video visits run through Securus Video Connect. Schedule online at least 24 hours in advance, and be logged in at least 15 minutes before the visit. On-site visits use video screens in the jail lobby." },
     { question: "How do I send money to a Middlesex inmate?", answer: "Funds can be deposited at the lobby deposit kiosk between 6 am and 10 pm, or through the Access Corrections website and by phone at 866-345-1884." },
     { question: "Who can help my family with questions?", answer: "The Middlesex Sheriff's Office Family Support Services Unit responds to family inquiries about visits, mail, and telephone contact, and can be reached by phone or email." },
+      {
+        question: "How do I find or search for an inmate at Middlesex Jail and House of Correction?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Middlesex County, Massachusetts. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Middlesex Jail and House of Correction?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Middlesex Jail and House of Correction?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Middlesex Jail and House of Correction?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Middlesex Jail and House of Correction?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["suffolk-county-house-of-correction", "essex-county-correctional-facility", "fci-danbury"],
@@ -1247,6 +1380,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.cdcr.ca.gov/facility-locator/cci/",
+    visitingHours: "All-day visiting, schedule via VSA at https://cdcr.gtlvisitme.com/app, request period begins 8 days before visitation day at 6:30 a.m., email requests not reviewed",
   established: 1954,
   operatedBy: "California Department of Corrections and Rehabilitation",
 
@@ -1310,6 +1444,31 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate at CCI Tehachapi?", answer: "Yes, through e-messages on the state-issued tablet. CDCR is replacing ViaPath tablets with Securus tablets, so confirm which tablet your loved one currently has to use the right app." },
     { question: "How do video visits work in California prisons?", answer: "Inmates get video calls on their state tablets with a free monthly allowance. In-person visits are scheduled separately through CDCR's visitor reservation system after you are approved as a visitor." },
     { question: "How do I send money to a CDCR inmate?", answer: "Deposit to the trust account through JPay online, by phone at 1-800-574-5729, by MoneyGram, or at a lobby kiosk. You will need the inmate's CDCR number." },
+      {
+        question: "How do I find or search for an inmate at California Correctional Institution?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Kern County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at California Correctional Institution?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at California Correctional Institution?",
+        answer: "All-day visiting, schedule via VSA at https://cdcr.gtlvisitme.com/app, request period begins 8 days before visitation day at 6:30 a.m., email requests not reviewed",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at California Correctional Institution?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at California Correctional Institution?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at California Correctional Institution?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1341,6 +1500,8 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   ],
 
   address: "31625 Highway 101, Soledad, CA 93960",
+  phone: "(831) 678-5500 ext. 5707 Visiting Sergeant, email SVSPVideoVisiting@cdcr.ca.gov",
+  visitingHours: "Walk-in visits permitted for contact visits. Appointments only required for non-contact visits, arrive one hour early for non-contact. Max 5 visitors per visit, max 3 for non-contact. Normal visits for all SVSP Facilities as of 9/28/26 per status page",
   inmateCapacity: 2242,
   established: 1996,
   operatedBy: "California Department of Corrections and Rehabilitation",
@@ -1405,6 +1566,31 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate at Salinas Valley State Prison?", answer: "Yes, through e-messages on the state-issued tablet. CDCR is replacing ViaPath tablets with Securus tablets, so confirm which tablet your loved one currently has to use the right app." },
     { question: "How do video visits work at SVSP?", answer: "Inmates get video calls on their state tablets with a free monthly allowance. In-person visits are scheduled separately through CDCR's visitor reservation system after you are approved as a visitor." },
     { question: "How do I send money to a CDCR inmate?", answer: "Deposit to the trust account through JPay online, by phone at 1-800-574-5729, by MoneyGram, or at a lobby kiosk. You will need the inmate's CDCR number." },
+      {
+        question: "How do I find or search for an inmate at Salinas Valley State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Monterey County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Salinas Valley State Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Salinas Valley State Prison?",
+        answer: "Walk-in visits permitted for contact visits. Appointments only required for non-contact visits, arrive one hour early for non-contact. Max 5 visitors per visit, max 3 for non-contact. Normal visits for all SVSP Facilities as of 9/28/26 per status page",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Salinas Valley State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Salinas Valley State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Salinas Valley State Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1435,6 +1621,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Money for CDCR trust accounts is deposited through JPay online, by phone, by MoneyGram, or at lobby kiosks. In-person visits are scheduled through CDCR's visitor reservation system, and visitors must be approved before visiting. The prison sits in a remote area of northeastern California, so many families rely on the tablet services to stay in touch.",
   ],
 
+  phone: "(530) 251-5100 Ext. 5712 Visiting Sergeant and Lieutenant, Mon and Thu 8am to 12pm, press 4 before extension. Family visiting email hdspfamilyvisiting@cdcr.ca.gov",
+  visitingHours: "In-person Fri 12:00 p.m. to 6:30 p.m., Sat 8:00 a.m. to 2:30 p.m., Sun 8:00 a.m. to 2:30 p.m. Walk-in Fri 3:00 p.m. to 6:30 p.m., entry not accepted after 5:00pm, Sat and Sun 11:00 a.m. to 2:30 p.m., entry not accepted after 1:00pm. Overnight family visiting Tue to Thu 9:00 a.m. to 9:00 a.m., Fri to Sun 9:00 a.m. to 9:00 a.m.",
+  notToConfuseWith: "Not to be confused with High Desert State Prison in Indian Springs, Nevada.",
   inmateCapacity: 2324,
   established: 1995,
   operatedBy: "California Department of Corrections and Rehabilitation",
@@ -1499,6 +1688,31 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Is this the same as the High Desert State Prison in Nevada?", answer: "No. This entry covers the California Department of Corrections and Rehabilitation facility near Susanville, California. Nevada has a separate High Desert State Prison near Indian Springs." },
     { question: "Can I message an inmate at HDSP?", answer: "Yes, through e-messages on the state-issued tablet. CDCR is replacing ViaPath tablets with Securus tablets, so confirm which tablet your loved one currently has to use the right app." },
     { question: "How do I send money to a CDCR inmate?", answer: "Deposit to the trust account through JPay online, by phone at 1-800-574-5729, by MoneyGram, or at a lobby kiosk. You will need the inmate's CDCR number." },
+      {
+        question: "How do I find or search for an inmate at High Desert State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Lassen County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at High Desert State Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at High Desert State Prison?",
+        answer: "In-person Fri 12:00 p.m. to 6:30 p.m., Sat 8:00 a.m. to 2:30 p.m., Sun 8:00 a.m. to 2:30 p.m. Walk-in Fri 3:00 p.m. to 6:30 p.m., entry not accepted after 5:00pm, Sat and Sun 11:00 a.m. to 2:30 p.m., entry not accepted after 1:00pm. Overnight family visiting Tue to Thu 9:00 a.m. to 9:00 a.m., Fri to Sun 9:00 a.m. to 9:00 a.m.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at High Desert State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at High Desert State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at High Desert State Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],

@@ -21,16 +21,16 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     countyName: "Tattnall County",
     securityLevel: "Maximum",
     hasDetailPage: true,
-    seoTitle: "Georgia State Prison: Securus Phone, JPay Messaging and Money",
-    seoDescription: "How to contact someone at Georgia State Prison in Reidsville. Securus Technologies handles phone calls. JPay for messaging, video visits, and money transfers. GDC number required.",
+    seoTitle: "Georgia State Prison (Closed 2022): What Families Need to Know",
+    seoDescription: "Georgia State Prison in Reidsville closed on February 19, 2022. Learn where inmates were transferred and how to find current housing through the GDC offender search.",
 
     description:
-      "Georgia State Prison communication guide. Find JPay messaging and GTL phone options for families at this historic maximum-security facility in Reidsville, Georgia.",
+      "Georgia State Prison closed on February 19, 2022. This page explains the closure and how to find where an inmate was transferred through the GDC offender search.",
 
     overview: [
-      "Georgia State Prison is a maximum-security correctional facility operated by the Georgia Department of Corrections, located in Reidsville in Tattnall County in the southeastern part of the state, roughly 65 miles west of Savannah. Founded in 1937, it is one of the oldest state prisons in Georgia and has housed some of the state's most serious offenders throughout its history. The facility sits in a largely rural area and has been the subject of significant attention over the years due to its conditions and population management. Today it functions as a maximum-security institution within the Georgia DOC system.",
-      "Communication at Georgia State Prison follows the statewide Georgia Department of Corrections provider contracts. JPay is the primary platform for electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Georgia DOC number to begin correspondence. GTL manages phone calls and video visitation under the GDC statewide contract. The standard two-platform approach applies here as it does across the Georgia state system: JPay for messaging and money, GTL for phone and video, with each requiring a separate account and separate funding.",
-      "For families in the Savannah area, Georgia State Prison is a reasonable drive west. For those in Atlanta or other parts of the state, the facility is more distant. Many families rely on JPay messaging and GTL video visits for regular contact rather than making the full trip to Tattnall County. Because JPay and GTL serve all Georgia DOC facilities statewide, accounts created for Georgia State Prison carry over automatically if an inmate is transferred to another Georgia facility. Use the GDC offender search at gdc.ga.gov to confirm current housing location before setting up or funding any account.",
+      "Georgia State Prison closed on February 19, 2022, and no longer houses inmates. It was a maximum-security correctional facility operated by the Georgia Department of Corrections, located in Reidsville in Tattnall County in the southeastern part of the state, roughly 65 miles west of Savannah. Founded in 1937, it was one of the oldest state prisons in Georgia and housed some of the state's most serious offenders throughout its history.",
+      "Before closure, communication at Georgia State Prison followed the statewide Georgia Department of Corrections provider contracts: JPay for electronic messaging, photo sharing, and money transfers, and GTL for phone calls and video visitation. Those accounts no longer apply to this facility. Inmates were transferred to other Georgia facilities when the prison closed. Use the GDC offender search to confirm a person's current housing location before setting up or funding any account.",
+      "Do not send mail, money, or visit requests to the old Georgia State Prison address. Use the GDC offender search at gdc.ga.gov to confirm current housing location, then follow the communication setup for the facility where the person is now housed. Because JPay and GTL serve all Georgia DOC facilities statewide, existing JPay and GTL accounts generally carry over to the new facility.",
     ],
 
     address: "100 Georgia State Prison Road, Reidsville, GA 30453",
@@ -237,6 +237,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "4490 W. Reformatory Road, Pendleton, IN 46064",
     phone: "(765) 778-2107",
     website: "https://www.in.gov/idoc",
+    rosterUrl: "https://offenderlocator.idoc.in.gov/idoc-ofs-1.0.2/ofs",
     inmateCapacity: 2000,
     established: 1923,
     operatedBy: "Indiana Department of Correction (IDOC)",
@@ -305,6 +306,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Pendleton inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Pendleton Correctional Facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Pendleton Correctional Facility?",
+        answer: "Use the official inmate search at https://offenderlocator.idoc.in.gov/idoc-ofs-1.0.2/ofs. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Pendleton Correctional Facility?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Pendleton Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Pendleton Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Pendleton Correctional Facility?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -648,6 +670,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "2700 Perdido Street, New Orleans, LA 70119",
     phone: "(504) 822-8000",
     website: "https://www.opso.us",
+    visitingHours: "Tuesday to Saturday, 8:00am to 11:00am, 1:00pm to 5:00pm, 8:00pm to 10:00pm. Once per week, once on day of visitation, check in 30 minutes prior",
     inmateCapacity: 1438,
     established: 2015,
     operatedBy: "Orleans Parish Sheriff's Office (OPSO)",
@@ -704,6 +727,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to an Orleans Justice Center inmate?",
         answer: "Commissary deposits can be made through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
       },
+      {
+        question: "How do I find or search for an inmate at Orleans Justice Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Orleans Parish, Louisiana. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Orleans Justice Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Orleans Justice Center?",
+        answer: "Tuesday to Saturday, 8:00am to 11:00am, 1:00pm to 5:00pm, 8:00pm to 10:00pm. Once per week, once on day of visitation, check in 30 minutes prior",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Orleans Justice Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Orleans Justice Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
     ],
 
     relatedFacilitySlugs: [
@@ -956,6 +1000,9 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "711 Kaskaskia Street, Chester, IL 62233",
     phone: "(618) 826-5071",
     website: "https://www.illinois.gov/idoc",
+    mailingAddress: "Individual in Custody Name and IDOC#, P.O. Box 1000, Menard, IL 62259",
+    visitingHours: "Video Visitation Hours: General Division Sunday through Friday 8:00a to 4:00p and Saturday 8:00a to 5:00p. Medium Security Unit Sunday through Saturday 8:00a to 6:00p. Visitors should log on 15 minutes prior",
+    fax: "(618) 826-1141",
     inmateCapacity: 3400,
     established: 1878,
     operatedBy: "Illinois Department of Corrections (IDOC)",
@@ -1024,6 +1071,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Menard inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Menard Correctional Center. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Menard Correctional Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Randolph County, Illinois. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Menard Correctional Center?",
+        answer: "Address mail as follows: Individual in Custody Name and IDOC#, P.O. Box 1000, Menard, IL 62259. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Menard Correctional Center?",
+        answer: "Video Visitation Hours: General Division Sunday through Friday 8:00a to 4:00p and Saturday 8:00a to 5:00p. Medium Security Unit Sunday through Saturday 8:00a to 6:00p. Visitors should log on 15 minutes prior",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Menard Correctional Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Menard Correctional Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1063,6 +1131,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "1960 U.S. 41 South, Marquette, MI 49855",
     phone: "(906) 226-6531",
     website: "https://www.michigan.gov/corrections",
+    callRates: "Video visits: $3.20 for 20 minutes ($0.16 per minute), hold $3.20 in advance, adjusted by call length",
     inmateCapacity: 900,
     established: 1889,
     operatedBy: "Michigan Department of Corrections (MDOC)",
@@ -1131,6 +1200,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Marquette Branch Prison inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Marquette Branch Prison. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Marquette Branch Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Marquette County, Michigan. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Marquette Branch Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "How much does it cost to call or video-visit an inmate at Marquette Branch Prison?",
+        answer: "Verified rates: Video visits: $3.20 for 20 minutes ($0.16 per minute), hold $3.20 in advance, adjusted by call length",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Marquette Branch Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Marquette Branch Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1238,6 +1328,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Central Prison inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Central Prison. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Central Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Wake County, North Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Central Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Central Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Central Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Central Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1345,6 +1456,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Kentucky State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Kentucky State Penitentiary. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Kentucky State Penitentiary?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Lyon County, Kentucky. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Kentucky State Penitentiary?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Kentucky State Penitentiary?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Kentucky State Penitentiary?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Kentucky State Penitentiary?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1662,6 +1794,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a New Jersey State Prison inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select New Jersey State Prison. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at New Jersey State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Mercer County, New Jersey. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at New Jersey State Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at New Jersey State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at New Jersey State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at New Jersey State Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1807,6 +1960,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "970 Pickett Street North, Bayport, MN 55003",
     phone: "(651) 779-2700",
     website: "https://mn.gov/doc",
+    fax: "(651) 351-3600",
     inmateCapacity: 1600,
     established: 1853,
     operatedBy: "Minnesota Department of Corrections (MNDOC)",
@@ -1875,6 +2029,27 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a MCF Stillwater inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Minnesota Correctional Facility Stillwater. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Minnesota Correctional Facility Stillwater?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Washington County, Minnesota. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Minnesota Correctional Facility Stillwater?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Minnesota Correctional Facility Stillwater?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Minnesota Correctional Facility Stillwater?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Minnesota Correctional Facility Stillwater?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],

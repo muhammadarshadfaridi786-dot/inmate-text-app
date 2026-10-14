@@ -815,6 +815,27 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a BCDC inmate?",
         answer: "Commissary deposits are processed through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
       },
+      {
+        question: "How do I find or search for an inmate at Baltimore City Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Baltimore City, Maryland. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Baltimore City Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Baltimore City Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Baltimore City Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Baltimore City Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedFacilitySlugs: [
@@ -919,6 +940,27 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Montana State Prison inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Montana State Prison. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Montana State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Powell County, Montana. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Montana State Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Montana State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Montana State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Montana State Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -956,6 +998,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     address: "4201 S. 14th Street, Lincoln, NE 68502",
     phone: "(402) 471-3161",
     website: "https://corrections.nebraska.gov",
+    mailingAddress: "Inmate name and number, P.O. Box 22500, Lincoln, NE 68542-2500",
     inmateCapacity: 1800,
     established: 1869,
     operatedBy: "Nebraska Department of Correctional Services (NDCS)",
@@ -1024,6 +1067,27 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Nebraska State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Nebraska State Penitentiary. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Nebraska State Penitentiary?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Lancaster County, Nebraska. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Nebraska State Penitentiary?",
+        answer: "Address mail as follows: Inmate name and number, P.O. Box 22500, Lincoln, NE 68542-2500. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Nebraska State Penitentiary?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Nebraska State Penitentiary?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Nebraska State Penitentiary?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1166,6 +1230,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     address: "4337 State Road 14, Santa Fe, NM 87508",
     phone: "(505) 827-8645",
     website: "https://www.cd.nm.gov",
+    mailingAddress: "Inmate name and number, P.O. Box 1059, Santa Fe, New Mexico 87504-1059",
     inmateCapacity: 1100,
     established: 1956,
     operatedBy: "New Mexico Corrections Department (NMCD)",
@@ -1234,6 +1299,27 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a New Mexico State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select New Mexico State Penitentiary. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at New Mexico State Penitentiary?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Santa Fe County, New Mexico. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at New Mexico State Penitentiary?",
+        answer: "Address mail as follows: Inmate name and number, P.O. Box 1059, Santa Fe, New Mexico 87504-1059. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at New Mexico State Penitentiary?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at New Mexico State Penitentiary?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at New Mexico State Penitentiary?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -2169,6 +2255,27 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Suffolk County HOC inmate?",
         answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
       },
+      {
+        question: "How do I find or search for an inmate at Suffolk County House of Correction?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Suffolk County, Massachusetts. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Suffolk County House of Correction?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Suffolk County House of Correction?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Suffolk County House of Correction?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Suffolk County House of Correction?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedFacilitySlugs: [

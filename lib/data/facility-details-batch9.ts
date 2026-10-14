@@ -31,6 +31,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Families set up a Securus account online or in the app, select Rockingham County Jail, and add the inmate to get started. All calls, messages, and video visits are monitored and recorded.",
   ],
 
+  notToConfuseWith: "Not to be confused with Rockingham County Jail in Reidsville, North Carolina.",
   operatedBy: "Rockingham County Department of Corrections",
 
   providers: [

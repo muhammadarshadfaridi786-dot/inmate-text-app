@@ -16,7 +16,8 @@ export default function FacilityVisitInfo({ facility }: FacilityVisitInfoProps) 
     facility.callRates ||
     facility.commissary ||
     facility.bailInfo ||
-    facility.fax
+    facility.fax ||
+    facility.notToConfuseWith
 
   if (!hasData) return null
 
@@ -30,6 +31,11 @@ export default function FacilityVisitInfo({ facility }: FacilityVisitInfoProps) 
           className="mb-6"
         />
         <div className="space-y-8">
+          {facility.notToConfuseWith && (
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              {facility.notToConfuseWith}
+            </p>
+          )}
 
           {facility.rosterUrl && (
             <div>

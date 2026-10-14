@@ -118,6 +118,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "1640 Sky View Drive, Bruceton Mills, WV 26525",
   phone: "(304) 379-1500",
   website: "https://www.bop.gov/locations/institutions/haf/",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
   inmateCapacity: 2003,
   established: 2015,
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -171,6 +172,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I know if my family member is at FCI Hazelton or another nearby facility?", answer: "The Hazelton complex includes several separate institutions. Use the BOP inmate locator at bop.gov/inmateloc to confirm the exact facility code before setting up accounts or sending mail." },
     { question: "Can I visit someone at FCI Hazelton in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the approved visitor list. Processing can take several weeks. Current forms and procedures are available at bop.gov." },
     { question: "How do I send money to an FCI Hazelton inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FCI Hazelton?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Hazelton?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Hazelton?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Hazelton?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Hazelton?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-leavenworth", "federal-correctional-complex-petersburg", "fci-forrest-city"],
@@ -373,6 +395,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "501 Gary Hill Road, Edgefield, SC 29824",
   phone: "(803) 637-1500",
   website: "https://www.bop.gov/locations/institutions/edg/",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, FCI Edgefield, FEDERAL CORRECTIONAL INSTITUTION, P.O. BOX 725, EDGEFIELD, SC 29824",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   established: 1998,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -425,6 +450,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is my family member at the main FCI or the camp?", answer: "Both share the Edgefield grounds and BOP facility code. Use the BOP inmate locator at bop.gov/inmateloc to confirm the specific unit, since routines can differ between the FCI and the camp." },
     { question: "Can I visit someone at FCI Edgefield in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the approved visitor list. Processing can take several weeks, so apply early. Current forms are available at bop.gov." },
     { question: "How do I send money to an FCI Edgefield inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FCI Edgefield?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Edgefield?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FCI Edgefield, FEDERAL CORRECTIONAL INSTITUTION, P.O. BOX 725, EDGEFIELD, SC 29824. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Edgefield?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Edgefield?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Edgefield?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-coleman", "federal-correctional-complex-petersburg", "fci-forrest-city"],
@@ -626,6 +672,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "480 Alta Road, San Diego, CA 92179",
   phone: "(619) 661-6500",
   website: "https://cdcr.ca.gov/facility-locator/rjd/",
+    visitingHours: "Regular visiting restored for all facilities as of 9/18/26. Max 5 visitors per visit, max 3 for non-contact visits. Only approved visitors allowed. Schedule via VSA",
   inmateCapacity: 2992,
   established: 1987,
   operatedBy: "California Department of Corrections and Rehabilitation (CDCR)",
@@ -679,6 +726,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do phone calls work at RJ Donovan?", answer: "Phone calls are handled through Securus. Set up a prepaid or direct-bill account at securustech.net so the inmate can call you, or to accept collect calls where available." },
     { question: "Can I send photos to someone at RJ Donovan?", answer: "Yes. JPay allows you to attach digital photos to messages. Photos go through a content review process before being delivered, so allow some extra time." },
     { question: "How do I send money to an RJ Donovan inmate?", answer: "Use JPay at jpay.com or the JPay app to deposit funds into the inmate's trust account. Deposits can also typically be made by phone or at a JPay kiosk if one is available near you." },
+      {
+        question: "How do I find or search for an inmate at RJ Donovan Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for San Diego County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at RJ Donovan Correctional Facility?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at RJ Donovan Correctional Facility?",
+        answer: "Regular visiting restored for all facilities as of 9/18/26. Max 5 visitors per visit, max 3 for non-contact visits. Only approved visitors allowed. Schedule via VSA",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at RJ Donovan Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at RJ Donovan Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison", "san-diego-central-jail", "montana-state-prison"],
@@ -1503,6 +1571,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "100 Deputy Dean Miera Dr SW, Albuquerque, NM 87151",
   phone: "(505) 839-8700",
   website: "https://www.bernco.gov/metropolitan-detention-center/",
+    rosterUrl: "https://www.bernco.gov/metropolitan-detention-center/overview/",
   operatedBy: "Bernalillo County",
 
   providers: [
@@ -1532,6 +1601,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I know if someone is currently held at MDC?", answer: "Bernalillo County provides an online inmate search through its detention center website. You can search by name to confirm custody status before setting up an account." },
     { question: "What happens after someone is sentenced from MDC?", answer: "People sentenced to county time may stay at MDC. People sentenced to state prison time are transferred to a New Mexico Corrections Department facility, which uses a different communication setup than MDC." },
     { question: "How do I send money to someone at MDC?", answer: "Money deposits go through GettingOut online, by phone, or at a kiosk. Funds are typically applied to the inmate's commissary account within a day." },
+      {
+        question: "How do I find or search for an inmate at Bernalillo County Metropolitan Detention Center?",
+        answer: "Use the official inmate search at https://www.bernco.gov/metropolitan-detention-center/overview/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Bernalillo County Metropolitan Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Bernalillo County Metropolitan Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Bernalillo County Metropolitan Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Bernalillo County Metropolitan Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["baltimore-city-detention-center", "clark-county-detention-center", "suffolk-county-house-of-correction"],
@@ -1715,6 +1805,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I check if someone is currently in custody in Louisville?", answer: "Louisville Metro Government provides an online inmate search on its corrections webpage at louisvilleky.gov. You can search by name to confirm current custody status." },
     { question: "What happens after someone is sentenced from Louisville Metro Corrections?", answer: "Shorter county sentences may be served at the same facility. Longer sentences usually lead to a transfer to a Kentucky Department of Corrections state prison, which may use different communication providers." },
     { question: "How do I send money to someone at Louisville Metro Corrections?", answer: "Use GettingOut online or by phone to make a deposit. Funds are typically applied to the person's account within a day or two." },
+      {
+        question: "How do I find or search for an inmate at Louisville Metro Corrections?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Jefferson County, Kentucky. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Louisville Metro Corrections?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Louisville Metro Corrections?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Louisville Metro Corrections?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Louisville Metro Corrections?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["franklin-county-correctional-center", "baltimore-city-detention-center", "philadelphia-department-of-prisons"],
@@ -1870,6 +1981,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "4569 North State Route 490, Ely, NV 89301",
   phone: "(775) 977-5348",
   website: "https://doc.nv.gov/Facilities/ESP_Facility/",
+    mailingAddress: "Inmate name and ID, P.O. Box 1989, Ely, Nevada 89301",
   established: 1989,
   operatedBy: "Nevada Department of Corrections",
 
@@ -1900,6 +2012,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Ely State Prison?", answer: "Video visitation through Securus can be available, but access may be more limited depending on the person's housing unit, since Ely holds Nevada's highest-security population. Confirm current access before scheduling." },
     { question: "How do I find out if someone is at Ely State Prison?", answer: "The Nevada Department of Corrections offers an online inmate search at doc.nv.gov. Search by name to confirm current facility placement." },
     { question: "How do I send money to someone at Ely State Prison?", answer: "Use JPay online, through the app, by phone, or with cash at a participating MoneyGram location. Deposits are typically credited within one to two business days." },
+      {
+        question: "How do I find or search for an inmate at Ely State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for White Pine County, Nevada. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Ely State Prison?",
+        answer: "Address mail as follows: Inmate name and ID, P.O. Box 1989, Ely, Nevada 89301. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Ely State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Ely State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Ely State Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison", "adx-florence", "montana-state-prison"],
@@ -2117,6 +2250,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "354 Doremus Avenue, Newark, NJ 07105",
   phone: "(973) 274-7500",
   website: "https://essexcountynj.org/corrections/",
+    visitingHours: "Professional visits Mon to Fri 9AM to 5PM via GettingOut, scheduled through Sgt. Dupree",
   operatedBy: "Essex County Department of Corrections",
 
   providers: [
@@ -2146,6 +2280,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Essex County Correctional Facility?", answer: "Commissary deposits go through GettingOut. You can add funds by debit or credit card through the app or website. Processing typically takes one business day." },
     { question: "Can I find out if someone is currently held at Essex County Correctional Facility?", answer: "Essex County offers an online inmate locator through its Department of Corrections page. You can search by name to confirm current custody status." },
     { question: "What happens to communication access after someone is sentenced?", answer: "People sentenced to state prison time are transferred out of Essex County Correctional Facility to a New Jersey Department of Corrections facility. The provider setup at the new facility may be different, so check as soon as a transfer happens." },
+      {
+        question: "How do I find or search for an inmate at Essex County Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Essex County, New Jersey. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Essex County Correctional Facility?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Essex County Correctional Facility?",
+        answer: "Professional visits Mon to Fri 9AM to 5PM via GettingOut, scheduled through Sgt. Dupree",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Essex County Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Essex County Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["baltimore-city-detention-center", "suffolk-county-house-of-correction", "clark-county-detention-center"],
@@ -2394,6 +2549,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Douglas County Department of Corrections?", answer: "Commissary deposits go through GettingOut. You can add funds by debit or credit card through the app or website. Processing typically takes one business day." },
     { question: "Can I find out if someone is currently held at Douglas County Department of Corrections?", answer: "Douglas County Corrections offers an online inmate search through its official website, dccorr.com. You can search by name to confirm current custody status." },
     { question: "What happens to communication access after someone is sentenced?", answer: "People sentenced to state prison time are transferred out of the county jail to a Nebraska Department of Correctional Services facility. The provider setup at the new facility may be different, so check as soon as a transfer happens." },
+      {
+        question: "How do I find or search for an inmate at Douglas County Department of Corrections?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Douglas County, Nebraska. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Douglas County Department of Corrections?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Douglas County Department of Corrections?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Douglas County Department of Corrections?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Douglas County Department of Corrections?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["polk-county-jail", "baltimore-city-detention-center", "clark-county-detention-center"],
@@ -3023,6 +3199,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "33 NE 4th Street, Miami, FL 33132",
+  phone: "(305) 577-0010",
+  mailingAddress: "INMATE NAME and REGISTER NUMBER, FDC Miami, FEDERAL DETENTION CENTER, P.O. BOX 019120, MIAMI, FL 33101",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -3052,6 +3233,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Federal Detention Center Miami?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Federal Detention Center Miami?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at Federal Detention Center Miami?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Federal Detention Center Miami?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FDC Miami, FEDERAL DETENTION CENTER, P.O. BOX 019120, MIAMI, FL 33101. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Federal Detention Center Miami?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Federal Detention Center Miami?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Federal Detention Center Miami?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
@@ -3462,6 +3664,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at St. Louis City Justice Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at St. Louis City Justice Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at St. Louis City Justice Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for St. Louis City, Missouri. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at St. Louis City Justice Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at St. Louis City Justice Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at St. Louis City Justice Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at St. Louis City Justice Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -4071,6 +4294,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "3259 Val Tech Road, Valdosta, GA 31603",
+  phone: "(229) 333-7955",
+  mailingAddress: "Inmate name and GDC ID, P.O. Box 5368, Valdosta, GA 31603",
+  visitingHours: "General Population: Days Saturdays, Sundays, and State Holidays, Hours 9:00AM-3:00PM. Tier Visitation (scheduled 24 hours prior by visitor): Days Mondays and Wednesdays, excluding State Holidays, Hours 8:30 AM-2:30 PM",
+  fax: "(229) 333-5387",
   operatedBy: "Georgia Department of Corrections",
 
   providers: [
@@ -4100,6 +4328,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Valdosta State Prison?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Valdosta State Prison?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at Valdosta State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Lowndes County, Georgia. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Valdosta State Prison?",
+        answer: "Address mail as follows: Inmate name and GDC ID, P.O. Box 5368, Valdosta, GA 31603. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Valdosta State Prison?",
+        answer: "General Population: Days Saturdays, Sundays, and State Holidays, Hours 9:00AM-3:00PM. Tier Visitation (scheduled 24 hours prior by visitor): Days Mondays and Wednesdays, excluding State Holidays, Hours 8:30 AM-2:30 PM",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Valdosta State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Valdosta State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4801,6 +5050,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Oklahoma County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Oklahoma County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at Oklahoma County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Oklahoma County, Oklahoma. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Oklahoma County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Oklahoma County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Oklahoma County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Oklahoma County Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -5265,6 +5535,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Multnomah County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Multnomah County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at Multnomah County Detention Center?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Multnomah County, Oregon. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Multnomah County Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Multnomah County Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Multnomah County Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Multnomah County Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -5676,6 +5967,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at California Institution for Men?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at California Institution for Men?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at California Institution for Men?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for San Bernardino County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at California Institution for Men?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at California Institution for Men?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at California Institution for Men?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at California Institution for Men?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -5763,6 +6075,12 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "1200 Texas Avenue, Houston, TX 77002",
+  phone: "(713) 221-5400",
+  mailingAddress: "INMATE NAME and REGISTER NUMBER, FDC Houston, FEDERAL DETENTION CENTER, P.O. BOX 526255, HOUSTON, TX 77052",
+  visitingHours: "Legal visits: Monday through Friday 8:00 a.m. to 8:00 p.m., Saturday through Sunday 8:00 a.m. to 2:00 p.m. Social visiting schedule not verified",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -5792,6 +6110,27 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Federal Detention Center Houston?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Federal Detention Center Houston?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at Federal Detention Center Houston?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Federal Detention Center Houston?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FDC Houston, FEDERAL DETENTION CENTER, P.O. BOX 526255, HOUSTON, TX 77052. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Federal Detention Center Houston?",
+        answer: "Legal visits: Monday through Friday 8:00 a.m. to 8:00 p.m., Saturday through Sunday 8:00 a.m. to 2:00 p.m. Social visiting schedule not verified",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Federal Detention Center Houston?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Federal Detention Center Houston?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],

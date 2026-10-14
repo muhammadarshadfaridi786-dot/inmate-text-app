@@ -97,6 +97,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation is video-based. Visitors must be approved and follow Sheriff's Office visiting rules. All calls and visits are monitored and recorded.",
   ],
 
+  phone: "(561) 688-4401",
   operatedBy: "Palm Beach County Sheriff's Office",
 
   providers: [
@@ -136,6 +137,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Can I send electronic messages to an inmate at Palm Beach County Jail?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Securus or by contacting the facility." },
     { question: "Which detention centers does the Palm Beach County Sheriff operate?", answer: "The Sheriff operates the Main Detention Center and the West County Detention Center. Confirm which one holds the inmate before scheduling a visit." },
     { question: "How do I add money for phone calls at Palm Beach County Jail?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Palm Beach County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Palm Beach County, Florida. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Palm Beach County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Palm Beach County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Palm Beach County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Palm Beach County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["federal-detention-center-miami", "fci-miami", "broward-county-jail"],
@@ -204,6 +226,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Cobb County Jail?", answer: "Phone calls run through ViaPath (GTL)." },
     { question: "How do I visit someone at Cobb County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "How big is Cobb County Jail?", answer: "Cobb County Jail is a pretrial facility of about 1 million square feet with a capacity of about 3,077 beds. Building A was completed in 1987, Building B in 1997, and the C Tower in 2010." },
+      {
+        question: "How do I find or search for an inmate at Cobb County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Cobb County, Georgia. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Cobb County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Cobb County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Cobb County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Cobb County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fulton-county-jail", "dekalb-county-jail", "gwinnett-county-jail"],
@@ -233,6 +276,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "801 East Fourth Street, Charlotte, NC 28202, Detention Center Central",
+  phone: "(980) 314-5200 Detention Center Central, (704) 336-8100 Information Line",
+  fax: "(704) 336-6118",
   operatedBy: "Mecklenburg County Sheriff's Office",
 
   providers: [
@@ -270,6 +316,29 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Mecklenburg County Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at Mecklenburg County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which detention center holds the inmate before traveling." },
     { question: "Which facilities are in the Mecklenburg County Jail system?", answer: "The system includes Detention Center Central in uptown Charlotte plus Detention Center North. Jail North reopened after a closure that lasted since 2022, amid overcrowding." },
+      {
+        question: "How do I find or search for an inmate at Mecklenburg County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Mecklenburg County, North Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Mecklenburg County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Mecklenburg County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Mecklenburg County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Mecklenburg County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
+
+
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-butner", "wake-county-jail", "fci-seagoville"],
@@ -338,6 +407,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Wake County Jail?", answer: "Phone calls go through PayTel Communications under a county contract." },
     { question: "Can I visit in person at Wake County Jail?", answer: "All visits are by video at the Wake County Detention Center. Schedule ahead and follow the Sheriff's Office visiting rules." },
     { question: "Which facilities are in the Wake County Jail system?", answer: "The system includes the Wake County Detention Center and the John H. Baker Jr. Public Safety Center, with a total capacity of about 1,574 beds." },
+      {
+        question: "How do I find or search for an inmate at Wake County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Wake County, North Carolina. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Wake County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Wake County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Wake County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Wake County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-butner", "mecklenburg-county-jail", "fci-seagoville"],
@@ -404,6 +494,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Shelby County Jail?", answer: "Phone calls run through GTL (ConnectNetwork)." },
     { question: "How do I visit someone at Shelby County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which facility holds the inmate before traveling." },
     { question: "Which facilities are in the Shelby County Jail system?", answer: "The main jail is in the Justice Complex. The county operates multiple detention sites including the Adult Offender Center and the East Women's Facility." },
+      {
+        question: "How do I find or search for an inmate at Shelby County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Shelby County, Tennessee. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Shelby County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Shelby County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Shelby County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Shelby County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-memphis", "davidson-county-jail", "fci-seagoville"],
@@ -470,6 +581,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Franklin County Jail in Ohio?", answer: "Phone calls run through GTL (ViaPath)." },
     { question: "How do I visit someone at Franklin County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the James A. Karnes Corrections Center?", answer: "The James A. Karnes Corrections Center is the current main center of the Franklin County Sheriff's corrections center system in Columbus, Ohio." },
+      {
+        question: "How do I find or search for an inmate at Franklin County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Franklin County, Ohio. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Franklin County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Franklin County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Franklin County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Franklin County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-elkton", "hamilton-county-jail-ohio", "montgomery-county-jail-ohio"],
@@ -499,6 +631,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  notToConfuseWith: "Not to be confused with Hamilton County Jail in Chattanooga, Tennessee.",
   established: 1985,
   operatedBy: "Hamilton County Sheriff's Office",
 
@@ -537,6 +670,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Hamilton County Jail in Ohio?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
     { question: "How do I visit someone at Hamilton County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Hamilton County Jail in Ohio?", answer: "Hamilton County Jail is housed in the Hamilton County Justice Center in Cincinnati, built in 1985, with twin towers connected to the courthouse by a skywalk." },
+      {
+        question: "How do I find or search for an inmate at Hamilton County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Hamilton County, Ohio. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Hamilton County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Hamilton County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Hamilton County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Hamilton County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-elkton", "franklin-county-jail-ohio", "montgomery-county-jail-ohio"],
@@ -566,6 +720,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  notToConfuseWith: "Not to be confused with Montgomery County Jail in Conroe, Texas.",
   established: 1964,
   operatedBy: "Montgomery County Sheriff's Office",
 
@@ -604,6 +759,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Montgomery County Jail in Ohio?", answer: "Phone calls run through PayTel (PayTel Connect)." },
     { question: "How do I visit someone at Montgomery County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "How old is Montgomery County Jail in Ohio?", answer: "The current jail was built in 1964 with a 1993 addition. A replacement jail plan was postponed over funding." },
+      {
+        question: "How do I find or search for an inmate at Montgomery County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Montgomery County, Ohio. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Montgomery County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Montgomery County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Montgomery County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Montgomery County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-elkton", "franklin-county-jail-ohio", "hamilton-county-jail-ohio"],
@@ -670,6 +846,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Wayne County Jail in Michigan?", answer: "Phone calls run through GettingOut (ViaPath/Telmate), per 2022 reporting." },
     { question: "How do I visit someone at Wayne County Jail in Michigan?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which jail holds the inmate before traveling." },
     { question: "Which facilities are in the Wayne County Jail system?", answer: "The system includes Jail I, the Andrew C. Baird Detention Facility, and Jail II, the Old Jail, in downtown Detroit." },
+      {
+        question: "How do I find or search for an inmate at Wayne County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Wayne County, Michigan. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Wayne County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Wayne County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Wayne County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Wayne County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-milan", "kent-county-jail-michigan", "fci-seagoville"],
@@ -736,6 +933,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Kent County Jail in Michigan?", answer: "Phone calls run through Smart Communications (smartinmate.com)." },
     { question: "How do I visit someone at Kent County Jail in Michigan?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Kent County Jail in Michigan?", answer: "The facility is also known as the Kent County Correctional Facility. It is the county's main adult jail in Grand Rapids, and its operations are reported as ACA accredited." },
+      {
+        question: "How do I find or search for an inmate at Kent County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Kent County, Michigan. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Kent County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Kent County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Kent County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Kent County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-milan", "wayne-county-jail-michigan", "fci-seagoville"],
@@ -804,6 +1022,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Ramsey County Jail?", answer: "Video visits run through NCIC. Create an account, add the inmate, and schedule in advance. Log in on time for your scheduled visit." },
     { question: "What is direct supervision at Ramsey County Jail?", answer: "In a direct supervision jail, officers are stationed inside the housing units with inmates rather than observing from a separate control room. Ramsey County Jail uses this model." },
     { question: "How do I add money for phone calls at Ramsey County Jail?", answer: "Fund your NCIC account online or through the NCIC app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Ramsey County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Ramsey County, Minnesota. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Ramsey County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Ramsey County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Ramsey County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Ramsey County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fmc-rochester", "hennepin-county-jail", "fci-seagoville"],
@@ -873,6 +1112,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Can I send electronic messages to an inmate at Hennepin County Jail?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Securus or by contacting the facility." },
     { question: "Where is Hennepin County Jail?", answer: "Hennepin County Jail occupies two downtown buildings in Minneapolis, Minnesota, near the Government Plaza light rail station." },
     { question: "How do I add money for phone calls at Hennepin County Jail?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Hennepin County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Hennepin County, Minnesota. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Hennepin County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Hennepin County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Hennepin County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Hennepin County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fmc-rochester", "ramsey-county-jail", "fci-seagoville"],
@@ -940,6 +1200,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at King County Jail?", answer: "Phone calls run through Securus Technologies." },
     { question: "How do I visit someone at King County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow DAJD visiting rules. Confirm which jail holds the inmate before traveling." },
     { question: "Which jails does King County DAJD operate?", answer: "DAJD operates two adult jails: the King County Correctional Facility in Seattle and the Maleng Regional Justice Center in Kent." },
+      {
+        question: "How do I find or search for an inmate at King County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for King County, Washington. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at King County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at King County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at King County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at King County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-sheridan", "fci-seagoville", "mdc-los-angeles"],
@@ -1219,6 +1500,27 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Travis County Jail?", answer: "Phone calls run through ViaPath Technologies, which replaced the older Securus contract." },
     { question: "How do I visit someone at Travis County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which facility holds the inmate before traveling." },
     { question: "Which facilities are in the Travis County Jail system?", answer: "Travis County Jail is a two-site system: the downtown jail plus the Del Valle Correctional Complex, both in the Austin area." },
+      {
+        question: "How do I find or search for an inmate at Travis County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Travis County, Texas. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Travis County Jail?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Travis County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Travis County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Travis County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["travis-county-correctional-complex", "williamson-county-jail", "harris-county-jail"],
@@ -1393,6 +1695,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  notToConfuseWith: "Not to be confused with Montgomery County Jail in Dayton, Ohio.",
   operatedBy: "Montgomery County Sheriff's Office",
   // TODO(Jan): verify provider
 

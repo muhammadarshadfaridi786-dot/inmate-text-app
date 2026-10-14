@@ -32,6 +32,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://doccs.ny.gov/location/clinton-correctional-facility",
+    address: "1156 Rt. 374, P.O. Box 2000, Dannemora, NY 12929-2000",
+    phone: "(518) 492-2511 Main Line",
+    mailingAddress: "Incarcerated Individual Name, Clinton Correctional Facility, P.O. Box 2001, Dannemora, NY 12929",
+    visitingHours: "Visiting days Daily. General Population 8:30AM to 3:00PM, latest arrival 2:00PM. APPU, SHU, Long-Term PC 8:30AM to 2:30PM. Max 1 visit per day, max 3 visitors plus 1 child under 5 who must sit on adult lap. Weekend visitation separated by first letter of last name, see 2026 schedule. Visitation info effective 05/13/2026",
   operatedBy: "New York State Department of Corrections and Community Supervision (DOCCS)",
 
   providers: [
@@ -71,6 +75,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Clinton Correctional Facility?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow the DOCCS dress code. Confirm visiting hours for the inmate's housing unit before traveling." },
     { question: "What security level is Clinton Correctional Facility?", answer: "Clinton is a maximum security facility for adult men. It includes general confinement, a Special Housing Unit, and a long-term protective custody unit." },
     { question: "How do I add money for phone calls at Clinton?", answer: "Fund your Securus AdvancePay or Direct Bill account online, by phone, or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Clinton Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Clinton County, New York. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Clinton Correctional Facility?",
+        answer: "Address mail as follows: Incarcerated Individual Name, Clinton Correctional Facility, P.O. Box 2001, Dannemora, NY 12929. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Clinton Correctional Facility?",
+        answer: "Visiting days Daily. General Population 8:30AM to 3:00PM, latest arrival 2:00PM. APPU, SHU, Long-Term PC 8:30AM to 2:30PM. Max 1 visit per day, max 3 visitors plus 1 child under 5 who must sit on adult lap. Weekend visitation separated by first letter of last name, see 2026 schedule. Visitation info effective 05/13/2026",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Clinton Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Clinton Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "sing-sing-correctional-facility", "fci-ray-brook"],
@@ -102,6 +127,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://doccs.ny.gov/location/great-meadow-correctional-facility",
+    address: "11739 State Route 22, P.O. Box 51, Comstock, NY 12821-0051",
+    phone: "(518) 639-5516",
+    mailingAddress: "P.O. Box 51, Comstock, NY 12821-0051",
+    visitingHours: "Visiting Days: Daily (including weekends). Visiting Hours: 9:00AM to 3:30PM. Effective 01/02/2024",
   operatedBy: "New York State Department of Corrections and Community Supervision (DOCCS)",
 
   providers: [
@@ -141,6 +170,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Great Meadow Correctional Facility?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow the DOCCS dress code. Confirm visiting hours for the inmate's housing unit before traveling." },
     { question: "What security level is Great Meadow Correctional Facility?", answer: "Great Meadow is a maximum security facility for adult men in general confinement." },
     { question: "How do I add money for phone calls at Great Meadow?", answer: "Fund your Securus AdvancePay or Direct Bill account online, by phone, or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Great Meadow Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Washington County, New York. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Great Meadow Correctional Facility?",
+        answer: "Address mail as follows: P.O. Box 51, Comstock, NY 12821-0051. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Great Meadow Correctional Facility?",
+        answer: "Visiting Days: Daily (including weekends). Visiting Hours: 9:00AM to 3:30PM. Effective 01/02/2024",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Great Meadow Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Great Meadow Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "sing-sing-correctional-facility", "fci-ray-brook"],
@@ -172,6 +222,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://doccs.ny.gov/location/auburn-correctional-facility",
+    address: "135 State Street, Auburn, NY 13024-9000",
+    phone: "(315) 253-8401",
+    mailingAddress: "P.O. Box 618, Auburn, NY 13021",
+    visitingHours: "Visiting Days: Wednesdays, Weekends and Holidays. Visiting Hours: Wednesdays 8:30AM-2:30PM (Latest Arrival 1:15PM), Weekends: 9:00AM-3:10PM (Latest Arrival 2:00PM). Effective 09/01/2026",
   operatedBy: "New York State Department of Corrections and Community Supervision (DOCCS)",
 
   providers: [
@@ -211,6 +265,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Auburn Correctional Facility?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow the DOCCS dress code. Confirm visiting hours for the inmate's housing unit before traveling." },
     { question: "What security level is Auburn Correctional Facility?", answer: "Auburn is a maximum security facility for adult men. It serves as an intake facility and includes a Special Housing Unit and a Residential Rehabilitation Unit." },
     { question: "How do I add money for phone calls at Auburn?", answer: "Fund your Securus AdvancePay or Direct Bill account online, by phone, or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Auburn Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Cayuga County, New York. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Auburn Correctional Facility?",
+        answer: "Address mail as follows: P.O. Box 618, Auburn, NY 13021. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Auburn Correctional Facility?",
+        answer: "Visiting Days: Wednesdays, Weekends and Holidays. Visiting Hours: Wednesdays 8:30AM-2:30PM (Latest Arrival 1:15PM), Weekends: 9:00AM-3:10PM (Latest Arrival 2:00PM). Effective 09/01/2026",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Auburn Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Auburn Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "sing-sing-correctional-facility", "fci-ray-brook"],
@@ -242,6 +317,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://doccs.ny.gov/location/elmira-correctional-facility",
+    address: "1879 Davis St, P.O. Box 500, Elmira, NY 14901-0500",
+    phone: "(607) 734-3901",
+    mailingAddress: "P.O. Box 500, Elmira, NY 14901-0500",
+    visitingHours: "Visiting Days: Thursdays and weekends. Visiting Hours: 9:00AM to 3:00PM Daily (Latest arrival time 2:00PM). Effective 04/30/2026",
   established: 1876,
   operatedBy: "New York State Department of Corrections and Community Supervision (DOCCS)",
 
@@ -282,6 +361,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Elmira Correctional Facility?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow the DOCCS dress code. Confirm visiting hours for the inmate's housing unit before traveling." },
     { question: "Why is Elmira called The Hill?", answer: "Elmira sits on a hill above the city and opened in 1876 as the Elmira Reformatory, the first reformatory for adult males in the United States. The nickname comes from its hilltop location." },
     { question: "How do I add money for phone calls at Elmira?", answer: "Fund your Securus AdvancePay or Direct Bill account online, by phone, or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Elmira Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Chemung County, New York. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Elmira Correctional Facility?",
+        answer: "Address mail as follows: P.O. Box 500, Elmira, NY 14901-0500. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Elmira Correctional Facility?",
+        answer: "Visiting Days: Thursdays and weekends. Visiting Hours: 9:00AM to 3:00PM Daily (Latest arrival time 2:00PM). Effective 04/30/2026",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Elmira Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Elmira Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "sing-sing-correctional-facility", "fci-ray-brook"],
@@ -312,6 +412,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "In-person visiting at Bedford Hills follows DOCCS rules. Visitors must be on the inmate's approved visiting list and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "247 Harris Road, Bedford Hills, NY 10507-2400",
+  phone: "(914) 241-3100",
+  visitingHours: "Visiting Days: Daily. Visiting Hours: 8:30AM to 3:30PM (Latest arrival 3:00PM). SHU: 8:30AM-3:30PM (Latest arrival 2:45PM), one non-legal visit in 7 days. Effective 08/10/2026",
   established: 1901,
   operatedBy: "New York State Department of Corrections and Community Supervision (DOCCS)",
 
@@ -352,6 +455,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Bedford Hills Correctional Facility?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow the DOCCS dress code. Confirm visiting hours for the inmate's housing unit before traveling." },
     { question: "Is Bedford Hills the only maximum security women's prison in New York?", answer: "Yes. Bedford Hills is the only maximum security women's prison in New York and also serves as the reception and classification center for women entering the state system." },
     { question: "How do I add money for phone calls at Bedford Hills?", answer: "Fund your Securus AdvancePay or Direct Bill account online, by phone, or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Bedford Hills Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Westchester County, New York. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Bedford Hills Correctional Facility?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Bedford Hills Correctional Facility?",
+        answer: "Visiting Days: Daily. Visiting Hours: 8:30AM to 3:30PM (Latest arrival 3:00PM). SHU: 8:30AM-3:30PM (Latest arrival 2:45PM), one non-legal visit in 7 days. Effective 08/10/2026",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Bedford Hills Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Bedford Hills Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "sing-sing-correctional-facility", "fci-ray-brook"],
@@ -383,6 +507,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://doccs.ny.gov/location/fishkill-correctional-facility",
+    address: "18 Strack Drive, Beacon, NY 12508-0307",
+    phone: "(845) 831-4800",
+    mailingAddress: "271 Matteawan Road, P.O. Box 1245, Beacon, NY 12508",
+    visitingHours: "Visiting Days: Weekends and Weekday Holidays. General Population: 8:15AM to 3:00PM (Latest arrival 2:15PM). Regional Medical Unit (RMU): 8:30AM to 2:00PM (Latest arrival 1:00PM). Residential Rehabilitation Unit (RRU) and Special Housing Unit (SHU): 5:00PM-9:00PM, Saturdays only. Effective 06/09/2026",
   operatedBy: "New York State Department of Corrections and Community Supervision (DOCCS)",
 
   providers: [
@@ -422,6 +550,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Fishkill Correctional Facility?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow the DOCCS dress code. Confirm visiting hours for the inmate's housing unit before traveling." },
     { question: "What security level is Fishkill Correctional Facility?", answer: "Fishkill is a medium security facility for adult men. It also houses a Regional Medical Unit for southern New York prisons." },
     { question: "How do I add money for phone calls at Fishkill?", answer: "Fund your Securus AdvancePay or Direct Bill account online, by phone, or through the Securus app. The inmate can only call numbers on the approved list." },
+      {
+        question: "How do I find or search for an inmate at Fishkill Correctional Facility?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Dutchess County, New York. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Fishkill Correctional Facility?",
+        answer: "Address mail as follows: 271 Matteawan Road, P.O. Box 1245, Beacon, NY 12508. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Fishkill Correctional Facility?",
+        answer: "Visiting Days: Weekends and Weekday Holidays. General Population: 8:15AM to 3:00PM (Latest arrival 2:15PM). Regional Medical Unit (RMU): 8:30AM to 2:00PM (Latest arrival 1:00PM). Residential Rehabilitation Unit (RRU) and Special Housing Unit (SHU): 5:00PM-9:00PM, Saturdays only. Effective 06/09/2026",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Fishkill Correctional Facility?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Fishkill Correctional Facility?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "sing-sing-correctional-facility", "fci-ray-brook"],
@@ -1046,6 +1195,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://gdc.georgia.gov/locations/macon-state-prison",
+    address: "2728 Hwy 49 South, Oglethorpe, GA 31068",
+    phone: "(478) 472-3400",
+    mailingAddress: "Inmate name and GDC ID, P.O. Box 426, Oglethorpe, GA 31068",
+    fax: "(478) 472-3524",
   inmateCapacity: 1762,
   established: 1994,
   operatedBy: "Georgia Department of Corrections",
@@ -1097,6 +1250,29 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Macon State Prison?", answer: "Phone calls run through Securus under the Georgia DOC contract. Messaging, video, and deposits run through JPay." },
     { question: "How do I visit someone at Macon State Prison?", answer: "Visitors must be approved by the Georgia Department of Corrections. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
     { question: "What security level is Macon State Prison?", answer: "Macon State Prison operates at close security, a very high security level. It houses inmates deemed to have the highest potential security risks and is a Tier I and Tier II facility." },
+      {
+        question: "How do I find or search for an inmate at Macon State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Macon County, Georgia. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Macon State Prison?",
+        answer: "Address mail as follows: Inmate name and GDC ID, P.O. Box 426, Oglethorpe, GA 31068. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Macon State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Macon State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Macon State Prison?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
+
+
   ],
 
   relatedFacilitySlugs: ["fci-atlanta", "fci-seagoville", "federal-detention-center-houston"],
@@ -1127,6 +1303,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/elk/",
+    address: "8730 Scroggs Rd, Lisbon, Ohio",
+    phone: "(330) 420-6200",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
   established: 1997,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -1179,6 +1358,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do phone calls work at FCI Elkton?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
     { question: "What security level is FCI Elkton?", answer: "FCI Elkton is a low security federal prison for men, with an adjacent minimum security satellite camp." },
     { question: "How do I add money to an inmate's trust fund at FCI Elkton?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
+      {
+        question: "How do I find or search for an inmate at FCI Elkton?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Elkton?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Elkton?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Elkton?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Elkton?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "fci-ray-brook", "fdc-philadelphia"],
@@ -1385,6 +1585,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/tex/",
+    address: "4001 Leopard Drive, Texarkana, TX 75501",
+    phone: "(903) 838-4587",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, FCI Texarkana, FEDERAL CORRECTIONAL INSTITUTION, P.O. BOX 7000, TEXARKANA, TX 75505. Camp: INMATE NAME and REGISTER NUMBER, FCI Texarkana, FEDERAL CORRECTIONAL INSTITUTION, SATELLITE CAMP, P.O. BOX 9300, TEXARKANA, TX 75505",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -1436,6 +1641,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do phone calls work at FCI Texarkana?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
     { question: "What security level is FCI Texarkana?", answer: "FCI Texarkana is a low security federal prison for men, with an adjacent minimum security satellite camp." },
     { question: "How do I add money to an inmate's trust fund at FCI Texarkana?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
+      {
+        question: "How do I find or search for an inmate at FCI Texarkana?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Texarkana?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FCI Texarkana, FEDERAL CORRECTIONAL INSTITUTION, P.O. BOX 7000, TEXARKANA, TX 75505. Camp: INMATE NAME and REGISTER NUMBER, FCI Texarkana, FEDERAL CORRECTIONAL INSTITUTION, SATELLITE CAMP, P.O. BOX 9300, TEXARKANA, TX 75505. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Texarkana?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Texarkana?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Texarkana?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "federal-detention-center-houston", "fdc-philadelphia"],
@@ -1467,6 +1693,8 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/atl/",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   established: 1902,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -1519,6 +1747,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "Can I video visit an inmate at FCI Atlanta?", answer: "The BOP does not offer general remote video visitation at most facilities, including FCI Atlanta. Plan in-person visits instead." },
     { question: "How do phone calls work at FCI Atlanta?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
     { question: "How do I add money to an inmate's trust fund at FCI Atlanta?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
+      {
+        question: "How do I find or search for an inmate at FCI Atlanta?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Atlanta?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Atlanta?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Atlanta?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Atlanta?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "fci-lewisburg", "fdc-philadelphia"],
@@ -1550,6 +1799,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   ],
 
   website: "https://www.bop.gov/locations/institutions/lew/",
+    address: "2400 Robert F Miller Dr, Lewisburg, PA 17837",
+    phone: "(570) 523-1251",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
   established: 1932,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -1602,6 +1854,27 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "Can I video visit an inmate at FCI Lewisburg?", answer: "The BOP does not offer general remote video visitation at most facilities, including FCI Lewisburg. Plan in-person visits instead." },
     { question: "How do phone calls work at FCI Lewisburg?", answer: "Inmates make outgoing calls through the BOP phone system, funded through their trust account. You cannot call an inmate directly." },
     { question: "How do I add money to an inmate's trust fund at FCI Lewisburg?", answer: "Use the approved BOP deposit methods for trust fund deposits, including online deposits through the BOP's approved services. Confirm the current method on the BOP website." },
+      {
+        question: "How do I find or search for an inmate at FCI Lewisburg?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Lewisburg?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Lewisburg?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Lewisburg?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Lewisburg?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "fci-atlanta", "fdc-philadelphia"],

@@ -1539,6 +1539,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "Old NC 75, Butner, NC 27509",
     phone: "(919) 575-4541",
     website: "https://www.bop.gov/locations/institutions/but/",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
     inmateCapacity: 4000,
     established: 1976,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -1607,6 +1608,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a FCC Butner inmate?",
         answer: "Use ConnectNetwork at connectnetwork.com to deposit funds into the inmate's trust account. You can also mail a money order to the BOP's processing lockbox using instructions on bop.gov. Western Union Quick Collect and MoneyGram are also accepted. Allow one to three business days for processing.",
       },
+      {
+        question: "How do I find or search for an inmate at Federal Correctional Complex Butner?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Federal Correctional Complex Butner?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Federal Correctional Complex Butner?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Federal Correctional Complex Butner?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Federal Correctional Complex Butner?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
@@ -1644,6 +1666,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "33 1/2 Pemberton Road, Danbury, CT 06811",
     phone: "(203) 312-5100",
     website: "https://www.bop.gov/locations/institutions/dan/",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, FCI Danbury, FEDERAL CORRECTIONAL INSTITUTION, ROUTE 37, DANBURY, CT 06811",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
     inmateCapacity: 1100,
     established: 1940,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -1712,6 +1737,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a FCI Danbury inmate?",
         answer: "Trust fund deposits are processed through ConnectNetwork at connectnetwork.com. You can also mail a money order using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted. Processing typically takes one to three business days.",
       },
+      {
+        question: "How do I find or search for an inmate at FCI Danbury?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Danbury?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FCI Danbury, FEDERAL CORRECTIONAL INSTITUTION, ROUTE 37, DANBURY, CT 06811. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Danbury?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Danbury?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Danbury?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
@@ -1966,6 +2012,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "4004 East Arkona Road, Milan, MI 48160",
     phone: "(734) 439-1511",
     website: "https://www.bop.gov/locations/institutions/mil/",
+    mailingAddress: "Inmate Name, Register Number, Federal Correctional Institution, P.O. Box 9999, Milan, MI 48160",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
     inmateCapacity: 1400,
     established: 1932,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -2034,6 +2082,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a FCI Milan inmate?",
         answer: "Use ConnectNetwork at connectnetwork.com to deposit funds into the inmate's trust account. Money orders through the BOP lockbox system and Western Union Quick Collect or MoneyGram are also accepted. Processing takes one to three business days.",
       },
+      {
+        question: "How do I find or search for an inmate at FCI Milan?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Milan?",
+        answer: "Address mail as follows: Inmate Name, Register Number, Federal Correctional Institution, P.O. Box 9999, Milan, MI 48160. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Milan?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Milan?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Milan?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
@@ -2071,6 +2140,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "1101 John A. Denie Road, Memphis, TN 38134",
     phone: "(901) 372-2269",
     website: "https://www.bop.gov/locations/institutions/mem/",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, FCI Memphis, FEDERAL CORRECTIONAL INSTITUTION, P.O. BOX 34550, MEMPHIS, TN 38184. Camp: INMATE NAME and REGISTER NUMBER, FCI Memphis, FEDERAL CORRECTIONAL INSTITUTION, SATELLITE CAMP, P.O. BOX 2000, MILLINGTON, TN 38083",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
     inmateCapacity: 1200,
     established: 1977,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -2139,6 +2211,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a FCI Memphis inmate?",
         answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by money order via the BOP lockbox process. Western Union Quick Collect and MoneyGram are also accepted at most BOP facilities. Funds typically post within one to three business days.",
       },
+      {
+        question: "How do I find or search for an inmate at FCI Memphis?",
+        answer: "Use the official inmate search at https://www.bop.gov/inmateloc/. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Memphis?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FCI Memphis, FEDERAL CORRECTIONAL INSTITUTION, P.O. BOX 34550, MEMPHIS, TN 38184. Camp: INMATE NAME and REGISTER NUMBER, FCI Memphis, FEDERAL CORRECTIONAL INSTITUTION, SATELLITE CAMP, P.O. BOX 2000, MILLINGTON, TN 38083. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Memphis?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Memphis?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at FCI Memphis?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
@@ -2983,6 +3076,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to an Ohio State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in to jpay.com, navigate to Send Money, and select Ohio State Penitentiary. Add funds via debit or credit card. JPay deposits are available at all ODRC facilities regardless of security level.",
       },
+      {
+        question: "How do I find or search for an inmate at Ohio State Penitentiary?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Mahoning County, Ohio. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Ohio State Penitentiary?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Ohio State Penitentiary?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Ohio State Penitentiary?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Ohio State Penitentiary?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3235,6 +3349,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "100 GA-36, Jackson, GA 30233",
     phone: "(770) 504-2000",
     website: "https://gdc.ga.gov",
+    mailingAddress: "Inmate name and GDC ID, P.O. Box 3877, Jackson, GA 30233",
+    visitingHours: "Diagnostic Offenders: Hours 9:00am-1:00pm, Days Monday, Tuesday, Thursday. Diagnostic offenders cannot receive visits until at GDCP for 60 days. Only immediate family. UDS and SMU: Hours 9:00AM-3:00PM, Days Saturdays, Sundays, and State Holidays. Tier III STEP: Days Wednesdays and Fridays, Hours 9:00am-11:00am, 11:00am-1:00pm, 1:00pm-3:00pm, scheduled in advance. Regular General Population (K-Building, UDS and SMU): Hours 9:00AM-3:00PM, Days Saturday, Sunday, and State Holidays. All Others: Hours 9:00AM-3:00PM, Days Saturdays, Sundays, and State Holidays",
+    fax: "(770) 504-2006",
     inmateCapacity: 1600,
     established: 1939,
     operatedBy: "Georgia Department of Corrections (GDC)",
@@ -3303,6 +3420,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a GDCP inmate?",
         answer: "Trust account deposits go through JPay. Log in, go to Send Money, and select Georgia Diagnostic and Classification Prison. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Georgia Diagnostic and Classification Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Butts County, Georgia. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Georgia Diagnostic and Classification Prison?",
+        answer: "Address mail as follows: Inmate name and GDC ID, P.O. Box 3877, Jackson, GA 30233. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "What are the visiting hours at Georgia Diagnostic and Classification Prison?",
+        answer: "Diagnostic Offenders: Hours 9:00am-1:00pm, Days Monday, Tuesday, Thursday. Diagnostic offenders cannot receive visits until at GDCP for 60 days. Only immediate family. UDS and SMU: Hours 9:00AM-3:00PM, Days Saturdays, Sundays, and State Holidays. Tier III STEP: Days Wednesdays and Fridays, Hours 9:00am-11:00am, 11:00am-1:00pm, 1:00pm-3:00pm, scheduled in advance. Regular General Population (K-Building, UDS and SMU): Hours 9:00AM-3:00PM, Days Saturday, Sunday, and State Holidays. All Others: Hours 9:00AM-3:00PM, Days Saturdays, Sundays, and State Holidays",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Georgia Diagnostic and Classification Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Georgia Diagnostic and Classification Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3760,6 +3898,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "20 High Desert Drive, Indian Springs, NV 89018",
     phone: "(702) 879-5400",
     website: "https://doc.nv.gov",
+    notToConfuseWith: "Not to be confused with High Desert State Prison in Susanville, California.",
     inmateCapacity: 4000,
     established: 2012,
     operatedBy: "Nevada Department of Corrections (NDOC)",
@@ -3865,6 +4004,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "4001 King Avenue, Corcoran, CA 93212",
     phone: "(559) 992-8800",
     website: "https://www.cdcr.ca.gov",
+    visitingHours: "In-person visiting appointments 8:30 am to 10:00 am for Facilities 3A, 3B, 3C, and 4B. Facility 4A Restrictive Housing Unit, CCCMS building Z and CTC by appointment only Fri, Sat, Sun. Facility 4A RIHU and PHU visits Sat, Sun, Mon, THU and DPU Fri, Sat, Sun. Schedule in-person visits at https://cdcr.gtlvisitme.com/app. General visiting questions: CorVideoVisiting@cdcr.ca.gov",
     inmateCapacity: 4500,
     established: 1988,
     operatedBy: "California Department of Corrections and Rehabilitation (CDCR)",
@@ -3933,6 +4073,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Corcoran inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Corcoran State Prison. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find or search for an inmate at Corcoran State Prison?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Kings County, California. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Corcoran State Prison?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "What are the visiting hours at Corcoran State Prison?",
+        answer: "In-person visiting appointments 8:30 am to 10:00 am for Facilities 3A, 3B, 3C, and 4B. Facility 4A Restrictive Housing Unit, CCCMS building Z and CTC by appointment only Fri, Sat, Sun. Facility 4A RIHU and PHU visits Sat, Sun, Mon, THU and DPU Fri, Sat, Sun. Schedule in-person visits at https://cdcr.gtlvisitme.com/app. General visiting questions: CorVideoVisiting@cdcr.ca.gov",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Corcoran State Prison?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Corcoran State Prison?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -4774,6 +4935,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "133 N. Industrial Boulevard, Dallas, TX 75207",
     phone: "(214) 749-8641",
     website: "https://www.dallascounty.org/sheriff",
+    mailingAddress: "Inmate name and book-in number, c/o Mail Processing Center, PO Box 9226, Seminole, FL 33775-9226. Attorney confidential mail: PO Box 660334, Dallas, TX 75266",
+    commissary: "Deposits via lobby kiosk cash, AccessCorrections online as low as 2.95, phone 1-866-345-1884 as low as 3.95, CashPayToday walk-in flat fee 5.00. No personal/payroll checks, money orders, tax refunds, stimulus, insurance, child support, Social Security checks accepted effective Feb 14, 2022",
+    fax: "(214) 653-3420",
     inmateCapacity: 7000,
     established: 1982,
     operatedBy: "Dallas County Sheriff's Department",
@@ -4830,6 +4994,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Dallas County Jail inmate?",
         answer: "Commissary deposits go through Securus. Log in to your account and use the money transfer feature. You can fund via debit or credit card. Note that commissary and phone funds are separate within the Securus system.",
       },
+      {
+        question: "How do I find or search for an inmate at Dallas County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Dallas County, Texas. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Dallas County Jail?",
+        answer: "Address mail as follows: Inmate name and book-in number, c/o Mail Processing Center, PO Box 9226, Seminole, FL 33775-9226. Attorney confidential mail: PO Box 660334, Dallas, TX 75266. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Dallas County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Dallas County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Dallas County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedFacilitySlugs: [
@@ -4921,6 +5106,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Philadelphia Detention Center inmate?",
         answer: "Commissary deposits are processed through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
+      },
+      {
+        question: "How do I find or search for an inmate at Philadelphia Detention Center?",
+        answer: "Use the Philadelphia Department of Prisons inmate locator on phila.gov to confirm your loved one is housed at this facility. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Philadelphia Detention Center?",
+        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Philadelphia Detention Center?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Philadelphia Detention Center?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Philadelphia Detention Center?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
       },
     ],
 
@@ -5235,6 +5440,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "490 W. Colfax Avenue, Denver, CO 80204",
     phone: "(720) 337-9400",
     website: "https://www.denvergov.org/sherif",
+    mailingAddress: "Personal mail: Person in Custody Name, CD#, Denver Sheriff Department, P.O. Box 20707, Tampa, FL 33622. All other mail (legal, checks, money orders, books, magazines, government docs): Person in Custody Name, CD#, Denver Sheriff Department, P.O. Box 1108, Denver, CO 80201",
+    commissary: "Inmates can purchase sundries, underwear, t-shirts from commissary. Inmates provided shoes and other clothing by facility",
     inmateCapacity: 2000,
     established: 1956,
     operatedBy: "Denver Sheriff Department",
@@ -5291,6 +5498,27 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Denver jail inmate?",
         answer: "Commissary deposits are processed through Securus. Log into your account and use the money transfer feature. You can add funds via debit or credit card. Commissary and phone funds are maintained separately within Securus.",
       },
+      {
+        question: "How do I find or search for an inmate at Denver County Jail?",
+        answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Denver County, Colorado. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Denver County Jail?",
+        answer: "Address mail as follows: Personal mail: Person in Custody Name, CD#, Denver Sheriff Department, P.O. Box 20707, Tampa, FL 33622. All other mail (legal, checks, money orders, books, magazines, government docs): Person in Custody Name, CD#, Denver Sheriff Department, P.O. Box 1108, Denver, CO 80201. Include the inmate's full name and ID on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Denver County Jail?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Denver County Jail?",
+        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I schedule or cancel a video visit at Denver County Jail?",
+        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+      },
+
     ],
 
     relatedFacilitySlugs: [

@@ -2597,7 +2597,6 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     ],
 
     address: "23916 Northwest 83rd Avenue, Raiford, FL 32026",
-    phone: "(386) 431-2000",
     website: "https://www.dc.state.fl.us",
     rosterUrl: "https://pubapps.fdc.myflorida.com/OffenderSearch/Search.aspx?TypeSearch=AI",
     inmateCapacity: 1400,

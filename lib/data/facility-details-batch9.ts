@@ -633,16 +633,16 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Stutsman County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Stutsman County Jail: Video Visits and Contact Guide",
-  seoDescription: "How to contact someone at Stutsman County Jail in Jamestown ND.",
+  seoTitle: "Stutsman County Jail: Inmate Canteen Phone and Video",
+  seoDescription: "Phone, SMS, email, video visits and commissary at Stutsman County Jail in Jamestown ND run through Inmate Canteen.",
 
   description:
-    "Stutsman County Jail communication guide. Video visitation via Turnkey Corrections, phone, and visitation rules for families of inmates at this county jail in Jamestown ND.",
+    "Stutsman County Jail communication guide. Phone, SMS, email, photos, video visits, and commissary through Inmate Canteen (Turnkey Corrections) for families of inmates at this county jail in Jamestown ND.",
 
   overview: [
     "Stutsman County Jail, also known as the Stutsman County Correctional Center, is the county detention facility in Jamestown, North Dakota, operated by the Stutsman County Sheriff.",
     "Video visitation at Stutsman County Jail runs through Turnkey Corrections and Inmate Canteen, per the county's official visitation page. Onsite video visits are free, while online visits carry a fee. Visits are limited to 45 minutes.",
-    "The phone vendor is not confirmed from official sources, so families should confirm the current phone provider with the facility before creating a prepaid account. All calls and visits are monitored and recorded.",
+    "Phone, SMS, and email all run through Inmate Canteen (Turnkey Corrections), per the county's official communication page. Families create an account at team3.inmatecanteen.com to fund calls, texts, and emails. Photos can also be sent electronically through Inmate Canteen. All calls and visits are monitored and recorded.",
   ],
 
   mailingAddress: "Inmate Name, ID Number\nStutsman County Correctional Center\n205 6th Street SE\nJamestown, ND 58401",
@@ -650,49 +650,47 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   fax: "701-251-6252",
   operatedBy: "Stutsman County Sheriff",
-  // TODO(Jan): verify phone provider (video via Turnkey Corrections confirmed)
-
   providers: [
     {
       name: "Turnkey Corrections",
       slug: "turnkey-corrections",
       initial: "T",
       color: "bg-stone-600",
-      messaging: false,
+      messaging: true,
       video: true,
-      photos: false,
-      phone: false,
-      moneyTransfer: false,
-      notes: "Video visitation via Turnkey Corrections and Inmate Canteen, per the county's official visitation page. Phone vendor not confirmed.",
+      photos: true,
+      phone: true,
+      moneyTransfer: true,
+      notes: "Phone, SMS, email, photos, video visits, and commissary through Inmate Canteen (Turnkey Corrections), per the county's official communication page.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
+    messaging: { status: "available", provider: "Turnkey Corrections", notes: "SMS and email through Inmate Canteen. Create an account at team3.inmatecanteen.com." },
     video: { status: "available", provider: "Turnkey Corrections", notes: "Video visits through Turnkey Corrections and Inmate Canteen. Onsite visits are free, online visits carry a fee. Visits limited to 45 minutes." },
-    photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    photos: { status: "available", provider: "Turnkey Corrections", notes: "Photos can be sent electronically through Inmate Canteen. Non-electronic photos must be 4x6 or smaller, max 30 pictures." },
+    phone: { status: "available", provider: "Turnkey Corrections", notes: "Phone calls through Inmate Canteen. Create an account at team3.inmatecanteen.com." },
+    moneyTransfer: { status: "available", provider: "Turnkey Corrections", notes: "Commissary purchases and deposits through Inmate Canteen." },
   },
 
   rules: [
     "Schedule video visits through Turnkey Corrections and Inmate Canteen. Onsite visits are free, online visits carry a fee.",
     "Video visits are limited to 45 minutes.",
-    "Confirm the phone vendor with the facility before creating a prepaid account.",
+    "Create an Inmate Canteen account at team3.inmatecanteen.com for phone, SMS, and email.",
     "All calls and visits are monitored and recorded.",
     "Confirm visiting hours before traveling, since schedules vary.",
   ],
 
   faq: [
     { question: "How do video visits work at Stutsman County Jail?", answer: "Video visits run through Turnkey Corrections and Inmate Canteen. Onsite video visits are free, online visits carry a fee, and visits are limited to 45 minutes." },
-    { question: "Which company handles phone calls at Stutsman County Jail?", answer: "The phone vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account. Video visitation is confirmed via Turnkey Corrections." },
+    { question: "Which company handles phone calls at Stutsman County Jail?", answer: "Phone calls run through Inmate Canteen (Turnkey Corrections). Create an account at team3.inmatecanteen.com to fund calls. Video visitation also runs through Turnkey Corrections." },
     { question: "How do I visit someone at Stutsman County Jail?", answer: "Visits are by video. Schedule through Turnkey Corrections and Inmate Canteen. Onsite visits are free and online visits carry a fee." },
     { question: "How do I find out if someone is in Stutsman County Jail?", answer: "Call the Stutsman County Correctional Center with the inmate's full name and date of birth to confirm custody. The ND DOCR offender search covers state prison residents, not county jail detainees." },
     { question: "What is the mailing address for an inmate at Stutsman County Jail?", answer: "Address mail to: Inmate Name, ID Number, Stutsman County Correctional Center, 205 6th Street SE, Jamestown, ND 58401." },
     { question: "Can I call an inmate at Stutsman County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list to receive calls." },
     { question: "How does bail work at Stutsman County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
     { question: "What should I bring to a visit at Stutsman County Jail?", answer: "Bring a valid government-issued photo ID and make sure you are on the inmate's approved visitor list. Follow the facility dress code; inappropriate clothing will get your visit denied." },
-    { question: "How do I send money to an inmate at Stutsman County Jail?", answer: "Deposit options are not confirmed in published sources. Call the facility to confirm the current deposit method before sending money." },
+    { question: "How do I send money to an inmate at Stutsman County Jail?", answer: "Deposits and commissary purchases run through Inmate Canteen. Create an account at team3.inmatecanteen.com to add funds." },
   ],
 
   relatedFacilitySlugs: ["cass-county-jail", "north-dakota-state-penitentiary", "burleigh-county-jail"],

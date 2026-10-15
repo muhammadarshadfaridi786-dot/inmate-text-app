@@ -296,6 +296,8 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
         question: "What happens if someone is transferred from Palm Beach County Main Detention Center?",
         answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
       },
+    { question: "Which detention centers does the Palm Beach County Sheriff operate?", answer: "The Sheriff operates the Main Detention Center and the West County Detention Center. Confirm which one holds the inmate before scheduling a visit." },
+    { question: "Can I visit in person at Palm Beach County Main Detention Center?", answer: "No. All visits are conducted by video. Schedule ahead and follow the Sheriff's Office visiting rules." },
   ],
 
   relatedFacilitySlugs: ["broward-county-jail", "miami-dade-corrections-facility", "turner-guilford-knight-correctional-center"],
@@ -1053,7 +1055,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["mecklenburg-county-detention-center", "wake-county-detention-center", "central-prison"],
+  relatedFacilitySlugs: ["mecklenburg-county-jail", "wake-county-detention-center", "central-prison"],
 },
 
 "guilford-county-jail": {
@@ -1142,7 +1144,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["mecklenburg-county-detention-center", "wake-county-detention-center", "central-prison"],
+  relatedFacilitySlugs: ["mecklenburg-county-jail", "wake-county-detention-center", "central-prison"],
 },
 
 "forsyth-county-detention-center": {
@@ -1235,7 +1237,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["mecklenburg-county-detention-center", "wake-county-detention-center", "central-prison"],
+  relatedFacilitySlugs: ["mecklenburg-county-jail", "wake-county-detention-center", "central-prison"],
 },
 
 "charleston-county-detention-center": {
@@ -1523,7 +1525,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
       },
   ],
 
-  relatedFacilitySlugs: ["lee-correctional-institution", "broad-river-correctional-institution", "mecklenburg-county-detention-center"],
+  relatedFacilitySlugs: ["lee-correctional-institution", "broad-river-correctional-institution", "mecklenburg-county-jail"],
 },
 
 "davidson-county-jail": {

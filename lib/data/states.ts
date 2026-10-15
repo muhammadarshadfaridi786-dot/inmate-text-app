@@ -1143,8 +1143,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         features: ["Messaging (CorrLinks)", "Phone Calls"],
       },
       {
-        name: "Mecklenburg County Detention Center",
-        slug: "mecklenburg-county-detention-center",
+        name: "Mecklenburg County Jail",
+        slug: "mecklenburg-county-jail",
         type: "County Jail",
         county: "Mecklenburg County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
@@ -3361,8 +3361,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         features: ["Messaging", "Phone Calls", "Money Transfer"],
       },
       {
-        name: "Hennepin County Adult Detention Center",
-        slug: "hennepin-county-adult-detention-center",
+        name: "Hennepin County Jail",
+        slug: "hennepin-county-jail",
         type: "County Jail",
         county: "Hennepin County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
@@ -5521,8 +5521,8 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     featuredFacilities: [
       {
-        name: "Marble Valley Correctional Facility",
-        slug: "marble-valley-correctional-facility",
+        name: "Marble Valley Regional Correctional Facility",
+        slug: "marble-valley-regional-correctional-facility",
         type: "State Prison",
         county: "Rutland County",
         features: ["Messaging", "Phone Calls", "Money Transfer"],

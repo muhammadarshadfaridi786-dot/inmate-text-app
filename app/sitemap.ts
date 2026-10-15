@@ -46,6 +46,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "kent-county-jail-michigan",
     "montgomery-county-jail-texas",
     "lew-sterrett-justice-center",
+    "mecklenburg-county-detention-center",
+    "palm-beach-county-jail",
+    "salt-lake-county-jail",
+    "hennepin-county-adult-detention-center",
+    "cobb-county-jail",
+    "clark-county-jail-nevada",
+    "shelby-county-jail",
+    "wake-county-jail",
+    "marble-valley-correctional-facility",
+    "hamilton-county-justice-center",
+    "ramsey-county-adult-detention-center",
   ])
   const facilityEntries: MetadataRoute.Sitemap = ALL_FACILITIES
     .filter((f) => f.hasDetailPage && !REDIRECTED_FACILITY_SLUGS.has(f.slug))

@@ -2997,7 +2997,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
 
     overview: [
       "Clark County Detention Center (CCDC) is the primary pretrial detention facility operated by the Las Vegas Metropolitan Police Department, located in downtown Las Vegas in Clark County. CCDC is one of the largest single-site jails in the western United States, processing tens of thousands of bookings annually from across the Las Vegas metropolitan area. The Las Vegas Valley, including Las Vegas, North Las Vegas, Henderson, and the surrounding unincorporated areas, is the most populous region in Nevada, and CCDC serves as the main intake and pretrial holding center for Clark County's criminal court system. The facility is located in the heart of downtown Las Vegas near the courthouse complex.",
-      "Communication at Clark County Detention Center is managed through GTL, which provides phone calls, video visitation, and electronic messaging services under the county contract. Families create a GTL account at telmate.com to access all services. Funding a GTL AdvancePay account linked to your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through the GTL platform. Electronic messaging via GTL delivers communications digitally within the facility. A single GTL account covers all CCDC communication services.",
+      "Communication at Clark County Detention Center is managed through GTL, which provides phone calls, video visitation, and electronic messaging services under the county contract. Families create a GTL account at telmate.com to access those services. Funding a GTL AdvancePay account linked to your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through the GTL platform. Electronic messaging via GTL delivers communications digitally within the facility. Trust account deposits go through TouchPay.",
       "CCDC is located in downtown Las Vegas on Casino Center Boulevard, near the Las Vegas city hall and courthouse complex. The facility is accessible from I-15, US-95, and major surface streets through downtown. For Las Vegas metro families, in-person visits are logistically practical given the facility's central downtown location. For families from out of state, particularly those from California, Arizona, or Utah whose loved one was arrested in Las Vegas, remote GTL video visits and messaging are the most practical tools for maintaining contact across state lines. People held at CCDC are typically in pretrial status; after conviction, sentences of more than one year result in transfer to a Nevada DOC state facility.",
     ],
 
@@ -3008,6 +3008,9 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 3500,
     established: 1981,
     operatedBy: "Las Vegas Metropolitan Police Department (LVMPD)",
+    visitingHours: "Register online at the GTL VisitMe portal or in person, 8am to 10:30pm daily. No visit for 24 hours after registration. General-population social visits are two 25-minute visits per week. On-site booth visits are free. Social visiting hours are Monday through Friday, 7am to 10:30am and 7pm to 11pm; Saturday and Sunday, 7am to 10:30am, 12:30pm to 3pm, and 7pm to 11pm. Confirm the current schedule with the facility before traveling.",
+    rosterUrl: "https://www.lvmpd.com/about/sections/clark-county-detention-center/inmate-search",
+    commissary: "Trust account deposits through TouchPay.",
 
     providers: [
       {
@@ -3019,8 +3022,20 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         video: true,
         photos: false,
         phone: true,
+        moneyTransfer: false,
+        notes: "Provides phone service, video visits, and messaging.",
+      },
+      {
+        name: "TouchPay",
+        slug: "touchpay",
+        initial: "T",
+        color: "bg-slate-600",
+        messaging: false,
+        video: false,
+        photos: false,
+        phone: false,
         moneyTransfer: true,
-        notes: "Primary provider for all CCDC communication, phone, video, messaging, and commissary deposits.",
+        notes: "TouchPay handles trust account deposits.",
       },
     ],
 
@@ -3029,13 +3044,13 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       video: { status: "available", provider: "GTL", notes: "Remote video visits available through GTL. Useful for out-of-state families. Schedule in advance." },
       photos: { status: "limited", provider: undefined, notes: "Physical photo mail subject to LVMPD content restrictions. No digital photo service." },
       phone: { status: "available", provider: "GTL", notes: "Fund a GTL AdvancePay account to receive inmate-initiated calls." },
-      moneyTransfer: { status: "available", provider: "GTL", notes: "Commissary deposits via GTL or AccessCorrections." },
+      moneyTransfer: { status: "available", provider: "TouchPay", notes: "Trust account deposits through TouchPay." },
     },
 
     rules: [
       "GTL serves CCDC. After transfer to a Nevada DOC state facility, a different provider may apply.",
       "All calls, messages, and visits are monitored by LVMPD staff.",
-      "One GTL account covers all CCDC communication services.",
+      "GTL covers phone, video, and messaging; TouchPay handles trust account deposits.",
       "Video visits require advance scheduling through GTL.",
       "Senders must be on the inmate's approved contact list.",
     ],
@@ -3043,7 +3058,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "How do I contact someone at Clark County Detention Center?",
-        answer: "All communication at CCDC, phone, video, messaging, and money, goes through GTL. Create a single account at telmate.com or the GTL Connect app. One account covers everything at the facility.",
+        answer: "Phone, video, and messaging at CCDC go through GTL. Create an account at telmate.com or the GTL Connect app. Trust account deposits go through TouchPay.",
       },
       {
         question: "Can I do a video visit at CCDC from out of state?",
@@ -3059,7 +3074,31 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send money to a CCDC inmate?",
-        answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
+        answer: "Trust account deposits go through TouchPay. Create a TouchPay account, add the inmate, and fund the account.",
+      },
+      {
+        question: "What is CCDC North?",
+        answer: "CCDC North, also called the North Valley Complex, is part of the Clark County Detention Center system in Las Vegas.",
+      },
+      {
+        question: "How do I register to visit someone at Clark County Detention Center?",
+        answer: "Register online at the GTL VisitMe portal or in person, 8am to 10:30pm daily. No visit is allowed for 24 hours after registration.",
+      },
+      {
+        question: "How much do video visits cost at Clark County Detention Center?",
+        answer: "On-site booth visits are free. Remote video visits cost $6.25 per visit. Confirm current rates with the facility.",
+      },
+      {
+        question: "Can an inmate at Clark County Detention Center call me?",
+        answer: "Yes. Inmates place outgoing calls through GTL (ViaPath). Keep your number on the approved list. Inmates cannot receive incoming calls.",
+      },
+      {
+        question: "How do I block calls from Clark County Detention Center?",
+        answer: "Contact GTL to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+      },
+      {
+        question: "How do I visit someone at Clark County Detention Center?",
+        answer: "Visitors must be approved. Bring valid photo ID and follow LVMPD visiting rules. Confirm visiting hours before traveling.",
       },
     ],
 

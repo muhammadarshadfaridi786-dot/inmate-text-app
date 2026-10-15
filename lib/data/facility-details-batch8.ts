@@ -974,7 +974,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Does Ramsey County Adult Detention Center hold federal detainees?", answer: "Yes. The facility houses some federal detainees alongside county pretrial and sentenced inmates." },
   ],
 
-  relatedFacilitySlugs: ["hennepin-county-adult-detention-center", "harris-county-jail", "cuyahoga-county-jail"],
+  relatedFacilitySlugs: ["hennepin-county-jail", "harris-county-jail", "cuyahoga-county-jail"],
 },
 
 "allegheny-county-jail": {

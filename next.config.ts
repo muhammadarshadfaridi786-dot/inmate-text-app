@@ -204,6 +204,61 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/facility/mecklenburg-county-detention-center',
+        destination: '/facility/mecklenburg-county-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/palm-beach-county-jail',
+        destination: '/facility/palm-beach-county-main-detention-center',
+        permanent: true,
+      },
+      {
+        source: '/facility/salt-lake-county-jail',
+        destination: '/facility/salt-lake-county-metro-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/hennepin-county-adult-detention-center',
+        destination: '/facility/hennepin-county-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/cobb-county-jail',
+        destination: '/facility/cobb-county-adult-detention-center',
+        permanent: true,
+      },
+      {
+        source: '/facility/clark-county-jail-nevada',
+        destination: '/facility/clark-county-detention-center',
+        permanent: true,
+      },
+      {
+        source: '/facility/shelby-county-jail',
+        destination: '/facility/shelby-county-criminal-justice-center',
+        permanent: true,
+      },
+      {
+        source: '/facility/wake-county-jail',
+        destination: '/facility/wake-county-detention-center',
+        permanent: true,
+      },
+      {
+        source: '/facility/marble-valley-correctional-facility',
+        destination: '/facility/marble-valley-regional-correctional-facility',
+        permanent: true,
+      },
+      {
+        source: '/facility/hamilton-county-justice-center',
+        destination: '/facility/hamilton-county-jail-ohio',
+        permanent: true,
+      },
+      {
+        source: '/facility/ramsey-county-adult-detention-center',
+        destination: '/facility/ramsey-county-jail',
+        permanent: true,
+      },
+      {
         source: '/facility/joseph-v-conte-facility',
         destination: '/facility/broward-county-jail',
         permanent: true,

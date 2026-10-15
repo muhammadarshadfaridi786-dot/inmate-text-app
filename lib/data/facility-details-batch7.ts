@@ -1261,12 +1261,12 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   overview: [
     "The Charleston County Detention Center, also known as the Sheriff Al Cannon Detention Center, is the county jail in Charleston, South Carolina, operated by the Charleston County Sheriff's Office. Located on Leeds Avenue in North Charleston, it houses pretrial and sentenced inmates from across Charleston County.",
     "Inmates have access to Securus tablets for electronic messaging, and personal mail is processed through the Securus Digital Mail Center and delivered digitally. Phone calls run through the facility's Securus-based phone system; families fund calling accounts so the inmate can call them.",
-    "Onsite visits are offered in daily time blocks, and visitors must follow the facility's scheduling and dress code rules. Because messaging, mail, and phones all run through Securus, one family account covers most communication options. All communications are monitored and recorded except legal communications.",
+    "Personal visits are currently online-only video visits, except for attorney visits, and run in three daily time blocks. Visitors schedule through SecurusTech.net and must follow the facility's scheduling and dress code rules. Because messaging, mail, and phones all run through Securus, one family account covers most communication options. All communications are monitored and recorded except legal communications.",
   ],
 
   address: "3841 Leeds Ave, Charleston, SC 29405",
   phone: "(843) 529-7300",
-    visitingHours: "Video visitation Sun through Sat 8:00 a.m. to 11:00 a.m., 1:00 p.m. to 4:00 p.m. Inmate must be incarcerated at least 72 hours",
+    visitingHours: "Personal visitation is currently online only, except for attorneys. Sun through Sat, three daily blocks: 8:00 a.m. to 10:50 a.m. (last scheduling 10:20 a.m.), 1:00 p.m. to 4:25 p.m. (last scheduling 3:55 p.m.), 7:00 p.m. to 10:00 p.m. (last scheduling 9:30 p.m.). Maximum three 30-minute visits per seven calendar days. Inmate must be incarcerated at least 72 hours. Schedule through SecurusTech.net. Times subject to change with facility operations.",
     rosterUrl: "https://inmatesearch.charlestoncounty.org/",
   operatedBy: "Charleston County Sheriff's Office",
 
@@ -1277,17 +1277,17 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
       initial: "S",
       color: "bg-indigo-600",
       messaging: true,
-      video: false,
+      video: true,
       photos: true,
       phone: true,
       moneyTransfer: false,
-      notes: "Electronic messaging via Securus tablets; scanned mail through the Securus Digital Mail Center.",
+      notes: "Electronic messaging via Securus tablets; scanned mail through the Securus Digital Mail Center; online-only video visits scheduled through SecurusTech.net.",
     },
   ],
 
   communication: {
     messaging: { status: "available", provider: "Securus", notes: "Available. Electronic messaging through Securus tablets." },
-    video: { status: "limited", provider: undefined, notes: "Onsite visits in daily time blocks; remote video provider not confirmed. Check the sheriff's visitation page." },
+    video: { status: "available", provider: "Securus", notes: "Online-only video visits through Securus. Schedule in advance at SecurusTech.net. Maximum three 30-minute visits per seven calendar days." },
     photos: { status: "available", provider: "Securus", notes: "Available. Photo attachments through Securus messaging where enabled." },
     phone: { status: "available", provider: "Securus", notes: "Available. Inmate-initiated calls through the Securus phone system." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposit options are listed on the sheriff's inmate information page." },
@@ -1295,7 +1295,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   rules: [
     "Set up a Securus account for phone calls and electronic messaging.",
-    "Onsite visits run in three daily time blocks; scheduled visits get priority.",
+    "Personal visits are online-only video visits in three daily time blocks; scheduled visits get priority.",
     "Personal mail goes to the Securus Digital Mail Center and is delivered digitally.",
     "Visitors must follow the dress code and scheduling rules.",
     "All communications are monitored and recorded except legal communications.",
@@ -1304,7 +1304,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   faq: [
     { question: "How do I message an inmate at Charleston County Detention Center?", answer: "Inmates use Securus tablets for electronic messaging. Create a Securus account to exchange messages." },
     { question: "How do phone calls work?", answer: "Calls run through the facility's Securus phone system. Fund a calling account so the inmate can call you." },
-    { question: "How do visits work?", answer: "Onsite visits are offered every day in three time blocks: morning, afternoon, and evening. Scheduled visits get priority over walk-ins." },
+    { question: "How do visits work?", answer: "Personal visits are online-only video visits, except for attorney visits. Three daily blocks run Sun through Sat: 8:00 a.m. to 10:50 a.m., 1:00 p.m. to 4:25 p.m., and 7:00 p.m. to 10:00 p.m. Scheduled visits get priority over walk-ins." },
     { question: "Where do I send mail?", answer: "Personal mail goes to the Securus Digital Mail Center: inmate name and number, c/o Securus Digital Mail Center, PO Box 20207, Tampa, FL 33622." },
     { question: "Where is the detention center?", answer: "3841 Leeds Avenue, Charleston, SC 29405. Call 843-529-7300 for information." },
       {
@@ -1317,7 +1317,11 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
       },
       {
         question: "What are the visiting hours at Charleston County Detention Center?",
-        answer: "Video visitation Sun through Sat 8:00 a.m. to 11:00 a.m., 1:00 p.m. to 4:00 p.m. Inmate must be incarcerated at least 72 hours",
+        answer: "Personal visitation is currently online only, except for attorneys. Sun through Sat: 8:00 a.m. to 10:50 a.m. (last scheduling 10:20 a.m.), 1:00 p.m. to 4:25 p.m. (last scheduling 3:55 p.m.), 7:00 p.m. to 10:00 p.m. (last scheduling 9:30 p.m.). Maximum three 30-minute visits per seven calendar days. Inmate must be incarcerated at least 72 hours. Times subject to change with facility operations.",
+      },
+      {
+        question: "Can attorneys visit in person at Charleston County Detention Center?",
+        answer: "Yes. Attorney visits are in person, Mon through Fri except county holidays: 9:00 a.m. to 11:00 a.m., 1:30 p.m. to 4:00 p.m., and 7:00 p.m. to 10:00 p.m.",
       },
       {
         question: "Can I receive incoming calls from an inmate at Charleston County Detention Center?",

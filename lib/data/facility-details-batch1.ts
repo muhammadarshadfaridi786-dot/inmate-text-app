@@ -305,6 +305,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "846 NE 54th Terrace, Coleman, FL 33521",
     phone: "(352) 689-4000",
     website: "https://www.bop.gov/locations/institutions/col/",
+    mailingAddress: "Mail must use the unit-specific address. For USP Coleman I: Inmate Name and Register Number\nUSP Coleman I\nU.S. Penitentiary\nP.O. Box 1033\nColeman, FL 33521. Confirm the unit and its P.O. box before mailing.",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do not send money to the facility address. Mail money orders to the BOP lockbox processing center in Des Moines, Iowa, or deposit online through ConnectNetwork, Western Union Quick Collect, or MoneyGram. Funds land in the inmate Trust Fund (commissary) account.",
     inmateCapacity: 5000,
     established: 1993,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -397,6 +400,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to an FCC Coleman inmate?",
         answer:
           "Trust fund deposits for FCC Coleman inmates are processed through the BOP's online system at connectnetwork.com. You can also send a money order made payable to the inmate and mailed to the facility's trust fund office. Western Union Quick Collect and MoneyGram are also accepted by many BOP facilities. Check the BOP website for current instructions.",
+      },
+      {
+        question: "What is the mailing address for an inmate at FCC Coleman?",
+        answer:
+          "Mail must use the address for the specific unit where the inmate is housed, because each unit has its own P.O. box. For USP Coleman I, address mail to the inmate name and register number, USP Coleman I, U.S. Penitentiary, P.O. Box 1033, Coleman, FL 33521. Confirm the unit before mailing, and never send money to the facility address.",
+      },
+      {
+        question: "How do I find out which institution within FCC Coleman holds my loved one?",
+        answer:
+          "Use the BOP Inmate Locator at bop.gov/inmateloc and search by name or register number. The complex includes USP Coleman I and II, FCI Coleman Low and Medium, and a satellite camp. CorrLinks and ConnectNetwork accounts work across the complex, but the mailing address differs by unit.",
+      },
+      {
+        question: "Can an inmate at FCC Coleman call me, or do I call them?",
+        answer:
+          "Inmates place outgoing calls only. Families cannot call in to a federal facility. Fund a ConnectNetwork prepaid account linked to your phone number, and the inmate will call you from the facility phone system. All calls are subject to monitoring.",
+      },
+      {
+        question: "What should I do if my CorrLinks messages stop going through at FCC Coleman?",
+        answer:
+          "First check that your contact is still approved and that your CorrLinks account is in good standing. Messages can also stop if the inmate transferred to another unit or institution, lost messaging privileges, or is in special housing. Confirm the current location in the BOP Inmate Locator, then re-request contact if needed.",
       },
     ],
 
@@ -2268,6 +2291,10 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "1100 River Road, Petersburg, VA 23804",
     phone: "(804) 504-7200",
     website: "https://www.bop.gov/locations/institutions/pet/",
+    mailingAddress: "Inmate Name and Register Number\nFCI Petersburg Low or FCI Petersburg Medium\nFederal Correctional Institution\nP.O. Box 1000\nPetersburg, VA 23804. For the satellite camp, add SATELLITE CAMP after the institution name.",
+    visitingHours: "Saturday, Sunday, and federal holidays, 8:00 AM to 3:00 PM, for both FCI Petersburg Medium and FCI Petersburg Low. Visitors may not enter institution property before 7:45 AM. Confirm the schedule before traveling, since visiting can change for safety or security reasons.",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do not send money to the facility address. Mail money orders to the BOP lockbox processing center in Des Moines, Iowa, or deposit online through ConnectNetwork, Western Union Quick Collect, or MoneyGram. Funds land in the inmate Trust Fund (commissary) account.",
     inmateCapacity: 2500,
     established: 1932,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -2336,6 +2363,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a FCC Petersburg inmate?",
         answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by money order via the BOP lockbox. Western Union Quick Collect and MoneyGram are also accepted. Processing takes one to three business days.",
       },
+      {
+        question: "What is the mailing address for an inmate at FCC Petersburg?",
+        answer:
+          "Address mail to the inmate name and register number, FCI Petersburg Low or FCI Petersburg Medium, Federal Correctional Institution, P.O. Box 1000, Petersburg, VA 23804. For the satellite camp, add SATELLITE CAMP after the institution name. Never send money to the facility address.",
+      },
+      {
+        question: "What are the visiting hours at FCC Petersburg?",
+        answer:
+          "Visiting is permitted on Saturdays, Sundays, and all federal holidays from 8:00 AM to 3:00 PM at both FCI Petersburg Medium and FCI Petersburg Low. Visitors are not permitted on institution property before 7:45 AM on a visiting day. Call the facility to confirm before departing for your visit.",
+      },
+      {
+        question: "Can I receive calls from FCC Petersburg, and how are calls paid for?",
+        answer:
+          "Yes. Inmates place outgoing calls only, and families cannot call in. Create a ConnectNetwork account, link it to your phone number, and add funds. The inmate calls you from the facility phone system. All calls are subject to monitoring.",
+      },
+      {
+        question: "What should I do if my loved one transfers between Petersburg Low and Medium?",
+        answer:
+          "Your CorrLinks and ConnectNetwork accounts carry over, since both institutions use the same BOP platforms. Update the unit line in the mailing address, and confirm the new institution in the BOP Inmate Locator before your next visit or mailing.",
+      },
     ],
 
     relatedGuideSlugs: ["corrlinks-invite-code-not-working", "corrlinks-add-second-inmate"],
@@ -2373,6 +2420,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "128 Ray Brook Road, Ray Brook, NY 12977",
     phone: "(518) 891-5400",
     website: "https://www.bop.gov/locations/institutions/rbk/",
+    visitingHours: "Saturday, Sunday, and federal holidays, 8:30 AM to 2:30 PM. Visitor processing starts at 8:00 AM, and no one is processed after 1:30 PM. Confirm the schedule before traveling, since lockdowns suspend visits.",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do not send money to the facility address. Mail money orders to the BOP lockbox processing center in Des Moines, Iowa, or deposit online through ConnectNetwork, Western Union Quick Collect, or MoneyGram. Funds land in the inmate Trust Fund (commissary) account.",
     inmateCapacity: 900,
     established: 1980,
     operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -2440,6 +2490,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a FCI Ray Brook inmate?",
         answer: "Deposits go through ConnectNetwork at connectnetwork.com or via money order using the BOP lockbox system. Western Union Quick Collect and MoneyGram are also accepted. Allow one to three business days for funds to post.",
+      },
+      {
+        question: "What are the visiting hours at FCI Ray Brook?",
+        answer:
+          "Visits are held on Saturdays, Sundays, and federal holidays from 8:30 AM to 2:30 PM. Processing starts at 8:00 AM, and anyone reaching the entrance building after 1:30 PM is not processed. Call the facility to confirm before traveling, since lockdowns suspend visits.",
+      },
+      {
+        question: "Can I call an inmate at FCI Ray Brook?",
+        answer:
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the facility phone system using a ConnectNetwork prepaid account linked to your phone number. Fund the account, then the inmate calls you. All calls are subject to monitoring.",
+      },
+      {
+        question: "What if my loved one is in the detention center at FCI Ray Brook?",
+        answer:
+          "FCI Ray Brook includes a detention center for pretrial and holdover inmates alongside the medium-security population. Communication setup is the same: CorrLinks for messaging and ConnectNetwork for phone and money. Detention stays can be short, so set up accounts quickly and confirm the location in the BOP Inmate Locator.",
+      },
+      {
+        question: "Do I need to be on an approved visiting list at FCI Ray Brook?",
+        answer:
+          "Yes. The inmate submits a list of proposed visitors for approval, and approval can take several weeks. Bring a valid government-issued photo ID, follow the dress code, and leave phones and valuables in your vehicle or a facility locker.",
       },
     ],
 
@@ -2902,6 +2972,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "1305 E. Butte Avenue, Florence, AZ 85132",
     phone: "(520) 868-4011",
     website: "https://corrections.az.gov",
+    rosterUrl: "https://corrections.az.gov/inmate-data-search",
     inmateCapacity: 4000,
     established: 1908,
     operatedBy: "Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR)",
@@ -2969,6 +3040,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to an ASPC Florence inmate?",
         answer: "Trust account deposits are processed through JPay. Log in, go to Send Money, and select Arizona State Prison Complex Florence. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find out which unit at ASPC Florence holds my loved one?",
+        answer:
+          "Use the ADCRR Inmate Data Search at corrections.az.gov/inmate-data-search and search by name or ADCRR number. The complex has several units, and the unit matters for visiting and mailing, so confirm it before you book a visit or send anything.",
+      },
+      {
+        question: "How do I get approved to visit at ASPC Florence?",
+        answer:
+          "Submit an ADCRR visitor application and wait for approval before scheduling a visit. Only approved visitors are admitted. Bring a valid government-issued photo ID, follow the ADCRR dress code, and check the rules for the specific unit before traveling.",
+      },
+      {
+        question: "Can I send books or packages to someone at ASPC Florence?",
+        answer:
+          "Books and publications must come directly from an approved vendor or publisher, not from a personal package. Personal packages are restricted. Check the current ADCRR publication and property rules before ordering anything.",
+      },
+      {
+        question: "What happens if my loved one transfers to another Arizona prison?",
+        answer:
+          "Your JPay and Securus accounts are statewide, so they carry over to any other ADCRR facility. Update the facility name when scheduling Securus video visits, and confirm the new location in the ADCRR Inmate Data Search.",
       },
     ],
 
@@ -3477,6 +3568,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "10800 Morgan Ford Road, Pound, VA 24279",
     phone: "(276) 796-7510",
     website: "https://vadoc.virginia.gov",
+    rosterUrl: "https://vadoc.virginia.gov/general-public/offender-locator/",
     inmateCapacity: 800,
     established: 1998,
     operatedBy: "Virginia Department of Corrections (VADOC)",
@@ -3545,6 +3637,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Red Onion inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Red Onion State Prison. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I confirm someone is at Red Onion?",
+        answer:
+          "Use the VADOC Offender Locator at vadoc.virginia.gov/general-public/offender-locator/ and search by name or the 7-digit offender ID. The search shows the current facility and release information for people in VADOC custody.",
+      },
+      {
+        question: "How do I get approved to visit Red Onion in person?",
+        answer:
+          "Submit a VADOC visitor application and be approved before visiting. Visits are scheduled in advance, and you must be on the inmate approved visiting list. Bring a valid government-issued photo ID and follow VADOC visiting rules.",
+      },
+      {
+        question: "Why are my messages or calls not going through at Red Onion?",
+        answer:
+          "Check the housing assignment and privilege level first. Maximum-security and restrictive housing placements can limit messaging, phone, and video access, and lockdowns pause services. Also confirm the inmate is still at Red Onion in the Offender Locator and that your JPay and GTL accounts are in good standing.",
+      },
+      {
+        question: "Can I send mail to someone at Red Onion?",
+        answer:
+          "Yes. Send letters and photos following VADOC mail rules, with the inmate full name and offender ID on the envelope. All mail is inspected for contraband. Do not send cash, stickers, or prohibited items, and follow the separate procedures for legal mail.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3582,6 +3694,9 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "1 Administration Road, Walpole, MA 02032",
     phone: "(508) 850-6001",
     website: "https://www.mass.gov/orgs/massachusetts-department-of-correction",
+    visitingHours: "Visits are by appointment and only for approved visitors. Maximum-security inmates receive three visiting periods per week, including at least one weekday evening period and one weekend period, under 103 CMR 483. Arrive 30 minutes before a scheduled visit for processing.",
+    rosterUrl: "https://vinelink.com/#/home/site/20000",
+    callRates: "Phone calls, video calls, and email are free for the person in custody and for the person receiving the call under the Massachusetts no-cost calls law in effect since December 1, 2023. There is no cap on the number of calls. Tablets and media services are not covered.",
     inmateCapacity: 600,
     established: 1956,
     operatedBy: "Massachusetts Department of Correction (MADOC)",
@@ -3650,6 +3765,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a MCI Cedar Junction inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select MCI Cedar Junction. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "Are phone calls from MCI Cedar Junction really free?",
+        answer:
+          "Yes. Under Massachusetts law, voice calls, video calls, and email are free for the incarcerated person and the person receiving the call, with no cap on the number of calls, since December 1, 2023. You do not need to fund a phone account or pay anyone for call time. Tablets and media purchases are not covered by the free-call law.",
+      },
+      {
+        question: "How do I send money to someone at MCI Cedar Junction?",
+        answer:
+          "MA DOC uses Access Corrections Secure Deposits for trust account deposits. Deposit online, by phone, at a facility kiosk, or by mailing a money order to the Access Corrections lockbox. Include the inmate full name and ID number, and allow about 48 hours for mailed lockbox deposits to post.",
+      },
+      {
+        question: "How do I get approved to visit MCI Cedar Junction?",
+        answer:
+          "Submit a MA DOC visitor application and wait for approval before scheduling. Visits are by appointment for approved visitors only. Arrive 30 minutes early for processing, bring a valid photo ID, and follow the facility dress code.",
+      },
+      {
+        question: "Is MCI Cedar Junction a reception center?",
+        answer:
+          "Yes. MCI Cedar Junction serves as the reception center for men newly sentenced to MA DOC custody. New arrivals go through classification there before transfer to a permanent facility. Expect delays in messaging, phone, and visiting setup during intake, and confirm the current location before funding any account.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3687,6 +3822,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "1576 W. Bluewater Highway, Ionia, MI 48846",
     phone: "(616) 527-6691",
     website: "https://www.michigan.gov/corrections",
+    rosterUrl: "https://mdocweb.state.mi.us/OTIS2/otis2.aspx",
     inmateCapacity: 1300,
     established: 1992,
     operatedBy: "Michigan Department of Corrections (MDOC)",
@@ -3755,6 +3891,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to an Ionia Correctional Facility inmate?",
         answer: "Trust account deposits are made through JPay. Log in, navigate to Send Money, and select Ionia Correctional Facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I find someone at Ionia Correctional Facility?",
+        answer:
+          "Use the Michigan Offender Tracking Information System (OTIS) at mdocweb.state.mi.us/OTIS2/otis2.aspx and search by name or MDOC number. OTIS shows the current facility, status, and sentence information.",
+      },
+      {
+        question: "How do I get approved to visit Ionia?",
+        answer:
+          "The inmate lists immediate family plus up to ten other friends for the visiting list. Each proposed visitor must complete a CAJ-103 Visiting Application and mail it to the facility, including a self-addressed stamped envelope for the approval reply. Allow about two weeks for approval.",
+      },
+      {
+        question: "Can I do a video visit with someone at Ionia?",
+        answer:
+          "Yes. MDOC offers video visits through GTL for approved visitors. Schedule after your visiting application is approved, and confirm the inmate housing level and eligibility before booking.",
+      },
+      {
+        question: "Why did my JPay message to Ionia go unanswered?",
+        answer:
+          "Messages are reviewed before delivery, which typically takes 24 to 48 hours. If a message is still unanswered, the inmate may have transferred, be in segregation or restrictive housing, or lack messaging privileges. Confirm the location in OTIS and check your JPay account status.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3792,6 +3948,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "7475 Cockrill Bend Industrial Road, Nashville, TN 37243",
     phone: "(615) 350-3100",
     website: "https://www.tn.gov/correction",
+    rosterUrl: "https://www.tn.gov/correction/redirect-agency-services/foil.html",
     inmateCapacity: 700,
     established: 1989,
     operatedBy: "Tennessee Department of Correction (TDOC)",
@@ -3859,6 +4016,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Riverbend inmate?",
         answer: "Trust account deposits go through JPay. Log in, navigate to Send Money, and select Riverbend Maximum Security Institution. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find someone at Riverbend?",
+        answer:
+          "Use the TDOC Felony Offender Information Lookup (FOIL) at tn.gov/correction/redirect-agency-services/foil.html and search by name, TDOC ID, or State ID. FOIL shows the current facility, status, and release information for felony offenders in TDOC custody.",
+      },
+      {
+        question: "How do I schedule an in-person visit at Riverbend?",
+        answer:
+          "Visits are by appointment only, and every visitor must have an approved visitor application on file. Contact the facility to book after approval. Visiting days include Saturdays and Sundays plus one evening per week for visitors who cannot come on weekends.",
+      },
+      {
+        question: "Can I send mail to someone at Riverbend?",
+        answer:
+          "Yes. Address mail with the inmate full name, TDOC ID number, and the facility address. All mail is inspected for contraband before delivery. Letters and photos are allowed; explicit or inappropriate content and items that could be used to cause harm are not.",
+      },
+      {
+        question: "What if my loved one is on death row at Riverbend?",
+        answer:
+          "Death row inmates face stricter communication and visiting rules than general-population inmates, including non-contact visits and more limited schedules. Confirm current privileges with the facility before booking a visit or funding an account.",
       },
     ],
 
@@ -4130,6 +4307,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "3060 Broad River Road, Columbia, SC 29210",
     phone: "(803) 896-1700",
     website: "https://www.doc.sc.gov",
+    rosterUrl: "https://public.doc.state.sc.us/scdc-public/",
     inmateCapacity: 1600,
     established: 1999,
     operatedBy: "South Carolina Department of Corrections (SCDOC)",
@@ -4197,6 +4375,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Broad River inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Broad River Correctional Institution. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find someone at Broad River?",
+        answer:
+          "Use the SCDC Incarcerated Inmate Search at public.doc.state.sc.us/scdc-public/ and search by SCDC number, SID, or name. The search shows the current location, admission date, offenses, and projected release date.",
+      },
+      {
+        question: "How do I get approved to visit Broad River?",
+        answer:
+          "Submit an SCDC visitor application and wait for approval before visiting. Only approved visitors are admitted. Bring a valid government-issued photo ID and follow SCDC visiting guidelines.",
+      },
+      {
+        question: "Can I send mail to someone at Broad River?",
+        answer:
+          "Yes. Include the inmate full name and SCDC ID on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
+      {
+        question: "What happens if my loved one transfers to another South Carolina prison?",
+        answer:
+          "Your JPay and GTL accounts are statewide, so they carry over to any other SCDC facility. Update the facility name when scheduling GTL video visits, and confirm the new location in the SCDC Incarcerated Inmate Search.",
       },
     ],
 
@@ -4341,6 +4539,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "11593 State Highway O, Mineral Point, MO 63660",
     phone: "(573) 438-6000",
     website: "https://doc.mo.gov",
+    rosterUrl: "https://web.mo.gov/doc/offSearchWeb/",
     inmateCapacity: 900,
     established: 1989,
     operatedBy: "Missouri Department of Corrections (MODOC)",
@@ -4409,6 +4608,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Potosi inmate?",
         answer: "Trust account deposits go through JPay. Log in, go to Send Money, and select Potosi Correctional Center. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find someone at Potosi Correctional Center?",
+        answer:
+          "Use the Missouri DOC Offender Web Search at web.mo.gov/doc/offSearchWeb/ and search by name or DOC ID. The search covers active offenders, including people on probation and parole supervision.",
+      },
+      {
+        question: "How do I get approved to visit Potosi?",
+        answer:
+          "Submit a Missouri DOC visitor application and wait for approval before visiting. Only approved visitors are admitted. Bring a valid government-issued photo ID and confirm the visiting rules for the inmate housing unit.",
+      },
+      {
+        question: "Can I send mail to someone at Potosi?",
+        answer:
+          "Yes. Include the inmate full name and DOC ID on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
+      {
+        question: "What happens if my loved one transfers within Missouri DOC?",
+        answer:
+          "Your JPay and Securus accounts carry over statewide to any other Missouri DOC facility. Update the facility name when scheduling Securus video visits, and confirm the new location in the Offender Web Search.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -4446,6 +4665,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "2665 Prison Road 1, Lovelady, TX 75851",
     phone: "(936) 636-7321",
     website: "https://www.tdcj.texas.gov",
+    rosterUrl: "https://inmate.tdcj.texas.gov/InmateSearch/start.action",
     inmateCapacity: 2200,
     established: 1917,
     operatedBy: "Texas Department of Criminal Justice (TDCJ)",
@@ -4514,6 +4734,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to an Eastham Unit inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Eastham Unit. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find someone at the Eastham Unit?",
+        answer:
+          "Use the TDCJ Inmate Search at inmate.tdcj.texas.gov/InmateSearch/start.action and search by name, TDCJ number, or SID. The search shows the current unit, offenses, and projected release date for people currently in TDCJ custody.",
+      },
+      {
+        question: "How do I get approved to visit the Eastham Unit?",
+        answer:
+          "Submit a TDCJ visitor application and wait for approval before scheduling a visit. Only approved visitors are admitted. Schedule visits in advance and bring a valid government-issued photo ID.",
+      },
+      {
+        question: "How do I buy commissary items for someone at Eastham?",
+        answer:
+          "Families can purchase commissary items for TDCJ inmates through eCommDirect, the TDCJ commissary ordering service. The inmate can also buy from the unit commissary using trust fund money sent through JPay.",
+      },
+      {
+        question: "Can I send mail to someone at Eastham?",
+        answer:
+          "Yes. Include the inmate full name and TDCJ number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -4551,6 +4791,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "100 Holman Way, Atmore, AL 36503",
     phone: "(251) 368-8173",
     website: "https://doc.alabama.gov",
+    rosterUrl: "https://doc.alabama.gov/InmateSearch",
     inmateCapacity: 900,
     established: 1969,
     operatedBy: "Alabama Department of Corrections (ADOC)",
@@ -4618,6 +4859,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Holman inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Holman Correctional Facility. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "Is Holman still open?",
+        answer:
+          "Mostly decommissioned, but not closed. According to an ADOC audit report, the majority of Holman is no longer in use, and Holman remains the ADOC primary facility for housing male death row inmates and the only facility in the state that carries out executions. General-population inmates were moved to other facilities.",
+      },
+      {
+        question: "How do I find someone at Holman?",
+        answer:
+          "Use the ADOC Inmate Search at doc.alabama.gov/InmateSearch and search by name or AIS (Alabama Institutional Serial) number. The AIS number takes precedence in all searches.",
+      },
+      {
+        question: "How do I get approved to visit Holman?",
+        answer:
+          "Submit an ADOC visitor application and wait for approval before visiting. Death row visiting rules differ from general-population rules, so confirm the current procedures with the facility before traveling.",
+      },
+      {
+        question: "Can I send mail to someone at Holman?",
+        answer:
+          "Yes. Include the inmate full name and AIS number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
       },
     ],
 
@@ -4749,6 +5010,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "441 Bauchet Street, Los Angeles, CA 90012",
     phone: "(213) 473-6100",
     website: "https://www.lasd.org",
+    rosterUrl: "http://app5.lasd.org/iic/ajis_search.cfm",
     inmateCapacity: 5000,
     established: 1963,
     operatedBy: "Los Angeles County Sheriff's Department (LASD)",
@@ -4804,6 +5066,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to an LA County jail inmate?",
         answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. You can add funds via debit or credit card or in cash at participating retail locations. Processing typically takes one business day.",
+      },
+      {
+        question: "How do I find someone at Men's Central Jail?",
+        answer:
+          "Use the LASD Inmate Information Center at app5.lasd.org/iic/ajis_search.cfm and search by name, date of birth, or booking number. The record shows bail information, housing location, and the next scheduled court date.",
+      },
+      {
+        question: "How do I schedule a visit at Men's Central Jail?",
+        answer:
+          "Register and schedule through the LASD visit system at visit.lasd.org. Visits require approval and an appointment. Bring a valid photo ID and confirm your reservation before traveling, since rules and hours change.",
+      },
+      {
+        question: "Can I call an inmate at Men's Central Jail?",
+        answer:
+          "No. Inmates cannot receive incoming personal calls. They place outgoing calls through the jail phone system. Keep your phone available and accept the call when it comes through.",
+      },
+      {
+        question: "How does bail work at Men's Central Jail?",
+        answer:
+          "The bail amount appears on the Inmate Information Center record. Bail is set by the court and can be posted as cash bail, through a licensed bail bondsman, or by release on own recognizance where the court allows it. Contact the jail or a licensed bondsman for posting instructions.",
       },
     ],
 
@@ -5223,6 +5505,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "How do I send money to a Shelby County CJC inmate?",
         answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. You can add funds via debit or credit card or in cash at participating retail locations. Processing typically takes one business day.",
       },
+      {
+        question: "How do I post bond at Shelby County CJC?",
+        answer:
+          "Bond is set by the court. The Sheriff inmate search shows bond information when a bond has been set. Bonds are posted through the jail or through a licensed bondsman. Call the facility for current posting hours and accepted payment methods.",
+      },
+      {
+        question: "Can I call an inmate at Shelby County CJC?",
+        answer:
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the GTL phone system. Create a GTL account so you can receive calls, and keep your phone available.",
+      },
+      {
+        question: "What if my loved one is moved to Shelby County Jail East?",
+        answer:
+          "Your GTL account carries over across Shelby County facilities. Confirm the current facility in the Sheriff inmate search before scheduling video visits or sending mail, since the housing location can change after transfer.",
+      },
+      {
+        question: "Can I send mail to someone at Shelby County CJC?",
+        answer:
+          "Yes. Include the inmate full name and booking number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
     ],
 
     relatedFacilitySlugs: [
@@ -5352,6 +5654,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     address: "2200 8th Avenue North, Birmingham, AL 35203",
     phone: "(205) 325-5300",
     website: "https://www.jccal.org/sheriff",
+    rosterUrl: "http://sheriff.jccal.org/NewWorld.InmateInquiry/AL0010000",
+    bailInfo: "The Sheriff Inmate Inquiry record for each booking shows the bond type and bond amount, including cash bonds and Good Bonds posted through a licensed bondsman.",
     inmateCapacity: 1200,
     established: 1982,
     operatedBy: "Jefferson County Sheriff's Office",
@@ -5407,6 +5711,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Jefferson County Jail inmate?",
         answer: "Commissary deposits are processed through Securus. Log into your account and use the money transfer section. You can add funds via debit or credit card. Commissary and phone funds are held in separate Securus accounts.",
+      },
+      {
+        question: "How do I find someone at Jefferson County Jail?",
+        answer:
+          "Use the Jefferson County Sheriff Inmate Inquiry at sheriff.jccal.org/NewWorld.InmateInquiry/AL0010000 and search by name, subject number, or booking number. The record shows custody status, bond amounts, charges, and court information.",
+      },
+      {
+        question: "How do I post bond at Jefferson County Jail?",
+        answer:
+          "Bond type and amount appear on the Inmate Inquiry record for each booking. Bonds include cash bonds and Good Bonds posted through a licensed bondsman. Check the record first so you know the exact bond before arranging payment.",
+      },
+      {
+        question: "Can I call an inmate at Jefferson County Jail?",
+        answer:
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the Securus phone system. Set up a Securus AdvancePay account linked to your phone number to receive calls.",
+      },
+      {
+        question: "Can I send mail to someone at Jefferson County Jail?",
+        answer:
+          "Yes. Include the inmate full name and subject or booking number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
       },
     ],
 
@@ -5614,6 +5938,26 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Wake County Detention Center inmate?",
         answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
+      },
+      {
+        question: "What should I do if someone was just arrested in Wake County?",
+        answer:
+          "New bookings can take hours to appear in the Sheriff inmate search while booking, screening, and classification are completed. Confirm the exact legal name spelling, search again later, or call the Sheriff Office for custody information.",
+      },
+      {
+        question: "Can I call an inmate at Wake County Detention Center?",
+        answer:
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the GTL phone system. Create a GTL account so you can receive calls, and keep your phone available.",
+      },
+      {
+        question: "How does bail work at Wake County Detention Center?",
+        answer:
+          "A magistrate sets bond at first appearance. Secured bonds can be posted in cash or through a licensed bondsman. Check the inmate record for bond status, and contact the Sheriff Office for posting instructions.",
+      },
+      {
+        question: "Can I send mail to someone at Wake County Detention Center?",
+        answer:
+          "Yes. Include the inmate full name and booking number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
       },
     ],
 

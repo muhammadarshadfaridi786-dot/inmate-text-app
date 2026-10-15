@@ -869,7 +869,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["fci-milan", "kent-county-jail-michigan", "fci-seagoville"],
+  relatedFacilitySlugs: ["fci-milan", "kent-county-jail", "fci-seagoville"],
 },
 
 "kent-county-jail-michigan": {
@@ -956,7 +956,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   ],
 
-  relatedFacilitySlugs: ["fci-milan", "wayne-county-jail-michigan", "fci-seagoville"],
+  relatedFacilitySlugs: ["fci-milan", "wayne-county-jail", "fci-seagoville"],
 },
 
 "ramsey-county-jail": {

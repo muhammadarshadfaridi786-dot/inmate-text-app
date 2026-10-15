@@ -591,6 +591,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     "Money for commissary can be deposited online through Access Corrections, by phone, at the lobby kiosk, or by mailed money order. Call (936) 760-5800 for inmate information and to confirm current visitation procedures.",
   ],
 
+  notToConfuseWith: "Not to be confused with Montgomery County Jail in Dayton, Ohio.",
   address: "1 Criminal Justice Drive, Conroe, TX 77301",
   phone: "(936) 760-5800",
   operatedBy: "Montgomery County Sheriff's Office",
@@ -631,6 +632,8 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Both on-site and remote video visits are scheduled through the Securus website after you register an account." },
     { question: "How do I add money to an inmate's account?", answer: "Deposit online through Access Corrections, by phone, at the kiosk in the jail lobby, or by mailing a money order to the jail." },
     { question: "Do inmates have tablets?", answer: "Yes, JailATM tablets are reported at the facility, providing messaging, calls and entertainment options." },
+    { question: "How do I visit someone at Montgomery County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
+    { question: "Where is Montgomery County Jail?", answer: "Montgomery County Jail is in Conroe, Texas, at 1 Criminal Justice Drive. The Jail Command oversees about 300 jail staff and a daily population of nearly 1,300." },
   ],
 
   relatedFacilitySlugs: ["harris-county-jail", "dallas-county-jail", "bexar-county-adult-detention-center"],
@@ -688,6 +691,8 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Video visits are scheduled through your NCIC account after you register and add the inmate. Create the account at account.ncic.com." },
     { question: "Can I message an inmate?", answer: "Yes, NCIC provides secure email messaging services for this facility through the same friends and family account." },
     { question: "How do I send mail to an inmate?", answer: "Address it to the inmate's full name and booking number at Williamson County Jail, P.O. Box 460, Georgetown, TX 78627. Use standard envelopes, no larger than 9x12 inches." },
+    { question: "How do I visit someone at Williamson County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
+    { question: "Where is Williamson County Jail?", answer: "Williamson County Jail is in Georgetown, Texas, at 306 W. 4th Street. The county Corrections Bureau runs the jail. Separate juvenile facilities exist." },
   ],
 
   relatedFacilitySlugs: ["harris-county-jail", "bexar-county-adult-detention-center", "dallas-county-jail"],

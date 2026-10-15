@@ -145,7 +145,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/facility/pre-trial-detention-center-miami',
-        destination: '/facility/federal-detention-center-miami',
+        destination: '/facility/miami-dade-county-jail',
         permanent: true,
       },
       {
@@ -179,8 +179,28 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/facility/wayne-county-jail-michigan',
+        destination: '/facility/wayne-county-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/williamson-county-jail-texas',
+        destination: '/facility/williamson-county-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/kent-county-jail-michigan',
+        destination: '/facility/kent-county-jail',
+        permanent: true,
+      },
+      {
+        source: '/facility/montgomery-county-jail-texas',
+        destination: '/facility/montgomery-county-jail',
+        permanent: true,
+      },
+      {
         source: '/facility/joseph-v-conte-facility',
-        destination: '/state/california',
+        destination: '/facility/broward-county-jail',
         permanent: true,
       },
       {
@@ -206,7 +226,7 @@ const nextConfig: NextConfig = {
       {
         source: '/facility/california-state-prison-los-angeles-county',
         destination: '/state/california',
-        permanent: false,
+        permanent: true,
       },
     ]
   },

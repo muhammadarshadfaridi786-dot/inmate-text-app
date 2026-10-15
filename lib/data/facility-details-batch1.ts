@@ -2957,17 +2957,17 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Pinal County",
     securityLevel: "Close / Death Row",
     hasDetailPage: true,
-    seoTitle: "ASPC Florence: ICSolutions Phone, Securus Messaging and PAN",
-    seoDescription: "How to contact someone at Arizona State Prison Complex Florence. ICSolutions handles phone calls. Securus for messaging.",
+    seoTitle: "ASPC Florence (Closed 2022): What Families Need to Know",
+    seoDescription: "Arizona State Prison Complex Florence closed in 2022 and no longer houses inmates. How to find where someone was transferred.",
 
     description:
-      "Arizona State Prison Complex Florence communication guide. Find JPay messaging and Securus phone options for families at this historic Pinal County correctional complex.",
+      "Arizona State Prison Complex Florence closed in 2022 and no longer houses inmates. This page explains the closure, the remaining execution chamber, and how to find where someone was transferred through the ADCRR inmate search.",
 
     overview: [
-      "Arizona State Prison Complex Florence is a correctional campus located in the town of Florence in Pinal County, roughly 60 miles southeast of Phoenix. Operated by the Arizona Department of Corrections, Rehabilitation and Reentry, the complex includes multiple separate units at various security levels, including close-custody units and Arizona's death row for male inmates. Florence is one of Arizona's oldest and largest prison sites, with roots going back to 1908. The town of Florence is shaped by the presence of the prison complex, and the facility has been central to Arizona's correctional history for more than a century.",
-      "Communication at ASPC Florence operates through ADCRR provider contracts. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account and link the inmate using their Arizona DOC number to send messages and photos. Securus Technologies handles phone calls and video visitation. Setting up a Securus prepaid account linked to your phone number allows you to receive inmate-initiated calls. Video visits through Securus provide a remote alternative to in-person visits, which requires an approved visitor application through ADCRR.",
-      "The death row component of ASPC Florence affects communication access for a portion of the population. Inmates on death row face more restrictive communication rules than those in general-population close-custody units. Families whose loved one is on Arizona's death row should confirm current communication access with the facility directly, as access to messaging and phone calls can differ from standard rules. For general-population close-custody inmates, the JPay and Securus setup is the same as at other Arizona state facilities. Because JPay and Securus serve multiple Arizona DOC facilities, accounts do not need to be recreated if an inmate is transferred within the state system.",
-    ],
+    "Arizona State Prison Complex Florence closed in 2022 and no longer houses inmates. The Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR) deactivated the aging complex, the state's oldest prison site, and transferred its population to other facilities, including the CoreCivic-run La Palma Correctional Center in Eloy. The complex stood in the town of Florence in Pinal County, roughly 60 miles southeast of Phoenix, and had operated since 1908.",
+    "Before closure, communication at ASPC Florence followed ADCRR provider contracts: JPay for electronic messaging, photo sharing, and money transfers, and Securus for phone calls and video visitation. Those accounts no longer apply to this facility. People housed at Florence were transferred to other Arizona facilities when the complex closed. Use the ADCRR inmate search to confirm a person's current housing location before setting up or funding any account.",
+    "One function remains at the Florence site: the Central Unit execution chamber is still Arizona's execution site. ADCRR material from March 2025 describes the Florence facility as no longer used to house inmates, and the March 19, 2025 execution of Aaron Gunches took place there. Do not send mail, money, or visit requests to the old Florence address. Use the ADCRR inmate search at corrections.az.gov to confirm current housing, then follow the communication setup for the facility where the person is now housed.",
+  ],
 
     address: "1305 E. Butte Avenue, Florence, AZ 85132",
     phone: "(520) 868-4011",
@@ -2977,91 +2977,46 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     established: 1908,
     operatedBy: "Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR)",
 
-    providers: [
-      {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        messaging: true,
-        video: false,
-        photos: true,
-        phone: false,
-        moneyTransfer: true,
-        notes: "Electronic messaging, photo sharing, and trust account deposits. Uses Arizona DOC number.",
-      },
-      {
-        name: "Securus",
-        slug: "securus",
-        initial: "S",
-        color: "bg-indigo-600",
-        messaging: false,
-        video: true,
-        photos: false,
-        phone: true,
-        moneyTransfer: false,
-        notes: "Phone calls and video visitation under the ADCRR contract.",
-      },
-    ],
+    providers: [],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may be more restricted." },
-      video: { status: "limited", provider: "Securus", notes: "Available for eligible inmates. Death row access varies. Schedule in advance." },
-      photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to ADCRR content guidelines." },
-      phone: { status: "available", provider: "Securus", notes: "Inmate-initiated calls. Fund Securus prepaid account to receive calls." },
-      moneyTransfer: { status: "available", provider: "JPay", notes: "Trust account deposits via JPay for commissary purchases." },
-    },
+    messaging: { status: "unavailable", provider: undefined, notes: "Facility closed in 2022. No messaging service at this facility." },
+    video: { status: "unavailable", provider: undefined, notes: "Facility closed in 2022. No video visitation at this facility." },
+    photos: { status: "unavailable", provider: undefined, notes: "Facility closed in 2022. No photo service at this facility." },
+    phone: { status: "unavailable", provider: undefined, notes: "Facility closed in 2022. No phone service at this facility." },
+    moneyTransfer: { status: "unavailable", provider: undefined, notes: "Facility closed in 2022. Do not send money to this facility." },
+  },
 
     rules: [
-      "Death row inmates face stricter communication limits than general-population close-custody inmates.",
-      "JPay and Securus are separate platforms. Messaging and phone funds do not transfer between them.",
-      "Messages via JPay are reviewed by ADCRR staff before delivery.",
-      "Visitor approval requires submitting an ADCRR visitor application and passing a background review.",
-      "Senders must be on the approved contact list before communication is possible.",
-    ],
+    "ASPC Florence closed in 2022 and no longer houses inmates.",
+    "Do not send mail, money, or visit requests to the old Florence address.",
+    "Use the ADCRR inmate search to confirm current housing before setting up or funding any account.",
+    "The Central Unit execution chamber remains Arizona's execution site.",
+    "Existing JPay and Securus accounts may carry over to the facility where the person is now housed. Confirm with the new facility before funding anything.",
+  ],
 
     faq: [
-      {
-        question: "How do I send a message to someone at ASPC Florence?",
-        answer: "Create a JPay account at jpay.com and add the inmate using their Arizona DOC number. Purchase stamps and compose your message. ADCRR staff review messages before delivery, typically within 24 to 48 hours.",
-      },
-      {
-        question: "How do I set up phone calls from ASPC Florence?",
-        answer: "Phone calls use Securus. Create a Securus account at securustech.net or through the Securus app. Set up a prepaid account linked to your phone number and add funds. The inmate will call you from facility phones.",
-      },
-      {
-        question: "Is my loved one in the general population or on death row at ASPC Florence?",
-        answer: "Use the ADCRR inmate search at corrections.az.gov to confirm housing assignment. The distinction matters because death row inmates face stricter communication rules than close-custody general-population inmates. If communication is not coming through as expected, housing assignment is the first thing to verify.",
-      },
-      {
-        question: "Can I do a video visit at ASPC Florence?",
-        answer: "Video visits are available for eligible inmates through Securus. Create a Securus account, search for Arizona State Prison Complex Florence, and schedule an available slot. Death row inmates may have restricted video visit access. Confirm eligibility before booking.",
-      },
-      {
-        question: "How do I send money to an ASPC Florence inmate?",
-        answer: "Trust account deposits are processed through JPay. Log in, go to Send Money, and select Arizona State Prison Complex Florence. Add funds via debit or credit card. Processing takes one to two business days.",
-      },
-      {
-        question: "How do I find out which unit at ASPC Florence holds my loved one?",
-        answer:
-          "Use the ADCRR Inmate Data Search at corrections.az.gov/inmate-data-search and search by name or ADCRR number. The complex has several units, and the unit matters for visiting and mailing, so confirm it before you book a visit or send anything.",
-      },
-      {
-        question: "How do I get approved to visit at ASPC Florence?",
-        answer:
-          "Submit an ADCRR visitor application and wait for approval before scheduling a visit. Only approved visitors are admitted. Bring a valid government-issued photo ID, follow the ADCRR dress code, and check the rules for the specific unit before traveling.",
-      },
-      {
-        question: "Can I send books or packages to someone at ASPC Florence?",
-        answer:
-          "Books and publications must come directly from an approved vendor or publisher, not from a personal package. Personal packages are restricted. Check the current ADCRR publication and property rules before ordering anything.",
-      },
-      {
-        question: "What happens if my loved one transfers to another Arizona prison?",
-        answer:
-          "Your JPay and Securus accounts are statewide, so they carry over to any other ADCRR facility. Update the facility name when scheduling Securus video visits, and confirm the new location in the ADCRR Inmate Data Search.",
-      },
-    ],
+    {
+      question: "Is ASPC Florence closed?",
+      answer: "Yes. ADCRR deactivated the complex in 2022 and transferred its population to other facilities, including the CoreCivic-run La Palma Correctional Center in Eloy. The facility no longer houses inmates.",
+    },
+    {
+      question: "How do I find where someone from ASPC Florence was transferred?",
+      answer: "Use the ADCRR Inmate Data Search at corrections.az.gov/inmate-data-search and search by name or ADCRR number. Confirm current housing before setting up or funding any account.",
+    },
+    {
+      question: "Can I still use my JPay or Securus account?",
+      answer: "Those accounts no longer apply to Florence. JPay and Securus serve other Arizona facilities, so an existing account may carry over to the facility where the person is now housed. Confirm with the new facility before funding anything.",
+    },
+    {
+      question: "Is the execution chamber at Florence still used?",
+      answer: "Yes. The Central Unit execution chamber remains Arizona's execution site. ADCRR material from March 2025 describes the Florence facility as no longer used to house inmates, and the March 19, 2025 execution took place there.",
+    },
+    {
+      question: "Can I visit or send mail to ASPC Florence?",
+      answer: "No. Do not send mail, money, or visit requests to the old Florence address. Use the ADCRR inmate search to find the person's current housing location.",
+    },
+  ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
     relatedFacilitySlugs: [

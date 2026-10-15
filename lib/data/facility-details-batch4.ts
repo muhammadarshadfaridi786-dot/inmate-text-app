@@ -1585,12 +1585,12 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   seoDescription: "How to contact someone at Halawa Correctional Facility in Aiea Hawaii.",
 
   description:
-    "Halawa Correctional Facility communication guide for Aiea, Oahu. Find JPay and Securus options for messaging, photos, phone calls, and video visits with someone held at this Hawaii Department of Corrections and Rehabilitation facility.",
+    "Halawa Correctional Facility communication guide for Aiea, Oahu. Find GTL options for messaging, photos, phone calls, and video visits with someone held at this Hawaii Department of Corrections and Rehabilitation facility.",
 
   overview: [
     "Halawa Correctional Facility is one of Hawaii's main state prisons, located in Aiea on the island of Oahu. It is operated by the Hawaii Department of Corrections and Rehabilitation and holds men at medium and higher security classifications, including a special needs unit for people who require additional medical or mental health support. Because it is one of the larger facilities in the state system, people from other Hawaiian islands are sometimes transferred here.",
-    "Families reach someone at Halawa through two providers. JPay handles electronic messaging, digital photo sharing, and money transfers, all through a single account. Securus handles phone calls and video visitation. To send a message or photo, create a JPay account and add the person using their name and Hawaii DOC identification number. To talk by phone or set up a video visit, create a separate Securus account.",
-    "For families living on other islands, such as Maui, the Big Island, or Kauai, video visitation through Securus can be far more practical than traveling to Oahu for an in-person visit. It is worth checking current visitation rules directly with the facility, since island-to-island travel adds real cost and time for many families. New contacts typically need to be approved before messages, calls, or video visits will go through.",
+    "Communication at Halawa runs through GTL (Global Tel Link). Phone calls, tablet video visits, and messaging run through GTL, and trust account deposits go through GTL/ViaPath ConnectNetwork. To send a message or photo, create a GettingOut account and add the person using their name and Hawaii DOC identification number. To talk by phone or set up a video visit, use the same GTL account.",
+    "For families living on other islands, such as Maui, the Big Island, or Kauai, video visitation through GTL tablets can be far more practical than traveling to Oahu for an in-person visit. It is worth checking current visitation rules directly with the facility, since island-to-island travel adds real cost and time for many families. New contacts typically need to be approved before messages, calls, or video visits will go through.",
   ],
 
   address: "99-902 Moanalua Road, Aiea, HI 96701",
@@ -1603,20 +1603,19 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
 
   providers: [
-    { name: "JPay", slug: "jpay", initial: "J", color: "bg-blue-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, and money transfers for Halawa Correctional Facility." },
-    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls and video visitation for Halawa Correctional Facility." },
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: true, video: true, photos: true, phone: true, moneyTransfer: true, notes: "Phone calls, tablet video visits, messaging, and trust deposits through GTL (GettingOut tablets, ConnectNetwork deposits), per Hawaii DCR." },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "JPay", notes: "Messages are reviewed by staff before delivery." },
-    video: { status: "available", provider: "Securus", notes: "A practical option for families on other Hawaiian islands. Schedule in advance." },
-    photos: { status: "available", provider: "JPay", notes: "Photos are screened for content before being delivered." },
-    phone: { status: "available", provider: "Securus", notes: "Set up an account and add funds to accept calls." },
-    moneyTransfer: { status: "available", provider: "JPay", notes: "Commissary deposits can be made through JPay." },
+    messaging: { status: "available", provider: "GTL", notes: "Messages via GTL. Reviewed by staff before delivery." },
+    video: { status: "available", provider: "GTL", notes: "Video visits via GTL tablets. A practical option for families on other Hawaiian islands. Schedule in advance." },
+    photos: { status: "available", provider: "GTL", notes: "Photos are screened for content before being delivered." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls via GTL. Set up an account and add funds to accept calls." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Trust deposits can be made through GTL/ViaPath ConnectNetwork." },
   },
 
   rules: [
-    "JPay handles messaging, photos, and money. Securus handles phone and video.",
+    "GTL handles phone, messaging, photos, and video through its GettingOut platform. Trust deposits go through GTL/ViaPath ConnectNetwork.",
     "New contacts typically need approval before communication is allowed.",
     "All calls, messages, and video visits are subject to monitoring.",
     "Families on other islands should confirm current visitation options, since video visits can save significant travel time.",
@@ -1624,11 +1623,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I message someone at Halawa Correctional Facility?", answer: "Create a JPay account, search for the person using their name and Hawaii DOC identification number, and send a message. Expect a review period before it's delivered." },
-    { question: "How do I call someone at Halawa Correctional Facility?", answer: "Set up a Securus account for phone calls. The person you're contacting usually needs to add you to their approved contact list first." },
-    { question: "Is video visitation available at Halawa Correctional Facility?", answer: "Yes, through Securus. This is especially useful for families living on other Hawaiian islands who cannot easily travel to Oahu. Schedule ahead of time." },
-    { question: "Can someone from another Hawaiian island visit in person at Halawa?", answer: "In-person visits are possible but require island travel, which adds time and cost. Many families choose video visitation through Securus as a more practical option for regular contact." },
-    { question: "How do I send money to someone at Halawa Correctional Facility?", answer: "Use JPay to make commissary deposits. Create an account, add the person's information, and transfer funds using a debit or credit card." },
+    { question: "How do I message someone at Halawa Correctional Facility?", answer: "Create a GettingOut account, search for the person using their name and Hawaii DOC identification number, and send a message. Expect a review period before it's delivered." },
+    { question: "How do I call someone at Halawa Correctional Facility?", answer: "Set up a GTL account for phone calls. The person you're contacting usually needs to add you to their approved contact list first." },
+    { question: "Is video visitation available at Halawa Correctional Facility?", answer: "Yes, through GTL tablets. This is especially useful for families living on other Hawaiian islands who cannot easily travel to Oahu. Schedule ahead of time." },
+    { question: "Can someone from another Hawaiian island visit in person at Halawa?", answer: "In-person visits are possible but require island travel, which adds time and cost. Many families choose video visitation through GTL tablets as a more practical option for regular contact." },
+    { question: "How do I send money to someone at Halawa Correctional Facility?", answer: "Use GTL/ViaPath ConnectNetwork to make trust account deposits. Create an account, add the person's information, and transfer funds using a debit or credit card." },
       {
         question: "How do I send mail to someone at Halawa Correctional Facility?",
         answer: "Address mail with the person's full legal name and inmate identification number, care of Halawa Correctional Facility, 99-902 Moanalua Road, Aiea, HI 96701. Include the inmate ID so mail reaches the right person.",
@@ -1639,11 +1638,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "Can I schedule a video visit with someone at Halawa Correctional Facility?",
-        answer: "Yes. Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+        answer: "Yes. Schedule video visits through your GTL account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
       },
       {
         question: "Can an inmate at Halawa Correctional Facility call me?",
-        answer: "Inmates can make outgoing calls to approved numbers, but they cannot receive incoming calls. Set up a Securus account and add funds so you can accept calls from the facility.",
+        answer: "Inmates can make outgoing calls to approved numbers, but they cannot receive incoming calls. Set up a GTL account and add funds so you can accept calls from the facility.",
       },
       {
         question: "How do I find the current visiting schedule at Halawa Correctional Facility?",
@@ -2400,12 +2399,12 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   seoDescription: "How to contact someone at Maui Community Correctional Center in Wailuku Hawaii.",
 
   description:
-    "Maui Community Correctional Center communication guide. Find GettingOut and Securus options for families reaching people held at Maui's main jail in Wailuku.",
+    "Maui Community Correctional Center communication guide. Find GTL options for families reaching people held at Maui's main jail in Wailuku.",
 
   overview: [
     "Maui Community Correctional Center, often shortened to MCCC, is the main detention facility serving Maui County, located in Wailuku. Unlike most states, Hawaii does not have separate county jails run by local sheriffs. Instead, the entire correctional system, including facilities that function like county jails, is operated by the state's Department of Corrections and Rehabilitation. MCCC holds people awaiting trial as well as people serving shorter sentences from Maui County courts.",
-    "Communication at MCCC runs through two providers. GettingOut handles electronic messaging, photo sharing, and money deposits, with a free account available at gettingout.com or through the GettingOut app. Securus handles phone calls and video visitation through a separate account at securustech.net. Because MCCC is run by the state rather than a county agency, its communication setup is consistent with other Hawaii Department of Corrections and Rehabilitation facilities.",
-    "MCCC serves the island of Maui, and its Wailuku location is central and generally reachable for island residents planning an in-person visit. Families living on other Hawaiian islands or on the mainland typically rely more on GettingOut and Securus than on in-person visits, given the cost and time of interisland or long-distance travel. If someone is sentenced to a longer term, they may be transferred to a different Hawaii DCR facility, sometimes on another island, so it's worth checking their current location before assuming it hasn't changed.",
+    "Communication at MCCC runs through GTL (Global Tel Link). Phone calls, tablet video visits, and messaging run through GTL, and trust account deposits go through GTL/ViaPath ConnectNetwork. Create a GettingOut account to message, share photos, and set up video visits. Because MCCC is run by the state rather than a county agency, its communication setup is consistent with other Hawaii Department of Corrections and Rehabilitation facilities.",
+    "MCCC serves the island of Maui, and its Wailuku location is central and generally reachable for island residents planning an in-person visit. Families living on other Hawaiian islands or on the mainland typically rely more on GTL tablet video visits than on in-person visits, given the cost and time of interisland or long-distance travel. If someone is sentenced to a longer term, they may be transferred to a different Hawaii DCR facility, sometimes on another island, so it's worth checking their current location before assuming it hasn't changed.",
   ],
 
   address: "600 Waiale Drive, Wailuku, HI 96793",
@@ -2417,20 +2416,19 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   operatedBy: "Hawaii Department of Corrections and Rehabilitation",
 
   providers: [
-    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, and money deposits for MCCC." },
-    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls and video visitation for MCCC." },
+    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: true, video: true, photos: true, phone: true, moneyTransfer: true, notes: "Phone calls, tablet video visits, messaging, and trust deposits through GTL (GettingOut tablets, ConnectNetwork deposits), per Hawaii DCR." },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut. Messages are reviewed by facility staff before delivery." },
-    video: { status: "available", provider: "Securus", notes: "Video visitation available through Securus, useful for families on other islands or the mainland." },
-    photos: { status: "available", provider: "GettingOut", notes: "Digital photo sharing through GettingOut, along with standard physical mail." },
-    phone: { status: "available", provider: "Securus", notes: "Fund a Securus account to accept calls from someone at MCCC." },
-    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Deposits accepted through GettingOut online or by phone." },
+    messaging: { status: "available", provider: "GTL", notes: "Electronic messaging through GTL. Messages are reviewed by facility staff before delivery." },
+    video: { status: "available", provider: "GTL", notes: "Video visitation available through GTL tablets, useful for families on other islands or the mainland." },
+    photos: { status: "available", provider: "GTL", notes: "Digital photo sharing through GTL, along with standard physical mail." },
+    phone: { status: "available", provider: "GTL", notes: "Fund a GTL account to accept calls from someone at MCCC." },
+    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposits accepted through ConnectNetwork online or by phone." },
   },
 
   rules: [
-    "GettingOut covers messaging, photos, and money. Securus covers phone calls and video visits.",
+    "GTL covers phone, messaging, photos, and video through its GettingOut platform. Trust deposits go through GTL/ViaPath ConnectNetwork.",
     "MCCC is operated by the state of Hawaii, not a county sheriff, since Hawaii runs a unified correctional system.",
     "All communication is subject to review and monitoring by facility staff.",
     "Only people on the approved contact list can message, call, or visit.",
@@ -2438,11 +2436,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I contact someone at Maui Community Correctional Center?", answer: "Set up a GettingOut account for messaging, photos, and money, and a separate Securus account for phone calls and video visits. Both need the person's full name and booking information." },
+    { question: "How do I contact someone at Maui Community Correctional Center?", answer: "Set up a GTL account for messaging, photos, phone calls, and video visits. Trust deposits go through ConnectNetwork. You need the person's full name and booking information." },
     { question: "Who runs Maui Community Correctional Center?", answer: "MCCC is operated by the Hawaii Department of Corrections and Rehabilitation. Hawaii does not have separate county-run jails, so the state agency manages facilities like MCCC directly." },
-    { question: "Can I do a video visit with someone at MCCC from the mainland?", answer: "Yes. Video visitation through Securus is often the most practical option for families who live far from Maui, including other Hawaiian islands and the mainland. Schedule in advance for the best chance of an open slot." },
+    { question: "Can I do a video visit with someone at MCCC from the mainland?", answer: "Yes. Video visitation through GTL tablets is often the most practical option for families who live far from Maui, including other Hawaiian islands and the mainland. Schedule in advance for the best chance of an open slot." },
     { question: "How do I find out if someone is currently at MCCC?", answer: "The Hawaii Department of Corrections and Rehabilitation provides facility and inmate information on its website, dcr.hawaii.gov. You can also call the facility directly to confirm custody status." },
-    { question: "How do I send money to someone at MCCC?", answer: "Use GettingOut online or by phone to make a deposit. Funds are typically applied to the person's account within a day or two." },
+    { question: "How do I send money to someone at MCCC?", answer: "Use GTL/ViaPath ConnectNetwork online or by phone to make a deposit. Funds are typically applied to the person's account within a day or two." },
       {
         question: "How do I send mail to someone at Maui Community Correctional Center?",
         answer: "Address mail with the person's full name and ID number, care of Maui Community Correctional Center, 600 Waiale Drive, Wailuku, HI 96793. Include the ID number so mail reaches the right person.",
@@ -2453,7 +2451,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I schedule a video visit at Maui Community Correctional Center?",
-        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+        answer: "Schedule video visits through your GTL account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
       },
       {
         question: "How do I post bail for someone at Maui Community Correctional Center?",
@@ -3343,6 +3341,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   address: "111 W. Commerce St, Dallas, TX 75202",
+  mailingAddress: "Inmate name and book-in number, c/o Mail Processing Center, PO Box 9226, Seminole, FL 33775-9226. Attorney confidential mail: PO Box 660334, Dallas, TX 75266",
   phone: "(214) 761-9025",
   website: "https://www.dallascounty.org",
   fax: "(214) 653-3420",
@@ -3386,7 +3385,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Suzanne Lee Kays Detention Facility?", answer: "Yes, remote video visits are available through SmartInmate. Because the complex holds a large population, available time slots can fill up fast, so check often and book as early as you can." },
     { question: "How do I check if someone is in custody at Suzanne Lee Kays Detention Facility?", answer: "Dallas County provides an online inmate search tool. You can also call the jail's information line at (214) 761-9025, which is staffed 24 hours a day." },
     { question: "What happens after someone is sentenced to state prison from Dallas County?", answer: "People sentenced to state time are transferred to a Texas Department of Criminal Justice unit. Communication providers at TDCJ units differ from the county jail, so check the new facility's setup right after any transfer." },
-    { question: "How do I send mail to someone at Suzanne Lee Kays Detention Facility?", answer: "Address mail with the person's full legal name and booking number to Suzanne Lee Kays Detention Facility, 111 W. Commerce St, Dallas, TX 75202. Mail is inspected before delivery." },
+    { question: "How do I send mail to someone at Suzanne Lee Kays Detention Facility?", answer: "Address personal mail with the person's full legal name and booking number to c/o Mail Processing Center, PO Box 9226, Seminole, FL 33775-9226. Attorney and confidential legal mail goes to PO Box 660334, Dallas, TX 75266. Do not send mail to the facility street address. Mail is inspected before delivery." },
     { question: "What do I need to look someone up at Suzanne Lee Kays Detention Facility?", answer: "You need the person's full legal name and booking number. With those, you can use the Dallas County inmate search or call the jail information line to confirm custody and housing." },
     { question: "Why did a call from Suzanne Lee Kays Detention Facility not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that the calling account has funds. A block on the receiving number or an unapproved number will stop the call." },
     { question: "What should I do if someone is moved to a different tower or facility?", answer: "Housing can change within the Lew Sterrett Justice Center complex, so confirm the current housing location before mailing anything. After sentencing to state prison, the person is transferred to a Texas Department of Criminal Justice unit with a different communication setup." },
@@ -7285,28 +7284,28 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Fairfax County Adult Detention Center: Phone Calls and",
-  seoDescription: "How to contact someone at Fairfax County Adult Detention Center in Fairfax VA. GTL ConnectNetwork handles phone calls.",
+  seoDescription: "How to contact someone at Fairfax County Adult Detention Center in Fairfax VA. Smart Communications handles phone calls, video visits, and messaging.",
 
   description: "Fairfax County Adult Detention Center in Fairfax Virginia. Find phone calls, messaging, and money transfer options for this Virginia county jail.",
 
   overview: [
-    "Fairfax County Adult Detention Center is located in Fairfax, Virginia and is operated by the Fairfax County Sheriff's Office. The facility houses pretrial detainees and sentenced inmates. GTL ConnectNetwork handles phone calls at this Virginia county facility.",
-    "To receive calls from Fairfax County Adult Detention Center, create a ConnectNetwork account at connectnetwork.com. Contact the facility directly to confirm current provider and all communication options before setting up accounts.",
+    "Fairfax County Adult Detention Center is located in Fairfax, Virginia and is operated by the Fairfax County Sheriff's Office. The facility houses pretrial detainees and sentenced inmates. Smart Communications handles phone calls, video visits, and messaging at this Virginia county facility.",
+    "To receive calls, create a SmartInmate account at smartinmate.com. Video visits are scheduled and paid for through Smart Communications at least 24 hours in advance.",
   ],
 
   operatedBy: "Fairfax County Sheriff's Office",
   visitingHours: "Video visits only, scheduled through Smart Communications at least 24 hours in advance. Visit windows: 9-11 a.m., 12:30-4 p.m., 5-6 p.m., and 8-10 p.m. (lobby kiosks unavailable 8-10 p.m.). Remote video visits cost 10 cents per minute; on-site video visits using a lobby kiosk are free. One video visit per day per inmate, in 15- or 30-minute increments.",
 
   providers: [
-    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Primary phone and video provider at Fairfax County Adult Detention Center." },
+    { name: "Smart Communications", slug: "smartinmate", initial: "S", color: "bg-cyan-600", messaging: true, video: true, photos: true, phone: true, moneyTransfer: true, notes: "Phone calls, video visits, messaging, and money through Smart Communications (SmartInmate) at Fairfax County Adult Detention Center." },
   ],
 
   communication: {
-    messaging: { status: "limited", provider: "GTL", notes: "Contact facility to confirm messaging availability." },
-    video: { status: "available", provider: "GTL", notes: "Video visits available through GTL ConnectNetwork." },
+    messaging: { status: "available", provider: "Smart Communications", notes: "Messaging through SmartInmate." },
+    video: { status: "available", provider: "Smart Communications", notes: "Video visits available through Smart Communications." },
     photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
-    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL ConnectNetwork." },
-    moneyTransfer: { status: "available", provider: "GTL", notes: "Money transfers through GTL ConnectNetwork." },
+    phone: { status: "available", provider: "Smart Communications", notes: "Phone calls through Smart Communications." },
+    moneyTransfer: { status: "available", provider: "Smart Communications", notes: "Money transfers through SmartInmate." },
   },
 
   rules: [
@@ -7318,9 +7317,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which provider handles phone calls at Fairfax County Adult Detention Center?", answer: "GTL ConnectNetwork handles phone calls. Create a free account at connectnetwork.com to receive calls." },
+    { question: "Which provider handles phone calls at Fairfax County Adult Detention Center?", answer: "Smart Communications handles phone calls. Create a free account at smartinmate.com to receive calls." },
     { question: "How do I find someone at Fairfax County Adult Detention Center?", answer: "Contact the Fairfax County Sheriff's Office directly or use the VADOC inmate search at vadoc.virginia.gov." },
-    { question: "How do I send money to someone at Fairfax County Adult Detention Center?", answer: "Use GTL ConnectNetwork for phone account and money deposits at connectnetwork.com." },
+    { question: "How do I send money to someone at Fairfax County Adult Detention Center?", answer: "Use SmartInmate for phone account and money deposits at smartinmate.com." },
       {
         question: "How do I schedule a video visit at Fairfax County Adult Detention Center?",
         answer: "Video visits are scheduled and paid for through Smart Communications, at least 24 hours in advance. Visit windows are 9-11 a.m., 12:30-4 p.m., 5-6 p.m., and 8-10 p.m. One video visit per day per inmate, in 15- or 30-minute increments.",
@@ -7339,7 +7338,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I block calls from Fairfax County Adult Detention Center?",
-        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+        answer: "You can decline individual calls, or contact Smart Communications to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask Smart Communications support for a full block.",
       },
       {
         question: "What happens if someone is transferred from Fairfax County Adult Detention Center?",
@@ -7347,7 +7346,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "Why did a call from Fairfax County Adult Detention Center not go through?",
-        answer: "Common causes: no funds in the GTL account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+        answer: "Common causes: no funds in the SmartInmate account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
       },
   ],
 

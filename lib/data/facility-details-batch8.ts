@@ -699,6 +699,12 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do I schedule a visit at Kent County Jail?", answer: "Visits must be scheduled at least 24 hours in advance through the facility's online visitor scheduling system or the lobby kiosk. Internet video visits from home are also reported as available." },
     { question: "Are calls at Kent County Jail monitored?", answer: "Yes. All non-legal calls are recorded and monitored by jail staff, and three-way calling is prohibited." },
     { question: "How do I send money to a Kent County inmate?", answer: "Deposits go through Access Corrections online or by phone at 1-866-345-1884, or at the kiosk in the facility lobby." },
+    { question: "What is the official name of Kent County Jail?", answer: "The facility is also known as the Kent County Correctional Facility. It is the county's main adult jail in Grand Rapids, and its operations are reported as ACA accredited." },
+    { question: "How do I find or search for an inmate at Kent County Jail?", answer: "Use the Sheriff's office or department of corrections official inmate search or roster for Kent County, Michigan. If the inmate does not appear, allow 24 to 72 hours after booking and try alternate spellings." },
+    { question: "How do I send mail to an inmate at Kent County Jail?", answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending." },
+    { question: "Can I receive incoming calls from an inmate at Kent County Jail?", answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved list." },
+    { question: "How do I block or stop calls from an inmate at Kent County Jail?", answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I schedule or cancel a video visit at Kent County Jail?", answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules." },
   ],
 
   relatedFacilitySlugs: ["wayne-county-jail", "harris-county-jail", "cuyahoga-county-jail"],

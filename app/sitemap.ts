@@ -41,6 +41,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "rikers-island-amkc",
     "twin-towers-correctional-facility",
     "california-state-prison-los-angeles-county",
+    "wayne-county-jail-michigan",
+    "williamson-county-jail-texas",
+    "kent-county-jail-michigan",
+    "montgomery-county-jail-texas",
   ])
   const facilityEntries: MetadataRoute.Sitemap = ALL_FACILITIES
     .filter((f) => f.hasDetailPage && !REDIRECTED_FACILITY_SLUGS.has(f.slug))

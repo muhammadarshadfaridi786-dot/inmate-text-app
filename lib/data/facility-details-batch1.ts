@@ -4919,16 +4919,16 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     countyName: "Dallas County",
     securityLevel: "Pretrial",
     hasDetailPage: true,
-    seoTitle: "Dallas County Jail: Securus Phone, Video Visits and Money",
-    seoDescription: "How to contact someone at Dallas County Jail in Dallas TX. Securus handles phone calls at $0.20 per minute and video visits at $10 per 20 minutes.",
+    seoTitle: "Dallas County Jail: SmartInmate Phone, Video and Money",
+    seoDescription: "How to contact someone at Dallas County Jail in Dallas TX. SmartInmate handles phone calls, video visits, and messaging. Book-in number required.",
 
     description:
-      "Dallas County Jail (Lew Sterrett Justice Center) communication guide. Find Securus phone, video, and messaging options for families. Learn how to stay connected at the downtown Dallas jail.",
+      "Dallas County Jail (Lew Sterrett Justice Center) communication guide. Find SmartInmate phone, video, and messaging options for families. Learn how to stay connected at the downtown Dallas jail.",
 
     overview: [
       "Dallas County Jail, formally the Lew Sterrett Justice Center, is the primary detention facility operated by the Dallas County Sheriff's Department, located in the Dallas Design District just northwest of downtown. With a capacity of approximately 7,000 and a daily population that makes it one of the ten largest county jails in the United States, Lew Sterrett processes a large volume of bookings from across Dallas County. The facility sits near the Dallas County courthouse complex and is a central part of the county criminal court system. The vast majority of people held there are awaiting trial on criminal charges filed in Dallas County courts.",
-      "Communication at Dallas County Jail is handled by Securus Technologies, which provides phone calls, video visitation, and messaging services under the county contract. Families create a Securus account to access all available services. For phone calls, a Securus AdvancePay account funded with your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through Securus. Messaging through Securus delivers communications electronically. Commissary deposits can also be processed through Securus. Because all services run through one provider, families only need a single account to manage communication.",
-      "Like other Texas county jails, Dallas County uses Securus rather than the JPay and GTL platforms used by TDCJ state prisons. If someone is convicted in Dallas County and transferred to a TDCJ facility after sentencing, the communication providers will change and new accounts will be needed. Until that transfer, Securus is the correct system. Dallas County also operates additional jail facilities beyond the main Lew Sterrett complex, so confirming the specific facility location through the county inmate search before attempting to book visits or send messages is always the right first step.",
+      "Communication at Dallas County Jail is handled by Smart Communications, which provides phone calls, video visitation, and messaging through the SmartInmate platform under the county contract. Families create a SmartInmate account at smartinmate.com to access all available services. For phone calls, fund a SmartInmate account linked to your phone number to receive inmate-initiated calls. Remote video visits are available and can be scheduled through SmartInmate. Messaging through SmartInmate delivers communications electronically. Commissary deposits use AccessCorrections, a separate system.",
+      "Dallas County uses SmartInmate (Smart Communications) rather than the JPay and GTL platforms used by TDCJ state prisons. If someone is convicted in Dallas County and transferred to a TDCJ facility after sentencing, the communication providers will change and new accounts will be needed. Until that transfer, SmartInmate is the correct system. Dallas County also operates additional jail facilities beyond the main Lew Sterrett complex, so confirming the specific facility location through the county inmate search before attempting to book visits or send messages is always the right first step.",
     ],
 
     address: "133 N. Industrial Boulevard, Dallas, TX 75207",
@@ -4943,55 +4943,60 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
 
     providers: [
       {
-        name: "Securus",
-        slug: "securus",
+        name: "Smart Communications",
+        slug: "smartinmate",
         initial: "S",
-        color: "bg-indigo-600",
+        color: "bg-cyan-600",
         messaging: true,
         video: true,
-        photos: false,
+        photos: true,
         phone: true,
-        moneyTransfer: true,
-        notes: "Primary provider for all Dallas County jail communication services.",
+        moneyTransfer: false,
+        notes: "Smart Communications provides phone service, video visits, and messaging through smartinmate.com. Dallas County switched from Securus to Smart Communications in late 2025.",
       },
     ],
 
     communication: {
-      messaging: { status: "available", provider: "Securus", notes: "Electronic messaging via Securus. Messages monitored by Dallas County Sheriff's staff." },
-      video: { status: "available", provider: "Securus", notes: "Remote video visits available through Securus. Schedule in advance." },
-      photos: { status: "limited", provider: undefined, notes: "Physical photo mail accepted subject to Dallas County content restrictions. No digital service." },
-      phone: { status: "available", provider: "Securus", notes: "Fund a Securus AdvancePay account to receive inmate-initiated calls." },
-      moneyTransfer: { status: "available", provider: "Securus", notes: "Commissary deposits via Securus. Separate from phone account funding." },
+      messaging: { status: "available", provider: "Smart Communications", notes: "Electronic messaging via SmartInmate. Messages monitored by Dallas County Sheriff's staff." },
+      video: { status: "available", provider: "Smart Communications", notes: "Remote video visits available through SmartInmate. Schedule in advance." },
+      photos: { status: "available", provider: "Smart Communications", notes: "Photo sharing through SmartInmate." },
+      phone: { status: "available", provider: "Smart Communications", notes: "Fund a SmartInmate account to receive inmate-initiated calls." },
+      moneyTransfer: { status: "available", notes: "Commissary deposits via AccessCorrections. See commissary details below." },
     },
 
     rules: [
-      "All Dallas County jail communication goes through Securus. After TDCJ transfer, switch to JPay and GTL.",
+      "All Dallas County jail communication goes through SmartInmate. After TDCJ transfer, switch to JPay and GTL.",
       "Calls, messages, and visits are monitored by Dallas County Sheriff's staff.",
-      "Phone and commissary accounts are maintained separately in Securus.",
-      "Video visits require advance scheduling through Securus.",
+      "Phone and messaging run through SmartInmate. Commissary deposits use AccessCorrections.",
+      "Video visits require advance scheduling through SmartInmate.",
       "Senders must be on the inmate's approved contact list.",
+      "Dallas County switched jail communications from Securus to Smart Communications in late 2025.",
     ],
 
     faq: [
       {
         question: "How do I contact someone at Dallas County Jail?",
-        answer: "All communication services at Dallas County Jail are through Securus. Create an account at securustech.net or through the Securus app. One account covers phone calls, video visits, messaging, and money transfers.",
+        answer: "All communication services at Dallas County Jail are through SmartInmate. Create an account at smartinmate.com or through the SmartInmate app. One account covers phone calls, video visits, and messaging.",
+      },
+      {
+        question: "How do I call an inmate at Dallas County Jail?",
+        answer: "Set up a SmartInmate account at smartinmate.com and add funds to receive calls placed from the jail. The inmate must call you; you cannot call an inmate directly.",
       },
       {
         question: "Can I do a video visit at Dallas County Jail?",
-        answer: "Yes, remote video visits are available through Securus. Log into your account, navigate to video visitation, select Dallas County Jail (Lew Sterrett), and choose an available time slot. Schedule at least 24 hours in advance.",
+        answer: "Yes, remote video visits are available through SmartInmate. Log into your account, navigate to video visitation, select Dallas County Jail (Lew Sterrett), and choose an available time slot. Schedule at least 24 hours in advance.",
       },
       {
         question: "How do I find if someone is in Dallas County Jail?",
-        answer: "Dallas County provides an online inmate search at dallascounty.org. You can search by name to confirm whether someone is currently in county custody and which facility they are held in.",
+        answer: "Dallas County provides an online inmate search at dallascounty.org. You can search by name to confirm whether someone is currently in county custody and which facility they are held in. You can also call the jail information line at (214) 761-9025.",
       },
       {
         question: "What happens to communication when someone is transferred to TDCJ?",
-        answer: "After sentencing and transfer to a Texas Department of Criminal Justice state prison, Securus no longer applies. TDCJ facilities use JPay for messaging and money, and GTL for phone and video. Create those accounts before or immediately after the transfer to maintain communication.",
+        answer: "After sentencing and transfer to a Texas Department of Criminal Justice state prison, SmartInmate no longer applies. TDCJ facilities use JPay for messaging and money, and GTL for phone and video. Create those accounts before or immediately after the transfer to maintain communication.",
       },
       {
         question: "How do I send money to a Dallas County Jail inmate?",
-        answer: "Commissary deposits go through Securus. Log in to your account and use the money transfer feature. You can fund via debit or credit card. Note that commissary and phone funds are separate within the Securus system.",
+        answer: "Commissary deposits go through AccessCorrections: online, by phone at 1-866-345-1884, at a lobby kiosk, or via CashPayToday walk-in. Note that commissary and phone funds are separate.",
       },
       {
         question: "How do I find or search for an inmate at Dallas County Jail?",

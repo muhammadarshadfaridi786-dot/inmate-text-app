@@ -721,7 +721,6 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   phone: "512-943-1365",
   website: "https://www.wilcotx.gov/649/Corrections-Bureau",
   operatedBy: "Williamson County Sheriff's Office",
-  notToConfuseWith: "Another listing on this site under the slug williamson-county-jail-texas refers to the same Williamson County Jail in Georgetown, Texas. This page is the main entry.",
   rosterUrl: "https://judicialrecords.wilco.org",
 
   providers: [

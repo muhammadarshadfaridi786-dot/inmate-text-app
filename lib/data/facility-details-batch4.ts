@@ -2821,6 +2821,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Laramie County Detention Center?", answer: "Commissary deposits go through GettingOut. You can add funds by debit or credit card through the app or website. Processing typically takes one business day." },
     { question: "Can I find out if someone is currently held at Laramie County Detention Center?", answer: "The Laramie County Sheriff's Office provides inmate status information by phone and, where available, through its inmate information line. You can call to confirm current custody status." },
     { question: "What happens to communication access after someone is sentenced?", answer: "People sentenced to state prison time are transferred out of Laramie County Detention Center to a Wyoming Department of Corrections facility. The provider setup at the new facility may be different, so check as soon as a transfer happens." },
+    { question: "Why did a call from Laramie County Detention Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How do I send mail to someone at Laramie County Detention Center?", answer: "Address mail with the person's full legal name and booking number to Laramie County Detention Center, 1910 Pioneer Avenue, Cheyenne, WY 82001. Mail is inspected before delivery, so keep it plain and do not send cash or items the facility does not allow." },
+    { question: "Why is my GettingOut message taking so long to arrive?", answer: "GettingOut messages are reviewed by staff before delivery, so some delay is normal. Double-check the spelling of the person's name and their booking number, since a mismatch can slow or block delivery." },
+    { question: "What should I know before visiting Laramie County Detention Center in person?", answer: "Confirm the current visiting schedule and approval rules with the Sheriff's Office before traveling, since visiting hours and requirements can change. Bring a valid photo ID and arrive early." },
   ],
 
   relatedFacilitySlugs: ["montana-state-prison", "clark-county-detention-center", "douglas-county-department-of-corrections"],
@@ -2883,6 +2887,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Suzanne Lee Kays Detention Facility?", answer: "Yes, through Securus. Because the complex holds a large population, available time slots can fill up fast, so check often and book as early as you can." },
     { question: "How do I check if someone is in custody at Suzanne Lee Kays Detention Facility?", answer: "Dallas County provides an online inmate search tool. You can also call the jail's information line at (214) 761-9025, which is staffed 24 hours a day." },
     { question: "What happens after someone is sentenced to state prison from Dallas County?", answer: "People sentenced to state time are transferred to a Texas Department of Criminal Justice unit. Communication providers at TDCJ units differ from the county jail, so check the new facility's setup right after any transfer." },
+    { question: "How do I send mail to someone at Suzanne Lee Kays Detention Facility?", answer: "Address mail with the person's full legal name and booking number to Suzanne Lee Kays Detention Facility, 111 W. Commerce St, Dallas, TX 75202. Mail is inspected before delivery." },
+    { question: "What do I need to look someone up at Suzanne Lee Kays Detention Facility?", answer: "You need the person's full legal name and booking number. With those, you can use the Dallas County inmate search or call the jail information line to confirm custody and housing." },
+    { question: "Why did a call from Suzanne Lee Kays Detention Facility not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that the calling account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What should I do if someone is moved to a different tower or facility?", answer: "Housing can change within the Lew Sterrett Justice Center complex, so confirm the current housing location before mailing anything. After sentencing to state prison, the person is transferred to a Texas Department of Criminal Justice unit with a different communication setup." },
   ],
 
   relatedFacilitySlugs: ["lew-sterrett-justice-center", "essex-county-correctional-facility", "theo-lacy-facility"],
@@ -3147,6 +3155,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  rosterUrl: "https://www8.miamidade.gov/Apps/mdcr/InmateSearch/",
   operatedBy: "Miami-Dade County Sheriff's Office",
 
   providers: [
@@ -3176,6 +3185,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Turner Guilford Knight Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Turner Guilford Knight Correctional Center?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Turner Guilford Knight Correctional Center?", answer: "Address mail with the person's full name and jail number to Turner Guilford Knight Correctional Center. Mail is inspected before delivery, and magazines or books must come directly from the publisher." },
+    { question: "Why did a call from Turner Guilford Knight Correctional Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What if I cannot find someone in the Miami-Dade inmate search?", answer: "Check the spelling of the name and try the booking number. People are sometimes moved between Miami-Dade facilities, and newly booked people may not appear right away, so try again later or call the inmate information line." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -3612,6 +3625,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Maryland Correctional Institution Jessup?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Maryland Correctional Institution Jessup?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Maryland Correctional Institution Jessup?", answer: "Address mail with the person's full name and ID number to Maryland Correctional Institution Jessup. All mail is inspected before delivery." },
+    { question: "Why did a call from Maryland Correctional Institution Jessup not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What if I cannot find someone in the Maryland inmate search?", answer: "Check the spelling of the name and try again, since transfers and new admissions can take time to appear. Confirm the current facility placement before funding any account, since providers differ by facility." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -3720,6 +3737,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "Friday, Saturday, and Sunday, 9:30 AM to 1:30 PM and 2:30 PM to 6:30 PM. Visitors must be on the inmate's approved visitor list.",
+  mailingAddress: "Offender Name and DOC ID Number\nCrossroads Correctional Center\n1115 East Pence Road\nCameron, MO 64429",
+  fax: "(816) 632-2754",
   operatedBy: "Missouri Department of Corrections",
 
   providers: [
@@ -3749,6 +3769,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Crossroads Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Crossroads Correctional Center?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Crossroads Correctional Center?", answer: "Address mail with the offender's full name and DOC ID number to Crossroads Correctional Center, 1115 East Pence Road, Cameron, MO 64429. All mail is inspected before delivery. Do not send cash, personal checks, or money orders through the mail." },
+    { question: "Why did a call from Crossroads Correctional Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to do before visiting Crossroads Correctional Center?", answer: "Visitors must be on the inmate's approved visitor list, so complete the visiting application before traveling. Bring a valid photo ID, and confirm the current schedule before you go, since visiting hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -3778,6 +3802,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "In-person visits run 9:00 AM to 7:00 PM and start on the hour, except 4:30 PM. Inmates get one 30-minute visit per week, with no more than three visitors. Schedule in-person visits 24 hours in advance. Last names A-M visit Monday or Saturday, N-Z Tuesday or Sunday, and A, B, and W Units Wednesday or Thursday.",
   operatedBy: "Pulaski County Sheriff's Office",
 
   providers: [
@@ -3807,6 +3832,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Pulaski County Detention Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Pulaski County Detention Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Pulaski County Detention Facility?", answer: "Address mail with the inmate's full name and ID number. Mail with checks, cash, pictures, stickers, fragrance, or tape will be returned, and books must be soft-back Bibles or publisher subscriptions." },
+    { question: "What are the rules for in-person visits at Pulaski County Detention Facility?", answer: "In-person visits run 9:00 AM to 7:00 PM, start on the hour except 4:30 PM, and last 30 minutes. Schedule 24 hours ahead, bring photo ID, and arrive on time: visitors 10 or more minutes late lose the visit." },
+    { question: "Can I get a special visit at Pulaski County Detention Facility?", answer: "Special visits may be approved if you traveled 100 miles or more one way. Bring proof of distance, such as a driver's license showing your address, and ask the Watch Commander for approval." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -3836,6 +3865,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "Visits are scheduled online in advance through GTL VisitMe. Male inmates visit on Tuesdays and female inmates on Wednesdays, 8:00 to 11:00 AM and 1:00 to 4:00 PM.",
   operatedBy: "Hinds County Sheriff's Office",
 
   providers: [
@@ -3865,6 +3895,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Hinds County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Hinds County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Hinds County Detention Center?", answer: "Address mail with the person's full legal name and booking number. All mail is inspected before delivery." },
+    { question: "What days and times are visits at Hinds County Detention Center?", answer: "Visits are scheduled online in advance. Male inmates visit on Tuesdays and female inmates on Wednesdays, 8:00 to 11:00 AM and 1:00 to 4:00 PM. Schedule ahead, since slots are limited." },
+    { question: "Why did a call from Hinds County Detention Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that the calling account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What if I cannot find someone in the Hinds County inmate search?", answer: "Check the spelling of the name and try again, since bookings take time to appear. Confirm the current housing location before mailing anything, since Hinds County operates more than one detention site." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -3923,6 +3957,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Arizona State Prison Complex Perryville?", answer: "Video visits are available through ICSolutions. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Arizona State Prison Complex Perryville?", answer: "Deposits go through ICSolutions. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Arizona State Prison Complex Perryville?", answer: "Address mail with the person's full name and ADC number. All mail is inspected before delivery." },
+    { question: "Why did a call from Arizona State Prison Complex Perryville not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ICSolutions account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to do before visiting Arizona State Prison Complex Perryville?", answer: "Visitors must be approved in advance, so submit the visitor application and wait for approval before traveling. Bring a valid photo ID, and confirm the current schedule, since visiting hours vary by unit." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -3952,6 +3990,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  commissary: "Do not mail money to the facility address. BOP funds sent by mail go to the central processing center in Des Moines, Iowa.",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -3981,6 +4021,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at FCC Yazoo City?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at FCC Yazoo City?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at FCC Yazoo City?", answer: "Address mail with the person's full name and BOP register number. FCC Yazoo City is a complex with several units, so confirm the person's current unit before mailing." },
+    { question: "Why did a call from FCC Yazoo City not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ConnectNetwork account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What is the difference between the units at FCC Yazoo City?", answer: "FCC Yazoo City is a federal complex with low, medium, and high security facilities plus satellite camps. Communication follows standard BOP procedures across the complex, but visiting schedules can differ by unit, so confirm the unit first." },
+    { question: "Why do I need the BOP register number?", answer: "The BOP register number identifies the person across BOP systems. You need it to fund a ConnectNetwork account, send money, and look someone up in the BOP inmate locator." },
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
@@ -4010,6 +4054,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "Video visits can be scheduled online through HomeWAV or in the front lobby of the Sheriff's Office. On-site visitation: female inmates Saturdays 8:00 to 10:00 AM (check in by 9:00 AM); male inmates with last names A-L Saturdays 1:00 to 5:00 PM (check in by 4:00 PM); male inmates M-Z Sundays 1:00 to 5:00 PM (check in by 4:00 PM).",
+  commissary: "The Sheriff's Office partners with Summit for commissary and banking. Deposits can be made at lobby kiosks (7:00 AM to 10:00 PM daily) or online through JailATM (jailatm.com). You need the inmate's six-digit Criminal File Number.",
   operatedBy: "Johnson County Sheriff's Office",
 
   providers: [
@@ -4039,6 +4085,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Johnson County Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Johnson County Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Johnson County Detention Center?", answer: "Address mail with the person's full legal name and jail ID number. All mail is inspected before delivery." },
+    { question: "Why did a call from Johnson County Detention Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that the calling account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to bring to a visit at Johnson County Detention Center?", answer: "Bring a valid photo ID and arrive at least 15 minutes before the scheduled visit. Only your ID and car keys may be taken into the visitation area; phones, purses, and other items are not allowed." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -4097,6 +4147,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Strafford County House of Corrections?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Strafford County House of Corrections?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Strafford County House of Corrections?", answer: "Address mail with the person's full name and booking number. Mail is inspected before delivery." },
+    { question: "Why did a call from Strafford County House of Corrections not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How are visits scheduled at Strafford County House of Corrections?", answer: "Visits are scheduled by the inmate from the visiting times assigned to their unit, and the inmate is responsible for telling visitors the scheduled time. Bring a valid photo ID and call the facility to confirm the visit is scheduled." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -4126,6 +4180,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Inmate Name, Booking Number\nFalkenburg Road Jail\n520 Falkenburg Road\nTampa, FL 33619",
+  visitingHours: "In-person visits: the inmate schedules visitors seven days a week, Sunday through Saturday 1:00 PM to 9:00 PM, 40-minute visits starting on the hour, except Thanksgiving, Christmas, and New Year's Day. Video visits are remote, typically 9:30 AM to 8:45 PM, with two hours of no-cost video visits per inmate per week. A valid government photo ID is required.",
+  commissary: "The Sheriff's Office accepts government checks, cashier's checks, and money orders for inmate accounts. The instrument must show the inmate's name, booking number, and the depositor's name and address. Funds may take 24 to 96 hours to be credited.",
+  fax: "813-242-1885",
   operatedBy: "Hillsborough County Sheriff's Office",
 
   providers: [
@@ -4155,6 +4213,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Hillsborough County Department of Corrections?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Hillsborough County Department of Corrections?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Hillsborough County Department of Corrections?", answer: "Address mail with the inmate's name and booking number to Falkenburg Road Jail, 520 Falkenburg Road, Tampa, FL 33619. All incoming mail is opened and searched, and magazines, newspapers, and books must come directly from the publisher." },
+    { question: "Why did a call from Hillsborough County Department of Corrections not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that the calling account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "Can children visit someone at Hillsborough County Department of Corrections?", answer: "Children under 18 must be accompanied by an adult, and no more than three visitors may visit an inmate at the same time." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -4213,6 +4275,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Goose Creek Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Goose Creek Correctional Center?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Goose Creek Correctional Center?", answer: "Address mail with the person's full name and Alaska DOC number. All mail is inspected before delivery." },
+    { question: "Why did a call from Goose Creek Correctional Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to do before visiting Goose Creek Correctional Center?", answer: "Visitors must be approved in advance, so complete the visiting application and wait for approval before traveling. Bring a valid photo ID, and confirm the current schedule, since visiting hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4242,6 +4308,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Inmate Name, DOC ID\nAnchorage Correctional Complex\n1400 E 4th Ave\nAnchorage, AK 99501",
+  visitingHours: "Friends and family visits for ICE detainees are held every day except Thursday, at 9:00 AM, 10:00 AM, 1:00 PM, 2:00 PM, 7:15 PM, and 8:15 PM. Arrive one hour early.",
   operatedBy: "Alaska Department of Corrections",
 
   providers: [
@@ -4271,6 +4339,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Anchorage Correctional Complex?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Anchorage Correctional Complex?", answer: "Deposits go through Securus. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Anchorage Correctional Complex?", answer: "Address mail with the inmate's name and DOC ID to Anchorage Correctional Complex, 1400 E 4th Ave, Anchorage, AK 99501. All mail is inspected before delivery." },
+    { question: "Why did a call from Anchorage Correctional Complex not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How do attorneys schedule visits at Anchorage Correctional Complex?", answer: "Attorneys can schedule legal visits through the facility's scheduling office at (907) 269-4205 or by email at ANCJL.HOUSING@ALASKA.GOV." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4384,6 +4456,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Resident Name, IDOC Number\nIdaho State Correctional Center\nPO Box 70010\nBoise, ID 83707",
+  visitingHours: "Visiting application and approval are required before visiting. Schedules vary and are subject to change, so check the IDOC ISCC page before traveling.",
   operatedBy: "Idaho Department of Corrections",
 
   providers: [
@@ -4413,6 +4487,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Idaho State Correctional Center?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Idaho State Correctional Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Idaho State Correctional Center?", answer: "Address mail with the resident's name and IDOC number to Idaho State Correctional Center, PO Box 70010, Boise, ID 83707. All mail is inspected before delivery." },
+    { question: "Why did a call from Idaho State Correctional Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ConnectNetwork account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How do attorneys schedule visits at Idaho State Correctional Center?", answer: "Attorneys can arrange legal visits by email at iscc_legalvisits@idoc.idaho.gov. Confirm the current procedure before traveling, since scheduling can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4471,6 +4549,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Ada County Jail?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Ada County Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Ada County Jail?", answer: "Address mail with the person's full name and booking number. Mail is inspected before delivery." },
+    { question: "Why did a call from Ada County Jail not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ConnectNetwork account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How are visits scheduled at Ada County Jail?", answer: "Visits must be scheduled in advance, and visitors must be on the approved list. Confirm the current visiting schedule and rules with the facility before traveling, since hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -4500,6 +4582,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "Visiting application and approval are required before visiting. Schedules are subject to change, so check the IDOC IMSI page before traveling.",
   operatedBy: "Idaho Department of Corrections",
 
   providers: [
@@ -4529,6 +4612,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Idaho Maximum Security Institution?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Idaho Maximum Security Institution?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Idaho Maximum Security Institution?", answer: "Address mail with the person's full name and IDOC number. All mail is inspected before delivery." },
+    { question: "Why did a call from Idaho Maximum Security Institution not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ConnectNetwork account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "Do visiting rules differ by custody level at Idaho Maximum Security Institution?", answer: "Visits depend on custody and classification, so confirm the person's current visiting status with the facility before traveling. Bring a valid photo ID and arrive early." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4558,6 +4645,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Inmate First and Last Name, TDOC ID #\nP.O. Box 247\nPhoenix, MD 21131",
   operatedBy: "Tennessee Department of Corrections",
 
   providers: [
@@ -4587,6 +4675,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Northeast Correctional Complex?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Northeast Correctional Complex?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Northeast Correctional Complex?", answer: "Address mail with the inmate's first and last name and TDOC ID number to P.O. Box 247, Phoenix, MD 21131. Tennessee uses a centralized mail facility, so mail sent to the prison address may be delayed." },
+    { question: "Why did a call from Northeast Correctional Complex not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ConnectNetwork account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to do before visiting Northeast Correctional Complex?", answer: "Visitors must be approved in advance, so submit the visitor application and wait for approval before traveling. Bring a valid photo ID, and confirm the current schedule, since visiting hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4616,6 +4708,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Inmate Name, ID\nShelby County Correctional Center\n1045 Mullins Station Road\nMemphis, TN 38134",
   operatedBy: "Shelby County Sheriff's Office",
 
   providers: [
@@ -4645,6 +4738,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Shelby County Correctional Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Shelby County Correctional Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Shelby County Correctional Center?", answer: "Address mail with the inmate's name and ID to Shelby County Correctional Center, 1045 Mullins Station Road, Memphis, TN 38134. All mail is inspected before delivery." },
+    { question: "Why did a call from Shelby County Correctional Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How are visits scheduled at Shelby County Correctional Center?", answer: "Visits must be scheduled in advance, and visitors must be on the approved list. Confirm the current visiting schedule and rules with the facility before traveling, since hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
@@ -4674,6 +4771,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nAnthony P. Travisono Intake Service Center\nP.O. Box 8249\nCranston, RI 02920",
+  visitingHours: "In-person visitation is scheduled by housing unit. Visiting periods are 1:00 to 2:15 PM, 3:15 to 4:45 PM, 5:00 to 6:45 PM, and 7:00 to 8:45 PM. Video visits are scheduled at securustech.net within those blocks. Visitation desk: (401) 462-2287 or (401) 462-1268.",
   operatedBy: "Rhode Island Department of Corrections",
 
   providers: [
@@ -4703,6 +4802,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at ACI Intake Service Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at ACI Intake Service Center?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at ACI Intake Service Center?", answer: "Address mail with the inmate's name and ID number to Anthony P. Travisono Intake Service Center, P.O. Box 8249, Cranston, RI 02920. All mail is inspected before delivery." },
+    { question: "How do I schedule a video visit at ACI Intake Service Center?", answer: "Video visits are scheduled through Securus at securustech.net, within the facility's visiting periods. Check the housing unit schedule, since visiting times vary by unit." },
+    { question: "How long do people stay at ACI Intake Service Center?", answer: "The Intake Service Center is the entry point for the Rhode Island correctional system, where people are classified before moving to another facility. Stay lengths vary, so confirm the current placement before mailing anything or scheduling a visit." },
+    { question: "Why did a call from ACI Intake Service Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4732,6 +4835,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "In-person and video visiting blocks are 1:15 to 2:45 PM, 4:15 to 6:00 PM, and 6:15 to 8:30 PM, with a video-only block 8:30 to 9:30 AM. There are no visits on Tuesdays. Professional visits run seven days a week, 8:00 AM to 8:30 PM. Schedules vary by housing unit and entrance cutoff times apply.",
   operatedBy: "Rhode Island Department of Corrections",
 
   providers: [
@@ -4761,6 +4865,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at ACI Medium Security?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at ACI Medium Security?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at ACI Medium Security?", answer: "Address mail with the person's full name and ID number. All mail is inspected before delivery." },
+    { question: "How do I schedule a video visit at ACI Medium Security?", answer: "Video visits are scheduled through Securus. Check the housing unit schedule first, since visiting blocks vary by unit, and note that there are no visits on Tuesdays." },
+    { question: "Why does the visiting schedule depend on housing unit at ACI Medium Security?", answer: "Visiting blocks are assigned by housing unit, so two people at the same facility can have different visiting days and times. Confirm the person's housing unit and its visiting block before traveling." },
+    { question: "Can attorneys visit at ACI Medium Security?", answer: "Professional visits run seven days a week, 8:00 AM to 8:30 PM. Attorneys should confirm the current procedure with the facility before traveling." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4790,6 +4898,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "Non-contact visits only, and walk-in visitation is not allowed. Call (304) 733-6850 between 9:00 AM and 3:00 PM to schedule. Tuesday and Thursday slots: 8:00 to 8:30, 9:00 to 9:30, 10:00 to 10:30, 2:00 to 2:30, and 3:00 to 3:30. Saturday and Sunday slots: 9:00 to 9:30, 10:00 to 10:30, 3:00 to 3:30, 7:00 to 7:30, and 8:00 to 8:30. No visitation Monday, Wednesday, or Friday.",
+  rosterUrl: "https://apps.wv.gov/OIS/OffenderSearch/RJA/Daily",
   operatedBy: "West Virginia Department of Corrections",
 
   providers: [
@@ -4819,6 +4929,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Western Regional Jail?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Western Regional Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Western Regional Jail?", answer: "Address mail with the person's full name and ID number. All mail is inspected before delivery." },
+    { question: "How do I schedule a visit at Western Regional Jail?", answer: "Call (304) 733-6850 between 9:00 AM and 3:00 PM to schedule. Walk-in visitation is not allowed, and there is no visitation on Monday, Wednesday, or Friday." },
+    { question: "Why did a call from Western Regional Jail not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What if I cannot find someone in the West Virginia offender search?", answer: "Check the spelling of the name and try again, since bookings take time to appear. Confirm the current facility placement before funding any account, since providers differ by facility." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4877,6 +4991,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Sussex Correctional Institution?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Sussex Correctional Institution?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Sussex Correctional Institution?", answer: "Address mail with the person's full name and ID number. All mail is inspected before delivery." },
+    { question: "Why did a call from Sussex Correctional Institution not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to do before visiting Sussex Correctional Institution?", answer: "Visitors must be approved in advance, so submit the visitor application and wait for approval before traveling. Bring a valid photo ID, and confirm the current schedule, since visiting hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -4906,6 +5024,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  visitingHours: "Friday, Saturday, and Sunday, 8:00 AM to 3:00 PM. Confirm with the facility before traveling, since special housing units have modified schedules.",
+  rosterUrl: "https://www.bop.gov/inmateloc/",
+  commissary: "Do not mail money to the facility address. BOP funds sent by mail go to the central processing center in Des Moines, Iowa.",
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -4935,6 +5056,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at FCI Manchester?", answer: "Video visits are available through ConnectNetwork. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the Bureau of Prisons inmate locator at bop.gov/inmateloc to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at FCI Manchester?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at FCI Manchester?", answer: "Address mail with the person's full name and BOP register number. Confirm the person's current unit or camp before mailing, since the facility includes a satellite camp." },
+    { question: "Why did a call from FCI Manchester not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your ConnectNetwork account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How does CorrLinks work at FCI Manchester?", answer: "CorrLinks is the BOP email system. The person inside must invite you, and you must accept the invitation and be approved before you can exchange messages. Messages are reviewed by staff." },
+    { question: "Why do I need the BOP register number?", answer: "The BOP register number identifies the person across BOP systems. You need it to fund a ConnectNetwork account, send money, and look someone up in the BOP inmate locator." },
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-coleman","adx-florence","fci-leavenworth"],
@@ -5106,6 +5231,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  mailingAddress: "Incarcerated Person Name, Inmate ID #\nCentral Utah Correctional Facility\nPO Box 550\nGunnison, UT 84634",
   operatedBy: "Utah Department of Corrections",
 
   providers: [
@@ -5135,6 +5261,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Central Utah Correctional Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Central Utah Correctional Facility?", answer: "Deposits go through JPay. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Central Utah Correctional Facility?", answer: "Address mail with the incarcerated person's name and inmate ID number to Central Utah Correctional Facility, PO Box 550, Gunnison, UT 84634. Mail with glitter, stickers, cash, or other prohibited items will not be delivered." },
+    { question: "Why did a call from Central Utah Correctional Facility not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "What do I need to do before visiting Central Utah Correctional Facility?", answer: "Visitors must be approved in advance, so submit the visitor application and wait for approval before traveling. Bring a valid photo ID, and confirm the current schedule, since visiting hours can change." },
+    { question: "What happens to communication access after someone is transferred?", answer: "Providers and rules change when someone is transferred to another facility, including after sentencing to state prison. Confirm the new placement before creating accounts or sending funds, since an account that works today may not work after a move." },
   ],
 
   relatedFacilitySlugs: ["san-quentin-state-prison","attica-correctional-facility","pelican-bay-state-prison"],
@@ -5193,6 +5323,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at Alvin S. Glenn Detention Center?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
     { question: "How do I send money to someone at Alvin S. Glenn Detention Center?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send mail to someone at Alvin S. Glenn Detention Center?", answer: "Address mail with the person's full name and booking number. All mail is inspected before delivery." },
+    { question: "Why did a call from Alvin S. Glenn Detention Center not go through?", answer: "Calls are outgoing only, so the person inside must place the call. If a call did not connect, confirm that your number is on the approved list and that your Securus account has funds. A block on the receiving number or an unapproved number will stop the call." },
+    { question: "How does bond work at Alvin S. Glenn Detention Center?", answer: "Bond amounts and conditions are set by the court, not by the detention center. Confirm the bond amount and the accepted payment methods with the court or the facility before making any payment." },
+    { question: "How are visits scheduled at Alvin S. Glenn Detention Center?", answer: "Visits must be scheduled in advance, and visitors must be on the approved list. Confirm the current visiting schedule and rules with the facility before traveling, since hours can change." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],

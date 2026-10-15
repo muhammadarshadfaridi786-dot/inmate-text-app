@@ -724,28 +724,39 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
 
   overview: [
     "Somerset County Jail is the county jail in Madison, Maine, operated by the Somerset County Sheriff's Office. Note that the jail is in Madison, not in the county seat of Skowhegan. The Sheriff's Office states the jail is ACA Certified.",
-    "Published sources do not confirm the current inmate communications vendor, so families should confirm the phone and video provider directly with the facility before creating any paid account.",
+    "Phone calls and video visits run through Securus Technologies, per the Sheriff's Office pages: the Sheriff lists Securus for inmate telephone services and describes video visits as Securus Video Visitation from a home computer or Android/Apple device. No messaging (email/text) vendor is named on the Sheriff's pages, and no deposit vendor is named; deposits are accepted via a lobby kiosk or the web.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "Somerset County Sheriff's Office",
     mailingAddress: "Inmate Full Name, Somerset County Jail, 131 East Madison Road, Madison, ME 04950.",
-    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
+    visitingHours: "Family and friend visits: Tuesday, Wednesday, Thursday 6:30-7:30 p.m. and 7:45-8:45 p.m.; Sunday 1:30-2:30 p.m. and 3:15-4:15 p.m. Schedule by calling the jail Monday or Friday, 9:00 a.m.-3:00 p.m. Attorney visits Monday-Friday 8:00-11:45 a.m. and 1:00-4:00 p.m., plus weekend, evening and Zoom options. Visitors must be on the inmate's approved list and bring valid photo ID.",
     bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
-  // TODO(Jan): verify provider
-
-  providers: [],
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus phone calls and Securus Video Visitation, per the Sheriff's Office pages. No messaging or deposit vendor is named on the Sheriff's pages.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    messaging: { status: "limited", notes: "No email/text messaging vendor is named on the Sheriff's pages. Scanned postal mail via the Securus Digital Mail Center is postal mail, not electronic messaging." },
+    video: { status: "available", provider: "Securus", notes: "Securus Video Visitation from a home computer or Android/Apple device, per the Sheriff's Office. Video cost is comparable to phone call rates." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "Securus", notes: "Inmate telephone services through Securus, per the Sheriff's Office informational links page." },
+    moneyTransfer: { status: "limited", notes: "Deposits accepted via a kiosk in the jail lobby or via the web. No deposit vendor is named on the Sheriff's pages." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "Set up phone and video accounts through Securus; the Sheriff's Office names Securus for phone calls and video visits.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the county dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -753,15 +764,15 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Somerset County Jail?", answer: "The current vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account." },
+    { question: "Which company handles phone calls at Somerset County Jail?", answer: "Securus Technologies handles phone calls at Somerset County Jail, per the Sheriff's Office informational links page." },
     { question: "How do I visit someone at Somerset County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Somerset County Jail?", answer: "Somerset County Jail is in Madison, Maine, not in the county seat of Skowhegan. The Sheriff's Office states the jail is ACA Certified." },
     { question: "How do I mail a letter to someone at Somerset County Jail?", answer: "Address the envelope with the inmate's full name, Somerset County Jail, 131 East Madison Road, Madison, ME 04950. Include a return address. Mail is inspected for contraband." },
     { question: "How do I find out if someone is at Somerset County Jail?", answer: "Contact the facility or the Somerset County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
-    { question: "Can an inmate at Somerset County Jail call me?", answer: "Inmates place outgoing calls, but the current phone vendor is not confirmed. Confirm the provider with the facility before creating a prepaid account. Inmates cannot receive incoming calls." },
+    { question: "Can an inmate at Somerset County Jail call me?", answer: "Inmates place outgoing calls through Securus. Set up a Securus account before the first call. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Somerset County Jail?", answer: "Ask the facility how to block calls from the jail, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a visit at Somerset County Jail?", answer: "Visits are scheduled in advance and require approved-visitor status. Contact the facility for the current scheduling process and visiting hours." },
-    { question: "How do I send money to someone at Somerset County Jail?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with the facility before sending money." },
+    { question: "How do I schedule a visit at Somerset County Jail?", answer: "Schedule family and friend visits by calling the jail Monday or Friday, 9:00 a.m.-3:00 p.m. Visiting windows are Tuesday, Wednesday and Thursday 6:30-7:30 p.m. and 7:45-8:45 p.m., and Sunday 1:30-2:30 p.m. and 3:15-4:15 p.m. Arrive 15 minutes early with valid photo ID." },
+    { question: "How do I send money to someone at Somerset County Jail?", answer: "Deposits can be made via a kiosk in the jail lobby or via the web, per the Sheriff's Office. No deposit vendor is named on the Sheriff's pages, so confirm the current deposit method with the facility before sending money." },
   ],
 
   relatedFacilitySlugs: ["cumberland-county-jail", "penobscot-county-jail", "maine-state-prison"],

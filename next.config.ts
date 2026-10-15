@@ -199,6 +199,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/facility/lew-sterrett-justice-center',
+        destination: '/facility/dallas-county-jail',
+        permanent: true,
+      },
+      {
         source: '/facility/joseph-v-conte-facility',
         destination: '/facility/broward-county-jail',
         permanent: true,

@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "williamson-county-jail-texas",
     "kent-county-jail-michigan",
     "montgomery-county-jail-texas",
+    "lew-sterrett-justice-center",
   ])
   const facilityEntries: MetadataRoute.Sitemap = ALL_FACILITIES
     .filter((f) => f.hasDetailPage && !REDIRECTED_FACILITY_SLUGS.has(f.slug))

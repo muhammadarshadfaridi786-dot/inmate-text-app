@@ -848,8 +848,8 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
 
     featuredFacilities: [
       {
-        name: "Lew Sterrett Justice Center",
-        slug: "lew-sterrett-justice-center",
+        name: "Dallas County Jail",
+        slug: "dallas-county-jail",
         type: "County Jail",
         county: "Dallas County",
         features: ["Video Calls", "Phone Calls", "Money Transfer"],

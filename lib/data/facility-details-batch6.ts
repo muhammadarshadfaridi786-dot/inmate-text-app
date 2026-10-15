@@ -131,7 +131,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "How do I add money to an inmate's account?", answer: "Deposits are reported through JailATM online, the lobby kiosks, or money orders mailed to the inmate trust fund. Call (817) 884-3116 to confirm the current deposit method." },
   ],
 
-  relatedFacilitySlugs: ["dallas-county-jail", "lew-sterrett-justice-center", "harris-county-jail"],
+  relatedFacilitySlugs: ["dallas-county-jail", "harris-county-jail"],
 },
 
 "travis-county-correctional-complex": {

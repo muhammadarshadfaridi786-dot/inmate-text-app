@@ -3296,15 +3296,15 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Dallas County",
   securityLevel: "Pretrial",
   hasDetailPage: true,
-  seoTitle: "Kays Detention Facility: Securus Phone Calls and Messaging",
-  seoDescription: "How to contact someone at Suzanne Lee Kays Detention Facility in Dallas TX. Securus Technologies handles phone calls and video visits. Book-in number required.",
+  seoTitle: "Kays Detention Facility: SmartInmate Phone, Video and Money",
+  seoDescription: "How to contact someone at Suzanne Lee Kays Detention Facility in Dallas TX. SmartInmate handles phone calls, video visits, and messaging. Book-in number required.",
 
   description:
-    "Suzanne Lee Kays Detention Facility communication guide. Find GettingOut and Securus options for families reaching someone at this Dallas County jail tower, part of the Lew Sterrett Justice Center complex.",
+    "Suzanne Lee Kays Detention Facility communication guide. Find SmartInmate phone, video, and messaging options for families reaching someone at this Dallas County jail tower, part of the Lew Sterrett Justice Center complex.",
 
   overview: [
     "The Suzanne Lee Kays Detention Facility, also known as the South Tower, is part of the Lew Sterrett Justice Center complex in downtown Dallas, operated by the Dallas County Sheriff's Department. It was dedicated in 1995 in memory of Suzanne Lee Kays, a sheriff's deputy killed in the line of duty in 1989, just days after graduating from the sheriff's academy. The tower functions alongside the rest of the Lew Sterrett complex as part of Dallas County's main jail system, holding people booked by the Dallas Police Department and other agencies across the county.",
-    "Families reaching someone at the South Tower use the same providers as the rest of the Lew Sterrett complex. GettingOut handles electronic messaging, photo sharing, and money transfers through one online account. Securus handles phone calls and video visitation through a separate account. To message someone, create a GettingOut account and search using the person's name and booking information. To talk by phone, set up a Securus account and add funds so you can accept calls placed from inside the jail.",
+    "Families reaching someone at the South Tower use the same provider as the rest of the Lew Sterrett complex. Smart Communications provides phone calls, video visitation, and messaging through the SmartInmate platform under the county contract. Families create a SmartInmate account at smartinmate.com to access all available services. For phone calls, fund a SmartInmate account linked to your phone number to receive inmate-initiated calls. Remote video visits are available and can be scheduled through SmartInmate. Commissary deposits use AccessCorrections, a separate system.",
     "Because the South Tower shares the Lew Sterrett complex's high booking volume, wait times for account approval or video visit slots can run longer than at smaller jails. It helps to set up accounts early and check often for available appointment times. After conviction and sentencing to state prison, people are transferred to a Texas Department of Criminal Justice unit, where the communication provider setup is different from the county jail.",
   ],
 
@@ -3315,20 +3315,30 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   operatedBy: "Dallas County Sheriff's Department",
 
   providers: [
-    { name: "GettingOut", slug: "gettingout", initial: "G", color: "bg-violet-600", messaging: true, video: false, photos: true, phone: false, moneyTransfer: true, notes: "Handles messaging, photo sharing, and money transfers for the Suzanne Lee Kays Detention Facility (South Tower)." },
-    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls and video visitation for the Suzanne Lee Kays Detention Facility (South Tower)." },
+    {
+      name: "Smart Communications",
+      slug: "smartinmate",
+      initial: "S",
+      color: "bg-cyan-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Smart Communications provides phone service, video visits, and messaging through smartinmate.com. Dallas County switched from Securus to Smart Communications in late 2025.",
+    },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "GettingOut", notes: "Messages go through a review process before delivery." },
-    video: { status: "available", provider: "Securus", notes: "Video visit slots can fill quickly given the jail's size. Book early." },
-    photos: { status: "available", provider: "GettingOut", notes: "Photos can be attached to messages through the GettingOut app." },
-    phone: { status: "available", provider: "Securus", notes: "Fund a Securus account to accept calls from the jail." },
-    moneyTransfer: { status: "available", provider: "GettingOut", notes: "Add commissary funds through GettingOut." },
+    messaging: { status: "available", provider: "Smart Communications", notes: "Electronic messaging via SmartInmate. Messages monitored by Dallas County Sheriff's staff." },
+    video: { status: "available", provider: "Smart Communications", notes: "Remote video visits available through SmartInmate. Schedule in advance." },
+    photos: { status: "available", provider: "Smart Communications", notes: "Photo sharing through SmartInmate." },
+    phone: { status: "available", provider: "Smart Communications", notes: "Fund a SmartInmate account to receive inmate-initiated calls." },
+    moneyTransfer: { status: "available", notes: "Commissary deposits via AccessCorrections, the Dallas County jail commissary system." },
   },
 
   rules: [
-    "GettingOut handles messaging, photos, and money. Securus handles phone and video.",
+    "All South Tower communication goes through SmartInmate. Commissary deposits use AccessCorrections.",
     "The South Tower shares Lew Sterrett's booking system, so confirm the exact housing location before mailing anything.",
     "All calls, messages, and video visits are subject to monitoring.",
     "You need the inmate's full name and booking number to locate their account.",
@@ -3336,9 +3346,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I contact someone at Suzanne Lee Kays Detention Facility?", answer: "Create a GettingOut account for messaging, photos, and money, and a Securus account for phone calls and video visits. The South Tower uses the same Dallas County systems as the rest of the Lew Sterrett Justice Center complex." },
+    { question: "How do I contact someone at Suzanne Lee Kays Detention Facility?", answer: "All communication services at the South Tower are through SmartInmate. Create an account at smartinmate.com or through the SmartInmate app. One account covers phone calls, video visits, and messaging." },
     { question: "Is Suzanne Lee Kays Detention Facility the same as Lew Sterrett Justice Center?", answer: "The Suzanne Lee Kays Detention Facility, also called the South Tower, is part of the Lew Sterrett Justice Center complex in downtown Dallas. It shares the same address, booking system, and communication providers." },
-    { question: "Is video visitation available at Suzanne Lee Kays Detention Facility?", answer: "Yes, through Securus. Because the complex holds a large population, available time slots can fill up fast, so check often and book as early as you can." },
+    { question: "Is video visitation available at Suzanne Lee Kays Detention Facility?", answer: "Yes, remote video visits are available through SmartInmate. Because the complex holds a large population, available time slots can fill up fast, so check often and book as early as you can." },
     { question: "How do I check if someone is in custody at Suzanne Lee Kays Detention Facility?", answer: "Dallas County provides an online inmate search tool. You can also call the jail's information line at (214) 761-9025, which is staffed 24 hours a day." },
     { question: "What happens after someone is sentenced to state prison from Dallas County?", answer: "People sentenced to state time are transferred to a Texas Department of Criminal Justice unit. Communication providers at TDCJ units differ from the county jail, so check the new facility's setup right after any transfer." },
     { question: "How do I send mail to someone at Suzanne Lee Kays Detention Facility?", answer: "Address mail with the person's full legal name and booking number to Suzanne Lee Kays Detention Facility, 111 W. Commerce St, Dallas, TX 75202. Mail is inspected before delivery." },

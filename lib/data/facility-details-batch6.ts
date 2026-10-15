@@ -668,7 +668,20 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   website: "https://www.wilcotx.gov/649/Corrections-Bureau",
   operatedBy: "Williamson County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC provides phone service, video visitation, and messaging.",
+    },
+  ],
 
   communication: {
     messaging: { status: "available", provider: "NCIC", notes: "Secure email messaging through the NCIC friends and family account." },

@@ -649,53 +649,53 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   countyName: "Kent County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Kent County Jail: Securus Phone Calls and Visits Guide",
-  seoDescription: "How to contact someone at Kent County Jail in Grand Rapids MI. Securus phone calls and video visitation scheduling.",
+  seoTitle: "Kent County Jail: GettingOut Phone and Video Visits Guide",
+  seoDescription: "How to contact someone at Kent County Jail in Grand Rapids MI. GettingOut tablet phone calls, video visits, and messaging.",
 
   description:
-    "Kent County Jail communication guide. Securus phone calls and visit scheduling for families of detainees at the Grand Rapids MI correctional facility.",
+    "Kent County Jail communication guide. GettingOut tablet phone calls, video visits, and messaging for families of detainees at the Grand Rapids MI correctional facility.",
 
   overview: [
     "The Kent County Correctional Facility, known as Kent County Jail, is the main jail in Grand Rapids, Michigan, operated by the Kent County Sheriff's Office. It houses pretrial detainees and sentenced inmates serving shorter terms for Kent County in western Michigan.",
-    "Phone service at the Kent County Correctional Facility runs through Securus Technologies. Families create a Securus account online and deposit money so inmates can make outgoing calls from the touch-screen phones in the housing units. Calls are limited per week and per call, and all calls are recorded.",
-    "Video visits at Kent County are scheduled in advance online, with both on-site and remote internet video visits reported. Because visit platforms have been reported differently across sources, families should confirm the current scheduling system on the sheriff's visitation page before their first visit.",
+    "Phone service at the Kent County Correctional Facility runs through GettingOut, per the county's tablet services document. Families create a GettingOut account at gettingout.com and deposit funds so inmates can make calls from the tablet phone app. All calls are monitored and recorded.",
+    "Video visits at Kent County run through GettingOut and are scheduled in advance online. Because the county's published tablet document is dated 2018 and providers can change, confirm the current scheduling system on the sheriff's visitation page before your first visit.",
   ],
 
   operatedBy: "Kent County Sheriff's Office",
 
   providers: [
     {
-      name: "Securus",
-      slug: "securus",
-      initial: "S",
-      color: "bg-indigo-600",
-      messaging: false,
-      video: false,
-      photos: false,
+      name: "GettingOut",
+      slug: "gettingout",
+      initial: "G",
+      color: "bg-violet-600",
+      messaging: true,
+      video: true,
+      photos: true,
       phone: true,
       moneyTransfer: false,
-      notes: "Securus Technologies provides the inmate phone system at the Kent County Correctional Facility.",
+      notes: "GettingOut provides video visits, tablet phone calls, messaging, and photo sharing at the Kent County Correctional Facility, per the county's tablet services document.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", provider: undefined, notes: "Electronic messaging not confirmed. Confirm current options on the sheriff's inmate services page." },
-    video: { status: "limited", provider: undefined, notes: "Video visits are scheduled online in advance. Confirm the current scheduling platform with the facility." },
-    photos: { status: "limited", provider: undefined, notes: "Photo sharing not confirmed. Physical photos by mail are subject to jail content rules." },
-    phone: { status: "available", provider: "Securus", notes: "Outgoing calls from housing-unit phones through Securus. Fund the account online or by phone." },
+    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through a GettingOut account." },
+    video: { status: "available", provider: "GettingOut", notes: "Video visits scheduled in advance through GettingOut." },
+    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
+    phone: { status: "available", provider: "GettingOut", notes: "Calls from the tablet phone app through GettingOut. Fund a Friends and Family account." },
     moneyTransfer: { status: "available", provider: undefined, notes: "Deposits through Access Corrections online, by phone, or at the lobby kiosk." },
   },
 
   rules: [
-    "Create a Securus account and deposit funds before the inmate can call you.",
-    "Calls are limited per week and per call, and inmates cannot receive incoming calls.",
-    "Schedule video visits at least 24 hours in advance through the facility's visitor system.",
+    "Create a GettingOut account and deposit funds before the inmate can call you.",
+    "Inmates cannot receive incoming calls.",
+    "Schedule video visits at least 24 hours in advance through GettingOut.",
     "Three-way calling is not allowed, and all calls are monitored and recorded.",
     "Money for the inmate's account can be deposited through Access Corrections.",
   ],
 
   faq: [
-    { question: "How do I set up phone calls with a Kent County Jail inmate?", answer: "Create an account with Securus Technologies at securustech.net or by calling 1-800-844-6591. Deposit money with a credit or debit card, and the inmate can call from the housing-unit phones." },
+    { question: "How do I set up phone calls with a Kent County Jail inmate?", answer: "Create a GettingOut account at gettingout.com and deposit funds into the Friends and Family account. The inmate can call from the tablet phone app. Confirm current options on the sheriff's visitation page." },
     { question: "How do I schedule a visit at Kent County Jail?", answer: "Visits must be scheduled at least 24 hours in advance through the facility's online visitor scheduling system or the lobby kiosk. Internet video visits from home are also reported as available." },
     { question: "Are calls at Kent County Jail monitored?", answer: "Yes. All non-legal calls are recorded and monitored by jail staff, and three-way calling is prohibited." },
     { question: "How do I send money to a Kent County inmate?", answer: "Deposits go through Access Corrections online or by phone at 1-866-345-1884, or at the kiosk in the facility lobby." },

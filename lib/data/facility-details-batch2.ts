@@ -598,12 +598,12 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at Elayn Hunt Correctional Center in St. Gabriel LA.",
 
     description:
-      "Elayn Hunt Correctional Center communication guide. Find JPay messaging and GTL phone options for families at this Louisiana DOC facility in St. Gabriel, Iberville Parish.",
+      "Elayn Hunt Correctional Center communication guide. Find JPay messaging and Securus phone options for families at this Louisiana DOC facility in St. Gabriel, Iberville Parish.",
 
     overview: [
       "Elayn Hunt Correctional Center is a medium and maximum-security state correctional facility operated by the Louisiana Department of Public Safety and Corrections, located in St. Gabriel in Iberville Parish, about 25 miles south of Baton Rouge. The facility opened in 1976 and was renamed in honor of Elayn Hunt, a Louisiana corrections reformer. It serves as one of the major medium-security institutions in the Louisiana state prison system and also houses an intake and diagnostic center for newly sentenced offenders entering the Louisiana DOC. Because of its diagnostic role, some newly admitted inmates pass through Hunt before being assigned to a permanent facility.",
-      "Communication at Elayn Hunt follows Louisiana DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Louisiana DOC number. GTL manages phone calls and video visitation under the statewide contract. The two-platform setup applies here as it does across the Louisiana state system. If your loved one is in the diagnostic/intake process at Hunt rather than serving as a permanent resident, they may take several weeks to gain full communication access.",
-      "Hunt's location about 25 miles south of Baton Rouge makes it reasonably accessible for families in the capital region compared to more remote Louisiana facilities like Angola in West Feliciana Parish. For families in New Orleans, the drive is roughly 80 miles on I-10. Because JPay and GTL serve all Louisiana DOC facilities statewide, accounts created for Elayn Hunt work at any permanent facility an inmate may be transferred to after the classification process is complete.",
+      "Communication at Elayn Hunt follows Louisiana DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Louisiana DOC number. Securus manages phone calls and video visitation under the statewide contract. The two-platform setup applies here as it does across the Louisiana state system. If your loved one is in the diagnostic/intake process at Hunt rather than serving as a permanent resident, they may take several weeks to gain full communication access.",
+      "Hunt's location about 25 miles south of Baton Rouge makes it reasonably accessible for families in the capital region compared to more remote Louisiana facilities like Angola in West Feliciana Parish. For families in New Orleans, the drive is roughly 80 miles on I-10. Because JPay and Securus serve all Louisiana DOC facilities statewide, accounts created for Elayn Hunt work at any permanent facility an inmate may be transferred to after the classification process is complete.",
     ],
 
     address: "17544 Tunica Trace, St. Gabriel, LA 70776",
@@ -618,42 +618,30 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        messaging: true,
-        video: false,
-        photos: true,
-        phone: false,
-        moneyTransfer: true,
-        notes: "Electronic messaging, photos, and trust account deposits. Uses Louisiana DOC number.",
-      },
-      {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-600",
         messaging: false,
         video: true,
         photos: false,
         phone: true,
         moneyTransfer: false,
-        notes: "Phone calls and video visitation under the Louisiana DOC statewide contract.",
+        notes: "Handles phone calls and video visitation for Elayn Hunt Correctional Center.",
       },
     ],
 
     communication: {
       messaging: { status: "available", provider: "JPay", notes: "Available once intake classification is complete. New arrivals may have a brief delay." },
-      video: { status: "available", provider: "GTL", notes: "Remote video visits available. Schedule in advance through GTL." },
+      video: { status: "available", provider: "Securus", notes: "Remote video visits available. Schedule in advance through Securus." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to Louisiana DOC content guidelines." },
-      phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls. Fund GTL AdvancePay account to receive calls." },
+      phone: { status: "available", provider: "Securus", notes: "Inmate-initiated calls. Fund a Securus prepaid account to receive calls." },
       moneyTransfer: { status: "available", provider: "JPay", notes: "Trust account deposits via JPay for commissary and personal purchases." },
     },
 
     rules: [
       "Newly admitted inmates in the diagnostic process may have a brief delay before full communication access is active.",
-      "JPay and GTL are separate platforms. Messaging stamps and phone funds do not transfer between them.",
+      "JPay and Securus are separate platforms. Messaging stamps and phone funds do not transfer between them.",
       "Messages are reviewed by Louisiana DOC staff before delivery.",
       "Louisiana DOC system-wide accounts carry over if the inmate transfers to a permanent facility.",
       "Senders must be on the inmate's approved contact list.",
@@ -666,7 +654,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I set up phone calls from Elayn Hunt?",
-        answer: "Phone calls use GTL. Create an account at telmate.com or through the GTL Connect app. Set up a prepaid AdvancePay account linked to your phone number and add funds. The inmate calls you from facility phones.",
+        answer: "Phone calls use Securus. Create an account at securustech.net. Set up a prepaid account linked to your phone number and add funds. The inmate calls you from facility phones.",
       },
       {
         question: "Is Elayn Hunt a permanent assignment or an intake facility?",
@@ -842,12 +830,12 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at Oklahoma State Penitentiary in McAlester.",
 
     description:
-      "Oklahoma State Penitentiary communication guide. Find JPay messaging and GTL phone options for families at Oklahoma's maximum-security facility in McAlester.",
+      "Oklahoma State Penitentiary communication guide. Find JPay messaging and Securus phone options for families at Oklahoma's maximum-security facility in McAlester.",
 
     overview: [
       "Oklahoma State Penitentiary is a maximum-security state prison operated by the Oklahoma Department of Corrections, located in McAlester in Pittsburg County in southeastern Oklahoma, roughly 110 miles southeast of Oklahoma City. Founded in 1908, it is the oldest prison in Oklahoma and serves as the state's primary maximum-security institution, housing Oklahoma's death row and some of the state's most serious and long-serving offenders. McAlester is a small city in the southeastern part of the state, and the prison is a significant part of the local economy.",
-      "Communication at Oklahoma State Penitentiary follows Oklahoma DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oklahoma DOC number to begin correspondence. GTL manages phone calls and video visitation under the ODOC statewide contract. Death row inmates may face more restrictive communication rules than the general maximum-security population. Families whose loved one is on Oklahoma's death row should confirm current communication access directly with the facility.",
-      "McAlester's location about 110 miles from Oklahoma City means the facility is accessible by car but is not a short trip. In-person visits require advance approval through the Oklahoma DOC visitor application process. For families outside southeastern Oklahoma, JPay messaging and GTL video visits are the most practical options for regular contact. Because ODOC uses JPay and GTL system-wide, accounts set up for OSP will work at any other Oklahoma DOC facility if an inmate is transferred.",
+      "Communication at Oklahoma State Penitentiary follows Oklahoma DOC provider contracts. JPay handles electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their Oklahoma DOC number to begin correspondence. Securus manages phone calls and video visitation under the ODOC statewide contract. Death row inmates may face more restrictive communication rules than the general maximum-security population. Families whose loved one is on Oklahoma's death row should confirm current communication access directly with the facility.",
+      "McAlester's location about 110 miles from Oklahoma City means the facility is accessible by car but is not a short trip. In-person visits require advance approval through the Oklahoma DOC visitor application process. For families outside southeastern Oklahoma, JPay messaging and Securus video visits are the most practical options for regular contact. Because ODOC uses JPay and Securus system-wide, accounts set up for OSP will work at any other Oklahoma DOC facility if an inmate is transferred.",
     ],
 
     address: "100 Corrections Way, McAlester, OK 74501",
@@ -863,42 +851,30 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        messaging: true,
-        video: false,
-        photos: true,
-        phone: false,
-        moneyTransfer: true,
-        notes: "Electronic messaging, photo sharing, and trust account deposits. Uses Oklahoma DOC number.",
-      },
-      {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-600",
         messaging: false,
         video: true,
         photos: false,
         phone: true,
         moneyTransfer: false,
-        notes: "Phone calls and video visitation under the Oklahoma DOC statewide contract.",
+        notes: "Handles phone calls and video visitation for Oklahoma State Penitentiary.",
       },
     ],
 
     communication: {
       messaging: { status: "available", provider: "JPay", notes: "Available for general population. Death row access may differ, confirm with facility." },
-      video: { status: "limited", provider: "GTL", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
+      video: { status: "limited", provider: "Securus", notes: "Available for eligible inmates. Death row video access varies. Confirm before booking." },
       photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to ODOC content guidelines." },
-      phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls via GTL. Fund AdvancePay account to receive calls." },
+      phone: { status: "available", provider: "Securus", notes: "Inmate-initiated calls via Securus. Fund a prepaid account to receive calls." },
       moneyTransfer: { status: "available", provider: "JPay", notes: "Trust account deposits via JPay for commissary and personal purchases." },
     },
 
     rules: [
       "Death row inmates may have stricter communication limits than general maximum-security inmates.",
-      "JPay and GTL are separate platforms. Messaging and phone funds do not transfer between them.",
+      "JPay and Securus are separate platforms. Messaging and phone funds do not transfer between them.",
       "Messages are reviewed by ODOC staff before delivery.",
       "ODOC system-wide accounts carry over if the inmate transfers to another Oklahoma facility.",
       "Senders must be on the inmate's approved contact list.",
@@ -911,7 +887,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I set up phone calls from Oklahoma State Penitentiary?",
-        answer: "Phone calls use GTL. Create an account at telmate.com or through the GTL Connect app. Set up a prepaid AdvancePay account linked to your phone number and add funds. The inmate will call you from facility phones.",
+        answer: "Phone calls use Securus. Create an account at securustech.net. Set up a prepaid account linked to your phone number and add funds. The inmate will call you from facility phones.",
       },
       {
         question: "Does Oklahoma State Penitentiary house death row inmates?",

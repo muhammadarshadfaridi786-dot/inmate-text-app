@@ -714,7 +714,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   overview: [
     "The Williamson County Jail in Georgetown, Texas, is the county jail for Williamson County, operated by the Williamson County Sheriff's Office at 306 W. 4th Street. It houses pretrial detainees and sentenced inmates for the county.",
     "Inmate communication runs through NCIC Inmate Communications on a friends and family prepaid account. Register at account.ncic.com or call 800-943-2189, select Texas and Williamson County Jail, add your phone number and fund the account. The same account covers phone calls, video visits and secure email messaging, and you cannot receive calls until both you and your number are registered.",
-    "Video visits are scheduled through NCIC after registration. Mail goes to the inmate's name and booking number at the jail's P.O. box. For questions about calls or visits, the jail can be reached at 512-943-1365.",
+    "Video visits are scheduled through NCIC after registration. Mail goes to the inmate's name and booking number. Personal mail is processed through NCIC's mail center; legal mail goes directly to the jail. For questions about calls or visits, the jail can be reached at 512-943-1365.",
   ],
 
   address: "306 W. 4th Street, Georgetown, TX 78626",
@@ -758,7 +758,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Williamson County Jail?", answer: "NCIC Inmate Communications. Set up a friends and family prepaid account at account.ncic.com or call 800-943-2189." },
     { question: "How do video visits work?", answer: "Video visits are scheduled through your NCIC account after you register and add the inmate. Create the account at account.ncic.com." },
     { question: "Can I message an inmate?", answer: "Yes, NCIC provides secure email messaging services for this facility through the same friends and family account." },
-    { question: "How do I send mail to an inmate?", answer: "Address it to the inmate's full name and booking number at Williamson County Jail, P.O. Box 460, Georgetown, TX 78627. Use standard envelopes, no larger than 9x12 inches." },
+    { question: "How do I send mail to an inmate?", answer: "Address it to the inmate's full name and booking number. Personal mail is processed through NCIC's mail center, while legal mail goes directly to the jail. Confirm the current mailing addresses with the facility before sending, since mail handling changes. Use standard envelopes, no larger than 9x12 inches." },
     { question: "How do I visit someone at Williamson County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Williamson County Jail?", answer: "Williamson County Jail is in Georgetown, Texas, at 306 W. 4th Street. The county Corrections Bureau runs the jail. Separate juvenile facilities exist." },
     { question: "How do I search Williamson County jail records?", answer: "Search the Williamson County Records Inquiry by first and last name or booking number at judicialrecords.wilco.org." },

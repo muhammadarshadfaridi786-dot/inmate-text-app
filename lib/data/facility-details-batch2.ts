@@ -612,6 +612,9 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     inmateCapacity: 1800,
     established: 1976,
     operatedBy: "Louisiana Department of Public Safety and Corrections (LDPSC)",
+    mailingAddress: "Inmate Full Name and DOC Number, Elayn Hunt Correctional Center, 17544 Tunica Trace, St. Gabriel, LA 70776.",
+    visitingHours: "Visits require an approved visitor application. Approval can take days to weeks, so apply early and confirm the current visiting schedule with the facility before traveling.",
+    commissary: "Trust account deposits through JPay for commissary and personal purchases.",
 
     providers: [
       {
@@ -853,6 +856,10 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     inmateCapacity: 900,
     established: 1908,
     operatedBy: "Oklahoma Department of Corrections (ODOC)",
+    mailingAddress: "Inmate Full Name and ODOC Number, Oklahoma State Penitentiary, 100 Corrections Way, McAlester, OK 74501.",
+    visitingHours: "Visits require an approved ODOC visitor application. Death row visiting rules differ from general-population rules, so confirm the current procedures with the facility before traveling.",
+    rosterUrl: "https://okoffender.doc.ok.gov",
+    commissary: "Trust account deposits through JPay for commissary and personal purchases.",
 
     providers: [
       {

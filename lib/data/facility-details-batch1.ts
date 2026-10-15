@@ -5452,6 +5452,10 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     inmateCapacity: 3000,
     established: 1981,
     operatedBy: "Shelby County Sheriff's Office",
+    mailingAddress: "Inmate Full Name and Booking Number, Shelby County Criminal Justice Center, 201 Poplar Avenue, Memphis, TN 38103.",
+    visitingHours: "Video visits are scheduled in advance through GTL and require Sheriff approval. Schedule at least a day ahead and confirm the current visit windows with the facility before traveling.",
+    commissary: "Commissary deposits through GTL or AccessCorrections.",
+    bailInfo: "Bond is set by the court. The Sheriff inmate search shows bond information when a bond has been set. Bonds are posted through the jail or through a licensed bondsman. Call the facility for current posting hours and accepted payment methods.",
 
     providers: [
       {
@@ -5524,6 +5528,10 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
         question: "Can I send mail to someone at Shelby County CJC?",
         answer:
           "Yes. Include the inmate full name and booking number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
+      {
+        question: "Can I block calls from someone at Shelby County Criminal Justice Center?",
+        answer: "Yes. Contact GTL to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved contact list.",
       },
     ],
 
@@ -5872,12 +5880,12 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at Wake County Detention Center in Raleigh NC.",
 
     description:
-      "Wake County Detention Center communication guide. Find GTL phone, video, and messaging options for families in Raleigh, North Carolina. Learn how to stay connected at the Wake County jail.",
+      "Wake County Detention Center communication guide. Find phone, video visitation, and money options for families in Raleigh, North Carolina. Learn how to stay connected at the Wake County jail.",
 
     overview: [
       "Wake County Detention Center is the pretrial detention facility operated by the Wake County Sheriff's Office in Raleigh, North Carolina. Located on Hammond Road in southern Raleigh, the facility serves as the primary jail for the Wake County criminal court system. Raleigh is the state capital of North Carolina and the second-largest city in the state, and it sits at the center of the Research Triangle region. The detention center holds several hundred to over a thousand people on any given day, most of them awaiting court proceedings in Wake County courts.",
-      "Communication at Wake County Detention Center is managed through GTL, which provides phone calls, video visitation, and electronic messaging services under the county contract. Families create a GTL account to access all services. For phone calls, a GTL prepaid account funded with your phone number allows you to receive inmate-initiated calls. Remote video visits are available and can be scheduled through GTL. Electronic messaging through GTL delivers messages digitally within the facility. Commissary deposits can be processed through GTL or AccessCorrections.",
-      "Wake County uses GTL for its county jail, which is a different system from what North Carolina state prisons use. North Carolina DOC state prisons operate under separate provider contracts. If someone held at Wake County is convicted and transferred to a North Carolina state correctional institution, communication providers will change and new accounts may be needed. The Wake County Sheriff's Office provides an online inmate search to confirm current custody status. FCC Butner, the federal prison complex in Granville County nearby, uses CorrLinks and ConnectNetwork, a completely different system from the Wake County jail.",
+      "All visits at Wake County Detention Center are by video at the facility, 3301 Hammond Road, Raleigh. Visiting hours are 9am to 1:30pm and 4pm to 6:30pm, Monday through Thursday. Visits are scheduled at least 24 hours in advance by calling 919-857-9103, Monday through Thursday, 8am to 5pm. Each inmate gets one 30-minute visit per week, with up to two visitors. The Sheriff's Office detention page does not name a phone or messaging vendor, so confirm the current phone provider with the facility before creating any paid account. Personal mail is delivered digitally to inmates on tablets. Commissary money can be added at public kiosks or by mailed money order.",
+      "Wake County's jail system is separate from North Carolina state prisons, which operate under separate provider contracts. If someone held at Wake County is convicted and transferred to a North Carolina state correctional institution, communication providers will change and new accounts may be needed. The Wake County Sheriff's Office provides an online inmate search to confirm current custody status. FCC Butner, the federal prison complex in Granville County nearby, uses CorrLinks and ConnectNetwork, a completely different system from the Wake County jail.",
     ],
 
     address: "3301 Hammond Road, Raleigh, NC 27603",
@@ -5886,50 +5894,44 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     inmateCapacity: 1000,
     established: 1994,
     operatedBy: "Wake County Sheriff's Office",
+    mailingAddress: "Personal mail (digital delivery): Facility Name, Inmate Name and Inmate Identifier, P.O. Box 247, Phoenix, MD 21131. Include the full facility name and state, for example Wake County Detention NC. Legal mail: Inmate Full Name, Wake County Detention Center, P.O. BOX 2479, Raleigh, NC 27602-2479.",
+    visitingHours: "On-site video visits, Monday through Thursday, 9am to 1:30pm and 4pm to 6:30pm. Schedule at least 24 hours in advance by calling 919-857-9103, Monday through Thursday, 8am to 5pm. One 30-minute visit per inmate per week, up to two visitors.",
+    commissary: "Public kiosks at both Wake County jail facilities, Monday through Friday, 9am to 4pm, with cash available immediately. Money orders, certified checks, and payroll checks by mail, payable in the inmate's full name, are held in a 14-day escrow. Personal checks are not accepted.",
+    bailInfo: "A magistrate sets bond at first appearance. Secured bonds can be posted in cash or through a licensed bondsman. Check the inmate record for bond status and contact the Sheriff's Office for posting instructions.",
 
-    providers: [
-      {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
-        messaging: true,
-        video: true,
-        photos: false,
-        phone: true,
-        moneyTransfer: true,
-        notes: "Primary provider for all Wake County Detention Center communication services.",
-      },
-    ],
+    // TODO(Jan): verify provider
+
+    providers: [],
 
     communication: {
-      messaging: { status: "available", provider: "GTL", notes: "Electronic messaging via GTL. Messages monitored by Wake County Sheriff's staff." },
-      video: { status: "available", provider: "GTL", notes: "Remote video visits available through GTL. Schedule in advance." },
-      photos: { status: "limited", provider: undefined, notes: "Physical photo mail subject to Wake County restrictions. No digital photo service." },
-      phone: { status: "available", provider: "GTL", notes: "Fund a GTL prepaid account to receive inmate-initiated calls." },
-      moneyTransfer: { status: "available", provider: "GTL", notes: "Commissary deposits via GTL or AccessCorrections." },
+      messaging: { status: "limited", notes: "Messaging vendor is not confirmed. Confirm the current provider with the facility before creating a paid account." },
+      video: { status: "available", notes: "On-site video visits at the facility. Schedule at least 24 hours in advance by calling 919-857-9103, Monday through Thursday, 8am to 5pm." },
+      photos: { status: "limited", provider: undefined, notes: "Photo options are not confirmed. Confirm with the facility." },
+      phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the facility before creating a prepaid account." },
+      moneyTransfer: { status: "available", notes: "Public kiosks at both Wake County jail facilities, Monday through Friday, 9am to 4pm, or money orders and certified or payroll checks by mail. No personal checks." },
     },
 
     rules: [
-      "GTL serves Wake County Detention Center. FCC Butner (federal) and NC state prisons use different providers.",
+      "All visits are by video at the facility. Schedule at least 24 hours in advance by calling 919-857-9103.",
+      "One 30-minute visit per inmate per week, with up to two visitors.",
+      "Personal mail is delivered digitally to inmates on tablets. Legal mail goes to the WCDC mailing address.",
+      "Confirm the current phone and messaging vendor with the facility before creating any paid account.",
       "All calls, messages, and visits are monitored by Wake County Sheriff's staff.",
-      "One GTL account covers all Wake County jail communication services.",
-      "Video visits require advance scheduling.",
       "Senders must be on the inmate's approved contact list.",
     ],
 
     faq: [
       {
         question: "How do I contact someone at Wake County Detention Center?",
-        answer: "All communication services, phone, video, messaging, and money, are through GTL. Create an account at telmate.com or through the GTL Connect app. One account covers all services at Wake County Detention Center.",
+        answer: "Visits are by video at the facility, and personal mail is delivered digitally. The Sheriff's Office detention page does not name a phone or messaging vendor, so confirm the current provider with the facility before creating a paid account. Use the Sheriff's inmate search to confirm custody status.",
       },
       {
         question: "Can I do a video visit at Wake County Detention Center?",
-        answer: "Yes, remote video visits are available through GTL. Log into your account, navigate to video visitation, select Wake County Detention Center, and choose an available time slot. Schedule in advance for best availability.",
+        answer: "Visits are on-site video visits at 3301 Hammond Road, Raleigh, Monday through Thursday, 9am to 1:30pm and 4pm to 6:30pm. Schedule at least 24 hours in advance by calling 919-857-9103, Monday through Thursday, 8am to 5pm. Each inmate gets one 30-minute visit per week, with up to two visitors.",
       },
       {
         question: "Is Wake County Detention Center the same as FCC Butner?",
-        answer: "No. FCC Butner is a federal Bureau of Prisons complex in Granville County, a different county from Wake. Federal inmates at FCC Butner use CorrLinks and ConnectNetwork. Wake County Detention Center is a county jail using GTL. They are completely separate facilities with separate provider systems.",
+        answer: "No. FCC Butner is a federal Bureau of Prisons complex in Granville County, a different county from Wake. Federal inmates at FCC Butner use CorrLinks and ConnectNetwork. Wake County Detention Center is a county jail. They are completely separate facilities with separate systems.",
       },
       {
         question: "How do I find if someone is in Wake County Detention Center?",
@@ -5937,7 +5939,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send money to a Wake County Detention Center inmate?",
-        answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
+        answer: "Add money at the public kiosks at either Wake County jail facility, Monday through Friday, 9am to 4pm, or mail a money order, certified check, or payroll check made payable in the inmate's full name. Mailed funds are held in a 14-day escrow. Personal checks are not accepted.",
       },
       {
         question: "What should I do if someone was just arrested in Wake County?",
@@ -5947,7 +5949,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "Can I call an inmate at Wake County Detention Center?",
         answer:
-          "No. Inmates cannot receive incoming calls. They place outgoing calls through the GTL phone system. Create a GTL account so you can receive calls, and keep your phone available.",
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the jail phone system. Confirm the current phone provider with the facility, and keep your phone available.",
       },
       {
         question: "How does bail work at Wake County Detention Center?",
@@ -5957,7 +5959,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "Can I send mail to someone at Wake County Detention Center?",
         answer:
-          "Yes. Include the inmate full name and booking number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+          "Personal mail is delivered digitally to inmates on tablets. Address it to the facility name, the inmate name and inmate identifier, P.O. Box 247, Phoenix, MD 21131, and include the full facility name and state, for example Wake County Detention NC. Put your full name and physical address in the top-left corner. Legal mail goes to Inmate Full Name, Wake County Detention Center, P.O. BOX 2479, Raleigh, NC 27602-2479.",
       },
     ],
 

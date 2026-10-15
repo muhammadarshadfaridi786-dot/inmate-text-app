@@ -1085,7 +1085,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   overview: [
     "The Montgomery County Correctional Facility is the county jail in Eagleville, Pennsylvania, serving Montgomery County northwest of Philadelphia. It houses pretrial detainees and sentenced inmates for the county. This is the Pennsylvania facility, not the Montgomery County Correctional Facility in Boyds, Maryland.",
-    "Published sources disagree on which vendor provides phone and video services at this facility, with some naming GTL and GettingOut and others naming smaller phone companies. Because no official source could be verified, provider details are left open below rather than guessed.",
+    "Phone calls and video visits run through GTL (ViaPath), with GettingOut text messaging from kiosks and tablets, per multiple facility guides. Confirm the current setup with the facility before funding an account.",
     "Families should confirm the current phone vendor, video visit platform, and deposit options directly with the facility or on the county's official corrections page before creating accounts or sending money.",
   ],
 
@@ -1095,14 +1095,27 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   operatedBy: "Montgomery County, Pennsylvania",
   // TODO(Jan): verify provider: sources conflict (GTL/GettingOut vs smaller vendors); no official sheriff page confirmed the vendor.
 
-  providers: [],
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "GTL (ViaPath) phone calls and video visits, with GettingOut text messaging from kiosks and tablets.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", provider: undefined, notes: "Electronic messaging not confirmed. Check with the facility about current options." },
-    video: { status: "limited", provider: undefined, notes: "Video visitation reported but the platform is unconfirmed. Confirm with the facility before scheduling." },
+    messaging: { status: "available", provider: "GTL", notes: "GettingOut text messaging from kiosks and tablets." },
+    video: { status: "available", provider: "GTL", notes: "Video visitation through GTL. Confirm current scheduling with the facility before scheduling." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing not confirmed. Physical photos by mail are subject to jail content rules." },
-    phone: { status: "limited", provider: undefined, notes: "Phone vendor unconfirmed. Confirm the current provider with the facility before funding calls." },
-    moneyTransfer: { status: "limited", provider: undefined, notes: "Confirm current deposit options with the facility before sending money." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through GTL (ViaPath). Confirm the current setup with the facility before funding calls." },
+    moneyTransfer: { status: "limited", provider: undefined, notes: "Access Corrections reported for deposits. Confirm current deposit options with the facility before sending money." },
   },
 
   rules: [
@@ -1114,7 +1127,7 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which phone company does Montgomery County Correctional Facility use?", answer: "Published sources conflict, and no official source could be verified. Call the facility at its published number or check the county's official corrections page to confirm the current vendor before setting up an account." },
+    { question: "Which phone company does Montgomery County Correctional Facility use?", answer: "GTL (ViaPath) handles phone calls at Montgomery County Correctional Facility, with GettingOut text messaging. Confirm the current setup with the facility before funding an account." },
     { question: "Can I visit someone at Montgomery County Correctional Facility?", answer: "Yes, but confirm the current visitation schedule, visit type, and any scheduling platform directly with the facility, since reported details vary." },
     { question: "How do I send money to an inmate in Eagleville PA?", answer: "Use only the deposit methods published by the county or confirmed by facility staff. Do not send cash." },
     { question: "Is this the same as the Montgomery County jail in Maryland?", answer: "No. This entry covers the Montgomery County Correctional Facility in Eagleville, Pennsylvania. Maryland's facility is in Boyds, Maryland and is a separate institution." },

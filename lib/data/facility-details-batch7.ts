@@ -1653,7 +1653,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
 
   overview: [
     "The Knox County Detention Facility is the county jail system in Knoxville, Tennessee, operated by the Knox County Sheriff's Office. It includes the main detention facility and the Roger D. Wilson Detention Facility, which together house pretrial and sentenced inmates from across Knox County.",
-    "The county has historically used Securus Technologies for phone calls, messaging, and video visits, but Knox County was rebidding its inmate communication services contract in 2026. Because the current provider is not confirmed, families should verify the active phone and video provider on the sheriff's website or by calling the facility before funding any account.",
+    "The county has historically used Securus Technologies for phone calls, messaging, and video visits, but Knox County was rebidding its inmate communication services contract in 2026. Because the current provider is not confirmed, families should verify the active phone and video provider on the sheriff's website or by calling the facility before funding any account. The county solicited proposals for Inmate Communication Services under RFP #3722 in 2026 (proposals due June 2, 2026); no award outcome was published on the sources checked.",
     "Visits are scheduled in advance and visitors must be on the inmate's approved list. All calls and video visits are monitored and recorded except legal communications. For the fastest answers about a specific inmate, use the sheriff's online inmate search.",
   ],
 

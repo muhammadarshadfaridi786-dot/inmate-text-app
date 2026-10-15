@@ -366,7 +366,7 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
 
   overview: [
     "Hidalgo County Jail, also called the Hidalgo County Detention Center, is the county jail for Hidalgo County in Edinburg, Texas, operated by the Hidalgo County Sheriff's Office. It serves the Rio Grande Valley and houses pretrial detainees and sentenced inmates.",
-    "Published sources disagree on the current inmate communications vendor, so families should confirm the phone and video provider directly with the jail before creating any paid account. Deposits to inmate trust accounts can be made through the county's official detention page, which links to the approved deposit service.",
+    "Phone and video vendors are not named on the county pages checked, so families should confirm the phone and video provider directly with the jail before creating any paid account. Deposits to inmate trust accounts go through Access Corrections: the county site's Inmate Trust Account link points to accesscorrections.com.",
     "Visitation runs on a housing-unit schedule published by the county, with morning and afternoon sessions on weekdays and shorter weekend hours. As with any county jail, call ahead to confirm current visitation times and the correct vendor before traveling or funding an account.",
   ],
 
@@ -376,18 +376,31 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   commissary: "Friends and family can deposit funds to an inmate trust account in multiple ways; see the county Detention page for the deposit options.",
   // TODO(Jan): verify provider
 
-  providers: [],
+  providers: [
+    {
+      name: "Access Corrections",
+      slug: "access-corrections",
+      initial: "A",
+      color: "bg-green-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: false,
+      moneyTransfer: true,
+      notes: "Inmate Trust Account link on the county site points to Access Corrections.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the jail which vendor, if any, handles electronic messages." },
     video: { status: "limited", notes: "Video visitation availability is not confirmed. Check the county detention page or call the jail." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the jail." },
     phone: { status: "limited", notes: "Phone vendor is not confirmed. Confirm the current provider with the jail before creating a prepaid account." },
-    moneyTransfer: { status: "limited", notes: "Trust account deposits are available through the link on the official county detention page. Confirm the current method before sending money." },
+    moneyTransfer: { status: "available", provider: "Access Corrections", notes: "Inmate Trust Account link on the county site points to Access Corrections. Confirm the current method before sending money." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the jail before creating any paid account. Published sources disagree.",
+    "Confirm the current phone and video vendor with the jail before creating any paid account. Phone and video vendors are not named on the county pages checked.",
     "Bring a valid government-issued photo ID for any visit.",
     "Follow the posted dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -397,10 +410,10 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   faq: [
     { question: "Which company handles phone calls at Hidalgo County Jail?", answer: "The current vendor is not confirmed. Published sources name different providers, so call the jail or check the official county detention page before creating a prepaid account." },
     { question: "How do I visit an inmate at Hidalgo County Jail?", answer: "Visitation follows a housing-unit schedule published by the county, with morning and afternoon sessions. Confirm the current schedule and any registration requirements before traveling." },
-    { question: "How do I add money to an inmate's account?", answer: "The official county detention page links to the approved deposit service for inmate trust accounts. Confirm the current method there before sending money." },
+    { question: "How do I add money to an inmate's account?", answer: "Deposits to inmate trust accounts go through Access Corrections: the county site's Inmate Trust Account link points to accesscorrections.com. Confirm the current method there before sending money." },
     { question: "How do I find the right visiting day for an inmate at Hidalgo County Jail?", answer: "Visiting days depend on the inmate's housing section. Check the section schedule on the county Detention page and confirm the inmate's section before traveling." },
     { question: "How do I send mail to an inmate at Hidalgo County Jail?", answer: "Address mail to the inmate's full name and booking number at the Hidalgo County Detention Center. Include a return address." },
-    { question: "How do I deposit money to an inmate trust account at Hidalgo County Jail?", answer: "The county Detention page links to the approved deposit service for inmate trust accounts. Confirm the current method there before sending money." },
+    { question: "How do I deposit money to an inmate trust account at Hidalgo County Jail?", answer: "Use Access Corrections for inmate trust account deposits, via the county site's Inmate Trust Account link. Confirm the current method there before sending money." },
     { question: "Can I call an inmate at Hidalgo County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
     { question: "How do I find out if someone is in custody at Hidalgo County Jail?", answer: "Use the county jail records search by first and last name or booking number. If the person does not appear, allow time after booking and try alternate spellings." },
     { question: "What happens if I show up for a visit without checking the section schedule?", answer: "You may be turned away, because visiting days and blocks are assigned by housing section. Confirm the section and block on the county Detention page before traveling." },

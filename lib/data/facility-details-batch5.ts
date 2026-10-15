@@ -1238,25 +1238,62 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   overview: [
     "The El Paso County Criminal Justice Center (CJC) in Colorado Springs is operated by the El Paso County Sheriff's Office and is the primary jail for the county, housing both pretrial detainees and sentenced inmates.",
     "Visitation at the CJC is conducted through video visitation. The Sheriff's Office inmate services pages cover the visitation process, and visit payments and refunds are handled through JailATM. Friends and family schedule visits in advance, and visits must take place during the inmate's unlocked time.",
-    "The current phone and messaging vendors for the CJC are not clearly published on the Sheriff's pages, with different third-party sources naming different providers. Families should confirm the current phone setup directly with the Sheriff's Office before funding any vendor account, and use the Sheriff's official inmate services pages as the starting point.",
+    "Phone calls run through Correct Solutions Group (csgpay.com): contact the Correct Solutions Service Department at (877) 618-3516 to set up prepaid phone accounts. Video visitation runs through JailATM at jailatm.com. Deposits go through Access Corrections online at accesscorrections.com or by phone at 1-866-394-0490, per the Sheriff's Inmate Services page.",
   ],
 
   address: "2739 East Las Vegas St, Colorado Springs, CO 80906",
   phone: "(719) 390-2000",
   operatedBy: "El Paso County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "Correct Solutions Group",
+      slug: "correct-solutions-group",
+      initial: "C",
+      color: "bg-orange-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Prepaid phone accounts through Correct Solutions Group (csgpay.com), per the Sheriff's Inmate Services page.",
+    },
+    {
+      name: "Jail ATM",
+      slug: "jailatm",
+      initial: "J",
+      color: "bg-lime-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "Video visitation through JailATM at jailatm.com, per the Sheriff's Inmate Services page.",
+    },
+    {
+      name: "Access Corrections",
+      slug: "access-corrections",
+      initial: "A",
+      color: "bg-green-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: false,
+      moneyTransfer: true,
+      notes: "Deposits through Access Corrections online or by phone at 1-866-394-0490, per the Sheriff's Inmate Services page.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", provider: undefined, notes: "Electronic messaging is not confirmed. Check the Sheriff's inmate services pages for current options." },
-    video: { status: "available", provider: undefined, notes: "Video visitation is available through the Sheriff's inmate services system. Visit payments and refunds are handled through JailATM. Schedule in advance during the inmate's unlocked time." },
+    video: { status: "available", provider: "Jail ATM", notes: "Video visitation through JailATM at jailatm.com. Visit payments and refunds are handled through JailATM. Schedule in advance during the inmate's unlocked time." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Physical photos by mail follow standard jail mail rules." },
-    phone: { status: "limited", provider: undefined, notes: "Inmates can place outgoing calls, but the current phone vendor is not clearly published. Confirm the setup with the Sheriff's Office before funding any account." },
-    moneyTransfer: { status: "limited", provider: undefined, notes: "Deposit options are not clearly published on the Sheriff's pages. Confirm the current approved deposit method with the Sheriff's Office." },
+    phone: { status: "available", provider: "Correct Solutions Group", notes: "Prepaid phone accounts through Correct Solutions Group (csgpay.com). Contact the Correct Solutions Service Department at (877) 618-3516 to set up an account." },
+    moneyTransfer: { status: "available", provider: "Access Corrections", notes: "Deposits through Access Corrections online at accesscorrections.com or by phone at 1-866-394-0490, per the Sheriff's Inmate Services page." },
   },
 
   rules: [
-    "Start at the Sheriff's official inmate services pages. Third-party sites name different vendors for this jail.",
+    "Start at the Sheriff's official inmate services pages for current vendor details.",
     "Schedule video visits in advance. Visits must take place during the inmate's unlocked time.",
     "Visit payments and refunds run through JailATM, per the Sheriff's inmate services page.",
     "Inmates cannot receive incoming calls. All calls are initiated from inside the jail.",
@@ -1264,10 +1301,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do video visits work at the El Paso County Criminal Justice Center?", answer: "Visitation is conducted through video visitation. Schedule visits in advance through the Sheriff's inmate services system, during the inmate's unlocked time. Visit payments and refunds are handled through JailATM." },
-    { question: "Which company handles phone calls?", answer: "The current phone vendor is not clearly published on the Sheriff's pages. Confirm the phone setup with the Sheriff's Office at (719) 390-2000 before funding any vendor account." },
+    { question: "How do video visits work at the El Paso County Criminal Justice Center?", answer: "Video visitation runs through JailATM at jailatm.com. Schedule visits in advance, during the inmate's unlocked time. Visit payments and refunds are handled through JailATM." },
+    { question: "Which company handles phone calls?", answer: "Correct Solutions Group handles phone calls at the CJC. Set up a prepaid phone account through csgpay.com or call the Correct Solutions Service Department at (877) 618-3516." },
     { question: "Can I call an inmate at the CJC?", answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved contacts." },
-    { question: "How do I send money to an inmate?", answer: "Deposit options are not clearly published on the Sheriff's pages. Confirm the current approved deposit method with the Sheriff's Office before sending funds." },
+    { question: "How do I send money to an inmate?", answer: "Send deposits through Access Corrections online at accesscorrections.com or by phone at 1-866-394-0490, per the Sheriff's Inmate Services page." },
     { question: "What is the jail's address and phone number?", answer: "The Criminal Justice Center is at 2739 East Las Vegas St, Colorado Springs, CO 80906. The jail's main number is (719) 390-2000." },
     { question: "How do I find out if someone is in custody at the El Paso County Criminal Justice Center?", answer: "Use the Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
     { question: "Can I call an inmate at the CJC directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
@@ -1628,13 +1665,26 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   operatedBy: "Canyon County Sheriff's Office",
   rosterUrl: "https://jailroster.canyoncounty.id.gov/",
 
-  providers: [],
+  providers: [
+    {
+      name: "InmateSales",
+      slug: "inmatesales",
+      initial: "I",
+      color: "bg-slate-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "Remote video visits through the InmateSales video visit platform. Schedule at inmatesales.com.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", provider: undefined, notes: "Electronic messaging is not confirmed for this facility. Check the Canyon County Sheriff's pages for current options." },
-    video: { status: "available", provider: undefined, notes: "Remote video visits through the jail's InmateSales video visit platform. Visitors must be on the approved list and schedule in advance." },
+    video: { status: "available", provider: "InmateSales", notes: "Remote video visits through the InmateSales video visit platform. Visitors must be on the approved list and schedule in advance." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Physical photos by mail follow standard jail mail rules." },
-    phone: { status: "limited", provider: undefined, notes: "Inmates can place outgoing calls, but the phone vendor is not confirmed. Check the Canyon County Sheriff's pages before funding any account." },
+    phone: { status: "limited", provider: undefined, notes: "Phone vendor not confirmed: one directory names Consolidated Telecom (CTEL) and another names InmateSales. Check with the Canyon County Sheriff's Office before funding any account." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposit options are not confirmed. Check the Canyon County Sheriff's pages before sending funds." },
   },
 
@@ -1648,7 +1698,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
 
   faq: [
     { question: "How do video visits work at Canyon County Jail?", answer: "Remote video visitation runs through the jail's InmateSales video visit platform. You must be on the inmate's approved list, even for a video visit, and visits are scheduled in advance." },
-    { question: "Which company handles phone calls?", answer: "The phone vendor is not clearly published for this facility. Confirm the current phone setup with the Canyon County Sheriff's Office before funding any vendor account." },
+    { question: "Which company handles phone calls?", answer: "The phone vendor is not confirmed: one directory names Consolidated Telecom (CTEL) and another names InmateSales. Confirm the current phone setup with the Canyon County Sheriff's Office before funding any vendor account." },
     { question: "Can I call an inmate at the jail?", answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved contacts." },
     { question: "Can I message an inmate?", answer: "Electronic messaging is not confirmed for this facility. Video visits, phone calls, and mail are the established contact options." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed for this facility. Check the Canyon County Sheriff's pages for the current approved deposit method." },

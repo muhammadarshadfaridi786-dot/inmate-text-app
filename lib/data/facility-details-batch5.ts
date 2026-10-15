@@ -741,6 +741,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I send messages and photos to an inmate?", answer: "Yes. Secure messaging and photo sharing run through the GettingOut platform. Messages are limited to a set character count, and you can attach credits so the inmate can reply." },
     { question: "How do phone calls work?", answer: "Inmates place outgoing calls through the GTL phone system. Families register on GettingOut and fund the account before the first call." },
     { question: "How do I send money to an inmate?", answer: "Deposits can be made online, at the kiosk in the detention center lobby, by phone, or by mailing a money order. Confirm the current vendor and fee details on the Sheriff's jail pages before sending." },
+    { question: "How do I find out if someone is in custody at the Pima County jail?", answer: "Use the Pima County Sheriff's jail roster to search by name. If the person does not appear, allow time after booking and try alternate spellings of the name." },
+    { question: "Can I call an inmate at the Pima County jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "What do I do if calls from the Pima County jail stop coming through?", answer: "Check your GettingOut balance first, then confirm your number is still on the inmate's approved call list and that the account is in good standing. If the balance is fine, contact GTL support." },
+    { question: "How do I block calls from the Pima County jail?", answer: "Ask GTL to block the number on the inmate's account, or block the number through your own phone carrier. You can also ask the jail to remove your number from the inmate's approved list." },
   ],
 
   relatedFacilitySlugs: ["maricopa-county-jail", "clark-county-detention-center", "bernalillo-county-metropolitan-detention-center"],
@@ -771,14 +775,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Washoe County Sheriff's Office",
-
-  providers: [],
+  visitingHours: "On-site video visiting is available in the public lobby, Monday through Friday, 8:00 AM to 9:30 PM. Create an account at smartinmate.com with a government-issued ID photo and a current face photo; the facility must approve the account before you can schedule. Visits can also be scheduled at on-site kiosks. You must be 18 or older to create an account.",
+  providers: [
+    {
+      name: "Smart Communications",
+      slug: "smartinmate",
+      initial: "S",
+      color: "bg-cyan-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Smart Communications provides the integrated visitation, phone, email, tablet, and mail system at Washoe County Detention Facility. Create an account at smartinmate.com.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "available", provider: undefined, notes: "Email and messaging through Smart Communications at smartinmate.com. Fund the account to send messages." },
-    video: { status: "available", provider: undefined, notes: "Video visitation through the Smart Communications platform. Create an account at smartinmate.com to schedule." },
+    messaging: { status: "available", provider: "Smart Communications", notes: "Email and messaging through Smart Communications at smartinmate.com. Fund the account to send messages." },
+    video: { status: "available", provider: "Smart Communications", notes: "Video visitation through the Smart Communications platform. Create an account at smartinmate.com to schedule." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Physical mail is delivered digitally through tablets, so check the Sheriff's mail rules." },
-    phone: { status: "available", provider: undefined, notes: "Inmate-initiated calls through Smart Communications. Fund a prepaid collect account at smartinmate.com. One free 15-minute call per week, domestic only." },
+    phone: { status: "available", provider: "Smart Communications", notes: "Inmate-initiated calls through Smart Communications. Fund a prepaid collect account at smartinmate.com. One free 15-minute call per week, domestic only." },
     moneyTransfer: { status: "available", provider: undefined, notes: "Add money to the inmate's Smart Communications account for calls, emails, visits, and entertainment at smartinmate.com. Commissary deposits also accepted at lobby kiosks and by mail." },
   },
 
@@ -796,6 +813,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Video visitation runs on the Smart Communications platform. Create an account at smartinmate.com to schedule a visit." },
     { question: "Can I email an inmate?", answer: "Yes. Email is part of the Smart Communications platform. Fund your account at smartinmate.com to send emails, and inmates can reply from the facility tablets." },
     { question: "How do I send money to an inmate?", answer: "Add money directly to the inmate's Smart Communications account at smartinmate.com for calls, emails, visits, and entertainment. Commissary deposits can also be made at the lobby kiosks, online, or by mailed money order." },
+    { question: "How do I set up an account for Washoe County Detention Facility visits?", answer: "Create an account at smartinmate.com. You will need a government-issued ID photo and a current photo of yourself, and the facility must approve the account before you can schedule visits." },
+    { question: "Can I visit an inmate at Washoe County Detention Facility in person?", answer: "On-site video visiting is available in the public lobby, Monday through Friday, 8:00 AM to 9:30 PM. Visits are scheduled through your Smart Communications account or at the on-site kiosks." },
+    { question: "How do I find out if someone is in custody at Washoe County Detention Facility?", answer: "Use the Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Washoe County Detention Facility directly?", answer: "No. Inmates place outgoing calls. You cannot call an inmate directly." },
   ],
 
   relatedFacilitySlugs: ["clark-county-detention-center", "maricopa-county-jail", "denver-county-jail"],
@@ -864,6 +885,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can inmates use tablets for video visits?", answer: "Yes, if issued a tablet with headphones, an inmate may video visit from the cell during lockdown times, though the Wi-Fi signal may not reach every cell." },
     { question: "Can I message an inmate?", answer: "Text messaging is available through the GettingOut service on kiosks and tablets in the housing units. Fund the family account to send and receive messages." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the Sheriff's communication pages. Check the Snohomish County Sheriff's corrections pages for the current approved deposit method." },
+    { question: "How do I find out if someone is in custody at Snohomish County Jail?", answer: "Use the county Inmate Lookup tool to search by name or booking number. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Snohomish County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "What do I do if calls from Snohomish County Jail stop coming through?", answer: "Check your GTL balance first, then confirm your number is still on the inmate's approved call list. If the balance is fine, contact GTL support." },
+    { question: "How do I block calls from Snohomish County Jail?", answer: "Ask GTL to block the number, or block it through your own phone carrier. You can also ask the jail to remove your number from the inmate's approved list." },
   ],
 
   relatedFacilitySlugs: ["king-county-correctional-facility", "monroe-correctional-complex", "washington-state-penitentiary"],
@@ -934,6 +959,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I call an inmate at Pierce County Jail?", answer: "No. Inmates cannot receive incoming calls. They place outgoing calls, and the current phone vendor should be confirmed on the Pierce County Sheriff's corrections pages." },
     { question: "Can I message an inmate?", answer: "Electronic messaging is not confirmed for this facility. Video visits, phone calls, and mail are the established contact options." },
     { question: "What is the jail's address and phone number?", answer: "The Pierce County Jail is at 701 Nollmeyer Ln, Tacoma, WA 98402. The main jail reception number is (253) 798-4590." },
+    { question: "How do I find out if someone is in custody at Pierce County Jail?", answer: "Use the county Corrections inmate lookup. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Pierce County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I block calls from Pierce County Jail?", answer: "Ask the phone provider to block the number, or block it through your own phone carrier. You can also ask the jail to remove your number from the inmate's approved list." },
+    { question: "What should I do if I cannot find the inmate I am looking for?", answer: "Confirm the spelling of the name and check whether the person may be housed at a different Pierce County facility or has been released or transferred. Call the jail for help if the lookup still shows nothing." },
   ],
 
   relatedFacilitySlugs: ["king-county-correctional-facility", "monroe-correctional-complex", "multnomah-county-detention-center"],
@@ -1002,6 +1031,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Are there free on-site video visit options?", answer: "Yes. Free visitation booths and kiosks are available in the lobby of the Spokane County Jail and at the Geiger Corrections Visiting Center." },
     { question: "How do I send money to an inmate?", answer: "Deposit funds on inmate accounts through your Securus account." },
     { question: "Can I message an inmate?", answer: "Electronic messaging is not confirmed for this facility. Phone calls, video visits, and mail are the established contact options." },
+    { question: "How do I find out if someone is in custody at Spokane County Jail?", answer: "Use the county Detention Services inmate lookup. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Spokane County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I schedule a video visit at Spokane County Jail?", answer: "Video visits are by appointment through the Securus platform. Confirm the current scheduling steps and check-in rules with the jail before your first visit." },
+    { question: "How do I block calls from Spokane County Jail?", answer: "Ask Securus to block the number, or block it through your own phone carrier. You can also ask the jail to remove your number from the inmate's approved list." },
   ],
 
   relatedFacilitySlugs: ["king-county-correctional-facility", "washington-state-penitentiary", "multnomah-county-detention-center"],
@@ -1032,14 +1065,31 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Utah County Sheriff's Office",
-
-  providers: [],
+  mailingAddress: "Inmate First and Last Name, Booking Number, Utah County Jail, 3075 N Main St, Spanish Fork, UT 84660. Include a return name and address. Personal mail is scanned and viewed digitally on a tablet or kiosk, and originals are held until release. Legal mail and new softcover books from a publisher or bookstore are still accepted.",
+  visitingHours: "All visits are by remote video. Video Connect calls are initiated by the inmate and funded by AdvanceConnect prepaid accounts. Set up a Securus account at securustech.net with a state ID and a current photo. There are no visits during the first 3 days after booking. Video Connect is available 8:00 AM to 10:00 PM depending on classification.",
+  rosterUrl: "https://sheriff.utahcounty.gov/corrections/inmatesearch",
+  callRates: "Video Connect calls cost $0.19 per minute plus taxes, fees, and surcharges.",
+  commissary: "Commissary deposits go through JailATM at jailatm.com.",
+  providers: [
+    {
+      name: "Securus",
+      slug: "securus",
+      initial: "S",
+      color: "bg-indigo-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Securus provides phone service and video visitation at Utah County Jail. Set up an account at securustech.net.",
+    },
+  ],
 
   communication: {
     messaging: { status: "available", provider: undefined, notes: "Electronic messaging through Telmate. Create a Telmate account and fund it to exchange messages." },
-    video: { status: "available", provider: undefined, notes: "Video visitation through Telmate. Schedule visits through your Telmate account." },
+    video: { status: "available", provider: "Securus", notes: "Video visitation through Telmate. Schedule visits through your Telmate account." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Physical photos by mail follow standard jail mail rules." },
-    phone: { status: "available", provider: undefined, notes: "Inmate-initiated calls through Telmate. Set up and fund an account before the first call." },
+    phone: { status: "available", provider: "Securus", notes: "Inmate-initiated calls through Telmate. Set up and fund an account before the first call." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Commissary deposit options are not confirmed on the Sheriff's communication pages. Check the Utah County Sheriff's jail pages before sending funds." },
   },
 
@@ -1057,6 +1107,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Video visitation runs through Telmate. Create an account, add your inmate as a contact, and schedule visits in advance." },
     { question: "Can I message an inmate?", answer: "Yes. Electronic messaging is available through the Telmate platform. Fund your account to send and receive messages." },
     { question: "How do I send money to an inmate?", answer: "Commissary deposit options are not confirmed on the Sheriff's communication pages. Check the Utah County Sheriff's jail pages for the current approved deposit method." },
+    { question: "How do I set up a Securus account for Utah County Jail?", answer: "Create an account at securustech.net with a state ID and a current photo. Fund an AdvanceConnect prepaid account so the inmate can call you and start Video Connect calls." },
+    { question: "Can I call an inmate at Utah County Jail directly?", answer: "No. Inmates place outgoing calls. Video Connect calls are initiated by the inmate." },
+    { question: "How do I find out if someone is in custody at Utah County Jail?", answer: "Use the Sheriff's inmate search by name or arrest date. Booking information stays available for one year and booking photos for 30 days." },
+    { question: "What happens to mail sent to Utah County Jail?", answer: "Personal mail is scanned and delivered digitally to the inmate's tablet or kiosk. The original is held until release. Always include a return name and address." },
   ],
 
   relatedFacilitySlugs: ["salt-lake-county-metro-jail", "central-utah-correctional-facility", "utah-state-correctional-facility"],
@@ -1215,6 +1269,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I call an inmate at the CJC?", answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved contacts." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not clearly published on the Sheriff's pages. Confirm the current approved deposit method with the Sheriff's Office before sending funds." },
     { question: "What is the jail's address and phone number?", answer: "The Criminal Justice Center is at 2739 East Las Vegas St, Colorado Springs, CO 80906. The jail's main number is (719) 390-2000." },
+    { question: "How do I find out if someone is in custody at the El Paso County Criminal Justice Center?", answer: "Use the Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at the CJC directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I send mail to an inmate at the CJC?", answer: "Address mail to the inmate's full booking name and booking number at the Criminal Justice Center, 2739 E. Las Vegas St., Colorado Springs, CO 80906. Include a return address." },
+    { question: "How do I block calls from the CJC?", answer: "Ask the phone provider to block the number, or block it through your own phone carrier. You can also ask the jail to remove your number from the inmate's approved list." },
   ],
 
   relatedFacilitySlugs: ["denver-county-jail", "douglas-county-department-of-corrections", "laramie-county-detention-center"],
@@ -1296,6 +1354,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "How do phone calls work?", answer: "Detainees place outbound calls by collect, prepaid, or debit. Families typically set up a funded account through ConnectNetwork so calls can connect." },
     { question: "How do I send money to a detainee?", answer: "Commissary deposits can be made online, by phone, at the lobby kiosk, or by mailing a money order. Confirm the current vendor and fee details on the county detention pages." },
     { question: "What are the video visitation hours?", answer: "The facility posts daily video visitation blocks covering morning, afternoon, and evening. Confirm the current blocks when you schedule, since they can change." },
+    { question: "How do I find out if someone is in custody at Dona Ana County Detention Center?", answer: "Use the county detention center roster search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Dona Ana County Detention Center directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I send mail to a detainee?", answer: "Address mail to the detainee's full name and booking number at the Dona Ana County Detention Center, and include a return address. Confirm the current mail rules with the facility before sending, since mail policies can change." },
+    { question: "How do I block calls from Dona Ana County Detention Center?", answer: "Ask GTL to block the number, or block it through your own phone carrier. You can also ask the facility to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["bernalillo-county-metropolitan-detention-center", "lea-county-correctional-facility", "new-mexico-state-penitentiary"],
@@ -1364,6 +1426,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "How do phone calls work?", answer: "Inmates place outgoing calls to approved contacts. The current phone vendor is not confirmed on the county's pages, so check the county detention pages for the setup." },
     { question: "Do the tablets cost anything?", answer: "Accessing visits and messages on the tablets is generally free for the device itself, but video visits and messages carry fees paid by the inmate's family and friends." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the county's communication pages. Check the Missoula County detention pages for the current approved deposit method." },
+    { question: "How do I find out if someone is in custody at Missoula County Detention Facility?", answer: "Use the county detention facility roster search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Missoula County Detention Facility directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "What do I need to schedule a video visit?", answer: "An approved account with the facility's video vendor and the inmate's availability. Coordinate the time with the inmate first, since staff do not publish individual schedules." },
+    { question: "How do I block calls from Missoula County Detention Facility?", answer: "Ask ICSolutions to block the number, or block it through your own phone carrier. You can also ask the facility to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["montana-state-prison", "cascade-county-regional-correctional-facility", "yellowstone-county-detention-facility"],
@@ -1488,14 +1554,27 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Lane County Sheriff's Office",
-
-  providers: [],
+  visitingHours: "Attorney visiting at the Main Jail Facility, 101 West 5th, is Monday through Friday only: morning 7:45 to 10:30 AM (last call 10:15 AM), afternoon 12:30 to 4:30 PM (last call 4:15 PM), evening 5:30 to 8:00 PM (last call 7:45 PM). The reception lobby is closed 11:30 AM to 12:30 PM. General inmate visiting follows a separate schedule; confirm it with the jail.",
+  providers: [
+    {
+      name: "GTL",
+      slug: "gtl",
+      initial: "G",
+      color: "bg-amber-600",
+      messaging: true,
+      video: true,
+      photos: true,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Lane County Jail uses the Telmate phone system, part of the GTL/GettingOut platform. Contact Telmate through GettingOut.com or 866-516-0115 for prepaid phone accounts, messages, voicemail, and phone blocks.",
+    },
+  ],
 
   communication: {
     messaging: { status: "available", provider: undefined, notes: "Text and video messaging through Smart Communications tablets. Create an account and fund it to exchange messages." },
     video: { status: "available", provider: undefined, notes: "Video visits through the Smart Communications platform. Schedule through your account." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Physical mail is scanned and delivered through the tablet system." },
-    phone: { status: "available", provider: undefined, notes: "Inmate-initiated calls through Smart Communications. Set up and fund an account before the first call." },
+    phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls through Smart Communications. Set up and fund an account before the first call." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposit options are not confirmed on the county's communication pages. Check the Lane County Sheriff's pages before sending funds." },
   },
 
@@ -1513,6 +1592,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I message someone at the jail?", answer: "Yes. Text messaging and video messaging run through the Smart Communications tablets. Fund your account to send and receive messages." },
     { question: "How does mail work now?", answer: "Physical mail is scanned and delivered to the tablets through the secure mail scanning service. Follow the county's mail rules for what can be sent." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the county's communication pages. Check the Lane County Sheriff's pages for the current approved deposit method." },
+    { question: "How do I set up a prepaid phone account for Lane County Jail?", answer: "Lane County Jail does not administer the Telmate phone system. Set up a prepaid account through Telmate at GettingOut.com or call 866-516-0115." },
+    { question: "Can I call an inmate at Lane County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I find out if someone is in custody at Lane County Jail?", answer: "Use the county jail inmate records lookup. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "How do I block calls from Lane County Jail?", answer: "Contact Telmate at 866-516-0115 to block the number, or block it through your own phone carrier." },
   ],
 
   relatedFacilitySlugs: ["multnomah-county-detention-center", "oregon-state-penitentiary", "snake-river-correctional-institution"],
@@ -1543,6 +1626,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Canyon County Sheriff's Office",
+  rosterUrl: "https://jailroster.canyoncounty.id.gov/",
 
   providers: [],
 
@@ -1568,6 +1652,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I call an inmate at the jail?", answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved contacts." },
     { question: "Can I message an inmate?", answer: "Electronic messaging is not confirmed for this facility. Video visits, phone calls, and mail are the established contact options." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed for this facility. Check the Canyon County Sheriff's pages for the current approved deposit method." },
+    { question: "How do I find out if someone is in custody at Canyon County Jail?", answer: "Search the Canyon County Jail Roster by name. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Canyon County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I send mail to an inmate at Canyon County Jail?", answer: "Address mail to the inmate's full name and inmate number at Canyon County Jail, and include a return address. Confirm current mail rules with the jail before sending." },
+    { question: "How do I block calls from Canyon County Jail?", answer: "Ask the phone provider to block the number, or block it through your own phone carrier. You can also ask the jail to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["ada-county-jail", "idaho-state-correctional-institution", "idaho-maximum-security-institution"],
@@ -1637,6 +1725,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes. Securus eMessaging supports text-based messages and pictures on a fee basis. Fund your Securus account to send messages." },
     { question: "How do I send money to an inmate?", answer: "Deposit online through JailATM, at the kiosk in the jail lobby, by phone, or by mailing a money order made payable to the inmate. Confirm current options on the Sheriff's detention pages." },
     { question: "Can inmates use tablets?", answer: "Yes. The facility offers Securus SecureView tablet rentals on a monthly basis, funded by the inmate, for calls, eMessaging, education, entertainment, and more." },
+    { question: "How do I find out if someone is in custody at the Ventura County Pre-Trial Detention Facility?", answer: "Use the Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at the Pre-Trial Detention Facility directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I schedule a visit at the Pre-Trial Detention Facility?", answer: "Visits must be scheduled in advance. Confirm the current scheduling steps, visit length, and the inmate's unit schedule with the facility before booking." },
+    { question: "How do I block calls from the Pre-Trial Detention Facility?", answer: "Ask Securus to block the number, or block it through your own phone carrier. You can also ask the facility to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["san-diego-central-jail", "los-angeles-county-mens-central-jail", "james-a-musick-facility"],
@@ -1705,6 +1797,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I video visit or message an inmate?", answer: "Video visitation and electronic messaging are not confirmed for this facility. Check the Sheriff's pages for current options." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed for this facility. Check the San Joaquin County Sheriff's pages for the current approved deposit method." },
     { question: "What do I need to set up contact?", answer: "Start with the inmate's booking number. You will need it for phone accounts, commissary deposits, mail, and visitation registration." },
+    { question: "How do I find out if someone is in custody at San Joaquin County Jail?", answer: "Use the Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at San Joaquin County Jail directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I schedule a visit at San Joaquin County Jail?", answer: "Jail Core visits are by appointment. Call Jail Core Inmate Visiting at 209-468-4295, South Jail Visiting at 209-468-4676, or Honor Farm Visiting at 209-468-4384 for the facility where the person is housed." },
+    { question: "How do I block calls from San Joaquin County Jail?", answer: "Ask Securus to block the number, or block it through your own phone carrier. You can also ask the facility to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["folsom-state-prison", "corcoran-state-prison", "san-diego-central-jail"],
@@ -1735,6 +1831,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Kern County Sheriff's Department",
+  mailingAddress: "Effective June 1, 2025, Kern County no longer accepts physical personal mail at its detention facilities. Personal mail is scanned and distributed digitally on inmate kiosks and tablets. Sign up through Securus Technologies for the digital mail service. Privileged legal mail is not affected by this change.",
+  rosterUrl: "https://www.kernsheriff.org/Inmate-Search",
+  commissary: "Money can be deposited at a kiosk at the Metro Court Holding, Max-Med, or Justice Facility, by phone at 1-866-345-1884, or online through Access Corrections.",
 
   providers: [
     {
@@ -1773,6 +1872,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes. Securus eMessaging supports text-based messages and pictures on a fee basis. Fund your Securus account to send messages." },
     { question: "Where do I send mail to an inmate?", answer: "General mail routes through the Securus Digital Mail Center for Kern County, per the Sheriff's orientation materials. Follow the county's mail instructions for the correct addressing." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed on the available sources. Check the Kern County Sheriff's detentions pages for the current approved deposit method." },
+    { question: "How do I find out if someone is in custody at a Lerdo facility?", answer: "Use the Kern County Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at a Lerdo facility directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I pick up an inmate's property from a Lerdo facility?", answer: "Property releases are processed Monday through Friday, 8:00 AM to 5:00 PM, at the Justice Facility, 17801 Industrial Farm Road, Bakersfield. The person picking up property needs a valid state or federal photo ID. Allow 30 minutes to 3 hours for processing." },
+    { question: "How do I block calls from a Lerdo facility?", answer: "Ask Securus to block the number, or block it through your own phone carrier. You can also ask the facility to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["corcoran-state-prison", "california-institution-for-men", "san-diego-central-jail"],
@@ -1841,6 +1944,10 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     { question: "Can I video visit or message an inmate?", answer: "Video visitation and electronic messaging are not confirmed for this facility. Check the Sheriff's pages for current options." },
     { question: "How do I send money to an inmate?", answer: "Deposit options are not confirmed for this facility. Check the Contra Costa County Sheriff's pages for the current approved deposit method." },
     { question: "What do I need to set up contact?", answer: "Start with the inmate's booking number. You will need it for phone accounts, commissary deposits, mail, and visitation registration." },
+    { question: "How do I find out if someone is in custody at Martinez Detention Facility?", answer: "Use the Contra Costa Sheriff's inmate search. If the person does not appear, allow time after booking and try alternate spellings." },
+    { question: "Can I call an inmate at Martinez Detention Facility directly?", answer: "No. Inmates place outgoing calls to approved numbers. You cannot call an inmate directly." },
+    { question: "How do I schedule a visit at Martinez Detention Facility?", answer: "Confirm the current visiting schedule and scheduling steps with the facility before your first visit, since visiting rules vary by housing unit." },
+    { question: "How do I block calls from Martinez Detention Facility?", answer: "Ask GTL to block the number, or block it through your own phone carrier. You can also ask the facility to remove your number from the approved list." },
   ],
 
   relatedFacilitySlugs: ["san-diego-central-jail", "theo-lacy-facility"],

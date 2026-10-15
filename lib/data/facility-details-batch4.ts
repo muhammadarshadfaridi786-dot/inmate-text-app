@@ -33,6 +33,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "14601 Burbridge Road SE, Cumberland, MD 21502",
   phone: "(301) 784-1000",
   website: "https://www.bop.gov/locations/institutions/cum/",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   inmateCapacity: 1395,
   established: 1994,
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -86,6 +88,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is my family member at the main FCI or the camp?", answer: "Both share the same Cumberland grounds and BOP facility code. Use the BOP inmate locator at bop.gov/inmateloc to confirm the specific unit, since day-to-day schedules can differ between the main institution and the camp." },
     { question: "Can I visit someone at FCI Cumberland in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the inmate's approved visitor list. Processing can take several weeks, so apply as early as possible. Current forms are available at bop.gov." },
     { question: "How do I send money to an FCI Cumberland inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted. Processing usually takes one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FCI Cumberland?",
+        answer: "Use the BOP Inmate Locator at bop.gov/inmateloc. Search by the inmate's full name and register number. If the person does not appear, allow time for intake processing and try alternate spellings of the name.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Cumberland?",
+        answer: "Address mail with the inmate's full name and register number, plus FCI Cumberland and the facility mailing address. Confirm the current inmate mailing address on the BOP facility page before sending, since the main institution and the satellite camp use different mail handling.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Cumberland?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved call list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Cumberland?",
+        answer: "Contact ConnectNetwork and ask to block calls from the facility, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved call list.",
+      },
   ],
 
   relatedFacilitySlugs: ["fci-danbury", "federal-correctional-complex-butner", "fci-edgefield"],
@@ -225,6 +243,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "1016 Douglas Avenue, Yankton, SD 57078",
   phone: "(605) 665-3262",
   website: "https://www.bop.gov/locations/institutions/yan/",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, Federal Prison Camp, P.O. BOX 700, YANKTON, SD 57078",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   inmateCapacity: 450,
   established: 1988,
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -278,6 +299,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is FCI Yankton the same as FPC Yankton?", answer: "Yes. The facility operates as a minimum-security federal prison camp, and its official BOP designation is FPC Yankton. Both names refer to the same location." },
     { question: "Can I visit someone at FCI Yankton in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the approved visitor list. Processing can take several weeks. Current procedures are available at bop.gov." },
     { question: "How do I send money to an FCI Yankton inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FCI Yankton?",
+        answer: "Use the BOP Inmate Locator at bop.gov/inmateloc. Search by full name and register number. The facility's official BOP name is FPC Yankton, so use that name if a search asks for the facility.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Yankton?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, Federal Prison Camp, P.O. BOX 700, YANKTON, SD 57078. Include the inmate's full name and register number on every envelope.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FCI Yankton?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved call list.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Yankton?",
+        answer: "Contact ConnectNetwork and ask to block calls from the facility, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved call list.",
+      },
   ],
 
   relatedFacilitySlugs: ["fci-danbury", "fci-ray-brook", "fmc-devens"],
@@ -310,6 +347,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "42 Patton Road, Ayer, MA 01432",
   phone: "(978) 796-1000",
   website: "https://www.bop.gov/locations/institutions/dev/",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, FMC Devens, FEDERAL MEDICAL CENTER, P.O. BOX 879, AYER, MA 01432",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   inmateCapacity: 1000,
   established: 1999,
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -363,6 +403,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Why does FMC Devens have different procedures than other federal prisons?", answer: "FMC Devens is a Federal Medical Center that treats inmates with significant medical or mental health needs. Some day-to-day routines, including communication access, can be affected by an individual's treatment plan." },
     { question: "Can I visit someone at FMC Devens in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the approved visitor list. It is a good idea to confirm visiting availability ahead of time, since medical appointments can occasionally affect scheduling." },
     { question: "How do I send money to an FMC Devens inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FMC Devens?",
+        answer: "Use the BOP Inmate Locator at bop.gov/inmateloc. Search by full name and register number. Confirm whether the person is at the medical center or the satellite camp, since the two units share the same mailing address but have different routines.",
+      },
+      {
+        question: "How do I send mail to an inmate at FMC Devens?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FMC Devens, FEDERAL MEDICAL CENTER, P.O. BOX 879, AYER, MA 01432. For the camp, add SATELLITE CAMP after the facility name. Include the inmate's full name and register number on every envelope.",
+      },
+      {
+        question: "Can I visit someone who is in the medical unit at FMC Devens?",
+        answer: "Visiting depends on the inmate's medical status and housing unit. Contact the facility or the inmate's unit team before traveling to confirm whether visits are permitted and what restrictions apply.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FMC Devens?",
+        answer: "Contact ConnectNetwork and ask to block calls from the facility, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved call list.",
+      },
   ],
 
   relatedFacilitySlugs: ["fci-danbury", "federal-correctional-complex-butner", "fmc-rochester"],
@@ -503,6 +559,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "2110 East Center Street, Rochester, MN 55904",
   phone: "(507) 287-0674",
   website: "https://www.bop.gov/locations/institutions/rch/",
+    mailingAddress: "INMATE NAME and REGISTER NUMBER, FMC Rochester, FEDERAL MEDICAL CENTER, P.O. BOX 4000, ROCHESTER, MN 55903",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   established: 1984,
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
@@ -555,6 +614,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Why is FMC Rochester different from a standard federal prison?", answer: "FMC Rochester is a Federal Medical Center that treats inmates with significant medical or psychiatric needs. Day-to-day routines, including messaging and phone access, can be affected by an individual's treatment plan." },
     { question: "Can I visit someone at FMC Rochester in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the approved visitor list. Confirm visiting availability ahead of your trip, since medical appointments can occasionally affect scheduling." },
     { question: "How do I send money to an FMC Rochester inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FMC Rochester?",
+        answer: "Use the BOP Inmate Locator at bop.gov/inmateloc. Search by full name and register number. Because Rochester is a medical center, people are often transferred in for treatment, so confirm the current location before mailing or visiting.",
+      },
+      {
+        question: "How do I send mail to an inmate at FMC Rochester?",
+        answer: "Address mail as follows: INMATE NAME and REGISTER NUMBER, FMC Rochester, FEDERAL MEDICAL CENTER, P.O. BOX 4000, ROCHESTER, MN 55903. Include the inmate's full name and register number on every envelope.",
+      },
+      {
+        question: "Can I visit someone who is in the medical unit at FMC Rochester?",
+        answer: "Visiting depends on the inmate's medical status and housing unit. Contact the facility or the inmate's unit team before traveling to confirm whether visits are permitted and what restrictions apply.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at FMC Rochester?",
+        answer: "No. Inmates can only call out, so you cannot call an inmate directly. The inmate must call you, and your number must be on their approved call list.",
+      },
   ],
 
   relatedFacilitySlugs: ["fmc-devens", "federal-correctional-complex-butner", "adx-florence"],
@@ -587,6 +662,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "1400 Dale Bumpers Road, Forrest City, AR 72335",
   phone: "(870) 494-4200",
   website: "https://www.bop.gov/locations/institutions/fom/",
+    visitingHours: "Saturdays, Sundays, and federal holidays, 8:00 AM to 3:00 PM. Confirm the schedule with the facility before traveling, since hours can change.",
+    rosterUrl: "https://www.bop.gov/inmateloc/",
+    commissary: "Do NOT send money to an inmate using this facility address. All funds sent through the mail must be addressed to a processing center in Des Moines, Iowa. Applies to all Federal inmates",
   inmateCapacity: 1064,
   established: 2004,
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -640,6 +718,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is my family member at the low or medium facility?", answer: "Forrest City has two separate institutions on the same complex. Use the BOP inmate locator at bop.gov/inmateloc to confirm the exact facility, since mailing addresses and daily routines can differ." },
     { question: "Can I visit someone at FCI Forrest City in person?", answer: "Yes. You must submit a visitor application and pass a background review before being added to the approved visitor list. Processing can take several weeks. Current procedures are available at bop.gov." },
     { question: "How do I send money to an FCI Forrest City inmate?", answer: "Deposits go through ConnectNetwork at connectnetwork.com, or by mail using the BOP lockbox instructions at bop.gov. Western Union Quick Collect and MoneyGram are also accepted, with processing typically taking one to three business days." },
+      {
+        question: "How do I find or search for an inmate at FCI Forrest City?",
+        answer: "Use the BOP Inmate Locator at bop.gov/inmateloc. Search by full name and register number. Confirm whether the person is at the Low, Medium, or Camp unit, since the complex has three separate units with different routines.",
+      },
+      {
+        question: "How do I send mail to an inmate at FCI Forrest City?",
+        answer: "Address mail with the inmate's full name and register number, plus FCI Forrest City and the unit (Low, Medium, or Satellite Camp). Confirm the current inmate mailing address for the correct unit on the BOP facility page before sending.",
+      },
+      {
+        question: "What are the visiting hours at FCI Forrest City?",
+        answer: "Visiting is permitted on Saturdays, Sundays, and all federal holidays from 8:00 AM to 3:00 PM, per the facility's official visiting regulations. Visitors must be on the inmate's approved visiting list, and processing stops before the close of visiting hours.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at FCI Forrest City?",
+        answer: "Contact ConnectNetwork and ask to block calls from the facility, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved call list.",
+      },
   ],
 
   relatedFacilitySlugs: ["federal-correctional-complex-coleman", "fci-leavenworth", "fci-edgefield"],
@@ -865,6 +959,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "200 South Madison Street, Waupun, WI 53963",
   phone: "(920) 324-5571",
   website: "https://doc.wi.gov/Pages/OffenderInformation/AdultInstitutions/WaupunCorrectionalInstitution.aspx",
+    mailingAddress: "INMATE NAME and DOC NUMBER, Waupun Correctional Institution, P.O. BOX 351, WAUPUN, WI 53963-0351",
+    visitingHours: "In-person visits Monday through Friday, 2:45 PM to 5:15 PM and 5:45 PM to 8:15 PM. Video visits are offered seven days a week. Confirm the current schedule with the facility before traveling.",
   inmateCapacity: 1240,
   established: 1851,
   operatedBy: "Wisconsin Department of Corrections (WI DOC)",
@@ -918,6 +1014,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do phone calls work at Waupun?", answer: "Phone calls are handled through Securus. Set up a prepaid or direct-bill account at securustech.net so the inmate can call you, subject to the facility's monitored call schedule." },
     { question: "Can I send photos to someone at Waupun?", answer: "Yes. JPay allows you to attach digital photos to messages. Photos go through a content review process before being delivered, so allow some extra time." },
     { question: "How do I send money to a Waupun inmate?", answer: "Use JPay at jpay.com or the JPay app to deposit funds into the inmate's trust account. Deposits can also typically be made by phone or at a JPay kiosk if one is available near you." },
+      {
+        question: "How do I find or search for an inmate at Waupun Correctional Institution?",
+        answer: "Use the Wisconsin Department of Corrections inmate search on the DOC website. Search by the person's full name and DOC number. If the person does not appear, allow time for intake processing and try alternate spellings.",
+      },
+      {
+        question: "How do I send mail to an inmate at Waupun Correctional Institution?",
+        answer: "Address mail as follows: INMATE NAME and DOC NUMBER, Waupun Correctional Institution, P.O. BOX 351, WAUPUN, WI 53963-0351. Include the inmate's full name and DOC number on every envelope.",
+      },
+      {
+        question: "How do I schedule a video visit at Waupun Correctional Institution?",
+        answer: "Video visits are offered seven days a week and must be scheduled in advance. You must be on the inmate's approved visitor list. Check the facility's visiting information for the current scheduling steps before booking.",
+      },
+      {
+        question: "What are the in-person visiting hours at Waupun Correctional Institution?",
+        answer: "In-person visits are held Monday through Friday in two blocks: 2:45 PM to 5:15 PM and 5:45 PM to 8:15 PM. You must be on the inmate's approved visitor list. Confirm the current schedule with the facility before traveling, since hours can change.",
+      },
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "montana-state-prison", "suffolk-county-house-of-correction"],
@@ -1111,6 +1223,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I schedule a video visit at Mecklenburg County Detention Center?", answer: "Yes. Log into your Securus account, search for the facility, and choose an available time slot. It helps to book a day or two ahead." },
     { question: "How do I find out if someone is in custody at the Mecklenburg County jail?", answer: "The Mecklenburg County Sheriff's Office provides an online inmate search tool at mecksheriff.com. You can search by name to confirm current custody status." },
     { question: "What happens after someone is sentenced to state prison from Mecklenburg County?", answer: "People sentenced to felony prison time are transferred to a North Carolina Department of Adult Correction facility. Check the new facility's communication setup right after any transfer, since the providers change." },
+      {
+        question: "How do I send mail to someone at Mecklenburg County Detention Center?",
+        answer: "Address mail to the person using their full name and booking number, care of Mecklenburg County Detention Center, 801 East Fourth Street, Charlotte, NC 28202. Include the booking number so mail reaches the right person.",
+      },
+      {
+        question: "How do I find bond information for someone at Mecklenburg County Detention Center?",
+        answer: "Use the Mecklenburg County Sheriff's Office arrest and inmate inquiry tool, which lists charges and bond information for people in custody. For posting bond, contact the Sheriff's Office for the current process.",
+      },
+      {
+        question: "Can I visit someone in person at Mecklenburg County Detention Center?",
+        answer: "In-person visiting requires approval and scheduling. Confirm the current visiting schedule and requirements with the Mecklenburg County Sheriff's Office before traveling, since procedures can change.",
+      },
+      {
+        question: "Why has my GettingOut message not been delivered at Mecklenburg County Detention Center?",
+        answer: "Messages are reviewed by facility staff before delivery, which causes a delay. Check that you searched the correct name and booking number, and that your account is set up for the right facility. If the message still does not arrive, contact GettingOut support.",
+      },
   ],
 
   relatedFacilitySlugs: ["wayne-county-jail", "penobscot-county-jail", "king-county-correctional-facility"],
@@ -1172,6 +1300,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Penobscot County Jail?", answer: "Yes, through Securus. Log into your account, search for the facility, and pick an available time slot in advance." },
     { question: "How do I check if someone is being held at Penobscot County Jail?", answer: "Call the jail directly at (207) 947-4585, which is staffed 24 hours a day, or check the inmate information available through the Sheriff's Office website." },
     { question: "What happens if someone is transferred to a Maine state prison?", answer: "People sentenced to longer terms may be transferred to a Maine Department of Corrections facility. Communication providers can differ at state facilities, so check the new facility's setup right after a transfer." },
+      {
+        question: "How do I send mail to someone at Penobscot County Jail?",
+        answer: "Address mail with the person's full legal name, care of Penobscot County Jail, 85 Hammond Street, Bangor, ME 04401. Include the full legal name so mail reaches the right person.",
+      },
+      {
+        question: "How do I schedule a video visit at Penobscot County Jail?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
+      {
+        question: "How do I post bail for someone at Penobscot County Jail?",
+        answer: "Bail is set by the court. Contact the jail at the facility phone number for the current bond amount and the accepted posting process. Bring a valid photo ID when posting bail in person.",
+      },
+      {
+        question: "Can an inmate at Penobscot County Jail call me?",
+        answer: "Inmates can make outgoing calls to approved numbers, but they cannot receive incoming calls. Set up a Securus account and add funds so you can accept calls from the facility.",
+      },
   ],
 
   relatedFacilitySlugs: ["wayne-county-jail", "cass-county-jail", "northern-state-correctional-facility"],
@@ -1204,6 +1348,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "1375 Pontiac Avenue, Cranston, RI 02920",
   phone: "(401) 462-2053",
   website: "https://doc.ri.gov",
+    bailInfo: "RIDOC Bail Information: (401) 462-2261",
   inmateCapacity: 430,
   established: 1878,
   operatedBy: "Rhode Island Department of Corrections (RIDOC)",
@@ -1235,6 +1380,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at ACI Maximum Security?", answer: "Yes, through Securus, but you generally need to already be an approved contact. Schedule visits in advance and confirm requirements with the facility." },
     { question: "How do I know which ACI facility someone is being held in?", answer: "The Rhode Island Department of Corrections operates several buildings within the ACI complex. Contact RIDOC directly or check their website at doc.ri.gov to confirm the exact facility and security level." },
     { question: "How do I send money to someone at ACI Maximum Security?", answer: "Commissary deposits can be made through JPay. Create an account, add the person's information, and transfer funds using a debit or credit card." },
+      {
+        question: "How do I find or search for an inmate at ACI Maximum Security?",
+        answer: "Use the Rhode Island Department of Corrections offender search on the RIDOC website. Search by name or RIDOC number. Because the ACI complex has several facilities in Cranston, confirm which facility holds the person before mailing or visiting.",
+      },
+      {
+        question: "How do I get on an inmate's visitor list at ACI Maximum Security?",
+        answer: "The inmate must add your name to their visitor list. You must pass both the Bureau of Criminal Investigation (BCI) and National Criminal Investigation Center (NCIC) background checks. Sentenced inmates may list up to nine visitors.",
+      },
+      {
+        question: "What are the visiting rules at ACI Maximum Security?",
+        answer: "Each facility warden sets the visitation schedule, so hours vary by facility. Verify the schedule and requirements before each visit. All visitors must show valid photo ID and pass through a metal detector.",
+      },
+      {
+        question: "How do I find bail information for someone at ACI Maximum Security?",
+        answer: "Call RIDOC Bail Information at (401) 462-2261. Bail information covers people held on bail matters in the Rhode Island system.",
+      },
   ],
 
   relatedFacilitySlugs: ["northern-state-correctional-facility", "montana-state-prison", "wyoming-state-penitentiary"],
@@ -1267,6 +1428,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "2900 South Higley Boulevard, Rawlins, WY 82301",
   phone: "(307) 328-1441",
   website: "https://corrections.wyo.gov",
+    mailingAddress: "INMATE NAME and ID NUMBER, Wyoming State Penitentiary, P.O. BOX 400, RAWLINS, WY 82301",
+    fax: "(307) 328-7464",
   inmateCapacity: 780,
   established: 1980,
   operatedBy: "Wyoming Department of Corrections (WDOC)",
@@ -1298,6 +1461,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Wyoming State Penitentiary?", answer: "Yes, through Securus. Since Rawlins can be a long drive for many families, video visits are a helpful way to stay in touch. Schedule in advance." },
     { question: "How far is Wyoming State Penitentiary from major Wyoming cities?", answer: "Rawlins sits along Interstate 80 in south-central Wyoming. It can be a multi-hour drive from cities like Cheyenne or Casper, which is why many families rely on phone, messaging, and video options." },
     { question: "How do I send money to someone at Wyoming State Penitentiary?", answer: "Use JPay to make commissary deposits. Create an account, add the person's information, and transfer funds with a debit or credit card." },
+      {
+        question: "How do I send mail to someone at Wyoming State Penitentiary?",
+        answer: "Address mail as follows: INMATE NAME and ID NUMBER, Wyoming State Penitentiary, P.O. BOX 400, RAWLINS, WY 82301. Include the inmate's full name and ID number on every envelope.",
+      },
+      {
+        question: "How do I find or search for an inmate at Wyoming State Penitentiary?",
+        answer: "Use the Wyoming Department of Corrections inmate search on the WDOC website. Search by the person's full name. If the person does not appear, allow time for intake processing and try alternate spellings.",
+      },
+      {
+        question: "When can I visit someone at Wyoming State Penitentiary?",
+        answer: "Wyoming Department of Corrections policy requires each institution to offer visiting at least three days per week, with at least sixteen hours of visiting per week. Confirm the current schedule for the correct housing unit with the facility before traveling.",
+      },
+      {
+        question: "How do I block or stop calls from an inmate at Wyoming State Penitentiary?",
+        answer: "Contact Securus and ask to block calls from the facility, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved call list.",
+      },
   ],
 
   relatedFacilitySlugs: ["aci-maximum-security", "montana-state-prison", "northern-state-correctional-facility"],
@@ -1330,6 +1509,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "500 5th Avenue, Seattle, WA 98104",
   phone: "(206) 296-1234",
   website: "https://kingcounty.gov/en/dept/dajd",
+    bailInfo: "Bail can be paid by cash, cashier's check (no personal checks), or money order.",
   established: 1986,
   operatedBy: "King County Department of Adult and Juvenile Detention (DAJD)",
 
@@ -1360,6 +1540,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is King County Correctional Facility the same as the King County jail in Kent?", answer: "No. King County operates two jail facilities, one in downtown Seattle and a larger one in Kent. People can be held at either location, so confirm which facility someone is in before setting up communication accounts." },
     { question: "Can I schedule a video visit at King County Correctional Facility?", answer: "Yes, through Securus. Log into your account, search for the facility, and choose an available time slot in advance." },
     { question: "What happens after someone is sentenced to state prison from King County?", answer: "People sentenced to state time are transferred to a Washington Department of Corrections facility. Communication providers differ there, so check the new facility's page right after a transfer." },
+      {
+        question: "How do I find out if someone is at King County Correctional Facility?",
+        answer: "Use the King County Jail Inmate Lookup Service (JILS) subject lookup tool on the county Department of Adult and Juvenile Detention website. Search by name to confirm current custody and location.",
+      },
+      {
+        question: "How do I pay bail for someone at King County Correctional Facility?",
+        answer: "Bail can be paid by cash, cashier's check (no personal checks), or money order. Confirm the bail amount through the inmate lookup tool or with the facility before paying.",
+      },
+      {
+        question: "How do I send mail to someone at King County Correctional Facility?",
+        answer: "Address mail with the person's full name and booking number, care of King County Correctional Facility, 500 5th Avenue, Seattle, WA 98104. Include the booking number so mail reaches the right person.",
+      },
+      {
+        question: "How do I know whether someone is at KCCF in Seattle or Maleng Regional Justice Center in Kent?",
+        answer: "King County runs two adult detention facilities: KCCF in downtown Seattle and Maleng Regional Justice Center in Kent. Use the Jail Inmate Lookup Service to confirm which facility holds the person before mailing or visiting.",
+      },
   ],
 
   relatedFacilitySlugs: ["wayne-county-jail", "lew-sterrett-justice-center", "halawa-correctional-facility"],
@@ -1422,6 +1618,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Halawa Correctional Facility?", answer: "Yes, through Securus. This is especially useful for families living on other Hawaiian islands who cannot easily travel to Oahu. Schedule ahead of time." },
     { question: "Can someone from another Hawaiian island visit in person at Halawa?", answer: "In-person visits are possible but require island travel, which adds time and cost. Many families choose video visitation through Securus as a more practical option for regular contact." },
     { question: "How do I send money to someone at Halawa Correctional Facility?", answer: "Use JPay to make commissary deposits. Create an account, add the person's information, and transfer funds using a debit or credit card." },
+      {
+        question: "How do I send mail to someone at Halawa Correctional Facility?",
+        answer: "Address mail with the person's full legal name and inmate identification number, care of Halawa Correctional Facility, 99-902 Moanalua Road, Aiea, HI 96701. Include the inmate ID so mail reaches the right person.",
+      },
+      {
+        question: "How do I find out if someone is at Halawa Correctional Facility?",
+        answer: "Check the Hawaii victim notification service (VINE) or call the facility directly. Have the person's full legal name ready when you search or call.",
+      },
+      {
+        question: "Can I schedule a video visit with someone at Halawa Correctional Facility?",
+        answer: "Yes. Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
+      {
+        question: "Can an inmate at Halawa Correctional Facility call me?",
+        answer: "Inmates can make outgoing calls to approved numbers, but they cannot receive incoming calls. Set up a Securus account and add funds so you can accept calls from the facility.",
+      },
   ],
 
   relatedFacilitySlugs: ["king-county-correctional-facility", "wyoming-state-penitentiary", "northern-state-correctional-facility"],
@@ -1454,6 +1666,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "2559 Glen Road, Newport, VT 05855",
   phone: "(802) 334-3364",
   website: "https://bgs.vermont.gov/facilities/east/nscf",
+    visitingHours: "Visiting is scheduled by the incarcerated person's last name: A-C Saturday 9:00 to 11:00 AM, D-K Saturday 1:00 to 3:00 PM, L-Q Sunday 9:00 to 11:00 AM, R-Z Sunday 1:00 to 3:00 PM. Confirm the schedule with the facility before traveling.",
+    fax: "(802) 334-3367",
   inmateCapacity: 433,
   operatedBy: "Vermont Department of Corrections (VTDOC)",
 
@@ -1484,6 +1698,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Northern State Correctional Facility?", answer: "Yes, through Securus. Given Newport's distance from many Vermont population centers, video visits are a helpful way to stay in touch regularly. Schedule ahead." },
     { question: "Does Vermont ever transfer people out of state?", answer: "Yes, Vermont participates in interstate corrections agreements and sometimes houses people at out-of-state facilities. Confirm current location through the Vermont Department of Corrections before assuming someone remains at Northern State." },
     { question: "How do I send money to someone at Northern State Correctional Facility?", answer: "Use JPay to make commissary deposits. Create an account, add the person's information, and transfer funds with a debit or credit card." },
+      {
+        question: "What are the visiting hours at Northern State Correctional Facility?",
+        answer: "Visiting is scheduled alphabetically by the incarcerated person's last name: A-C Saturday 9:00 to 11:00 AM, D-K Saturday 1:00 to 3:00 PM, L-Q Sunday 9:00 to 11:00 AM, R-Z Sunday 1:00 to 3:00 PM. Arrive no more than 15 minutes before the scheduled time, and bring a valid photo ID.",
+      },
+      {
+        question: "How do I find or search for an inmate at Northern State Correctional Facility?",
+        answer: "Use the Vermont Department of Corrections inmate locator on the DOC website. Search by name or DOC number. Confirm the facility before mailing or visiting, since Vermont moves people between facilities.",
+      },
+      {
+        question: "How do I send mail to someone at Northern State Correctional Facility?",
+        answer: "Address mail with the person's full name and DOC number, care of Northern State Correctional Facility, 2559 Glen Road, Newport, VT 05855. Include the DOC number so mail reaches the right person.",
+      },
+      {
+        question: "How do I schedule a video visit at Northern State Correctional Facility?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
   ],
 
   relatedFacilitySlugs: ["aci-maximum-security", "wyoming-state-penitentiary", "penobscot-county-jail"],
@@ -1516,6 +1746,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "450 34th Street South, Fargo, ND 58103",
   phone: "(701) 271-2900",
   website: "https://www.casscountynd.gov/departments/corrections",
+    rosterUrl: "https://www.casscountynd.gov/departments/corrections/inmates-in-custody",
   operatedBy: "Cass County Sheriff's Office, Corrections Division",
 
   providers: [
@@ -1545,6 +1776,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Is video visitation available at Cass County Jail?", answer: "Yes, through Securus. Log into your account, search for the facility, and choose an available time slot in advance." },
     { question: "How do I find out if someone is in custody at Cass County Jail?", answer: "Call the jail directly at (701) 271-2900, available 24 hours a day, or check the inmate information available through Cass County's corrections page." },
     { question: "What happens if someone is sentenced to a North Dakota state prison from Cass County?", answer: "People sentenced to longer terms are typically transferred to a North Dakota Department of Corrections and Rehabilitation facility. Communication providers can differ there, so check the new facility's setup right after a transfer." },
+      {
+        question: "What information does the Cass County Jail roster show?",
+        answer: "The official Cass County inmates-in-custody roster lists people currently held at the jail with booking details. If someone does not appear, call the jail directly, since the roster updates as bookings change.",
+      },
+      {
+        question: "How do I send mail to someone at Cass County Jail?",
+        answer: "Address mail with the person's full name, care of Cass County Jail, 450 34th Street South, Fargo, ND 58103. Include the full name so mail reaches the right person.",
+      },
+      {
+        question: "How do I schedule a video visit at Cass County Jail?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
+      {
+        question: "How do I find bail or bond information for someone at Cass County Jail?",
+        answer: "Check the official Cass County inmates-in-custody roster for booking and bond details. For posting bond, contact the jail for the current process and accepted payment methods.",
+      },
   ],
 
   relatedFacilitySlugs: ["wayne-county-jail", "penobscot-county-jail", "king-county-correctional-facility"],
@@ -1657,6 +1904,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Cheshire is located in central Connecticut, within driving distance of New Haven, Hartford, and much of the state, which makes it accessible for most Connecticut families. In-person visits are scheduled through the Connecticut DOC visiting system rather than through JPay or Securus. If someone is transferred to another Connecticut DOC facility, the same JPay and Securus accounts generally continue to work statewide, but it's worth confirming the new facility on your account before sending funds.",
   ],
 
+  notToConfuseWith: "Not to be confused with Cheshire County Jail in Keene, New Hampshire.",
   address: "900 Highland Avenue, Cheshire, CT 06410",
   phone: "(203) 651-6100",
   website: "https://portal.ct.gov/doc/facility/cheshire-ci",
@@ -1689,6 +1937,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I find out where someone is being held in Connecticut?", answer: "The Connecticut Department of Correction offers an online inmate locator on its website. You can search by name to confirm the person's current facility." },
     { question: "What happens if someone is moved to a different Connecticut prison?", answer: "Your JPay and Securus accounts typically work across Connecticut DOC facilities. Update the facility listed on your account so messages and money reach the right place." },
     { question: "How do I send money to someone at Cheshire CI?", answer: "Use JPay online, through the app, by phone, or with cash at a participating MoneyGram location. Funds are usually credited to the inmate's account within one to two business days." },
+      {
+        question: "How do I find or search for an inmate at Cheshire Correctional Institution?",
+        answer: "Use the Connecticut Department of Correction inmate search on ct.gov/doc. Search by name and date of birth. Confirm the facility before mailing or visiting, since Connecticut moves people between facilities.",
+      },
+      {
+        question: "How do I send mail to someone at Cheshire Correctional Institution?",
+        answer: "Address mail with the person's full name and inmate number, care of Cheshire Correctional Institution, 900 Highland Avenue, Cheshire, CT 06410. Include the inmate number so mail reaches the right person.",
+      },
+      {
+        question: "How do I schedule a video visit at Cheshire Correctional Institution?",
+        answer: "Video visits must be pre-scheduled through Securus. Complete the Connecticut DOC visiting request process and confirm approval before the visit. You must be on the inmate's approved visitor list.",
+      },
+      {
+        question: "Can an inmate at Cheshire Correctional Institution call me?",
+        answer: "Inmates can make outgoing calls to approved numbers, but they cannot receive incoming calls. Set up a Securus account and add funds so you can accept calls from the facility.",
+      },
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "fci-danbury", "san-quentin-state-prison"],
@@ -1750,6 +2014,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone in Philadelphia's jail system?", answer: "Yes, video visitation is available through Securus. Create an account, select the correct facility, and choose an open time slot. Confirm hours in advance since they can vary by site." },
     { question: "What happens after someone is sentenced in Philadelphia?", answer: "Shorter sentences may be served within the PDP system. Longer sentences typically result in a transfer to a Pennsylvania Department of Corrections state prison, which uses a different communication provider setup than PDP." },
     { question: "How do I send money to someone in a Philadelphia facility?", answer: "Money deposits go through GettingOut online or by phone. Make sure you have the correct facility selected on the account, since PDP includes multiple buildings." },
+      {
+        question: "How do I send mail to someone in a Philadelphia jail?",
+        answer: "Mail is addressed to the specific facility where the person is held, so confirm the facility first. Address the letter with the person's full name and identification number, care of that facility.",
+      },
+      {
+        question: "How do I post bail for someone in a Philadelphia jail?",
+        answer: "Bail is set by the court. Confirm the bail amount and the posting process with the court or the facility. Bring a valid photo ID when posting bail in person.",
+      },
+      {
+        question: "Can I visit someone in person in the Philadelphia jail system?",
+        answer: "In-person visiting requires approval and scheduling. Confirm the current visiting procedures for the specific facility with the Philadelphia Department of Prisons before traveling, since procedures can change.",
+      },
+      {
+        question: "Can I still message someone after they transfer within the Philadelphia system?",
+        answer: "Yes. GettingOut handles messaging across the Philadelphia jail system, so your account still works after a transfer within the system. Confirm the person's new facility before sending mail, since mail goes to the specific facility.",
+      },
   ],
 
   relatedFacilitySlugs: ["baltimore-city-detention-center", "franklin-county-correctional-center", "bernalillo-county-metropolitan-detention-center"],
@@ -1864,6 +2144,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "12201 Wares Ferry Road, Montgomery, AL 36117",
   phone: "(334) 215-6600",
   website: "https://doc.alabama.gov/facility.aspx?loc=18",
+    mailingAddress: "INMATE NAME and AIS NUMBER, Kilby Correctional Facility, P.O. BOX 150, MT. MEIGS, AL 36057",
+    rosterUrl: "http://www.doc.state.al.us/InmateSearch",
+    commissary: "Deposit money online through Access Corrections at accesscorrections.com, by phone at 866-345-1884, or by mailing a money order with a deposit coupon to Secure Deposits, Alabama DOC, P.O. Box 12486, St. Louis, MO 63132.",
   operatedBy: "Alabama Department of Corrections",
 
   providers: [
@@ -1893,6 +2176,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I find out where someone is currently housed in the Alabama system?", answer: "The Alabama Department of Corrections provides an inmate locator on its website, doc.alabama.gov. Search by name to confirm current facility placement, especially after a recent booking." },
     { question: "Can I schedule a video visit at Kilby?", answer: "Yes, video visitation is available through Securus. Create an account, select Kilby Correctional Facility, and choose an open time. Confirm the person is still housed there before booking, given Kilby's intake role." },
     { question: "How do I send money to someone at Kilby?", answer: "Use JPay online, through the app, by phone, or with cash at a participating MoneyGram location. Deposits are usually applied within one to two business days." },
+      {
+        question: "How do I find or search for an inmate at Kilby Correctional Facility?",
+        answer: "Use the Alabama Department of Corrections inmate search at doc.state.al.us/InmateSearch. Search by name. Kilby is the receiving and classification center, so many people transfer to another Alabama facility after evaluation.",
+      },
+      {
+        question: "How do I send mail to someone at Kilby Correctional Facility?",
+        answer: "Address mail as follows: INMATE NAME and AIS NUMBER, Kilby Correctional Facility, P.O. BOX 150, MT. MEIGS, AL 36057. Include the inmate's full name and AIS number on every envelope.",
+      },
+      {
+        question: "What happens during classification at Kilby Correctional Facility?",
+        answer: "Kilby serves as the receiving and classification center for the Alabama prison system. New arrivals are evaluated and classified, then assigned to another correctional facility. The stay at Kilby is usually temporary.",
+      },
+      {
+        question: "How do I add money to someone's account at Kilby Correctional Facility?",
+        answer: "Deposit money online through Access Corrections at accesscorrections.com, by phone at 866-345-1884, or by mailing a money order with a deposit coupon to Secure Deposits, Alabama DOC, P.O. Box 12486, St. Louis, MO 63132.",
+      },
   ],
 
   relatedFacilitySlugs: ["attica-correctional-facility", "san-quentin-state-prison", "montana-state-prison"],
@@ -1925,6 +2224,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "167 State Street, Rutland, VT 05701",
   phone: "(802) 786-5830",
   website: "https://doc.vermont.gov/correctional-facilities/mvrcf-rutland",
+    visitingHours: "Visiting is scheduled by housing unit on Saturdays and Sundays: B-unit Lower Saturday 8:15 to 9:15 AM, B-unit Upper Saturday 9:35 to 10:35 AM, C-unit Lower Saturday 1:15 to 2:15 PM, C-unit Upper Saturday 2:40 to 3:40 PM, D-unit Lower Sunday 8:15 to 9:15 AM, D-unit Upper Sunday 9:35 to 10:35 AM, A-unit Lower Sunday 1:15 to 2:15 PM, A-unit Upper Sunday 2:40 to 3:40 PM. Confirm the schedule with the facility before traveling.",
+    fax: "(802) 786-5843",
   inmateCapacity: 127,
   operatedBy: "Vermont Department of Corrections",
 
@@ -1955,6 +2256,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I schedule a video visit with someone at Marble Valley?", answer: "Yes, video visitation is available through Securus. Create an account, select the facility, and choose an open time slot. Booking a day or two in advance is a good idea." },
     { question: "How do I find out where someone is held in the Vermont system?", answer: "The Vermont Department of Corrections offers information on current facility placement. You can also check with the facility directly or through your JPay and Securus accounts, which list the person's current location." },
     { question: "How do I send money to someone at Marble Valley?", answer: "Use JPay online, through the app, by phone, or with cash at a participating MoneyGram location. Deposits are typically credited within one to two business days." },
+      {
+        question: "What are the visiting hours at Marble Valley Correctional Facility?",
+        answer: "Visiting is scheduled by housing unit on Saturdays and Sundays. B-unit visits are Saturday morning, C-unit visits are Saturday afternoon, D-unit visits are Sunday morning, and A-unit visits are Sunday afternoon. Confirm the exact slot for the correct unit with the facility before traveling.",
+      },
+      {
+        question: "How do I find or search for an inmate at Marble Valley Correctional Facility?",
+        answer: "Use the Vermont Department of Corrections inmate locator on the DOC website. Search by name or DOC number. Confirm the facility before mailing or visiting, since Vermont moves people between facilities.",
+      },
+      {
+        question: "How do I send mail to someone at Marble Valley Correctional Facility?",
+        answer: "Address mail with the person's full name and DOC number, care of Marble Valley Correctional Facility, 167 State Street, Rutland, VT 05701. Include the DOC number so mail reaches the right person.",
+      },
+      {
+        question: "How do I schedule a video visit at Marble Valley Correctional Facility?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
   ],
 
   relatedFacilitySlugs: ["cheshire-correctional-institution", "fci-danbury", "attica-correctional-facility"],
@@ -2100,6 +2417,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone at MCCC from the mainland?", answer: "Yes. Video visitation through Securus is often the most practical option for families who live far from Maui, including other Hawaiian islands and the mainland. Schedule in advance for the best chance of an open slot." },
     { question: "How do I find out if someone is currently at MCCC?", answer: "The Hawaii Department of Corrections and Rehabilitation provides facility and inmate information on its website, dcr.hawaii.gov. You can also call the facility directly to confirm custody status." },
     { question: "How do I send money to someone at MCCC?", answer: "Use GettingOut online or by phone to make a deposit. Funds are typically applied to the person's account within a day or two." },
+      {
+        question: "How do I send mail to someone at Maui Community Correctional Center?",
+        answer: "Address mail with the person's full name and ID number, care of Maui Community Correctional Center, 600 Waiale Drive, Wailuku, HI 96793. Include the ID number so mail reaches the right person.",
+      },
+      {
+        question: "How do I find out if someone is at Maui Community Correctional Center?",
+        answer: "Check the Hawaii victim notification service (VINE) or call the facility directly. Have the person's full legal name ready when you search or call.",
+      },
+      {
+        question: "How do I schedule a video visit at Maui Community Correctional Center?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
+      {
+        question: "How do I post bail for someone at Maui Community Correctional Center?",
+        answer: "Bail is set by the court. Contact the facility for the current bond amount and the accepted posting process. Bring a valid photo ID when posting bail in person.",
+      },
   ],
 
   relatedFacilitySlugs: ["oahu-community-correctional-center", "clark-county-detention-center", "suffolk-county-house-of-correction"],
@@ -2132,6 +2465,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "1301 East 12th Street, Wilmington, DE 19802",
   phone: "(302) 429-7700",
   website: "https://doc.delaware.gov/",
+    visitingHours: "Visits are by appointment only, scheduled one week in advance by calling (302) 575-0330, Monday through Friday, 7:30 AM to 3:00 PM. One-hour visits run daily from 9:00 AM to 3:00 PM. Arrive 15 minutes early. Confirm the current schedule with the facility before traveling.",
   inmateCapacity: 1500,
   established: 1982,
   operatedBy: "Delaware Department of Correction",
@@ -2163,6 +2497,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I schedule a video visit at Howard R Young?", answer: "Yes, video visitation is available through Securus. Create an account, select the facility, and choose an open time slot. Booking a day or two ahead is recommended." },
     { question: "How do I find out where someone is held in the Delaware system?", answer: "The Delaware Department of Correction provides inmate and facility information on its website, doc.delaware.gov. You can also call the facility directly to confirm current placement." },
     { question: "How do I send money to someone at Howard R Young?", answer: "Use JPay online, through the app, by phone, or with cash at a participating MoneyGram location. Deposits are typically credited within one to two business days." },
+      {
+        question: "How do I schedule a visit at Howard R. Young Correctional Institution?",
+        answer: "All visits are by appointment only. Schedule one week in advance by calling (302) 575-0330, Monday through Friday, 7:30 AM to 3:00 PM. Have the inmate's full name, date of birth, and SBI number ready, plus the name, address, birth date, and phone number of every visitor.",
+      },
+      {
+        question: "What is an SBI number and why do I need it?",
+        answer: "The SBI number is the Delaware State Bureau of Identification number assigned to a person in the Delaware system. You need it to search for the person, schedule visits, and send money.",
+      },
+      {
+        question: "How do I find or search for an inmate at Howard R. Young Correctional Institution?",
+        answer: "Use the Delaware Department of Correction Inmate Locator. Search by name or SBI number to confirm the person's location, since Delaware moves people between facilities.",
+      },
+      {
+        question: "How do I post bail for someone at Howard R. Young Correctional Institution?",
+        answer: "Bail is set by the Justice of the Peace Court. Families can post bail directly or through a licensed bail bondsman. Confirm the amount and the posting process with the court or the facility.",
+      },
   ],
 
   relatedFacilitySlugs: ["baltimore-city-detention-center", "cheshire-correctional-institution", "attica-correctional-facility"],
@@ -2195,6 +2545,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "2460 Jackson Pike, Columbus, OH 43223",
   phone: "(614) 525-7100",
   website: "https://sheriff.franklincountyohio.gov/About-Us/Divisions/Corrections",
+    rosterUrl: "https://sheriff.franklincountyohio.gov/services/inmate-information",
   operatedBy: "Franklin County Sheriff's Office",
 
   providers: [
@@ -2224,6 +2575,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "Can I do a video visit with someone in Franklin County's jail system?", answer: "Yes, video visitation is available through Securus. Create an account, select the correct facility, and choose an open time slot. Confirm current hours before booking." },
     { question: "What happens after someone is sentenced in Franklin County?", answer: "Shorter sentences may be served within the county system. Longer sentences typically lead to a transfer to an Ohio Department of Rehabilitation and Correction state prison, which uses different communication providers." },
     { question: "How do I send money to someone in the Franklin County jail system?", answer: "Use GettingOut online or by phone to make a deposit. Make sure you have the correct facility selected, since Franklin County operates multiple buildings." },
+      {
+        question: "How do I find or search for an inmate at Franklin County Correctional Center?",
+        answer: "Use the Franklin County Sheriff's Office inmate information search at sheriff.franklincountyohio.gov/services/inmate-information. Search by name to confirm custody and location.",
+      },
+      {
+        question: "How do I send mail to someone at Franklin County Correctional Center?",
+        answer: "Address mail with the inmate's full name and booking number, care of Franklin County Correctional Center. Confirm the correct facility mailing address with the Sheriff's Office first, since Franklin County operates more than one corrections facility.",
+      },
+      {
+        question: "Can I visit someone in person at Franklin County Correctional Center?",
+        answer: "In-person visiting requires approval and scheduling. Confirm the current visiting schedule and requirements with the Franklin County Sheriff's Office before traveling, since procedures can change.",
+      },
+      {
+        question: "How do I schedule a video visit at Franklin County Correctional Center?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
   ],
 
   relatedFacilitySlugs: ["louisville-metro-corrections", "philadelphia-department-of-prisons", "clark-county-detention-center"],
@@ -2431,6 +2798,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at SCI Dallas?", answer: "Add funds through JPay at jpay.com or the JPay app using a debit or credit card. The deposit is applied to the person's commissary account." },
     { question: "How do I find out where someone is housed in the Pennsylvania prison system?", answer: "The Pennsylvania Department of Corrections offers an inmate locator on its website at pa.gov/agencies/cor. Search by name or DOC number to confirm current facility placement." },
     { question: "Does the same JPay account work if someone transfers to a different Pennsylvania prison?", answer: "Yes. JPay and Securus are used across the Pennsylvania DOC system, so the same accounts generally continue to work after a transfer to another state facility. Confirm the new facility name in your account before sending funds or messages." },
+      {
+        question: "How do I find or search for an inmate at SCI Dallas?",
+        answer: "Use the Pennsylvania Department of Corrections inmate and parolee locator on the PA DOC website. Search by name to confirm the facility before mailing or visiting, since Pennsylvania moves people between facilities.",
+      },
+      {
+        question: "How do I send mail to someone at SCI Dallas?",
+        answer: "Address mail with the person's full name and inmate number, care of SCI Dallas, 1000 Follies Road, Dallas, PA 18612. Include the inmate number so mail reaches the right person.",
+      },
+      {
+        question: "How do I schedule an in-person visit at SCI Dallas?",
+        answer: "Pennsylvania DOC visits are scheduled in advance through the DOC visit scheduling system, and visitors must be on the inmate's approved visitor list. Confirm the current schedule for the correct housing unit with the facility before traveling.",
+      },
+      {
+        question: "How do I schedule a video visit at SCI Dallas?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
   ],
 
   relatedFacilitySlugs: ["sci-phoenix", "attica-correctional-facility", "fci-danbury"],
@@ -2463,6 +2846,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "2725 NE-50, Tecumseh, NE 68450",
   phone: "(402) 335-5998",
   website: "https://corrections.nebraska.gov/facilities/tecumseh-state-correctional-institution",
+    mailingAddress: "INMATE NAME and ID NUMBER, Tecumseh State Correctional Institution, 2725 NE-50, TECUMSEH, NE 68450",
+    visitingHours: "Visiting varies by housing unit. The facility publishes a unit-by-unit schedule (HU1, HU2, HU3, SMU, ISDP) through the Nebraska Department of Correctional Services. Confirm the schedule for the correct housing unit with the facility before traveling.",
   inmateCapacity: 960,
   established: 2001,
   operatedBy: "Nebraska Department of Correctional Services",
@@ -2494,6 +2879,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Tecumseh?", answer: "Add funds through JPay at jpay.com or the JPay app using a debit or credit card. The deposit is applied to the person's commissary account." },
     { question: "How do I find out where someone is housed in the Nebraska prison system?", answer: "The Nebraska Department of Correctional Services offers an inmate locator on its website at corrections.nebraska.gov. Search by name to confirm current facility placement." },
     { question: "Does the same JPay account work if someone transfers to a different Nebraska prison?", answer: "Yes. JPay and Securus are used across the Nebraska DOC system, so the same accounts generally continue to work after a transfer to another state facility. Confirm the new facility name in your account before sending funds or messages." },
+      {
+        question: "What are the visiting hours at Tecumseh State Correctional Institution?",
+        answer: "Visiting varies by housing unit, and the facility publishes a unit-by-unit schedule covering HU1, HU2, HU3, SMU, and ISDP. All visitors must be on the inmate's approved visitor list. Confirm the schedule for the correct housing unit with the facility before traveling.",
+      },
+      {
+        question: "How do I send mail to someone at Tecumseh State Correctional Institution?",
+        answer: "Address mail as follows: INMATE NAME and ID NUMBER, Tecumseh State Correctional Institution, 2725 NE-50, TECUMSEH, NE 68450. Include the inmate's full name and ID number on every envelope.",
+      },
+      {
+        question: "How do I find or search for an inmate at Tecumseh State Correctional Institution?",
+        answer: "Use the Nebraska Department of Correctional Services inmate search on the NDCS website. Search by name to confirm the facility before mailing or visiting, since Nebraska moves people between facilities.",
+      },
+      {
+        question: "How do I schedule a video visit at Tecumseh State Correctional Institution?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
   ],
 
   relatedFacilitySlugs: ["anamosa-state-penitentiary", "montana-state-prison", "san-quentin-state-prison"],
@@ -2637,6 +3038,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Polk County Jail?", answer: "Commissary deposits go through GettingOut. You can add funds by debit or credit card through the app or website. Processing typically takes one business day." },
     { question: "Can I find out if someone is currently held at Polk County Jail?", answer: "The Polk County Sheriff's Office offers an online inmate search on its official website. You can search by name to confirm current custody status." },
     { question: "What happens to communication access after someone is sentenced?", answer: "People sentenced to state prison time are transferred out of Polk County Jail to an Iowa Department of Corrections facility. The provider setup at the new facility may be different, so check as soon as a transfer happens." },
+      {
+        question: "How do I find or search for an inmate at Polk County Jail?",
+        answer: "Use the Polk County Sheriff's Office inmate search, or call the jail at (515) 323-5400. Have the person's full name ready when you search or call.",
+      },
+      {
+        question: "How do I send mail to someone at Polk County Jail?",
+        answer: "Address mail with the person's full name, care of Polk County Jail, 1985 NE 51st Place, Des Moines, IA 50313. Include the full name so mail reaches the right person.",
+      },
+      {
+        question: "How do I post bail for someone at Polk County Jail?",
+        answer: "Bail can be posted at the jail lobby. Bring a valid photo ID and ask the reception deputy for the current bail process. Confirm the bail amount with the jail before posting.",
+      },
+      {
+        question: "How do I schedule a video visit at Polk County Jail?",
+        answer: "Schedule video visits through your Securus account. You must be on the inmate's approved visitor list. Book in advance, since same-day visits are generally not available.",
+      },
   ],
 
   relatedFacilitySlugs: ["douglas-county-department-of-corrections", "suffolk-county-house-of-correction", "oahu-community-correctional-center"],
@@ -2669,6 +3086,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "406 North High Street, Anamosa, IA 52205",
   phone: "(319) 462-3504",
   website: "https://doc.iowa.gov/districts-prisons/anamosa-state-penitentiary",
+    visitingHours: "In-person visiting Saturday and Sunday, 8:30 AM to 5:30 PM, by reservation in the Ameelio app. Video visiting Monday and Friday, 8:30 AM to 5:30 PM, in 50-minute blocks through the Ameelio app. Confirm the current schedule with the facility before traveling.",
+    rosterUrl: "https://doc-search.iowa.gov/offender/search",
   operatedBy: "Iowa Department of Corrections",
 
   providers: [
@@ -2698,6 +3117,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Anamosa State Penitentiary?", answer: "Add funds through JPay at jpay.com or the JPay app using a debit or credit card. The deposit is applied to the person's commissary account." },
     { question: "How do I find out where someone is housed in the Iowa prison system?", answer: "The Iowa Department of Corrections offers an inmate locator on its website at doc.iowa.gov. Search by name to confirm current facility placement." },
     { question: "Does the same JPay account work if someone transfers to a different Iowa prison?", answer: "Yes. JPay and Securus are used across the Iowa DOC system, so the same accounts generally continue to work after a transfer to another state facility. Confirm the new facility name in your account before sending funds or messages." },
+      {
+        question: "How do I schedule a visit at Anamosa State Penitentiary?",
+        answer: "All visits, in-person and video, are scheduled through the Ameelio app. In-person visits run Saturday and Sunday, 8:30 AM to 5:30 PM, by reservation. Video visits run Monday and Friday, 8:30 AM to 5:30 PM, in 50-minute blocks.",
+      },
+      {
+        question: "How do I find or search for an inmate at Anamosa State Penitentiary?",
+        answer: "Use the Iowa Department of Corrections offender search at doc-search.iowa.gov/offender/search. Search by name, date of birth, or offender number. Confirm the facility before mailing or visiting.",
+      },
+      {
+        question: "How do I send mail to someone at Anamosa State Penitentiary?",
+        answer: "Address mail with the person's full name and ID number, care of Anamosa State Penitentiary, 406 North High Street, Anamosa, IA 52205. Include the ID number so mail reaches the right person.",
+      },
+      {
+        question: "Can I receive incoming calls from an inmate at Anamosa State Penitentiary?",
+        answer: "No. Inmates can make outgoing calls to approved numbers, but they cannot receive incoming calls. Set up an account with the facility's phone provider and add funds so you can accept calls.",
+      },
   ],
 
   relatedFacilitySlugs: ["tecumseh-state-correctional-institution", "montana-state-prison", "attica-correctional-facility"],
@@ -2730,6 +3165,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   address: "501 The City Drive South, Orange, CA 92868",
   phone: "(714) 935-6940",
   website: "https://www.ocsheriff.gov/commands-divisions/custody-operations-command/theo-lacy-facility",
+    visitingHours: "In-person visiting Friday through Monday, 8:00 AM to 5:00 PM, by appointment only. Schedule at least 24 hours in advance by calling (714) 935-6202. Maximum four visits per inmate per week, one per day.",
+    commissary: "Money orders for inmate funds must be made payable to the County of Orange County - Sheriff's Department, with the inmate's name and booking number on the reference line. Deposit at the Cashier's office or mail through the U.S. mail.",
+    bailInfo: "Bail information is usually available 2 to 3 hours after booking. Contact the facility for the bail amount and posting options.",
   established: 1960,
   operatedBy: "Orange County Sheriff's Department",
 
@@ -2760,6 +3198,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Theo Lacy Facility?", answer: "Commissary deposits go through GettingOut. You can add funds by debit or credit card through the app or website. Processing typically takes one business day." },
     { question: "Can I find out if someone is currently held at Theo Lacy Facility?", answer: "The Orange County Sheriff's Department offers an online inmate locator. You can search by name to confirm which facility someone is currently held at." },
     { question: "What happens to communication access after someone is sentenced?", answer: "People sentenced to state prison time are transferred out of Orange County custody to a California Department of Corrections and Rehabilitation facility. The provider setup at the new facility may be different, so check as soon as a transfer happens." },
+      {
+        question: "How do I schedule a visit at Theo Lacy Facility?",
+        answer: "Visiting is by appointment only, Friday through Monday, 8:00 AM to 5:00 PM. Call (714) 935-6202 to schedule at least 24 hours in advance. Have the inmate's booking number, plus the date of birth and driver's license number of each visitor, ready when you call.",
+      },
+      {
+        question: "How do I find or search for an inmate at Theo Lacy Facility?",
+        answer: "Search the booking number through the Orange County Sheriff's Inmate Information System. If you do not know the booking number, search by the person's name. Confirm the facility before mailing or visiting.",
+      },
+      {
+        question: "How do I find bail information for someone at Theo Lacy Facility?",
+        answer: "Bail information is usually available 2 to 3 hours after booking. Contact the facility for the bail amount and the accepted posting options.",
+      },
+      {
+        question: "How do I add money to someone's account at Theo Lacy Facility?",
+        answer: "Send a money order made payable to the County of Orange County - Sheriff's Department, with the inmate's name and booking number on the reference line. Deposit it at the Cashier's office or mail it through the U.S. mail.",
+      },
   ],
 
   relatedFacilitySlugs: ["clark-county-detention-center", "san-quentin-state-prison", "oahu-community-correctional-center"],

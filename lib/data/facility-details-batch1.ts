@@ -2955,7 +2955,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     stateAbbr: "AZ",
     countySlug: null,
     countyName: "Pinal County",
-    securityLevel: "Close / Death Row",
+    securityLevel: "Closed",
     hasDetailPage: true,
     seoTitle: "ASPC Florence (Closed 2022): What Families Need to Know",
     seoDescription: "Arizona State Prison Complex Florence closed in 2022 and no longer houses inmates. How to find where someone was transferred.",
@@ -2969,11 +2969,8 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     "One function remains at the Florence site: the Central Unit execution chamber is still Arizona's execution site. ADCRR material from March 2025 describes the Florence facility as no longer used to house inmates, and the March 19, 2025 execution of Aaron Gunches took place there. Do not send mail, money, or visit requests to the old Florence address. Use the ADCRR inmate search at corrections.az.gov to confirm current housing, then follow the communication setup for the facility where the person is now housed.",
   ],
 
-    address: "1305 E. Butte Avenue, Florence, AZ 85132",
-    phone: "(520) 868-4011",
     website: "https://corrections.az.gov",
     rosterUrl: "https://corrections.az.gov/inmate-data-search",
-    inmateCapacity: 4000,
     established: 1908,
     operatedBy: "Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR)",
 

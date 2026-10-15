@@ -679,6 +679,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   inmateCapacity: 3148,
   established: 1984,
+  mailingAddress: "Inmate Name\nTDCJ Number\nEstelle Unit\n264 FM 3478\nHuntsville, TX 77320-3320",
+  visitingHours: "Saturday and Sunday, 8:00 AM to 5:30 PM (TDCJ unit visitation schedule).",
+  rosterUrl: "https://inmate.tdcj.texas.gov/InmateSearch/start.action",
+  commissary: "Trust fund deposits and commissary orders go through eCommDirect (Texas.gov). Approved senders on the inmate's visitor or phone list can deposit online, by mail with a money order to Inmate Trust Fund, PO Box 60, Huntsville, TX 77342-0060, or by monthly account debit.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Texas Department of Criminal Justice (TDCJ)",
 
   providers: [
@@ -718,6 +723,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How do video visits work at the Estelle Unit?", answer: "Video visits run through Securus. Create an account, add the inmate, and schedule in advance. Confirm the inmate's eligibility for video visits in his housing area." },
     { question: "What populations does the Estelle Unit house?", answer: "The Estelle Unit houses inmates across custody levels G1 through G5, plus administrative segregation, safekeeping, substance abuse, and geriatric populations. It also includes a regional medical facility." },
     { question: "How do I visit someone at the Estelle Unit?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow TDCJ visiting rules. Confirm hours before traveling." },
+    { question: "How do I find an inmate at the Estelle Unit?", answer: "Use the TDCJ online inmate search with the inmate's name and TDCJ or SID number. It lists current TDCJ inmates, including their unit, offenses, and projected release date." },
+    { question: "What is the mailing address for an inmate at the Estelle Unit?", answer: "Address mail to: Inmate Name, TDCJ Number, Estelle Unit, 264 FM 3478, Huntsville, TX 77320-3320. Include the TDCJ number on every piece of mail." },
+    { question: "Can I call an inmate at the Estelle Unit?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list and fund a Securus account to receive calls." },
+    { question: "How do I stop or block calls from an inmate at the Estelle Unit?", answer: "Contact Securus to block calls from a TDCJ facility, or ask the inmate to remove your number from their approved call list. You can also decline calls as they come in." },
   ],
 
   relatedFacilitySlugs: ["huntsville-unit", "eastham-unit", "fci-seagoville"],
@@ -750,6 +759,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   inmateCapacity: 4139,
   established: 1965,
+  mailingAddress: "Inmate Name\nTDCJ Number\nCoffield Unit\n2661 FM 2054\nTennessee Colony, TX 75884",
+  visitingHours: "Saturday and Sunday, 8:00 AM to 5:30 PM (TDCJ unit visitation schedule).",
+  rosterUrl: "https://inmate.tdcj.texas.gov/InmateSearch/start.action",
+  commissary: "Trust fund deposits and commissary orders go through eCommDirect (Texas.gov). Approved senders on the inmate's visitor or phone list can deposit online, by mail with a money order to Inmate Trust Fund, PO Box 60, Huntsville, TX 77342-0060, or by monthly account debit.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Texas Department of Criminal Justice (TDCJ)",
 
   providers: [
@@ -789,6 +803,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "Is the Coffield Unit the largest prison in Texas?", answer: "Yes. With a capacity of about 4,139, the Coffield Unit is the largest prison in Texas. It is co-located with the Beto, Gurney, Michael, and Powledge units." },
     { question: "How do video visits work at the Coffield Unit?", answer: "Video visits run through Securus. Create an account, add the inmate, and schedule in advance. Confirm the inmate's eligibility for video visits in his housing area." },
     { question: "How do I visit someone at the Coffield Unit?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow TDCJ visiting rules. Confirm hours before traveling." },
+    { question: "How do I find an inmate at the Coffield Unit?", answer: "Use the TDCJ online inmate search with the inmate's name and TDCJ or SID number. It lists current TDCJ inmates, including their unit, offenses, and projected release date." },
+    { question: "What is the mailing address for an inmate at the Coffield Unit?", answer: "Address mail to: Inmate Name, TDCJ Number, Coffield Unit, 2661 FM 2054, Tennessee Colony, TX 75884. Include the TDCJ number on every piece of mail." },
+    { question: "Can I call an inmate at the Coffield Unit?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list and fund a Securus account to receive calls." },
+    { question: "How do I stop or block calls from an inmate at the Coffield Unit?", answer: "Contact Securus to block calls from a TDCJ facility, or ask the inmate to remove your number from their approved call list. You can also decline calls as they come in." },
   ],
 
   relatedFacilitySlugs: ["huntsville-unit", "eastham-unit", "fci-seagoville"],
@@ -821,6 +839,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   inmateCapacity: 2073,
   established: 1965,
+  mailingAddress: "Inmate Name\nTDCJ Number\nEllis Unit\n1697 FM 980\nHuntsville, TX 77343",
+  visitingHours: "Saturday and Sunday, 8:00 AM to 5:30 PM (TDCJ unit visitation schedule).",
+  rosterUrl: "https://inmate.tdcj.texas.gov/InmateSearch/start.action",
+  commissary: "Trust fund deposits and commissary orders go through eCommDirect (Texas.gov). Approved senders on the inmate's visitor or phone list can deposit online, by mail with a money order to Inmate Trust Fund, PO Box 60, Huntsville, TX 77342-0060, or by monthly account debit.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Texas Department of Criminal Justice (TDCJ)",
 
   providers: [
@@ -860,6 +883,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "Did the Ellis Unit house Texas death row?", answer: "Yes. The Ellis Unit housed Texas male death row from 1965 until 1999, when death row moved to the Polunsky Unit." },
     { question: "How do video visits work at the Ellis Unit?", answer: "Video visits run through Securus. Create an account, add the inmate, and schedule in advance. Confirm the inmate's eligibility for video visits in his housing area." },
     { question: "How do I visit someone at the Ellis Unit?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow TDCJ visiting rules. Confirm hours before traveling." },
+    { question: "How do I find an inmate at the Ellis Unit?", answer: "Use the TDCJ online inmate search with the inmate's name and TDCJ or SID number. It lists current TDCJ inmates, including their unit, offenses, and projected release date." },
+    { question: "What is the mailing address for an inmate at the Ellis Unit?", answer: "Address mail to: Inmate Name, TDCJ Number, Ellis Unit, 1697 FM 980, Huntsville, TX 77343. Include the TDCJ number on every piece of mail." },
+    { question: "Can I call an inmate at the Ellis Unit?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list and fund a Securus account to receive calls." },
+    { question: "How do I stop or block calls from an inmate at the Ellis Unit?", answer: "Contact Securus to block calls from a TDCJ facility, or ask the inmate to remove your number from their approved call list. You can also decline calls as they come in." },
   ],
 
   relatedFacilitySlugs: ["huntsville-unit", "eastham-unit", "fci-seagoville"],
@@ -892,6 +919,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   inmateCapacity: 2300,
   established: 1883,
+  mailingAddress: "Inmate Name\nTDCJ Number\nWynne Unit\n810 FM 2821 W\nHuntsville, TX 77349",
+  visitingHours: "Saturday and Sunday, 8:00 AM to 5:30 PM (TDCJ unit visitation schedule).",
+  rosterUrl: "https://inmate.tdcj.texas.gov/InmateSearch/start.action",
+  commissary: "Trust fund deposits and commissary orders go through eCommDirect (Texas.gov). Approved senders on the inmate's visitor or phone list can deposit online, by mail with a money order to Inmate Trust Fund, PO Box 60, Huntsville, TX 77342-0060, or by monthly account debit.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Texas Department of Criminal Justice (TDCJ)",
 
   providers: [
@@ -931,6 +963,10 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "How old is the Wynne Unit?", answer: "The Wynne Unit opened in 1883, making it the second-oldest prison in Texas. The Windham School District headquarters is located at the unit." },
     { question: "How do video visits work at the Wynne Unit?", answer: "Video visits run through Securus. Create an account, add the inmate, and schedule in advance. Confirm the inmate's eligibility for video visits in his housing area." },
     { question: "How do I visit someone at the Wynne Unit?", answer: "You must be on the inmate's approved visiting list. Bring valid photo ID and follow TDCJ visiting rules. Confirm hours before traveling." },
+    { question: "How do I find an inmate at the Wynne Unit?", answer: "Use the TDCJ online inmate search with the inmate's name and TDCJ or SID number. It lists current TDCJ inmates, including their unit, offenses, and projected release date." },
+    { question: "What is the mailing address for an inmate at the Wynne Unit?", answer: "Address mail to: Inmate Name, TDCJ Number, Wynne Unit, 810 FM 2821 W, Huntsville, TX 77349. Include the TDCJ number on every piece of mail." },
+    { question: "Can I call an inmate at the Wynne Unit?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list and fund a Securus account to receive calls." },
+    { question: "How do I stop or block calls from an inmate at the Wynne Unit?", answer: "Contact Securus to block calls from a TDCJ facility, or ask the inmate to remove your number from their approved call list. You can also decline calls as they come in." },
   ],
 
   relatedFacilitySlugs: ["huntsville-unit", "eastham-unit", "fci-seagoville"],
@@ -1047,6 +1083,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
   website: "https://fdc.myflorida.com/ci/119.html",
   inmateCapacity: 1614,
   established: 1996,
+  mailingAddress: "Inmate Name\nDC Number\nSanta Rosa Correctional Institution\n5850 East Milton Road\nMilton, FL 32583",
+  visitingHours: "Saturday and Sunday, 8:00 AM to 2:00 PM Central Time (FDC standard visiting hours). Registration begins at 7:15 AM; visitors are not processed after 1:00 PM without warden approval.",
+  rosterUrl: "https://pubapps.fdc.myflorida.com/OffenderSearch/Search.aspx?TypeSearch=AI",
+  commissary: "Inmate funds deposits through JPay. Inmates buy commissary items from their trust fund account.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Florida Department of Corrections",
 
   providers: [
@@ -1097,6 +1138,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "What is the Santa Rosa Annex?", answer: "The Santa Rosa Annex opened in 2006 as an additional housing area of Santa Rosa Correctional Institution. The main institution opened in 1996." },
     { question: "How do I add money to an inmate's account at Santa Rosa Correctional Institution?", answer: "Inmate funds deposits go through JPay under Florida Administrative Code rules. Confirm the current deposit method before sending money." },
     { question: "How do I visit someone at Santa Rosa Correctional Institution?", answer: "Visitors must be approved by the Florida Department of Corrections. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
+    { question: "How do I find an inmate at Santa Rosa Correctional Institution?", answer: "Use the Florida DOC offender search with the inmate's name or DC number. It shows current FDC inmates, including their facility and custody status." },
+    { question: "What is the mailing address for an inmate at Santa Rosa Correctional Institution?", answer: "Address mail to: Inmate Name, DC Number, Santa Rosa Correctional Institution, 5850 East Milton Road, Milton, FL 32583." },
+    { question: "Can I call an inmate at Santa Rosa Correctional Institution?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Calls run through ViaPath (GTL)." },
+    { question: "How do I schedule a video visit at Santa Rosa Correctional Institution?", answer: "Video visits run through JPay. You must be on the inmate's approved visitor list. Create a JPay account, add the inmate, and schedule in advance." },
+    { question: "What are the visiting hours at Santa Rosa Correctional Institution?", answer: "Saturday and Sunday, 8:00 AM to 2:00 PM Central Time. Registration begins at 7:15 AM and visitors are not processed after 1:00 PM without warden approval. Confirm before traveling." },
   ],
 
   relatedFacilitySlugs: ["federal-detention-center-miami", "fci-miami", "fci-seagoville"],
@@ -1128,6 +1174,11 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
 
   website: "https://www.drc.ohio.gov/leci",
   established: 1960,
+  mailingAddress: "Inmate Name\nInmate Number\nLebanon Correctional Institution\nP.O. Box 56\nLebanon, OH 45036",
+  visitingHours: "Visiting hours vary by housing unit. Visits are scheduled through the ViaPath (GTL) visitation reservation system; confirm your window with the facility before traveling.",
+  rosterUrl: "https://appgateway.drc.ohio.gov/OffenderSearch",
+  commissary: "Money deposits through GTL ConnectNetwork. Inmates buy commissary items from their account.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Ohio Department of Rehabilitation and Correction",
 
   providers: [
@@ -1165,6 +1216,12 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Lebanon Correctional Institution?", answer: "Phone calls run through GTL (ViaPath) under the Ohio DOC contract." },
     { question: "How do I visit someone at Lebanon Correctional Institution?", answer: "Visitors must be approved by the Ohio Department of Rehabilitation and Correction. Bring valid photo ID and follow the dress code. Confirm visiting hours before traveling." },
     { question: "What security level is Lebanon Correctional Institution?", answer: "Lebanon houses adult men, mostly at medium security, with some close and maximum security populations. It opened in 1960." },
+    { question: "How do I find an inmate at Lebanon Correctional Institution?", answer: "Use the Ohio DRC offender search with the inmate's name or offender number. It shows current Ohio prison inmates, including their facility and sentence details." },
+    { question: "What is the mailing address for an inmate at Lebanon Correctional Institution?", answer: "Address mail to: Inmate Name, Inmate Number, Lebanon Correctional Institution, P.O. Box 56, Lebanon, OH 45036." },
+    { question: "Can I call an inmate at Lebanon Correctional Institution?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at Lebanon Correctional Institution?", answer: "Contact GTL (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do I schedule a video visit at Lebanon Correctional Institution?", answer: "Video visits run through GTL. You must be on the inmate's approved visitor list. Register with GTL and schedule in advance." },
+    { question: "How do I send money to an inmate at Lebanon Correctional Institution?", answer: "Send money through GTL ConnectNetwork online or by phone. Only approved or tentatively approved visitors may send funds." },
   ],
 
   relatedFacilitySlugs: ["fci-elkton", "fci-ray-brook", "fci-seagoville"],

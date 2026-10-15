@@ -951,6 +951,10 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         answer: "BCDC is closed. People arrested in Baltimore City now go through the Baltimore Central Booking and Intake Center (BCBIC) at 300 E. Madison Street. Phone deposits run through ConnectNetwork: set up an AdvancePay prepaid telephone account to accept calls. Confirm the person's current housing through the DPSCS offender search first, because BCBIC is a short-stay intake center and people are transferred quickly.",
       },
       {
+        question: "What is the phone number for Baltimore Central Booking and Intake Center?",
+        answer: "No general public phone number is listed on the official DPSCS BCBIC page. To check on someone, use the DPSCS offender search to confirm current housing. For phone accounts and deposits, use ConnectNetwork, the GTL/ViaPath authorized portal.",
+      },
+      {
         question: "Can I do a video visit at Baltimore Central Booking and Intake Center?",
         answer: "BCBIC visits alternate between in-person and virtual weeks on the DPSCS rotational schedule. Visiting hours are Mon, Tue, Thu, and Fri 4PM to 8PM and Sat and Sun 9AM to 5PM, with no visits on Wednesdays. Detainees are permitted one visit per day. Check the DPSCS BCBIC page for the current week before planning a visit.",
       },

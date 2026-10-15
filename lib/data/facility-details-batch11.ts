@@ -32,6 +32,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Miami-Dade Corrections and Rehabilitation Department (MDCR)",
+    visitingHours: "Visits are video visits. Visitors must be pre-approved and pass a background check. Confirm which facility holds the inmate and its current visiting schedule before traveling.",
+    bailInfo: "Bond information appears in the inmate record when a bond has been set. Bonds are posted through the jail or through a licensed bondsman. Call MDCR for current posting hours and accepted payment methods.",
 
   providers: [
     {
@@ -68,6 +70,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Miami-Dade County Jail?", answer: "Phone calls run through Securus. Securus Video Connect became the sole video system on October 1, 2026." },
     { question: "How do I visit someone at Miami-Dade County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow MDCR visiting rules. Confirm which facility holds the inmate and its visiting hours before traveling." },
     { question: "Which facilities are in the Miami-Dade County Jail system?", answer: "The system includes Turner Guilford Knight Correctional Center, Metro West Detention Center, the Pre-Trial Detention Center, and the Women's Detention Center. Metro West is the system's largest jail." },
+    { question: "How do I find someone in the Miami-Dade County Jail system?", answer: "Use the Miami-Dade Corrections online inmate search to confirm custody status and which facility holds the inmate. Have the person's full legal name ready." },
+    { question: "How do I mail a letter to someone in Miami-Dade County Jail?", answer: "Confirm the mailing address for the specific facility holding the inmate before sending mail. Include the inmate's full name and identification number on the envelope. Mail is inspected for contraband." },
+    { question: "Can an inmate at Miami-Dade County Jail call me?", answer: "Yes. Inmates place outgoing calls through Securus. Set up a Securus account to fund calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Miami-Dade County Jail?", answer: "Contact Securus to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I schedule a video visit at Miami-Dade County Jail?", answer: "Video visits run through Securus Video Connect, the sole video system since October 1, 2026. Create a Securus account, add the inmate, and schedule in advance. Confirm which facility holds the inmate before scheduling." },
+    { question: "How do I send money to someone at Miami-Dade County Jail?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with MDCR before sending money." },
   ],
 
   relatedFacilitySlugs: ["federal-detention-center-miami", "fci-miami", "broward-county-jail"],
@@ -1251,6 +1259,10 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Las Vegas Metropolitan Police Department (LVMPD)",
+    visitingHours: "Register online at the GTL VisitMe portal or in person, 8am to 10:30pm daily. No visit for 24 hours after registration. General-population social visits are two 25-minute visits per week. On-site booth visits are free. Social visiting hours are Monday through Friday, 7am to 10:30am and 7pm to 11pm; Saturday and Sunday, 7am to 10:30am, 12:30pm to 3pm, and 7pm to 11pm. Confirm the current schedule with the facility before traveling.",
+    rosterUrl: "https://www.lvmpd.com/about/sections/clark-county-detention-center/inmate-search",
+    callRates: "Remote video visits cost $6.25 per visit, changing to $0.19 per minute ($4.75 for a 25-minute visit) effective April 6, 2026. On-site booth visits are free. Confirm current rates with the facility.",
+    commissary: "Trust account deposits through TouchPay.",
 
   providers: [
     {
@@ -1299,6 +1311,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Clark County Jail in Nevada?", answer: "Phone calls run through ViaPath Technologies." },
     { question: "How do I visit someone at Clark County Jail in Nevada?", answer: "Visitors must be approved. Bring valid photo ID and follow LVMPD visiting rules. Confirm visiting hours before traveling." },
     { question: "What is CCDC North?", answer: "CCDC North, also called the North Valley Complex, is part of the Clark County Detention Center system in Las Vegas. The LVMPD inmate handbook governs telephone usage." },
+    { question: "How do I register to visit someone at Clark County Jail in Nevada?", answer: "Register online at the GTL VisitMe portal or in person, 8am to 10:30pm daily. No visit is allowed for 24 hours after registration." },
+    { question: "How much do video visits cost at Clark County Jail in Nevada?", answer: "On-site booth visits are free. Remote video visits cost $6.25 per visit, changing to $0.19 per minute ($4.75 for a 25-minute visit) effective April 6, 2026. Confirm current rates with the facility." },
+    { question: "How do I find an inmate at Clark County Jail in Nevada?", answer: "Use the LVMPD inmate search to confirm custody status. Have the person's full legal name ready." },
+    { question: "Can an inmate at Clark County Jail in Nevada call me?", answer: "Yes. Inmates place outgoing calls through ViaPath. Keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Clark County Jail in Nevada?", answer: "Contact ViaPath to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I send money to someone at Clark County Jail in Nevada?", answer: "Trust account deposits go through TouchPay. Create a TouchPay account, add the inmate, and fund the account." },
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "fdc-philadelphia", "mdc-los-angeles"],
@@ -1329,6 +1347,10 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Washoe County Sheriff's Office",
+    mailingAddress: "Smart Communications, Washoe County Detention Facility, Inmate Name and Booking or ID Number, PO Box 9163, Seminole, FL 33775-9137. Legal mail, court documents, business mail, and publications go directly to the facility at 911 Parr Blvd., Reno, NV 89512.",
+    visitingHours: "On-site video visiting is available in the public lobby, Monday through Friday, 8:00am to 9:30pm. Create an account and schedule your visit at least 24 hours in advance. You must be 18 or older and submit a photo of your government-issued ID and a current face photo.",
+    callRates: "Calls are billed at a per-minute rate with no connection fees. International calls are also billed per minute. Inmates get one free 15-minute call per week, except for international calls. Contact Smart Communications for a complete charge breakdown.",
+    commissary: "Place money on an inmate's account through Smart Communications at smartinmate.com.",
 
   providers: [
     {
@@ -1367,6 +1389,10 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Can I send electronic messages to an inmate at Washoe County Jail?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Smart Communications or by contacting the facility." },
     { question: "What is a direct supervision facility?", answer: "In a direct supervision facility, officers are stationed inside the housing units with inmates rather than observing from a separate control room. Washoe County Jail was designed as one of the first direct supervision facilities." },
     { question: "How do I visit someone at Washoe County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
+    { question: "How do I mail a letter to someone at Washoe County Jail?", answer: "Send personal mail to Smart Communications, Washoe County Detention Facility, with the inmate name and booking or ID number, PO Box 9163, Seminole, FL 33775-9137. Mail is scanned and viewed on kiosks. Legal mail, court documents, business mail, and publications go directly to the facility at 911 Parr Blvd., Reno, NV 89512." },
+    { question: "Can an inmate at Washoe County Jail call me?", answer: "Yes. Inmates can make outgoing calls to approved family and friends. No incoming calls can be received except voicemail messages to approved inmates. Inmates get one free 15-minute call per week, except for international calls." },
+    { question: "How do I block calls from Washoe County Jail?", answer: "Contact Smart Communications to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I send email to an inmate at Washoe County Jail?", answer: "Send email through smartinmate.com. Create an account, add the inmate, and follow the on-screen instructions. You can also place money on an inmate's account through the same site." },
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "clark-county-jail-nevada", "mdc-los-angeles"],
@@ -1398,6 +1424,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Salt Lake County Sheriff's Office",
+    mailingAddress: "Prisoner Name and SO Number, c/o Salt Lake County Metro Jail, 3415 S. 900 W., Salt Lake City, UT 84119.",
+    visitingHours: "Visits are scheduled in advance. Confirm the current visiting schedule and booking process with the facility before traveling.",
+    commissary: "Deposits through ConnectNetwork and AdvancePay. Confirm current deposit options with the facility.",
 
   providers: [
     {
@@ -1434,6 +1463,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Salt Lake County Jail?", answer: "Phone calls run through GTL (ViaPath) via ConnectNetwork." },
     { question: "How do I visit someone at Salt Lake County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the Salt Lake County Metro Jail?", answer: "The Salt Lake County Metro Jail is the county's main pretrial holding facility in Salt Lake City, operated by the Salt Lake County Sheriff's Office." },
+    { question: "How do I mail a letter to someone at Salt Lake County Jail?", answer: "Address the envelope with the prisoner name and SO number, c/o Salt Lake County Metro Jail, 3415 S. 900 W., Salt Lake City, UT 84119. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I find out if someone is at Salt Lake County Jail?", answer: "Contact the facility or the Salt Lake County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
+    { question: "Can an inmate at Salt Lake County Jail call me?", answer: "Yes. Inmates place outgoing calls through GTL via ConnectNetwork. Set up a ConnectNetwork account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Salt Lake County Jail?", answer: "Contact ConnectNetwork to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I schedule a video visit at Salt Lake County Jail?", answer: "Video visits run through GTL GettingOut. Create a GettingOut account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
+    { question: "How do I send money to someone at Salt Lake County Jail?", answer: "Deposits go through ConnectNetwork and AdvancePay. Create a ConnectNetwork account, add the inmate, and fund the account. Confirm current deposit options with the facility." },
   ],
 
   relatedFacilitySlugs: ["fci-seagoville", "fdc-philadelphia", "mdc-los-angeles"],
@@ -1551,6 +1586,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Collin County Sheriff's Office",
+    visitingHours: "All visits are 25 minutes. Visitors must arrive 20 minutes before the scheduled visit time and be on the inmate's visitation list, with valid photo ID. Visitation times are subject to change without notice. Confirm the current schedule with the facility before traveling.",
+    commissary: "Cash for commissary must be deposited at the kiosk. The Detention Facility does not accept cash, checks, or money orders by mail for commissary. The Bonds Office accepts cash for bonding purposes only.",
 
   providers: [
     {
@@ -1599,6 +1636,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Collin County Jail?", answer: "Phone calls run through ICSolutions (prepaid only)." },
     { question: "How do I visit someone at Collin County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Collin County Jail?", answer: "The facility is also known as the Collin County Detention Facility. It uses the direct supervision method and is operated by the Collin County Sheriff's Office in McKinney." },
+    { question: "How do I schedule a visit at Collin County Jail?", answer: "Visits are 25 minutes. Arrive 20 minutes before the scheduled time, bring valid photo ID, and make sure you are on the inmate's visitation list. Visitation times can change without notice, so confirm the schedule with the facility before traveling." },
+    { question: "How do I find someone at Collin County Jail?", answer: "Use the Collin County Sheriff's inmate search to confirm custody status. Have the person's full legal name ready." },
+    { question: "Can an inmate at Collin County Jail call me?", answer: "Yes. Inmates make prepaid-account calls only through ICSolutions. Fund an ICSolutions account for the phone number you want the inmate to call. Inmates cannot receive incoming calls, and the jail does not accept messages for inmates." },
+    { question: "How do I block calls from Collin County Jail?", answer: "Contact ICSolutions to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I send money to someone at Collin County Jail?", answer: "Deposit cash for commissary at the kiosk. The Detention Facility does not accept cash, checks, or money orders by mail for commissary." },
+    { question: "Can I send mail to someone at Collin County Jail?", answer: "All mail must go through the Postmaster. Front desk personnel are not allowed to accept mail of any kind. Confirm the current mailing address with the facility before sending mail." },
   ],
 
   relatedFacilitySlugs: ["dallas-county-jail", "denton-county-jail", "tarrant-county-jail"],
@@ -1629,6 +1672,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Denton County Sheriff's Office",
+    visitingHours: "On-site public visits are held Saturdays, 8am to 7:30pm, at the Pod Jail Public Entrance, 127 Woodrow Lane, Denton, TX 76205. Schedule at least 24 hours ahead through HomeWAV. Approval can take up to 72 hours, excluding weekends and holidays. Remote visits last 20 minutes at $0.10 per minute and are initiated by the inmate, not the visitor. Up to two free on-site visits per week. Confirm the current schedule with the facility before traveling.",
+    commissary: "Deposits are accepted online or by phone. Confirm current deposit options with the facility.",
   // TODO(Jan): verify phone and messaging provider
 
   providers: [
@@ -1666,6 +1711,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Denton County Jail?", answer: "The phone vendor is not settled between HomeWAV and Smart Communications. Confirm with the facility. Video visits run through HomeWAV." },
     { question: "How do I visit someone at Denton County Jail?", answer: "Visitation is video-based. Schedule ahead and follow the Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Denton County Jail?", answer: "Denton County Jail is in Denton, Texas. It is operated by the Denton County Sheriff's Office." },
+    { question: "How do I schedule a video visit at Denton County Jail?", answer: "Schedule at least 24 hours ahead through HomeWAV. Approval can take up to 72 hours, excluding weekends and holidays. On-site public visits are held Saturdays, 8am to 7:30pm, at the Pod Jail Public Entrance, 127 Woodrow Lane, Denton, TX 76205." },
+    { question: "How do remote visits work at Denton County Jail?", answer: "Remote visits last 20 minutes and cost $0.10 per minute. Remote visits are initiated by the inmate, not the visitor. Up to two free on-site visits per week." },
+    { question: "How do I mail a letter to someone at Denton County Jail?", answer: "Mail goes through Smart Communications and is viewable by the inmate on kiosks. Track delivery with MailGuard Tracker. Confirm the current mailing process with the facility before sending mail." },
+    { question: "Can an inmate at Denton County Jail call me?", answer: "The phone vendor is not settled. Confirm the current phone provider with the facility before creating a paid account. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Denton County Jail?", answer: "Ask the facility how to block calls from the jail, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I find someone at Denton County Jail?", answer: "Use the Denton County Sheriff's inmate search to confirm custody status. Have the person's full legal name ready." },
   ],
 
   relatedFacilitySlugs: ["dallas-county-jail", "collin-county-jail", "tarrant-county-jail"],
@@ -1818,6 +1869,10 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Galveston County Sheriff's Office",
+    mailingAddress: "Inmate Full Name and ID, Galveston County Jail, 5700 Avenue H, Galveston, TX 77551.",
+    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
+    commissary: "Trust fund deposits through GTL ConnectNetwork.",
+    bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
 
   providers: [
     {
@@ -1854,6 +1909,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Galveston County Jail?", answer: "Phone calls run through GTL (ViaPath) via ConnectNetwork." },
     { question: "How do I visit someone at Galveston County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Galveston County Jail?", answer: "Galveston County Jail is the county's main detention facility in Galveston, Texas. The Sheriff's Corrections Bureau runs booking and release." },
+    { question: "How do I mail a letter to someone at Galveston County Jail?", answer: "Address the envelope with the inmate's full name and ID, Galveston County Jail, 5700 Avenue H, Galveston, TX 77551. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I find out if someone is at Galveston County Jail?", answer: "Contact the facility or the Galveston County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
+    { question: "Can an inmate at Galveston County Jail call me?", answer: "Yes. Inmates place outgoing calls through GTL via ConnectNetwork. Set up a ConnectNetwork account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Galveston County Jail?", answer: "Contact ConnectNetwork to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I schedule a video visit at Galveston County Jail?", answer: "Video visits run through GTL GettingOut. Create a GettingOut account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
+    { question: "How do I send money to someone at Galveston County Jail?", answer: "Trust fund deposits go through GTL ConnectNetwork. Create a ConnectNetwork account, add the inmate, and fund the account." },
   ],
 
   relatedFacilitySlugs: ["harris-county-jail", "fort-bend-county-jail", "federal-detention-center-houston"],
@@ -1884,6 +1945,11 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Cameron County Sheriff's Office",
+    mailingAddress: "Inmate Name and Inmate ID Number, Carrizales Detention Center, 7300 Old Alice Road, Olmito, TX 78575.",
+    visitingHours: "Visiting days and times are set by the Sheriff and can change. Adult visitors must present valid photo ID. Call (956) 554-6701 for the current visiting days and times before traveling.",
+    callRates: "Video visits cost $0.30 per minute. Messages cost $0.25 each. Picture messages and video messages cost $0.35 each. Phone calls are billed at a per-minute rate with no connection fees.",
+    commissary: "Inmates may purchase commissary through FS and More Commissary, funded from the inmate trust fund. Only money orders or certified checks are accepted through the mail for trust fund deposits, mailed to Cameron County Jail Division, CO Inmate Trust Fund, Inmate Name and Inmate ID Number, P.O. Box 1539, Olmito, TX 78575. No cash is accepted.",
+    bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
 
   providers: [
     {
@@ -1920,6 +1986,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Cameron County Jail?", answer: "Phone calls run through NCIC Inmate Communications." },
     { question: "How do I visit someone at Cameron County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which detention center holds the inmate before traveling." },
     { question: "Which detention sites are in the Cameron County Jail system?", answer: "The Sheriff's Jail Division runs multiple detention sites including Detention Center I and II and the Carrizales-Rucker Detention Center in Brownsville." },
+    { question: "How do I mail a letter to someone at Cameron County Jail?", answer: "Address the envelope with the inmate name and inmate ID number, Carrizales Detention Center, 7300 Old Alice Road, Olmito, TX 78575. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I send money to someone at Cameron County Jail?", answer: "Only money orders or certified checks are accepted through the mail, payable to the inmate and sent to Cameron County Jail Division, CO Inmate Trust Fund, Inmate Name and Inmate ID Number, P.O. Box 1539, Olmito, TX 78575. No cash is accepted." },
+    { question: "Can an inmate at Cameron County Jail call me?", answer: "Yes. Inmates place outgoing calls through NCIC. No incoming calls can be received except voicemail messages to approved inmates. Fund an NCIC prepaid account to receive calls." },
+    { question: "How do I block calls from Cameron County Jail?", answer: "Contact NCIC to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do video visits work at Cameron County Jail?", answer: "Video visits run through NCIC and cost $0.30 per minute. Set up an NCIC account at account.ncic.com, add the inmate, and schedule in advance." },
+    { question: "How do I find someone at Cameron County Jail?", answer: "Use the Cameron County Sheriff's inmate search to confirm custody status and which detention center holds the inmate. Have the person's full legal name ready." },
   ],
 
   relatedFacilitySlugs: ["hidalgo-county-jail", "webb-county-jail", "nueces-county-jail"],
@@ -1950,6 +2022,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Webb County Sheriff's Office",
+    mailingAddress: "Inmate Full Name and ID, Webb County Jail, 9998 S. Highway 83, Laredo, TX 78046.",
+    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
+    bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
 
   providers: [
     {
@@ -1986,6 +2061,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Webb County Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
     { question: "How do I visit someone at Webb County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Webb County Jail?", answer: "Webb County Jail is the main detention facility in Laredo, Texas. The Webb County Sheriff's Office is the county's primary jail operator." },
+    { question: "How do I mail a letter to someone at Webb County Jail?", answer: "Address the envelope with the inmate's full name and ID, Webb County Jail, 9998 S. Highway 83, Laredo, TX 78046. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I find out if someone is at Webb County Jail?", answer: "Contact the facility or the Webb County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
+    { question: "Can an inmate at Webb County Jail call me?", answer: "Yes. Inmates place outgoing calls through GettingOut. Set up a GettingOut account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Webb County Jail?", answer: "Contact GettingOut to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I schedule a video visit at Webb County Jail?", answer: "Video visits run through GettingOut. Create a GettingOut account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
+    { question: "How do I send money to someone at Webb County Jail?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with the facility before sending money." },
   ],
 
   relatedFacilitySlugs: ["hidalgo-county-jail", "cameron-county-jail", "nueces-county-jail"],

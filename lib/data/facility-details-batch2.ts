@@ -364,6 +364,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "695 Justice Way, Indianapolis, IN 46203",
     phone: "(317) 327-1700",
     website: "https://www.indy.gov/agency/marion-county-sheriffs-office",
+    rosterUrl: "https://www.indy.gov/workflow/find-a-person-in-jail",
+    bailInfo: "The inmate lookup record shows bond information when a bond has been set. Contact the Sheriff Office for instructions on posting bond.",
     inmateCapacity: 2600,
     established: 1970,
     operatedBy: "Marion County Sheriff's Office",
@@ -420,6 +422,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Marion County Jail inmate?",
         answer: "Commissary deposits are made through GTL at telmate.com or through AccessCorrections. Add funds via debit or credit card. Processing typically takes one business day.",
       },
+      {
+        question: "How do I find someone at Marion County Jail?",
+        answer:
+          "Use the Indy.gov Find a Person in Jail tool at indy.gov/workflow/find-a-person-in-jail and search by name or booking number. The record shows custody status, charges, and bond information.",
+      },
+      {
+        question: "How does bail work at Marion County Jail?",
+        answer:
+          "Bond information appears on the inmate lookup record when a bond has been set. Contact the Sheriff Office for instructions on posting bond, including accepted payment methods and hours.",
+      },
+      {
+        question: "Can I call an inmate at Marion County Jail?",
+        answer:
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the GTL phone system. Create a GTL account so you can receive calls, and keep your phone available.",
+      },
+      {
+        question: "Can I send mail to someone at Marion County Jail?",
+        answer:
+          "Yes. Include the inmate full name and booking number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
     ],
 
     relatedFacilitySlugs: [
@@ -458,6 +480,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "24414 Musselwhite Drive, Waverly, VA 23891",
     phone: "(804) 834-2678",
     website: "https://vadoc.virginia.gov",
+    visitingHours: "Video visitation for the general population: Monday through Friday 9:00 AM to 5:00 PM, and weekends 8:00 AM to 5:00 PM. Schedule in the VADOC Visitation Scheduler. Video visits are not available when the facility is on lockdown.",
+    rosterUrl: "https://vadoc.virginia.gov/general-public/offender-locator/",
     inmateCapacity: 1200,
     established: 1995,
     operatedBy: "Virginia Department of Corrections (VADOC)",
@@ -525,6 +549,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Sussex I inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Sussex I State Prison. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find someone at Sussex I?",
+        answer:
+          "Use the VADOC Offender Locator at vadoc.virginia.gov/general-public/offender-locator/ and search by name or the 7-digit offender ID. Confirm whether the person is at Sussex I or Sussex II, since the two facilities share grounds but operate separately.",
+      },
+      {
+        question: "What are the video visitation hours at Sussex I?",
+        answer:
+          "For the general population, video visits run Monday through Friday 9:00 AM to 5:00 PM and weekends 8:00 AM to 5:00 PM. Schedule in the VADOC Visitation Scheduler. Video visits are not available during lockdowns, and a previously scheduled visit outside those hours must be rescheduled.",
+      },
+      {
+        question: "How do I get approved for in-person visits at Sussex I?",
+        answer:
+          "Submit a VADOC visitor application and be approved before visiting. Visits are scheduled in advance, and you must be on the inmate approved visiting list. Bring a valid government-issued photo ID and follow VADOC visiting rules.",
+      },
+      {
+        question: "What if my loved one is in restrictive housing at Sussex I?",
+        answer:
+          "Communication and visiting privileges may be limited in restrictive housing. Confirm the housing status in the Offender Locator and check with the facility about current privileges before booking a visit or funding an account.",
       },
     ],
 
@@ -632,6 +676,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to an Elayn Hunt inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Elayn Hunt Correctional Center. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find someone at Elayn Hunt?",
+        answer:
+          "Louisiana has no online DOC inmate search. Call the LDOC Offender Locator at 225-383-4580 with the DOC number, or with the name and date of birth. You can also check custody status through VINE at vinelink.com.",
+      },
+      {
+        question: "How do I get approved to visit Elayn Hunt?",
+        answer:
+          "Submit an LDOC visitor application and wait for approval before visiting. Approval can take days to weeks, so start early. Bring a valid government-issued photo ID and follow the facility dress code.",
+      },
+      {
+        question: "Why is messaging slow to start at Elayn Hunt?",
+        answer:
+          "Elayn Hunt is an intake and classification facility as well as a permanent assignment, and messaging can take extra days to activate while classification is processed. Confirm the current assignment through the Offender Locator phone line before funding an account.",
+      },
+      {
+        question: "Can I send mail to someone at Elayn Hunt?",
+        answer:
+          "Yes. Include the inmate full name and DOC number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
       },
     ],
 
@@ -854,6 +918,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to an Oklahoma State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Oklahoma State Penitentiary. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find someone at Oklahoma State Penitentiary?",
+        answer:
+          "Use the ODOC offender lookup on okoffender.doc.ok.gov and search by name or ODOC number. The lookup covers people in state prison institutions.",
+      },
+      {
+        question: "How do I get approved to visit OSP?",
+        answer:
+          "Submit an ODOC visitor application and wait for approval before visiting. Death row visiting rules differ from general-population rules, so confirm the current procedures with the facility before traveling.",
+      },
+      {
+        question: "Can I send mail to someone at OSP?",
+        answer:
+          "Yes. Include the inmate full name and ODOC number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
+      {
+        question: "What if my loved one is on death row at OSP?",
+        answer:
+          "Death row inmates face stricter communication and visiting rules than general maximum-security inmates. Confirm current privileges with the facility before funding any account or booking a visit.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -893,6 +977,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "15802 State Route 104, Chillicothe, OH 45601",
     phone: "(740) 774-7080",
     website: "https://drc.ohio.gov",
+    rosterUrl: "https://appgateway.drc.ohio.gov/OffenderSearch",
     inmateCapacity: 2500,
     established: 1988,
     operatedBy: "Ohio Department of Rehabilitation and Correction (ODRC)",
@@ -960,6 +1045,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Chillicothe CI inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Chillicothe Correctional Institution. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find someone at Chillicothe CI?",
+        answer:
+          "Use the ODRC Offender Search at appgateway.drc.ohio.gov/OffenderSearch and search by name or offender number. Offender numbers use an A, R, or W prefix followed by 6 digits.",
+      },
+      {
+        question: "How do I get approved to visit Chillicothe CI?",
+        answer:
+          "Submit an ODRC visitor application and wait for approval before visiting. Only approved visitors are admitted. Check ODRC visiting guidelines and bring a valid government-issued photo ID.",
+      },
+      {
+        question: "Can I do a video visit with someone at Chillicothe CI?",
+        answer:
+          "Yes. ODRC offers video visits through GTL for approved visitors. Schedule after your visiting application is approved, and confirm the inmate eligibility before booking.",
+      },
+      {
+        question: "Can I send mail to someone at Chillicothe CI?",
+        answer:
+          "Yes. Include the inmate full name and offender number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
       },
     ],
 
@@ -1621,6 +1726,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "1313 N. 13th Avenue, Walla Walla, WA 99362",
     phone: "(509) 525-3610",
     website: "https://doc.wa.gov",
+    rosterUrl: "http://www.doc.wa.gov/information/inmate-search/default.aspx",
     inmateCapacity: 2500,
     established: 1886,
     operatedBy: "Washington Department of Corrections (WDOC)",
@@ -1688,6 +1794,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Washington State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Washington State Penitentiary. Add funds via debit or credit card. Processing takes one to two business days.",
+      },
+      {
+        question: "How do I find someone at Washington State Penitentiary?",
+        answer:
+          "Use the WA DOC inmate search at doc.wa.gov/information/inmate-search/default.aspx and search by name or DOC number. The search shows current location, gender, and expected release date.",
+      },
+      {
+        question: "How do I get approved to visit WSP?",
+        answer:
+          "Submit a WA DOC visitor application and wait for approval, allowing up to about two weeks, before scheduling a visit. Only approved visitors are admitted. Bring a valid government-issued photo ID and follow WA DOC visiting rules.",
+      },
+      {
+        question: "Can I send mail to someone at WSP?",
+        answer:
+          "Yes. Include the inmate full name and DOC number on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
+      {
+        question: "What if my loved one transfers to another Washington prison?",
+        answer:
+          "Your JPay and GTL accounts carry over statewide to any other WA DOC facility. Update the facility name when scheduling GTL video visits, and confirm the new location in the DOC inmate search.",
       },
     ],
 
@@ -2087,6 +2213,7 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "1 Mountainside Way, Mount Olive, WV 25185",
     phone: "(304) 442-7213",
     website: "https://dcr.wv.gov",
+    rosterUrl: "https://dcr.wv.gov/offendersearch/Pages/offender-search-prisons.aspx",
     inmateCapacity: 850,
     established: 1995,
     operatedBy: "West Virginia Division of Corrections and Rehabilitation (WVDCR)",
@@ -2155,6 +2282,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
         question: "How do I send money to a Mount Olive inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Mount Olive Correctional Complex. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I find someone at Mount Olive?",
+        answer:
+          "Use the WV DCR Offender Search for prisons at dcr.wv.gov/offendersearch/Pages/offender-search-prisons.aspx and search by name or offender ID. The search covers people incarcerated in state prisons.",
+      },
+      {
+        question: "How do I get approved to visit Mount Olive?",
+        answer:
+          "Submit a WV DCR visitor application and wait for approval before visiting. Only approved visitors are admitted. Bring a valid government-issued photo ID and confirm the current visiting schedule with the facility.",
+      },
+      {
+        question: "Can I send mail to someone at Mount Olive?",
+        answer:
+          "Yes. Include the inmate full name and offender ID on the envelope. All mail is inspected for contraband. Do not send cash, contraband, or prohibited items.",
+      },
+      {
+        question: "What if my loved one transfers within West Virginia DCR?",
+        answer:
+          "Your JPay and GTL accounts carry over to other WV DCR facilities. Update the facility name when scheduling GTL video visits, and confirm the new location in the DCR Offender Search.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -2192,6 +2339,8 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
     address: "949 N. 9th Street, Milwaukee, WI 53233",
     phone: "(414) 278-4766",
     website: "https://county.milwaukee.gov/EN/Sheriff",
+    visitingHours: "Onsite visits are free. Offsite video visits cost $0.65 per minute plus a $1 service fee. Schedule through the Sheriff Visit an Inmate page.",
+    bailInfo: "The Jail Records Office in the Criminal Justice Facility at 949 N. 9th Street handles inmate information requests and processes bail payments.",
     inmateCapacity: 900,
     established: 1960,
     operatedBy: "Milwaukee County Sheriff's Office",
@@ -2247,6 +2396,26 @@ export const FACILITY_DETAILS_BATCH2: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Milwaukee County Jail inmate?",
         answer: "Commissary deposits are processed through Securus. Log into your account and navigate to the money transfer section. Add funds via debit or credit card. Note that commissary funds and phone account funds are separate within Securus.",
+      },
+      {
+        question: "How do I find someone at Milwaukee County Jail?",
+        answer:
+          "Use the Milwaukee County Sheriff inmate search and search by name, gender, and date of birth. The record shows charges, the applicable bail amount, holding conditions, and court information. If you have no internet access, call the Sheriff inmate information line.",
+      },
+      {
+        question: "How do I schedule a visit at Milwaukee County Jail?",
+        answer:
+          "Use the Sheriff Visit an Inmate page at county.milwaukee.gov/EN/Sheriff/How-Do-I/Visit-an-inmate. Onsite visits are free. Offsite video visits cost $0.65 per minute plus a $1 service fee.",
+      },
+      {
+        question: "How do I pay bail at Milwaukee County Jail?",
+        answer:
+          "The Jail Records Office in the Criminal Justice Facility at 949 N. 9th Street processes bail payments and handles inmate information requests. Confirm the bail amount from the inmate search record before paying.",
+      },
+      {
+        question: "Can I call an inmate at Milwaukee County Jail?",
+        answer:
+          "No. Inmates cannot receive incoming calls. They place outgoing calls through the Securus phone system. Set up a Securus account so you can receive calls, and keep your phone available.",
       },
     ],
 

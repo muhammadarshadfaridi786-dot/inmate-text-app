@@ -276,6 +276,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "What mail is allowed?", answer: "Postcards only, 3.5x5 to 4.25x6 inches, in blue or black ink, with the inmate's booked name, jacket number, and cell assignment. Send to P.O. Box 24716, West Palm Beach, FL 33416." },
     { question: "How do I add money to an account?", answer: "Use Access Corrections SmartDeposit at accesscorrections.com or 866-394-0490, or the kiosks in the release lobby and visitation center." },
     { question: "Where is the Main Detention Center?", answer: "3228 Gun Club Rd, West Palm Beach, FL 33406. Reach the jail at 561-688-4401." },
+      {
+        question: "How do I schedule a video visit at Palm Beach County Main Detention Center?",
+        answer: "Visits are conducted by video. Register with the PBSO visitation system, then reserve a time. Check in early with a current government photo ID. Confirm current visitation center locations and hours with PBSO before traveling.",
+      },
+      {
+        question: "How do I find someone at Palm Beach County Main Detention Center?",
+        answer: "Use the PBSO inmate search. Search by name to confirm current custody, charges, and bond information.",
+      },
+      {
+        question: "How do I block calls from Palm Beach County Main Detention Center?",
+        answer: "You can decline individual calls, or contact Securus to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask Securus support for a full block.",
+      },
+      {
+        question: "Why did a call from Palm Beach County Main Detention Center not go through?",
+        answer: "Common causes: no funds in the Securus account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "What happens if someone is transferred from Palm Beach County Main Detention Center?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["broward-county-jail", "miami-dade-corrections-facility", "turner-guilford-knight-correctional-center"],
@@ -712,6 +732,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Where is the detention center?", answer: "1825 County Services Parkway, Marietta, GA 30008." },
     { question: "Can I visit in person?", answer: "Visits require the visitor to be on the inmate's approved list and are generally scheduled in advance. Check the sheriff's website for current visitation rules." },
     { question: "How do I add money to an account?", answer: "Deposit options are listed on the sheriff's inmate services page; confirm current methods before sending funds." },
+      {
+        question: "How do I send mail to someone at Cobb County Adult Detention Center?",
+        answer: "Address mail with the inmate's full name and SOID number. Confirm the current mailing address with the Cobb County Sheriff's Office before sending, since mail may be routed through a scanning center.",
+      },
+      {
+        question: "How do I schedule a video visit at Cobb County Adult Detention Center?",
+        answer: "Visits are scheduled through GTL/ViaPath. Register, then book a time slot at least a day ahead. Visits are 30 minutes. Confirm current scheduling rules with the facility before traveling.",
+      },
+      {
+        question: "How do I block calls from Cobb County Adult Detention Center?",
+        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+      },
+      {
+        question: "Why did a call from Cobb County Adult Detention Center not go through?",
+        answer: "Common causes: no funds in the GTL account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "What happens if someone is transferred from Cobb County Adult Detention Center?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["fulton-county-jail", "georgia-state-prison", "valdosta-state-prison"],
@@ -886,6 +926,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "How do video visits work?", answer: "Video visits run through JailATM. Confirm the current scheduling process on the sheriff's website." },
     { question: "Where is the detention center?", answer: "1050 Carl Griffin Drive, Savannah, GA 31405." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; call 912-652-7700 for current methods." },
+      {
+        question: "How do I send mail to someone at Chatham County Detention Center?",
+        answer: "Address mail with the inmate's full name and booking number, care of Chatham County Detention Center. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+      },
+      {
+        question: "How much do video visits cost at Chatham County Detention Center?",
+        answer: "Remote video visits through JailATM are charged per minute. Check the current rate in your JailATM account when booking, since rates can change. On-site visits follow the facility's schedule.",
+      },
+      {
+        question: "How do I block calls from Chatham County Detention Center?",
+        answer: "You can decline individual calls, or contact PayTel to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask PayTel support for a full block.",
+      },
+      {
+        question: "Why did a call from Chatham County Detention Center not go through?",
+        answer: "Common causes: no funds in the PayTel account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "What happens if someone is transferred from Chatham County Detention Center?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["fulton-county-jail", "georgia-state-prison", "georgia-diagnostic-and-classification-prison"],
@@ -1390,6 +1450,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   address: "201 John Mark Dial Dr, Columbia, SC 29209",
   phone: "(803) 576-3200",
   operatedBy: "Richland County Sheriff's Department",
+  visitingHours: "Monday through Friday, 8:15 a.m. to 8:30 p.m.",
 
   providers: [
     {
@@ -1440,6 +1501,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes, through the GettingOut app and website once your account is verified and the inmate approves the contact." },
     { question: "Where is the detention center?", answer: "201 John Mark Dial Drive, Columbia, SC 29209. Call 803-576-3200 for information." },
     { question: "Is this the same as Alvin S. Glenn Detention Center?", answer: "Yes. The Richland County Detention Center is officially named the Alvin S. Glenn Detention Center." },
+      {
+        question: "How do I send mail to someone at Richland County Detention Center?",
+        answer: "Address mail with the inmate's full name and booking number, care of Richland County Detention Center, 201 John Mark Dial Drive, Columbia, SC 29209. Mail is inspected before delivery.",
+      },
+      {
+        question: "How do I schedule a visit at Richland County Detention Center?",
+        answer: "Visits run Monday through Friday, 8:15 a.m. to 8:30 p.m. Confirm the current schedule and any appointment requirement with the facility before traveling.",
+      },
+      {
+        question: "How do I find someone at Richland County Detention Center?",
+        answer: "Use the Richland County detainee lookup on the county website. Search by name to confirm current custody.",
+      },
+      {
+        question: "How do I block calls from Richland County Detention Center?",
+        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+      },
+      {
+        question: "Why is my GettingOut message taking so long to arrive?",
+        answer: "Messages are reviewed by facility staff before delivery, which causes delays. Check that you used the correct name and booking number and the right facility. If the message still does not arrive, contact GettingOut support.",
+      },
   ],
 
   relatedFacilitySlugs: ["lee-correctional-institution", "broad-river-correctional-institution", "mecklenburg-county-detention-center"],
@@ -1753,6 +1834,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Virginia Beach Sheriff's Office",
+  visitingHours: "Video visits by appointment only. Inmates are allowed one 25-minute visit per week; workforce and trustee inmates receive two 55-minute visits per week. Schedule at least 24 hours ahead through the Sheriff's Office visitation system. Confirm current visit windows before traveling.",
 
   providers: [
     {
@@ -1791,6 +1873,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Messaging options are not confirmed for this facility. Check the sheriff's inmate information page for current options." },
     { question: "How big is the facility?", answer: "The correctional center houses around 1,400 inmates." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "Can I visit someone in person at Virginia Beach Correctional Center?",
+        answer: "No. All visits are conducted by video through a terminal in the visitation room. There is no in-person contact visitation for friends and family.",
+      },
+      {
+        question: "How do I send mail to someone at Virginia Beach Correctional Center?",
+        answer: "Address mail with the inmate's full name and booking number, care of Virginia Beach Correctional Center. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+      },
+      {
+        question: "How do I block calls from Virginia Beach Correctional Center?",
+        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+      },
+      {
+        question: "Why did a call from Virginia Beach Correctional Center not go through?",
+        answer: "Common causes: no funds in the GTL account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "What happens if someone is transferred from Virginia Beach Correctional Center?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["fairfax-county-adult-detention-center", "federal-correctional-complex-petersburg", "red-onion-state-prison"],
@@ -1873,6 +1975,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes. Text messaging is available through the GTL tablets and the GettingOut app, billed per message." },
     { question: "Where is the justice center?", answer: "1701 Fairfield Way, Richmond, VA 23223. Call 804-646-4464 for information." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I send mail to someone at Richmond City Justice Center?",
+        answer: "Address mail with the inmate's full name and booking number, care of Richmond City Justice Center. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+      },
+      {
+        question: "How do I find someone at Richmond City Justice Center?",
+        answer: "Use the Richmond City Sheriff's Office inmate search, or call the facility with the person's full name and date of birth.",
+      },
+      {
+        question: "How do I block calls from Richmond City Justice Center?",
+        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+      },
+      {
+        question: "Why is my GettingOut message taking so long to arrive?",
+        answer: "Messages are reviewed by facility staff before delivery, which causes delays. Check that you used the correct name and booking number and the right facility. If the message still does not arrive, contact GettingOut support.",
+      },
+      {
+        question: "What happens if someone is transferred from Richmond City Justice Center?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["fairfax-county-adult-detention-center", "federal-correctional-complex-petersburg", "sussex-i-state-prison"],
@@ -1953,6 +2075,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes. Secure messages and photos can be sent through the GettingOut app." },
     { question: "Which facilities make up Henrico County Jail?", answer: "Jail East and Jail West, both operated by the Henrico County Sheriff's Office." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I send mail to someone at Henrico County Jail?",
+        answer: "Address mail with the inmate's full name and booking number, care of Henrico County Jail. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+      },
+      {
+        question: "How do I schedule a video visit at Henrico County Jail?",
+        answer: "Visits are by appointment only and must be scheduled at least 24 hours ahead. Register through the facility's visitation system, and confirm current visit windows before traveling.",
+      },
+      {
+        question: "How do I block calls from Henrico County Jail?",
+        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+      },
+      {
+        question: "Why is my GettingOut message taking so long to arrive?",
+        answer: "Messages are reviewed by facility staff before delivery, which causes delays. Check that you used the correct name and booking number and the right facility. If the message still does not arrive, contact GettingOut support.",
+      },
+      {
+        question: "What happens if someone is transferred from Henrico County Jail?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["fairfax-county-adult-detention-center", "federal-correctional-complex-petersburg", "red-onion-state-prison"],
@@ -2023,6 +2165,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes, through Securus eMessaging once your account is set up and the inmate is on your contact list." },
     { question: "Where is the detention center?", answer: "600 Old Frankfort Pike, Lexington, KY 40510. Call 859-425-2700 for information." },
     { question: "How do I add money?", answer: "Deposit options are listed on the facility's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I send mail to someone at Fayette County Detention Center?",
+        answer: "Address mail with the inmate's full name and booking number, care of Fayette County Detention Center. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+      },
+      {
+        question: "How do I schedule a video visit at Fayette County Detention Center?",
+        answer: "Video visits are scheduled through the facility's Securus visitation system. Register in advance, then book a time slot. Confirm current hours and any free-visit allowance with the facility before traveling.",
+      },
+      {
+        question: "How do I block calls from Fayette County Detention Center?",
+        answer: "You can decline individual calls, or contact Securus to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask Securus support for a full block.",
+      },
+      {
+        question: "Why did a call from Fayette County Detention Center not go through?",
+        answer: "Common causes: no funds in the Securus account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "What happens if someone is transferred from Fayette County Detention Center?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["louisville-metro-corrections", "kentucky-state-penitentiary", "fci-manchester"],
@@ -2055,6 +2217,8 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   address: "450 St Emanuel St, Mobile, AL 36603",
   phone: "(251) 574-6412",
   website: "https://www.mobileso.com/metro-jail-2/",
+  visitingHours: "On-site video visits Monday through Friday, 8:00-11:00 a.m. and 2:00-5:30 p.m. Remote video visits 7 days a week, 8:00-11:00 a.m. and 2:00-5:30 p.m. Only approved visitors may visit; sign in 15 minutes before the scheduled visit. For questions or assistance, call 855-208-7349.",
+  commissary: "Deposit money on an inmate account through InmateCanteen.com. Money orders are no longer accepted for deposit into inmate trust accounts (effective September 1, 2023).",
   operatedBy: "Mobile County Sheriff's Office",
 
   providers: [
@@ -2106,6 +2270,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "What mail is allowed?", answer: "Metered postcards no larger than 4x6 inches, with your full return address, to: inmate name and date of birth, Mobile County Metro Jail, P.O. Box 104, Mobile, AL 36601." },
     { question: "How do I add money?", answer: "Deposit through the lobby kiosk or the county's deposit service. Money orders are no longer accepted." },
     { question: "Where is the jail?", answer: "450 St. Emanuel Street, Mobile, AL 36603. Call 251-574-6412 for information." },
+      {
+        question: "How do I schedule a video visit at Mobile County Metro Jail?",
+        answer: "Video visits are available on-site Monday through Friday and remotely 7 days a week, 8:00-11:00 a.m. and 2:00-5:30 p.m. Only approved visitors may visit. For questions or assistance, call 855-208-7349.",
+      },
+      {
+        question: "Can I visit someone in person at Mobile County Metro Jail?",
+        answer: "Only professional face-to-face visits are allowed, for clergy, medical, or legal visitors. All other visits are video visits, on-site or remote.",
+      },
+      {
+        question: "How do I block calls from Mobile County Metro Jail?",
+        answer: "You can decline individual calls, or contact GTL to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask GTL support for a full block.",
+      },
+      {
+        question: "Why is my GettingOut message taking so long to arrive?",
+        answer: "Messages are reviewed by facility staff before delivery, which causes delays. Check that you used the correct name and booking number and the right facility. If the message still does not arrive, contact GettingOut support.",
+      },
+      {
+        question: "What happens if someone is transferred from Mobile County Metro Jail?",
+        answer: "People sentenced to longer terms are transferred to a state or federal facility, where the provider setup is different. Check the new facility's communication options right after a transfer.",
+      },
   ],
 
   relatedFacilitySlugs: ["holman-correctional-facility", "kilby-correctional-facility", "fci-talladega"],
@@ -2138,6 +2322,7 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
   address: "250 S McDonough St, Montgomery, AL 36104",
   phone: "(334) 832-4985",
   operatedBy: "Montgomery County Sheriff's Office",
+  notToConfuseWith: "Not to be confused with Montgomery County Jail in Conroe, Texas, or Montgomery County Jail in Dayton, Ohio.",
 
   providers: [
     {
@@ -2176,6 +2361,26 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate?", answer: "Yes, through IC Solutions eMessaging, including photo attachments, once your account is set up." },
     { question: "Where is the facility?", answer: "250 S. McDonough Street, Montgomery, AL 36104. Call 334-832-4985 for information." },
     { question: "How do I add money?", answer: "Deposit options are listed on the sheriff's inmate information page; confirm current methods before sending funds." },
+      {
+        question: "How do I send mail to someone at Montgomery County Detention Facility?",
+        answer: "Address mail with the inmate's full name and booking number, care of Montgomery County Detention Facility. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+      },
+      {
+        question: "How do I schedule a video visit at Montgomery County Detention Facility?",
+        answer: "Video visits run through ICSolutions. Register first, then schedule at least one day and no more than a week ahead. On-site visits are limited; confirm current on-site days and hours with the facility before traveling.",
+      },
+      {
+        question: "How do I block calls from Montgomery County Detention Facility?",
+        answer: "You can decline individual calls, or contact ICSolutions to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask ICSolutions support for a full block.",
+      },
+      {
+        question: "Why did a call from Montgomery County Detention Facility not go through?",
+        answer: "Common causes: no funds in the ICSolutions account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "Is Montgomery County Detention Facility the same as Mac Sim Butler Detention Facility?",
+        answer: "Yes. The Montgomery County Detention Facility in Montgomery, Alabama is also known as the Mac Sim Butler Detention Facility. Both names refer to the same facility.",
+      },
   ],
 
   relatedFacilitySlugs: ["holman-correctional-facility", "kilby-correctional-facility", "fci-talladega"],

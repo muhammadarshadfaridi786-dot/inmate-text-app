@@ -366,7 +366,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
     stateAbbr: "AZ",
     countySlug: null,
     countyName: "Pinal County",
-    securityLevel: "Close / Death Row",
+    securityLevel: "Closed",
     hasDetailPage: true,
   },
   {

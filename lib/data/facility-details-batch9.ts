@@ -173,6 +173,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 150,
   established: 2012,
+  mailingAddress: "Inmate Name\nGrafton County Department of Corrections\n3787 Dartmouth College Highway\nNorth Haverhill, NH 03774",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Grafton County Department of Corrections",
   // TODO(Jan): verify video and messaging provider
 
@@ -211,6 +214,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Grafton County Jail?", answer: "Phone calls run through ICSolutions (Inmate Calling Solutions)." },
     { question: "How do I visit someone at Grafton County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Grafton County Jail located?", answer: "Grafton County Jail is in North Haverhill, New Hampshire. The current facility opened in July 2012." },
+    { question: "How do I find out if someone is in Grafton County Jail?", answer: "Call the Grafton County Department of Corrections with the inmate's full name and date of birth to confirm custody. New Hampshire's statewide inmate locator covers state prison inmates, not county jail detainees." },
+    { question: "What is the mailing address for an inmate at Grafton County Jail?", answer: "Address mail to: Inmate Name, Grafton County Department of Corrections, 3787 Dartmouth College Highway, North Haverhill, NH 03774." },
+    { question: "Can I call an inmate at Grafton County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through ICSolutions." },
+    { question: "How do I stop or block calls from an inmate at Grafton County Jail?", answer: "Contact ICSolutions to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "Does Grafton County Jail offer video visits?", answer: "Video visitation availability is not confirmed for this jail. Call the facility to ask about current visit options before creating any account." },
+    { question: "How does bail work at Grafton County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
   ],
 
   relatedFacilitySlugs: ["strafford-county-house-of-corrections", "rockingham-county-jail", "cheshire-county-jail"],
@@ -240,6 +249,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  mailingAddress: "Inmate Name\nMerrimack County Department of Corrections\n314 Daniel Webster Highway\nBoscawen, NH 03303",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  commissary: "Commissary deposits through JailATM.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Merrimack County Department of Corrections",
 
   providers: [
@@ -289,6 +302,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Merrimack County Jail?", answer: "Phone calls run through Securus. Video visits run through JailATM." },
     { question: "How do I visit someone at Merrimack County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "What is a direct supervision jail?", answer: "In a direct supervision jail, officers are stationed inside the housing units with inmates rather than observing from a separate control room. Merrimack County Jail uses this model." },
+    { question: "How do I find out if someone is in Merrimack County Jail?", answer: "Call the Merrimack County Department of Corrections at the facility number with the inmate's full name and date of birth to confirm custody. New Hampshire's statewide inmate locator covers state prison inmates, not county jail detainees." },
+    { question: "What is the mailing address for an inmate at Merrimack County Jail?", answer: "Address mail to: Inmate Name, Merrimack County Department of Corrections, 314 Daniel Webster Highway, Boscawen, NH 03303." },
+    { question: "Can I call an inmate at Merrimack County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Merrimack County Jail?", answer: "Contact Securus to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do video visits work at Merrimack County Jail?", answer: "Video visits run through JailATM. You must be on the inmate's approved visitor list. Register with JailATM and schedule in advance." },
+    { question: "How do I add commissary money at Merrimack County Jail?", answer: "Commissary deposits go through JailATM. Create a JailATM account, find the inmate, and follow the deposit steps." },
   ],
 
   relatedFacilitySlugs: ["strafford-county-house-of-corrections", "rockingham-county-jail", "cheshire-county-jail"],
@@ -319,6 +338,11 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   inmateCapacity: 224,
+  mailingAddress: "Inmate Name\nDOC ID #\nNHCFW\n42 Perimeter Road\nConcord, NH 03301",
+  visitingHours: "Visits are scheduled through the GTL visitation system (nhdoc.gtlvisitme.com); confirm your window with the facility before traveling.",
+  rosterUrl: "https://business.nh.gov/Inmate_Locator/Default.aspx",
+  commissary: "Fund phone accounts through ConnectNetwork. Trust account deposits follow NH DOC rules.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "New Hampshire Department of Corrections",
 
   providers: [
@@ -358,6 +382,11 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Can I video visit an inmate at the New Hampshire State Prison for Women?", answer: "Video visitation is available through ConnectNetwork. Schedule in advance and confirm eligibility with the facility." },
     { question: "How do I visit someone at the New Hampshire State Prison for Women?", answer: "Visitors must be approved. Bring valid photo ID and follow NH DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "How do I add money for phone calls?", answer: "Fund your ConnectNetwork account online or through the ConnectNetwork app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find an inmate at the New Hampshire State Prison for Women?", answer: "Use the New Hampshire DOC Inmate Locator with the inmate's first or last name. It shows state prison inmates, including their institution and custody status." },
+    { question: "What is the mailing address for an inmate at the New Hampshire State Prison for Women?", answer: "Address mail to: Inmate Name, DOC ID number, NHCFW, 42 Perimeter Road, Concord, NH 03301." },
+    { question: "Can I call an inmate at the New Hampshire State Prison for Women?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone service runs through ConnectNetwork by GTL, now ViaPath." },
+    { question: "How do I stop or block calls from an inmate at the New Hampshire State Prison for Women?", answer: "Contact ConnectNetwork (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "Can I send email to an inmate at the New Hampshire State Prison for Women?", answer: "Email goes through the contracted vendor. You must obtain the inmate's email address directly from the inmate. Inmates do not have access to the internet." },
   ],
 
   relatedFacilitySlugs: ["new-hampshire-state-prison-for-men", "strafford-county-house-of-corrections", "rockingham-county-jail"],
@@ -389,6 +418,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   inmateCapacity: 555,
+  mailingAddress: "Inmate Name, ID Number\nBurleigh/Morton County Detention Center\n4000 Apple Creek Road\nBismarck, ND 58504",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Burleigh County Sheriff's Office",
   // TODO(Jan): verify video and messaging provider
 
@@ -427,6 +459,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Burleigh County Jail?", answer: "Phone calls run through Reliance Telephone. Only phone time purchased through Reliance can be used." },
     { question: "How do I visit someone at Burleigh County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Is Burleigh County Jail the largest county jail in North Dakota?", answer: "Yes. With about 555 beds, the Burleigh/Morton County Detention Center is the largest county jail in North Dakota." },
+    { question: "How do I find out if someone is in Burleigh County Jail?", answer: "Call the Burleigh County Sheriff's Office detention center with the inmate's full name and date of birth to confirm custody. The ND DOCR offender search covers state prison residents, not county jail detainees." },
+    { question: "What is the mailing address for an inmate at Burleigh County Jail?", answer: "Address mail to: Inmate Name, ID Number, Burleigh/Morton County Detention Center, 4000 Apple Creek Road, Bismarck, ND 58504." },
+    { question: "Can I call an inmate at Burleigh County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Reliance Telephone." },
+    { question: "How do I stop or block calls from an inmate at Burleigh County Jail?", answer: "Contact Reliance Telephone to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Burleigh County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "What should I bring to a visit at Burleigh County Jail?", answer: "Bring a valid government-issued photo ID and make sure you are on the inmate's approved visitor list. Follow the facility dress code; inappropriate clothing will get your visit denied." },
   ],
 
   relatedFacilitySlugs: ["cass-county-jail", "north-dakota-state-penitentiary", "grand-forks-county-jail"],
@@ -456,6 +494,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nGrand Forks County Correctional Center\n1701 North Washington Street\nGrand Forks, ND 58203",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Grand Forks County Sheriff",
 
   providers: [
@@ -493,6 +534,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Grand Forks County Jail?", answer: "Phone calls run through HomeWAV." },
     { question: "How do I visit someone at Grand Forks County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the official name of Grand Forks County Jail?", answer: "The facility is also known as the Grand Forks County Correctional Center. It is operated by the Grand Forks County Sheriff." },
+    { question: "How do I find out if someone is in Grand Forks County Jail?", answer: "Call the Grand Forks County Correctional Center with the inmate's full name and date of birth to confirm custody. The ND DOCR offender search covers state prison residents, not county jail detainees." },
+    { question: "What is the mailing address for an inmate at Grand Forks County Jail?", answer: "Address mail to: Inmate Name, ID Number, Grand Forks County Correctional Center, 1701 North Washington Street, Grand Forks, ND 58203." },
+    { question: "Can I call an inmate at Grand Forks County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through HomeWAV." },
+    { question: "How do I stop or block calls from an inmate at Grand Forks County Jail?", answer: "Contact HomeWAV to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Grand Forks County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "What should I bring to a visit at Grand Forks County Jail?", answer: "Bring a valid government-issued photo ID and make sure you are on the inmate's approved visitor list. Follow the facility dress code; inappropriate clothing will get your visit denied." },
   ],
 
   relatedFacilitySlugs: ["cass-county-jail", "north-dakota-state-penitentiary", "burleigh-county-jail"],
@@ -522,6 +569,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nWard County Detention Center\n315 3rd Street SE\nMinot, ND 58702",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Ward County Sheriff",
 
   providers: [
@@ -560,6 +610,11 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Ward County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Does Ward County Jail hold juveniles too?", answer: "Yes. The Ward County campus includes an adult jail plus a juvenile detention facility. The official page details juvenile mail and phone rules separately." },
     { question: "Who do I contact about a phone billing problem at Ward County Jail?", answer: "Contact Reliance Telephone. The county's official page directs phone billing questions to Reliance." },
+    { question: "How do I find out if someone is in Ward County Jail?", answer: "Call the Ward County Detention Center with the inmate's full name and date of birth to confirm custody. The ND DOCR offender search covers state prison residents, not county jail detainees." },
+    { question: "What is the mailing address for an inmate at Ward County Jail?", answer: "Address mail to: Inmate Name, ID Number, Ward County Detention Center, 315 3rd Street SE, Minot, ND 58702." },
+    { question: "Can I call an inmate at Ward County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Reliance Telephone." },
+    { question: "How does bail work at Ward County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "What should I bring to a visit at Ward County Jail?", answer: "Bring a valid government-issued photo ID and make sure you are on the inmate's approved visitor list. Follow the facility dress code; inappropriate clothing will get your visit denied." },
   ],
 
   relatedFacilitySlugs: ["cass-county-jail", "north-dakota-state-penitentiary", "burleigh-county-jail"],
@@ -590,6 +645,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "The phone vendor is not confirmed from official sources, so families should confirm the current phone provider with the facility before creating a prepaid account. All calls and visits are monitored and recorded.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nStutsman County Correctional Center\n205 6th Street SE\nJamestown, ND 58401",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
+  fax: "701-251-6252",
   operatedBy: "Stutsman County Sheriff",
   // TODO(Jan): verify phone provider (video via Turnkey Corrections confirmed)
 
@@ -628,6 +687,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Stutsman County Jail?", answer: "Video visits run through Turnkey Corrections and Inmate Canteen. Onsite video visits are free, online visits carry a fee, and visits are limited to 45 minutes." },
     { question: "Which company handles phone calls at Stutsman County Jail?", answer: "The phone vendor is not confirmed from official sources. Confirm the provider with the facility before creating a prepaid account. Video visitation is confirmed via Turnkey Corrections." },
     { question: "How do I visit someone at Stutsman County Jail?", answer: "Visits are by video. Schedule through Turnkey Corrections and Inmate Canteen. Onsite visits are free and online visits carry a fee." },
+    { question: "How do I find out if someone is in Stutsman County Jail?", answer: "Call the Stutsman County Correctional Center with the inmate's full name and date of birth to confirm custody. The ND DOCR offender search covers state prison residents, not county jail detainees." },
+    { question: "What is the mailing address for an inmate at Stutsman County Jail?", answer: "Address mail to: Inmate Name, ID Number, Stutsman County Correctional Center, 205 6th Street SE, Jamestown, ND 58401." },
+    { question: "Can I call an inmate at Stutsman County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list to receive calls." },
+    { question: "How does bail work at Stutsman County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "What should I bring to a visit at Stutsman County Jail?", answer: "Bring a valid government-issued photo ID and make sure you are on the inmate's approved visitor list. Follow the facility dress code; inappropriate clothing will get your visit denied." },
+    { question: "How do I send money to an inmate at Stutsman County Jail?", answer: "Deposit options are not confirmed in published sources. Call the facility to confirm the current deposit method before sending money." },
   ],
 
   relatedFacilitySlugs: ["cass-county-jail", "north-dakota-state-penitentiary", "burleigh-county-jail"],
@@ -660,6 +725,11 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 151,
   established: 1992,
+  mailingAddress: "Inmate Name, Inmate Number\nMissouri River Correctional Center\nP.O. Box 5521\nBismarck, ND 58506",
+  visitingHours: "Visiting is by appointment on weekends; confirm the current schedule with the facility before traveling.",
+  rosterUrl: "https://docr.nd.gov/offender-search",
+  commissary: "Inmate funds deposits through JPay. Inmates buy commissary items from their trust fund account.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "North Dakota Department of Corrections and Rehabilitation",
   // TODO(Jan): verify phone and video provider
 
@@ -698,6 +768,13 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Missouri River Correctional Center?", answer: "The phone vendor is not confirmed. Inmate funds deposits go through JPay, per the ND DOCR handbook." },
     { question: "How do I visit someone at Missouri River Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow ND DOCR visiting rules. Confirm visiting hours before traveling." },
     { question: "Does Missouri River Correctional Center have a fence?", answer: "No. It is a minimum security facility with no perimeter fence, focused on transitional and work-release programming. It opened in December 1992." },
+    { question: "How do I find an inmate at Missouri River Correctional Center?", answer: "Use the ND DOCR offender search with the inmate's name. It shows current ND DOCR residents, including their facility and custody status." },
+    { question: "What is the mailing address for an inmate at Missouri River Correctional Center?", answer: "Address mail to: Inmate Name, Inmate Number, Missouri River Correctional Center, P.O. Box 5521, Bismarck, ND 58506." },
+    { question: "Can I call an inmate at Missouri River Correctional Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list to receive calls." },
+    { question: "How do I stop or block calls from an inmate at Missouri River Correctional Center?", answer: "Contact the facility or the phone service provider to block calls, or ask the inmate to remove your number from their approved call list." },
+    { question: "Do I need an appointment to visit Missouri River Correctional Center?", answer: "Yes. Visiting is by appointment and visitors must be on the inmate's approved list. Confirm the schedule with the facility before traveling." },
+    { question: "How do I send money to an inmate at Missouri River Correctional Center?", answer: "Inmate funds deposits go through JPay. Create a JPay account, find the inmate, and follow the deposit steps." },
+    { question: "What is the work-release focus at Missouri River Correctional Center?", answer: "MRCC is a minimum security facility with a transitional and work-release focus, and it has no perimeter fence. It prepares residents for reentry into the community." },
   ],
 
   relatedFacilitySlugs: ["north-dakota-state-penitentiary", "cass-county-jail", "burleigh-county-jail"],
@@ -729,6 +806,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 257,
   established: 1967,
+  mailingAddress: "Inmate Name, ID Number\nFairbanks Correctional Center\nP.O. Box 317\nFairbanks, AK 99701",
+  visitingHours: "Visits are by appointment. Ask the inmate to submit a visitation request; confirm with the facility.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Alaska Department of Corrections",
 
   providers: [
@@ -768,6 +848,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Fairbanks Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Alaska DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What is Fairbanks Correctional Center used for?", answer: "It is a close custody facility and the primary intake facility for Interior and Northern Alaska. It was constructed in 1967." },
     { question: "How do I add money for phone calls at Fairbanks Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find out if someone is in an Alaska DOC facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody, or check the Alaska VINE victim notification service for custody status." },
+    { question: "Can I call an inmate at this facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at this facility?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "What is the mailing address for an inmate at Fairbanks Correctional Center?", answer: "Address mail to: Inmate Name, ID Number, Fairbanks Correctional Center, P.O. Box 317, Fairbanks, AK 99701." },
   ],
 
   relatedFacilitySlugs: ["anchorage-correctional-complex", "goose-creek-correctional-center", "spring-creek-correctional-center"],
@@ -799,6 +883,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   inmateCapacity: 226,
+  visitingHours: "Visits are by appointment; confirm scheduling with the facility.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Alaska Department of Corrections",
 
   providers: [
@@ -838,6 +924,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Lemon Creek Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Alaska DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "Is Lemon Creek the only state correctional facility in Southeast Alaska?", answer: "Yes. Lemon Creek Correctional Center in Juneau is the only state correctional facility in Southeast Alaska." },
     { question: "How do I add money for phone calls at Lemon Creek Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find out if someone is in an Alaska DOC facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody, or check the Alaska VINE victim notification service for custody status." },
+    { question: "Can I call an inmate at this facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at this facility?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "Does Lemon Creek hold pretrial detainees?", answer: "Yes. Lemon Creek is a multi-custody facility and the only state correctional facility in Southeast Alaska. It holds pretrial and sentenced men." },
   ],
 
   relatedFacilitySlugs: ["anchorage-correctional-complex", "goose-creek-correctional-center", "spring-creek-correctional-center"],
@@ -870,6 +960,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 71,
   established: 1984,
+  mailingAddress: "Inmate Name, ID Number\nKetchikan Correctional Center\n1201 Schoenbar Road\nKetchikan, AK 99901",
+  visitingHours: "Visits are by appointment. Ask the inmate to submit a visitation request; confirm with the facility.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Alaska Department of Corrections",
 
   providers: [
@@ -909,6 +1002,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Ketchikan Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Alaska DOC visiting rules. Ketchikan is accessible only by air or sea, so plan travel accordingly." },
     { question: "Is Ketchikan Correctional Center co-gender?", answer: "Yes. Ketchikan Correctional Center is a co-gender facility with a capacity of about 71. It has been operating since 1984." },
     { question: "How do I add money for phone calls at Ketchikan Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find out if someone is in an Alaska DOC facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody, or check the Alaska VINE victim notification service for custody status." },
+    { question: "Can I call an inmate at this facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at this facility?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "What is the mailing address for an inmate at Ketchikan Correctional Center?", answer: "Address mail to: Inmate Name, ID Number, Ketchikan Correctional Center, 1201 Schoenbar Road, Ketchikan, AK 99901." },
   ],
 
   relatedFacilitySlugs: ["anchorage-correctional-complex", "goose-creek-correctional-center", "spring-creek-correctional-center"],
@@ -940,6 +1037,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   inmateCapacity: 514,
+  mailingAddress: "Inmate Name, ID Number\nPalmer Correctional Center\nP.O. Box 919\nPalmer, AK 99502",
+  visitingHours: "Visits are by appointment; confirm scheduling with the facility.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Alaska Department of Corrections",
 
   providers: [
@@ -979,6 +1079,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Palmer Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Alaska DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "When did Palmer Correctional Center reopen?", answer: "Palmer Correctional Center reopened in 2021 after a five-year closure. It houses medium and minimum security male inmates." },
     { question: "How do I add money for phone calls at Palmer Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find out if someone is in an Alaska DOC facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody, or check the Alaska VINE victim notification service for custody status." },
+    { question: "Can I call an inmate at this facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at this facility?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "What is the mailing address for an inmate at Palmer Correctional Center?", answer: "Address mail to: Inmate Name, ID Number, Palmer Correctional Center, P.O. Box 919, Palmer, AK 99502." },
   ],
 
   relatedFacilitySlugs: ["anchorage-correctional-complex", "goose-creek-correctional-center", "spring-creek-correctional-center"],
@@ -1011,6 +1115,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 360,
   established: 1983,
+  mailingAddress: "Inmate Name, ID Number\nWildwood Correctional Center\nPouch 730\nKenai, AK 99611",
+  visitingHours: "Visitation appointments are handled by phone Monday to Friday, 8:00 AM to 4:30 PM (907-260-7200, options 4 and 6).",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Alaska Department of Corrections",
 
   providers: [
@@ -1050,6 +1157,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Wildwood Correctional Complex?", answer: "Visitors must be approved. Bring valid photo ID and follow Alaska DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What was Wildwood before it was a prison?", answer: "The site was formerly the Wildwood Army and Air Force Station. It has been used for corrections since 1983 and includes a correctional industries program." },
     { question: "How do I add money for phone calls at Wildwood Correctional Complex?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find out if someone is in an Alaska DOC facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody, or check the Alaska VINE victim notification service for custody status." },
+    { question: "Can I call an inmate at this facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at this facility?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "What is the mailing address for an inmate at Wildwood Correctional Complex?", answer: "Address mail to: Inmate Name, ID Number, Wildwood Correctional Center, Pouch 730, Kenai, AK 99611." },
   ],
 
   relatedFacilitySlugs: ["anchorage-correctional-complex", "goose-creek-correctional-center", "spring-creek-correctional-center"],
@@ -1082,6 +1193,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 1239,
   established: 1918,
+  mailingAddress: "Inmate Name, Inmate Number\nYork Correctional Institution\n201 West Main Street\nNiantic, CT 06357",
+  visitingHours: "Visits are scheduled by housing unit under the CT DOC visiting schedule; confirm your window with the facility before traveling.",
+  rosterUrl: "https://ctinmateinfo.state.ct.us/",
+  bailInfo: "Bail applies only to pretrial detainees and is set by the court, not the facility.",
   operatedBy: "Connecticut Department of Correction",
 
   providers: [
@@ -1121,6 +1236,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at York Correctional Institution?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "Is York the only women's prison in Connecticut?", answer: "Yes. York Correctional Institution in Niantic is Connecticut's only prison for women. It opened in 1918." },
     { question: "How do I add money for phone calls at York Correctional Institution?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find an inmate at this facility?", answer: "Use the Connecticut DOC inmate information search with the inmate's name or inmate number. It shows current CT DOC inmates, including their facility and custody status." },
+    { question: "What is the mailing address for an inmate at York Correctional Institution?", answer: "Address mail to: Inmate Name, Inmate Number, York Correctional Institution, 201 West Main Street, Niantic, CT 06357." },
+    { question: "Can I call an inmate at York Correctional Institution?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at York Correctional Institution?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
   ],
 
   relatedFacilitySlugs: ["cheshire-correctional-institution", "macdougall-walker-correctional-institution", "fci-danbury"],
@@ -1152,6 +1271,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   inmateCapacity: 593,
+  visitingHours: "Visits are scheduled by housing unit under the CT DOC visiting schedule; confirm your window with the facility before traveling.",
+  rosterUrl: "https://ctinmateinfo.state.ct.us/",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Connecticut Department of Correction",
 
   providers: [
@@ -1191,6 +1313,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Garner Correctional Institution?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What is Garner Correctional Institution known for?", answer: "Garner houses male inmates with a focus on inmates with mental health needs. It has a capacity of about 593." },
     { question: "How do I add money for phone calls at Garner Correctional Institution?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find an inmate at this facility?", answer: "Use the Connecticut DOC inmate information search with the inmate's name or inmate number. It shows current CT DOC inmates, including their facility and custody status." },
+    { question: "Can I call an inmate at Garner Correctional Institution?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Garner Correctional Institution?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do I schedule a video visit at this facility?", answer: "Video visits are scheduled by housing unit under the CT DOC visiting schedule. Confirm the current scheduling process with the facility before traveling." },
   ],
 
   relatedFacilitySlugs: ["cheshire-correctional-institution", "macdougall-walker-correctional-institution", "fci-danbury"],
@@ -1222,6 +1348,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   established: 1994,
+  visitingHours: "Visits are scheduled by housing unit under the CT DOC visiting schedule; confirm your window with the facility before traveling.",
+  rosterUrl: "https://ctinmateinfo.state.ct.us/",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Connecticut Department of Correction",
 
   providers: [
@@ -1261,6 +1390,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Corrigan-Radgowski Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "When was Corrigan-Radgowski formed?", answer: "The center was formed by the 2001 merger of the Corrigan and Radgowski facilities. The facility opened on December 30, 1994." },
     { question: "How do I add money for phone calls at Corrigan-Radgowski Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find an inmate at this facility?", answer: "Use the Connecticut DOC inmate information search with the inmate's name or inmate number. It shows current CT DOC inmates, including their facility and custody status." },
+    { question: "Can I call an inmate at Corrigan-Radgowski Correctional Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Corrigan-Radgowski Correctional Center?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do I schedule a video visit at this facility?", answer: "Video visits are scheduled by housing unit under the CT DOC visiting schedule. Confirm the current scheduling process with the facility before traveling." },
   ],
 
   relatedFacilitySlugs: ["cheshire-correctional-institution", "macdougall-walker-correctional-institution", "fci-danbury"],
@@ -1293,6 +1426,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 1000,
   established: 1977,
+  visitingHours: "Visits are scheduled by housing unit under the CT DOC visiting schedule; confirm your window with the facility before traveling.",
+  rosterUrl: "https://ctinmateinfo.state.ct.us/",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Connecticut Department of Correction",
 
   providers: [
@@ -1332,6 +1468,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Hartford Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What population does Hartford Correctional Center hold?", answer: "Hartford Correctional Center primarily holds a pretrial population. It opened in 1977 and also houses the DOC medical unit." },
     { question: "How do I add money for phone calls at Hartford Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find an inmate at this facility?", answer: "Use the Connecticut DOC inmate information search with the inmate's name or inmate number. It shows current CT DOC inmates, including their facility and custody status." },
+    { question: "Can I call an inmate at Hartford Correctional Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Hartford Correctional Center?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do I schedule a video visit at this facility?", answer: "Video visits are scheduled by housing unit under the CT DOC visiting schedule. Confirm the current scheduling process with the facility before traveling." },
   ],
 
   relatedFacilitySlugs: ["cheshire-correctional-institution", "macdougall-walker-correctional-institution", "fci-danbury"],
@@ -1364,6 +1504,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 1900,
   established: 1963,
+  mailingAddress: "Inmate Name, Inmate Number\nOsborn Correctional Institution\n335 Bilton Road\nSomers, CT 06071",
+  visitingHours: "In-person visits daily in scheduled blocks: 8:30 AM to 11:00 AM, 12:30 PM to 3:00 PM, and 6:30 PM to 9:00 PM. Video visits run in 45-minute windows. Confirm your window with the facility.",
+  rosterUrl: "https://ctinmateinfo.state.ct.us/",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Connecticut Department of Correction",
 
   providers: [
@@ -1403,6 +1547,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do I visit someone at Osborn Correctional Institution?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "How old is Osborn Correctional Institution?", answer: "Osborn opened in 1963 and is among the largest and oldest prisons in Connecticut. It housed the state execution chamber from 1994 to 2015." },
     { question: "How do I add money for phone calls at Osborn Correctional Institution?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "How do I find an inmate at this facility?", answer: "Use the Connecticut DOC inmate information search with the inmate's name or inmate number. It shows current CT DOC inmates, including their facility and custody status." },
+    { question: "What is the mailing address for an inmate at Osborn Correctional Institution?", answer: "Address mail to: Inmate Name, Inmate Number, Osborn Correctional Institution, 335 Bilton Road, Somers, CT 06071." },
+    { question: "Can I call an inmate at Osborn Correctional Institution?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Osborn Correctional Institution?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
   ],
 
   relatedFacilitySlugs: ["cheshire-correctional-institution", "macdougall-walker-correctional-institution", "fci-danbury"],
@@ -1435,6 +1583,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 464,
   established: 1991,
+  mailingAddress: "Inmate Name, SBI #\nBaylor Women's Correctional Institution\n660 Baylor Boulevard\nNew Castle, DE 19720",
+  visitingHours: "Visits are scheduled in advance by housing unit; call the facility Monday through Wednesday to schedule for the following week. Confirm current days and times before traveling.",
+  bailInfo: "Bail is set by the Delaware courts, not the facility.",
   operatedBy: "Delaware Department of Correction",
 
   providers: [
@@ -1474,6 +1625,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Is Baylor the only women's prison in Delaware?", answer: "Yes. Baylor Women's Correctional Institution in New Castle is the only women's prison in Delaware. It opened on December 29, 1991." },
     { question: "How do I visit someone at Baylor Women's Correctional Institution?", answer: "Visitors must be approved. Bring valid photo ID and follow Delaware DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "How do I send messages to an inmate at Baylor Women's Correctional Institution?", answer: "Use GettingOut. Create an account, add the inmate, and fund the service to send and receive messages." },
+    { question: "How do I find out if someone is at Baylor Women's Correctional Institution?", answer: "Call the facility with the inmate's full name and SBI number to confirm custody. Delaware DOC does not publish a verified public roster link in this guide." },
+    { question: "What is the mailing address for an inmate at Baylor Women's Correctional Institution?", answer: "Address mail to: Inmate Name, SBI Number, Baylor Women's Correctional Institution, 660 Baylor Boulevard, New Castle, DE 19720." },
+    { question: "Can I call an inmate at Baylor Women's Correctional Institution?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GettingOut by ViaPath." },
+    { question: "Does Baylor Women's Correctional Institution hold pretrial detainees?", answer: "Yes. Baylor holds both pretrial and sentenced women. Bail for pretrial detainees is set by the Delaware courts, not the facility." },
   ],
 
   relatedFacilitySlugs: ["howard-r-young-correctional-institution", "james-t-vaughn-correctional-center", "sussex-correctional-institution"],
@@ -1505,6 +1660,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   established: 1969,
+  mailingAddress: "Inmate Name, ID Number\nNorthwest State Correctional Facility\n3649 Lower Newton Street\nSwanton, VT 05488",
+  visitingHours: "Visits follow Vermont DOC visitation policy (Policy 327); confirm the schedule with the facility before traveling.",
+  bailInfo: "Bail applies only to pretrial detainees and is set by the court, not the facility.",
   operatedBy: "Vermont Department of Corrections",
 
   providers: [
@@ -1542,6 +1700,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Northwest State Correctional Facility?", answer: "Phone calls run through ICSolutions under the Vermont DOC contract." },
     { question: "How do I visit someone at Northwest State Correctional Facility?", answer: "Visitors must be approved. Bring valid photo ID and follow Vermont DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What population does Northwest State Correctional Facility hold?", answer: "Northwest State Correctional Facility in Swanton is a male facility housing medium and multi-level custody inmates. It was established in 1969." },
+    { question: "How do I find out if someone is at Northwest State Correctional Facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Northwest State Correctional Facility?", answer: "Address mail to: Inmate Name, ID Number, Northwest State Correctional Facility, 3649 Lower Newton Street, Swanton, VT 05488." },
+    { question: "Can I call an inmate at Northwest State Correctional Facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through ICSolutions." },
+    { question: "How do I stop or block calls from an inmate at Northwest State Correctional Facility?", answer: "Contact ICSolutions to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Northwest State Correctional Facility?", answer: "Bail applies only to pretrial detainees and is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures." },
+    { question: "Does Northwest State Correctional Facility offer video visits?", answer: "Video visitation availability is not confirmed for this facility. Call the facility to ask about current visit options before creating any account." },
   ],
 
   relatedFacilitySlugs: ["marble-valley-regional-correctional-facility", "cheshire-correctional-institution", "fci-ray-brook"],
@@ -1572,6 +1736,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   established: 1980,
+  mailingAddress: "Inmate Name, ID Number\nMarble Valley Regional Correctional Facility\n167 State Street\nRutland, VT 05701",
+  visitingHours: "Visits follow Vermont DOC visitation policy (Policy 327); confirm the schedule with the facility before traveling.",
+  bailInfo: "Bail applies only to pretrial detainees and is set by the court, not the facility.",
   operatedBy: "Vermont Department of Corrections",
 
   providers: [
@@ -1609,6 +1776,12 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Marble Valley Regional Correctional Facility?", answer: "Phone calls run through ICSolutions under the Vermont DOC contract." },
     { question: "How do I visit someone at Marble Valley Regional Correctional Facility?", answer: "Visitors must be approved. Bring valid photo ID and follow Vermont DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "What is the marble wall at Marble Valley?", answer: "A historic marble wall from the 1878 Rutland House of Correction survives at the site. The current facility opened in 1980." },
+    { question: "How do I find out if someone is at Marble Valley Regional Correctional Facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Marble Valley Regional Correctional Facility?", answer: "Address mail to: Inmate Name, ID Number, Marble Valley Regional Correctional Facility, 167 State Street, Rutland, VT 05701." },
+    { question: "Can I call an inmate at Marble Valley Regional Correctional Facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through ICSolutions." },
+    { question: "How do I stop or block calls from an inmate at Marble Valley Regional Correctional Facility?", answer: "Contact ICSolutions to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Marble Valley Regional Correctional Facility?", answer: "Bail applies only to pretrial detainees and is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures." },
+    { question: "Does Marble Valley hold women too?", answer: "Yes. Marble Valley houses both male and female pretrial and sentenced inmates." },
   ],
 
   relatedFacilitySlugs: ["northwest-state-correctional-facility", "cheshire-correctional-institution", "fci-ray-brook"],
@@ -1638,6 +1811,11 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Families create a GettingOut account, add the inmate, and fund messaging and visit services. All calls, messages, and video visits are monitored and recorded.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nGallatin County Detention Center\n605 South 16th Avenue\nBozeman, MT 59715",
+  visitingHours: "Visits are by video; schedule through the facility and confirm current hours before traveling.",
+  commissary: "Commissary funds go through Inmate Canteen. GettingOut handles messaging and video visits, not commissary deposits.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
+  fax: "406-582-2479",
   operatedBy: "Gallatin County Sheriff's Office",
 
   providers: [
@@ -1676,6 +1854,11 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Gallatin County Detention Center?", answer: "Video visits run through GettingOut. Create an account, add the inmate, and schedule in advance." },
     { question: "How do I add commissary money at Gallatin County Detention Center?", answer: "Commissary funds go through Inmate Canteen. GettingOut handles messaging, video visits, and voice messaging, not commissary deposits." },
     { question: "How do I send messages to an inmate at Gallatin County Detention Center?", answer: "Use GettingOut. Create an account, add the inmate, and fund the service to send and receive messages." },
+    { question: "How do I find out if someone is in Gallatin County Detention Center?", answer: "Use the Gallatin County Sheriff's Office online inmate search or call the detention center with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Gallatin County Detention Center?", answer: "Address mail to: Inmate Name, ID Number, Gallatin County Detention Center, 605 South 16th Avenue, Bozeman, MT 59715." },
+    { question: "Can I call an inmate at Gallatin County Detention Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Keep your number on the inmate's approved list to receive calls." },
+    { question: "How does bail work at Gallatin County Detention Center?", answer: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail." },
+    { question: "Can I visit in person at Gallatin County Detention Center?", answer: "No. Visits are by video only. Schedule through the facility and confirm current hours before traveling." },
   ],
 
   relatedFacilitySlugs: ["missoula-county-detention-center", "montana-state-prison", "fci-seagoville"],
@@ -1708,6 +1891,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
   inmateCapacity: 394,
   established: 1999,
+  mailingAddress: "Inmate Name, ID Number\nMissoula County Detention Center\n2340 Mullan Road\nMissoula, MT 59808",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Missoula County Sheriff's Office",
 
   providers: [
@@ -1747,6 +1933,10 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     { question: "Can I send electronic messages to an inmate at Missoula County Detention Center?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Smart Communications or by contacting the facility." },
     { question: "Does Missoula County Detention Center hold federal inmates?", answer: "Yes. The facility holds inmates for the US Marshals Service and other agencies, plus a 24-bed juvenile unit." },
     { question: "How do I visit someone at Missoula County Detention Center?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
+    { question: "How do I find out if someone is in Missoula County Detention Center?", answer: "Call the detention center with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Missoula County Detention Center?", answer: "Address mail to: Inmate Name, ID Number, Missoula County Detention Center, 2340 Mullan Road, Missoula, MT 59808." },
+    { question: "Can I call an inmate at Missoula County Detention Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Smart Communications (SmartInmate)." },
+    { question: "How do I stop or block calls from an inmate at Missoula County Detention Center?", answer: "Contact Smart Communications (SmartInmate) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
   ],
 
   relatedFacilitySlugs: ["gallatin-county-detention-center", "montana-state-prison", "fci-seagoville"],

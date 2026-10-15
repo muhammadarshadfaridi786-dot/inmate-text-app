@@ -30,6 +30,10 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "In-person visiting at DuPage is done by video, with remote video visits available from home through the GettingOut app or website. Money for phone and tablet services is kept separate from the detainee's commissary and trust account, which is handled through Access Corrections online or the lobby kiosk.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nDuPage County Jail\n501 North County Farm Road\nP.O. Box 957\nWheaton, IL 60187",
+  visitingHours: "In-person visits are limited to one 30-minute visit per week; virtual visits run through the GTL/ViaPath tablet system. Confirm scheduling with the Sheriff's Office.",
+  commissary: "Trust and commissary deposits go through Access Corrections online or the lobby kiosk, not through GTL.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "DuPage County Sheriff's Office",
 
   providers: [
@@ -81,6 +85,10 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I send messages to an inmate at DuPage County Jail?", answer: "Yes, through GettingOut electronic messaging. Friends and family must have funds in their account to receive and respond to messages. All messages are monitored." },
     { question: "How do I add money to an inmate's account at DuPage County Jail?", answer: "Deposits to the trust or commissary account go through Access Corrections online or the lobby kiosk. Phone and video funds are handled separately through your GettingOut account." },
     { question: "Can the inmate call any number?", answer: "With a Friends and Family account, you control which phone numbers the inmate can call. With an inmate account funded online, the inmate can use the balance for calls, visits, or messaging to anyone approved." },
+    { question: "How do I find out if someone is in DuPage County Jail?", answer: "Use the DuPage County Sheriff's Office online inmate search with the inmate's name, or call the jail to confirm custody." },
+    { question: "What is the mailing address for an inmate at DuPage County Jail?", answer: "Address mail to: Inmate Name, ID Number, DuPage County Jail, 501 North County Farm Road, P.O. Box 957, Wheaton, IL 60187." },
+    { question: "Can I call an inmate at DuPage County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How does bail work at DuPage County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
   ],
 
   relatedFacilitySlugs: ["cook-county-jail", "cuyahoga-county-jail", "maricopa-county-jail"],
@@ -190,6 +198,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Visits at Will County are by video, scheduled in advance through the sheriff's visitation system. Confirm current visit scheduling details on the Will County Sheriff's corrections page.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nWill County Adult Detention Facility\n95 South Chicago Street\nJoliet, IL 60436",
+  visitingHours: "Visits are by video at the facility video visitation center; schedule in advance.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Will County Sheriff's Office",
   // TODO(Jan): verify video and messaging provider
 
@@ -229,6 +240,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I visit someone at Will County Adult Detention Facility?", answer: "Yes, visits are conducted by video. Check the Will County Sheriff's visitation information page for scheduling rules, hours, and any fees before planning a visit." },
     { question: "Is there an app for contacting Will County inmates?", answer: "Smart Communications is the phone vendor. Confirm with the facility whether messaging or video visits are handled through a Smart Communications app or a separate visitation platform." },
     { question: "How do I send money to a Will County detainee?", answer: "Use the deposit methods published on the Will County Sheriff's corrections page. Confirm the current vendor and options before sending funds." },
+    { question: "How do I find out if someone is in Will County Adult Detention Facility?", answer: "Call the facility with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Will County Adult Detention Facility?", answer: "Address mail to: Inmate Name, ID Number, Will County Adult Detention Facility, 95 South Chicago Street, Joliet, IL 60436." },
+    { question: "Can I call an inmate at Will County Adult Detention Facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Smart Communications (SmartInmate)." },
+    { question: "How do I stop or block calls from an inmate at Will County Adult Detention Facility?", answer: "Contact Smart Communications (SmartInmate) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do I schedule a video visit at Will County Adult Detention Facility?", answer: "Video visits run through the facility's video visitation center. Schedule in advance and arrive early for check-in." },
   ],
 
   relatedFacilitySlugs: ["cook-county-jail", "harris-county-jail", "maricopa-county-jail"],
@@ -338,6 +354,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families set up accounts through GTL's consumer platforms to fund phone calls and schedule video visits. Both remote video visits from home and on-site video visits at the jail are available. In-person face-to-face visits are not offered; all social visits are by video.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nAllen County Jail\n417 South Calhoun Street\nFort Wayne, IN 46802",
+  visitingHours: "Visits are by video through the jail's video visitation system; visitors may use onsite terminals or register online for remote video visits.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Allen County Sheriff's Department",
 
   providers: [
@@ -376,6 +395,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Do inmates at Allen County Jail have tablets?", answer: "Yes. The sheriff's office issues tablets that support phone calls, messaging, photos, video visits, and other services, all through GTL." },
     { question: "Can I visit an inmate in person at Allen County Jail?", answer: "No. The jail replaced in-person social visits with video visitation. You can visit remotely from anywhere or use the video stations at the jail." },
     { question: "How do phone calls work at Allen County Jail?", answer: "Calls run through the GTL inmate telephone system. Inmates can call from unit phones or their tablets, and families fund calls through a GTL account." },
+    { question: "How do I find out if someone is in Allen County Jail?", answer: "Use the Allen County Sheriff's Department online inmate inquiry with the inmate's name, or call the jail to confirm custody." },
+    { question: "What is the mailing address for an inmate at Allen County Jail?", answer: "Address mail to: Inmate Name, ID Number, Allen County Jail, 417 South Calhoun Street, Fort Wayne, IN 46802." },
+    { question: "Can I call an inmate at Allen County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at Allen County Jail?", answer: "Contact GTL (ViaPath) to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Allen County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
   ],
 
   relatedFacilitySlugs: ["marion-county-jail", "harris-county-jail", "cuyahoga-county-jail"],
@@ -405,6 +429,8 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Inmates can rent tablets that support phone calls, eMessaging, video visits, and other services. Visits include in-person non-contact visits as well as remote video visits from home. All communication services are monitored, and visitors generally need to be on the inmate's approved list.",
   ],
 
+  visitingHours: "Visits are scheduled through Securus; confirm current visiting options with the Sheriff's Office.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Hamilton County Sheriff's Office",
 
   providers: [
@@ -443,6 +469,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Hamilton County Justice Center?", answer: "Remote video visits run through Securus Video Connect from your computer or phone, or you can use the video kiosks at the jail. Schedule in advance and be on the inmate's approved visitor list." },
     { question: "Can I send messages to an inmate at the Justice Center?", answer: "Yes, through Securus eMessaging. You can send text messages and photo attachments, and inmates can reply from their tablets. Messaging is fee-based." },
     { question: "How do phone calls work at Hamilton County Justice Center?", answer: "Inmates make outgoing calls through the Securus phone system, including from rented tablets. Fund calls through your Securus account before they can go through." },
+    { question: "How do I find out if someone is in the Hamilton County Justice Center?", answer: "Use the Hamilton County Sheriff's inmate search with the inmate's name, or call the Justice Center to confirm custody." },
+    { question: "Can I call an inmate at the Hamilton County Justice Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at the Hamilton County Justice Center?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at the Hamilton County Justice Center?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "What is the Hamilton County Justice Center?", answer: "It is the county jail in downtown Cincinnati, housing pretrial and sentenced inmates. The building also houses the Sheriff's offices and the courts." },
   ],
 
   relatedFacilitySlugs: ["cuyahoga-county-jail", "franklin-county-correctional-center", "harris-county-jail"],
@@ -735,6 +766,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
   ],
 
   address: "37W755 Illinois Route 38, St. Charles, IL 60175",
+  mailingAddress: "Inmate Name, ID Number\nKane County Jail\n37W755 Illinois Route 38\nSt. Charles, IL 60175",
+  visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the Sheriff's Office before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Kane County Sheriff's Office",
 
   providers: [
@@ -773,6 +807,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Kane County Jail?", answer: "All visits are video visits. Register on the ICSolutions visitor website, then schedule an on-site visit at the lobby kiosks or a remote visit from home using the ICS Mobile app." },
     { question: "Can I visit an inmate in person at Kane County Jail?", answer: "Visitation is conducted entirely through the video visitation system. You can visit on-site at the jail's video kiosks or remotely from home." },
     { question: "Does Kane County Jail offer tablets?", answer: "Yes. Tablet services are provided by ICSolutions, along with the phone system and video visitation." },
+    { question: "How do I find out if someone is in Kane County Jail?", answer: "Call the Sheriff's Office with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Kane County Jail?", answer: "Address mail to: Inmate Name, ID Number, Kane County Jail, 37W755 Illinois Route 38, St. Charles, IL 60175." },
+    { question: "Can I call an inmate at Kane County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through ICSolutions." },
+    { question: "How do I stop or block calls from an inmate at Kane County Jail?", answer: "Contact ICSolutions to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Kane County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
   ],
 
   relatedFacilitySlugs: ["cook-county-jail", "harris-county-jail", "marion-county-jail"],
@@ -802,6 +841,8 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families create a GettingOut account to fund phone calls and schedule video visits. Messaging and photo sharing are available through the GettingOut platform on tablets and kiosks where offered.",
   ],
 
+  visitingHours: "Visits are scheduled by housing unit; confirm with the Sheriff's Office before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Dane County Sheriff's Office",
 
   providers: [
@@ -852,6 +893,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Dane County Jail?", answer: "Video visits are available through GettingOut kiosks in the jail lobby, from your home computer, or through the GettingOut app on your phone. You must be on the inmate's approved visitor list." },
     { question: "How do phone calls work at Dane County Jail?", answer: "Inmates make outgoing calls through the GTL phone system in the housing units. Families fund calls through a GettingOut account." },
     { question: "Can I send messages to a Dane County Jail inmate?", answer: "Electronic messaging is available through GettingOut on kiosks and tablets where offered. Confirm current availability for your inmate's housing unit." },
+    { question: "How do I find out if someone is in Dane County Jail?", answer: "Use the Dane County Sheriff's Office inmate search with the inmate's name, or call the jail to confirm custody." },
+    { question: "Can I call an inmate at Dane County Jail?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at Dane County Jail?", answer: "Contact GTL (ViaPath) to block calls from the jail, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Dane County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "Which buildings make up Dane County Jail?", answer: "Dane County Jail includes the jail in the City-County Building and the Public Safety Building facility in Madison. Confirm the inmate's housing location with the Sheriff's Office before visiting." },
   ],
 
   relatedFacilitySlugs: ["harris-county-jail", "cuyahoga-county-jail", "maricopa-county-jail"],
@@ -881,6 +927,8 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Video visitation at Ramsey County uses Securus Video Connect for remote visits from home, alongside on-site video visits. Remote visits are scheduled in advance and carry a per-session fee. Visitors must be on the inmate's approved list.",
   ],
 
+  visitingHours: "Video visits are available; confirm scheduling with the Sheriff's Office before traveling.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Ramsey County Sheriff's Office",
 
   providers: [
@@ -919,6 +967,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do video visits work at Ramsey County Adult Detention Center?", answer: "Remote video visits run through Securus Video Connect and must be scheduled at least 24 hours in advance. On-site video visits are also available. Both require the visitor to be approved." },
     { question: "Can I leave a message for an inmate at Ramsey County Jail?", answer: "Yes. A voicemail option lets you leave a message for an inmate for a fee by calling the facility and selecting the voicemail option." },
     { question: "How do I send money to a Ramsey County detainee?", answer: "Confirm the current deposit methods on the Ramsey County Sheriff's inmate services page before sending funds." },
+    { question: "How do I find out if someone is in Ramsey County Adult Detention Center?", answer: "Use the Ramsey County Sheriff's Office inmate search with the inmate's name, or call the detention center to confirm custody." },
+    { question: "Can I call an inmate at Ramsey County Adult Detention Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Ramsey County Adult Detention Center?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How does bail work at Ramsey County Adult Detention Center?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
+    { question: "Does Ramsey County Adult Detention Center hold federal detainees?", answer: "Yes. The facility houses some federal detainees alongside county pretrial and sentenced inmates." },
   ],
 
   relatedFacilitySlugs: ["hennepin-county-adult-detention-center", "harris-county-jail", "cuyahoga-county-jail"],
@@ -1036,6 +1089,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families should confirm the current phone vendor, video visit platform, and deposit options directly with the facility or on the county's official corrections page before creating accounts or sending money.",
   ],
 
+  mailingAddress: "Inmate Name, ID Number\nMontgomery County Correctional Facility\n60 Eagleville Road\nNorristown, PA 19403",
+  visitingHours: "Social visiting hours vary by housing section; see the county visiting schedule. Visitors must pre-register Monday or Friday, 7:30 AM to 7:30 PM, with a one-time $5 badge fee. Attorney and official visits: daily 8:00 AM to 10:00 AM, 12:30 PM to 4:45 PM, and 6:30 PM to 8:30 PM.",
+  bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Montgomery County, Pennsylvania",
   // TODO(Jan): verify provider: sources conflict (GTL/GettingOut vs smaller vendors); no official sheriff page confirmed the vendor.
 
@@ -1062,6 +1118,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I visit someone at Montgomery County Correctional Facility?", answer: "Yes, but confirm the current visitation schedule, visit type, and any scheduling platform directly with the facility, since reported details vary." },
     { question: "How do I send money to an inmate in Eagleville PA?", answer: "Use only the deposit methods published by the county or confirmed by facility staff. Do not send cash." },
     { question: "Is this the same as the Montgomery County jail in Maryland?", answer: "No. This entry covers the Montgomery County Correctional Facility in Eagleville, Pennsylvania. Maryland's facility is in Boyds, Maryland and is a separate institution." },
+    { question: "How do I find out if someone is in Montgomery County Correctional Facility?", answer: "Use the county's online inmate search or call the facility with the inmate's full name and date of birth to confirm custody." },
+    { question: "What is the mailing address for an inmate at Montgomery County Correctional Facility?", answer: "Address mail to: Inmate Name, ID Number, Montgomery County Correctional Facility, 60 Eagleville Road, Norristown, PA 19403." },
+    { question: "How does bail work at Montgomery County Correctional Facility?", answer: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail." },
+    { question: "Do I need to pre-register to visit Montgomery County Correctional Facility?", answer: "Yes. Visitors must pre-register Monday or Friday, 7:30 AM to 7:30 PM, and pay a one-time $5 badge fee. Check the county visiting schedule for your housing section's hours." },
+    { question: "What is the Montgomery County Correctional Facility?", answer: "It is the county jail in Eagleville, serving Montgomery County, Pennsylvania. It houses pretrial and sentenced inmates." },
   ],
 
   relatedFacilitySlugs: ["philadelphia-department-of-prisons", "essex-county-correctional-facility", "cuyahoga-county-jail"],
@@ -1751,6 +1812,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   website: "https://www.cor.pa.gov/Facilities/StatePrisons/Pages/Huntingdon.aspx",
   established: 1889,
+  visitingHours: "In-person and video visits are scheduled by housing unit; confirm with the facility before traveling.",
+  commissary: "Deposits through JPay or ConnectNetwork, or by money order mailed to the facility.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Pennsylvania Department of Corrections",
 
   providers: [
@@ -1813,6 +1877,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate at SCI Huntingdon?", answer: "Yes. GTL tablets support e-messaging, and families fund messaging through ConnectNetwork." },
     { question: "How do I send money to an SCI Huntingdon inmate?", answer: "Use JPay online or by phone, deposit through ConnectNetwork, or mail a money order to the facility. You will need the inmate's name and inmate number." },
     { question: "Can I visit someone at SCI Huntingdon?", answer: "Yes, but you must be on the inmate's approved visitor list. Confirm current visiting days and rules with the institution before traveling." },
+    { question: "How do I find an inmate at SCI Huntingdon?", answer: "Search the Pennsylvania Department of Corrections inmate locator by name or inmate number, or call the facility." },
+    { question: "Can I call an inmate at SCI Huntingdon?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at SCI Huntingdon?", answer: "Contact GTL (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do video visits work at SCI Huntingdon?", answer: "Video visits are scheduled in advance; confirm the current platform with the facility." },
+    { question: "What is SCI Huntingdon known for?", answer: "SCI Huntingdon is the oldest continuously operating state correctional institution in Pennsylvania, with a history going back to 1889." },
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1845,6 +1914,10 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   website: "https://www2.illinois.gov/idoc/facilities/Pages/pontiaccorrectionalcenter.aspx",
   established: 1871,
+  mailingAddress: "Inmate Name, ID Number\nPontiac Correctional Center\nP.O. Box 99\nPontiac, IL 61764",
+  visitingHours: "Visits are scheduled in advance; confirm current visiting options with the facility before traveling.",
+  commissary: "Deposits through JPay online, by phone, by MoneyGram, or by money order mailed to the facility.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Illinois Department of Corrections",
 
   providers: [
@@ -1895,6 +1968,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate at Pontiac Correctional Center?", answer: "The ICSolutions tablets are designed for phone calls, not messaging. Confirm any messaging options directly with the facility." },
     { question: "How do I send money to a Pontiac inmate?", answer: "Deposit through JPay online, by phone at 1-800-574-5729, by MoneyGram, or mail a money order to the facility with the inmate's name and IDOC number." },
     { question: "Can I visit someone at Pontiac Correctional Center?", answer: "Yes, but visits must be approved and scheduled in advance. Confirm current visiting days and rules with the institution before traveling." },
+    { question: "How do I find an inmate at Pontiac Correctional Center?", answer: "Search the Illinois DOC inmate search by name or inmate number, or call the facility." },
+    { question: "What is the mailing address for an inmate at Pontiac Correctional Center?", answer: "Address mail to: Inmate Name, ID Number, Pontiac Correctional Center, P.O. Box 99, Pontiac, IL 61764." },
+    { question: "Can I call an inmate at Pontiac Correctional Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through ICSolutions." },
+    { question: "How do I stop or block calls from an inmate at Pontiac Correctional Center?", answer: "Contact ICSolutions to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "Is Pontiac Correctional Center still open?", answer: "Yes. The medium security unit closed in 2022, but the maximum-security facility remains open." },
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1927,6 +2005,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   website: "https://www.in.gov/idoc/adult-facilities/wabash-valley-correctional-facility/",
   established: 1992,
+  visitingHours: "Visits are scheduled in advance; confirm current options with the facility before traveling.",
+  commissary: "Trust fund deposits through JPay online and by phone.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Indiana Department of Correction",
 
   providers: [
@@ -1977,6 +2058,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "Can I message an inmate at Wabash Valley?", answer: "Yes. The GettingOut messaging platform on ViaPath tablets lets families and inmates exchange messages. Messaging is restricted to designated recipients." },
     { question: "How do phone calls work at Wabash Valley Correctional Facility?", answer: "Calls run through the GTL phone system. Set up an account on ConnectNetwork to fund calls to your inmate." },
     { question: "How do I send money to a Wabash Valley inmate?", answer: "Deposit to the inmate's trust account through JPay online or by phone. You will need the inmate's name and DOC number." },
+    { question: "How do I find an inmate at Wabash Valley Correctional Facility?", answer: "Search the Indiana DOC offender locator by name or DOC number, or call the facility." },
+    { question: "Can I call an inmate at Wabash Valley Correctional Facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at Wabash Valley Correctional Facility?", answer: "Contact GTL (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do video visits work at Wabash Valley Correctional Facility?", answer: "Video visits are scheduled in advance through GTL. Confirm the current platform with the facility." },
+    { question: "What custody levels does Wabash Valley Correctional Facility house?", answer: "Wabash Valley houses minimum, medium, and maximum security inmates, plus a special needs unit." },
   ],
 
   relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -2009,6 +2095,10 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   website: "http://www.drc.ohio.gov/socf",
   established: 1972,
+  visitingHours: "Visits are scheduled through the ViaPath (GTL) visitation reservation system; hours vary by housing unit.",
+  rosterUrl: "https://appgateway.drc.ohio.gov/OffenderSearch",
+  commissary: "Deposits through ConnectNetwork online and by phone. Only approved or tentatively approved visitors may send funds.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Ohio Department of Rehabilitation and Correction",
 
   providers: [
@@ -2059,6 +2149,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do I send money to an SOCF inmate?", answer: "Deposit through ConnectNetwork online or by phone at 1-888-988-4768. Only approved or tentatively approved visitors may send funds, and deposits are limited per transaction and per month." },
     { question: "Can I visit someone at Southern Ohio Correctional Facility?", answer: "Yes. In-person and video visits are available on scheduled days, but you must be an approved visitor first. Confirm current visiting days with the institution." },
     { question: "Can I message an inmate at SOCF?", answer: "Tablet messaging is available through GTL (ViaPath) services as Ohio transitions content from JPay to ViaPath." },
+    { question: "How do I find an inmate at Southern Ohio Correctional Facility?", answer: "Use the Ohio DRC offender search with the inmate's name or offender number. It shows current Ohio prison inmates, including their facility and sentence details." },
+    { question: "Can I call an inmate at Southern Ohio Correctional Facility?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at Southern Ohio Correctional Facility?", answer: "Contact GTL (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "How do video visits work at Southern Ohio Correctional Facility?", answer: "Video visits are scheduled through the ViaPath (GTL) visitation reservation system. Confirm your window with the facility." },
+    { question: "What is Southern Ohio Correctional Facility known for?", answer: "SOCF is Ohio's highest-security male prison and the site of the 1993 Lucasville riot. It houses Ohio's highest-security male inmates." },
   ],
 
   relatedFacilitySlugs: ["ohio-state-penitentiary", "chillicothe-correctional-institution", "cuyahoga-county-jail"],
@@ -2090,6 +2185,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
 
   inmateCapacity: 2179,
   established: 1942,
+  visitingHours: "Visits are scheduled by housing unit; confirm with the facility before traveling.",
+  commissary: "Electronic deposits to inmate accounts through ConnectNetwork.",
+  bailInfo: "No bail process: this facility holds sentenced inmates, not pretrial detainees. Bail and pretrial release are handled by the courts before sentencing.",
   operatedBy: "Maryland Department of Public Safety and Correctional Services",
 
   providers: [
@@ -2140,6 +2238,11 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     { question: "How do I send money to an MCI Hagerstown inmate?", answer: "Electronic deposits go through ConnectNetwork, the platform used for Maryland DOC inmate accounts." },
     { question: "Can I visit someone at MCI Hagerstown?", answer: "Yes. In-person visits are held on Saturdays and Sundays, and visitors must register by the cutoff time and follow the dress code and facility rules." },
     { question: "Can I message an inmate at MCI Hagerstown?", answer: "Electronic messaging is not confirmed for this facility. Confirm current options with the institution before assuming messaging is available." },
+    { question: "How do I find an inmate at Maryland Correctional Institution Hagerstown?", answer: "Search the Maryland DPSCS inmate locator by name or inmate number, or call the facility." },
+    { question: "Can I call an inmate at Maryland Correctional Institution Hagerstown?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through GTL (ViaPath)." },
+    { question: "How do I stop or block calls from an inmate at Maryland Correctional Institution Hagerstown?", answer: "Contact GTL (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "Does Maryland Correctional Institution Hagerstown offer video visits?", answer: "Video visitation availability is not confirmed for this facility. Call the facility to ask about current visit options before creating any account." },
+    { question: "What is Maryland Correctional Institution Hagerstown known for?", answer: "MCI Hagerstown opened in 1942 as the Maryland State Penal Farm. It focuses on rehabilitation and reentry programming." },
   ],
 
   relatedFacilitySlugs: ["maryland-correctional-institution-jessup", "fci-cumberland", "essex-county-correctional-facility"],

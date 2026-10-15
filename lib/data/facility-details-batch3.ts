@@ -40,6 +40,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 500,
     established: 1988,
     operatedBy: "Alaska Department of Corrections (ADOC)",
+    mailingAddress: "Inmate Name, DOC Number, Spring Creek Correctional Center, 3600 Bette Cato Avenue, Seward, AK 99664. Include the inmate's full name and Alaska DOC number on the envelope.",
+    visitingHours: "Visiting hours are Sunday through Saturday, 1:00 PM to 4:00 PM. Visits are by appointment only and must be scheduled 24 hours in advance by calling 907-224-8124. Evening visitation is suspended.",
 
     providers: [
       {
@@ -104,6 +106,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Spring Creek inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Spring Creek Correctional Center. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at Spring Creek Correctional Center?",
+        answer: "Address the envelope with the inmate's full name and Alaska DOC number, followed by Spring Creek Correctional Center, 3600 Bette Cato Avenue, Seward, AK 99664. All mail is inspected before delivery, so do not send cash, stamps, or prohibited items.",
+      },
+      {
+        question: "Can I call an inmate at Spring Creek directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to numbers on their approved call list through GTL, so set up a GTL AdvancePay account and make sure your number is approved.",
+      },
+      {
+        question: "Why did my calls from Spring Creek stop coming through?",
+        answer: "Calls stop when the GTL account runs out of funds, the number is removed from the inmate's call list, or the inmate's phone privileges change. Check your GTL balance first, then confirm with the inmate that your number is still on the approved list.",
+      },
+      {
+        question: "Why is my JPay message to Spring Creek still pending?",
+        answer: "ADOC staff review messages before delivery, which can take 24 to 48 hours. If a message stays pending longer, check that you entered the correct Alaska DOC number and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "What happens to my JPay and GTL accounts if my loved one transfers from Spring Creek?",
+        answer: "Alaska DOC accounts carry over if the inmate transfers to another Alaska facility. You do not need a new JPay or GTL account, but confirm the new facility's visiting and phone rules, since they can differ.",
       },
     ],
 
@@ -210,6 +232,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Cummins Unit inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Cummins Unit. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Cummins Unit?",
+        answer: "Use the inmate's full name and ADC number, followed by Cummins Unit, 1 Chicken Farm Road, Grady, AR 71644. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Cummins Unit directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the inmate's approved call list.",
+      },
+      {
+        question: "Why did calls from Cummins Unit stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Cummins Unit delayed?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the ADC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "Can inmates in restrictive housing at Cummins receive in-person visits?",
+        answer: "No. Inmates in restrictive housing or protective custody are allowed to visit by video only. General population inmates can receive in-person visits under the unit schedule.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -315,6 +357,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Vaughn inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select James T. Vaughn Correctional Center. Add funds via debit or credit card. Processing takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Vaughn?",
+        answer: "Use the inmate's full legal name and SBI number, followed by James T. Vaughn Correctional Center, 1181 Paddock Road, Smyrna, DE 19977. Include a complete return address. All incoming mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Vaughn directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so set up a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Vaughn stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Vaughn still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the SBI number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "What happens if my loved one transfers from Vaughn to another Delaware facility?",
+        answer: "Your JPay and GTL accounts stay with you, since both are used statewide. Confirm the new facility's visiting rules and phone schedule, because they can differ by facility and housing unit.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -355,6 +417,9 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 1000,
     established: 1919,
     operatedBy: "Hawaii Department of Public Safety (HDPS)",
+    visitingHours: "Visits follow the OCCC Visitation Schedule and Guidelines, updated January 31, 2025. Schedules vary by module, so call the Visitation Hotline at (808) 832-1633 to confirm the current schedule for the inmate's module before traveling.",
+    commissary: "Electronic deposits into the Inmate Trust Account are accepted. Deposits made through the trust account can be used for commissary purchases.",
+    fax: "(808) 832-1412",
 
     providers: [
       {
@@ -407,6 +472,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to an OCCC inmate?",
         answer: "Commissary deposits are made through Securus. Log into your account and navigate to the money transfer section. Add funds via debit or credit card. Note that commissary funds and phone account funds are separate within Securus.",
+      },
+      {
+        question: "How do I find out about bail for someone at OCCC?",
+        answer: "OCCC houses pretrial detainees, so bail is set by the court, not by the facility. Contact the court that handled the case or the facility's records staff to confirm the bail amount and the approved way to post it.",
+      },
+      {
+        question: "How do I address mail to someone at OCCC?",
+        answer: "Use the inmate's full name and OCCC number, followed by Oahu Community Correctional Center, 2199 Kamehameha Highway, Honolulu, HI 96819. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at OCCC directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through the facility's phone service provider, so set up an account with that provider and confirm your number is on the approved list.",
+      },
+      {
+        question: "Why can't I find my loved one in the OCCC roster?",
+        answer: "OCCC holds a mix of pretrial detainees, sentenced inmates, and people in transition, and custody can change quickly. If a recent booking does not appear, call the facility with the full legal name and date of birth to confirm custody status.",
+      },
+      {
+        question: "Does OCCC offer work furlough?",
+        answer: "Yes. OCCC operates a work furlough program for eligible inmates nearing release. Placement is decided by the facility and the paroling authority, not by family request.",
       },
     ],
 
@@ -511,6 +596,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to an ISCI inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Idaho State Correctional Institution. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at ISCI?",
+        answer: "Use the inmate's full name and IDOC number, followed by Idaho State Correctional Institution, 13400 S. Pleasant Valley Road, Kuna, ID 83634. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at ISCI directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from ISCI stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to ISCI still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the IDOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "Can I send books or packages to someone at ISCI?",
+        answer: "Books and publications generally must come directly from an approved vendor or publisher, not from individuals. Personal packages are restricted, so confirm the current mail rules with the facility before sending anything beyond a letter.",
       },
     ],
 
@@ -617,6 +722,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to an Iowa State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Iowa State Penitentiary. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Iowa State Penitentiary?",
+        answer: "Use the inmate's full name and IDOC number, followed by Iowa State Penitentiary, 2500 Iowa Penitentiary Drive, Fort Madison, IA 52627. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Iowa State Penitentiary directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Iowa State Penitentiary stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Iowa State Penitentiary?",
+        answer: "Video visitation is limited at this facility. Set up a GTL account, confirm you are on the inmate's approved visitor list, and check the current video visit schedule with the facility before booking.",
+      },
+      {
+        question: "What happens if my loved one transfers from Iowa State Penitentiary to another Iowa prison?",
+        answer: "Your JPay and GTL accounts stay with you, since both are used statewide. Confirm the new facility's visiting rules and phone schedule, because they can differ by facility and custody level.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -657,6 +782,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 900,
     established: 2002,
     operatedBy: "Maine Department of Corrections (MDOC)",
+    visitingHours: "Visits must be requested at least two business days in advance and confirmed before you travel. A visitor who arrives for a visit that has not been scheduled and confirmed will not be permitted to visit.",
 
     providers: [
       {
@@ -721,6 +847,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Maine State Prison inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Maine State Prison. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at Maine State Prison?",
+        answer: "Use the inmate's full name and MDOC number, followed by Maine State Prison, 807 Cushing Road, Warren, ME 04864. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Maine State Prison directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Maine State Prison stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Maine State Prison still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the MDOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How far in advance do I need to request a visit at Maine State Prison?",
+        answer: "Regular visitors must request visits at least two business days in advance. Staff will confirm the visit once it is scheduled. Do not travel until you have that confirmation, because unscheduled visitors are not admitted.",
       },
     ],
 
@@ -1128,6 +1274,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 1200,
     established: 1880,
     operatedBy: "New Hampshire Department of Corrections (NHDOC)",
+    mailingAddress: "Inmate Name, DOC ID Number, NH State Prison, PO Box 14, Concord, NH 03302. Include the inmate's full name and DOC ID number on every envelope.",
+    visitingHours: "Visits are scheduled through the GTL visitation site at nhdoc.gtlvisitme.com/app. Confirm you are on the inmate's approved visitor list before traveling.",
 
     providers: [
       {
@@ -1192,6 +1340,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a NHSP inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select New Hampshire State Prison for Men. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "What is the mailing address for NH State Prison for Men?",
+        answer: "Address mail to the inmate's full name and DOC ID number, NH State Prison, PO Box 14, Concord, NH 03302. Mail sent to the street address may not reach the inmate, so use the PO Box for inmate mail.",
+      },
+      {
+        question: "Can I call an inmate at NHSP directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so set up a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from NHSP stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Can I send email to someone at NHSP?",
+        answer: "Yes. Inmates can receive email through the GTL vendor service. You need the inmate's email address, which you must get directly from the inmate. Inmates do not have access to the internet.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at NHSP?",
+        answer: "Video visits are scheduled through the GTL visitation site at nhdoc.gtlvisitme.com/app. Register for an account, confirm you are on the approved visitor list, and select an available time slot.",
       },
     ],
 
@@ -1425,6 +1593,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a NDSP inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select North Dakota State Penitentiary. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at North Dakota State Penitentiary?",
+        answer: "Use the inmate's full name and DOCR number, followed by North Dakota State Penitentiary, 3100 Railroad Drive, Bismarck, ND 58501. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at North Dakota State Penitentiary directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from North Dakota State Penitentiary stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to NDSP still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOCR number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "What happens if my loved one transfers from NDSP to another North Dakota facility?",
+        answer: "Your JPay and GTL accounts stay with you, since both are used statewide. Confirm the new facility's visiting rules and phone schedule, because they can differ by facility and custody level.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1530,6 +1718,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Rhode Island ACI inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select the Rhode Island ACI facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at the Donald Price facility?",
+        answer: "Use the inmate's full name and RIDOC number, followed by Donald Price Medium Security Facility, 40 Howard Avenue, Cranston, RI 02920. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at the Rhode Island ACI directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from the Rhode Island ACI stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to the Rhode Island ACI still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the RIDOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at the Donald Price facility?",
+        answer: "Video visits are scheduled through GTL. Set up a GTL account, confirm you are on the inmate's approved visitor list, and book an available time slot in advance.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1570,6 +1778,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 1700,
     established: 1881,
     operatedBy: "South Dakota Department of Corrections (SDDOC)",
+    visitingHours: "Visits must be pre-scheduled and visitors must be on the offender's approved visit list. Visit List Verification forms can take up to 15 business days to process, so apply well before planning a trip.",
+    rosterUrl: "http://doc.sd.gov/adult/lookup/",
 
     providers: [
       {
@@ -1635,6 +1845,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a South Dakota State Penitentiary inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select South Dakota State Penitentiary. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at South Dakota State Penitentiary?",
+        answer: "Use the inmate's full name and DOC number, followed by South Dakota State Penitentiary, 1600 N. Drive, Sioux Falls, SD 57104. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at South Dakota State Penitentiary directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from South Dakota State Penitentiary stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to South Dakota State Penitentiary still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a Class 3 video visit with someone at South Dakota State Penitentiary?",
+        answer: "Class 3 video visits are scheduled through the GTL VisitMe site once your visitor application is approved. Register online, link your account to the approved offender, and select an available time slot.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1675,6 +1905,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 4000,
     established: 2022,
     operatedBy: "Utah Department of Corrections (UDOC)",
+    mailingAddress: "Inmate Name, Inmate ID Number, Utah State Correctional Facility, PO Box 165300, Salt Lake City, UT 84116. Include the inmate's full name and ID number on every envelope.",
 
     providers: [
       {
@@ -1739,6 +1970,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a USCF inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Utah State Correctional Facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "What is the mailing address for Utah State Correctional Facility?",
+        answer: "Address mail to the inmate's full name and ID number, Utah State Correctional Facility, PO Box 165300, Salt Lake City, UT 84116. Mail sent to the street address may not reach the inmate, so use the PO Box for inmate mail.",
+      },
+      {
+        question: "What mail is prohibited at Utah State Correctional Facility?",
+        answer: "Prohibited mail includes items with glitter, rhinestones, stickers, or glued items, wax paper letters, shaped-cut photos, sticky notes, newspaper clippings, stapled items, books or magazines, and any form of money. Prohibited mail is returned to the sender.",
+      },
+      {
+        question: "Can I call an inmate at USCF directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from USCF stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to USCF still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the ID number is correct and that you are on the inmate's approved contact list.",
       },
     ],
 
@@ -1845,6 +2096,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Southern State inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Southern State Correctional Facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Southern State Correctional Facility?",
+        answer: "Use the inmate's full name and DOC number, followed by Southern State Correctional Facility, 72 Cedar Street, Springfield, VT 05156. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Southern State directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Southern State stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Southern State still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I find out about bail for someone at Southern State?",
+        answer: "Southern State also serves as a jail for surrounding counties, so some people there are pretrial detainees. Bail is set by the court, not by the facility. Contact the court that handled the case to confirm the bail amount and how to post it.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1885,6 +2156,8 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 1600,
     established: 2012,
     operatedBy: "Wyoming Department of Corrections (WDOC)",
+    mailingAddress: "Inmate Name, Inmate Number, Wyoming Medium Correctional Institution, 7076 Road 55F, Torrington, WY 82240. Include the inmate's full name and number, since mail without a complete address is returned.",
+    fax: "(307) 532-3240",
 
     providers: [
       {
@@ -1950,6 +2223,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a WMCI inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Wyoming Medium Correctional Institution. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "What is the mailing address for Wyoming Medium Correctional Institution?",
+        answer: "Address mail to the inmate's full name and number, Wyoming Medium Correctional Institution, 7076 Road 55F, Torrington, WY 82240. Mail that is not addressed properly is returned to the inmate or sender.",
+      },
+      {
+        question: "Can I call an inmate at WMCI directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from WMCI stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Is WMCI an intake facility?",
+        answer: "Yes. WMCI serves as an intake center for men entering Wyoming Department of Corrections custody who are not sentenced to death. A new arrival is classified at intake and may then move to a permanent facility, so confirm the current location before planning a visit.",
+      },
+      {
+        question: "Where do I send a WMCI visitor application?",
+        answer: "Mail or fax the completed visitor application directly to WMCI. Do not send applications to the WDOC Central Office in Cheyenne, since applications sent there are not processed.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -1992,6 +2285,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 2200,
     established: 1994,
     operatedBy: "Connecticut Department of Correction (CT DOC)",
+    visitingHours: "Walker Building visits run in three blocks: 8:30 AM to 11:00 AM, 12:45 PM to 2:45 PM, and 7:00 PM to 9:45 PM, with days and contact or noncontact status assigned by housing unit. There are no visits on Connecticut state holidays. Administrative Segregation and Security Risk Group visits are limited and must be scheduled in advance.",
 
     providers: [
       {
@@ -2056,6 +2350,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a MacDougall-Walker inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select MacDougall-Walker Correctional Institution. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at MacDougall-Walker?",
+        answer: "Use the inmate's full name and inmate number, followed by MacDougall-Walker Correctional Institution, 1153 East Street South, Suffield, CT 06078. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at MacDougall-Walker directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from MacDougall-Walker stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to MacDougall-Walker still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the inmate number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "Does it matter whether my loved one is in the MacDougall or Walker building?",
+        answer: "Yes. The two buildings have separate visiting schedules, and the published schedule covers the Walker Building. Confirm which building and housing unit your loved one is in, then check that building's visiting schedule before traveling.",
       },
     ],
 
@@ -2161,6 +2475,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Lansing inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Lansing Correctional Facility. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at Lansing Correctional Facility?",
+        answer: "Use the inmate's full name and inmate ID number, followed by Lansing Correctional Facility, 301 E. Kansas Avenue, Lansing, KS 66043. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Lansing directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Lansing stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Lansing still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the inmate ID number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "What happens if my loved one transfers from Lansing to another Kansas facility?",
+        answer: "Your JPay and GTL accounts stay with you, since both are used statewide. Confirm the new facility's visiting rules and phone schedule, because they can differ by facility and custody level.",
       },
     ],
 
@@ -2380,6 +2714,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to an MCF Oak Park Heights inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select MCF Oak Park Heights. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at MCF Oak Park Heights?",
+        answer: "Use the inmate's full name and OID number, followed by MCF Oak Park Heights, 5329 Osgood Avenue North, Stillwater, MN 55082. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Oak Park Heights directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Oak Park Heights stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Oak Park Heights still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear, and access is more restricted here than at other Minnesota prisons. If a message stays pending longer, confirm the OID number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Oak Park Heights?",
+        answer: "Video visitation is limited at this facility. Set up a GTL account, confirm you are on the inmate's approved visitor list, and check the current video visit rules with the facility before booking.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -2420,6 +2774,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 3557,
     established: 1984,
     operatedBy: "Mississippi Department of Corrections (MDOC)",
+    fax: "Superintendent's office: (601) 664-0782. Records department: (601) 932-9077.",
 
     providers: [
       {
@@ -2609,6 +2964,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a JCCC inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Jefferson City Correctional Center. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at Jefferson City Correctional Center?",
+        answer: "Use the inmate's full name and DOC ID number, followed by Jefferson City Correctional Center, 8200 No More Victims Road, Jefferson City, MO 65101. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at JCCC directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from JCCC stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to JCCC still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOC ID number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "What happens if my loved one transfers from JCCC to another Missouri facility?",
+        answer: "Your JPay and GTL accounts stay with you, since both are used statewide. Confirm the new facility's visiting rules and phone schedule, because they can differ by facility and custody level.",
       },
     ],
 
@@ -2808,6 +3183,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Dick Conner inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Dick Conner Correctional Center. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Dick Conner Correctional Center?",
+        answer: "Use the inmate's full name and DOC number, followed by Dick Conner Correctional Center, 19004 Otter Creek Road, Hominy, OK 74035. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Dick Conner directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Dick Conner stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Dick Conner still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Dick Conner?",
+        answer: "Video visits are scheduled through GTL. Set up a GTL account, confirm you are on the inmate's approved visitor list, and book an available time slot in advance.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -2912,6 +3307,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Snake River inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Snake River Correctional Institution. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at Snake River Correctional Institution?",
+        answer: "Use the inmate's full name and SID number, followed by Snake River Correctional Institution, 777 Stanton Blvd., Ontario, OR 97914. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Snake River directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through Securus, so set up a Securus account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Snake River stop coming through?",
+        answer: "Calls usually stop when the Securus balance runs out, the number leaves the approved call list, or phone privileges change. Check the Securus balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Snake River still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the SID number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Snake River?",
+        answer: "Video visits are scheduled through Securus. Set up a Securus account, confirm you are on the inmate's approved visitor list, and book an available time slot in advance.",
       },
     ],
 
@@ -3018,6 +3433,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Lee Correctional inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Lee Correctional Institution. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Lee Correctional Institution?",
+        answer: "Use the inmate's full name and SCDC number, followed by Lee Correctional Institution, 990 Prison Road, Bishopville, SC 29010. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Lee Correctional directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Lee Correctional stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Lee Correctional still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the SCDC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Lee Correctional?",
+        answer: "Video visits are scheduled through GTL. Set up a GTL account, confirm you are on the inmate's approved visitor list, and book an available time slot in advance.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3123,6 +3558,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
         question: "How do I send money to a Monroe Correctional Complex inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Monroe Correctional Complex. Add funds via debit or credit card. Processing typically takes one to two business days.",
       },
+      {
+        question: "How do I address mail to someone at Monroe Correctional Complex?",
+        answer: "Use the inmate's full name and DOC number, followed by Monroe Correctional Complex, 16550 177th Avenue SE, Monroe, WA 98272. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Monroe directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Monroe stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Monroe still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Monroe?",
+        answer: "Video visits are scheduled through GTL. Set up a GTL account, confirm you are on the inmate's approved visitor list, and book an available time slot in advance.",
+      },
     ],
 
     relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
@@ -3163,6 +3618,7 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
     inmateCapacity: 1400,
     established: 1898,
     operatedBy: "Wisconsin Department of Corrections (WDOC)",
+    visitingHours: "In-person visits must be scheduled at least 7 days in advance, are limited to 90 minutes, and are capped at 6 per week with a maximum of 2 per day, per the Wisconsin DOC visitation notice. Confirm current rules before traveling.",
 
     providers: [
       {
@@ -3227,6 +3683,26 @@ export const FACILITY_DETAILS_BATCH3: Record<string, FacilityDetail> = {
       {
         question: "How do I send money to a Green Bay CI inmate?",
         answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select Green Bay Correctional Institution. Add funds via debit or credit card. Processing typically takes one to two business days.",
+      },
+      {
+        question: "How do I address mail to someone at Green Bay Correctional Institution?",
+        answer: "Use the inmate's full name and DOC number, followed by Green Bay Correctional Institution, 2935 S. Military Avenue, Green Bay, WI 54307. Include a complete return address. All mail is inspected before delivery.",
+      },
+      {
+        question: "Can I call an inmate at Green Bay CI directly?",
+        answer: "No. Inmates cannot receive incoming calls. They place outgoing calls to approved numbers through GTL, so fund a GTL AdvancePay account and confirm your number is on the approved call list.",
+      },
+      {
+        question: "Why did calls from Green Bay CI stop coming through?",
+        answer: "Calls usually stop when the GTL balance runs out, the number leaves the approved call list, or phone privileges change. Check the GTL balance first, then confirm with the inmate that your number is still approved.",
+      },
+      {
+        question: "Why is my JPay message to Green Bay CI still pending?",
+        answer: "Messages are reviewed before delivery and can take a day or two to appear. If a message stays pending longer, confirm the DOC number is correct and that you are on the inmate's approved contact list.",
+      },
+      {
+        question: "How do I schedule a video visit with someone at Green Bay CI?",
+        answer: "Video visits are scheduled through GTL. Set up a GTL account, confirm you are on the inmate's approved visitor list, and book an available time slot in advance.",
       },
     ],
 

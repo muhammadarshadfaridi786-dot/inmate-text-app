@@ -102,6 +102,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   operatedBy: "Cheshire County Department of Corrections",
+  notToConfuseWith: "Not to be confused with Cheshire Correctional Institution in Cheshire, Connecticut.",
 
   providers: [
     {

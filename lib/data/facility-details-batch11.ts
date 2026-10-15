@@ -287,6 +287,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   address: "801 East Fourth Street, Charlotte, NC 28202, Detention Center Central",
   phone: "(980) 314-5200 Detention Center Central, (704) 336-8100 Information Line",
   fax: "(704) 336-6118",
+  website: "https://www.mecksheriff.com/index.php/detention-center-central/",
   operatedBy: "Mecklenburg County Sheriff's Office",
 
   providers: [
@@ -342,14 +343,16 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I schedule or cancel a video visit at Mecklenburg County Jail?",
-        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+        answer: "Schedule GettingOut video visits in advance. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
       },
 
 
 
+    { question: "How do I message someone at Mecklenburg County Jail?", answer: "Create a GettingOut account online or through the app. Search for the person using their name and booking number, then send your message. Expect a short review period before delivery." },
+    { question: "What happens after someone is sentenced to state prison from Mecklenburg County?", answer: "People sentenced to felony prison time are transferred to a North Carolina Department of Adult Correction facility. Check the new facility's communication setup right after any transfer, since the providers change." },
   ],
 
-  relatedFacilitySlugs: ["federal-correctional-complex-butner", "wake-county-jail", "fci-seagoville"],
+  relatedFacilitySlugs: ["federal-correctional-complex-butner", "wake-county-detention-center", "fci-seagoville"],
 },
 
 "wake-county-jail": {
@@ -699,6 +702,10 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
         answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
       },
 
+    { question: "What is the Hamilton County Justice Center?", answer: "It is the county jail in downtown Cincinnati, housing pretrial and sentenced inmates. The building also houses the Sheriff's offices and the courts." },
+    { question: "How do video visits work at Hamilton County Jail in Ohio?", answer: "Remote video visits run through Securus Video Connect from your computer or phone, or you can use the video kiosks at the jail. Schedule in advance and be on the inmate's approved visitor list." },
+    { question: "Can I send messages to an inmate at Hamilton County Jail in Ohio?", answer: "Yes, through Securus eMessaging. You can send text messages and photo attachments, and inmates can reply from their tablets. Messaging is fee-based." },
+    { question: "How does bail work at Hamilton County Jail in Ohio?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
   ],
 
   relatedFacilitySlugs: ["fci-elkton", "franklin-county-jail-ohio", "montgomery-county-jail-ohio"],
@@ -991,6 +998,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation is video-based. Visitors must be approved and follow Sheriff's Office visiting rules. All calls and visits are monitored and recorded.",
   ],
 
+  address: "425 Grove Street, Saint Paul, MN 55101",
+  website: "https://www.ramseycountymn.gov/your-government/leadership/sheriffs-office/sheriffs-office-divisions/detention-services/adult-detention-center-jail/inmate-communication",
+  mailingAddress: "Inmate Full Name\nRamsey County ADC, Inmate Mail\n425 Grove Street\nSaint Paul, MN 55101",
   operatedBy: "Ramsey County Sheriff's Office",
 
   providers: [
@@ -1036,7 +1046,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send mail to an inmate at Ramsey County Jail?",
-        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+        answer: "Address mail to the inmate's full name, Ramsey County ADC, Inmate Mail, 425 Grove Street, Saint Paul, MN 55101. Include your full name and return address.",
       },
       {
         question: "Can I receive incoming calls from an inmate at Ramsey County Jail?",
@@ -1048,9 +1058,11 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I schedule or cancel a video visit at Ramsey County Jail?",
-        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+        answer: "Schedule NCIC video visits in advance. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
       },
 
+    { question: "Can I leave a message for an inmate at Ramsey County Jail?", answer: "Yes. NCIC offers a voicemail option for a fee. Set it up through your NCIC account at ncic.com." },
+    { question: "How does bail work at Ramsey County Jail?", answer: "Bail is set by the court, not the jail. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The jail cannot set or change bail." },
   ],
 
   relatedFacilitySlugs: ["fmc-rochester", "hennepin-county-jail", "fci-seagoville"],
@@ -1076,11 +1088,13 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Hennepin County Jail communication guide. Securus phone service and online visiting for families of inmates at this Hennepin County Sheriff's jail in Minneapolis MN.",
 
   overview: [
-    "Hennepin County Jail is the county jail in Minneapolis, Minnesota, operated by the Hennepin County Sheriff's Office. The jail occupies two downtown buildings near the Government Plaza light rail station. All public visiting is done online.",
+    "Hennepin County Jail is the county jail in Minneapolis, Minnesota, operated by the Hennepin County Sheriff's Office. The jail is in the Public Safety Facility at 401 S 4th Ave in downtown Minneapolis, near the Government Plaza light rail station. All public visiting is done online.",
     "Phone service at Hennepin County Jail runs through Securus Technologies. Families set up a Securus account and fund phone service for outgoing calls.",
     "Visitation is online. Visitors must be approved and follow Sheriff's Office visiting rules. All calls and visits are monitored and recorded.",
   ],
 
+  address: "401 S 4th Ave, Minneapolis, MN 55415",
+  mailingAddress: "Inmate Name, Booking Number\nHennepin County Public Safety Facility\n401 S 4th Ave\nMinneapolis, MN 55415",
   operatedBy: "Hennepin County Sheriff's Office",
 
   providers: [
@@ -1090,17 +1104,17 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       initial: "S",
       color: "bg-indigo-700",
       messaging: false,
-      video: false,
+      video: true,
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "Securus provides phone service at Hennepin County Jail.",
+      notes: "Securus provides phone service and video visits at Hennepin County Jail.",
     },
   ],
 
   communication: {
     messaging: { status: "limited", provider: "Securus", notes: "Electronic messaging options are not confirmed for this facility. Confirm with Securus or the facility." },
-    video: { status: "available", notes: "All public visiting is done online. Confirm the video visit provider and scheduling rules with the Sheriff's Office." },
+    video: { status: "available", provider: "Securus", notes: "Video visits through Securus. All public visiting is done online. Schedule in advance." },
     photos: { status: "limited", provider: "Securus", notes: "Photo sharing options are not confirmed for this facility. Confirm with Securus or the facility." },
     phone: { status: "available", provider: "Securus", notes: "Outgoing calls through the Securus phone system. Fund a Securus account and keep your number on the approved list." },
     moneyTransfer: { status: "limited", notes: "Deposit options follow Sheriff's Office rules. Confirm the current deposit method with the facility before sending money." },
@@ -1118,7 +1132,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "Which company handles phone calls at Hennepin County Jail?", answer: "Securus Technologies provides phone service at Hennepin County Jail." },
     { question: "Can I visit in person at Hennepin County Jail?", answer: "All public visiting is done online. Schedule ahead and follow the Sheriff's Office visiting rules." },
     { question: "Can I send electronic messages to an inmate at Hennepin County Jail?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Securus or by contacting the facility." },
-    { question: "Where is Hennepin County Jail?", answer: "Hennepin County Jail occupies two downtown buildings in Minneapolis, Minnesota, near the Government Plaza light rail station." },
+    { question: "Where is Hennepin County Jail?", answer: "Hennepin County Jail, also known as the Adult Detention Center, is at 401 S 4th Ave, Minneapolis, MN 55415, in the Public Safety Facility downtown, near the Government Plaza light rail station." },
     { question: "How do I add money for phone calls at Hennepin County Jail?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
       {
         question: "How do I find or search for an inmate at Hennepin County Jail?",
@@ -1138,7 +1152,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I schedule or cancel a video visit at Hennepin County Jail?",
-        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+        answer: "Schedule Securus video visits in advance. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
       },
 
   ],
@@ -1395,7 +1409,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     { question: "How do I send email to an inmate at Washoe County Jail?", answer: "Send email through smartinmate.com. Create an account, add the inmate, and follow the on-screen instructions. You can also place money on an inmate's account through the same site." },
   ],
 
-  relatedFacilitySlugs: ["fci-seagoville", "clark-county-jail-nevada", "mdc-los-angeles"],
+  relatedFacilitySlugs: ["fci-seagoville", "clark-county-detention-center", "mdc-los-angeles"],
   relatedGuideSlugs: ["how-video-visitation-works", "how-prison-phone-calls-work"],
 },
 

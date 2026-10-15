@@ -1162,7 +1162,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "What happens after someone is sentenced to state prison from Dallas County?", answer: "People sentenced to state time are transferred to a Texas Department of Criminal Justice unit. Communication providers at TDCJ units differ from the county jail, so check the new facility's setup right after any transfer." },
   ],
 
-  relatedFacilitySlugs: ["wayne-county-jail", "king-county-correctional-facility", "mecklenburg-county-detention-center"],
+  relatedFacilitySlugs: ["wayne-county-jail", "king-county-correctional-facility", "mecklenburg-county-jail"],
 },
 
 "mecklenburg-county-detention-center": {
@@ -5895,6 +5895,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
 
   operatedBy: "Salt Lake County Sheriff's Office",
   fax: "385-468-9904",
+  mailingAddress: "Inmate Name, SO Number\nc/o Salt Lake County Metro Jail\n3415 S. 900 W.\nSalt Lake City, UT 84119",
 
   providers: [
     { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
@@ -5925,7 +5926,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     { question: "How do I send money to someone at Salt Lake County Metro Jail?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
       {
         question: "How do I send mail to someone at Salt Lake County Metro Jail?",
-        answer: "Address mail with the inmate's full name and booking number, care of Salt Lake County Metro Jail. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+        answer: "Address mail to: Inmate Name, SO Number, c/o Salt Lake County Metro Jail, 3415 S. 900 W., Salt Lake City, UT 84119. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
       },
       {
         question: "How do I post bail for someone at Salt Lake County Metro Jail?",
@@ -5943,6 +5944,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
         question: "Why is my GettingOut message taking so long to arrive?",
         answer: "Messages are reviewed by facility staff before delivery, which causes delays. Check that you used the correct name and booking number and the right facility. If the message still does not arrive, contact GettingOut support.",
       },
+    { question: "What is the Salt Lake County Metro Jail?", answer: "The Salt Lake County Metro Jail is the county's main pretrial holding facility in Salt Lake City, operated by the Salt Lake County Sheriff's Office." },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],

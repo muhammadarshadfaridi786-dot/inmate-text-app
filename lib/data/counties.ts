@@ -1489,8 +1489,8 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
 
     featuredFacilities: [
       {
-        name: "Hennepin County Adult Detention Center",
-        slug: "hennepin-county-adult-detention-center",
+        name: "Hennepin County Jail",
+        slug: "hennepin-county-jail",
         type: "County Jail",
         county: "Hennepin County",
         features: ["Phone Calls", "Video Calls"],

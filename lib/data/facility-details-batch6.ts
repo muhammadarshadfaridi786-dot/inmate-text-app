@@ -115,7 +115,20 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   visitingHours: "Visits by inmate last name: A to L on Monday and Saturday 9:00 AM to 9:00 PM, plus Friday 9:00 AM to 3:00 PM; M to Z on Tuesday and Sunday 9:00 AM to 9:00 PM, plus Friday 3:00 PM to 9:00 PM. Visitor sign-up begins 30 minutes before visiting hours.",
   operatedBy: "Tarrant County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "Smart Communications",
+      slug: "smartinmate",
+      initial: "S",
+      color: "bg-cyan-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Smart Communications is the official inmate communications provider, per the Sheriff's Office announcement (Oct 2024). Phone calls, video visitation and digital messaging run on the SmartEco platform.",
+    },
+  ],
 
   communication: {
     messaging: { status: "available", provider: "Smart Communications", notes: "SmartJailMail two-way electronic messaging on inmate tablets. Register at smartinmate.com and connect with the inmate." },
@@ -799,7 +812,32 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
     visitingHours: "Visiting days Tue, Thu and Sat 8:00 am to 6:30 pm for Units F17, F18, F22, J1, J2, J5, J6, J9, J10, J14, Special Housing. Wed, Fri and Sun 8:00 am to 6:30 pm for Units F19, F20, F24, J3, J4, J7, J8, J11, J12, J16, Medical if approved. Check in no later than 6:30 pm. One visit per allowable day, 30 min, noncontact",
   operatedBy: "Tulsa County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "Jail ATM",
+      slug: "jailatm",
+      initial: "J",
+      color: "bg-lime-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "Video visitation scheduled through jailatm.com, per the sheriff's official jail page.",
+    },
+    {
+      name: "Correct Solutions Group",
+      slug: "correct-solutions-group",
+      initial: "C",
+      color: "bg-orange-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: false,
+      moneyTransfer: true,
+      notes: "Deposits through csgpay.com using facility code 24038, per the sheriff's official jail page.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", provider: undefined, notes: "Electronic messaging is not confirmed on the sheriff's jail page. Ask the jail about current options." },
@@ -880,7 +918,20 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   website: "https://ccso-ok.us",
   operatedBy: "Cleveland County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC prepaid phone calls; text services reported from kiosks and tablets in housing units.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", provider: "NCIC", notes: "NCIC text services are reported from kiosks and tablets in housing units. Confirm current availability with the jail." },
@@ -1020,13 +1071,26 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   phone: "913-573-2865",
   operatedBy: "Wyandotte County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "HomeWAV",
+      slug: "homewav",
+      initial: "H",
+      color: "bg-yellow-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "HomeWAV handles phone calls, video visits and messaging. Remote video visits at a reported $0.50 per minute.",
+    },
+  ],
 
   communication: {
-    messaging: { status: "limited", provider: undefined, notes: "An online text and email system is reported, but the vendor is not confirmed. Ask the jail." },
+    messaging: { status: "limited", provider: "HomeWAV", notes: "Text and email messaging through HomeWAV. Confirm current options with the jail." },
     video: { status: "available", provider: "HomeWAV", notes: "Remote video visits through HomeWAV at a reported $0.50 per minute. Register at homewav.com and add Talk to Me funds." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Confirm with the jail." },
-    phone: { status: "limited", provider: undefined, notes: "Inmates can make outgoing calls daily, but the phone vendor is not confirmed. Call the jail for setup details." },
+    phone: { status: "limited", provider: "HomeWAV", notes: "Outgoing calls through HomeWAV. Confirm setup details with the jail." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposits are reported through JailATM online and the lobby kiosk. Confirm the current method with the jail." },
   },
 
@@ -1156,11 +1220,24 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   website: "https://www.linncountyiowa.gov/154/Correctional-Center",
   operatedBy: "Linn County Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "NCIC phone calls and video visitation, per the county's visitation page. Remote video visits $0.30 per minute; on-site visits are free.",
+    },
+  ],
 
   communication: {
     messaging: { status: "limited", provider: undefined, notes: "Electronic messaging is not confirmed. Ask the jail about current options." },
-    video: { status: "available", provider: "NCIC", notes: "Remote and on-site video visits through ncic.com. Create an account, select the facility and time, and wait for facility approval." },
+    video: { status: "available", provider: "NCIC", notes: "Remote and on-site video visits through ncic.com. Create an account, select the facility and time, and wait for facility approval. Remote visits $0.30 per minute; on-site visits are free, per the county page." },
     photos: { status: "limited", provider: undefined, notes: "Photo sharing is not confirmed. Confirm with the jail." },
     phone: { status: "available", provider: "NCIC", notes: "Prepaid and collect calls through NCIC Inmate Telephone Services." },
     moneyTransfer: { status: "limited", provider: undefined, notes: "Deposits are reported through JailATM online, the lobby kiosk, or mailed money orders. Confirm the current method with the jail." },
@@ -1795,7 +1872,32 @@ export const FACILITY_DETAILS_BATCH6: Record<string, FacilityDetail> = {
   phone: "504-368-5360",
   operatedBy: "Jefferson Parish Sheriff's Office",
 
-  providers: [],
+  providers: [
+    {
+      name: "Ally Telecom Group",
+      slug: "ally-telecom",
+      initial: "A",
+      color: "bg-teal-600",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: true,
+      moneyTransfer: false,
+      notes: "Ally Telecom Group provides the inmate telephone and visitation systems.",
+    },
+    {
+      name: "NCIC",
+      slug: "ncic",
+      initial: "N",
+      color: "bg-rose-600",
+      messaging: true,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "NCIC provides remote video visits and messaging through prepaid accounts at account.ncic.com.",
+    },
+  ],
 
   communication: {
     messaging: { status: "available", provider: "NCIC", notes: "Messaging at per-item rates through a prepaid NCIC account at account.ncic.com." },

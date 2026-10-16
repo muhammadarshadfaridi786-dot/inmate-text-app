@@ -7327,40 +7327,48 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   description: "Fairfax County Adult Detention Center in Fairfax Virginia. Find phone calls, messaging, and money transfer options for this Virginia county jail.",
 
   overview: [
-    "Fairfax County Adult Detention Center is located in Fairfax, Virginia and is operated by the Fairfax County Sheriff's Office. The facility houses pretrial detainees and sentenced inmates. Smart Communications handles phone calls, video visits, and messaging at this Virginia county facility.",
-    "To receive calls, create a SmartInmate account at smartinmate.com. Video visits are scheduled and paid for through Smart Communications at least 24 hours in advance.",
+    "Fairfax County Adult Detention Center, usually called the ADC, is the county jail in Fairfax, Virginia, operated by the Fairfax County Sheriff's Office. It sits at 10520 Judicial Drive, Fairfax, VA 22030, in the Public Safety Center next to the Courthouse, just west of Chain Bridge Road. The public parking garage is a short walk away at 10550 Page Avenue. The main phone number is 703-246-2100.",
+    "All communication services run through Smart Communications. Inmates use tablets or kiosks to visit by video, make and receive phone calls, send and receive text messages, read mail, and view pictures from loved ones. The Sheriff's Office contracted with Smart Communications in 2021, and video visiting for the general population began in August 2021. On-site kiosks for family and friends in the ADC lobby are free of charge.",
+    "Phone calls use Smart Communications. Families can set up a Pre-paid Collect, PIN Debit, or Direct Bill account for local, in-state, out-of-state, and international calls by signing up at smartinmate.com. Customer Care is at 1-888-253-5178 or 1-727-349-1561. Inmates may not receive incoming phone calls; only verified emergency messages are delivered to them. After classification, inmates may make free local official calls to their attorneys, probation and parole officers, bonding agent, and some community agencies.",
+    "Video visits are scheduled and paid for through Smart Communications. Authorized inmates get one video visit per day in 15 or 30 minute increments. Remote video visiting costs 10 cents per minute, and on-site video visiting using a lobby kiosk is free. Visits must be scheduled at least 24 hours in advance, or the inmate may not receive notification. Visit windows are 9 to 11 a.m., 12:30 to 4 p.m., 5 to 6 p.m., and 8 to 10 p.m., with lobby kiosks unavailable from 8 to 10 p.m. Direct video-visit questions to the vendor, not the Sheriff's Office.",
+    "Personal mail does not go to the facility. Since August 23, 2021, personal mail is no longer accepted at the ADC, and it must go to Smart Communications/FXCOADC, Inmate Name and Inmate Number, P.O. 9128, Seminole, FL 33775-9128. Mail must carry a full return address with the sender's first and last name plus the full correct inmate name and number. It is opened, scanned, screened by the ADC mail room, and forwarded electronically. Bound or book-like materials are rejected, and books sent through regular mail will not be scanned or delivered. Photographs go to the same Smart address, limited to 10 per mailing. Professional and legal mail still goes directly to the ADC, labeled Legal Mail, from the attorney of record, a Commonwealth's attorney, or the courts. Official documents and original transactional documents go to the ADC Property Officer at 10520 Judicial Drive.",
+    "Money goes into the inmate's account three ways. The lobby kiosk accepts cash and credit cards. The money safe in the lobby accepts money orders and cashier checks (no personal checks or cash) made out to the inmate's full name, with the inmate number plus the sender's name and address, with no envelope and no correspondence. Online credit card payments go through smartinmate.com, where the vendor charges a fee. The inmate gets access to deposited money within 72 hours. Inmates are charged $2 per day of incarceration to offset housing cost. Seven days after release, the Sheriff's Office mails a check for any remaining balance. Gift packages are ordered through Aramark at 1-888-439-5020 or icaregifts.com, and no gifts or food may be brought into the ADC.",
   ],
 
   operatedBy: "Fairfax County Sheriff's Office",
+    mailingAddress: "Personal mail: Smart Communications/FXCOADC, Inmate Name/Inmate Number, P.O. 9128, Seminole, FL 33775-9128. Personal mail is NOT accepted at the ADC. Legal mail goes directly to the ADC labeled Legal Mail. Official documents go to the ADC Property Officer, 10520 Judicial Drive, Fairfax, VA 22030.",
+    commissary: "Deposits: lobby kiosk (cash or credit cards), lobby money safe (money orders or cashier checks, no personal checks or cash), or online credit card at smartinmate.com (vendor fee). Access within 72 hours. $2/day housing charge. Gift packages via Aramark at 1-888-439-5020 or icaregifts.com.",
   visitingHours: "Video visits only, scheduled through Smart Communications at least 24 hours in advance. Visit windows: 9-11 a.m., 12:30-4 p.m., 5-6 p.m., and 8-10 p.m. (lobby kiosks unavailable 8-10 p.m.). Remote video visits cost 10 cents per minute; on-site video visits using a lobby kiosk are free. One video visit per day per inmate, in 15- or 30-minute increments.",
 
   providers: [
-    { name: "Smart Communications", slug: "smartinmate", initial: "S", color: "bg-cyan-600", messaging: true, video: true, photos: true, phone: true, moneyTransfer: true, notes: "Phone calls, video visits, messaging, and money through Smart Communications (SmartInmate) at Fairfax County Adult Detention Center." },
+    { name: "Smart Communications", slug: "smartinmate", initial: "S", color: "bg-cyan-600", messaging: true, video: true, photos: true, phone: true, moneyTransfer: true, notes: "Phone calls, video visits, and messaging through Smart Communications (SmartInmate), per the Sheriff's Office pages. Deposits via lobby kiosk, lobby money safe, or smartinmate.com." },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "Smart Communications", notes: "Messaging through SmartInmate." },
-    video: { status: "available", provider: "Smart Communications", notes: "Video visits available through Smart Communications." },
-    photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
-    phone: { status: "available", provider: "Smart Communications", notes: "Phone calls through Smart Communications." },
-    moneyTransfer: { status: "available", provider: "Smart Communications", notes: "Money transfers through SmartInmate." },
+    messaging: { status: "available", provider: "Smart Communications", notes: "Text messaging through Smart Communications. Inmates use tablets or kiosks to send and receive text messages and view pictures, per the Sheriff's Office pages. Sign up at smartinmate.com." },
+    video: { status: "available", provider: "Smart Communications", notes: "Video visits through Smart Communications. One per day, 15 or 30 minute increments. Remote 10 cents per minute; on-site lobby kiosk free. Schedule at least 24 hours in advance. Windows 9-11 a.m., 12:30-4 p.m., 5-6 p.m., 8-10 p.m. (lobby kiosks unavailable 8-10 p.m.)." },
+    photos: { status: "limited", notes: "Photos may be sent by mail to the Smart Communications address, limited to 10 per mailing. No obscenity, explicit sexual material, or depictions of violence/nudity. Confirm other photo options with the facility." },
+    phone: { status: "available", provider: "Smart Communications", notes: "Phone calls through Smart Communications. Pre-paid Collect, PIN Debit, or Direct Bill accounts at smartinmate.com. Customer Care 1-888-253-5178 or 1-727-349-1561. Inmates may not receive incoming calls." },
+    moneyTransfer: { status: "available", provider: "Smart Communications", notes: "Lobby kiosk (cash or credit cards), lobby money safe (money orders or cashier checks, no personal checks or cash), or online credit card at smartinmate.com (vendor fee). Access within 72 hours. $2/day housing charge." },
   },
 
   rules: [
     "All calls are monitored and recorded.",
     "Inmates must be on approved contact list.",
-    "Contact facility for current visiting schedule.",
+    "Video visits must be scheduled at least 24 hours in advance through Smart Communications. Direct video-visit questions to the vendor, not the Sheriff's Office.",
+    "Personal mail goes to Smart Communications in Seminole, FL, not to the facility. Legal mail goes directly to the ADC labeled Legal Mail.",
+    "Inmates may not receive incoming phone calls; only verified emergency messages are delivered.",
     "Three-way calling is prohibited.",
     "Follow facility mail rules for all correspondence.",
   ],
 
   faq: [
-    { question: "Which provider handles phone calls at Fairfax County Adult Detention Center?", answer: "Smart Communications handles phone calls. Create a free account at smartinmate.com to receive calls." },
+    { question: "Which provider handles phone calls at Fairfax County Adult Detention Center?", answer: "Smart Communications handles phone calls. Set up a Pre-paid Collect, PIN Debit, or Direct Bill account at smartinmate.com. Customer Care: 1-888-253-5178 or 1-727-349-1561. Inmates may not receive incoming phone calls." },
     { question: "How do I find someone at Fairfax County Adult Detention Center?", answer: "Contact the Fairfax County Sheriff's Office directly or use the VADOC inmate search at vadoc.virginia.gov." },
-    { question: "How do I send money to someone at Fairfax County Adult Detention Center?", answer: "Use SmartInmate for phone account and money deposits at smartinmate.com." },
+    { question: "How do I send money to someone at Fairfax County Adult Detention Center?", answer: "Use the lobby kiosk (cash or credit cards), the lobby money safe (money orders or cashier checks made out to the inmate's full name, with inmate number plus your name and address, no envelope, no correspondence), or an online credit card payment at smartinmate.com (the vendor charges a fee). The inmate gets access to deposited money within 72 hours. Inmates are charged $2 per day to offset housing cost." },
       {
         question: "How do I schedule a video visit at Fairfax County Adult Detention Center?",
-        answer: "Video visits are scheduled and paid for through Smart Communications, at least 24 hours in advance. Visit windows are 9-11 a.m., 12:30-4 p.m., 5-6 p.m., and 8-10 p.m. One video visit per day per inmate, in 15- or 30-minute increments.",
+        answer: "Schedule and pay through Smart Communications at smartinmate.com, at least 24 hours in advance. Authorized inmates get one video visit per day in 15 or 30 minute increments. Remote visits cost 10 cents per minute; on-site lobby kiosk visits are free. Visit windows are 9-11 a.m., 12:30-4 p.m., 5-6 p.m., and 8-10 p.m., with lobby kiosks unavailable from 8-10 p.m. Direct questions to the vendor, not the Sheriff's Office.",
       },
       {
         question: "Can I visit someone in person at Fairfax County Adult Detention Center?",
@@ -7368,11 +7376,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send mail to someone at Fairfax County Adult Detention Center?",
-        answer: "Address mail with the inmate's full name and booking number, care of Fairfax County Adult Detention Center. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
-      },
-      {
-        question: "How do I add money to an inmate's account at Fairfax County Adult Detention Center?",
-        answer: "Funds can be added at the deposit kiosk in the Adult Detention Center lobby or online through the facility's approved deposit service. Confirm the current deposit options with the Sheriff's Office before sending funds.",
+        answer: "Send personal mail to: Smart Communications/FXCOADC, Inmate Name and Inmate Number, P.O. 9128, Seminole, FL 33775-9128. Include a full return address with your first and last name plus the full correct inmate name and number. Mail is opened, scanned, screened, and forwarded electronically. Do not send personal mail to the facility street address; it has not been accepted there since August 23, 2021. Send legal mail directly to the ADC labeled Legal Mail, and official documents to the ADC Property Officer at 10520 Judicial Drive, Fairfax, VA 22030.",
       },
       {
         question: "How do I block calls from Fairfax County Adult Detention Center?",

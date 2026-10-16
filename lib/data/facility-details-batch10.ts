@@ -575,13 +575,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Androscoggin County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this Androscoggin County jail in Auburn ME.",
 
   overview: [
-    "Androscoggin County Jail is the county jail in Auburn, Maine, operated by the Androscoggin County Sheriff's Department. It primarily holds pretrial inmates.",
-    "Communication at Androscoggin County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Androscoggin County Jail in Auburn, Maine is operated by the Androscoggin County Sheriff's Department and holds mainly pretrial detainees. The county's inmate telephone page directs families to fund phone accounts through Securus Technologies.",
+    "Phone calls work one way: inmates call out, and staff cannot relay messages to inmates. People booked into the facility get an initial call to make bail arrangements or tell family where they are. After that, inmates can make collect calls for a short period before billing arrangements are required. Families fund phone time through Securus at securustech.net or by phone at 1-800-844-6591, or through the lobby kiosk. If the phone connection or phone system has a problem, Securus is the contact at 1-800-844-6591.",
+    "If you are receiving calls from an inmate and want them stopped, ask the Canteen Officer or the Jail Shift Supervisor to block your number. The county says blocking may take up to 24 hours and may not be reversible, so be sure before you ask. When an inmate is released or transferred, money left on the phone account moves back to the inmate account, and the remaining balance is issued on a debit card.",
+    "Money for commissary follows the county's commissary rules, not the phone rules. The jail no longer accepts money orders to fund an inmate account. Families can use the lobby kiosk, or deposit online through Access Corrections at accesscorrections.com or by phone at 1-866-345-1884. Accounts can also be funded through Securus at securustech.net or by phone at 1-800-844-6591. Care packages can be bought through Access Securepak at accesssecurepak.com. Funds on the account pay for commissary items, phone time, medical co-pays, and haircuts. Inmates with no money are considered indigent and get hygiene items, writing material, and one haircut every 60 days. The Canteen Officer can be reached at (207) 753-2500 Ext. 1718.",
+    "Video visits and electronic messaging are reported by directories as Securus services, but the county's own pages do not name a video or messaging vendor, so confirm the current setup with the jail before paying for anything. Directories describe Securus Video Connect for on-site and remote video visits, and eMessaging for text-like messages and photos through a Securus Online account with purchased stamps. Visitors must be approved and bring valid photo identification, and all calls and visits are monitored and recorded. Confirm the current visit steps and schedule with the jail before traveling or funding an account.",
   ],
 
   operatedBy: "Androscoggin County Sheriff's Department",
-    mailingAddress: "Inmate Full Name, Androscoggin County Jail, 40 Pleasant Street, Auburn, ME 04210.",
+    mailingAddress: "Confirm the current mailing address with the facility before sending mail. Include the inmate's full name and ID on all mail.",
+    commissary: "The jail no longer accepts money orders. Fund an inmate account through the lobby kiosk, Access Corrections online at accesscorrections.com or by phone at 1-866-345-1884, or Securus at securustech.net or by phone at 1-800-844-6591. Care packages through Access Securepak at accesssecurepak.com. Account funds cover commissary items, phone time, medical co-pays, and haircuts. Canteen Officer: (207) 753-2500 Ext. 1718.",
     visitingHours: "Video visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
     bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
 
@@ -596,16 +599,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "Securus provides phone service, eMessaging, and video visitation.",
+      notes: "Securus provides phone service at Androscoggin County Jail, per the county's inmate telephone page. Video visitation and eMessaging are reported by directories as Securus services but are not named on the county's pages; confirm with the jail before paying for them.",
     },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
-    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
+    messaging: { status: "limited", notes: "eMessaging is reported by directories as a Securus service, but the county's pages do not name a messaging vendor. Confirm with the jail before buying stamps." },
+    video: { status: "limited", provider: "Securus", notes: "Video visits reported by directories as Securus Video Connect. The county's pages do not name a video vendor. Confirm the current setup with the jail before paying." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus, per the county's inmate telephone page. Fund phone time at securustech.net or by phone at 1-800-844-6591, or through the lobby kiosk." },
+    moneyTransfer: { status: "available", notes: "Deposits through the lobby kiosk, Access Corrections at accesscorrections.com or 1-866-345-1884, or Securus at securustech.net or 1-800-844-6591, per the county's commissary page. The jail no longer accepts money orders." },
   },
 
   rules: [
@@ -617,15 +620,17 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Androscoggin County Jail?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
+    { question: "Which company handles phone calls at Androscoggin County Jail?", answer: "Phone calls run through Securus, per the county's inmate telephone page. Inmates call out; staff cannot relay messages. Fund phone time through Securus at securustech.net or by phone at 1-800-844-6591, or use the lobby kiosk. After booking, inmates get an initial call, then can make collect calls for a short period before billing arrangements are required. For phone-system problems, call Securus at 1-800-844-6591." },
     { question: "How do I visit someone at Androscoggin County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Androscoggin County Jail?", answer: "Androscoggin County Jail is in Auburn, Maine. It primarily holds pretrial inmates and is operated by the Androscoggin County Sheriff's Department." },
-    { question: "How do I mail a letter to someone at Androscoggin County Jail?", answer: "Address the envelope with the inmate's full name, Androscoggin County Jail, 40 Pleasant Street, Auburn, ME 04210. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at Androscoggin County Jail?", answer: "The county's pages do not publish a mailing address. Confirm the current mailing address with the facility before sending mail, and include the inmate's full name and ID on all mail. Mail is inspected for contraband." },
     { question: "How do I find out if someone is at Androscoggin County Jail?", answer: "Contact the facility or the Androscoggin County Sheriff's Department to confirm custody status. Have the person's full legal name ready." },
-    { question: "Can an inmate at Androscoggin County Jail call me?", answer: "Yes. Inmates place outgoing calls through Securus. Set up a Securus account to fund calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "Can an inmate at Androscoggin County Jail call me?", answer: "Yes. Inmates place outgoing calls through Securus. Staff cannot relay messages to inmates. Booked persons get an initial call for bail arrangements or to communicate their location. Keep your number on the approved list. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Androscoggin County Jail?", answer: "Contact Securus to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a video visit at Androscoggin County Jail?", answer: "Video visits run through Securus Video Connect. Create a Securus account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
-    { question: "How do I send money to someone at Androscoggin County Jail?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with the facility before sending money." },
+    { question: "How do I schedule a video visit at Androscoggin County Jail?", answer: "Video visits are reported by directories as Securus Video Connect. The county's pages do not name a video vendor, so confirm the current video visit setup and schedule with the jail before paying for anything." },
+    { question: "How do I send money to someone at Androscoggin County Jail?", answer: "The jail no longer accepts money orders to fund an inmate account. Use the lobby kiosk, deposit online through Access Corrections at accesscorrections.com or by phone at 1-866-345-1884, or fund through Securus at securustech.net or by phone at 1-800-844-6591. Care packages can be bought through Access Securepak at accesssecurepak.com. For help, contact the Canteen Officer at (207) 753-2500 Ext. 1718." },
+    { question: "How do I block calls from Androscoggin County Jail?", answer: "Ask the Canteen Officer or the Jail Shift Supervisor to block your number from the jail's phone system. The county says blocking may take up to 24 hours and may not be reversible." },
+    { question: "Does Androscoggin County Jail offer eMessaging?", answer: "Directories report Securus eMessaging, but the county's pages do not name a messaging vendor. Confirm with the jail before buying stamps. eMessaging is Securus email-like messaging through a Securus Online account: you find your contact, buy a book of stamps, and write in the eMessaging inbox. Messages and photos are reviewed by the facility, and stamps are not refunded if content is rejected." },
   ],
 
   relatedFacilitySlugs: ["cumberland-county-jail", "penobscot-county-jail", "maine-state-prison"],

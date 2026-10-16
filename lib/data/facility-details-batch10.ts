@@ -1973,14 +1973,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Campbell County Detention Center communication guide. Phone, visitation and deposit options for families of inmates at this Campbell County detention center in Gillette WY.",
 
   overview: [
-    "Campbell County Detention Center is the detention center in Gillette, Wyoming, part of the Campbell County Sheriff's Office. It houses county, state, and federal inmates.",
-    "Phone calls and video visits at Campbell County Detention Center run through NCIC Correctional Services.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Campbell County Detention Center is the detention center in Gillette, Wyoming, operated by the Campbell County Sheriff's Office. Detention officers and civilian staff maintain a safe and secure environment for housing inmates, and officers receive training through the Wyoming Law Enforcement Academy. Questions can go to the Detention Center at 307-687-6138.",
+    "All communication services at the center run through NCIC Inmate Communications. Phone calls, video visits, and messaging all use NCIC. Set up and fund a prepaid account by calling 1-800-943-2189 or visiting ncic.com.",
+    "Calls are billed per minute with no connection fees: 16 cents per minute for calls within the United States, 25 cents for Mexico and Canada, and 35 cents for all other international calls. Off-site video visits cost 30 cents per minute. Messages cost 25 cents each, picture and video messages cost 35 cents each, and GIFs cost 5 cents each. Rates do not include pass-through regulatory taxes.",
+    "Visits run 8:00 to 10:00 a.m., 12:30 to 4:00 p.m., and 7:00 to 9:30 p.m., with an additional on-site-only window from 7:00 to 7:30 p.m. Schedule a visit by creating an account at ncic.com or in the app, choosing remote video or on-site visitation, picking a date and time, and submitting the request for approval. For an on-site visit, arrive with the reservation code emailed or texted plus valid photo ID. A maximum of two visitors are allowed in the visiting room at one time, excluding small children. All visits are recorded and may be monitored, and visitation may be canceled at the discretion of the Sheriff's Office.",
+    "Paper mail changed in November 2023. All inmate mail must go to: Inmate Name, Inmate Number, Campbell County Detention Center, PO Box 591, Longview, Texas 75606. Mail sent there is processed, delivered electronically, and then destroyed, so it will not be returned or reimbursed. This includes pictures or anything else mailed to the processing facility. All personal incoming mail is opened and inspected for contraband. The Sheriff's Office points families to NCIC messaging as the quicker option for documents and photos, since messages and pictures arrive instantly.",
   ],
 
   operatedBy: "Campbell County Sheriff's Office",
-    mailingAddress: "Inmate Full Name, Campbell County Detention Center, 600 West Boxelder Road, Gillette, WY 82718.",
-    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
+    mailingAddress: "All inmate mail: Inmate Name, Inmate Number, Campbell County Detention Center, PO Box 591, Longview, TX 75606. Mail sent there is processed, delivered electronically, then destroyed and will not be returned.",
+    visitingHours: "Visits: 8:00-10:00 a.m., 12:30-4:00 p.m., 7:00-9:30 p.m.; additional on-site-only window 7:00-7:30 p.m. Schedule at ncic.com or in the app and submit for approval. For an on-site visit, arrive with the reservation code plus valid photo ID. Maximum two visitors in the visiting room at one time, excluding small children. All visits are recorded and may be monitored. Visitation may be canceled at the discretion of the Sheriff's Office.",
 
   providers: [
     {
@@ -1988,25 +1990,26 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       slug: "ncic",
       initial: "N",
       color: "bg-rose-600",
-      messaging: false,
+      messaging: true,
       video: true,
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "NCIC provides phone service and video visitation.",
+      notes: "NCIC provides phone, video visitation, and messaging, per the county visitation policy page. Account setup at ncic.com or 1-800-943-2189.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC. Messages 25 cents each, picture and video messages 35 cents each, GIFs 5 cents each, per the county visitation policy page." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Off-site video visits $0.30 per minute. Schedule at ncic.com or in the app and submit for approval." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications, per the county visitation policy page. Per-minute billing, no connection fees: 16 cents US, 25 cents Mexico/Canada, 35 cents other international." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "All communication services run through NCIC Inmate Communications. Set up an account at ncic.com or 1-800-943-2189.",
+    "All inmate mail goes to PO Box 591, Longview, TX; mail sent there is processed, delivered electronically, then destroyed and will not be returned.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the county dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -2014,14 +2017,14 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Campbell County Detention Center?", answer: "Phone calls run through NCIC Correctional Services." },
-    { question: "How do I visit someone at Campbell County Detention Center?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
-    { question: "Does Campbell County Detention Center hold federal inmates?", answer: "Yes. The detention center in Gillette houses county, state, and federal inmates. It is part of the Campbell County Sheriff's Office." },
-    { question: "How do I mail a letter to someone at Campbell County Detention Center?", answer: "Address the envelope with the inmate's full name, Campbell County Detention Center, 600 West Boxelder Road, Gillette, WY 82718. Include a return address. Mail is inspected for contraband." },
+    { question: "Which company handles phone calls at Campbell County Detention Center?", answer: "Phone calls run through NCIC Inmate Communications. Set up and fund a prepaid account by calling 1-800-943-2189 or visiting ncic.com. Calls are billed per minute with no connection fees: 16 cents US, 25 cents Mexico/Canada, 35 cents other international." },
+    { question: "How do I visit someone at Campbell County Detention Center?", answer: "Visits run 8:00-10:00 a.m., 12:30-4:00 p.m., and 7:00-9:30 p.m., with an additional on-site-only window from 7:00-7:30 p.m. Schedule at ncic.com or in the app and submit the request for approval. For an on-site visit, arrive with the reservation code plus valid photo ID. A maximum of two visitors are allowed in the visiting room at one time, excluding small children. All visits are recorded and may be monitored." },
+        { question: "How do I mail a letter to someone at Campbell County Detention Center?", answer: "Send all inmate mail to: Inmate Name, Inmate Number, Campbell County Detention Center, PO Box 591, Longview, Texas 75606. Mail sent there is processed, delivered electronically, and then destroyed, so it will not be returned or reimbursed. This includes pictures. All personal incoming mail is opened and inspected for contraband." },
     { question: "How do I find out if someone is at Campbell County Detention Center?", answer: "Contact the facility or the Campbell County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
     { question: "Can an inmate at Campbell County Detention Center call me?", answer: "Yes. Inmates place outgoing calls through NCIC. Set up an NCIC account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Campbell County Detention Center?", answer: "Contact NCIC to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a video visit at Campbell County Detention Center?", answer: "Video visits run through NCIC. Create an NCIC account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
+    { question: "How do I schedule a video visit at Campbell County Detention Center?", answer: "Create an account at ncic.com or in the app, click Schedule Visit, choose remote video or on-site visitation, pick a date and time, and submit the request for approval. You will receive notification of approval or denial. For an on-site visit, arrive with the reservation code emailed or texted plus valid photo ID." },
+    { question: "How much does a video visit cost at Campbell County Detention Center?", answer: "Off-site video visits cost 30 cents per minute. Messages cost 25 cents each, picture and video messages cost 35 cents each, and GIFs cost 5 cents each. Rates do not include pass-through regulatory taxes." },
     { question: "How do I send money to someone at Campbell County Detention Center?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with the facility before sending money." },
   ],
 

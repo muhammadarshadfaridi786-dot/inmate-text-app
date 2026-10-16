@@ -1660,14 +1660,17 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Wyoming Women's Center communication guide. Phone, visitation and deposit options for families of inmates at Wyoming's primary women's correctional facility in Lusk WY.",
 
   overview: [
-    "Wyoming Women's Center is the Wyoming Department of Corrections primary correctional facility for female offenders, in Lusk, Wyoming. It is a multi-custody campus housing inmates from intake through discharge.",
-    "Phone calls and video visitation at Wyoming Women's Center run through ICSolutions under the Wyoming DOC contract.",
-    "Visitation follows Wyoming DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Wyoming Women's Center in Lusk, Wyoming, is the Wyoming Department of Corrections facility for female offenders. Wyoming law establishes it at Lusk as a place of confinement, employment and training for convicted female felons sentenced to DOC custody. The center was first established on June 20, 1977, temporarily on Wyoming State Hospital grounds in Evanston, and the Legislature formally created it in 1980, authorizing a permanent facility in Lusk in 1981.",
+    "The center is at 1000 West Griffith, Lusk, WY 82225, and the facility phone is (307) 334-3693. The main facility now holds 261 beds, plus 32 beds in the Intensive Treatment Unit. Mail goes to Inmate Name and ID, Wyoming Women's Center, P.O. Box 300, Lusk, WY 82225. Include the inmate's full name and ID number on all mail.",
+    "All visitors must be approved. Visitors complete the WDOC visitor application and mail or fax it directly to the facility, not to the WDOC Central Office in Cheyenne. The facility fax is (307) 334-2254. In-person visitation at the center runs Saturday, Sunday, and Monday. Morning visitation starts at 7:30 AM, and visitors must arrive between 7:00 and 7:15 AM. Afternoon visitation starts at 12:00 PM, and visitors must arrive between 11:30 and 11:45 AM. The schedule is subject to change, and proper attire is required.",
+    "Video visits run through ICSolutions' The Visitor system, per ICSolutions' own page for the Wyoming Department of Corrections. Visitors register at no cost at icsolutions.com, and offsite visits are fee-based with the cost varying by facility. Test the ICS Mobile app or computer application before scheduling. Note: this vendor page covers the Wyoming Department of Corrections as a whole and does not name Wyoming Women's Center specifically.",
+    "Directory sources report that phone calls at the center run through ICSolutions, with prepaid and debit account options. No current official WDOC page naming the phone vendor was found, so confirm the phone setup with the facility before funding an account. Do not rely on directory rate claims, which are stale and marked subject to change.",
+    "The deposit method for inmate accounts is not published on the official WDOC pages found. Directory sources disagree about the deposit vendor, so confirm the current deposit method with the facility before sending money.",
   ],
 
   operatedBy: "Wyoming Department of Corrections",
     mailingAddress: "Inmate Name and ID, Wyoming Women's Center, P.O. Box 300, Lusk, WY 82225.",
-    visitingHours: "Visitors must complete a Wyoming DOC visitor application, mailed or faxed directly to the facility, and wait for approval. Inmates in intake are not eligible for visitation until intake is complete and they have a housing assignment. Confirm the current visiting schedule with the facility before traveling.",
+    visitingHours: "In-person visitation: Saturday, Sunday, Monday. Morning visitation starts 7:30 AM, arrive 7:00-7:15 AM. Afternoon visitation starts 12:00 PM, arrive 11:30-11:45 AM. Schedule subject to change. All visitors must be approved, proper attire required. Video visits: ICSolutions The Visitor, register at icsolutions.com.",
     fax: "(307) 334-2254",
 
   providers: [
@@ -1681,20 +1684,21 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "ICSolutions provides phone service and video visitation under the Wyoming DOC contract.",
+      notes: "Video visitation through ICSolutions' The Visitor system, per ICSolutions' page for the Wyoming Department of Corrections (WDOC-wide page, does not name this facility specifically). Phone service is reported by directory sources as ICSolutions; no current official WDOC page names the phone vendor, so confirm before funding an account.",
     },
   ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "available", provider: "ICSolutions", notes: "Video visits through ICSolutions. Schedule in advance." },
+    video: { status: "available", provider: "ICSolutions", notes: "Video visits through ICSolutions' The Visitor system, per ICSolutions' page for the Wyoming Department of Corrections. Register at no cost at icsolutions.com; offsite visits are fee-based, cost varies by facility." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "ICSolutions", notes: "Phone calls through ICSolutions." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "ICSolutions", notes: "Phone service reported by directory sources as ICSolutions; no current official WDOC page names the phone vendor. Confirm the phone setup with the facility before funding an account." },
+    moneyTransfer: { status: "limited", notes: "Deposit method not published on official WDOC pages found; directory sources disagree about the deposit vendor. Confirm the current deposit method with the facility before sending money." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "Confirm the phone setup and deposit method with the facility before funding any account; no current official WDOC page names those vendors.",
+    "In-person visitation runs Saturday, Sunday, and Monday; morning starts 7:30 AM, afternoon starts 12:00 PM, arrive early. Schedule subject to change.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the Wyoming DOC dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -1702,15 +1706,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Wyoming Women's Center?", answer: "Phone calls run through ICSolutions under the Wyoming DOC contract." },
-    { question: "How do I visit someone at Wyoming Women's Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Wyoming DOC visiting rules. Confirm visiting hours before traveling." },
-    { question: "What is Wyoming Women's Center?", answer: "Wyoming Women's Center in Lusk is the Wyoming Department of Corrections primary correctional facility for female offenders. It is a multi-custody campus housing inmates from intake through discharge." },
+    { question: "Which company handles phone calls at Wyoming Women's Center?", answer: "Directory sources report phone calls run through ICSolutions. No current official WDOC page names the phone vendor, so confirm the phone setup with the facility before funding an account." },
+    { question: "How do I visit someone at Wyoming Women's Center?", answer: "In-person visitation runs Saturday, Sunday, and Monday. Morning visitation starts at 7:30 AM (arrive 7:00-7:15 AM); afternoon visitation starts at 12:00 PM (arrive 11:30-11:45 AM). All visitors must be approved, and proper attire is required. The schedule is subject to change." },
+    { question: "What is Wyoming Women's Center?", answer: "Wyoming Women's Center in Lusk is the Wyoming Department of Corrections facility for female offenders. Wyoming law establishes it at Lusk as a place of confinement, employment and training for convicted female felons sentenced to DOC custody. The main facility holds 261 beds, plus 32 beds in the Intensive Treatment Unit." },
     { question: "How do I mail a letter to someone at Wyoming Women's Center?", answer: "Address the envelope with the inmate name and ID, Wyoming Women's Center, P.O. Box 300, Lusk, WY 82225. Include a return address. Mail is inspected for contraband." },
     { question: "How do I find an inmate at Wyoming Women's Center?", answer: "Use the Wyoming DOC offender locator, which searches by inmate number or by the first two letters of the last name. Have the person's full legal name ready." },
-    { question: "Can an inmate at Wyoming Women's Center call me?", answer: "Yes. Inmates place outgoing calls through ICSolutions. Set up an ICSolutions account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
-    { question: "How do I block calls from Wyoming Women's Center?", answer: "Contact ICSolutions to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a video visit at Wyoming Women's Center?", answer: "Video visits run through ICSolutions. Create an ICSolutions account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
-    { question: "How do I apply to visit Wyoming Women's Center?", answer: "Visitor applications go directly to the facility by mail or fax, not to WDOC Central Office. Wait for approval before traveling, and confirm the current visiting schedule with the facility." },
+    { question: "Can an inmate at Wyoming Women's Center call me?", answer: "Yes. Inmates place outgoing calls. Directory sources report the phone service runs through ICSolutions; confirm the phone setup with the facility. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Wyoming Women's Center?", answer: "Ask the facility how to block calls from the center, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I schedule a video visit at Wyoming Women's Center?", answer: "Video visits run through ICSolutions' The Visitor system. Register at no cost at icsolutions.com. Offsite visits are fee-based, and the cost varies by facility. Test the app or computer application before scheduling." },
+    { question: "How do I apply to visit Wyoming Women's Center?", answer: "Complete the WDOC visitor application and mail or fax it directly to the facility, not to the WDOC Central Office in Cheyenne. Mail to Wyoming Women's Center, P.O. Box 300, Lusk, WY 82225, or fax to (307) 334-2254. Wait for approval before traveling." },
+    { question: "How do I send money to someone at Wyoming Women's Center?", answer: "The deposit method is not published on the official WDOC pages found. Directory sources disagree about the deposit vendor, so confirm the current deposit method with the facility before sending money." },
   ],
 
   relatedFacilitySlugs: ["wyoming-state-penitentiary", "wyoming-medium-correctional-institution", "laramie-county-detention-center"],

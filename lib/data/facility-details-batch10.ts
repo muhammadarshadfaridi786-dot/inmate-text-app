@@ -804,15 +804,18 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Minnehaha County Jail communication guide. NCIC phone, messaging and video visits for families of inmates at this Minnehaha County jail in Sioux Falls SD.",
 
   overview: [
-    "Minnehaha County Jail is the county jail in Sioux Falls, South Dakota, operated by the Minnehaha County Sheriff's Office.",
-    "Communication at Minnehaha County Jail runs through NCIC Inmate Communications for phone, video visitation, and messaging. Deposits go through JailATM.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Minnehaha County Jail in Sioux Falls, South Dakota, is operated by the Minnehaha County Sheriff's Office. All three communication services at the jail run through one vendor, NCIC Inmate Communications. Phone calls, video visits, and messaging all use a single NCIC prepaid account. Families set up and fund that account at account.ncic.com or by calling 1-800-943-2189.",
+    "Inmates place outgoing calls, and they cannot receive incoming calls. Calls are billed per minute with no connection fee, at rates published by the county: 16 cents per minute for calls in the United States, 25 cents for Mexico and Canada, and 35 cents for other international calls. Three-way calls are prohibited. Set up the NCIC account before the first call, since the jail's phone service runs through NCIC.",
+    "Video visits come in two forms. Lobby video visits at the jail are free, and remote visits from home or another location cost 30 cents per minute. Both types must be scheduled at least 24 hours in advance. Visit windows are 7:30 to 10:15 a.m., 1:00 to 4:00 p.m., and 7:00 to 9:30 p.m. Lobby visits are not offered on Monday, while web visits run daily. Each person may visit an inmate once per day, visits last 30 minutes unless a supervisor approves longer, and visits never exceed 60 minutes.",
+    "NCIC uses facial recognition during video visits, so both the inmate and the visitor must keep both eyes, nose, and mouth visible to the camera, and both cameras must stay as stationary as possible. Visits are monitored and recorded. Inmates on disciplinary status cannot receive non-professional visits, though attorney, clergy, and other professional visits continue. Arrive on time, since a visit is automatically terminated if you are more than 10 minutes late.",
+    "Messaging runs through the same NCIC account. Messages cost 25 cents each, and picture messages and documents cost 35 cents each, with no limit on how many can be sent. Paper mail, except legal and medical mail, must go to the NCIC processing address: Inmate Name, File ID number, Minnehaha County Jail, PO Box 591, Longview, Texas 75606. Mail is scanned and delivered electronically, then destroyed, so never mail originals. Mail is limited to 5 pages, front side only, one photo per mailing, and envelopes no larger than 8.5 by 11 inches.",
+    "Legal and medical mail must go to the facility where the inmate is housed, not to the PO Box. Books and magazines must come directly from a publisher or bookstore, and the jail does not accept them from companies known to allow third-party sellers, including Amazon, Walmart, and Target. Packages need prior approval from a Sergeant. Money goes into an inmate account through the lobby kiosk, the front desk, or JailATM.com. If the inmate has a negative room-and-board balance from a previous sentenced stay, 50 percent of a deposit goes toward that balance. CourtMoney.com can be used to post bond or add commissary funds. Questions can go to the jail at (605) 367-4321.",
   ],
 
   operatedBy: "Minnehaha County Sheriff's Office",
-    mailingAddress: "Inmate Full Name and Booking Number, Minnehaha County Jail, 305 West 4th Street, Sioux Falls, SD 57104.",
-    visitingHours: "Video visits are scheduled in advance through NCIC. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
-    commissary: "Deposits through JailATM, including the lobby kiosk.",
+    mailingAddress: "Regular mail (except legal and medical): Inmate Name, File ID number, Minnehaha County Jail, PO Box 591, Longview, TX 75606. Legal and medical mail and approved packages: Inmate Name, Minnehaha County Jail, 305 W. 4th St., Sioux Falls, SD 57104.",
+    visitingHours: "Lobby video visits: Sun, Tue-Sat, 7:30-10:15 a.m., 1:00-4:00 p.m., 7:00-9:30 p.m., no lobby visits Monday. Web visits: daily, same windows. All visits scheduled at least 24 hours in advance. Each person may visit an inmate once per day. Visits last 30 minutes unless a supervisor approves longer, never over 60 minutes. Arrive on time: more than 10 minutes late auto-terminates the visit. Bring government-issued photo ID.",
+    commissary: "Deposits through the lobby kiosk, the front desk, or JailATM.com. CourtMoney.com can be used to post bond or add commissary funds. If the inmate has a negative room-and-board balance from a previous sentenced stay, 50 percent of a deposit goes toward that balance. Jail: (605) 367-4321.",
     bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
 
   providers: [
@@ -826,7 +829,7 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "NCIC provides phone service, video visitation, and messaging.",
+      notes: "NCIC provides phone service, video visitation, and messaging through a single prepaid account, per the county's jail visitation page. Account setup at account.ncic.com or 1-800-943-2189.",
     },
     {
       name: "JailATM",
@@ -838,16 +841,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: false,
       moneyTransfer: true,
-      notes: "JailATM handles deposits.",
+      notes: "JailATM handles deposits, per the county's jail information page. Deposits also accepted at the lobby kiosk and front desk.",
     },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC." },
-    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC. Messages 25 cents each, picture messages and documents 35 cents each, no limit, per the county-hosted NCIC rate sheet." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Lobby visits free, remote visits 30 cents per minute. Schedule at least 24 hours in advance. Lobby visits not offered Monday; web visits daily." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications." },
-    moneyTransfer: { status: "available", provider: "JailATM", notes: "Deposits through JailATM." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications. Per-minute billing, no connection fee: 16 cents US, 25 cents Mexico/Canada, 35 cents other international, per the county-hosted NCIC rate sheet. Three-way calls prohibited." },
+    moneyTransfer: { status: "available", provider: "JailATM", notes: "Deposits through JailATM.com, the lobby kiosk, or the front desk, per the county's jail information page. CourtMoney.com can be used for bond or commissary funds." },
   },
 
   rules: [
@@ -859,15 +862,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Minnehaha County Jail?", answer: "Phone calls run through NCIC Inmate Communications." },
-    { question: "How do I visit someone at Minnehaha County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
+    { question: "Which company handles phone calls at Minnehaha County Jail?", answer: "One NCIC prepaid account covers phone calls, video visits, and messaging. Create and fund it at account.ncic.com or by calling 1-800-943-2189. Calls are billed per minute with no connection fee: 16 cents US, 25 cents Mexico/Canada, 35 cents other international." },
+    { question: "How do I visit someone at Minnehaha County Jail?", answer: "Visitors must be approved. Bring government-issued photo ID and follow county visiting rules. Lobby visits run Sun and Tue-Sat, web visits daily, both 7:30-10:15 a.m., 1:00-4:00 p.m., 7:00-9:30 p.m., scheduled at least 24 hours in advance. Confirm the current schedule with the facility before traveling." },
     { question: "Where is Minnehaha County Jail?", answer: "Minnehaha County Jail is in Sioux Falls, South Dakota. It is operated by the Minnehaha County Sheriff's Office." },
-    { question: "How do I mail a letter to someone at Minnehaha County Jail?", answer: "Address the envelope with the inmate's full name and booking number, Minnehaha County Jail, 305 West 4th Street, Sioux Falls, SD 57104. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at Minnehaha County Jail?", answer: "Send regular mail, except legal and medical mail, to: Inmate Name, File ID number, Minnehaha County Jail, PO Box 591, Longview, Texas 75606. Mail is limited to 5 pages, front side only, one photo per mailing, and envelopes no larger than 8.5 by 11 inches. Mail is scanned, delivered electronically, and then destroyed, so never mail originals. Legal and medical mail must go to the facility where the inmate is housed." },
     { question: "How do I find out if someone is at Minnehaha County Jail?", answer: "Contact the facility or the Minnehaha County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
     { question: "Can an inmate at Minnehaha County Jail call me?", answer: "Yes. Inmates place outgoing calls through NCIC Inmate Communications. Set up an NCIC account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Minnehaha County Jail?", answer: "Contact NCIC to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a video visit at Minnehaha County Jail?", answer: "Video visits run through NCIC. Create an NCIC account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
-    { question: "How do I send money to someone at Minnehaha County Jail?", answer: "Deposits go through JailATM, including the lobby kiosk. Create a JailATM account, add the inmate, and fund the account. Confirm current deposit options with the facility." },
+    { question: "How do I schedule a video visit at Minnehaha County Jail?", answer: "Lobby video visits at the jail are free; remote visits cost 30 cents per minute. Both must be scheduled at least 24 hours in advance. Lobby visits are not offered on Monday; web visits run daily. Windows: 7:30-10:15 a.m., 1:00-4:00 p.m., 7:00-9:30 p.m. Each person may visit an inmate once per day. More than 10 minutes late auto-terminates the visit." },
+    { question: "How much does a video visit cost at Minnehaha County Jail?", answer: "Lobby video visits at the jail are free. Remote visits from home or another location cost 30 cents per minute. Both types must be scheduled at least 24 hours in advance." },
+    { question: "How do I send money to someone at Minnehaha County Jail?", answer: "Deposit money through the lobby kiosk, the front desk, or JailATM.com. CourtMoney.com can be used to post bond or add commissary funds. If the inmate has a negative room-and-board balance from a previous sentenced stay, 50 percent of a deposit goes toward that balance. Jail: (605) 367-4321." },
   ],
 
   relatedFacilitySlugs: ["pennington-county-jail", "south-dakota-state-penitentiary", "fci-yankton"],

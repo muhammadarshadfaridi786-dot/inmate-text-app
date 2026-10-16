@@ -7128,62 +7128,66 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "Talladega County",
   securityLevel: "Medium",
   hasDetailPage: true,
-  seoTitle: "FCI Talladega: CorrLinks Messaging and ConnectNetwork Phone",
-  seoDescription: "How to contact someone at FCI Talladega in Alabama. CorrLinks for messaging. ConnectNetwork for phone calls.",
+  seoTitle: "FCI Talladega: CorrLinks Messaging and BOP Phone Calls",
+  seoDescription: "How to contact someone at FCI Talladega in Alabama. CorrLinks for messaging. BOP phone system for calls, paid from the inmate trust fund.",
 
-  description: "FCI Talladega is a federal correctional institution in Talladega Alabama. CorrLinks for messaging and ConnectNetwork for phone calls serve this federal BOP facility.",
+  description: "FCI Talladega is a federal correctional institution in Talladega Alabama. CorrLinks for messaging and the BOP phone system for calls serve this federal BOP facility.",
 
   overview: [
-    "FCI Talladega is a federal Bureau of Prisons medium security correctional institution located in Talladega, Alabama. The facility houses adult male inmates. All electronic messaging at FCI Talladega goes through CorrLinks, the only approved messaging platform for federal Bureau of Prisons facilities.",
-    "Phone calls at FCI Talladega are handled through ConnectNetwork by GTL. Families must create a free ConnectNetwork account at connectnetwork.com and fund an AdvancePay prepaid phone account to receive calls. The inmate must initiate all calls from facility phones.",
+    "FCI Talladega is a medium-security federal prison for men in Talladega, Alabama, operated by the Federal Bureau of Prisons. A satellite camp sits beside it. Do not confuse it with FCI Tallahassee in Florida, or with Talladega County Jail, which is a county facility.",
+    "Visiting runs 8:30 a.m. to 3:00 p.m. on Saturdays, Sundays, and federal holidays, at the FCI and the camp alike, per the institution's visiting supplement TDG 5267.09B dated August 15, 2025. Monday visiting is gone; an older handbook that lists Monday is out of date. You must be on the inmate's approved visitor list. Confirm current hours with the facility before traveling.",
+    "Phone calls are placed by the inmate from facility phones; you cannot call in. Calls are paid from the inmate's trust fund account. Do not set up a ConnectNetwork or AdvancePay account for BOP calls; those products are not how BOP phone calls work.",
+    "Email runs on TRULINCS, and families reach it through CorrLinks. Only the person inside can start it: they add you as a contact, staff approves, and CorrLinks emails you an invitation to create a free account. The invitation is valid for 10 days; if it expires, the inmate must re-add the contact. Messages are monitored.",
+    "Mail must use the right address for the right unit. For the FCI: Inmate Name and Register Number, FCI Talladega, Federal Correctional Institution, PMB 1000, Talladega, AL 35160. For the camp: Inmate Name and Register Number, FCI Talladega, Federal Correctional Institution, Satellite Camp, P.O. Box 2000, Talladega, AL 35160. PMB is not a typo; do not write P.O. Box 1000 for the FCI. Mail without a register number is returned. Never put money in a letter; the mail room no longer accepts funds. Books, magazines, and newspapers at the FCI must come directly from a publisher or bookstore.",
+    "Send money through the BOP's Des Moines lockbox or a wire service, never to Talladega itself. Mail a postal money order or cashier's check to: Federal Bureau of Prisons, Committed Name, Eight-Digit Register Number, P.O. Box 474701, Des Moines, IA 50947-0001. Or use Western Union Quick Collect with code city FBOP, DC, or MoneyGram ExpressPayment with receive code 7932 and company name Federal Bureau of Prisons, Washington, DC. For MoneyGram, the account number is the eight-digit register number immediately followed by the inmate's last name. Send nothing but the instrument in the lockbox envelope.",
   ],
 
   operatedBy: "Federal Bureau of Prisons (BOP)",
   mailingAddress: "INMATE NAME and REGISTER NUMBER\nFCI Talladega\nFEDERAL CORRECTIONAL INSTITUTION\nP.M.B 1000\nTALLADEGA, AL 35160\n(Satellite camp mail uses P.O. Box 2000, Talladega, AL 35160.)",
   visitingHours: "Visiting is 8:30 a.m. to 3:00 p.m. on Saturdays, Sundays, and federal holidays, per the facility visiting supplement. Confirm current hours with the facility before visiting.",
   rosterUrl: "https://www.bop.gov/inmateloc/",
-  commissary: "Do not send money to the facility address. Mail money orders to the BOP lockbox processing center in Des Moines, Iowa, or deposit online through ConnectNetwork, Western Union Quick Collect, or MoneyGram. Funds land in the inmate Trust Fund (commissary) account.",
+  commissary: "Do not send money to the facility address. Mail a postal money order or cashier's check to the BOP lockbox (PO Box 474701, Des Moines, IA 50947-0001), or use Western Union Quick Collect (code city FBOP, DC) or MoneyGram ExpressPayment (receive code 7932). Funds land in the inmate Trust Fund (commissary) account.",
 
   providers: [
     { name: "CorrLinks", slug: "corrlinks", initial: "C", color: "bg-emerald-700", messaging: true, video: false, photos: false, phone: false, moneyTransfer: false, notes: "Official federal BOP messaging platform. Inmate must send invitation first." },
-    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: false, video: false, photos: false, phone: true, moneyTransfer: true, notes: "Phone calls and money transfers at FCI Talladega." },
-  ],
+      ],
 
   communication: {
-    messaging: { status: "available", provider: "CorrLinks", notes: "Federal BOP email through CorrLinks TRULINCS system." },
+    messaging: { status: "available", provider: "CorrLinks", notes: "Federal BOP email through CorrLinks (TRULINCS). The inmate must add you as a contact and you must accept the invitation. Invitation valid 10 days." },
     video: { status: "unavailable", provider: undefined, notes: "Video visitation not available at federal facilities through outside providers." },
     photos: { status: "limited", provider: "CorrLinks", notes: "Contact facility for photo policy." },
-    phone: { status: "available", provider: "ConnectNetwork", notes: "Phone calls through ConnectNetwork AdvancePay." },
-    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Money transfers through ConnectNetwork." },
+    phone: { status: "available", provider: "BOP", notes: "Phone calls are placed by the inmate from facility phones; you cannot call in. Calls are paid from the inmate's trust fund account. Do not set up a ConnectNetwork or AdvancePay account for BOP calls." },
+    moneyTransfer: { status: "available", provider: "BOP Trust Fund", notes: "Do not send money to the facility address. Mail a postal money order or cashier's check to the BOP lockbox in Des Moines, Iowa (PO Box 474701, Des Moines, IA 50947-0001), or use Western Union Quick Collect (code city FBOP, DC) or MoneyGram ExpressPayment (receive code 7932). Funds land in the inmate Trust Fund account." },
   },
 
   rules: [
     "All non-legal calls are monitored and recorded.",
     "Inmate must send CorrLinks invitation before messaging can begin.",
     "Phone calls are inmate-initiated only.",
+    "Do not set up a ConnectNetwork or AdvancePay account for BOP calls; BOP phone calls are paid from the inmate's trust fund account.",
     "Three-way calling is prohibited.",
     "Follow BOP mail rules for all correspondence.",
   ],
 
   faq: [
     { question: "Which provider handles messaging at FCI Talladega?", answer: "CorrLinks is the only approved messaging platform for all federal Bureau of Prisons facilities including FCI Talladega. The inmate must send you an invitation first from a TRULINCS terminal." },
-    { question: "Which provider handles phone calls at FCI Talladega?", answer: "ConnectNetwork by GTL handles phone calls. Create a free account at connectnetwork.com and fund an AdvancePay account to receive calls." },
+    { question: "Which provider handles phone calls at FCI Talladega?", answer: "BOP phone calls are placed by the inmate from facility phones and paid from the inmate's trust fund account. Do not set up a ConnectNetwork or AdvancePay account for BOP calls. To fund calls, deposit money into the inmate's trust fund account through the Des Moines lockbox, Western Union (code city FBOP, DC), or MoneyGram (receive code 7932)." },
     { question: "How do I find someone at FCI Talladega?", answer: "Use the Bureau of Prisons inmate locator at bop.gov. Search by name to confirm the current facility and register number." },
       {
         question: "How do I send mail to someone at FCI Talladega?",
-        answer: "Address mail with the inmate's name and register number to FCI Talladega, Federal Correctional Institution, P.M.B 1000, Talladega, AL 35160. Satellite camp mail uses P.O. Box 2000, Talladega, AL 35160. Do not send money to the facility address.",
+        answer: "Address mail with the inmate's name and register number to FCI Talladega, Federal Correctional Institution, P.M.B 1000, Talladega, AL 35160. Satellite camp mail uses P.O. Box 2000, Talladega, AL 35160. PMB is not a typo; do not write P.O. Box 1000 for the FCI. Do not send money to the facility address.",
       },
       {
         question: "How do I schedule a visit at FCI Talladega?",
-        answer: "You must be on the inmate's approved visitor list. Visiting runs 8:30 a.m. to 3:00 p.m. on Saturdays, Sundays, and federal holidays, per the facility visiting supplement. Confirm current hours with the facility before traveling.",
+        answer: "You must be on the inmate's approved visitor list. Visiting runs 8:30 a.m. to 3:00 p.m. on Saturdays, Sundays, and federal holidays, per visiting supplement TDG 5267.09B (August 15, 2025). Monday visiting is gone; an older handbook listing Monday is out of date. Confirm current hours with the facility before traveling.",
       },
       {
         question: "Can I email someone at FCI Talladega?",
-        answer: "Federal inmates use CorrLinks (TRULINCS) for email. The inmate must add you to their contact list and you must accept the invitation before you can exchange messages. Messages are monitored.",
+        answer: "Federal inmates use CorrLinks (TRULINCS) for email. The inmate must add you to their contact list and you must accept the invitation before you can exchange messages. The invitation is valid for 10 days; if it expires, the inmate must re-add the contact. Messages are monitored.",
       },
       {
         question: "Why is my CorrLinks message not going through?",
-        answer: "Both sides must be approved: the inmate adds you, and you accept the invitation. If either step is missing, messages will not deliver. Check that you accepted the invite and that you are messaging the correct register number.",
+        answer: "Both sides must be approved: the inmate adds you, and you accept the invitation. If either step is missing, messages will not deliver. Check that you accepted the invite and that you are messaging the correct register number. If the invitation expired (valid 10 days), the inmate must re-add the contact. If you accidentally blocked the inmate, the inmate must ask the Trust Fund Office to remove the block.",
       },
       {
         question: "Can I send a package to someone at FCI Talladega?",
@@ -7191,7 +7195,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send money to someone at FCI Talladega?",
-        answer: "Do not send money to the facility address. Use the BOP lockbox in Des Moines, Iowa, or deposit online through ConnectNetwork, Western Union Quick Collect, or MoneyGram.",
+        answer: "Do not send money to the facility address. Mail a postal money order or cashier's check to the BOP lockbox: Federal Bureau of Prisons, Committed Name, Eight-Digit Register Number, P.O. Box 474701, Des Moines, IA 50947-0001. Or use Western Union Quick Collect (code city FBOP, DC) or MoneyGram ExpressPayment (receive code 7932).",
+      },
+      {
+        question: "Is FCI Talladega the same as FCI Tallahassee?",
+        answer: "No. FCI Tallahassee is a separate federal facility in Florida. FCI Talladega is in Talladega, Alabama. Do not use Tallahassee's mail address, phone number, or visiting hours for Talladega.",
       },
       {
         question: "Can someone at FCI Talladega call me collect?",

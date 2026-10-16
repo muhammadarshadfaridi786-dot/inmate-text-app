@@ -7041,28 +7041,36 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   description: "Cascade County Regional Correctional Facility in Great Falls Montana. Find phone calls, messaging, and money transfer options for this Montana county jail.",
 
   overview: [
-    "Cascade County Regional Correctional Facility is located in Great Falls, Montana and serves as the county detention center for Cascade County. The facility houses pretrial detainees and sentenced inmates under county jurisdiction. Securus Technologies handles phone calls at this facility.",
-    "To receive calls from Cascade County Regional Correctional Facility, set up a Securus AdvancePay account at securustech.net or call 800-844-6591. Money transfers go through the facility approved provider. Contact the facility directly to confirm current provider and communication options.",
+    "Cascade County Regional Correctional Facility, also called the Cascade County Detention Facility and the Cascade County Adult Detention Center, is the county detention center in Great Falls, Montana, operated by the Cascade County Sheriff's Office. Sheriff Jesse Slaughter took office January 1st, 2019. The facility is at 3800 Ulm North Frontage Road, Great Falls, MT 59404. The Sheriff's Office phone is 406-454-6820.",
+    "All phone, video, and messaging services run through Securus Technologies, per the Sheriff's Office page. For phone billing and access questions, call 800-844-6591, available 24 hours a day. Video Connect and eMessaging are available through Securus, and the Sheriff's page links to securustech.net for both services.",
+    "In-person visitation is currently cancelled until further notice due to construction, per the Sheriff's Office page. Confirm the current visit status with the facility before traveling, since the posted notice carries no date. Remote video visits are scheduled through Securus. Directory sources report a 24-hour advance scheduling rule and per-visit fees, which are not stated on the official page, so confirm the current cost and schedule with the facility or Securus before booking.",
+    "Personal mail is opened and inspected, then scanned through the Digital Mailing Center to the inmate's tablet, and the original is discarded. Address mail to the inmate by full name at Cascade County Detention Facility, 3800 Ulm North Frontage Road, Great Falls, MT 59404. Mail must be 10 pages or less per envelope, pages no larger than 8.5 by 11 inches, and photos no larger than 5 by 7 inches, with no polaroid photos and no photos of nude persons. Do not send magazines, books, packages, cash, third-party mail, or originals of important documents, which cannot be returned. Include the sender's full name and address.",
+    "Add money by mailing a money order addressed to the inmate at the facility address, using the kiosk in the CCSO lobby, or through AccessCorrections.com. Care packages go through Access Securpak at accesscatalog.com. The Sheriff's Office records front counter is open Monday to Friday, 8 a.m. to 5 p.m., excluding holidays.",
   ],
 
   operatedBy: "Cascade County Sheriff's Office",
+    mailingAddress: "Cascade County Detention Facility, Inmate Full Name, 3800 Ulm North Frontage Road, Great Falls, MT 59404. Mail is opened, inspected, scanned through the Digital Mailing Center to the inmate's tablet, and the original is discarded. Include the sender's full name and address.",
+    visitingHours: "In-person visitation is currently cancelled until further notice due to construction, per the Sheriff's Office page. Confirm the current visit status before traveling. Video Connect is available through Securus.",
+    commissary: "Mail a money order addressed to the inmate at the facility address, use the kiosk in the CCSO lobby, or deposit through AccessCorrections.com. Care packages through Access Securpak at accesscatalog.com.",
 
   providers: [
-    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Primary phone and video provider at Cascade County Regional Correctional Facility." },
+    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: true, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Phone, Video Connect, and eMessaging through Securus Technologies, per the Sheriff's Office page. Billing and access questions: 800-844-6591, 24 hours a day." },
+    { name: "AccessCorrections", slug: "accesscorrections", initial: "A", color: "bg-emerald-700", messaging: false, video: false, photos: false, phone: false, moneyTransfer: true, notes: "Deposits through AccessCorrections.com, per the Sheriff's Office page. Care packages through Access Securpak at accesscatalog.com." },
   ],
 
   communication: {
-    messaging: { status: "limited", provider: "Securus", notes: "Contact facility to confirm messaging availability." },
-    video: { status: "available", provider: "Securus", notes: "Video visits available through Securus." },
-    photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
-    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus AdvancePay." },
-    moneyTransfer: { status: "available", provider: "Securus", notes: "Money transfers through Securus." },
+    messaging: { status: "available", provider: "Securus", notes: "eMessaging available through Securus, per the Sheriff's Office page. Link at securustech.net." },
+    video: { status: "available", provider: "Securus", notes: "Video Connect available through Securus, per the Sheriff's Office page. In-person visitation is currently cancelled until further notice due to construction." },
+    photos: { status: "limited", notes: "Photos may be sent by mail under the DMC rules: 5x7 inches or smaller, no polaroid photos, no photos of nude persons. Confirm other photo options with the facility." },
+    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus Technologies. Billing and access questions: 800-844-6591, 24 hours a day, per the Sheriff's Office page." },
+    moneyTransfer: { status: "available", provider: "AccessCorrections", notes: "Mail a money order addressed to the inmate, use the kiosk in the CCSO lobby, or deposit through AccessCorrections.com, per the Sheriff's Office page. Care packages through Access Securpak at accesscatalog.com." },
   },
 
   rules: [
     "All calls are monitored and recorded.",
     "Inmates must be on approved contact list.",
-    "Contact facility for current visiting schedule.",
+    "In-person visitation is currently cancelled until further notice due to construction. Confirm the current visit status before traveling.",
+    "Mail is scanned through the Digital Mailing Center to the inmate's tablet and the original is discarded. Do not send originals of important documents or irreplaceable items.",
     "Three-way calling is prohibited.",
     "Follow facility mail rules for all correspondence.",
   ],
@@ -7070,18 +7078,22 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   faq: [
     { question: "Which provider handles phone calls at Cascade County Regional Correctional Facility?", answer: "Securus Technologies handles phone calls. Set up an account at securustech.net or call 800-844-6591." },
     { question: "How do I find someone at Cascade County Regional Correctional Facility?", answer: "Contact the Cascade County Sheriff's Office or use the Montana DOC offender search at cor.mt.gov." },
-    { question: "How do I send money to someone at Cascade County Regional Correctional Facility?", answer: "Use Securus for phone account deposits at securustech.net. Contact the facility for commissary deposit options." },
+    { question: "How do I send money to someone at Cascade County Regional Correctional Facility?", answer: "Mail a money order addressed to the inmate at 3800 Ulm North Frontage Road, Great Falls, MT 59404, use the kiosk in the CCSO lobby, or deposit through AccessCorrections.com. Care packages go through Access Securpak at accesscatalog.com." },
       {
         question: "How do phone calls work at Cascade County Regional Correctional Facility?",
         answer: "Inmates place outgoing calls through Securus. Set up a Securus account and add funds to accept calls. Inmates cannot receive incoming calls.",
       },
       {
         question: "Can I do a video visit with someone at Cascade County Regional Correctional Facility?",
-        answer: "Video visits are scheduled through Securus. Log into your Securus account, search for the facility, and choose an available time slot. Book ahead, since slots fill up around weekends.",
+        answer: "Video Connect is available through Securus, and the Sheriff's page links to securustech.net for it. In-person visitation is currently cancelled until further notice due to construction. Confirm the current video visit cost and schedule with the facility or Securus before booking.",
       },
       {
         question: "How do I send mail to someone at Cascade County Regional Correctional Facility?",
-        answer: "Address mail with the inmate's full name and booking number, care of Cascade County Regional Correctional Facility. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+        answer: "Address mail to the inmate by full name at Cascade County Detention Facility, 3800 Ulm North Frontage Road, Great Falls, MT 59404. Mail is opened and inspected, then scanned through the Digital Mailing Center to the inmate's tablet, and the original is discarded. Include the sender's full name and address. Mail must be 10 pages or less per envelope, pages no larger than 8.5 by 11 inches, and photos no larger than 5 by 7 inches.",
+      },
+      {
+        question: "Can I visit an inmate in person at Cascade County Regional Correctional Facility?",
+        answer: "No, not currently. The Sheriff's Office page states that due to construction, inmate in-person visitation is cancelled until further notice. Confirm the current visit status with the facility before traveling. Video Connect is available through Securus.",
       },
       {
         question: "How do I block calls from Cascade County Regional Correctional Facility?",

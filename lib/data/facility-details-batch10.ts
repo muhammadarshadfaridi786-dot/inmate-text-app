@@ -1819,17 +1819,18 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Albany County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Albany County detention center in Laramie WY.",
 
   overview: [
-    "Albany County Jail, officially known as the Albany County Detention Center, is the county detention center in Laramie, Wyoming, operated by the Albany County Sheriff's Office.",
-    "Phone calls from Albany County Jail go through GettingOut (ViaPath/Telmate). The video visitation vendor is not confirmed.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Albany County Jail, officially the Albany County Detention Center, is the county detention center in Laramie, Wyoming, operated by the Albany County Sheriff's Office. The facility is at 420 Ivinson Avenue, Laramie, WY 82070, and is open 24 hours a day, 7 days a week. Questions can go to the jail at (307) 755-3521.",
+    "Phone calls and tablet services run through GettingOut, the ViaPath/Telmate brand. Money can be added to the inmate phone and tablet system three ways: on the GettingOut website at pay.gettingout.com, by calling 1-866-516-0115, or at the kiosk in the Detention Center lobby.",
+    "Directory sources report that video visits also run through GettingOut, with on-site visits at the jail and remote visits from home or another location. The official county page names GettingOut for the phone and tablet system but does not name a video vendor, so confirm the current video visit setup with the facility before scheduling.",
+    "Mail goes to Inmate Full Name and Inmate ID, Albany County Detention Center, 420 Ivinson Avenue, Laramie, WY 82070. Include the inmate's full name and ID on all mail.",
+    "Money for the inmate phone and tablet system goes through GettingOut: pay.gettingout.com, 1-866-516-0115, or the lobby kiosk. The official county page does not describe a separate commissary or trust-account deposit method, and it does not name JailATM. Directory sources describe mailing a money order or cashier's check to the jail for inmate deposits; confirm the current deposit options with the facility before sending money.",
   ],
 
   operatedBy: "Albany County Sheriff's Office",
-    mailingAddress: "Inmate Full Name, Albany County Jail, 420 Ivinson Ave, Laramie, WY 82070.",
-    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
-    commissary: "Deposits through the lobby kiosk or JailATM. Confirm current deposit options with the facility.",
+    mailingAddress: "Inmate Full Name and Inmate ID, Albany County Detention Center, 420 Ivinson Avenue, Laramie, WY 82070.",
+    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. The official county page publishes no visitation schedule; confirm the current visiting schedule with the facility before traveling.",
+    commissary: "Money for the inmate phone and tablet system: pay.gettingout.com, 1-866-516-0115, or the lobby kiosk. The official county page names no separate commissary deposit method and does not name JailATM. Confirm current deposit options with the facility before sending money.",
     bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
-  // TODO(Jan): verify video vendor
 
   providers: [
     {
@@ -1842,20 +1843,20 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "Phone calls go through GettingOut (ViaPath/Telmate).",
+      notes: "Phone calls and tablet services go through GettingOut (ViaPath/Telmate), per the official county page. Video visits are reported by directory sources as GettingOut; the official page does not name a video vendor, so confirm before scheduling.",
     },
   ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "limited", notes: "Video visitation availability is not confirmed. Check with the facility." },
+    video: { status: "limited", notes: "Video visits reported by directory sources as GettingOut; the official county page does not name a video vendor. Confirm the current video visit setup with the facility before scheduling." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "GettingOut", notes: "Phone calls go through GettingOut (ViaPath/Telmate)." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "GettingOut", notes: "Phone calls and tablet services go through GettingOut (ViaPath/Telmate), per the official county page. Add money at pay.gettingout.com, 1-866-516-0115, or the lobby kiosk." },
+    moneyTransfer: { status: "limited", notes: "Money for the inmate phone and tablet system goes through GettingOut (pay.gettingout.com, 1-866-516-0115, lobby kiosk), per the official county page. No separate commissary deposit method is published; confirm with the facility before sending money." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "Phone and tablet services run through GettingOut. Confirm the video visit setup with the facility, since the official page does not name a video vendor.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the county dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -1863,15 +1864,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Albany County Jail in Wyoming?", answer: "Phone calls go through GettingOut (ViaPath/Telmate). The video vendor is not confirmed." },
-    { question: "How do I visit someone at Albany County Jail in Wyoming?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
+    { question: "Which company handles phone calls at Albany County Jail in Wyoming?", answer: "Phone calls and tablet services go through GettingOut (ViaPath/Telmate), per the official county page. The video vendor is reported by directory sources as GettingOut, but the official page does not name a video vendor." },
+    { question: "How do I visit someone at Albany County Jail in Wyoming?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. The official county page publishes no visitation schedule; confirm the current visiting schedule with the facility before traveling." },
     { question: "What is the official name of Albany County Jail in Wyoming?", answer: "The facility is officially known as the Albany County Detention Center. It is operated by the Albany County Sheriff's Office in Laramie." },
-    { question: "How do I mail a letter to someone at Albany County Jail in Wyoming?", answer: "Address the envelope with the inmate's full name, Albany County Jail, 420 Ivinson Ave, Laramie, WY 82070. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at Albany County Jail in Wyoming?", answer: "Address the envelope with the inmate's full name and ID, Albany County Detention Center, 420 Ivinson Avenue, Laramie, WY 82070. Include a return address. Mail is inspected for contraband." },
     { question: "How do I find out if someone is at Albany County Jail in Wyoming?", answer: "Contact the facility or the Albany County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
     { question: "Can an inmate at Albany County Jail in Wyoming call me?", answer: "Yes. Inmates place outgoing calls through GettingOut. Set up a GettingOut account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Albany County Jail in Wyoming?", answer: "Contact GettingOut to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
     { question: "How do I schedule a visit at Albany County Jail in Wyoming?", answer: "Visits are scheduled in advance and require approved-visitor status. Contact the facility for the current scheduling process and visiting hours." },
-    { question: "How do I send money to someone at Albany County Jail in Wyoming?", answer: "Deposits go through the lobby kiosk or JailATM. Confirm current deposit options with the facility before sending money." },
+    { question: "How do I send money to someone at Albany County Jail in Wyoming?", answer: "Add money to the inmate phone and tablet system three ways: pay.gettingout.com, 1-866-516-0115, or the kiosk in the Detention Center lobby. The official county page names no separate commissary deposit method and does not name JailATM. Confirm current deposit options with the facility before sending money." },
+    { question: "How do I schedule a video visit at Albany County Jail in Wyoming?", answer: "Directory sources report video visits run through GettingOut, using the jail kiosk, a home computer, or the GettingOut app. The official county page names GettingOut for the phone and tablet system but does not name a video vendor, so confirm the current video visit setup with the facility at 307-755-3521 before scheduling." },
   ],
 
   relatedFacilitySlugs: ["wyoming-state-penitentiary", "wyoming-medium-correctional-institution", "laramie-county-detention-center"],

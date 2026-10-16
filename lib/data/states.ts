@@ -1202,15 +1202,53 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     hasDetailPage: true,
 
     description: "Find prisons and communication options in Pennsylvania. Compare messaging, video, and phone providers for correctional facilities across Pennsylvania.",
-    seoTitle: "Pennsylvania Inmate Phone Calls, Messaging and Money",
-    seoDescription: "How to contact someone in a Pennsylvania jail or prison. Find the right provider for PA DOC state prisons and county jails.",
+    seoTitle: "Pennsylvania Inmate Phone Calls, Visits, Mail and Money (PA DOC)",
+    seoDescription: "Contact someone in a Pennsylvania state prison: PA DOC phone calls through Securus, email via ViaPath/ConnectNetwork, money through JPay, mail via Smart Communications. County jails use separate vendors.",
 
     intro: [
-      "Pennsylvania's correctional system includes state prisons operated by the Pennsylvania Department of Corrections, a substantial federal Bureau of Prisons presence particularly in the central part of the state, and county jails in each of its 67 counties. The PA DOC system includes facilities ranging from maximum-security state correctional institutions to smaller specialized treatment facilities. Federal prisons in Pennsylvania include USP Lewisburg, FCI Allenwood, USP Canaan, and several other institutions in the Susquehanna and Pocono regions, making central Pennsylvania home to a dense concentration of federal correctional facilities.",
+      "Pennsylvania's correctional system includes state prisons operated by the Pennsylvania Department of Corrections, a substantial federal Bureau of Prisons presence particularly in the central part of the state, and county jails across its 67 counties. The PA DOC system includes facilities ranging from maximum-security state correctional institutions to smaller specialized treatment facilities. Federal prisons in Pennsylvania include USP Lewisburg, FCI Allenwood, USP Canaan, and several other institutions in the Susquehanna and Pocono regions, making central Pennsylvania home to a dense concentration of federal correctional facilities.",
 
-      "JPay is the primary platform for Pennsylvania Department of Corrections state prison messaging and money transfer. Phone and video services at state facilities are handled through Securus and GTL. County facilities, including the large Philadelphia prison system and the Allegheny County Jail in Pittsburgh, operate under separate contracts from state facilities. Federal prisons in Pennsylvania require CorrLinks for electronic messaging under Bureau of Prisons rules. One common point of confusion for Pennsylvania families is that county jails and state prisons are entirely separate systems with no shared provider infrastructure, so account setup must be done correctly from the start.",
+      "Phone calls in PA DOC state prisons run through Securus, email runs through ViaPath Technologies (ConnectNetwork), money runs through JPay, and general mail runs through Smart Communications. These are four separate systems, and setting up the wrong one is the most common mistake families make. County facilities, including the large Philadelphia prison system and the Allegheny County Jail in Pittsburgh, operate under separate contracts from state facilities; Allegheny County Jail uses GTL for phone calls. Federal prisons in Pennsylvania require CorrLinks for electronic messaging under Bureau of Prisons rules. One common point of confusion for Pennsylvania families is that county jails and state prisons are entirely separate systems with no shared provider infrastructure, so account setup must be done correctly from the start.",
 
       "Pennsylvania families often struggle to find clear, organized information about correctional communication because the relevant details are spread across state corrections websites, county government pages, and individual provider portals. This directory brings that information together so you can find out which provider serves the specific Pennsylvania facility you are dealing with, what communication options are available, and how to get started without working through multiple disconnected government resources. Whether the situation involves a state prison in Centre County, a county jail in Philadelphia, or a federal facility near Lewisburg, the goal is to give you accurate information in one place.",
+    ],
+
+
+    overview: [
+      "Who provides phone, email, money, and mail services in Pennsylvania state prisons? Phone calls run through Securus. Create a phone account at securustech.net, or call Securus at 800-844-6591. Securus calls may appear as spam, so save the number in your contacts or tell your cell carrier it is an authorized number. Email runs through ViaPath Technologies: create an account at web.connectnetwork.com, or call ViaPath Friends and Family Customer Service at 1-877-650-4249. All emails are reviewed for appropriate content. Money runs through JPay: deposit on the JPay website, by phone at 800-574-5729, by money order sent to JPay, or at lobby kiosks at each state prison. Mail runs through Smart Communications, not to the prison. The PA DOC contact page does not publish a per-minute phone rate, so check your Securus account for current rates.",
+      "How do visits work in Pennsylvania state prisons? Visits are in person or by video, and all visits must be scheduled at least two days in advance through the Inmate Visitation System (IVS). You must create an IVS account and be on the inmate's authorized visitor list to schedule. In-person visits: up to four per month including one weekend visit, guaranteed at least one hour, maximum four visitors per visit (two at Quehanna Boot Camp). Video visits are free: up to six per month including one weekend visit, with up to six visitors able to join. Visit limits may vary by custody status. Video visits are monitored and recorded, except visits with legal counsel. If the facility cancels a visit, you get an email at the address on your IVS account. For scheduling questions, contact the facility or email RA-CRDOCINMATEVSS@pa.gov.",
+      "How do mail and money differ between state prisons and county jails in Pennsylvania? In state prisons, general mail goes to Smart Communications/PA DOC, Inmate Name/Inmate Number, State Correctional Institution, PO Box 33028, St. Petersburg, FL 33733. Publications and photo books go to the Security Processing Center, 268 Bricker Road, Bellefonte, PA 16823-1667. Official documents and original transactional paperwork go to the institution's business office. Legal mail needs a DOC-issued attorney or court control number. Money goes through JPay, and money orders are not accepted at state prisons. County jails set their own contracts and may use completely different vendors and mail routes. For example, Allegheny County Jail uses GTL for phone calls, with 30 minutes of free calls per day, per the county's own page. Check the specific jail's page before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Who provides phone service in Pennsylvania state prisons?",
+        answer: "Securus. To receive calls from an inmate in a PA DOC facility, you must create a phone account through Securus at securustech.net, or call Securus at 800-844-6591. Calls through Securus may appear as spam, so store the number in your contacts or tell your cell carrier it is an authorized number. The PA DOC contact page does not publish a per-minute phone rate, so check your Securus account for current rates.",
+      },
+      {
+        question: "How do I send email to someone in a Pennsylvania state prison?",
+        answer: "The DOC uses ViaPath Technologies for email. Create an account at web.connectnetwork.com to obtain message credit information. Direct questions to ViaPath Technologies Friends and Family Customer Service at 1-877-650-4249. The DOC is not responsible for creating accounts or troubleshooting technical issues. All emails inmates receive are subject to review for appropriate content.",
+      },
+      {
+        question: "How do I visit someone in a Pennsylvania state prison?",
+        answer: "Schedule at least two days in advance through the Inmate Visitation System (IVS). You must create an IVS account and be on the inmate's authorized visitor list. In-person visits: up to four per month including one weekend visit, guaranteed at least one hour, maximum four visitors per visit (two at Quehanna Boot Camp). Video visits are free: up to six per month including one weekend visit, with up to six visitors able to join. Visit limits may vary by custody status. Video visits are monitored and recorded, except visits with legal counsel. For scheduling questions, contact the facility or email RA-CRDOCINMATEVSS@pa.gov.",
+      },
+      {
+        question: "How do I send mail to someone in a Pennsylvania state prison?",
+        answer: "Send general correspondence (letters, greeting cards, pictures, children's drawings, photos) to Smart Communications/PA DOC, Inmate Name/Inmate Number, State Correctional Institution, PO Box 33028, St. Petersburg, FL 33733. Include a full return address with your first and last name, the inmate's full correct name and number, print on 8.5 by 11 paper, and do not bind it or leave it open like a book. Photos are limited to 25 per mailing, cannot contain obscenity, explicit sexual material, or nudity, and originals are destroyed after 45 days. Send publications and photo books to the Security Processing Center, 268 Bricker Road, Bellefonte, PA 16823-1667, only from original source vendors. Send official documents and original transactional paperwork to the institution's business office. Legal mail needs a DOC-issued attorney or court control number.",
+      },
+      {
+        question: "How do I send money to someone in a Pennsylvania state prison?",
+        answer: "Use JPay, which processes all credit card and money order payments for the PA DOC. Deposit on the JPay website, by phone at 800-574-5729, by money order sent to JPay, or at lobby kiosks at each state prison. Money orders must be sent to JPay and are not accepted at state correctional institutions. Include a deposit slip with the inmate ID number, inmate name, and sender's name and address. Do not include personal items with money orders; they will be discarded. Credit card deposits are limited to $300 per card every 72 hours, and money orders are limited to $999.99 each. If the inmate owes fines, costs, or restitution, a percentage of the deposit may go to paying that debt. Do not send money for inmates to any other individual, website, or email account.",
+      },
+      {
+        question: "How do I find someone in a Pennsylvania state prison?",
+        answer: "Use the PA DOC Inmate and Parolee Locator, which covers state-sentenced inmates and parolees. You need a last name or inmate number; a first name helps for common names. Information is updated daily. People incarcerated in another state or in a county facility cannot be found using the locator. Other personal information can be self-reported and is not independently verified. Disable your pop-up blocker, and try a different device or browser if the locator fails. Still need help: email ra-contactdoc@pa.gov.",
+      },
+      {
+        question: "Do county jails in Pennsylvania use the same providers as state prisons?",
+        answer: "No. Each county sets its own contracts, and county jails and state prisons are entirely separate systems with no shared provider infrastructure. For example, Allegheny County Jail uses GTL for phone calls, with 30 minutes of free calls per day, per the county's own page. Set up a GTL account at 1-800-483-8314 or on the ConnectNetwork website. Check the specific jail's page before setting up any account, because the provider for one county may be completely different from the provider for another.",
+      },
     ],
 
     facilitiesByType: { federal: 15, state: 27, county: 128, private: 12 },
@@ -1224,25 +1262,39 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        description: "Messaging and money transfer for Pennsylvania Department of Corrections state facilities.",
-      },
-      {
         name: "Securus",
         slug: "securus",
         initial: "S",
         color: "bg-indigo-600",
-        description: "Phone and video calling at Pennsylvania state prisons and county correctional facilities.",
+        description: "Phone calls at Pennsylvania state prisons. Video visits are free through the DOC Inmate Visitation System.",
+      },
+      {
+        name: "ConnectNetwork",
+        slug: "connectnetwork",
+        initial: "C",
+        color: "bg-sky-600",
+        description: "Email for PA DOC state prisons via ViaPath Technologies.",
+      },
+      {
+        name: "JPay",
+        slug: "jpay",
+        initial: "J",
+        color: "bg-blue-600",
+        description: "Money transfer for Pennsylvania Department of Corrections state facilities.",
+      },
+      {
+        name: "Smart Communications",
+        slug: "smart-communications",
+        initial: "S",
+        color: "bg-cyan-600",
+        description: "Mail scanning for PA DOC state prisons; general mail goes to Smart Communications, not the prison.",
       },
       {
         name: "GTL",
         slug: "gtl",
         initial: "G",
         color: "bg-amber-600",
-        description: "Phone and video services at select Pennsylvania correctional institutions.",
+        description: "Phone calls at county jails such as Allegheny County Jail. Not the phone provider for PA DOC state prisons.",
       },
       {
         name: "CorrLinks",

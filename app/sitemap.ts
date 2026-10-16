@@ -124,6 +124,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/messaging`,       lastModified: new Date("2026-09-08"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${siteUrl}/video-calls`,     lastModified: new Date("2026-09-08"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${siteUrl}/phone-calls`,     lastModified: new Date("2026-09-08"), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${siteUrl}/costs-by-state`,  lastModified: new Date("2026-10-16"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${siteUrl}/photo-sharing`,   lastModified: new Date("2026-09-08"), changeFrequency: "weekly", priority: 0.85 },
     { url: `${siteUrl}/money-transfer`,  lastModified: new Date("2026-09-08"), changeFrequency: "weekly", priority: 0.85 },
 

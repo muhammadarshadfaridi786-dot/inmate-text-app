@@ -730,14 +730,21 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Montgomery County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Montgomery County Sheriff's jail in Dayton OH.",
 
   overview: [
-    "Montgomery County Jail is the county jail in Dayton, Ohio, operated by the Montgomery County Sheriff's Office. The current jail was built in 1964 with a 1993 addition. A replacement jail plan was postponed over funding.",
-    "Phone calls and video visits at Montgomery County Jail run through PayTel (PayTel Connect).",
-    "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Montgomery County Jail is the county jail in Dayton, Ohio, operated by the Montgomery County Sheriff's Office. The current jail was built in 1964, with an addition built in 1993. County leaders postponed plans to build a replacement jail over funding, after a 2021 needs assessment recommended an entirely new facility estimated at $172 million to $202 million. General information is available at (937) 225-4160.",
+    "Phone calls run through Pay Tel Communications. Inmates may only place Collect, Prepaid Collect, and Prepaid Calling Card calls, in 20-minute increments, after which the call is terminated. Set up an account at paytel.com or by calling 1-800-729-8355. The facility will not forward incoming calls to an inmate or take messages for inmates. To block unwanted calls, contact Pay Tel at 1-800-729-8355 and follow the voice prompts.",
+    "Video visits in the jail lobby are free. Each inmate is allowed two 30-minute visits per week, with a maximum of one visit per day. Register and schedule a day in advance at smartinmate.com, or by calling 727-349-1561 if you do not have internet access. Lobby visitation hours are Monday through Sunday, 9:00 a.m. to 2:30 p.m. and 4:30 p.m. to 8:00 p.m., including legal holidays. Visitors must wear shirts and shoes and clothing suitable for street wear. Lobby visits do not affect paid remote visits.",
+    "Regular postal mail is scanned and made available for inmates to view on kiosks or tablets, and the original document is destroyed. Send regular mail to: Smart Communications, Montgomery County Sheriff's Office, Attention To: Inmate Name and ID Number, P.O. Box 9123, Seminole, FL 33775-9123. Mail without the inmate ID number and name is returned to sender. Legal mail goes directly to the facility at: Montgomery County Jail, Inmate Name and ID Number, 330 West Second Street, Dayton, OH 45422. MailGuardTracker.com tracks postal mail delivery and rejections.",
+    "Money goes into an inmate account at the automated kiosk in the jail lobby, available 24 hours a day, seven days a week, or online at jailatm.com. The kiosk accepts Visa, Mastercard, Discover, and cash. Personal checks are not accepted. Care packages can be purchased at shop.icaregifts.com. Bond may be posted 24 hours a day, seven days a week at the Inmate Property Room Window in the jail lobby. Call (937) 224-8447 to check bond amounts. Ohio House Bill 1 adds a bail surcharge of up to $85.00 per bond, paid at the time the bond is posted, and personal checks cannot be accepted for bond.",
+    "Directory sources report that remote video visits run through PayTel Connect, with the inmate sending the initial invite, the visitor creating an account at paytelconnect.com, and the visitor uploading a state ID and selfie for approval. The official Sheriff page does not name a remote video vendor, so confirm the current remote video setup with the facility before scheduling. Directory sources also report messaging through Pay Tel inteleMESSAGE at $0.50 per message sent, with the inmate required to contact the family member first. Confirm messaging availability and cost with the facility before funding an account.",
   ],
 
   notToConfuseWith: "Not to be confused with Montgomery County Jail in Conroe, Texas.",
   established: 1964,
   operatedBy: "Montgomery County Sheriff's Office",
+    mailingAddress: "Regular mail: Smart Communications, Montgomery County Sheriff's Office, Attention To: Inmate Name-ID Number, P.O. Box 9123, Seminole, FL 33775-9123. Legal mail: Montgomery County Jail, Inmate Name-ID Number, 330 West Second Street, Dayton, OH 45422.",
+    visitingHours: "Lobby video visits: Mon-Sun 9:00 a.m.-2:30 p.m. and 4:30-8:00 p.m., including legal holidays. Free, two 30-minute visits per week, maximum one per day. Register and schedule a day in advance at smartinmate.com, or call 727-349-1561.",
+    commissary: "Deposits at the lobby kiosk (24/7; Visa, Mastercard, Discover, cash; no personal checks) or online at jailatm.com. Care packages at shop.icaregifts.com.",
+    bailInfo: "Bond may be posted 24/7 at the Inmate Property Room Window in the jail lobby. Bond amounts: (937) 224-8447. Ohio House Bill 1 bail surcharge up to $85.00 per bond, paid at posting. No personal checks for bond.",
 
   providers: [
     {
@@ -746,24 +753,49 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       initial: "P",
       color: "bg-orange-700",
       messaging: false,
-      video: true,
+      video: false,
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "PayTel provides phone service and video visits through PayTel Connect.",
+      notes: "PayTel Communications provides phone service, per the Sheriff's Office inmate information page. Lobby video visits are scheduled through Smart Communications at smartinmate.com.",
+    },
+    {
+      name: "Smart Communications",
+      slug: "smart-communications",
+      initial: "S",
+      color: "bg-teal-700",
+      messaging: false,
+      video: true,
+      photos: false,
+      phone: false,
+      moneyTransfer: false,
+      notes: "Free lobby video visits scheduled through Smart Communications at smartinmate.com, per the Sheriff's Office inmate information page. Regular mail is scanned by Smart Communications and viewable on kiosks/tablets.",
+    },
+    {
+      name: "JailATM",
+      slug: "jailatm",
+      initial: "J",
+      color: "bg-lime-700",
+      messaging: false,
+      video: false,
+      photos: false,
+      phone: false,
+      moneyTransfer: true,
+      notes: "Online deposits at jailatm.com, per the Sheriff's Office inmate information page. Lobby kiosk available 24/7.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "available", provider: "PayTel", notes: "Video visits through PayTel Connect. Schedule in advance." },
+    messaging: { status: "limited", notes: "Messaging availability is not stated on the official Sheriff page. Directory sources report Pay Tel inteleMESSAGE; confirm availability and cost with the facility before funding an account." },
+    video: { status: "available", provider: "Smart Communications", notes: "Free lobby video visits through Smart Communications. Register and schedule a day in advance at smartinmate.com, or call 727-349-1561. Two 30-minute visits per week, maximum one per day. Lobby hours Mon-Sun 9:00 a.m.-2:30 p.m. and 4:30-8:00 p.m., including legal holidays. Lobby visits do not affect paid remote visits." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "PayTel", notes: "Phone calls through PayTel." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "PayTel", notes: "Phone calls through Pay Tel Communications, per the Sheriff's Office inmate information page. Only Collect, Prepaid Collect, and Prepaid Calling Card calls, in 20-minute increments. Setup at paytel.com or 1-800-729-8355." },
+    moneyTransfer: { status: "available", provider: "JailATM", notes: "Deposits at the lobby kiosk (24/7; Visa, Mastercard, Discover, cash; no personal checks) or online at jailatm.com, per the Sheriff's Office inmate information page. Care packages at shop.icaregifts.com." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "Phone service runs through Pay Tel Communications. Free lobby video visits are scheduled through Smart Communications at smartinmate.com.",
+    "Regular mail goes to the Smart Communications PO Box in Seminole, FL; only legal mail goes to the facility at 330 West Second Street.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the Sheriff's Office dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -771,8 +803,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Montgomery County Jail in Ohio?", answer: "Phone calls run through PayTel (PayTel Connect)." },
-    { question: "How do I visit someone at Montgomery County Jail in Ohio?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm visiting hours before traveling." },
+    { question: "Which company handles phone calls at Montgomery County Jail in Ohio?", answer: "Phone calls run through Pay Tel Communications. Inmates may only place Collect, Prepaid Collect, and Prepaid Calling Card calls, in 20-minute increments. Set up an account at paytel.com or by calling 1-800-729-8355. The facility will not forward incoming calls or take messages." },
+    { question: "How do I visit someone at Montgomery County Jail in Ohio?", answer: "Free lobby video visits are scheduled through Smart Communications. Register and schedule a day in advance at smartinmate.com, or call 727-349-1561. Two 30-minute visits per week, maximum one per day. Lobby hours Mon-Sun 9:00 a.m.-2:30 p.m. and 4:30-8:00 p.m., including legal holidays." },
     { question: "How old is Montgomery County Jail in Ohio?", answer: "The current jail was built in 1964 with a 1993 addition. A replacement jail plan was postponed over funding." },
       {
         question: "How do I find or search for an inmate at Montgomery County Jail?",
@@ -780,7 +812,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send mail to an inmate at Montgomery County Jail?",
-        answer: "Include the inmate's full name and ID on every envelope and follow the facility's mail rules. Confirm the current mailing address on the facility's official page before sending.",
+        answer: "Send regular mail to: Smart Communications, Montgomery County Sheriff's Office, Attention To: Inmate Name and ID Number, P.O. Box 9123, Seminole, FL 33775-9123. Regular mail is scanned, viewable on kiosks or tablets, and the original is destroyed. Mail without the inmate ID number and name is returned to sender. Send legal mail directly to: Montgomery County Jail, Inmate Name and ID Number, 330 West Second Street, Dayton, OH 45422.",
       },
       {
         question: "Can I receive incoming calls from an inmate at Montgomery County Jail?",
@@ -788,11 +820,19 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I block or stop calls from an inmate at Montgomery County Jail?",
-        answer: "Contact the facility's phone provider and ask to block the number, or block the number through your own phone carrier. You can also ask the facility to remove your number from the inmate's approved list.",
+        answer: "Contact Pay Tel at 1-800-729-8355 and follow the voice prompts to block your number. You can also block the number through your phone carrier.",
       },
       {
         question: "How do I schedule or cancel a video visit at Montgomery County Jail?",
-        answer: "Schedule video visits through the facility's video visit provider or visitation system. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+        answer: "Register and schedule a day in advance at smartinmate.com, or call 727-349-1561 if you do not have internet access. Lobby visits are free, two 30-minute visits per week, maximum one per day. Check the facility's visitation page for its cancellation rules.",
+      },
+      {
+        question: "How do I send money to someone at Montgomery County Jail in Ohio?",
+        answer: "Deposit at the automated kiosk in the jail lobby, available 24 hours a day, seven days a week, or online at jailatm.com. The kiosk accepts Visa, Mastercard, Discover, and cash. Personal checks are not accepted. Care packages can be purchased at shop.icaregifts.com.",
+      },
+      {
+        question: "How do I post bond at Montgomery County Jail in Ohio?",
+        answer: "Bond may be posted 24 hours a day, 7 days a week at the Inmate Property Room Window in the jail lobby. Call (937) 224-8447 to check bond amounts. Ohio House Bill 1 requires a bail surcharge of up to $85.00 per bond, paid at posting. Personal checks cannot be accepted for bond.",
       },
 
   ],

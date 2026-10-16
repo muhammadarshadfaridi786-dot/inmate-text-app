@@ -85,7 +85,7 @@ export const ALL_STATES: StateBasic[] = [
   { id: "s-nj", name: "New Jersey",     slug: "new-jersey",     abbreviation: "NJ", facilityCount: 118, region: "Northeast", hasDetailPage: true  },
   { id: "s-nm", name: "New Mexico",     slug: "new-mexico",     abbreviation: "NM", facilityCount: 78,  region: "Southwest", hasDetailPage: true  },
   { id: "s-ny", name: "New York",       slug: "new-york",       abbreviation: "NY", facilityCount: 205, region: "Northeast", hasDetailPage: true  },
-  { id: "s-nc", name: "North Carolina", slug: "north-carolina", abbreviation: "NC", facilityCount: 198, region: "Southeast", hasDetailPage: true  },
+  { id: "s-nc", name: "North Carolina", slug: "north-carolina", abbreviation: "NC", facilityCount: 156, region: "Southeast", hasDetailPage: true  },
   { id: "s-nd", name: "North Dakota",   slug: "north-dakota",   abbreviation: "ND", facilityCount: 32,  region: "Midwest",   hasDetailPage: true  },
   { id: "s-oh", name: "Ohio",           slug: "ohio",           abbreviation: "OH", facilityCount: 218, region: "Midwest",   hasDetailPage: true  },
   { id: "s-ok", name: "Oklahoma",       slug: "oklahoma",       abbreviation: "OK", facilityCount: 178, region: "Southeast", hasDetailPage: true  },
@@ -1066,91 +1066,6 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     ],
   },
 
-  "north-carolina": {
-    id: "s-nc",
-    name: "North Carolina",
-    slug: "north-carolina",
-    abbreviation: "NC",
-    facilityCount: 198,
-    region: "Southeast",
-    hasDetailPage: true,
-
-    description: "Find prisons and communication options in North Carolina. Compare messaging, video, and phone providers for correctional facilities across North Carolina.",
-    seoTitle: "North Carolina Inmate Phone Calls, Messaging and Money",
-    seoDescription: "How to contact someone in a North Carolina jail or prison. Find the right provider for NCDPS state prisons and county jails.",
-
-    intro: [
-      "North Carolina's correctional landscape includes state prisons managed by the Department of Adult Correction, a notable federal Bureau of Prisons presence centered around the Butner Federal Correctional Complex in Granville County, and county detention centers operated by sheriffs across the state's 100 counties. The Butner complex is one of the larger federal correctional campuses in the country and serves a specialized inmate population. State facilities range from maximum-security prisons in the Piedmont region to smaller medium-security units distributed across more rural parts of the state.",
-
-      "JPay serves North Carolina Department of Adult Correction state prisons as the primary platform for messaging, photo sharing, and money transfer. Phone and video services at state facilities are provided by GTL and Securus depending on the institution. County jails across North Carolina each operate under separate contracts, and the provider for a facility in Mecklenburg County may be entirely different from the one serving a jail in Cumberland or Guilford. Federal inmates at Butner and other Bureau of Prisons institutions require CorrLinks for electronic messaging, which is a separate system from anything used by state or county facilities.",
-
-      "Families in North Carolina often encounter confusion when trying to set up communication for the first time, particularly when a loved one is transferred between facilities or held temporarily in a county jail before moving to a state prison. The provider and account requirements change with each transfer, and the information is not always easy to find. This directory organizes facility and provider information for North Carolina in one place so families can identify the right platform, understand what services are available at each facility type, and get connected without sorting through multiple unrelated sources.",
-    ],
-
-    facilitiesByType: { federal: 12, state: 57, county: 116, private: 13 },
-
-    counties: [
-      "Mecklenburg County", "Wake County", "Guilford County", "Forsyth County",
-      "Cumberland County", "Durham County", "Buncombe County", "Union County",
-      "Cabarrus County", "Onslow County", "New Hanover County", "Gaston County",
-      "Robeson County", "Moore County", "Catawba County",
-    ],
-
-    providers: [
-      {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        description: "Messaging, photo sharing, and money transfer for North Carolina Department of Adult Correction state facilities.",
-      },
-      {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
-        description: "Phone and video services across North Carolina state correctional facilities.",
-      },
-      {
-        name: "Securus",
-        slug: "securus",
-        initial: "S",
-        color: "bg-indigo-600",
-        description: "Phone and video calling at select North Carolina state prisons and county jails.",
-      },
-      {
-        name: "CorrLinks",
-        slug: "corrlinks",
-        initial: "C",
-        color: "bg-emerald-700",
-        description: "Email communication for federal Bureau of Prisons facilities in North Carolina, including Butner.",
-      },
-    ],
-
-    featuredFacilities: [
-      {
-        name: "Central Prison",
-        slug: "central-prison",
-        type: "State Prison",
-        county: "Wake County",
-        features: ["Messaging", "Phone Calls", "Money Transfer"],
-      },
-      {
-        name: "Butner Federal Correctional Complex",
-        slug: "butner-federal-correctional-complex",
-        type: "Federal Prison",
-        county: "Granville County",
-        features: ["Messaging (CorrLinks)", "Phone Calls"],
-      },
-      {
-        name: "Mecklenburg County Jail",
-        slug: "mecklenburg-county-jail",
-        type: "County Jail",
-        county: "Mecklenburg County",
-        features: ["Video Calls", "Phone Calls", "Money Transfer"],
-      },
-    ],
-  },
 
   arizona: {
     id: "s-az",
@@ -5543,4 +5458,133 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
       },
     ],
   },
+
+  "north-carolina": {
+    id: "s-nc",
+    name: "North Carolina",
+    slug: "north-carolina",
+    abbreviation: "NC",
+    facilityCount: 156,
+    region: "Southeast",
+    hasDetailPage: true,
+
+    description: "How to contact someone in a North Carolina state prison or county jail. NCDAC phone calls, video visits, mail, and money through ViaPath/GTL and ConnectNetwork.",
+    seoTitle: "North Carolina Inmate Phone Calls, Visits, Mail and Money (NCDAC)",
+    seoDescription: "Contact someone in a North Carolina state prison: NCDAC phone calls at 10 cents a minute through ViaPath/GTL, video visits, TextBehind mail, and money deposits. County jails use separate vendors.",
+
+    intro: [
+      "North Carolina runs two separate systems, and mixing them up is the most common mistake families make. State prisons are operated by the North Carolina Department of Adult Correction (NCDAC). County jails are run by county sheriffs, and each jail sets its own phone, video, and messaging contracts. Federal prisons in North Carolina use the federal BOP system and are separate again. This page covers the state prison system first, then explains how county jails differ.",
+      "In NCDAC state prisons, all communication runs through tablets supplied under a contract with ViaPath/GTL. Tablets handle phone calls, text messages, and digitized mail, plus education, self-help, and entertainment content. Kiosks and wall phones are also available. Families set up and fund accounts through ConnectNetwork, ViaPath's account portal, at ConnectNetwork.com.",
+      "To find someone in a state prison, use the NCDAC Offender Public Information Search, which covers state prison offenders, probationers, and parolees back to 1972. It does not cover county jail inmates. For county jail custody, contact the sheriff's office or jail directly. NCDAC also runs a friends and family hotline at 1-800-368-1985.",
+    ],
+
+    overview: [
+      "How much do phone calls cost in North Carolina state prisons? Local and long distance calls cost 10 cents per minute, plus applicable state and federal taxes, per the NCDAC Telephone and Tablet Services page. All calls are timed for 15 minutes. Families can fund calls two ways. AdvancePay prepaid calling puts money on your phone number, and funds are deducted when the offender calls you. A PIN Debit account puts funds in the offender's account, and the offender can use it to call any allowed number. Set up either account at ConnectNetwork.com, in the ConnectNetwork mobile app, or by calling 1-800-483-8314 for AdvancePay. ViaPath also advertises one free call per week for every incarcerated individual.",
+      "How do visits work in North Carolina state prisons? Visits are in person or by video. In-person visits are by appointment only: call or email the prison where the person is housed, and call the day before to confirm. Video visits use the Getting Out Visits app, or a home computer with a webcam and microphone, and are limited to people on the offender's approved visitors list. Before any visit, the offender must mail you a blank visitor application, you must complete and return it to the prison, and facility staff must approve it. Each offender may have up to 18 approved visitors. Under normal circumstances, an offender gets no more than one visiting session per week, up to two hours, with no more than three visitors per session. Cell phones are contraband and prohibited in all prison facilities.",
+      "How do mail and money work in North Carolina state prisons? Mail to state prison offenders goes to TextBehind, not to the prison. Address it: Offender Name and OPUS Number, Name of Prison (do not abbreviate), P.O. Box 247, Phoenix, MD 21131. TextBehind scans letters, cards, photos, and artwork and delivers them electronically to the offender's tablet. The return address must include the sender's full first and last name; initials are not accepted. Legal mail is not sent through TextBehind; attorneys must contact the prison for instructions. Money goes through ViaPath: online at ConnectNetwork.com, in the ConnectNetwork app, by phone (AdvancePay 800-483-8314; Trust and PIN Debit 888-428-1845), by Western Union (payment code NCDAC TRUST), or by money order payable to TouchPay with a deposit slip to TouchPay Holdings NCDAC, PO Box 649556, Dallas, TX 75264-9556. Money orders carry no fee; other methods charge fees per the official NCDAC fee table. Only approved visitors may deposit funds. County jails work differently: each jail contracts its own providers. For example, Iredell County Detention Center uses NCIC for phone, video, and messaging, per the county's own page. Check the specific jail's page before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Who provides phone service in North Carolina state prisons?",
+        answer: "ViaPath/GTL provides phone, tablet, and messaging services under contract with NCDAC. Tablets handle phone calls, text messages, and digitized mail, and kiosks and wall phones are also available. Families set up and fund accounts through ConnectNetwork at ConnectNetwork.com.",
+      },
+      {
+        question: "How much do phone calls cost in North Carolina state prisons?",
+        answer: "Local and long distance calls cost 10 cents per minute, plus applicable state and federal taxes, per the NCDAC Telephone and Tablet Services page. All calls are timed for 15 minutes. Payment fees also apply: $3.00 per use for automated payments, $5.94 per use for live operator payments, and $2.00 per use for paper bills or statements.",
+      },
+      {
+        question: "How do I set up phone calls with someone in a North Carolina prison?",
+        answer: "Calls are placed by the offender; families set up and fund the account. Use AdvancePay prepaid calling, which puts money on your phone number so funds are deducted when the offender calls you, or a PIN Debit account, which puts funds in the offender's account so the offender can call any allowed number. Set up either account at ConnectNetwork.com, in the ConnectNetwork mobile app, or by calling 1-800-483-8314 for AdvancePay.",
+      },
+      {
+        question: "How do I visit someone in a North Carolina prison?",
+        answer: "Visits are in person or by video. In-person visits are by appointment only: call or email the prison where the person is housed, and call the day before to confirm. Video visits use the Getting Out Visits app or a home computer with a webcam and microphone, and are limited to people on the offender's approved visitors list. Before any visit, the offender must mail you a blank visitor application, you must complete and return it to the prison, and facility staff must approve it. Each offender may have up to 18 approved visitors. Under normal circumstances, an offender gets no more than one visiting session per week, up to two hours, with no more than three visitors per session. Cell phones are contraband and prohibited in all prison facilities.",
+      },
+      {
+        question: "How do I send mail to someone in a North Carolina prison?",
+        answer: "Send it to TextBehind, not to the prison. Address it: Offender Name and OPUS Number, Name of Prison (do not abbreviate), P.O. Box 247, Phoenix, MD 21131. TextBehind scans letters, cards, photos, and artwork and delivers them electronically to the offender's tablet. The return address must include the sender's full first and last name; initials are not accepted, and mail not addressed this way will be returned. Legal mail is not sent through TextBehind; attorneys must contact the prison for instructions. Do not send packages through TextBehind; contact the individual prison facility about packages.",
+      },
+      {
+        question: "How do I send money to someone in a North Carolina prison?",
+        answer: "NCDAC partners with ViaPath for deposits. Use ConnectNetwork.com, the ConnectNetwork mobile app, phone (AdvancePay 800-483-8314; Trust and PIN Debit 888-428-1845), Western Union (payment code NCDAC TRUST), or a money order payable to TouchPay with a deposit slip to TouchPay Holdings NCDAC, PO Box 649556, Dallas, TX 75264-9556. Money orders carry no fee; other methods charge fees per the official NCDAC fee table (for example, online deposits of $20.00 to $99.00 cost $5.00). Only approved visitors may deposit funds. Prison facilities do not accept or process money orders.",
+      },
+      {
+        question: "How do I find someone in a North Carolina prison?",
+        answer: "Use the NCDAC Offender Public Information Search, searchable by name or offender ID, which covers state prison offenders, probationers, and parolees with records back to 1972. It does not include county jail information. For custody-status notifications, victims and their circles of support can use NC SAVAN. For someone in a county jail, contact the sheriff's office or jail directly, since NCDAC holds no county jail records.",
+      },
+    ],
+
+    facilitiesByType: { federal: 4, state: 54, county: 98, private: 0 },
+
+    counties: [
+      "Wake County", "Mecklenburg County", "Durham County", "Guilford County",
+      "Forsyth County", "Granville County", "Buncombe County", "Cumberland County",
+      "Gaston County", "New Hanover County", "Pitt County", "Robeson County",
+      "Union County", "Cabarrus County", "Iredell County",
+    ],
+
+    providers: [
+      {
+        name: "GTL",
+        slug: "gtl",
+        initial: "G",
+        color: "bg-amber-600",
+        description: "Phone, tablet, and messaging services in NCDAC state prisons under the ViaPath/GTL contract.",
+      },
+      {
+        name: "ConnectNetwork",
+        slug: "connectnetwork",
+        initial: "C",
+        color: "bg-blue-600",
+        description: "ViaPath's account portal for AdvancePay, PIN Debit, and trust deposits in NC state prisons.",
+      },
+      {
+        name: "TextBehind",
+        slug: "textbehind",
+        initial: "T",
+        color: "bg-violet-600",
+        description: "Mail scanning for NCDAC state prisons; letters are scanned and delivered electronically to tablets.",
+      },
+      {
+        name: "TouchPay",
+        slug: "touchpay",
+        initial: "T",
+        color: "bg-teal-600",
+        description: "Money-order deposits for NCDAC state prisons; money orders payable to TouchPay with a deposit slip.",
+      },
+      {
+        name: "CorrLinks",
+        slug: "corrlinks",
+        initial: "C",
+        color: "bg-emerald-700",
+        description: "Email system for federal BOP facilities in North Carolina, including FCC Butner.",
+      },
+    ],
+
+    featuredFacilities: [
+      {
+        name: "Central Prison",
+        slug: "central-prison",
+        type: "State Prison",
+        county: "Wake County",
+        features: ["Phone Calls", "Video Visits", "Messaging"],
+      },
+      {
+        name: "Federal Correctional Complex Butner",
+        slug: "federal-correctional-complex-butner",
+        type: "Federal Prison",
+        county: "Granville County",
+        features: ["Phone Calls", "Messaging"],
+      },
+      {
+        name: "Wake County Detention Center",
+        slug: "wake-county-detention-center",
+        type: "County Jail",
+        county: "Wake County",
+        features: ["Phone Calls", "Video Visits", "Money Transfer"],
+      },
+    ],
+  },
+
 }

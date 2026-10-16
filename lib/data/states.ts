@@ -83,7 +83,7 @@ export const ALL_STATES: StateBasic[] = [
   { id: "s-nv", name: "Nevada",         slug: "nevada",         abbreviation: "NV", facilityCount: 68,  region: "West",      hasDetailPage: true  },
   { id: "s-nh", name: "New Hampshire",  slug: "new-hampshire",  abbreviation: "NH", facilityCount: 28,  region: "Northeast", hasDetailPage: true  },
   { id: "s-nj", name: "New Jersey",     slug: "new-jersey",     abbreviation: "NJ", facilityCount: 33, region: "Northeast", hasDetailPage: true  },
-  { id: "s-nm", name: "New Mexico",     slug: "new-mexico",     abbreviation: "NM", facilityCount: 78,  region: "Southwest", hasDetailPage: true  },
+  { id: "s-nm", name: "New Mexico",     slug: "new-mexico",     abbreviation: "NM", facilityCount: 42,  region: "Southwest", hasDetailPage: true  },
   { id: "s-ny", name: "New York",       slug: "new-york",       abbreviation: "NY", facilityCount: 205, region: "Northeast", hasDetailPage: true  },
   { id: "s-nc", name: "North Carolina", slug: "north-carolina", abbreviation: "NC", facilityCount: 156, region: "Southeast", hasDetailPage: true  },
   { id: "s-nd", name: "North Dakota",   slug: "north-dakota",   abbreviation: "ND", facilityCount: 32,  region: "Midwest",   hasDetailPage: true  },
@@ -3897,23 +3897,61 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     name: "New Mexico",
     slug: "new-mexico",
     abbreviation: "NM",
-    facilityCount: 78,
+    facilityCount: 42,
     region: "Southwest",
     hasDetailPage: true,
 
-    description: "Find prisons and communication options in New Mexico. Compare messaging, video, and phone providers for correctional facilities across New Mexico.",
-    seoTitle: "New Mexico Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "How to contact someone in a New Mexico jail or prison. Find the right provider for NMCD state prisons and county jails.",
+    description: "How to contact someone in a New Mexico state prison or county jail. NMCD phone calls, video visits, mail, and money through Securus and Smart Communications.",
+    seoTitle: "New Mexico Inmate Phone Calls, Visits, Mail and Money (NMCD)",
+    seoDescription: "Contact someone in a New Mexico state prison: NMCD phone calls through Securus, video visits via Smart Communications tablets, Securus digital mail, and money deposits. County jails use separate vendors.",
 
     intro: [
-      "New Mexico's correctional system involves the New Mexico Corrections Department, which operates state prisons across the state, a notable presence of privately operated correctional facilities contracted to house state inmates, and county detention centers run by sheriffs in each of the state's 33 counties. New Mexico has one of the higher rates of private prison use in the country, meaning some state inmates are held in facilities operated by private companies rather than the NMCD directly, which affects which communication provider is available at a specific institution. New Mexico also has jurisdictional complexity due to its large Native American population, with tribal lands and tribal law enforcement adding a layer that can affect which system oversees a given case.",
+      "New Mexico runs several separate systems, and mixing them up is the most common mistake families make. State prisons are operated by the New Mexico Corrections Department (NMCD), which runs eight state-operated facilities, plus one privately operated facility, Otero County Prison Facility, that houses state inmates. County detention centers are run by the state's 33 counties, and each county sets its own phone, video, and messaging contracts. There are no federal Bureau of Prisons institutions in New Mexico; federal detainees in the state are held at contract detention facilities, a separate system again. This page covers the NMCD state prison system first, then explains how county jails differ.",
 
-      "JPay is the primary platform for New Mexico Corrections Department state facilities, supporting messaging, money transfer, and photo sharing. Securus and GTL handle phone and video services at state and county institutions. The Bernalillo County Metropolitan Detention Center in Albuquerque, which is the largest county detention facility in the state, operates under its own provider arrangements. Federal facilities in New Mexico require CorrLinks for electronic communication under Bureau of Prisons guidelines. Families dealing with privately operated facilities should verify provider arrangements at the specific institution, as private facilities may operate under contracts that differ from standard NMCD state prisons.",
+      "In NMCD state prisons, phone calls run through Securus, per New Mexico news reporting in 2022 that Securus held the NMCD phone contract. No official NMCD page names the phone vendor, so confirm the current provider with the facility before setting up a paid account. Video visits run through Smart Communications on inmate tablets, per the NMCD visitation page. General mail for the eight state-run prisons goes to the Securus Digital Mail Center in Tampa, Florida, where it is scanned and printed for delivery, per the same 2022 reporting. Money deposits are the murkiest part: NMCD trust-account policy requires funds by US mail money order, while directory pages report JPay online and phone deposits. Confirm the current deposit method with the facility before sending money.",
 
-      "New Mexico families navigating inmate communication often encounter the added complexity of a system where state, county, private, tribal, and federal facilities each operate under separate rules and separate providers. This is more layers than most states, and the lack of a single organized information source makes finding accurate answers time-consuming. This directory brings facility and provider data together for New Mexico so families can identify the right communication platform for their specific situation without sorting through multiple systems that each have their own separate resources.",
+      "To find someone in a state prison, use the NMCD offender search on the NMCD website; directory summaries describe it as searchable by name and other fields. For county jail custody, contact the county detention center directly. NMCD Inmate Records can be reached at (505) 827-8645.",
     ],
 
-    facilitiesByType: { federal: 6, state: 10, county: 48, private: 14 },
+
+    overview: [
+      "Who provides phone, video, mail, and money services in New Mexico state prisons? Phone calls run through Securus, per New Mexico news reporting in 2022 that Securus held the NMCD phone contract; no official NMCD page names the phone vendor. Video visits run through Smart Communications on inmate tablets, per the NMCD visitation page, and require NMCD approval. General mail for the eight state-run prisons goes to the Securus Digital Mail Center in Tampa, Florida, where it is scanned and printed for delivery, per the same 2022 reporting; get the exact address from NMCD's Inmate Mail Addresses page, since published reports of the address conflict. Money is the least clear part: NMCD trust-account policy requires funds by US mail money order from senders on the approved visitor list, while directory pages report JPay online and phone deposits. Confirm the current deposit method with the facility before sending money. Inmates cannot receive incoming phone calls; they place outgoing calls to people on their approved phone list. To get on the list, write to the inmate with your phone number and the inmate may request to add you.",
+      "How do visits work in New Mexico state prisons? All visitors must be on the inmate's current approved visitation list, and each inmate may have up to 15 approved visitors. Visitor applications must be renewed every two years. Only one visit a week is scheduled per inmate, per the NMCD visitation page. In-person visits are scheduled in advance and, at the facility described on the NMCD visitation page, run Monday to Friday in two-hour blocks (8:00 to 10:00 a.m., 10:00 a.m. to 12:00 p.m., 1:00 to 3:00 p.m.), with no visitation on weekends and visitation on most holidays. In-person barrier visits are non-contact unless the visitor is immediate family with proof of kinship. Visitors may bring up to $30 in loose change for vending machines; hats, sunglasses (unless prescription), cellphones, and other electronics are not allowed in visiting areas. Video visits are done through Smart Communications on inmate tablets, not scheduled through the facility; you must be approved through NMCD first. Schedules vary by facility, so confirm the current visiting schedule with the facility before traveling.",
+      "How do mail and money differ between state prisons and county jails in New Mexico? In NMCD state prisons, personal mail for the eight state-run prisons goes to the Securus Digital Mail Center in Tampa, Florida; get the exact address from NMCD's Inmate Mail Addresses page, since published reports of the address conflict. Mail must include the inmate's name and NMCD number or it is returned. Cash and personal checks are not accepted; packages with money or checks are returned unopened. All non-legal mail may be opened and inspected. Legal and privileged mail goes directly to the facility, is opened in the inmate's presence, photocopied with the inmate present, and the original is shredded. The privately operated facility processes mail on site, per 2022 reporting; confirm current routing with the facility, since NMCD's current facility list names only Otero as privately operated. County jails set their own contracts and may use completely different vendors and mail routes. For example, Lea County's official page lists ViaPath phone services (GettingOut for messaging and visits, AdvancePay, PIN Debit). Check the specific jail's page before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Who provides phone service in New Mexico state prisons?",
+        answer: "Securus, per New Mexico news reporting in 2022 that Securus held the NMCD phone contract, supported by the state's earlier Securus phone contract documents and by current directories. No official NMCD page names the phone vendor, so confirm the current provider with the facility before setting up a paid account. Inmates cannot receive incoming calls; they place outgoing calls to people on their approved phone list. To get on the list, write to the inmate with your phone number and the inmate may request to add you. No per-minute phone rate is published here because none was verified from an official or current source.",
+      },
+      {
+        question: "How do video visits work in New Mexico state prisons?",
+        answer: "Video visits run through Smart Communications on inmate tablets, per the NMCD visitation page. They are not scheduled through the facility. You must be approved through NMCD before you can schedule a video visit. A secondary facility guide reports scheduling by completing a Video Schedule Request form (CD-044101.1) and emailing it to NMCD-video@state.nm.us about two weeks in advance, with scheduling help at 827-8683 or 827-8641; confirm these details with NMCD, since they come from a secondary guide, not an official NMCD page.",
+      },
+      {
+        question: "How do I visit someone in person at a New Mexico state prison?",
+        answer: "All visitors must be on the inmate's current approved visitation list, and each inmate may have up to 15 approved visitors. Visitor applications must be renewed every two years. Only one visit a week is scheduled per inmate. In-person visits are scheduled in advance. At the facility described on the NMCD visitation page, in-person visits run Monday to Friday in two-hour blocks (8:00 to 10:00 a.m., 10:00 a.m. to 12:00 p.m., 1:00 to 3:00 p.m.), with no visitation on weekends and visitation on most holidays. Barrier visits are non-contact unless the visitor is immediate family with proof of kinship. Visitors may bring up to $30 in loose change for vending machines; hats, sunglasses (unless prescription), cellphones, and other electronics are not allowed in visiting areas. Schedules vary by facility, so confirm the current visiting schedule with the facility before traveling.",
+      },
+      {
+        question: "How do I send mail to someone in a New Mexico state prison?",
+        answer: "For the eight state-run prisons, send personal mail to the Securus Digital Mail Center in Tampa, Florida, where it is scanned and printed for delivery, per New Mexico news reporting in 2022. Get the exact address from NMCD's Inmate Mail Addresses page, since published reports of the address conflict. Mail must include the inmate's name and NMCD number or it is returned. Cash and personal checks are not accepted; packages with money or checks are returned unopened. All non-legal mail may be opened and inspected. Legal and privileged mail goes directly to the facility, is opened in the inmate's presence, photocopied with the inmate present, and the original is shredded. The privately operated facility processes mail on site; confirm current routing with the facility.",
+      },
+      {
+        question: "How do I send money to someone in a New Mexico state prison?",
+        answer: "Confirm the current deposit method with the facility before sending money, because the sources conflict. NMCD trust-account policy requires funds by US mail money order from senders on the approved visitor list; cash, currency, personal checks, and anonymous gifts are not accepted and are returned, and visitors may not leave money at the facility. Directory pages separately report JPay online deposits, phone deposits at 1-800-574-5729, and MoneyGram. Do not treat the JPay method as verified; it comes from directories, not an official NMCD page.",
+      },
+      {
+        question: "How do I find someone in a New Mexico state prison?",
+        answer: "Use the NMCD offender search on the NMCD website; directory summaries describe it as searchable by name and other fields. You can also call NMCD Inmate Records at (505) 827-8645. For someone in a county jail, contact the county detention center directly. For someone in federal custody in New Mexico, note that there are no BOP-operated institutions in the state; federal detainees are held at contract facilities, so contact the arresting federal agency or the contract facility.",
+      },
+      {
+        question: "Do county jails in New Mexico use the same providers as state prisons?",
+        answer: "No. Each county sets its own contracts, and county jails and state prisons are entirely separate systems with no shared provider infrastructure. For example, Lea County's official page lists ViaPath phone services (GettingOut for messaging and visits, AdvancePay, PIN Debit). Check the specific jail's page before setting up any account, because the provider for one county may be completely different from the provider for another.",
+      },
+    ],
+
+    facilitiesByType: { federal: 0, state: 8, county: 33, private: 1 },
 
     counties: [
       "Bernalillo County", "Doña Ana County", "Santa Fe County", "Sandoval County",
@@ -3924,42 +3962,35 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        description: "Messaging, photo sharing, and money transfer for New Mexico Corrections Department state facilities.",
-      },
-      {
         name: "Securus",
         slug: "securus",
         initial: "S",
         color: "bg-indigo-600",
-        description: "Phone and video calling at New Mexico state prisons and county detention centers.",
+        description: "Phone service and digital mail scanning for NMCD state-run prisons, per New Mexico news reporting in 2022. No official NMCD page names the phone vendor; confirm with the facility.",
       },
       {
-        name: "GTL",
-        slug: "gtl",
+        name: "Smart Communications",
+        slug: "smart-communications",
+        initial: "S",
+        color: "bg-cyan-600",
+        description: "Video visits on inmate tablets in NMCD state prisons, per the NMCD visitation page.",
+      },
+      {
+        name: "GettingOut",
+        slug: "gettingout",
         initial: "G",
-        color: "bg-amber-600",
-        description: "Phone and video services at select New Mexico county jails and correctional facilities.",
-      },
-      {
-        name: "CorrLinks",
-        slug: "corrlinks",
-        initial: "C",
-        color: "bg-emerald-700",
-        description: "Email communication for federal Bureau of Prisons facilities in New Mexico.",
+        color: "bg-orange-600",
+        description: "Messaging and visit services at Lea County, per the county's official page.",
       },
     ],
 
     featuredFacilities: [
       {
-        name: "Penitentiary of New Mexico",
-        slug: "penitentiary-of-new-mexico",
+        name: "New Mexico State Penitentiary",
+        slug: "new-mexico-state-penitentiary",
         type: "State Prison",
         county: "Santa Fe County",
-        features: ["Messaging", "Phone Calls", "Money Transfer"],
+        features: ["Phone Calls", "Video Visits"],
       },
       {
         name: "Bernalillo County Metropolitan Detention Center",
@@ -3969,11 +4000,11 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
       },
       {
-        name: "Lea County Correctional Facility",
-        slug: "lea-county-correctional-facility",
-        type: "State Prison",
-        county: "Lea County",
-        features: ["Messaging", "Phone Calls", "Money Transfer"],
+        name: "Dona Ana County Detention Center",
+        slug: "dona-ana-county-detention-center",
+        type: "County Jail",
+        county: "Dona Ana County",
+        features: ["Phone Calls", "Video Visits"],
       },
     ],
   },

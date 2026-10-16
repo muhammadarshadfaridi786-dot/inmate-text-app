@@ -497,14 +497,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Maine Correctional Center communication guide. Phone, visitation and deposit options for families of inmates at this Maine DOC state prison in Windham ME.",
 
   overview: [
-    "Maine Correctional Center is a state prison in Windham, Maine, operated by the Maine Department of Corrections.",
-    "Phone calls and video visitation at Maine Correctional Center run through Legacy Inmate Communications under the Maine DOC contract. Messaging and money transfer vendors are not confirmed.",
-    "Visitation follows Maine DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Maine Correctional Center is a state prison in Windham, Maine, operated by the Maine Department of Corrections. Families should confirm the resident's current housing location with the facility before setting up any account.",
+    "Phone calls and video visits at Maine Correctional Center have run through Legacy Inmate Communications under a Maine DOC agreement signed in 2017, and the DOC's own video visitation brochure names Legacy for video visits at the facility. Because no newer official contract was found, confirm the current vendor with Maine DOC before funding any account. Calls are placed by the resident.",
+    "Maine law requires each DOC facility to publish guidelines for resident access to free telephone calls, under a 2023 law. A 2025 bill, LD 647, would go further and require 90 minutes per week of free phone and video calls for DOC residents, plus no fee to deposit money into a phone or video account and no connection fee. The bill's enactment was not confirmed, so ask the facility how the free-call allowance works.",
+    "Mail follows the Maine DOC two-address system, confirmed on the DOC's own Mail and Visitation page. Send general correspondence to the resident's name and MDOC number at Maine Correctional Center, 813 Cushing Road, Warren, ME 04864. Send packages, magazines, newspapers, and legal mail to the resident's name and MDOC number at Maine Correctional Center, 17 Mallison Falls Road, Windham, Maine 04062. General correspondence must be on 8.5 x 11 inch white paper in black or dark blue ink, with a verifiable name and return address, and cash must not be sent.",
+    "Money and messaging vendors are not confirmed from an official source. The DOC site offers an Add Funds Online option and an inmate search-and-deposit tool, but no retrieved official source names the deposit vendor, the rates, or the limits. Confirm the deposit and messaging setup with Maine DOC before sending money or messages. Visitation follows Maine DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded. Confirm the current visit steps and schedule with the facility before traveling.",
   ],
 
   operatedBy: "Maine Department of Corrections",
-    mailingAddress: "Inmate Name and MDOC Number, Maine Correctional Center, 17 Mallison Falls Road, Windham, ME 04062.",
-    visitingHours: "Visitors must complete a Maine DOC visitor application and wait for approval before visiting. Applications can take up to six weeks to process. Once approved, schedule with the facility and confirm the current visiting schedule.",
+    mailingAddress: "General correspondence: Resident Name and MDOC Number, Maine Correctional Center, 813 Cushing Road, Warren, ME 04864. Packages, magazines, newspapers, and legal mail: Resident Name and MDOC Number, Maine Correctional Center, 17 Mallison Falls Road, Windham, Maine 04062.",
+    visitingHours: "Visitors must complete a Maine DOC visitor application and wait for approval before visiting. Once approved, schedule with the facility and confirm the current visiting schedule and processing time.",
     fax: "(207) 893-7001",
 
   providers: [
@@ -518,15 +520,15 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "Legacy Inmate Communications provides phone service and video visitation under the Maine DOC contract.",
+      notes: "Legacy Inmate Communications has provided phone service and video visitation under a Maine DOC agreement signed in 2017. Confirm the current vendor with Maine DOC before funding an account, since no newer official contract was found.",
     },
   ],
 
   communication: {
     messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "available", provider: "Legacy Inmate Communications", notes: "Video visits through Legacy Inmate Communications. Schedule in advance." },
+    video: { status: "available", provider: "Legacy Inmate Communications", notes: "Video visits through Legacy Inmate Communications, per the DOC's video visitation brochure. Schedule in advance. Confirm the current vendor with Maine DOC before funding an account." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "Legacy Inmate Communications", notes: "Phone calls through Legacy Inmate Communications." },
+    phone: { status: "available", provider: "Legacy Inmate Communications", notes: "Phone calls through Legacy Inmate Communications under the 2017 Maine DOC agreement. Confirm the current vendor with Maine DOC before funding an account." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -539,14 +541,15 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Maine Correctional Center?", answer: "Phone calls run through Legacy Inmate Communications under the Maine DOC contract." },
+    { question: "Which company handles phone calls at Maine Correctional Center?", answer: "Legacy Inmate Communications has been the vendor under a Maine DOC agreement signed in 2017, and the DOC's own video visitation brochure names Legacy for video visits. Because no newer official contract was found, confirm the current vendor with Maine DOC before funding an account." },
     { question: "How do I visit someone at Maine Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Maine DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is Maine Correctional Center?", answer: "Maine Correctional Center is in Windham, Maine. It is operated by the Maine Department of Corrections." },
-    { question: "How do I mail a letter to someone at Maine Correctional Center?", answer: "Address the envelope with the inmate name and MDOC number, Maine Correctional Center, 17 Mallison Falls Road, Windham, ME 04062. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at Maine Correctional Center?", answer: "Maine DOC uses a two-address mail system. Send general correspondence to the resident's name and MDOC number, Maine Correctional Center, 813 Cushing Road, Warren, ME 04864. Send packages, magazines, newspapers, and legal mail to the resident's name and MDOC number, Maine Correctional Center, 17 Mallison Falls Road, Windham, Maine 04062. Letters must be on 8.5 x 11 inch white paper in black or dark blue ink, with a verifiable return address. Never include cash. Mail is inspected for contraband." },
     { question: "How do I find an inmate at Maine Correctional Center?", answer: "Use the Maine DOC adult resident search by name to confirm custody status, or contact the facility. Have the person's full legal name ready." },
-    { question: "Can an inmate at Maine Correctional Center call me?", answer: "Yes. Inmates place outgoing calls through Legacy Inmate Communications. Keep your number on the approved list. Inmates cannot receive incoming calls." },
-    { question: "How do I block calls from Maine Correctional Center?", answer: "Contact Legacy Inmate Communications to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I get approved to visit Maine Correctional Center?", answer: "Complete a Maine DOC visitor application and wait for approval before visiting. Applications can take up to six weeks to process. Once approved, schedule with the facility and confirm the current visiting schedule." },
+    { question: "Can an inmate at Maine Correctional Center call me?", answer: "Yes. Inmates place outgoing calls through the facility's phone provider. Legacy Inmate Communications has been the vendor under a Maine DOC agreement signed in 2017; confirm the current vendor with Maine DOC before funding an account. Keep your number on the approved list. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from Maine Correctional Center?", answer: "Ask the facility's current phone provider to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
+    { question: "How do I get approved to visit Maine Correctional Center?", answer: "Complete a Maine DOC visitor application and wait for approval before visiting. Once approved, schedule with the facility and confirm the current visiting schedule and processing time." },
+    { question: "Are phone calls free at Maine Correctional Center?", answer: "Maine law requires each DOC facility to publish guidelines for resident access to free telephone calls, under a 2023 law. A 2025 bill, LD 647, would require 90 minutes per week of free phone and video calls, but its enactment was not confirmed. Ask the facility how the free-call allowance works." },
     { question: "How do I send money to someone at Maine Correctional Center?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with the facility before sending money." },
   ],
 

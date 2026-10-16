@@ -82,7 +82,7 @@ export const ALL_STATES: StateBasic[] = [
   { id: "s-ne", name: "Nebraska",       slug: "nebraska",       abbreviation: "NE", facilityCount: 78,  region: "Midwest",   hasDetailPage: true  },
   { id: "s-nv", name: "Nevada",         slug: "nevada",         abbreviation: "NV", facilityCount: 68,  region: "West",      hasDetailPage: true  },
   { id: "s-nh", name: "New Hampshire",  slug: "new-hampshire",  abbreviation: "NH", facilityCount: 28,  region: "Northeast", hasDetailPage: true  },
-  { id: "s-nj", name: "New Jersey",     slug: "new-jersey",     abbreviation: "NJ", facilityCount: 118, region: "Northeast", hasDetailPage: true  },
+  { id: "s-nj", name: "New Jersey",     slug: "new-jersey",     abbreviation: "NJ", facilityCount: 33, region: "Northeast", hasDetailPage: true  },
   { id: "s-nm", name: "New Mexico",     slug: "new-mexico",     abbreviation: "NM", facilityCount: 78,  region: "Southwest", hasDetailPage: true  },
   { id: "s-ny", name: "New York",       slug: "new-york",       abbreviation: "NY", facilityCount: 205, region: "Northeast", hasDetailPage: true  },
   { id: "s-nc", name: "North Carolina", slug: "north-carolina", abbreviation: "NC", facilityCount: 156, region: "Southeast", hasDetailPage: true  },
@@ -2561,23 +2561,61 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     name: "New Jersey",
     slug: "new-jersey",
     abbreviation: "NJ",
-    facilityCount: 118,
+    facilityCount: 33,
     region: "Northeast",
     hasDetailPage: true,
 
-    description: "Find prisons and communication options in New Jersey. Compare messaging, video, and phone providers for correctional facilities across New Jersey.",
-    seoTitle: "New Jersey Inmate Phone Calls, Messaging and Money Transfer",
-    seoDescription: "New Jersey reduced inmate call rates to $0.034 per minute. How to contact someone in NJ prison or county jail. JPay transitioning to ViaPath.",
+    description: "How to contact someone in a New Jersey state prison or county jail. NJDOC phone calls, video visits, mail, and money through ViaPath, GettingOut, and ConnectNetwork.",
+    seoTitle: "New Jersey Inmate Phone Calls, Visits, Mail and Money (NJDOC)",
+    seoDescription: "Contact someone in a New Jersey state prison: NJDOC phone calls at 3.4 cents a minute through ViaPath, video visits, messaging, and money deposits. County jails use separate vendors.",
 
     intro: [
-      "New Jersey operates a correctional system through the New Jersey Department of Corrections, which manages state prisons including New Jersey State Prison in Trenton, East Jersey State Prison in Middlesex County, and several other institutions distributed across the state. New Jersey's 21 counties each operate their own county jail, and the density of the state means that multiple large county facilities serve populations in close geographic proximity. Essex County Correctional Facility in Newark, Hudson County Correctional Center, and the Mercer County Correction Center in Trenton each serve major urban populations under separate provider arrangements. The federal correctional complex at Fort Dix in Burlington County adds a significant federal population to the state.",
+      "New Jersey runs two separate systems, and mixing them up is the most common mistake families make. State prisons are operated by the New Jersey Department of Corrections (NJDOC), which runs nine state correctional facilities. County jails are run by the state's 21 counties, and each county sets its own phone, video, and messaging contracts. Federal prisons in New Jersey, FCI Fort Dix and FCI Fairton, use the federal BOP system and are separate again. This page covers the state prison system first, then explains how county jails differ.",
 
-      "JPay is the standard platform for New Jersey Department of Corrections state facilities, handling messaging, money transfer, and photo sharing. Securus and GTL provide phone and video services at state prisons and county jails across the state. County jails in New Jersey each have their own provider contracts, and some operate independent communication systems set up at the county level. FCI Fort Dix, one of the larger federal prisons on the East Coast, and other Bureau of Prisons institutions in New Jersey require CorrLinks for electronic communication. New Jersey's proximity to New York means some families are dealing with a mix of systems if a loved one has been in the New York City jail network before transferring to a New Jersey facility.",
+      "In 2025, NJDOC switched its inmate communications provider from JPay to ViaPath Technologies. JPay is no longer used as of July 31, 2025, so do not set up a JPay account for a New Jersey state prison. ViaPath secure devices are loaned to eligible incarcerated individuals at no cost. Families use GettingOut for messaging and Friends and Family communication services, and ConnectNetwork to deposit funds. Video visitation uses a separate account. The rollout deployed 10,823 devices across the nine facilities and was completed in September, per the NJDOC newsletter.",
 
       "Finding reliable communication information for New Jersey correctional facilities can be complicated by the density of the system. Multiple large county jails, a substantial state prison network, and federal facilities all operate in a relatively compact geographic area, each with their own provider. This directory organizes facility and provider information for New Jersey so families can identify the right platform for their specific situation without sorting through multiple county and state websites to find a basic answer.",
     ],
 
-    facilitiesByType: { federal: 10, state: 14, county: 86, private: 8 },
+
+    overview: [
+      "Who provides phone, messaging, money, and video visits in New Jersey state prisons? ViaPath Technologies provides all communication services in NJDOC state prisons after the March 2025 transition from JPay; JPay is no longer used as of July 31, 2025. Families use GettingOut for messaging and Friends and Family communication services, and ConnectNetwork to deposit funds. One account covers both, with the same login credentials. Video visitation uses a separate account at njdoc.gtlvisitme.com. Phone calls cost $0.034 per minute as of May 1, 2025. Watch out for the funds trap: PIN debit funds work for both phones and messaging, but funds added to a Friends and Family messaging account can only be used to send messages and photos.",
+      "How do video visits work in New Jersey state prisons? Video visitation is rolling out facility by facility, starting at Edna Mahan Correctional Facility and Bayside State Prison. Visitors must create a separate video visitation account at njdoc.gtlvisitme.com, providing full name, address, date of birth, email address, and front and back images of a valid government-issued ID. NJDOC custody staff review each registration, and the visitor must appear on the incarcerated person's approved Visit List; review may take several business days. Once approved, schedule at least 72 hours before the requested time. At Edna Mahan, incarcerated persons may participate in up to two video visits per week. Video visits are not scheduled on weekends and holidays, and they are monitored. If a scheduled visit is canceled and does not occur, a credit is issued per policy; no refunds or credits apply when a visit is terminated for rule violations. In-person visits are arranged through the facility and require being on the approved visitor list; check the facility's current visiting schedule before going.",
+      "How do mail and money differ between state prisons and county jails in New Jersey? Money goes through ViaPath: deposit online at ConnectNetwork.com, in the ViaPath app, or by phone, or send a money order using the ViaPath Technologies Trust Account Money Order Payments deposit slip. The fee schedule is $0.90 for deposits of $0.01 to $9.99, $1.75 for $10.00 to $19.99, $5.95 for $20.00 to $99.99, $6.95 for $100 to $199.99, and $7.95 for $200.00 to $300.00. Trust account funds can be used for commissary, phone calls, business remits such as publications, gifts, and donations, incentive programs, and transfers to a JPay Media Account. For mail, directory pages report addressing with the incarcerated person's full name and SBI number plus your full name and address; confirm current mail rules with the facility, since NJDOC has changed its mail process to reduce contraband. No mail vendor or central mail address is claimed here because none was verified from an official NJDOC page. County jails work differently: each county contracts its own providers. For example, Essex County uses the GettingOut Visits app for professional video visits, Hudson County uses GettingOut tablets, and Burlington County uses Access Corrections for money deposits. Check the specific jail's page before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Who provides phone service in New Jersey state prisons?",
+        answer: "ViaPath Technologies. NJDOC switched from JPay to ViaPath beginning in March 2025, and JPay is no longer used as of July 31, 2025. Phone calls cost $0.034 per minute as of May 1, 2025. Phone calls from the ViaPath secure device follow the same rules and rates as wall phones. If phone privileges are suspended, the individual cannot place calls from the device.",
+      },
+      {
+        question: "How do I send messages to someone in a New Jersey state prison?",
+        answer: "Use GettingOut, ViaPath's messaging service. Create an account, then send a contact request; the incarcerated individual chooses whether to accept. Incarcerated individuals cannot start contact. All messages, photos, and videos are reviewed and must comply with NJDOC rules. Fund messaging through ConnectNetwork. Note the funds trap: PIN debit funds work for both phones and messaging, but funds added to a Friends and Family messaging account can only be used to send messages and photos.",
+      },
+      {
+        question: "How do I send money to someone in a New Jersey state prison?",
+        answer: "Deposit through ViaPath at ConnectNetwork.com, in the ViaPath app, or by phone, or send a money order using the ViaPath Technologies Trust Account Money Order Payments deposit slip. The fee schedule is $0.90 for $0.01 to $9.99, $1.75 for $10.00 to $19.99, $5.95 for $20.00 to $99.99, $6.95 for $100 to $199.99, and $7.95 for $200.00 to $300.00. Do not use JPay; JPay ended July 31, 2025.",
+      },
+      {
+        question: "How do video visits work in New Jersey state prisons?",
+        answer: "Create a separate video visitation account at njdoc.gtlvisitme.com; your GettingOut and ConnectNetwork credentials will not work for video visits. Provide full name, address, date of birth, email address, and front and back images of a valid government-issued ID. NJDOC custody staff review the registration, and you must appear on the incarcerated person's approved Visit List; review may take several business days. Once approved, schedule at least 72 hours before the requested time. At Edna Mahan, incarcerated persons may participate in up to two video visits per week. Video visits are not scheduled on weekends and holidays, and they are monitored. If a scheduled visit is canceled and does not occur, a credit is issued per policy; no refunds or credits apply when a visit is terminated for rule violations.",
+      },
+      {
+        question: "How do I visit someone in person at a New Jersey state prison?",
+        answer: "In-person visits are arranged through the facility and require being on the approved visitor list. Check the facility's current visiting schedule before going. Directory pages report that visits are by appointment scheduled 48 hours in advance, with a background check, photo ID, and a dress code; confirm these details with the facility, since they were not verified from an official NJDOC page.",
+      },
+      {
+        question: "How do I send mail to someone in a New Jersey state prison?",
+        answer: "Directory pages report addressing mail with the incarcerated person's full name and SBI number, plus your full name and address. NJDOC has changed its mail process to reduce contraband, so confirm the current mail rules with the facility before sending. No mail vendor or central mail address is stated here because none was verified from an official NJDOC page. Do not send money through the mail; use ConnectNetwork or a ViaPath money order deposit slip.",
+      },
+      {
+        question: "How do I find someone in a New Jersey state prison?",
+        answer: "Use the NJDOC Offender Search Engine, which directory summaries describe as covering people in state prisons and residential community release programs. For someone in a county jail, contact the sheriff's office or county jail directly. For someone in a federal prison in New Jersey, use the BOP inmate locator.",
+      },
+    ],
+
+    facilitiesByType: { federal: 2, state: 9, county: 22, private: 0 },
 
     counties: [
       "Bergen County", "Middlesex County", "Essex County", "Hudson County",
@@ -2588,25 +2626,25 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        description: "Messaging and money transfer for New Jersey Department of Corrections state facilities.",
-      },
-      {
-        name: "Securus",
-        slug: "securus",
-        initial: "S",
-        color: "bg-indigo-600",
-        description: "Phone and video calling at New Jersey state prisons and county correctional facilities.",
-      },
-      {
-        name: "GTL",
+        name: "ViaPath",
         slug: "gtl",
-        initial: "G",
+        initial: "V",
         color: "bg-amber-600",
-        description: "Phone and video services at select New Jersey county jails and detention centers.",
+        description: "Phone, messaging, video visits, and money services in NJDOC state prisons after the 2025 transition from JPay.",
+      },
+      {
+        name: "GettingOut",
+        slug: "gettingout",
+        initial: "G",
+        color: "bg-orange-600",
+        description: "Messaging and Friends and Family communication services in NJDOC state prisons; also used by Essex and Hudson county jails.",
+      },
+      {
+        name: "ConnectNetwork",
+        slug: "connectnetwork",
+        initial: "C",
+        color: "bg-sky-600",
+        description: "Deposit portal for NJDOC trust accounts, PIN debit, and messaging funds.",
       },
       {
         name: "CorrLinks",
@@ -2614,6 +2652,13 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         initial: "C",
         color: "bg-emerald-700",
         description: "Email communication for federal Bureau of Prisons facilities in New Jersey, including Fort Dix.",
+      },
+      {
+        name: "Access Corrections",
+        slug: "access-corrections",
+        initial: "A",
+        color: "bg-teal-600",
+        description: "Money deposits and commissary orders at Burlington County jail, per the county's own page.",
       },
     ],
 

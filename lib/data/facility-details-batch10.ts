@@ -1740,15 +1740,17 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Natrona County Jail communication guide. Phone, visitation and deposit options for families of inmates at this Natrona County detention center in Casper WY.",
 
   overview: [
-    "Natrona County Jail, officially known as the Natrona County Detention Center, is the county detention center in Casper, Wyoming, operated by the Natrona County Sheriff's Office.",
-    "Phone calls and video visits at Natrona County Jail run through NCIC Correctional Services.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Natrona County Jail, officially the Natrona County Detention Center, is the county detention center in Casper, Wyoming, operated by the Natrona County Sheriff's Office. Its function is to safely and securely detain both pre-trial detainees and sentenced inmates. The facility is at 1100 Bruce Lane, Casper, WY 82601, and the Detention Center phone is (307) 235-9521.",
+    "Since March 14, 2024, all communications between the public and people incarcerated at the center run through NCIC Inmate Communications. Phone calls, video visits, and messaging all use NCIC. Set up and fund a prepaid account at account.ncic.com or by calling 1-800-943-2189.",
+    "Video visits cost 30 cents per minute. Messages cost 25 cents each, and picture messages and video messages cost 35 cents each, with no limit on how many can be sent, and inmates receive them instantly. In-person non-contact visits may be approved case by case with special circumstances; requests go to Lieutenant Schumacker or Lieutenant Davison at 307-235-9521. Visitors must dress modestly, and the county publishes a list of clothing that is not allowed.",
+    "Paper mail changed on March 14, 2024. All mail except books, magazines, newspapers, legal mail, and medical mail must go to: Inmate full name, Natrona County Detention Center, PO Box 591, Longview, Texas 75606. Mail is limited to 5 pages, front side only, one photo per mailing, and envelopes no larger than 8.5 by 11 inches. Mail is scanned, delivered electronically through the NCIC messaging system, then destroyed, so it will not be returned. Books, magazines, newspapers, legal mail, and medical mail go directly to the facility at 201 N David, Casper, WY 82601.",
+    "Money goes into an inmate account in person or by mail. The Detention Center accepts cash, Western Union or MoneyGram money orders, and cashier's checks. Credit cards and personal checks are not accepted, and cash must not be sent through the mail. Mail money orders or cashier's checks alone to: Inmate full name, C/O NCDC, 201 N David, 2nd Floor, Casper, WY 82601, with a return address. Deposit hours are Sunday through Saturday, 8:00 to 11:00 a.m., 1:00 to 4:00 p.m., and after 6:00 p.m. Questions can go to the Detention Center at (307) 235-9524.",
   ],
 
   operatedBy: "Natrona County Sheriff's Office",
-    mailingAddress: "Inmate Full Name, Natrona County Jail, 1100 Bruce Lane, Casper, WY 82601.",
-    visitingHours: "There are no in-person friend and family visits. All friend and family visits are non-contact remote visits through NCIC. Schedule in advance and confirm the current process with the facility.",
-    commissary: "Deposits through JailATM, including the lobby kiosk. Confirm current deposit options with the facility.",
+    mailingAddress: "Regular mail (except books, magazines, newspapers, legal and medical mail): Inmate full name, Natrona County Detention Center, PO Box 591, Longview, TX 75606. Books, magazines, newspapers, legal and medical mail: Inmate full name, Natrona County Detention Center, 201 N David, Casper, WY 82601.",
+    visitingHours: "All friend and family visits are remote video visits through NCIC. In-person non-contact visits may be approved case by case with special circumstances; contact Lt. Schumacker or Lt. Davison at 307-235-9521. Video visits $0.30 per minute. Schedule at account.ncic.com. Visitors must dress modestly.",
+    commissary: "Deposits in person Sunday through Saturday, 8:00-11:00 a.m., 1:00-4:00 p.m., and after 6:00 p.m., or by mail. Accepts cash, Western Union or MoneyGram money orders, and cashier's checks. Credit cards and personal checks are not accepted.",
 
   providers: [
     {
@@ -1756,25 +1758,26 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       slug: "ncic",
       initial: "N",
       color: "bg-rose-600",
-      messaging: false,
+      messaging: true,
       video: true,
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "NCIC provides phone service and video visitation.",
+      notes: "NCIC provides phone, video visitation, and messaging for all communications since March 14, 2024, per the county visitation page. Account setup at account.ncic.com or 1-800-943-2189.",
     },
   ],
 
   communication: {
-    messaging: { status: "limited", notes: "Messaging options are not confirmed. Ask the facility which vendor, if any, handles electronic messages." },
-    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC. Messages 25 cents each, picture messages and video messages 35 cents each, no limit, per the county visitation page." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Video visits $0.30 per minute. Set up and fund an account at account.ncic.com or 1-800-943-2189." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications, per the county visitation page. Account setup at ncic.com." },
+    moneyTransfer: { status: "available", notes: "Deposits in person or by mail, per the county Sending Money page. Accepts cash, Western Union or MoneyGram money orders, and cashier's checks. Credit cards and personal checks are not accepted." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "All communications run through NCIC Inmate Communications since March 14, 2024. Set up an account at account.ncic.com.",
+    "Regular mail goes to PO Box 591; books, magazines, newspapers, legal and medical mail go to 201 N David.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the county dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -1782,15 +1785,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Natrona County Jail?", answer: "Phone calls run through NCIC Correctional Services." },
-    { question: "How do I visit someone at Natrona County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
+    { question: "Which company handles phone calls at Natrona County Jail?", answer: "Phone calls run through NCIC Inmate Communications. Set up and fund a prepaid account at account.ncic.com or by calling 1-800-943-2189." },
+    { question: "How do I visit someone at Natrona County Jail?", answer: "All friend and family visits are remote video visits through NCIC. In-person non-contact visits may be approved case by case with special circumstances; contact Lt. Schumacker or Lt. Davison at 307-235-9521. Visitors must dress modestly." },
     { question: "What is the official name of Natrona County Jail?", answer: "The facility is officially known as the Natrona County Detention Center. It is operated by the Natrona County Sheriff's Office in Casper." },
-    { question: "How do I mail a letter to someone at Natrona County Jail?", answer: "Address the envelope with the inmate's full name, Natrona County Jail, 1100 Bruce Lane, Casper, WY 82601. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at Natrona County Jail?", answer: "Send regular mail, except books, magazines, newspapers, legal mail, and medical mail, to: Inmate full name, Natrona County Detention Center, PO Box 591, Longview, Texas 75606. Mail is limited to 5 pages, front side only, one photo per mailing, and envelopes no larger than 8.5 by 11 inches. It is scanned, delivered electronically, then destroyed, so it will not be returned. Send books, magazines, newspapers, legal mail, and medical mail directly to the facility at 201 N David, Casper, WY 82601." },
     { question: "How do I find out if someone is at Natrona County Jail?", answer: "Contact the facility or the Natrona County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
     { question: "Can an inmate at Natrona County Jail call me?", answer: "Yes. Inmates place outgoing calls through NCIC. Set up an NCIC account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Natrona County Jail?", answer: "Contact NCIC to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "Are in-person visits allowed at Natrona County Jail?", answer: "No. There are no in-person friend and family visits. All friend and family visits are non-contact remote visits through NCIC. Schedule in advance through NCIC." },
-    { question: "How do I schedule a video visit at Natrona County Jail?", answer: "Video visits are remote visits through NCIC. Create an NCIC account, add the inmate, and schedule in advance. Confirm the current process with the facility." },
+    { question: "Are in-person visits allowed at Natrona County Jail?", answer: "Generally no. All friend and family visits are remote video visits through NCIC. In-person non-contact visits may be approved case by case with special circumstances; contact Lt. Schumacker or Lt. Davison at 307-235-9521." },
+    { question: "How do I schedule a video visit at Natrona County Jail?", answer: "Set up and fund an NCIC prepaid account at account.ncic.com or by calling 1-800-943-2189. Video visits cost 30 cents per minute." },
+    { question: "How do I send money to someone at Natrona County Jail?", answer: "Deposit in person Sunday through Saturday, 8:00-11:00 a.m., 1:00-4:00 p.m., and after 6:00 p.m., or by mail. The Detention Center accepts cash, Western Union or MoneyGram money orders, and cashier's checks. Credit cards and personal checks are not accepted, and cash must not be sent through the mail. Mail a money order or cashier's check alone to: Inmate full name, C/O NCDC, 201 N David, 2nd Floor, Casper, WY 82601, with a return address." },
   ],
 
   relatedFacilitySlugs: ["wyoming-state-penitentiary", "wyoming-medium-correctional-institution", "laramie-county-detention-center"],

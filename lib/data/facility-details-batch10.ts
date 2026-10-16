@@ -985,9 +985,12 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Hughes County Jail communication guide. Reliance Telephone phone and video visits, Jail ATM deposits, and Inmate Canteen commissary for families of inmates at this Hughes County jail in Pierre SD.",
 
   overview: [
-    "Hughes County Jail is the county jail in Pierre, South Dakota, operated by the Hughes County Sheriff's Office.",
-    "Remote video visits run through Reliance Telephone, per the county jail page: schedule at reliancetelephone.com. On-site non-contact visits are also available in the jail visit room, one visit per day.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Hughes County Jail is the county jail in Pierre, South Dakota, operated by the Hughes County Sheriff's Office. The jail is at 3100 E Hwy 34, Pierre, SD 57501. Its stated mission is safe, secure, and professional detention and court security services.",
+    "Phone calls, texting, and remote video visits run through Reliance Telephone. Schedule a remote video visit at reliancetelephone.com. Remote visits run daily from 8:00 a.m. to 10:00 p.m. For help with a remote visit, contact Reliance support on its website or at 1.800.896.3201.",
+    "On-site non-contact visits are available from the jail visit room, with one visit per day. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Leave a voicemail for an inmate at 605-223-5244. Since July 1, 2026, the jail no longer accepts personal mail at the jail address. Send personal mail to the processing address: Hughes County Jail, Pierre, SD, Inmate Full Name, 1533 S 42nd St Suite 200, Grand Forks, ND 58201. Send legal mail and money orders to the jail address in Pierre.",
+    "Send money through Jail ATM online or at the jail lobby kiosk. Online, select Hughes County Jail and search by inmate name. The kiosk accepts cash or Visa, MasterCard, and Discover, charges a $3.00 transaction fee, and transactions are final and non-refundable. Funds by mail must be a U.S. Postal Money Order or cashier's check, with a $500 maximum.",
+    "Order commissary through Inmate Canteen at team3.inmatecanteen.com. Orders are processed twice per week. Orders placed by Sunday at 10:00 p.m. MST are delivered Tuesday, and orders placed by Wednesday at 10:00 p.m. MST are delivered Friday. Holidays may affect delivery, and inmates must have available funds to place an order.",
   ],
 
   operatedBy: "Hughes County Sheriff's Office",
@@ -1060,7 +1063,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     { question: "Can an inmate at Hughes County Jail call me?", answer: "Inmates place outgoing calls through Reliance Telephone. Purchase credits from Reliance. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Hughes County Jail?", answer: "Ask the facility how to block calls from the jail, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
     { question: "How do I schedule a visit at Hughes County Jail?", answer: "Visits are scheduled in advance and require approved-visitor status. Contact the facility for the current scheduling process and visiting hours." },
-    { question: "How do I send money to someone at Hughes County Jail?", answer: "Deposits run through Jail ATM online or at the lobby kiosk ($3.00 transaction fee). Money orders up to $500 can be mailed to the jail." },
+    { question: "How do I schedule a remote video visit at Hughes County Jail?", answer: "Schedule at reliancetelephone.com. Remote visits run daily from 8:00 a.m. to 10:00 p.m. For help, contact Reliance support on its website or at 1.800.896.3201." },
+    { question: "How do I send money to someone at Hughes County Jail?", answer: "Deposits run through Jail ATM online or at the lobby kiosk ($3.00 transaction fee). Online, select Hughes County Jail and search by inmate name. The kiosk accepts cash or Visa, MasterCard, and Discover, and transactions are final and non-refundable. Money orders up to $500 can be mailed to the jail." },
+    { question: "How do I order commissary for an inmate at Hughes County Jail?", answer: "Order through Inmate Canteen at team3.inmatecanteen.com. Orders are processed twice per week. Orders placed by Sunday at 10:00 p.m. MST are delivered Tuesday, and orders placed by Wednesday at 10:00 p.m. MST are delivered Friday. Holidays may affect delivery, and inmates must have available funds to place an order." },
     { question: "Where do I send mail to someone at Hughes County Jail?", answer: "Since July 1, 2026, personal mail goes to: Inmate Full Name and Inmate ID, Hughes County Jail, 1533 S 42nd St Suite 200, Grand Forks, ND 58201. Legal mail and money orders still go to 3100 East Highway 34, Pierre, SD 57501." },
     { question: "Is there an inmate voicemail line at Hughes County Jail?", answer: "Yes. The jail lists an inmate voicemail line at 605-223-5244." },
   ],

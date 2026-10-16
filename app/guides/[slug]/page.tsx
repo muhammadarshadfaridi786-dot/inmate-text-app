@@ -62,6 +62,7 @@ export default async function GuideDetailPage({ params }: PageProps) {
     { label: "Photo Sharing",     href: "/photo-sharing" },
     { label: "Phone Calls",       href: "/phone-calls"   },
     { label: "Money Transfer",    href: "/money-transfer"},
+    { label: "Communication Costs by State", href: "/costs-by-state" },
     { label: "All Facilities",    href: "/facilities"    },
   ]
 

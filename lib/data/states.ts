@@ -81,7 +81,7 @@ export const ALL_STATES: StateBasic[] = [
   { id: "s-mt", name: "Montana",        slug: "montana",        abbreviation: "MT", facilityCount: 42,  region: "West",      hasDetailPage: true  },
   { id: "s-ne", name: "Nebraska",       slug: "nebraska",       abbreviation: "NE", facilityCount: 78,  region: "Midwest",   hasDetailPage: true  },
   { id: "s-nv", name: "Nevada",         slug: "nevada",         abbreviation: "NV", facilityCount: 68,  region: "West",      hasDetailPage: true  },
-  { id: "s-nh", name: "New Hampshire",  slug: "new-hampshire",  abbreviation: "NH", facilityCount: 28,  region: "Northeast", hasDetailPage: true  },
+  { id: "s-nh", name: "New Hampshire",  slug: "new-hampshire",  abbreviation: "NH", facilityCount: 14,  region: "Northeast", hasDetailPage: true  },
   { id: "s-nj", name: "New Jersey",     slug: "new-jersey",     abbreviation: "NJ", facilityCount: 33, region: "Northeast", hasDetailPage: true  },
   { id: "s-nm", name: "New Mexico",     slug: "new-mexico",     abbreviation: "NM", facilityCount: 42,  region: "Southwest", hasDetailPage: true  },
   { id: "s-ny", name: "New York",       slug: "new-york",       abbreviation: "NY", facilityCount: 205, region: "Northeast", hasDetailPage: true  },
@@ -5142,23 +5142,65 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     name: "New Hampshire",
     slug: "new-hampshire",
     abbreviation: "NH",
-    facilityCount: 28,
+    facilityCount: 14,
     region: "Northeast",
     hasDetailPage: true,
 
-    description: "Find prisons and communication options in New Hampshire. Compare messaging, video, and phone providers for correctional facilities across New Hampshire.",
-    seoTitle: "New Hampshire Inmate Phone Calls, Messaging and Money",
-    seoDescription: "How to contact someone in a New Hampshire jail or prison. Find the right provider for NHDOC state prisons and county jails.",
+    description: "How to contact someone in a New Hampshire state prison or county jail. NH DOC phone calls, video visits, mail, and money through ConnectNetwork by GTL (ViaPath).",
+    seoTitle: "New Hampshire Inmate Phone Calls, Visits, Mail and Money (NH DOC)",
+    seoDescription: "Contact someone in a New Hampshire state prison: NH DOC phone, messaging, video visits, and money through ConnectNetwork by GTL (ViaPath), Site ID 222. County jails use separate vendors.",
 
     intro: [
-      "New Hampshire operates a correctional system that includes both state prisons under the New Hampshire Department of Corrections and county jails run by sheriffs in each of the state's 10 counties. This differs from some of its New England neighbors that have consolidated detention under state control. The NHDOC manages the New Hampshire State Prison for Men and the New Hampshire State Prison for Women, both located in Concord, the state capital. County jails in New Hampshire range from the comparatively larger Hillsborough County Department of Corrections, which serves the Manchester and Nashua metro areas, to smaller facilities in the more rural northern and western counties. New Hampshire's compact geography means that families are rarely far from the relevant facility.",
+      "New Hampshire runs several separate systems, and mixing them up is the most common mistake families make. State prisons are operated by the New Hampshire Department of Corrections (NH DOC), which runs three secure facilities: the NH State Prison for Men in Concord, the NH Correctional Facility for Women in Concord, and the Northern NH Correctional Facility in Berlin. NH DOC also operates a Secure Psychiatric Unit, a Residential Treatment Unit, one Transitional Work Center, and three Transitional Housing Units, which are not counted here as secure prisons. County jails, called Houses of Correction, are run by the state's 10 counties, and each county sets its own phone, video, and messaging contracts. The federal system is separate again: FCI Berlin, in Coos County, is the only Bureau of Prisons institution in New Hampshire. There are no private prisons in New Hampshire. This page covers the NH DOC state prison system first, then explains how county jails differ.",
 
-      "JPay is the standard platform for New Hampshire Department of Corrections state facilities, supporting messaging, photo sharing, and money transfer. Securus and GTL handle phone and video services at state prisons and county jails. County jails in New Hampshire each operate under their own provider contracts, and the platform serving Hillsborough County may differ from what is used in Coos County to the north. Federal Bureau of Prisons cases involving New Hampshire residents are typically housed at facilities in other New England states, with those inmates communicating through CorrLinks.",
+      "In NH DOC state prisons, most communication runs through ConnectNetwork by GTL (now ViaPath), per the NH DOC Inmate Communications page. One vendor covers AdvancePay Phone, Pin Debit, Messaging, Tablets, Visitation Scheduling, and Video Visitation. Use Site ID 222 for Trust Fund or PIN Debit deposits through the automated phone system. Video visits run through GTL VisitMe at nhdoc.gtlvisitme.com/app. Mail goes directly to the facility with the inmate's name and DOC ID number, a return name and address is required, and letters can be up to ten pages in blue or black ink. No current phone rate is published here because none was verified from an official source. Do not set up a Securus, JPay, or ICSolutions account for a state prison; directory pages that name those vendors for NH DOC conflict with the official NH DOC page.",
 
-      "New Hampshire families navigating inmate communication generally find the system less complicated than larger states, given the small geographic area and limited number of facilities. The primary task is confirming whether a family member is in a state prison, a county jail, or a federal facility, and then identifying which provider applies to that specific institution. This directory organizes facility and provider information for New Hampshire so families can find the right communication platform quickly without sorting through multiple independent sources.",
+      "To find someone in a state prison, use the NH DOC Inmate Locator, which searches by full or partial first and last name and shows active sentencing information. For county jail custody, contact the county jail directly. For someone in federal custody, use the BOP inmate locator; FCI Berlin is the only federal prison in the state.",
     ],
 
-    facilitiesByType: { federal: 2, state: 4, county: 18, private: 4 },
+
+    overview: [
+      "Who provides phone, messaging, video, and money services in New Hampshire state prisons? ConnectNetwork by GTL (now ViaPath), per the NH DOC Inmate Communications page. Services: AdvancePay Phone (family pays), Pin Debit (inmate pays from account), Messaging, Tablets, Visitation Scheduling, and Video Visitation. Inmates can receive email through the contracted vendor; the inmate's email address must be obtained directly from the inmate, and inmates do not have access to the internet. Phone contact is inmate-initiated: inmates may contact you by phone. Money goes to the inmate's Trust Fund through ConnectNetwork, online or by automated phone, referencing Site ID 222. Video visits run through GTL VisitMe at nhdoc.gtlvisitme.com/app. Do not set up Securus, JPay, or ICSolutions for a state prison; directory pages naming those vendors for NH DOC conflict with the official NH DOC page.",
+      "How do visits work in New Hampshire state prisons? Visiting is a privilege. Inmates are authorized two visits weekly; visits from attorneys, clergy, or other official visitors are not counted against the quota. All visitors must be approved by NH DOC staff. Inmates may have an unlimited number of family members on their visiting lists. All visitors undergo a criminal background check. The inmate must request that a prospective visitor be placed on the list. The application requires the visitor's full name, address, phone number, date of birth, and identifying number (driver's license, military ID, or non-driver ID), plus certification that no court or parole board ordered no contact. The process can take approximately 4 weeks. The adult application is Attachment 3, children use Attachment 5, and DCYF child escorts use Attachment 8 of PPD 1010; complete and notarize the form and return it to the inmate, do not send it directly to NH DOC. A visitor dress code is enforced. Visitors under 18 must be accompanied by an approved adult family member or legal guardian on the visiting list. Inmates in the Reception and Diagnostic Unit get one visit per week after medical clearance until they receive a permanent housing assignment. Video visits run through GTL VisitMe. At Northern NH Correctional Facility, weekend visits were cancelled effective December 12, 2025, per an NH DOC memo, with weekday visits continuing by unit block. Schedules vary by facility and can change on short notice; the NH DOC posts short-notice schedule changes on its social media outlets, so confirm the current schedule with the facility before traveling.",
+      "How do mail and money differ between state prisons and county jails in New Hampshire? In NH DOC state prisons, mail goes directly to the facility: Inmate Name, DOC ID number, facility name, and the facility address. Examples: NH State Prison for Men, PO Box 14, Concord, NH 03302; NH Correctional Facility for Women, 42 Perimeter Road, Concord, NH 03301; Northern NH Correctional Facility, 138 East Milan Rd., Berlin, NH 03570. All mail must have a return name and address. Letters can be up to ten pages, written in blue or black ink, under Administrative Rule Cor 314. Money goes to the inmate's Trust Fund through ConnectNetwork, referencing Site ID 222. County jails set their own contracts and may use completely different vendors, mail routes, and money methods. For example, directory pages report that Carroll County uses Securus for phone and video visits, and Belknap County uses Securus video visits, while Sullivan County publishes its own visitation schedule (video visits at the New Community Corrections Reception Center in Unity, by appointment scheduled by the inmate one day ahead; up to two 1-hour visits per week for House of Corrections inmates) without naming a vendor. Check the specific jail's page before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Who provides phone service in New Hampshire state prisons?",
+        answer: "ConnectNetwork by GTL (now ViaPath), per the NH DOC Inmate Communications page. AdvancePay Phone covers calls paid by family; Pin Debit covers calls paid by the inmate from account funds. Use Site ID 222 for Trust Fund or PIN Debit deposits through the automated phone system. Do not set up Securus or ICSolutions for a state prison; directory pages naming those vendors for NH DOC conflict with the official NH DOC page.",
+      },
+      {
+        question: "How do I send messages or email to someone in a New Hampshire state prison?",
+        answer: "Messaging runs through the contracted vendor, ConnectNetwork by GTL (now ViaPath). Inmates can receive email through the contracted vendor; the inmate's email address must be obtained directly from the inmate. Inmates do not have access to the internet. Written mail sent directly to the facility is the fallback if messaging is unavailable.",
+      },
+      {
+        question: "How do I send money to someone in a New Hampshire state prison?",
+        answer: "Deposit to the inmate's Trust Fund through ConnectNetwork, online or by automated phone, referencing Site ID 222. No deposit fee table is published here because none was verified for New Hampshire; fee tables published for other states do not apply. Do not use JPay for NH DOC; the official NH DOC page names ConnectNetwork, not JPay.",
+      },
+      {
+        question: "How do video visits work in New Hampshire state prisons?",
+        answer: "Video visitations are managed through GTL VisitMe. Register at nhdoc.gtlvisitme.com/app. Video visits are part of the same ConnectNetwork by GTL (now ViaPath) system as phone and messaging, so one vendor covers them.",
+      },
+      {
+        question: "How do I visit someone in person at a New Hampshire state prison?",
+        answer: "Inmates are authorized two visits weekly; attorney, clergy, and official visits are not counted. All visitors must be approved by NH DOC staff, and all visitors undergo a criminal background check. The inmate must request that you be placed on the list. Complete the visitor application (Attachment 3 for adults, Attachment 5 for children), have it notarized, and return it to the inmate; do not send it directly to NH DOC. The process can take approximately 4 weeks. A visitor dress code is enforced. Visitors under 18 must be accompanied by an approved adult family member or legal guardian. Inmates in the Reception and Diagnostic Unit get one visit per week after medical clearance. At Northern NH Correctional Facility, weekend visits were cancelled effective December 12, 2025, per an NH DOC memo. Confirm the current schedule with the facility before traveling.",
+      },
+      {
+        question: "How do I send mail to someone in a New Hampshire state prison?",
+        answer: "Send mail directly to the facility with the format: Inmate Name, DOC ID number, facility name, facility address. NH State Prison for Men: PO Box 14, Concord, NH 03302. NH Correctional Facility for Women: 42 Perimeter Road, Concord, NH 03301. Northern NH Correctional Facility: 138 East Milan Rd., Berlin, NH 03570. Secure Psychiatric Unit: Patient Name, Patient number, Secure Psychiatric Unit, PO Box 2828, Concord, NH 03302. All mail must have a return name and address. Letters can be up to ten pages, written in blue or black ink, under Administrative Rule Cor 314.",
+      },
+      {
+        question: "How do I find someone in a New Hampshire state prison?",
+        answer: "Use the NH DOC Inmate Locator, which searches by full or partial first and last name and shows active sentencing information from the DOC Offender Records Office in Concord. For someone in a county jail, contact the county jail directly. For someone in federal custody, use the BOP inmate locator; FCI Berlin is the only federal prison in New Hampshire.",
+      },
+      {
+        question: "Do county jails in New Hampshire use the same providers as state prisons?",
+        answer: "No. Each county sets its own contracts, and county jails and state prisons are entirely separate systems. For example, directory pages report that Carroll County uses Securus for phone and video visits, and Belknap County uses Securus video visits. Sullivan County publishes its own visitation schedule without naming a vendor. Check the specific jail's page before setting up any account, because the provider for one county may be completely different from the provider for another.",
+      },
+    ],
+
+    facilitiesByType: { federal: 1, state: 3, county: 10, private: 0 },
 
     counties: [
       "Hillsborough County", "Rockingham County", "Merrimack County", "Strafford County",
@@ -5168,32 +5210,25 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        description: "Messaging, photo sharing, and money transfer for New Hampshire Department of Corrections state facilities.",
+        name: "ViaPath",
+        slug: "gtl",
+        initial: "V",
+        color: "bg-amber-600",
+        description: "Phone, messaging, tablets, video visits, and Trust Fund deposits for NH DOC state prisons through ConnectNetwork by GTL (now ViaPath), Site ID 222, per the official NH DOC page.",
       },
       {
         name: "Securus",
         slug: "securus",
         initial: "S",
         color: "bg-indigo-600",
-        description: "Phone and video calling at New Hampshire state prisons and county detention facilities.",
-      },
-      {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
-        description: "Phone and video visitation at select New Hampshire county jails and correctional centers.",
+        description: "Phone and video visits at Carroll County and Belknap County jails, per directory pages. Not the NH DOC state-prison vendor.",
       },
       {
         name: "CorrLinks",
         slug: "corrlinks",
         initial: "C",
         color: "bg-emerald-700",
-        description: "Email communication for federal Bureau of Prisons facilities serving New Hampshire.",
+        description: "Email communication for federal Bureau of Prisons facilities, including FCI Berlin, the only BOP institution in New Hampshire.",
       },
     ],
 

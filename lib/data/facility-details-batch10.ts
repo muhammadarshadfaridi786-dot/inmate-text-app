@@ -1092,15 +1092,18 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Yankton County Jail communication guide. NCIC phone, messaging and video visits for families of inmates at this Yankton County jail in Yankton SD.",
 
   overview: [
-    "Yankton County Jail is the county jail in Yankton, South Dakota, under the jurisdiction of the Yankton County Sheriff's Office.",
-    "Communication at Yankton County Jail runs through NCIC devices, which provide telephone, video, and messaging services.",
-    "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
+    "Yankton County Jail is the county jail in Yankton, South Dakota, operated by the Yankton County Sheriff's Office. The jail is at 410 Walnut Suite 104, Yankton, SD 57078. Questions can go to the jail at (605) 668-3567.",
+    "All three communication services at the jail run through NCIC Communication devices. Phone calls, video visits, and messaging all use NCIC. Set up an account at ncic.com, and schedule video visits at videovisit.ncic.com/scheduling/login. Jail staff approve each visitation appointment after the request is entered.",
+    "Video visitation is available from 5:00 a.m. to midnight, seven days a week. Inmates may lose video visitation access because of disciplinary actions or other issues within the jail. All visits are monitored and recorded.",
+    "Messaging runs through the same NCIC account. Messages cost 25 cents each, and picture messages and documents cost 35 cents each, with no limit on how many can be sent. The Sheriff's Office points families to messaging as the quicker option for documents and photos, since messages and pictures arrive instantly.",
+    "Paper mail changed on October 18, 2023. All mail except legal and medical mail must go to: Inmate Name, PIN number, Yankton County Jail, PO Box 591, Longview, Texas 75606. Mail sent there is processed, delivered electronically, and then destroyed, so it will not be returned. Legal and medical mail must still go to the jail in Yankton. Commissary money goes in at the kiosk in the jail lobby or by mailing a money order to the jail. Soft-covered books come only directly from a publisher or retail outlet.",
   ],
 
   operatedBy: "Yankton County Sheriff's Office",
-    mailingAddress: "Inmate Full Name and PIN or Booking Number, Yankton County Jail, 410 Walnut Street, Yankton, SD 57078.",
-    visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
+    mailingAddress: "Regular mail (except legal and medical): Inmate Name, PIN number, Yankton County Jail, PO Box 591, Longview, TX 75606. Legal and medical mail: Inmate Name, PIN number, Yankton County Jail, 410 Walnut Suite 104, Yankton, SD 57078.",
+    visitingHours: "Video visits daily 5:00 a.m. to midnight via NCIC. Schedule at videovisit.ncic.com/scheduling/login. Jail staff approve each visitation appointment after the request is entered. Disciplinary actions can remove video access. Visits may be monitored and recorded.",
     bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
+    commissary: "Money deposited at the kiosk in the jail lobby or by mailing a money order to the jail. Jail: (605) 668-3567.",
 
   providers: [
     {
@@ -1113,20 +1116,21 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "NCIC provides phone service, video visitation, and messaging.",
+      notes: "NCIC provides phone service, video visitation, and messaging through NCIC Communication devices, per the Sheriff's Office jail-information page. Account setup at ncic.com.",
     },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC." },
-    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC. Schedule in advance." },
+    messaging: { status: "available", provider: "NCIC", notes: "Electronic messaging through NCIC. Messages 25 cents each, picture messages and documents 35 cents each, no limit, per the Sheriff's Office jail-information page." },
+    video: { status: "available", provider: "NCIC", notes: "Video visits through NCIC Communication devices. Available 5:00 a.m. to midnight, 7 days a week. Schedule at videovisit.ncic.com/scheduling/login. Jail staff approve each appointment. Disciplinary actions can remove video access. Visits may be monitored and recorded." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC Inmate Communications." },
-    moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through the NCIC Phone System, per the Sheriff's Office jail-information page. Account setup at ncic.com." },
+    moneyTransfer: { status: "available", notes: "Deposits at the kiosk in the jail lobby or by mailing a money order to the jail, per the Sheriff's Office jail-information page." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "Video visits run through NCIC Communication devices. Schedule at videovisit.ncic.com/scheduling/login; jail staff approve each appointment.",
+    "Regular mail goes to the PO Box 591 processing address; only legal and medical mail goes to the jail.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the county dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -1134,15 +1138,16 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Yankton County Jail?", answer: "Phone calls run through NCIC Inmate Communications." },
-    { question: "How do I visit someone at Yankton County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
+    { question: "Which company handles phone calls at Yankton County Jail?", answer: "Phone calls run through the NCIC Phone System. Set up an account at ncic.com." },
+    { question: "How do I visit someone at Yankton County Jail?", answer: "Video visits run through NCIC Communication devices, available 5:00 a.m. to midnight, seven days a week. Schedule at videovisit.ncic.com/scheduling/login; jail staff approve each appointment. Visits may be monitored and recorded." },
     { question: "Where is Yankton County Jail?", answer: "Yankton County Jail is in Yankton, South Dakota. It is under the jurisdiction of the Yankton County Sheriff's Office." },
-    { question: "How do I mail a letter to someone at Yankton County Jail?", answer: "Address the envelope with the inmate's full name and PIN or booking number, Yankton County Jail, 410 Walnut Street, Yankton, SD 57078. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at Yankton County Jail?", answer: "Send regular mail, except legal and medical mail, to: Inmate Name, PIN number, Yankton County Jail, PO Box 591, Longview, Texas 75606. Mail sent there is processed, delivered electronically, and then destroyed, so it will not be returned. Send legal and medical mail to the jail at 410 Walnut Suite 104, Yankton, SD 57078." },
     { question: "How do I find out if someone is at Yankton County Jail?", answer: "Contact the facility or the Yankton County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
     { question: "Can an inmate at Yankton County Jail call me?", answer: "Yes. Inmates place outgoing calls through NCIC Inmate Communications. Set up an NCIC account to receive calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
     { question: "How do I block calls from Yankton County Jail?", answer: "Contact NCIC to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a video visit at Yankton County Jail?", answer: "Video visits run through NCIC. Create an NCIC account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
-    { question: "How do I send money to someone at Yankton County Jail?", answer: "Deposit options are not confirmed from official sources. Confirm the current deposit method with the facility before sending money." },
+    { question: "How do I schedule a video visit at Yankton County Jail?", answer: "Set up an account at videovisit.ncic.com/scheduling/login, enter the visit request, and jail staff approve the appointment. Video visitation runs 5:00 a.m. to midnight, seven days a week." },
+    { question: "How much does it cost to message an inmate at Yankton County Jail?", answer: "Messages cost 25 cents each, and picture messages and documents cost 35 cents each, with no limit on how many can be sent. Set up an account at ncic.com. Messages and pictures arrive instantly." },
+    { question: "How do I send money to someone at Yankton County Jail?", answer: "Deposit money at the kiosk in the jail lobby or by mailing a money order to the jail. Jail: (605) 668-3567." },
   ],
 
   relatedFacilitySlugs: ["pennington-county-jail", "south-dakota-state-penitentiary", "fci-yankton"],

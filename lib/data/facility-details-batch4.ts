@@ -7223,56 +7223,66 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
   seoTitle: "Yellowstone County Detention Facility: Phone Calls and",
-  seoDescription: "How to contact someone at Yellowstone County Detention Facility in Billings MT. Securus handles phone calls. Find messaging and money transfer options.",
+  seoDescription: "How to contact someone at Yellowstone County Detention Facility in Billings MT. NCIC handles phone calls, video visits, and messaging. Find money transfer options.",
 
   description: "Yellowstone County Detention Facility in Billings Montana. Find phone calls, messaging, and money transfer options for this Montana county jail.",
 
   overview: [
-    "Yellowstone County Detention Facility is located in Billings, Montana and is operated by the Yellowstone County Sheriff's Office. The facility houses pretrial detainees and sentenced inmates under county jurisdiction. Securus Technologies handles phone calls at this facility.",
-    "To receive calls, set up a Securus AdvancePay account at securustech.net or call 800-844-6591. Contact the facility directly to confirm current provider and communication options before setting up any accounts.",
+    "Yellowstone County Detention Facility is the county jail in Billings, Montana, operated by the Yellowstone County Sheriff's Office. The facility is at 3165 King Ave E, Billings, MT 59101. For bond questions, call Facility Booking at 406-256-6881. For inmate service requests, contact the Sheriff's Office Civil Division at 406-256-2959.",
+    "All communication services at the facility run through NCIC, not Securus. Set up a COMMUNICATIONS account at ncic.com or by calling 1-800-943-2189 to receive phone calls and participate in video visits and messaging. Do not set up a Securus or AdvancePay account for this facility; those products are not how communication works here. The official county pages name no phone, video, or messaging rates, so confirm the current cost with NCIC before funding an account.",
+    "All visits are electronic. Use a smartphone, a computer with a webcam, or a kiosk in the facility lobby. Create an account and schedule a visit at Videovisit.ncic.com. Every inmate gets two free video visits a week, and additional visits may be purchased by the inmate or friends and family. In-person visits will not happen in the near future due to staffing and security issues. Visits and inmate schedules may be canceled due to facility operations and emergencies.",
+    "Money uses two separate accounts. The TRUST account, sometimes called the commissary account, pays for snacks, hygiene items, and similar purchases. Fund it at team3.Inmatecanteen.com, at the Blue Kiosk in the facility lobby, or by mailing a money order (no cash or checks) made out to the inmate's full name to: Inmate's Full Name, Inmate's Jacket Number, ATTENTION MAIL OFFICER, 3165 King Ave E, Billings, MT 59101. Mail without 'Attention Mail Officer' in the address will be returned to sender. The COMMUNICATIONS account pays for phone time, extra video visits, and electronic messages. Inmates may move money from TRUST to COMMUNICATIONS, but not the other way. Fees apply.",
+    "Directory sources report that personal mail goes to a scanning address, not the facility: Inmate's Full Name and Jacket Number, Yellowstone County Detention Facility, PO Box 591, Longview, TX 75606. No official Yellowstone County page found states this address, so confirm the current mail address and format with the facility before sending anything. Letters may be mailed, and personal checks and medications are not accepted. No messages are passed to inmates unless they are verifiable emergencies, such as a death in the family or emergency surgery.",
   ],
 
   operatedBy: "Yellowstone County Sheriff's Office",
+    mailingAddress: "Personal mail address is not stated on official county pages. Directory sources report: Inmate's Full Name and Jacket Number, Yellowstone County Detention Facility, PO Box 591, Longview, TX 75606. Confirm before sending. Money orders go to the facility: Inmate's Full Name, Inmate's Jacket Number, ATTENTION MAIL OFFICER, 3165 King Ave E, Billings, MT 59101.",
+    visitingHours: "All visits are electronic only. Schedule at Videovisit.ncic.com. Every inmate gets two free video visits a week. In-person visits will not happen in the near future due to staffing and security issues.",
+    commissary: "TRUST (commissary) account: team3.Inmatecanteen.com, Blue Kiosk in the facility lobby, or mailed money order (no cash or checks) to ATTENTION MAIL OFFICER, 3165 King Ave E, Billings, MT 59101. COMMUNICATIONS account (phone/video/messages): ncic.com or 1-800-943-2189. Fees apply. Transfers TRUST to COMMUNICATIONS only.",
+    bailInfo: "Fines and bonds are handled at the courts during regular business hours; after hours at the Detention Facility. Bond inquiries: Facility Booking, 406-256-6881.",
 
   providers: [
-    { name: "Securus", slug: "securus", initial: "S", color: "bg-indigo-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: true, notes: "Primary phone and video provider at Yellowstone County Detention Facility." },
+    { name: "NCIC", slug: "ncic", initial: "N", color: "bg-rose-600", messaging: true, video: true, photos: false, phone: true, moneyTransfer: true, notes: "All communication services run through NCIC, per the county FAQ page. COMMUNICATIONS account at ncic.com or 1-800-943-2189. Funds phone time, extra video visits, and messaging." },
+    { name: "InmateCanteen", slug: "inmatecanteen", initial: "I", color: "bg-amber-700", messaging: false, video: false, photos: false, phone: false, moneyTransfer: true, notes: "TRUST (commissary) account funding at team3.Inmatecanteen.com or the Blue Kiosk in the facility lobby, per the county FAQ page. Mailed money orders go to ATTENTION MAIL OFFICER." },
   ],
 
   communication: {
-    messaging: { status: "limited", provider: "Securus", notes: "Contact facility to confirm messaging availability." },
-    video: { status: "available", provider: "Securus", notes: "Video visits available through Securus." },
-    photos: { status: "limited", provider: undefined, notes: "Contact facility for photo policy." },
-    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus AdvancePay." },
-    moneyTransfer: { status: "available", provider: "Securus", notes: "Money transfers through Securus." },
+    messaging: { status: "available", provider: "NCIC", notes: "Messaging through NCIC. Set up a COMMUNICATIONS account at ncic.com or 1-800-943-2189, per the county FAQ page." },
+    video: { status: "available", provider: "NCIC", notes: "All visits are electronic through NCIC. Schedule at Videovisit.ncic.com. Two free video visits per week. In-person visits will not happen in the near future." },
+    photos: { status: "limited", notes: "Photo policy is not stated on the official county pages. Confirm with the facility." },
+    phone: { status: "available", provider: "NCIC", notes: "Phone calls through NCIC. Set up a COMMUNICATIONS account at ncic.com or 1-800-943-2189, per the county FAQ page." },
+    moneyTransfer: { status: "available", provider: "InmateCanteen", notes: "Two accounts: TRUST (commissary) via InmateCanteen, Blue Kiosk, or mailed money order to ATTENTION MAIL OFFICER; COMMUNICATIONS (phone/video/messages) via ncic.com or 1-800-943-2189. Fees apply. Transfers TRUST to COMMUNICATIONS only." },
   },
 
   rules: [
     "All calls are monitored and recorded.",
     "Inmates must be on approved contact list.",
-    "Contact facility for current visiting schedule.",
+    "All visits are electronic through NCIC. In-person visits will not happen in the near future.",
+    "Money uses two accounts: TRUST for commissary, COMMUNICATIONS for phone, video, and messages. Transfers go TRUST to COMMUNICATIONS only.",
+    "Mailed money orders must say ATTENTION MAIL OFFICER or they will be returned to sender.",
     "Three-way calling is prohibited.",
     "Follow facility mail rules for all correspondence.",
   ],
 
   faq: [
-    { question: "Which provider handles phone calls at Yellowstone County Detention Facility?", answer: "Securus Technologies handles phone calls. Set up an account at securustech.net or call 800-844-6591." },
+    { question: "Which provider handles phone calls at Yellowstone County Detention Facility?", answer: "NCIC handles phone calls. Set up a COMMUNICATIONS account at ncic.com or by calling 1-800-943-2189. Do not set up a Securus or AdvancePay account for this facility." },
     { question: "How do I find someone at Yellowstone County Detention Facility?", answer: "Contact the Yellowstone County Sheriff's Office in Billings Montana directly." },
-    { question: "How do I send money to someone at Yellowstone County Detention Facility?", answer: "Use Securus for phone account deposits. Contact the facility for commissary deposit options." },
+    { question: "How do I send money to someone at Yellowstone County Detention Facility?", answer: "It depends on which account you are funding. For the TRUST (commissary) account, use team3.Inmatecanteen.com, the Blue Kiosk in the facility lobby, or mail a money order (no cash or checks) made out to the inmate's full name to: Inmate's Full Name, Inmate's Jacket Number, ATTENTION MAIL OFFICER, 3165 King Ave E, Billings, MT 59101. Mail without 'Attention Mail Officer' will be returned. For the COMMUNICATIONS account, fund it at ncic.com or by calling 1-800-943-2189. Fees apply." },
       {
         question: "How do phone calls work at Yellowstone County Detention Facility?",
-        answer: "Inmates place outgoing calls through Securus. Set up a Securus account and add funds to accept calls. Inmates cannot receive incoming calls.",
+        answer: "Inmates place outgoing calls through NCIC. Set up a COMMUNICATIONS account at ncic.com or 1-800-943-2189 and add funds to accept calls. Inmates cannot receive incoming calls.",
       },
       {
         question: "Can I do a video visit with someone at Yellowstone County Detention Facility?",
-        answer: "Video visits are scheduled through Securus. Log into your Securus account, search for the facility, and choose an available time slot. Book ahead, since slots fill up around weekends.",
+        answer: "Create an NCIC account and schedule at Videovisit.ncic.com. Visits are electronic only, through a smartphone, a computer with a webcam, or a kiosk in the facility lobby. Every inmate gets two free video visits a week, and additional visits may be purchased. In-person visits will not happen in the near future.",
       },
       {
         question: "How do I send mail to someone at Yellowstone County Detention Facility?",
-        answer: "Address mail with the inmate's full name and booking number, care of Yellowstone County Detention Facility. Include a return address. Mail is inspected before delivery, and contraband items are removed.",
+        answer: "Directory sources report personal mail goes to: Inmate's Full Name and Jacket Number, Yellowstone County Detention Facility, PO Box 591, Longview, TX 75606. No official Yellowstone County page found states this address, so confirm the current mail address and format with the facility before sending anything. Letters may be mailed; personal checks and medications are not accepted.",
       },
       {
         question: "How do I block calls from Yellowstone County Detention Facility?",
-        answer: "You can decline individual calls, or contact Securus to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask Securus support for a full block.",
+        answer: "You can decline individual calls, or contact NCIC to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask NCIC support for a full block.",
       },
       {
         question: "What happens if someone is transferred from Yellowstone County Detention Facility?",
@@ -7280,11 +7290,19 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
       },
       {
         question: "Can someone at Yellowstone County Detention Facility call me?",
-        answer: "Yes, if your number is on their approved call list and you have a funded Securus account. You cannot call the facility to reach an inmate.",
+        answer: "Yes, if your number is on their approved call list and you have a funded NCIC COMMUNICATIONS account. You cannot call the facility to reach an inmate.",
       },
       {
         question: "Why did a call from Yellowstone County Detention Facility not go through?",
-        answer: "Common causes: no funds in the Securus account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+        answer: "Common causes: no funds in the NCIC COMMUNICATIONS account, your number is not on the approved list, or your phone blocked the call. Check your account balance, ask the inmate to confirm your number is listed, and check your phone's call blocking settings.",
+      },
+      {
+        question: "Does Yellowstone County Detention Facility use Securus or NCIC?",
+        answer: "NCIC. All communication services run through NCIC, per the Yellowstone County Sheriff's Office FAQ page. Set up a COMMUNICATIONS account at ncic.com or by calling 1-800-943-2189. Do not set up a Securus or AdvancePay account for this facility.",
+      },
+      {
+        question: "What is the difference between a TRUST account and a COMMUNICATIONS account at Yellowstone County Detention Facility?",
+        answer: "The TRUST account, sometimes called the commissary account, pays for snacks, hygiene items, and similar purchases. The COMMUNICATIONS account pays for phone time, extra video visits, and electronic messages. Inmates may move money from TRUST to COMMUNICATIONS, but not the other way. Fees apply.",
       },
   ],
 

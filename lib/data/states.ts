@@ -86,7 +86,7 @@ export const ALL_STATES: StateBasic[] = [
   { id: "s-nm", name: "New Mexico",     slug: "new-mexico",     abbreviation: "NM", facilityCount: 42,  region: "Southwest", hasDetailPage: true  },
   { id: "s-ny", name: "New York",       slug: "new-york",       abbreviation: "NY", facilityCount: 205, region: "Northeast", hasDetailPage: true  },
   { id: "s-nc", name: "North Carolina", slug: "north-carolina", abbreviation: "NC", facilityCount: 156, region: "Southeast", hasDetailPage: true  },
-  { id: "s-nd", name: "North Dakota",   slug: "north-dakota",   abbreviation: "ND", facilityCount: 32,  region: "Midwest",   hasDetailPage: true  },
+  { id: "s-nd", name: "North Dakota",   slug: "north-dakota",   abbreviation: "ND", facilityCount: 27,  region: "Midwest",   hasDetailPage: true  },
   { id: "s-oh", name: "Ohio",           slug: "ohio",           abbreviation: "OH", facilityCount: 218, region: "Midwest",   hasDetailPage: true  },
   { id: "s-ok", name: "Oklahoma",       slug: "oklahoma",       abbreviation: "OK", facilityCount: 178, region: "Southeast", hasDetailPage: true  },
   { id: "s-or", name: "Oregon",         slug: "oregon",         abbreviation: "OR", facilityCount: 78,  region: "West",      hasDetailPage: true  },
@@ -4923,23 +4923,65 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
     name: "North Dakota",
     slug: "north-dakota",
     abbreviation: "ND",
-    facilityCount: 32,
+    facilityCount: 27,
     region: "Midwest",
     hasDetailPage: true,
 
-    description: "Find prisons and communication options in North Dakota. Compare messaging, video, and phone providers for correctional facilities across North Dakota.",
-    seoTitle: "North Dakota Inmate Phone Calls, Messaging and Money",
-    seoDescription: "How to contact someone in a North Dakota jail or prison. Find the right provider for DOCR state prisons and county jails.",
+    description: "How to contact someone in a North Dakota state prison or county jail. ND DOCR phone calls, video visits, mail, and money through Securus and JPay.",
+    seoTitle: "North Dakota Inmate Phone Calls, Visits, Mail and Money (ND DOCR)",
+    seoDescription: "Contact someone in a North Dakota state prison: ND DOCR phone calls through Securus at about 8 cents a minute, video visits, Securus digital mail, and JPay money deposits. County jails use separate vendors.",
 
     intro: [
-      "North Dakota operates a small correctional system through the North Dakota Department of Corrections and Rehabilitation, which manages the North Dakota State Penitentiary in Bismarck and the James River Correctional Center in Jamestown. County jails in each of North Dakota's 53 counties serve their local populations, ranging from the growing Fargo metro area in the east to the Bakken oil patch communities in the western part of the state. The oil boom that transformed western North Dakota over the past two decades brought significant population growth to areas like Williams and Mountrail counties, which had correctional infrastructure originally designed for much smaller communities. North Dakota also has a substantial Native American population, with Standing Rock, Turtle Mountain, Fort Berthold, and other reservations each involving their own jurisdictional considerations.",
+      "North Dakota runs several separate systems, and mixing them up is the most common mistake families make. State prisons are operated by the North Dakota Department of Corrections and Rehabilitation (ND DOCR). Its adult facilities are the North Dakota State Penitentiary in Bismarck, James River Correctional Center in Jamestown, Missouri River Correctional Center in Bismarck, Dakota Women's Correctional and Rehabilitation Center in New England, and Heart River Correctional Center in Mandan. County jails are run by the state's 53 counties, and each county sets its own phone, video, and messaging contracts. There are no federal Bureau of Prisons institutions in North Dakota, and the state does not contract with private prisons. This page covers the ND DOCR state prison system first, then explains how county jails differ.",
 
-      "JPay is the primary platform for North Dakota Department of Corrections and Rehabilitation state facilities, covering messaging, photo sharing, and money transfer. Securus and GTL provide phone and video services at state prisons and county jails. Cass County, which includes Fargo and is the most populous county in the state, operates the largest county jail system. Burleigh County, which includes the capital Bismarck, operates the second largest. Federal Bureau of Prisons cases from North Dakota are typically housed at facilities in neighboring states, with those inmates communicating through CorrLinks.",
+      "In ND DOCR state prisons, phone calls run through Securus. New residents at the State Penitentiary get two initial 5-minute calls on arrival; after that, calls are paid for by the resident or an approved caller. Money goes only through JPay, by website, mobile app, phone, MoneyGram, or mailed money order. All incoming mail goes to the Securus Digital Mail Center in Tampa, Florida; mail sent to a DOCR facility is returned to sender. Video visits are scheduled at least 24 hours in advance through the service provider's website, up to two sessions per day of up to 20 minutes each. The DOCR facility handbook behind these rules is dated August 2021 and states that information is subject to change, so confirm current rules with the facility before acting.",
 
-      "North Dakota families navigating inmate communication face two common challenges: the rural nature of the state means correctional facilities are sometimes far from where families are located, and the jurisdictional complexity involving tribal courts and tribal detention on reservation lands adds a layer that families unfamiliar with the system may not anticipate. This directory organizes facility and provider information for North Dakota so families can identify the right communication platform quickly and get started without having to work through the jurisdictional and geographic complexity that the state's corrections landscape presents.",
+      "To find someone in a state prison, use the ND DOCR Resident Lookup on the DOCR website, or VINELink for North Dakota. For county jail custody, contact the county jail or sheriff's office directly.",
     ],
 
-    facilitiesByType: { federal: 2, state: 4, county: 22, private: 4 },
+
+    overview: [
+      "Who provides phone, video, mail, and money services in North Dakota state prisons? Phone calls run through Securus, per the ND DOCR telephone page. A completed and signed Telephone Application is required before family or friends can be added to a resident's calling list; applications can be submitted electronically or printed and mailed to Securus (for Heart River, James River, Missouri River, and the State Penitentiary) or to DWCRC for residents there. Residents buy telephone time through their commissary account; approved callers who choose to pay set up a collect call account through Securus at securustech.net or 1-800-844-6591. Rates are billed at .079 cents per minute as the DOCR page phrases it, which reads as $0.079 per minute. Money goes only through JPay: website, mobile app, phone at 1-800-574-5729, MoneyGram with receive code 1304, or mailed money order to JPay Inc., PO Box 822700, Pembroke Pines, FL 33082. All incoming mail goes to the Securus Digital Mail Center, PO Box 21408, Tampa, FL 33622; mail sent to a DOCR facility is returned. Video visits are scheduled through the service provider's website; the DOCR handbook does not name the video vendor, so do not set up an account with any vendor until the facility confirms which one it uses. Inmates cannot receive incoming calls; DOCR takes emergency incoming calls, verifies them, and the resident may be permitted to call about the emergency. There is no resident messaging line for voice messages, and staff will not pass along messages.",
+      "How do visits work in North Dakota state prisons? All visitors must be on the resident's approved visitation list: family members plus up to 20 friends. Visitor application forms are completed by the visitor, returned, and approved before visiting; list changes take up to 15 working days. A removed name cannot return to the list for 90 days. Minors under 18 need a parent or legal guardian present. Visiting hours are posted at each facility; arrivals with under 30 minutes left in a session are not checked in. Residents may receive up to 20 hours of visiting per month, and there is no limit on video visitation; a visit under one hour counts as one full hour. Every visitation applicant gets a background investigation. People with felony charges or pending warrants are not approved until the charge is disposed. Denial can be appealed to the Chief of Security within 7 days. Video visits must be scheduled at least 24 hours in advance through the service provider's website, with a maximum of two sessions per day of up to 20 minutes each; the visitor establishes the account and pays the cost set by the provider. All video visits are monitored and recorded except attorney visits. Schedules vary by facility, so confirm the current visiting schedule with the facility before traveling.",
+      "How do mail and money differ between state prisons and county jails in North Dakota? In ND DOCR state prisons, all incoming mail must go to the Securus Digital Mail Center at PO Box 21408, Tampa, FL 33622, addressed with the resident's name and number. Mail sent to a DOCR facility is returned to sender. A legible return address with the sender's last name, street or PO Box, city, state, and ZIP is required. At most 30 photographs per envelope; internet or photocopy pages limited to 10. Legal and official mail is opened and inspected for contraband in the resident's presence only. Money goes only through JPay; DOCR accepts no money orders, checks, or cash for spending accounts, and no one may drop off money at any DOCR facility. County jails set their own contracts and may use completely different vendors, mail routes, and money methods. For example, McKenzie County's official page says visitation is video only by appointment, with phone cards and texting accounts through Reliance Telephone, while Cass County Jail's phone and video contract is with ICS Solutions through 2031 per county commission coverage. Check the specific jail's page before setting up any account.",
+    ],
+
+    faq: [
+      {
+        question: "Who provides phone service in North Dakota state prisons?",
+        answer: "Securus, per the ND DOCR telephone page. Telephone Applications go to Securus for Heart River, James River, Missouri River, and the State Penitentiary, and to DWCRC for residents there. Residents buy telephone time through their commissary account; approved callers who choose to pay set up a collect call account through Securus at securustech.net or 1-800-844-6591. Rates are billed at .079 cents per minute as the DOCR page phrases it, which reads as $0.079 per minute. Do not set up a GTL or ConnectNetwork account for a DOCR facility; directories that name GTL conflict with the official DOCR page.",
+      },
+      {
+        question: "How do I get on a resident's calling list?",
+        answer: "Submit a completed and signed Telephone Application (SFN 50076), either electronically online or printed and mailed to Securus (or DWCRC for residents there). All personal information on the application must be verified by DOCR staff before activation. Residents may have up to 20 active social numbers on a calling list; attorney and clergy numbers of record are not counted. Calling list changes are allowed every 90 days. New residents get two initial 5-minute calls on arrival.",
+      },
+      {
+        question: "How do video visits work in North Dakota state prisons?",
+        answer: "Video visits must be scheduled at least 24 hours in advance through the service provider's website. Residents may sign up for at most two video sessions per day, each up to 20 minutes. The visitor establishes the account and pays the cost set by the provider. All video visits are monitored and recorded except attorney visits. There is no limit on video visitation hours, unlike the 20-hour monthly cap on in-person visiting. The DOCR handbook does not name the video vendor, so confirm which provider the facility uses before creating an account.",
+      },
+      {
+        question: "How do I visit someone in person at a North Dakota state prison?",
+        answer: "All visitors must be on the resident's approved visitation list: family members plus up to 20 friends. Visitor applications are completed by the visitor, returned, and approved before visiting; list changes take up to 15 working days. A removed name cannot return for 90 days. Minors under 18 need a parent or legal guardian present. Visiting hours are posted at each facility; arrivals with under 30 minutes left in a session are not checked in. Residents may receive up to 20 hours of visiting per month; a visit under one hour counts as one full hour. Every applicant gets a background investigation. Denial can be appealed to the Chief of Security within 7 days. Schedules vary by facility, so confirm the current visiting schedule with the facility before traveling.",
+      },
+      {
+        question: "How do I send mail to someone in a North Dakota state prison?",
+        answer: "Send all incoming mail to the Securus Digital Mail Center: Resident Name and Number, C/O Securus Digital Mail Center - North Dakota Department of Corrections, PO Box 21408, Tampa, FL 33622. Mail sent to a DOCR facility is returned to sender. Include a legible return address with your last name, street or PO Box, city, state, and ZIP. At most 30 photographs per envelope; internet or photocopy pages limited to 10. Legal and official mail is opened and inspected for contraband in the resident's presence only. If mail is denied, the resident and sender get a Notification of Denied Mail; the resident appeals to the Warden within 7 days and the sender within 30 days. Publications must come directly from an approved publisher or vendor, not a private individual. These rules come from the August 2021 DOCR facility handbook, which states information is subject to change, so confirm current mail rules with the facility.",
+      },
+      {
+        question: "How do I send money to someone in a North Dakota state prison?",
+        answer: "Only through JPay. DOCR accepts no money orders, checks, or cash for spending accounts, and no one may drop off money at any DOCR facility. Use JPay.com, the JPay mobile app, phone at 1-800-574-5729, MoneyGram with receive code 1304, or mail a money order with the Money Order Deposit Form to JPay Inc., PO Box 822700, Pembroke Pines, FL 33082. Processing fees apply to online, app, phone, and MoneyGram deposits; JPay charges no processing fee for mailed money orders. Note that 25% of facility earnings go to a Release Aid Account (gate money, usually unavailable until discharge), and the Warden may deduct funds for fines, restitution, court costs, support, and medical or dental costs.",
+      },
+      {
+        question: "Do county jails in North Dakota use the same providers as state prisons?",
+        answer: "No. Each county sets its own contracts, and county jails and state prisons are entirely separate systems. For example, McKenzie County's official page says visitation is video only by appointment, with phone cards and texting accounts through Reliance Telephone at 1-800-896-3201. Cass County Jail's phone and video contract is with ICS Solutions through 2031, per county commission coverage. Check the specific jail's page before setting up any account, because the provider for one county may be completely different from the provider for another.",
+      },
+      {
+        question: "How do I find someone in a North Dakota state prison?",
+        answer: "Use the ND DOCR Resident Lookup on the DOCR website, or VINELink for North Dakota. For someone in a county jail, contact the county jail or sheriff's office directly. For someone in federal custody, note that there are no BOP-operated institutions in North Dakota; federal detainees are held at contract facilities, so contact the arresting federal agency or the contract facility.",
+      },
+    ],
+
+    facilitiesByType: { federal: 0, state: 5, county: 22, private: 0 },
 
     counties: [
       "Cass County", "Burleigh County", "Ward County", "Grand Forks County",
@@ -4950,32 +4992,25 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
 
     providers: [
       {
-        name: "JPay",
-        slug: "jpay",
-        initial: "J",
-        color: "bg-blue-600",
-        description: "Messaging, photo sharing, and money transfer for North Dakota Department of Corrections and Rehabilitation state facilities.",
-      },
-      {
         name: "Securus",
         slug: "securus",
         initial: "S",
         color: "bg-indigo-600",
-        description: "Phone and video calling at North Dakota state prisons and county detention facilities.",
+        description: "Phone service for ND DOCR state prisons, plus the Securus Digital Mail Center for all incoming mail, per the official DOCR telephone page and facility handbook.",
       },
       {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
-        description: "Phone and video visitation at select North Dakota county jails and correctional centers.",
+        name: "JPay",
+        slug: "jpay",
+        initial: "J",
+        color: "bg-blue-600",
+        description: "The only money deposit method for ND DOCR residents: website, app, phone, MoneyGram, or mailed money order, per the official DOCR facility handbook.",
       },
       {
-        name: "CorrLinks",
-        slug: "corrlinks",
-        initial: "C",
-        color: "bg-emerald-700",
-        description: "Email communication for federal Bureau of Prisons facilities serving North Dakota.",
+        name: "Reliance Telephone",
+        slug: "reliance-telephone",
+        initial: "R",
+        color: "bg-teal-600",
+        description: "Phone cards and texting accounts at McKenzie County Correctional Facility, per the county's official page.",
       },
     ],
 
@@ -4985,14 +5020,14 @@ export const STATE_DETAILS: Record<string, StateDetail> = {
         slug: "north-dakota-state-penitentiary",
         type: "State Prison",
         county: "Burleigh County",
-        features: ["Messaging", "Phone Calls", "Money Transfer"],
+        features: ["Phone Calls", "Video Visits", "Money Transfer"],
       },
       {
-        name: "James River Correctional Center",
-        slug: "james-river-correctional-center",
+        name: "Missouri River Correctional Center",
+        slug: "missouri-river-correctional-center",
         type: "State Prison",
-        county: "Stutsman County",
-        features: ["Messaging", "Phone Calls", "Money Transfer"],
+        county: "Burleigh County",
+        features: ["Phone Calls", "Video Visits", "Money Transfer"],
       },
       {
         name: "Cass County Jail",

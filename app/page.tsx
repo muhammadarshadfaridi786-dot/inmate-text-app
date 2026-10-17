@@ -26,21 +26,21 @@ const FaqPreview          = dynamic(() => import("@/components/home/FaqPreview")
 const FinalCTA            = dynamic(() => import("@/components/home/FinalCTA"))
 
 export const metadata: Metadata = {
-  title: "Inmate Text App: Find Prison Messaging and Phone Options",
+  title: "Inmate Text App: Compare the Best Inmate Text Services (2026)",
   description:
-    "Find inmate texting, phone calls, and video visits at US prisons and jails. Compare JPay, CorrLinks, GettingOut and more. Free directory, all 50 states.",
+    "Compare the best inmate text services for US prisons and jails. Find which provider your facility uses: JPay, CorrLinks, GettingOut, ConnectNetwork and more. Free directory, all 50 states.",
   openGraph: {
     url: "/",
-    title: "Inmate Text App: Find Prison Messaging and Phone Options",
+    title: "Inmate Text App: Compare the Best Inmate Text Services (2026)",
     description:
-      "Compare JPay, CorrLinks, GettingOut and more. Find messaging, phone calls, and video visit options at prisons and jails across all 50 states.",
+      "Compare the best inmate text services: JPay, CorrLinks, GettingOut and more. Find messaging, phone calls, and video visit options at prisons and jails across all 50 states.",
     images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Inmate Text App: Find Prison Messaging and Phone Options",
+    title: "Inmate Text App: Compare the Best Inmate Text Services (2026)",
     description:
-      "Compare JPay, CorrLinks, GettingOut and more. Find messaging, phone calls, and video visit options at prisons and jails across all 50 states.",
+      "Compare the best inmate text services: JPay, CorrLinks, GettingOut and more. Find messaging, phone calls, and video visit options at prisons and jails across all 50 states.",
     images: [DEFAULT_OG_IMAGE],
   },
   alternates: { canonical: "/" },

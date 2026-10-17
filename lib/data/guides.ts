@@ -2099,12 +2099,12 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     featuredImage: undefined,
     publishedAt: "2026-05-01",
     updatedAt: "2026-10-12",
-    seoTitle: "Best Inmate Text Service (2026): Top 5 Compared",
-    seoDescription: "Best inmate text service guide for 2026: JPay, CorrLinks, ConnectNetwork, GettingOut and TextBehind compared. Find which platform your facility uses.",
+    seoTitle: "Best Inmate Text Service (2026): Top 5 Compared by Price & Facility",
+    seoDescription: "Compare JPay, CorrLinks, ConnectNetwork, GettingOut, and TextBehind by price, app, and facility. Find which platform your facility uses and what to expect before you sign up.",
 
     intro: [
-      "The best inmate messaging service is whichever one your loved one facility uses - you cannot choose freely. Every correctional facility has a contract with one messaging provider, and all communication goes through that provider only. This guide compares the four main platforms so you know exactly what to expect before you sign up.",
-      "The platforms compared in this guide are JPay, CorrLinks, ConnectNetwork, GettingOut, and TextBehind. Each serves a different type of facility, and understanding which one covers your situation will save you time and frustration.",
+      "We compared the five main inmate text services - JPay, CorrLinks, ConnectNetwork, GettingOut, and TextBehind - by price per message, app quality, and which facilities use them, so you can find your facility's provider and know exactly what to expect before you sign up.",
+      "One thing to know first: you cannot freely choose between providers. Every correctional facility has a contract with one messaging provider, and all communication goes through that provider only. Each platform serves a different type of facility, and understanding which one covers your situation will save you time and frustration.",
     ],
 
     sections: [

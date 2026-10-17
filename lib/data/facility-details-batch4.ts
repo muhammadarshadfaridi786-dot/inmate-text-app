@@ -4014,6 +4014,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "80 29th Street, Brooklyn, NY 11232",
+  phone: "(718) 840-4200",
+
   operatedBy: "Federal Bureau of Prisons (BOP)",
 
   providers: [
@@ -4261,6 +4264,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "200 South Tucker Blvd, St. Louis, MO 63102",
+  phone: "(314) 621-5848",
+
   operatedBy: "St. Louis County Sheriff's Office",
 
   providers: [
@@ -4405,6 +4411,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "2900 South Woodrow, Little Rock, AR 72204",
+  phone: "(501) 340-7001",
+
   visitingHours: "In-person visits run 9:00 AM to 7:00 PM and start on the hour, except 4:30 PM. Inmates get one 30-minute visit per week, with no more than three visitors. Schedule in-person visits 24 hours in advance. Last names A-M visit Monday or Saturday, N-Z Tuesday or Sunday, and A, B, and W Units Wednesday or Thursday.",
   operatedBy: "Pulaski County Sheriff's Office",
 
@@ -4530,6 +4539,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Arizona State Prison Complex Perryville is handled through ICSolutions and Securus. ICSolutions handles electronic messaging, phone calls, video visits, money transfers. Securus provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "2105 N Citrus Rd, Goodyear, AZ 85395",
+  phone: "(623) 853-0304 ext. 24003",
 
   operatedBy: "Arizona Department of Corrections",
   mailingAddress: "Mail uses a unit-specific P.O. box. Address mail with the inmate name and ADC number, the unit name, and the unit P.O. box in Goodyear, AZ 85338 (for example, Lumley Unit, P.O. Box 3300; San Carlos Unit, P.O. Box 3700). Use the unit box from ADCRR's Prison Mailing Addresses page.",
@@ -4662,6 +4674,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "27745 West 159th Street, New Century, KS 66031",
+  phone: "(913) 715-5900",
+
   visitingHours: "Video visits can be scheduled online through HomeWAV or in the front lobby of the Sheriff's Office. On-site visitation: female inmates Saturdays 8:00 to 10:00 AM (check in by 9:00 AM); male inmates with last names A-L Saturdays 1:00 to 5:00 PM (check in by 4:00 PM); male inmates M-Z Sundays 1:00 to 5:00 PM (check in by 4:00 PM).",
   commissary: "The Sheriff's Office partners with Summit for commissary and banking. Deposits can be made at lobby kiosks (7:00 AM to 10:00 PM daily) or online through JailATM (jailatm.com). You need the inmate's six-digit Criminal File Number.",
   operatedBy: "Johnson County Sheriff's Office",
@@ -4791,7 +4806,10 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Hillsborough County Department of Corrections is a county detention facility in Hillsborough County, Florida, operated by the Hillsborough County Sheriff's Office. Communication for families follows the standard process used across Hillsborough County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
     "Communication at Hillsborough County Department of Corrections is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+    "The Sheriff's Office operates two jails: Falkenburg Road Jail, 520 N. Falkenburg Road, Tampa, FL 33619, and Orient Road Jail, 1201 N. Orient Road, Tampa, FL 33619. Both use the same public phone number, (813) 247-8300.",
   ],
+
+  phone: "(813) 247-8300",
 
   mailingAddress: "Inmate Name, Booking Number\nFalkenburg Road Jail\n520 Falkenburg Road\nTampa, FL 33619",
   visitingHours: "In-person visits: the inmate schedules visitors seven days a week, Sunday through Saturday 1:00 PM to 9:00 PM, 40-minute visits starting on the hour, except Thanksgiving, Christmas, and New Year's Day. Video visits are remote, typically 9:30 AM to 8:45 PM, with two hours of no-cost video visits per inmate per week. A valid government photo ID is required.",
@@ -5137,6 +5155,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "7200 Barrister Dr., Boise, ID 83704",
+  phone: "(208) 577-3000",
+
   operatedBy: "Ada County Sheriff's Office",
 
   providers: [
@@ -5391,6 +5412,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at ACI Intake Service Center is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "18 Slate Hill Road, Cranston, RI 02920",
+  phone: "(401) 462-2285",
 
   mailingAddress: "Inmate Name, ID Number\nAnthony P. Travisono Intake Service Center\nP.O. Box 8249\nCranston, RI 02920",
   visitingHours: "In-person visitation is scheduled by housing unit. Visiting periods are 1:00 to 2:15 PM, 3:15 to 4:45 PM, 5:00 to 6:45 PM, and 7:00 to 8:45 PM. Video visits are scheduled at securustech.net within those blocks. Visitation desk: (401) 462-2287 or (401) 462-1268.",
@@ -5648,6 +5672,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at FCI Manchester is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "805 Fox Hollow Road, Manchester, KY 40962",
+  phone: "(606) 598-1900",
 
   visitingHours: "Friday, Saturday, and Sunday, 8:00 AM to 3:00 PM. Confirm with the facility before traveling, since special housing units have modified schedules.",
   rosterUrl: "https://www.bop.gov/inmateloc/",
@@ -5919,6 +5946,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "201 John Mark Dial Dr., Columbia, SC 29209",
+  phone: "(803) 576-3200",
+
   operatedBy: "Richland County Sheriff's Office",
   visitingHours: "Monday through Friday, 8:15 a.m. to 8:30 p.m.",
 
@@ -6066,6 +6096,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Pennington County Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "307 St. Joseph Street, Rapid City, SD 57701",
+  phone: "(605) 394-6116",
 
   operatedBy: "Pennington County Sheriff's Office",
 
@@ -6378,6 +6411,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Multnomah County Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "1120 SW Third Avenue, Portland, OR 97204",
+  phone: "(503) 988-3689",
 
   operatedBy: "Multnomah County Sheriff's Office",
 
@@ -7236,6 +7272,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Send money through the BOP's Des Moines lockbox or a wire service, never to Talladega itself. Mail a postal money order or cashier's check to: Federal Bureau of Prisons, Committed Name, Eight-Digit Register Number, P.O. Box 474701, Des Moines, IA 50947-0001. Or use Western Union Quick Collect with code city FBOP, DC, or MoneyGram ExpressPayment with receive code 7932 and company name Federal Bureau of Prisons, Washington, DC. For MoneyGram, the account number is the eight-digit register number immediately followed by the inmate's last name. Send nothing but the instrument in the lockbox envelope.",
   ],
 
+  address: "565 East Renfroe Road, Talladega, AL 35160",
+  phone: "(256) 315-4100",
+
   operatedBy: "Federal Bureau of Prisons (BOP)",
   mailingAddress: "INMATE NAME and REGISTER NUMBER\nFCI Talladega\nFEDERAL CORRECTIONAL INSTITUTION\nP.M.B 1000\nTALLADEGA, AL 35160\n(Satellite camp mail uses P.O. Box 2000, Talladega, AL 35160.)",
   visitingHours: "Visiting is 8:30 a.m. to 3:00 p.m. on Saturdays, Sundays, and federal holidays, per the facility visiting supplement. Confirm current hours with the facility before visiting.",
@@ -7328,6 +7367,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Money uses two separate accounts. The TRUST account, sometimes called the commissary account, pays for snacks, hygiene items, and similar purchases. Fund it at team3.Inmatecanteen.com, at the Blue Kiosk in the facility lobby, or by mailing a money order (no cash or checks) made out to the inmate's full name to: Inmate's Full Name, Inmate's Jacket Number, ATTENTION MAIL OFFICER, 3165 King Ave E, Billings, MT 59101. Mail without 'Attention Mail Officer' in the address will be returned to sender. The COMMUNICATIONS account pays for phone time, extra video visits, and electronic messages. Inmates may move money from TRUST to COMMUNICATIONS, but not the other way. Fees apply.",
     "Directory sources report that personal mail goes to a scanning address, not the facility: Inmate's Full Name and Jacket Number, Yellowstone County Detention Facility, PO Box 591, Longview, TX 75606. No official Yellowstone County page found states this address, so confirm the current mail address and format with the facility before sending anything. Letters may be mailed, and personal checks and medications are not accepted. No messages are passed to inmates unless they are verifiable emergencies, such as a death in the family or emergency surgery.",
   ],
+
+  address: "3165 King Avenue East, Billings, MT 59101",
+  phone: "(406) 256-6881",
 
   operatedBy: "Yellowstone County Sheriff's Office",
     mailingAddress: "Personal mail address is not stated on official county pages. Directory sources report: Inmate's Full Name and Jacket Number, Yellowstone County Detention Facility, PO Box 591, Longview, TX 75606. Confirm before sending. Money orders go to the facility: Inmate's Full Name, Inmate's Jacket Number, ATTENTION MAIL OFFICER, 3165 King Ave E, Billings, MT 59101.",
@@ -7428,6 +7470,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Personal mail does not go to the facility. Since August 23, 2021, personal mail is no longer accepted at the ADC, and it must go to Smart Communications/FXCOADC, Inmate Name and Inmate Number, P.O. 9128, Seminole, FL 33775-9128. Mail must carry a full return address with the sender's first and last name plus the full correct inmate name and number. It is opened, scanned, screened by the ADC mail room, and forwarded electronically. Bound or book-like materials are rejected, and books sent through regular mail will not be scanned or delivered. Photographs go to the same Smart address, limited to 10 per mailing. Professional and legal mail still goes directly to the ADC, labeled Legal Mail, from the attorney of record, a Commonwealth's attorney, or the courts. Official documents and original transactional documents go to the ADC Property Officer at 10520 Judicial Drive.",
     "Money goes into the inmate's account three ways. The lobby kiosk accepts cash and credit cards. The money safe in the lobby accepts money orders and cashier checks (no personal checks or cash) made out to the inmate's full name, with the inmate number plus the sender's name and address, with no envelope and no correspondence. Online credit card payments go through smartinmate.com, where the vendor charges a fee. The inmate gets access to deposited money within 72 hours. Inmates are charged $2 per day of incarceration to offset housing cost. Seven days after release, the Sheriff's Office mails a check for any remaining balance. Gift packages are ordered through Aramark at 1-888-439-5020 or icaregifts.com, and no gifts or food may be brought into the ADC.",
   ],
+
+  address: "10520 Judicial Drive, Fairfax, VA 22030",
+  phone: "(703) 246-2100",
 
   operatedBy: "Fairfax County Sheriff's Office",
     mailingAddress: "Personal mail: Smart Communications/FXCOADC, Inmate Name/Inmate Number, P.O. 9128, Seminole, FL 33775-9128. Personal mail is NOT accepted at the ADC. Legal mail goes directly to the ADC labeled Legal Mail. Official documents go to the ADC Property Officer, 10520 Judicial Drive, Fairfax, VA 22030.",

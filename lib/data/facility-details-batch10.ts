@@ -513,6 +513,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Money and messaging vendors are not confirmed from an official source. The DOC site offers an Add Funds Online option and an inmate search-and-deposit tool, but no retrieved official source names the deposit vendor, the rates, or the limits. Confirm the deposit and messaging setup with Maine DOC before sending money or messages. Visitation follows Maine DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded. Confirm the current visit steps and schedule with the facility before traveling.",
   ],
 
+  address: "17 Mallison Falls Road, Windham, ME 04062",
+  phone: "(207) 893-7000",
+
   operatedBy: "Maine Department of Corrections",
     mailingAddress: "General correspondence: Resident Name and MDOC Number, Maine Correctional Center, 813 Cushing Road, Warren, ME 04864. Packages, magazines, newspapers, and legal mail: Resident Name and MDOC Number, Maine Correctional Center, 17 Mallison Falls Road, Windham, Maine 04062.",
     visitingHours: "Visitors must complete a Maine DOC visitor application and wait for approval before visiting. Once approved, schedule with the facility and confirm the current visiting schedule and processing time.",
@@ -826,6 +829,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Legal and medical mail must go to the facility where the inmate is housed, not to the PO Box. Books and magazines must come directly from a publisher or bookstore, and the jail does not accept them from companies known to allow third-party sellers, including Amazon, Walmart, and Target. Packages need prior approval from a Sergeant. Money goes into an inmate account through the lobby kiosk, the front desk, or JailATM.com. If the inmate has a negative room-and-board balance from a previous sentenced stay, 50 percent of a deposit goes toward that balance. CourtMoney.com can be used to post bond or add commissary funds. Questions can go to the jail at (605) 367-4321.",
   ],
 
+  address: "305 West 4th Street, Sioux Falls, SD 57104",
+  phone: "(605) 367-4321",
+
   operatedBy: "Minnehaha County Sheriff's Office",
     mailingAddress: "Regular mail (except legal and medical): Inmate Name, File ID number, Minnehaha County Jail, PO Box 591, Longview, TX 75606. Legal and medical mail and approved packages: Inmate Name, Minnehaha County Jail, 305 W. 4th St., Sioux Falls, SD 57104.",
     visitingHours: "Lobby video visits: Sun, Tue-Sat, 7:30-10:15 a.m., 1:00-4:00 p.m., 7:00-9:30 p.m., no lobby visits Monday. Web visits: daily, same windows. All visits scheduled at least 24 hours in advance. Each person may visit an inmate once per day. Visits last 30 minutes unless a supervisor approves longer, never over 60 minutes. Arrive on time: more than 10 minutes late auto-terminates the visit. Bring government-issued photo ID.",
@@ -914,6 +920,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Communication at Mike Durfee State Prison runs through GTL and ViaPath. GTL handles phone calls, and GettingOut handles electronic messaging, video visits, and photo sharing. Families set up a GettingOut account, select Mike Durfee State Prison, and add funds to get started.",
     "In-person visiting follows South Dakota DOC rules. Visitors must be approved and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
+
+  address: "1412 Wood Street, Springfield, SD 57062",
+  phone: "(605) 369-2201",
 
   operatedBy: "South Dakota Department of Corrections",
     mailingAddress: "Inmate Full Name and DOC Number, Mike Durfee State Prison, 1412 Wood Street, Springfield, SD 57062.",

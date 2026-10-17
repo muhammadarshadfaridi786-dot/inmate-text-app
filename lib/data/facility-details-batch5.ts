@@ -1427,6 +1427,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Because the tablet program is the main channel for remote contact, families should set up their IC Solutions account and confirm the current fee details before the first visit. All communications are monitored under the facility's policies.",
   ],
 
+  address: "2340 Mullan Road, Missoula, MT 59808",
+  phone: "(406) 258-4000",
+
   operatedBy: "Missoula County Sheriff's Office",
 
   providers: [
@@ -1962,6 +1965,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Phone calls from the Martinez Detention Facility run through Global Tel Link (GTL). Families set up a GTL account and add phone time so the inmate can call approved numbers. Inmates cannot receive incoming calls, and all calls are recorded and monitored under facility policy.",
     "The phone vendor information for this jail is limited, so families should confirm the current setup with the Contra Costa County Sheriff's Office before funding an account. Messaging and video visitation options are not confirmed for this facility.",
   ],
+
+  address: "901 Court Street, Martinez, CA 94553",
+  phone: "(925) 335-4600",
 
   operatedBy: "Contra Costa County Sheriff's Office",
 

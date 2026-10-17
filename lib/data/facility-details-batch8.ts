@@ -2219,6 +2219,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Money is deposited to inmate accounts through ConnectNetwork, the platform used for Maryland DOC electronic deposits. In-person visits are held on weekends, and visitors must follow the facility's dress code and registration rules.",
   ],
 
+  address: "18601 Roxbury Road, Hagerstown, MD 21746",
+  phone: "240-420-1000",
+
   inmateCapacity: 2179,
   established: 1942,
   visitingHours: "Visits are scheduled by housing unit; confirm with the facility before traveling.",

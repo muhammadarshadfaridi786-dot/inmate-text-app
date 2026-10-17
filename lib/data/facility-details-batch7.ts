@@ -418,6 +418,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     "All calls are monitored and recorded except legal communications. Because phone and any video or messaging options may run through different systems, families should confirm the current providers on the sheriff's inmate information page before funding accounts. For the fastest answers about a specific inmate, use the sheriff's online inmate search.",
   ],
 
+  address: "2115 Martin Luther King Blvd, Fort Myers, FL 33901",
+  phone: "239-477-1500",
+
   operatedBy: "Lee County Sheriff's Office",
 
   providers: [

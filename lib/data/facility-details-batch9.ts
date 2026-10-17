@@ -254,6 +254,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "314 Daniel Webster Highway, Boscawen, NH 03303",
+  phone: "(603) 796-3600",
+
   mailingAddress: "Inmate Name\nMerrimack County Department of Corrections\n314 Daniel Webster Highway\nBoscawen, NH 03303",
   visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
   commissary: "Commissary deposits through JailATM.",
@@ -905,6 +908,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Phone service at Lemon Creek runs through Securus Technologies. The Alaska DOC contracts with Securus for the statewide inmate phone system, per the official AK DOC Inmate Phone System page.",
     "Visitation follows Alaska DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "2000 Lemon Creek Rd, Juneau, AK 99801",
+  phone: "907-465-6200",
 
   inmateCapacity: 226,
   visitingHours: "Visits are by appointment; confirm scheduling with the facility.",
@@ -1949,6 +1955,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Telecom services at Missoula County Detention Center are provided by Smart Communications, per the county's official detention page. Video visits run through smartinmate.com.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "2340 Mullan Road, Missoula, MT 59808",
+  phone: "(406) 258-4000",
 
   inmateCapacity: 394,
   established: 1999,

@@ -841,6 +841,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families create a GettingOut account to fund phone calls and schedule video visits. Messaging and photo sharing are available through the GettingOut platform on tablets and kiosks where offered.",
   ],
 
+  address: "115 W. Doty St., Madison, WI",
+  phone: "(608) 284-6100",
+
   visitingHours: "Visits are scheduled by housing unit; confirm with the Sheriff's Office before traveling.",
   bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",
   operatedBy: "Dane County Sheriff's Office",

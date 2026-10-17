@@ -757,6 +757,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "In-person visiting follows TDCJ rules. Visitors must be on the inmate's approved visiting list and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
 
+  address: "2661 FM 2054, Tennessee Colony, TX 75884",
+  phone: "(903) 928-2211",
+
   inmateCapacity: 4139,
   established: 1965,
   mailingAddress: "Inmate Name\nTDCJ Number\nCoffield Unit\n2661 FM 2054\nTennessee Colony, TX 75884",

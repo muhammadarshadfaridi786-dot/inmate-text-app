@@ -1556,6 +1556,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     "Because phones and video run through two different companies, families need accounts with both GTL and Securus to use every option. Visitors must be on the inmate's approved list and schedule visits in advance. All calls and video visits are monitored and recorded except legal communications.",
   ],
 
+  address: "200 James Robertson Pkwy, Nashville, TN 37201",
+  phone: "615-862-8224",
+
   operatedBy: "Davidson County Sheriff's Office",
 
   providers: [

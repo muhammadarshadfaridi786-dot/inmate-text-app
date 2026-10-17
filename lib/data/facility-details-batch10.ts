@@ -1579,6 +1579,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "4319 Denmar Road, Hillsboro, WV 24946",
+  phone: "(304) 653-4201",
+
   inmateCapacity: 232,
   established: 1919,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",

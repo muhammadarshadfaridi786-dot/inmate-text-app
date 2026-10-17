@@ -101,6 +101,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  phone: "(603) 903-1600",
+
   operatedBy: "Cheshire County Department of Corrections",
   notToConfuseWith: "Not to be confused with Cheshire Correctional Institution in Cheshire, Connecticut.",
 
@@ -1360,6 +1362,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows Connecticut DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "986 Norwich-New London Turnpike, Uncasville, CT 06382",
+  phone: "(860) 848-5700",
+
   established: 1994,
   visitingHours: "Visits are scheduled by housing unit under the CT DOC visiting schedule; confirm your window with the facility before traveling.",
   rosterUrl: "https://ctinmateinfo.state.ct.us/",
@@ -1593,6 +1598,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Tablet messaging and video visitation run through GettingOut, per an official Delaware DOC announcement. Families create a GettingOut account, add the inmate, and fund messaging and video visit services.",
     "In-person visiting follows Delaware DOC rules. Visitors must be approved and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
+
+  address: "660 Baylor Boulevard, New Castle, DE 19720",
+  phone: "(302) 577-3004",
 
   inmateCapacity: 464,
   established: 1991,

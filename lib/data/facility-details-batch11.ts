@@ -196,6 +196,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "1825 County Services Parkway, Marietta, GA 30008",
+  phone: "(770) 499-4221",
+
   inmateCapacity: 3077,
   operatedBy: "Cobb County Sheriff's Office",
 
@@ -1312,6 +1315,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows LVMPD rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "330 S. Casino Center Blvd., Las Vegas, NV 89101",
+
   operatedBy: "Las Vegas Metropolitan Police Department (LVMPD)",
     visitingHours: "Register online at the GTL VisitMe portal or in person, 8am to 10:30pm daily. No visit for 24 hours after registration. General-population social visits are two 25-minute visits per week. On-site booth visits are free. Social visiting hours are Monday through Friday, 7am to 10:30am and 7pm to 11pm; Saturday and Sunday, 7am to 10:30am, 12:30pm to 3pm, and 7pm to 11pm. Confirm the current schedule with the facility before traveling.",
     rosterUrl: "https://www.lvmpd.com/about/sections/clark-county-detention-center/inmate-search",
@@ -1639,6 +1644,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "4300 Community Ave, McKinney, TX 75071",
+  phone: "(972) 547-5100",
+
   operatedBy: "Collin County Sheriff's Office",
     visitingHours: "All visits are 25 minutes. Visitors must arrive 20 minutes before the scheduled visit time and be on the inmate's visitation list, with valid photo ID. Visitation times are subject to change without notice. Confirm the current schedule with the facility before traveling.",
     commissary: "Cash for commissary must be deposited at the kiosk. The Detention Facility does not accept cash, checks, or money orders by mail for commissary. The Bonds Office accepts cash for bonding purposes only.",
@@ -1724,6 +1732,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Video visits at Denton County Jail run through HomeWAV. The phone and messaging vendors are not settled, so confirm the current provider with the facility before creating a paid account.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "127 N Woodrow Lane, Denton, TX 76205",
 
   operatedBy: "Denton County Sheriff's Office",
     visitingHours: "On-site public visits are held Saturdays, 8am to 7:30pm, at the Pod Jail Public Entrance, 127 Woodrow Lane, Denton, TX 76205. Schedule at least 24 hours ahead through HomeWAV. Approval can take up to 72 hours, excluding weekends and holidays. Remote visits last 20 minutes at $0.10 per minute and are initiated by the inmate, not the visitor. Up to two free on-site visits per week. Confirm the current schedule with the facility before traveling.",

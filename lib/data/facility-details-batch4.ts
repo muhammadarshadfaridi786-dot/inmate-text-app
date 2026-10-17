@@ -1059,7 +1059,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Detroit is a major metro area, so many families live close enough for in-person visits, but jail visitation hours and rules change often, so it helps to call ahead or check the Sheriff's Office website before making the trip. People convicted of felonies and sentenced to state prison time are transferred out of the county jail to a Michigan Department of Corrections facility, where different communication providers usually apply. Always confirm current facility placement before assuming a provider account will still work.",
   ],
 
-  address: "570 Clinton Street, Detroit, MI 48226",
+  address: "5301 Russell Street, Detroit, MI 48211",
   phone: "(313) 224-0797",
   website: "https://www.sheriffconnect.com",
   established: 1984,

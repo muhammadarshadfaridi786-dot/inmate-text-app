@@ -1413,6 +1413,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "911 Parr Blvd, Reno, NV",
+  phone: "775-328-3062",
+
   operatedBy: "Washoe County Sheriff's Office",
     mailingAddress: "Smart Communications, Washoe County Detention Facility, Inmate Name and Booking or ID Number, PO Box 9163, Seminole, FL 33775-9137. Legal mail, court documents, business mail, and publications go directly to the facility at 911 Parr Blvd., Reno, NV 89512.",
     visitingHours: "On-site video visiting is available in the public lobby, Monday through Friday, 8:00am to 9:30pm. Create an account and schedule your visit at least 24 hours in advance. You must be 18 or older and submit a photo of your government-issued ID and a current face photo.",
@@ -2100,6 +2103,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Do not send mail or money until the facility confirms the current instructions. Mail sent to the wrong facility can be delayed or returned, and deposit methods in directories conflict. When you call, ask what must appear on the envelope, whether a booking or ID number is required, and which deposit methods the county jail currently accepts.",
     "If the person you are trying to reach is a federal or immigration detainee, check whether they are held at the Detention Center instead of the county jail. The Detention Center has its own phone numbers, visit rules, and attorney procedures published by ICE and CoreCivic. Confirm the correct facility first, then follow that facility's published instructions.",
   ],
+
+  address: "1001 Washington St., Laredo, TX 78040",
+  phone: "956-523-4495",
 
   operatedBy: "Webb County Sheriff's Office",
     mailingAddress: "Mail address not confirmed from official sources. Do NOT use 9998 S. Highway 83 for county jail mail; that is the separate Webb County Detention Center (CoreCivic). Confirm the current mail address and format with the facility before sending.",

@@ -1851,6 +1851,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     "Visitors must be on the inmate's approved list and schedule visits in advance. All calls and video visits are monitored and recorded except legal communications. Families should confirm current visitation hours on the sheriff's website before planning a visit.",
   ],
 
+  address: "2501 James Madison Blvd., Virginia Beach, VA 23456",
+  phone: "(757) 385-4555",
+
   operatedBy: "Virginia Beach Sheriff's Office",
   visitingHours: "Video visits by appointment only. Inmates are allowed one 25-minute visit per week; workforce and trustee inmates receive two 55-minute visits per week. Schedule at least 24 hours ahead through the Sheriff's Office visitation system. Confirm current visit windows before traveling.",
 

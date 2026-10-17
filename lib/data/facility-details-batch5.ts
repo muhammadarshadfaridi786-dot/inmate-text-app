@@ -782,6 +782,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Because everything runs on one vendor platform, a single funded Smart Communications account covers calls, emails, visits, and entertainment. All calls are billed at a per-minute rate with no connection fees, three-way calls are prohibited, and incoming calls are not accepted except for voicemail messages to approved inmates.",
   ],
 
+  address: "911 Parr Blvd, Reno, NV",
+  phone: "775-328-3062",
+
   operatedBy: "Washoe County Sheriff's Office",
   visitingHours: "On-site video visiting is available in the public lobby, Monday through Friday, 8:00 AM to 9:30 PM. Create an account at smartinmate.com with a government-issued ID photo and a current face photo; the facility must approve the account before you can schedule. Visits can also be scheduled at on-site kiosks. You must be 18 or older to create an account.",
   providers: [
@@ -1077,6 +1080,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Telmate provides the jail's inmate phone, email, and video visitation services, replacing the previous vendor. Families create a Telmate account to fund phone calls, schedule video visits, and exchange messages. Telmate is part of the ViaPath (formerly GTL) family of companies, and its platform covers calls, video visitation, and messaging from one account.",
     "Because the vendor changed in recent years, families with old account information should confirm they are using the current Telmate system rather than a legacy vendor account. All communications are monitored under the Sheriff's Office policies.",
   ],
+
+  address: "3075 North Main, Spanish Fork, UT 84660",
+  phone: "801-851-4302",
 
   operatedBy: "Utah County Sheriff's Office",
   mailingAddress: "Inmate First and Last Name, Booking Number, Utah County Jail, 3075 N Main St, Spanish Fork, UT 84660. Include a return name and address. Personal mail is scanned and viewed digitally on a tablet or kiosk, and originals are held until release. Legal mail and new softcover books from a publisher or bookstore are still accepted.",
@@ -1759,6 +1765,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "The Sheriff's Office is contracted with Securus Technologies as the provider of the incarcerated person phone system across the county's jail facilities. Securus also handles video visitation, email and texting, digital letters, and SecureView tablet rentals. Inmates can make calls directly from the tablets as well as the unit phones, and eMessaging supports text-based messages and pictures on a fee basis.",
     "Deposits for inmate accounts can be made online through JailATM, at the kiosk in the jail lobby, by phone, or by mailing a money order. Because Securus covers nearly all communication channels here, one funded Securus account is the starting point for calls, messages, and video visits.",
   ],
+
+  address: "800 S. Victoria Avenue, Ventura, CA 93009",
+  phone: "805-654-3335",
 
   website: "https://www.venturasheriff.org/divisions/detention-services/jail-facilities/",
   operatedBy: "Ventura County Sheriff's Office",

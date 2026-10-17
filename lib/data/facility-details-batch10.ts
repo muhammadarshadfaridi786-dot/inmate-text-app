@@ -360,6 +360,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "94-560 Kamehameha Highway, Waipahu, HI 96797",
+  phone: "808-677-6150",
+
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
     mailingAddress: "Inmate First and Last Name, c/o Waiawa Correctional Facility, P.O. Box 1839, Pearl City, HI 96782.",
     visitingHours: "Visitation follows a posted schedule that changes with facility operations. Confirm the current visiting schedule and approval requirements with the facility before traveling.",

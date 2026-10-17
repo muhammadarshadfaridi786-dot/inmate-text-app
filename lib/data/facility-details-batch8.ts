@@ -2051,6 +2051,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Money is deposited to inmate trust accounts through JPay online and by phone. In-person visits require the visitor to be registered with ViaPath and on the inmate's approved list.",
   ],
 
+  address: "6908 S. Old US Hwy 41, Carlisle, IN 47838",
+  phone: "812-398-5050",
+
   website: "https://www.in.gov/idoc/adult-facilities/wabash-valley-correctional-facility/",
   established: 1992,
   visitingHours: "Visits are scheduled in advance; confirm current options with the facility before traveling.",

@@ -600,6 +600,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "204 Front Street SE, Minot, ND 58701",
+  phone: "701-857-6530",
+
   mailingAddress: "Inmate Name, ID Number\nWard County Detention Center\n315 3rd Street SE\nMinot, ND 58702",
   visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
   bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",

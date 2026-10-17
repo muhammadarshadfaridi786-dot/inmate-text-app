@@ -173,6 +173,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "3787 Dartmouth College Hwy, North Haverhill, NH 03774",
+  phone: "603-787-2019",
+
   inmateCapacity: 150,
   established: 2012,
   mailingAddress: "Inmate Name\nGrafton County Department of Corrections\n3787 Dartmouth College Highway\nNorth Haverhill, NH 03774",
@@ -501,6 +504,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Phone service also runs through HomeWAV. The county's Inmate Phone Service page lists HomeWAV support at 1-844-394-6639 (8 a.m. to 5 p.m.), support@homewav.com, and homewav.com. HomeWAV's platform also offers messaging and visit scheduling.",
     "No official county mail or deposit page was found for this facility. Directories converge on a PO Box 5244 mailing address, but the county has not published an inmate mail format on the pages fetched, so confirm the current mail address with the facility before sending anything. Directories also disagree on the deposit vendor, so confirm deposit options with the facility before sending money.",
   ],
+
+  address: "1701 N Washington St, Grand Forks, ND",
+  phone: "(701) 780-8224",
 
   mailingAddress: "Mail address is not published on the county pages fetched. Directories report: Inmate Name, ID Number, Grand Forks County Correctional Center, PO Box 5244, Grand Forks, ND 58206-5244. Confirm before sending. Do not assume the facility street address is the mail route.",
   visitingHours: "Video visits only, through HomeWAV. Onsite: Tue/Wed/Thu 9-11 a.m. and 7:30-9:30 p.m., Wed afternoons 2-4 p.m., Sat/Sun 1:30-4:30 p.m. Sessions max 20 minutes. No visit before 8 a.m. or after 10 p.m. Onsite free; offsite small cost listed on homewav.com. Onsite visits must be scheduled at least 24 hours in advance.",
@@ -1288,6 +1294,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows Connecticut DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "50 Nunnawauk Road, Newtown, CT 06470",
+  phone: "(203) 270-2800",
+
   inmateCapacity: 593,
   visitingHours: "Visits are scheduled by housing unit under the CT DOC visiting schedule; confirm your window with the facility before traveling.",
   rosterUrl: "https://ctinmateinfo.state.ct.us/",
@@ -1444,6 +1453,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Phone service at Hartford runs through the Securus phone system, per the official Connecticut correctional services page. Families set up a Securus account and fund phone service for outgoing calls.",
     "Visitation follows Connecticut DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "177 Weston Street, Hartford, CT 06120",
+  phone: "(959) 200-3000",
 
   inmateCapacity: 1000,
   established: 1977,

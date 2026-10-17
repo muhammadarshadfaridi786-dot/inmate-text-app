@@ -1082,6 +1082,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     "Video visits are the primary visit option and must be scheduled in advance through the Securus system. All calls and video visits are monitored and recorded. Families should confirm current schedules and any messaging options on the sheriff's website before funding accounts.",
   ],
 
+  address: "201 S Edgeworth St., Greensboro, NC 27401",
+  phone: "(336) 641-2700",
+
   operatedBy: "Guilford County Sheriff's Office",
 
   providers: [
@@ -2032,6 +2035,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     "The county's inmate telephone system is provided by GTL, and video calls with family run through the GettingOut app on facility tablets. Families create a GettingOut account to schedule video visits and to send secure messages and photos, while phone calls are funded through GTL's phone accounts.",
     "Visitors must be on the inmate's approved list and follow the facility's scheduling rules. Because phones and video run through GTL's connected systems, families need both a GTL phone account and a GettingOut account. All calls and video visits are monitored and recorded except legal communications.",
   ],
+
+  address: "4317 E. Parham Rd., Henrico, VA 23228",
+  phone: "(804) 501-4581",
 
   operatedBy: "Henrico County Sheriff's Office",
 

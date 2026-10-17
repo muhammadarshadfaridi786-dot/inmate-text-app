@@ -31,6 +31,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "60 Punahele Street, Hilo, HI 96720",
+  phone: "808-933-0428",
+
   inmateCapacity: 226,
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
     mailingAddress: "Inmate Full Name, c/o Hawaii Community Correctional Center, 60 Punahele Street, Hilo, HI 96720.",

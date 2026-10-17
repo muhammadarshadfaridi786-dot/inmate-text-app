@@ -1932,6 +1932,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "5700 Ball St, Galveston, TX 77551",
+
   operatedBy: "Galveston County Sheriff's Office",
     mailingAddress: "Inmate Full Name and ID, Galveston County Jail, 5700 Avenue H, Galveston, TX 77551.",
     visitingHours: "Visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",

@@ -172,6 +172,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Video visitation at Riverside County jails is managed through the county's own visitation system, which is separate from the Securus phone service. All visitors, including remote video visitors, must be on the inmate's approved visitation list, and scheduling involves several steps, so plan ahead rather than waiting until the last minute.",
   ],
 
+  address: "4000 Orange Street, Riverside, CA 92501",
+  phone: "951-955-4500",
+
   operatedBy: "Riverside County Sheriff's Department",
 
   providers: [
@@ -449,6 +452,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "The incarcerated persons telephone system at the Main Jail is provided by Securus Technologies. Families create a Securus account or call 1-800-844-6591 to set up calling. The jail also runs an email system: family members can email an incarcerated person through the inmate information system, and emails are printed and delivered, usually the next day. Incarcerated persons cannot reply electronically.",
     "Mail to the Main Jail goes through the Securus Digital Mail Center, not directly to the jail building, with legal and confidential mail still sent to the housing location. Social visits run on a schedule of two 45-minute visits per week per inmate, Sunday through Saturday, and visitors must present valid identification.",
   ],
+
+  address: "651 I Street, Sacramento, CA 95814",
+  phone: "916-874-6752",
 
   operatedBy: "Sacramento County Sheriff's Office",
   rosterUrl: "https://www.sacsheriff.com/InmateInformation/",
@@ -1820,6 +1826,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "An incarcerated caller from the jail identified Securus Technologies as the facility's phone system. Families should set up and fund a Securus account so calls from the inmate can connect, and confirm the current vendor on the Sheriff's pages since provider information for this jail is limited.",
     "As with most county jails, inmates cannot receive incoming calls, and all calls are recorded and monitored. Families should get the inmate's booking number first, since it is needed for phone accounts, deposits, mail, and visitation registration.",
   ],
+
+  address: "7000 Michael Canlis Blvd, French Camp, CA 95231",
+  phone: "(209) 468-4562",
 
   operatedBy: "San Joaquin County Sheriff's Office",
 

@@ -1954,6 +1954,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Money is deposited to inmate accounts through JPay online, by phone, by MoneyGram, or by money order mailed to the facility. In-person visits require the visitor to be approved and scheduled in advance.",
   ],
 
+  address: "700 West Lincoln Street, Pontiac, IL 61764",
+  phone: "(815) 842-2816",
+
   website: "https://www2.illinois.gov/idoc/facilities/Pages/pontiaccorrectionalcenter.aspx",
   established: 1871,
   mailingAddress: "Inmate Name, ID Number\nPontiac Correctional Center\nP.O. Box 99\nPontiac, IL 61764",

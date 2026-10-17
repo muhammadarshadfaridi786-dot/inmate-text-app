@@ -31,6 +31,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Families set up a Securus account online or in the app, select Rockingham County Jail, and add the inmate to get started. All calls, messages, and video visits are monitored and recorded.",
   ],
 
+  address: "99 North Road, Brentwood, NH 03833",
+  phone: "(603) 679-2244",
+
   notToConfuseWith: "Not to be confused with Rockingham County Jail in Reidsville, North Carolina.",
   operatedBy: "Rockingham County Department of Corrections",
 
@@ -1070,6 +1073,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Phone service at Palmer runs through Securus Technologies. The Alaska DOC contracts with Securus for the statewide inmate phone system, per the official AK DOC Inmate Phone System page.",
     "Visitation follows Alaska DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "Mile 58 Old Glenn Highway, Palmer, AK 99645",
 
   inmateCapacity: 514,
   mailingAddress: "Inmate Name, ID Number\nPalmer Correctional Center\nP.O. Box 919\nPalmer, AK 99502",

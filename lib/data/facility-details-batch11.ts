@@ -1044,6 +1044,8 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation is video-based. Visitors must be approved and follow Sheriff's Office visiting rules. All calls and visits are monitored and recorded.",
   ],
 
+  phone: "651-266-9350",
+
   address: "425 Grove Street, Saint Paul, MN 55101",
   website: "https://www.ramseycountymn.gov/your-government/leadership/sheriffs-office/sheriffs-office-divisions/detention-services/adult-detention-center-jail/inmate-communication",
   mailingAddress: "Inmate Full Name\nRamsey County ADC, Inmate Mail\n425 Grove Street\nSaint Paul, MN 55101",

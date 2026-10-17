@@ -1089,6 +1089,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "Visitation follows Florida Department of Corrections rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "5850 East Milton Road, Milton, FL 32583-7914",
+  phone: "(850) 983-5800",
+
   website: "https://fdc.myflorida.com/ci/119.html",
   inmateCapacity: 1614,
   established: 1996,

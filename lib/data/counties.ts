@@ -733,7 +733,7 @@ export const COUNTY_DETAILS: Record<string, CountyDetail> = {
         features: ["Video Calls", "Phone Calls", "Money Transfer"],
       },
       {
-        name: "Las Colinas Women's Detention Facility",
+        name: "Las Colinas Detention and Reentry Facility",
         slug: "las-colinas-womens-detention-facility",
         type: "County Jail",
         county: "San Diego County",

@@ -2532,7 +2532,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
   },
   {
     id: "f-190",
-    name: "Las Colinas Women's Detention Facility",
+    name: "Las Colinas Detention and Reentry Facility",
     slug: "las-colinas-womens-detention-facility",
     type: "county",
     stateSlug: "california",
@@ -3988,7 +3988,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
   },
   {
     id: "f-302",
-    name: "New Hampshire State Prison for Women",
+    name: "New Hampshire Correctional Facility for Women",
     slug: "new-hampshire-state-prison-for-women",
     type: "state",
     stateSlug: "new-hampshire",
@@ -4157,7 +4157,7 @@ export const ALL_FACILITIES: FacilityBasic[] = [
   },
   {
     id: "f-315",
-    name: "Corrigan-Radgowski Correctional Center",
+    name: "Corrigan CC",
     slug: "corrigan-radgowski-correctional-center",
     type: "state",
     stateSlug: "connecticut",

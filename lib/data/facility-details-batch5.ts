@@ -614,7 +614,7 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "San Francisco County Jail communication guide. GTL (ViaPath) free phone and video call info for families of people held in the San Francisco jails.",
 
   overview: [
-    "The San Francisco County jails, operated by the San Francisco Sheriff's Department, include intake and housing facilities in the city and in San Bruno. The department has pursued a free-communications model: rather than charging families per call, the city pays the vendor a fixed rate so incarcerated people and their families are not charged for calls.",
+    "The San Francisco County jails, operated by the San Francisco Sheriff's Department, include intake and housing facilities in the city and in San Bruno. County Jail 1 and County Jail 2 are at 425 7th Street in San Francisco, and County Jail 3 is at 1 Moreland Drive in San Bruno. The department has pursued a free-communications model: rather than charging families per call, the city pays the vendor a fixed rate so incarcerated people and their families are not charged for calls.",
     "Global Tel Link (GTL), now ViaPath Technologies, was selected as the jail phone service provider under the city's contract, which also allows for free video calls. Families still set up accounts with the vendor for calling, but the per-call cost burden that existed before the contract is gone.",
     "San Francisco has also moved toward free tablet services for incarcerated people, with the Sheriff's Office running a request-for-proposals process for a free tablet program. Because the communications setup here differs from most California jails, check the Sheriff's current pages before assuming any fee schedule you see on a vendor site applies.",
   ],

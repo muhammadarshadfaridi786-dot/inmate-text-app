@@ -553,7 +553,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Franklin County Jail communication guide. GTL phone, messaging and video visits for families of inmates at this Franklin County Sheriff's jail in Columbus OH.",
 
   overview: [
-    "Franklin County Jail is the county jail in Columbus, Ohio, operated by the Franklin County Sheriff's Office. The Sheriff operates a corrections center system, and the current main center is the James A. Karnes Corrections Center.",
+    "Franklin County Jail is the county jail in Columbus, Ohio, operated by the Franklin County Sheriff's Office. The Sheriff operates a corrections center system, and the current main center is the James A. Karnes Corrections Center. The system also includes Franklin County Corrections Center II at 2460 Jackson Pike; the main center is at 2551 Fisher Road.",
     "Communication at Franklin County Jail runs through GTL (ViaPath). Phone calls, video visits, and messaging are handled through GTL's ConnectNetwork and GettingOut platforms.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],

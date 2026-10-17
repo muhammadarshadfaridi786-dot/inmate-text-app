@@ -429,44 +429,30 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   countyName: "York County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "York County Jail: Securus Phone, Messaging and Video Visits",
-  seoDescription: "How to contact someone at York County Jail in Alfred ME. Securus phone, messaging and video visits for this York County pretrial jail.",
+  seoTitle: "York County Jail: Contact, Visits, and Mail Guide (Alfred, Maine)",
+  seoDescription: "How to contact someone at York County Jail in Alfred ME. The phone, messaging, and video visit vendor is not confirmed on the county corrections page, so confirm with the facility before creating any paid account.",
 
   description:
-    "York County Jail communication guide. Securus phone, messaging and video visits for families of inmates at this York County pretrial jail in Alfred ME.",
+    "York County Jail communication guide for families of inmates at this York County pretrial jail in Alfred ME. The phone, messaging, and video visit vendor is not confirmed on the county corrections page.",
 
   overview: [
     "York County Jail is the county jail in Alfred, Maine, operated by the York County Sheriff's Office. It is primarily a pretrial jail.",
-    "Communication at York County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
+    "The phone, messaging, and video visit vendor for York County Jail is not confirmed on the county corrections page. Confirm the current vendor with the facility before creating any paid account.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
   operatedBy: "York County Sheriff's Office",
-    mailingAddress: "Inmate Full Name, York County Jail, 1 Layman Way, Alfred, ME 04002.",
-    visitingHours: "Video visits are scheduled in advance through Securus. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule with the facility before traveling.",
-    commissary: "Commissary deposits through Securus.",
+    visitingHours: "Video visits are scheduled in advance. Visitors must be on the inmate's approved list and bring valid photo ID. Confirm the current visiting schedule and vendor with the facility before traveling.",
+    commissary: "Commissary deposit options are not confirmed. Confirm the current method with the facility before sending money.",
     bailInfo: "Bail is set by a judge at first appearance, typically within 24 to 48 hours of booking. Check the booking record or call the facility for the current bond amount and posting instructions.",
 
-  providers: [
-    {
-      name: "Securus",
-      slug: "securus",
-      initial: "S",
-      color: "bg-indigo-700",
-      messaging: true,
-      video: true,
-      photos: false,
-      phone: true,
-      moneyTransfer: false,
-      notes: "Securus provides phone service, eMessaging, and video visitation.",
-    },
-  ],
+  providers: [],
 
   communication: {
-    messaging: { status: "available", provider: "Securus", notes: "Electronic messaging through Securus eMessaging." },
-    video: { status: "available", provider: "Securus", notes: "Video visits through Securus Video Connect. Schedule in advance." },
+    messaging: { status: "limited", notes: "Messaging vendor is not confirmed on the county corrections page. Confirm with the facility before creating any paid account." },
+    video: { status: "limited", notes: "Video visit vendor is not confirmed on the county corrections page. Confirm with the facility before creating any paid account." },
     photos: { status: "limited", notes: "Photo sharing options are not confirmed. Confirm with the facility." },
-    phone: { status: "available", provider: "Securus", notes: "Phone calls through Securus. Set up a Securus account to fund calls." },
+    phone: { status: "limited", notes: "Phone vendor is not confirmed on the county corrections page. Confirm with the facility before creating any paid account." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
@@ -479,15 +465,15 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at York County Jail in Maine?", answer: "Phone calls run through Securus. Set up a Securus account to fund calls and eMessaging." },
+    { question: "Which company handles phone calls at York County Jail in Maine?", answer: "The phone vendor is not confirmed on the county corrections page. Confirm the current vendor with the facility before creating any paid account." },
     { question: "How do I visit someone at York County Jail in Maine?", answer: "Visitors must be approved. Bring valid photo ID and follow county visiting rules. Confirm visiting hours before traveling." },
     { question: "Where is York County Jail in Maine?", answer: "York County Jail is in Alfred, Maine. It is primarily a pretrial jail operated by the York County Sheriff's Office." },
-    { question: "How do I mail a letter to someone at York County Jail in Maine?", answer: "Address the envelope with the inmate's full name, York County Jail, 1 Layman Way, Alfred, ME 04002. Include a return address. Mail is inspected for contraband." },
+    { question: "How do I mail a letter to someone at York County Jail in Maine?", answer: "Confirm the current mailing address and mail rules with the facility before sending anything. Include a return address. Mail is inspected for contraband." },
     { question: "How do I find out if someone is at York County Jail in Maine?", answer: "Contact the facility or the York County Sheriff's Office to confirm custody status. Have the person's full legal name ready." },
-    { question: "Can an inmate at York County Jail in Maine call me?", answer: "Yes. Inmates place outgoing calls through Securus. Set up a Securus account to fund calls, and keep your number on the approved list. Inmates cannot receive incoming calls." },
-    { question: "How do I block calls from York County Jail in Maine?", answer: "Contact Securus to block calls from the facility, or block the number through your phone carrier. You can also ask the facility to remove your number from the inmate's approved list." },
-    { question: "How do I schedule a video visit at York County Jail in Maine?", answer: "Video visits run through Securus Video Connect. Create a Securus account, add the inmate, and schedule in advance. Confirm the current schedule with the facility." },
-    { question: "How do I send money to someone at York County Jail in Maine?", answer: "Commissary deposits go through Securus. Create a Securus account, add the inmate, and fund the account. Confirm current deposit options with the facility." },
+    { question: "Can an inmate at York County Jail in Maine call me?", answer: "Yes. Inmates place outgoing calls to numbers on the approved list. The phone vendor is not confirmed, so confirm the current vendor with the facility before creating any paid account. Inmates cannot receive incoming calls." },
+    { question: "How do I block calls from York County Jail in Maine?", answer: "Ask the facility to remove your number from the inmate's approved list, or block the number through your phone carrier. Confirm the current phone vendor with the facility first." },
+    { question: "How do I schedule a video visit at York County Jail in Maine?", answer: "Video visits are scheduled in advance. Confirm the current video visit vendor and schedule with the facility before booking." },
+    { question: "How do I send money to someone at York County Jail in Maine?", answer: "Deposit options are not confirmed. Confirm the current deposit method with the facility before sending money." },
   ],
 
   relatedFacilitySlugs: ["cumberland-county-jail", "penobscot-county-jail", "maine-state-prison"],

@@ -3951,53 +3951,88 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   stateAbbr: "NY",
   countySlug: null,
   countyName: "Kings County",
-  securityLevel: "Pretrial",
+  securityLevel: "Closed",
   hasDetailPage: true,
-  seoTitle: "Brooklyn Detention Complex: Phone Calls, Messaging and",
-  seoDescription: "How to contact someone at Brooklyn Detention Complex.",
+  seoTitle: "Brooklyn Detention Complex (Closed for Reconstruction): Where to Find Someone Now",
+  seoDescription: "The Brooklyn Detention Complex was demolished in March 2024 and is being rebuilt. Confirm current housing through the NYC DOC inmate lookup.",
 
   description:
-    "Brooklyn Detention Complex communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Kings County facility.",
+    "The Brooklyn Detention Complex in Brooklyn was demolished in March 2024 and is being rebuilt. This page explains the closure and directs families to the NYC DOC inmate lookup to confirm current housing.",
 
   overview: [
-    "Brooklyn Detention Complex is a county detention facility in Kings County, New York, operated by the Kings County Sheriff's Office. Communication for families follows the standard process used across Kings County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
-    "Communication at Brooklyn Detention Complex is handled through GTL and ConnectNetwork. GTL handles phone calls, video visits. ConnectNetwork handles electronic messaging, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
-    "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+    "The Brooklyn Detention Complex (Brooklyn House of Detention) in Brooklyn, New York, was demolished in March 2024 and is being rebuilt, with reconstruction expected to continue until about spring 2029. It is operated by the New York City Department of Correction (NYC DOC), not a county sheriff and not the Federal Bureau of Prisons. This page stays online so families searching for the old facility name find the closure and the current setup instead of outdated contact details. Do not send mail, money, or visit requests to the Brooklyn Detention Complex building.",
+    "People who were held at the Brooklyn Detention Complex were moved to other NYC DOC facilities. NYC DOC has not published a single transfer destination for this closure, so confirm a person's current housing through the NYC DOC inmate lookup before setting up or funding any contact.",
+    "Use the NYC DOC website for current facility information and the inmate lookup. Confirm the facility name and housing location first, because the provider setup and visiting rules depend on where the person is currently housed.",
   ],
 
-  operatedBy: "Kings County Sheriff's Office",
+  website: "https://www.nyc.gov/site/doc",
+  operatedBy: "New York City Department of Correction (NYC DOC)",
 
-  providers: [
-    { name: "GTL", slug: "gtl", initial: "G", color: "bg-amber-600", messaging: false, video: true, photos: false, phone: true, moneyTransfer: false, notes: "Handles phone calls, video visits." },
-    { name: "ConnectNetwork", slug: "connectnetwork", initial: "C", color: "bg-teal-600", messaging: true, video: false, photos: false, phone: false, moneyTransfer: true, notes: "Handles messaging, money transfers." },
-  ],
+  providers: [],
 
   communication: {
-    messaging: { status: "available", provider: "ConnectNetwork", notes: "Electronic messaging is reviewed by facility staff before delivery." },
-    video: { status: "available", provider: "GTL", notes: "Video visits are scheduled in advance through the provider platform." },
-    photos: { status: "limited", provider: undefined, notes: "Physical photos by mail only, subject to facility content rules." },
-    phone: { status: "available", provider: "GTL", notes: "Calls are inmate-initiated. Fund an account so calls can connect." },
-    moneyTransfer: { status: "available", provider: "ConnectNetwork", notes: "Deposit funds for commissary and communication through the provider." },
+    messaging: { status: "limited", provider: undefined, notes: "No messaging service applies to the closed Brooklyn Detention Complex building. Confirm current NYC DOC housing and that facility's messaging setup." },
+    video: { status: "limited", provider: undefined, notes: "No visits apply to the closed Brooklyn Detention Complex building. Confirm current NYC DOC housing and that facility's visiting rules." },
+    photos: { status: "limited", provider: undefined, notes: "No photo service applies to the closed Brooklyn Detention Complex building." },
+    phone: { status: "limited", provider: undefined, notes: "No phone service applies to the closed Brooklyn Detention Complex building. Confirm current NYC DOC housing and that facility's phone setup." },
+    moneyTransfer: { status: "limited", provider: undefined, notes: "Do not send money to the closed Brooklyn Detention Complex building. Confirm current NYC DOC housing and that facility's deposit method." },
   },
 
   rules: [
-    "ConnectNetwork handles messaging. Create your account first and add the inmate using their full name and ID number.",
-    "GTL handles phone calls. Fund an account so inmate-initiated calls can connect.",
-    "All communications are monitored and reviewed under the operating agency's policy.",
-    "Confirm current facility placement with the inmate locator before creating accounts or sending funds.",
-    "After sentencing to state prison, communication providers change at the receiving facility.",
+    "The Brooklyn Detention Complex building is closed for reconstruction. Do not send mail, money, or visit requests to it.",
+    "Confirm current housing through the NYC DOC inmate lookup before funding any account.",
+    "Other NYC DOC facilities still operate. Only this building closed.",
+    "Provider setup depends on the person's current facility. Confirm it through NYC DOC.",
+    "All calls, messages, and visits at NYC DOC facilities are monitored under NYC DOC policy.",
   ],
 
   faq: [
-    { question: "How do I message someone at Brooklyn Detention Complex?", answer: "Create an account with ConnectNetwork, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
-    { question: "How do phone calls work at Brooklyn Detention Complex?", answer: "Phone calls run through GTL. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
-    { question: "Can I do a video visit with someone at Brooklyn Detention Complex?", answer: "Video visits are available through GTL. Create an account, look up the facility, and schedule an available time slot in advance." },
-    { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
-    { question: "How do I send money to someone at Brooklyn Detention Complex?", answer: "Deposits go through ConnectNetwork. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    {
+      question: "Is the Brooklyn Detention Complex still open?",
+      answer: "No. The building was demolished in March 2024 and is being rebuilt, with reconstruction expected to continue until about spring 2029. Do not send mail, money, or visit requests to the Brooklyn Detention Complex building.",
+    },
+    {
+      question: "Where are people who were at Brooklyn Detention Complex now?",
+      answer: "People held there were moved to other NYC DOC facilities. NYC DOC has not published a single transfer destination for this closure, so confirm a person's current housing through the NYC DOC inmate lookup before contacting or funding anything.",
+    },
+    {
+      question: "How do I find someone who was at Brooklyn Detention Complex?",
+      answer: "Use the NYC DOC inmate lookup. Search by name and confirm the current facility before setting up contact.",
+    },
+    {
+      question: "Can I send mail to someone at the Brooklyn Detention Complex?",
+      answer: "No. The building is closed for reconstruction. Confirm the person's current NYC DOC housing first, then use the mailing rules for that facility.",
+    },
+    {
+      question: "Can I send money to someone who was at Brooklyn Detention Complex?",
+      answer: "No. Do not send money to the closed building. Confirm current housing through the NYC DOC inmate lookup, then use the deposit method for that facility.",
+    },
+    {
+      question: "Can I visit someone at Brooklyn Detention Complex?",
+      answer: "No. The building was demolished and holds no visits. Confirm current housing and use that facility's visiting rules.",
+    },
+    {
+      question: "Is the whole New York City jail system closed?",
+      answer: "No. Only the Brooklyn Detention Complex building closed for reconstruction. Other NYC DOC facilities still operate.",
+    },
+    {
+      question: "What was the Brooklyn Detention Complex?",
+      answer: "The Brooklyn Detention Complex, also known as the Brooklyn House of Detention, was a NYC DOC pretrial detention facility in Brooklyn. It was operated by the New York City Department of Correction, not a county sheriff and not the Federal Bureau of Prisons.",
+    },
+    {
+      question: "How do I contact NYC DOC with questions?",
+      answer: "Use the contact options on the NYC DOC website at nyc.gov/site/doc. Have the person's full name ready.",
+    },
+    {
+      question: "What should I do if an old page still lists GTL or ConnectNetwork for Brooklyn Detention Complex?",
+      answer: "Treat those as outdated. The building was demolished in 2024, so no current GTL or ConnectNetwork account setup applies to the Brooklyn Detention Complex itself. Confirm current housing and the provider setup for that facility through NYC DOC.",
+    },
   ],
 
   relatedFacilitySlugs: ["rikers-island","cook-county-jail","miami-dade-corrections-facility"],
-},
+  },
+
+
 
 "metropolitan-detention-center-brooklyn": {
   id: "f-149",
@@ -4484,7 +4519,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Hinds County Detention Center communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this Hinds County facility.",
 
   overview: [
-    "Hinds County Detention Center is a county detention facility in Hinds County, Mississippi, operated by the Hinds County Sheriff's Office. Communication for families follows the standard process used across Hinds County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Hinds County Detention Center is a county detention facility in Hinds County, Mississippi, operated by the Hinds County Sheriff's Office. Communication for families follows the standard process used across Hinds County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account. Hinds County operates two detention sites, one in Jackson and one in Raymond. Confirm which site holds the person before visiting or sending mail, since procedures can differ by site.",
     "Communication at Hinds County Detention Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
@@ -6900,7 +6935,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
 
 "las-colinas-womens-detention-facility": {
   id: "f-190",
-  name: "Las Colinas Women's Detention Facility",
+  name: "Las Colinas Detention and Reentry Facility",
   slug: "las-colinas-womens-detention-facility",
   type: "county",
   stateSlug: "california",
@@ -6910,15 +6945,15 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   countyName: "San Diego County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Las Colinas Women's Detention Facility: Phone Calls",
-  seoDescription: "How to contact someone at Las Colinas Women's Detention Facility.",
+  seoTitle: "Las Colinas Detention and Reentry Facility: Phone Calls",
+  seoDescription: "How to contact someone at Las Colinas Detention and Reentry Facility.",
 
   description:
-    "Las Colinas Women's Detention Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this San Diego County facility.",
+    "Las Colinas Detention and Reentry Facility communication guide. Find messaging, phone, and money transfer options for families staying in touch with someone held at this San Diego County facility.",
 
   overview: [
-    "Las Colinas Women's Detention Facility is a county detention facility in San Diego County, California, operated by the San Diego County Sheriff's Office. Communication for families follows the standard process used across San Diego County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
-    "Communication at Las Colinas Women's Detention Facility is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
+    "Las Colinas Detention and Reentry Facility is a county detention facility in San Diego County, California, operated by the San Diego County Sheriff's Office. Communication for families follows the standard process used across San Diego County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
+    "Communication at Las Colinas Detention and Reentry Facility is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
@@ -6951,21 +6986,21 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "How do I message someone at Las Colinas Women's Detention Facility?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
-    { question: "How do phone calls work at Las Colinas Women's Detention Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
-    { question: "Can I do a video visit with someone at Las Colinas Women's Detention Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
+    { question: "How do I message someone at Las Colinas Detention and Reentry Facility?", answer: "Create an account with GettingOut, add the inmate by name and ID number, and send your message. Messages are reviewed by staff before delivery, so allow some time for a reply." },
+    { question: "How do phone calls work at Las Colinas Detention and Reentry Facility?", answer: "Phone calls run through Securus. Set up a prepaid account linked to your phone number so the inmate can call you. All calls are inmate-initiated and subject to the facility's monitored call schedule." },
+    { question: "Can I do a video visit with someone at Las Colinas Detention and Reentry Facility?", answer: "Video visits are available through Securus. Create an account, look up the facility, and schedule an available time slot in advance." },
     { question: "How do I find out where someone is being held?", answer: "Use the operating agency's online inmate search to confirm current custody status and facility before setting up any communication account. Providers differ by facility, so verifying placement first avoids funding the wrong platform." },
-    { question: "How do I send money to someone at Las Colinas Women's Detention Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
+    { question: "How do I send money to someone at Las Colinas Detention and Reentry Facility?", answer: "Deposits go through GettingOut. Create an account, select the inmate's trust account, and add funds by debit or credit card. Processing usually takes one to three business days." },
       {
-        question: "How do I send mail to someone at Las Colinas Women's Detention Facility?",
+        question: "How do I send mail to someone at Las Colinas Detention and Reentry Facility?",
         answer: "Address mail with the inmate's full name and booking number to the Mail Processing Center, 451 Riverview Pkwy, Bldg C, Santee, CA 92071. Mail is inspected before delivery.",
       },
       {
-        question: "How do I schedule an in-person visit at Las Colinas Women's Detention Facility?",
+        question: "How do I schedule an in-person visit at Las Colinas Detention and Reentry Facility?",
         answer: "Call (619) 409-5000 Wednesday through Sunday, 6:30 a.m. to 6:00 p.m., to reserve a visit. Inmates are allowed two 30-minute social visits per week, with no visits on Tuesdays and Wednesdays. Check in 30 minutes before the scheduled visit time.",
       },
       {
-        question: "How do I block calls from Las Colinas Women's Detention Facility?",
+        question: "How do I block calls from Las Colinas Detention and Reentry Facility?",
         answer: "You can decline individual calls, or contact Securus to block your number. Declining a call does not remove you from the approved list. To stop calls entirely, ask Securus support for a full block.",
       },
       {
@@ -6973,7 +7008,7 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
         answer: "Messages are reviewed by facility staff before delivery, which causes delays. Check that you used the correct name and booking number and the right facility. If the message still does not arrive, contact GettingOut support.",
       },
       {
-        question: "Can I send books to someone at Las Colinas Women's Detention Facility?",
+        question: "Can I send books to someone at Las Colinas Detention and Reentry Facility?",
         answer: "Books or magazines mailed by the public are not accepted. New books or magazines must be mailed directly from the publisher or bookseller, with soft covers and no wire or spiral binding, and no CD-ROMs, DVDs, or other media.",
       },
   ],

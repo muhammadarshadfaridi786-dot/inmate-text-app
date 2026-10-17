@@ -326,7 +326,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
 "new-hampshire-state-prison-for-women": {
   id: "f-302",
-  name: "New Hampshire State Prison for Women",
+  name: "New Hampshire Correctional Facility for Women",
   slug: "new-hampshire-state-prison-for-women",
   type: "state",
   stateSlug: "new-hampshire",
@@ -336,14 +336,14 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "Merrimack County",
   securityLevel: "Medium / Minimum",
   hasDetailPage: true,
-  seoTitle: "New Hampshire State Prison for Women: ConnectNetwork Phones",
-  seoDescription: "How to contact someone at the New Hampshire State Prison for Women in Concord NH.",
+  seoTitle: "New Hampshire Correctional Facility for Women: ConnectNetwork Phones",
+  seoDescription: "How to contact someone at the New Hampshire Correctional Facility for Women in Concord NH.",
 
   description:
-    "New Hampshire State Prison for Women communication guide. ConnectNetwork phone service, visitation, and contact rules for families of inmates at the only women's prison in New Hampshire.",
+    "New Hampshire Correctional Facility for Women communication guide. ConnectNetwork phone service, visitation, and contact rules for families of inmates at the only women's prison in New Hampshire.",
 
   overview: [
-    "The New Hampshire State Prison for Women, now known as the NH Correctional Facility for Women, is the only women's prison in New Hampshire, operated by the NH Department of Corrections. It is located in Concord. The old Goffstown site is closed. The facility houses a medium and minimum mixed population, with a capacity of about 224.",
+    "The New Hampshire Correctional Facility for Women, now known as the NH Correctional Facility for Women, is the only women's prison in New Hampshire, operated by the NH Department of Corrections. It is located in Concord. The old Goffstown site is closed. The facility houses a medium and minimum mixed population, with a capacity of about 224.",
     "Phone service runs through ConnectNetwork by GTL, now ViaPath, per the official NH Department of Corrections communications page. Families set up a ConnectNetwork account, add the inmate, and fund phone service.",
     "In-person visiting follows NH Department of Corrections rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
@@ -390,16 +390,16 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at the New Hampshire State Prison for Women?", answer: "ConnectNetwork by GTL, now ViaPath, provides phone service at NH Department of Corrections facilities, including the women's prison in Concord." },
-    { question: "Where is the New Hampshire State Prison for Women?", answer: "The facility is in Concord, New Hampshire, and is now known as the NH Correctional Facility for Women. The old Goffstown site is closed." },
-    { question: "Can I video visit an inmate at the New Hampshire State Prison for Women?", answer: "Video visitation is available through ConnectNetwork. Schedule in advance and confirm eligibility with the facility." },
-    { question: "How do I visit someone at the New Hampshire State Prison for Women?", answer: "Visitors must be approved. Bring valid photo ID and follow NH DOC visiting rules. Confirm visiting hours before traveling." },
+    { question: "Which company handles phone calls at the New Hampshire Correctional Facility for Women?", answer: "ConnectNetwork by GTL, now ViaPath, provides phone service at NH Department of Corrections facilities, including the women's prison in Concord." },
+    { question: "Where is the New Hampshire Correctional Facility for Women?", answer: "The facility is in Concord, New Hampshire, and is now known as the NH Correctional Facility for Women. The old Goffstown site is closed." },
+    { question: "Can I video visit an inmate at the New Hampshire Correctional Facility for Women?", answer: "Video visitation is available through ConnectNetwork. Schedule in advance and confirm eligibility with the facility." },
+    { question: "How do I visit someone at the New Hampshire Correctional Facility for Women?", answer: "Visitors must be approved. Bring valid photo ID and follow NH DOC visiting rules. Confirm visiting hours before traveling." },
     { question: "How do I add money for phone calls?", answer: "Fund your ConnectNetwork account online or through the ConnectNetwork app. The inmate can only call numbers on the approved list." },
-    { question: "How do I find an inmate at the New Hampshire State Prison for Women?", answer: "Use the New Hampshire DOC Inmate Locator with the inmate's first or last name. It shows state prison inmates, including their institution and custody status." },
-    { question: "What is the mailing address for an inmate at the New Hampshire State Prison for Women?", answer: "Address mail to: Inmate Name, DOC ID number, NHCFW, 42 Perimeter Road, Concord, NH 03301." },
-    { question: "Can I call an inmate at the New Hampshire State Prison for Women?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone service runs through ConnectNetwork by GTL, now ViaPath." },
-    { question: "How do I stop or block calls from an inmate at the New Hampshire State Prison for Women?", answer: "Contact ConnectNetwork (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
-    { question: "Can I send email to an inmate at the New Hampshire State Prison for Women?", answer: "Email goes through the contracted vendor. You must obtain the inmate's email address directly from the inmate. Inmates do not have access to the internet." },
+    { question: "How do I find an inmate at the New Hampshire Correctional Facility for Women?", answer: "Use the New Hampshire DOC Inmate Locator with the inmate's first or last name. It shows state prison inmates, including their institution and custody status." },
+    { question: "What is the mailing address for an inmate at the New Hampshire Correctional Facility for Women?", answer: "Address mail to: Inmate Name, DOC ID number, NHCFW, 42 Perimeter Road, Concord, NH 03301." },
+    { question: "Can I call an inmate at the New Hampshire Correctional Facility for Women?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone service runs through ConnectNetwork by GTL, now ViaPath." },
+    { question: "How do I stop or block calls from an inmate at the New Hampshire Correctional Facility for Women?", answer: "Contact ConnectNetwork (ViaPath) to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "Can I send email to an inmate at the New Hampshire Correctional Facility for Women?", answer: "Email goes through the contracted vendor. You must obtain the inmate's email address directly from the inmate. Inmates do not have access to the internet." },
   ],
 
   relatedFacilitySlugs: ["new-hampshire-state-prison-for-men", "strafford-county-house-of-corrections", "rockingham-county-jail"],
@@ -1380,7 +1380,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
 
 "corrigan-radgowski-correctional-center": {
   id: "f-315",
-  name: "Corrigan-Radgowski Correctional Center",
+  name: "Corrigan CC",
   slug: "corrigan-radgowski-correctional-center",
   type: "state",
   stateSlug: "connecticut",
@@ -1390,15 +1390,15 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   countyName: "New London County",
   securityLevel: "Level 3 / 4",
   hasDetailPage: true,
-  seoTitle: "Corrigan-Radgowski Correctional Center: Securus Phones and",
-  seoDescription: "How to contact someone at Corrigan-Radgowski Correctional Center in Uncasville CT.",
+  seoTitle: "Corrigan CC: Securus Phones and",
+  seoDescription: "How to contact someone at Corrigan CC in Uncasville CT.",
 
   description:
-    "Corrigan-Radgowski Correctional Center communication guide. Securus phone service, visitation, and contact rules for families of inmates at this Connecticut prison in Uncasville CT.",
+    "Corrigan CC communication guide. Securus phone service, visitation, and contact rules for families of inmates at this Connecticut prison in Uncasville CT.",
 
   overview: [
-    "Corrigan-Radgowski Correctional Center is a Level 3 and 4 male facility in Uncasville, Connecticut, operated by the Connecticut Department of Correction. It was formed by the 2001 merger of the Corrigan and Radgowski facilities and opened on December 30, 1994.",
-    "Phone service at Corrigan-Radgowski runs through the Securus phone system, per the official Connecticut correctional services page. Families set up a Securus account and fund phone service for outgoing calls.",
+    "Corrigan CC is a Level 3 and 4 male facility in Uncasville, Connecticut, operated by the Connecticut Department of Correction. It was formed by the 2001 merger of the Corrigan and Radgowski facilities and opened on December 30, 1994.",
+    "Phone service at Corrigan CC runs through the Securus phone system, per the official Connecticut correctional services page. Families set up a Securus account and fund phone service for outgoing calls.",
     "Visitation follows Connecticut DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
@@ -1422,7 +1422,7 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
       photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "Calls at Connecticut DOC facilities go through the Securus phone system, including Corrigan-Radgowski Correctional Center.",
+      notes: "Calls at Connecticut DOC facilities go through the Securus phone system, including Corrigan CC.",
     },
   ],
 
@@ -1443,14 +1443,14 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Corrigan-Radgowski Correctional Center?", answer: "Calls at Connecticut DOC facilities go through the Securus phone system, including Corrigan-Radgowski Correctional Center." },
-    { question: "Can I send electronic messages to an inmate at Corrigan-Radgowski Correctional Center?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Securus or by contacting the facility." },
-    { question: "How do I visit someone at Corrigan-Radgowski Correctional Center?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
-    { question: "When was Corrigan-Radgowski formed?", answer: "The center was formed by the 2001 merger of the Corrigan and Radgowski facilities. The facility opened on December 30, 1994." },
-    { question: "How do I add money for phone calls at Corrigan-Radgowski Correctional Center?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
+    { question: "Which company handles phone calls at Corrigan CC?", answer: "Calls at Connecticut DOC facilities go through the Securus phone system, including Corrigan CC." },
+    { question: "Can I send electronic messages to an inmate at Corrigan CC?", answer: "Messaging options are not confirmed for this facility. Confirm current options through Securus or by contacting the facility." },
+    { question: "How do I visit someone at Corrigan CC?", answer: "Visitors must be approved. Bring valid photo ID and follow Connecticut DOC visiting rules. Confirm visiting hours before traveling." },
+    { question: "When was Corrigan CC formed?", answer: "The center was formed by the 2001 merger of the Corrigan and Radgowski facilities. The facility opened on December 30, 1994." },
+    { question: "How do I add money for phone calls at Corrigan CC?", answer: "Fund your Securus account online or through the Securus app. The inmate can only call numbers on the approved list." },
     { question: "How do I find an inmate at this facility?", answer: "Use the Connecticut DOC inmate information search with the inmate's name or inmate number. It shows current CT DOC inmates, including their facility and custody status." },
-    { question: "Can I call an inmate at Corrigan-Radgowski Correctional Center?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
-    { question: "How do I stop or block calls from an inmate at Corrigan-Radgowski Correctional Center?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
+    { question: "Can I call an inmate at Corrigan CC?", answer: "No. Inmates make outgoing calls only; you cannot call an inmate directly. Phone calls run through Securus." },
+    { question: "How do I stop or block calls from an inmate at Corrigan CC?", answer: "Contact Securus to block calls from the facility, or ask the inmate to remove your number from their approved call list." },
     { question: "How do I schedule a video visit at this facility?", answer: "Video visits are scheduled by housing unit under the CT DOC visiting schedule. Confirm the current scheduling process with the facility before traveling." },
   ],
 

@@ -1159,6 +1159,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows Alaska DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "10 Chugach Avenue, Kenai, AK 99611",
+  phone: "907-260-7200",
+
   inmateCapacity: 360,
   established: 1983,
   mailingAddress: "Inmate Name, ID Number\nWildwood Correctional Center\nPouch 730\nKenai, AK 99611",
@@ -1236,6 +1239,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Phone service at York runs through the Securus phone system, per the official Connecticut correctional services page. Families set up a Securus account and fund phone service for outgoing calls.",
     "Visitation follows Connecticut DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "201 West Main Street, Niantic, CT 06357",
+  phone: "(860) 451-3001",
 
   inmateCapacity: 1239,
   established: 1918,

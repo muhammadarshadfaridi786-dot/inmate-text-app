@@ -204,6 +204,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Visits at Will County are by video, scheduled in advance through the sheriff's visitation system. Confirm current visit scheduling details on the Will County Sheriff's corrections page.",
   ],
 
+  address: "95 South Chicago Street, Joliet, IL 60436",
+  phone: "815-740-1250",
+
   mailingAddress: "Inmate Name, ID Number\nWill County Adult Detention Facility\n95 South Chicago Street\nJoliet, IL 60436",
   visitingHours: "Visits are by video at the facility video visitation center; schedule in advance.",
   bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",

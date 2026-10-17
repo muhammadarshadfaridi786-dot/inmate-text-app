@@ -5581,6 +5581,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "One O'Hanlon Place, Barboursville, WV 25504",
+  phone: "(304) 733-6821",
+
   visitingHours: "Non-contact visits only, and walk-in visitation is not allowed. Call (304) 733-6850 between 9:00 AM and 3:00 PM to schedule. Tuesday and Thursday slots: 8:00 to 8:30, 9:00 to 9:30, 10:00 to 10:30, 2:00 to 2:30, and 3:00 to 3:30. Saturday and Sunday slots: 9:00 to 9:30, 10:00 to 10:30, 3:00 to 3:30, 7:00 to 7:30, and 8:00 to 8:30. No visitation Monday, Wednesday, or Friday.",
   rosterUrl: "https://apps.wv.gov/OIS/OffenderSearch/RJA/Daily",
   operatedBy: "West Virginia Department of Corrections",

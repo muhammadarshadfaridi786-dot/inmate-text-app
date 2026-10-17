@@ -191,6 +191,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "42-477 Kalanianaole Hwy, Kailua, HI 96734",
+  phone: "808-266-9580",
+
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
     mailingAddress: "Inmate First and Last Name, c/o Women's Community Correctional Center, 42-477 Kalanianaole Hwy, Kailua, HI 96734.",
     visitingHours: "Visitation follows a posted schedule that changes with facility operations. Confirm the current visiting schedule and approval requirements with the facility before traveling.",
@@ -1125,6 +1128,8 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Paper mail changed on October 18, 2023. All mail except legal and medical mail must go to: Inmate Name, PIN number, Yankton County Jail, PO Box 591, Longview, Texas 75606. Mail sent there is processed, delivered electronically, and then destroyed, so it will not be returned. Legal and medical mail must still go to the jail in Yankton. Commissary money goes in at the kiosk in the jail lobby or by mailing a money order to the jail. Soft-covered books come only directly from a publisher or retail outlet.",
   ],
 
+  address: "410 Walnut Suite 104, Yankton, SD 57078",
+
   operatedBy: "Yankton County Sheriff's Office",
     mailingAddress: "Regular mail (except legal and medical): Inmate Name, PIN number, Yankton County Jail, PO Box 591, Longview, TX 75606. Legal and medical mail: Inmate Name, PIN number, Yankton County Jail, 410 Walnut Suite 104, Yankton, SD 57078.",
     visitingHours: "Video visits daily 5:00 a.m. to midnight via NCIC. Schedule at videovisit.ncic.com/scheduling/login. Jail staff approve each visitation appointment after the request is entered. Disciplinary actions can remove video access. Visits may be monitored and recorded.",
@@ -1709,6 +1714,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "The deposit method for inmate accounts is not published on the official WDOC pages found. Directory sources disagree about the deposit vendor, so confirm the current deposit method with the facility before sending money.",
   ],
 
+  address: "1000 W Griffith St, Lusk, WY 82225",
+  phone: "(307) 334-3693",
+
   operatedBy: "Wyoming Department of Corrections",
     mailingAddress: "Inmate Name and ID, Wyoming Women's Center, P.O. Box 300, Lusk, WY 82225.",
     visitingHours: "In-person visitation: Saturday, Sunday, Monday. Morning visitation starts 7:30 AM, arrive 7:00-7:15 AM. Afternoon visitation starts 12:00 PM, arrive 11:30-11:45 AM. Schedule subject to change. All visitors must be approved, proper attire required. Video visits: ICSolutions The Visitor, register at icsolutions.com.",
@@ -1949,6 +1957,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Phone calls and video visitation at Wyoming Honor Farm run through ICSolutions under the Wyoming DOC contract.",
     "Visitation follows Wyoming DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "40 Honor Farm Road, Riverton, WY 82501",
+  phone: "(307) 856-9578",
 
   operatedBy: "Wyoming Department of Corrections",
     mailingAddress: "Inmate Name and ID, Wyoming Honor Farm, 40 Honor Farm Road, Riverton, WY 82501.",

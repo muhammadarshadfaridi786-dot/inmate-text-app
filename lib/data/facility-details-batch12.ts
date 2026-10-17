@@ -926,6 +926,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "In-person visiting follows TDCJ rules. Visitors must be on the inmate's approved visiting list and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
 
+  address: "810 FM 2821, Huntsville, TX 77349",
+  phone: "(936) 295-9126",
+
   inmateCapacity: 2300,
   established: 1883,
   mailingAddress: "Inmate Name\nTDCJ Number\nWynne Unit\n810 FM 2821 W\nHuntsville, TX 77349",

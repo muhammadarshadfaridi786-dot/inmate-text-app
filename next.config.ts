@@ -283,11 +283,6 @@ const nextConfig: NextConfig = {
         destination: '/facilities',
         permanent: false,
       },
-      {
-        source: '/facility/california-state-prison-los-angeles-county',
-        destination: '/state/california',
-        permanent: true,
-      },
     ]
   },
 }

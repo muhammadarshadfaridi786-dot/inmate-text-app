@@ -3165,62 +3165,86 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     seoDescription: "How to contact someone at SCI Phoenix in Collegeville PA. Securus Technologies handles phone calls. ViaPath ConnectNetwork for messaging.",
 
     description:
-      "SCI Phoenix communication guide. Find JPay messaging and GTL phone options for families at Pennsylvania's newest maximum-security state correctional institution in Montgomery County.",
+      "SCI Phoenix communication guide. Find Securus phone, ViaPath messaging, JPay money, and Smart mail options for families at Pennsylvania's newest maximum-security state correctional institution in Montgomery County.",
 
     overview: [
       "State Correctional Institution Phoenix is a maximum-security state prison operated by the Pennsylvania Department of Corrections, located in Collegeville, Montgomery County, roughly 30 miles northwest of Philadelphia. SCI Phoenix opened in 2018 as a purpose-built replacement for SCI Graterford, which had operated on the same grounds for more than 90 years. The new facility was designed with modern correctional programming and safety standards in mind. It is the only maximum-security state prison in southeastern Pennsylvania, making it the closest major state correctional facility for Philadelphia-area families.",
-      "Communication at SCI Phoenix operates through Pennsylvania DOC provider contracts. JPay manages electronic messaging, photo sharing, and money transfers. Families create a JPay account and add the inmate using their PA DOC inmate number to begin correspondence. GTL handles phone calls and video visitation under the Pennsylvania DOC contract. Setting up a GTL AdvancePay account allows families to receive inmate-initiated calls. Video visits through GTL are available and can be scheduled remotely. Given the facility's location about 30 miles from Philadelphia, in-person visits are feasible for many southeastern Pennsylvania families.",
-      "Because SCI Phoenix replaced SCI Graterford, some long-term inmates and their families may be more familiar with the Graterford name. The physical facility is entirely new, and all communication happens through the same JPay and GTL platforms used at other PA DOC institutions. If an inmate was previously at Graterford, their JPay and GTL account history carries forward since the same platforms serve the entire Pennsylvania state system. Families new to the Pennsylvania system should note that JPay handles messaging and money while GTL handles phones and video, these are separate platforms requiring separate setup.",
+      "Communication at SCI Phoenix runs through four separate Pennsylvania DOC systems. Securus handles phone calls: fund a Securus account at securustech.net (800-844-6591) to receive inmate-initiated calls. Email runs through ViaPath/ConnectNetwork at web.connectnetwork.com (ViaPath Friends and Family 1-877-650-4249); all emails are reviewed. JPay handles money transfers only. Mail goes to Smart Communications in St. Petersburg, Florida, where it is scanned and printed for delivery. Video visits are free through the DOC's own Inmate Visitation System (IVS) at inmatevisitation.cor.pa.gov, scheduled at least 2 days in advance. Given the facility's location about 30 miles from Philadelphia, in-person visits are feasible for many southeastern Pennsylvania families.",
+      "Because SCI Phoenix replaced SCI Graterford, some long-term inmates and their families may be more familiar with the Graterford name. The physical facility is entirely new, and all communication happens through the same Securus, ViaPath, JPay, and Smart systems used at other PA DOC institutions. If an inmate was previously at Graterford, their account history carries forward since the same systems serve the entire Pennsylvania state system. Families new to the Pennsylvania system should note that these are four separate systems requiring separate setup: Securus for phone, ViaPath for email, JPay for money, Smart for mail.",
     ],
 
     address: "1200 Mokychic Drive, Collegeville, PA 19426",
-    phone: "(484) 362-3500",
+    phone: "(610) 409-7890",
     website: "https://www.cor.pa.gov",
     rosterUrl: "https://www.cor.pa.gov/Inmates/Pages/Inmate-Locator.aspx",
-    visitingHours: "Visits seven days a week by scheduled appointment; schedule online at least three days in advance.",
+    visitingHours: "In-person or video visits scheduled at least 2 days in advance via the DOC Inmate Visitation System (inmatevisitation.cor.pa.gov).",
     inmateCapacity: 3400,
     established: 2018,
     operatedBy: "Pennsylvania Department of Corrections (PA DOC)",
 
     providers: [
       {
+        name: "Securus",
+        slug: "securus",
+        initial: "S",
+        color: "bg-indigo-600",
+        messaging: false,
+        video: false,
+        photos: false,
+        phone: true,
+        moneyTransfer: false,
+        notes: "Phone calls for PA DOC state prisons. Fund a Securus account to receive inmate-initiated calls.",
+      },
+      {
+        name: "ViaPath",
+        slug: "gtl",
+        initial: "V",
+        color: "bg-teal-600",
+        messaging: true,
+        video: false,
+        photos: false,
+        phone: false,
+        moneyTransfer: false,
+        notes: "Email for PA DOC state prisons via ConnectNetwork at web.connectnetwork.com.",
+      },
+      {
         name: "JPay",
         slug: "jpay",
         initial: "J",
         color: "bg-blue-600",
-        messaging: true,
+        messaging: false,
+        video: false,
+        photos: false,
+        phone: false,
+        moneyTransfer: true,
+        notes: "Money transfers for PA DOC state prisons. JPay processes all credit card and money order payments.",
+      },
+      {
+        name: "Smart Communications",
+        slug: "smart-communications",
+        initial: "S",
+        color: "bg-cyan-600",
+        messaging: false,
         video: false,
         photos: true,
         phone: false,
-        moneyTransfer: true,
-        notes: "Messaging, photo sharing, and trust account deposits. Requires PA DOC inmate number.",
-      },
-      {
-        name: "GTL",
-        slug: "gtl",
-        initial: "G",
-        color: "bg-amber-600",
-        messaging: false,
-        video: true,
-        photos: false,
-        phone: true,
         moneyTransfer: false,
-        notes: "Phone calls and video visitation under the Pennsylvania DOC statewide contract.",
+        notes: "Mail scanning for PA DOC state prisons. Photos up to 25 per mailing.",
       },
     ],
 
     communication: {
-      messaging: { status: "available", provider: "JPay", notes: "Full JPay messaging available. Requires PA DOC inmate number." },
-      video: { status: "available", provider: "GTL", notes: "Remote video visits available. Schedule in advance through GTL." },
-      photos: { status: "available", provider: "JPay", notes: "Digital photos via JPay. Subject to PA DOC content guidelines." },
-      phone: { status: "available", provider: "GTL", notes: "Inmate-initiated calls. Fund GTL AdvancePay account to receive calls." },
-      moneyTransfer: { status: "available", provider: "JPay", notes: "Trust account deposits via JPay for commissary and personal purchases." },
+      messaging: { status: "available", provider: "ViaPath (ConnectNetwork)", notes: "Email through ConnectNetwork at web.connectnetwork.com. All emails are reviewed." },
+      video: { status: "available", provider: "PA DOC Inmate Visitation System (IVS)", notes: "Video visits are free. Schedule at least 2 days in advance at inmatevisitation.cor.pa.gov." },
+      photos: { status: "available", provider: "Smart Communications (mail)", notes: "Up to 25 photos per mailing; no obscenity, explicit content, or nudity; originals destroyed after 45 days." },
+      phone: { status: "available", provider: "Securus", notes: "Inmate-initiated calls. Fund a Securus account to receive calls; 800-844-6591." },
+      moneyTransfer: { status: "available", provider: "JPay", notes: "JPay processes all payments: website, phone 800-574-5729, money order to JPay, lobby kiosks. Money orders not accepted at SCIs." },
     },
 
     rules: [
-      "JPay and GTL are separate platforms. Messaging stamps and phone funds are not interchangeable.",
-      "Messages are reviewed by PA DOC staff before delivery.",
-      "PA DOC system-wide JPay and GTL accounts transfer if the inmate moves to another state facility.",
+      "Four separate systems: Securus for phone, ViaPath for email, JPay for money, Smart Communications for mail. Setting up the wrong one is the most common mistake.",
+      "Video visits are free through the DOC Inmate Visitation System (IVS). Schedule at least 2 days in advance.",
+      "All emails are reviewed; the DOC is not responsible for ViaPath accounts or troubleshooting.",
       "In-person visiting at SCI Phoenix requires prior approval through the PA DOC visitor application process.",
       "Senders must be on the inmate's approved contact list.",
     ],
@@ -3228,15 +3252,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     faq: [
       {
         question: "Is SCI Phoenix the same location as old Graterford prison?",
-        answer: "SCI Phoenix is on the same grounds in Collegeville, but it is an entirely new, purpose-built facility that replaced SCI Graterford when it opened in 2018. The old Graterford buildings have been decommissioned. All communication now goes through SCI Phoenix using the same JPay and GTL platforms used at other PA DOC prisons.",
+        answer: "SCI Phoenix is on the same grounds in Collegeville, but it is an entirely new, purpose-built facility that replaced SCI Graterford when it opened in 2018. The old Graterford buildings have been decommissioned. All communication now goes through SCI Phoenix using the same Securus, ViaPath, JPay, and Smart systems used at other PA DOC prisons.",
       },
       {
         question: "How do I start messaging someone at SCI Phoenix?",
-        answer: "Create a JPay account at jpay.com and add the inmate using their Pennsylvania DOC number. Purchase stamps and send messages. PA DOC staff review messages before delivery, typically within 24 to 48 hours.",
+        answer: "Email runs through ViaPath/ConnectNetwork at web.connectnetwork.com. Set up a ViaPath Friends and Family account (1-877-650-4249) to send email to someone at SCI Phoenix. All emails are reviewed by DOC staff before delivery. The DOC is not responsible for ViaPath accounts or troubleshooting.",
       },
       {
         question: "How do phone calls work at SCI Phoenix?",
-        answer: "Phone calls use GTL. Create an account at telmate.com or through the GTL Connect app. Set up a prepaid AdvancePay account linked to your phone number and add funds. The inmate calls you from facility phones. You cannot call in to speak with an inmate directly.",
+        answer: "Phone calls run through Securus. Fund a Securus account at securustech.net (800-844-6591) to receive inmate-initiated calls from SCI Phoenix. Inmates cannot call you directly; they place outgoing calls to people on their approved list. If calls show up as spam, save the Securus number in your contacts or tell your carrier it is authorized.",
       },
       {
         question: "How far is SCI Phoenix from Philadelphia?",
@@ -3244,11 +3268,15 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I send money to a SCI Phoenix inmate?",
-        answer: "Trust account deposits are made through JPay. Log in, go to Send Money, and select SCI Phoenix. Add funds via debit or credit card. Processing typically takes one to two business days.",
+        answer: "JPay processes all payments for PA DOC. Send money through the JPay website, by phone at 800-574-5729, by money order to JPay, or at lobby kiosks at each state prison. Money orders are not accepted at SCIs. A deposit slip with the inmate ID, inmate name, and sender name and address is required. Credit card limit is $300 per card every 72 hours; money order limit is $999.99 each."
+      },
+      {
+        question: "How do I send mail to someone at SCI Phoenix?",
+        answer: "Send mail to Smart Communications, which scans mail and the mailroom prints it for delivery. Address it: Inmate Name and Inmate Number, SCI Phoenix, PO Box 33028, St. Petersburg, FL 33733. Include a full return address with your first and last name, and the inmate's full correct name and number. Use 8.5 by 11 paper; do not send bound material or anything opened like a book. Photos: up to 25 per mailing, no obscenity, explicit content, or nudity; originals are destroyed after 45 days."
       },
     ],
 
-    relatedGuideSlugs: ["jpay-video-visit-refund-policy", "jpay-error-messages-explained", "how-to-tell-if-inmate-blocked-you-on-jpay"],
+    relatedGuideSlugs: ["how-securus-works", "how-connectnetwork-works", "how-video-visitation-works"],
     relatedFacilitySlugs: [
       "ohio-state-penitentiary",
       "philadelphia-detention-center",

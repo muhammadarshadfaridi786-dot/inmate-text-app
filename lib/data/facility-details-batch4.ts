@@ -4352,6 +4352,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "1115 East Pence Road, Cameron, MO 64429",
+  phone: "(816) 632-2727",
+
   visitingHours: "Friday, Saturday, and Sunday, 9:30 AM to 1:30 PM and 2:30 PM to 6:30 PM. Visitors must be on the inmate's approved visitor list.",
   mailingAddress: "Offender Name and DOC ID Number\nCrossroads Correctional Center\n1115 East Pence Road\nCameron, MO 64429",
   fax: "(816) 632-2754",
@@ -4955,6 +4958,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "1400 E 4th Ave, Anchorage, AK",
+
   mailingAddress: "Inmate Name, DOC ID\nAnchorage Correctional Complex\n1400 E 4th Ave\nAnchorage, AK 99501",
   visitingHours: "Friends and family visits for ICE detainees are held every day except Thursday, at 9:00 AM, 10:00 AM, 1:00 PM, 2:00 PM, 7:15 PM, and 8:15 PM. Arrive one hour early.",
   operatedBy: "Alaska Department of Corrections",
@@ -5239,6 +5244,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "13400 S. Pleasant Valley Rd, Kuna, ID 83634",
+  phone: "(208) 338-1635",
+
   visitingHours: "Visiting application and approval are required before visiting. Schedules are subject to change, so check the IDOC IMSI page before traveling.",
   operatedBy: "Idaho Department of Corrections",
 
@@ -5500,6 +5508,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at ACI Medium Security is handled through JPay and Securus. JPay handles electronic messaging, photo sharing, money transfers. Securus handles phone calls, video visits. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "51 West Road, Cranston, RI 02920",
+  phone: "(401) 462-3771",
 
   visitingHours: "In-person and video visiting blocks are 1:15 to 2:45 PM, 4:15 to 6:00 PM, and 6:15 to 8:30 PM, with a video-only block 8:30 to 9:30 AM. There are no visits on Tuesdays. Professional visits run seven days a week, 8:00 AM to 8:30 PM. Schedules vary by housing unit and entrance cutoff times apply.",
   operatedBy: "Rhode Island Department of Corrections",
@@ -5906,6 +5917,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "255 E. 300 North, Gunnison, UT 84634",
+
   mailingAddress: "Incarcerated Person Name, Inmate ID #\nCentral Utah Correctional Facility\nPO Box 550\nGunnison, UT 84634",
   operatedBy: "Utah Department of Corrections",
 
@@ -6284,6 +6297,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "50 County Way, Portland, ME 04102",
+  phone: "(207) 774-5939",
+
   operatedBy: "Cumberland County Sheriff's Office",
 
   providers: [
@@ -6361,6 +6377,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Lea County Correctional Facility is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "6900 West Millen, Hobbs, NM 88244",
+  phone: "(575) 392-4055",
 
   operatedBy: "Lea County Sheriff's Office",
 
@@ -6885,6 +6904,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "451 Riverview Parkway, Santee, CA 92071",
+  phone: "(619) 409-5000",
+
   operatedBy: "San Diego County Sheriff's Office",
   mailingAddress: "Inmate full name and booking number\nMail Processing Center\n451 Riverview Pkwy, Bldg C\nSantee, CA 92071",
   visitingHours: "In-person social visits are by reservation: call (619) 409-5000 Wednesday through Sunday, 6:30 a.m. to 6:00 p.m. Inmates are allowed two 30-minute social visits per week. No visits on Tuesdays and Wednesdays. Check in 30 minutes before the scheduled visit time.",
@@ -6964,6 +6986,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at California Institution for Men is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "14901 Central Avenue, Chino, CA 91710",
+  phone: "(909) 597-1821",
 
   operatedBy: "California Department of Corrections",
 

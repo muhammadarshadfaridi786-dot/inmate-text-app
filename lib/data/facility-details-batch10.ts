@@ -112,6 +112,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Visitation follows Hawaii DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "3-5351 Kuhio Highway, Lihue, HI 96766",
+  phone: "(808) 241-3050 ext. 244",
+
   operatedBy: "Hawaii Department of Corrections and Rehabilitation (DCR)",
     mailingAddress: "Inmate Full Name, c/o Kauai Community Correctional Center, 3-5351 Kuhio Highway, Lihue, HI 96766.",
     visitingHours: "Visitation follows a posted schedule that changes with facility operations. Confirm the current visiting schedule and approval requirements with the facility before traveling.",
@@ -667,6 +670,8 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Communication at Kennebec County Jail runs through Securus. Phone calls, eMessaging, and video visits are handled via Securus.",
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  phone: "(207) 623-2270 x1111",
 
   operatedBy: "Kennebec County Sheriff's Office",
     mailingAddress: "Inmate Full Name, Kennebec County Jail, 115 State Street, Augusta, ME 04330.",

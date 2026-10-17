@@ -1228,6 +1228,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows DAJD rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "500 Fifth Ave., Seattle, WA 98104",
+  phone: "206-296-1234",
+
   operatedBy: "King County Department of Adult and Juvenile Detention (DAJD)",
 
   providers: [

@@ -1593,6 +1593,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Because the vendor changed recently, families with old ViaPath or Telmate account information should make sure they are using the current Smart Communications system. All communications are monitored under the Sheriff's Office policies.",
   ],
 
+  address: "101 West 5th Avenue, Eugene, OR 97401",
+  phone: "(541) 682-4263",
+
   operatedBy: "Lane County Sheriff's Office",
   visitingHours: "Attorney visiting at the Main Jail Facility, 101 West 5th, is Monday through Friday only: morning 7:45 to 10:30 AM (last call 10:15 AM), afternoon 12:30 to 4:30 PM (last call 4:15 PM), evening 5:30 to 8:00 PM (last call 7:45 PM). The reception lobby is closed 11:30 AM to 12:30 PM. General inmate visiting follows a separate schedule; confirm it with the jail.",
   providers: [

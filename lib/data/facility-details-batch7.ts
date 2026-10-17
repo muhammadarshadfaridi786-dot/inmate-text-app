@@ -1663,6 +1663,9 @@ export const FACILITY_DETAILS_BATCH7: Record<string, FacilityDetail> = {
     "Visits are scheduled in advance and visitors must be on the inmate's approved list. All calls and video visits are monitored and recorded except legal communications. For the fastest answers about a specific inmate, use the sheriff's online inmate search.",
   ],
 
+  address: "5001 Maloneyville Road, Knoxville, TN 37918",
+  phone: "(865) 281-6700",
+
   operatedBy: "Knox County Sheriff's Office",
   // TODO(Jan): verify provider
 

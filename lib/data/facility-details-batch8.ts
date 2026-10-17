@@ -121,6 +121,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families set up a GettingOut account online or in the app, select Lake County Jail, and add the inmate to get started. Video visits can be done remotely from home or in the jail lobby, and funds deposited in the inmate's account can be used for phone calls or tablet services.",
   ],
 
+  address: "20 South County Street, Waukegan, IL 60085",
+  phone: "847-377-4150",
+
   notToConfuseWith: "Not to be confused with Lake County Jail in Crown Point, Indiana.",
   operatedBy: "Lake County Sheriff's Office",
 
@@ -276,6 +279,8 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Communication at Lake County Jail runs through GTL for the inmate phone system and GettingOut for remote video visitation and visit scheduling. Families register a GettingOut account, select Lake County Jail, and choose either an inmate account or a friends and family account to manage phone calls, video visits, and messaging funds.",
     "Remote video visits can be done from a computer or phone using the GettingOut app, or from the kiosks at the jail. The friends and family account option lets the outside contact control which numbers the inmate can call and how communication funds are spent.",
   ],
+
+  address: "2293 N. Main Street, Crown Point, IN 46307",
 
   notToConfuseWith: "Not to be confused with Lake County Jail in Waukegan, Illinois.",
   operatedBy: "Lake County Sheriff's Department",
@@ -694,6 +699,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Phone service at the Kent County Correctional Facility runs through GettingOut, per the county's tablet services document. Families create a GettingOut account at gettingout.com and deposit funds so inmates can make calls from the tablet phone app. All calls are monitored and recorded.",
     "Video visits at Kent County run through GettingOut and are scheduled in advance online. Because the county's published tablet document is dated 2018 and providers can change, confirm the current scheduling system on the sheriff's visitation page before your first visit.",
   ],
+
+  address: "703 Ball Avenue NE, Grand Rapids, MI 49503",
+  phone: "(616) 632-6300",
 
   operatedBy: "Kent County Sheriff's Office",
 

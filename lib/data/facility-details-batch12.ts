@@ -677,6 +677,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "In-person visiting follows TDCJ rules. Visitors must be on the inmate's approved visiting list and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
 
+  address: "264 FM 3478, Huntsville, TX 77320-3320",
+  phone: "(936) 291-4200",
+
   inmateCapacity: 3148,
   established: 1984,
   mailingAddress: "Inmate Name\nTDCJ Number\nEstelle Unit\n264 FM 3478\nHuntsville, TX 77320-3320",
@@ -839,6 +842,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "Communication at the Ellis Unit runs through Securus Technologies, which provides phone service, eMessaging, video visitation, and tablets for TDCJ facilities. Families create a Securus account, add the inmate, and fund services for calls, messages, and video visits.",
     "In-person visiting follows TDCJ rules. Visitors must be on the inmate's approved visiting list and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
+
+  address: "1697 FM 980, Huntsville, TX 77343",
+  phone: "(936) 295-5756",
 
   inmateCapacity: 2073,
   established: 1965,
@@ -1469,6 +1475,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "In-person visiting follows BOP rules. Visitors must be approved and on the inmate's visiting list, and must bring valid photo identification. All calls and messages are monitored. The BOP does not offer general remote video visitation at most facilities, so plan in-person visits ahead.",
   ],
 
+  address: "15801 S.W. 137th Ave, Miami, FL 33177",
+  phone: "305-259-2100",
+
   website: "https://www.bop.gov/locations/institutions/mim/",
   commissary: "BOP Trust Fund: send money via MoneyGram, Western Union, or money order to the Federal Bureau of Prisons processing center in Des Moines, Iowa. Do not send money to the facility address.",
   rosterUrl: "https://www.bop.gov/inmateloc/",
@@ -1751,6 +1760,9 @@ export const FACILITY_DETAILS_BATCH12: Record<string, FacilityDetail> = {
     "Electronic messaging at FCI Atlanta runs through CorrLinks, the BOP's TRULINCS system. The inmate must add you to their approved contact list before any messaging can begin. Phone calls run through the BOP phone system funded through the inmate's trust account, and money for the trust fund can be sent through approved BOP deposit methods.",
     "In-person visiting follows BOP rules. Visitors must be approved and on the inmate's visiting list, and must bring valid photo identification. All calls and messages are monitored. The BOP does not offer general remote video visitation at most facilities, so plan in-person visits ahead.",
   ],
+
+  address: "601 McDonough Blvd SE, Atlanta, GA 30315",
+  phone: "404-635-5100",
 
   website: "https://www.bop.gov/locations/institutions/atl/",
     rosterUrl: "https://www.bop.gov/inmateloc/",

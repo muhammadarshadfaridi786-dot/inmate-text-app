@@ -30,6 +30,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "In-person visiting at DuPage is done by video, with remote video visits available from home through the GettingOut app or website. Money for phone and tablet services is kept separate from the detainee's commissary and trust account, which is handled through Access Corrections online or the lobby kiosk.",
   ],
 
+  address: "501 N. County Farm Road, Wheaton, IL 60187",
+  phone: "630-407-2255",
+
   mailingAddress: "Inmate Name, ID Number\nDuPage County Jail\n501 North County Farm Road\nP.O. Box 957\nWheaton, IL 60187",
   visitingHours: "In-person visits are limited to one 30-minute visit per week; virtual visits run through the GTL/ViaPath tablet system. Confirm scheduling with the Sheriff's Office.",
   commissary: "Trust and commissary deposits go through Access Corrections online or the lobby kiosk, not through GTL.",

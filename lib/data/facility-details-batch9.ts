@@ -819,6 +819,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows Alaska DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "1931 Eagan Avenue, Fairbanks, AK 99701",
+  phone: "907-458-6700",
+
   inmateCapacity: 257,
   established: 1967,
   mailingAddress: "Inmate Name, ID Number\nFairbanks Correctional Center\nP.O. Box 317\nFairbanks, AK 99701",

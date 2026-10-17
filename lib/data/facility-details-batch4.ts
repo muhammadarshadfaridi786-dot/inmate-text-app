@@ -4622,6 +4622,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "2225 Haley Barbour Parkway, Yazoo City, MS 39194",
+  phone: "662-716-1241",
+
   rosterUrl: "https://www.bop.gov/inmateloc/",
   commissary: "Do not mail money to the facility address. BOP funds sent by mail go to the central processing center in Des Moines, Iowa.",
   operatedBy: "Federal Bureau of Prisons (BOP)",
@@ -6543,6 +6546,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at FCI Sheridan is handled through CorrLinks and ConnectNetwork. CorrLinks handles electronic messaging. ConnectNetwork handles phone calls, video visits, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "27072 Southwest Ballston Road, Sheridan, OR 97378",
+  phone: "(503) 843-4442",
 
   operatedBy: "Federal Bureau of Prisons (BOP)",
   rosterUrl: "https://www.bop.gov/inmateloc/",

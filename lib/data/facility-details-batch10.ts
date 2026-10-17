@@ -260,6 +260,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "In-person visiting follows BOP rules. Visitors must be approved and on the inmate's visiting list, and must bring valid photo identification. All calls and messages are monitored. The BOP does not offer general remote video visitation at most facilities, so plan in-person visits ahead.",
   ],
 
+  address: "351 Elliott Street, Honolulu, HI 96819",
+  phone: "808-838-4200",
+
   established: 2001,
   operatedBy: "Federal Bureau of Prisons (BOP)",
     mailingAddress: "Inmate Name and Register Number, FDC Honolulu, Federal Detention Center, P.O. Box 30080, Honolulu, HI 96820.",
@@ -1422,6 +1425,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Communication at Eastern Regional Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "94 Grapevine Road, Martinsburg, WV 25405",
+  phone: "(304) 267-0045",
 
   inmateCapacity: 568,
   established: 1999,

@@ -3577,6 +3577,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "441 Bauchet Street, Los Angeles, CA 90012",
+  phone: "(213) 473-6100",
+
   operatedBy: "Los Angeles County Sheriff's Office",
 
   providers: [
@@ -3750,6 +3753,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Turner Guilford Knight Correctional Center is handled through Securus and ConnectNetwork. Securus handles electronic messaging, phone calls, video visits, money transfers. ConnectNetwork provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "7000 NW 41st St, Miami, FL 33166",
+  phone: "(786) 263-5341",
 
   rosterUrl: "https://www8.miamidade.gov/Apps/mdcr/InmateSearch/",
   operatedBy: "Miami-Dade County Sheriff's Office",
@@ -4741,6 +4747,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "266 County Farm Road, Dover, NH 03820",
+  phone: "(603) 742-3310",
+
   operatedBy: "Strafford County Sheriff's Office",
   fax: "(603) 742-2192",
 
@@ -4876,6 +4885,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Goose Creek Correctional Center is handled through Securus and ConnectNetwork. Securus handles electronic messaging, phone calls, video visits, money transfers. ConnectNetwork provides supporting communication services. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "22301 West Alsop Road, Wasilla, AK 99623",
+  phone: "(907) 864-8100",
 
   operatedBy: "Alaska Department of Corrections",
 
@@ -5091,6 +5103,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "14601 S Pleasant Valley Rd, Kuna, ID 83634",
+  phone: "(208) 331-2760",
+
   mailingAddress: "Resident Name, IDOC Number\nIdaho State Correctional Center\nPO Box 70010\nBoise, ID 83707",
   visitingHours: "Visiting application and approval are required before visiting. Schedules vary and are subject to change, so check the IDOC ISCC page before traveling.",
   operatedBy: "Idaho Department of Corrections",
@@ -5287,6 +5302,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "5249 Highway 67 West, Mountain City, TN 37683",
+  phone: "(423) 727-7387",
+
   mailingAddress: "Inmate First and Last Name, TDOC ID #\nP.O. Box 247\nPhoenix, MD 21131",
   operatedBy: "Tennessee Department of Corrections",
 
@@ -5349,6 +5367,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Shelby County Correctional Center is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "1045 Mullins Station Rd., Memphis, TN 38134",
+  phone: "(901) 222-8500",
 
   mailingAddress: "Inmate Name, ID\nShelby County Correctional Center\n1045 Mullins Station Road\nMemphis, TN 38134",
   operatedBy: "Shelby County Sheriff's Office",
@@ -5804,6 +5825,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "201 N Shartel Avenue, Oklahoma City, OK",
+
   operatedBy: "Oklahoma County Sheriff's Office",
 
   providers: [
@@ -6016,6 +6039,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "3415 S. 900 W., Salt Lake City, UT 84119",
+  phone: "(385) 468-8400",
+
   operatedBy: "Salt Lake County Sheriff's Office",
   fax: "385-468-9904",
   mailingAddress: "Inmate Name, SO Number\nc/o Salt Lake County Metro Jail\n3415 S. 900 W.\nSalt Lake City, UT 84119",
@@ -6177,6 +6203,8 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at Hennepin County Adult Detention Center is handled through ConnectNetwork and GettingOut. ConnectNetwork handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "401 South 4th Avenue, Minneapolis, MN",
 
   operatedBy: "Hennepin County Sheriff's Office",
 
@@ -6792,7 +6820,11 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Broward County Jail is a county detention facility in Broward County, Florida, operated by the Broward County Sheriff's Office. Communication for families follows the standard process used across Broward County jail operations: contact is inmate-initiated, all communications are monitored, and each service is funded through a separate account.",
     "Communication at Broward County Jail is handled through Securus and GettingOut. Securus handles phone calls, video visits. GettingOut handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred to a state prison after sentencing, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
+    "The Broward Sheriff's Office operates four jails in Broward County; the Main Jail is at 555 SE 1st Ave., Ft. Lauderdale, FL 33301. The jail information desk, (954) 831-5900, can confirm where someone is held.",
   ],
+
+  address: "555 SE 1st Ave., Ft. Lauderdale, FL 33301",
+  phone: "(954) 831-5900",
 
   operatedBy: "Broward County Sheriff's Office",
   rosterUrl: "https://apps.sheriff.org/ArrestSearch/",
@@ -7177,6 +7209,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Personal mail is opened and inspected, then scanned through the Digital Mailing Center to the inmate's tablet, and the original is discarded. Address mail to the inmate by full name at Cascade County Detention Facility, 3800 Ulm North Frontage Road, Great Falls, MT 59404. Mail must be 10 pages or less per envelope, pages no larger than 8.5 by 11 inches, and photos no larger than 5 by 7 inches, with no polaroid photos and no photos of nude persons. Do not send magazines, books, packages, cash, third-party mail, or originals of important documents, which cannot be returned. Include the sender's full name and address.",
     "Add money by mailing a money order addressed to the inmate at the facility address, using the kiosk in the CCSO lobby, or through AccessCorrections.com. Care packages go through Access Securpak at accesscatalog.com. The Sheriff's Office records front counter is open Monday to Friday, 8 a.m. to 5 p.m., excluding holidays.",
   ],
+
+  address: "3800 Ulm N Frontage Road, Great Falls, MT 59404",
+  phone: "(406) 454-6820",
 
   operatedBy: "Cascade County Sheriff's Office",
     mailingAddress: "Cascade County Detention Facility, Inmate Full Name, 3800 Ulm North Frontage Road, Great Falls, MT 59404. Mail is opened, inspected, scanned through the Digital Mailing Center to the inmate's tablet, and the original is discarded. Include the sender's full name and address.",

@@ -154,11 +154,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/facility/brooklyn-detention-complex',
-        destination: '/facility/mdc-brooklyn',
-        permanent: true,
-      },
-      {
         source: '/facility/rikers-island-amkc',
         destination: '/facility/rikers-island',
         permanent: true,

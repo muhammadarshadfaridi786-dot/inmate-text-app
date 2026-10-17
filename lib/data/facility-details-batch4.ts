@@ -5645,6 +5645,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "23203 Dupont Boulevard, Georgetown, DE 19947",
+  phone: "302-856-5280",
+
   operatedBy: "Delaware Department of Corrections",
 
   providers: [
@@ -6771,6 +6774,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Communication at South Florida Reception Center is handled through Securus and JPay. Securus handles phone calls, video visits. JPay handles electronic messaging, photo sharing, money transfers. Create an account with each provider you plan to use, and be ready with the inmate's full name and ID number when you set up.",
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
+
+  address: "14000 NW 41st Street, Doral, FL 33178-3003",
+  phone: "(305) 592-9567",
 
   operatedBy: "Florida Department of Corrections",
 

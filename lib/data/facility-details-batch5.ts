@@ -854,6 +854,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "The jail's inmate handbook notes that video visits are on demand and encouraged during recreation times, and that phone or video visit sharing between inmates is prohibited. As with most jails, all calls are monitored, three-way calls are not allowed, and inmates cannot receive incoming calls.",
   ],
 
+  address: "3025 Oakes Ave., Everett, WA 98201",
+  phone: "425-388-3395",
+
   operatedBy: "Snohomish County Sheriff's Office",
 
   providers: [
@@ -999,6 +1002,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Spokane County selected Securus Technologies as the provider for its inmate phone and visitation project. Phone calls, remote video visits through Securus Video Connect, and deposits on inmate accounts all run through Securus. Visitors set up a Securus account with a photo ID, email address, and phone number, and visit applications are typically screened within about 24 hours on business days.",
     "Free visitation kiosks are also available in the lobby of the Spokane County Jail and at the Geiger Corrections Visiting Center for on-site video visits. All video visits are a privilege, not a right, and both visitor and inmate are expected to conduct themselves appropriately at all times.",
   ],
+
+  address: "1100 W Mallon Avenue, Spokane, WA 99260",
+  phone: "509-477-2278",
 
   operatedBy: "Spokane County Detention Services",
 

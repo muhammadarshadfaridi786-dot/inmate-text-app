@@ -676,6 +676,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Phone, SMS, and email all run through Inmate Canteen (Turnkey Corrections), per the county's official communication page. Families create an account at team3.inmatecanteen.com to fund calls, texts, and emails. Photos can also be sent electronically through Inmate Canteen. All calls and visits are monitored and recorded.",
   ],
 
+  address: "205 6th St SE Suite 201, Jamestown, ND 58401",
+  phone: "(701) 252-7436",
+
   mailingAddress: "Inmate Name, ID Number\nStutsman County Correctional Center\n205 6th Street SE\nJamestown, ND 58401",
   visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",
   bailInfo: "Bail is set by the court, not the facility. Contact the court or a licensed bail bondsman for bond amounts and posting procedures. The facility cannot set or change bail.",

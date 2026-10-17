@@ -1565,6 +1565,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "500 W. 10th St., Austin, TX 78701",
+  phone: "512-854-4180",
+
   operatedBy: "Travis County Sheriff's Office",
 
   providers: [

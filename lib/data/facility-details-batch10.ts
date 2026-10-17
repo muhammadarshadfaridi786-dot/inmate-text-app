@@ -1200,6 +1200,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "In-person visiting follows South Dakota DOC rules. Visitors must be approved and bring valid photo identification. All calls, messages, and visits are monitored and recorded.",
   ],
 
+  address: "3200 East Highway 34 c/o 500 E. Capital Avenue, Pierre, SD 57501",
+  phone: "(605) 773-6636",
+
   operatedBy: "South Dakota Department of Corrections",
     mailingAddress: "Inmate Full Name and DOC Number, South Dakota Women's Prison, 3200 East Highway 34, c/o 500 E. Capitol Ave., Pierre, SD 57501.",
     visitingHours: "Complete the South Dakota DOC visitor application and wait for approval, about 15 business days. The offender is notified of approval or denial. After approval, register and schedule visits through the GTL VisitMe system. Confirm the current schedule with the facility before traveling.",
@@ -1288,6 +1291,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Communication at South Central Regional Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "1001 Centre Way, Charleston, WV 25309",
+  phone: "(304) 558-1336",
 
   established: 1993,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",

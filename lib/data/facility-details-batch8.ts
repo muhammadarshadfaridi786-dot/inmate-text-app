@@ -1852,6 +1852,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Money can be sent to SCI Huntingdon inmates through JPay online and by phone, through ConnectNetwork deposits, or by money order mailed to the facility. In-person visits require the visitor to be on the inmate's approved list.",
   ],
 
+  address: "1100 Pike Street, Huntingdon, PA 16654-1112",
+  phone: "814-643-2400",
+
   website: "https://www.cor.pa.gov/Facilities/StatePrisons/Pages/Huntingdon.aspx",
   established: 1889,
   visitingHours: "In-person and video visits are scheduled by housing unit; confirm with the facility before traveling.",
@@ -2137,6 +2140,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "The Ohio Department of Rehabilitation and Correction contracts with GTL (ViaPath) for phone and tablet services. Tablets support messaging, photos, and other content, with services transitioning from JPay to ViaPath. Phone calls run through the GTL system, with accounts managed on ConnectNetwork.",
     "Money is deposited to inmate personal accounts through ConnectNetwork online and by phone, and only approved or tentatively approved visitors may send funds. In-person and video visits are available on scheduled days, and visitors must be approved in advance.",
   ],
+
+  address: "1724 St. Rt. 728, Lucasville, OH 45699",
+  phone: "740-259-5544",
 
   website: "http://www.drc.ohio.gov/socf",
   established: 1972,

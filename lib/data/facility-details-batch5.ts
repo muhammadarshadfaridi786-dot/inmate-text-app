@@ -101,6 +101,8 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Public visiting at the Central Jails is by appointment only, Friday through Monday, and must be scheduled at least 24 hours in advance through the central scheduling number. Because the complex includes several separate jail buildings, confirm which facility your loved one is housed in before setting up any communication account.",
   ],
 
+  address: "550 N. Flower Street, Santa Ana, CA 92702",
+
   operatedBy: "Orange County Sheriff's Department",
   visitingHours: "Central Men's and Women's Jails: Friday to Monday, 8:00 AM to 4:00 PM. By appointment only, no walk-ups. Limited to four visits per inmate per week, one per day. Certain hours restricted by housing location. Schedule at 714-647-4543.",
 

@@ -741,6 +741,9 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
     "Directory sources report that remote video visits run through PayTel Connect, with the inmate sending the initial invite, the visitor creating an account at paytelconnect.com, and the visitor uploading a state ID and selfie for approval. The official Sheriff page does not name a remote video vendor, so confirm the current remote video setup with the facility before scheduling. Directory sources also report messaging through Pay Tel inteleMESSAGE at $0.50 per message sent, with the inmate required to contact the family member first. Confirm messaging availability and cost with the facility before funding an account.",
   ],
 
+  address: "330 West Second Street, Dayton, OH 45422",
+  phone: "(937) 225-4160",
+
   notToConfuseWith: "Not to be confused with Montgomery County Jail in Conroe, Texas.",
   established: 1964,
   operatedBy: "Montgomery County Sheriff's Office",

@@ -1366,6 +1366,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Visitation follows West Virginia DCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "1 Lois Lane, Greenwood, WV 26415",
+  phone: "(304) 873-1384",
+
   established: 2001,
   operatedBy: "West Virginia Division of Corrections and Rehabilitation",
     mailingAddress: "Inmate Full Name, North Central Regional Jail, 1 Lois Lane, Greenwood, WV 26415.",
@@ -1775,6 +1778,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Paper mail changed on March 14, 2024. All mail except books, magazines, newspapers, legal mail, and medical mail must go to: Inmate full name, Natrona County Detention Center, PO Box 591, Longview, Texas 75606. Mail is limited to 5 pages, front side only, one photo per mailing, and envelopes no larger than 8.5 by 11 inches. Mail is scanned, delivered electronically through the NCIC messaging system, then destroyed, so it will not be returned. Books, magazines, newspapers, legal mail, and medical mail go directly to the facility at 201 N David, Casper, WY 82601.",
     "Money goes into an inmate account in person or by mail. The Detention Center accepts cash, Western Union or MoneyGram money orders, and cashier's checks. Credit cards and personal checks are not accepted, and cash must not be sent through the mail. Mail money orders or cashier's checks alone to: Inmate full name, C/O NCDC, 201 N David, 2nd Floor, Casper, WY 82601, with a return address. Deposit hours are Sunday through Saturday, 8:00 to 11:00 a.m., 1:00 to 4:00 p.m., and after 6:00 p.m. Questions can go to the Detention Center at (307) 235-9524.",
   ],
+
+  address: "1100 Bruce Ln., Casper, WY 82601",
+  phone: "(307) 235-9521",
 
   operatedBy: "Natrona County Sheriff's Office",
     mailingAddress: "Regular mail (except books, magazines, newspapers, legal and medical mail): Inmate full name, Natrona County Detention Center, PO Box 591, Longview, TX 75606. Books, magazines, newspapers, legal and medical mail: Inmate full name, Natrona County Detention Center, 201 N David, Casper, WY 82601.",

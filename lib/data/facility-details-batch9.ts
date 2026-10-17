@@ -345,6 +345,8 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "In-person visiting follows NH Department of Corrections rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "42 Perimeter Rd., Concord, NH 03301",
+
   inmateCapacity: 224,
   mailingAddress: "Inmate Name\nDOC ID #\nNHCFW\n42 Perimeter Road\nConcord, NH 03301",
   visitingHours: "Visits are scheduled through the GTL visitation system (nhdoc.gtlvisitme.com); confirm your window with the facility before traveling.",
@@ -746,6 +748,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Inmate funds deposits at Missouri River Correctional Center go through JPay, per the ND DOCR handbook. The phone and video vendor is not confirmed.",
     "Visitation follows ND DOCR rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
+
+  address: "1800 48th Avenue S.W., Bismarck, ND 58506",
+  phone: "(701) 328-9696",
 
   inmateCapacity: 151,
   established: 1992,
@@ -1541,6 +1546,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows Connecticut DOC rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "335 Bilton Road, POB 100, Somers, CT 06071",
+  phone: "(860) 814-4600",
+
   inmateCapacity: 1900,
   established: 1963,
   mailingAddress: "Inmate Name, Inmate Number\nOsborn Correctional Institution\n335 Bilton Road\nSomers, CT 06071",
@@ -1703,6 +1711,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visits follow the facility schedule by the first letter of the incarcerated individual's last name. A through D visit Saturday 8:30 to 10:30 a.m.; E through L visit Saturday 1 to 3 p.m.; M through R visit Sunday 8:30 to 10:30 a.m.; S through Z visit Sunday 1 to 3 p.m. Close Custody (Echo) visits allow two visitors at a time: Unit 1 Saturday 7 to 8:30 p.m., Unit 2 Sunday 7 to 8:30 p.m. Segregation (Delta) visits are by closed-circuit TV and approved appointments only. Full visiting rules are in DOC policy 327, Visitation.",
     "Mail goes to the facility mailing address with the inmate's full name and ID number: Inmate Name, ID Number, Northwest State Correctional Facility, 3649 Lower Newton Road, Swanton, VT 05488. Mail with no return address is refused and returned to sender, and the facility will not accept mail with postage due, per DOC mail directive 409.05. For photos, Pelipost has been the DOC mail-in photo vendor since August 14, 2026. Money goes into the account through Access Corrections at accesscorrections.com or with a Deposit Coupon available from the incarcerated individual, in a facility lobby, or on the DOC website. Do not mail deposits to the facility. ICS Tablets are in use at all Vermont DOC facilities, and Gold Passes for one hour of tablet use can be bought at JailATM.com.",
   ],
+
+  address: "3649 Lower Newton Road, St. Albans, VT 05478",
+  phone: "(802) 524-6771",
 
   mailingAddress: "Inmate Name, ID Number\nNorthwest State Correctional Facility\n3649 Lower Newton Road\nSwanton, VT 05488",
     commissary: "Deposits: Access Corrections (Keefe Trust) at accesscorrections.com or Deposit Coupon (from the incarcerated individual, a facility lobby, or the DOC website). Do not mail deposits to the facility. Commissary: Access Corrections; property via vermontpackage.com. Access Corrections help: 1-800-546-6283 or 1-866-345-1884. ICS Tablets at all facilities; Gold Passes at JailATM.com.",

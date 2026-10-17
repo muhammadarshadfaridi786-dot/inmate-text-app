@@ -612,6 +612,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Video visitation availability at Oakland County Jail is reported inconsistently across sources, so families should confirm the current visit and video options directly with the jail before planning a visit. In-person visiting follows standard county jail rules with photo ID required.",
   ],
 
+  address: "1200 North Telegraph Road, Bldg 38E, Pontiac, MI 48341-1044",
+  phone: "248-858-5000",
+
   operatedBy: "Oakland County Sheriff's Office",
 
   providers: [
@@ -1105,6 +1108,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Phone calls and video visits run through GTL (ViaPath), with GettingOut text messaging from kiosks and tablets, per multiple facility guides. Confirm the current setup with the facility before funding an account.",
     "Families should confirm the current phone vendor, video visit platform, and deposit options directly with the facility or on the county's official corrections page before creating accounts or sending money.",
   ],
+
+  address: "60 Eagleville Road, Eagleville, PA 19403",
+  phone: "610-635-7100",
 
   mailingAddress: "Inmate Name, ID Number\nMontgomery County Correctional Facility\n60 Eagleville Road\nNorristown, PA 19403",
   visitingHours: "Social visiting hours vary by housing section; see the county visiting schedule. Visitors must pre-register Monday or Friday, 7:30 AM to 7:30 PM, with a one-time $5 badge fee. Attorney and official visits: daily 8:00 AM to 10:00 AM, 12:30 PM to 4:45 PM, and 6:30 PM to 8:30 PM.",

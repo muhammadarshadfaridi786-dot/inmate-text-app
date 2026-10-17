@@ -1140,6 +1140,9 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Deposits can be made online, through the GettingOut and ConnectNetwork mobile apps, at the lobby kiosk, or by toll-free phone. Because phone, tablet, and video visitation each use a different account, double-check that you are funding the right one before the first call or visit.",
   ],
 
+  address: "7375 South Potomac Street, Centennial, CO 80112",
+  phone: "720-874-3500",
+
   operatedBy: "Arapahoe County Sheriff's Office",
 
   providers: [
@@ -1661,6 +1664,8 @@ export const FACILITY_DETAILS_BATCH5: Record<string, FacilityDetail> = {
     "Remote video visitation is available through the jail's InmateSales video visit platform. Visitors must be on the inmate's approved list even for a video visit, and visits are scheduled in advance. The platform handles the scheduling and connection for remote visits from a computer or phone.",
     "The phone service vendor for the jail is not clearly published, so families should confirm the current phone setup directly with the Canyon County Sheriff's Office before funding any vendor account. As with most county jails, inmates cannot receive incoming calls, and all communications are monitored.",
   ],
+
+  address: "219 N. 12th Ave., Caldwell, ID 83605",
 
   operatedBy: "Canyon County Sheriff's Office",
   rosterUrl: "https://jailroster.canyoncounty.id.gov/",

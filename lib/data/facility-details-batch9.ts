@@ -417,6 +417,9 @@ export const FACILITY_DETAILS_BATCH9: Record<string, FacilityDetail> = {
     "Visitation follows county rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
+  address: "4000 Apple Creek Road, Bismarck, ND 58504",
+  phone: "(701) 255-3113",
+
   inmateCapacity: 555,
   mailingAddress: "Inmate Name, ID Number\nBurleigh/Morton County Detention Center\n4000 Apple Creek Road\nBismarck, ND 58504",
   visitingHours: "Visiting hours vary by housing unit; confirm the current schedule with the facility before traveling.",

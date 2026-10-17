@@ -582,6 +582,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Video visits and electronic messaging are reported by directories as Securus services, but the county's own pages do not name a video or messaging vendor, so confirm the current setup with the jail before paying for anything. Directories describe Securus Video Connect for on-site and remote video visits, and eMessaging for text-like messages and photos through a Securus Online account with purchased stamps. Visitors must be approved and bring valid photo identification, and all calls and visits are monitored and recorded. Confirm the current visit steps and schedule with the jail before traveling or funding an account.",
   ],
 
+  address: "40 Pleasant Street, Auburn, ME 04210",
+  phone: "(207) 753-2500 Ext. 1992",
+
   operatedBy: "Androscoggin County Sheriff's Department",
     mailingAddress: "Confirm the current mailing address with the facility before sending mail. Include the inmate's full name and ID on all mail.",
     commissary: "The jail no longer accepts money orders. Fund an inmate account through the lobby kiosk, Access Corrections online at accesscorrections.com or by phone at 1-866-345-1884, or Securus at securustech.net or by phone at 1-800-844-6591. Care packages through Access Securepak at accesssecurepak.com. Account funds cover commissary items, phone time, medical co-pays, and haircuts. Canteen Officer: (207) 753-2500 Ext. 1718.",
@@ -1825,6 +1828,9 @@ export const FACILITY_DETAILS_BATCH10: Record<string, FacilityDetail> = {
     "Mail goes to Inmate Full Name and Inmate ID, Albany County Detention Center, 420 Ivinson Avenue, Laramie, WY 82070. Include the inmate's full name and ID on all mail.",
     "Money for the inmate phone and tablet system goes through GettingOut: pay.gettingout.com, 1-866-516-0115, or the lobby kiosk. The official county page does not describe a separate commissary or trust-account deposit method, and it does not name JailATM. Directory sources describe mailing a money order or cashier's check to the jail for inmate deposits; confirm the current deposit options with the facility before sending money.",
   ],
+
+  address: "420 Ivinson Avenue, Laramie, WY 82070",
+  phone: "307-755-3521",
 
   operatedBy: "Albany County Sheriff's Office",
     mailingAddress: "Inmate Full Name and Inmate ID, Albany County Detention Center, 420 Ivinson Avenue, Laramie, WY 82070.",

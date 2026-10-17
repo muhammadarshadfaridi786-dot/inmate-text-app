@@ -1001,6 +1001,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Families set up accounts through GTL's consumer platforms such as ConnectNetwork and GettingOut to fund calls and tablet services and to schedule video visits. Because most communication happens on the tablets, keeping the inmate's tablet account funded is the key to staying in touch.",
   ],
 
+  address: "950 Second Avenue, Pittsburgh, PA 15219",
+  phone: "412-350-2000",
+
   operatedBy: "Allegheny County Sheriff's Office",
 
   providers: [
@@ -1164,6 +1167,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Communication services at Bergen County Jail run through GTL and its GettingOut platform for phone calls, emails, and video visits. Families set up a GettingOut account and can deposit funds through GTL ConnectNetwork for phone calls or other communication services.",
     "Video visits can be scheduled through GettingOut for remote visits from home. Calls are permitted during set daytime hours outside of jail activities like meals and head counts, and all communications are monitored.",
   ],
+
+  address: "160 South River Street, Hackensack, NJ 07601",
+  phone: "(201) 336-3500",
 
   operatedBy: "Bergen County Sheriff's Office",
 
@@ -1458,6 +1464,9 @@ export const FACILITY_DETAILS_BATCH8: Record<string, FacilityDetail> = {
     "Phone calls for all CDCR institutions are paid for by CDCR, and communication runs on state-issued tablets. CDCR is currently transitioning its tablet program from ViaPath (GTL) to Securus, with incarcerated people exchanging ViaPath tablets for new Securus tablets. Tablets support e-messages, photos, video calls with a free allowance, and phone calls.",
     "Money for CDCR trust accounts is deposited through JPay online, by phone, by MoneyGram, or at lobby kiosks. In-person visits are scheduled through CDCR's visitor reservation system, and visitors must be approved before visiting.",
   ],
+
+  address: "24900 Highway 202, Tehachapi, CA 93561",
+  phone: "(661) 822-4402",
 
   website: "https://www.cdcr.ca.gov/facility-locator/cci/",
     visitingHours: "All-day visiting, schedule via VSA at https://cdcr.gtlvisitme.com/app, request period begins 8 days before visitation day at 6:30 a.m., email requests not reviewed",

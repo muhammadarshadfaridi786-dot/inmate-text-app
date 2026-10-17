@@ -3638,6 +3638,9 @@ export const FACILITY_DETAILS_BATCH4: Record<string, FacilityDetail> = {
     "Before creating any account or sending funds, confirm your loved one's current facility placement using the appropriate inmate locator. Providers and rules change when someone is transferred, so an account that works today may not be correct after a move. Visiting hours and communication rules can also change with little notice, so check the operating agency's website before relying on any single method.",
   ],
 
+  address: "44750 60th Street West, Lancaster, CA 93536-7620",
+  phone: "(661) 729-2000",
+
   operatedBy: "California Department of Corrections",
 
   providers: [

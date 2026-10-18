@@ -201,54 +201,158 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     ctaLabel: "Explore Messaging Options",
   },
 
-  "how-to-send-money-to-an-inmate": {
+    "how-to-send-money-to-an-inmate": {
     id: "guide-02",
     slug: "how-to-send-money-to-an-inmate",
     title: "How to Send Money to an Inmate: Step-by-Step Guide for Families",
-    excerpt: "A step-by-step guide to sending money to an incarcerated person, covering accepted methods, platforms, fees, and common mistakes to avoid.",
+    excerpt: "A step-by-step guide to sending money to an incarcerated person, covering accepted methods, per-provider steps, real fee examples, federal rules, and common mistakes to avoid.",
     category: "Money and Accounts",
     difficulty: "Beginner",
     featured: true,
     popular: true,
-    readingTimeMinutes: 4,
+    readingTimeMinutes: 10,
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-10-12",
-    seoTitle: "How to Send Money to an Inmate: Methods, Fees, and",
-    seoDescription: "Complete guide to sending money to an incarcerated loved one - which platforms to use, how much fees cost, how long transfers take, and how to avoid common",
+    updatedAt: "2026-10-18",
+    seoTitle: "How to Send Money to an Inmate: Methods, Fees & Provider Steps (2026)",
+    seoDescription: "Send money to an inmate step by step: JPay, ConnectNetwork, Western Union, MoneyGram and Access Corrections, with real fee examples, federal rules, limits, refunds and scam warnings.",
 
     intro: [
-      "Sending money to an incarcerated loved one allows them to purchase items from the facility commissary, pay for phone calls, buy messaging stamps, and cover other approved expenses. Most facilities use a trust account system where funds are deposited and drawn from as needed.",
-      "Every facility works with specific money transfer providers. You cannot send money through a personal bank transfer or PayPal. You must use whichever service the facility has approved. Common providers include JPay, Access Corrections, TouchPay, and Western Union Send2Corrections.",
-      "This guide explains every method available, how much each costs, how long transfers take, and the most common mistakes families make when sending funds for the first time.",
+      "To send money to an inmate, find the transfer provider your loved one's facility has approved, create an account with that provider, enter the inmate's full legal name and ID number, choose an amount, pay, and keep your confirmation number until the funds appear in the account. You cannot use a personal bank transfer, PayPal, Venmo, Cash App, or Zelle.",
+      "One thing trips up more families than anything else: most facilities run three separate accounts. The trust or commissary account pays for commissary purchases. The phone account (often called AdvancePay) pays for calls. The messaging account pays for electronic messages and stamps. Money sent to the wrong account looks lost even though it arrived.",
+      "This guide walks through each major provider step by step, shows real fee examples from official fee tables, covers federal inmates, explains restitution deductions, limits, refunds, and scams, and lists the mistakes that cause most delays.",
     ],
 
     sections: [
       {
+        heading: "What You Need Before You Send",
+        body: [
+          "Before you start, gather four things: the inmate's full legal name exactly as it appears on the facility record, the inmate ID number (for federal inmates, the 8-digit register number), the current facility name and location, and your own government-issued ID. A misspelled name or a wrong ID number is the most common reason a deposit goes to the wrong account or gets rejected.",
+          "Confirm which provider the facility uses before you create any account. Search our facility directory for your loved one's facility, or call the facility and ask which money transfer provider it uses. Some facilities use one provider only. Others use two or three, and you can choose between them.",
+          "Wait until your loved one has arrived and been processed into the facility system before sending the first transfer. Some facilities cannot post incoming funds until the inmate is officially in their system. Sending too early can mean a rejected or delayed deposit.",
+          "Check whether you need to be on an approved list first. Some facilities require the sender to be on the approved visitation or telephone list before a deposit is accepted. In Indiana, for example, JPay requires you to be on the inmate's approved visitor list before a money order deposit is accepted. If you are not sure, ask the facility.",
+        ],
+      },
+      {
+        heading: "The Three Accounts: Trust vs Phone vs Messaging",
+        body: [
+          "The trust account, also called the commissary or spendable account, is the main account. It pays for commissary purchases, and at many facilities it also covers fines, restitution, and other deductions. When a guide says money goes into the inmate's account, this is usually the account it means.",
+          "The phone account is separate. AdvancePay, offered through ConnectNetwork (GTL), lets an inmate call you and only you. PIN debit accounts let an inmate call anyone on their approved list using a prepaid balance. Money in the phone account cannot buy commissary items, and money in the trust account does not automatically fund calls.",
+          "The messaging account is separate again. It pays for electronic messages, photos, and stamps on platforms such as JPay, GettingOut, or ConnectNetwork. Buying messaging credits does not add money to commissary, and commissary money does not buy stamps.",
+          "This separation is the source of the most common family confusion: a deposit went through, the confirmation says success, but the inmate says the money is not there. In most of those cases the money is in a different account than the one the family expected. Some facilities even run separate lobby kiosks for commissary deposits and telephone deposits. Before you panic, check which account you funded.",
+        ],
+      },
+      {
         heading: "How Inmate Money Transfers Work",
         body: [
-          "When you send money to an incarcerated person, the funds go into a trust account managed by the facility. The inmate then uses that balance to make purchases at the commissary, pay for phone calls, buy messaging credits, or cover other approved services.",
-          "The facility contracts with one or more money transfer providers. You create an account on the approved provider platform, find the inmate using their ID number and facility name, choose your transfer amount, and pay using a credit card, debit card, or other accepted method.",
-          "Transaction fees are charged by the transfer provider, not the facility. Fees vary based on the provider, the transfer amount, and the payment method. Larger transfers often have lower percentage fees than smaller ones. Always check the fee schedule before sending.",
+          "When you send money to an incarcerated person, the funds go into a trust account managed by the facility. The inmate then uses that balance to make commissary purchases and cover other approved charges, subject to any deductions the system applies.",
+          "The facility contracts with one or more money transfer providers. You create an account on the approved provider platform, find the inmate using their ID number and facility name, choose your transfer amount, and pay using a credit card, debit card, cash at a retail location, or money order.",
+          "Transaction fees are charged by the transfer provider, not the facility. Fees vary based on the provider, the transfer amount, and the payment method. Larger transfers often have lower percentage fees than smaller ones. Always check the fee schedule shown at checkout before you confirm, because the same provider can charge different fees at different facilities.",
         ],
       },
       {
         heading: "Ways to Send Money to an Inmate",
         body: [
           "Online transfer is the most common method. You create an account on the approved provider website or app, enter the inmate details, choose an amount, and pay by credit or debit card. Funds are typically credited within one to two business days. Some providers offer same-day processing for an additional fee.",
-          "Lobby kiosk deposits are available at many facilities. You visit the facility lobby, use the kiosk machine, enter the inmate ID, and deposit cash. Kiosk deposits are often processed immediately and have lower fees than online transfers. Not all facilities have kiosks.",
-          "Money order by mail is accepted at most facilities. You purchase a money order, make it payable according to the facility instructions, include the inmate full name and ID number, and mail it to the facility designated address. Processing can take one to two weeks plus additional facility processing time.",
+          "Lobby kiosk deposits are available at many facilities. You visit the facility lobby, use the kiosk machine, enter the inmate ID, and deposit cash or pay by card. Kiosk deposits are often processed immediately and can have lower fees than online transfers. Not all facilities have kiosks, and some facilities run separate kiosks for commissary and phone deposits, so check which kiosk you are using.",
+          "Money order by mail is accepted at most facilities, but the envelope usually does not go to the facility itself. For JPay states, money orders go to the JPay lockbox. For other systems, they go to an address the facility or provider specifies. Never mail cash. Processing can take one to two weeks plus facility processing time.",
           "Phone transfer is available through some providers. You call the provider customer service number, provide inmate details, and pay by card over the phone. Fees for phone transfers are often higher than online transfers.",
+          "Cash at a retail location is available through MoneyGram and Western Union at stores such as Walmart and CVS. You pay cash at the counter and the deposit is sent electronically. This is the main option for families without a bank card.",
         ],
       },
       {
-        heading: "Main Money Transfer Providers and Their Fees",
+        heading: "Sending Money Through JPay",
         body: [
-          "JPay is the most widely used inmate money transfer service in the United States, serving over 35 states. JPay fees typically range from $0.95 to $4.95 per transaction depending on the amount sent and the payment method. JPay also handles messaging and other services for state prisons.",
-          "Access Corrections serves a large number of county jails and state facilities. Fees range from $1.95 to $5.95 per transaction. Access Corrections accepts credit cards, debit cards, and cash at participating locations.",
-          "TouchPay specializes in county jail deposits and offers 24-hour processing every day of the year. TouchPay accepts credit and debit card transactions and posts funds quickly to inmate trust accounts.",
-          "Western Union Send2Corrections is available at both online and in-person Western Union locations. Fees tend to be higher, ranging from $5 to $15 or more per transaction. Western Union is useful for families who prefer in-person cash transactions or do not have access to credit cards.",
+          "JPay is a vendor that handles commissary deposits, electronic messaging, and tablets for many state prison systems. Money transfer is one of its services. Your JPay account is your sender account with JPay. The facility trust account is where the money ends up. The two are not the same thing, and a JPay balance is not the same as an inmate trust balance.",
+          "To send money through JPay online, create a free account at jpay.com or in the JPay app, search for the inmate by name, ID number, and facility, choose an amount, and pay by debit or credit card. Keep the confirmation number.",
+          "To send by phone, call JPay at 1-800-574-5729 and provide the same details. Phone deposits cost more than online deposits in most systems. In Minnesota, for example, the official JPay fee table charges $3.95 online versus $4.95 by phone for a deposit up to $20.",
+          "To send cash, use a MoneyGram location such as Walmart or CVS with the receive code for the inmate's state. In Minnesota the JPay receive code is 1279. You will need the inmate's name and ID number at the counter.",
+          "To send a money order, fill out the JPay money order deposit slip, make the money order payable to JPay, and mail both to the JPay lockbox address shown on the deposit form for your state. Do not include letters or notes in the envelope, because they are discarded. Money orders mailed to the JPay lockbox typically carry no JPay fee, but they are the slowest method.",
+        ],
+      },
+      {
+        heading: "Sending Money Through ConnectNetwork / GTL",
+        body: [
+          "ConnectNetwork is the consumer brand of ViaPath Technologies (formerly GTL). It handles trust fund deposits, phone accounts, messaging, and video visits for many jails and prisons. The GSC query behind this section is real: families search for how to send money to the connect because the brand name is confusing.",
+          "To deposit into the trust fund, create an account at connectnetwork.com, find the inmate by facility and ID number, and choose the trust fund deposit option. You may need the facility Site ID, a facility-specific number used by ConnectNetwork's automated phone system. The Site ID is listed on the facility's page in our directory or by ConnectNetwork when you search for the facility.",
+          "Do not confuse the trust fund deposit with AdvancePay. A trust fund deposit goes into the inmate's spendable account for commissary. An AdvancePay payment funds a phone account that lets the inmate call you and only you. Sending money to AdvancePay when you meant to fund commissary is one of the most common wrong-account mistakes.",
+          "For automated phone payments, ConnectNetwork lists separate lines for each account type. Trust Fund automated payments use 1-888-988-4768. AdvancePay automated payments use 1-800-483-8314. Using the wrong line funds the wrong account, so double-check which option you select before you pay.",
+        ],
+      },
+      {
+        heading: "Sending Money Through Western Union Send2Corrections",
+        body: [
+          "Western Union Send2Corrections is the Western Union service for inmate deposits. It is useful for families who prefer in-person cash transactions or do not have a bank card, because you can pay at a Western Union agent location as well as online or by phone.",
+          "To send online, go to Western Union's Send Money to an Inmate page, select the facility from the drop-down list, enter the inmate's name and ID number, choose an amount, and pay. You will receive a Money Transfer Control Number (MTCN). Keep it. The MTCN is how you track the transfer and how Western Union finds it if something goes wrong.",
+          "To send in person, visit a Western Union agent location and tell the agent you are sending money to an inmate. You will need the facility name, the inmate's name and ID number, and the amount. Some systems also use a city code. Washington DOC, for example, uses city code WA DOC and requires the account number to be the inmate's DOC number followed directly by the last name, with no spaces and the spelling exactly as it appears in the DOC database.",
+          "Common failure reasons Western Union lists are that the inmate has moved, the ID number is wrong, or the inmate has reached the limit on funds received. If your transfer fails, check the facility and ID number first, then contact Western Union with the MTCN.",
+          "If the transfer has not been picked up or posted, you can usually cancel it for a refund through Western Union. Once the funds are deposited to the inmate account, cancellation is generally no longer possible, so check the status quickly if you think you made a mistake.",
+        ],
+      },
+      {
+        heading: "Sending Money Through MoneyGram",
+        body: [
+          "MoneyGram is a cash-first way to fund inmate accounts. You pay cash at a retail counter and the deposit is sent electronically. Our guide previously mentioned MoneyGram only in a fee sentence. It deserves its own section because it is the main option for families without a bank card.",
+          "To send through MoneyGram, use the Express Payment service at a MoneyGram location such as Walmart or CVS. You will need the receive code for the inmate's state or system, the inmate's full legal name, and the inmate ID number. The receive code is system-specific. For federal inmates it is 7932. For Minnesota JPay deposits it is 1279. The correct receive code for your loved one's system is listed on the facility or DOC money page.",
+          "MoneyGram cash deposits are usually available to the inmate quickly, often the next business day, but they carry a walk-in fee. In Minnesota, JPay's cash walk-in fee through MoneyGram is a flat $6.95 regardless of amount, which can be cheaper than tiered online fees for larger deposits and more expensive for small ones.",
+          "Keep the MoneyGram receipt with its reference number. If the deposit does not appear, the reference number is what the provider needs to trace it.",
+        ],
+      },
+      {
+        heading: "Sending Money Through Access Corrections",
+        body: [
+          "Access Corrections, also called Access Secure Deposits, serves a large number of county jails and state facilities. If your loved one is in a county jail, Access Corrections is one of the providers you are most likely to encounter.",
+          "To send through Access Corrections, create an account on the Access Corrections website or app, search for the inmate by facility and ID number, choose an amount, and pay by credit or debit card. Phone and walk-in options are also available at some facilities.",
+          "Access Corrections also accepts money orders by mail using a deposit coupon. The coupon tells the provider where to credit the funds. Fill it out completely, include the inmate name and ID number, and mail it to the address printed on the coupon. Mailed deposits are slower but can avoid the electronic processing fee.",
+          "Fees for Access Corrections vary by method and facility, and the provider shows the fee at checkout before you confirm. Do not rely on a single published fee range for this provider, because the fee you see depends on the facility and the payment method you choose.",
+        ],
+      },
+      {
+        heading: "Sending Money to a Federal Inmate (BOP)",
+        body: [
+          "Federal inmates are handled differently from state and county inmates, and this guide previously did not cover the federal route at all. Federal deposits run through the Bureau of Prisons, not through the facility's own provider.",
+          "The main federal method is a money order mailed to the BOP lockbox. Make the money order payable as the facility instructions direct, include the inmate's committed name and 8-digit register number, and mail it to the lockbox address listed on the facility's page at bop.gov. Confirm the current lockbox address on bop.gov before mailing, because the address can change. Do not mail money to the prison's own address.",
+          "You can also send money to a federal inmate through Western Union Quick Collect or through MoneyGram Express Payment using receive code 7932. For both, you will need the inmate's committed name and register number.",
+          "Two federal rules catch families out. First, wait until your loved one has arrived at the federal facility and is in the system before sending anything. Second, money orders and instruments drawn on non-US postal sources can be held for 15 days before the funds are released. Federal deposits are governed in part by 28 CFR 506.2, which covers inmate trust fund accounts.",
+        ],
+      },
+      {
+        heading: "Money Orders: Where They Actually Go",
+        body: [
+          "The single most important money-order rule: the envelope usually does not go to the facility. It goes to the vendor lockbox or to an address the facility or provider specifies. Mailing a money order to the prison building itself is one of the most common reasons deposits get rejected or delayed.",
+          "Pennsylvania is explicit about this. The state DOC says money orders must be sent to JPay and are not accepted at state correctional institutions. Minnesota is equally explicit: no money orders or cashier's checks are accepted at the facility address. Minnesota money orders go to JPay at PO Box 246450, Pembroke Pines, FL 33024, with a money order deposit form, payable to JPay.",
+          "Always use the deposit slip or coupon for your system. The slip tells the provider which inmate and facility to credit. A money order without the slip, or with a missing ID number, can sit unposted while the provider tries to identify the recipient.",
+          "Use a US Postal Money Order when you can, include your full name and return address, and keep your money order receipt. Never mail cash. Never include letters, photos, or notes in the payment envelope, because payment processors discard anything that is not part of the payment.",
+        ],
+      },
+      {
+        heading: "Fees: Real Examples From Official Fee Tables",
+        body: [
+          "There is no single national price for sending money to an inmate. Fees vary by provider, by the amount sent, by the payment method, and by the facility. The fee ranges this guide previously published were unsourced, and at least one was wrong. The examples below come from official fee tables published by corrections departments, so you can see how the pricing actually works.",
+          "Minnesota DOC publishes a JPay fee table. For a deposit of $0.01 to $20.00, the fee is $3.95 online, $4.95 by phone, and $6.95 cash walk-in. For $20.01 to $100.00, it is $6.95 online, $7.95 by phone, and $6.95 cash walk-in. For $100.01 to $200.00, it is $8.95 online, $9.95 by phone, and $6.95 cash walk-in. For $200.01 to $300.00, it is $10.95 online, $11.95 by phone, and $6.95 cash walk-in. Money orders mailed to the JPay lockbox carry no charge.",
+          "Washington DOC publishes a Western Union fee table. For $0.01 to $30.00, the fee is $5.95. For $30.01 to $75.00, it is $6.95. For $75.01 to $200.00, it is $8.95. For $200.01 to $5,000.00, it is $9.95.",
+          "Clark County Detention Center in Nevada lists TouchPay fees. For card payments, the fee is $2.95 plus 3.5 percent of the deposit for amounts up to $20, $3.95 plus 3.5 percent for $20.01 to $100, and $4.95 plus 3.5 percent for $100.01 to $200. For cash at the kiosk, the fee is a flat $2.95, $3.95, or $4.95 for the same tiers, with no percentage added.",
+          "Three patterns in these tables matter. First, online is usually cheaper than phone. Second, cash walk-in fees are often flat, which makes them cheaper for larger deposits and more expensive for small ones. Third, mailed money orders often carry no vendor fee at all, which makes them the cheapest method if you can wait.",
+          "California shows why comparing matters. The California Department of Corrections uses three vendors, JPay, ConnectNetwork, and Access Corrections, all depositing into the same trust account. Fees differ by vendor and by amount, so the cheapest provider for one deposit size may not be the cheapest for another. Compare at the time you send.",
+          "Use a debit card rather than a credit card when you can. Some card issuers classify these transactions as cash advances, which triggers additional fees beyond what the transfer provider charges. Always read the fee disclosure shown at checkout before you confirm.",
+        ],
+      },
+      {
+        heading: "Restitution and Fines Deductions",
+        body: [
+          "Depositing $100 does not always mean $100 becomes spendable. Many systems deduct a portion of each deposit for fines, court costs, restitution, or facility debts before the money reaches the inmate's spendable balance. First-time senders are often surprised by this, because nothing in the deposit flow warns them.",
+          "Virginia DOC states that a percentage of deposits may go toward fines, costs, and restitution. California applies a larger deduction: 50 percent of trust deposits plus a 10 percent administrative fee, up to a combined maximum of 55 percent, under California Code of Regulations section 3097. In the federal system, the Inmate Financial Responsibility Program (IFRP) pulls payments from trust balances toward court-ordered financial obligations.",
+          "These deductions are set by the corrections system, not by the transfer provider, and the provider cannot waive them. If your loved one's balance looks smaller than what you sent, ask the facility or check the DOC policy for that system before assuming the deposit went missing.",
+        ],
+      },
+      {
+        heading: "Deposit Limits",
+        body: [
+          "Most systems cap how much you can send, and the caps vary by facility. Common forms are a per-transaction cap, a daily cap, and a monthly cap. The cap applies to the sender, the inmate, or both, depending on the system.",
+          "Some systems also limit who you can send to. Virginia DOC, for example, requires approval before you send money to more than one inmate. Other systems limit how many inmates a single sender account can fund.",
+          "Facility-level caps can be surprisingly low. Travis County in Texas caps money orders at $100. Alabama DOC caps money order deposits at $900 per day and charges a $25 fee for returned items. A deposit above the cap is usually rejected outright, so check the facility rules before sending a large amount.",
+          "Provider systems also enforce limits. Western Union lists reaching the limit on received funds as one of its standard failure reasons. If a transfer fails with a limit message, the inmate may have hit the receiving cap for the period, and the deposit will need to wait.",
         ],
       },
       {
@@ -256,35 +360,37 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         body: [
           "Electronic transfers through JPay or Access Corrections typically arrive within one to three business days. Some facilities process transfers the same day. The processing time depends on the provider and the facility.",
           "Lobby kiosk cash deposits are usually posted to the inmate account immediately or within a few hours. This is the fastest method when same-day access to funds is important.",
-          "Mailed money orders take the longest. After mailing, the money order must arrive at the facility, be processed by facility staff, and then be credited to the account. Total processing time is often one to two weeks or longer.",
+          "Mailed money orders take the longest. After mailing, the money order must arrive at the vendor lockbox or facility mail room, be processed, and then be credited to the account. Total processing time is often one to two weeks or longer.",
           "Always keep your transaction receipt or confirmation number until the funds are confirmed received by the inmate. If funds do not arrive within the expected timeframe, contact the provider customer service with your confirmation number.",
-        ],
-      },
-      {
-        heading: "Common Mistakes When Sending Money to an Inmate",
-        body: [
-          "Using the wrong inmate ID number is the most common mistake. The inmate ID is assigned by the facility and is different from any court case number or booking number. Always confirm the correct ID directly with your loved one or the facility before sending.",
-          "Sending to the wrong facility is another frequent error. If your loved one has transferred to a new facility, funds sent to the old facility may be delayed or rejected. Always confirm the current facility location before sending money.",
-          "Choosing an unapproved transfer method will result in rejection. You cannot send funds through personal bank transfers, PayPal, Venmo, or any service not approved by the facility. The facility will return or reject any funds received through unapproved channels.",
-          "Sending money before the inmate arrives at the facility can cause problems. Some facilities cannot process incoming funds until the inmate is officially in their system. Wait until you have confirmed your loved one has arrived and been processed before sending the first transfer.",
-        ],
-      },
-      {
-        heading: "How Fees Work and How to Compare Them",
-        body: [
-          "Money transfer fees are one of the biggest frustrations families report. Fees vary by provider, by the amount sent, and by the payment method used. There is no single cheapest provider for every situation. The same provider that charges the lowest fee for a $20 transfer may charge the highest fee for a $50 transfer. The only way to find the lowest fee for your specific situation is to compare at the time of the transaction.",
-          "California is an example of this complexity. The California Department of Corrections contracts with three separate money transfer vendors: JPay, GTL, and Access Corrections. For a $20 transfer, JPay is significantly cheaper than the other two. For a $50 transfer, JPay becomes the most expensive option. The state DOC website does not show a comparison chart, so families must create accounts with multiple providers and initiate test transactions to find the best rate.",
-          "JPay and Access Corrections generally charge a percentage of the deposited amount, which means fees increase as the deposit amount increases. TouchPay follows a similar model with additional processing fees depending on the payment method. Western Union and MoneyGram tend to use a fixed fee structure that varies by transaction amount and payment method. For smaller deposits, fixed-fee providers can be more expensive. For larger deposits, percentage-based fees can exceed fixed fees.",
-          "Using a debit card rather than a credit card reduces costs across all providers. Credit card transactions may be classified as cash advances by your card issuer, triggering additional fees beyond what the transfer provider charges. Always use a debit card for money transfers to incarcerated loved ones unless a debit card is not accepted at your specific provider.",
         ],
       },
       {
         heading: "What To Do When Money Does Not Arrive",
         body: [
           "The most stressful scenario families face is sending money that does not appear in the inmate account. Before assuming the transfer failed, check whether the funds are in a pending or hold status. Many providers hold transfers for review, especially for first-time senders or unusually large amounts. A hold does not mean the money is lost.",
+          "Check which account you funded before you call anyone. A deposit that went into the phone account or the messaging account will not show up in the commissary balance, and the inmate may honestly report that the money is not there. If the deposit went to the wrong account, ask the provider whether it can be moved.",
+          "Know that balance displays can lag behind the deposit. In Florida, for example, CorrectPay has explained that a deposit can be successfully sent while the inmate's kiosk balance does not update right away, because JPay manages the balance displays rather than CorrectPay. A missing balance on the kiosk does not always mean a missing deposit.",
           "Contact the provider with your transaction confirmation number within 24 to 48 hours if the funds have not appeared. Provide the inmate name, facility name, inmate ID number, the amount sent, the payment method, and the exact date and time of the transfer. Keep your email receipt as the primary documentation.",
+          "If the provider cannot locate the transfer, contact the facility trust account office. Texas DOC, for example, lists a trust fund payment verification line at (936) 438-8990. The trust office can confirm whether a payment posted to the inmate account even when the provider's display has not updated.",
           "If the provider cannot locate the transfer or refuses to help, contact your bank or credit card company to dispute the charge. Provide the provider confirmation email and explain that the funds were not delivered. Banks typically side with consumers in non-delivery disputes when documentation is provided.",
-          "Access Corrections experienced a documented outage in 2025 that temporarily prevented deposits and caused processing delays. During provider outages, transactions may appear to complete successfully on the sender side but not be credited to the inmate account. If you sent money during a known outage period and it was not received, contact the provider and reference the outage dates when filing your complaint.",
+        ],
+      },
+      {
+        heading: "Refunds and Wrong-Account Deposits",
+        body: [
+          "Refunds are the hardest part of inmate money transfers, and the rules are much stricter than for ordinary purchases. Once funds are deposited to an inmate account, most systems do not give refunds. Clark County in Nevada states this plainly: once funds are deposited to an inmate's account, no refunds will be given.",
+          "Wrong-account deposits are a common and painful mistake. Families have reported sending money to a mistyped ID number and finding it credited to a stranger. JPay has stated that it does not guarantee refunds for funds sent to the incorrect inmate account, and that if the funds have already been deposited or the inmate has already spent the money, a refund may not be possible. Check the ID number twice before you confirm any deposit.",
+          "Western Union is more forgiving if you act fast. If the transfer has not yet been picked up or posted, you can usually cancel it for a refund using the MTCN. Once it posts, the same no-refund rule generally applies.",
+          "If a deposit went to the wrong account, act in this order: first, check the confirmation for the ID number you actually entered. Second, call the provider immediately with the confirmation number and ask whether the deposit can be stopped or reversed. Third, if the provider cannot help, dispute the charge with your bank or card issuer using the confirmation email as documentation.",
+        ],
+      },
+      {
+        heading: "Scams Targeting Families",
+        body: [
+          "Families sending money to inmates are a target for scams, and the Pennsylvania Attorney General's office warns families directly: be wary of scams targeting incarcerated people and their loved ones, and do not send money for inmates to any other individual, website, or email account.",
+          "Common scam scripts include a caller claiming your loved one broke prison property and must pay for it or lose good time, a fake bail request, a fake attorney fee for an appeal that must be paid through commissary, and a fake bus ticket home that must be funded immediately. No legitimate facility process involves calling family to wire money to prevent punishment.",
+          "Red flags are urgency, secrecy, and unusual payment methods. A real facility or provider never asks you to pay by gift card, cryptocurrency, wire transfer to a personal name, or a peer-to-peer app. If someone pressures you to pay right now and keep it secret, stop and call the facility directly on a number you found yourself.",
+          "Never deposit money for an inmate who is not your own family member or close friend. Vermont DOC warns that depositing for other inmates is often connected to contraband or fraud. If a stranger, or even another inmate's family, asks you to fund an account, decline.",
         ],
       },
       {
@@ -296,30 +402,38 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         ],
       },
       {
+        heading: "What Happens to the Money at Release",
+        body: [
+          "When an inmate is released, the trust account closes. In the federal system, any remaining trust balance is returned to the released person, generally as a check. State and county systems have their own release procedures, and the timing varies.",
+          "Provider-side balances may follow different rules from trust balances. Money sitting in a provider account that was never deposited to the trust account, or credits bought for messaging, may not be refunded automatically. Ask the provider about its release and refund policy before the release date if a balance remains.",
+          "Do not send a deposit right before a scheduled release. A deposit that posts after release can be much harder to recover than one that posts while the person is still in custody. If release is days away, wait and hand over the money in person instead.",
+        ],
+      },
+      {
         heading: "Transfer Times by Payment Method",
         body: [
           "Online card payments through providers like JPay, Access Corrections, or ConnectNetwork are usually the fastest option. Deposits made online typically reach the inmate trust account within a few hours to one business day, though facility processing can add extra time on top of the provider transfer.",
           "Phone payments with a debit or credit card follow roughly the same timeline as online payments, since they run through the same provider systems. The main difference is convenience, not speed.",
           "Lobby kiosk cash deposits at the facility are often credited quickly, sometimes within the hour, because the money never leaves the facility system. This is the fastest option when you can visit in person.",
-          "Mailed money orders are the slowest method. The order must travel through the postal system, then through the facility mail room and trust account office. Families should allow one to two weeks and should never mail cash.",
+          "Mailed money orders are the slowest method. The order must travel through the postal system, then through the vendor lockbox or facility mail room and trust account office. Families should allow one to two weeks and should never mail cash.",
           "Weekends, holidays, and facility lockdowns delay every method. A deposit made on a Friday evening may not post until the following business day or later. If money is urgently needed, online payment early on a weekday gives the best chance of same-week posting. Exact timelines vary by provider and facility, so confirm with the facility trust account office when timing matters.",
         ],
       },
     ],
 
     takeaways: [
-      "Funds go into an inmate trust account managed by the facility and are used for commissary, phone calls, and messaging.",
-      "You must use the transfer provider the facility has approved - personal bank transfers and apps like PayPal are not accepted.",
-      "Main providers include JPay, Access Corrections, TouchPay, and Western Union Send2Corrections.",
-      "Online transfers typically arrive within one to three business days. Lobby kiosk cash deposits are often immediate.",
-      "Always use the correct inmate ID number - it is different from court case numbers or booking numbers.",
-      "Keep your transaction confirmation number until funds are confirmed received.",
-      "Do not send money until you confirm your loved one has arrived and been processed at the facility.",
-      "Fees vary by provider, amount, and payment method. The cheapest provider for a $20 transfer may be the most expensive for a $50 transfer. Always compare at the time you send.",
-      "Use a debit card rather than a credit card to avoid cash advance fees that some credit card companies charge on inmate money transfer transactions.",
-      "If funds do not arrive within two business days, contact the provider with your confirmation number. Keep all email receipts until funds are confirmed received.",
-      "Always confirm the current facility and new inmate ID number before sending money after a transfer. Sending to the wrong facility delays funds significantly.",
-      "If a provider outage affected your transfer, reference the outage dates in your complaint to customer service.",
+      "Find the provider the facility approved, create an account, enter the inmate full legal name and ID number, pay, and keep your confirmation number until the funds appear.",
+      "Facilities run three separate accounts: trust or commissary, phone (AdvancePay), and messaging. Money in the wrong account looks lost even though it arrived.",
+      "JPay, ConnectNetwork, Western Union, MoneyGram, and Access Corrections each have their own steps. Use the steps for your facility's provider.",
+      "Money orders usually go to the vendor lockbox, not to the prison building. Never mail cash.",
+      "Fees vary by provider, amount, method, and facility. Real examples: Minnesota JPay $3.95 online for up to $20, Washington Western Union $5.95 for up to $30, Clark County TouchPay $2.95 plus 3.5 percent for card payments up to $20. Always check the fee at checkout.",
+      "Mailed money orders often carry no vendor fee but take one to two weeks. Online transfers typically arrive within one to three business days. Lobby kiosk cash deposits are often immediate.",
+      "Restitution and fines can reduce a deposit before it becomes spendable. California deducts 50 percent plus a 10 percent admin fee, up to 55 percent combined.",
+      "Deposit limits vary by facility. Check per-transaction, daily, and monthly caps, and any sender limits, before sending a large amount.",
+      "Once funds are deposited to an inmate account, refunds are usually not given. Check the ID number twice before you confirm.",
+      "Scams target families sending money. No legitimate facility asks you to wire money or pay by gift card to prevent punishment. Never deposit for an inmate who is not your own family or close friend.",
+      "Wait until your loved one has arrived and been processed before sending the first transfer, and confirm the current facility and new ID number after any transfer.",
+      "If funds do not arrive, check which account you funded, then contact the provider with your confirmation number, then the facility trust office, then your bank if needed.",
     ],
 
     faq: [
@@ -333,11 +447,11 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "How much does it cost to send money to an inmate?",
-        answer: "Fees vary by provider and transfer amount. JPay fees range from $0.95 to $4.95 per transaction. Access Corrections charges $1.95 to $5.95. Western Union fees are typically $5 to $15 or more. Lobby kiosk deposits often have the lowest fees.",
+        answer: "Fees vary by provider, amount, method, and facility. Real examples from official fee tables: Minnesota JPay charges $3.95 online for a deposit up to $20, Washington Western Union charges $5.95 for up to $30, and Clark County TouchPay charges $2.95 plus 3.5 percent for card payments up to $20. Mailed money orders often carry no vendor fee. Always check the fee shown at checkout before you confirm.",
       },
       {
         question: "What is the inmate ID number and where do I find it?",
-        answer: "The inmate ID number is assigned by the facility when the person is booked or transferred in. It is different from any court case number. You can get it directly from your loved one, by calling the facility, or by using an official state inmate search tool.",
+        answer: "The inmate ID number is assigned by the facility when the person is booked or transferred in. It is different from any court case number. You can get it directly from your loved one, by calling the facility, or by using an official state inmate search tool. Federal inmates use an 8-digit register number.",
       },
       {
         question: "Can I use PayPal or Venmo to send money to an inmate?",
@@ -345,15 +459,15 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "What if the money I sent never arrived?",
-        answer: "Keep your transaction confirmation number and contact the provider customer service. Provide your confirmation number, the inmate name and ID, and the facility name. Common causes of delayed funds include incorrect inmate ID, facility transfer, or a processing delay at the facility.",
+        answer: "First check which account you funded, because money in the phone or messaging account will not show in the commissary balance. Then contact the provider customer service with your transaction confirmation number, inmate ID, facility name, amount, and transfer date. If the provider cannot help, contact the facility trust account office, then dispute the charge with your bank. Keep your email receipt as documentation.",
       },
       {
         question: "Why are money transfer fees so high and can I avoid them?",
-        answer: "Fees exist because providers charge for the service of processing and crediting the deposit. Fees vary by provider, amount sent, and payment method. To minimize fees, compare providers at the time of the transfer, use a debit card rather than a credit card, and send larger amounts less frequently to reduce the number of transaction fees you pay overall.",
+        answer: "Fees exist because providers charge for the service of processing and crediting the deposit. Fees vary by provider, amount sent, and payment method. To minimize fees, compare providers at the time of the transfer, use a debit card rather than a credit card, send larger amounts less frequently to reduce the number of transaction fees, and consider mailing a money order, which often carries no vendor fee.",
       },
       {
         question: "The money I sent is not in the inmate account. What do I do?",
-        answer: "First check whether the funds are in a pending or hold status in your provider account. Contact customer service with your transaction confirmation number, inmate ID, facility name, amount, and transfer date. If the provider cannot help, dispute the charge with your bank. Keep your email receipt as documentation for any dispute.",
+        answer: "First check whether the funds are in a pending or hold status in your provider account, and check whether you funded the phone or messaging account instead of commissary. Contact customer service with your transaction confirmation number, inmate ID, facility name, amount, and transfer date. If the provider cannot help, contact the facility trust office, then dispute the charge with your bank. Keep your email receipt as documentation for any dispute.",
       },
       {
         question: "Can I send money to an inmate at any facility using any provider?",
@@ -365,13 +479,69 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "Is there a free way to send money to an inmate?",
-        answer: "Some states and facilities have eliminated fees for certain deposit methods. JPay eliminated money order deposit fees at some state facilities following public pressure. A small number of states offer free deposit options as part of broader prison communication reform efforts. Contact the facility or your state Department of Corrections to ask whether any fee-free deposit options are available.",
+        answer: "Money orders mailed to a vendor lockbox often carry no vendor fee. Minnesota's JPay lockbox, for example, charges no fee for money order deposits, though you still pay for the money order itself and wait longer. A small number of states offer fee-free deposit options as part of broader prison communication reform efforts. Contact the facility or your state Department of Corrections to ask whether any fee-free deposit options are available.",
+      },
+      {
+        question: "How do I send money to a federal inmate?",
+        answer: "Federal deposits run through the Bureau of Prisons. The main method is a money order mailed to the BOP lockbox, with the inmate's committed name and 8-digit register number included. Confirm the current lockbox address on the facility's page at bop.gov before mailing, and do not mail money to the prison's own address. You can also use Western Union Quick Collect or MoneyGram Express Payment with receive code 7932.",
+      },
+      {
+        question: "How do I send money through MoneyGram?",
+        answer: "Use MoneyGram Express Payment at a retail location such as Walmart or CVS. You need the receive code for the inmate's system, the inmate's full legal name, and the inmate ID number. For federal inmates the receive code is 7932. For Minnesota JPay deposits it is 1279. Pay cash at the counter and keep the receipt with its reference number.",
+      },
+      {
+        question: "How do I send money through Western Union Send2Corrections?",
+        answer: "Go to Western Union's Send Money to an Inmate page, select the facility, enter the inmate's name and ID number, choose an amount, and pay online, by phone, or in person at an agent location. Keep the Money Transfer Control Number (MTCN), which is how you track the transfer. Common failure reasons are a wrong ID number, a transfer after the inmate moved, or the inmate reaching the limit on received funds.",
+      },
+      {
+        question: "How do I send money through ConnectNetwork?",
+        answer: "Create an account at connectnetwork.com, find the inmate by facility and ID number, and choose the trust fund deposit option for commissary money. You may need the facility Site ID. Do not confuse a trust fund deposit with AdvancePay, which funds a phone account for calls to you. Trust Fund automated phone payments use 1-888-988-4768, while AdvancePay uses 1-800-483-8314.",
+      },
+      {
+        question: "Will the money be reduced by restitution or fines?",
+        answer: "Often yes. Many systems deduct a portion of each deposit for fines, court costs, restitution, or facility debts before the money becomes spendable. California deducts 50 percent of trust deposits plus a 10 percent administrative fee, up to 55 percent combined, under California Code of Regulations section 3097. Virginia applies a percentage deduction for fines, costs, and restitution. The federal IFRP program pulls payments from trust balances toward court-ordered obligations.",
+      },
+      {
+        question: "Is there a limit on how much money I can send an inmate?",
+        answer: "Yes, and the limits vary by facility. Common forms are per-transaction, daily, and monthly caps. Some systems also limit who you can send to: Virginia requires approval before you send money to more than one inmate. Facility caps can be low. Travis County caps money orders at $100, and Alabama caps money order deposits at $900 per day. Check the facility rules before sending a large amount.",
+      },
+      {
+        question: "Can I get a refund if I sent money to the wrong inmate?",
+        answer: "Usually not once the funds are deposited. Clark County states plainly that once funds are deposited to an inmate's account, no refunds will be given. JPay does not guarantee refunds for funds sent to the wrong inmate account, especially if the inmate has already spent the money. Western Union transfers can usually be cancelled for a refund if they have not yet been picked up or posted. Act immediately and call the provider with your confirmation number.",
+      },
+      {
+        question: "Why is the money in the phone account instead of commissary?",
+        answer: "Because the three accounts are separate. A trust fund deposit goes to commissary. An AdvancePay payment funds a phone account for calls to you. A messaging purchase buys stamps or credits. If you selected the wrong option at checkout, the money arrived but in a different account. Contact the provider and ask whether the deposit can be moved.",
+      },
+      {
+        question: "What happens to the money when my loved one is released?",
+        answer: "The trust account closes at release. In the federal system, any remaining trust balance is returned to the released person, generally as a check. State and county procedures vary. Money left in a provider account or unused messaging credits may not be refunded automatically. Do not send a deposit right before a scheduled release, because a deposit that posts after release is much harder to recover.",
+      },
+      {
+        question: "Can I send money to more than one inmate?",
+        answer: "It depends on the system. Some systems allow it. Others require approval first. Virginia DOC requires approval before you send money to more than one inmate. Check the rules for your loved one's system, and use a separate transaction for each inmate with the correct ID number.",
+      },
+      {
+        question: "How do I know the money arrived?",
+        answer: "Keep your confirmation number and ask your loved one to check the correct account balance. Online deposits usually show within one to three business days. If the balance has not updated, contact the provider with the confirmation number, then the facility trust account office. A kiosk balance can lag behind the actual deposit, so a missing display does not always mean a missing deposit.",
+      },
+      {
+        question: "Can I send cash to an inmate?",
+        answer: "No. Never mail cash to an inmate or to a facility. Cash sent by mail is typically confiscated or returned, and it can create problems for the inmate. Use a money order, an online transfer, a phone transfer, a lobby kiosk, or a cash payment at a MoneyGram or Western Union retail location instead.",
+      },
+      {
+        question: "Do I need to be on an approved list to send money?",
+        answer: "At some facilities, yes. Some require the sender to be on the approved visitation or telephone list before a deposit is accepted. In Indiana, JPay requires you to be on the inmate's approved visitor list before a money order deposit is accepted. If you are not sure, ask the facility before you send.",
+      },
+      {
+        question: "Are there scams targeting families sending money?",
+        answer: "Yes. Common scams include callers claiming your loved one broke prison property and must pay or lose good time, fake bail requests, fake attorney fees payable through commissary, and fake bus tickets home. No legitimate facility calls family to demand a wire transfer or gift card payment. Never deposit money for an inmate who is not your own family member or close friend, and never pay a stranger's fees by gift card, cryptocurrency, or wire.",
       },
     ],
 
-    relatedGuideSlugs: ["how-inmate-messaging-works", "prison-phone-call-costs", "inmate-communication-guide"],
+    relatedGuideSlugs: ["how-inmate-messaging-works", "prison-phone-call-costs", "inmate-communication-guide", "how-prison-phone-calls-work"],
     relatedTermSlugs: ["money-transfer", "inmate-account", "commissary"],
-    relatedProviderSlugs: ["jpay", "connectnetwork"],
+    relatedProviderSlugs: ["jpay", "connectnetwork", "access-corrections"],
     relatedComparisonSlugs: ["jpay-vs-connectnetwork"],
     ctaType: "hub",
     ctaTarget: "/money-transfer",

@@ -756,27 +756,27 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     difficulty: "Beginner",
     featured: false,
     popular: true,
-    readingTimeMinutes: 4,
+    readingTimeMinutes: 9,
     country: "us",
     featuredImage: undefined,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-08-15",
+    updatedAt: "2026-10-18",
     seoTitle: "How Prison Phone Calls Work: Complete Guide",
     seoDescription: "Learn how inmates make phone calls, how to set up a prepaid account to receive calls, what providers facilities use, and how much prison calls cost.",
     intro: [
       "Prison phone calls work through a prepaid system. Families create an account with the facility phone provider, add funds, and wait for the inmate to call. The call is automatically deducted from the prepaid balance at a per-minute rate set by the facility contract.",
-      "The most common prison phone providers in the United States are GTL, Securus Technologies, ICSolutions, and City Tele Coin. Each facility has a contract with only one provider, so families must use whichever provider their facility has chosen.",
-      "Prison phone call rates are regulated by the FCC for interstate calls. The maximum rate is $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current rules.",
+      "The most common prison phone providers in the United States are GTL (ViaPath), Securus Technologies, ICSolutions, and City Tele Coin. ConnectNetwork is GTL/ViaPath's consumer account brand, not a separate provider. Each facility has a contract with only one provider, so families must use whichever provider their facility has chosen.",
+      "Prison phone call rates are capped by the FCC. The current interim cap for prisons is $0.11 per minute: $0.09 per minute plus up to $0.02 per minute in facility cost recovery (47 CFR 64.6030). That replaced the 2024 cap of $0.06 per minute for prison audio. Large jails have their own interim caps by size.",
       "To set up a prison phone account, visit the provider website, create a free account, search for your loved one facility, and add a minimum deposit.",
       "All prison phone calls are recorded and monitored by facility staff except calls to attorneys. Calls are typically limited to 15 to 30 minutes.",
-      "To save money on prison phone calls, use a prepaid account instead of collect calls and check if your facility offers video visits which are often cheaper."
+      "To save money on prison phone calls, use a prepaid account instead of collect calls, and check whether your state offers free calls (see the free-call states below). Video visits are capped higher than phone calls under the FCC rules, so they are not a cheaper substitute."
     ],
 
     sections: [
       {
         heading: "How Inmates Place Phone Calls",
         body: [
-          "Inmates use phones located in common areas of the facility. Each call is placed through a system managed by the facility's contracted phone provider. The inmate dials a number from their approved contact list. You cannot receive a call from an inmate unless your number has been added to their list.",
+          "Inmates use phones located in common areas of the facility. Each call is placed through a system managed by the facility's contracted phone provider. The inmate dials a number from their approved contact list. You cannot receive a call from an inmate unless your number has been added to their list. Some systems also check the caller's voice against a voiceprint recorded at booking before the call connects.",
           "Adding a number to the approved list is done by the inmate through the facility's phone system or by submitting a form to facility staff. The approval process can take a few days.",
         ],
       },
@@ -784,8 +784,28 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         heading: "How to Set Up Your Account",
         body: [
           "Most prison phone providers offer two ways to accept calls. You can accept collect calls and be billed after the fact, or you can set up a prepaid account with the provider and have calls billed against your balance.",
-          "Prepaid accounts are recommended. They let you control spending, often have lower per-minute rates, and avoid unexpected phone bills. Create an account on the provider's website, link it to the phone number the inmate will be calling, and add funds before the first call.",
-          "Common providers include Securus Technologies, Global Tel Link (GTL), ICSolutions, and Telmate. The provider depends entirely on which company holds the contract with that facility.",
+          "Prepaid accounts are recommended. They let you control spending, often have lower per-minute rates, and avoid unexpected phone bills. Create an account on the provider's website, link it to the phone number the inmate will be calling, and add funds before the first call. At some facilities, accepting the first call from the inmate verifies your number.",
+          "Common providers include GTL (ViaPath), Securus Technologies, ICSolutions, and City Tele Coin. ConnectNetwork is GTL/ViaPath's consumer account brand, not a separate provider. The provider depends entirely on which company holds the contract with that facility.",
+        ],
+      },
+      {
+        heading: "Why Your Calls Are Not Connecting",
+        body: [
+          "If no calls are coming through, work through the causes in this order before assuming the facility cut off contact. The most common reason is that your number is not on the inmate's approved contact list, or it was entered incorrectly. Ask the inmate to confirm the exact number on their list.",
+          "Internet-based numbers are blocked at many facilities. Calls to VoIP numbers, Google Voice numbers, and forwarded numbers are detected and rejected by most systems. Texas, for example, bars calls to internet services outright. Use a regular mobile or landline number for inmate calls.",
+          "Carrier spam filters can silently send prison calls to voicemail. Some families report that calls from a facility never rang and went straight to voicemail because the carrier flagged the number as spam. Check your voicemail, turn off scam-blocking for the facility number if your carrier allows it, and make sure the number is not blocked on your phone.",
+          "A zero or insufficient prepaid balance stops calls before they connect. Check your account balance and top it up. If the inmate's account funds the calls, confirm their balance too.",
+          "Disciplinary suspension can pause phone privileges. If the inmate recently lost phone access, calls will not connect until privileges are restored. PIN errors, a changed number, or an accidental block (for example, pressing the wrong key on the accept prompt) can also stop calls.",
+          "If none of these explain it, call the provider or the facility. For ViaPath/GTL systems, ViaPath customer service can check whether your number is blocked and start a block removal. Keep a note of when calls stopped and what you hear when a call is attempted, since that helps support diagnose the problem.",
+        ],
+      },
+      {
+        heading: "Call Rules That Disconnect You",
+        body: [
+          "Prison phone systems actively detect call features that could hide a third party, and they disconnect the call when one is detected. Never use three-way calling, call waiting, call forwarding, call transfer, or a second phone picking up the same line during an inmate call. Do not put the call on speakerphone if the facility bans it: Texas, for example, requires call recipients to agree they will not forward calls, make three-way calls, or use a speakerphone.",
+          "The disconnect is usually instant and automatic, with no warning. A call cut off this way is rarely refunded, since the system treats it as a rule violation rather than a technical failure.",
+          "Repeated violations can lead to worse consequences than a dropped call: the number can be blocked, the inmate can lose phone privileges, and serious abuse can bring disciplinary action. In the federal system, a Serious Telephone Abuse designation can remove phone access entirely.",
+          "If your calls keep disconnecting and you are not using any of these features, check for a second device answering the line, a call-waiting beep from an incoming call, or a cordless phone or bundled phone feature that the system may mistake for call transfer. Fix the line first, then ask the provider to check whether your number was flagged.",
         ],
       },
       {
@@ -796,10 +816,71 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
         ],
       },
       {
+        heading: "What Not to Say on a Call",
+        body: [
+          "Assume every word is recorded and reviewed. Do not discuss the inmate's case, charges, or legal strategy on a regular call. Do not discuss victims, witnesses, or anyone involved in the case. Never discuss escape plans, contraband, gang activity, or anything that could be read as a threat.",
+          "Do not try to add a third person to the call, relay messages to someone the inmate is not allowed to contact, or pass along instructions from someone else. Staff treat relayed messages as an attempt to bypass the approved-list and monitoring rules.",
+          "If a call is terminated for something said on the line, the number can be blocked and the inmate can face discipline. Save sensitive topics for a properly registered attorney call or an in-person legal visit, and keep phone conversations to everyday family matters.",
+        ],
+      },
+      {
         heading: "What Phone Calls Cost",
         body: [
-          "Per-minute rates for prison calls have been significantly reduced under FCC regulations in recent years. Interstate calls are now capped at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current FCC rules. Intrastate rates vary by state but most are in the $0.05 to $0.25 per-minute range.",
-          "Fees can add significantly to the base rate. Connection fees, account maintenance fees, and payment processing fees are common. A 15-minute call at $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) costs $1.65 in base rate but may total $3 to $5 after fees depending on the provider.",
+          "Per-minute rates for prison calls have been significantly reduced under FCC regulations in recent years. Calls from prisons are now capped at $0.11 per minute under the FCC interim caps (47 CFR 64.6030): $0.09 per minute plus up to $0.02 per minute in facility cost recovery. That replaced the 2024 cap of $0.06 per minute for prison audio. Jails have separate interim caps by facility size. Intrastate rates vary by state but most are in the $0.05 to $0.25 per-minute range, and a few states still price above the interim cap.",
+          "Taxes and any remaining provider fees can add to the base rate. A 15-minute call at $0.11 per minute costs $1.65 in base rate. Site commissions and ancillary charges are banned under the interim caps, so check your provider's rate disclosure for the all-in total before funding an account. For what a 15-minute call costs in your state, see the Communication Costs by State page, which lists the price for every state.",
+        ],
+      },
+      {
+        heading: "Federal Prison (BOP) Phone Rules",
+        body: [
+          "Federal prisons run a separate system under the Bureau of Prisons, and the limits are set by BOP Program Statement 5264.09 (Inmate Telephone Regulations). Inmates with phone accounts are limited to 510 minutes per calendar month. Inmates eligible for First Step Act telephone incentives receive 300 of those minutes per month at no charge, and anyone who exhausts 300 minutes may purchase an additional 210 minutes.",
+          "A single federal call generally may not exceed 15 minutes, with a warning tone about one minute before disconnection. The phone list ordinarily holds up to 30 approved numbers, and list changes may ordinarily be submitted once per calendar month. The warden sets the waiting period between completed calls and the hours phones are available, so both vary by facility.",
+          "Federal calls run through the Inmate Telephone System (ITS). The same outbound-only rule applies: families cannot call in, and every call is recorded except properly handled legal calls.",
+        ],
+      },
+      {
+        heading: "Collect Calls and Scam Warning",
+        body: [
+          "A collect call charges the person receiving the call instead of the inmate. The automated announcement asks you to accept the charges, and the call connects only if you accept. Collect calls are the most expensive way to receive a prison call, and they often fail on cell phones: many carriers limit or refuse collect billing, and some facilities do not offer collect at all.",
+          "Scammers exploit the collect-call format. A fake jail call may use a recorded voice claiming a loved one is in jail, then pressure you to pay bail, fees, or charges immediately, often by gift card, wire transfer, or cryptocurrency. Real jail calls never demand immediate payment by gift card or wire, and a real facility will not threaten arrest if you do not pay on the spot.",
+          "If you get a suspicious call, hang up, do not press anything, and verify independently: call the facility's published number or check the custody status through the official inmate search. Report fake jail calls to the facility and to the FTC.",
+        ],
+      },
+      {
+        heading: "Inmate Voicemail",
+        body: [
+          "Some facilities offer an inmate voicemail service: you leave a recorded message and the inmate listens to it later, usually for a per-minute charge. It is not universal, and it does not replace live calls. Florida's Department of Corrections lists incoming inmate voicemail from friends and family as a priced service on its phone rates page, and some facilities require the inmate's PIN to leave a voicemail.",
+          "Check the specific facility's page or ask the provider whether voicemail is available there, what it costs, and whether messages are reviewed before the inmate hears them.",
+        ],
+      },
+      {
+        heading: "International Calls",
+        body: [
+          "International calls from prisons and jails are usually barred or expensive. Texas bars calls to international numbers outright. Virginia lists calling international numbers as an offense that can cost phone privileges. Where international calling is allowed, it is priced separately from domestic calls and may require special approval.",
+          "If your family is outside the United States, confirm with the facility whether any international option exists before funding an account, and consider whether messaging or mail is the more reliable channel.",
+        ],
+      },
+      {
+        heading: "Refunds for Unused Balances",
+        body: [
+          "If you funded a prepaid account and no longer need it, contact the provider to request a refund of the unused balance. Keep your account number and payment records ready, and ask how long the refund takes and whether any closure fee applies.",
+          "Closing a paid account does not block free calls. In Minnesota and New York, where state prison calls are free, you can still receive calls with no account at all, and any old unused balance can still be refunded by the provider.",
+        ],
+      },
+      {
+        heading: "Emergencies: Reaching an Inmate",
+        body: [
+          "You cannot call an inmate directly, even in an emergency. For a genuine emergency, such as a death or serious illness in the family, call the facility's main published number and ask for the shift supervisor or the chaplain. Staff can verify the emergency and pass the message to the inmate.",
+          "Have the inmate's full legal name, booking or ID number, and the nature of the emergency ready when you call. Staff will not put you through to the inmate's phone, and they will not confirm details about other inmates.",
+        ],
+      },
+      {
+        heading: "Call Hours and Limits: How Systems Differ",
+        body: [
+          "There is no single national schedule. Each system sets its own call length, hours, and approved-list size, so the rules below are examples, not defaults. Always confirm the rules for the specific facility.",
+          "Virginia state prisons run through ConnectNetwork by GTL: calls are limited to 20 minutes, and the approved call list holds a maximum of 15 numbers. All calls are recorded except properly verified attorney calls.",
+          "Texas state prisons run through Securus: phones are generally available from 5:00 a.m. to 12:00 a.m., calls are limited to 30 minutes with a warning one minute before disconnection, and inmates have unlimited minutes per month. Calls go only to home landlines and post-paid or pre-paid cell phones.",
+          "Florida state prisons run through ConnectNetwork: each incarcerated person gets one free five-minute call per week, and calls can last up to 30 minutes. Federal prisons follow the BOP rules above: 510 minutes per month, 15-minute calls, 30 approved numbers.",
         ],
       },
       {
@@ -837,13 +918,18 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       "Your phone number must be on the inmate's approved contact list before they can call you.",
       "Setting up a prepaid account gives you lower rates and better cost control than collect calls.",
       "All calls are recorded and monitored unless specifically exempted.",
-      "FCC-capped rates are $0.11 per minute under current FCC rules in effect as of 2026 (raised from the original 2024 cap of $0.06 per minute) for prisons and $0.11 per minute for large jails under current FCC rules.",
-      "Extra fees from providers can double the actual cost of a call.",
+      "FCC interim caps are $0.11 per minute for prisons ($0.09 plus up to $0.02 facility cost recovery, 47 CFR 64.6030), replacing the 2024 cap of $0.06 per minute for prison audio. Jails have separate interim caps by size.",
+      "Site commissions and ancillary charges are banned under the interim caps. Check the provider's rate disclosure for the all-in total.",
       "Minnesota phone calls from state DOC facilities are free since July 2023. No AdvancePay account or funds are needed. Press zero to accept the call.",
       "New York State phone calls are free from state prisons since August 1, 2025. Each inmate gets three free calls per week up to 15 minutes each.",
       "The inmate commissary account and phone account are separate at most facilities. Funds cannot be transferred between them. Deposit to the correct account.",
       "PIN Debit accounts let the inmate pay for calls from their own trust funds. This allows calls to any approved number rather than just one registered number.",
       "Debit Link purchases at ViaPath facilities are final with no refunds. One dollar buys 100 link units for tablet services.",
+      "Internet-based numbers such as Google Voice and forwarded numbers are blocked at many facilities. Use a regular mobile or landline number.",
+      "Three-way calling, call waiting, call forwarding, call transfer, and speakerphone use can trigger an instant disconnect, and repeated violations can get the number blocked.",
+      "Federal prison calls follow BOP Program Statement 5264.09: 510 minutes per month, 15-minute calls, 30 approved numbers.",
+      "Fake jail calls are a real scam. Real facilities never demand immediate payment by gift card or wire.",
+      "In a genuine emergency, call the facility main number and ask for the shift supervisor or chaplain. You cannot call an inmate directly.",
     ],
 
     faq: [
@@ -877,11 +963,51 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
       },
       {
         question: "Why did my prison phone call get disconnected?",
-        answer: "The most common reasons are reaching the call time limit (typically 15 to 30 minutes), your AdvancePay balance reaching zero mid-call, or a facility count or lockdown that requires all calls to end. If your balance ran out, add funds and wait for the inmate to call again. If the facility ended calls, they will be able to call when normal operations resume.",
+        answer: "The most common reasons are reaching the call time limit (typically 15 to 30 minutes), your prepaid balance reaching zero mid-call, or a facility count or lockdown that requires all calls to end. Other common causes: the system detected three-way calling, call waiting, call forwarding, call transfer, a second phone picking up, or speakerphone use, and disconnected the call automatically. Calls to internet-based numbers such as Google Voice are blocked at many facilities. A carrier spam filter can also send the call straight to voicemail. If your number was blocked, contact the provider or the facility to ask why and how to get it unblocked. If the balance ran out, add funds and wait for the inmate to call again.",
       },
       {
         question: "What does the automated message say when I receive a prison call?",
         answer: "The automated message typically says you are receiving a call from the inmate name at the facility name and prompts you to press a number to accept. On free call systems like Minnesota and New York, you may hear a message that the call is free before connecting. Press the prompted number to accept. If you do not press anything or hang up, the call is rejected and the inmate must call again.",
+      },
+      {
+        question: "Can inmates call cell phones?",
+        answer: "Yes, in most systems. Approved lists can include both cell phones and landlines. Texas allows calls to home landlines and post-paid or pre-paid cell phones. Some facilities restrict which types of numbers can receive calls, so confirm with the specific facility if your number is a prepaid cell or an internet-based number.",
+      },
+      {
+        question: "Why is my number blocked, and how do I unblock it?",
+        answer: "Common reasons include an insufficient prepaid balance, hitting a collect-call billing cap with your carrier, a disciplinary suspension of the inmate's phone privileges, PIN errors, a carrier spam flag, an accidental block from pressing the wrong key on the accept prompt, or a facility fraud block. To unblock, first check your balance and your phone's block list, then call the provider. For ViaPath/GTL systems, ViaPath customer service can check whether your number is blocked and start a block removal. You can also ask the facility whether the number is on a block list.",
+      },
+      {
+        question: "Can inmates call Google Voice numbers?",
+        answer: "Generally no. Most prison phone systems detect and reject calls to internet-based numbers, including Google Voice and other VoIP numbers, and to forwarded numbers. Texas bars calls to internet services outright. Use a regular mobile or landline number for inmate calls.",
+      },
+      {
+        question: "Can you three-way a jail call?",
+        answer: "No. Three-way calling is prohibited on inmate calls. The phone system detects it and disconnects the call automatically. Repeated attempts can get the number blocked and the inmate disciplined, so never try to add a third person to an inmate call.",
+      },
+      {
+        question: "How long can a prison phone call last?",
+        answer: "It depends on the system. Most facilities cap calls at 15 to 30 minutes, then disconnect automatically. Virginia state prisons cap calls at 20 minutes, Texas state prisons at 30 minutes, and federal prisons at 15 minutes. A warning tone usually plays about one minute before the call ends.",
+      },
+      {
+        question: "Do inmates get voicemail?",
+        answer: "Some facilities offer an inmate voicemail service where you leave a recorded message the inmate listens to later, usually for a per-minute charge. It is not available everywhere. Florida's Department of Corrections lists incoming inmate voicemail as a priced service, and some facilities require the inmate's PIN to leave a voicemail. Check the specific facility or provider for availability and cost.",
+      },
+      {
+        question: "Can inmates make international calls?",
+        answer: "Usually no. Texas bars calls to international numbers outright, and Virginia lists calling international numbers as an offense that can cost phone privileges. Where international calling is allowed, it is priced separately and may need special approval. Confirm with the facility before funding an account for international calls.",
+      },
+      {
+        question: "How do I get a refund for an unused balance?",
+        answer: "Contact the provider and ask for a refund of the unused prepaid balance. Keep your account number and payment records ready. In Minnesota and New York, where state prison calls are free, you can still receive calls with no account at all, and any old unused balance can still be refunded by the provider.",
+      },
+      {
+        question: "What if my loved one is in segregation?",
+        answer: "Phone access is usually sharply restricted in segregation or restrictive housing, and outgoing calls are often suspended or limited. Legal calls are still permitted. Ask the facility about the specific restrictions and when regular phone access resumes.",
+      },
+      {
+        question: "How do I report a fake jail call?",
+        answer: "Hang up and do not press anything or send money. Real jail calls never demand immediate payment by gift card, wire transfer, or cryptocurrency. Verify independently by calling the facility's published number or checking custody status through the official inmate search, then report the fake call to the facility and to the FTC.",
       },
       {
         question: "Can I block calls from a specific inmate?",
@@ -890,8 +1016,8 @@ export const GUIDE_DETAILS: Record<string, GuideDetail> = {
     ],
 
     relatedGuideSlugs: ["prison-phone-call-costs", "how-inmate-messaging-works", "inmate-communication-guide"],
-    relatedTermSlugs: ["inmate-phone-calls"],
-    relatedProviderSlugs: ["connectnetwork"],
+    relatedTermSlugs: ["inmate-phone-calls", "collect-call"],
+    relatedProviderSlugs: ["connectnetwork", "securus", "gtl"],
     relatedComparisonSlugs: [],
     ctaType: "hub",
     ctaTarget: "/phone-calls",

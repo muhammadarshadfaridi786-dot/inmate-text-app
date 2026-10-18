@@ -275,15 +275,15 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   countyName: "Mecklenburg County",
   securityLevel: "Pretrial / Sentenced",
   hasDetailPage: true,
-  seoTitle: "Mecklenburg County Jail: GettingOut Phone, Messaging and",
-  seoDescription: "How to contact someone at Mecklenburg County Jail in Charlotte NC. GettingOut phone, messaging and video visits for this Mecklenburg County Sheriff's jail.",
+  seoTitle: "Mecklenburg County Jail: GTL Phone Calls and Messaging Guide",
+  seoDescription: "How to contact someone at Mecklenburg County Jail in Charlotte NC. GTL phone calls via AdvancePay and ConnectNetwork, per the Sheriff's phone page. Messaging and video vendors are not confirmed on Sheriff pages.",
 
   description:
-    "Mecklenburg County Jail communication guide. GettingOut phone, messaging and video visits for families of inmates at this Mecklenburg County Sheriff's jail in Charlotte NC.",
+    "Mecklenburg County Jail communication guide. GTL phone calls via AdvancePay and ConnectNetwork for families of inmates at this Mecklenburg County Sheriff's jail in Charlotte NC. Messaging and video vendors are not confirmed on Sheriff pages.",
 
   overview: [
     "Mecklenburg County Jail is the county jail in Charlotte, North Carolina, operated by the Mecklenburg County Sheriff's Office. The system includes Detention Center Central in uptown Charlotte plus Detention Center North. Jail North reopened after a closure that lasted since 2022, amid overcrowding.",
-    "Communication at Mecklenburg County Jail runs through GettingOut, ViaPath's platform for phone calls, video visits, and messaging.",
+    "Phone calls at Mecklenburg County Jail run through Global Tel*Link (GTL), per the Sheriff's phone page: set up an AdvancePay prepaid account at ConnectNetwork.com or by calling 1-800-483-8314. The Sheriff's pages do not name the messaging or video visit vendors, so confirm those with the facility before creating a paid account.",
     "Visitation follows Sheriff's Office rules. Visitors must be approved and bring valid photo identification. All calls and visits are monitored and recorded.",
   ],
 
@@ -295,29 +295,29 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
 
   providers: [
     {
-      name: "GettingOut",
-      slug: "gettingout",
+      name: "GTL",
+      slug: "gtl",
       initial: "G",
-      color: "bg-violet-600",
-      messaging: true,
-      video: true,
-      photos: true,
+      color: "bg-amber-600",
+      messaging: false,
+      video: false,
+      photos: false,
       phone: true,
       moneyTransfer: false,
-      notes: "GettingOut, ViaPath's platform, handles phone calls, video visits, and messaging.",
+      notes: "GTL (Global Tel*Link) handles phone calls, per the Sheriff's phone page. AdvancePay accounts via ConnectNetwork. Messaging, video, photo, and money vendors are not confirmed on Sheriff pages.",
     },
   ],
 
   communication: {
-    messaging: { status: "available", provider: "GettingOut", notes: "Electronic messaging through GettingOut." },
-    video: { status: "available", provider: "GettingOut", notes: "Video visits through GettingOut. Schedule in advance." },
-    photos: { status: "available", provider: "GettingOut", notes: "Photo sharing through GettingOut." },
-    phone: { status: "available", provider: "GettingOut", notes: "Phone calls through GettingOut." },
+    messaging: { status: "limited", notes: "Messaging vendor is not confirmed on the Sheriff's pages. Confirm the current provider with the facility before creating a paid account." },
+    video: { status: "limited", notes: "Video visit vendor is not confirmed on the Sheriff's pages. Confirm the current provider with the facility before creating a paid account." },
+    photos: { status: "limited", notes: "Photo sharing vendor is not confirmed on the Sheriff's pages. Confirm with the facility." },
+    phone: { status: "available", provider: "GTL", notes: "Phone calls through Global Tel*Link (GTL). Set up an AdvancePay prepaid account at ConnectNetwork.com or by calling 1-800-483-8314." },
     moneyTransfer: { status: "limited", notes: "Deposit options are not confirmed. Confirm the current method with the facility before sending money." },
   },
 
   rules: [
-    "Confirm the current phone and video vendor with the facility before creating any paid account.",
+    "Phone calls run through GTL (AdvancePay via ConnectNetwork). Confirm the messaging and video vendors with the facility before creating any paid account.",
     "Visitors must be approved and bring a valid government-issued photo ID.",
     "Follow the Sheriff's Office dress code. Inappropriate clothing will get your visit denied.",
     "All calls and visits are monitored and recorded.",
@@ -325,7 +325,7 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
   ],
 
   faq: [
-    { question: "Which company handles phone calls at Mecklenburg County Jail?", answer: "Phone calls run through GettingOut, ViaPath's platform." },
+    { question: "Which company handles phone calls at Mecklenburg County Jail?", answer: "Phone calls run through Global Tel*Link (GTL). Set up an AdvancePay prepaid account at ConnectNetwork.com or by calling 1-800-483-8314, per the Sheriff's phone page." },
     { question: "How do I visit someone at Mecklenburg County Jail?", answer: "Visitors must be approved. Bring valid photo ID and follow Sheriff's Office visiting rules. Confirm which detention center holds the inmate before traveling." },
     { question: "Which facilities are in the Mecklenburg County Jail system?", answer: "The system includes Detention Center Central in uptown Charlotte plus Detention Center North. Jail North reopened after a closure that lasted since 2022, amid overcrowding." },
       {
@@ -346,12 +346,12 @@ export const FACILITY_DETAILS_BATCH11: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I schedule or cancel a video visit at Mecklenburg County Jail?",
-        answer: "Schedule GettingOut video visits in advance. Cancel the same way, as early as possible, and check the facility's visitation page for its cancellation rules.",
+        answer: "The video visit vendor is not confirmed on the Sheriff's pages. Confirm the current video provider with the facility before creating a paid account, then schedule through that provider.",
       },
 
 
 
-    { question: "How do I message someone at Mecklenburg County Jail?", answer: "Create a GettingOut account online or through the app. Search for the person using their name and booking number, then send your message. Expect a short review period before delivery." },
+    { question: "How do I message someone at Mecklenburg County Jail?", answer: "The messaging vendor is not confirmed on the Sheriff's pages. Confirm the current messaging provider with the facility before creating a paid account." },
     { question: "What happens after someone is sentenced to state prison from Mecklenburg County?", answer: "People sentenced to felony prison time are transferred to a North Carolina Department of Adult Correction facility. Check the new facility's communication setup right after any transfer, since the providers change." },
   ],
 

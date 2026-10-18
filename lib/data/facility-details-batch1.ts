@@ -5427,7 +5427,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     ],
 
     address: "201 Poplar Avenue, Memphis, TN 38103",
-    phone: "(901) 545-2000",
+    phone: "(901) 222-4700",
     website: "https://www.shelby.tn.gov/sheriff",
     inmateCapacity: 3000,
     established: 1981,
@@ -5483,7 +5483,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       },
       {
         question: "How do I verify if someone is at the Shelby County CJC?",
-        answer: "The Shelby County Sheriff's Office provides an inmate search online at shelby.tn.gov/sheriff. Searching by name will show current custody status and facility information.",
+        answer: "The Shelby County Sheriff's Office provides an inmate search online at shelby.tn.gov/sheriff. Searching by name will show current custody status and facility information. You can also call 901-222-4700 to check whether someone is in custody.",
       },
       {
         question: "How do I send money to a Shelby County CJC inmate?",
@@ -5869,7 +5869,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
     ],
 
     address: "3301 Hammond Road, Raleigh, NC 27603",
-    phone: "(919) 856-6900",
+    phone: "(919) 773-7930",
     website: "https://www.wakegov.com/departments-agencies/sheriff",
     inmateCapacity: 1000,
     established: 1994,
@@ -5937,7 +5937,7 @@ export const FACILITY_DETAILS_BATCH1: Record<string, FacilityDetail> = {
       {
         question: "What should I do if someone was just arrested in Wake County?",
         answer:
-          "New bookings can take hours to appear in the Sheriff inmate search while booking, screening, and classification are completed. Confirm the exact legal name spelling, search again later, or call the Sheriff Office for custody information.",
+          "New bookings can take hours to appear in the Sheriff inmate search while booking, screening, and classification are completed. Confirm the exact legal name spelling, search again later, or call the Detention Center at (919) 773-7930 for custody information.",
       },
       {
         question: "Can I call an inmate at Wake County Detention Center?",

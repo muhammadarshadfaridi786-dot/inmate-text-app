@@ -199,6 +199,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/facility/missoula-county-detention-center',
+        destination: '/facility/missoula-county-detention-facility',
+        permanent: true,
+      },
+      {
         source: '/facility/lew-sterrett-justice-center',
         destination: '/facility/dallas-county-jail',
         permanent: true,
